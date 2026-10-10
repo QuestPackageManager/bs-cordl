@@ -487,7 +487,7 @@ public:
   /// [CompilerGenerated]
   /// @brief Method <GetContentHeightForIndex>g__GetContentHeightFromCachedHeight|67_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline float_t _GetContentHeightForIndex_g__GetContentHeightFromCachedHeight_67_0(
-      int32_t index, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::DynamicHeightVirtualizationController_1_ContentHeightCacheInfo<T>> heightInfo,
+      int32_t index, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::DynamicHeightVirtualizationController_1_ContentHeightCacheInfo<T> const> heightInfo,
       ::by_ref<::UnityEngine::UIElements::DynamicHeightVirtualizationController_1___c__DisplayClass67_0<T>> _cordl_fixed_empty_name_whitespace);
 
   constexpr float_t const& __cordl_internal_get_m_AccumulatedHeight() const;

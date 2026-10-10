@@ -198,7 +198,7 @@ struct CORDL_TYPE GeneratorInstance_Setup {
 public:
   // Declarations
   /// @brief Method .ctor, addr 0x6eab73c, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::AudioFormat> fromFormat);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::AudioFormat const> fromFormat);
 
   /// @brief Method .ctor, addr 0x6eab734, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AudioSpeakerMode speakerMode, int32_t sampleRate);
@@ -437,7 +437,7 @@ public:
   constexpr operator ::UnityEngine::Audio::ProcessorInstance_IControl_1<TRealtime>*() noexcept;
 
   /// @brief Method Configure, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Configure(::UnityEngine::Audio::ControlContext context, ::by_ref<TRealtime> realtime, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::AudioFormat> format,
+  inline void Configure(::UnityEngine::Audio::ControlContext context, ::by_ref<TRealtime> realtime, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::AudioFormat const> format,
                         ::by_ref<::UnityEngine::Audio::GeneratorInstance_Setup> setup, ::by_ref<::UnityEngine::Audio::GeneratorInstance_Properties> properties);
 
   /// @brief Convert to "::UnityEngine::Audio::ProcessorInstance_IControl_1<TRealtime>"
@@ -469,7 +469,7 @@ public:
   constexpr operator ::UnityEngine::Audio::ProcessorInstance_IRealtime*() noexcept;
 
   /// @brief Method Process, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::Audio::GeneratorInstance_Result Process(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RealtimeContext> context, ::UnityEngine::Audio::ProcessorInstance_Pipe pipe,
+  inline ::UnityEngine::Audio::GeneratorInstance_Result Process(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RealtimeContext const> context, ::UnityEngine::Audio::ProcessorInstance_Pipe pipe,
                                                                 ::UnityEngine::Audio::ChannelBuffer buffer, ::UnityEngine::Audio::GeneratorInstance_Arguments args);
 
   /// @brief Convert to "::UnityEngine::Audio::GeneratorInstance_ICapabilities"
@@ -560,7 +560,7 @@ public:
 
   /// [Obsolete("GeneratorInstance.Configure has been deprecated. Use ControlContext.Configure instead.", true)]
   /// @brief Method Configure, addr 0x6eab500, size 0x38, virtual false, abstract: false, final false
-  inline void Configure(::UnityEngine::Audio::ControlContext context, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::AudioFormat> format);
+  inline void Configure(::UnityEngine::Audio::ControlContext context, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::AudioFormat const> format);
 
   /// @brief Method Equals, addr 0x6eab614, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
@@ -590,7 +590,8 @@ public:
   static inline bool op_Equality(::UnityEngine::Audio::GeneratorInstance a, ::UnityEngine::Audio::GeneratorInstance b);
 
   /// @brief Method op_Implicit, addr 0x6eab5a8, size 0x14, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Audio::ProcessorInstance op_Implicit___UnityEngine__Audio__ProcessorInstance(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::GeneratorInstance> generatorInstance);
+  static inline ::UnityEngine::Audio::ProcessorInstance
+  op_Implicit___UnityEngine__Audio__ProcessorInstance(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::GeneratorInstance const> generatorInstance);
 
   /// @brief Method op_Inequality, addr 0x6eab6cc, size 0x2c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Audio::GeneratorInstance a, ::UnityEngine::Audio::GeneratorInstance b);

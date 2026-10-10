@@ -900,15 +900,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputForUI
 //  Writing Method size for method: ::UnityEngine::InputForUI::InputManagerProvider.CheckPenEvent
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::InputManagerProvider::*)(::Unity::IntegerTime::DiscreteTime, ::by_ref<::UnityEngine::PenData>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::InputManagerProvider::*)(::Unity::IntegerTime::DiscreteTime, ::by_ref<::UnityEngine::PenData const>)>(
     &::UnityEngine::InputForUI::InputManagerProvider::CheckPenEvent)> {
   constexpr static std::size_t size = 0x3b8;
   constexpr static std::size_t addrs = 0x6fbe86c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
-                                                             { "CheckPenEvent", {}, { ::i2c::type_of<::Unity::IntegerTime::DiscreteTime>(), ::i2c::type_of<::by_ref<::UnityEngine::PenData>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                                                { "CheckPenEvent", {}, { ::i2c::type_of<::Unity::IntegerTime::DiscreteTime>(), ::i2c::type_of<::by_ref<::UnityEngine::PenData const>>() } })));
     return ___internal_method;
   }
 };
@@ -1422,10 +1422,10 @@ inline ::UnityEngine::InputForUI::PointerEvent_Button UnityEngine::InputForUI::I
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(), { "PenStatusToButton", {}, { ::i2c::type_of<::UnityEngine::PenStatus>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputForUI::PointerEvent_Button>(nullptr, ___internal_method, status);
 }
-inline bool UnityEngine::InputForUI::InputManagerProvider::CheckPenEvent(::Unity::IntegerTime::DiscreteTime currentTime, /* [IsReadOnly] */ ::by_ref<::UnityEngine::PenData> currentPenData) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
-                                                           { "CheckPenEvent", {}, { ::i2c::type_of<::Unity::IntegerTime::DiscreteTime>(), ::i2c::type_of<::by_ref<::UnityEngine::PenData>>() } })));
+inline bool UnityEngine::InputForUI::InputManagerProvider::CheckPenEvent(::Unity::IntegerTime::DiscreteTime currentTime, /* [IsReadOnly] */ ::by_ref<::UnityEngine::PenData const> currentPenData) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::InputManagerProvider*>(),
+                                              { "CheckPenEvent", {}, { ::i2c::type_of<::Unity::IntegerTime::DiscreteTime>(), ::i2c::type_of<::by_ref<::UnityEngine::PenData const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, currentTime, currentPenData);
 }
 inline void UnityEngine::InputForUI::InputManagerProvider::CheckMouseEvents(::Unity::IntegerTime::DiscreteTime currentTime, bool muted) {

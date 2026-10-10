@@ -470,37 +470,37 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collection
 //  Writing Method size for method: ::Unity::Collections::DataStreamWriter.WritePackedUInt
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(uint32_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(uint32_t, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedUInt)> {
   constexpr static std::size_t size = 0xf4;
   constexpr static std::size_t addrs = 0x68d6cd0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
-                                                             { "WritePackedUInt", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
+                                                { "WritePackedUInt", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::DataStreamWriter.WritePackedULong
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(uint64_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(uint64_t, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedULong)> {
   constexpr static std::size_t size = 0x48;
   constexpr static std::size_t addrs = 0x68d6dc4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
-                                                             { "WritePackedULong", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
+                                                { "WritePackedULong", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::DataStreamWriter.WritePackedInt
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(int32_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(int32_t, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedInt)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x68d6e0c;
@@ -508,75 +508,76 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collection
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
-                                                             { "WritePackedInt", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+                                                             { "WritePackedInt", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::DataStreamWriter.WritePackedLong
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(int64_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(int64_t, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedLong)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x68d6e18;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
-                                                             { "WritePackedLong", {}, { ::i2c::type_of<int64_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
+                                                { "WritePackedLong", {}, { ::i2c::type_of<int64_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::DataStreamWriter.WritePackedFloat
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(float_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(float_t, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedFloat)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x68d6e24;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
-                                                             { "WritePackedFloat", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
+                                                { "WritePackedFloat", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::DataStreamWriter.WritePackedDouble
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(double_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(double_t, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedDouble)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x68d6eb4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
-                                                             { "WritePackedDouble", {}, { ::i2c::type_of<double_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
+                                                { "WritePackedDouble", {}, { ::i2c::type_of<double_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::DataStreamWriter.WritePackedUIntDelta
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(uint32_t, uint32_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(uint32_t, uint32_t, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedUIntDelta)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x68d6f88;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
-                            { "WritePackedUIntDelta", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
+                         { "WritePackedUIntDelta", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::DataStreamWriter.WritePackedIntDelta
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(int32_t, int32_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(int32_t, int32_t, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedIntDelta)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x68d6f9c;
@@ -585,14 +586,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collection
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
-                            { "WritePackedIntDelta", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+                            { "WritePackedIntDelta", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::DataStreamWriter.WritePackedLongDelta
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(int64_t, int64_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(int64_t, int64_t, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedLongDelta)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x68d6fb0;
@@ -601,46 +602,48 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collection
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
-                            { "WritePackedLongDelta", {}, { ::i2c::type_of<int64_t>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+                            { "WritePackedLongDelta", {}, { ::i2c::type_of<int64_t>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::DataStreamWriter.WritePackedULongDelta
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(uint64_t, uint64_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(uint64_t, uint64_t, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedULongDelta)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x68d6fc4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
-                            { "WritePackedULongDelta", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
+                         { "WritePackedULongDelta", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::DataStreamWriter.WritePackedFloatDelta
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(float_t, float_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(float_t, float_t, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedFloatDelta)> {
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x68d6e2c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
-                            { "WritePackedFloatDelta", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
+                         { "WritePackedFloatDelta", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::DataStreamWriter.WritePackedDoubleDelta
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(double_t, double_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(double_t, double_t, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedDoubleDelta)> {
   constexpr static std::size_t size = 0xcc;
   constexpr static std::size_t addrs = 0x68d6ebc;
@@ -648,8 +651,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collection
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
-                            { "WritePackedDoubleDelta", {}, { ::i2c::type_of<double_t>(), ::i2c::type_of<double_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+        (::i2c::find_method(
+            ::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
+            { "WritePackedDoubleDelta", {}, { ::i2c::type_of<double_t>(), ::i2c::type_of<double_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
@@ -732,7 +736,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collection
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(::Unity::Collections::FixedString32Bytes, ::Unity::Collections::FixedString32Bytes,
-                                                                                                        ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
+                                                                                                        ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedFixedString32Delta)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x68d7014;
@@ -743,7 +747,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collection
                                                              { "WritePackedFixedString32Delta",
                                                                {},
                                                                { ::i2c::type_of<::Unity::Collections::FixedString32Bytes>(), ::i2c::type_of<::Unity::Collections::FixedString32Bytes>(),
-                                                                 ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+                                                                 ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
@@ -751,7 +755,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collection
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(::Unity::Collections::FixedString64Bytes, ::Unity::Collections::FixedString64Bytes,
-                                                                                                        ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
+                                                                                                        ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedFixedString64Delta)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x68d7188;
@@ -762,7 +766,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collection
                                                              { "WritePackedFixedString64Delta",
                                                                {},
                                                                { ::i2c::type_of<::Unity::Collections::FixedString64Bytes>(), ::i2c::type_of<::Unity::Collections::FixedString64Bytes>(),
-                                                                 ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+                                                                 ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
@@ -770,7 +774,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collection
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(::Unity::Collections::FixedString128Bytes, ::Unity::Collections::FixedString128Bytes,
-                                                                                                        ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
+                                                                                                        ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedFixedString128Delta)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x68d719c;
@@ -781,7 +785,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collection
                                                              { "WritePackedFixedString128Delta",
                                                                {},
                                                                { ::i2c::type_of<::Unity::Collections::FixedString128Bytes>(), ::i2c::type_of<::Unity::Collections::FixedString128Bytes>(),
-                                                                 ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+                                                                 ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
@@ -789,7 +793,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collection
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(::Unity::Collections::FixedString512Bytes, ::Unity::Collections::FixedString512Bytes,
-                                                                                                        ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
+                                                                                                        ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedFixedString512Delta)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x68d71b0;
@@ -800,7 +804,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collection
                                                              { "WritePackedFixedString512Delta",
                                                                {},
                                                                { ::i2c::type_of<::Unity::Collections::FixedString512Bytes>(), ::i2c::type_of<::Unity::Collections::FixedString512Bytes>(),
-                                                                 ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+                                                                 ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
@@ -808,7 +812,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collection
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(::Unity::Collections::FixedString4096Bytes, ::Unity::Collections::FixedString4096Bytes,
-                                                                                                        ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
+                                                                                                        ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedFixedString4096Delta)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x68d71c4;
@@ -819,7 +823,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collection
                                                              { "WritePackedFixedString4096Delta",
                                                                {},
                                                                { ::i2c::type_of<::Unity::Collections::FixedString4096Bytes>(), ::i2c::type_of<::Unity::Collections::FixedString4096Bytes>(),
-                                                                 ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+                                                                 ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
@@ -827,17 +831,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collection
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(
-    uint8_t*, uint32_t, uint8_t*, uint32_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(&::Unity::Collections::DataStreamWriter::WritePackedFixedStringDelta)> {
+    uint8_t*, uint32_t, uint8_t*, uint32_t, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(&::Unity::Collections::DataStreamWriter::WritePackedFixedStringDelta)> {
   constexpr static std::size_t size = 0x160;
   constexpr static std::size_t addrs = 0x68d7028;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(), { "WritePackedFixedStringDelta",
-                                                                                         {},
-                                                                                         { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint8_t*>(),
-                                                                                           ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
+                                                             { "WritePackedFixedStringDelta",
+                                                               {},
+                                                               { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint8_t*>(), ::i2c::type_of<uint32_t>(),
+                                                                 ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
     return ___internal_method;
   }
 };
@@ -1066,82 +1070,84 @@ inline bool Unity::Collections::DataStreamWriter::WriteRawBits(uint32_t value, i
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(), { "WriteRawBits", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, value, numbits);
 }
-inline bool Unity::Collections::DataStreamWriter::WritePackedUInt(uint32_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+inline bool Unity::Collections::DataStreamWriter::WritePackedUInt(uint32_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
-                                                           { "WritePackedUInt", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+                                                           { "WritePackedUInt", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, value, model);
 }
-inline bool Unity::Collections::DataStreamWriter::WritePackedULong(uint64_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+inline bool Unity::Collections::DataStreamWriter::WritePackedULong(uint64_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
+                                              { "WritePackedULong", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, value, model);
+}
+inline bool Unity::Collections::DataStreamWriter::WritePackedInt(int32_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
-                                                           { "WritePackedULong", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+                                                           { "WritePackedInt", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, value, model);
 }
-inline bool Unity::Collections::DataStreamWriter::WritePackedInt(int32_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+inline bool Unity::Collections::DataStreamWriter::WritePackedLong(int64_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
-                                                           { "WritePackedInt", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+                                                           { "WritePackedLong", {}, { ::i2c::type_of<int64_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, value, model);
 }
-inline bool Unity::Collections::DataStreamWriter::WritePackedLong(int64_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+inline bool Unity::Collections::DataStreamWriter::WritePackedFloat(float_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
-                                                           { "WritePackedLong", {}, { ::i2c::type_of<int64_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+                                                           { "WritePackedFloat", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, value, model);
 }
-inline bool Unity::Collections::DataStreamWriter::WritePackedFloat(float_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
-                                                           { "WritePackedFloat", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+inline bool Unity::Collections::DataStreamWriter::WritePackedDouble(double_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
+                                              { "WritePackedDouble", {}, { ::i2c::type_of<double_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, value, model);
 }
-inline bool Unity::Collections::DataStreamWriter::WritePackedDouble(double_t value, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
-                                                           { "WritePackedDouble", {}, { ::i2c::type_of<double_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
-  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, value, model);
-}
-inline bool Unity::Collections::DataStreamWriter::WritePackedUIntDelta(uint32_t value, uint32_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+inline bool Unity::Collections::DataStreamWriter::WritePackedUIntDelta(uint32_t value, uint32_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
-                          { "WritePackedUIntDelta", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+                          { "WritePackedUIntDelta", {}, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, value, baseline, model);
 }
-inline bool Unity::Collections::DataStreamWriter::WritePackedIntDelta(int32_t value, int32_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+inline bool Unity::Collections::DataStreamWriter::WritePackedIntDelta(int32_t value, int32_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
-                          { "WritePackedIntDelta", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+                          { "WritePackedIntDelta", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, value, baseline, model);
 }
-inline bool Unity::Collections::DataStreamWriter::WritePackedLongDelta(int64_t value, int64_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+inline bool Unity::Collections::DataStreamWriter::WritePackedLongDelta(int64_t value, int64_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
-                          { "WritePackedLongDelta", {}, { ::i2c::type_of<int64_t>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+                          { "WritePackedLongDelta", {}, { ::i2c::type_of<int64_t>(), ::i2c::type_of<int64_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, value, baseline, model);
 }
-inline bool Unity::Collections::DataStreamWriter::WritePackedULongDelta(uint64_t value, uint64_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
-                          { "WritePackedULongDelta", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+inline bool Unity::Collections::DataStreamWriter::WritePackedULongDelta(uint64_t value, uint64_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(
+                       ::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
+                       { "WritePackedULongDelta", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, value, baseline, model);
 }
-inline bool Unity::Collections::DataStreamWriter::WritePackedFloatDelta(float_t value, float_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+inline bool Unity::Collections::DataStreamWriter::WritePackedFloatDelta(float_t value, float_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
-                          { "WritePackedFloatDelta", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+                          { "WritePackedFloatDelta", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, value, baseline, model);
 }
-inline bool Unity::Collections::DataStreamWriter::WritePackedDoubleDelta(double_t value, double_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
-                          { "WritePackedDoubleDelta", {}, { ::i2c::type_of<double_t>(), ::i2c::type_of<double_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+inline bool Unity::Collections::DataStreamWriter::WritePackedDoubleDelta(double_t value, double_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(
+                       ::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
+                       { "WritePackedDoubleDelta", {}, { ::i2c::type_of<double_t>(), ::i2c::type_of<double_t>(), ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, value, baseline, model);
 }
 inline bool Unity::Collections::DataStreamWriter::WriteFixedString32(::Unity::Collections::FixedString32Bytes str) {
@@ -1175,63 +1181,63 @@ inline bool Unity::Collections::DataStreamWriter::WriteFixedString4096(::Unity::
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, str);
 }
 inline bool Unity::Collections::DataStreamWriter::WritePackedFixedString32Delta(::Unity::Collections::FixedString32Bytes str, ::Unity::Collections::FixedString32Bytes baseline,
-                                                                                /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+                                                                                /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
                                                            { "WritePackedFixedString32Delta",
                                                              {},
                                                              { ::i2c::type_of<::Unity::Collections::FixedString32Bytes>(), ::i2c::type_of<::Unity::Collections::FixedString32Bytes>(),
-                                                               ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+                                                               ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, str, baseline, model);
 }
 inline bool Unity::Collections::DataStreamWriter::WritePackedFixedString64Delta(::Unity::Collections::FixedString64Bytes str, ::Unity::Collections::FixedString64Bytes baseline,
-                                                                                /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+                                                                                /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
                                                            { "WritePackedFixedString64Delta",
                                                              {},
                                                              { ::i2c::type_of<::Unity::Collections::FixedString64Bytes>(), ::i2c::type_of<::Unity::Collections::FixedString64Bytes>(),
-                                                               ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+                                                               ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, str, baseline, model);
 }
 inline bool Unity::Collections::DataStreamWriter::WritePackedFixedString128Delta(::Unity::Collections::FixedString128Bytes str, ::Unity::Collections::FixedString128Bytes baseline,
-                                                                                 /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+                                                                                 /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
                                                            { "WritePackedFixedString128Delta",
                                                              {},
                                                              { ::i2c::type_of<::Unity::Collections::FixedString128Bytes>(), ::i2c::type_of<::Unity::Collections::FixedString128Bytes>(),
-                                                               ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+                                                               ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, str, baseline, model);
 }
 inline bool Unity::Collections::DataStreamWriter::WritePackedFixedString512Delta(::Unity::Collections::FixedString512Bytes str, ::Unity::Collections::FixedString512Bytes baseline,
-                                                                                 /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+                                                                                 /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
                                                            { "WritePackedFixedString512Delta",
                                                              {},
                                                              { ::i2c::type_of<::Unity::Collections::FixedString512Bytes>(), ::i2c::type_of<::Unity::Collections::FixedString512Bytes>(),
-                                                               ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+                                                               ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, str, baseline, model);
 }
 inline bool Unity::Collections::DataStreamWriter::WritePackedFixedString4096Delta(::Unity::Collections::FixedString4096Bytes str, ::Unity::Collections::FixedString4096Bytes baseline,
-                                                                                  /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+                                                                                  /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
                                                            { "WritePackedFixedString4096Delta",
                                                              {},
                                                              { ::i2c::type_of<::Unity::Collections::FixedString4096Bytes>(), ::i2c::type_of<::Unity::Collections::FixedString4096Bytes>(),
-                                                               ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+                                                               ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, str, baseline, model);
 }
 inline bool Unity::Collections::DataStreamWriter::WritePackedFixedStringDelta(uint8_t* data, uint32_t length, uint8_t* baseData, uint32_t baseLength,
-                                                                              /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model) {
+                                                                              /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(), { "WritePackedFixedStringDelta",
                                                                                        {},
                                                                                        { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint8_t*>(), ::i2c::type_of<uint32_t>(),
-                                                                                         ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel>>() } })));
+                                                                                         ::i2c::type_of<::by_ref<::Unity::Collections::StreamCompressionModel const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, data, length, baseData, baseLength, model);
 }
 inline void Unity::Collections::DataStreamWriter::Clear() {

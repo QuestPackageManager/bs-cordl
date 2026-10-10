@@ -79,7 +79,7 @@ public:
   inline void Encapsulate(::UnityEngine::Vector3 point);
 
   /// @brief Method Encapsulate, addr 0x6ed22a8, size 0x7c, virtual false, abstract: false, final false
-  inline void Encapsulate(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> point);
+  inline void Encapsulate(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> point);
 
   /// [IsReadOnly]
   /// @brief Method Equals, addr 0x6ed1dd4, size 0xcc, virtual true, abstract: false, final false
@@ -91,7 +91,7 @@ public:
 
   /// [IsReadOnly]
   /// @brief Method Equals, addr 0x6ed1f0c, size 0x6c, virtual false, abstract: false, final false
-  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds> other);
+  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds const> other);
 
   /// @brief Method Expand, addr 0x6ed2400, size 0x30, virtual false, abstract: false, final false
   inline void Expand(::UnityEngine::Vector3 amount);
@@ -103,15 +103,15 @@ public:
   /// [FreeFunction("BoundsScripting::ClosestPoint", HasExplicitThis = true, IsThreadSafe = true)]
   /// [IsReadOnly]
   /// @brief Method Internal_ClosestPoint, addr 0x6ed27cc, size 0x64, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 Internal_ClosestPoint(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> point);
+  inline ::UnityEngine::Vector3 Internal_ClosestPoint(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> point);
 
   /// @brief Method Internal_ClosestPoint_Injected, addr 0x6ed2830, size 0x54, virtual false, abstract: false, final false
-  static inline void Internal_ClosestPoint_Injected(::by_ref<::UnityEngine::Bounds> _unity_self, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> point, ::by_ref<::UnityEngine::Vector3> ret);
+  static inline void Internal_ClosestPoint_Injected(::by_ref<::UnityEngine::Bounds> _unity_self, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> point, ::by_ref<::UnityEngine::Vector3> ret);
 
   /// [NativeMethod("IsInside", IsThreadSafe = true)]
   /// [IsReadOnly]
   /// @brief Method Internal_Contains, addr 0x6ed2730, size 0x44, virtual false, abstract: false, final false
-  inline bool Internal_Contains(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> point);
+  inline bool Internal_Contains(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> point);
 
   /// [IsReadOnly]
   /// @brief Method IntersectRay, addr 0x6ed24d0, size 0x5c, virtual false, abstract: false, final false
@@ -123,7 +123,7 @@ public:
 
   /// [FreeFunction("IntersectRayAABB", IsThreadSafe = true)]
   /// @brief Method IntersectRayAABB, addr 0x6ed252c, size 0x54, virtual false, abstract: false, final false
-  static inline bool IntersectRayAABB(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Ray> ray, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds> bounds, ::by_ref<float_t> dist);
+  static inline bool IntersectRayAABB(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Ray const> ray, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds const> bounds, ::by_ref<float_t> dist);
 
   /// [IsReadOnly]
   /// @brief Method Intersects, addr 0x6ed2430, size 0xa0, virtual false, abstract: false, final false
@@ -133,7 +133,7 @@ public:
   inline void SetMinMax(::UnityEngine::Vector3 min, ::UnityEngine::Vector3 max);
 
   /// @brief Method SetMinMax, addr 0x6ed21e4, size 0x4c, virtual false, abstract: false, final false
-  inline void SetMinMax(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> min, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> max);
+  inline void SetMinMax(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> min, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> max);
 
   /// [IsReadOnly]
   /// @brief Method ToString, addr 0x6ed25d4, size 0x10, virtual true, abstract: false, final false

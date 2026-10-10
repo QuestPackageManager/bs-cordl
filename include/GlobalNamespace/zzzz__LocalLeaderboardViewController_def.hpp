@@ -215,7 +215,7 @@ public:
   inline void SetContent(::StringW leaderboardID, ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType leaderboardType);
 
   /// @brief Method SetData, addr 0x5d64224, size 0x80, virtual true, abstract: false, final false
-  inline void SetData(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
+  inline void SetData(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey);
 
   /// @brief Method Setup, addr 0x5d6421c, size 0x8, virtual false, abstract: false, final false
   inline void Setup(bool enableClear);

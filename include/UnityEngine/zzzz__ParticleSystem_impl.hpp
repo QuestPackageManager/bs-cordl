@@ -552,34 +552,36 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Part
 //  Writing Method size for method: ::UnityEngine::ParticleSystem_MainModule.set_startLifetimeBlittable_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::ParticleSystem_MainModule>, ::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::ParticleSystem_MainModule>, ::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable const>)>(
     &::UnityEngine::ParticleSystem_MainModule::set_startLifetimeBlittable_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6fc970c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_MainModule>(), { "set_startLifetimeBlittable_Injected",
-                                                                                                               {},
-                                                                                                               { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MainModule>>(),
-                                                                                                                 ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable>>() } })));
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_MainModule>(),
+                            { "set_startLifetimeBlittable_Injected",
+                              {},
+                              { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MainModule>>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ParticleSystem_MainModule.set_startSpeedBlittable_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::ParticleSystem_MainModule>, ::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::ParticleSystem_MainModule>, ::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable const>)>(
     &::UnityEngine::ParticleSystem_MainModule::set_startSpeedBlittable_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6fc9804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_MainModule>(), { "set_startSpeedBlittable_Injected",
-                                                                                                               {},
-                                                                                                               { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MainModule>>(),
-                                                                                                                 ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable>>() } })));
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_MainModule>(),
+                            { "set_startSpeedBlittable_Injected",
+                              {},
+                              { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MainModule>>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable const>>() } })));
     return ___internal_method;
   }
 };
@@ -604,7 +606,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::ParticleSystem_MainModule.set_startColorBlittable_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::ParticleSystem_MainModule>, ::by_ref<::UnityEngine::ParticleSystem_MinMaxGradientBlittable>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::ParticleSystem_MainModule>, ::by_ref<::UnityEngine::ParticleSystem_MinMaxGradientBlittable const>)>(
     &::UnityEngine::ParticleSystem_MainModule::set_startColorBlittable_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6fc99c8;
@@ -615,7 +617,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
         (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_MainModule>(),
                             { "set_startColorBlittable_Injected",
                               {},
-                              { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MainModule>>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxGradientBlittable>>() } })));
+                              { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MainModule>>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxGradientBlittable const>>() } })));
     return ___internal_method;
   }
 };
@@ -805,23 +807,23 @@ inline void UnityEngine::ParticleSystem_MainModule::set_maxParticles(int32_t val
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
 inline void UnityEngine::ParticleSystem_MainModule::set_startLifetimeBlittable_Injected(::by_ref<::UnityEngine::ParticleSystem_MainModule> _unity_self,
-                                                                                        ::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable> value) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_MainModule>(),
-                                       { "set_startLifetimeBlittable_Injected",
-                                         {},
-                                         { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MainModule>>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable>>() } })));
+                                                                                        ::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable const> value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_MainModule>(),
+                          { "set_startLifetimeBlittable_Injected",
+                            {},
+                            { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MainModule>>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, value);
 }
 inline void UnityEngine::ParticleSystem_MainModule::set_startSpeedBlittable_Injected(::by_ref<::UnityEngine::ParticleSystem_MainModule> _unity_self,
-                                                                                     ::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable> value) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_MainModule>(),
-                                       { "set_startSpeedBlittable_Injected",
-                                         {},
-                                         { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MainModule>>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable>>() } })));
+                                                                                     ::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable const> value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_MainModule>(),
+                          { "set_startSpeedBlittable_Injected",
+                            {},
+                            { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MainModule>>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, value);
 }
 inline void UnityEngine::ParticleSystem_MainModule::get_startColorBlittable_Injected(::by_ref<::UnityEngine::ParticleSystem_MainModule> _unity_self,
@@ -834,12 +836,13 @@ inline void UnityEngine::ParticleSystem_MainModule::get_startColorBlittable_Inje
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, ret);
 }
 inline void UnityEngine::ParticleSystem_MainModule::set_startColorBlittable_Injected(::by_ref<::UnityEngine::ParticleSystem_MainModule> _unity_self,
-                                                                                     ::by_ref<::UnityEngine::ParticleSystem_MinMaxGradientBlittable> value) {
+                                                                                     ::by_ref<::UnityEngine::ParticleSystem_MinMaxGradientBlittable const> value) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_MainModule>(), { "set_startColorBlittable_Injected",
-                                                                                                             {},
-                                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MainModule>>(),
-                                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxGradientBlittable>>() } })));
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_MainModule>(),
+                          { "set_startColorBlittable_Injected",
+                            {},
+                            { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MainModule>>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxGradientBlittable const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, value);
 }
 // Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}"), comment: None }]
@@ -930,7 +933,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::P
 //  Writing Method size for method: ::UnityEngine::ParticleSystem_EmissionModule.set_rateOverTimeBlittable_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::ParticleSystem_EmissionModule>, ::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::ParticleSystem_EmissionModule>, ::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable const>)>(
     &::UnityEngine::ParticleSystem_EmissionModule::set_rateOverTimeBlittable_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6fc9a50;
@@ -941,7 +944,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
         (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_EmissionModule>(),
                             { "set_rateOverTimeBlittable_Injected",
                               {},
-                              { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_EmissionModule>>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable>>() } })));
+                              { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_EmissionModule>>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable const>>() } })));
     return ___internal_method;
   }
 };
@@ -976,13 +979,13 @@ inline float_t UnityEngine::ParticleSystem_EmissionModule::get_rateOverTimeMulti
   return ::cordl_internals::RunMethodRethrow<float_t>(*this, ___internal_method);
 }
 inline void UnityEngine::ParticleSystem_EmissionModule::set_rateOverTimeBlittable_Injected(::by_ref<::UnityEngine::ParticleSystem_EmissionModule> _unity_self,
-                                                                                           ::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable> value) {
+                                                                                           ::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable const> value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_EmissionModule>(),
                           { "set_rateOverTimeBlittable_Injected",
                             {},
-                            { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_EmissionModule>>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable>>() } })));
+                            { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_EmissionModule>>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxCurveBlittable const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, value);
 }
 // Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}"), comment: None }]
@@ -1077,7 +1080,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::ParticleSystem_ShapeModule.set_rotation_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::ParticleSystem_ShapeModule>, ::by_ref<::UnityEngine::Vector3>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::ParticleSystem_ShapeModule>, ::by_ref<::UnityEngine::Vector3 const>)>(
     &::UnityEngine::ParticleSystem_ShapeModule::set_rotation_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6fc9d18;
@@ -1086,7 +1089,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_ShapeModule>(),
-                            { "set_rotation_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_ShapeModule>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+                            { "set_rotation_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_ShapeModule>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
     return ___internal_method;
   }
 };
@@ -1121,11 +1124,11 @@ inline void UnityEngine::ParticleSystem_ShapeModule::set_meshRenderer_Injected(:
                                               { "set_meshRenderer_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_ShapeModule>>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, value);
 }
-inline void UnityEngine::ParticleSystem_ShapeModule::set_rotation_Injected(::by_ref<::UnityEngine::ParticleSystem_ShapeModule> _unity_self, ::by_ref<::UnityEngine::Vector3> value) {
+inline void UnityEngine::ParticleSystem_ShapeModule::set_rotation_Injected(::by_ref<::UnityEngine::ParticleSystem_ShapeModule> _unity_self, ::by_ref<::UnityEngine::Vector3 const> value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_ShapeModule>(),
-                          { "set_rotation_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_ShapeModule>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+                          { "set_rotation_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_ShapeModule>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, value);
 }
 // Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: Some("{}"), comment: None }]
@@ -1627,14 +1630,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ParticleSy
 //  Writing Method size for method: ::UnityEngine::ParticleSystem_MinMaxCurveBlittable.FromMixMaxCurve
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ParticleSystem_MinMaxCurveBlittable (*)(::by_ref<::UnityEngine::ParticleSystem_MinMaxCurve>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ParticleSystem_MinMaxCurveBlittable (*)(::by_ref<::UnityEngine::ParticleSystem_MinMaxCurve const>)>(
     &::UnityEngine::ParticleSystem_MinMaxCurveBlittable::FromMixMaxCurve)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x6fc9f4c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_MinMaxCurveBlittable>(),
-                                                                                           { "FromMixMaxCurve", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxCurve>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_MinMaxCurveBlittable>(),
+                                                             { "FromMixMaxCurve", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxCurve const>>() } })));
     return ___internal_method;
   }
 };
@@ -1646,9 +1650,9 @@ UnityEngine::ParticleSystem_MinMaxCurveBlittable::op_Implicit___UnityEngine__Par
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ParticleSystem_MinMaxCurveBlittable>(nullptr, ___internal_method, minMaxCurve);
 }
 inline ::UnityEngine::ParticleSystem_MinMaxCurveBlittable
-UnityEngine::ParticleSystem_MinMaxCurveBlittable::FromMixMaxCurve(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ParticleSystem_MinMaxCurve> minMaxCurve) {
+UnityEngine::ParticleSystem_MinMaxCurveBlittable::FromMixMaxCurve(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ParticleSystem_MinMaxCurve const> minMaxCurve) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_MinMaxCurveBlittable>(),
-                                                                                         { "FromMixMaxCurve", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxCurve>>() } })));
+                                                                                         { "FromMixMaxCurve", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxCurve const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ParticleSystem_MinMaxCurveBlittable>(nullptr, ___internal_method, minMaxCurve);
 }
 // Ctor Parameters [CppParam { name: "m_Mode", ty: "::UnityEngine::ParticleSystemCurveMode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_CurveMultiplier", ty: "float_t",
@@ -1765,7 +1769,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ParticleSy
 //  Writing Method size for method: ::UnityEngine::ParticleSystem_MinMaxGradientBlittable.FromMixMaxGradient
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ParticleSystem_MinMaxGradientBlittable (*)(::by_ref<::UnityEngine::ParticleSystem_MinMaxGradient>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ParticleSystem_MinMaxGradientBlittable (*)(::by_ref<::UnityEngine::ParticleSystem_MinMaxGradient const>)>(
     &::UnityEngine::ParticleSystem_MinMaxGradientBlittable::FromMixMaxGradient)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6fca048;
@@ -1773,14 +1777,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ParticleSy
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_MinMaxGradientBlittable>(),
-                                                             { "FromMixMaxGradient", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxGradient>>() } })));
+                                                             { "FromMixMaxGradient", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxGradient const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ParticleSystem_MinMaxGradientBlittable.ToMinMaxGradient
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ParticleSystem_MinMaxGradient (*)(::by_ref<::UnityEngine::ParticleSystem_MinMaxGradientBlittable>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ParticleSystem_MinMaxGradient (*)(::by_ref<::UnityEngine::ParticleSystem_MinMaxGradientBlittable const>)>(
     &::UnityEngine::ParticleSystem_MinMaxGradientBlittable::ToMinMaxGradient)> {
   constexpr static std::size_t size = 0xb8;
   constexpr static std::size_t addrs = 0x6fc9f90;
@@ -1788,7 +1792,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ParticleSy
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_MinMaxGradientBlittable>(),
-                                                             { "ToMinMaxGradient", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxGradientBlittable>>() } })));
+                                                             { "ToMinMaxGradient", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxGradientBlittable const>>() } })));
     return ___internal_method;
   }
 };
@@ -1805,16 +1809,17 @@ UnityEngine::ParticleSystem_MinMaxGradientBlittable::op_Implicit___UnityEngine__
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ParticleSystem_MinMaxGradientBlittable>(nullptr, ___internal_method, minMaxGradient);
 }
 inline ::UnityEngine::ParticleSystem_MinMaxGradientBlittable
-UnityEngine::ParticleSystem_MinMaxGradientBlittable::FromMixMaxGradient(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ParticleSystem_MinMaxGradient> minMaxGradient) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_MinMaxGradientBlittable>(),
-                                                                                         { "FromMixMaxGradient", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxGradient>>() } })));
+UnityEngine::ParticleSystem_MinMaxGradientBlittable::FromMixMaxGradient(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ParticleSystem_MinMaxGradient const> minMaxGradient) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_MinMaxGradientBlittable>(),
+                                                           { "FromMixMaxGradient", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxGradient const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ParticleSystem_MinMaxGradientBlittable>(nullptr, ___internal_method, minMaxGradient);
 }
 inline ::UnityEngine::ParticleSystem_MinMaxGradient
-UnityEngine::ParticleSystem_MinMaxGradientBlittable::ToMinMaxGradient(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ParticleSystem_MinMaxGradientBlittable> minMaxGradientBlittable) {
+UnityEngine::ParticleSystem_MinMaxGradientBlittable::ToMinMaxGradient(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ParticleSystem_MinMaxGradientBlittable const> minMaxGradientBlittable) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem_MinMaxGradientBlittable>(),
-                                                           { "ToMinMaxGradient", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxGradientBlittable>>() } })));
+                                                           { "ToMinMaxGradient", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_MinMaxGradientBlittable const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ParticleSystem_MinMaxGradient>(nullptr, ___internal_method, minMaxGradientBlittable);
 }
 // Ctor Parameters [CppParam { name: "m_Mode", ty: "::UnityEngine::ParticleSystemGradientMode", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_GradientMin", ty:
@@ -3169,23 +3174,22 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::P
 //  Writing Method size for method: ::UnityEngine::ParticleSystem.SetParticles
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystem::*)(::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>>, int32_t, int32_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystem::*)(::ArrayW<::UnityEngine::ParticleSystem_Particle>, int32_t, int32_t)>(
     &::UnityEngine::ParticleSystem::SetParticles)> {
   constexpr static std::size_t size = 0x178;
   constexpr static std::size_t addrs = 0x6fc6c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-                            { "SetParticles", {}, { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
+                                                { "SetParticles", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::ParticleSystem_Particle>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ParticleSystem.SetParticles
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystem::*)(::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>>, int32_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystem::*)(::ArrayW<::UnityEngine::ParticleSystem_Particle>, int32_t)>(
     &::UnityEngine::ParticleSystem::SetParticles)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6fc6dd4;
@@ -3193,22 +3197,20 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Part
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-                                                             { "SetParticles", {}, { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>>>(), ::i2c::type_of<int32_t>() } })));
+                                                             { "SetParticles", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::ParticleSystem_Particle>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ParticleSystem.SetParticles
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystem::*)(::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>>)>(
-    &::UnityEngine::ParticleSystem::SetParticles)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystem::*)(::ArrayW<::UnityEngine::ParticleSystem_Particle>)>(&::UnityEngine::ParticleSystem::SetParticles)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x6fc6ddc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "SetParticles", {}, { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "SetParticles", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::ParticleSystem_Particle>>() } })));
     return ___internal_method;
   }
 };
@@ -3231,41 +3233,39 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Part
 //  Writing Method size for method: ::UnityEngine::ParticleSystem.SetParticles
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystem::*)(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>, int32_t,
-                                                                                               int32_t)>(&::UnityEngine::ParticleSystem::SetParticles)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystem::*)(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>, int32_t, int32_t)>(
+    &::UnityEngine::ParticleSystem::SetParticles)> {
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x6fc6f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-                            { "SetParticles",
-                              {},
-                              { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::ParticleSystem*>(),
+            { "SetParticles", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ParticleSystem.SetParticles
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystem::*)(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>, int32_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystem::*)(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>, int32_t)>(
     &::UnityEngine::ParticleSystem::SetParticles)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6fc6f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-                            { "SetParticles", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>>(), ::i2c::type_of<int32_t>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
+                                                { "SetParticles", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ParticleSystem.SetParticles
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystem::*)(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystem::*)(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>)>(
     &::UnityEngine::ParticleSystem::SetParticles)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x6fc6f80;
@@ -3273,30 +3273,29 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Part
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-                                                             { "SetParticles", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>>() } })));
+                                                             { "SetParticles", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ParticleSystem.GetParticles
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ParticleSystem::*)(::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>>, int32_t, int32_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ParticleSystem::*)(::ArrayW<::UnityEngine::ParticleSystem_Particle>, int32_t, int32_t)>(
     &::UnityEngine::ParticleSystem::GetParticles)> {
   constexpr static std::size_t size = 0x1a8;
   constexpr static std::size_t addrs = 0x6fc6f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-                            { "GetParticles", {}, { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
+                                                { "GetParticles", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::ParticleSystem_Particle>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ParticleSystem.GetParticles
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ParticleSystem::*)(::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>>, int32_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ParticleSystem::*)(::ArrayW<::UnityEngine::ParticleSystem_Particle>, int32_t)>(
     &::UnityEngine::ParticleSystem::GetParticles)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6fc7190;
@@ -3304,22 +3303,20 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::P
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-                                                             { "GetParticles", {}, { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>>>(), ::i2c::type_of<int32_t>() } })));
+                                                             { "GetParticles", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::ParticleSystem_Particle>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ParticleSystem.GetParticles
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ParticleSystem::*)(::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>>)>(
-    &::UnityEngine::ParticleSystem::GetParticles)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ParticleSystem::*)(::ArrayW<::UnityEngine::ParticleSystem_Particle>)>(&::UnityEngine::ParticleSystem::GetParticles)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x6fc7198;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "GetParticles", {}, { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "GetParticles", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::ParticleSystem_Particle>>() } })));
     return ___internal_method;
   }
 };
@@ -3342,41 +3339,39 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::P
 //  Writing Method size for method: ::UnityEngine::ParticleSystem.GetParticles
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ParticleSystem::*)(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>, int32_t,
-                                                                                                  int32_t)>(&::UnityEngine::ParticleSystem::GetParticles)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ParticleSystem::*)(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>, int32_t, int32_t)>(
+    &::UnityEngine::ParticleSystem::GetParticles)> {
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x6fc72c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-                            { "GetParticles",
-                              {},
-                              { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::ParticleSystem*>(),
+            { "GetParticles", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ParticleSystem.GetParticles
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ParticleSystem::*)(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>, int32_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ParticleSystem::*)(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>, int32_t)>(
     &::UnityEngine::ParticleSystem::GetParticles)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6fc7334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-                            { "GetParticles", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>>(), ::i2c::type_of<int32_t>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
+                                                { "GetParticles", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ParticleSystem.GetParticles
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ParticleSystem::*)(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ParticleSystem::*)(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>)>(
     &::UnityEngine::ParticleSystem::GetParticles)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x6fc733c;
@@ -3384,7 +3379,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::P
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-                                                             { "GetParticles", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>>() } })));
+                                                             { "GetParticles", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>() } })));
     return ___internal_method;
   }
 };
@@ -3489,8 +3484,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::P
 //  Writing Method size for method: ::UnityEngine::ParticleSystem.SetParticlesAndTrails
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystem::*)(::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>>, ::UnityEngine::ParticleSystem_Trails,
-                                                                                               int32_t, int32_t)>(&::UnityEngine::ParticleSystem::SetParticlesAndTrails)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystem::*)(::ArrayW<::UnityEngine::ParticleSystem_Particle>, ::UnityEngine::ParticleSystem_Trails, int32_t,
+                                                                                               int32_t)>(&::UnityEngine::ParticleSystem::SetParticlesAndTrails)> {
   constexpr static std::size_t size = 0x17c;
   constexpr static std::size_t addrs = 0x6fc7cdc;
 
@@ -3499,7 +3494,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Part
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "SetParticlesAndTrails",
                                                                                  {},
-                                                                                 { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>>>(),
+                                                                                 { ::i2c::type_of<::ArrayW<::UnityEngine::ParticleSystem_Particle>>(),
                                                                                    ::i2c::type_of<::UnityEngine::ParticleSystem_Trails>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
@@ -3507,8 +3502,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Part
 //  Writing Method size for method: ::UnityEngine::ParticleSystem.SetParticlesAndTrails
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystem::*)(::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>>, ::UnityEngine::ParticleSystem_Trails,
-                                                                                               int32_t)>(&::UnityEngine::ParticleSystem::SetParticlesAndTrails)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystem::*)(::ArrayW<::UnityEngine::ParticleSystem_Particle>, ::UnityEngine::ParticleSystem_Trails, int32_t)>(
+    &::UnityEngine::ParticleSystem::SetParticlesAndTrails)> {
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x6fc7ec4;
 
@@ -3516,7 +3511,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Part
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "SetParticlesAndTrails",
                                                                                                      {},
-                                                                                                     { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>>>(),
+                                                                                                     { ::i2c::type_of<::ArrayW<::UnityEngine::ParticleSystem_Particle>>(),
                                                                                                        ::i2c::type_of<::UnityEngine::ParticleSystem_Trails>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
@@ -3524,17 +3519,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Part
 //  Writing Method size for method: ::UnityEngine::ParticleSystem.SetParticlesAndTrails
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystem::*)(::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>>, ::UnityEngine::ParticleSystem_Trails)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystem::*)(::ArrayW<::UnityEngine::ParticleSystem_Particle>, ::UnityEngine::ParticleSystem_Trails)>(
     &::UnityEngine::ParticleSystem::SetParticlesAndTrails)> {
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0x6fc7ef4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(
-                         ::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-                         { "SetParticlesAndTrails", {}, { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>>>(), ::i2c::type_of<::UnityEngine::ParticleSystem_Trails>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
+                            { "SetParticlesAndTrails", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::ParticleSystem_Particle>>(), ::i2c::type_of<::UnityEngine::ParticleSystem_Trails>() } })));
     return ___internal_method;
   }
 };
@@ -3558,9 +3552,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Part
 //  Writing Method size for method: ::UnityEngine::ParticleSystem.SetParticlesAndTrails
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (::UnityEngine::ParticleSystem::*)(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>, ::UnityEngine::ParticleSystem_Trails, int32_t, int32_t)>(
-        &::UnityEngine::ParticleSystem::SetParticlesAndTrails)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystem::*)(
+    ::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>, ::UnityEngine::ParticleSystem_Trails, int32_t, int32_t)>(&::UnityEngine::ParticleSystem::SetParticlesAndTrails)> {
   constexpr static std::size_t size = 0xa0;
   constexpr static std::size_t addrs = 0x6fc805c;
 
@@ -3569,7 +3562,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "SetParticlesAndTrails",
                                                                                  {},
-                                                                                 { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>>(),
+                                                                                 { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>(),
                                                                                    ::i2c::type_of<::UnityEngine::ParticleSystem_Trails>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
@@ -3577,36 +3570,34 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 //  Writing Method size for method: ::UnityEngine::ParticleSystem.SetParticlesAndTrails
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystem::*)(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystem::*)(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>,
                                                                                                ::UnityEngine::ParticleSystem_Trails, int32_t)>(&::UnityEngine::ParticleSystem::SetParticlesAndTrails)> {
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x6fc80fc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "SetParticlesAndTrails",
-                                                                                              {},
-                                                                                              { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>>(),
-                                                                                                ::i2c::type_of<::UnityEngine::ParticleSystem_Trails>(), ::i2c::type_of<int32_t>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "SetParticlesAndTrails",
+                                                                                                     {},
+                                                                                                     { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>(),
+                                                                                                       ::i2c::type_of<::UnityEngine::ParticleSystem_Trails>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ParticleSystem.SetParticlesAndTrails
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystem::*)(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ParticleSystem::*)(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>,
                                                                                                ::UnityEngine::ParticleSystem_Trails)>(&::UnityEngine::ParticleSystem::SetParticlesAndTrails)> {
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0x6fc812c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-                            { "SetParticlesAndTrails",
-                              {},
-                              { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>>(), ::i2c::type_of<::UnityEngine::ParticleSystem_Trails>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "SetParticlesAndTrails",
+                                                                                                     {},
+                                                                                                     { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>(),
+                                                                                                       ::i2c::type_of<::UnityEngine::ParticleSystem_Trails>() } })));
     return ___internal_method;
   }
 };
@@ -4402,14 +4393,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Part
 //  Writing Method size for method: ::UnityEngine::ParticleSystem.SetTrails_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::ParticleSystem_Trails>)>(&::UnityEngine::ParticleSystem::SetTrails_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::ParticleSystem_Trails const>)>(&::UnityEngine::ParticleSystem::SetTrails_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6fc480c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-                                                             { "SetTrails_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_Trails>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
+                                                { "SetTrails_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_Trails const>>() } })));
     return ___internal_method;
   }
 };
@@ -4773,14 +4764,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
 //  Writing Method size for method: ::UnityEngine::ParticleSystem.SetPlaybackState_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::ParticleSystem_PlaybackState>)>(&::UnityEngine::ParticleSystem::SetPlaybackState_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::ParticleSystem_PlaybackState const>)>(
+    &::UnityEngine::ParticleSystem::SetPlaybackState_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6fc7994;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-                                                { "SetPlaybackState_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_PlaybackState>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
+                                         { "SetPlaybackState_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_PlaybackState const>>() } })));
     return ___internal_method;
   }
 };
@@ -4801,8 +4794,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
 //  Writing Method size for method: ::UnityEngine::ParticleSystem.SetParticlesAndTrails_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>, ::by_ref<::UnityEngine::ParticleSystem_Trails>, int32_t,
-                                                                int32_t)>(&::UnityEngine::ParticleSystem::SetParticlesAndTrails_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>, ::by_ref<::UnityEngine::ParticleSystem_Trails const>,
+                                                                int32_t, int32_t)>(&::UnityEngine::ParticleSystem::SetParticlesAndTrails_Injected)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x6fc7e58;
 
@@ -4812,14 +4805,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
                                                              { "SetParticlesAndTrails_Injected",
                                                                {},
                                                                { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>>(),
-                                                                 ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_Trails>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_Trails const>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ParticleSystem.SetParticlesAndTrailsWithNativeArray_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::by_ref<::UnityEngine::ParticleSystem_Trails>, int32_t, int32_t, int32_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::by_ref<::UnityEngine::ParticleSystem_Trails const>, int32_t, int32_t, int32_t)>(
     &::UnityEngine::ParticleSystem::SetParticlesAndTrailsWithNativeArray_Injected)> {
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x6fc7fe8;
@@ -4829,7 +4822,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
                                                 { "SetParticlesAndTrailsWithNativeArray_Injected",
                                                   {},
-                                                  { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_Trails>>(),
+                                                  { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_Trails const>>(),
                                                     ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
@@ -4932,7 +4925,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
 //  Writing Method size for method: ::UnityEngine::ParticleSystem.Emit_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::ParticleSystem_EmitParams>, int32_t)>(&::UnityEngine::ParticleSystem::Emit_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::ParticleSystem_EmitParams const>, int32_t)>(&::UnityEngine::ParticleSystem::Emit_Injected)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x6fc8888;
 
@@ -4940,7 +4933,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-                            { "Emit_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_EmitParams>>(), ::i2c::type_of<int32_t>() } })));
+                            { "Emit_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_EmitParams const>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -4961,17 +4954,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
 //  Writing Method size for method: ::UnityEngine::ParticleSystem.TriggerSubEmitterForParticle_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, ::by_ref<::UnityEngine::ParticleSystem_Particle>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, ::by_ref<::UnityEngine::ParticleSystem_Particle const>)>(
     &::UnityEngine::ParticleSystem::TriggerSubEmitterForParticle_Injected)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x6fc8c74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-            { "TriggerSubEmitterForParticle_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_Particle>>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
+                                                { "TriggerSubEmitterForParticle_Injected",
+                                                  {},
+                                                  { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_Particle const>>() } })));
     return ___internal_method;
   }
 };
@@ -5102,14 +5095,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
 //  Writing Method size for method: ::UnityEngine::ParticleSystem.SetManagedJobHandle_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::Unity::Jobs::JobHandle>)>(&::UnityEngine::ParticleSystem::SetManagedJobHandle_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::Unity::Jobs::JobHandle const>)>(&::UnityEngine::ParticleSystem::SetManagedJobHandle_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6fc93bc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-                                                             { "SetManagedJobHandle_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Jobs::JobHandle>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
+                                                { "SetManagedJobHandle_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Jobs::JobHandle const>>() } })));
     return ___internal_method;
   }
 };
@@ -5372,23 +5365,21 @@ inline int32_t UnityEngine::ParticleSystem::GetParticleMeshIndex(::by_ref<::Unit
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "GetParticleMeshIndex", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_Particle>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, particle);
 }
-inline void UnityEngine::ParticleSystem::SetParticles(::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>> particles, int32_t size, int32_t offset) {
+inline void UnityEngine::ParticleSystem::SetParticles(::ArrayW<::UnityEngine::ParticleSystem_Particle> particles, int32_t size, int32_t offset) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-                          { "SetParticles", {}, { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
+                                              { "SetParticles", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::ParticleSystem_Particle>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, particles, size, offset);
 }
-inline void UnityEngine::ParticleSystem::SetParticles(::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>> particles, int32_t size) {
+inline void UnityEngine::ParticleSystem::SetParticles(::ArrayW<::UnityEngine::ParticleSystem_Particle> particles, int32_t size) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-                                                           { "SetParticles", {}, { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>>>(), ::i2c::type_of<int32_t>() } })));
+                                                           { "SetParticles", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::ParticleSystem_Particle>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, particles, size);
 }
-inline void UnityEngine::ParticleSystem::SetParticles(::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>> particles) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "SetParticles", {}, { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>>>() } })));
+inline void UnityEngine::ParticleSystem::SetParticles(::ArrayW<::UnityEngine::ParticleSystem_Particle> particles) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "SetParticles", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::ParticleSystem_Particle>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, particles);
 }
 inline void UnityEngine::ParticleSystem::SetParticlesWithNativeArray(::System::IntPtr particles, int32_t particlesLength, int32_t size, int32_t offset) {
@@ -5398,44 +5389,41 @@ inline void UnityEngine::ParticleSystem::SetParticlesWithNativeArray(::System::I
                           { "SetParticlesWithNativeArray", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, particles, particlesLength, size, offset);
 }
-inline void UnityEngine::ParticleSystem::SetParticles(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>> particles, int32_t size, int32_t offset) {
+inline void UnityEngine::ParticleSystem::SetParticles(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle> particles, int32_t size, int32_t offset) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
           ::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-          { "SetParticles", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+          { "SetParticles", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, particles, size, offset);
 }
-inline void UnityEngine::ParticleSystem::SetParticles(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>> particles, int32_t size) {
+inline void UnityEngine::ParticleSystem::SetParticles(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle> particles, int32_t size) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-                          { "SetParticles", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>>(), ::i2c::type_of<int32_t>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
+                                              { "SetParticles", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, particles, size);
 }
-inline void UnityEngine::ParticleSystem::SetParticles(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>> particles) {
+inline void UnityEngine::ParticleSystem::SetParticles(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle> particles) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-                                                           { "SetParticles", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>>() } })));
+                                                           { "SetParticles", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, particles);
 }
-inline int32_t UnityEngine::ParticleSystem::GetParticles(/* [NotNull] */ ::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>> particles, int32_t size, int32_t offset) {
+inline int32_t UnityEngine::ParticleSystem::GetParticles(/* [NotNull] */ ::ArrayW<::UnityEngine::ParticleSystem_Particle> particles, int32_t size, int32_t offset) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-                          { "GetParticles", {}, { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
+                                              { "GetParticles", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::ParticleSystem_Particle>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, particles, size, offset);
 }
-inline int32_t UnityEngine::ParticleSystem::GetParticles(::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>> particles, int32_t size) {
+inline int32_t UnityEngine::ParticleSystem::GetParticles(::ArrayW<::UnityEngine::ParticleSystem_Particle> particles, int32_t size) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-                                                           { "GetParticles", {}, { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>>>(), ::i2c::type_of<int32_t>() } })));
+                                                           { "GetParticles", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::ParticleSystem_Particle>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, particles, size);
 }
-inline int32_t UnityEngine::ParticleSystem::GetParticles(::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>> particles) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "GetParticles", {}, { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>>>() } })));
+inline int32_t UnityEngine::ParticleSystem::GetParticles(::ArrayW<::UnityEngine::ParticleSystem_Particle> particles) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "GetParticles", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::ParticleSystem_Particle>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, particles);
 }
 inline int32_t UnityEngine::ParticleSystem::GetParticlesWithNativeArray(::System::IntPtr particles, int32_t particlesLength, int32_t size, int32_t offset) {
@@ -5445,25 +5433,24 @@ inline int32_t UnityEngine::ParticleSystem::GetParticlesWithNativeArray(::System
                           { "GetParticlesWithNativeArray", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, particles, particlesLength, size, offset);
 }
-inline int32_t UnityEngine::ParticleSystem::GetParticles(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>> particles, int32_t size, int32_t offset) {
+inline int32_t UnityEngine::ParticleSystem::GetParticles(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle> particles, int32_t size, int32_t offset) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
           ::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-          { "GetParticles", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+          { "GetParticles", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, particles, size, offset);
 }
-inline int32_t UnityEngine::ParticleSystem::GetParticles(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>> particles, int32_t size) {
+inline int32_t UnityEngine::ParticleSystem::GetParticles(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle> particles, int32_t size) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-                          { "GetParticles", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>>(), ::i2c::type_of<int32_t>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
+                                              { "GetParticles", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, particles, size);
 }
-inline int32_t UnityEngine::ParticleSystem::GetParticles(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>> particles) {
+inline int32_t UnityEngine::ParticleSystem::GetParticles(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle> particles) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-                                                           { "GetParticles", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>>() } })));
+                                                           { "GetParticles", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, particles);
 }
 inline void UnityEngine::ParticleSystem::SetCustomParticleData(/* [NotNull] */ ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* customData,
@@ -5508,29 +5495,29 @@ inline int32_t UnityEngine::ParticleSystem::GetTrails(::by_ref<::UnityEngine::Pa
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "GetTrails", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_Trails>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, trailData);
 }
-inline void UnityEngine::ParticleSystem::SetParticlesAndTrails(::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>> particles, ::UnityEngine::ParticleSystem_Trails trailData, int32_t size,
+inline void UnityEngine::ParticleSystem::SetParticlesAndTrails(::ArrayW<::UnityEngine::ParticleSystem_Particle> particles, ::UnityEngine::ParticleSystem_Trails trailData, int32_t size,
                                                                int32_t offset) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "SetParticlesAndTrails",
                                                                                {},
-                                                                               { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>>>(),
+                                                                               { ::i2c::type_of<::ArrayW<::UnityEngine::ParticleSystem_Particle>>(),
                                                                                  ::i2c::type_of<::UnityEngine::ParticleSystem_Trails>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, particles, trailData, size, offset);
 }
-inline void UnityEngine::ParticleSystem::SetParticlesAndTrails(::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>> particles, ::UnityEngine::ParticleSystem_Trails trailData, int32_t size) {
+inline void UnityEngine::ParticleSystem::SetParticlesAndTrails(::ArrayW<::UnityEngine::ParticleSystem_Particle> particles, ::UnityEngine::ParticleSystem_Trails trailData, int32_t size) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "SetParticlesAndTrails",
-                                                                                                   {},
-                                                                                                   { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>>>(),
-                                                                                                     ::i2c::type_of<::UnityEngine::ParticleSystem_Trails>(), ::i2c::type_of<int32_t>() } })));
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::ParticleSystem*>(),
+          { "SetParticlesAndTrails", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::ParticleSystem_Particle>>(), ::i2c::type_of<::UnityEngine::ParticleSystem_Trails>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, particles, trailData, size);
 }
-inline void UnityEngine::ParticleSystem::SetParticlesAndTrails(::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>> particles, ::UnityEngine::ParticleSystem_Trails trailData) {
+inline void UnityEngine::ParticleSystem::SetParticlesAndTrails(::ArrayW<::UnityEngine::ParticleSystem_Particle> particles, ::UnityEngine::ParticleSystem_Trails trailData) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-                          { "SetParticlesAndTrails", {}, { ::i2c::type_of<::by_ref<::ArrayW<::UnityEngine::ParticleSystem_Particle>>>(), ::i2c::type_of<::UnityEngine::ParticleSystem_Trails>() } })));
+                          { "SetParticlesAndTrails", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::ParticleSystem_Particle>>(), ::i2c::type_of<::UnityEngine::ParticleSystem_Trails>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, particles, trailData);
 }
 inline void UnityEngine::ParticleSystem::SetParticlesAndTrailsWithNativeArray(::System::IntPtr particles, ::UnityEngine::ParticleSystem_Trails trailData, int32_t particlesLength, int32_t size,
@@ -5542,34 +5529,31 @@ inline void UnityEngine::ParticleSystem::SetParticlesAndTrailsWithNativeArray(::
                                                                                                      ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, particles, trailData, particlesLength, size, offset);
 }
-inline void UnityEngine::ParticleSystem::SetParticlesAndTrails(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>> particles,
-                                                               ::UnityEngine::ParticleSystem_Trails trailData, int32_t size, int32_t offset) {
+inline void UnityEngine::ParticleSystem::SetParticlesAndTrails(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle> particles, ::UnityEngine::ParticleSystem_Trails trailData,
+                                                               int32_t size, int32_t offset) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "SetParticlesAndTrails",
                                                                                {},
-                                                                               { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>>(),
+                                                                               { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>(),
                                                                                  ::i2c::type_of<::UnityEngine::ParticleSystem_Trails>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, particles, trailData, size, offset);
 }
-inline void UnityEngine::ParticleSystem::SetParticlesAndTrails(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>> particles,
-                                                               ::UnityEngine::ParticleSystem_Trails trailData, int32_t size) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "SetParticlesAndTrails",
-                                                                                            {},
-                                                                                            { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>>(),
-                                                                                              ::i2c::type_of<::UnityEngine::ParticleSystem_Trails>(), ::i2c::type_of<int32_t>() } })));
+inline void UnityEngine::ParticleSystem::SetParticlesAndTrails(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle> particles, ::UnityEngine::ParticleSystem_Trails trailData,
+                                                               int32_t size) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "SetParticlesAndTrails",
+                                                                                                   {},
+                                                                                                   { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>(),
+                                                                                                     ::i2c::type_of<::UnityEngine::ParticleSystem_Trails>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, particles, trailData, size);
 }
-inline void UnityEngine::ParticleSystem::SetParticlesAndTrails(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>> particles,
-                                                               ::UnityEngine::ParticleSystem_Trails trailData) {
+inline void UnityEngine::ParticleSystem::SetParticlesAndTrails(::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle> particles, ::UnityEngine::ParticleSystem_Trails trailData) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-                          { "SetParticlesAndTrails",
-                            {},
-                            { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>>(), ::i2c::type_of<::UnityEngine::ParticleSystem_Trails>() } })));
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::ParticleSystem*>(),
+          { "SetParticlesAndTrails", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::ParticleSystem_Particle>>(), ::i2c::type_of<::UnityEngine::ParticleSystem_Trails>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, particles, trailData);
 }
 inline void UnityEngine::ParticleSystem::Simulate(float_t t, /* [DefaultValue("true")] */ bool withChildren, /* [DefaultValue("true")] */ bool restart,
@@ -5852,10 +5836,10 @@ inline void UnityEngine::ParticleSystem::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::ParticleSystem::SetTrails_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ParticleSystem_Trails> trailData) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-                                                           { "SetTrails_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_Trails>>() } })));
+inline void UnityEngine::ParticleSystem::SetTrails_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ParticleSystem_Trails const> trailData) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
+                                              { "SetTrails_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_Trails const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, trailData);
 }
 inline bool UnityEngine::ParticleSystem::get_isPlaying_Injected(::System::IntPtr _unity_self) {
@@ -6017,10 +6001,11 @@ inline void UnityEngine::ParticleSystem::GetPlaybackState_Injected(::System::Int
                                               { "GetPlaybackState_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_PlaybackState>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, ret);
 }
-inline void UnityEngine::ParticleSystem::SetPlaybackState_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ParticleSystem_PlaybackState> playbackState) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-                                              { "SetPlaybackState_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_PlaybackState>>() } })));
+inline void UnityEngine::ParticleSystem::SetPlaybackState_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ParticleSystem_PlaybackState const> playbackState) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
+                                       { "SetPlaybackState_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_PlaybackState const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, playbackState);
 }
 inline void UnityEngine::ParticleSystem::GetTrailDataInternal_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ParticleSystem_Trails> trailData) {
@@ -6030,24 +6015,24 @@ inline void UnityEngine::ParticleSystem::GetTrailDataInternal_Injected(::System:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, trailData);
 }
 inline void UnityEngine::ParticleSystem::SetParticlesAndTrails_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> particles,
-                                                                        ::by_ref<::UnityEngine::ParticleSystem_Trails> trailData, int32_t size, int32_t offset) {
+                                                                        ::by_ref<::UnityEngine::ParticleSystem_Trails const> trailData, int32_t size, int32_t offset) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
                                                            { "SetParticlesAndTrails_Injected",
                                                              {},
                                                              { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>>(),
-                                                               ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_Trails>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_Trails const>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, particles, trailData, size, offset);
 }
 inline void UnityEngine::ParticleSystem::SetParticlesAndTrailsWithNativeArray_Injected(::System::IntPtr _unity_self, ::System::IntPtr particles,
-                                                                                       ::by_ref<::UnityEngine::ParticleSystem_Trails> trailData, int32_t particlesLength, int32_t size,
+                                                                                       ::by_ref<::UnityEngine::ParticleSystem_Trails const> trailData, int32_t particlesLength, int32_t size,
                                                                                        int32_t offset) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-                                                           { "SetParticlesAndTrailsWithNativeArray_Injected",
-                                                             {},
-                                                             { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_Trails>>(),
-                                                               ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
+                                              { "SetParticlesAndTrailsWithNativeArray_Injected",
+                                                {},
+                                                { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_Trails const>>(),
+                                                  ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, particles, trailData, particlesLength, size, offset);
 }
 inline void UnityEngine::ParticleSystem::Simulate_Injected(::System::IntPtr _unity_self, float_t t, /* [DefaultValue("true")] */ bool withChildren, /* [DefaultValue("true")] */ bool restart,
@@ -6090,11 +6075,11 @@ inline void UnityEngine::ParticleSystem::Emit_Internal_Injected(::System::IntPtr
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(), { "Emit_Internal_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, count);
 }
-inline void UnityEngine::ParticleSystem::Emit_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ParticleSystem_EmitParams> emitParams, int32_t count) {
+inline void UnityEngine::ParticleSystem::Emit_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ParticleSystem_EmitParams const> emitParams, int32_t count) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-                          { "Emit_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_EmitParams>>(), ::i2c::type_of<int32_t>() } })));
+                          { "Emit_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_EmitParams const>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, emitParams, count);
 }
 inline void UnityEngine::ParticleSystem::EmitOld_Internal_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ParticleSystem_Particle> particle) {
@@ -6103,12 +6088,12 @@ inline void UnityEngine::ParticleSystem::EmitOld_Internal_Injected(::System::Int
                                               { "EmitOld_Internal_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_Particle>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, particle);
 }
-inline void UnityEngine::ParticleSystem::TriggerSubEmitterForParticle_Injected(::System::IntPtr _unity_self, int32_t subEmitterIndex, ::by_ref<::UnityEngine::ParticleSystem_Particle> particle) {
+inline void UnityEngine::ParticleSystem::TriggerSubEmitterForParticle_Injected(::System::IntPtr _unity_self, int32_t subEmitterIndex, ::by_ref<::UnityEngine::ParticleSystem_Particle const> particle) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-          { "TriggerSubEmitterForParticle_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_Particle>>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
+                                              { "TriggerSubEmitterForParticle_Injected",
+                                                {},
+                                                { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::ParticleSystem_Particle const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, subEmitterIndex, particle);
 }
 inline void UnityEngine::ParticleSystem::TriggerSubEmitterForParticles_Injected(::System::IntPtr _unity_self, int32_t subEmitterIndex,
@@ -6163,10 +6148,10 @@ inline void UnityEngine::ParticleSystem::GetManagedJobHandle_Injected(::System::
                                                            { "GetManagedJobHandle_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Jobs::JobHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, ret);
 }
-inline void UnityEngine::ParticleSystem::SetManagedJobHandle_Injected(::System::IntPtr _unity_self, ::by_ref<::Unity::Jobs::JobHandle> handle) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
-                                                           { "SetManagedJobHandle_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Jobs::JobHandle>>() } })));
+inline void UnityEngine::ParticleSystem::SetManagedJobHandle_Injected(::System::IntPtr _unity_self, ::by_ref<::Unity::Jobs::JobHandle const> handle) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ParticleSystem*>(),
+                                              { "SetManagedJobHandle_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Jobs::JobHandle const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, handle);
 }
 inline void UnityEngine::ParticleSystem::ScheduleManagedJob_Injected(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters, void* additionalData,

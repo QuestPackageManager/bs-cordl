@@ -70,13 +70,12 @@ inline bool Unity::Collections::LowLevel::Unsafe::UnsafeListExtensions::Contains
 template <typename T>
   requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline bool Unity::Collections::LowLevel::Unsafe::UnsafeListExtensions::ArraysEqual(::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T> container,
-                                                                                    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>> other) {
-  static auto* ___internal_method_base = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeListExtensions*>(),
-                          { "ArraysEqual",
-                            { ::i2c::class_of<T>() },
-                            { ::i2c::type_of<::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>>(), ::i2c::type_of<::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>>>() } })));
+                                                                                    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T> const> other) {
+  static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeListExtensions*>(),
+                                                                                              { "ArraysEqual",
+                                                                                                { ::i2c::class_of<T>() },
+                                                                                                { ::i2c::type_of<::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>>(),
+                                                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T> const>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, container, other);
 }

@@ -585,7 +585,7 @@ public:
   inline void CheckMouseScroll(::Unity::IntegerTime::DiscreteTime currentTime);
 
   /// @brief Method CheckPenEvent, addr 0x6fbe86c, size 0x3b8, virtual false, abstract: false, final false
-  inline bool CheckPenEvent(::Unity::IntegerTime::DiscreteTime currentTime, /* [IsReadOnly] */ ::by_ref<::UnityEngine::PenData> currentPenData);
+  inline bool CheckPenEvent(::Unity::IntegerTime::DiscreteTime currentTime, /* [IsReadOnly] */ ::by_ref<::UnityEngine::PenData const> currentPenData);
 
   /// @brief Method CheckTouchEvents, addr 0x6fbe2c4, size 0x5a8, virtual false, abstract: false, final false
   inline bool CheckTouchEvents(::Unity::IntegerTime::DiscreteTime currentTime);

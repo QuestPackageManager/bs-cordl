@@ -2094,7 +2094,7 @@ public:
 
   /// @brief Method UseTexture, addr 0x6bbead0, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle UseTexture(::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder* builder,
-                                                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> texture,
+                                                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> texture,
                                                                                       ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags);
 
   static inline int32_t getStaticF_kQualcommVendorId();

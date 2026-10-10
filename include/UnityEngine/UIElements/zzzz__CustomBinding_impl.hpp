@@ -7,8 +7,8 @@
 //  Writing Method size for method: ::UnityEngine::UIElements::CustomBinding.Update
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BindingResult (::UnityEngine::UIElements::CustomBinding::*)(::by_ref<::UnityEngine::UIElements::BindingContext>)>(
-    &::UnityEngine::UIElements::CustomBinding::Update)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BindingResult (::UnityEngine::UIElements::CustomBinding::*)(
+    ::by_ref<::UnityEngine::UIElements::BindingContext const>)>(&::UnityEngine::UIElements::CustomBinding::Update)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x70881c4;
 
@@ -18,7 +18,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
     return ___internal_method;
   }
 };
-inline ::UnityEngine::UIElements::BindingResult UnityEngine::UIElements::CustomBinding::Update(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context) {
+inline ::UnityEngine::UIElements::BindingResult UnityEngine::UIElements::CustomBinding::Update(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext const> context) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::CustomBinding*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::BindingResult>(this, ___internal_method, context);
 }

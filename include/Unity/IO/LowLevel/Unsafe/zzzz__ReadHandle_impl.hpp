@@ -140,21 +140,21 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle 
 //  Writing Method size for method: ::Unity::IO::LowLevel::Unsafe::ReadHandle.CancelInternal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle>)>(&::Unity::IO::LowLevel::Unsafe::ReadHandle::CancelInternal_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle const>)>(&::Unity::IO::LowLevel::Unsafe::ReadHandle::CancelInternal_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6eb0ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::ReadHandle>(),
-                                                             { "CancelInternal_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle>>() } })));
+                                                             { "CancelInternal_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::IO::LowLevel::Unsafe::ReadHandle.GetReadStatus_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::IO::LowLevel::Unsafe::ReadStatus (*)(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::IO::LowLevel::Unsafe::ReadStatus (*)(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle const>)>(
     &::Unity::IO::LowLevel::Unsafe::ReadHandle::GetReadStatus_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6eb1160;
@@ -162,42 +162,42 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::IO::LowLevel::Un
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::ReadHandle>(),
-                                                             { "GetReadStatus_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle>>() } })));
+                                                             { "GetReadStatus_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::IO::LowLevel::Unsafe::ReadHandle.ReleaseReadHandle_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle>)>(&::Unity::IO::LowLevel::Unsafe::ReadHandle::ReleaseReadHandle_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle const>)>(&::Unity::IO::LowLevel::Unsafe::ReadHandle::ReleaseReadHandle_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6eb119c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::ReadHandle>(),
-                                                             { "ReleaseReadHandle_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle>>() } })));
+                                                             { "ReleaseReadHandle_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::IO::LowLevel::Unsafe::ReadHandle.IsReadHandleValid_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle>)>(&::Unity::IO::LowLevel::Unsafe::ReadHandle::IsReadHandleValid_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle const>)>(&::Unity::IO::LowLevel::Unsafe::ReadHandle::IsReadHandleValid_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6eb11d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::ReadHandle>(),
-                                                             { "IsReadHandleValid_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle>>() } })));
+                                                             { "IsReadHandleValid_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::IO::LowLevel::Unsafe::ReadHandle.GetJobHandle_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle>, ::by_ref<::Unity::Jobs::JobHandle>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle const>, ::by_ref<::Unity::Jobs::JobHandle>)>(
     &::Unity::IO::LowLevel::Unsafe::ReadHandle::GetJobHandle_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6eb1214;
@@ -206,7 +206,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::ReadHandle>(),
-                            { "GetJobHandle_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle>>(), ::i2c::type_of<::by_ref<::Unity::Jobs::JobHandle>>() } })));
+                            { "GetJobHandle_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle const>>(), ::i2c::type_of<::by_ref<::Unity::Jobs::JobHandle>>() } })));
     return ___internal_method;
   }
 };
@@ -258,34 +258,35 @@ inline ::Unity::Jobs::JobHandle Unity::IO::LowLevel::Unsafe::ReadHandle::GetJobH
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::ReadHandle>(), { "GetJobHandle", {}, { ::i2c::type_of<::Unity::IO::LowLevel::Unsafe::ReadHandle>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle>(nullptr, ___internal_method, handle);
 }
-inline void Unity::IO::LowLevel::Unsafe::ReadHandle::CancelInternal_Injected(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle> handle) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::ReadHandle>(), { "CancelInternal_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle>>() } })));
+inline void Unity::IO::LowLevel::Unsafe::ReadHandle::CancelInternal_Injected(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle const> handle) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::ReadHandle>(),
+                                                           { "CancelInternal_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, handle);
 }
-inline ::Unity::IO::LowLevel::Unsafe::ReadStatus Unity::IO::LowLevel::Unsafe::ReadHandle::GetReadStatus_Injected(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle> handle) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::ReadHandle>(),
-                                                                                         { "GetReadStatus_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle>>() } })));
+inline ::Unity::IO::LowLevel::Unsafe::ReadStatus Unity::IO::LowLevel::Unsafe::ReadHandle::GetReadStatus_Injected(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle const> handle) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::ReadHandle>(),
+                                                           { "GetReadStatus_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::IO::LowLevel::Unsafe::ReadStatus>(nullptr, ___internal_method, handle);
 }
-inline void Unity::IO::LowLevel::Unsafe::ReadHandle::ReleaseReadHandle_Injected(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle> handle) {
+inline void Unity::IO::LowLevel::Unsafe::ReadHandle::ReleaseReadHandle_Injected(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle const> handle) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::ReadHandle>(),
-                                                           { "ReleaseReadHandle_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle>>() } })));
+                                                           { "ReleaseReadHandle_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, handle);
 }
-inline bool Unity::IO::LowLevel::Unsafe::ReadHandle::IsReadHandleValid_Injected(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle> handle) {
+inline bool Unity::IO::LowLevel::Unsafe::ReadHandle::IsReadHandleValid_Injected(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle const> handle) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::ReadHandle>(),
-                                                           { "IsReadHandleValid_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle>>() } })));
+                                                           { "IsReadHandleValid_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, handle);
 }
-inline void Unity::IO::LowLevel::Unsafe::ReadHandle::GetJobHandle_Injected(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle> handle, ::by_ref<::Unity::Jobs::JobHandle> ret) {
+inline void Unity::IO::LowLevel::Unsafe::ReadHandle::GetJobHandle_Injected(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle const> handle, ::by_ref<::Unity::Jobs::JobHandle> ret) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::ReadHandle>(),
-                          { "GetJobHandle_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle>>(), ::i2c::type_of<::by_ref<::Unity::Jobs::JobHandle>>() } })));
+                          { "GetJobHandle_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle const>>(), ::i2c::type_of<::by_ref<::Unity::Jobs::JobHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, handle, ret);
 }
 /// @brief Convert operator to "::System::IDisposable"

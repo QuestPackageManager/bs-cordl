@@ -626,7 +626,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
 //  Writing Method size for method: ::UnityEngine::Rendering::ScriptableRenderContext.Internal_Cull_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Rendering::ScriptableCullingParameters>, ::by_ref<::UnityEngine::Rendering::ScriptableRenderContext>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Rendering::ScriptableCullingParameters>, ::by_ref<::UnityEngine::Rendering::ScriptableRenderContext const>,
                                                                 ::System::IntPtr)>(&::UnityEngine::Rendering::ScriptableRenderContext::Internal_Cull_Injected)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x6f8369c;
@@ -637,23 +637,24 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
                                                              { "Internal_Cull_Injected",
                                                                {},
                                                                { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ScriptableCullingParameters>>(),
-                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ScriptableRenderContext>>(), ::i2c::type_of<::System::IntPtr>() } })));
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ScriptableRenderContext const>>(), ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ScriptableRenderContext.Internal_CullShadowCasters_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext>, ::System::IntPtr)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext const>, ::System::IntPtr)>(
     &::UnityEngine::Rendering::ScriptableRenderContext::Internal_CullShadowCasters_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6f8377c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableRenderContext>(),
-                            { "Internal_CullShadowCasters_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ScriptableRenderContext>>(), ::i2c::type_of<::System::IntPtr>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::UnityEngine::Rendering::ScriptableRenderContext>(),
+                         { "Internal_CullShadowCasters_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ScriptableRenderContext const>>(), ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
 };
@@ -724,7 +725,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext>, ::System::IntPtr, ::by_ref<::UnityEngine::Rendering::DrawingSettings>,
-                                                                ::by_ref<::UnityEngine::Rendering::FilteringSettings>, ::by_ref<::UnityEngine::Rendering::ShaderTagId>, bool, ::System::IntPtr,
+                                                                ::by_ref<::UnityEngine::Rendering::FilteringSettings>, ::by_ref<::UnityEngine::Rendering::ShaderTagId const>, bool, ::System::IntPtr,
                                                                 ::System::IntPtr, int32_t, ::by_ref<::UnityEngine::Rendering::RendererList>)>(
     &::UnityEngine::Rendering::ScriptableRenderContext::CreateRendererList_Internal_Injected)> {
   constexpr static std::size_t size = 0xa4;
@@ -737,7 +738,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
                                                   {},
                                                   { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ScriptableRenderContext>>(), ::i2c::type_of<::System::IntPtr>(),
                                                     ::i2c::type_of<::by_ref<::UnityEngine::Rendering::DrawingSettings>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::FilteringSettings>>(),
-                                                    ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ShaderTagId>>(), ::i2c::type_of<bool>(), ::i2c::type_of<::System::IntPtr>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ShaderTagId const>>(), ::i2c::type_of<bool>(), ::i2c::type_of<::System::IntPtr>(),
                                                     ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RendererList>>() } })));
     return ___internal_method;
   }
@@ -763,21 +764,22 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::Rendering::ScriptableRenderContext.CreateSkyboxRendererList_Internal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
-    ::by_ref<::UnityEngine::Rendering::ScriptableRenderContext>, ::System::IntPtr, int32_t, ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Matrix4x4>,
-    ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Rendering::RendererList>)>(&::UnityEngine::Rendering::ScriptableRenderContext::CreateSkyboxRendererList_Internal_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<void (*)(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext>, ::System::IntPtr, int32_t, ::by_ref<::UnityEngine::Matrix4x4 const>, ::by_ref<::UnityEngine::Matrix4x4 const>,
+                         ::by_ref<::UnityEngine::Matrix4x4 const>, ::by_ref<::UnityEngine::Matrix4x4 const>, ::by_ref<::UnityEngine::Rendering::RendererList>)>(
+        &::UnityEngine::Rendering::ScriptableRenderContext::CreateSkyboxRendererList_Internal_Injected)> {
   constexpr static std::size_t size = 0x8c;
   constexpr static std::size_t addrs = 0x6f83fec;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableRenderContext>(),
-                            { "CreateSkyboxRendererList_Internal_Injected",
-                              {},
-                              { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ScriptableRenderContext>>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(),
-                                ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(),
-                                ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RendererList>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableRenderContext>(),
+                                                             { "CreateSkyboxRendererList_Internal_Injected",
+                                                               {},
+                                                               { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ScriptableRenderContext>>(), ::i2c::type_of<::System::IntPtr>(),
+                                                                 ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RendererList>>() } })));
     return ___internal_method;
   }
 };
@@ -841,18 +843,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::UnityEngine::Rendering::RendererListStatus (*)(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext>, ::by_ref<::UnityEngine::Rendering::RendererList>)>(
+    static_cast<::UnityEngine::Rendering::RendererListStatus (*)(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext>, ::by_ref<::UnityEngine::Rendering::RendererList const>)>(
         &::UnityEngine::Rendering::ScriptableRenderContext::QueryRendererListStatus_Internal_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6f84580;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableRenderContext>(),
-                                         { "QueryRendererListStatus_Internal_Injected",
-                                           {},
-                                           { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ScriptableRenderContext>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RendererList>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableRenderContext>(),
+                            { "QueryRendererListStatus_Internal_Injected",
+                              {},
+                              { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ScriptableRenderContext>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RendererList const>>() } })));
     return ___internal_method;
   }
 };
@@ -1108,20 +1110,21 @@ inline ::UnityEngine::Rendering::RendererListStatus UnityEngine::Rendering::Scri
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RendererListStatus>(*this, ___internal_method, rendererList);
 }
 inline void UnityEngine::Rendering::ScriptableRenderContext::Internal_Cull_Injected(::by_ref<::UnityEngine::Rendering::ScriptableCullingParameters> parameters,
-                                                                                    ::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> renderLoop, ::System::IntPtr results) {
+                                                                                    ::by_ref<::UnityEngine::Rendering::ScriptableRenderContext const> renderLoop, ::System::IntPtr results) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableRenderContext>(),
                                                            { "Internal_Cull_Injected",
                                                              {},
                                                              { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ScriptableCullingParameters>>(),
-                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ScriptableRenderContext>>(), ::i2c::type_of<::System::IntPtr>() } })));
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ScriptableRenderContext const>>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, parameters, renderLoop, results);
 }
-inline void UnityEngine::Rendering::ScriptableRenderContext::Internal_CullShadowCasters_Injected(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> renderLoop, ::System::IntPtr context) {
+inline void UnityEngine::Rendering::ScriptableRenderContext::Internal_CullShadowCasters_Injected(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext const> renderLoop,
+                                                                                                 ::System::IntPtr context) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableRenderContext>(),
-                          { "Internal_CullShadowCasters_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ScriptableRenderContext>>(), ::i2c::type_of<::System::IntPtr>() } })));
+                          { "Internal_CullShadowCasters_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ScriptableRenderContext const>>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, renderLoop, context);
 }
 inline void UnityEngine::Rendering::ScriptableRenderContext::InitializeSortSettings_Injected(::System::IntPtr camera, ::by_ref<::UnityEngine::Rendering::SortingSettings> sortingSettings) {
@@ -1156,7 +1159,7 @@ inline void UnityEngine::Rendering::ScriptableRenderContext::ExecuteCommandBuffe
 inline void UnityEngine::Rendering::ScriptableRenderContext::CreateRendererList_Internal_Injected(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> _unity_self, ::System::IntPtr cullResults,
                                                                                                   ::by_ref<::UnityEngine::Rendering::DrawingSettings> drawingSettings,
                                                                                                   ::by_ref<::UnityEngine::Rendering::FilteringSettings> filteringSettings,
-                                                                                                  ::by_ref<::UnityEngine::Rendering::ShaderTagId> tagName, bool isPassTagName,
+                                                                                                  ::by_ref<::UnityEngine::Rendering::ShaderTagId const> tagName, bool isPassTagName,
                                                                                                   ::System::IntPtr tagValues, ::System::IntPtr stateBlocks, int32_t stateCount,
                                                                                                   ::by_ref<::UnityEngine::Rendering::RendererList> ret) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1165,7 +1168,7 @@ inline void UnityEngine::Rendering::ScriptableRenderContext::CreateRendererList_
                                                 {},
                                                 { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ScriptableRenderContext>>(), ::i2c::type_of<::System::IntPtr>(),
                                                   ::i2c::type_of<::by_ref<::UnityEngine::Rendering::DrawingSettings>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::FilteringSettings>>(),
-                                                  ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ShaderTagId>>(), ::i2c::type_of<bool>(), ::i2c::type_of<::System::IntPtr>(),
+                                                  ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ShaderTagId const>>(), ::i2c::type_of<bool>(), ::i2c::type_of<::System::IntPtr>(),
                                                   ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RendererList>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, cullResults, drawingSettings, filteringSettings, tagName, isPassTagName, tagValues, stateBlocks,
                                                    stateCount, ret);
@@ -1181,18 +1184,18 @@ inline void UnityEngine::Rendering::ScriptableRenderContext::CreateShadowRendere
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, shadowDrawinSettings, ret);
 }
 inline void UnityEngine::Rendering::ScriptableRenderContext::CreateSkyboxRendererList_Internal_Injected(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> _unity_self,
-                                                                                                        ::System::IntPtr camera, int32_t mode, ::by_ref<::UnityEngine::Matrix4x4> proj,
-                                                                                                        ::by_ref<::UnityEngine::Matrix4x4> view, ::by_ref<::UnityEngine::Matrix4x4> projR,
-                                                                                                        ::by_ref<::UnityEngine::Matrix4x4> viewR,
+                                                                                                        ::System::IntPtr camera, int32_t mode, ::by_ref<::UnityEngine::Matrix4x4 const> proj,
+                                                                                                        ::by_ref<::UnityEngine::Matrix4x4 const> view, ::by_ref<::UnityEngine::Matrix4x4 const> projR,
+                                                                                                        ::by_ref<::UnityEngine::Matrix4x4 const> viewR,
                                                                                                         ::by_ref<::UnityEngine::Rendering::RendererList> ret) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableRenderContext>(),
-                          { "CreateSkyboxRendererList_Internal_Injected",
-                            {},
-                            { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ScriptableRenderContext>>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(),
-                              ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(),
-                              ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RendererList>>() } })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableRenderContext>(),
+                                                           { "CreateSkyboxRendererList_Internal_Injected",
+                                                             {},
+                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ScriptableRenderContext>>(), ::i2c::type_of<::System::IntPtr>(),
+                                                               ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RendererList>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, camera, mode, proj, view, projR, viewR, ret);
 }
 inline void UnityEngine::Rendering::ScriptableRenderContext::CreateGizmoRendererList_Internal_Injected(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> _unity_self, ::System::IntPtr camera,
@@ -1229,13 +1232,12 @@ inline void UnityEngine::Rendering::ScriptableRenderContext::CreateWireOverlayRe
 }
 inline ::UnityEngine::Rendering::RendererListStatus
 UnityEngine::Rendering::ScriptableRenderContext::QueryRendererListStatus_Internal_Injected(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> _unity_self,
-                                                                                           ::by_ref<::UnityEngine::Rendering::RendererList> handle) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableRenderContext>(),
-                                       { "QueryRendererListStatus_Internal_Injected",
-                                         {},
-                                         { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ScriptableRenderContext>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RendererList>>() } })));
+                                                                                           ::by_ref<::UnityEngine::Rendering::RendererList const> handle) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableRenderContext>(), { "QueryRendererListStatus_Internal_Injected",
+                                                                                                                      {},
+                                                                                                                      { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ScriptableRenderContext>>(),
+                                                                                                                        ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RendererList const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RendererListStatus>(nullptr, ___internal_method, _unity_self, handle);
 }
 /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::ScriptableRenderContext>"

@@ -400,13 +400,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rect
 //  Writing Method size for method: ::UnityEngine::Rect.OrderMinMax
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (*)(::by_ref<::UnityEngine::Rect>)>(&::UnityEngine::Rect::OrderMinMax)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (*)(::by_ref<::UnityEngine::Rect const>)>(&::UnityEngine::Rect::OrderMinMax)> {
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x6ed449c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rect>(), { "OrderMinMax", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rect>>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rect>(), { "OrderMinMax", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>() } })));
     return ___internal_method;
   }
 };
@@ -425,13 +425,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rect
 //  Writing Method size for method: ::UnityEngine::Rect.Overlaps
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rect::*)(::by_ref<::UnityEngine::Rect>)>(&::UnityEngine::Rect::Overlaps)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rect::*)(::by_ref<::UnityEngine::Rect const>)>(&::UnityEngine::Rect::Overlaps)> {
   constexpr static std::size_t size = 0xf8;
   constexpr static std::size_t addrs = 0x6ed4614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rect>(), { "Overlaps", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rect>>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rect>(), { "Overlaps", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>() } })));
     return ___internal_method;
   }
 };
@@ -513,13 +513,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rect
 //  Writing Method size for method: ::UnityEngine::Rect.Equals
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rect::*)(::by_ref<::UnityEngine::Rect>)>(&::UnityEngine::Rect::Equals)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rect::*)(::by_ref<::UnityEngine::Rect const>)>(&::UnityEngine::Rect::Equals)> {
   constexpr static std::size_t size = 0x104;
   constexpr static std::size_t addrs = 0x6ed4d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rect>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rect>>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rect>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>() } })));
     return ___internal_method;
   }
 };
@@ -688,18 +688,18 @@ inline bool UnityEngine::Rect::Contains(::UnityEngine::Vector3 point) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rect>(), { "Contains", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, point);
 }
-inline ::UnityEngine::Rect UnityEngine::Rect::OrderMinMax(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rect> rect) {
+inline ::UnityEngine::Rect UnityEngine::Rect::OrderMinMax(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rect const> rect) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rect>(), { "OrderMinMax", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rect>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rect>(), { "OrderMinMax", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rect>(nullptr, ___internal_method, rect);
 }
 inline bool UnityEngine::Rect::Overlaps(::UnityEngine::Rect other) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rect>(), { "Overlaps", {}, { ::i2c::type_of<::UnityEngine::Rect>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
-inline bool UnityEngine::Rect::Overlaps(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rect> other) {
+inline bool UnityEngine::Rect::Overlaps(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rect const> other) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rect>(), { "Overlaps", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rect>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rect>(), { "Overlaps", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
 inline bool UnityEngine::Rect::Overlaps(::UnityEngine::Rect other, bool allowInverse) {
@@ -729,9 +729,9 @@ inline bool UnityEngine::Rect::Equals(::UnityEngine::Rect other) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rect>(), { "Equals", {}, { ::i2c::type_of<::UnityEngine::Rect>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
-inline bool UnityEngine::Rect::Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rect> other) {
+inline bool UnityEngine::Rect::Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rect const> other) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rect>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rect>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rect>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
 inline ::StringW UnityEngine::Rect::ToString() {

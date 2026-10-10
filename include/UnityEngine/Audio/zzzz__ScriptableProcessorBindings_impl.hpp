@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::A
 //  Writing Method size for method: ::UnityEngine::Audio::ScriptableProcessorBindings.AddDataToProcessorHandle
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Audio::ControlHeader*, ::by_ref<::Unity::Audio::Handle>, void*, int32_t, int32_t, int64_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Audio::ControlHeader*, ::by_ref<::Unity::Audio::Handle const>, void*, int32_t, int32_t, int64_t)>(
     &::UnityEngine::Audio::ScriptableProcessorBindings::AddDataToProcessorHandle)> {
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x6eaaf74;
@@ -38,8 +38,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::A
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
                                                              { "AddDataToProcessorHandle",
                                                                {},
-                                                               { ::i2c::type_of<::UnityEngine::Audio::ControlHeader*>(), ::i2c::type_of<::by_ref<::Unity::Audio::Handle>>(), ::i2c::type_of<void*>(),
-                                                                 ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int64_t>() } })));
+                                                               { ::i2c::type_of<::UnityEngine::Audio::ControlHeader*>(), ::i2c::type_of<::by_ref<::Unity::Audio::Handle const>>(),
+                                                                 ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int64_t>() } })));
     return ___internal_method;
   }
 };
@@ -47,38 +47,41 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::A
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::UnityEngine::Audio::AvailableData_ProcessorInstance_Element* (*)(::by_ref<::UnityEngine::Audio::RealtimeAccess>, ::by_ref<::Unity::Audio::Handle>)>(
+    static_cast<::UnityEngine::Audio::AvailableData_ProcessorInstance_Element* (*)(::by_ref<::UnityEngine::Audio::RealtimeAccess const>, ::by_ref<::Unity::Audio::Handle const>)>(
         &::UnityEngine::Audio::ScriptableProcessorBindings::GetAvailableDataForRealtime)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6eabcec;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
-                            { "GetAvailableDataForRealtime", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Audio::RealtimeAccess>>(), ::i2c::type_of<::by_ref<::Unity::Audio::Handle>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
+                         { "GetAvailableDataForRealtime", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Audio::RealtimeAccess const>>(), ::i2c::type_of<::by_ref<::Unity::Audio::Handle const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Audio::ScriptableProcessorBindings.GetAvailableDataForControl
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Audio::AvailableData_ProcessorInstance_Element* (*)(::UnityEngine::Audio::ControlHeader*, ::by_ref<::Unity::Audio::Handle>)>(
-    &::UnityEngine::Audio::ScriptableProcessorBindings::GetAvailableDataForControl)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::UnityEngine::Audio::AvailableData_ProcessorInstance_Element* (*)(::UnityEngine::Audio::ControlHeader*, ::by_ref<::Unity::Audio::Handle const>)>(
+        &::UnityEngine::Audio::ScriptableProcessorBindings::GetAvailableDataForControl)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6eaaea0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
-                                                { "GetAvailableDataForControl", {}, { ::i2c::type_of<::UnityEngine::Audio::ControlHeader*>(), ::i2c::type_of<::by_ref<::Unity::Audio::Handle>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
+                                         { "GetAvailableDataForControl", {}, { ::i2c::type_of<::UnityEngine::Audio::ControlHeader*>(), ::i2c::type_of<::by_ref<::Unity::Audio::Handle const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Audio::ScriptableProcessorBindings.ReturnDataFromProcessor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Audio::RealtimeAccess>, ::by_ref<::Unity::Audio::Handle>, void*, int32_t, int32_t, int64_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Audio::RealtimeAccess const>, ::by_ref<::Unity::Audio::Handle const>, void*, int32_t, int32_t, int64_t)>(
     &::UnityEngine::Audio::ScriptableProcessorBindings::ReturnDataFromProcessor)> {
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x6eaba24;
@@ -88,7 +91,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
                                                              { "ReturnDataFromProcessor",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::UnityEngine::Audio::RealtimeAccess>>(), ::i2c::type_of<::by_ref<::Unity::Audio::Handle>>(),
+                                                               { ::i2c::type_of<::by_ref<::UnityEngine::Audio::RealtimeAccess const>>(), ::i2c::type_of<::by_ref<::Unity::Audio::Handle const>>(),
                                                                  ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int64_t>() } })));
     return ___internal_method;
   }
@@ -96,16 +99,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::Audio::ScriptableProcessorBindings.ValidateCanProcess
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Audio::Handle>, ::by_ref<::UnityEngine::Audio::RealtimeContext>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Audio::Handle const>, ::by_ref<::UnityEngine::Audio::RealtimeContext const>)>(
     &::UnityEngine::Audio::ScriptableProcessorBindings::ValidateCanProcess)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6eabe8c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
-                                         { "ValidateCanProcess", {}, { ::i2c::type_of<::by_ref<::Unity::Audio::Handle>>(), ::i2c::type_of<::by_ref<::UnityEngine::Audio::RealtimeContext>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
+                            { "ValidateCanProcess", {}, { ::i2c::type_of<::by_ref<::Unity::Audio::Handle const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Audio::RealtimeContext const>>() } })));
     return ___internal_method;
   }
 };
@@ -127,18 +130,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Unity::Audio::
 //  Writing Method size for method: ::UnityEngine::Audio::ScriptableProcessorBindings.PerformRecursiveConfigure
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Audio::Handle, ::UnityEngine::Audio::ControlHeader*, ::by_ref<::UnityEngine::AudioConfiguration>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Audio::Handle, ::UnityEngine::Audio::ControlHeader*, ::by_ref<::UnityEngine::AudioConfiguration const>)>(
     &::UnityEngine::Audio::ScriptableProcessorBindings::PerformRecursiveConfigure)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x6eaaa7c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
-                            { "PerformRecursiveConfigure",
-                              {},
-                              { ::i2c::type_of<::Unity::Audio::Handle>(), ::i2c::type_of<::UnityEngine::Audio::ControlHeader*>(), ::i2c::type_of<::by_ref<::UnityEngine::AudioConfiguration>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
+                                                                                           { "PerformRecursiveConfigure",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::Unity::Audio::Handle>(), ::i2c::type_of<::UnityEngine::Audio::ControlHeader*>(),
+                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::AudioConfiguration const>>() } })));
     return ___internal_method;
   }
 };
@@ -234,7 +236,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(void*)>(&::Unity
 //  Writing Method size for method: ::UnityEngine::Audio::ScriptableProcessorBindings.PerformRecursiveConfigureInternal
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Audio::Handle, void*, ::by_ref<::UnityEngine::AudioConfiguration>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Audio::Handle, void*, ::by_ref<::UnityEngine::AudioConfiguration const>)>(
     &::UnityEngine::Audio::ScriptableProcessorBindings::PerformRecursiveConfigureInternal)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x6eacbd4;
@@ -244,21 +246,21 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Audio::
         ::i2c::no_logger{},
         (::i2c::find_method(
             ::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
-            { "PerformRecursiveConfigureInternal", {}, { ::i2c::type_of<::Unity::Audio::Handle>(), ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<::UnityEngine::AudioConfiguration>>() } })));
+            { "PerformRecursiveConfigureInternal", {}, { ::i2c::type_of<::Unity::Audio::Handle>(), ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<::UnityEngine::AudioConfiguration const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Audio::ScriptableProcessorBindings.ValidateCanProcessInternal
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Audio::Handle>, void*)>(&::UnityEngine::Audio::ScriptableProcessorBindings::ValidateCanProcessInternal)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Audio::Handle const>, void*)>(&::UnityEngine::Audio::ScriptableProcessorBindings::ValidateCanProcessInternal)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6eacb3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
-                                                             { "ValidateCanProcessInternal", {}, { ::i2c::type_of<::by_ref<::Unity::Audio::Handle>>(), ::i2c::type_of<void*>() } })));
+                                                             { "ValidateCanProcessInternal", {}, { ::i2c::type_of<::by_ref<::Unity::Audio::Handle const>>(), ::i2c::type_of<void*>() } })));
     return ___internal_method;
   }
 };
@@ -278,7 +280,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, void*)>(&
 //  Writing Method size for method: ::UnityEngine::Audio::ScriptableProcessorBindings.GetRealtimeDataElementListForProcessorInternal
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (*)(void*, ::by_ref<::Unity::Audio::Handle>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (*)(void*, ::by_ref<::Unity::Audio::Handle const>)>(
     &::UnityEngine::Audio::ScriptableProcessorBindings::GetRealtimeDataElementListForProcessorInternal)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6eaca40;
@@ -286,14 +288,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (*)(void*, ::by_ref
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
-                                                { "GetRealtimeDataElementListForProcessorInternal", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<::Unity::Audio::Handle>>() } })));
+                                                { "GetRealtimeDataElementListForProcessorInternal", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<::Unity::Audio::Handle const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Audio::ScriptableProcessorBindings.GetControlDataElementListForProcessorInternal
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (*)(void*, ::by_ref<::Unity::Audio::Handle>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (*)(void*, ::by_ref<::Unity::Audio::Handle const>)>(
     &::UnityEngine::Audio::ScriptableProcessorBindings::GetControlDataElementListForProcessorInternal)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6eaca84;
@@ -301,41 +303,43 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (*)(void*, ::by_ref
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
-                                                { "GetControlDataElementListForProcessorInternal", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<::Unity::Audio::Handle>>() } })));
+                                                { "GetControlDataElementListForProcessorInternal", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<::Unity::Audio::Handle const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Audio::ScriptableProcessorBindings.ReturnDataFromProcessorInternal
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::by_ref<::Unity::Audio::Handle>, void*, int32_t, int32_t, int64_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::by_ref<::Unity::Audio::Handle const>, void*, int32_t, int32_t, int64_t)>(
     &::UnityEngine::Audio::ScriptableProcessorBindings::ReturnDataFromProcessorInternal)> {
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x6eacac8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
-                                                                                           { "ReturnDataFromProcessorInternal",
-                                                                                             {},
-                                                                                             { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<::Unity::Audio::Handle>>(), ::i2c::type_of<void*>(),
-                                                                                               ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int64_t>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
+                                                             { "ReturnDataFromProcessorInternal",
+                                                               {},
+                                                               { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<::Unity::Audio::Handle const>>(), ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>(),
+                                                                 ::i2c::type_of<int32_t>(), ::i2c::type_of<int64_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Audio::ScriptableProcessorBindings.AddDataToProcessorHandleInternal
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(void*, ::by_ref<::Unity::Audio::Handle>, void*, int32_t, int32_t, int64_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(void*, ::by_ref<::Unity::Audio::Handle const>, void*, int32_t, int32_t, int64_t)>(
     &::UnityEngine::Audio::ScriptableProcessorBindings::AddDataToProcessorHandleInternal)> {
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x6eac9cc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
-                                                                                           { "AddDataToProcessorHandleInternal",
-                                                                                             {},
-                                                                                             { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<::Unity::Audio::Handle>>(), ::i2c::type_of<void*>(),
-                                                                                               ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int64_t>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
+                                                             { "AddDataToProcessorHandleInternal",
+                                                               {},
+                                                               { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<::Unity::Audio::Handle const>>(), ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>(),
+                                                                 ::i2c::type_of<int32_t>(), ::i2c::type_of<int64_t>() } })));
     return ___internal_method;
   }
 };
@@ -369,46 +373,48 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngin
 //  Writing Method size for method: ::UnityEngine::Audio::ScriptableProcessorBindings.PerformRecursiveUpdateInternal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Audio::Handle>, void*)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Audio::Handle const>, void*)>(
     &::UnityEngine::Audio::ScriptableProcessorBindings::PerformRecursiveUpdateInternal_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6eacd60;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
-                                                             { "PerformRecursiveUpdateInternal_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Audio::Handle>>(), ::i2c::type_of<void*>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
+                                                { "PerformRecursiveUpdateInternal_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Audio::Handle const>>(), ::i2c::type_of<void*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Audio::ScriptableProcessorBindings.PerformRecursiveConfigureInternal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Audio::Handle>, void*, ::by_ref<::UnityEngine::AudioConfiguration>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Audio::Handle const>, void*, ::by_ref<::UnityEngine::AudioConfiguration const>)>(
     &::UnityEngine::Audio::ScriptableProcessorBindings::PerformRecursiveConfigureInternal_Injected)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x6eacda4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
-                                                { "PerformRecursiveConfigureInternal_Injected",
-                                                  {},
-                                                  { ::i2c::type_of<::by_ref<::Unity::Audio::Handle>>(), ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<::UnityEngine::AudioConfiguration>>() } })));
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
+                            { "PerformRecursiveConfigureInternal_Injected",
+                              {},
+                              { ::i2c::type_of<::by_ref<::Unity::Audio::Handle const>>(), ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<::UnityEngine::AudioConfiguration const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Audio::ScriptableProcessorBindings.CheckProcessorExistsInternal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Audio::Handle>, void*)>(&::UnityEngine::Audio::ScriptableProcessorBindings::CheckProcessorExistsInternal_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Audio::Handle const>, void*)>(
+    &::UnityEngine::Audio::ScriptableProcessorBindings::CheckProcessorExistsInternal_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6eacdf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
-                                                             { "CheckProcessorExistsInternal_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Audio::Handle>>(), ::i2c::type_of<void*>() } })));
+                                                             { "CheckProcessorExistsInternal_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Audio::Handle const>>(), ::i2c::type_of<void*>() } })));
     return ___internal_method;
   }
 };
@@ -418,49 +424,51 @@ inline void UnityEngine::Audio::ScriptableProcessorBindings::QueueProcessorDispo
                                               { "QueueProcessorDispose", {}, { ::i2c::type_of<::UnityEngine::Audio::ProcessorHeader*>(), ::i2c::type_of<::UnityEngine::Audio::ControlHeader*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, header, control);
 }
-inline bool UnityEngine::Audio::ScriptableProcessorBindings::AddDataToProcessorHandle(::UnityEngine::Audio::ControlHeader* control, /* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle> handle,
+inline bool UnityEngine::Audio::ScriptableProcessorBindings::AddDataToProcessorHandle(::UnityEngine::Audio::ControlHeader* control, /* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle const> handle,
                                                                                       void* data, int32_t size, int32_t align, int64_t typeHash) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
                                                            { "AddDataToProcessorHandle",
                                                              {},
-                                                             { ::i2c::type_of<::UnityEngine::Audio::ControlHeader*>(), ::i2c::type_of<::by_ref<::Unity::Audio::Handle>>(), ::i2c::type_of<void*>(),
-                                                               ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int64_t>() } })));
+                                                             { ::i2c::type_of<::UnityEngine::Audio::ControlHeader*>(), ::i2c::type_of<::by_ref<::Unity::Audio::Handle const>>(),
+                                                               ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int64_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, control, handle, data, size, align, typeHash);
 }
 inline ::UnityEngine::Audio::AvailableData_ProcessorInstance_Element*
-UnityEngine::Audio::ScriptableProcessorBindings::GetAvailableDataForRealtime(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RealtimeAccess> access,
-                                                                             /* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle> handle) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
-                          { "GetAvailableDataForRealtime", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Audio::RealtimeAccess>>(), ::i2c::type_of<::by_ref<::Unity::Audio::Handle>>() } })));
+UnityEngine::Audio::ScriptableProcessorBindings::GetAvailableDataForRealtime(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RealtimeAccess const> access,
+                                                                             /* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle const> handle) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(
+                       ::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
+                       { "GetAvailableDataForRealtime", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Audio::RealtimeAccess const>>(), ::i2c::type_of<::by_ref<::Unity::Audio::Handle const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Audio::AvailableData_ProcessorInstance_Element*>(nullptr, ___internal_method, access, handle);
 }
 inline ::UnityEngine::Audio::AvailableData_ProcessorInstance_Element*
-UnityEngine::Audio::ScriptableProcessorBindings::GetAvailableDataForControl(::UnityEngine::Audio::ControlHeader* control, /* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle> handle) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
-                                              { "GetAvailableDataForControl", {}, { ::i2c::type_of<::UnityEngine::Audio::ControlHeader*>(), ::i2c::type_of<::by_ref<::Unity::Audio::Handle>>() } })));
+UnityEngine::Audio::ScriptableProcessorBindings::GetAvailableDataForControl(::UnityEngine::Audio::ControlHeader* control, /* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle const> handle) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
+                                       { "GetAvailableDataForControl", {}, { ::i2c::type_of<::UnityEngine::Audio::ControlHeader*>(), ::i2c::type_of<::by_ref<::Unity::Audio::Handle const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Audio::AvailableData_ProcessorInstance_Element*>(nullptr, ___internal_method, control, handle);
 }
-inline void UnityEngine::Audio::ScriptableProcessorBindings::ReturnDataFromProcessor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RealtimeAccess> access,
-                                                                                     /* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle> handle, void* data, int32_t size, int32_t align,
+inline void UnityEngine::Audio::ScriptableProcessorBindings::ReturnDataFromProcessor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RealtimeAccess const> access,
+                                                                                     /* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle const> handle, void* data, int32_t size, int32_t align,
                                                                                      int64_t typeHash) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
                                                            { "ReturnDataFromProcessor",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Audio::RealtimeAccess>>(), ::i2c::type_of<::by_ref<::Unity::Audio::Handle>>(),
+                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Audio::RealtimeAccess const>>(), ::i2c::type_of<::by_ref<::Unity::Audio::Handle const>>(),
                                                                ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int64_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, access, handle, data, size, align, typeHash);
 }
-inline void UnityEngine::Audio::ScriptableProcessorBindings::ValidateCanProcess(/* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle> handle,
-                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RealtimeContext> ctx) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
-                                       { "ValidateCanProcess", {}, { ::i2c::type_of<::by_ref<::Unity::Audio::Handle>>(), ::i2c::type_of<::by_ref<::UnityEngine::Audio::RealtimeContext>>() } })));
+inline void UnityEngine::Audio::ScriptableProcessorBindings::ValidateCanProcess(/* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle const> handle,
+                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RealtimeContext const> ctx) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
+                          { "ValidateCanProcess", {}, { ::i2c::type_of<::by_ref<::Unity::Audio::Handle const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Audio::RealtimeContext const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, handle, ctx);
 }
 inline bool UnityEngine::Audio::ScriptableProcessorBindings::CheckProcessorExists(::Unity::Audio::Handle handle, ::UnityEngine::Audio::ControlHeader* control) {
@@ -470,13 +478,12 @@ inline bool UnityEngine::Audio::ScriptableProcessorBindings::CheckProcessorExist
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, handle, control);
 }
 inline void UnityEngine::Audio::ScriptableProcessorBindings::PerformRecursiveConfigure(::Unity::Audio::Handle handle, ::UnityEngine::Audio::ControlHeader* control,
-                                                                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::AudioConfiguration> configuration) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
-                          { "PerformRecursiveConfigure",
-                            {},
-                            { ::i2c::type_of<::Unity::Audio::Handle>(), ::i2c::type_of<::UnityEngine::Audio::ControlHeader*>(), ::i2c::type_of<::by_ref<::UnityEngine::AudioConfiguration>>() } })));
+                                                                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::AudioConfiguration const> configuration) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
+                                                                                         { "PerformRecursiveConfigure",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::Unity::Audio::Handle>(), ::i2c::type_of<::UnityEngine::Audio::ControlHeader*>(),
+                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::AudioConfiguration const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, handle, control, configuration);
 }
 inline void UnityEngine::Audio::ScriptableProcessorBindings::PerformRecursiveUpdate(::Unity::Audio::Handle handle, ::UnityEngine::Audio::ControlHeader* control) {
@@ -519,18 +526,18 @@ inline bool UnityEngine::Audio::ScriptableProcessorBindings::IsSystemWideReconfi
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, control);
 }
 inline void UnityEngine::Audio::ScriptableProcessorBindings::PerformRecursiveConfigureInternal(::Unity::Audio::Handle handle, void* control,
-                                                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::AudioConfiguration> configuration) {
+                                                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::AudioConfiguration const> configuration) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
           ::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
-          { "PerformRecursiveConfigureInternal", {}, { ::i2c::type_of<::Unity::Audio::Handle>(), ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<::UnityEngine::AudioConfiguration>>() } })));
+          { "PerformRecursiveConfigureInternal", {}, { ::i2c::type_of<::Unity::Audio::Handle>(), ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<::UnityEngine::AudioConfiguration const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, handle, control, configuration);
 }
-inline void UnityEngine::Audio::ScriptableProcessorBindings::ValidateCanProcessInternal(/* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle> handle, void* processingContext) {
+inline void UnityEngine::Audio::ScriptableProcessorBindings::ValidateCanProcessInternal(/* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle const> handle, void* processingContext) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
-                                                           { "ValidateCanProcessInternal", {}, { ::i2c::type_of<::by_ref<::Unity::Audio::Handle>>(), ::i2c::type_of<void*>() } })));
+                                                           { "ValidateCanProcessInternal", {}, { ::i2c::type_of<::by_ref<::Unity::Audio::Handle const>>(), ::i2c::type_of<void*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, handle, processingContext);
 }
 inline void UnityEngine::Audio::ScriptableProcessorBindings::QueueProcessorDisposeInternal(void* header, void* control) {
@@ -538,33 +545,33 @@ inline void UnityEngine::Audio::ScriptableProcessorBindings::QueueProcessorDispo
                                                                                          { "QueueProcessorDisposeInternal", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<void*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, header, control);
 }
-inline void* UnityEngine::Audio::ScriptableProcessorBindings::GetRealtimeDataElementListForProcessorInternal(void* access, /* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle> handle) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
-                                                           { "GetRealtimeDataElementListForProcessorInternal", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<::Unity::Audio::Handle>>() } })));
+inline void* UnityEngine::Audio::ScriptableProcessorBindings::GetRealtimeDataElementListForProcessorInternal(void* access, /* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle const> handle) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
+                                              { "GetRealtimeDataElementListForProcessorInternal", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<::Unity::Audio::Handle const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void*>(nullptr, ___internal_method, access, handle);
 }
-inline void* UnityEngine::Audio::ScriptableProcessorBindings::GetControlDataElementListForProcessorInternal(void* control, /* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle> handle) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
-                                                           { "GetControlDataElementListForProcessorInternal", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<::Unity::Audio::Handle>>() } })));
+inline void* UnityEngine::Audio::ScriptableProcessorBindings::GetControlDataElementListForProcessorInternal(void* control, /* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle const> handle) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
+                                              { "GetControlDataElementListForProcessorInternal", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<::Unity::Audio::Handle const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void*>(nullptr, ___internal_method, control, handle);
 }
-inline void UnityEngine::Audio::ScriptableProcessorBindings::ReturnDataFromProcessorInternal(void* access, /* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle> handle, void* data, int32_t size,
+inline void UnityEngine::Audio::ScriptableProcessorBindings::ReturnDataFromProcessorInternal(void* access, /* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle const> handle, void* data, int32_t size,
                                                                                              int32_t align, int64_t typeHash) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
                                                                                          { "ReturnDataFromProcessorInternal",
                                                                                            {},
-                                                                                           { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<::Unity::Audio::Handle>>(), ::i2c::type_of<void*>(),
+                                                                                           { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<::Unity::Audio::Handle const>>(), ::i2c::type_of<void*>(),
                                                                                              ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int64_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, access, handle, data, size, align, typeHash);
 }
-inline bool UnityEngine::Audio::ScriptableProcessorBindings::AddDataToProcessorHandleInternal(void* control, /* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle> handle, void* data, int32_t size,
+inline bool UnityEngine::Audio::ScriptableProcessorBindings::AddDataToProcessorHandleInternal(void* control, /* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle const> handle, void* data, int32_t size,
                                                                                               int32_t align, int64_t typeHash) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
                                                                                          { "AddDataToProcessorHandleInternal",
                                                                                            {},
-                                                                                           { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<::Unity::Audio::Handle>>(), ::i2c::type_of<void*>(),
+                                                                                           { ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<::Unity::Audio::Handle const>>(), ::i2c::type_of<void*>(),
                                                                                              ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int64_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, control, handle, data, size, align, typeHash);
 }
@@ -579,25 +586,26 @@ inline void UnityEngine::Audio::ScriptableProcessorBindings::ThrowScriptingExcep
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(), { "ThrowScriptingExceptionForTest", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
-inline void UnityEngine::Audio::ScriptableProcessorBindings::PerformRecursiveUpdateInternal_Injected(::by_ref<::Unity::Audio::Handle> handle, void* control) {
+inline void UnityEngine::Audio::ScriptableProcessorBindings::PerformRecursiveUpdateInternal_Injected(::by_ref<::Unity::Audio::Handle const> handle, void* control) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
-                                                           { "PerformRecursiveUpdateInternal_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Audio::Handle>>(), ::i2c::type_of<void*>() } })));
+                                                           { "PerformRecursiveUpdateInternal_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Audio::Handle const>>(), ::i2c::type_of<void*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, handle, control);
 }
-inline void UnityEngine::Audio::ScriptableProcessorBindings::PerformRecursiveConfigureInternal_Injected(::by_ref<::Unity::Audio::Handle> handle, void* control,
-                                                                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::AudioConfiguration> configuration) {
+inline void UnityEngine::Audio::ScriptableProcessorBindings::PerformRecursiveConfigureInternal_Injected(::by_ref<::Unity::Audio::Handle const> handle, void* control,
+                                                                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::AudioConfiguration const> configuration) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
-                                              { "PerformRecursiveConfigureInternal_Injected",
-                                                {},
-                                                { ::i2c::type_of<::by_ref<::Unity::Audio::Handle>>(), ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<::UnityEngine::AudioConfiguration>>() } })));
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
+                          { "PerformRecursiveConfigureInternal_Injected",
+                            {},
+                            { ::i2c::type_of<::by_ref<::Unity::Audio::Handle const>>(), ::i2c::type_of<void*>(), ::i2c::type_of<::by_ref<::UnityEngine::AudioConfiguration const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, handle, control, configuration);
 }
-inline bool UnityEngine::Audio::ScriptableProcessorBindings::CheckProcessorExistsInternal_Injected(::by_ref<::Unity::Audio::Handle> handle, void* control) {
+inline bool UnityEngine::Audio::ScriptableProcessorBindings::CheckProcessorExistsInternal_Injected(::by_ref<::Unity::Audio::Handle const> handle, void* control) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::ScriptableProcessorBindings*>(),
-                                                           { "CheckProcessorExistsInternal_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Audio::Handle>>(), ::i2c::type_of<void*>() } })));
+                                                           { "CheckProcessorExistsInternal_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::Audio::Handle const>>(), ::i2c::type_of<void*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, handle, control);
 }
 // Ctor Parameters []

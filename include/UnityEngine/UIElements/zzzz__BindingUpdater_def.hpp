@@ -357,13 +357,14 @@ public:
                       put = setStaticF_s_VisitDataSourceAtPathVisitor)) ::UnityEngine::UIElements::BindingUpdater_UIPathVisitor* s_VisitDataSourceAtPathVisitor;
 
   /// @brief Method GetExtractValueErrorString, addr 0x7087b20, size 0x224, virtual false, abstract: false, final false
-  static inline ::StringW GetExtractValueErrorString(::Unity::Properties::VisitReturnCode returnCode, ::System::Object* target, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path);
+  static inline ::StringW GetExtractValueErrorString(::Unity::Properties::VisitReturnCode returnCode, ::System::Object* target,
+                                                     /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> path);
 
   /// @brief Method GetRootDataSourceError, addr 0x7087d44, size 0x94, virtual false, abstract: false, final false
   static inline ::StringW GetRootDataSourceError(::System::Object* target);
 
   /// @brief Method GetVisitationErrorString, addr 0x7087900, size 0x220, virtual false, abstract: false, final false
-  static inline ::StringW GetVisitationErrorString(::Unity::Properties::VisitReturnCode returnCode, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context);
+  static inline ::StringW GetVisitationErrorString(::Unity::Properties::VisitReturnCode returnCode, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext const> context);
 
   static inline ::UnityEngine::UIElements::BindingUpdater* New_ctor();
 
@@ -377,37 +378,39 @@ public:
   static inline bool ShouldProcessBindingAtStage(::UnityEngine::UIElements::DataBinding* dataBinding, ::UnityEngine::UIElements::BindingUpdateStage stage, bool versionChanged, bool dirty);
 
   /// @brief Method TryUpdateUIWithNonContainer, addr 0x7086fa8, size 0x824, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::BindingResult TryUpdateUIWithNonContainer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context,
+  static inline ::UnityEngine::UIElements::BindingResult TryUpdateUIWithNonContainer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext const> context,
                                                                                      ::UnityEngine::UIElements::DataBinding* binding, ::System::Object* value);
 
   /// @brief Method UpdateDataSource, addr 0x7086f9c, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::BindingResult UpdateDataSource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context,
+  inline ::UnityEngine::UIElements::BindingResult UpdateDataSource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext const> context,
                                                                    ::UnityEngine::UIElements::CustomBinding* customBinding);
 
   /// @brief Method UpdateDataSource, addr 0x7086d2c, size 0x270, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::BindingResult UpdateDataSource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context, ::UnityEngine::UIElements::DataBinding* dataBinding);
+  inline ::UnityEngine::UIElements::BindingResult UpdateDataSource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext const> context,
+                                                                   ::UnityEngine::UIElements::DataBinding* dataBinding);
 
   /// @brief Method UpdateSource, addr 0x7086bac, size 0x180, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::BindingResult UpdateSource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context, ::UnityEngine::UIElements::Binding* bindingObject);
+  inline ::UnityEngine::UIElements::BindingResult UpdateSource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext const> context, ::UnityEngine::UIElements::Binding* bindingObject);
 
   /// @brief Method UpdateUI, addr 0x7086784, size 0x184, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::BindingResult UpdateUI(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context, ::UnityEngine::UIElements::Binding* bindingObject);
+  inline ::UnityEngine::UIElements::BindingResult UpdateUI(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext const> context, ::UnityEngine::UIElements::Binding* bindingObject);
 
   /// @brief Method UpdateUI, addr 0x7086b8c, size 0x20, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::BindingResult UpdateUI(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context, ::UnityEngine::UIElements::CustomBinding* customBinding);
+  inline ::UnityEngine::UIElements::BindingResult UpdateUI(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext const> context,
+                                                           ::UnityEngine::UIElements::CustomBinding* customBinding);
 
   /// @brief Method UpdateUI, addr 0x7086908, size 0x284, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::BindingResult UpdateUI(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context, ::UnityEngine::UIElements::DataBinding* dataBinding);
+  inline ::UnityEngine::UIElements::BindingResult UpdateUI(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext const> context, ::UnityEngine::UIElements::DataBinding* dataBinding);
 
   /// @brief Method VisitAtPath, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContainer>
   static inline ::System::ValueTuple_4<bool, ::Unity::Properties::VisitReturnCode, ::Unity::Properties::VisitReturnCode, ::UnityEngine::UIElements::BindingResult>
   VisitAtPath(::UnityEngine::UIElements::DataBinding* dataBinding, ::UnityEngine::UIElements::BindingUpdateStage direction, ::by_ref<TContainer> container,
-              /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context);
+              /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> path, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext const> context);
 
   /// @brief Method VisitRoot, addr 0x70877cc, size 0x134, virtual false, abstract: false, final false
   static inline ::System::ValueTuple_3<bool, ::Unity::Properties::VisitReturnCode, ::UnityEngine::UIElements::BindingResult>
-  VisitRoot(::UnityEngine::UIElements::DataBinding* dataBinding, ::by_ref<::System::Object*> container, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context);
+  VisitRoot(::UnityEngine::UIElements::DataBinding* dataBinding, ::by_ref<::System::Object*> container, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext const> context);
 
   /// @brief Method .ctor, addr 0x7087e48, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();

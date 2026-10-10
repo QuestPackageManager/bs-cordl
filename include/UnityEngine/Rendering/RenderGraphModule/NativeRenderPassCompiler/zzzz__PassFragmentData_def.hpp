@@ -34,12 +34,12 @@ public:
   inline int32_t GetHashCode();
 
   /// @brief Method SameSubResource, addr 0x6c26fbc, size 0x98, virtual false, abstract: false, final false
-  static inline bool SameSubResource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData> x,
-                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData> y);
+  static inline bool SameSubResource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData const> x,
+                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData const> y);
 
   /// @brief Method .ctor, addr 0x6c26f2c, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> handle, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags, int32_t mipLevel,
-                    int32_t depthSlice);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> handle, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags,
+                    int32_t mipLevel, int32_t depthSlice);
 
   // Ctor Parameters []
   // @brief default ctor

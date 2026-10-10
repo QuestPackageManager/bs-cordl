@@ -100,7 +100,7 @@ public:
   inline void ClearReferenceValue(::UnityEngine::PropertyName id);
 
   /// @brief Method ClearReferenceValue_Injected, addr 0x6f91d40, size 0x44, virtual false, abstract: false, final false
-  static inline void ClearReferenceValue_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::PropertyName> id);
+  static inline void ClearReferenceValue_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::PropertyName const> id);
 
   /// @brief Method DeferredEvaluate, addr 0x6f90ed4, size 0x4, virtual false, abstract: false, final false
   inline void DeferredEvaluate();
@@ -148,7 +148,7 @@ public:
   inline ::UnityW<::UnityEngine::Object> GetReferenceValue(::UnityEngine::PropertyName id, ::by_ref<bool> idValid);
 
   /// @brief Method GetReferenceValue_Injected, addr 0x6f92004, size 0x54, virtual false, abstract: false, final false
-  static inline ::System::IntPtr GetReferenceValue_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::PropertyName> id, ::by_ref<bool> idValid);
+  static inline ::System::IntPtr GetReferenceValue_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::PropertyName const> id, ::by_ref<bool> idValid);
 
   /// @brief Method GetWrapMode, addr 0x6f90a08, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::DirectorWrapMode GetWrapMode();
@@ -202,7 +202,7 @@ public:
   inline void PlayOnFrame(::UnityEngine::Playables::FrameRate frameRate);
 
   /// @brief Method PlayOnFrame_Injected, addr 0x6f9193c, size 0x44, virtual false, abstract: false, final false
-  static inline void PlayOnFrame_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Playables::FrameRate> frameRate);
+  static inline void PlayOnFrame_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Playables::FrameRate const> frameRate);
 
   /// @brief Method Play_Injected, addr 0x6f91980, size 0x3c, virtual false, abstract: false, final false
   static inline void Play_Injected(::System::IntPtr _unity_self);
@@ -269,7 +269,7 @@ public:
   inline void SetReferenceValue(::UnityEngine::PropertyName id, ::UnityEngine::Object* value);
 
   /// @brief Method SetReferenceValue_Injected, addr 0x6f91e50, size 0x54, virtual false, abstract: false, final false
-  static inline void SetReferenceValue_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::PropertyName> id, ::System::IntPtr value);
+  static inline void SetReferenceValue_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::PropertyName const> id, ::System::IntPtr value);
 
   /// @brief Method SetWrapMode, addr 0x6f90974, size 0x90, virtual false, abstract: false, final false
   inline void SetWrapMode(::UnityEngine::Playables::DirectorWrapMode mode);

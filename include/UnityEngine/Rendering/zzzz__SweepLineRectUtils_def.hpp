@@ -139,7 +139,7 @@ public:
   static inline float_t CalculateRectUnionArea(::System::Collections::Generic::List_1<::UnityEngine::Rect>* rects);
 
   /// @brief Method InsertEvents, addr 0x6be5ba4, size 0x160, virtual false, abstract: false, final false
-  static inline void InsertEvents(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rect> rect, ::ArrayW<::UnityEngine::Vector4> eventsBuffer, ::by_ref<int32_t> eventCount);
+  static inline void InsertEvents(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rect const> rect, ::ArrayW<::UnityEngine::Vector4> eventsBuffer, ::by_ref<int32_t> eventCount);
 
   /// @brief Method MergeLengthY, addr 0x6be609c, size 0xc0, virtual false, abstract: false, final false
   static inline float_t MergeLengthY(::ArrayW<::UnityEngine::Vector2> activeBuffer, int32_t count);

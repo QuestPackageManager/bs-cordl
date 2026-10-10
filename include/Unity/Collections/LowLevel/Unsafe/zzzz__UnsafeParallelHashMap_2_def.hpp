@@ -173,7 +173,7 @@ public:
   /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// [Conditional("UNITY_DOTS_DEBUG")]
   /// @brief Method ThrowKeyAlreadyAdded, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline void ThrowKeyAlreadyAdded(/* [IsReadOnly] */ ::by_ref<TKey> key);
+  static inline void ThrowKeyAlreadyAdded(/* [IsReadOnly] */ ::by_ref<TKey const> key);
 
   /// @brief Method TryAdd, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryAdd(TKey key, TValue item);

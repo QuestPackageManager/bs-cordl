@@ -218,21 +218,21 @@ public:
   inline void SetVector2(int32_t nameID, ::UnityEngine::Vector2 v);
 
   /// @brief Method SetVector2_Injected, addr 0x72c7ecc, size 0x54, virtual false, abstract: false, final false
-  static inline void SetVector2_Injected(::System::IntPtr _unity_self, int32_t nameID, ::by_ref<::UnityEngine::Vector2> v);
+  static inline void SetVector2_Injected(::System::IntPtr _unity_self, int32_t nameID, ::by_ref<::UnityEngine::Vector2 const> v);
 
   /// [NativeName("SetValueFromScript<Vector3f>")]
   /// @brief Method SetVector3, addr 0x72c7f20, size 0x70, virtual false, abstract: false, final false
   inline void SetVector3(int32_t nameID, ::UnityEngine::Vector3 v);
 
   /// @brief Method SetVector3_Injected, addr 0x72c7f90, size 0x54, virtual false, abstract: false, final false
-  static inline void SetVector3_Injected(::System::IntPtr _unity_self, int32_t nameID, ::by_ref<::UnityEngine::Vector3> v);
+  static inline void SetVector3_Injected(::System::IntPtr _unity_self, int32_t nameID, ::by_ref<::UnityEngine::Vector3 const> v);
 
   /// [NativeName("SetValueFromScript<Vector4f>")]
   /// @brief Method SetVector4, addr 0x72c7fe4, size 0x70, virtual false, abstract: false, final false
   inline void SetVector4(int32_t nameID, ::UnityEngine::Vector4 v);
 
   /// @brief Method SetVector4_Injected, addr 0x72c8054, size 0x54, virtual false, abstract: false, final false
-  static inline void SetVector4_Injected(::System::IntPtr _unity_self, int32_t nameID, ::by_ref<::UnityEngine::Vector4> v);
+  static inline void SetVector4_Injected(::System::IntPtr _unity_self, int32_t nameID, ::by_ref<::UnityEngine::Vector4 const> v);
 
   /// @brief Method SetWrapValue, addr 0x72c73e0, size 0x5c, virtual false, abstract: false, final false
   inline void SetWrapValue(::System::IntPtr ptrToEventAttribute);

@@ -366,7 +366,7 @@ public:
   __declspec(property(get = get_settings)) ::UnityEngine::Rendering::GPUResidentDrawerSettings settings;
 
   /// @brief Method AppendNewInstance, addr 0x6c45ad4, size 0x38, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::InstanceHandle AppendNewInstance(int32_t rendererGroupID, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> instanceTransform);
+  inline ::UnityEngine::Rendering::InstanceHandle AppendNewInstance(int32_t rendererGroupID, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4 const> instanceTransform);
 
   /// @brief Method ClassifyMaterials, addr 0x6c448dc, size 0x170, virtual false, abstract: false, final false
   inline void ClassifyMaterials(::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> materials, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> unsupportedMaterials,
@@ -411,7 +411,7 @@ public:
 
   /// @brief Method InstanceOcclusionTest, addr 0x6c42db0, size 0xa0, virtual false, abstract: false, final false
   static inline void InstanceOcclusionTest(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
-                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings> settings,
+                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings const> settings,
                                            ::System::ReadOnlySpan_1<::UnityEngine::Rendering::SubviewOcclusionTest> subviewOcclusionTests);
 
   /// @brief Method IsEnabled, addr 0x6c3ebdc, size 0x54, virtual false, abstract: false, final false
@@ -532,7 +532,7 @@ public:
 
   /// @brief Method UpdateInstanceOccluders, addr 0x6c42e50, size 0xa0, virtual false, abstract: false, final false
   static inline void UpdateInstanceOccluders(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
-                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParameters,
+                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters const> occluderParameters,
                                              ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate> occluderSubviewUpdates);
 
   constexpr ::UnityEngine::Rendering::GPUResidentBatcher* const& __cordl_internal_get_m_Batcher() const;

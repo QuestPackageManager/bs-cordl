@@ -324,28 +324,30 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::Unity::Hierarc
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyViewModel.IndexOf
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Hierarchy::HierarchyViewModel::*)(::by_ref<::Unity::Hierarchy::HierarchyNode>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Hierarchy::HierarchyViewModel::*)(::by_ref<::Unity::Hierarchy::HierarchyNode const>)>(
     &::Unity::Hierarchy::HierarchyViewModel::IndexOf)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x6f9a130;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(), { "IndexOf", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(), { "IndexOf", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyViewModel.Contains
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Hierarchy::HierarchyViewModel::*)(::by_ref<::Unity::Hierarchy::HierarchyNode>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Hierarchy::HierarchyViewModel::*)(::by_ref<::Unity::Hierarchy::HierarchyNode const>)>(
     &::Unity::Hierarchy::HierarchyViewModel::Contains)> {
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x6f9a1cc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(), { "Contains", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(), { "Contains", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>() } })));
     return ___internal_method;
   }
 };
@@ -365,24 +367,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy:
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyViewModel.SetFlags
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchyViewModel::*)(::by_ref<::Unity::Hierarchy::HierarchyNode>, ::Unity::Hierarchy::HierarchyNodeFlags)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchyViewModel::*)(::by_ref<::Unity::Hierarchy::HierarchyNode const>, ::Unity::Hierarchy::HierarchyNodeFlags)>(
     &::Unity::Hierarchy::HierarchyViewModel::SetFlags)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6f9a2c4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
-                                                { "SetFlags", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
+                                         { "SetFlags", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyViewModel.SetFlagsRecursive
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (::Unity::Hierarchy::HierarchyViewModel::*)(::by_ref<::Unity::Hierarchy::HierarchyNode>, ::Unity::Hierarchy::HierarchyNodeFlags, ::Unity::Hierarchy::HierarchyTraversalDirection)>(
-        &::Unity::Hierarchy::HierarchyViewModel::SetFlagsRecursive)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchyViewModel::*)(::by_ref<::Unity::Hierarchy::HierarchyNode const>, ::Unity::Hierarchy::HierarchyNodeFlags,
+                                                                                                        ::Unity::Hierarchy::HierarchyTraversalDirection)>(
+    &::Unity::Hierarchy::HierarchyViewModel::SetFlagsRecursive)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6f9a330;
 
@@ -391,7 +394,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
                                                              { "SetFlagsRecursive",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>(),
+                                                               { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>(),
                                                                  ::i2c::type_of<::Unity::Hierarchy::HierarchyTraversalDirection>() } })));
     return ___internal_method;
   }
@@ -399,39 +402,41 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyViewModel.HasAllFlags
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Hierarchy::HierarchyViewModel::*)(::by_ref<::Unity::Hierarchy::HierarchyNode>, ::Unity::Hierarchy::HierarchyNodeFlags)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Hierarchy::HierarchyViewModel::*)(::by_ref<::Unity::Hierarchy::HierarchyNode const>, ::Unity::Hierarchy::HierarchyNodeFlags)>(
     &::Unity::Hierarchy::HierarchyViewModel::HasAllFlags)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6f9a3a4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
-                                                { "HasAllFlags", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
+                                         { "HasAllFlags", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyViewModel.ClearFlags
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchyViewModel::*)(::by_ref<::Unity::Hierarchy::HierarchyNode>, ::Unity::Hierarchy::HierarchyNodeFlags)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchyViewModel::*)(::by_ref<::Unity::Hierarchy::HierarchyNode const>, ::Unity::Hierarchy::HierarchyNodeFlags)>(
     &::Unity::Hierarchy::HierarchyViewModel::ClearFlags)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6f9a410;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
-                                                { "ClearFlags", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
+                                         { "ClearFlags", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyViewModel.ClearFlagsRecursive
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (::Unity::Hierarchy::HierarchyViewModel::*)(::by_ref<::Unity::Hierarchy::HierarchyNode>, ::Unity::Hierarchy::HierarchyNodeFlags, ::Unity::Hierarchy::HierarchyTraversalDirection)>(
-        &::Unity::Hierarchy::HierarchyViewModel::ClearFlagsRecursive)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchyViewModel::*)(::by_ref<::Unity::Hierarchy::HierarchyNode const>, ::Unity::Hierarchy::HierarchyNodeFlags,
+                                                                                                        ::Unity::Hierarchy::HierarchyTraversalDirection)>(
+    &::Unity::Hierarchy::HierarchyViewModel::ClearFlagsRecursive)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6f9a47c;
 
@@ -440,7 +445,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
                                                              { "ClearFlagsRecursive",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>(),
+                                                               { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>(),
                                                                  ::i2c::type_of<::Unity::Hierarchy::HierarchyTraversalDirection>() } })));
     return ___internal_method;
   }
@@ -547,24 +552,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy:
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyViewModel.SetFlagsNode
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchyViewModel::*)(::by_ref<::Unity::Hierarchy::HierarchyNode>, ::Unity::Hierarchy::HierarchyNodeFlags)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchyViewModel::*)(::by_ref<::Unity::Hierarchy::HierarchyNode const>, ::Unity::Hierarchy::HierarchyNodeFlags)>(
     &::Unity::Hierarchy::HierarchyViewModel::SetFlagsNode)> {
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x6f9a2c8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
-                                                { "SetFlagsNode", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
+                                         { "SetFlagsNode", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyViewModel.SetFlagsRecursiveNode
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (::Unity::Hierarchy::HierarchyViewModel::*)(::by_ref<::Unity::Hierarchy::HierarchyNode>, ::Unity::Hierarchy::HierarchyNodeFlags, ::Unity::Hierarchy::HierarchyTraversalDirection)>(
-        &::Unity::Hierarchy::HierarchyViewModel::SetFlagsRecursiveNode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchyViewModel::*)(::by_ref<::Unity::Hierarchy::HierarchyNode const>, ::Unity::Hierarchy::HierarchyNodeFlags,
+                                                                                                        ::Unity::Hierarchy::HierarchyTraversalDirection)>(
+    &::Unity::Hierarchy::HierarchyViewModel::SetFlagsRecursiveNode)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x6f9a334;
 
@@ -573,7 +579,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
                                                              { "SetFlagsRecursiveNode",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>(),
+                                                               { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>(),
                                                                  ::i2c::type_of<::Unity::Hierarchy::HierarchyTraversalDirection>() } })));
     return ___internal_method;
   }
@@ -581,23 +587,23 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyViewModel.HasAllFlagsNode
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Hierarchy::HierarchyViewModel::*)(::by_ref<::Unity::Hierarchy::HierarchyNode>, ::Unity::Hierarchy::HierarchyNodeFlags)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Hierarchy::HierarchyViewModel::*)(::by_ref<::Unity::Hierarchy::HierarchyNode const>, ::Unity::Hierarchy::HierarchyNodeFlags)>(
     &::Unity::Hierarchy::HierarchyViewModel::HasAllFlagsNode)> {
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x6f9a3a8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
-                                         { "HasAllFlagsNode", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
+                            { "HasAllFlagsNode", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyViewModel.ClearFlagsNode
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchyViewModel::*)(::by_ref<::Unity::Hierarchy::HierarchyNode>, ::Unity::Hierarchy::HierarchyNodeFlags)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchyViewModel::*)(::by_ref<::Unity::Hierarchy::HierarchyNode const>, ::Unity::Hierarchy::HierarchyNodeFlags)>(
     &::Unity::Hierarchy::HierarchyViewModel::ClearFlagsNode)> {
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x6f9a414;
@@ -606,16 +612,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy:
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
                      (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
-                                         { "ClearFlagsNode", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
+                                         { "ClearFlagsNode", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyViewModel.ClearFlagsRecursiveNode
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (::Unity::Hierarchy::HierarchyViewModel::*)(::by_ref<::Unity::Hierarchy::HierarchyNode>, ::Unity::Hierarchy::HierarchyNodeFlags, ::Unity::Hierarchy::HierarchyTraversalDirection)>(
-        &::Unity::Hierarchy::HierarchyViewModel::ClearFlagsRecursiveNode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchyViewModel::*)(::by_ref<::Unity::Hierarchy::HierarchyNode const>, ::Unity::Hierarchy::HierarchyNodeFlags,
+                                                                                                        ::Unity::Hierarchy::HierarchyTraversalDirection)>(
+    &::Unity::Hierarchy::HierarchyViewModel::ClearFlagsRecursiveNode)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x6f9a480;
 
@@ -624,7 +630,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
                                                              { "ClearFlagsRecursiveNode",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>(),
+                                                               { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>(),
                                                                  ::i2c::type_of<::Unity::Hierarchy::HierarchyTraversalDirection>() } })));
     return ___internal_method;
   }
@@ -720,28 +726,28 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Hierarchy::Hiera
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyViewModel.IndexOf_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::by_ref<::Unity::Hierarchy::HierarchyNode>)>(&::Unity::Hierarchy::HierarchyViewModel::IndexOf_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::by_ref<::Unity::Hierarchy::HierarchyNode const>)>(&::Unity::Hierarchy::HierarchyViewModel::IndexOf_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6f9a188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
-                                                             { "IndexOf_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
+                                                             { "IndexOf_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyViewModel.Contains_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::by_ref<::Unity::Hierarchy::HierarchyNode>)>(&::Unity::Hierarchy::HierarchyViewModel::Contains_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::by_ref<::Unity::Hierarchy::HierarchyNode const>)>(&::Unity::Hierarchy::HierarchyViewModel::Contains_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6f9a224;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
-                                                             { "Contains_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
+                                                { "Contains_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>() } })));
     return ___internal_method;
   }
 };
@@ -795,25 +801,24 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyViewModel.SetFlagsNode_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::Unity::Hierarchy::HierarchyNode>, ::Unity::Hierarchy::HierarchyNodeFlags)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::Unity::Hierarchy::HierarchyNode const>, ::Unity::Hierarchy::HierarchyNodeFlags)>(
     &::Unity::Hierarchy::HierarchyViewModel::SetFlagsNode_Injected)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x6f9a7c4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
-                            { "SetFlagsNode_Injected",
-                              {},
-                              { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
+                                                                                           { "SetFlagsNode_Injected",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(),
+                                                                                               ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyViewModel.SetFlagsRecursiveNode_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::Unity::Hierarchy::HierarchyNode>, ::Unity::Hierarchy::HierarchyNodeFlags,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::Unity::Hierarchy::HierarchyNode const>, ::Unity::Hierarchy::HierarchyNodeFlags,
                                                                 ::Unity::Hierarchy::HierarchyTraversalDirection)>(&::Unity::Hierarchy::HierarchyViewModel::SetFlagsRecursiveNode_Injected)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x6f9a818;
@@ -823,7 +828,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
                                                              { "SetFlagsRecursiveNode_Injected",
                                                                {},
-                                                               { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(),
+                                                               { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(),
                                                                  ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyTraversalDirection>() } })));
     return ___internal_method;
   }
@@ -831,43 +836,41 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyViewModel.HasAllFlagsNode_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::by_ref<::Unity::Hierarchy::HierarchyNode>, ::Unity::Hierarchy::HierarchyNodeFlags)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::by_ref<::Unity::Hierarchy::HierarchyNode const>, ::Unity::Hierarchy::HierarchyNodeFlags)>(
     &::Unity::Hierarchy::HierarchyViewModel::HasAllFlagsNode_Injected)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x6f9a874;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
-                            { "HasAllFlagsNode_Injected",
-                              {},
-                              { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
+                                                                                           { "HasAllFlagsNode_Injected",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(),
+                                                                                               ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyViewModel.ClearFlagsNode_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::Unity::Hierarchy::HierarchyNode>, ::Unity::Hierarchy::HierarchyNodeFlags)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::Unity::Hierarchy::HierarchyNode const>, ::Unity::Hierarchy::HierarchyNodeFlags)>(
     &::Unity::Hierarchy::HierarchyViewModel::ClearFlagsNode_Injected)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x6f9a8c8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
-                            { "ClearFlagsNode_Injected",
-                              {},
-                              { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
+                                                                                           { "ClearFlagsNode_Injected",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(),
+                                                                                               ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyViewModel.ClearFlagsRecursiveNode_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::Unity::Hierarchy::HierarchyNode>, ::Unity::Hierarchy::HierarchyNodeFlags,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::Unity::Hierarchy::HierarchyNode const>, ::Unity::Hierarchy::HierarchyNodeFlags,
                                                                 ::Unity::Hierarchy::HierarchyTraversalDirection)>(&::Unity::Hierarchy::HierarchyViewModel::ClearFlagsRecursiveNode_Injected)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x6f9a91c;
@@ -877,7 +880,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
                                                              { "ClearFlagsRecursiveNode_Injected",
                                                                {},
-                                                               { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(),
+                                                               { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(),
                                                                  ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyTraversalDirection>() } })));
     return ___internal_method;
   }
@@ -1053,14 +1056,15 @@ inline ::by_ref<::Unity::Hierarchy::HierarchyNode> Unity::Hierarchy::HierarchyVi
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::by_ref<::Unity::Hierarchy::HierarchyNode>>(this, ___internal_method, index);
 }
-inline int32_t Unity::Hierarchy::HierarchyViewModel::IndexOf(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
+inline int32_t Unity::Hierarchy::HierarchyViewModel::IndexOf(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(), { "IndexOf", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(), { "IndexOf", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, node);
 }
-inline bool Unity::Hierarchy::HierarchyViewModel::Contains(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(), { "Contains", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
+inline bool Unity::Hierarchy::HierarchyViewModel::Contains(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(), { "Contains", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, node);
 }
 inline void Unity::Hierarchy::HierarchyViewModel::SetFlags(::Unity::Hierarchy::HierarchyNodeFlags flags) {
@@ -1068,41 +1072,43 @@ inline void Unity::Hierarchy::HierarchyViewModel::SetFlags(::Unity::Hierarchy::H
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(), { "SetFlags", {}, { ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, flags);
 }
-inline void Unity::Hierarchy::HierarchyViewModel::SetFlags(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags) {
+inline void Unity::Hierarchy::HierarchyViewModel::SetFlags(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, ::Unity::Hierarchy::HierarchyNodeFlags flags) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
-                                              { "SetFlags", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
+                                              { "SetFlags", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, node, flags);
 }
-inline void Unity::Hierarchy::HierarchyViewModel::SetFlagsRecursive(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags,
+inline void Unity::Hierarchy::HierarchyViewModel::SetFlagsRecursive(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, ::Unity::Hierarchy::HierarchyNodeFlags flags,
                                                                     ::Unity::Hierarchy::HierarchyTraversalDirection direction) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
                                                            { "SetFlagsRecursive",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>(),
+                                                             { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>(),
                                                                ::i2c::type_of<::Unity::Hierarchy::HierarchyTraversalDirection>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, node, flags, direction);
 }
-inline bool Unity::Hierarchy::HierarchyViewModel::HasAllFlags(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
-                                              { "HasAllFlags", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
+inline bool Unity::Hierarchy::HierarchyViewModel::HasAllFlags(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, ::Unity::Hierarchy::HierarchyNodeFlags flags) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
+                                       { "HasAllFlags", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, node, flags);
 }
-inline void Unity::Hierarchy::HierarchyViewModel::ClearFlags(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
-                                              { "ClearFlags", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
+inline void Unity::Hierarchy::HierarchyViewModel::ClearFlags(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, ::Unity::Hierarchy::HierarchyNodeFlags flags) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
+                                       { "ClearFlags", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, node, flags);
 }
-inline void Unity::Hierarchy::HierarchyViewModel::ClearFlagsRecursive(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags,
+inline void Unity::Hierarchy::HierarchyViewModel::ClearFlagsRecursive(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, ::Unity::Hierarchy::HierarchyNodeFlags flags,
                                                                       ::Unity::Hierarchy::HierarchyTraversalDirection direction) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
                                                            { "ClearFlagsRecursive",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>(),
+                                                             { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>(),
                                                                ::i2c::type_of<::Unity::Hierarchy::HierarchyTraversalDirection>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, node, flags, direction);
 }
@@ -1146,41 +1152,44 @@ inline void Unity::Hierarchy::HierarchyViewModel::SetFlagsAll(::Unity::Hierarchy
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(), { "SetFlagsAll", {}, { ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, flags);
 }
-inline void Unity::Hierarchy::HierarchyViewModel::SetFlagsNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
-                                              { "SetFlagsNode", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
+inline void Unity::Hierarchy::HierarchyViewModel::SetFlagsNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, ::Unity::Hierarchy::HierarchyNodeFlags flags) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
+                                       { "SetFlagsNode", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, node, flags);
 }
-inline void Unity::Hierarchy::HierarchyViewModel::SetFlagsRecursiveNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags,
+inline void Unity::Hierarchy::HierarchyViewModel::SetFlagsRecursiveNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, ::Unity::Hierarchy::HierarchyNodeFlags flags,
                                                                         ::Unity::Hierarchy::HierarchyTraversalDirection direction) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
                                                            { "SetFlagsRecursiveNode",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>(),
+                                                             { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>(),
                                                                ::i2c::type_of<::Unity::Hierarchy::HierarchyTraversalDirection>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, node, flags, direction);
 }
-inline bool Unity::Hierarchy::HierarchyViewModel::HasAllFlagsNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
-                                              { "HasAllFlagsNode", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
+inline bool Unity::Hierarchy::HierarchyViewModel::HasAllFlagsNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, ::Unity::Hierarchy::HierarchyNodeFlags flags) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
+                                       { "HasAllFlagsNode", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, node, flags);
 }
-inline void Unity::Hierarchy::HierarchyViewModel::ClearFlagsNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
-                                              { "ClearFlagsNode", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
+inline void Unity::Hierarchy::HierarchyViewModel::ClearFlagsNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, ::Unity::Hierarchy::HierarchyNodeFlags flags) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
+                                       { "ClearFlagsNode", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, node, flags);
 }
-inline void Unity::Hierarchy::HierarchyViewModel::ClearFlagsRecursiveNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags,
+inline void Unity::Hierarchy::HierarchyViewModel::ClearFlagsRecursiveNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, ::Unity::Hierarchy::HierarchyNodeFlags flags,
                                                                           ::Unity::Hierarchy::HierarchyTraversalDirection direction) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
                                                            { "ClearFlagsRecursiveNode",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>(),
+                                                             { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>(),
                                                                ::i2c::type_of<::Unity::Hierarchy::HierarchyTraversalDirection>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, node, flags, direction);
 }
@@ -1224,16 +1233,16 @@ inline ::Unity::Hierarchy::HierarchySearchQueryDescriptor* Unity::Hierarchy::Hie
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(), { "get_Query_Injected", {}, { ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Hierarchy::HierarchySearchQueryDescriptor*>(nullptr, ___internal_method, _unity_self);
 }
-inline int32_t Unity::Hierarchy::HierarchyViewModel::IndexOf_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
+inline int32_t Unity::Hierarchy::HierarchyViewModel::IndexOf_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
-                                                           { "IndexOf_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
+                                                           { "IndexOf_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, _unity_self, node);
 }
-inline bool Unity::Hierarchy::HierarchyViewModel::Contains_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
+inline bool Unity::Hierarchy::HierarchyViewModel::Contains_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
-                                                           { "Contains_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
+                                                           { "Contains_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, _unity_self, node);
 }
 inline void Unity::Hierarchy::HierarchyViewModel::Update_Injected(::System::IntPtr _unity_self) {
@@ -1259,53 +1268,53 @@ inline void Unity::Hierarchy::HierarchyViewModel::SetFlagsAll_Injected(::System:
                                                            { "SetFlagsAll_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, flags);
 }
-inline void Unity::Hierarchy::HierarchyViewModel::SetFlagsNode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node,
+inline void Unity::Hierarchy::HierarchyViewModel::SetFlagsNode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node,
                                                                         ::Unity::Hierarchy::HierarchyNodeFlags flags) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
                           { "SetFlagsNode_Injected",
                             {},
-                            { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
+                            { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, node, flags);
 }
-inline void Unity::Hierarchy::HierarchyViewModel::SetFlagsRecursiveNode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node,
+inline void Unity::Hierarchy::HierarchyViewModel::SetFlagsRecursiveNode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node,
                                                                                  ::Unity::Hierarchy::HierarchyNodeFlags flags, ::Unity::Hierarchy::HierarchyTraversalDirection direction) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
                                                            { "SetFlagsRecursiveNode_Injected",
                                                              {},
-                                                             { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(),
+                                                             { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(),
                                                                ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyTraversalDirection>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, node, flags, direction);
 }
-inline bool Unity::Hierarchy::HierarchyViewModel::HasAllFlagsNode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node,
+inline bool Unity::Hierarchy::HierarchyViewModel::HasAllFlagsNode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node,
                                                                            ::Unity::Hierarchy::HierarchyNodeFlags flags) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
                           { "HasAllFlagsNode_Injected",
                             {},
-                            { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
+                            { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, _unity_self, node, flags);
 }
-inline void Unity::Hierarchy::HierarchyViewModel::ClearFlagsNode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node,
+inline void Unity::Hierarchy::HierarchyViewModel::ClearFlagsNode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node,
                                                                           ::Unity::Hierarchy::HierarchyNodeFlags flags) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
                           { "ClearFlagsNode_Injected",
                             {},
-                            { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
+                            { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, node, flags);
 }
-inline void Unity::Hierarchy::HierarchyViewModel::ClearFlagsRecursiveNode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node,
+inline void Unity::Hierarchy::HierarchyViewModel::ClearFlagsRecursiveNode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node,
                                                                                    ::Unity::Hierarchy::HierarchyNodeFlags flags, ::Unity::Hierarchy::HierarchyTraversalDirection direction) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyViewModel*>(),
                                                            { "ClearFlagsRecursiveNode_Injected",
                                                              {},
-                                                             { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(),
+                                                             { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(),
                                                                ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyTraversalDirection>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, node, flags, direction);
 }

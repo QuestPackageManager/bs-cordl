@@ -242,14 +242,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 //  Writing Method size for method: ::UnityEngine::UIElements::CallbackEventHandler.NotifyPropertyChanged
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::by_ref<::UnityEngine::UIElements::BindingId>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CallbackEventHandler::*)(::by_ref<::UnityEngine::UIElements::BindingId const>)>(
     &::UnityEngine::UIElements::CallbackEventHandler::NotifyPropertyChanged)> {
   constexpr static std::size_t size = 0x1c4;
   constexpr static std::size_t addrs = 0x7229ec0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(),
-                                                                                           { "NotifyPropertyChanged", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(),
+                                                             { "NotifyPropertyChanged", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId const>>() } })));
     return ___internal_method;
   }
 };
@@ -450,9 +451,9 @@ inline void UnityEngine::UIElements::CallbackEventHandler::ExecuteDefaultActionD
                                                            { "ExecuteDefaultActionDisabledAtTargetInternal", {}, { ::i2c::type_of<::UnityEngine::UIElements::EventBase*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, evt);
 }
-inline void UnityEngine::UIElements::CallbackEventHandler::NotifyPropertyChanged(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> property) {
+inline void UnityEngine::UIElements::CallbackEventHandler::NotifyPropertyChanged(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> property) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CallbackEventHandler*>(),
-                                                                                         { "NotifyPropertyChanged", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>() } })));
+                                                                                         { "NotifyPropertyChanged", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, property);
 }
 inline void UnityEngine::UIElements::CallbackEventHandler::_ctor() {

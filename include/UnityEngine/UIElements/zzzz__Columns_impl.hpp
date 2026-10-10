@@ -894,14 +894,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 //  Writing Method size for method: ::UnityEngine::UIElements::Columns.NotifyPropertyChanged
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Columns::*)(::by_ref<::UnityEngine::UIElements::BindingId>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Columns::*)(::by_ref<::UnityEngine::UIElements::BindingId const>)>(
     &::UnityEngine::UIElements::Columns::NotifyPropertyChanged)> {
   constexpr static std::size_t size = 0x4c;
   constexpr static std::size_t addrs = 0x71e9df0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Columns*>(),
-                                                                                           { "NotifyPropertyChanged", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Columns*>(), { "NotifyPropertyChanged", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId const>>() } })));
     return ___internal_method;
   }
 };
@@ -1385,10 +1386,9 @@ inline void UnityEngine::UIElements::Columns::NotifyChange(::UnityEngine::UIElem
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Columns*>(), { "NotifyChange", {}, { ::i2c::type_of<::UnityEngine::UIElements::ColumnsDataType>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, type);
 }
-inline void UnityEngine::UIElements::Columns::NotifyPropertyChanged(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> property) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Columns*>(), { "NotifyPropertyChanged", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>() } })));
+inline void UnityEngine::UIElements::Columns::NotifyPropertyChanged(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> property) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Columns*>(),
+                                                                                         { "NotifyPropertyChanged", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, property);
 }
 inline void UnityEngine::UIElements::Columns::_ctor() {

@@ -92,25 +92,24 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine
 //  Writing Method size for method: ::UnityEngine::Rendering::ShaderKeywordSet.IsKeywordNameEnabled_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Rendering::ShaderKeywordSet>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Rendering::ShaderKeywordSet const>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
     &::UnityEngine::Rendering::ShaderKeywordSet::IsKeywordNameEnabled_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6f8bad0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ShaderKeywordSet>(),
-                                         { "IsKeywordNameEnabled_Injected",
-                                           {},
-                                           { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ShaderKeywordSet>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ShaderKeywordSet>(), { "IsKeywordNameEnabled_Injected",
+                                                                                                                 {},
+                                                                                                                 { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ShaderKeywordSet const>>(),
+                                                                                                                   ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::ShaderKeywordSet.GetEnabledKeywords_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Rendering::ShaderKeyword> (*)(::by_ref<::UnityEngine::Rendering::ShaderKeywordSet>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Rendering::ShaderKeyword> (*)(::by_ref<::UnityEngine::Rendering::ShaderKeywordSet const>)>(
     &::UnityEngine::Rendering::ShaderKeywordSet::GetEnabledKeywords_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6f8bb50;
@@ -118,7 +117,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::R
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ShaderKeywordSet>(),
-                                                             { "GetEnabledKeywords_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ShaderKeywordSet>>() } })));
+                                                             { "GetEnabledKeywords_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ShaderKeywordSet const>>() } })));
     return ___internal_method;
   }
 };
@@ -155,20 +154,20 @@ inline int32_t UnityEngine::Rendering::ShaderKeywordSet::ShaderKeywordComparer(:
                                        { "ShaderKeywordComparer", {}, { ::i2c::type_of<::UnityEngine::Rendering::ShaderKeyword>(), ::i2c::type_of<::UnityEngine::Rendering::ShaderKeyword>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, kw1, kw2);
 }
-inline bool UnityEngine::Rendering::ShaderKeywordSet::IsKeywordNameEnabled_Injected(::by_ref<::UnityEngine::Rendering::ShaderKeywordSet> state,
+inline bool UnityEngine::Rendering::ShaderKeywordSet::IsKeywordNameEnabled_Injected(::by_ref<::UnityEngine::Rendering::ShaderKeywordSet const> state,
                                                                                     ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ShaderKeywordSet>(),
                                        { "IsKeywordNameEnabled_Injected",
                                          {},
-                                         { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ShaderKeywordSet>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
+                                         { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ShaderKeywordSet const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, state, name);
 }
-inline ::ArrayW<::UnityEngine::Rendering::ShaderKeyword> UnityEngine::Rendering::ShaderKeywordSet::GetEnabledKeywords_Injected(::by_ref<::UnityEngine::Rendering::ShaderKeywordSet> state) {
+inline ::ArrayW<::UnityEngine::Rendering::ShaderKeyword> UnityEngine::Rendering::ShaderKeywordSet::GetEnabledKeywords_Injected(::by_ref<::UnityEngine::Rendering::ShaderKeywordSet const> state) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ShaderKeywordSet>(),
-                                                           { "GetEnabledKeywords_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ShaderKeywordSet>>() } })));
+                                                           { "GetEnabledKeywords_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ShaderKeywordSet const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Rendering::ShaderKeyword>>(nullptr, ___internal_method, state);
 }
 // Ctor Parameters [CppParam { name: "m_KeywordState", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Shader", ty: "::System::IntPtr", modifiers:

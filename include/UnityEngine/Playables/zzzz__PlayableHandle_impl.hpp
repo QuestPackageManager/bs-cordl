@@ -540,17 +540,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::Playables::PlayableHandle.SetInputWeight_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Playables::PlayableHandle>, ::by_ref<::UnityEngine::Playables::PlayableHandle>, float_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Playables::PlayableHandle>, ::by_ref<::UnityEngine::Playables::PlayableHandle const>, float_t)>(
     &::UnityEngine::Playables::PlayableHandle::SetInputWeight_Injected)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x6f6105c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableHandle>(),
-                                                                                           { "SetInputWeight_Injected",
-                                                                                             {},
-                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>(),
-                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>(), ::i2c::type_of<float_t>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableHandle>(),
+                                                             { "SetInputWeight_Injected",
+                                                               {},
+                                                               { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle const>>(), ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
@@ -798,13 +799,14 @@ inline void UnityEngine::Playables::PlayableHandle::GetGraph_Injected(::by_ref<:
                           { "GetGraph_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableGraph>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, ret);
 }
-inline void UnityEngine::Playables::PlayableHandle::SetInputWeight_Injected(::by_ref<::UnityEngine::Playables::PlayableHandle> _unity_self, ::by_ref<::UnityEngine::Playables::PlayableHandle> input,
-                                                                            float_t weight) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableHandle>(),
-                                                                                         { "SetInputWeight_Injected",
-                                                                                           {},
-                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>(),
-                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>(), ::i2c::type_of<float_t>() } })));
+inline void UnityEngine::Playables::PlayableHandle::SetInputWeight_Injected(::by_ref<::UnityEngine::Playables::PlayableHandle> _unity_self,
+                                                                            ::by_ref<::UnityEngine::Playables::PlayableHandle const> input, float_t weight) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableHandle>(), { "SetInputWeight_Injected",
+                                                                                         {},
+                                                                                         { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>(),
+                                                                                           ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle const>>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, input, weight);
 }
 inline void UnityEngine::Playables::PlayableHandle::GetInputHandle_Injected(::by_ref<::UnityEngine::Playables::PlayableHandle> _unity_self, int32_t index,

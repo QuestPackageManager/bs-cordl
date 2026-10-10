@@ -107,7 +107,7 @@ public:
   inline void PushNotification(::UnityEngine::Playables::PlayableHandle origin, ::UnityEngine::Playables::INotification* notification, ::System::Object* context);
 
   /// @brief Method PushNotification_Injected, addr 0x6f61cb4, size 0x5c, virtual false, abstract: false, final false
-  static inline void PushNotification_Injected(::by_ref<::UnityEngine::Playables::PlayableOutputHandle> _unity_self, ::by_ref<::UnityEngine::Playables::PlayableHandle> origin,
+  static inline void PushNotification_Injected(::by_ref<::UnityEngine::Playables::PlayableOutputHandle> _unity_self, ::by_ref<::UnityEngine::Playables::PlayableHandle const> origin,
                                                ::UnityEngine::Playables::INotification* notification, ::System::Object* context);
 
   /// [FreeFunction("PlayableOutputHandleBindings::SetReferenceObject", HasExplicitThis = true, ThrowsException = true)]
@@ -122,7 +122,7 @@ public:
   inline void SetSourcePlayable(::UnityEngine::Playables::PlayableHandle target, int32_t port);
 
   /// @brief Method SetSourcePlayable_Injected, addr 0x6f61b34, size 0x54, virtual false, abstract: false, final false
-  static inline void SetSourcePlayable_Injected(::by_ref<::UnityEngine::Playables::PlayableOutputHandle> _unity_self, ::by_ref<::UnityEngine::Playables::PlayableHandle> target, int32_t port);
+  static inline void SetSourcePlayable_Injected(::by_ref<::UnityEngine::Playables::PlayableOutputHandle> _unity_self, ::by_ref<::UnityEngine::Playables::PlayableHandle const> target, int32_t port);
 
   /// [FreeFunction("PlayableOutputHandleBindings::SetUserData", HasExplicitThis = true, ThrowsException = true)]
   /// @brief Method SetUserData, addr 0x6f61980, size 0x44, virtual false, abstract: false, final false

@@ -507,16 +507,15 @@ class CORDL_TYPE IVRCompositor__WaitGetPoses : public ::System::MulticastDelegat
 public:
   // Declarations
   /// @brief Method BeginInvoke, addr 0x624e474, size 0x7c, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::by_ref<::ArrayW<::OVR::OpenVR::TrackedDevicePose_t>> pRenderPoseArray, uint32_t unRenderPoseArrayCount,
-                                             ::by_ref<::ArrayW<::OVR::OpenVR::TrackedDevicePose_t>> pGamePoseArray, uint32_t unGamePoseArrayCount, ::System::AsyncCallback* callback,
-                                             ::System::Object* object);
+  inline ::System::IAsyncResult* BeginInvoke(::ArrayW<::OVR::OpenVR::TrackedDevicePose_t> pRenderPoseArray, uint32_t unRenderPoseArrayCount,
+                                             ::ArrayW<::OVR::OpenVR::TrackedDevicePose_t> pGamePoseArray, uint32_t unGamePoseArrayCount, ::System::AsyncCallback* callback, ::System::Object* object);
 
   /// @brief Method EndInvoke, addr 0x624e4f0, size 0x24, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRCompositorError EndInvoke(::System::IAsyncResult* result);
 
   /// @brief Method Invoke, addr 0x624e460, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRCompositorError Invoke(::by_ref<::ArrayW<::OVR::OpenVR::TrackedDevicePose_t>> pRenderPoseArray, uint32_t unRenderPoseArrayCount,
-                                                  ::by_ref<::ArrayW<::OVR::OpenVR::TrackedDevicePose_t>> pGamePoseArray, uint32_t unGamePoseArrayCount);
+  inline ::OVR::OpenVR::EVRCompositorError Invoke(::ArrayW<::OVR::OpenVR::TrackedDevicePose_t> pRenderPoseArray, uint32_t unRenderPoseArrayCount,
+                                                  ::ArrayW<::OVR::OpenVR::TrackedDevicePose_t> pGamePoseArray, uint32_t unGamePoseArrayCount);
 
   static inline ::OVR::OpenVR::IVRCompositor__WaitGetPoses* New_ctor(::System::Object* object, ::System::IntPtr method);
 
@@ -555,16 +554,15 @@ class CORDL_TYPE IVRCompositor__GetLastPoses : public ::System::MulticastDelegat
 public:
   // Declarations
   /// @brief Method BeginInvoke, addr 0x624e5a8, size 0x7c, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::by_ref<::ArrayW<::OVR::OpenVR::TrackedDevicePose_t>> pRenderPoseArray, uint32_t unRenderPoseArrayCount,
-                                             ::by_ref<::ArrayW<::OVR::OpenVR::TrackedDevicePose_t>> pGamePoseArray, uint32_t unGamePoseArrayCount, ::System::AsyncCallback* callback,
-                                             ::System::Object* object);
+  inline ::System::IAsyncResult* BeginInvoke(::ArrayW<::OVR::OpenVR::TrackedDevicePose_t> pRenderPoseArray, uint32_t unRenderPoseArrayCount,
+                                             ::ArrayW<::OVR::OpenVR::TrackedDevicePose_t> pGamePoseArray, uint32_t unGamePoseArrayCount, ::System::AsyncCallback* callback, ::System::Object* object);
 
   /// @brief Method EndInvoke, addr 0x624e624, size 0x24, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRCompositorError EndInvoke(::System::IAsyncResult* result);
 
   /// @brief Method Invoke, addr 0x624e594, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRCompositorError Invoke(::by_ref<::ArrayW<::OVR::OpenVR::TrackedDevicePose_t>> pRenderPoseArray, uint32_t unRenderPoseArrayCount,
-                                                  ::by_ref<::ArrayW<::OVR::OpenVR::TrackedDevicePose_t>> pGamePoseArray, uint32_t unGamePoseArrayCount);
+  inline ::OVR::OpenVR::EVRCompositorError Invoke(::ArrayW<::OVR::OpenVR::TrackedDevicePose_t> pRenderPoseArray, uint32_t unRenderPoseArrayCount,
+                                                  ::ArrayW<::OVR::OpenVR::TrackedDevicePose_t> pGamePoseArray, uint32_t unGamePoseArrayCount);
 
   static inline ::OVR::OpenVR::IVRCompositor__GetLastPoses* New_ctor(::System::Object* object, ::System::IntPtr method);
 
@@ -1148,13 +1146,13 @@ class CORDL_TYPE IVRCompositor__SetSkyboxOverride : public ::System::MulticastDe
 public:
   // Declarations
   /// @brief Method BeginInvoke, addr 0x624f460, size 0x5c, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::by_ref<::ArrayW<::OVR::OpenVR::Texture_t>> pTextures, uint32_t unTextureCount, ::System::AsyncCallback* callback, ::System::Object* object);
+  inline ::System::IAsyncResult* BeginInvoke(::ArrayW<::OVR::OpenVR::Texture_t> pTextures, uint32_t unTextureCount, ::System::AsyncCallback* callback, ::System::Object* object);
 
   /// @brief Method EndInvoke, addr 0x624f4bc, size 0x24, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRCompositorError EndInvoke(::System::IAsyncResult* result);
 
   /// @brief Method Invoke, addr 0x624f44c, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRCompositorError Invoke(::by_ref<::ArrayW<::OVR::OpenVR::Texture_t>> pTextures, uint32_t unTextureCount);
+  inline ::OVR::OpenVR::EVRCompositorError Invoke(::ArrayW<::OVR::OpenVR::Texture_t> pTextures, uint32_t unTextureCount);
 
   static inline ::OVR::OpenVR::IVRCompositor__SetSkyboxOverride* New_ctor(::System::Object* object, ::System::IntPtr method);
 

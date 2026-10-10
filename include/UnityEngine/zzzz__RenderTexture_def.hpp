@@ -237,7 +237,7 @@ public:
   static inline ::UnityW<::UnityEngine::RenderTexture> GetTemporary_Internal(::UnityEngine::RenderTextureDescriptor desc);
 
   /// @brief Method GetTemporary_Internal_Injected, addr 0x6f1e504, size 0x3c, virtual false, abstract: false, final false
-  static inline ::System::IntPtr GetTemporary_Internal_Injected(::by_ref<::UnityEngine::RenderTextureDescriptor> desc);
+  static inline ::System::IntPtr GetTemporary_Internal_Injected(::by_ref<::UnityEngine::RenderTextureDescriptor const> desc);
 
   /// @brief Method Initialize, addr 0x6f1f524, size 0x194, virtual false, abstract: false, final false
   inline void Initialize(int32_t width, int32_t height, int32_t depth, ::UnityEngine::RenderTextureFormat format, ::UnityEngine::RenderTextureReadWrite readWrite, int32_t mipCount);
@@ -326,7 +326,7 @@ public:
   inline void SetRenderTextureDescriptor(::UnityEngine::RenderTextureDescriptor desc);
 
   /// @brief Method SetRenderTextureDescriptor_Injected, addr 0x6f1e35c, size 0x44, virtual false, abstract: false, final false
-  static inline void SetRenderTextureDescriptor_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::RenderTextureDescriptor> desc);
+  static inline void SetRenderTextureDescriptor_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::RenderTextureDescriptor const> desc);
 
   /// @brief Method SetSRGBReadWrite, addr 0x6f1e1bc, size 0x90, virtual false, abstract: false, final false
   inline void SetSRGBReadWrite(bool srgb);

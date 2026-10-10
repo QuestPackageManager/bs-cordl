@@ -867,7 +867,7 @@ public:
   __declspec(property(get = get_playerId)) uint64_t playerId;
 
   /// @brief Method GetFriendsScores, addr 0x39e6540, size 0x20, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::HMAsyncRequest* GetFriendsScores(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t count, int32_t fromRank,
+  inline ::GlobalNamespace::HMAsyncRequest* GetFriendsScores(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, int32_t count, int32_t fromRank,
                                                              ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler* completionHandler);
 
   /// @brief Method GetScores, addr 0x39e619c, size 0x2d8, virtual false, abstract: false, final false
@@ -875,11 +875,11 @@ public:
                                                       ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler* completionHandler);
 
   /// @brief Method GetScores, addr 0x39e6500, size 0x20, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::HMAsyncRequest* GetScores(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t count, int32_t fromRank,
+  inline ::GlobalNamespace::HMAsyncRequest* GetScores(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, int32_t count, int32_t fromRank,
                                                       ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler* completionHandler);
 
   /// @brief Method GetScoresAroundPlayer, addr 0x39e6520, size 0x20, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::HMAsyncRequest* GetScoresAroundPlayer(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t count,
+  inline ::GlobalNamespace::HMAsyncRequest* GetScoresAroundPlayer(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, int32_t count,
                                                                   ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler* completionHandler);
 
   /// @brief Method HandleAllScoresDidUpload, addr 0x39e64e4, size 0x1c, virtual false, abstract: false, final false
@@ -901,8 +901,8 @@ public:
                                                         ::GlobalNamespace::PlatformLeaderboardsModel_UploadScoreCompletionHandler* completionHandler);
 
   /// @brief Method UploadScore, addr 0x39e6560, size 0x160, virtual false, abstract: false, final false
-  inline void UploadScore(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t multipliedScore, int32_t modifiedScore, int32_t maxPossibleMultipliedScore, bool fullCombo,
-                          int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCount, int32_t maxCombo, float_t energy, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+  inline void UploadScore(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, int32_t multipliedScore, int32_t modifiedScore, int32_t maxPossibleMultipliedScore,
+                          bool fullCombo, int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCount, int32_t maxCombo, float_t energy, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
   constexpr ::GlobalNamespace::BeatmapLevelsModel* const& __cordl_internal_get__beatmapLevelsModel() const;
 

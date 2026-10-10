@@ -147,7 +147,7 @@ public:
   static inline void MoveGameObjectToScene(/* [NotNull] */ ::UnityEngine::GameObject* go, ::UnityEngine::SceneManagement::Scene scene);
 
   /// @brief Method MoveGameObjectToScene_Injected, addr 0x6f5ba68, size 0x44, virtual false, abstract: false, final false
-  static inline void MoveGameObjectToScene_Injected(::System::IntPtr go, ::by_ref<::UnityEngine::SceneManagement::Scene> scene);
+  static inline void MoveGameObjectToScene_Injected(::System::IntPtr go, ::by_ref<::UnityEngine::SceneManagement::Scene const> scene);
 
   /// [StaticAccessor("SceneManagerBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
   /// [NativeThrows]
@@ -155,7 +155,7 @@ public:
   static inline bool SetActiveScene(::UnityEngine::SceneManagement::Scene scene);
 
   /// @brief Method SetActiveScene_Injected, addr 0x6f5b52c, size 0x3c, virtual false, abstract: false, final false
-  static inline bool SetActiveScene_Injected(::by_ref<::UnityEngine::SceneManagement::Scene> scene);
+  static inline bool SetActiveScene_Injected(::by_ref<::UnityEngine::SceneManagement::Scene const> scene);
 
   /// @brief Method UnloadSceneAsync, addr 0x6f5c5b8, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::AsyncOperation* UnloadSceneAsync(::UnityEngine::SceneManagement::Scene scene);
@@ -169,7 +169,7 @@ public:
   static inline ::UnityEngine::AsyncOperation* UnloadSceneAsyncInternal(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::UnloadSceneOptions options);
 
   /// @brief Method UnloadSceneAsyncInternal_Injected, addr 0x6f5b874, size 0x44, virtual false, abstract: false, final false
-  static inline ::System::IntPtr UnloadSceneAsyncInternal_Injected(::by_ref<::UnityEngine::SceneManagement::Scene> scene, ::UnityEngine::SceneManagement::UnloadSceneOptions options);
+  static inline ::System::IntPtr UnloadSceneAsyncInternal_Injected(::by_ref<::UnityEngine::SceneManagement::Scene const> scene, ::UnityEngine::SceneManagement::UnloadSceneOptions options);
 
   /// [CompilerGenerated]
   /// @brief Method add_activeSceneChanged, addr 0x6f5bf38, size 0x108, virtual false, abstract: false, final false

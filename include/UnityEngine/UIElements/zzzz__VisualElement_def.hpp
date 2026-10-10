@@ -2540,7 +2540,7 @@ public:
                                      ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::UIElements::VisualElement*>* additionalContext);
 
   /// @brief Method IsPartOfCapturedChain, addr 0x70d6694, size 0xbc, virtual false, abstract: false, final false
-  static inline bool IsPartOfCapturedChain(::UnityEngine::UIElements::VisualElement* self, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::IEventHandler*> capturingElement);
+  static inline bool IsPartOfCapturedChain(::UnityEngine::UIElements::VisualElement* self, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::IEventHandler* const> capturingElement);
 
   /// @brief Method MarkDirtyRepaint, addr 0x70d9650, size 0x24, virtual false, abstract: false, final false
   inline void MarkDirtyRepaint();

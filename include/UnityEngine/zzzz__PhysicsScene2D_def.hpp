@@ -79,8 +79,8 @@ public:
                                                          int32_t layerMask, /* [NotNull] */ ::ArrayW<::UnityEngine::RaycastHit2D> results);
 
   /// @brief Method GetRayIntersectionArray_Internal_Injected, addr 0x6fd04c0, size 0x7c, virtual false, abstract: false, final false
-  static inline int32_t GetRayIntersectionArray_Internal_Injected(::by_ref<::UnityEngine::PhysicsScene2D> physicsScene, ::by_ref<::UnityEngine::Vector3> origin,
-                                                                  ::by_ref<::UnityEngine::Vector3> direction, float_t distance, int32_t layerMask,
+  static inline int32_t GetRayIntersectionArray_Internal_Injected(::by_ref<::UnityEngine::PhysicsScene2D const> physicsScene, ::by_ref<::UnityEngine::Vector3 const> origin,
+                                                                  ::by_ref<::UnityEngine::Vector3 const> direction, float_t distance, int32_t layerMask,
                                                                   ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> results);
 
   /// [NativeMethod("GetRayIntersection_Binding")]
@@ -90,8 +90,8 @@ public:
                                                                         int32_t layerMask);
 
   /// @brief Method GetRayIntersection_Internal_Injected, addr 0x6fd0444, size 0x7c, virtual false, abstract: false, final false
-  static inline void GetRayIntersection_Internal_Injected(::by_ref<::UnityEngine::PhysicsScene2D> physicsScene, ::by_ref<::UnityEngine::Vector3> origin, ::by_ref<::UnityEngine::Vector3> direction,
-                                                          float_t distance, int32_t layerMask, ::by_ref<::UnityEngine::RaycastHit2D> ret);
+  static inline void GetRayIntersection_Internal_Injected(::by_ref<::UnityEngine::PhysicsScene2D const> physicsScene, ::by_ref<::UnityEngine::Vector3 const> origin,
+                                                          ::by_ref<::UnityEngine::Vector3 const> direction, float_t distance, int32_t layerMask, ::by_ref<::UnityEngine::RaycastHit2D> ret);
 
   /// @brief Method Raycast, addr 0x6fcfcf0, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::RaycastHit2D Raycast(::UnityEngine::Vector2 origin, ::UnityEngine::Vector2 direction, float_t distance, ::UnityEngine::ContactFilter2D contactFilter);
@@ -115,8 +115,9 @@ public:
                                               ::UnityEngine::ContactFilter2D contactFilter, /* [NotNull] */ ::ArrayW<::UnityEngine::RaycastHit2D> results);
 
   /// @brief Method RaycastArray_Internal_Injected, addr 0x6fd0128, size 0x7c, virtual false, abstract: false, final false
-  static inline int32_t RaycastArray_Internal_Injected(::by_ref<::UnityEngine::PhysicsScene2D> physicsScene, ::by_ref<::UnityEngine::Vector2> origin, ::by_ref<::UnityEngine::Vector2> direction,
-                                                       float_t distance, ::by_ref<::UnityEngine::ContactFilter2D> contactFilter, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> results);
+  static inline int32_t RaycastArray_Internal_Injected(::by_ref<::UnityEngine::PhysicsScene2D const> physicsScene, ::by_ref<::UnityEngine::Vector2 const> origin,
+                                                       ::by_ref<::UnityEngine::Vector2 const> direction, float_t distance, ::by_ref<::UnityEngine::ContactFilter2D const> contactFilter,
+                                                       ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> results);
 
   /// [StaticAccessor("PhysicsQuery2D", (UnityEngine.Bindings.StaticAccessorType)2)]
   /// [NativeMethod("RaycastList_Binding")]
@@ -125,8 +126,9 @@ public:
                                              ::UnityEngine::ContactFilter2D contactFilter, /* [NotNull] */ ::System::Collections::Generic::List_1<::UnityEngine::RaycastHit2D>* results);
 
   /// @brief Method RaycastList_Internal_Injected, addr 0x6fd01a4, size 0x7c, virtual false, abstract: false, final false
-  static inline int32_t RaycastList_Internal_Injected(::by_ref<::UnityEngine::PhysicsScene2D> physicsScene, ::by_ref<::UnityEngine::Vector2> origin, ::by_ref<::UnityEngine::Vector2> direction,
-                                                      float_t distance, ::by_ref<::UnityEngine::ContactFilter2D> contactFilter, ::by_ref<::UnityEngine::Bindings::BlittableListWrapper> results);
+  static inline int32_t RaycastList_Internal_Injected(::by_ref<::UnityEngine::PhysicsScene2D const> physicsScene, ::by_ref<::UnityEngine::Vector2 const> origin,
+                                                      ::by_ref<::UnityEngine::Vector2 const> direction, float_t distance, ::by_ref<::UnityEngine::ContactFilter2D const> contactFilter,
+                                                      ::by_ref<::UnityEngine::Bindings::BlittableListWrapper> results);
 
   /// [StaticAccessor("PhysicsQuery2D", (UnityEngine.Bindings.StaticAccessorType)2)]
   /// [NativeMethod("Raycast_Binding")]
@@ -135,8 +137,9 @@ public:
                                                              ::UnityEngine::ContactFilter2D contactFilter);
 
   /// @brief Method Raycast_Internal_Injected, addr 0x6fd00ac, size 0x7c, virtual false, abstract: false, final false
-  static inline void Raycast_Internal_Injected(::by_ref<::UnityEngine::PhysicsScene2D> physicsScene, ::by_ref<::UnityEngine::Vector2> origin, ::by_ref<::UnityEngine::Vector2> direction,
-                                               float_t distance, ::by_ref<::UnityEngine::ContactFilter2D> contactFilter, ::by_ref<::UnityEngine::RaycastHit2D> ret);
+  static inline void Raycast_Internal_Injected(::by_ref<::UnityEngine::PhysicsScene2D const> physicsScene, ::by_ref<::UnityEngine::Vector2 const> origin,
+                                               ::by_ref<::UnityEngine::Vector2 const> direction, float_t distance, ::by_ref<::UnityEngine::ContactFilter2D const> contactFilter,
+                                               ::by_ref<::UnityEngine::RaycastHit2D> ret);
 
   /// @brief Method ToString, addr 0x6fcf91c, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ToString();

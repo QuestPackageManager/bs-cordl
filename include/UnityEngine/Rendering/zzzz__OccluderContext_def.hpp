@@ -150,10 +150,11 @@ public:
   inline void AllocateTexturesIfNecessary(bool debugOverlayEnabled);
 
   /// @brief Method CreateFarDepthPyramid, addr 0x6c658bc, size 0x4f8, virtual false, abstract: false, final false
-  inline void CreateFarDepthPyramid(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams,
+  inline void CreateFarDepthPyramid(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters const> occluderParams,
                                     ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate> occluderSubviewUpdates,
-                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderHandles> occluderHandles, ::Unity::Collections::NativeArray_1<::UnityEngine::Plane> silhouettePlanes,
-                                    ::UnityEngine::ComputeShader* occluderDepthPyramidCS, int32_t occluderDepthDownscaleKernel);
+                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderHandles const> occluderHandles,
+                                    ::Unity::Collections::NativeArray_1<::UnityEngine::Plane> silhouettePlanes, ::UnityEngine::ComputeShader* occluderDepthPyramidCS,
+                                    int32_t occluderDepthDownscaleKernel);
 
   /// @brief Method Dispose, addr 0x6c64e28, size 0x128, virtual true, abstract: false, final true
   inline void Dispose();
@@ -168,11 +169,11 @@ public:
   inline bool IsSubviewValid(int32_t subviewIndex);
 
   /// @brief Method PrepareOccluders, addr 0x6c65e5c, size 0x10c, virtual false, abstract: false, final false
-  inline void PrepareOccluders(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams);
+  inline void PrepareOccluders(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters const> occluderParams);
 
   /// @brief Method SetKeyword, addr 0x6c6536c, size 0x2c, virtual false, abstract: false, final false
-  static inline void SetKeyword(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, ::UnityEngine::ComputeShader* cs, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword,
-                                bool value);
+  static inline void SetKeyword(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, ::UnityEngine::ComputeShader* cs,
+                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword const> keyword, bool value);
 
   /// @brief Method SetupFarDepthPyramidConstants, addr 0x6c65398, size 0x524, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::OccluderDepthPyramidConstants SetupFarDepthPyramidConstants(::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate> occluderSubviewUpdates,

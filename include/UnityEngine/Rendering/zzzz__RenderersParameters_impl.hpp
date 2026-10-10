@@ -116,48 +116,49 @@ constexpr ::UnityEngine::Rendering::RenderersParameters_ParamInfo::RenderersPara
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::UnityEngine::Rendering::GPUInstanceDataBuffer* (*)(::UnityEngine::Rendering::RenderersParameters_Flags, ::by_ref<::UnityEngine::Rendering::InstanceNumInfo>)>(
+    static_cast<::UnityEngine::Rendering::GPUInstanceDataBuffer* (*)(::UnityEngine::Rendering::RenderersParameters_Flags, ::by_ref<::UnityEngine::Rendering::InstanceNumInfo const>)>(
         &::UnityEngine::Rendering::RenderersParameters::CreateInstanceDataBuffer)> {
   constexpr static std::size_t size = 0x40c;
   constexpr static std::size_t addrs = 0x6c6dfc8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::UnityEngine::Rendering::RenderersParameters>(),
-            { "CreateInstanceDataBuffer", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderersParameters_Flags>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceNumInfo>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderersParameters>(),
+                                         { "CreateInstanceDataBuffer",
+                                           {},
+                                           { ::i2c::type_of<::UnityEngine::Rendering::RenderersParameters_Flags>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceNumInfo const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderersParameters._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderersParameters::*)(::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer*>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderersParameters::*)(::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer* const>)>(
     &::UnityEngine::Rendering::RenderersParameters::_ctor)> {
   constexpr static std::size_t size = 0x2bc;
   constexpr static std::size_t addrs = 0x6c6e3d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderersParameters>(),
-                                                                                           { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer*>>() } })));
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer* const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderersParameters.__ctor_g__GetParamInfo_15_0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderersParameters_ParamInfo (*)(::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer*>, int32_t, bool)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderersParameters_ParamInfo (*)(::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer* const>, int32_t, bool)>(
     &::UnityEngine::Rendering::RenderersParameters::__ctor_g__GetParamInfo_15_0)> {
   constexpr static std::size_t size = 0xd0;
   constexpr static std::size_t addrs = 0x6c6f230;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(
-                         ::i2c::class_of<::UnityEngine::Rendering::RenderersParameters>(),
-                         { "<.ctor>g__GetParamInfo|15_0", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer*>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::Rendering::RenderersParameters>(),
+            { "<.ctor>g__GetParamInfo|15_0", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer* const>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -169,26 +170,27 @@ inline int32_t UnityEngine::Rendering::RenderersParameters::getStaticF_s_uintSiz
 }
 inline ::UnityEngine::Rendering::GPUInstanceDataBuffer*
 UnityEngine::Rendering::RenderersParameters::CreateInstanceDataBuffer(::UnityEngine::Rendering::RenderersParameters_Flags flags,
-                                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceNumInfo> instanceNumInfo) {
+                                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceNumInfo const> instanceNumInfo) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
           ::i2c::class_of<::UnityEngine::Rendering::RenderersParameters>(),
-          { "CreateInstanceDataBuffer", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderersParameters_Flags>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceNumInfo>>() } })));
+          { "CreateInstanceDataBuffer", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderersParameters_Flags>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceNumInfo const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::GPUInstanceDataBuffer*>(nullptr, ___internal_method, flags, instanceNumInfo);
 }
-inline void UnityEngine::Rendering::RenderersParameters::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer*> instanceDataBuffer) {
+inline void UnityEngine::Rendering::RenderersParameters::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer* const> instanceDataBuffer) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderersParameters>(),
-                                                                                         { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer*>>() } })));
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer* const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, instanceDataBuffer);
 }
 inline ::UnityEngine::Rendering::RenderersParameters_ParamInfo
-UnityEngine::Rendering::RenderersParameters::__ctor_g__GetParamInfo_15_0(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer*> instanceDataBuffer, int32_t paramNameIdx,
+UnityEngine::Rendering::RenderersParameters::__ctor_g__GetParamInfo_15_0(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer* const> instanceDataBuffer, int32_t paramNameIdx,
                                                                          bool assertOnFail) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderersParameters>(),
-                          { "<.ctor>g__GetParamInfo|15_0", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer*>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::Rendering::RenderersParameters>(),
+          { "<.ctor>g__GetParamInfo|15_0", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::GPUInstanceDataBuffer* const>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderersParameters_ParamInfo>(nullptr, ___internal_method, instanceDataBuffer, paramNameIdx, assertOnFail);
 }
 // Ctor Parameters [CppParam { name: "lightmapScale", ty: "::UnityEngine::Rendering::RenderersParameters_ParamInfo", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:

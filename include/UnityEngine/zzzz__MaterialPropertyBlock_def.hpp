@@ -200,7 +200,7 @@ public:
   inline void SetColorImpl(int32_t name, ::UnityEngine::Color value);
 
   /// @brief Method SetColorImpl_Injected, addr 0x6ee1770, size 0x54, virtual false, abstract: false, final false
-  static inline void SetColorImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::by_ref<::UnityEngine::Color> value);
+  static inline void SetColorImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::by_ref<::UnityEngine::Color const> value);
 
   /// @brief Method SetConstantBuffer, addr 0x6ee2854, size 0x4, virtual false, abstract: false, final false
   inline void SetConstantBuffer(int32_t nameID, ::UnityEngine::ComputeBuffer* value, int32_t offset, int32_t size);
@@ -293,7 +293,7 @@ public:
   inline void SetMatrixImpl(int32_t name, ::UnityEngine::Matrix4x4 value);
 
   /// @brief Method SetMatrixImpl_Injected, addr 0x6ee182c, size 0x54, virtual false, abstract: false, final false
-  static inline void SetMatrixImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::by_ref<::UnityEngine::Matrix4x4> value);
+  static inline void SetMatrixImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::by_ref<::UnityEngine::Matrix4x4 const> value);
 
   /// [ThreadSafe]
   /// [NativeName("SetRenderTextureFromScript")]
@@ -349,7 +349,7 @@ public:
   inline void SetVectorImpl(int32_t name, ::UnityEngine::Vector4 value);
 
   /// @brief Method SetVectorImpl_Injected, addr 0x6ee16ac, size 0x54, virtual false, abstract: false, final false
-  static inline void SetVectorImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::by_ref<::UnityEngine::Vector4> value);
+  static inline void SetVectorImpl_Injected(::System::IntPtr _unity_self, int32_t name, ::by_ref<::UnityEngine::Vector4 const> value);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
 

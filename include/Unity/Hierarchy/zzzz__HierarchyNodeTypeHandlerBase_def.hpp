@@ -212,18 +212,18 @@ public:
 
   /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method GetDefaultNodeFlags, addr 0x6f940d0, size 0xac, virtual true, abstract: false, final false
-  inline ::Unity::Hierarchy::HierarchyNodeFlags GetDefaultNodeFlags(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags defaultFlags);
+  inline ::Unity::Hierarchy::HierarchyNodeFlags GetDefaultNodeFlags(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, ::Unity::Hierarchy::HierarchyNodeFlags defaultFlags);
 
   /// @brief Method GetDefaultNodeFlags_Injected, addr 0x6f9417c, size 0x54, virtual false, abstract: false, final false
-  static inline ::Unity::Hierarchy::HierarchyNodeFlags GetDefaultNodeFlags_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node,
+  static inline ::Unity::Hierarchy::HierarchyNodeFlags GetDefaultNodeFlags_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node,
                                                                                     ::Unity::Hierarchy::HierarchyNodeFlags defaultFlags);
 
   /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method GetNodeHashCode, addr 0x6f93fe8, size 0xa4, virtual true, abstract: false, final false
-  inline int32_t GetNodeHashCode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  inline int32_t GetNodeHashCode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// @brief Method GetNodeHashCode_Injected, addr 0x6f9408c, size 0x44, virtual false, abstract: false, final false
-  static inline int32_t GetNodeHashCode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  static inline int32_t GetNodeHashCode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// [NativeMethod(IsThreadSafe = true)]
   /// @brief Method GetNodeTypeName, addr 0x6f93e5c, size 0x148, virtual true, abstract: false, final false
@@ -256,12 +256,12 @@ public:
 
   /// [RequiredByNativeCode]
   /// @brief Method InvokeGetDefaultNodeFlags, addr 0x6f94bd8, size 0xf8, virtual false, abstract: false, final false
-  static inline ::Unity::Hierarchy::HierarchyNodeFlags InvokeGetDefaultNodeFlags(::System::IntPtr handlePtr, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node,
+  static inline ::Unity::Hierarchy::HierarchyNodeFlags InvokeGetDefaultNodeFlags(::System::IntPtr handlePtr, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node,
                                                                                  ::Unity::Hierarchy::HierarchyNodeFlags defaultFlags);
 
   /// [RequiredByNativeCode]
   /// @brief Method InvokeGetNodeHashCode, addr 0x6f94af0, size 0xe8, virtual false, abstract: false, final false
-  static inline int32_t InvokeGetNodeHashCode(::System::IntPtr handlePtr, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  static inline int32_t InvokeGetNodeHashCode(::System::IntPtr handlePtr, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// [RequiredByNativeCode]
   /// @brief Method InvokeGetNodeTypeName, addr 0x6f94a10, size 0xe0, virtual false, abstract: false, final false
@@ -281,7 +281,7 @@ public:
 
   /// [RequiredByNativeCode]
   /// @brief Method InvokeSearchMatch, addr 0x6f94f30, size 0xe8, virtual false, abstract: false, final false
-  static inline bool InvokeSearchMatch(::System::IntPtr handlePtr, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  static inline bool InvokeSearchMatch(::System::IntPtr handlePtr, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// [RequiredByNativeCode]
   /// @brief Method InvokeViewModelPostUpdate, addr 0x6f950f8, size 0x178, virtual false, abstract: false, final false
@@ -294,7 +294,7 @@ public:
   inline void SearchEnd();
 
   /// @brief Method SearchMatch, addr 0x6f941d4, size 0x8, virtual true, abstract: false, final false
-  inline bool SearchMatch(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  inline bool SearchMatch(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// [RequiredByNativeCode]
   /// @brief Method TryGetStaticNodeType, addr 0x6f94684, size 0x188, virtual false, abstract: false, final false

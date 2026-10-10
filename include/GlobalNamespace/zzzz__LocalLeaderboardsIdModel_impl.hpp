@@ -6,13 +6,13 @@
 //  Writing Method size for method: ::GlobalNamespace::LocalLeaderboardsIdModel.GetLocalLeaderboardID
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::by_ref<::GlobalNamespace::BeatmapKey>)>(&::GlobalNamespace::LocalLeaderboardsIdModel::GetLocalLeaderboardID)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::by_ref<::GlobalNamespace::BeatmapKey const>)>(&::GlobalNamespace::LocalLeaderboardsIdModel::GetLocalLeaderboardID)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x39e0160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalLeaderboardsIdModel*>(),
-                                                                                           { "GetLocalLeaderboardID", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>() } })));
+                                                                                           { "GetLocalLeaderboardID", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey const>>() } })));
     return ___internal_method;
   }
 };
@@ -28,9 +28,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     return ___internal_method;
   }
 };
-inline ::StringW GlobalNamespace::LocalLeaderboardsIdModel::GetLocalLeaderboardID(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey) {
+inline ::StringW GlobalNamespace::LocalLeaderboardsIdModel::GetLocalLeaderboardID(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalLeaderboardsIdModel*>(),
-                                                                                         { "GetLocalLeaderboardID", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>() } })));
+                                                                                         { "GetLocalLeaderboardID", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, beatmapKey);
 }
 inline void GlobalNamespace::LocalLeaderboardsIdModel::_ctor() {

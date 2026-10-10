@@ -1221,14 +1221,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 //  Writing Method size for method: ::GlobalNamespace::OVRGLTFLoader.DetectTextureQuality
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTextureQualityFiltering (*)(::by_ref<::UnityEngine::Texture2D*>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTextureQualityFiltering (*)(::by_ref<::UnityEngine::Texture2D* const>)>(
     &::GlobalNamespace::OVRGLTFLoader::DetectTextureQuality)> {
   constexpr static std::size_t size = 0xc0;
   constexpr static std::size_t addrs = 0x626b8b4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFLoader*>(), { "DetectTextureQuality", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Texture2D*>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFLoader*>(), { "DetectTextureQuality", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Texture2D* const>>() } })));
     return ___internal_method;
   }
 };
@@ -1753,9 +1754,9 @@ inline void GlobalNamespace::OVRGLTFLoader::SetMipMapBias(float_t loadedTextures
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFLoader*>(), { "SetMipMapBias", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, loadedTexturesMipmapBiasing);
 }
-inline ::GlobalNamespace::OVRTextureQualityFiltering GlobalNamespace::OVRGLTFLoader::DetectTextureQuality(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Texture2D*> srcTexture) {
+inline ::GlobalNamespace::OVRTextureQualityFiltering GlobalNamespace::OVRGLTFLoader::DetectTextureQuality(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Texture2D* const> srcTexture) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFLoader*>(), { "DetectTextureQuality", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Texture2D*>>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFLoader*>(), { "DetectTextureQuality", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Texture2D* const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTextureQualityFiltering>(nullptr, ___internal_method, srcTexture);
 }
 inline void GlobalNamespace::OVRGLTFLoader::ApplyTextureQuality(::GlobalNamespace::OVRTextureQualityFiltering qualityLevel, ::by_ref<::UnityEngine::Texture2D*> destTexture) {

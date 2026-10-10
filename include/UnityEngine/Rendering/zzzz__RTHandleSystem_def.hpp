@@ -468,7 +468,7 @@ public:
   inline ::UnityEngine::Vector2Int CalculateDimensions(::UnityEngine::Rendering::ScaleFunc* scaleFunc);
 
   /// @brief Method CalculateRatioAgainstMaxSize, addr 0x6bc46e0, size 0x248, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 CalculateRatioAgainstMaxSize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2Int> viewportSize);
+  inline ::UnityEngine::Vector2 CalculateRatioAgainstMaxSize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2Int const> viewportSize);
 
   /// @brief Method CreateRenderTexture, addr 0x6bc9794, size 0x59c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> CreateRenderTexture(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, int32_t slices,

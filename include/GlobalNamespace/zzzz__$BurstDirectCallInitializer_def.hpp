@@ -20,7 +20,7 @@ class CORDL_TYPE $BurstDirectCallInitializer : public ::System::Object {
 public:
   // Declarations
   /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)2)]
-  /// @brief Method Initialize, addr 0x6c70a7c, size 0xf40, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x68f9188, size 0x294, virtual false, abstract: false, final false
   static inline void Initialize();
 
 protected:
@@ -38,7 +38,7 @@ public:
   $BurstDirectCallInitializer($BurstDirectCallInitializer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18342 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16079 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

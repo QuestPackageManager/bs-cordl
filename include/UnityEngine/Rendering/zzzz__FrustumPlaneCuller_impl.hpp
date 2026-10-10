@@ -74,19 +74,19 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::FrustumPlaneCuller (*)(
-    ::by_ref<::UnityEngine::Rendering::BatchCullingContext>, ::Unity::Collections::NativeArray_1<::UnityEngine::Plane>, ::by_ref<::UnityEngine::Rendering::ReceiverSphereCuller>,
+    ::by_ref<::UnityEngine::Rendering::BatchCullingContext const>, ::Unity::Collections::NativeArray_1<::UnityEngine::Plane>, ::by_ref<::UnityEngine::Rendering::ReceiverSphereCuller const>,
     ::Unity::Collections::Allocator)>(&::UnityEngine::Rendering::FrustumPlaneCuller::Create)> {
   constexpr static std::size_t size = 0x440;
   constexpr static std::size_t addrs = 0x6c40668;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::FrustumPlaneCuller>(),
-                                         { "Create",
-                                           {},
-                                           { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchCullingContext>>(), ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Plane>>(),
-                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ReceiverSphereCuller>>(), ::i2c::type_of<::Unity::Collections::Allocator>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::FrustumPlaneCuller>(),
+                            { "Create",
+                              {},
+                              { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchCullingContext const>>(), ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Plane>>(),
+                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ReceiverSphereCuller const>>(), ::i2c::type_of<::Unity::Collections::Allocator>() } })));
     return ___internal_method;
   }
 };
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::FrustumPlaneCuller_PlanePacket4>,
                                                                     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::FrustumPlaneCuller_SplitInfo>,
-                                                                    ::by_ref<::UnityEngine::Rendering::AABB>)>(&::UnityEngine::Rendering::FrustumPlaneCuller::ComputeSplitVisibilityMask)> {
+                                                                    ::by_ref<::UnityEngine::Rendering::AABB const>)>(&::UnityEngine::Rendering::FrustumPlaneCuller::ComputeSplitVisibilityMask)> {
   constexpr static std::size_t size = 0x17c;
   constexpr static std::size_t addrs = 0x6c40bdc;
 
@@ -106,7 +106,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::Unity::Col
                                                                {},
                                                                { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::FrustumPlaneCuller_PlanePacket4>>(),
                                                                  ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::FrustumPlaneCuller_SplitInfo>>(),
-                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::AABB>>() } })));
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::AABB const>>() } })));
     return ___internal_method;
   }
 };
@@ -115,29 +115,29 @@ inline void UnityEngine::Rendering::FrustumPlaneCuller::Dispose(::Unity::Jobs::J
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::FrustumPlaneCuller>(), { "Dispose", {}, { ::i2c::type_of<::Unity::Jobs::JobHandle>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, job);
 }
-inline ::UnityEngine::Rendering::FrustumPlaneCuller UnityEngine::Rendering::FrustumPlaneCuller::Create(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext> cc,
-                                                                                                       ::Unity::Collections::NativeArray_1<::UnityEngine::Plane> receiverPlanes,
-                                                                                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ReceiverSphereCuller> receiverSphereCuller,
-                                                                                                       ::Unity::Collections::Allocator allocator) {
+inline ::UnityEngine::Rendering::FrustumPlaneCuller
+UnityEngine::Rendering::FrustumPlaneCuller::Create(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext const> cc,
+                                                   ::Unity::Collections::NativeArray_1<::UnityEngine::Plane> receiverPlanes,
+                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ReceiverSphereCuller const> receiverSphereCuller, ::Unity::Collections::Allocator allocator) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::FrustumPlaneCuller>(),
                                        { "Create",
                                          {},
-                                         { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchCullingContext>>(), ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Plane>>(),
-                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ReceiverSphereCuller>>(), ::i2c::type_of<::Unity::Collections::Allocator>() } })));
+                                         { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchCullingContext const>>(), ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Plane>>(),
+                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ReceiverSphereCuller const>>(), ::i2c::type_of<::Unity::Collections::Allocator>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::FrustumPlaneCuller>(nullptr, ___internal_method, cc, receiverPlanes, receiverSphereCuller, allocator);
 }
 inline uint32_t UnityEngine::Rendering::FrustumPlaneCuller::ComputeSplitVisibilityMask(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::FrustumPlaneCuller_PlanePacket4> planePackets,
                                                                                        ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::FrustumPlaneCuller_SplitInfo> splitInfos,
-                                                                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::AABB> bounds) {
+                                                                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::AABB const> bounds) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::FrustumPlaneCuller>(),
                                                            { "ComputeSplitVisibilityMask",
                                                              {},
                                                              { ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::FrustumPlaneCuller_PlanePacket4>>(),
                                                                ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::FrustumPlaneCuller_SplitInfo>>(),
-                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::AABB>>() } })));
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::AABB const>>() } })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, planePackets, splitInfos, bounds);
 }
 // Ctor Parameters [CppParam { name: "planePackets", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::FrustumPlaneCuller_PlanePacket4>", modifiers: "", def_value: Some("{}"), comment:

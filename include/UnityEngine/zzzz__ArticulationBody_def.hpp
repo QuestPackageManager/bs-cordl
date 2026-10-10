@@ -187,11 +187,11 @@ public:
   inline void AddForceAtPosition(::UnityEngine::Vector3 force, ::UnityEngine::Vector3 position, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
   /// @brief Method AddForceAtPosition_Injected, addr 0x6fe0e90, size 0x5c, virtual false, abstract: false, final false
-  static inline void AddForceAtPosition_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> force, ::by_ref<::UnityEngine::Vector3> position,
+  static inline void AddForceAtPosition_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> force, ::by_ref<::UnityEngine::Vector3 const> position,
                                                  /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
   /// @brief Method AddForce_Injected, addr 0x6fe0a74, size 0x54, virtual false, abstract: false, final false
-  static inline void AddForce_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> force, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
+  static inline void AddForce_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> force, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
   /// [ExcludeFromDocs]
   /// @brief Method AddRelativeForce, addr 0x6fe0bcc, size 0x8, virtual false, abstract: false, final false
@@ -201,7 +201,7 @@ public:
   inline void AddRelativeForce(::UnityEngine::Vector3 force, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
   /// @brief Method AddRelativeForce_Injected, addr 0x6fe0b78, size 0x54, virtual false, abstract: false, final false
-  static inline void AddRelativeForce_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> force, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
+  static inline void AddRelativeForce_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> force, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
   /// [ExcludeFromDocs]
   /// @brief Method AddRelativeTorque, addr 0x6fe0dd4, size 0x8, virtual false, abstract: false, final false
@@ -211,7 +211,7 @@ public:
   inline void AddRelativeTorque(::UnityEngine::Vector3 torque, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
   /// @brief Method AddRelativeTorque_Injected, addr 0x6fe0d80, size 0x54, virtual false, abstract: false, final false
-  static inline void AddRelativeTorque_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> torque, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
+  static inline void AddRelativeTorque_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> torque, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
   /// [ExcludeFromDocs]
   /// @brief Method AddTorque, addr 0x6fe0cd0, size 0x8, virtual false, abstract: false, final false
@@ -221,7 +221,7 @@ public:
   inline void AddTorque(::UnityEngine::Vector3 torque, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
   /// @brief Method AddTorque_Injected, addr 0x6fe0c7c, size 0x54, virtual false, abstract: false, final false
-  static inline void AddTorque_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> torque, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
+  static inline void AddTorque_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> torque, /* [DefaultValue("ForceMode.Force")] */ ::UnityEngine::ForceMode mode);
 
   /// [ExcludeFromDocs]
   /// @brief Method GetAccumulatedForce, addr 0x6fe0848, size 0x40, virtual false, abstract: false, final false
@@ -247,7 +247,7 @@ public:
   inline ::UnityEngine::Vector3 GetClosestPoint(::UnityEngine::Vector3 point);
 
   /// @brief Method GetClosestPoint_Injected, addr 0x6fe3a5c, size 0x54, virtual false, abstract: false, final false
-  static inline void GetClosestPoint_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> point, ::by_ref<::UnityEngine::Vector3> ret);
+  static inline void GetClosestPoint_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> point, ::by_ref<::UnityEngine::Vector3> ret);
 
   /// @brief Method GetDenseJacobian, addr 0x6fe3d84, size 0x90, virtual false, abstract: false, final false
   inline int32_t GetDenseJacobian(::by_ref<::UnityEngine::ArticulationJacobian> jacobian);
@@ -308,7 +308,7 @@ public:
   inline ::UnityEngine::ArticulationReducedSpace GetJointForcesForAcceleration(::UnityEngine::ArticulationReducedSpace acceleration);
 
   /// @brief Method GetJointForcesForAcceleration_Injected, addr 0x6fe4de4, size 0x54, virtual false, abstract: false, final false
-  static inline void GetJointForcesForAcceleration_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ArticulationReducedSpace> acceleration,
+  static inline void GetJointForcesForAcceleration_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ArticulationReducedSpace const> acceleration,
                                                             ::by_ref<::UnityEngine::ArticulationReducedSpace> ret);
 
   /// @brief Method GetJointForces_Injected, addr 0x6fe4aa0, size 0x44, virtual false, abstract: false, final false
@@ -336,13 +336,13 @@ public:
   inline ::UnityEngine::Vector3 GetPointVelocity(::UnityEngine::Vector3 worldPoint);
 
   /// @brief Method GetPointVelocity_Injected, addr 0x6fe3c5c, size 0x54, virtual false, abstract: false, final false
-  static inline void GetPointVelocity_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> worldPoint, ::by_ref<::UnityEngine::Vector3> ret);
+  static inline void GetPointVelocity_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> worldPoint, ::by_ref<::UnityEngine::Vector3> ret);
 
   /// @brief Method GetRelativePointVelocity, addr 0x6fe3ab0, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetRelativePointVelocity(::UnityEngine::Vector3 relativePoint);
 
   /// @brief Method GetRelativePointVelocity_Injected, addr 0x6fe3b5c, size 0x54, virtual false, abstract: false, final false
-  static inline void GetRelativePointVelocity_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> relativePoint, ::by_ref<::UnityEngine::Vector3> ret);
+  static inline void GetRelativePointVelocity_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> relativePoint, ::by_ref<::UnityEngine::Vector3> ret);
 
   /// @brief Method IsSleeping, addr 0x6fe207c, size 0x80, virtual false, abstract: false, final false
   inline bool IsSleeping();
@@ -456,7 +456,7 @@ public:
   inline void TeleportRoot(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
   /// @brief Method TeleportRoot_Injected, addr 0x6fe395c, size 0x54, virtual false, abstract: false, final false
-  static inline void TeleportRoot_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> position, ::by_ref<::UnityEngine::Quaternion> rotation);
+  static inline void TeleportRoot_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> position, ::by_ref<::UnityEngine::Quaternion const> rotation);
 
   /// @brief Method WakeUp, addr 0x6fe2138, size 0x80, virtual false, abstract: false, final false
   inline void WakeUp();
@@ -766,13 +766,13 @@ public:
   inline void set_anchorPosition(::UnityEngine::Vector3 value);
 
   /// @brief Method set_anchorPosition_Injected, addr 0x6fde580, size 0x44, virtual false, abstract: false, final false
-  static inline void set_anchorPosition_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_anchorPosition_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// @brief Method set_anchorRotation, addr 0x6fde864, size 0x98, virtual false, abstract: false, final false
   inline void set_anchorRotation(::UnityEngine::Quaternion value);
 
   /// @brief Method set_anchorRotation_Injected, addr 0x6fde8fc, size 0x44, virtual false, abstract: false, final false
-  static inline void set_anchorRotation_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Quaternion> value);
+  static inline void set_anchorRotation_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Quaternion const> value);
 
   /// @brief Method set_angularDamping, addr 0x6fe0168, size 0x90, virtual false, abstract: false, final false
   inline void set_angularDamping(float_t value);
@@ -784,7 +784,7 @@ public:
   inline void set_angularVelocity(::UnityEngine::Vector3 value);
 
   /// @brief Method set_angularVelocity_Injected, addr 0x6fe1230, size 0x44, virtual false, abstract: false, final false
-  static inline void set_angularVelocity_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_angularVelocity_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// @brief Method set_automaticCenterOfMass, addr 0x6fe14c8, size 0x90, virtual false, abstract: false, final false
   inline void set_automaticCenterOfMass(bool value);
@@ -802,7 +802,7 @@ public:
   inline void set_centerOfMass(::UnityEngine::Vector3 value);
 
   /// @brief Method set_centerOfMass_Injected, addr 0x6fe1718, size 0x44, virtual false, abstract: false, final false
-  static inline void set_centerOfMass_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_centerOfMass_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// @brief Method set_collisionDetectionMode, addr 0x6fe6820, size 0x90, virtual false, abstract: false, final false
   inline void set_collisionDetectionMode(::UnityEngine::CollisionDetectionMode value);
@@ -817,7 +817,7 @@ public:
   inline void set_excludeLayers(::UnityEngine::LayerMask value);
 
   /// @brief Method set_excludeLayers_Injected, addr 0x6fe054c, size 0x44, virtual false, abstract: false, final false
-  static inline void set_excludeLayers_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::LayerMask> value);
+  static inline void set_excludeLayers_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::LayerMask const> value);
 
   /// @brief Method set_immovable, addr 0x6fdfcb0, size 0x90, virtual false, abstract: false, final false
   inline void set_immovable(bool value);
@@ -829,7 +829,7 @@ public:
   inline void set_includeLayers(::UnityEngine::LayerMask value);
 
   /// @brief Method set_includeLayers_Injected, addr 0x6fe0700, size 0x44, virtual false, abstract: false, final false
-  static inline void set_includeLayers_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::LayerMask> value);
+  static inline void set_includeLayers_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::LayerMask const> value);
 
   /// @brief Method set_inertiaTensor, addr 0x6fe1ab4, size 0x98, virtual false, abstract: false, final false
   inline void set_inertiaTensor(::UnityEngine::Vector3 value);
@@ -838,23 +838,23 @@ public:
   inline void set_inertiaTensorRotation(::UnityEngine::Quaternion value);
 
   /// @brief Method set_inertiaTensorRotation_Injected, addr 0x6fe1e04, size 0x44, virtual false, abstract: false, final false
-  static inline void set_inertiaTensorRotation_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Quaternion> value);
+  static inline void set_inertiaTensorRotation_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Quaternion const> value);
 
   /// @brief Method set_inertiaTensor_Injected, addr 0x6fe1b4c, size 0x44, virtual false, abstract: false, final false
-  static inline void set_inertiaTensor_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_inertiaTensor_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// [Obsolete("Setting joint accelerations is not supported in forward kinematics. To have inverse dynamics take acceleration into account, use GetJointForcesForAcceleration instead", true)]
   /// @brief Method set_jointAcceleration, addr 0x6fe32b8, size 0xdc, virtual false, abstract: false, final false
   inline void set_jointAcceleration(::UnityEngine::ArticulationReducedSpace value);
 
   /// @brief Method set_jointAcceleration_Injected, addr 0x6fe3394, size 0x44, virtual false, abstract: false, final false
-  static inline void set_jointAcceleration_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ArticulationReducedSpace> value);
+  static inline void set_jointAcceleration_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ArticulationReducedSpace const> value);
 
   /// @brief Method set_jointForce, addr 0x6fe34fc, size 0xdc, virtual false, abstract: false, final false
   inline void set_jointForce(::UnityEngine::ArticulationReducedSpace value);
 
   /// @brief Method set_jointForce_Injected, addr 0x6fe35d8, size 0x44, virtual false, abstract: false, final false
-  static inline void set_jointForce_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ArticulationReducedSpace> value);
+  static inline void set_jointForce_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ArticulationReducedSpace const> value);
 
   /// @brief Method set_jointFriction, addr 0x6fe0300, size 0x90, virtual false, abstract: false, final false
   inline void set_jointFriction(float_t value);
@@ -866,7 +866,7 @@ public:
   inline void set_jointPosition(::UnityEngine::ArticulationReducedSpace value);
 
   /// @brief Method set_jointPosition_Injected, addr 0x6fe2f0c, size 0x44, virtual false, abstract: false, final false
-  static inline void set_jointPosition_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ArticulationReducedSpace> value);
+  static inline void set_jointPosition_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ArticulationReducedSpace const> value);
 
   /// @brief Method set_jointType, addr 0x6fde330, size 0x90, virtual false, abstract: false, final false
   inline void set_jointType(::UnityEngine::ArticulationJointType value);
@@ -878,7 +878,7 @@ public:
   inline void set_jointVelocity(::UnityEngine::ArticulationReducedSpace value);
 
   /// @brief Method set_jointVelocity_Injected, addr 0x6fe3150, size 0x44, virtual false, abstract: false, final false
-  static inline void set_jointVelocity_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ArticulationReducedSpace> value);
+  static inline void set_jointVelocity_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ArticulationReducedSpace const> value);
 
   /// @brief Method set_linearDamping, addr 0x6fdffd0, size 0x90, virtual false, abstract: false, final false
   inline void set_linearDamping(float_t value);
@@ -908,7 +908,7 @@ public:
   inline void set_linearVelocity(::UnityEngine::Vector3 value);
 
   /// @brief Method set_linearVelocity_Injected, addr 0x6fe1070, size 0x44, virtual false, abstract: false, final false
-  static inline void set_linearVelocity_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_linearVelocity_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// @brief Method set_mass, addr 0x6fe1330, size 0x90, virtual false, abstract: false, final false
   inline void set_mass(float_t value);
@@ -950,13 +950,13 @@ public:
   inline void set_parentAnchorPosition(::UnityEngine::Vector3 value);
 
   /// @brief Method set_parentAnchorPosition_Injected, addr 0x6fde740, size 0x44, virtual false, abstract: false, final false
-  static inline void set_parentAnchorPosition_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_parentAnchorPosition_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// @brief Method set_parentAnchorRotation, addr 0x6fdea20, size 0x98, virtual false, abstract: false, final false
   inline void set_parentAnchorRotation(::UnityEngine::Quaternion value);
 
   /// @brief Method set_parentAnchorRotation_Injected, addr 0x6fdeab8, size 0x44, virtual false, abstract: false, final false
-  static inline void set_parentAnchorRotation_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Quaternion> value);
+  static inline void set_parentAnchorRotation_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Quaternion const> value);
 
   /// @brief Method set_sleepThreshold, addr 0x6fe22b0, size 0x90, virtual false, abstract: false, final false
   inline void set_sleepThreshold(float_t value);
@@ -1007,19 +1007,19 @@ public:
   inline void set_xDrive(::UnityEngine::ArticulationDrive value);
 
   /// @brief Method set_xDrive_Injected, addr 0x6fdf828, size 0x44, virtual false, abstract: false, final false
-  static inline void set_xDrive_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ArticulationDrive> value);
+  static inline void set_xDrive_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ArticulationDrive const> value);
 
   /// @brief Method set_yDrive, addr 0x6fdf95c, size 0x90, virtual false, abstract: false, final false
   inline void set_yDrive(::UnityEngine::ArticulationDrive value);
 
   /// @brief Method set_yDrive_Injected, addr 0x6fdf9ec, size 0x44, virtual false, abstract: false, final false
-  static inline void set_yDrive_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ArticulationDrive> value);
+  static inline void set_yDrive_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ArticulationDrive const> value);
 
   /// @brief Method set_zDrive, addr 0x6fdfb20, size 0x90, virtual false, abstract: false, final false
   inline void set_zDrive(::UnityEngine::ArticulationDrive value);
 
   /// @brief Method set_zDrive_Injected, addr 0x6fdfbb0, size 0x44, virtual false, abstract: false, final false
-  static inline void set_zDrive_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ArticulationDrive> value);
+  static inline void set_zDrive_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::ArticulationDrive const> value);
 
 protected:
   // Ctor Parameters []

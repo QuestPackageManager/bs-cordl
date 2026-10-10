@@ -740,7 +740,7 @@ public:
   inline void HandleMovementDidFinish();
 
   /// @brief Method HandleNoteWasCut, addr 0x5d943c0, size 0x90, virtual false, abstract: false, final false
-  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo const> noteCutInfo);
 
   /// @brief Method HandleNoteWasMissed, addr 0x5d94344, size 0x4c, virtual false, abstract: false, final false
   inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
@@ -753,7 +753,7 @@ public:
 
   /// @brief Method Init, addr 0x5d90f4c, size 0x478, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::SliderController_LengthType lengthType, ::GlobalNamespace::SliderData* sliderData,
-                   /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::SliderSpawnData> sliderSpawnData, float_t noteUniformScale, float_t randomValue);
+                   /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::SliderSpawnData const> sliderSpawnData, float_t noteUniformScale, float_t randomValue);
 
   /// @brief Method IsNoteStartOfThisSlider, addr 0x5d93d30, size 0xf4, virtual false, abstract: false, final false
   inline bool IsNoteStartOfThisSlider(::GlobalNamespace::NoteData* noteData);

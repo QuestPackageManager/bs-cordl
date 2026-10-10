@@ -32,14 +32,14 @@ public:
 
   /// [FreeFunction("AsyncReadManagerManaged::GetJobFenceFromManagedHandle")]
   /// @brief Method GetJobHandle_Internal, addr 0x6eb0a7c, size 0x54, virtual false, abstract: false, final false
-  static inline ::Unity::Jobs::JobHandle GetJobHandle_Internal(/* [IsReadOnly] */ ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> handle);
+  static inline ::Unity::Jobs::JobHandle GetJobHandle_Internal(/* [IsReadOnly] */ ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle const> handle);
 
   /// @brief Method GetJobHandle_Internal_Injected, addr 0x6eb0c10, size 0x44, virtual false, abstract: false, final false
-  static inline void GetJobHandle_Internal_Injected(/* [IsReadOnly] */ ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> handle, ::by_ref<::Unity::Jobs::JobHandle> ret);
+  static inline void GetJobHandle_Internal_Injected(/* [IsReadOnly] */ ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle const> handle, ::by_ref<::Unity::Jobs::JobHandle> ret);
 
   /// [FreeFunction("AsyncReadManagerManaged::IsFileHandleValid")]
   /// @brief Method IsFileHandleValid, addr 0x6eb0a40, size 0x3c, virtual false, abstract: false, final false
-  static inline bool IsFileHandleValid(/* [IsReadOnly] */ ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> handle);
+  static inline bool IsFileHandleValid(/* [IsReadOnly] */ ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle const> handle);
 
   /// @brief Method IsValid, addr 0x6eb0ad0, size 0x3c, virtual false, abstract: false, final false
   inline bool IsValid();

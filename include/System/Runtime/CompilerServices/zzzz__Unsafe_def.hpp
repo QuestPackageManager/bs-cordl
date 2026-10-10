@@ -56,7 +56,7 @@ public:
   template <typename T> static inline void* AsPointer(::by_ref<T> value);
 
   /// @brief Method AsRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::by_ref<T> AsRef(/* [IsReadOnly] */ ::by_ref<T> source);
+  template <typename T> static inline ::by_ref<T> AsRef(/* [IsReadOnly] */ ::by_ref<T const> source);
 
   /// @brief Method AsRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::by_ref<T> AsRef(void* source);

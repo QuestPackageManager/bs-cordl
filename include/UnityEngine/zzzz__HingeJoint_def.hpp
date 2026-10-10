@@ -130,19 +130,19 @@ public:
   inline void set_limits(::UnityEngine::JointLimits value);
 
   /// @brief Method set_limits_Injected, addr 0x6ffbeb0, size 0x44, virtual false, abstract: false, final false
-  static inline void set_limits_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::JointLimits> value);
+  static inline void set_limits_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::JointLimits const> value);
 
   /// @brief Method set_motor, addr 0x6ffbc48, size 0x98, virtual false, abstract: false, final false
   inline void set_motor(::UnityEngine::JointMotor value);
 
   /// @brief Method set_motor_Injected, addr 0x6ffbce0, size 0x44, virtual false, abstract: false, final false
-  static inline void set_motor_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::JointMotor> value);
+  static inline void set_motor_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::JointMotor const> value);
 
   /// @brief Method set_spring, addr 0x6ffbfd8, size 0x98, virtual false, abstract: false, final false
   inline void set_spring(::UnityEngine::JointSpring value);
 
   /// @brief Method set_spring_Injected, addr 0x6ffc070, size 0x44, virtual false, abstract: false, final false
-  static inline void set_spring_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::JointSpring> value);
+  static inline void set_spring_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::JointSpring const> value);
 
   /// @brief Method set_useAcceleration, addr 0x6ffc928, size 0x90, virtual false, abstract: false, final false
   inline void set_useAcceleration(bool value);

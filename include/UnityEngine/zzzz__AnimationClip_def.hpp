@@ -267,7 +267,7 @@ public:
   inline void set_localBounds(::UnityEngine::Bounds value);
 
   /// @brief Method set_localBounds_Injected, addr 0x6e89160, size 0x44, virtual false, abstract: false, final false
-  static inline void set_localBounds_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bounds> value);
+  static inline void set_localBounds_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bounds const> value);
 
   /// @brief Method set_wrapMode, addr 0x6e88f08, size 0x90, virtual false, abstract: false, final false
   inline void set_wrapMode(::UnityEngine::WrapMode value);

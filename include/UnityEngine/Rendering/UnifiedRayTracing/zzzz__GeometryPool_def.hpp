@@ -662,17 +662,18 @@ public:
 
   /// @brief Method AddIndexUpdateCommand, addr 0x6e058d4, size 0x28c, virtual false, abstract: false, final false
   inline void AddIndexUpdateCommand(::UnityEngine::Rendering::CommandBuffer* cmdBuffer, ::UnityEngine::Rendering::IndexFormat inputFormat,
-                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::GraphicsBuffer*> inputBuffer,
-                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation> location, int32_t firstVertex, int32_t inputOffset,
+                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::GraphicsBuffer* const> inputBuffer,
+                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation const> location, int32_t firstVertex, int32_t inputOffset,
                                     int32_t indexCount, int32_t outputOffset, ::UnityEngine::GraphicsBuffer* outputIdxBuffer);
 
   /// @brief Method AddVertexUpdateCommand, addr 0x6e0543c, size 0x498, virtual false, abstract: false, final false
   inline void AddVertexUpdateCommand(::UnityEngine::Rendering::CommandBuffer* cmdBuffer, int32_t baseVertexOffset,
-                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo> pos,
-                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo> uv0,
-                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo> uv1,
-                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo> n,
-                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation> location, ::UnityEngine::GraphicsBuffer* outputVertexBuffer);
+                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo const> pos,
+                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo const> uv0,
+                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo const> uv1,
+                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo const> n,
+                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation const> location,
+                                     ::UnityEngine::GraphicsBuffer* outputVertexBuffer);
 
   /// @brief Method AllocateCommandBuffer, addr 0x6e05188, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::CommandBuffer* AllocateCommandBuffer();
@@ -717,7 +718,7 @@ public:
   inline uint32_t FNVHash(uint32_t prevHash, uint32_t dword);
 
   /// @brief Method FindSubmeshEntryInDesc, addr 0x6e05ce8, size 0x44, virtual false, abstract: false, final false
-  static inline int32_t FindSubmeshEntryInDesc(int32_t submeshIndex, /* [IsReadOnly] */ ::by_ref<::ArrayW<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolSubmeshData>> submeshData);
+  static inline int32_t FindSubmeshEntryInDesc(int32_t submeshIndex, /* [IsReadOnly] */ ::by_ref<::ArrayW<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolSubmeshData> const> submeshData);
 
   /// @brief Method GetEntryGeomAllocation, addr 0x6e028fc, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_GeometrySlot GetEntryGeomAllocation(::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle handle);
@@ -753,11 +754,11 @@ public:
   inline void LoadVertexAttribInfo(::UnityEngine::Mesh* mesh, ::UnityEngine::Rendering::VertexAttribute attribute,
                                    ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo> output);
 
-  static inline ::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool* New_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolDesc> desc,
+  static inline ::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool* New_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolDesc const> desc,
                                                                                     ::UnityEngine::ComputeShader* geometryPoolShader, ::UnityEngine::ComputeShader* copyShader);
 
   /// @brief Method Register, addr 0x6e05d2c, size 0x6c0, virtual false, abstract: false, final false
-  inline bool Register(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolEntryDesc> entryDesc,
+  inline bool Register(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolEntryDesc const> entryDesc,
                        ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle> outHandle);
 
   /// @brief Method Register, addr 0x6e0283c, size 0x24, virtual false, abstract: false, final false
@@ -923,7 +924,7 @@ public:
   constexpr void __cordl_internal_set_m_VertexAllocator(::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator value);
 
   /// @brief Method .ctor, addr 0x6dff5cc, size 0x3bc, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolDesc> desc, ::UnityEngine::ComputeShader* geometryPoolShader,
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolDesc const> desc, ::UnityEngine::ComputeShader* geometryPoolShader,
                     ::UnityEngine::ComputeShader* copyShader);
 
   /// @brief Method get_globalIndexBuffer, addr 0x6e02f38, size 0x8, virtual false, abstract: false, final false

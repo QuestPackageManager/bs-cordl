@@ -145,10 +145,10 @@ public:
   inline void OkButtonPressed();
 
   /// @brief Method Refresh, addr 0x5d71ecc, size 0x3dc, virtual false, abstract: false, final false
-  inline void Refresh(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelFilter> filter);
+  inline void Refresh(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelFilter const> filter);
 
   /// @brief Method Setup, addr 0x5d71e8c, size 0x40, virtual false, abstract: false, final false
-  inline void Setup(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelFilter> filter, ::ArrayW<::GlobalNamespace::BeatmapCharacteristic> notAllowedCharacteristics);
+  inline void Setup(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelFilter const> filter, ::ArrayW<::GlobalNamespace::BeatmapCharacteristic> notAllowedCharacteristics);
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicsDropdown> const& __cordl_internal_get__beatmapCharacteristicsDropdown() const;
 

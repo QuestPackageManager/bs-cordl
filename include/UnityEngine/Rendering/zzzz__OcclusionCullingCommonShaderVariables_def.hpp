@@ -279,8 +279,8 @@ public:
   using __ViewProjMatrix_e__FixedBuffer = ::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___ViewProjMatrix_e__FixedBuffer;
 
   /// @brief Method .ctor, addr 0x6c69f04, size 0x3a8, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderContext> occluderCtx,
-                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings> subviewSettings, bool occlusionOverlayCountVisible,
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderContext const> occluderCtx,
+                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings const> subviewSettings, bool occlusionOverlayCountVisible,
                     bool overrideOcclusionTestToAlwaysPass);
 
   // Ctor Parameters []

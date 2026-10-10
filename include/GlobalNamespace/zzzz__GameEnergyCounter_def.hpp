@@ -252,7 +252,7 @@ public:
   constexpr operator ::GlobalNamespace::IGameEnergyCounter*() noexcept;
 
   /// @brief Method HandleNoteWasCut, addr 0x5e06d2c, size 0xec, virtual false, abstract: false, final false
-  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo const> noteCutInfo);
 
   /// @brief Method HandleNoteWasMissed, addr 0x5e06e18, size 0x64, virtual false, abstract: false, final false
   inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);

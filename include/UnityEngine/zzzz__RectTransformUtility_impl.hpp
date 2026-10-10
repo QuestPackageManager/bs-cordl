@@ -201,7 +201,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*
 //  Writing Method size for method: ::UnityEngine::RectTransformUtility.PixelAdjustPoint_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector2>, ::System::IntPtr, ::System::IntPtr, ::by_ref<::UnityEngine::Vector2>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector2 const>, ::System::IntPtr, ::System::IntPtr, ::by_ref<::UnityEngine::Vector2>)>(
     &::UnityEngine::RectTransformUtility::PixelAdjustPoint_Injected)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x72819a0;
@@ -211,7 +211,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
         THROW_UNLESS(::i2c::no_logger{},
                      (::i2c::find_method(::i2c::class_of<::UnityEngine::RectTransformUtility*>(), { "PixelAdjustPoint_Injected",
                                                                                                     {},
-                                                                                                    { ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(), ::i2c::type_of<::System::IntPtr>(),
+                                                                                                    { ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>(), ::i2c::type_of<::System::IntPtr>(),
                                                                                                       ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
     return ___internal_method;
   }
@@ -234,18 +234,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
 //  Writing Method size for method: ::UnityEngine::RectTransformUtility.PointInRectangle_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Vector2>, ::System::IntPtr, ::System::IntPtr, ::by_ref<::UnityEngine::Vector4>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Vector2 const>, ::System::IntPtr, ::System::IntPtr, ::by_ref<::UnityEngine::Vector4 const>)>(
     &::UnityEngine::RectTransformUtility::PointInRectangle_Injected)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x7281c60;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::RectTransformUtility*>(), { "PointInRectangle_Injected",
-                                                                                                    {},
-                                                                                                    { ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(), ::i2c::type_of<::System::IntPtr>(),
-                                                                                                      ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RectTransformUtility*>(),
+                                                                                           { "PointInRectangle_Injected",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>(), ::i2c::type_of<::System::IntPtr>(),
+                                                                                               ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector4 const>>() } })));
     return ___internal_method;
   }
 };
@@ -343,13 +342,13 @@ inline ::UnityEngine::Vector2 UnityEngine::RectTransformUtility::GetTransposed(:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RectTransformUtility*>(), { "GetTransposed", {}, { ::i2c::type_of<::UnityEngine::Vector2>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(nullptr, ___internal_method, input);
 }
-inline void UnityEngine::RectTransformUtility::PixelAdjustPoint_Injected(::by_ref<::UnityEngine::Vector2> point, ::System::IntPtr elementTransform, ::System::IntPtr canvas,
+inline void UnityEngine::RectTransformUtility::PixelAdjustPoint_Injected(::by_ref<::UnityEngine::Vector2 const> point, ::System::IntPtr elementTransform, ::System::IntPtr canvas,
                                                                          ::by_ref<::UnityEngine::Vector2> ret) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::RectTransformUtility*>(), { "PixelAdjustPoint_Injected",
                                                                                                   {},
-                                                                                                  { ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(), ::i2c::type_of<::System::IntPtr>(),
+                                                                                                  { ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>(), ::i2c::type_of<::System::IntPtr>(),
                                                                                                     ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, point, elementTransform, canvas, ret);
 }
@@ -360,14 +359,14 @@ inline void UnityEngine::RectTransformUtility::PixelAdjustRect_Injected(::System
                           { "PixelAdjustRect_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, rectTransform, canvas, ret);
 }
-inline bool UnityEngine::RectTransformUtility::PointInRectangle_Injected(::by_ref<::UnityEngine::Vector2> screenPoint, ::System::IntPtr rect, ::System::IntPtr cam,
-                                                                         ::by_ref<::UnityEngine::Vector4> offset) {
+inline bool UnityEngine::RectTransformUtility::PointInRectangle_Injected(::by_ref<::UnityEngine::Vector2 const> screenPoint, ::System::IntPtr rect, ::System::IntPtr cam,
+                                                                         ::by_ref<::UnityEngine::Vector4 const> offset) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::RectTransformUtility*>(), { "PointInRectangle_Injected",
                                                                                                   {},
-                                                                                                  { ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(), ::i2c::type_of<::System::IntPtr>(),
-                                                                                                    ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>() } })));
+                                                                                                  { ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>(), ::i2c::type_of<::System::IntPtr>(),
+                                                                                                    ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector4 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, screenPoint, rect, cam, offset);
 }
 // Ctor Parameters []

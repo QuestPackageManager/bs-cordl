@@ -247,8 +247,8 @@ public:
   inline ::UnityEngine::Rendering::BatchID AddDrawCommandBatch(::System::IntPtr values, int32_t count, ::UnityEngine::GraphicsBufferHandle buffer, uint32_t bufferOffset, uint32_t windowSize);
 
   /// @brief Method AddDrawCommandBatch_Injected, addr 0x6f88074, size 0x84, virtual false, abstract: false, final false
-  static inline void AddDrawCommandBatch_Injected(::System::IntPtr _unity_self, ::System::IntPtr values, int32_t count, ::by_ref<::UnityEngine::GraphicsBufferHandle> buffer, uint32_t bufferOffset,
-                                                  uint32_t windowSize, ::by_ref<::UnityEngine::Rendering::BatchID> ret);
+  static inline void AddDrawCommandBatch_Injected(::System::IntPtr _unity_self, ::System::IntPtr values, int32_t count, ::by_ref<::UnityEngine::GraphicsBufferHandle const> buffer,
+                                                  uint32_t bufferOffset, uint32_t windowSize, ::by_ref<::UnityEngine::Rendering::BatchID> ret);
 
   /// @brief Method Create, addr 0x6f87f18, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create(/* [UnityMarshalAs((UnityEngine.Bindings.NativeType)0)] */ ::UnityEngine::Rendering::BatchRendererGroup* group, void* userContext);
@@ -278,7 +278,7 @@ public:
   static inline bool OcclusionTestAABB(::System::IntPtr occlusionBuffer, ::UnityEngine::Bounds aabb);
 
   /// @brief Method OcclusionTestAABB_Injected, addr 0x6f889d4, size 0x44, virtual false, abstract: false, final false
-  static inline bool OcclusionTestAABB_Injected(::System::IntPtr occlusionBuffer, ::by_ref<::UnityEngine::Bounds> aabb);
+  static inline bool OcclusionTestAABB_Injected(::System::IntPtr occlusionBuffer, ::by_ref<::UnityEngine::Bounds const> aabb);
 
   /// @brief Method RegisterMaterials, addr 0x6f88214, size 0x118, virtual false, abstract: false, final false
   inline void RegisterMaterials(::System::ReadOnlySpan_1<::UnityEngine::EntityId> materialID, ::System::Span_1<::UnityEngine::Rendering::BatchMaterialID> batchMaterialID);
@@ -301,19 +301,19 @@ public:
   inline void RemoveDrawCommandBatch(::UnityEngine::Rendering::BatchID batchID);
 
   /// @brief Method RemoveDrawCommandBatch_Injected, addr 0x6f881c8, size 0x44, virtual false, abstract: false, final false
-  static inline void RemoveDrawCommandBatch_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::BatchID> batchID);
+  static inline void RemoveDrawCommandBatch_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::BatchID const> batchID);
 
   /// @brief Method UnregisterMaterial, addr 0x6f88380, size 0x5c, virtual false, abstract: false, final false
   inline void UnregisterMaterial(::UnityEngine::Rendering::BatchMaterialID material);
 
   /// @brief Method UnregisterMaterial_Injected, addr 0x6f883dc, size 0x44, virtual false, abstract: false, final false
-  static inline void UnregisterMaterial_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::BatchMaterialID> material);
+  static inline void UnregisterMaterial_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::BatchMaterialID const> material);
 
   /// @brief Method UnregisterMesh, addr 0x6f8858c, size 0x5c, virtual false, abstract: false, final false
   inline void UnregisterMesh(::UnityEngine::Rendering::BatchMeshID mesh);
 
   /// @brief Method UnregisterMesh_Injected, addr 0x6f885e8, size 0x44, virtual false, abstract: false, final false
-  static inline void UnregisterMesh_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::BatchMeshID> mesh);
+  static inline void UnregisterMesh_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::BatchMeshID const> mesh);
 
   constexpr ::UnityEngine::Rendering::BatchRendererGroup_OnFinishedCulling* const& __cordl_internal_get_m_FinishedCulling() const;
 

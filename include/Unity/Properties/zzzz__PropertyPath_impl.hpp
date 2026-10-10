@@ -71,66 +71,68 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties
 //  Writing Method size for method: ::Unity::Properties::PropertyPath._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::PropertyPath::*)(::by_ref<::Unity::Properties::PropertyPathPart>)>(&::Unity::Properties::PropertyPath::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::PropertyPath::*)(::by_ref<::Unity::Properties::PropertyPathPart const>)>(&::Unity::Properties::PropertyPath::_ctor)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x700bb44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart>>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Properties::PropertyPath._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::PropertyPath::*)(::by_ref<::Unity::Properties::PropertyPathPart>, ::by_ref<::Unity::Properties::PropertyPathPart>)>(
-    &::Unity::Properties::PropertyPath::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::PropertyPath::*)(::by_ref<::Unity::Properties::PropertyPathPart const>,
+                                                                                                   ::by_ref<::Unity::Properties::PropertyPathPart const>)>(&::Unity::Properties::PropertyPath::_ctor)> {
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x700bb6c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
-                                         { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
+                            { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart const>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Properties::PropertyPath._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::PropertyPath::*)(::by_ref<::Unity::Properties::PropertyPathPart>, ::by_ref<::Unity::Properties::PropertyPathPart>,
-                                                                                                   ::by_ref<::Unity::Properties::PropertyPathPart>)>(&::Unity::Properties::PropertyPath::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::PropertyPath::*)(
+    ::by_ref<::Unity::Properties::PropertyPathPart const>, ::by_ref<::Unity::Properties::PropertyPathPart const>, ::by_ref<::Unity::Properties::PropertyPathPart const>)>(
+    &::Unity::Properties::PropertyPath::_ctor)> {
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x700bb98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
-                                                             { ".ctor",
-                                                               {},
-                                                               { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart>>(),
-                                                                 ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart>>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(), { ".ctor",
+                                                                                                                     {},
+                                                                                                                     { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart const>>(),
+                                                                                                                       ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart const>>(),
+                                                                                                                       ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Properties::PropertyPath._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::PropertyPath::*)(::by_ref<::Unity::Properties::PropertyPathPart>, ::by_ref<::Unity::Properties::PropertyPathPart>,
-                                                                                                   ::by_ref<::Unity::Properties::PropertyPathPart>, ::by_ref<::Unity::Properties::PropertyPathPart>)>(
-    &::Unity::Properties::PropertyPath::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::PropertyPath::*)(
+    ::by_ref<::Unity::Properties::PropertyPathPart const>, ::by_ref<::Unity::Properties::PropertyPathPart const>, ::by_ref<::Unity::Properties::PropertyPathPart const>,
+    ::by_ref<::Unity::Properties::PropertyPathPart const>)>(&::Unity::Properties::PropertyPath::_ctor)> {
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x700bbc8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
-                                                { ".ctor",
-                                                  {},
-                                                  { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart>>(),
-                                                    ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
+                                         { ".ctor",
+                                           {},
+                                           { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart const>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart const>>(),
+                                             ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart const>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart const>>() } })));
     return ___internal_method;
   }
 };
@@ -164,52 +166,54 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::Prop
 //  Writing Method size for method: ::Unity::Properties::PropertyPath.Combine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::PropertyPath (*)(::by_ref<::Unity::Properties::PropertyPath>, ::by_ref<::Unity::Properties::PropertyPath>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::PropertyPath (*)(::by_ref<::Unity::Properties::PropertyPath const>, ::by_ref<::Unity::Properties::PropertyPath const>)>(
     &::Unity::Properties::PropertyPath::Combine)> {
   constexpr static std::size_t size = 0x394;
   constexpr static std::size_t addrs = 0x700be44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
-                                                { "Combine", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>() } })));
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
+                            { "Combine", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath const>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Properties::PropertyPath.AppendPart
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::PropertyPath (*)(::by_ref<::Unity::Properties::PropertyPath>, ::by_ref<::Unity::Properties::PropertyPathPart>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::PropertyPath (*)(::by_ref<::Unity::Properties::PropertyPath const>, ::by_ref<::Unity::Properties::PropertyPathPart const>)>(
     &::Unity::Properties::PropertyPath::AppendPart)> {
   constexpr static std::size_t size = 0x37c;
   constexpr static std::size_t addrs = 0x700c2c4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
-                                         { "AppendPart", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
+                            { "AppendPart", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath const>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Properties::PropertyPath.AppendIndex
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::PropertyPath (*)(::by_ref<::Unity::Properties::PropertyPath>, int32_t)>(&::Unity::Properties::PropertyPath::AppendIndex)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::PropertyPath (*)(::by_ref<::Unity::Properties::PropertyPath const>, int32_t)>(
+    &::Unity::Properties::PropertyPath::AppendIndex)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x700c640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
-                                                             { "AppendIndex", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>(), ::i2c::type_of<int32_t>() } })));
+                                                             { "AppendIndex", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath const>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Properties::PropertyPath.AppendProperty
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::PropertyPath (*)(::by_ref<::Unity::Properties::PropertyPath>, ::Unity::Properties::IProperty*)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::PropertyPath (*)(::by_ref<::Unity::Properties::PropertyPath const>, ::Unity::Properties::IProperty*)>(
     &::Unity::Properties::PropertyPath::AppendProperty)> {
   constexpr static std::size_t size = 0x2bc;
   constexpr static std::size_t addrs = 0x700c69c;
@@ -217,27 +221,27 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::Prop
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
-                                                { "AppendProperty", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>(), ::i2c::type_of<::Unity::Properties::IProperty*>() } })));
+                                                { "AppendProperty", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath const>>(), ::i2c::type_of<::Unity::Properties::IProperty*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Properties::PropertyPath.Pop
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::PropertyPath (*)(::by_ref<::Unity::Properties::PropertyPath>)>(&::Unity::Properties::PropertyPath::Pop)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::PropertyPath (*)(::by_ref<::Unity::Properties::PropertyPath const>)>(&::Unity::Properties::PropertyPath::Pop)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x700c958;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(), { "Pop", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(), { "Pop", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Properties::PropertyPath.SubPath
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::PropertyPath (*)(::by_ref<::Unity::Properties::PropertyPath>, int32_t, int32_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::PropertyPath (*)(::by_ref<::Unity::Properties::PropertyPath const>, int32_t, int32_t)>(
     &::Unity::Properties::PropertyPath::SubPath)> {
   constexpr static std::size_t size = 0x4c4;
   constexpr static std::size_t addrs = 0x700c994;
@@ -245,7 +249,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::Prop
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
-                                                { "SubPath", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+                                                { "SubPath", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath const>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -265,32 +269,33 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Prope
 //  Writing Method size for method: ::Unity::Properties::PropertyPath.AppendToBuilder
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Properties::PropertyPathPart>, ::System::Text::StringBuilder*)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Properties::PropertyPathPart const>, ::System::Text::StringBuilder*)>(
     &::Unity::Properties::PropertyPath::AppendToBuilder)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x700cfe8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
-                                                { "AppendToBuilder", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart>>(), ::i2c::type_of<::System::Text::StringBuilder*>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
+                                         { "AppendToBuilder", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart const>>(), ::i2c::type_of<::System::Text::StringBuilder*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Properties::PropertyPath.GetParts
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Properties::PropertyPath>, ::System::Collections::Generic::List_1<::Unity::Properties::PropertyPathPart>*)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Properties::PropertyPath const>, ::System::Collections::Generic::List_1<::Unity::Properties::PropertyPathPart>*)>(
     &::Unity::Properties::PropertyPath::GetParts)> {
   constexpr static std::size_t size = 0xec;
   constexpr static std::size_t addrs = 0x700c1d8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::Unity::Properties::PropertyPath>(),
-            { "GetParts", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>(), ::i2c::type_of<::System::Collections::Generic::List_1<::Unity::Properties::PropertyPathPart>*>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
+                                                                                           { "GetParts",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath const>>(),
+                                                                                               ::i2c::type_of<::System::Collections::Generic::List_1<::Unity::Properties::PropertyPathPart>*>() } })));
     return ___internal_method;
   }
 };
@@ -420,36 +425,41 @@ inline void Unity::Properties::PropertyPath::_ctor(::StringW path) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, path);
 }
-inline void Unity::Properties::PropertyPath::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part) {
+inline void Unity::Properties::PropertyPath::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart const> part) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart>>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, part);
 }
-inline void Unity::Properties::PropertyPath::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part0, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part1) {
+inline void Unity::Properties::PropertyPath::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart const> part0,
+                                                   /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart const> part1) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
+                          { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart const>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart const>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, part0, part1);
+}
+inline void Unity::Properties::PropertyPath::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart const> part0,
+                                                   /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart const> part1,
+                                                   /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart const> part2) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(), { ".ctor",
+                                                                                                                   {},
+                                                                                                                   { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart const>>(),
+                                                                                                                     ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart const>>(),
+                                                                                                                     ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart const>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, part0, part1, part2);
+}
+inline void Unity::Properties::PropertyPath::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart const> part0,
+                                                   /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart const> part1,
+                                                   /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart const> part2,
+                                                   /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart const> part3) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
-                                       { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, part0, part1);
-}
-inline void Unity::Properties::PropertyPath::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part0, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part1,
-                                                   /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part2) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
-                                                           { ".ctor",
-                                                             {},
-                                                             { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart>>(),
-                                                               ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, part0, part1, part2);
-}
-inline void Unity::Properties::PropertyPath::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part0, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part1,
-                                                   /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part2, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part3) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
-                                              { ".ctor",
-                                                {},
-                                                { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart>>(),
-                                                  ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart>>() } })));
+                                       { ".ctor",
+                                         {},
+                                         { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart const>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart const>>(),
+                                           ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart const>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, part0, part1, part2, part3);
 }
 inline void Unity::Properties::PropertyPath::_ctor(::System::Collections::Generic::List_1<::Unity::Properties::PropertyPathPart>* parts) {
@@ -462,62 +472,64 @@ inline ::Unity::Properties::PropertyPath Unity::Properties::PropertyPath::FromIn
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(), { "FromIndex", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Properties::PropertyPath>(nullptr, ___internal_method, index);
 }
-inline ::Unity::Properties::PropertyPath Unity::Properties::PropertyPath::Combine(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path,
-                                                                                  /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> pathToAppend) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
-                                              { "Combine", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>() } })));
-  return ::cordl_internals::RunMethodRethrow<::Unity::Properties::PropertyPath>(nullptr, ___internal_method, path, pathToAppend);
-}
-inline ::Unity::Properties::PropertyPath Unity::Properties::PropertyPath::AppendPart(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path,
-                                                                                     /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
-                                       { "AppendPart", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart>>() } })));
-  return ::cordl_internals::RunMethodRethrow<::Unity::Properties::PropertyPath>(nullptr, ___internal_method, path, part);
-}
-inline ::Unity::Properties::PropertyPath Unity::Properties::PropertyPath::AppendIndex(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path, int32_t index) {
+inline ::Unity::Properties::PropertyPath Unity::Properties::PropertyPath::Combine(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> path,
+                                                                                  /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> pathToAppend) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(), { "AppendIndex", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>(), ::i2c::type_of<int32_t>() } })));
+      (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
+                          { "Combine", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath const>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath const>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Properties::PropertyPath>(nullptr, ___internal_method, path, pathToAppend);
+}
+inline ::Unity::Properties::PropertyPath Unity::Properties::PropertyPath::AppendPart(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> path,
+                                                                                     /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart const> part) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
+                          { "AppendPart", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath const>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart const>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Properties::PropertyPath>(nullptr, ___internal_method, path, part);
+}
+inline ::Unity::Properties::PropertyPath Unity::Properties::PropertyPath::AppendIndex(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> path, int32_t index) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
+                                                           { "AppendIndex", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath const>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Properties::PropertyPath>(nullptr, ___internal_method, path, index);
 }
-inline ::Unity::Properties::PropertyPath Unity::Properties::PropertyPath::AppendProperty(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path,
+inline ::Unity::Properties::PropertyPath Unity::Properties::PropertyPath::AppendProperty(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> path,
                                                                                          ::Unity::Properties::IProperty* property) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
-                                              { "AppendProperty", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>(), ::i2c::type_of<::Unity::Properties::IProperty*>() } })));
+                                              { "AppendProperty", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath const>>(), ::i2c::type_of<::Unity::Properties::IProperty*>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Properties::PropertyPath>(nullptr, ___internal_method, path, property);
 }
-inline ::Unity::Properties::PropertyPath Unity::Properties::PropertyPath::Pop(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(), { "Pop", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>() } })));
+inline ::Unity::Properties::PropertyPath Unity::Properties::PropertyPath::Pop(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> path) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(), { "Pop", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Properties::PropertyPath>(nullptr, ___internal_method, path);
 }
-inline ::Unity::Properties::PropertyPath Unity::Properties::PropertyPath::SubPath(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path, int32_t startIndex, int32_t length) {
+inline ::Unity::Properties::PropertyPath Unity::Properties::PropertyPath::SubPath(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> path, int32_t startIndex, int32_t length) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
-                                              { "SubPath", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+                                              { "SubPath", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath const>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Properties::PropertyPath>(nullptr, ___internal_method, path, startIndex, length);
 }
 inline ::StringW Unity::Properties::PropertyPath::ToString() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Properties::PropertyPath>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method);
 }
-inline void Unity::Properties::PropertyPath::AppendToBuilder(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart> part, ::System::Text::StringBuilder* builder) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
-                                              { "AppendToBuilder", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart>>(), ::i2c::type_of<::System::Text::StringBuilder*>() } })));
+inline void Unity::Properties::PropertyPath::AppendToBuilder(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPathPart const> part, ::System::Text::StringBuilder* builder) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
+                                       { "AppendToBuilder", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPathPart const>>(), ::i2c::type_of<::System::Text::StringBuilder*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, part, builder);
 }
-inline void Unity::Properties::PropertyPath::GetParts(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path,
+inline void Unity::Properties::PropertyPath::GetParts(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> path,
                                                       ::System::Collections::Generic::List_1<::Unity::Properties::PropertyPathPart>* parts) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::Unity::Properties::PropertyPath>(),
-          { "GetParts", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>(), ::i2c::type_of<::System::Collections::Generic::List_1<::Unity::Properties::PropertyPathPart>*>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
+                                                                                         { "GetParts",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath const>>(),
+                                                                                             ::i2c::type_of<::System::Collections::Generic::List_1<::Unity::Properties::PropertyPathPart>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, path, parts);
 }
 inline ::Unity::Properties::PropertyPath Unity::Properties::PropertyPath::ConstructFromPath(::StringW path) {

@@ -90,25 +90,25 @@ inline void Unity::Collections::NativeArrayExtensions::CopyFrom(::by_ref<::Unity
 template <typename T>
   requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::NativeArrayExtensions::CopyFrom(::by_ref<::Unity::Collections::NativeArray_1<T>> container,
-                                                                /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeHashSet_1<T>> other) {
+                                                                /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeHashSet_1<T> const> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::Unity::Collections::NativeArrayExtensions*>(),
-          { "CopyFrom", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<T>>>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeHashSet_1<T>>>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeArrayExtensions*>(),
+                                              { "CopyFrom",
+                                                { ::i2c::class_of<T>() },
+                                                { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<T>>>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeHashSet_1<T> const>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }
 template <typename T>
   requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
 inline void Unity::Collections::NativeArrayExtensions::CopyFrom(::by_ref<::Unity::Collections::NativeArray_1<T>> container,
-                                                                /* [IsReadOnly] */ ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> other) {
+                                                                /* [IsReadOnly] */ ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T> const> other) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeArrayExtensions*>(),
                           { "CopyFrom",
                             { ::i2c::class_of<T>() },
-                            { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<T>>>(), ::i2c::type_of<::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>>>() } })));
+                            { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<T>>>(), ::i2c::type_of<::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T> const>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, container, other);
 }

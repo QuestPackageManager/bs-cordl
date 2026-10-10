@@ -61,7 +61,7 @@ public:
   static inline bool CreateHandleInternal(::UnityEngine::Playables::PlayableGraph graph, ::by_ref<::UnityEngine::Playables::PlayableHandle> handle);
 
   /// @brief Method CreateHandleInternal_Injected, addr 0x6e98b64, size 0x44, virtual false, abstract: false, final false
-  static inline bool CreateHandleInternal_Injected(::by_ref<::UnityEngine::Playables::PlayableGraph> graph, ::by_ref<::UnityEngine::Playables::PlayableHandle> handle);
+  static inline bool CreateHandleInternal_Injected(::by_ref<::UnityEngine::Playables::PlayableGraph const> graph, ::by_ref<::UnityEngine::Playables::PlayableHandle> handle);
 
   /// @brief Method Equals, addr 0x6e98aac, size 0xb8, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Animations::AnimationRemoveScalePlayable other);

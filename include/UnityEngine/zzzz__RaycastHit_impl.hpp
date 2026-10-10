@@ -251,19 +251,19 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (:
 //  Writing Method size for method: ::UnityEngine::RaycastHit.CalculateRaycastTexCoord_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::EntityId>, ::by_ref<::UnityEngine::Vector2>, ::by_ref<::UnityEngine::Vector3>, uint32_t, int32_t,
-                                                                ::by_ref<::UnityEngine::Vector2>)>(&::UnityEngine::RaycastHit::CalculateRaycastTexCoord_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::EntityId const>, ::by_ref<::UnityEngine::Vector2 const>, ::by_ref<::UnityEngine::Vector3 const>, uint32_t,
+                                                                int32_t, ::by_ref<::UnityEngine::Vector2>)>(&::UnityEngine::RaycastHit::CalculateRaycastTexCoord_Injected)> {
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x7004514;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(), { "CalculateRaycastTexCoord_Injected",
-                                                                                         {},
-                                                                                         { ::i2c::type_of<::by_ref<::UnityEngine::EntityId>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(),
-                                                                                           ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<int32_t>(),
-                                                                                           ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(), { "CalculateRaycastTexCoord_Injected",
+                                                                            {},
+                                                                            { ::i2c::type_of<::by_ref<::UnityEngine::EntityId const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>(),
+                                                                              ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<int32_t>(),
+                                                                              ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
     return ___internal_method;
   }
 };
@@ -351,15 +351,15 @@ inline ::UnityEngine::Vector2 UnityEngine::RaycastHit::get_lightmapCoord() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(), { "get_lightmapCoord", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(*this, ___internal_method);
 }
-inline void UnityEngine::RaycastHit::CalculateRaycastTexCoord_Injected(::by_ref<::UnityEngine::EntityId> colliderInstanceID, ::by_ref<::UnityEngine::Vector2> uv, ::by_ref<::UnityEngine::Vector3> pos,
-                                                                       uint32_t face, int32_t textcoord, ::by_ref<::UnityEngine::Vector2> ret) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(),
-                                       { "CalculateRaycastTexCoord_Injected",
-                                         {},
-                                         { ::i2c::type_of<::by_ref<::UnityEngine::EntityId>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                           ::i2c::type_of<uint32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
+inline void UnityEngine::RaycastHit::CalculateRaycastTexCoord_Injected(::by_ref<::UnityEngine::EntityId const> colliderInstanceID, ::by_ref<::UnityEngine::Vector2 const> uv,
+                                                                       ::by_ref<::UnityEngine::Vector3 const> pos, uint32_t face, int32_t textcoord, ::by_ref<::UnityEngine::Vector2> ret) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::RaycastHit>(), { "CalculateRaycastTexCoord_Injected",
+                                                                          {},
+                                                                          { ::i2c::type_of<::by_ref<::UnityEngine::EntityId const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>(),
+                                                                            ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<int32_t>(),
+                                                                            ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, colliderInstanceID, uv, pos, face, textcoord, ret);
 }
 // Ctor Parameters [CppParam { name: "m_Point", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "m_Normal", ty: "::UnityEngine::Vector3",

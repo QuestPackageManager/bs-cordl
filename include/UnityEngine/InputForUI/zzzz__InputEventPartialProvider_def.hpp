@@ -74,7 +74,7 @@ public:
   constexpr operator ::UnityEngine::InputForUI::IEventProviderImpl*() noexcept;
 
   /// @brief Method GetTimestamp, addr 0x6fbd1d8, size 0x18, virtual false, abstract: false, final false
-  inline ::Unity::IntegerTime::DiscreteTime GetTimestamp(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Event*> ev);
+  inline ::Unity::IntegerTime::DiscreteTime GetTimestamp(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Event* const> ev);
 
   /// @brief Method Initialize, addr 0x6fbc22c, size 0x1b0, virtual true, abstract: false, final true
   inline void Initialize();
@@ -88,25 +88,25 @@ public:
   inline bool RequestCurrentState(::UnityEngine::InputForUI::Event_Type type);
 
   /// @brief Method SendNextOrPreviousNavigationEventOnTabKeyDownEvent, addr 0x6fbcb84, size 0x16c, virtual false, abstract: false, final false
-  inline void SendNextOrPreviousNavigationEventOnTabKeyDownEvent(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Event*> ev);
+  inline void SendNextOrPreviousNavigationEventOnTabKeyDownEvent(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Event* const> ev);
 
   /// @brief Method Shutdown, addr 0x6fbc3dc, size 0x4, virtual true, abstract: false, final true
   inline void Shutdown();
 
   /// @brief Method ToCommandEvent, addr 0x6fbcd58, size 0x1bc, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputForUI::CommandEvent ToCommandEvent(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Event*> ev);
+  inline ::UnityEngine::InputForUI::CommandEvent ToCommandEvent(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Event* const> ev);
 
   /// @brief Method ToKeyEvent, addr 0x6fbca14, size 0x170, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputForUI::KeyEvent ToKeyEvent(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Event*> ev);
+  inline ::UnityEngine::InputForUI::KeyEvent ToKeyEvent(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Event* const> ev);
 
   /// @brief Method ToTextInputEvent, addr 0x6fbccf0, size 0x68, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputForUI::TextInputEvent ToTextInputEvent(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Event*> ev);
+  inline ::UnityEngine::InputForUI::TextInputEvent ToTextInputEvent(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Event* const> ev);
 
   /// @brief Method Update, addr 0x6fbc3e0, size 0x344, virtual true, abstract: false, final true
   inline void Update();
 
   /// @brief Method UpdateEventModifiers, addr 0x6fbc724, size 0x2f0, virtual false, abstract: false, final false
-  inline void UpdateEventModifiers(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Event*> ev);
+  inline void UpdateEventModifiers(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Event* const> ev);
 
   constexpr ::System::Collections::Generic::IDictionary_2<::StringW, ::UnityEngine::InputForUI::CommandEvent_Command>* const& __cordl_internal_get__IMGUICommandToInputForUICommandType() const;
 

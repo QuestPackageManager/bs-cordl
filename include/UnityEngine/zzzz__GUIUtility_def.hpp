@@ -138,7 +138,7 @@ public:
   static inline ::UnityEngine::Rect AlignRectToDevice(::UnityEngine::Rect rect, ::by_ref<int32_t> widthInPixels, ::by_ref<int32_t> heightInPixels);
 
   /// @brief Method AlignRectToDevice_Injected, addr 0x6faa264, size 0x5c, virtual false, abstract: false, final false
-  static inline void AlignRectToDevice_Injected(::by_ref<::UnityEngine::Rect> rect, ::by_ref<int32_t> widthInPixels, ::by_ref<int32_t> heightInPixels, ::by_ref<::UnityEngine::Rect> ret);
+  static inline void AlignRectToDevice_Injected(::by_ref<::UnityEngine::Rect const> rect, ::by_ref<int32_t> widthInPixels, ::by_ref<int32_t> heightInPixels, ::by_ref<::UnityEngine::Rect> ret);
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Method BeginContainer, addr 0x6fa9f60, size 0x80, virtual false, abstract: false, final false
@@ -226,7 +226,7 @@ public:
   static inline int32_t Internal_GetControlID(int32_t hint, ::UnityEngine::FocusType focusType, ::UnityEngine::Rect rect);
 
   /// @brief Method Internal_GetControlID_Injected, addr 0x6fa9d7c, size 0x54, virtual false, abstract: false, final false
-  static inline int32_t Internal_GetControlID_Injected(int32_t hint, ::UnityEngine::FocusType focusType, ::by_ref<::UnityEngine::Rect> rect);
+  static inline int32_t Internal_GetControlID_Injected(int32_t hint, ::UnityEngine::FocusType focusType, ::by_ref<::UnityEngine::Rect const> rect);
 
   /// @brief Method Internal_GetDefaultSkin, addr 0x6faa5b8, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::Object* Internal_GetDefaultSkin(int32_t skinMode);
@@ -380,7 +380,7 @@ public:
   static inline void set_compositionCursorPos(::UnityEngine::Vector2 value);
 
   /// @brief Method set_compositionCursorPos_Injected, addr 0x6faa4b4, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_compositionCursorPos_Injected(::by_ref<::UnityEngine::Vector2> value);
+  static inline void set_compositionCursorPos_Injected(::by_ref<::UnityEngine::Vector2 const> value);
 
   /// [CompilerGenerated]
   /// @brief Method set_guiIsExiting, addr 0x6faa694, size 0x64, virtual false, abstract: false, final false

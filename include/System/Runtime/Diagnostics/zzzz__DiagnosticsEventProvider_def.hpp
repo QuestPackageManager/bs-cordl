@@ -150,8 +150,7 @@ public:
   inline void Dispose(bool disposing);
 
   /// @brief Method EtwEnableCallBack, addr 0x65b2bbc, size 0x20, virtual false, abstract: false, final false
-  inline void EtwEnableCallBack(::by_ref<::System::Guid> sourceId, ::ByRefConst<int32_t> isEnabled, ::ByRefConst<uint8_t> setLevel, ::ByRefConst<int64_t> anyKeyword, ::ByRefConst<int64_t> allKeyword,
-                                ::ByRefConst<void*> filterData, ::ByRefConst<void*> callbackContext);
+  inline void EtwEnableCallBack(::by_ref<::System::Guid const> sourceId, int32_t isEnabled, uint8_t setLevel, int64_t anyKeyword, int64_t allKeyword, void* filterData, void* callbackContext);
 
   /// @brief Method EtwRegister, addr 0x65b2980, size 0x118, virtual false, abstract: false, final false
   inline void EtwRegister();

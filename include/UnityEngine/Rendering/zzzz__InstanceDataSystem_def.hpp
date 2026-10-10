@@ -1728,7 +1728,7 @@ public:
   /// @brief Method AtomicAddLengthNoResize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  static inline int32_t AtomicAddLengthNoResize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeList_1<T>> list, int32_t count);
+  static inline int32_t AtomicAddLengthNoResize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeList_1<T> const> list, int32_t count);
 
   /// @brief Method DeallocatePerCameraInstanceData, addr 0x6c60220, size 0x8, virtual false, abstract: false, final false
   inline void DeallocatePerCameraInstanceData(::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> cameraIDs);
@@ -1778,8 +1778,8 @@ public:
   inline int32_t GetMaxInstancesOfType(::UnityEngine::Rendering::InstanceType instanceType);
 
   /// @brief Method GetVisibleTreeInstances, addr 0x6c5fd80, size 0x3dc, virtual false, abstract: false, final false
-  inline void GetVisibleTreeInstances(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ParallelBitArray> compactedVisibilityMasks,
-                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ParallelBitArray> processedBits, ::Unity::Collections::NativeList_1<int32_t> visibeTreeRendererIDs,
+  inline void GetVisibleTreeInstances(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ParallelBitArray const> compactedVisibilityMasks,
+                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ParallelBitArray const> processedBits, ::Unity::Collections::NativeList_1<int32_t> visibeTreeRendererIDs,
                                       ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::InstanceHandle> visibeTreeInstances, bool becomeVisibleOnly,
                                       ::by_ref<int32_t> becomeVisibeTreeInstancesCount);
 
@@ -1787,7 +1787,7 @@ public:
   inline void InitializeInstanceTransforms(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
                                            ::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> localToWorldMatrices,
                                            ::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> prevLocalToWorldMatrices,
-                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderersParameters> renderersParameters,
+                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderersParameters const> renderersParameters,
                                            ::UnityEngine::Rendering::GPUInstanceDataBuffer* outputBuffer);
 
   /// @brief Method InternalSanityCheckStates, addr 0x6c5fb08, size 0x278, virtual false, abstract: false, final false
@@ -1796,7 +1796,7 @@ public:
   static inline ::UnityEngine::Rendering::InstanceDataSystem* New_ctor(int32_t maxInstances, bool enableBoundingSpheres, ::UnityEngine::Rendering::GPUResidentDrawerResources* resources);
 
   /// @brief Method ReallocateAndGetInstances, addr 0x6c5ef68, size 0x234, virtual false, abstract: false, final false
-  inline void ReallocateAndGetInstances(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
+  inline void ReallocateAndGetInstances(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const> rendererData,
                                         ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances);
 
   /// @brief Method ScheduleCollectInstancesLODGroupAndMasksJob, addr 0x6c5fa0c, size 0xfc, virtual false, abstract: false, final false
@@ -1830,32 +1830,37 @@ public:
 
   /// @brief Method ScheduleUpdateInstanceDataJob, addr 0x6c5f2cc, size 0x14c, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle ScheduleUpdateInstanceDataJob(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
-                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
+                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const> rendererData,
                                                                 ::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex> lodGroupDataMap);
 
   /// @brief Method UpdateAllInstanceProbes, addr 0x6c5f418, size 0x94, virtual false, abstract: false, final false
-  inline void UpdateAllInstanceProbes(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderersParameters> renderersParameters, ::UnityEngine::Rendering::GPUInstanceDataBuffer* outputBuffer);
+  inline void UpdateAllInstanceProbes(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderersParameters const> renderersParameters,
+                                      ::UnityEngine::Rendering::GPUInstanceDataBuffer* outputBuffer);
 
   /// @brief Method UpdateInstanceMotions, addr 0x6c5f538, size 0x14, virtual false, abstract: false, final false
-  inline void UpdateInstanceMotions(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderersParameters> renderersParameters, ::UnityEngine::Rendering::GPUInstanceDataBuffer* outputBuffer);
+  inline void UpdateInstanceMotions(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderersParameters const> renderersParameters,
+                                    ::UnityEngine::Rendering::GPUInstanceDataBuffer* outputBuffer);
 
   /// @brief Method UpdateInstanceMotionsData, addr 0x6c5e45c, size 0x1d0, virtual false, abstract: false, final false
-  inline void UpdateInstanceMotionsData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderersParameters> renderersParameters, ::UnityEngine::Rendering::GPUInstanceDataBuffer* outputBuffer);
+  inline void UpdateInstanceMotionsData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderersParameters const> renderersParameters,
+                                        ::UnityEngine::Rendering::GPUInstanceDataBuffer* outputBuffer);
 
   /// @brief Method UpdateInstanceProbesData, addr 0x6c5eb9c, size 0x36c, virtual false, abstract: false, final false
   inline void UpdateInstanceProbesData(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
-                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderersParameters> renderersParameters, ::UnityEngine::Rendering::GPUInstanceDataBuffer* outputBuffer);
+                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderersParameters const> renderersParameters,
+                                       ::UnityEngine::Rendering::GPUInstanceDataBuffer* outputBuffer);
 
   /// @brief Method UpdateInstanceTransforms, addr 0x6c5f4f4, size 0x44, virtual false, abstract: false, final false
   inline void UpdateInstanceTransforms(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
                                        ::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> localToWorldMatrices,
-                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderersParameters> renderersParameters, ::UnityEngine::Rendering::GPUInstanceDataBuffer* outputBuffer);
+                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderersParameters const> renderersParameters,
+                                       ::UnityEngine::Rendering::GPUInstanceDataBuffer* outputBuffer);
 
   /// @brief Method UpdateInstanceTransformsData, addr 0x6c5e62c, size 0x570, virtual false, abstract: false, final false
   inline void UpdateInstanceTransformsData(bool initialize, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
                                            ::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> localToWorldMatrices,
                                            ::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> prevLocalToWorldMatrices,
-                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderersParameters> renderersParameters,
+                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderersParameters const> renderersParameters,
                                            ::UnityEngine::Rendering::GPUInstanceDataBuffer* outputBuffer);
 
   /// @brief Method UpdateInstanceWindDataHistory, addr 0x6c5ef08, size 0x60, virtual false, abstract: false, final false
@@ -1863,7 +1868,7 @@ public:
                                             ::UnityEngine::Rendering::RenderersParameters renderersParameters, ::UnityEngine::Rendering::GPUInstanceDataBuffer* outputBuffer);
 
   /// @brief Method UpdatePerFrameInstanceVisibility, addr 0x6c6015c, size 0xc4, virtual false, abstract: false, final false
-  inline void UpdatePerFrameInstanceVisibility(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ParallelBitArray> compactedVisibilityMasks);
+  inline void UpdatePerFrameInstanceVisibility(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ParallelBitArray const> compactedVisibilityMasks);
 
   constexpr ::UnityEngine::ComputeBuffer* const& __cordl_internal_get_m_BoundingSpheresUpdateDataQueueBuffer() const;
 

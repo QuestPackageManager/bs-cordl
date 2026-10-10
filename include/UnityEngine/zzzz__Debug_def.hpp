@@ -81,8 +81,9 @@ public:
                               /* [DefaultValue("true")] */ bool depthTest);
 
   /// @brief Method DrawLine_Injected, addr 0x6eccfc4, size 0x6c, virtual false, abstract: false, final false
-  static inline void DrawLine_Injected(::by_ref<::UnityEngine::Vector3> start, ::by_ref<::UnityEngine::Vector3> end, /* [DefaultValue("Color.white")] */ ::by_ref<::UnityEngine::Color> color,
-                                       /* [DefaultValue("0.0f")] */ float_t duration, /* [DefaultValue("true")] */ bool depthTest);
+  static inline void DrawLine_Injected(::by_ref<::UnityEngine::Vector3 const> start, ::by_ref<::UnityEngine::Vector3 const> end,
+                                       /* [DefaultValue("Color.white")] */ ::by_ref<::UnityEngine::Color const> color, /* [DefaultValue("0.0f")] */ float_t duration,
+                                       /* [DefaultValue("true")] */ bool depthTest);
 
   /// [ThreadSafe]
   /// @brief Method ExtractStackTraceNoAlloc, addr 0x6ecd058, size 0x170, virtual false, abstract: false, final false

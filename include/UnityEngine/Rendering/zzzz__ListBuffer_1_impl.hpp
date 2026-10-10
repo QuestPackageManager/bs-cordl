@@ -18,19 +18,19 @@ template <typename T> inline void UnityEngine::Rendering::ListBuffer_1<T>::_ctor
                                                                                          { ".ctor", {}, { ::i2c::type_of<T*>(), ::i2c::type_of<int32_t*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, bufferPtr, countPtr, capacity);
 }
-template <typename T> inline ::by_ref<T> UnityEngine::Rendering::ListBuffer_1<T>::get_Item(/* [IsReadOnly] */ ::by_ref<int32_t> index) {
+template <typename T> inline ::by_ref<T> UnityEngine::Rendering::ListBuffer_1<T>::get_Item(/* [IsReadOnly] */ ::by_ref<int32_t const> index) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ListBuffer_1<T>>(), { "get_Item", {}, { ::i2c::type_of<::by_ref<int32_t>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ListBuffer_1<T>>(), { "get_Item", {}, { ::i2c::type_of<::by_ref<int32_t const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::by_ref<T>>(*this, ___internal_method, index);
 }
-template <typename T> inline ::by_ref<T> UnityEngine::Rendering::ListBuffer_1<T>::GetUnchecked(/* [IsReadOnly] */ ::by_ref<int32_t> index) {
+template <typename T> inline ::by_ref<T> UnityEngine::Rendering::ListBuffer_1<T>::GetUnchecked(/* [IsReadOnly] */ ::by_ref<int32_t const> index) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ListBuffer_1<T>>(), { "GetUnchecked", {}, { ::i2c::type_of<::by_ref<int32_t>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ListBuffer_1<T>>(), { "GetUnchecked", {}, { ::i2c::type_of<::by_ref<int32_t const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::by_ref<T>>(*this, ___internal_method, index);
 }
-template <typename T> inline bool UnityEngine::Rendering::ListBuffer_1<T>::TryAdd(/* [IsReadOnly] */ ::by_ref<T> value) {
+template <typename T> inline bool UnityEngine::Rendering::ListBuffer_1<T>::TryAdd(/* [IsReadOnly] */ ::by_ref<T const> value) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ListBuffer_1<T>>(), { "TryAdd", {}, { ::i2c::type_of<::by_ref<T>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ListBuffer_1<T>>(), { "TryAdd", {}, { ::i2c::type_of<::by_ref<T const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, value);
 }
 template <typename T> inline void UnityEngine::Rendering::ListBuffer_1<T>::CopyTo(T* dstBuffer, int32_t startDstIndex, int32_t copyCount) {

@@ -49,7 +49,7 @@ public:
   static inline int32_t GetCursorLogicalIndexFromPosition(::System::IntPtr textGenerationInfo, ::UnityEngine::Vector2 position);
 
   /// @brief Method GetCursorLogicalIndexFromPosition_Injected, addr 0x705fe08, size 0x44, virtual false, abstract: false, final false
-  static inline int32_t GetCursorLogicalIndexFromPosition_Injected(::System::IntPtr textGenerationInfo, ::by_ref<::UnityEngine::Vector2> position);
+  static inline int32_t GetCursorLogicalIndexFromPosition_Injected(::System::IntPtr textGenerationInfo, ::by_ref<::UnityEngine::Vector2 const> position);
 
   /// [NativeMethod(Name = "TextSelectionService::GetCursorPositionFromLogicalIndex")]
   /// @brief Method GetCursorPositionFromLogicalIndex, addr 0x705fe4c, size 0x5c, virtual false, abstract: false, final false

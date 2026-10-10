@@ -522,9 +522,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Int
 //  Writing Method size for method: ::UnityEngine::TextGenerator.Populate_Internal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::System::IntPtr, ::by_ref<::UnityEngine::Color>, int32_t,
-                                                                float_t, float_t, ::UnityEngine::FontStyle, bool, bool, int32_t, int32_t, int32_t, int32_t, bool, ::UnityEngine::TextAnchor, float_t,
-                                                                float_t, float_t, float_t, bool, bool, ::by_ref<uint32_t>)>(&::UnityEngine::TextGenerator::Populate_Internal_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::System::IntPtr, ::by_ref<::UnityEngine::Color const>,
+                                                                int32_t, float_t, float_t, ::UnityEngine::FontStyle, bool, bool, int32_t, int32_t, int32_t, int32_t, bool, ::UnityEngine::TextAnchor,
+                                                                float_t, float_t, float_t, float_t, bool, bool, ::by_ref<uint32_t>)>(&::UnityEngine::TextGenerator::Populate_Internal_Injected)> {
   constexpr static std::size_t size = 0x134;
   constexpr static std::size_t addrs = 0x7069a3c;
 
@@ -535,7 +535,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr
                                                                                                                  { ::i2c::type_of<::System::IntPtr>(),
                                                                                                                    ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(),
                                                                                                                    ::i2c::type_of<::System::IntPtr>(),
-                                                                                                                   ::i2c::type_of<::by_ref<::UnityEngine::Color>>(),
+                                                                                                                   ::i2c::type_of<::by_ref<::UnityEngine::Color const>>(),
                                                                                                                    ::i2c::type_of<int32_t>(),
                                                                                                                    ::i2c::type_of<float_t>(),
                                                                                                                    ::i2c::type_of<float_t>(),
@@ -944,17 +944,17 @@ inline int32_t UnityEngine::TextGenerator::get_lineCount_Injected(::System::IntP
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, _unity_self);
 }
 inline bool UnityEngine::TextGenerator::Populate_Internal_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> str, ::System::IntPtr font,
-                                                                   ::by_ref<::UnityEngine::Color> color, int32_t fontSize, float_t scaleFactor, float_t lineSpacing, ::UnityEngine::FontStyle style,
-                                                                   bool richText, bool resizeTextForBestFit, int32_t resizeTextMinSize, int32_t resizeTextMaxSize, int32_t verticalOverFlow,
-                                                                   int32_t horizontalOverflow, bool updateBounds, ::UnityEngine::TextAnchor anchor, float_t extentsX, float_t extentsY, float_t pivotX,
-                                                                   float_t pivotY, bool generateOutOfBounds, bool alignByGeometry, ::by_ref<uint32_t> error) {
+                                                                   ::by_ref<::UnityEngine::Color const> color, int32_t fontSize, float_t scaleFactor, float_t lineSpacing,
+                                                                   ::UnityEngine::FontStyle style, bool richText, bool resizeTextForBestFit, int32_t resizeTextMinSize, int32_t resizeTextMaxSize,
+                                                                   int32_t verticalOverFlow, int32_t horizontalOverflow, bool updateBounds, ::UnityEngine::TextAnchor anchor, float_t extentsX,
+                                                                   float_t extentsY, float_t pivotX, float_t pivotY, bool generateOutOfBounds, bool alignByGeometry, ::by_ref<uint32_t> error) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextGenerator*>(), { "Populate_Internal_Injected",
                                                                                                                {},
                                                                                                                { ::i2c::type_of<::System::IntPtr>(),
                                                                                                                  ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(),
                                                                                                                  ::i2c::type_of<::System::IntPtr>(),
-                                                                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Color>>(),
+                                                                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Color const>>(),
                                                                                                                  ::i2c::type_of<int32_t>(),
                                                                                                                  ::i2c::type_of<float_t>(),
                                                                                                                  ::i2c::type_of<float_t>(),

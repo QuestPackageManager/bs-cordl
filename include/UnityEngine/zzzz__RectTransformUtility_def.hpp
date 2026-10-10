@@ -73,7 +73,7 @@ public:
   static inline ::UnityEngine::Vector2 PixelAdjustPoint(::UnityEngine::Vector2 point, ::UnityEngine::Transform* elementTransform, ::UnityEngine::Canvas* canvas);
 
   /// @brief Method PixelAdjustPoint_Injected, addr 0x72819a0, size 0x5c, virtual false, abstract: false, final false
-  static inline void PixelAdjustPoint_Injected(::by_ref<::UnityEngine::Vector2> point, ::System::IntPtr elementTransform, ::System::IntPtr canvas, ::by_ref<::UnityEngine::Vector2> ret);
+  static inline void PixelAdjustPoint_Injected(::by_ref<::UnityEngine::Vector2 const> point, ::System::IntPtr elementTransform, ::System::IntPtr canvas, ::by_ref<::UnityEngine::Vector2> ret);
 
   /// @brief Method PixelAdjustRect, addr 0x72819fc, size 0x104, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect PixelAdjustRect(::UnityEngine::RectTransform* rectTransform, ::UnityEngine::Canvas* canvas);
@@ -85,7 +85,7 @@ public:
   static inline bool PointInRectangle(::UnityEngine::Vector2 screenPoint, ::UnityEngine::RectTransform* rect, ::UnityEngine::Camera* cam, ::UnityEngine::Vector4 offset);
 
   /// @brief Method PointInRectangle_Injected, addr 0x7281c60, size 0x5c, virtual false, abstract: false, final false
-  static inline bool PointInRectangle_Injected(::by_ref<::UnityEngine::Vector2> screenPoint, ::System::IntPtr rect, ::System::IntPtr cam, ::by_ref<::UnityEngine::Vector4> offset);
+  static inline bool PointInRectangle_Injected(::by_ref<::UnityEngine::Vector2 const> screenPoint, ::System::IntPtr rect, ::System::IntPtr cam, ::by_ref<::UnityEngine::Vector4 const> offset);
 
   /// @brief Method RectangleContainsScreenPoint, addr 0x7281cbc, size 0xdc, virtual false, abstract: false, final false
   static inline bool RectangleContainsScreenPoint(::UnityEngine::RectTransform* rect, ::UnityEngine::Vector2 screenPoint, ::UnityEngine::Camera* cam);

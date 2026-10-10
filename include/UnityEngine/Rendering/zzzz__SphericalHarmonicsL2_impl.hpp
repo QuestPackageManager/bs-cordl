@@ -74,14 +74,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
 //  Writing Method size for method: ::UnityEngine::Rendering::SphericalHarmonicsL2.Equals
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SphericalHarmonicsL2::*)(::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SphericalHarmonicsL2::*)(::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2 const>)>(
     &::UnityEngine::Rendering::SphericalHarmonicsL2::Equals)> {
   constexpr static std::size_t size = 0xc4;
   constexpr static std::size_t addrs = 0x6f7b480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SphericalHarmonicsL2>(),
-                                                                                           { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2>>() } })));
+                                                                                           { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2 const>>() } })));
     return ___internal_method;
   }
 };
@@ -143,9 +143,9 @@ inline bool UnityEngine::Rendering::SphericalHarmonicsL2::Equals(::UnityEngine::
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SphericalHarmonicsL2>(), { "Equals", {}, { ::i2c::type_of<::UnityEngine::Rendering::SphericalHarmonicsL2>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
-inline bool UnityEngine::Rendering::SphericalHarmonicsL2::Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2> other) {
+inline bool UnityEngine::Rendering::SphericalHarmonicsL2::Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2 const> other) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SphericalHarmonicsL2>(),
-                                                                                         { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2>>() } })));
+                                                                                         { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
 inline bool UnityEngine::Rendering::SphericalHarmonicsL2::op_Equality(::UnityEngine::Rendering::SphericalHarmonicsL2 lhs, ::UnityEngine::Rendering::SphericalHarmonicsL2 rhs) {

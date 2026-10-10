@@ -44,30 +44,32 @@ constexpr ::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___View
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables::*)(
-    ::by_ref<::UnityEngine::Rendering::OccluderContext>, ::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings>, bool, bool)>(
+    ::by_ref<::UnityEngine::Rendering::OccluderContext const>, ::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings const>, bool, bool)>(
     &::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables::_ctor)> {
   constexpr static std::size_t size = 0x3a8;
   constexpr static std::size_t addrs = 0x6c69f04;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables>(),
-                                                { ".ctor",
-                                                  {},
-                                                  { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderContext>>(),
-                                                    ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings>>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables>(),
+                                         { ".ctor",
+                                           {},
+                                           { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderContext const>>(),
+                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings const>>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::Rendering::OcclusionCullingCommonShaderVariables::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderContext> occluderCtx,
-                                                                                 /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings> subviewSettings,
+inline void UnityEngine::Rendering::OcclusionCullingCommonShaderVariables::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderContext const> occluderCtx,
+                                                                                 /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings const> subviewSettings,
                                                                                  bool occlusionOverlayCountVisible, bool overrideOcclusionTestToAlwaysPass) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables>(),
-                                              { ".ctor",
-                                                {},
-                                                { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderContext>>(),
-                                                  ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings>>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables>(),
+                                       { ".ctor",
+                                         {},
+                                         { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderContext const>>(),
+                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings const>>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, occluderCtx, subviewSettings, occlusionOverlayCountVisible, overrideOcclusionTestToAlwaysPass);
 }
 // Ctor Parameters [CppParam { name: "_OccluderMipBounds", ty: "::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___OccluderMipBounds_e__FixedBuffer", modifiers: "", def_value:

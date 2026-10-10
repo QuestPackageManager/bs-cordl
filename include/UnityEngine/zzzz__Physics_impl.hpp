@@ -3609,17 +3609,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Collect
 //  Writing Method size for method: ::UnityEngine::Physics.GetCollisionToReport
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Collision* (*)(::by_ref<::UnityEngine::ContactPairHeader>, ::by_ref<::UnityEngine::ContactPair>, bool)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Collision* (*)(::by_ref<::UnityEngine::ContactPairHeader const>, ::by_ref<::UnityEngine::ContactPair const>, bool)>(
     &::UnityEngine::Physics::GetCollisionToReport)> {
   constexpr static std::size_t size = 0x12c;
   constexpr static std::size_t addrs = 0x6ffb080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::UnityEngine::Physics*>(),
-            { "GetCollisionToReport", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ContactPairHeader>>(), ::i2c::type_of<::by_ref<::UnityEngine::ContactPair>>(), ::i2c::type_of<bool>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "GetCollisionToReport",
+                                                                                              {},
+                                                                                              { ::i2c::type_of<::by_ref<::UnityEngine::ContactPairHeader const>>(),
+                                                                                                ::i2c::type_of<::by_ref<::UnityEngine::ContactPair const>>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -3651,13 +3651,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::Physics.set_gravity_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::Physics::set_gravity_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector3 const>)>(&::UnityEngine::Physics::set_gravity_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6fefe20;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "set_gravity_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "set_gravity_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
     return ___internal_method;
   }
 };
@@ -3692,19 +3692,20 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr
 //  Writing Method size for method: ::UnityEngine::Physics.Internal_RaycastAll_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::PhysicsScene>, ::by_ref<::UnityEngine::Ray>, float_t, int32_t, ::UnityEngine::QueryTriggerInteraction,
-                                                                ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>)>(&::UnityEngine::Physics::Internal_RaycastAll_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::PhysicsScene const>, ::by_ref<::UnityEngine::Ray const>, float_t, int32_t,
+                                                                ::UnityEngine::QueryTriggerInteraction, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>)>(
+    &::UnityEngine::Physics::Internal_RaycastAll_Injected)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x6ff3994;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "Internal_RaycastAll_Injected",
-                                                                                       {},
-                                                                                       { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene>>(), ::i2c::type_of<::by_ref<::UnityEngine::Ray>>(),
-                                                                                         ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>(),
-                                                                                         ::i2c::type_of<::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
+                            { "Internal_RaycastAll_Injected",
+                              {},
+                              { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Ray const>>(), ::i2c::type_of<float_t>(),
+                                ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>>() } })));
     return ___internal_method;
   }
 };
@@ -3712,28 +3713,28 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (*)(::by_ref<::UnityEngine::PhysicsScene>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>, float_t, ::by_ref<::UnityEngine::Vector3>, float_t, int32_t,
-                         ::UnityEngine::QueryTriggerInteraction, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>)>(&::UnityEngine::Physics::Query_CapsuleCastAll_Injected)> {
+    static_cast<void (*)(::by_ref<::UnityEngine::PhysicsScene const>, ::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3 const>, float_t, ::by_ref<::UnityEngine::Vector3 const>,
+                         float_t, int32_t, ::UnityEngine::QueryTriggerInteraction, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>)>(&::UnityEngine::Physics::Query_CapsuleCastAll_Injected)> {
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x6ff4a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
-                            { "Query_CapsuleCastAll_Injected",
-                              {},
-                              { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(),
-                                ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
+                                                { "Query_CapsuleCastAll_Injected",
+                                                  {},
+                                                  { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                    ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Physics.Query_SphereCastAll_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::PhysicsScene>, ::by_ref<::UnityEngine::Vector3>, float_t, ::by_ref<::UnityEngine::Vector3>, float_t, int32_t,
-                                                                ::UnityEngine::QueryTriggerInteraction, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::PhysicsScene const>, ::by_ref<::UnityEngine::Vector3 const>, float_t, ::by_ref<::UnityEngine::Vector3 const>,
+                                                                float_t, int32_t, ::UnityEngine::QueryTriggerInteraction, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>)>(
     &::UnityEngine::Physics::Query_SphereCastAll_Injected)> {
   constexpr static std::size_t size = 0x8c;
   constexpr static std::size_t addrs = 0x6ff50c8;
@@ -3743,8 +3744,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
                                                 { "Query_SphereCastAll_Injected",
                                                   {},
-                                                  { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<float_t>(),
-                                                    ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(),
+                                                  { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<float_t>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(),
                                                     ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>>() } })));
     return ___internal_method;
   }
@@ -3752,28 +3753,29 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::Physics.OverlapCapsule_Internal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Collider>> (*)(::by_ref<::UnityEngine::PhysicsScene>, ::by_ref<::UnityEngine::Vector3>,
-                                                                                                       ::by_ref<::UnityEngine::Vector3>, float_t, int32_t, ::UnityEngine::QueryTriggerInteraction)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Collider>> (*)(
+    ::by_ref<::UnityEngine::PhysicsScene const>, ::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3 const>, float_t, int32_t, ::UnityEngine::QueryTriggerInteraction)>(
     &::UnityEngine::Physics::OverlapCapsule_Internal_Injected)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x6ff5848;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "OverlapCapsule_Internal_Injected",
-                                                                                       {},
-                                                                                       { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                                                                         ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(),
-                                                                                         ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "OverlapCapsule_Internal_Injected",
+                                                                          {},
+                                                                          { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                                            ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(),
+                                                                            ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Physics.OverlapSphere_Internal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Collider>> (*)(
-    ::by_ref<::UnityEngine::PhysicsScene>, ::by_ref<::UnityEngine::Vector3>, float_t, int32_t, ::UnityEngine::QueryTriggerInteraction)>(&::UnityEngine::Physics::OverlapSphere_Internal_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Collider>> (*)(::by_ref<::UnityEngine::PhysicsScene const>, ::by_ref<::UnityEngine::Vector3 const>, float_t,
+                                                                                                       int32_t, ::UnityEngine::QueryTriggerInteraction)>(
+    &::UnityEngine::Physics::OverlapSphere_Internal_Injected)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x6ff5ba4;
 
@@ -3782,7 +3784,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::Unity
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "OverlapSphere_Internal_Injected",
                                                                           {},
-                                                                          { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
+                                                                          { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
                                                                             ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>() } })));
     return ___internal_method;
   }
@@ -3790,7 +3792,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::Unity
 //  Writing Method size for method: ::UnityEngine::Physics.Simulate_Internal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::PhysicsScene>, float_t, ::UnityEngine::SimulationStage, ::UnityEngine::SimulationOption)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::PhysicsScene const>, float_t, ::UnityEngine::SimulationStage, ::UnityEngine::SimulationOption)>(
     &::UnityEngine::Physics::Simulate_Internal_Injected)> {
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x6ff5e6c;
@@ -3800,7 +3802,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
         THROW_UNLESS(::i2c::no_logger{},
                      (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "Simulate_Internal_Injected",
                                                                                        {},
-                                                                                       { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene>>(), ::i2c::type_of<float_t>(),
+                                                                                       { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene const>>(), ::i2c::type_of<float_t>(),
                                                                                          ::i2c::type_of<::UnityEngine::SimulationStage>(), ::i2c::type_of<::UnityEngine::SimulationOption>() } })));
     return ___internal_method;
   }
@@ -3808,66 +3810,68 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::Physics.InterpolateBodies_Internal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::PhysicsScene>)>(&::UnityEngine::Physics::InterpolateBodies_Internal_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::PhysicsScene const>)>(&::UnityEngine::Physics::InterpolateBodies_Internal_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6ff6048;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "InterpolateBodies_Internal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "InterpolateBodies_Internal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Physics.ResetInterpolationPoses_Internal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::PhysicsScene>)>(&::UnityEngine::Physics::ResetInterpolationPoses_Internal_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::PhysicsScene const>)>(&::UnityEngine::Physics::ResetInterpolationPoses_Internal_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6ff6100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "ResetInterpolationPoses_Internal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene>>() } })));
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "ResetInterpolationPoses_Internal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Physics.Query_ComputePenetration_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Quaternion>, ::System::IntPtr,
-                                                                ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Quaternion>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<float_t>)>(
-    &::UnityEngine::Physics::Query_ComputePenetration_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<bool (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Quaternion const>, ::System::IntPtr, ::by_ref<::UnityEngine::Vector3 const>,
+                         ::by_ref<::UnityEngine::Quaternion const>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<float_t>)>(&::UnityEngine::Physics::Query_ComputePenetration_Injected)> {
   constexpr static std::size_t size = 0x8c;
   constexpr static std::size_t addrs = 0x6ff634c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
-                                                { "Query_ComputePenetration_Injected",
-                                                  {},
-                                                  { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(),
-                                                    ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(),
-                                                    ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<float_t>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
+                                         { "Query_ComputePenetration_Injected",
+                                           {},
+                                           { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(),
+                                             ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(),
+                                             ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<float_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Physics.Query_ClosestPoint_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Quaternion>, ::by_ref<::UnityEngine::Vector3>,
-                                                                ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::Physics::Query_ClosestPoint_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Quaternion const>,
+                                                                ::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::Physics::Query_ClosestPoint_Injected)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x6ff6628;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
-                                                { "Query_ClosestPoint_Injected",
-                                                  {},
-                                                  { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(),
-                                                    ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
+                                         { "Query_ClosestPoint_Injected",
+                                           {},
+                                           { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(),
+                                             ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
     return ___internal_method;
   }
 };
@@ -3887,21 +3891,21 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::Physics.set_clothGravity_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::Physics::set_clothGravity_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector3 const>)>(&::UnityEngine::Physics::set_clothGravity_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6ff69d8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "set_clothGravity_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "set_clothGravity_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Physics.CheckSphere_Internal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::PhysicsScene>, ::by_ref<::UnityEngine::Vector3>, float_t, int32_t, ::UnityEngine::QueryTriggerInteraction)>(
-    &::UnityEngine::Physics::CheckSphere_Internal_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::PhysicsScene const>, ::by_ref<::UnityEngine::Vector3 const>, float_t, int32_t,
+                                                                ::UnityEngine::QueryTriggerInteraction)>(&::UnityEngine::Physics::CheckSphere_Internal_Injected)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x6ff6ca8;
 
@@ -3910,7 +3914,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "CheckSphere_Internal_Injected",
                                                                           {},
-                                                                          { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
+                                                                          { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
                                                                             ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>() } })));
     return ___internal_method;
   }
@@ -3918,39 +3922,39 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::Physics.CheckCapsule_Internal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::PhysicsScene>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>, float_t, int32_t,
-                                                                ::UnityEngine::QueryTriggerInteraction)>(&::UnityEngine::Physics::CheckCapsule_Internal_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::PhysicsScene const>, ::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3 const>, float_t,
+                                                                int32_t, ::UnityEngine::QueryTriggerInteraction)>(&::UnityEngine::Physics::CheckCapsule_Internal_Injected)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x6ff7c44;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "CheckCapsule_Internal_Injected",
-                                                                                       {},
-                                                                                       { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                                                                         ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(),
-                                                                                         ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "CheckCapsule_Internal_Injected",
+                                                                          {},
+                                                                          { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                                            ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(),
+                                                                            ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Physics.CheckBox_Internal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::PhysicsScene>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>,
-                                                                ::by_ref<::UnityEngine::Quaternion>, int32_t, ::UnityEngine::QueryTriggerInteraction)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::PhysicsScene const>, ::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3 const>,
+                                                                ::by_ref<::UnityEngine::Quaternion const>, int32_t, ::UnityEngine::QueryTriggerInteraction)>(
     &::UnityEngine::Physics::CheckBox_Internal_Injected)> {
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x6ff7fa8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "CheckBox_Internal_Injected",
-                                                                                       {},
-                                                                                       { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                                                                         ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(),
-                                                                                         ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "CheckBox_Internal_Injected",
+                                                                          {},
+                                                                          { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                                            ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(),
+                                                                            ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>() } })));
     return ___internal_method;
   }
 };
@@ -3958,110 +3962,113 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Collider>> (*)(
-    ::by_ref<::UnityEngine::PhysicsScene>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Quaternion>, int32_t, ::UnityEngine::QueryTriggerInteraction)>(
-    &::UnityEngine::Physics::OverlapBox_Internal_Injected)> {
+    ::by_ref<::UnityEngine::PhysicsScene const>, ::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Quaternion const>, int32_t,
+    ::UnityEngine::QueryTriggerInteraction)>(&::UnityEngine::Physics::OverlapBox_Internal_Injected)> {
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x6ff84c4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "OverlapBox_Internal_Injected",
-                                                                                       {},
-                                                                                       { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                                                                         ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(),
-                                                                                         ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "OverlapBox_Internal_Injected",
+                                                                          {},
+                                                                          { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                                            ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(),
+                                                                            ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Physics.Internal_BoxCastAll_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::PhysicsScene>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>,
-                                                                ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Quaternion>, float_t, int32_t, ::UnityEngine::QueryTriggerInteraction,
-                                                                ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>)>(&::UnityEngine::Physics::Internal_BoxCastAll_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<void (*)(::by_ref<::UnityEngine::PhysicsScene const>, ::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3 const>,
+                         ::by_ref<::UnityEngine::Quaternion const>, float_t, int32_t, ::UnityEngine::QueryTriggerInteraction, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>)>(
+        &::UnityEngine::Physics::Internal_BoxCastAll_Injected)> {
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x6ff95d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
-                            { "Internal_BoxCastAll_Injected",
-                              {},
-                              { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(),
-                                ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
+                                                { "Internal_BoxCastAll_Injected",
+                                                  {},
+                                                  { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(),
+                                                    ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Physics.RebuildBroadphaseRegions_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bounds>, int32_t)>(&::UnityEngine::Physics::RebuildBroadphaseRegions_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bounds const>, int32_t)>(&::UnityEngine::Physics::RebuildBroadphaseRegions_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6ff9f48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
-                                                             { "RebuildBroadphaseRegions_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bounds>>(), ::i2c::type_of<int32_t>() } })));
+                                                             { "RebuildBroadphaseRegions_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bounds const>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Physics.BakeMesh_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::EntityId>, bool, ::UnityEngine::MeshColliderCookingOptions)>(&::UnityEngine::Physics::BakeMesh_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::EntityId const>, bool, ::UnityEngine::MeshColliderCookingOptions)>(
+    &::UnityEngine::Physics::BakeMesh_Injected)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x6ffa020;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(
-                         ::i2c::class_of<::UnityEngine::Physics*>(),
-                         { "BakeMesh_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId>>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::MeshColliderCookingOptions>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::Physics*>(),
+            { "BakeMesh_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId const>>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::MeshColliderCookingOptions>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Physics.GetColliderByInstanceID_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::EntityId>)>(&::UnityEngine::Physics::GetColliderByInstanceID_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::EntityId const>)>(&::UnityEngine::Physics::GetColliderByInstanceID_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6ffa20c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "GetColliderByInstanceID_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "GetColliderByInstanceID_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Physics.GetBodyByInstanceID_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::EntityId>)>(&::UnityEngine::Physics::GetBodyByInstanceID_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::EntityId const>)>(&::UnityEngine::Physics::GetBodyByInstanceID_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6ffa390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "GetBodyByInstanceID_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId>>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "GetBodyByInstanceID_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Physics.TranslateTriangleIndexFromID_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::by_ref<::UnityEngine::EntityId>, uint32_t)>(&::UnityEngine::Physics::TranslateTriangleIndexFromID_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::by_ref<::UnityEngine::EntityId const>, uint32_t)>(&::UnityEngine::Physics::TranslateTriangleIndexFromID_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6ffa458;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
-                                                             { "TranslateTriangleIndexFromID_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId>>(), ::i2c::type_of<uint32_t>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
+                                                { "TranslateTriangleIndexFromID_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId const>>(), ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
@@ -5829,13 +5836,13 @@ inline void UnityEngine::Physics::ReportContacts(::Unity::Collections::NativeArr
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "ReportContacts", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::ContactPairHeader>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, array);
 }
-inline ::UnityEngine::Collision* UnityEngine::Physics::GetCollisionToReport(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPairHeader> header,
-                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPair> pair, bool flipped) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::UnityEngine::Physics*>(),
-          { "GetCollisionToReport", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ContactPairHeader>>(), ::i2c::type_of<::by_ref<::UnityEngine::ContactPair>>(), ::i2c::type_of<bool>() } })));
+inline ::UnityEngine::Collision* UnityEngine::Physics::GetCollisionToReport(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPairHeader const> header,
+                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPair const> pair, bool flipped) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "GetCollisionToReport",
+                                                                                                         {},
+                                                                                                         { ::i2c::type_of<::by_ref<::UnityEngine::ContactPairHeader const>>(),
+                                                                                                           ::i2c::type_of<::by_ref<::UnityEngine::ContactPair const>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Collision*>(nullptr, ___internal_method, header, pair, flipped);
 }
 inline void UnityEngine::Physics::_ctor() {
@@ -5847,9 +5854,9 @@ inline void UnityEngine::Physics::get_gravity_Injected(::by_ref<::UnityEngine::V
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "get_gravity_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ret);
 }
-inline void UnityEngine::Physics::set_gravity_Injected(::by_ref<::UnityEngine::Vector3> value) {
+inline void UnityEngine::Physics::set_gravity_Injected(::by_ref<::UnityEngine::Vector3 const> value) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "set_gravity_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "set_gravity_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
 inline void UnityEngine::Physics::IgnoreCollision_Injected(::System::IntPtr collider1, ::System::IntPtr collider2, /* [DefaultValue("true")] */ bool ignore) {
@@ -5864,106 +5871,111 @@ inline bool UnityEngine::Physics::GetIgnoreCollision_Injected(::System::IntPtr c
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "GetIgnoreCollision_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, collider1, collider2);
 }
-inline void UnityEngine::Physics::Internal_RaycastAll_Injected(::by_ref<::UnityEngine::PhysicsScene> physicsScene, ::by_ref<::UnityEngine::Ray> ray, float_t maxDistance, int32_t mask,
+inline void UnityEngine::Physics::Internal_RaycastAll_Injected(::by_ref<::UnityEngine::PhysicsScene const> physicsScene, ::by_ref<::UnityEngine::Ray const> ray, float_t maxDistance, int32_t mask,
                                                                ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> ret) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "Internal_RaycastAll_Injected",
-                                                                                     {},
-                                                                                     { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene>>(), ::i2c::type_of<::by_ref<::UnityEngine::Ray>>(),
-                                                                                       ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>(),
-                                                                                       ::i2c::type_of<::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
+                          { "Internal_RaycastAll_Injected",
+                            {},
+                            { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Ray const>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(),
+                              ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, physicsScene, ray, maxDistance, mask, queryTriggerInteraction, ret);
 }
-inline void UnityEngine::Physics::Query_CapsuleCastAll_Injected(::by_ref<::UnityEngine::PhysicsScene> physicsScene, ::by_ref<::UnityEngine::Vector3> p0, ::by_ref<::UnityEngine::Vector3> p1,
-                                                                float_t radius, ::by_ref<::UnityEngine::Vector3> direction, float_t maxDistance, int32_t mask,
-                                                                ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> ret) {
+inline void UnityEngine::Physics::Query_CapsuleCastAll_Injected(::by_ref<::UnityEngine::PhysicsScene const> physicsScene, ::by_ref<::UnityEngine::Vector3 const> p0,
+                                                                ::by_ref<::UnityEngine::Vector3 const> p1, float_t radius, ::by_ref<::UnityEngine::Vector3 const> direction, float_t maxDistance,
+                                                                int32_t mask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction,
+                                                                ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> ret) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
                           { "Query_CapsuleCastAll_Injected",
                             {},
-                            { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                              ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(),
-                              ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>>() } })));
+                            { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<float_t>(),
+                              ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, physicsScene, p0, p1, radius, direction, maxDistance, mask, queryTriggerInteraction, ret);
 }
-inline void UnityEngine::Physics::Query_SphereCastAll_Injected(::by_ref<::UnityEngine::PhysicsScene> physicsScene, ::by_ref<::UnityEngine::Vector3> origin, float_t radius,
-                                                               ::by_ref<::UnityEngine::Vector3> direction, float_t maxDistance, int32_t mask,
+inline void UnityEngine::Physics::Query_SphereCastAll_Injected(::by_ref<::UnityEngine::PhysicsScene const> physicsScene, ::by_ref<::UnityEngine::Vector3 const> origin, float_t radius,
+                                                               ::by_ref<::UnityEngine::Vector3 const> direction, float_t maxDistance, int32_t mask,
                                                                ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> ret) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
                                               { "Query_SphereCastAll_Injected",
                                                 {},
-                                                { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<float_t>(),
-                                                  ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(),
+                                                { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<float_t>(),
+                                                  ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(),
                                                   ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, physicsScene, origin, radius, direction, maxDistance, mask, queryTriggerInteraction, ret);
 }
-inline ::ArrayW<::UnityW<::UnityEngine::Collider>> UnityEngine::Physics::OverlapCapsule_Internal_Injected(::by_ref<::UnityEngine::PhysicsScene> physicsScene, ::by_ref<::UnityEngine::Vector3> point0,
-                                                                                                          ::by_ref<::UnityEngine::Vector3> point1, float_t radius, int32_t layerMask,
+inline ::ArrayW<::UnityW<::UnityEngine::Collider>> UnityEngine::Physics::OverlapCapsule_Internal_Injected(::by_ref<::UnityEngine::PhysicsScene const> physicsScene,
+                                                                                                          ::by_ref<::UnityEngine::Vector3 const> point0, ::by_ref<::UnityEngine::Vector3 const> point1,
+                                                                                                          float_t radius, int32_t layerMask,
                                                                                                           ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "OverlapCapsule_Internal_Injected",
-                                                                                     {},
-                                                                                     { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                                                                       ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(),
-                                                                                       ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>() } })));
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "OverlapCapsule_Internal_Injected",
+                                                                        {},
+                                                                        { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                                          ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(),
+                                                                          ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::Collider>>>(nullptr, ___internal_method, physicsScene, point0, point1, radius, layerMask, queryTriggerInteraction);
 }
-inline ::ArrayW<::UnityW<::UnityEngine::Collider>> UnityEngine::Physics::OverlapSphere_Internal_Injected(::by_ref<::UnityEngine::PhysicsScene> physicsScene, ::by_ref<::UnityEngine::Vector3> position,
-                                                                                                         float_t radius, int32_t layerMask,
+inline ::ArrayW<::UnityW<::UnityEngine::Collider>> UnityEngine::Physics::OverlapSphere_Internal_Injected(::by_ref<::UnityEngine::PhysicsScene const> physicsScene,
+                                                                                                         ::by_ref<::UnityEngine::Vector3 const> position, float_t radius, int32_t layerMask,
                                                                                                          ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "OverlapSphere_Internal_Injected",
                                                                         {},
-                                                                        { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
+                                                                        { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
                                                                           ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::Collider>>>(nullptr, ___internal_method, physicsScene, position, radius, layerMask, queryTriggerInteraction);
 }
-inline void UnityEngine::Physics::Simulate_Internal_Injected(::by_ref<::UnityEngine::PhysicsScene> physicsScene, float_t step, ::UnityEngine::SimulationStage stages,
+inline void UnityEngine::Physics::Simulate_Internal_Injected(::by_ref<::UnityEngine::PhysicsScene const> physicsScene, float_t step, ::UnityEngine::SimulationStage stages,
                                                              ::UnityEngine::SimulationOption options) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "Simulate_Internal_Injected",
                                                                                      {},
-                                                                                     { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene>>(), ::i2c::type_of<float_t>(),
+                                                                                     { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene const>>(), ::i2c::type_of<float_t>(),
                                                                                        ::i2c::type_of<::UnityEngine::SimulationStage>(), ::i2c::type_of<::UnityEngine::SimulationOption>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, physicsScene, step, stages, options);
 }
-inline void UnityEngine::Physics::InterpolateBodies_Internal_Injected(::by_ref<::UnityEngine::PhysicsScene> physicsScene) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "InterpolateBodies_Internal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, physicsScene);
-}
-inline void UnityEngine::Physics::ResetInterpolationPoses_Internal_Injected(::by_ref<::UnityEngine::PhysicsScene> physicsScene) {
+inline void UnityEngine::Physics::InterpolateBodies_Internal_Injected(::by_ref<::UnityEngine::PhysicsScene const> physicsScene) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "ResetInterpolationPoses_Internal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene>>() } })));
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "InterpolateBodies_Internal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, physicsScene);
 }
-inline bool UnityEngine::Physics::Query_ComputePenetration_Injected(::System::IntPtr colliderA, ::by_ref<::UnityEngine::Vector3> positionA, ::by_ref<::UnityEngine::Quaternion> rotationA,
-                                                                    ::System::IntPtr colliderB, ::by_ref<::UnityEngine::Vector3> positionB, ::by_ref<::UnityEngine::Quaternion> rotationB,
-                                                                    ::by_ref<::UnityEngine::Vector3> direction, ::by_ref<float_t> distance) {
+inline void UnityEngine::Physics::ResetInterpolationPoses_Internal_Injected(::by_ref<::UnityEngine::PhysicsScene const> physicsScene) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
-                                              { "Query_ComputePenetration_Injected",
-                                                {},
-                                                { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(),
-                                                  ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(),
-                                                  ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<float_t>>() } })));
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "ResetInterpolationPoses_Internal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene const>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, physicsScene);
+}
+inline bool UnityEngine::Physics::Query_ComputePenetration_Injected(::System::IntPtr colliderA, ::by_ref<::UnityEngine::Vector3 const> positionA, ::by_ref<::UnityEngine::Quaternion const> rotationA,
+                                                                    ::System::IntPtr colliderB, ::by_ref<::UnityEngine::Vector3 const> positionB, ::by_ref<::UnityEngine::Quaternion const> rotationB,
+                                                                    ::by_ref<::UnityEngine::Vector3> direction, ::by_ref<float_t> distance) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
+                                       { "Query_ComputePenetration_Injected",
+                                         {},
+                                         { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(),
+                                           ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(),
+                                           ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<float_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, colliderA, positionA, rotationA, colliderB, positionB, rotationB, direction, distance);
 }
-inline void UnityEngine::Physics::Query_ClosestPoint_Injected(::System::IntPtr collider, ::by_ref<::UnityEngine::Vector3> position, ::by_ref<::UnityEngine::Quaternion> rotation,
-                                                              ::by_ref<::UnityEngine::Vector3> point, ::by_ref<::UnityEngine::Vector3> ret) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
-                                              { "Query_ClosestPoint_Injected",
-                                                {},
-                                                { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(),
-                                                  ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+inline void UnityEngine::Physics::Query_ClosestPoint_Injected(::System::IntPtr collider, ::by_ref<::UnityEngine::Vector3 const> position, ::by_ref<::UnityEngine::Quaternion const> rotation,
+                                                              ::by_ref<::UnityEngine::Vector3 const> point, ::by_ref<::UnityEngine::Vector3> ret) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
+                                       { "Query_ClosestPoint_Injected",
+                                         {},
+                                         { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(),
+                                           ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, collider, position, rotation, point, ret);
 }
 inline void UnityEngine::Physics::get_clothGravity_Injected(::by_ref<::UnityEngine::Vector3> ret) {
@@ -5971,97 +5983,101 @@ inline void UnityEngine::Physics::get_clothGravity_Injected(::by_ref<::UnityEngi
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "get_clothGravity_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ret);
 }
-inline void UnityEngine::Physics::set_clothGravity_Injected(::by_ref<::UnityEngine::Vector3> value) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "set_clothGravity_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+inline void UnityEngine::Physics::set_clothGravity_Injected(::by_ref<::UnityEngine::Vector3 const> value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "set_clothGravity_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
-inline bool UnityEngine::Physics::CheckSphere_Internal_Injected(::by_ref<::UnityEngine::PhysicsScene> physicsScene, ::by_ref<::UnityEngine::Vector3> position, float_t radius, int32_t layerMask,
-                                                                ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+inline bool UnityEngine::Physics::CheckSphere_Internal_Injected(::by_ref<::UnityEngine::PhysicsScene const> physicsScene, ::by_ref<::UnityEngine::Vector3 const> position, float_t radius,
+                                                                int32_t layerMask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "CheckSphere_Internal_Injected",
                                                                         {},
-                                                                        { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
+                                                                        { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
                                                                           ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, physicsScene, position, radius, layerMask, queryTriggerInteraction);
 }
-inline bool UnityEngine::Physics::CheckCapsule_Internal_Injected(::by_ref<::UnityEngine::PhysicsScene> physicsScene, ::by_ref<::UnityEngine::Vector3> start, ::by_ref<::UnityEngine::Vector3> end,
-                                                                 float_t radius, int32_t layerMask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "CheckCapsule_Internal_Injected",
-                                                                                     {},
-                                                                                     { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                                                                       ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(),
-                                                                                       ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>() } })));
+inline bool UnityEngine::Physics::CheckCapsule_Internal_Injected(::by_ref<::UnityEngine::PhysicsScene const> physicsScene, ::by_ref<::UnityEngine::Vector3 const> start,
+                                                                 ::by_ref<::UnityEngine::Vector3 const> end, float_t radius, int32_t layerMask,
+                                                                 ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "CheckCapsule_Internal_Injected",
+                                                                        {},
+                                                                        { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                                          ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(),
+                                                                          ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, physicsScene, start, end, radius, layerMask, queryTriggerInteraction);
 }
-inline bool UnityEngine::Physics::CheckBox_Internal_Injected(::by_ref<::UnityEngine::PhysicsScene> physicsScene, ::by_ref<::UnityEngine::Vector3> center, ::by_ref<::UnityEngine::Vector3> halfExtents,
-                                                             ::by_ref<::UnityEngine::Quaternion> orientation, int32_t layermask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "CheckBox_Internal_Injected",
-                                                                                     {},
-                                                                                     { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                                                                       ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(),
-                                                                                       ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>() } })));
+inline bool UnityEngine::Physics::CheckBox_Internal_Injected(::by_ref<::UnityEngine::PhysicsScene const> physicsScene, ::by_ref<::UnityEngine::Vector3 const> center,
+                                                             ::by_ref<::UnityEngine::Vector3 const> halfExtents, ::by_ref<::UnityEngine::Quaternion const> orientation, int32_t layermask,
+                                                             ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "CheckBox_Internal_Injected",
+                                                                        {},
+                                                                        { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                                          ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(),
+                                                                          ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, physicsScene, center, halfExtents, orientation, layermask, queryTriggerInteraction);
 }
-inline ::ArrayW<::UnityW<::UnityEngine::Collider>> UnityEngine::Physics::OverlapBox_Internal_Injected(::by_ref<::UnityEngine::PhysicsScene> physicsScene, ::by_ref<::UnityEngine::Vector3> center,
-                                                                                                      ::by_ref<::UnityEngine::Vector3> halfExtents, ::by_ref<::UnityEngine::Quaternion> orientation,
-                                                                                                      int32_t layerMask, ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "OverlapBox_Internal_Injected",
-                                                                                     {},
-                                                                                     { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                                                                       ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(),
-                                                                                       ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>() } })));
+inline ::ArrayW<::UnityW<::UnityEngine::Collider>> UnityEngine::Physics::OverlapBox_Internal_Injected(::by_ref<::UnityEngine::PhysicsScene const> physicsScene,
+                                                                                                      ::by_ref<::UnityEngine::Vector3 const> center, ::by_ref<::UnityEngine::Vector3 const> halfExtents,
+                                                                                                      ::by_ref<::UnityEngine::Quaternion const> orientation, int32_t layerMask,
+                                                                                                      ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "OverlapBox_Internal_Injected",
+                                                                        {},
+                                                                        { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                                          ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(),
+                                                                          ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::UnityEngine::Collider>>>(nullptr, ___internal_method, physicsScene, center, halfExtents, orientation, layerMask,
                                                                                           queryTriggerInteraction);
 }
-inline void UnityEngine::Physics::Internal_BoxCastAll_Injected(::by_ref<::UnityEngine::PhysicsScene> physicsScene, ::by_ref<::UnityEngine::Vector3> center,
-                                                               ::by_ref<::UnityEngine::Vector3> halfExtents, ::by_ref<::UnityEngine::Vector3> direction,
-                                                               ::by_ref<::UnityEngine::Quaternion> orientation, float_t maxDistance, int32_t layerMask,
+inline void UnityEngine::Physics::Internal_BoxCastAll_Injected(::by_ref<::UnityEngine::PhysicsScene const> physicsScene, ::by_ref<::UnityEngine::Vector3 const> center,
+                                                               ::by_ref<::UnityEngine::Vector3 const> halfExtents, ::by_ref<::UnityEngine::Vector3 const> direction,
+                                                               ::by_ref<::UnityEngine::Quaternion const> orientation, float_t maxDistance, int32_t layerMask,
                                                                ::UnityEngine::QueryTriggerInteraction queryTriggerInteraction, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> ret) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
-                          { "Internal_BoxCastAll_Injected",
-                            {},
-                            { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                              ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(),
-                              ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
+                                              { "Internal_BoxCastAll_Injected",
+                                                {},
+                                                { ::i2c::type_of<::by_ref<::UnityEngine::PhysicsScene const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                  ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                  ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>(),
+                                                  ::i2c::type_of<::UnityEngine::QueryTriggerInteraction>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, physicsScene, center, halfExtents, direction, orientation, maxDistance, layerMask, queryTriggerInteraction, ret);
 }
-inline void UnityEngine::Physics::RebuildBroadphaseRegions_Injected(::by_ref<::UnityEngine::Bounds> worldBounds, int32_t subdivisions) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "RebuildBroadphaseRegions_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bounds>>(), ::i2c::type_of<int32_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, worldBounds, subdivisions);
-}
-inline void UnityEngine::Physics::BakeMesh_Injected(::by_ref<::UnityEngine::EntityId> meshEntityId, bool convex, ::UnityEngine::MeshColliderCookingOptions cookingOptions) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
-                          { "BakeMesh_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId>>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::MeshColliderCookingOptions>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, meshEntityId, convex, cookingOptions);
-}
-inline ::System::IntPtr UnityEngine::Physics::GetColliderByInstanceID_Injected(::by_ref<::UnityEngine::EntityId> entityId) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "GetColliderByInstanceID_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId>>() } })));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, entityId);
-}
-inline ::System::IntPtr UnityEngine::Physics::GetBodyByInstanceID_Injected(::by_ref<::UnityEngine::EntityId> entityId) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "GetBodyByInstanceID_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId>>() } })));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, entityId);
-}
-inline uint32_t UnityEngine::Physics::TranslateTriangleIndexFromID_Injected(::by_ref<::UnityEngine::EntityId> instanceID, uint32_t faceIndex) {
+inline void UnityEngine::Physics::RebuildBroadphaseRegions_Injected(::by_ref<::UnityEngine::Bounds const> worldBounds, int32_t subdivisions) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
-                                                           { "TranslateTriangleIndexFromID_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId>>(), ::i2c::type_of<uint32_t>() } })));
+                                                           { "RebuildBroadphaseRegions_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bounds const>>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, worldBounds, subdivisions);
+}
+inline void UnityEngine::Physics::BakeMesh_Injected(::by_ref<::UnityEngine::EntityId const> meshEntityId, bool convex, ::UnityEngine::MeshColliderCookingOptions cookingOptions) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::Physics*>(),
+          { "BakeMesh_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId const>>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::MeshColliderCookingOptions>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, meshEntityId, convex, cookingOptions);
+}
+inline ::System::IntPtr UnityEngine::Physics::GetColliderByInstanceID_Injected(::by_ref<::UnityEngine::EntityId const> entityId) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "GetColliderByInstanceID_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId const>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, entityId);
+}
+inline ::System::IntPtr UnityEngine::Physics::GetBodyByInstanceID_Injected(::by_ref<::UnityEngine::EntityId const> entityId) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(), { "GetBodyByInstanceID_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId const>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, entityId);
+}
+inline uint32_t UnityEngine::Physics::TranslateTriangleIndexFromID_Injected(::by_ref<::UnityEngine::EntityId const> instanceID, uint32_t faceIndex) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Physics*>(),
+                                              { "TranslateTriangleIndexFromID_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId const>>(), ::i2c::type_of<uint32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, instanceID, faceIndex);
 }
 inline void UnityEngine::Physics::SendOnCollisionEnter_Injected(::System::IntPtr component, ::UnityEngine::Collision* collision) {

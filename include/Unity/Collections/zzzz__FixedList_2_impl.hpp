@@ -72,9 +72,9 @@ template <typename T, typename U> inline int32_t Unity::Collections::FixedList_2
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Collections::FixedList_2<T, U>>(), 2 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-template <typename T, typename U> inline void Unity::Collections::FixedList_2<T, U>::Add(/* [IsReadOnly] */ ::by_ref<T> item) {
+template <typename T, typename U> inline void Unity::Collections::FixedList_2<T, U>::Add(/* [IsReadOnly] */ ::by_ref<T const> item) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList_2<T, U>>(), { "Add", {}, { ::i2c::type_of<::by_ref<T>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList_2<T, U>>(), { "Add", {}, { ::i2c::type_of<::by_ref<T const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, item);
 }
 template <typename T, typename U> inline void Unity::Collections::FixedList_2<T, U>::AddRange(void* ptr, int32_t length) {
@@ -82,9 +82,9 @@ template <typename T, typename U> inline void Unity::Collections::FixedList_2<T,
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList_2<T, U>>(), { "AddRange", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, ptr, length);
 }
-template <typename T, typename U> inline void Unity::Collections::FixedList_2<T, U>::AddNoResize(/* [IsReadOnly] */ ::by_ref<T> item) {
+template <typename T, typename U> inline void Unity::Collections::FixedList_2<T, U>::AddNoResize(/* [IsReadOnly] */ ::by_ref<T const> item) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList_2<T, U>>(), { "AddNoResize", {}, { ::i2c::type_of<::by_ref<T>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList_2<T, U>>(), { "AddNoResize", {}, { ::i2c::type_of<::by_ref<T const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, item);
 }
 template <typename T, typename U> inline void Unity::Collections::FixedList_2<T, U>::AddRangeNoResize(void* ptr, int32_t length) {
@@ -92,9 +92,9 @@ template <typename T, typename U> inline void Unity::Collections::FixedList_2<T,
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList_2<T, U>>(), { "AddRangeNoResize", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, ptr, length);
 }
-template <typename T, typename U> inline void Unity::Collections::FixedList_2<T, U>::AddReplicate(/* [IsReadOnly] */ ::by_ref<T> value, int32_t count) {
+template <typename T, typename U> inline void Unity::Collections::FixedList_2<T, U>::AddReplicate(/* [IsReadOnly] */ ::by_ref<T const> value, int32_t count) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList_2<T, U>>(), { "AddReplicate", {}, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<int32_t>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList_2<T, U>>(), { "AddReplicate", {}, { ::i2c::type_of<::by_ref<T const>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value, count);
 }
 template <typename T, typename U> inline void Unity::Collections::FixedList_2<T, U>::Clear() {
@@ -112,9 +112,9 @@ template <typename T, typename U> inline void Unity::Collections::FixedList_2<T,
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList_2<T, U>>(), { "InsertRange", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, index, count);
 }
-template <typename T, typename U> inline void Unity::Collections::FixedList_2<T, U>::Insert(int32_t index, /* [IsReadOnly] */ ::by_ref<T> item) {
+template <typename T, typename U> inline void Unity::Collections::FixedList_2<T, U>::Insert(int32_t index, /* [IsReadOnly] */ ::by_ref<T const> item) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList_2<T, U>>(), { "Insert", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<T>>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList_2<T, U>>(), { "Insert", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<T const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, index, item);
 }
 template <typename T, typename U> inline void Unity::Collections::FixedList_2<T, U>::RemoveAtSwapBack(int32_t index) {

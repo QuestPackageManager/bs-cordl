@@ -84,18 +84,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::FrustumPla
 //  Writing Method size for method: ::UnityEngine::Matrix4x4.Internal_TRS
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Quaternion>, ::by_ref<::UnityEngine::Vector3>)>(
-    &::UnityEngine::Matrix4x4::Internal_TRS)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Quaternion const>,
+                                                                                    ::by_ref<::UnityEngine::Vector3 const>)>(&::UnityEngine::Matrix4x4::Internal_TRS)> {
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x6f26894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(),
-                            { "Internal_TRS",
-                              {},
-                              { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "Internal_TRS",
+                                                                           {},
+                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(),
+                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
     return ___internal_method;
   }
 };
@@ -116,14 +116,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 
 //  Writing Method size for method: ::UnityEngine::Matrix4x4.Internal_Inverse3DAffine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Matrix4x4>)>(&::UnityEngine::Matrix4x4::Internal_Inverse3DAffine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Matrix4x4 const>, ::by_ref<::UnityEngine::Matrix4x4>)>(&::UnityEngine::Matrix4x4::Internal_Inverse3DAffine)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6f26a0c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(),
-                                                { "Internal_Inverse3DAffine", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(),
+                                         { "Internal_Inverse3DAffine", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
     return ___internal_method;
   }
 };
@@ -144,27 +145,27 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::M
 //  Writing Method size for method: ::UnityEngine::Matrix4x4.Inverse3DAffine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Matrix4x4>)>(&::UnityEngine::Matrix4x4::Inverse3DAffine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Matrix4x4 const>, ::by_ref<::UnityEngine::Matrix4x4>)>(&::UnityEngine::Matrix4x4::Inverse3DAffine)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6f26a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(),
-                                                { "Inverse3DAffine", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
+                                                { "Inverse3DAffine", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Matrix4x4.Internal_Inverse
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::by_ref<::UnityEngine::Matrix4x4>)>(&::UnityEngine::Matrix4x4::Internal_Inverse)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::by_ref<::UnityEngine::Matrix4x4 const>)>(&::UnityEngine::Matrix4x4::Internal_Inverse)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x6f26ad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "Internal_Inverse", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "Internal_Inverse", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>() } })));
     return ___internal_method;
   }
 };
@@ -196,13 +197,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 
 //  Writing Method size for method: ::UnityEngine::Matrix4x4.Internal_Transpose
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::by_ref<::UnityEngine::Matrix4x4>)>(&::UnityEngine::Matrix4x4::Internal_Transpose)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::by_ref<::UnityEngine::Matrix4x4 const>)>(&::UnityEngine::Matrix4x4::Internal_Transpose)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x6f26c70;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "Internal_Transpose", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "Internal_Transpose", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>() } })));
     return ___internal_method;
   }
 };
@@ -251,17 +252,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 
 //  Writing Method size for method: ::UnityEngine::Matrix4x4.Internal_LookAt
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>)>(
-    &::UnityEngine::Matrix4x4::Internal_LookAt)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3 const>,
+                                                                                    ::by_ref<::UnityEngine::Vector3 const>)>(&::UnityEngine::Matrix4x4::Internal_LookAt)> {
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x6f26fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "Internal_LookAt",
-                                                                                               {},
-                                                                                               { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "Internal_LookAt",
+                                                                           {},
+                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
     return ___internal_method;
   }
 };
@@ -416,13 +418,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Matr
 //  Writing Method size for method: ::UnityEngine::Matrix4x4.Equals
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Matrix4x4::*)(::by_ref<::UnityEngine::Matrix4x4>)>(&::UnityEngine::Matrix4x4::Equals)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Matrix4x4::*)(::by_ref<::UnityEngine::Matrix4x4 const>)>(&::UnityEngine::Matrix4x4::Equals)> {
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x6f27a04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>() } })));
     return ___internal_method;
   }
 };
@@ -689,7 +691,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::Matrix4x4.Internal_TRS_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Quaternion>, ::by_ref<::UnityEngine::Vector3>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Quaternion const>, ::by_ref<::UnityEngine::Vector3 const>,
                                                                 ::by_ref<::UnityEngine::Matrix4x4>)>(&::UnityEngine::Matrix4x4::Internal_TRS_Injected)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x6f26918;
@@ -699,29 +701,31 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "Internal_TRS_Injected",
                                                                            {},
-                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(),
-                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
+                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(),
+                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Matrix4x4.Internal_Inverse_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Matrix4x4>)>(&::UnityEngine::Matrix4x4::Internal_Inverse_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Matrix4x4 const>, ::by_ref<::UnityEngine::Matrix4x4>)>(&::UnityEngine::Matrix4x4::Internal_Inverse_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6f26b44;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(),
-                                                { "Internal_Inverse_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(),
+                                         { "Internal_Inverse_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Matrix4x4.Internal_Transpose_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Matrix4x4>)>(&::UnityEngine::Matrix4x4::Internal_Transpose_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Matrix4x4 const>, ::by_ref<::UnityEngine::Matrix4x4>)>(
+    &::UnityEngine::Matrix4x4::Internal_Transpose_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6f26cdc;
 
@@ -729,7 +733,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
                      (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(),
-                                         { "Internal_Transpose_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
+                                         { "Internal_Transpose_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
     return ___internal_method;
   }
 };
@@ -769,7 +773,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, float_t
 //  Writing Method size for method: ::UnityEngine::Matrix4x4.Internal_LookAt_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3 const>,
                                                                 ::by_ref<::UnityEngine::Matrix4x4>)>(&::UnityEngine::Matrix4x4::Internal_LookAt_Injected)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x6f27048;
@@ -779,8 +783,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "Internal_LookAt_Injected",
                                                                            {},
-                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
+                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
     return ___internal_method;
   }
 };
@@ -838,13 +842,14 @@ inline ::UnityEngine::FrustumPlanes UnityEngine::Matrix4x4::get_decomposeProject
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "get_decomposeProjection", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::FrustumPlanes>(*this, ___internal_method);
 }
-inline ::UnityEngine::Matrix4x4 UnityEngine::Matrix4x4::Internal_TRS(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> pos, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> q,
-                                                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> s) {
+inline ::UnityEngine::Matrix4x4 UnityEngine::Matrix4x4::Internal_TRS(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> pos, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> q,
+                                                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> s) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::UnityEngine::Matrix4x4>(),
-          { "Internal_TRS", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "Internal_TRS",
+                                                                         {},
+                                                                         { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(),
+                                                                           ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Matrix4x4>(nullptr, ___internal_method, pos, q, s);
 }
 inline ::UnityEngine::Matrix4x4 UnityEngine::Matrix4x4::TRS(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion q, ::UnityEngine::Vector3 s) {
@@ -853,10 +858,11 @@ inline ::UnityEngine::Matrix4x4 UnityEngine::Matrix4x4::TRS(::UnityEngine::Vecto
                                               { "TRS", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Quaternion>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Matrix4x4>(nullptr, ___internal_method, pos, q, s);
 }
-inline bool UnityEngine::Matrix4x4::Internal_Inverse3DAffine(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> input, ::by_ref<::UnityEngine::Matrix4x4> result) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(),
-                                              { "Internal_Inverse3DAffine", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
+inline bool UnityEngine::Matrix4x4::Internal_Inverse3DAffine(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4 const> input, ::by_ref<::UnityEngine::Matrix4x4> result) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(),
+                                       { "Internal_Inverse3DAffine", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, input, result);
 }
 inline bool UnityEngine::Matrix4x4::Inverse3DAffine(::UnityEngine::Matrix4x4 input, ::by_ref<::UnityEngine::Matrix4x4> result) {
@@ -865,15 +871,15 @@ inline bool UnityEngine::Matrix4x4::Inverse3DAffine(::UnityEngine::Matrix4x4 inp
                                                            { "Inverse3DAffine", {}, { ::i2c::type_of<::UnityEngine::Matrix4x4>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, input, result);
 }
-inline bool UnityEngine::Matrix4x4::Inverse3DAffine(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> input, ::by_ref<::UnityEngine::Matrix4x4> result) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(),
-                                                           { "Inverse3DAffine", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
+inline bool UnityEngine::Matrix4x4::Inverse3DAffine(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4 const> input, ::by_ref<::UnityEngine::Matrix4x4> result) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(),
+                                              { "Inverse3DAffine", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, input, result);
 }
-inline ::UnityEngine::Matrix4x4 UnityEngine::Matrix4x4::Internal_Inverse(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> m) {
+inline ::UnityEngine::Matrix4x4 UnityEngine::Matrix4x4::Internal_Inverse(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4 const> m) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "Internal_Inverse", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "Internal_Inverse", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Matrix4x4>(nullptr, ___internal_method, m);
 }
 inline ::UnityEngine::Matrix4x4 UnityEngine::Matrix4x4::Inverse(::UnityEngine::Matrix4x4 m) {
@@ -885,9 +891,9 @@ inline ::UnityEngine::Matrix4x4 UnityEngine::Matrix4x4::get_inverse() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "get_inverse", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Matrix4x4>(*this, ___internal_method);
 }
-inline ::UnityEngine::Matrix4x4 UnityEngine::Matrix4x4::Internal_Transpose(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> m) {
+inline ::UnityEngine::Matrix4x4 UnityEngine::Matrix4x4::Internal_Transpose(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4 const> m) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "Internal_Transpose", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "Internal_Transpose", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Matrix4x4>(nullptr, ___internal_method, m);
 }
 inline ::UnityEngine::Matrix4x4 UnityEngine::Matrix4x4::get_transpose() {
@@ -908,13 +914,14 @@ inline ::UnityEngine::Matrix4x4 UnityEngine::Matrix4x4::Perspective(float_t fov,
                                                            { "Perspective", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Matrix4x4>(nullptr, ___internal_method, fov, aspect, zNear, zFar);
 }
-inline ::UnityEngine::Matrix4x4 UnityEngine::Matrix4x4::Internal_LookAt(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> from, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> to,
-                                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> up) {
+inline ::UnityEngine::Matrix4x4 UnityEngine::Matrix4x4::Internal_LookAt(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> from, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> to,
+                                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> up) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::UnityEngine::Matrix4x4>(),
-          { "Internal_LookAt", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "Internal_LookAt",
+                                                                         {},
+                                                                         { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                                           ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Matrix4x4>(nullptr, ___internal_method, from, to, up);
 }
 inline ::UnityEngine::Matrix4x4 UnityEngine::Matrix4x4::LookAt(::UnityEngine::Vector3 from, ::UnityEngine::Vector3 to, ::UnityEngine::Vector3 up) {
@@ -976,9 +983,9 @@ inline bool UnityEngine::Matrix4x4::Equals(::UnityEngine::Matrix4x4 other) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "Equals", {}, { ::i2c::type_of<::UnityEngine::Matrix4x4>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
-inline bool UnityEngine::Matrix4x4::Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> other) {
+inline bool UnityEngine::Matrix4x4::Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4 const> other) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
 inline ::UnityEngine::Matrix4x4 UnityEngine::Matrix4x4::op_Multiply(::UnityEngine::Matrix4x4 lhs, ::UnityEngine::Matrix4x4 rhs) {
@@ -1080,26 +1087,28 @@ inline void UnityEngine::Matrix4x4::DecomposeProjection_Injected(::by_ref<::Unit
                                        { "DecomposeProjection_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::by_ref<::UnityEngine::FrustumPlanes>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, ret);
 }
-inline void UnityEngine::Matrix4x4::Internal_TRS_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> pos, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> q,
-                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> s, ::by_ref<::UnityEngine::Matrix4x4> ret) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "Internal_TRS_Injected",
-                                                                                      {},
-                                                                                      { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(),
-                                                                                        ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
+inline void UnityEngine::Matrix4x4::Internal_TRS_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> pos, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> q,
+                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> s, ::by_ref<::UnityEngine::Matrix4x4> ret) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "Internal_TRS_Injected",
+                                                                         {},
+                                                                         { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(),
+                                                                           ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, pos, q, s, ret);
 }
-inline void UnityEngine::Matrix4x4::Internal_Inverse_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> m, ::by_ref<::UnityEngine::Matrix4x4> ret) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(),
-                                              { "Internal_Inverse_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
+inline void UnityEngine::Matrix4x4::Internal_Inverse_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4 const> m, ::by_ref<::UnityEngine::Matrix4x4> ret) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(),
+                                       { "Internal_Inverse_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, m, ret);
 }
-inline void UnityEngine::Matrix4x4::Internal_Transpose_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> m, ::by_ref<::UnityEngine::Matrix4x4> ret) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(),
-                                              { "Internal_Transpose_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
+inline void UnityEngine::Matrix4x4::Internal_Transpose_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4 const> m, ::by_ref<::UnityEngine::Matrix4x4> ret) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(),
+                                       { "Internal_Transpose_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, m, ret);
 }
 inline void UnityEngine::Matrix4x4::Ortho_Injected(float_t left, float_t right, float_t bottom, float_t top, float_t zNear, float_t zFar, ::by_ref<::UnityEngine::Matrix4x4> ret) {
@@ -1119,14 +1128,14 @@ inline void UnityEngine::Matrix4x4::Perspective_Injected(float_t fov, float_t as
                                                                                                             ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, fov, aspect, zNear, zFar, ret);
 }
-inline void UnityEngine::Matrix4x4::Internal_LookAt_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> from, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> to,
-                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> up, ::by_ref<::UnityEngine::Matrix4x4> ret) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "Internal_LookAt_Injected",
-                                                                                      {},
-                                                                                      { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                                                                        ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
+inline void UnityEngine::Matrix4x4::Internal_LookAt_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> from, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> to,
+                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> up, ::by_ref<::UnityEngine::Matrix4x4> ret) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "Internal_LookAt_Injected",
+                                                                         {},
+                                                                         { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                                           ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, from, to, up, ret);
 }
 inline void UnityEngine::Matrix4x4::Frustum_Injected(float_t left, float_t right, float_t bottom, float_t top, float_t zNear, float_t zFar, ::by_ref<::UnityEngine::Matrix4x4> ret) {

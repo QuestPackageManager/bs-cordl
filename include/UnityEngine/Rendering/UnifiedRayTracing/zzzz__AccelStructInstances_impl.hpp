@@ -307,19 +307,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::R
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::AccelStructInstances::*)(
-    ::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation, ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::MeshInstanceDesc>, uint32_t, uint32_t)>(
+    ::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation, ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::MeshInstanceDesc const>, uint32_t, uint32_t)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::AccelStructInstances::AddInstance)> {
   constexpr static std::size_t size = 0x340;
   constexpr static std::size_t addrs = 0x6e023d0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::AccelStructInstances*>(),
-                                         { "AddInstance",
-                                           {},
-                                           { ::i2c::type_of<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation>(),
-                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::MeshInstanceDesc>>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::AccelStructInstances*>(),
+                                                                                           { "AddInstance",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation>(),
+                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::MeshInstanceDesc const>>(),
+                                                                                               ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
@@ -636,15 +635,14 @@ inline int32_t UnityEngine::Rendering::UnifiedRayTracing::AccelStructInstances::
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, meshInstances, materialIDs, renderingLayerMask);
 }
 inline void UnityEngine::Rendering::UnifiedRayTracing::AccelStructInstances::AddInstance(::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation slotAllocation,
-                                                                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::MeshInstanceDesc> meshInstance,
+                                                                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::MeshInstanceDesc const> meshInstance,
                                                                                          uint32_t materialID, uint32_t renderingLayerMask) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::AccelStructInstances*>(),
-                                       { "AddInstance",
-                                         {},
-                                         { ::i2c::type_of<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation>(),
-                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::MeshInstanceDesc>>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::AccelStructInstances*>(),
+                                                                                         { "AddInstance",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation>(),
+                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::MeshInstanceDesc const>>(),
+                                                                                             ::i2c::type_of<uint32_t>(), ::i2c::type_of<uint32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, slotAllocation, meshInstance, materialID, renderingLayerMask);
 }
 inline ::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_MeshChunk

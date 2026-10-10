@@ -149,7 +149,7 @@ public:
   constexpr operator ::Unity::Collections::IUTF8Bytes*();
 
   /// @brief Method Add, addr 0x68dd394, size 0x20, virtual false, abstract: false, final false
-  inline void Add(/* [IsReadOnly] */ ::by_ref<uint8_t> value);
+  inline void Add(/* [IsReadOnly] */ ::by_ref<uint8_t const> value);
 
   /// @brief Method AsFixedList, addr 0x68dd49c, size 0x44, virtual false, abstract: false, final false
   inline ::by_ref<::Unity::Collections::FixedList4096Bytes_1<uint8_t>> AsFixedList();
@@ -243,19 +243,19 @@ public:
   inline ::Unity::Collections::CopyError Initialize(::StringW source);
 
   /// @brief Method Initialize, addr 0x68ddb74, size 0x6c, virtual false, abstract: false, final false
-  inline ::Unity::Collections::FormatError Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString128Bytes> other);
+  inline ::Unity::Collections::FormatError Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString128Bytes const> other);
 
   /// @brief Method Initialize, addr 0x68dd834, size 0x6c, virtual false, abstract: false, final false
-  inline ::Unity::Collections::FormatError Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes> other);
+  inline ::Unity::Collections::FormatError Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes const> other);
 
   /// @brief Method Initialize, addr 0x68ddee4, size 0x6c, virtual false, abstract: false, final false
-  inline ::Unity::Collections::FormatError Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> other);
+  inline ::Unity::Collections::FormatError Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes const> other);
 
   /// @brief Method Initialize, addr 0x68ddd14, size 0x6c, virtual false, abstract: false, final false
-  inline ::Unity::Collections::FormatError Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString512Bytes> other);
+  inline ::Unity::Collections::FormatError Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString512Bytes const> other);
 
   /// @brief Method Initialize, addr 0x68dd9d4, size 0x6c, virtual false, abstract: false, final false
-  inline ::Unity::Collections::FormatError Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes> other);
+  inline ::Unity::Collections::FormatError Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes const> other);
 
   /// @brief Method Initialize, addr 0x68dd5a4, size 0x74, virtual false, abstract: false, final false
   inline ::Unity::Collections::FormatError Initialize(::Unity::Collections::Unicode_Rune rune, int32_t count);
@@ -274,22 +274,22 @@ public:
   inline void _ctor(::Unity::Collections::NativeText_ReadOnly other);
 
   /// @brief Method .ctor, addr 0x68db360, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString128Bytes> other);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString128Bytes const> other);
 
   /// @brief Method .ctor, addr 0x68d866c, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes> other);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes const> other);
 
   /// @brief Method .ctor, addr 0x68ddeb4, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> other);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes const> other);
 
   /// @brief Method .ctor, addr 0x68dc9d8, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString512Bytes> other);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString512Bytes const> other);
 
   /// @brief Method .ctor, addr 0x68d9cd8, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes> other);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes const> other);
 
   /// @brief Method .ctor, addr 0x68dd744, size 0x94, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText> other);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText const> other);
 
   /// @brief Method .ctor, addr 0x68dd56c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::Unicode_Rune rune, int32_t count);
@@ -367,22 +367,22 @@ public:
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
   /// @brief Method op_Equality, addr 0x68de010, size 0xd8, virtual false, abstract: false, final false
-  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> a, ::StringW b);
+  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes const> a, ::StringW b);
 
   /// @brief Method op_Equality, addr 0x68ddbe0, size 0xbc, virtual false, abstract: false, final false
-  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString128Bytes> b);
+  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes const> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString128Bytes const> b);
 
   /// @brief Method op_Equality, addr 0x68dd8a0, size 0xbc, virtual false, abstract: false, final false
-  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes> b);
+  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes const> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes const> b);
 
   /// @brief Method op_Equality, addr 0x68ddf50, size 0xa4, virtual false, abstract: false, final false
-  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> b);
+  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes const> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes const> b);
 
   /// @brief Method op_Equality, addr 0x68ddd80, size 0xbc, virtual false, abstract: false, final false
-  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString512Bytes> b);
+  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes const> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString512Bytes const> b);
 
   /// @brief Method op_Equality, addr 0x68dda40, size 0xbc, virtual false, abstract: false, final false
-  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes> b);
+  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes const> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes const> b);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
   /// @brief Method op_Implicit, addr 0x68de0e8, size 0x34, virtual false, abstract: false, final false
@@ -390,22 +390,22 @@ public:
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
   /// @brief Method op_Inequality, addr 0x68de11c, size 0x9c, virtual false, abstract: false, final false
-  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> a, ::StringW b);
+  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes const> a, ::StringW b);
 
   /// @brief Method op_Inequality, addr 0x68ddc9c, size 0x18, virtual false, abstract: false, final false
-  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString128Bytes> b);
+  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes const> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString128Bytes const> b);
 
   /// @brief Method op_Inequality, addr 0x68dd95c, size 0x18, virtual false, abstract: false, final false
-  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes> b);
+  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes const> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes const> b);
 
   /// @brief Method op_Inequality, addr 0x68ddff4, size 0x18, virtual false, abstract: false, final false
-  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> b);
+  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes const> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes const> b);
 
   /// @brief Method op_Inequality, addr 0x68dde3c, size 0x18, virtual false, abstract: false, final false
-  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString512Bytes> b);
+  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes const> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString512Bytes const> b);
 
   /// @brief Method op_Inequality, addr 0x68ddafc, size 0x18, virtual false, abstract: false, final false
-  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes> b);
+  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes const> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes const> b);
 
   /// @brief Method set_Capacity, addr 0x68dd2a0, size 0x4, virtual true, abstract: false, final true
   inline void set_Capacity(int32_t value);

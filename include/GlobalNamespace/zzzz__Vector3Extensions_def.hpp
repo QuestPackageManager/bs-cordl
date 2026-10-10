@@ -29,7 +29,7 @@ public:
   // Declarations
   /// [Extension]
   /// @brief Method Abs, addr 0x35af474, size 0x18, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector3 Abs(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> vector);
+  static inline ::UnityEngine::Vector3 Abs(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> vector);
 
   /// @brief Method InverseLerp, addr 0x35af3b0, size 0x50, virtual false, abstract: false, final false
   static inline float_t InverseLerp(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 value);

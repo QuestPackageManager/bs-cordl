@@ -778,13 +778,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::RenderSettings.set_fogColor_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Color>)>(&::UnityEngine::RenderSettings::set_fogColor_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Color const>)>(&::UnityEngine::RenderSettings::set_fogColor_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6ee4ae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(), { "set_fogColor_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color>>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(), { "set_fogColor_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color const>>() } })));
     return ___internal_method;
   }
 };
@@ -804,13 +804,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::RenderSettings.set_ambientSkyColor_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Color>)>(&::UnityEngine::RenderSettings::set_ambientSkyColor_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Color const>)>(&::UnityEngine::RenderSettings::set_ambientSkyColor_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6ee4ca8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(), { "set_ambientSkyColor_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(), { "set_ambientSkyColor_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color const>>() } })));
     return ___internal_method;
   }
 };
@@ -830,13 +831,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::RenderSettings.set_ambientEquatorColor_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Color>)>(&::UnityEngine::RenderSettings::set_ambientEquatorColor_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Color const>)>(&::UnityEngine::RenderSettings::set_ambientEquatorColor_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6ee4dac;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(), { "set_ambientEquatorColor_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(), { "set_ambientEquatorColor_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color const>>() } })));
     return ___internal_method;
   }
 };
@@ -856,13 +858,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::RenderSettings.set_ambientGroundColor_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Color>)>(&::UnityEngine::RenderSettings::set_ambientGroundColor_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Color const>)>(&::UnityEngine::RenderSettings::set_ambientGroundColor_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6ee4eb0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(), { "set_ambientGroundColor_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(), { "set_ambientGroundColor_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color const>>() } })));
     return ___internal_method;
   }
 };
@@ -882,13 +885,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::RenderSettings.set_ambientLight_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Color>)>(&::UnityEngine::RenderSettings::set_ambientLight_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Color const>)>(&::UnityEngine::RenderSettings::set_ambientLight_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6ee4fb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(), { "set_ambientLight_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color>>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(), { "set_ambientLight_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color const>>() } })));
     return ___internal_method;
   }
 };
@@ -909,14 +912,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::RenderSettings.set_subtractiveShadowColor_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Color>)>(&::UnityEngine::RenderSettings::set_subtractiveShadowColor_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Color const>)>(&::UnityEngine::RenderSettings::set_subtractiveShadowColor_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6ee50b8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(), { "set_subtractiveShadowColor_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(),
+                                                                                           { "set_subtractiveShadowColor_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color const>>() } })));
     return ___internal_method;
   }
 };
@@ -987,14 +989,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::RenderSettings.set_ambientProbe_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2>)>(&::UnityEngine::RenderSettings::set_ambientProbe_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2 const>)>(&::UnityEngine::RenderSettings::set_ambientProbe_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6ee55c8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(), { "set_ambientProbe_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(),
+                                                             { "set_ambientProbe_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2 const>>() } })));
     return ___internal_method;
   }
 };
@@ -1369,9 +1371,9 @@ inline void UnityEngine::RenderSettings::get_fogColor_Injected(::by_ref<::UnityE
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(), { "get_fogColor_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ret);
 }
-inline void UnityEngine::RenderSettings::set_fogColor_Injected(::by_ref<::UnityEngine::Color> value) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(), { "set_fogColor_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color>>() } })));
+inline void UnityEngine::RenderSettings::set_fogColor_Injected(::by_ref<::UnityEngine::Color const> value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(), { "set_fogColor_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
 inline void UnityEngine::RenderSettings::get_ambientSkyColor_Injected(::by_ref<::UnityEngine::Color> ret) {
@@ -1379,9 +1381,9 @@ inline void UnityEngine::RenderSettings::get_ambientSkyColor_Injected(::by_ref<:
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(), { "get_ambientSkyColor_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ret);
 }
-inline void UnityEngine::RenderSettings::set_ambientSkyColor_Injected(::by_ref<::UnityEngine::Color> value) {
+inline void UnityEngine::RenderSettings::set_ambientSkyColor_Injected(::by_ref<::UnityEngine::Color const> value) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(), { "set_ambientSkyColor_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color>>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(), { "set_ambientSkyColor_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
 inline void UnityEngine::RenderSettings::get_ambientEquatorColor_Injected(::by_ref<::UnityEngine::Color> ret) {
@@ -1389,9 +1391,10 @@ inline void UnityEngine::RenderSettings::get_ambientEquatorColor_Injected(::by_r
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(), { "get_ambientEquatorColor_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ret);
 }
-inline void UnityEngine::RenderSettings::set_ambientEquatorColor_Injected(::by_ref<::UnityEngine::Color> value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(), { "set_ambientEquatorColor_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color>>() } })));
+inline void UnityEngine::RenderSettings::set_ambientEquatorColor_Injected(::by_ref<::UnityEngine::Color const> value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(), { "set_ambientEquatorColor_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
 inline void UnityEngine::RenderSettings::get_ambientGroundColor_Injected(::by_ref<::UnityEngine::Color> ret) {
@@ -1399,9 +1402,10 @@ inline void UnityEngine::RenderSettings::get_ambientGroundColor_Injected(::by_re
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(), { "get_ambientGroundColor_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ret);
 }
-inline void UnityEngine::RenderSettings::set_ambientGroundColor_Injected(::by_ref<::UnityEngine::Color> value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(), { "set_ambientGroundColor_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color>>() } })));
+inline void UnityEngine::RenderSettings::set_ambientGroundColor_Injected(::by_ref<::UnityEngine::Color const> value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(), { "set_ambientGroundColor_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
 inline void UnityEngine::RenderSettings::get_ambientLight_Injected(::by_ref<::UnityEngine::Color> ret) {
@@ -1409,9 +1413,9 @@ inline void UnityEngine::RenderSettings::get_ambientLight_Injected(::by_ref<::Un
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(), { "get_ambientLight_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ret);
 }
-inline void UnityEngine::RenderSettings::set_ambientLight_Injected(::by_ref<::UnityEngine::Color> value) {
+inline void UnityEngine::RenderSettings::set_ambientLight_Injected(::by_ref<::UnityEngine::Color const> value) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(), { "set_ambientLight_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color>>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(), { "set_ambientLight_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
 inline void UnityEngine::RenderSettings::get_subtractiveShadowColor_Injected(::by_ref<::UnityEngine::Color> ret) {
@@ -1419,9 +1423,10 @@ inline void UnityEngine::RenderSettings::get_subtractiveShadowColor_Injected(::b
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(), { "get_subtractiveShadowColor_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ret);
 }
-inline void UnityEngine::RenderSettings::set_subtractiveShadowColor_Injected(::by_ref<::UnityEngine::Color> value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(), { "set_subtractiveShadowColor_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color>>() } })));
+inline void UnityEngine::RenderSettings::set_subtractiveShadowColor_Injected(::by_ref<::UnityEngine::Color const> value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(), { "set_subtractiveShadowColor_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
 inline ::System::IntPtr UnityEngine::RenderSettings::get_skybox_Injected() {
@@ -1448,10 +1453,10 @@ inline void UnityEngine::RenderSettings::get_ambientProbe_Injected(::by_ref<::Un
       (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(), { "get_ambientProbe_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ret);
 }
-inline void UnityEngine::RenderSettings::set_ambientProbe_Injected(::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2> value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(), { "set_ambientProbe_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2>>() } })));
+inline void UnityEngine::RenderSettings::set_ambientProbe_Injected(::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2 const> value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RenderSettings*>(),
+                                                           { "set_ambientProbe_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
 inline ::System::IntPtr UnityEngine::RenderSettings::get_customReflectionTexture_Injected() {

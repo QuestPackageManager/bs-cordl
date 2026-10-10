@@ -7,14 +7,14 @@
 //  Writing Method size for method: ::GlobalNamespace::BeatmapEditorGameplaySceneSetupData._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEditorGameplaySceneSetupData::*)(::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEditorGameplaySceneSetupData::*)(::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData const>)>(
     &::GlobalNamespace::BeatmapEditorGameplaySceneSetupData::_ctor)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x5d2745c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEditorGameplaySceneSetupData*>(),
-                                                                                           { ".ctor", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData>>() } })));
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData const>>() } })));
     return ___internal_method;
   }
 };
@@ -30,13 +30,13 @@ constexpr void GlobalNamespace::BeatmapEditorGameplaySceneSetupData::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___data = value;
 }
-inline void GlobalNamespace::BeatmapEditorGameplaySceneSetupData::_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData> data) {
+inline void GlobalNamespace::BeatmapEditorGameplaySceneSetupData::_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData const> data) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEditorGameplaySceneSetupData*>(),
-                                                                                         { ".ctor", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData>>() } })));
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, data);
 }
 inline ::GlobalNamespace::BeatmapEditorGameplaySceneSetupData*
-GlobalNamespace::BeatmapEditorGameplaySceneSetupData::New_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData> data) {
+GlobalNamespace::BeatmapEditorGameplaySceneSetupData::New_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData const> data) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::BeatmapEditorGameplaySceneSetupData*>(data));
 }
 // Ctor Parameters []

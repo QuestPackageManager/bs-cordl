@@ -90,7 +90,7 @@ public:
   static inline ::System::Net::RequestStream* New_ctor(::System::IO::Stream* stream, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t length, int64_t contentlength);
 
   /// @brief Method Read, addr 0x67636e0, size 0x114, virtual true, abstract: false, final false
-  inline int32_t Read(::by_ref<::ArrayW<uint8_t>> buffer, int32_t offset, int32_t count);
+  inline int32_t Read(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count);
 
   /// @brief Method Seek, addr 0x6763ca4, size 0x38, virtual true, abstract: false, final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);

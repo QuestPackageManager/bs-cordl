@@ -46,7 +46,7 @@ public:
 
   /// @brief Method LoadSceneAsyncNameIndexInternal_Injected, addr 0x6f5b15c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::IntPtr LoadSceneAsyncNameIndexInternal_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> sceneName, int32_t sceneBuildIndex,
-                                                                          ::by_ref<::UnityEngine::SceneManagement::LoadSceneParameters> parameters, bool mustCompleteNextFrame);
+                                                                          ::by_ref<::UnityEngine::SceneManagement::LoadSceneParameters const> parameters, bool mustCompleteNextFrame);
 
 protected:
   // Ctor Parameters []

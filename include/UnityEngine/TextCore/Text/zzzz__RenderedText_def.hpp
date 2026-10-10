@@ -150,7 +150,7 @@ public:
   inline bool MoveNext();
 
   /// @brief Method .ctor, addr 0x705a164, size 0x14, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::TextCore::Text::RenderedText> source);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::TextCore::Text::RenderedText const> source);
 
   /// @brief Method get_Current, addr 0x705a4bc, size 0x8, virtual false, abstract: false, final false
   inline char16_t get_Current();

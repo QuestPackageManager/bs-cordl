@@ -502,11 +502,11 @@ public:
   inline void Cleanup();
 
   /// @brief Method ConfigureDescriptor, addr 0x6d1e990, size 0x50, virtual false, abstract: false, final false
-  inline void ConfigureDescriptor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::PostProcessingData> postProcessingData, ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor,
-                                  ::by_ref<::UnityEngine::FilterMode> filterMode);
+  inline void ConfigureDescriptor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::PostProcessingData const> postProcessingData,
+                                  ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor, ::by_ref<::UnityEngine::FilterMode> filterMode);
 
   /// @brief Method ConfigureDescriptor, addr 0x6d1e9e0, size 0x90, virtual false, abstract: false, final false
-  inline void ConfigureDescriptor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalPostProcessingData*> postProcessingData,
+  inline void ConfigureDescriptor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalPostProcessingData* const> postProcessingData,
                                   ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor, ::by_ref<::UnityEngine::FilterMode> filterMode);
 
   /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
@@ -528,7 +528,7 @@ public:
                      ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> internalColorLut);
 
   /// @brief Method Setup, addr 0x6d1e98c, size 0x4, virtual false, abstract: false, final false
-  inline void Setup(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandle*> internalLut);
+  inline void Setup(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandle* const> internalLut);
 
   constexpr bool const& __cordl_internal_get_m_AllowColorGradingACESHDR() const;
 

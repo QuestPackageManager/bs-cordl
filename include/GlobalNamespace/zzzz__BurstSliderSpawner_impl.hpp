@@ -32,7 +32,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::*)(
-    ::GlobalNamespace::NoteData*, ::by_ref<::GlobalNamespace::NoteSpawnData>, bool)>(&::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::Invoke)> {
+    ::GlobalNamespace::NoteData*, ::by_ref<::GlobalNamespace::NoteSpawnData const>, bool)>(&::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x5ce1d48;
 
@@ -46,8 +46,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
-    ::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::*)(::GlobalNamespace::NoteData*, ::by_ref<::GlobalNamespace::NoteSpawnData>, bool, ::System::AsyncCallback*, ::System::Object*)>(
-    &::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::BeginInvoke)> {
+    ::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::*)(::GlobalNamespace::NoteData*, ::by_ref<::GlobalNamespace::NoteSpawnData const>, bool, ::System::AsyncCallback*,
+                                                                      ::System::Object*)>(&::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x5ce1d5c;
 
@@ -60,8 +60,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
 //  Writing Method size for method: ::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate.EndInvoke
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::*)(::by_ref<::GlobalNamespace::NoteSpawnData>, ::System::IAsyncResult*)>(
-    &::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::EndInvoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::*)(
+    ::by_ref<::GlobalNamespace::NoteSpawnData const>, ::System::IAsyncResult*)>(&::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x5ce1e10;
 
@@ -76,20 +76,20 @@ inline void GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::_ctor(:
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline void GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::Invoke(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData,
-                                                                                bool forceIsFirstNote) {
+inline void GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::Invoke(::GlobalNamespace::NoteData* noteData,
+                                                                                /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData const> noteSpawnData, bool forceIsFirstNote) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, noteData, noteSpawnData, forceIsFirstNote);
 }
 inline ::System::IAsyncResult* GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::BeginInvoke(::GlobalNamespace::NoteData* noteData,
-                                                                                                        /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData,
+                                                                                                        /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData const> noteSpawnData,
                                                                                                         bool forceIsFirstNote, ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, noteData, noteSpawnData, forceIsFirstNote, callback, object);
 }
-inline void GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::EndInvoke(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, ::System::IAsyncResult* result) {
+inline void GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::EndInvoke(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData const> noteSpawnData, ::System::IAsyncResult* result) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate*>(), 15 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, noteSpawnData, result);
@@ -120,8 +120,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::V
 //  Writing Method size for method: ::GlobalNamespace::BurstSliderSpawner.ProcessSliderData
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::SliderData*, ::by_ref<::GlobalNamespace::SliderSpawnData>, bool, ::GlobalNamespace::VariableMovementDataProvider*,
-                                                                ::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate*)>(&::GlobalNamespace::BurstSliderSpawner::ProcessSliderData)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::SliderData*, ::by_ref<::GlobalNamespace::SliderSpawnData const>, bool,
+                                                                ::GlobalNamespace::VariableMovementDataProvider*, ::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate*)>(
+    &::GlobalNamespace::BurstSliderSpawner::ProcessSliderData)> {
   constexpr static std::size_t size = 0x40c;
   constexpr static std::size_t addrs = 0x5ce17b8;
 
@@ -131,7 +132,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespac
         (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BurstSliderSpawner*>(),
                             { "ProcessSliderData",
                               {},
-                              { ::i2c::type_of<::GlobalNamespace::SliderData*>(), ::i2c::type_of<::by_ref<::GlobalNamespace::SliderSpawnData>>(), ::i2c::type_of<bool>(),
+                              { ::i2c::type_of<::GlobalNamespace::SliderData*>(), ::i2c::type_of<::by_ref<::GlobalNamespace::SliderSpawnData const>>(), ::i2c::type_of<bool>(),
                                 ::i2c::type_of<::GlobalNamespace::VariableMovementDataProvider*>(), ::i2c::type_of<::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate*>() } })));
     return ___internal_method;
   }
@@ -146,7 +147,7 @@ inline void GlobalNamespace::BurstSliderSpawner::BezierCurve(::UnityEngine::Vect
                                                                ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, p0, p1, p2, t, pos, tangent);
 }
-inline void GlobalNamespace::BurstSliderSpawner::ProcessSliderData(::GlobalNamespace::SliderData* sliderData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::SliderSpawnData> sliderSpawnData,
+inline void GlobalNamespace::BurstSliderSpawner::ProcessSliderData(::GlobalNamespace::SliderData* sliderData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::SliderSpawnData const> sliderSpawnData,
                                                                    bool forceIsFirstNote, ::GlobalNamespace::VariableMovementDataProvider* variableMovementDataProvider,
                                                                    ::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate* processNoteData) {
   static auto* ___internal_method =
@@ -154,7 +155,7 @@ inline void GlobalNamespace::BurstSliderSpawner::ProcessSliderData(::GlobalNames
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BurstSliderSpawner*>(),
                                        { "ProcessSliderData",
                                          {},
-                                         { ::i2c::type_of<::GlobalNamespace::SliderData*>(), ::i2c::type_of<::by_ref<::GlobalNamespace::SliderSpawnData>>(), ::i2c::type_of<bool>(),
+                                         { ::i2c::type_of<::GlobalNamespace::SliderData*>(), ::i2c::type_of<::by_ref<::GlobalNamespace::SliderSpawnData const>>(), ::i2c::type_of<bool>(),
                                            ::i2c::type_of<::GlobalNamespace::VariableMovementDataProvider*>(), ::i2c::type_of<::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, sliderData, sliderSpawnData, forceIsFirstNote, variableMovementDataProvider, processNoteData);
 }

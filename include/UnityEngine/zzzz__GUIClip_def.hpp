@@ -119,10 +119,12 @@ public:
   static inline void Internal_PushParentClip(::UnityEngine::Matrix4x4 renderTransform, ::UnityEngine::Matrix4x4 inputTransform, ::UnityEngine::Rect clipRect);
 
   /// @brief Method Internal_PushParentClip_Injected, addr 0x6fa0f78, size 0x54, virtual false, abstract: false, final false
-  static inline void Internal_PushParentClip_Injected(::by_ref<::UnityEngine::Matrix4x4> renderTransform, ::by_ref<::UnityEngine::Matrix4x4> inputTransform, ::by_ref<::UnityEngine::Rect> clipRect);
+  static inline void Internal_PushParentClip_Injected(::by_ref<::UnityEngine::Matrix4x4 const> renderTransform, ::by_ref<::UnityEngine::Matrix4x4 const> inputTransform,
+                                                      ::by_ref<::UnityEngine::Rect const> clipRect);
 
   /// @brief Method Internal_Push_Injected, addr 0x6fa0de8, size 0x5c, virtual false, abstract: false, final false
-  static inline void Internal_Push_Injected(::by_ref<::UnityEngine::Rect> screenRect, ::by_ref<::UnityEngine::Vector2> scrollOffset, ::by_ref<::UnityEngine::Vector2> renderOffset, bool resetOffset);
+  static inline void Internal_Push_Injected(::by_ref<::UnityEngine::Rect const> screenRect, ::by_ref<::UnityEngine::Vector2 const> scrollOffset, ::by_ref<::UnityEngine::Vector2 const> renderOffset,
+                                            bool resetOffset);
 
   /// @brief Method Push, addr 0x6fa020c, size 0x4, virtual false, abstract: false, final false
   static inline void Push(::UnityEngine::Rect screenRect, ::UnityEngine::Vector2 scrollOffset, ::UnityEngine::Vector2 renderOffset, bool resetOffset);
@@ -131,7 +133,7 @@ public:
   static inline void SetMatrix(::UnityEngine::Matrix4x4 m);
 
   /// @brief Method SetMatrix_Injected, addr 0x6fa0ea8, size 0x3c, virtual false, abstract: false, final false
-  static inline void SetMatrix_Injected(::by_ref<::UnityEngine::Matrix4x4> m);
+  static inline void SetMatrix_Injected(::by_ref<::UnityEngine::Matrix4x4 const> m);
 
   /// [FreeFunction("GetGUIState().m_CanvasGUIState.m_GUIClipState.GetVisibleRect")]
   /// @brief Method get_visibleRect, addr 0x6f9fa10, size 0x48, virtual false, abstract: false, final false

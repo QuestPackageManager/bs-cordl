@@ -7,20 +7,20 @@
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::RendererListResource._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RendererListResource::*)(::by_ref<::UnityEngine::Rendering::RendererListParams>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RendererListResource::*)(::by_ref<::UnityEngine::Rendering::RendererListParams const>)>(
     &::UnityEngine::Rendering::RenderGraphModule::RendererListResource::_ctor)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x6c10fe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RendererListResource>(),
-                                                                                           { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RendererListParams>>() } })));
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RendererListParams const>>() } })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::Rendering::RenderGraphModule::RendererListResource::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RendererListParams> desc) {
+inline void UnityEngine::Rendering::RenderGraphModule::RendererListResource::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RendererListParams const> desc) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RendererListResource>(),
-                                                                                         { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RendererListParams>>() } })));
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RendererListParams const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, desc);
 }
 // Ctor Parameters [CppParam { name: "desc", ty: "::UnityEngine::Rendering::RendererListParams", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "rendererList", ty:

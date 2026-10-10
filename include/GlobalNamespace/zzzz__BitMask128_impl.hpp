@@ -86,101 +86,108 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::GlobalNamespa
 //  Writing Method size for method: ::GlobalNamespace::BitMask128.op_BitwiseOr
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BitMask128 (*)(::by_ref<::GlobalNamespace::BitMask128>, ::by_ref<::GlobalNamespace::BitMask128>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BitMask128 (*)(::by_ref<::GlobalNamespace::BitMask128 const>, ::by_ref<::GlobalNamespace::BitMask128 const>)>(
     &::GlobalNamespace::BitMask128::op_BitwiseOr)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x3a05980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(),
-                                                { "op_BitwiseOr", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128>>() } })));
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(),
+                            { "op_BitwiseOr", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128 const>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128 const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BitMask128.op_BitwiseAnd
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BitMask128 (*)(::by_ref<::GlobalNamespace::BitMask128>, ::by_ref<::GlobalNamespace::BitMask128>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BitMask128 (*)(::by_ref<::GlobalNamespace::BitMask128 const>, ::by_ref<::GlobalNamespace::BitMask128 const>)>(
     &::GlobalNamespace::BitMask128::op_BitwiseAnd)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x3a05998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(),
-                                                { "op_BitwiseAnd", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128>>() } })));
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(),
+                            { "op_BitwiseAnd", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128 const>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128 const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BitMask128.op_ExclusiveOr
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BitMask128 (*)(::by_ref<::GlobalNamespace::BitMask128>, ::by_ref<::GlobalNamespace::BitMask128>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BitMask128 (*)(::by_ref<::GlobalNamespace::BitMask128 const>, ::by_ref<::GlobalNamespace::BitMask128 const>)>(
     &::GlobalNamespace::BitMask128::op_ExclusiveOr)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x3a059b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(),
-                                                { "op_ExclusiveOr", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128>>() } })));
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(),
+                            { "op_ExclusiveOr", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128 const>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128 const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BitMask128.op_LeftShift
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BitMask128 (*)(::by_ref<::GlobalNamespace::BitMask128>, int32_t)>(&::GlobalNamespace::BitMask128::op_LeftShift)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BitMask128 (*)(::by_ref<::GlobalNamespace::BitMask128 const>, int32_t)>(&::GlobalNamespace::BitMask128::op_LeftShift)> {
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0x3a059c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(), { "op_LeftShift", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128>>(), ::i2c::type_of<int32_t>() } })));
+        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(), { "op_LeftShift", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128 const>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BitMask128.op_RightShift
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BitMask128 (*)(::by_ref<::GlobalNamespace::BitMask128>, int32_t)>(&::GlobalNamespace::BitMask128::op_RightShift)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BitMask128 (*)(::by_ref<::GlobalNamespace::BitMask128 const>, int32_t)>(&::GlobalNamespace::BitMask128::op_RightShift)> {
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0x3a059fc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(), { "op_RightShift", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128>>(), ::i2c::type_of<int32_t>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(),
+                                                             { "op_RightShift", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128 const>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BitMask128.op_Equality
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::GlobalNamespace::BitMask128>, ::by_ref<::GlobalNamespace::BitMask128>)>(&::GlobalNamespace::BitMask128::op_Equality)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::GlobalNamespace::BitMask128 const>, ::by_ref<::GlobalNamespace::BitMask128 const>)>(
+    &::GlobalNamespace::BitMask128::op_Equality)> {
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x3a05a30;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(),
-                                                { "op_Equality", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(),
+                                         { "op_Equality", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128 const>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128 const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BitMask128.op_Inequality
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::GlobalNamespace::BitMask128>, ::by_ref<::GlobalNamespace::BitMask128>)>(&::GlobalNamespace::BitMask128::op_Inequality)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::GlobalNamespace::BitMask128 const>, ::by_ref<::GlobalNamespace::BitMask128 const>)>(
+    &::GlobalNamespace::BitMask128::op_Inequality)> {
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x3a05a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(),
-                                                { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128>>() } })));
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(),
+                            { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128 const>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128 const>>() } })));
     return ___internal_method;
   }
 };
@@ -312,49 +319,54 @@ inline uint64_t GlobalNamespace::BitMask128::GetBits(int32_t offset, int32_t cou
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(), { "GetBits", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<uint64_t>(*this, ___internal_method, offset, count);
 }
-inline ::GlobalNamespace::BitMask128 GlobalNamespace::BitMask128::op_BitwiseOr(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128> a,
-                                                                               /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128> b) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(),
-                                              { "op_BitwiseOr", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128>>() } })));
+inline ::GlobalNamespace::BitMask128 GlobalNamespace::BitMask128::op_BitwiseOr(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128 const> a,
+                                                                               /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128 const> b) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(),
+                                       { "op_BitwiseOr", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128 const>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BitMask128>(nullptr, ___internal_method, a, b);
 }
-inline ::GlobalNamespace::BitMask128 GlobalNamespace::BitMask128::op_BitwiseAnd(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128> a,
-                                                                                /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128> b) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(),
-                                              { "op_BitwiseAnd", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128>>() } })));
+inline ::GlobalNamespace::BitMask128 GlobalNamespace::BitMask128::op_BitwiseAnd(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128 const> a,
+                                                                                /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128 const> b) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(),
+                                       { "op_BitwiseAnd", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128 const>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BitMask128>(nullptr, ___internal_method, a, b);
 }
-inline ::GlobalNamespace::BitMask128 GlobalNamespace::BitMask128::op_ExclusiveOr(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128> a,
-                                                                                 /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128> b) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(),
-                                              { "op_ExclusiveOr", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128>>() } })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BitMask128>(nullptr, ___internal_method, a, b);
-}
-inline ::GlobalNamespace::BitMask128 GlobalNamespace::BitMask128::op_LeftShift(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128> a, int32_t bits) {
+inline ::GlobalNamespace::BitMask128 GlobalNamespace::BitMask128::op_ExclusiveOr(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128 const> a,
+                                                                                 /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128 const> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(), { "op_LeftShift", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128>>(), ::i2c::type_of<int32_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BitMask128>(nullptr, ___internal_method, a, bits);
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(),
+                          { "op_ExclusiveOr", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128 const>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128 const>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BitMask128>(nullptr, ___internal_method, a, b);
 }
-inline ::GlobalNamespace::BitMask128 GlobalNamespace::BitMask128::op_RightShift(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128> a, int32_t bits) {
+inline ::GlobalNamespace::BitMask128 GlobalNamespace::BitMask128::op_LeftShift(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128 const> a, int32_t bits) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(), { "op_RightShift", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128>>(), ::i2c::type_of<int32_t>() } })));
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(), { "op_LeftShift", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128 const>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BitMask128>(nullptr, ___internal_method, a, bits);
 }
-inline bool GlobalNamespace::BitMask128::op_Equality(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128> a, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128> b) {
+inline ::GlobalNamespace::BitMask128 GlobalNamespace::BitMask128::op_RightShift(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128 const> a, int32_t bits) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(),
-                                              { "op_Equality", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128>>() } })));
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(), { "op_RightShift", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128 const>>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BitMask128>(nullptr, ___internal_method, a, bits);
+}
+inline bool GlobalNamespace::BitMask128::op_Equality(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128 const> a, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128 const> b) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(),
+                                       { "op_Equality", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128 const>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
-inline bool GlobalNamespace::BitMask128::op_Inequality(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128> a, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128> b) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(),
-                                              { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128>>() } })));
+inline bool GlobalNamespace::BitMask128::op_Inequality(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128 const> a, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask128 const> b) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BitMask128>(),
+                                       { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128 const>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BitMask128 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
 inline ::GlobalNamespace::BitMask128 GlobalNamespace::BitMask128::op_Implicit___GlobalNamespace__BitMask128(uint64_t value) {

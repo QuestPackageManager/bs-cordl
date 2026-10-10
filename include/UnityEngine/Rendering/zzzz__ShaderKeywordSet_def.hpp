@@ -39,7 +39,7 @@ public:
   static inline ::ArrayW<::UnityEngine::Rendering::ShaderKeyword> GetEnabledKeywords(::UnityEngine::Rendering::ShaderKeywordSet state);
 
   /// @brief Method GetEnabledKeywords_Injected, addr 0x6f8bb50, size 0x3c, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::Rendering::ShaderKeyword> GetEnabledKeywords_Injected(::by_ref<::UnityEngine::Rendering::ShaderKeywordSet> state);
+  static inline ::ArrayW<::UnityEngine::Rendering::ShaderKeyword> GetEnabledKeywords_Injected(::by_ref<::UnityEngine::Rendering::ShaderKeywordSet const> state);
 
   /// @brief Method IsEnabled, addr 0x6f8bc50, size 0x40, virtual false, abstract: false, final false
   inline bool IsEnabled(::UnityEngine::Rendering::ShaderKeyword keyword);
@@ -49,7 +49,7 @@ public:
   static inline bool IsKeywordNameEnabled(::UnityEngine::Rendering::ShaderKeywordSet state, ::StringW name);
 
   /// @brief Method IsKeywordNameEnabled_Injected, addr 0x6f8bad0, size 0x44, virtual false, abstract: false, final false
-  static inline bool IsKeywordNameEnabled_Injected(::by_ref<::UnityEngine::Rendering::ShaderKeywordSet> state, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name);
+  static inline bool IsKeywordNameEnabled_Injected(::by_ref<::UnityEngine::Rendering::ShaderKeywordSet const> state, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name);
 
   /// @brief Method ShaderKeywordComparer, addr 0x6f8bd98, size 0x18, virtual false, abstract: false, final false
   static inline int32_t ShaderKeywordComparer(::UnityEngine::Rendering::ShaderKeyword kw1, ::UnityEngine::Rendering::ShaderKeyword kw2);

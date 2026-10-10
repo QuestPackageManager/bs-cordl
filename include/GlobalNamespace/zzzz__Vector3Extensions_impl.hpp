@@ -64,13 +64,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*
 //  Writing Method size for method: ::GlobalNamespace::Vector3Extensions.Abs
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::by_ref<::UnityEngine::Vector3>)>(&::GlobalNamespace::Vector3Extensions::Abs)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::by_ref<::UnityEngine::Vector3 const>)>(&::GlobalNamespace::Vector3Extensions::Abs)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x35af474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Vector3Extensions*>(), { "Abs", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Vector3Extensions*>(), { "Abs", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
     return ___internal_method;
   }
 };
@@ -98,9 +98,9 @@ inline ::UnityEngine::Vector3 GlobalNamespace::Vector3Extensions::MirrorEulerAng
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Vector3Extensions*>(), { "MirrorEulerAnglesOnYZPlane", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(nullptr, ___internal_method, vector);
 }
-inline ::UnityEngine::Vector3 GlobalNamespace::Vector3Extensions::Abs(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> vector) {
+inline ::UnityEngine::Vector3 GlobalNamespace::Vector3Extensions::Abs(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> vector) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Vector3Extensions*>(), { "Abs", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Vector3Extensions*>(), { "Abs", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(nullptr, ___internal_method, vector);
 }
 // Ctor Parameters []

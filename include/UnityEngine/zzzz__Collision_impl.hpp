@@ -295,7 +295,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Coll
 //  Writing Method size for method: ::UnityEngine::Collision._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Collision::*)(::by_ref<::UnityEngine::ContactPairHeader>, ::by_ref<::UnityEngine::ContactPair>, bool)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Collision::*)(::by_ref<::UnityEngine::ContactPairHeader const>, ::by_ref<::UnityEngine::ContactPair const>, bool)>(
     &::UnityEngine::Collision::_ctor)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x6fdd670;
@@ -303,23 +303,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Coll
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(),
-                            { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ContactPairHeader>>(), ::i2c::type_of<::by_ref<::UnityEngine::ContactPair>>(), ::i2c::type_of<bool>() } })));
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::Collision*>(),
+            { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ContactPairHeader const>>(), ::i2c::type_of<::by_ref<::UnityEngine::ContactPair const>>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Collision.Reuse
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Collision::*)(::by_ref<::UnityEngine::ContactPairHeader>, ::by_ref<::UnityEngine::ContactPair>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Collision::*)(::by_ref<::UnityEngine::ContactPairHeader const>, ::by_ref<::UnityEngine::ContactPair const>)>(
     &::UnityEngine::Collision::Reuse)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6fdd720;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(),
-                                                { "Reuse", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ContactPairHeader>>(), ::i2c::type_of<::by_ref<::UnityEngine::ContactPair>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(),
+                                         { "Reuse", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ContactPairHeader const>>(), ::i2c::type_of<::by_ref<::UnityEngine::ContactPair const>>() } })));
     return ___internal_method;
   }
 };
@@ -503,17 +505,19 @@ inline void UnityEngine::Collision::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Collision::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPairHeader> header, /* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPair> pair, bool flipped) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(),
-                          { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ContactPairHeader>>(), ::i2c::type_of<::by_ref<::UnityEngine::ContactPair>>(), ::i2c::type_of<bool>() } })));
+inline void UnityEngine::Collision::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPairHeader const> header, /* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPair const> pair,
+                                          bool flipped) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(
+                       ::i2c::class_of<::UnityEngine::Collision*>(),
+                       { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ContactPairHeader const>>(), ::i2c::type_of<::by_ref<::UnityEngine::ContactPair const>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, header, pair, flipped);
 }
-inline void UnityEngine::Collision::Reuse(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPairHeader> header, /* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPair> pair) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(),
-                                                           { "Reuse", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ContactPairHeader>>(), ::i2c::type_of<::by_ref<::UnityEngine::ContactPair>>() } })));
+inline void UnityEngine::Collision::Reuse(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPairHeader const> header, /* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPair const> pair) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Collision*>(),
+                                              { "Reuse", {}, { ::i2c::type_of<::by_ref<::UnityEngine::ContactPairHeader const>>(), ::i2c::type_of<::by_ref<::UnityEngine::ContactPair const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, header, pair);
 }
 inline ::UnityEngine::ContactPoint UnityEngine::Collision::GetContact(int32_t index) {
@@ -534,8 +538,8 @@ inline int32_t UnityEngine::Collision::GetContacts(::System::Collections::Generi
 inline ::UnityEngine::Collision* UnityEngine::Collision::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Collision*>());
 }
-inline ::UnityEngine::Collision* UnityEngine::Collision::New_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPairHeader> header, /* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPair> pair,
-                                                                  bool flipped) {
+inline ::UnityEngine::Collision* UnityEngine::Collision::New_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPairHeader const> header,
+                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPair const> pair, bool flipped) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Collision*>(header, pair, flipped));
 }
 // Ctor Parameters []

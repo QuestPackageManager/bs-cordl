@@ -617,14 +617,14 @@ class CORDL_TYPE IVRApplications__LaunchTemplateApplication : public ::System::M
 public:
   // Declarations
   /// @brief Method BeginInvoke, addr 0x624abe4, size 0x60, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchTemplateAppKey, ::StringW pchNewAppKey, ::by_ref<::ArrayW<::OVR::OpenVR::AppOverrideKeys_t>> pKeys, uint32_t unKeys,
-                                             ::System::AsyncCallback* callback, ::System::Object* object);
+  inline ::System::IAsyncResult* BeginInvoke(::StringW pchTemplateAppKey, ::StringW pchNewAppKey, ::ArrayW<::OVR::OpenVR::AppOverrideKeys_t> pKeys, uint32_t unKeys, ::System::AsyncCallback* callback,
+                                             ::System::Object* object);
 
   /// @brief Method EndInvoke, addr 0x624ac44, size 0x24, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
 
   /// @brief Method Invoke, addr 0x624abd0, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW pchTemplateAppKey, ::StringW pchNewAppKey, ::by_ref<::ArrayW<::OVR::OpenVR::AppOverrideKeys_t>> pKeys, uint32_t unKeys);
+  inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW pchTemplateAppKey, ::StringW pchNewAppKey, ::ArrayW<::OVR::OpenVR::AppOverrideKeys_t> pKeys, uint32_t unKeys);
 
   static inline ::OVR::OpenVR::IVRApplications__LaunchTemplateApplication* New_ctor(::System::Object* object, ::System::IntPtr method);
 

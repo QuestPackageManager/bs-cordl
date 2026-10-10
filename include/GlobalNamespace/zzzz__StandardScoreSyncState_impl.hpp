@@ -37,29 +37,28 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 //  Writing Method size for method: ::GlobalNamespace::StandardScoreSyncState.GetDelta
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::StandardScoreSyncState (::GlobalNamespace::StandardScoreSyncState::*)(::by_ref<::GlobalNamespace::StandardScoreSyncState>)>(
-    &::GlobalNamespace::StandardScoreSyncState::GetDelta)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::StandardScoreSyncState (::GlobalNamespace::StandardScoreSyncState::*)(
+    ::by_ref<::GlobalNamespace::StandardScoreSyncState const>)>(&::GlobalNamespace::StandardScoreSyncState::GetDelta)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x3545b20;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncState>(), { "GetDelta", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::StandardScoreSyncState>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncState>(),
+                                                                                           { "GetDelta", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::StandardScoreSyncState const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardScoreSyncState.ApplyDelta
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::StandardScoreSyncState (::GlobalNamespace::StandardScoreSyncState::*)(::by_ref<::GlobalNamespace::StandardScoreSyncState>)>(
-    &::GlobalNamespace::StandardScoreSyncState::ApplyDelta)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::StandardScoreSyncState (::GlobalNamespace::StandardScoreSyncState::*)(
+    ::by_ref<::GlobalNamespace::StandardScoreSyncState const>)>(&::GlobalNamespace::StandardScoreSyncState::ApplyDelta)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x3545b44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncState>(),
-                                                                                           { "ApplyDelta", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::StandardScoreSyncState>>() } })));
+                                                                                           { "ApplyDelta", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::StandardScoreSyncState const>>() } })));
     return ___internal_method;
   }
 };
@@ -109,15 +108,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 //  Writing Method size for method: ::GlobalNamespace::StandardScoreSyncState.Equals
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::StandardScoreSyncState::*)(::by_ref<::GlobalNamespace::StandardScoreSyncState>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::StandardScoreSyncState::*)(::by_ref<::GlobalNamespace::StandardScoreSyncState const>)>(
     &::GlobalNamespace::StandardScoreSyncState::Equals)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x3545d24;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncState>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::StandardScoreSyncState>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncState>(),
+                                                                                           { "Equals", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::StandardScoreSyncState const>>() } })));
     return ___internal_method;
   }
 };
@@ -136,25 +134,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespac
 //  Writing Method size for method: ::GlobalNamespace::StandardScoreSyncState.IStateTable_StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32__GetDelta
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::StandardScoreSyncState (::GlobalNamespace::StandardScoreSyncState::*)(::by_ref<::GlobalNamespace::StandardScoreSyncState>)>(
-    &::GlobalNamespace::StandardScoreSyncState::IStateTable_StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32__GetDelta)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::StandardScoreSyncState (::GlobalNamespace::StandardScoreSyncState::*)(
+    ::by_ref<::GlobalNamespace::StandardScoreSyncState const>)>(&::GlobalNamespace::StandardScoreSyncState::IStateTable_StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32__GetDelta)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x3545e7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(
-                         ::i2c::class_of<::GlobalNamespace::StandardScoreSyncState>(),
-                         { "IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.GetDelta", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::StandardScoreSyncState>>() } })));
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncState>(), { "IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.GetDelta",
+                                                                                                         {},
+                                                                                                         { ::i2c::type_of<::by_ref<::GlobalNamespace::StandardScoreSyncState const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardScoreSyncState.IStateTable_StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32__ApplyDelta
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::StandardScoreSyncState (::GlobalNamespace::StandardScoreSyncState::*)(::by_ref<::GlobalNamespace::StandardScoreSyncState>)>(
-    &::GlobalNamespace::StandardScoreSyncState::IStateTable_StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32__ApplyDelta)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::StandardScoreSyncState (::GlobalNamespace::StandardScoreSyncState::*)(
+    ::by_ref<::GlobalNamespace::StandardScoreSyncState const>)>(&::GlobalNamespace::StandardScoreSyncState::IStateTable_StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32__ApplyDelta)> {
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x3545ea0;
 
@@ -163,14 +161,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Standa
         THROW_UNLESS(::i2c::no_logger{},
                      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncState>(), { "IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.ApplyDelta",
                                                                                                          {},
-                                                                                                         { ::i2c::type_of<::by_ref<::GlobalNamespace::StandardScoreSyncState>>() } })));
+                                                                                                         { ::i2c::type_of<::by_ref<::GlobalNamespace::StandardScoreSyncState const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardScoreSyncState.IEquatableByReference_StandardScoreSyncState__Equals
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::StandardScoreSyncState::*)(::by_ref<::GlobalNamespace::StandardScoreSyncState>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::StandardScoreSyncState::*)(::by_ref<::GlobalNamespace::StandardScoreSyncState const>)>(
     &::GlobalNamespace::StandardScoreSyncState::IEquatableByReference_StandardScoreSyncState__Equals)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x3545ec4;
@@ -178,7 +176,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncState>(),
-                                                { "IEquatableByReference<StandardScoreSyncState>.Equals", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::StandardScoreSyncState>>() } })));
+                                                { "IEquatableByReference<StandardScoreSyncState>.Equals", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::StandardScoreSyncState const>>() } })));
     return ___internal_method;
   }
 };
@@ -188,16 +186,14 @@ inline void GlobalNamespace::StandardScoreSyncState::SetState(::GlobalNamespace:
                                                            { "SetState", {}, { ::i2c::type_of<::GlobalNamespace::StandardScoreSyncState_Score>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, s, value);
 }
-inline ::GlobalNamespace::StandardScoreSyncState GlobalNamespace::StandardScoreSyncState::GetDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState> stateTable) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncState>(), { "GetDelta", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::StandardScoreSyncState>>() } })));
+inline ::GlobalNamespace::StandardScoreSyncState GlobalNamespace::StandardScoreSyncState::GetDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState const> stateTable) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncState>(),
+                                                                                         { "GetDelta", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::StandardScoreSyncState const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::StandardScoreSyncState>(*this, ___internal_method, stateTable);
 }
-inline ::GlobalNamespace::StandardScoreSyncState GlobalNamespace::StandardScoreSyncState::ApplyDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState> delta) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncState>(), { "ApplyDelta", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::StandardScoreSyncState>>() } })));
+inline ::GlobalNamespace::StandardScoreSyncState GlobalNamespace::StandardScoreSyncState::ApplyDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState const> delta) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncState>(),
+                                                                                         { "ApplyDelta", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::StandardScoreSyncState const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::StandardScoreSyncState>(*this, ___internal_method, delta);
 }
 inline int32_t GlobalNamespace::StandardScoreSyncState::GetState(::GlobalNamespace::StandardScoreSyncState_Score s) {
@@ -216,10 +212,9 @@ inline void GlobalNamespace::StandardScoreSyncState::Deserialize(::LiteNetLib::U
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncState>(), { "Deserialize", {}, { ::i2c::type_of<::LiteNetLib::Utils::NetDataReader*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, reader);
 }
-inline bool GlobalNamespace::StandardScoreSyncState::Equals(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState> other) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncState>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::StandardScoreSyncState>>() } })));
+inline bool GlobalNamespace::StandardScoreSyncState::Equals(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState const> other) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncState>(),
+                                                                                         { "Equals", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::StandardScoreSyncState const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
 inline int32_t GlobalNamespace::StandardScoreSyncState::GetSize() {
@@ -227,26 +222,26 @@ inline int32_t GlobalNamespace::StandardScoreSyncState::GetSize() {
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
 inline ::GlobalNamespace::StandardScoreSyncState GlobalNamespace::StandardScoreSyncState::IStateTable_StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32__GetDelta(
-    /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState> stateTable) {
+    /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState const> stateTable) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncState>(), { "IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.GetDelta",
                                                                                                               {},
-                                                                                                              { ::i2c::type_of<::by_ref<::GlobalNamespace::StandardScoreSyncState>>() } })));
+                                                                                                              { ::i2c::type_of<::by_ref<::GlobalNamespace::StandardScoreSyncState const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::StandardScoreSyncState>(*this, ___internal_method, stateTable);
 }
 inline ::GlobalNamespace::StandardScoreSyncState GlobalNamespace::StandardScoreSyncState::IStateTable_StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32__ApplyDelta(
-    /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState> delta) {
+    /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState const> delta) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(
-                       ::i2c::class_of<::GlobalNamespace::StandardScoreSyncState>(),
-                       { "IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.ApplyDelta", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::StandardScoreSyncState>>() } })));
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncState>(), { "IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.ApplyDelta",
+                                                                                                       {},
+                                                                                                       { ::i2c::type_of<::by_ref<::GlobalNamespace::StandardScoreSyncState const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::StandardScoreSyncState>(*this, ___internal_method, delta);
 }
-inline bool GlobalNamespace::StandardScoreSyncState::IEquatableByReference_StandardScoreSyncState__Equals(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState> other) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncState>(),
-                                                           { "IEquatableByReference<StandardScoreSyncState>.Equals", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::StandardScoreSyncState>>() } })));
+inline bool GlobalNamespace::StandardScoreSyncState::IEquatableByReference_StandardScoreSyncState__Equals(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StandardScoreSyncState const> other) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncState>(),
+                                              { "IEquatableByReference<StandardScoreSyncState>.Equals", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::StandardScoreSyncState const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
 /// @brief Convert operator to "::GlobalNamespace::IStateTable_3<::GlobalNamespace::StandardScoreSyncState,::GlobalNamespace::StandardScoreSyncState_Score,int32_t>"

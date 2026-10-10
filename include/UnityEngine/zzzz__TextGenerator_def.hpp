@@ -259,11 +259,11 @@ public:
                                 ::by_ref<uint32_t> error);
 
   /// @brief Method Populate_Internal_Injected, addr 0x7069a3c, size 0x134, virtual false, abstract: false, final false
-  static inline bool Populate_Internal_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> str, ::System::IntPtr font, ::by_ref<::UnityEngine::Color> color,
-                                                int32_t fontSize, float_t scaleFactor, float_t lineSpacing, ::UnityEngine::FontStyle style, bool richText, bool resizeTextForBestFit,
-                                                int32_t resizeTextMinSize, int32_t resizeTextMaxSize, int32_t verticalOverFlow, int32_t horizontalOverflow, bool updateBounds,
-                                                ::UnityEngine::TextAnchor anchor, float_t extentsX, float_t extentsY, float_t pivotX, float_t pivotY, bool generateOutOfBounds, bool alignByGeometry,
-                                                ::by_ref<uint32_t> error);
+  static inline bool Populate_Internal_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> str, ::System::IntPtr font,
+                                                ::by_ref<::UnityEngine::Color const> color, int32_t fontSize, float_t scaleFactor, float_t lineSpacing, ::UnityEngine::FontStyle style, bool richText,
+                                                bool resizeTextForBestFit, int32_t resizeTextMinSize, int32_t resizeTextMaxSize, int32_t verticalOverFlow, int32_t horizontalOverflow,
+                                                bool updateBounds, ::UnityEngine::TextAnchor anchor, float_t extentsX, float_t extentsY, float_t pivotX, float_t pivotY, bool generateOutOfBounds,
+                                                bool alignByGeometry, ::by_ref<uint32_t> error);
 
   /// @brief Method System.IDisposable.Dispose, addr 0x70689f8, size 0x4c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();

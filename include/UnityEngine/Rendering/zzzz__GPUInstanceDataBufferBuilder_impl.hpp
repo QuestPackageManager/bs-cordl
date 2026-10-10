@@ -46,13 +46,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::GPUInstanceDataBuffer* (
-    ::UnityEngine::Rendering::GPUInstanceDataBufferBuilder::*)(::by_ref<::UnityEngine::Rendering::InstanceNumInfo>)>(&::UnityEngine::Rendering::GPUInstanceDataBufferBuilder::Build)> {
+    ::UnityEngine::Rendering::GPUInstanceDataBufferBuilder::*)(::by_ref<::UnityEngine::Rendering::InstanceNumInfo const>)>(&::UnityEngine::Rendering::GPUInstanceDataBufferBuilder::Build)> {
   constexpr static std::size_t size = 0x88c;
   constexpr static std::size_t addrs = 0x6c5503c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUInstanceDataBufferBuilder>(),
-                                                                                           { "Build", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceNumInfo>>() } })));
+                                                                                           { "Build", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceNumInfo const>>() } })));
     return ___internal_method;
   }
 };
@@ -98,9 +98,9 @@ inline void UnityEngine::Rendering::GPUInstanceDataBufferBuilder::AddComponent(i
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, propertyID, isOverriden, byteSize, isPerInstance, instanceType, componentGroup);
 }
 inline ::UnityEngine::Rendering::GPUInstanceDataBuffer*
-UnityEngine::Rendering::GPUInstanceDataBufferBuilder::Build(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceNumInfo> instanceNumInfo) {
+UnityEngine::Rendering::GPUInstanceDataBufferBuilder::Build(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceNumInfo const> instanceNumInfo) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUInstanceDataBufferBuilder>(),
-                                                                                         { "Build", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceNumInfo>>() } })));
+                                                                                         { "Build", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceNumInfo const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::GPUInstanceDataBuffer*>(*this, ___internal_method, instanceNumInfo);
 }
 inline void UnityEngine::Rendering::GPUInstanceDataBufferBuilder::Dispose() {

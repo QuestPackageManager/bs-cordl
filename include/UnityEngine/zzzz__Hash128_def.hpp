@@ -93,7 +93,7 @@ public:
   static inline ::StringW Hash128ToStringImpl(::UnityEngine::Hash128 hash);
 
   /// @brief Method Hash128ToStringImpl_Injected, addr 0x6f20b1c, size 0x44, virtual false, abstract: false, final false
-  static inline void Hash128ToStringImpl_Injected(::by_ref<::UnityEngine::Hash128> hash, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
+  static inline void Hash128ToStringImpl_Injected(::by_ref<::UnityEngine::Hash128 const> hash, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
   /// [FreeFunction("StringToHash128", IsThreadSafe = true)]
   /// @brief Method Parse, addr 0x6f209a4, size 0x134, virtual false, abstract: false, final false

@@ -216,7 +216,7 @@ public:
   static inline void Control(::Unity::Profiling::ProfilerRecorder handle, ::Unity::Profiling::ProfilerRecorder_ControlOptions options);
 
   /// @brief Method Control_Injected, addr 0x6eaf838, size 0x44, virtual false, abstract: false, final false
-  static inline void Control_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder> handle, ::Unity::Profiling::ProfilerRecorder_ControlOptions options);
+  static inline void Control_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder const> handle, ::Unity::Profiling::ProfilerRecorder_ControlOptions options);
 
   /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method Create, addr 0x6eaf164, size 0x60, virtual false, abstract: false, final false
@@ -224,8 +224,8 @@ public:
                                                             ::Unity::Profiling::ProfilerRecorderOptions options);
 
   /// @brief Method Create_Injected, addr 0x6eaf7dc, size 0x5c, virtual false, abstract: false, final false
-  static inline void Create_Injected(::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle> statHandle, int32_t maxSampleCount, ::Unity::Profiling::ProfilerRecorderOptions options,
-                                     ::by_ref<::Unity::Profiling::ProfilerRecorder> ret);
+  static inline void Create_Injected(::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle const> statHandle, int32_t maxSampleCount,
+                                     ::Unity::Profiling::ProfilerRecorderOptions options, ::by_ref<::Unity::Profiling::ProfilerRecorder> ret);
 
   /// @brief Method Dispose, addr 0x6eafa40, size 0x54, virtual true, abstract: false, final true
   inline void Dispose();
@@ -235,21 +235,21 @@ public:
   static inline int32_t GetCount(::Unity::Profiling::ProfilerRecorder handle, ::Unity::Profiling::ProfilerRecorder_CountOptions countOptions);
 
   /// @brief Method GetCount_Injected, addr 0x6eaf8f4, size 0x44, virtual false, abstract: false, final false
-  static inline int32_t GetCount_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder> handle, ::Unity::Profiling::ProfilerRecorder_CountOptions countOptions);
+  static inline int32_t GetCount_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder const> handle, ::Unity::Profiling::ProfilerRecorder_CountOptions countOptions);
 
   /// [NativeMethod(IsThreadSafe = true)]
   /// @brief Method GetLastValue, addr 0x6eaf4d4, size 0x40, virtual false, abstract: false, final false
   static inline int64_t GetLastValue(::Unity::Profiling::ProfilerRecorder handle);
 
   /// @brief Method GetLastValue_Injected, addr 0x6eaf8b8, size 0x3c, virtual false, abstract: false, final false
-  static inline int64_t GetLastValue_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder> handle);
+  static inline int64_t GetLastValue_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder const> handle);
 
   /// [NativeMethod(IsThreadSafe = true)]
   /// @brief Method GetRunning, addr 0x6eaf64c, size 0x44, virtual false, abstract: false, final false
   static inline bool GetRunning(::Unity::Profiling::ProfilerRecorder handle);
 
   /// @brief Method GetRunning_Injected, addr 0x6eaf9b0, size 0x3c, virtual false, abstract: false, final false
-  static inline bool GetRunning_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder> handle);
+  static inline bool GetRunning_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder const> handle);
 
   /// @brief Method GetSample, addr 0x6eaf724, size 0x4c, virtual false, abstract: false, final false
   inline ::Unity::Profiling::ProfilerRecorderSample GetSample(int32_t index);
@@ -259,28 +259,28 @@ public:
   static inline ::Unity::Profiling::ProfilerRecorderSample GetSampleInternal(::Unity::Profiling::ProfilerRecorder handle, int32_t index);
 
   /// @brief Method GetSampleInternal_Injected, addr 0x6eaf9ec, size 0x54, virtual false, abstract: false, final false
-  static inline void GetSampleInternal_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder> handle, int32_t index, ::by_ref<::Unity::Profiling::ProfilerRecorderSample> ret);
+  static inline void GetSampleInternal_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder const> handle, int32_t index, ::by_ref<::Unity::Profiling::ProfilerRecorderSample> ret);
 
   /// [NativeMethod(IsThreadSafe = true)]
   /// @brief Method GetValid, addr 0x6eaf278, size 0x44, virtual false, abstract: false, final false
   static inline bool GetValid(::Unity::Profiling::ProfilerRecorder handle);
 
   /// @brief Method GetValid_Injected, addr 0x6eaf938, size 0x3c, virtual false, abstract: false, final false
-  static inline bool GetValid_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder> handle);
+  static inline bool GetValid_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder const> handle);
 
   /// [NativeMethod(IsThreadSafe = true)]
   /// @brief Method GetValueUnitType, addr 0x6eaf360, size 0x40, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::ProfilerMarkerDataUnit GetValueUnitType(::Unity::Profiling::ProfilerRecorder handle);
 
   /// @brief Method GetValueUnitType_Injected, addr 0x6eaf87c, size 0x3c, virtual false, abstract: false, final false
-  static inline ::Unity::Profiling::ProfilerMarkerDataUnit GetValueUnitType_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder> handle);
+  static inline ::Unity::Profiling::ProfilerMarkerDataUnit GetValueUnitType_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder const> handle);
 
   /// [NativeMethod(IsThreadSafe = true)]
   /// @brief Method GetWrapped, addr 0x6eaf6e0, size 0x44, virtual false, abstract: false, final false
   static inline bool GetWrapped(::Unity::Profiling::ProfilerRecorder handle);
 
   /// @brief Method GetWrapped_Injected, addr 0x6eaf974, size 0x3c, virtual false, abstract: false, final false
-  static inline bool GetWrapped_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder> handle);
+  static inline bool GetWrapped_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder const> handle);
 
   /// @brief Method Start, addr 0x6eaf3a0, size 0x50, virtual false, abstract: false, final false
   inline void Start();

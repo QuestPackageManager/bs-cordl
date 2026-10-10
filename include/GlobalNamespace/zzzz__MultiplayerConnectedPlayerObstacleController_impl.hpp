@@ -67,7 +67,7 @@ constexpr ::GlobalNamespace::MultiplayerConnectedPlayerObstacleController_Pool::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerObstacleController::*)(
-    ::GlobalNamespace::ObstacleData*, ::by_ref<::GlobalNamespace::ObstacleSpawnData>)>(&::GlobalNamespace::MultiplayerConnectedPlayerObstacleController::Init)> {
+    ::GlobalNamespace::ObstacleData*, ::by_ref<::GlobalNamespace::ObstacleSpawnData const>)>(&::GlobalNamespace::MultiplayerConnectedPlayerObstacleController::Init)> {
   constexpr static std::size_t size = 0x1f8;
   constexpr static std::size_t addrs = 0x5dd91cc;
 
@@ -106,7 +106,7 @@ constexpr void GlobalNamespace::MultiplayerConnectedPlayerObstacleController::__
   this->____multiplayerConnectedPlayerObstacleClippingController = value;
 }
 inline void GlobalNamespace::MultiplayerConnectedPlayerObstacleController::Init(::GlobalNamespace::ObstacleData* obstacleData,
-                                                                                /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::ObstacleSpawnData> obstacleSpawnData) {
+                                                                                /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::ObstacleSpawnData const> obstacleSpawnData) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, obstacleData, obstacleSpawnData);

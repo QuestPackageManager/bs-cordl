@@ -59,13 +59,13 @@ public:
   static inline ::UnityEngine::Rendering::ConstantBuffer_1<CBType>* New_ctor();
 
   /// @brief Method PushGlobal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void PushGlobal(::UnityEngine::Rendering::BaseCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType> data, int32_t shaderId);
+  inline void PushGlobal(::UnityEngine::Rendering::BaseCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType const> data, int32_t shaderId);
 
   /// @brief Method PushGlobal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void PushGlobal(::UnityEngine::Rendering::CommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType> data, int32_t shaderId);
+  inline void PushGlobal(::UnityEngine::Rendering::CommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType const> data, int32_t shaderId);
 
   /// @brief Method PushGlobal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void PushGlobal(/* [IsReadOnly] */ ::by_ref<CBType> data, int32_t shaderId);
+  inline void PushGlobal(/* [IsReadOnly] */ ::by_ref<CBType const> data, int32_t shaderId);
 
   /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Release();
@@ -95,13 +95,13 @@ public:
   inline void SetGlobal(int32_t shaderId);
 
   /// @brief Method UpdateData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void UpdateData(::UnityEngine::Rendering::BaseCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType> data);
+  inline void UpdateData(::UnityEngine::Rendering::BaseCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType const> data);
 
   /// @brief Method UpdateData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void UpdateData(::UnityEngine::Rendering::CommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType> data);
+  inline void UpdateData(::UnityEngine::Rendering::CommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<CBType const> data);
 
   /// @brief Method UpdateData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void UpdateData(/* [IsReadOnly] */ ::by_ref<CBType> data);
+  inline void UpdateData(/* [IsReadOnly] */ ::by_ref<CBType const> data);
 
   constexpr ::ArrayW<CBType> const& __cordl_internal_get_m_Data() const;
 

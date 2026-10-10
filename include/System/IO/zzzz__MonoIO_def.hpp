@@ -129,7 +129,7 @@ public:
   static inline bool SetLength(::System::Runtime::InteropServices::SafeHandle* safeHandle, int64_t length, ::by_ref<::System::IO::MonoIOError> error);
 
   /// @brief Method Write, addr 0x6036fc8, size 0x4, virtual false, abstract: false, final false
-  static inline int32_t Write(::System::IntPtr handle, ::ByRefConst<::ArrayW<uint8_t>> src, int32_t src_offset, int32_t count, ::by_ref<::System::IO::MonoIOError> error);
+  static inline int32_t Write(::System::IntPtr handle, ::ArrayW<uint8_t> src, int32_t src_offset, int32_t count, ::by_ref<::System::IO::MonoIOError> error);
 
   /// @brief Method Write, addr 0x603588c, size 0x160, virtual false, abstract: false, final false
   static inline int32_t Write(::System::Runtime::InteropServices::SafeHandle* safeHandle, ::ArrayW<uint8_t> src, int32_t src_offset, int32_t count, ::by_ref<::System::IO::MonoIOError> error);

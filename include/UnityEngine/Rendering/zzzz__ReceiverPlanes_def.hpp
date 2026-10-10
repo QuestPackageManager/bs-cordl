@@ -39,7 +39,7 @@ struct CORDL_TYPE ReceiverPlanes {
 public:
   // Declarations
   /// @brief Method Create, addr 0x6c3fe0c, size 0x7cc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::ReceiverPlanes Create(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext> cc, ::Unity::Collections::Allocator allocator);
+  static inline ::UnityEngine::Rendering::ReceiverPlanes Create(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext const> cc, ::Unity::Collections::Allocator allocator);
 
   /// @brief Method CreateEmptyForTesting, addr 0x6c3fd40, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::ReceiverPlanes CreateEmptyForTesting(::Unity::Collections::Allocator allocator);

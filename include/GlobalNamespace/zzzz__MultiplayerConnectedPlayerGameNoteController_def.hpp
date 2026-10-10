@@ -122,8 +122,8 @@ public:
   constexpr operator ::GlobalNamespace::INoteVisualModifierTypeProvider*() noexcept;
 
   /// @brief Method Init, addr 0x5dd502c, size 0xb0, virtual false, abstract: false, final false
-  inline void Init(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, ::GlobalNamespace::NoteVisualModifierType noteVisualModifierType,
-                   float_t uniformScale);
+  inline void Init(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData const> noteSpawnData,
+                   ::GlobalNamespace::NoteVisualModifierType noteVisualModifierType, float_t uniformScale);
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController* New_ctor();
 

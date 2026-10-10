@@ -29,7 +29,7 @@ class CORDL_TYPE GPUDrivenLODGroupDataCallback : public ::System::MulticastDeleg
 public:
   // Declarations
   /// @brief Method Invoke, addr 0x6f88ce8, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData> lodGroupData);
+  inline void Invoke(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData const> lodGroupData);
 
   static inline ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 

@@ -31,7 +31,7 @@ class CORDL_TYPE OpenVRInterop : public ::System::Object {
 public:
   // Declarations
   /// @brief Method GetGenericInterface, addr 0x6261c74, size 0xa0, virtual false, abstract: false, final false
-  static inline ::System::IntPtr GetGenericInterface(::ByRefConst<::StringW> pchInterfaceVersion, ::by_ref<::OVR::OpenVR::EVRInitError> peError);
+  static inline ::System::IntPtr GetGenericInterface(::StringW pchInterfaceVersion, ::by_ref<::OVR::OpenVR::EVRInitError> peError);
 
   /// @brief Method GetInitToken, addr 0x6261db0, size 0x64, virtual false, abstract: false, final false
   static inline uint32_t GetInitToken();
@@ -43,13 +43,13 @@ public:
   static inline uint32_t InitInternal(::by_ref<::OVR::OpenVR::EVRInitError> peError, ::OVR::OpenVR::EVRApplicationType eApplicationType);
 
   /// @brief Method InitInternal2, addr 0x6261a08, size 0xb4, virtual false, abstract: false, final false
-  static inline uint32_t InitInternal2(::by_ref<::OVR::OpenVR::EVRInitError> peError, ::OVR::OpenVR::EVRApplicationType eApplicationType, ::ByRefConst<::StringW> pStartupInfo);
+  static inline uint32_t InitInternal2(::by_ref<::OVR::OpenVR::EVRInitError> peError, ::OVR::OpenVR::EVRApplicationType eApplicationType, ::StringW pStartupInfo);
 
   /// @brief Method IsHmdPresent, addr 0x6261b20, size 0x6c, virtual false, abstract: false, final false
   static inline bool IsHmdPresent();
 
   /// @brief Method IsInterfaceVersionValid, addr 0x6261d14, size 0x9c, virtual false, abstract: false, final false
-  static inline bool IsInterfaceVersionValid(::ByRefConst<::StringW> pchInterfaceVersion);
+  static inline bool IsInterfaceVersionValid(::StringW pchInterfaceVersion);
 
   /// @brief Method IsRuntimeInstalled, addr 0x6261b8c, size 0x6c, virtual false, abstract: false, final false
   static inline bool IsRuntimeInstalled();

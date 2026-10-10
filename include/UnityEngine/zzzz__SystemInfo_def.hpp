@@ -225,7 +225,7 @@ public:
   static inline int32_t GetRenderTextureSupportedMSAASampleCount(::UnityEngine::RenderTextureDescriptor desc);
 
   /// @brief Method GetRenderTextureSupportedMSAASampleCount_Injected, addr 0x6f4c8c4, size 0x3c, virtual false, abstract: false, final false
-  static inline int32_t GetRenderTextureSupportedMSAASampleCount_Injected(::by_ref<::UnityEngine::RenderTextureDescriptor> desc);
+  static inline int32_t GetRenderTextureSupportedMSAASampleCount_Injected(::by_ref<::UnityEngine::RenderTextureDescriptor const> desc);
 
   /// [FreeFunction("ScriptingGraphicsCaps::GetRenderingThreadingMode")]
   /// @brief Method GetRenderingThreadingMode, addr 0x6f4ba74, size 0x28, virtual false, abstract: false, final false

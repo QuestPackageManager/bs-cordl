@@ -52,14 +52,14 @@ public:
   static inline bool EntityIdIsValid(::UnityEngine::EntityId entityId);
 
   /// @brief Method EntityIdIsValid_Injected, addr 0x6f33e20, size 0x3c, virtual false, abstract: false, final false
-  static inline bool EntityIdIsValid_Injected(::by_ref<::UnityEngine::EntityId> entityId);
+  static inline bool EntityIdIsValid_Injected(::by_ref<::UnityEngine::EntityId const> entityId);
 
   /// [FreeFunction("Resources_Bindings::InstanceIDToObject")]
   /// @brief Method EntityIdToObject, addr 0x6f33c80, size 0x120, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> EntityIdToObject(::UnityEngine::EntityId entityId);
 
   /// @brief Method EntityIdToObject_Injected, addr 0x6f33da0, size 0x3c, virtual false, abstract: false, final false
-  static inline ::System::IntPtr EntityIdToObject_Injected(::by_ref<::UnityEngine::EntityId> entityId);
+  static inline ::System::IntPtr EntityIdToObject_Injected(::by_ref<::UnityEngine::EntityId const> entityId);
 
   /// @brief Method FindObjectsOfTypeAll, addr 0x6f33694, size 0x6c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>> FindObjectsOfTypeAll(::System::Type* type);

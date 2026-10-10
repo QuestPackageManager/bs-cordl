@@ -189,13 +189,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collection
 //  Writing Method size for method: ::Unity::Collections::FixedString32Bytes.Add
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString32Bytes::*)(::by_ref<uint8_t>)>(&::Unity::Collections::FixedString32Bytes::Add)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString32Bytes::*)(::by_ref<uint8_t const>)>(&::Unity::Collections::FixedString32Bytes::Add)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x68d7960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { "Add", {}, { ::i2c::type_of<::by_ref<uint8_t>>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { "Add", {}, { ::i2c::type_of<::by_ref<uint8_t const>>() } })));
     return ___internal_method;
   }
 };
@@ -337,14 +337,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collection
 //  Writing Method size for method: ::Unity::Collections::FixedString32Bytes._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString32Bytes::*)(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString32Bytes::*)(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText const>)>(
     &::Unity::Collections::FixedString32Bytes::_ctor)> {
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x68d7ca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                                                                                           { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText>>() } })));
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText const>>() } })));
     return ___internal_method;
   }
 };
@@ -365,37 +365,35 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collect
 //  Writing Method size for method: ::Unity::Collections::FixedString32Bytes._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString32Bytes::*)(::by_ref<::Unity::Collections::FixedString32Bytes>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString32Bytes::*)(::by_ref<::Unity::Collections::FixedString32Bytes const>)>(
     &::Unity::Collections::FixedString32Bytes::_ctor)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x68d7d8c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::FixedString32Bytes.Initialize
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FormatError (::Unity::Collections::FixedString32Bytes::*)(::by_ref<::Unity::Collections::FixedString32Bytes>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FormatError (::Unity::Collections::FixedString32Bytes::*)(::by_ref<::Unity::Collections::FixedString32Bytes const>)>(
     &::Unity::Collections::FixedString32Bytes::Initialize)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x68d7d98;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+                                                                                           { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::FixedString32Bytes.op_Equality
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString32Bytes>, ::by_ref<::Unity::Collections::FixedString32Bytes>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString32Bytes const>, ::by_ref<::Unity::Collections::FixedString32Bytes const>)>(
     &::Unity::Collections::FixedString32Bytes::op_Equality)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x68d7e04;
@@ -403,15 +401,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                            { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>() } })));
+        (::i2c::find_method(
+            ::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+            { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::FixedString32Bytes.op_Inequality
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString32Bytes>, ::by_ref<::Unity::Collections::FixedString32Bytes>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString32Bytes const>, ::by_ref<::Unity::Collections::FixedString32Bytes const>)>(
     &::Unity::Collections::FixedString32Bytes::op_Inequality)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x68d7ea8;
@@ -419,8 +418,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                            { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>() } })));
+        (::i2c::find_method(
+            ::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+            { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>() } })));
     return ___internal_method;
   }
 };
@@ -455,37 +455,35 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collect
 //  Writing Method size for method: ::Unity::Collections::FixedString32Bytes._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString32Bytes::*)(::by_ref<::Unity::Collections::FixedString64Bytes>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString32Bytes::*)(::by_ref<::Unity::Collections::FixedString64Bytes const>)>(
     &::Unity::Collections::FixedString32Bytes::_ctor)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x68d7f20;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString64Bytes>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString64Bytes const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::FixedString32Bytes.Initialize
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FormatError (::Unity::Collections::FixedString32Bytes::*)(::by_ref<::Unity::Collections::FixedString64Bytes>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FormatError (::Unity::Collections::FixedString32Bytes::*)(::by_ref<::Unity::Collections::FixedString64Bytes const>)>(
     &::Unity::Collections::FixedString32Bytes::Initialize)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x68d7f2c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString64Bytes>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+                                                                                           { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString64Bytes const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::FixedString32Bytes.op_Equality
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString32Bytes>, ::by_ref<::Unity::Collections::FixedString64Bytes>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString32Bytes const>, ::by_ref<::Unity::Collections::FixedString64Bytes const>)>(
     &::Unity::Collections::FixedString32Bytes::op_Equality)> {
   constexpr static std::size_t size = 0xbc;
   constexpr static std::size_t addrs = 0x68d7f98;
@@ -493,15 +491,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                            { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString64Bytes>>() } })));
+        (::i2c::find_method(
+            ::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+            { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString64Bytes const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::FixedString32Bytes.op_Inequality
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString32Bytes>, ::by_ref<::Unity::Collections::FixedString64Bytes>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString32Bytes const>, ::by_ref<::Unity::Collections::FixedString64Bytes const>)>(
     &::Unity::Collections::FixedString32Bytes::op_Inequality)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x68d8054;
@@ -509,8 +508,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                            { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString64Bytes>>() } })));
+        (::i2c::find_method(
+            ::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+            { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString64Bytes const>>() } })));
     return ___internal_method;
   }
 };
@@ -531,14 +531,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collection
 //  Writing Method size for method: ::Unity::Collections::FixedString32Bytes.op_Implicit___Unity__Collections__FixedString64Bytes
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FixedString64Bytes (*)(::by_ref<::Unity::Collections::FixedString32Bytes>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FixedString64Bytes (*)(::by_ref<::Unity::Collections::FixedString32Bytes const>)>(
     &::Unity::Collections::FixedString32Bytes::op_Implicit___Unity__Collections__FixedString64Bytes)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x68d8070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                                                                                           { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>() } })));
+                                                                                           { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>() } })));
     return ___internal_method;
   }
 };
@@ -559,36 +559,35 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collect
 //  Writing Method size for method: ::Unity::Collections::FixedString32Bytes._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString32Bytes::*)(::by_ref<::Unity::Collections::FixedString128Bytes>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString32Bytes::*)(::by_ref<::Unity::Collections::FixedString128Bytes const>)>(
     &::Unity::Collections::FixedString32Bytes::_ctor)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x68d80f4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString128Bytes>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString128Bytes const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::FixedString32Bytes.Initialize
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FormatError (::Unity::Collections::FixedString32Bytes::*)(::by_ref<::Unity::Collections::FixedString128Bytes>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FormatError (::Unity::Collections::FixedString32Bytes::*)(::by_ref<::Unity::Collections::FixedString128Bytes const>)>(
     &::Unity::Collections::FixedString32Bytes::Initialize)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x68d8100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                                                                                           { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString128Bytes>>() } })));
+                                                                                           { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString128Bytes const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::FixedString32Bytes.op_Equality
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString32Bytes>, ::by_ref<::Unity::Collections::FixedString128Bytes>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString32Bytes const>, ::by_ref<::Unity::Collections::FixedString128Bytes const>)>(
     &::Unity::Collections::FixedString32Bytes::op_Equality)> {
   constexpr static std::size_t size = 0xbc;
   constexpr static std::size_t addrs = 0x68d816c;
@@ -596,15 +595,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                            { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString128Bytes>>() } })));
+        (::i2c::find_method(
+            ::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+            { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString128Bytes const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::FixedString32Bytes.op_Inequality
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString32Bytes>, ::by_ref<::Unity::Collections::FixedString128Bytes>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString32Bytes const>, ::by_ref<::Unity::Collections::FixedString128Bytes const>)>(
     &::Unity::Collections::FixedString32Bytes::op_Inequality)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x68d8228;
@@ -612,8 +612,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                            { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString128Bytes>>() } })));
+        (::i2c::find_method(
+            ::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+            { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString128Bytes const>>() } })));
     return ___internal_method;
   }
 };
@@ -634,14 +635,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collection
 //  Writing Method size for method: ::Unity::Collections::FixedString32Bytes.op_Implicit___Unity__Collections__FixedString128Bytes
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FixedString128Bytes (*)(::by_ref<::Unity::Collections::FixedString32Bytes>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FixedString128Bytes (*)(::by_ref<::Unity::Collections::FixedString32Bytes const>)>(
     &::Unity::Collections::FixedString32Bytes::op_Implicit___Unity__Collections__FixedString128Bytes)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x68d8244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                                                                                           { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>() } })));
+                                                                                           { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>() } })));
     return ___internal_method;
   }
 };
@@ -662,36 +663,35 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collect
 //  Writing Method size for method: ::Unity::Collections::FixedString32Bytes._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString32Bytes::*)(::by_ref<::Unity::Collections::FixedString512Bytes>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString32Bytes::*)(::by_ref<::Unity::Collections::FixedString512Bytes const>)>(
     &::Unity::Collections::FixedString32Bytes::_ctor)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x68d82d8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString512Bytes>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString512Bytes const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::FixedString32Bytes.Initialize
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FormatError (::Unity::Collections::FixedString32Bytes::*)(::by_ref<::Unity::Collections::FixedString512Bytes>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FormatError (::Unity::Collections::FixedString32Bytes::*)(::by_ref<::Unity::Collections::FixedString512Bytes const>)>(
     &::Unity::Collections::FixedString32Bytes::Initialize)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x68d82e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                                                                                           { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString512Bytes>>() } })));
+                                                                                           { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString512Bytes const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::FixedString32Bytes.op_Equality
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString32Bytes>, ::by_ref<::Unity::Collections::FixedString512Bytes>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString32Bytes const>, ::by_ref<::Unity::Collections::FixedString512Bytes const>)>(
     &::Unity::Collections::FixedString32Bytes::op_Equality)> {
   constexpr static std::size_t size = 0xbc;
   constexpr static std::size_t addrs = 0x68d8350;
@@ -699,15 +699,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                            { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString512Bytes>>() } })));
+        (::i2c::find_method(
+            ::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+            { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString512Bytes const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::FixedString32Bytes.op_Inequality
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString32Bytes>, ::by_ref<::Unity::Collections::FixedString512Bytes>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString32Bytes const>, ::by_ref<::Unity::Collections::FixedString512Bytes const>)>(
     &::Unity::Collections::FixedString32Bytes::op_Inequality)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x68d840c;
@@ -715,8 +716,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                            { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString512Bytes>>() } })));
+        (::i2c::find_method(
+            ::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+            { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString512Bytes const>>() } })));
     return ___internal_method;
   }
 };
@@ -737,14 +739,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collection
 //  Writing Method size for method: ::Unity::Collections::FixedString32Bytes.op_Implicit___Unity__Collections__FixedString512Bytes
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FixedString512Bytes (*)(::by_ref<::Unity::Collections::FixedString32Bytes>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FixedString512Bytes (*)(::by_ref<::Unity::Collections::FixedString32Bytes const>)>(
     &::Unity::Collections::FixedString32Bytes::op_Implicit___Unity__Collections__FixedString512Bytes)> {
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0x68d8428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                                                                                           { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>() } })));
+                                                                                           { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>() } })));
     return ___internal_method;
   }
 };
@@ -765,36 +767,35 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collect
 //  Writing Method size for method: ::Unity::Collections::FixedString32Bytes._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString32Bytes::*)(::by_ref<::Unity::Collections::FixedString4096Bytes>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString32Bytes::*)(::by_ref<::Unity::Collections::FixedString4096Bytes const>)>(
     &::Unity::Collections::FixedString32Bytes::_ctor)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x68d84e8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString4096Bytes>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString4096Bytes const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::FixedString32Bytes.Initialize
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FormatError (::Unity::Collections::FixedString32Bytes::*)(::by_ref<::Unity::Collections::FixedString4096Bytes>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FormatError (::Unity::Collections::FixedString32Bytes::*)(::by_ref<::Unity::Collections::FixedString4096Bytes const>)>(
     &::Unity::Collections::FixedString32Bytes::Initialize)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x68d84f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                                                                                           { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString4096Bytes>>() } })));
+                                                                                           { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString4096Bytes const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::FixedString32Bytes.op_Equality
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString32Bytes>, ::by_ref<::Unity::Collections::FixedString4096Bytes>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString32Bytes const>, ::by_ref<::Unity::Collections::FixedString4096Bytes const>)>(
     &::Unity::Collections::FixedString32Bytes::op_Equality)> {
   constexpr static std::size_t size = 0xbc;
   constexpr static std::size_t addrs = 0x68d8560;
@@ -802,25 +803,26 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                            { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString4096Bytes>>() } })));
+        (::i2c::find_method(
+            ::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+            { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString4096Bytes const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::FixedString32Bytes.op_Inequality
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString32Bytes>, ::by_ref<::Unity::Collections::FixedString4096Bytes>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString32Bytes const>, ::by_ref<::Unity::Collections::FixedString4096Bytes const>)>(
     &::Unity::Collections::FixedString32Bytes::op_Inequality)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x68d861c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(
-                         ::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                         { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString4096Bytes>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+            { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString4096Bytes const>>() } })));
     return ___internal_method;
   }
 };
@@ -841,42 +843,42 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collection
 //  Writing Method size for method: ::Unity::Collections::FixedString32Bytes.op_Implicit___Unity__Collections__FixedString4096Bytes
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FixedString4096Bytes (*)(::by_ref<::Unity::Collections::FixedString32Bytes>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FixedString4096Bytes (*)(::by_ref<::Unity::Collections::FixedString32Bytes const>)>(
     &::Unity::Collections::FixedString32Bytes::op_Implicit___Unity__Collections__FixedString4096Bytes)> {
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0x68d8638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                                                                                           { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>() } })));
+                                                                                           { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::FixedString32Bytes.op_Equality
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString32Bytes>, ::StringW)>(&::Unity::Collections::FixedString32Bytes::op_Equality)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString32Bytes const>, ::StringW)>(&::Unity::Collections::FixedString32Bytes::op_Equality)> {
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x68d869c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                                                             { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>(), ::i2c::type_of<::StringW>() } })));
+                                                             { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::FixedString32Bytes.op_Inequality
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString32Bytes>, ::StringW)>(&::Unity::Collections::FixedString32Bytes::op_Inequality)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString32Bytes const>, ::StringW)>(&::Unity::Collections::FixedString32Bytes::op_Inequality)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x68d875c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                                                             { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>(), ::i2c::type_of<::StringW>() } })));
+                                                             { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
@@ -1058,9 +1060,9 @@ inline void Unity::Collections::FixedString32Bytes::Clear() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { "Clear", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void Unity::Collections::FixedString32Bytes::Add(/* [IsReadOnly] */ ::by_ref<uint8_t> value) {
+inline void Unity::Collections::FixedString32Bytes::Add(/* [IsReadOnly] */ ::by_ref<uint8_t const> value) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { "Add", {}, { ::i2c::type_of<::by_ref<uint8_t>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { "Add", {}, { ::i2c::type_of<::by_ref<uint8_t const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
 inline ::Unity::Collections::FixedString32Bytes_Enumerator Unity::Collections::FixedString32Bytes::GetEnumerator() {
@@ -1111,9 +1113,9 @@ inline void Unity::Collections::FixedString32Bytes::_ctor(::Unity::Collections::
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { ".ctor", {}, { ::i2c::type_of<::Unity::Collections::NativeText_ReadOnly>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, other);
 }
-inline void Unity::Collections::FixedString32Bytes::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText> other) {
+inline void Unity::Collections::FixedString32Bytes::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText const> other) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                                                                                         { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText>>() } })));
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, other);
 }
 inline int32_t Unity::Collections::FixedString32Bytes::CompareTo(::Unity::Collections::FixedString32Bytes other) {
@@ -1121,31 +1123,33 @@ inline int32_t Unity::Collections::FixedString32Bytes::CompareTo(::Unity::Collec
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { "CompareTo", {}, { ::i2c::type_of<::Unity::Collections::FixedString32Bytes>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, other);
 }
-inline void Unity::Collections::FixedString32Bytes::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes> other) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, other);
-}
-inline ::Unity::Collections::FormatError Unity::Collections::FixedString32Bytes::Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes> other) {
+inline void Unity::Collections::FixedString32Bytes::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes const> other) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>() } })));
+                   (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, other);
+}
+inline ::Unity::Collections::FormatError Unity::Collections::FixedString32Bytes::Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes const> other) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+                                                                                         { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(*this, ___internal_method, other);
 }
-inline bool Unity::Collections::FixedString32Bytes::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes> a,
-                                                                /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes> b) {
+inline bool Unity::Collections::FixedString32Bytes::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes const> a,
+                                                                /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes const> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                          { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>() } })));
+      (::i2c::find_method(
+          ::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+          { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
-inline bool Unity::Collections::FixedString32Bytes::op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes> a,
-                                                                  /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes> b) {
+inline bool Unity::Collections::FixedString32Bytes::op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes const> a,
+                                                                  /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes const> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                          { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>() } })));
+      (::i2c::find_method(
+          ::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+          { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
 inline bool Unity::Collections::FixedString32Bytes::Equals(::Unity::Collections::FixedString32Bytes other) {
@@ -1158,31 +1162,33 @@ inline int32_t Unity::Collections::FixedString32Bytes::CompareTo(::Unity::Collec
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { "CompareTo", {}, { ::i2c::type_of<::Unity::Collections::FixedString64Bytes>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, other);
 }
-inline void Unity::Collections::FixedString32Bytes::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes> other) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString64Bytes>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, other);
-}
-inline ::Unity::Collections::FormatError Unity::Collections::FixedString32Bytes::Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes> other) {
+inline void Unity::Collections::FixedString32Bytes::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes const> other) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString64Bytes>>() } })));
+                   (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString64Bytes const>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, other);
+}
+inline ::Unity::Collections::FormatError Unity::Collections::FixedString32Bytes::Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes const> other) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+                                                                                         { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString64Bytes const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(*this, ___internal_method, other);
 }
-inline bool Unity::Collections::FixedString32Bytes::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes> a,
-                                                                /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes> b) {
+inline bool Unity::Collections::FixedString32Bytes::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes const> a,
+                                                                /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes const> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                          { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString64Bytes>>() } })));
+      (::i2c::find_method(
+          ::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+          { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString64Bytes const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
-inline bool Unity::Collections::FixedString32Bytes::op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes> a,
-                                                                  /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes> b) {
+inline bool Unity::Collections::FixedString32Bytes::op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes const> a,
+                                                                  /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes const> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                          { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString64Bytes>>() } })));
+      (::i2c::find_method(
+          ::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+          { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString64Bytes const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
 inline bool Unity::Collections::FixedString32Bytes::Equals(::Unity::Collections::FixedString64Bytes other) {
@@ -1191,10 +1197,9 @@ inline bool Unity::Collections::FixedString32Bytes::Equals(::Unity::Collections:
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
 inline ::Unity::Collections::FixedString64Bytes
-Unity::Collections::FixedString32Bytes::op_Implicit___Unity__Collections__FixedString64Bytes(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes> fs) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>() } })));
+Unity::Collections::FixedString32Bytes::op_Implicit___Unity__Collections__FixedString64Bytes(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes const> fs) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+                                                                                         { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString64Bytes>(nullptr, ___internal_method, fs);
 }
 inline int32_t Unity::Collections::FixedString32Bytes::CompareTo(::Unity::Collections::FixedString128Bytes other) {
@@ -1202,32 +1207,33 @@ inline int32_t Unity::Collections::FixedString32Bytes::CompareTo(::Unity::Collec
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { "CompareTo", {}, { ::i2c::type_of<::Unity::Collections::FixedString128Bytes>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, other);
 }
-inline void Unity::Collections::FixedString32Bytes::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString128Bytes> other) {
+inline void Unity::Collections::FixedString32Bytes::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString128Bytes const> other) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString128Bytes>>() } })));
+                   (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString128Bytes const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, other);
 }
-inline ::Unity::Collections::FormatError Unity::Collections::FixedString32Bytes::Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString128Bytes> other) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString128Bytes>>() } })));
+inline ::Unity::Collections::FormatError Unity::Collections::FixedString32Bytes::Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString128Bytes const> other) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+                                                                                         { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString128Bytes const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(*this, ___internal_method, other);
 }
-inline bool Unity::Collections::FixedString32Bytes::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes> a,
-                                                                /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString128Bytes> b) {
+inline bool Unity::Collections::FixedString32Bytes::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes const> a,
+                                                                /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString128Bytes const> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                          { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString128Bytes>>() } })));
+      (::i2c::find_method(
+          ::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+          { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString128Bytes const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
-inline bool Unity::Collections::FixedString32Bytes::op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes> a,
-                                                                  /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString128Bytes> b) {
+inline bool Unity::Collections::FixedString32Bytes::op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes const> a,
+                                                                  /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString128Bytes const> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                          { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString128Bytes>>() } })));
+      (::i2c::find_method(
+          ::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+          { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString128Bytes const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
 inline bool Unity::Collections::FixedString32Bytes::Equals(::Unity::Collections::FixedString128Bytes other) {
@@ -1236,10 +1242,9 @@ inline bool Unity::Collections::FixedString32Bytes::Equals(::Unity::Collections:
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
 inline ::Unity::Collections::FixedString128Bytes
-Unity::Collections::FixedString32Bytes::op_Implicit___Unity__Collections__FixedString128Bytes(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes> fs) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>() } })));
+Unity::Collections::FixedString32Bytes::op_Implicit___Unity__Collections__FixedString128Bytes(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes const> fs) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+                                                                                         { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString128Bytes>(nullptr, ___internal_method, fs);
 }
 inline int32_t Unity::Collections::FixedString32Bytes::CompareTo(::Unity::Collections::FixedString512Bytes other) {
@@ -1247,32 +1252,33 @@ inline int32_t Unity::Collections::FixedString32Bytes::CompareTo(::Unity::Collec
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { "CompareTo", {}, { ::i2c::type_of<::Unity::Collections::FixedString512Bytes>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, other);
 }
-inline void Unity::Collections::FixedString32Bytes::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString512Bytes> other) {
+inline void Unity::Collections::FixedString32Bytes::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString512Bytes const> other) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString512Bytes>>() } })));
+                   (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString512Bytes const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, other);
 }
-inline ::Unity::Collections::FormatError Unity::Collections::FixedString32Bytes::Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString512Bytes> other) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString512Bytes>>() } })));
+inline ::Unity::Collections::FormatError Unity::Collections::FixedString32Bytes::Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString512Bytes const> other) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+                                                                                         { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString512Bytes const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(*this, ___internal_method, other);
 }
-inline bool Unity::Collections::FixedString32Bytes::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes> a,
-                                                                /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString512Bytes> b) {
+inline bool Unity::Collections::FixedString32Bytes::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes const> a,
+                                                                /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString512Bytes const> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                          { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString512Bytes>>() } })));
+      (::i2c::find_method(
+          ::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+          { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString512Bytes const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
-inline bool Unity::Collections::FixedString32Bytes::op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes> a,
-                                                                  /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString512Bytes> b) {
+inline bool Unity::Collections::FixedString32Bytes::op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes const> a,
+                                                                  /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString512Bytes const> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                          { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString512Bytes>>() } })));
+      (::i2c::find_method(
+          ::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+          { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString512Bytes const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
 inline bool Unity::Collections::FixedString32Bytes::Equals(::Unity::Collections::FixedString512Bytes other) {
@@ -1281,10 +1287,9 @@ inline bool Unity::Collections::FixedString32Bytes::Equals(::Unity::Collections:
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
 inline ::Unity::Collections::FixedString512Bytes
-Unity::Collections::FixedString32Bytes::op_Implicit___Unity__Collections__FixedString512Bytes(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes> fs) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>() } })));
+Unity::Collections::FixedString32Bytes::op_Implicit___Unity__Collections__FixedString512Bytes(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes const> fs) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+                                                                                         { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString512Bytes>(nullptr, ___internal_method, fs);
 }
 inline int32_t Unity::Collections::FixedString32Bytes::CompareTo(::Unity::Collections::FixedString4096Bytes other) {
@@ -1292,32 +1297,32 @@ inline int32_t Unity::Collections::FixedString32Bytes::CompareTo(::Unity::Collec
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { "CompareTo", {}, { ::i2c::type_of<::Unity::Collections::FixedString4096Bytes>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, other);
 }
-inline void Unity::Collections::FixedString32Bytes::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> other) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString4096Bytes>>() } })));
+inline void Unity::Collections::FixedString32Bytes::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes const> other) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString4096Bytes const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, other);
 }
-inline ::Unity::Collections::FormatError Unity::Collections::FixedString32Bytes::Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> other) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString4096Bytes>>() } })));
+inline ::Unity::Collections::FormatError Unity::Collections::FixedString32Bytes::Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes const> other) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+                                                                                         { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString4096Bytes const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FormatError>(*this, ___internal_method, other);
 }
-inline bool Unity::Collections::FixedString32Bytes::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes> a,
-                                                                /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> b) {
+inline bool Unity::Collections::FixedString32Bytes::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes const> a,
+                                                                /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes const> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                          { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString4096Bytes>>() } })));
+      (::i2c::find_method(
+          ::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+          { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString4096Bytes const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
-inline bool Unity::Collections::FixedString32Bytes::op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes> a,
-                                                                  /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes> b) {
+inline bool Unity::Collections::FixedString32Bytes::op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes const> a,
+                                                                  /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes const> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                          { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString4096Bytes>>() } })));
+      (::i2c::find_method(
+          ::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+          { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedString4096Bytes const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
 inline bool Unity::Collections::FixedString32Bytes::Equals(::Unity::Collections::FixedString4096Bytes other) {
@@ -1326,22 +1331,21 @@ inline bool Unity::Collections::FixedString32Bytes::Equals(::Unity::Collections:
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
 inline ::Unity::Collections::FixedString4096Bytes
-Unity::Collections::FixedString32Bytes::op_Implicit___Unity__Collections__FixedString4096Bytes(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes> fs) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(), { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>() } })));
+Unity::Collections::FixedString32Bytes::op_Implicit___Unity__Collections__FixedString4096Bytes(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes const> fs) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
+                                                                                         { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedString4096Bytes>(nullptr, ___internal_method, fs);
 }
-inline bool Unity::Collections::FixedString32Bytes::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes> a, ::StringW b) {
+inline bool Unity::Collections::FixedString32Bytes::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes const> a, ::StringW b) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                                                           { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>(), ::i2c::type_of<::StringW>() } })));
+                                                           { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
-inline bool Unity::Collections::FixedString32Bytes::op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes> a, ::StringW b) {
+inline bool Unity::Collections::FixedString32Bytes::op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes const> a, ::StringW b) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString32Bytes>(),
-                                                           { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes>>(), ::i2c::type_of<::StringW>() } })));
+                                                           { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedString32Bytes const>>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
 inline ::Unity::Collections::FixedString32Bytes Unity::Collections::FixedString32Bytes::op_Implicit___Unity__Collections__FixedString32Bytes(::StringW b) {

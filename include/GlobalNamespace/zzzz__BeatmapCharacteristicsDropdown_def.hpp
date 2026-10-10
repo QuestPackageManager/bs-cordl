@@ -148,7 +148,7 @@ public:
   inline void SelectCellWithBeatmapCharacteristic(::StringW serializedName);
 
   /// @brief Method SetNotAllowedCharacteristics, addr 0x5d59520, size 0xc, virtual false, abstract: false, final false
-  inline void SetNotAllowedCharacteristics(/* [IsReadOnly] */ ::by_ref<::ArrayW<::GlobalNamespace::BeatmapCharacteristic>> notAllowedCharacteristics);
+  inline void SetNotAllowedCharacteristics(/* [IsReadOnly] */ ::by_ref<::ArrayW<::GlobalNamespace::BeatmapCharacteristic> const> notAllowedCharacteristics);
 
   constexpr ::GlobalNamespace::BeatmapCharacteristicCollection* const& __cordl_internal_get__beatmapCharacteristicCollection() const;
 

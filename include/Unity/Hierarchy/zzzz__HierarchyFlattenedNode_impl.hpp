@@ -69,17 +69,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy:
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyFlattenedNode.op_Equality
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode>, ::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode const>, ::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode const>)>(
     &::Unity::Hierarchy::HierarchyFlattenedNode::op_Equality)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x6f98240;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(
-                         ::i2c::class_of<::Unity::Hierarchy::HierarchyFlattenedNode>(),
-                         { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode>>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::Unity::Hierarchy::HierarchyFlattenedNode>(),
+            { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode const>>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode const>>() } })));
     return ___internal_method;
   }
 };
@@ -139,14 +139,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Hierarc
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyFlattenedNode.GetNodeByRef
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::Unity::Hierarchy::HierarchyNode> (*)(::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::Unity::Hierarchy::HierarchyNode> (*)(::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode const>)>(
     &::Unity::Hierarchy::HierarchyFlattenedNode::GetNodeByRef)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6f984dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyFlattenedNode>(),
-                                                                                           { "GetNodeByRef", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode>>() } })));
+                                                                                           { "GetNodeByRef", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode const>>() } })));
     return ___internal_method;
   }
 };
@@ -176,12 +176,13 @@ inline void Unity::Hierarchy::HierarchyFlattenedNode::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyFlattenedNode>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline bool Unity::Hierarchy::HierarchyFlattenedNode::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode> lhs,
-                                                                  /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode> rhs) {
+inline bool Unity::Hierarchy::HierarchyFlattenedNode::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode const> lhs,
+                                                                  /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode const> rhs) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyFlattenedNode>(),
-                          { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode>>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode>>() } })));
+      (::i2c::find_method(
+          ::i2c::class_of<::Unity::Hierarchy::HierarchyFlattenedNode>(),
+          { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode const>>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, lhs, rhs);
 }
 inline bool Unity::Hierarchy::HierarchyFlattenedNode::Equals(::Unity::Hierarchy::HierarchyFlattenedNode other) {
@@ -202,9 +203,9 @@ inline int32_t Unity::Hierarchy::HierarchyFlattenedNode::GetHashCode() {
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
 inline ::by_ref<::Unity::Hierarchy::HierarchyNode>
-Unity::Hierarchy::HierarchyFlattenedNode::GetNodeByRef(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode> hierarchyFlattenedNode) {
+Unity::Hierarchy::HierarchyFlattenedNode::GetNodeByRef(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode const> hierarchyFlattenedNode) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyFlattenedNode>(),
-                                                                                         { "GetNodeByRef", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode>>() } })));
+                                                                                         { "GetNodeByRef", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::by_ref<::Unity::Hierarchy::HierarchyNode>>(nullptr, ___internal_method, hierarchyFlattenedNode);
 }
 /// @brief Convert operator to "::System::IEquatable_1<::Unity::Hierarchy::HierarchyFlattenedNode>"

@@ -83,8 +83,8 @@ public:
   static inline ::UnityEngine::Vector2 CalculateRaycastTexCoord(::UnityEngine::EntityId colliderInstanceID, ::UnityEngine::Vector2 uv, ::UnityEngine::Vector3 pos, uint32_t face, int32_t textcoord);
 
   /// @brief Method CalculateRaycastTexCoord_Injected, addr 0x7004514, size 0x74, virtual false, abstract: false, final false
-  static inline void CalculateRaycastTexCoord_Injected(::by_ref<::UnityEngine::EntityId> colliderInstanceID, ::by_ref<::UnityEngine::Vector2> uv, ::by_ref<::UnityEngine::Vector3> pos, uint32_t face,
-                                                       int32_t textcoord, ::by_ref<::UnityEngine::Vector2> ret);
+  static inline void CalculateRaycastTexCoord_Injected(::by_ref<::UnityEngine::EntityId const> colliderInstanceID, ::by_ref<::UnityEngine::Vector2 const> uv,
+                                                       ::by_ref<::UnityEngine::Vector3 const> pos, uint32_t face, int32_t textcoord, ::by_ref<::UnityEngine::Vector2> ret);
 
   /// @brief Method get_articulationBody, addr 0x7004740, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ArticulationBody> get_articulationBody();

@@ -390,13 +390,13 @@ class CORDL_TYPE IVRChaperoneSetup__GetWorkingCollisionBoundsInfo : public ::Sys
 public:
   // Declarations
   /// @brief Method BeginInvoke, addr 0x624d0e8, size 0x58, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>> pQuadsBuffer, ::by_ref<uint32_t> punQuadsCount, ::System::AsyncCallback* callback, ::System::Object* object);
+  inline ::System::IAsyncResult* BeginInvoke(::ArrayW<::OVR::OpenVR::HmdQuad_t> pQuadsBuffer, ::by_ref<uint32_t> punQuadsCount, ::System::AsyncCallback* callback, ::System::Object* object);
 
   /// @brief Method EndInvoke, addr 0x624d140, size 0x24, virtual true, abstract: false, final false
   inline bool EndInvoke(::by_ref<uint32_t> punQuadsCount, ::System::IAsyncResult* result);
 
   /// @brief Method Invoke, addr 0x624d0d4, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>> pQuadsBuffer, ::by_ref<uint32_t> punQuadsCount);
+  inline bool Invoke(::ArrayW<::OVR::OpenVR::HmdQuad_t> pQuadsBuffer, ::by_ref<uint32_t> punQuadsCount);
 
   static inline ::OVR::OpenVR::IVRChaperoneSetup__GetWorkingCollisionBoundsInfo* New_ctor(::System::Object* object, ::System::IntPtr method);
 
@@ -435,13 +435,13 @@ class CORDL_TYPE IVRChaperoneSetup__GetLiveCollisionBoundsInfo : public ::System
 public:
   // Declarations
   /// @brief Method BeginInvoke, addr 0x624d1f8, size 0x58, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>> pQuadsBuffer, ::by_ref<uint32_t> punQuadsCount, ::System::AsyncCallback* callback, ::System::Object* object);
+  inline ::System::IAsyncResult* BeginInvoke(::ArrayW<::OVR::OpenVR::HmdQuad_t> pQuadsBuffer, ::by_ref<uint32_t> punQuadsCount, ::System::AsyncCallback* callback, ::System::Object* object);
 
   /// @brief Method EndInvoke, addr 0x624d250, size 0x24, virtual true, abstract: false, final false
   inline bool EndInvoke(::by_ref<uint32_t> punQuadsCount, ::System::IAsyncResult* result);
 
   /// @brief Method Invoke, addr 0x624d1e4, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>> pQuadsBuffer, ::by_ref<uint32_t> punQuadsCount);
+  inline bool Invoke(::ArrayW<::OVR::OpenVR::HmdQuad_t> pQuadsBuffer, ::by_ref<uint32_t> punQuadsCount);
 
   static inline ::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsInfo* New_ctor(::System::Object* object, ::System::IntPtr method);
 
@@ -615,13 +615,13 @@ class CORDL_TYPE IVRChaperoneSetup__SetWorkingCollisionBoundsInfo : public ::Sys
 public:
   // Declarations
   /// @brief Method BeginInvoke, addr 0x624d68c, size 0x5c, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>> pQuadsBuffer, uint32_t unQuadsCount, ::System::AsyncCallback* callback, ::System::Object* object);
+  inline ::System::IAsyncResult* BeginInvoke(::ArrayW<::OVR::OpenVR::HmdQuad_t> pQuadsBuffer, uint32_t unQuadsCount, ::System::AsyncCallback* callback, ::System::Object* object);
 
   /// @brief Method EndInvoke, addr 0x624d6e8, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   /// @brief Method Invoke, addr 0x624d678, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>> pQuadsBuffer, uint32_t unQuadsCount);
+  inline void Invoke(::ArrayW<::OVR::OpenVR::HmdQuad_t> pQuadsBuffer, uint32_t unQuadsCount);
 
   static inline ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsInfo* New_ctor(::System::Object* object, ::System::IntPtr method);
 
@@ -840,13 +840,13 @@ class CORDL_TYPE IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo : public :
 public:
   // Declarations
   /// @brief Method BeginInvoke, addr 0x624dc50, size 0x5c, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::by_ref<::ArrayW<uint8_t>> pTagsBuffer, uint32_t unTagCount, ::System::AsyncCallback* callback, ::System::Object* object);
+  inline ::System::IAsyncResult* BeginInvoke(::ArrayW<uint8_t> pTagsBuffer, uint32_t unTagCount, ::System::AsyncCallback* callback, ::System::Object* object);
 
   /// @brief Method EndInvoke, addr 0x624dcac, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   /// @brief Method Invoke, addr 0x624dc3c, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::by_ref<::ArrayW<uint8_t>> pTagsBuffer, uint32_t unTagCount);
+  inline void Invoke(::ArrayW<uint8_t> pTagsBuffer, uint32_t unTagCount);
 
   static inline ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo* New_ctor(::System::Object* object, ::System::IntPtr method);
 
@@ -885,13 +885,13 @@ class CORDL_TYPE IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo : public ::Sy
 public:
   // Declarations
   /// @brief Method BeginInvoke, addr 0x624dd4c, size 0x58, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::by_ref<::ArrayW<uint8_t>> pTagsBuffer, ::by_ref<uint32_t> punTagCount, ::System::AsyncCallback* callback, ::System::Object* object);
+  inline ::System::IAsyncResult* BeginInvoke(::ArrayW<uint8_t> pTagsBuffer, ::by_ref<uint32_t> punTagCount, ::System::AsyncCallback* callback, ::System::Object* object);
 
   /// @brief Method EndInvoke, addr 0x624dda4, size 0x24, virtual true, abstract: false, final false
   inline bool EndInvoke(::by_ref<uint32_t> punTagCount, ::System::IAsyncResult* result);
 
   /// @brief Method Invoke, addr 0x624dd38, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::by_ref<::ArrayW<uint8_t>> pTagsBuffer, ::by_ref<uint32_t> punTagCount);
+  inline bool Invoke(::ArrayW<uint8_t> pTagsBuffer, ::by_ref<uint32_t> punTagCount);
 
   static inline ::OVR::OpenVR::IVRChaperoneSetup__GetLiveCollisionBoundsTagsInfo* New_ctor(::System::Object* object, ::System::IntPtr method);
 
@@ -930,13 +930,13 @@ class CORDL_TYPE IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo : public ::Syst
 public:
   // Declarations
   /// @brief Method BeginInvoke, addr 0x624de5c, size 0x5c, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>> pQuadsBuffer, uint32_t unQuadsCount, ::System::AsyncCallback* callback, ::System::Object* object);
+  inline ::System::IAsyncResult* BeginInvoke(::ArrayW<::OVR::OpenVR::HmdQuad_t> pQuadsBuffer, uint32_t unQuadsCount, ::System::AsyncCallback* callback, ::System::Object* object);
 
   /// @brief Method EndInvoke, addr 0x624deb8, size 0x24, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
   /// @brief Method Invoke, addr 0x624de48, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>> pQuadsBuffer, uint32_t unQuadsCount);
+  inline bool Invoke(::ArrayW<::OVR::OpenVR::HmdQuad_t> pQuadsBuffer, uint32_t unQuadsCount);
 
   static inline ::OVR::OpenVR::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo* New_ctor(::System::Object* object, ::System::IntPtr method);
 
@@ -975,13 +975,13 @@ class CORDL_TYPE IVRChaperoneSetup__GetLivePhysicalBoundsInfo : public ::System:
 public:
   // Declarations
   /// @brief Method BeginInvoke, addr 0x624df70, size 0x58, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>> pQuadsBuffer, ::by_ref<uint32_t> punQuadsCount, ::System::AsyncCallback* callback, ::System::Object* object);
+  inline ::System::IAsyncResult* BeginInvoke(::ArrayW<::OVR::OpenVR::HmdQuad_t> pQuadsBuffer, ::by_ref<uint32_t> punQuadsCount, ::System::AsyncCallback* callback, ::System::Object* object);
 
   /// @brief Method EndInvoke, addr 0x624dfc8, size 0x24, virtual true, abstract: false, final false
   inline bool EndInvoke(::by_ref<uint32_t> punQuadsCount, ::System::IAsyncResult* result);
 
   /// @brief Method Invoke, addr 0x624df5c, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>> pQuadsBuffer, ::by_ref<uint32_t> punQuadsCount);
+  inline bool Invoke(::ArrayW<::OVR::OpenVR::HmdQuad_t> pQuadsBuffer, ::by_ref<uint32_t> punQuadsCount);
 
   static inline ::OVR::OpenVR::IVRChaperoneSetup__GetLivePhysicalBoundsInfo* New_ctor(::System::Object* object, ::System::IntPtr method);
 

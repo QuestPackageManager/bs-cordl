@@ -134,45 +134,45 @@ public:
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
   /// @brief Method CheckFrameBufferFetchEmulationIsSupported, addr 0x6c075f0, size 0x18c, virtual false, abstract: false, final false
-  inline void CheckFrameBufferFetchEmulationIsSupported(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> tex);
+  inline void CheckFrameBufferFetchEmulationIsSupported(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> tex);
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
   /// @brief Method CheckNotUseFragment, addr 0x6c04d30, size 0x4b0, virtual false, abstract: false, final false
-  inline void CheckNotUseFragment(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> tex);
+  inline void CheckNotUseFragment(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> tex);
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
   /// @brief Method CheckResource, addr 0x6c06f68, size 0x688, virtual false, abstract: false, final false
-  inline void CheckResource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> res, bool checkTransientReadWrite);
+  inline void CheckResource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> res, bool checkTransientReadWrite);
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
   /// @brief Method CheckTextureUVOriginIsValid, addr 0x6c051e0, size 0x1d4, virtual false, abstract: false, final false
-  inline void CheckTextureUVOriginIsValid(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> handle,
+  inline void CheckTextureUVOriginIsValid(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> handle,
                                           ::UnityEngine::Rendering::RenderGraphModule::TextureResource* texRes);
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
   /// @brief Method CheckUseFragment, addr 0x6c057ac, size 0x1380, virtual false, abstract: false, final false
-  inline void CheckUseFragment(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> tex, bool isDepth);
+  inline void CheckUseFragment(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> tex, bool isDepth);
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
   /// @brief Method CheckWriteTo, addr 0x6c04760, size 0x3b0, virtual false, abstract: false, final false
-  inline void CheckWriteTo(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> handle);
+  inline void CheckWriteTo(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> handle);
 
   /// @brief Method CreateTransientBuffer, addr 0x6c041c0, size 0x38, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RenderGraphModule::BufferHandle CreateTransientBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferHandle> computebuffer);
+  inline ::UnityEngine::Rendering::RenderGraphModule::BufferHandle CreateTransientBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferHandle const> computebuffer);
 
   /// @brief Method CreateTransientBuffer, addr 0x6c040a0, size 0x64, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RenderGraphModule::BufferHandle CreateTransientBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferDesc> desc);
+  inline ::UnityEngine::Rendering::RenderGraphModule::BufferHandle CreateTransientBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferDesc const> desc);
 
   /// @brief Method CreateTransientTexture, addr 0x6c041f8, size 0x60, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle CreateTransientTexture(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> desc);
+  inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle CreateTransientTexture(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> desc);
 
   /// @brief Method CreateTransientTexture, addr 0x6c04258, size 0x30, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle CreateTransientTexture(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> texture);
+  inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle CreateTransientTexture(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> texture);
 
   /// @brief Method Dispose, addr 0x6c042a4, size 0x14, virtual true, abstract: false, final true
   inline void Dispose();
@@ -195,7 +195,7 @@ public:
   inline void SetExtendedFeatureFlags(::UnityEngine::Rendering::RenderGraphModule::ExtendedFeatureFlags extendedFeatureFlags);
 
   /// @brief Method SetGlobalTextureAfterPass, addr 0x6c056ac, size 0x100, virtual false, abstract: false, final false
-  inline void SetGlobalTextureAfterPass(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> input, int32_t propertyId);
+  inline void SetGlobalTextureAfterPass(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> input, int32_t propertyId);
 
   /// @brief Method SetInputAttachment, addr 0x6c06ba8, size 0x7c, virtual true, abstract: false, final true
   inline void SetInputAttachment(::UnityEngine::Rendering::RenderGraphModule::TextureHandle tex, int32_t index, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags, int32_t mipLevel,
@@ -235,7 +235,7 @@ public:
   inline void SetShadingRateFragmentSize(::UnityEngine::Rendering::ShadingRateFragmentSize shadingRateFragmentSize);
 
   /// @brief Method SetShadingRateImageAttachment, addr 0x6c06d18, size 0x7c, virtual false, abstract: false, final false
-  inline void SetShadingRateImageAttachment(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> tex);
+  inline void SetShadingRateImageAttachment(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> tex);
 
   /// @brief Method Setup, addr 0x6c03f7c, size 0x94, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass* renderPass, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* resources,
@@ -243,45 +243,46 @@ public:
 
   /// @brief Method UnityEngine.Rendering.RenderGraphModule.IBaseRenderGraphBuilder.CreateTransientBuffer, addr 0x6c0784c, size 0x14, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::RenderGraphModule::BufferHandle
-  UnityEngine_Rendering_RenderGraphModule_IBaseRenderGraphBuilder_CreateTransientBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferHandle> computebuffer);
+  UnityEngine_Rendering_RenderGraphModule_IBaseRenderGraphBuilder_CreateTransientBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferHandle const> computebuffer);
 
   /// @brief Method UnityEngine.Rendering.RenderGraphModule.IBaseRenderGraphBuilder.CreateTransientBuffer, addr 0x6c07838, size 0x14, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::RenderGraphModule::BufferHandle
-  UnityEngine_Rendering_RenderGraphModule_IBaseRenderGraphBuilder_CreateTransientBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferDesc> desc);
+  UnityEngine_Rendering_RenderGraphModule_IBaseRenderGraphBuilder_CreateTransientBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferDesc const> desc);
 
   /// @brief Method UnityEngine.Rendering.RenderGraphModule.IBaseRenderGraphBuilder.CreateTransientTexture, addr 0x6c07830, size 0x4, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle
-  UnityEngine_Rendering_RenderGraphModule_IBaseRenderGraphBuilder_CreateTransientTexture(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> desc);
+  UnityEngine_Rendering_RenderGraphModule_IBaseRenderGraphBuilder_CreateTransientTexture(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> desc);
 
   /// @brief Method UnityEngine.Rendering.RenderGraphModule.IBaseRenderGraphBuilder.CreateTransientTexture, addr 0x6c07834, size 0x4, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle
-  UnityEngine_Rendering_RenderGraphModule_IBaseRenderGraphBuilder_CreateTransientTexture(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> texture);
+  UnityEngine_Rendering_RenderGraphModule_IBaseRenderGraphBuilder_CreateTransientTexture(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> texture);
 
   /// @brief Method UnityEngine.Rendering.RenderGraphModule.IBaseRenderGraphBuilder.SetGlobalTextureAfterPass, addr 0x6c07810, size 0x4, virtual true, abstract: false, final true
-  inline void UnityEngine_Rendering_RenderGraphModule_IBaseRenderGraphBuilder_SetGlobalTextureAfterPass(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> input,
-                                                                                                        int32_t propertyId);
+  inline void
+  UnityEngine_Rendering_RenderGraphModule_IBaseRenderGraphBuilder_SetGlobalTextureAfterPass(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> input,
+                                                                                            int32_t propertyId);
 
   /// @brief Method UnityEngine.Rendering.RenderGraphModule.IBaseRenderGraphBuilder.UseBuffer, addr 0x6c07814, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::RenderGraphModule::BufferHandle
-  UnityEngine_Rendering_RenderGraphModule_IBaseRenderGraphBuilder_UseBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferHandle> input,
+  UnityEngine_Rendering_RenderGraphModule_IBaseRenderGraphBuilder_UseBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferHandle const> input,
                                                                             ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags);
 
   /// @brief Method UnityEngine.Rendering.RenderGraphModule.IBaseRenderGraphBuilder.UseRendererList, addr 0x6c07860, size 0xd98, virtual true, abstract: false, final true
-  inline void UnityEngine_Rendering_RenderGraphModule_IBaseRenderGraphBuilder_UseRendererList(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle> input);
+  inline void UnityEngine_Rendering_RenderGraphModule_IBaseRenderGraphBuilder_UseRendererList(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle const> input);
 
   /// @brief Method UnityEngine.Rendering.RenderGraphModule.IBaseRenderGraphBuilder.UseTexture, addr 0x6c0780c, size 0x4, virtual true, abstract: false, final true
-  inline void UnityEngine_Rendering_RenderGraphModule_IBaseRenderGraphBuilder_UseTexture(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> input,
+  inline void UnityEngine_Rendering_RenderGraphModule_IBaseRenderGraphBuilder_UseTexture(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> input,
                                                                                          ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags);
 
   /// @brief Method UnityEngine.Rendering.RenderGraphModule.IRasterRenderGraphBuilder.SetShadingRateImageAttachment, addr 0x6c07808, size 0x4, virtual true, abstract: false, final true
   inline void
-  UnityEngine_Rendering_RenderGraphModule_IRasterRenderGraphBuilder_SetShadingRateImageAttachment(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> tex);
+  UnityEngine_Rendering_RenderGraphModule_IRasterRenderGraphBuilder_SetShadingRateImageAttachment(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> tex);
 
   /// @brief Method UseAllGlobalTextures, addr 0x6c05690, size 0x1c, virtual true, abstract: false, final true
   inline void UseAllGlobalTextures(bool enable);
 
   /// @brief Method UseBuffer, addr 0x6c04d14, size 0x1c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RenderGraphModule::BufferHandle UseBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferHandle> input,
+  inline ::UnityEngine::Rendering::RenderGraphModule::BufferHandle UseBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferHandle const> input,
                                                                              ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags);
 
   /// @brief Method UseBufferRandomAccess, addr 0x6c06d94, size 0x80, virtual true, abstract: false, final true
@@ -296,17 +297,17 @@ public:
   inline void UseGlobalTexture(int32_t propertyId, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags);
 
   /// @brief Method UseRendererList, addr 0x6c06ea0, size 0xc8, virtual false, abstract: false, final false
-  inline void UseRendererList(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle> input);
+  inline void UseRendererList(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle const> input);
 
   /// @brief Method UseResource, addr 0x6c04b10, size 0x204, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle UseResource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> inputHandle,
+  inline ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle UseResource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> inputHandle,
                                                                                  ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags);
 
   /// @brief Method UseTexture, addr 0x6c04704, size 0x5c, virtual false, abstract: false, final false
-  inline void UseTexture(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> input, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags);
+  inline void UseTexture(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> input, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags);
 
   /// @brief Method UseTransientResource, addr 0x6c04104, size 0xbc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle UseTransientResource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> inputHandle);
+  inline ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle UseTransientResource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> inputHandle);
 
   constexpr bool const& __cordl_internal_get_m_Disposed() const;
 

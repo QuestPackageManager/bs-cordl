@@ -25317,13 +25317,13 @@ public:
   /// @brief Method ovrp_CreateSpatialAnchor, addr 0x62ceaf0, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_Result ovrp_CreateSpatialAnchor(::by_ref<::GlobalNamespace::OVRPlugin_SpatialAnchorCreateInfo> createInfo, ::by_ref<uint64_t> requestId);
 
+  /// @brief Method ovrp_EnumerateSpaceSupportedComponents, addr 0x62cecb8, size 0xa4, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::OVRPlugin_Result ovrp_EnumerateSpaceSupportedComponents(::by_ref<uint64_t> space, uint32_t componentTypesCapacityInput, ::by_ref<uint32_t> componentTypesCountOutput,
+                                                                                           ::ArrayW<::GlobalNamespace::OVRPlugin_SpaceComponentType> componentTypes);
+
   /// @brief Method ovrp_EnumerateSpaceSupportedComponents, addr 0x62ced5c, size 0x9c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_Result ovrp_EnumerateSpaceSupportedComponents(::by_ref<uint64_t> space, uint32_t componentTypesCapacityInput, ::by_ref<uint32_t> componentTypesCountOutput,
                                                                                            ::GlobalNamespace::OVRPlugin_SpaceComponentType* componentTypes);
-
-  /// @brief Method ovrp_EnumerateSpaceSupportedComponents, addr 0x62cecb8, size 0xa4, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRPlugin_Result ovrp_EnumerateSpaceSupportedComponents(::by_ref<uint64_t> space, uint32_t componentTypesCapacityInput, ::by_ref<uint32_t> componentTypesCountOutput,
-                                                                                           ::by_ref<::ArrayW<::GlobalNamespace::OVRPlugin_SpaceComponentType>> componentTypes);
 
   /// @brief Method ovrp_EraseSpace, addr 0x62cf00c, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_Result ovrp_EraseSpace(::by_ref<uint64_t> space, ::GlobalNamespace::OVRPlugin_SpaceStorageLocation location, ::by_ref<uint64_t> requestId);
@@ -25459,7 +25459,7 @@ public:
                                                                                    ::by_ref<::GlobalNamespace::OVRPlugin_RenderModelPropertiesInternal> properties);
 
   /// @brief Method ovrp_GetSpaceUuid, addr 0x62cf588, size 0x84, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRPlugin_Result ovrp_GetSpaceUuid(/* [IsReadOnly] */ ::by_ref<uint64_t> space, ::by_ref<::System::Guid> uuid);
+  static inline ::GlobalNamespace::OVRPlugin_Result ovrp_GetSpaceUuid(/* [IsReadOnly] */ ::by_ref<uint64_t const> space, ::by_ref<::System::Guid> uuid);
 
   /// @brief Method ovrp_GetVirtualKeyboardScale, addr 0x62cf924, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_Result ovrp_GetVirtualKeyboardScale(::by_ref<float_t> location);
@@ -25713,19 +25713,19 @@ public:
   static inline ::System::Version* getStaticF_version();
 
   /// @brief Method ovrp_CreateSpaceUser, addr 0x62d0c8c, size 0x84, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRPlugin_Result ovrp_CreateSpaceUser(/* [IsReadOnly] */ ::by_ref<uint64_t> spaceUserId, ::by_ref<uint64_t> spaceUserHandle);
+  static inline ::GlobalNamespace::OVRPlugin_Result ovrp_CreateSpaceUser(/* [IsReadOnly] */ ::by_ref<uint64_t const> spaceUserId, ::by_ref<uint64_t> spaceUserHandle);
 
   /// @brief Method ovrp_DeclareUser, addr 0x62d0e20, size 0x80, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRPlugin_Result ovrp_DeclareUser(/* [IsReadOnly] */ ::by_ref<uint64_t> userId, ::by_ref<uint64_t> userHandle);
+  static inline ::GlobalNamespace::OVRPlugin_Result ovrp_DeclareUser(/* [IsReadOnly] */ ::by_ref<uint64_t const> userId, ::by_ref<uint64_t> userHandle);
 
   /// @brief Method ovrp_DestroySpaceUser, addr 0x62d0d10, size 0x7c, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRPlugin_Result ovrp_DestroySpaceUser(/* [IsReadOnly] */ ::by_ref<uint64_t> userHandle);
+  static inline ::GlobalNamespace::OVRPlugin_Result ovrp_DestroySpaceUser(/* [IsReadOnly] */ ::by_ref<uint64_t const> userHandle);
 
   /// @brief Method ovrp_GetSpaceUserId, addr 0x62d0c08, size 0x84, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRPlugin_Result ovrp_GetSpaceUserId(/* [IsReadOnly] */ ::by_ref<uint64_t> spaceUserHandle, ::by_ref<uint64_t> spaceUserId);
+  static inline ::GlobalNamespace::OVRPlugin_Result ovrp_GetSpaceUserId(/* [IsReadOnly] */ ::by_ref<uint64_t const> spaceUserHandle, ::by_ref<uint64_t> spaceUserId);
 
   /// @brief Method ovrp_LocateSpace2, addr 0x62d0d8c, size 0x94, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRPlugin_Result ovrp_LocateSpace2(::by_ref<::GlobalNamespace::OVRPlugin_SpaceLocationf> location, /* [IsReadOnly] */ ::by_ref<uint64_t> space,
+  static inline ::GlobalNamespace::OVRPlugin_Result ovrp_LocateSpace2(::by_ref<::GlobalNamespace::OVRPlugin_SpaceLocationf> location, /* [IsReadOnly] */ ::by_ref<uint64_t const> space,
                                                                       ::GlobalNamespace::OVRPlugin_TrackingOrigin trackingOrigin);
 
   /// @brief Method ovrp_SaveSpaceList, addr 0x62d0b6c, size 0x9c, virtual false, abstract: false, final false
@@ -25935,7 +25935,7 @@ public:
   static inline ::GlobalNamespace::OVRPlugin_Result ovrp_QplMarkerStart(int32_t markerId, int32_t instanceKey, int64_t timestampMs);
 
   /// @brief Method ovrp_SetInsightPassthroughStyle2, addr 0x62d153c, size 0x84, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRPlugin_Result ovrp_SetInsightPassthroughStyle2(int32_t layerId, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_InsightPassthroughStyle2> style);
+  static inline ::GlobalNamespace::OVRPlugin_Result ovrp_SetInsightPassthroughStyle2(int32_t layerId, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_InsightPassthroughStyle2 const> style);
 
   /// @brief Method ovrp_UpdatePassthroughColorLut, addr 0x62d14a8, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_Result ovrp_UpdatePassthroughColorLut(uint64_t colorLut, ::GlobalNamespace::OVRPlugin_PassthroughColorLutData data);
@@ -26487,7 +26487,7 @@ public:
 
   /// @brief Method ovrp_QplMarkerAnnotationVariant, addr 0x62c3f58, size 0xbc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_Result ovrp_QplMarkerAnnotationVariant(int32_t markerId, ::StringW annotationKey,
-                                                                                    /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::Qpl_OVRPlugin_Variant> annotationValue, int32_t instanceKey);
+                                                                                    /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::Qpl_OVRPlugin_Variant const> annotationValue, int32_t instanceKey);
 
   /// @brief Method ovrp_QplMarkerPointData, addr 0x62c3a10, size 0xd4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_Result ovrp_QplMarkerPointData(int32_t markerId, ::StringW name, ::GlobalNamespace::Qpl_OVRPlugin_Annotation* annotations, int32_t annotationCount,
@@ -26531,7 +26531,7 @@ public:
   static inline ::System::Version* getStaticF_version();
 
   /// @brief Method ovrp_DiscoverSpaces, addr 0x62d2c7c, size 0x84, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRPlugin_Result ovrp_DiscoverSpaces(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_SpaceDiscoveryInfo> info, ::by_ref<uint64_t> requestId);
+  static inline ::GlobalNamespace::OVRPlugin_Result ovrp_DiscoverSpaces(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_SpaceDiscoveryInfo const> info, ::by_ref<uint64_t> requestId);
 
   /// @brief Method ovrp_EraseSpaces, addr 0x62d2e18, size 0xac, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_Result ovrp_EraseSpaces(uint32_t spaceCount, uint64_t* spaces, uint32_t uuidCount, ::System::Guid* uuids, ::by_ref<uint64_t> requestId);
@@ -26802,10 +26802,10 @@ public:
   static inline ::GlobalNamespace::OVRPlugin_Result ovrp_SetHandSkeletonVersion(::GlobalNamespace::OVRHandSkeletonVersion handSkeletonVersion);
 
   /// @brief Method ovrp_ShareSpaces2, addr 0x62d3980, size 0x84, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRPlugin_Result ovrp_ShareSpaces2(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_ShareSpacesInfo> info, ::by_ref<uint64_t> requestId);
+  static inline ::GlobalNamespace::OVRPlugin_Result ovrp_ShareSpaces2(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_ShareSpacesInfo const> info, ::by_ref<uint64_t> requestId);
 
   /// @brief Method ovrp_StartColocationAdvertisement, addr 0x62d3788, size 0x84, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRPlugin_Result ovrp_StartColocationAdvertisement(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_ColocationSessionStartAdvertisementInfo> info,
+  static inline ::GlobalNamespace::OVRPlugin_Result ovrp_StartColocationAdvertisement(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_ColocationSessionStartAdvertisementInfo const> info,
                                                                                       ::by_ref<uint64_t> requestId);
 
   /// @brief Method ovrp_StartColocationDiscovery, addr 0x62d3888, size 0x7c, virtual false, abstract: false, final false
@@ -26878,7 +26878,7 @@ public:
 
   /// @brief Method ovrp_SetDynamicObjectTrackedClasses, addr 0x62d3de4, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_Result ovrp_SetDynamicObjectTrackedClasses(uint64_t tracker,
-                                                                                        /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_DynamicObjectTrackedClassesSetInfo> setInfo);
+                                                                                        /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_DynamicObjectTrackedClassesSetInfo const> setInfo);
 
   /// @brief Method ovrp_SetExternalLayerDynresEnabled, addr 0x62d3fe4, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_Result ovrp_SetExternalLayerDynresEnabled(::GlobalNamespace::OVRPlugin_Bool enabled);
@@ -29350,7 +29350,7 @@ public:
   static inline ::GlobalNamespace::OVRPlugin_Result DestroyVirtualKeyboard();
 
   /// @brief Method DiscoverSpaces, addr 0x62af68c, size 0xe4, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRPlugin_Result DiscoverSpaces(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_SpaceDiscoveryInfo> info, ::by_ref<uint64_t> requestId);
+  static inline ::GlobalNamespace::OVRPlugin_Result DiscoverSpaces(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_SpaceDiscoveryInfo const> info, ::by_ref<uint64_t> requestId);
 
   /// @brief Method EnqueueDestroyLayer, addr 0x6298f00, size 0xe4, virtual false, abstract: false, final false
   static inline bool EnqueueDestroyLayer(::System::IntPtr layerID);
@@ -30005,7 +30005,7 @@ public:
   static inline bool SetWideMotionModeHandPoses(bool wideMotionModeFusionHandPoses);
 
   /// @brief Method ShareSpaces, addr 0x62af5ac, size 0xe0, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRPlugin_Result ShareSpaces(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_ShareSpacesInfo> info, ::by_ref<uint64_t> requestId);
+  static inline ::GlobalNamespace::OVRPlugin_Result ShareSpaces(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_ShareSpacesInfo const> info, ::by_ref<uint64_t> requestId);
 
   /// @brief Method ShareSpaces, addr 0x62ad044, size 0x9c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_Result ShareSpaces(::Unity::Collections::NativeArray_1<uint64_t> spaces, ::Unity::Collections::NativeArray_1<uint64_t> userHandles,

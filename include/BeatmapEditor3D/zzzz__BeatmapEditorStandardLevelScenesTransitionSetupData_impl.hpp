@@ -72,23 +72,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapEditor3D::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData::*)(
-    ::GlobalNamespace::IBeatmapLevelData*, ::by_ref<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::GameplayModifiers*, ::GlobalNamespace::PlayerSpecificSettings*,
-    ::GlobalNamespace::PracticeSettings*, ::GlobalNamespace::ColorScheme*, ::GlobalNamespace::EnvironmentsListModel*, ::GlobalNamespace::AudioClipAsyncLoader*, ::GlobalNamespace::SettingsManager*,
-    ::GlobalNamespace::BeatmapDataLoader*, ::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData>)>(&::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData::Init)> {
+    ::GlobalNamespace::IBeatmapLevelData*, ::by_ref<::GlobalNamespace::BeatmapKey const>, ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::GameplayModifiers*,
+    ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::PracticeSettings*, ::GlobalNamespace::ColorScheme*, ::GlobalNamespace::EnvironmentsListModel*,
+    ::GlobalNamespace::AudioClipAsyncLoader*, ::GlobalNamespace::SettingsManager*, ::GlobalNamespace::BeatmapDataLoader*, ::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData const>)>(
+    &::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData::Init)> {
   constexpr static std::size_t size = 0x4c;
   constexpr static std::size_t addrs = 0x5d90374;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData*>(),
-                            { "Init",
-                              {},
-                              { ::i2c::type_of<::GlobalNamespace::IBeatmapLevelData*>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>(), ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>(),
-                                ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>(), ::i2c::type_of<::GlobalNamespace::PlayerSpecificSettings*>(),
-                                ::i2c::type_of<::GlobalNamespace::PracticeSettings*>(), ::i2c::type_of<::GlobalNamespace::ColorScheme*>(), ::i2c::type_of<::GlobalNamespace::EnvironmentsListModel*>(),
-                                ::i2c::type_of<::GlobalNamespace::AudioClipAsyncLoader*>(), ::i2c::type_of<::GlobalNamespace::SettingsManager*>(),
-                                ::i2c::type_of<::GlobalNamespace::BeatmapDataLoader*>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData*>(),
+                         { "Init",
+                           {},
+                           { ::i2c::type_of<::GlobalNamespace::IBeatmapLevelData*>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey const>>(),
+                             ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>(), ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>(), ::i2c::type_of<::GlobalNamespace::PlayerSpecificSettings*>(),
+                             ::i2c::type_of<::GlobalNamespace::PracticeSettings*>(), ::i2c::type_of<::GlobalNamespace::ColorScheme*>(), ::i2c::type_of<::GlobalNamespace::EnvironmentsListModel*>(),
+                             ::i2c::type_of<::GlobalNamespace::AudioClipAsyncLoader*>(), ::i2c::type_of<::GlobalNamespace::SettingsManager*>(), ::i2c::type_of<::GlobalNamespace::BeatmapDataLoader*>(),
+                             ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData const>>() } })));
     return ___internal_method;
   }
 };
@@ -147,21 +149,21 @@ inline void BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, levelCompletionResults);
 }
 inline void BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData::Init(
-    ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
+    ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
     ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings,
     ::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
     ::GlobalNamespace::SettingsManager* settingsManager, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader,
-    /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData> data) {
+    /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData const> data) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData*>(),
                           { "Init",
                             {},
-                            { ::i2c::type_of<::GlobalNamespace::IBeatmapLevelData*>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>(), ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>(),
-                              ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>(), ::i2c::type_of<::GlobalNamespace::PlayerSpecificSettings*>(),
+                            { ::i2c::type_of<::GlobalNamespace::IBeatmapLevelData*>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey const>>(),
+                              ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>(), ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>(), ::i2c::type_of<::GlobalNamespace::PlayerSpecificSettings*>(),
                               ::i2c::type_of<::GlobalNamespace::PracticeSettings*>(), ::i2c::type_of<::GlobalNamespace::ColorScheme*>(), ::i2c::type_of<::GlobalNamespace::EnvironmentsListModel*>(),
                               ::i2c::type_of<::GlobalNamespace::AudioClipAsyncLoader*>(), ::i2c::type_of<::GlobalNamespace::SettingsManager*>(),
-                              ::i2c::type_of<::GlobalNamespace::BeatmapDataLoader*>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData>>() } })));
+                              ::i2c::type_of<::GlobalNamespace::BeatmapDataLoader*>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, beatmapLevelData, beatmapKey, beatmapLevel, gameplayModifiers, playerSpecificSettings, practiceSettings, colorScheme,
                                                    environmentsListModel, audioClipAsyncLoader, settingsManager, beatmapDataLoader, data);
 }

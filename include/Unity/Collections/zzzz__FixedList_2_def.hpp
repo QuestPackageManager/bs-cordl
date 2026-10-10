@@ -67,10 +67,10 @@ public:
   constexpr operator ::Unity::Collections::INativeList_1<T>*();
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Add(/* [IsReadOnly] */ ::by_ref<T> item);
+  inline void Add(/* [IsReadOnly] */ ::by_ref<T const> item);
 
   /// @brief Method AddNoResize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void AddNoResize(/* [IsReadOnly] */ ::by_ref<T> item);
+  inline void AddNoResize(/* [IsReadOnly] */ ::by_ref<T const> item);
 
   /// @brief Method AddRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddRange(void* ptr, int32_t length);
@@ -79,7 +79,7 @@ public:
   inline void AddRangeNoResize(void* ptr, int32_t length);
 
   /// @brief Method AddReplicate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void AddReplicate(/* [IsReadOnly] */ ::by_ref<T> value, int32_t count);
+  inline void AddReplicate(/* [IsReadOnly] */ ::by_ref<T const> value, int32_t count);
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Clear();
@@ -91,7 +91,7 @@ public:
   inline int32_t GetHashCode();
 
   /// @brief Method Insert, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Insert(int32_t index, /* [IsReadOnly] */ ::by_ref<T> item);
+  inline void Insert(int32_t index, /* [IsReadOnly] */ ::by_ref<T const> item);
 
   /// @brief Method InsertRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void InsertRange(int32_t index, int32_t count);

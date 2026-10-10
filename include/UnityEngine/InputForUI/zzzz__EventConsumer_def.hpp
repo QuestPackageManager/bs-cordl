@@ -30,7 +30,7 @@ class CORDL_TYPE EventConsumer : public ::System::MulticastDelegate {
 public:
   // Declarations
   /// @brief Method Invoke, addr 0x6fbc218, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(/* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::Event> ev);
+  inline bool Invoke(/* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::Event const> ev);
 
   static inline ::UnityEngine::InputForUI::EventConsumer* New_ctor(::System::Object* object, ::System::IntPtr method);
 

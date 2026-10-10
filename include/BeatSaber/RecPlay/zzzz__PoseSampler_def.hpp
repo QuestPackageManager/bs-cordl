@@ -35,7 +35,7 @@ public:
   static inline ::BeatSaber::RecPlay::FrameSample FindPoseSample(::ArrayW<::BeatSaber::RecPlay::PoseFrame> frames, float_t time, int32_t nearest);
 
   /// @brief Method InterpolatePoseSample, addr 0x354cce4, size 0x94, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Pose InterpolatePoseSample(::ArrayW<::BeatSaber::RecPlay::PoseFrame> frames, /* [IsReadOnly] */ ::by_ref<::BeatSaber::RecPlay::FrameSample> sample);
+  static inline ::UnityEngine::Pose InterpolatePoseSample(::ArrayW<::BeatSaber::RecPlay::PoseFrame> frames, /* [IsReadOnly] */ ::by_ref<::BeatSaber::RecPlay::FrameSample const> sample);
 
   /// @brief Method SamplePose, addr 0x354c924, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose SamplePose(::ArrayW<::BeatSaber::RecPlay::PoseFrame> frames, float_t time, ::by_ref<int32_t> nearest);

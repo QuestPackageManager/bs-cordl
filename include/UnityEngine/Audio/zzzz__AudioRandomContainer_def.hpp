@@ -350,7 +350,7 @@ public:
   inline void set_automaticTriggerTimeRandomizationRange(::UnityEngine::Vector2 value);
 
   /// @brief Method set_automaticTriggerTimeRandomizationRange_Injected, addr 0x6ea9b2c, size 0x44, virtual false, abstract: false, final false
-  static inline void set_automaticTriggerTimeRandomizationRange_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2> value);
+  static inline void set_automaticTriggerTimeRandomizationRange_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2 const> value);
 
   /// @brief Method set_automaticTriggerTime_Injected, addr 0x6ea9970, size 0x4c, virtual false, abstract: false, final false
   static inline void set_automaticTriggerTime_Injected(::System::IntPtr _unity_self, float_t value);
@@ -380,7 +380,7 @@ public:
   inline void set_loopCountRandomizationRange(::UnityEngine::Vector2 value);
 
   /// @brief Method set_loopCountRandomizationRange_Injected, addr 0x6eaa190, size 0x44, virtual false, abstract: false, final false
-  static inline void set_loopCountRandomizationRange_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2> value);
+  static inline void set_loopCountRandomizationRange_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2 const> value);
 
   /// @brief Method set_loopCount_Injected, addr 0x6ea9fdc, size 0x44, virtual false, abstract: false, final false
   static inline void set_loopCount_Injected(::System::IntPtr _unity_self, int32_t value);
@@ -404,7 +404,7 @@ public:
   inline void set_pitchRandomizationRange(::UnityEngine::Vector2 value);
 
   /// @brief Method set_pitchRandomizationRange_Injected, addr 0x6ea8e80, size 0x44, virtual false, abstract: false, final false
-  static inline void set_pitchRandomizationRange_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2> value);
+  static inline void set_pitchRandomizationRange_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2 const> value);
 
   /// @brief Method set_pitch_Injected, addr 0x6ea8cc4, size 0x4c, virtual false, abstract: false, final false
   static inline void set_pitch_Injected(::System::IntPtr _unity_self, float_t value);
@@ -434,7 +434,7 @@ public:
   inline void set_volumeRandomizationRange(::UnityEngine::Vector2 value);
 
   /// @brief Method set_volumeRandomizationRange_Injected, addr 0x6ea89a4, size 0x44, virtual false, abstract: false, final false
-  static inline void set_volumeRandomizationRange_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2> value);
+  static inline void set_volumeRandomizationRange_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2 const> value);
 
   /// @brief Method set_volume_Injected, addr 0x6ea87e8, size 0x4c, virtual false, abstract: false, final false
   static inline void set_volume_Injected(::System::IntPtr _unity_self, float_t value);

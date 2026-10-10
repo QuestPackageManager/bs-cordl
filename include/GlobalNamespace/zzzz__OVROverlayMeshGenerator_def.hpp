@@ -255,8 +255,8 @@ public:
   inline void Initialize();
 
   /// @brief Method InverseTransformVert, addr 0x62b6e5c, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector3 InverseTransformVert(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> vert, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> position,
-                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> scale, float_t worldScale);
+  static inline ::UnityEngine::Vector3 InverseTransformVert(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> vert, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> position,
+                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> scale, float_t worldScale);
 
   static inline ::GlobalNamespace::OVROverlayMeshGenerator* New_ctor();
 

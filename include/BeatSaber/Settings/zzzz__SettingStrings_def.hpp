@@ -44,7 +44,7 @@ public:
 
   /// [NullableContext(1)]
   /// @brief Method Encode, addr 0x354e250, size 0x4, virtual false, abstract: false, final false
-  static inline void Encode(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings, ::System::Text::StringBuilder* stream);
+  static inline void Encode(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings const> settings, ::System::Text::StringBuilder* stream);
 
   /// @brief Method IsPureWhiteSpace, addr 0x355105c, size 0xb0, virtual false, abstract: false, final false
   static inline bool IsPureWhiteSpace(::System::ReadOnlySpan_1<char16_t> property);
@@ -80,7 +80,7 @@ public:
 
   /// [NullableContext(1)]
   /// @brief Method WriteProperties, addr 0x354e254, size 0xd14, virtual false, abstract: false, final false
-  static inline void WriteProperties(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings, ::System::Text::StringBuilder* text);
+  static inline void WriteProperties(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings const> settings, ::System::Text::StringBuilder* text);
 
 protected:
   // Ctor Parameters []

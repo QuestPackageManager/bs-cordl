@@ -131,15 +131,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespac
 //  Writing Method size for method: ::GlobalNamespace::SliderMovement.Init
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderMovement::*)(::GlobalNamespace::SliderData*, ::by_ref<::GlobalNamespace::SliderSpawnData>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderMovement::*)(::GlobalNamespace::SliderData*, ::by_ref<::GlobalNamespace::SliderSpawnData const>)>(
     &::GlobalNamespace::SliderMovement::Init)> {
   constexpr static std::size_t size = 0x12c;
   constexpr static std::size_t addrs = 0x5d913e8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderMovement*>(),
-                                                             { "Init", {}, { ::i2c::type_of<::GlobalNamespace::SliderData*>(), ::i2c::type_of<::by_ref<::GlobalNamespace::SliderSpawnData>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderMovement*>(),
+                                                { "Init", {}, { ::i2c::type_of<::GlobalNamespace::SliderData*>(), ::i2c::type_of<::by_ref<::GlobalNamespace::SliderSpawnData const>>() } })));
     return ___internal_method;
   }
 };
@@ -403,10 +403,10 @@ inline float_t GlobalNamespace::SliderMovement::get_timeSinceHeadNoteJump() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderMovement*>(), { "get_timeSinceHeadNoteJump", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
-inline void GlobalNamespace::SliderMovement::Init(::GlobalNamespace::SliderData* sliderData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::SliderSpawnData> sliderSpawnData) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderMovement*>(),
-                                                           { "Init", {}, { ::i2c::type_of<::GlobalNamespace::SliderData*>(), ::i2c::type_of<::by_ref<::GlobalNamespace::SliderSpawnData>>() } })));
+inline void GlobalNamespace::SliderMovement::Init(::GlobalNamespace::SliderData* sliderData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::SliderSpawnData const> sliderSpawnData) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderMovement*>(),
+                                              { "Init", {}, { ::i2c::type_of<::GlobalNamespace::SliderData*>(), ::i2c::type_of<::by_ref<::GlobalNamespace::SliderSpawnData const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, sliderData, sliderSpawnData);
 }
 inline void GlobalNamespace::SliderMovement::StartMovement() {

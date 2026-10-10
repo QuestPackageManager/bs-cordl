@@ -3406,7 +3406,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::TextureHandle (*)(
-    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::StringW, bool, ::UnityEngine::FilterMode)>(
+    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>, ::StringW, bool, ::UnityEngine::FilterMode)>(
     &::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::CreateCompatibleTexture)> {
   constexpr static std::size_t size = 0xe0;
   constexpr static std::size_t addrs = 0x6cc7140;
@@ -3416,7 +3416,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
                                                                                            { "CreateCompatibleTexture",
                                                                                              {},
                                                                                              { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(),
-                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
+                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
                                                                                                ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::FilterMode>() } })));
     return ___internal_method;
   }
@@ -3425,7 +3425,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::TextureHandle (*)(
-    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>, ::StringW, bool, ::UnityEngine::FilterMode)>(
+    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>, ::StringW, bool, ::UnityEngine::FilterMode)>(
     &::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::CreateCompatibleTexture)> {
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x6cc7238;
@@ -3435,7 +3435,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
                                                                                            { "CreateCompatibleTexture",
                                                                                              {},
                                                                                              { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(),
-                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>(),
+                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>>(),
                                                                                                ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::FilterMode>() } })));
     return ___internal_method;
   }
@@ -3513,7 +3513,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::RenderText
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::*)(
-    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>,
+    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>,
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(&::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderStopNaN)> {
   constexpr static std::size_t size = 0x48c;
   constexpr static std::size_t addrs = 0x6cc7374;
@@ -3523,7 +3523,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                            { "RenderStopNaN",
                                                                                              {},
                                                                                              { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(),
-                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
+                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
                                                                                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
     return ___internal_method;
   }
@@ -3533,20 +3533,21 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::Universal::UniversalResourceData*, ::UnityEngine::Rendering::Universal::AntialiasingQuality,
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(
     &::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderSMAA)> {
   constexpr static std::size_t size = 0x179c;
   constexpr static std::size_t addrs = 0x6cc7800;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
-                            { "RenderSMAA",
-                              {},
-                              { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalResourceData*>(),
-                                ::i2c::type_of<::UnityEngine::Rendering::Universal::AntialiasingQuality>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
+                         { "RenderSMAA",
+                           {},
+                           { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalResourceData*>(),
+                             ::i2c::type_of<::UnityEngine::Rendering::Universal::AntialiasingQuality>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
     return ___internal_method;
   }
 };
@@ -3554,7 +3555,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::*)(
-    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Material*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>)>(
+    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Material*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>)>(
     &::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::UberPostSetupBloomPass)> {
   constexpr static std::size_t size = 0x548;
   constexpr static std::size_t addrs = 0x6cc8f9c;
@@ -3565,7 +3566,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                              { "UberPostSetupBloomPass",
                                                                {},
                                                                { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Material*>(),
-                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>() } })));
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>>() } })));
     return ___internal_method;
   }
 };
@@ -3573,7 +3574,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2Int (::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::*)(
-    ::UnityEngine::Rendering::Universal::Bloom*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>)>(
+    ::UnityEngine::Rendering::Universal::Bloom*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>)>(
     &::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::CalcBloomResolution)> {
   constexpr static std::size_t size = 0xa0;
   constexpr static std::size_t addrs = 0x6cc94e4;
@@ -3581,9 +3582,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2Int
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
-            { "CalcBloomResolution", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::Bloom*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>() } })));
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
+                            { "CalcBloomResolution",
+                              {},
+                              { ::i2c::type_of<::UnityEngine::Rendering::Universal::Bloom*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>>() } })));
     return ___internal_method;
   }
 };
@@ -3606,19 +3608,19 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::R
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::*)(
-    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>,
+    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>,
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, bool)>(&::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderBloomTexture)> {
   constexpr static std::size_t size = 0x9ac;
   constexpr static std::size_t addrs = 0x6cc96a0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
-                            { "RenderBloomTexture",
-                              {},
-                              { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(), ::i2c::type_of<bool>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
+                                                             { "RenderBloomTexture",
+                                                               {},
+                                                               { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -3684,20 +3686,21 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::Universal::UniversalResourceData*, ::UnityEngine::Rendering::Universal::UniversalCameraData*,
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(
     &::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderDoF)> {
   constexpr static std::size_t size = 0x1cc;
   constexpr static std::size_t addrs = 0x6ccb19c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
-                            { "RenderDoF",
-                              {},
-                              { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalResourceData*>(),
-                                ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
+                         { "RenderDoF",
+                           {},
+                           { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalResourceData*>(),
+                             ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
     return ___internal_method;
   }
 };
@@ -3706,20 +3709,21 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::Universal::UniversalResourceData*, ::UnityEngine::Rendering::Universal::UniversalCameraData*,
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::by_ref<::UnityEngine::Material*>)>(
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::by_ref<::UnityEngine::Material*>)>(
     &::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderDoFGaussian)> {
   constexpr static std::size_t size = 0xda4;
   constexpr static std::size_t addrs = 0x6ccb368;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
-                            { "RenderDoFGaussian",
-                              {},
-                              { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalResourceData*>(),
-                                ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                                ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(), ::i2c::type_of<::by_ref<::UnityEngine::Material*>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
+                         { "RenderDoFGaussian",
+                           {},
+                           { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalResourceData*>(),
+                             ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                             ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(), ::i2c::type_of<::by_ref<::UnityEngine::Material*>>() } })));
     return ___internal_method;
   }
 };
@@ -3756,20 +3760,21 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::Universal::UniversalResourceData*, ::UnityEngine::Rendering::Universal::UniversalCameraData*,
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::by_ref<::UnityEngine::Material*>)>(
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>, ::by_ref<::UnityEngine::Material*>)>(
     &::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderDoFBokeh)> {
   constexpr static std::size_t size = 0xd2c;
   constexpr static std::size_t addrs = 0x6ccc10c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
-                            { "RenderDoFBokeh",
-                              {},
-                              { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalResourceData*>(),
-                                ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(), ::i2c::type_of<::by_ref<::UnityEngine::Material*>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
+                         { "RenderDoFBokeh",
+                           {},
+                           { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalResourceData*>(),
+                             ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Material*>>() } })));
     return ___internal_method;
   }
 };
@@ -3777,7 +3782,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::*)(
-    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Camera*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>,
+    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Camera*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>,
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(&::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderPaniniProjection)> {
   constexpr static std::size_t size = 0x6c0;
   constexpr static std::size_t addrs = 0x6ccd0ac;
@@ -3788,7 +3793,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                              { "RenderPaniniProjection",
                                                                {},
                                                                { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Camera*>(),
-                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
                                                                  ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
     return ___internal_method;
   }
@@ -3873,20 +3878,21 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::Universal::UniversalResourceData*, ::UnityEngine::Rendering::Universal::UniversalCameraData*,
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(
     &::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderMotionBlur)> {
   constexpr static std::size_t size = 0x7ac;
   constexpr static std::size_t addrs = 0x6ccdce8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
-                            { "RenderMotionBlur",
-                              {},
-                              { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalResourceData*>(),
-                                ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
+                         { "RenderMotionBlur",
+                           {},
+                           { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalResourceData*>(),
+                             ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
     return ___internal_method;
   }
 };
@@ -3912,19 +3918,19 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::Universal::UniversalResourceData*, ::UnityEngine::Rendering::Universal::UniversalCameraData*,
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>)>(&::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::LensFlareDataDrivenComputeOcclusion)> {
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>)>(&::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::LensFlareDataDrivenComputeOcclusion)> {
   constexpr static std::size_t size = 0x5d4;
   constexpr static std::size_t addrs = 0x6cce71c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(
-                         ::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
-                         { "LensFlareDataDrivenComputeOcclusion",
-                           {},
-                           { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalResourceData*>(),
-                             ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>() } })));
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
+                                         { "LensFlareDataDrivenComputeOcclusion",
+                                           {},
+                                           { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalResourceData*>(),
+                                             ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(),
+                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>>() } })));
     return ___internal_method;
   }
 };
@@ -3933,20 +3939,21 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::Universal::UniversalResourceData*, ::UnityEngine::Rendering::Universal::UniversalCameraData*,
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>)>(
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>)>(
     &::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderLensFlareDataDriven)> {
   constexpr static std::size_t size = 0x6a0;
   constexpr static std::size_t addrs = 0x6ccecf0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
-                            { "RenderLensFlareDataDriven",
-                              {},
-                              { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalResourceData*>(),
-                                ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
+                         { "RenderLensFlareDataDriven",
+                           {},
+                           { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalResourceData*>(),
+                             ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>>() } })));
     return ___internal_method;
   }
 };
@@ -3970,21 +3977,21 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::TextureHandle (::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::*)(
-    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Camera*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>,
+    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Camera*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>,
     ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, bool)>(
     &::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderLensFlareScreenSpace)> {
   constexpr static std::size_t size = 0x798;
   constexpr static std::size_t addrs = 0x6ccf5dc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
-                            { "RenderLensFlareScreenSpace",
-                              {},
-                              { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Camera*>(),
-                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(),
-                                ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(), ::i2c::type_of<bool>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
+                                                             { "RenderLensFlareScreenSpace",
+                                                               {},
+                                                               { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Camera*>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>>(),
+                                                                 ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(),
+                                                                 ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -4012,8 +4019,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (*)(::by_ref<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>,
-                         ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::UnityEngine::Rendering::Universal::UniversalCameraData*, ::UnityEngine::Material*, bool)>(
+    static_cast<void (*)(::by_ref<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext const>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>,
+                         ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>, ::UnityEngine::Rendering::Universal::UniversalCameraData*, ::UnityEngine::Material*, bool)>(
         &::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::ScaleViewportAndBlit)> {
   constexpr static std::size_t size = 0x178;
   constexpr static std::size_t addrs = 0x6ccffb4;
@@ -4024,9 +4031,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
                                          { "ScaleViewportAndBlit",
                                            {},
-                                           { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>>(),
-                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
+                                           { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext const>>(),
+                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
                                              ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::UnityEngine::Material*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
@@ -4035,8 +4042,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (*)(::by_ref<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>,
-                         ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::UnityEngine::Rendering::Universal::UniversalCameraData*, ::UnityEngine::Material*, bool)>(
+    static_cast<void (*)(::by_ref<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext const>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>,
+                         ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>, ::UnityEngine::Rendering::Universal::UniversalCameraData*, ::UnityEngine::Material*, bool)>(
         &::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::ScaleViewportAndDrawVisibilityMesh)> {
   constexpr static std::size_t size = 0x284;
   constexpr static std::size_t addrs = 0x6cd012c;
@@ -4047,9 +4054,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
                                          { "ScaleViewportAndDrawVisibilityMesh",
                                            {},
-                                           { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>>(),
-                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
+                                           { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext const>>(),
+                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
                                              ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::UnityEngine::Material*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
@@ -4058,8 +4065,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::*)(
-    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::Universal::UniversalCameraData*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>,
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::by_ref<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph_FinalBlitSettings>, bool)>(
+    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::Universal::UniversalCameraData*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>,
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>, ::by_ref<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph_FinalBlitSettings>, bool)>(
     &::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderFinalSetup)> {
   constexpr static std::size_t size = 0x728;
   constexpr static std::size_t addrs = 0x6cd03b0;
@@ -4071,8 +4078,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                          { "RenderFinalSetup",
                                            {},
                                            { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(),
-                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
+                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
                                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph_FinalBlitSettings>>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
@@ -4081,22 +4088,22 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::*)(
-    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>,
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>, bool)>(
-    &::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderFinalFSRScale)> {
+    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>,
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>,
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>, bool)>(&::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderFinalFSRScale)> {
   constexpr static std::size_t size = 0x510;
   constexpr static std::size_t addrs = 0x6cd0ad8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
-            { "RenderFinalFSRScale",
-              {},
-              { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>(), ::i2c::type_of<bool>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
+                                                             { "RenderFinalFSRScale",
+                                                               {},
+                                                               { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -4104,8 +4111,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::*)(
-    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::Universal::UniversalCameraData*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>,
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>,
+    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::Universal::UniversalCameraData*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>,
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>,
     ::by_ref<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph_FinalBlitSettings>)>(&::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderFinalBlit)> {
   constexpr static std::size_t size = 0x7d4;
   constexpr static std::size_t addrs = 0x6cd0fe8;
@@ -4117,9 +4124,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                          { "RenderFinalBlit",
                                            {},
                                            { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(),
-                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
+                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
                                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph_FinalBlitSettings>>() } })));
     return ___internal_method;
   }
@@ -4128,8 +4135,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::*)(
-    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>,
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, bool)>(
+    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>,
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>, bool)>(
     &::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderFinalPassRenderGraph)> {
   constexpr static std::size_t size = 0x86c;
   constexpr static std::size_t addrs = 0x6cd17bc;
@@ -4140,9 +4147,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                 { "RenderFinalPassRenderGraph",
                                                   {},
                                                   { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>(),
-                                                    ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                                                    ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                                                    ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(), ::i2c::type_of<bool>() } })));
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -4166,9 +4173,9 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*, ::UnityEngine::Rendering::Universal::UniversalCameraData*,
-    ::UnityEngine::Rendering::Universal::UniversalPostProcessingData*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>,
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>,
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, bool, bool)>(
+    ::UnityEngine::Rendering::Universal::UniversalPostProcessingData*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>,
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>,
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>, bool, bool)>(
     &::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderUberPost)> {
   constexpr static std::size_t size = 0xe24;
   constexpr static std::size_t addrs = 0x6cd2238;
@@ -4176,15 +4183,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
-            { "RenderUberPost",
-              {},
-              { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>(),
-                ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalPostProcessingData*>(),
-                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
+                            { "RenderUberPost",
+                              {},
+                              { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>(),
+                                ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalPostProcessingData*>(),
+                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -4192,23 +4200,23 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::*)(
-    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>,
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>,
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, bool, bool, bool)>(&::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderPostProcessingRenderGraph)> {
+    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>,
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>,
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>, bool, bool, bool)>(&::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderPostProcessingRenderGraph)> {
   constexpr static std::size_t size = 0x1124;
   constexpr static std::size_t addrs = 0x6cd305c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
-            { "RenderPostProcessingRenderGraph",
-              {},
-              { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>(),
-                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
+                                                { "RenderPostProcessingRenderGraph",
+                                                  {},
+                                                  { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(),
+                                                    ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -4780,25 +4788,25 @@ inline void UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::Updat
 }
 inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle
 UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::CreateCompatibleTexture(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
-                                                                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source, ::StringW name,
-                                                                                       bool clear, ::UnityEngine::FilterMode filterMode) {
+                                                                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
+                                                                                       ::StringW name, bool clear, ::UnityEngine::FilterMode filterMode) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
                                                                                          { "CreateCompatibleTexture",
                                                                                            {},
                                                                                            { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(),
-                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
+                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
                                                                                              ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::FilterMode>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(nullptr, ___internal_method, renderGraph, source, name, clear, filterMode);
 }
 inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle
 UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::CreateCompatibleTexture(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
-                                                                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> desc, ::StringW name,
+                                                                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> desc, ::StringW name,
                                                                                        bool clear, ::UnityEngine::FilterMode filterMode) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
                                                                                          { "CreateCompatibleTexture",
                                                                                            {},
                                                                                            { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(),
-                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>(),
+                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>>(),
                                                                                              ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<::UnityEngine::FilterMode>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(nullptr, ___internal_method, renderGraph, desc, name, clear, filterMode);
 }
@@ -4838,21 +4846,22 @@ UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::GetCompatibleDesc
                                            ::i2c::type_of<::UnityEngine::Experimental::Rendering::GraphicsFormat>(), ::i2c::type_of<::UnityEngine::Experimental::Rendering::GraphicsFormat>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::RenderTextureDescriptor>(nullptr, ___internal_method, desc, width, height, format, depthStencilFormat);
 }
-inline void UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderStopNaN(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
-                                                                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> activeCameraColor,
-                                                                                         ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> stopNaNTarget) {
+inline void
+UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderStopNaN(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
+                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> activeCameraColor,
+                                                                             ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> stopNaNTarget) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
                                                                                          { "RenderStopNaN",
                                                                                            {},
                                                                                            { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(),
-                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
+                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
                                                                                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, activeCameraColor, stopNaNTarget);
 }
 inline void UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderSMAA(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                                       ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
                                                                                       ::UnityEngine::Rendering::Universal::AntialiasingQuality antialiasingQuality,
-                                                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
+                                                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
                                                                                       ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> SMAATarget) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4860,29 +4869,30 @@ inline void UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::Rende
                           { "RenderSMAA",
                             {},
                             { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalResourceData*>(),
-                              ::i2c::type_of<::UnityEngine::Rendering::Universal::AntialiasingQuality>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
+                              ::i2c::type_of<::UnityEngine::Rendering::Universal::AntialiasingQuality>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, resourceData, antialiasingQuality, source, SMAATarget);
 }
 inline void UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::UberPostSetupBloomPass(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* rendergraph,
                                                                                                   ::UnityEngine::Material* uberMaterial,
-                                                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> srcDesc) {
+                                                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> srcDesc) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
                                                            { "UberPostSetupBloomPass",
                                                              {},
                                                              { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Material*>(),
-                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>() } })));
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, rendergraph, uberMaterial, srcDesc);
 }
 inline ::UnityEngine::Vector2Int
 UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::CalcBloomResolution(::UnityEngine::Rendering::Universal::Bloom* bloom,
-                                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> bloomSourceDesc) {
+                                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> bloomSourceDesc) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
-          { "CalcBloomResolution", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::Bloom*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>() } })));
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
+                          { "CalcBloomResolution",
+                            {},
+                            { ::i2c::type_of<::UnityEngine::Rendering::Universal::Bloom*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2Int>(this, ___internal_method, bloom, bloomSourceDesc);
 }
 inline int32_t UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::CalcBloomMipCount(::UnityEngine::Rendering::Universal::Bloom* bloom, ::UnityEngine::Vector2Int bloomResolution) {
@@ -4892,7 +4902,7 @@ inline int32_t UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::Ca
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, bloom, bloomResolution);
 }
 inline void UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderBloomTexture(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
-                                                                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
+                                                                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
                                                                                               ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
                                                                                               bool enableAlphaOutput) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -4900,7 +4910,7 @@ inline void UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::Rende
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
                           { "RenderBloomTexture",
                             {},
-                            { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
+                            { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, source, destination, enableAlphaOutput);
 }
@@ -4940,7 +4950,7 @@ UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::BloomDual(::Unity
 inline void UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderDoF(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                                      ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
                                                                                      ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
-                                                                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
+                                                                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
                                                                                      ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4948,14 +4958,14 @@ inline void UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::Rende
                           { "RenderDoF",
                             {},
                             { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalResourceData*>(),
-                              ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
+                              ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, resourceData, cameraData, source, destination);
 }
 inline void UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderDoFGaussian(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                                              ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
                                                                                              ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
-                                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
+                                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
                                                                                              ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination,
                                                                                              ::by_ref<::UnityEngine::Material*> dofMaterial) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -4964,7 +4974,7 @@ inline void UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::Rende
                           { "RenderDoFGaussian",
                             {},
                             { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalResourceData*>(),
-                              ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
+                              ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
                               ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(), ::i2c::type_of<::by_ref<::UnityEngine::Material*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, resourceData, cameraData, source, destination, dofMaterial);
 }
@@ -4982,8 +4992,8 @@ inline float_t UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::Ge
 inline void UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderDoFBokeh(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                                           ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
                                                                                           ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
-                                                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
-                                                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
+                                                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
+                                                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> destination,
                                                                                           ::by_ref<::UnityEngine::Material*> dofMaterial) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -4991,19 +5001,19 @@ inline void UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::Rende
                           { "RenderDoFBokeh",
                             {},
                             { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalResourceData*>(),
-                              ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(), ::i2c::type_of<::by_ref<::UnityEngine::Material*>>() } })));
+                              ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Material*>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, resourceData, cameraData, source, destination, dofMaterial);
 }
 inline void UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderPaniniProjection(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Camera* camera,
-                                                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
+                                                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
                                                                                                   ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
                                                            { "RenderPaniniProjection",
                                                              {},
                                                              { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Camera*>(),
-                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
                                                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, camera, source, destination);
 }
@@ -5053,7 +5063,7 @@ inline void UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::Rende
 inline void UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderMotionBlur(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                                             ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
                                                                                             ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
-                                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
+                                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
                                                                                             ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
@@ -5061,7 +5071,7 @@ inline void UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::Rende
                           { "RenderMotionBlur",
                             {},
                             { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalResourceData*>(),
-                              ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
+                              ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, resourceData, cameraData, source, destination);
 }
@@ -5077,28 +5087,29 @@ inline void UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::Updat
 }
 inline void UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::LensFlareDataDrivenComputeOcclusion(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
-    ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> srcDesc) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
-                          { "LensFlareDataDrivenComputeOcclusion",
-                            {},
-                            { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalResourceData*>(),
-                              ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>() } })));
+    ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> srcDesc) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
+                                       { "LensFlareDataDrivenComputeOcclusion",
+                                         {},
+                                         { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalResourceData*>(),
+                                           ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(),
+                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, resourceData, cameraData, srcDesc);
 }
 inline void UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderLensFlareDataDriven(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
-    ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
-    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> srcDesc) {
+    ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> destination,
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> srcDesc) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
                           { "RenderLensFlareDataDriven",
                             {},
                             { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalResourceData*>(),
-                              ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>() } })));
+                              ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, resourceData, cameraData, destination, srcDesc);
 }
 inline float_t UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::GetLensFlareLightAttenuation(::UnityEngine::Light* light, ::UnityEngine::Camera* cam, ::UnityEngine::Vector3 wo) {
@@ -5109,16 +5120,16 @@ inline float_t UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::Ge
   return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, light, cam, wo);
 }
 inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderLensFlareScreenSpace(
-    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Camera* camera, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> srcDesc,
-    ::UnityEngine::Rendering::RenderGraphModule::TextureHandle originalBloomTexture, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle screenSpaceLensFlareBloomMipTexture,
-    bool sameBloomInputOutputTex) {
+    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Camera* camera,
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> srcDesc, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle originalBloomTexture,
+    ::UnityEngine::Rendering::RenderGraphModule::TextureHandle screenSpaceLensFlareBloomMipTexture, bool sameBloomInputOutputTex) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
                           { "RenderLensFlareScreenSpace",
                             {},
                             { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Camera*>(),
-                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>>(), ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(),
                               ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>(this, ___internal_method, renderGraph, camera, srcDesc, originalBloomTexture,
                                                                                                          screenSpaceLensFlareBloomMipTexture, sameBloomInputOutputTex);
@@ -5135,41 +5146,43 @@ inline void UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::Scale
                               ::i2c::type_of<::UnityEngine::Rendering::RTHandle*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, sourceTextureHdl, dest, cameraData, isActiveTargetBackBuffer);
 }
-inline void UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::ScaleViewportAndBlit(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext> context,
-                                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
-                                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
-                                                                                                ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::UnityEngine::Material* material,
-                                                                                                bool isActiveTargetBackBuffer) {
+inline void
+UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::ScaleViewportAndBlit(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext const> context,
+                                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
+                                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> destination,
+                                                                                    ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::UnityEngine::Material* material,
+                                                                                    bool isActiveTargetBackBuffer) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
                                        { "ScaleViewportAndBlit",
                                          {},
-                                         { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>>(),
-                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
+                                         { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext const>>(),
+                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
                                            ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::UnityEngine::Material*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, context, source, destination, cameraData, material, isActiveTargetBackBuffer);
 }
 inline void UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::ScaleViewportAndDrawVisibilityMesh(
-    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext> context,
-    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
-    ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::UnityEngine::Material* material, bool isActiveTargetBackBuffer) {
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext const> context,
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> destination, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
+    ::UnityEngine::Material* material, bool isActiveTargetBackBuffer) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
                                        { "ScaleViewportAndDrawVisibilityMesh",
                                          {},
-                                         { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>>(),
-                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
+                                         { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext const>>(),
+                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
                                            ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::UnityEngine::Material*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, context, source, destination, cameraData, material, isActiveTargetBackBuffer);
 }
 inline void UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderFinalSetup(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                                             ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
-                                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
-                                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
+                                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
+                                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> destination,
                                                                                             ::by_ref<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph_FinalBlitSettings> settings,
                                                                                             bool isActiveTargetBackBuffer) {
   static auto* ___internal_method =
@@ -5178,59 +5191,59 @@ inline void UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::Rende
                                        { "RenderFinalSetup",
                                          {},
                                          { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(),
-                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
+                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
                                            ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph_FinalBlitSettings>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, cameraData, source, destination, settings, isActiveTargetBackBuffer);
 }
-inline void UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderFinalFSRScale(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
-                                                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
-                                                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> srcDesc,
-                                                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
-                                                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> dstDesc,
-                                                                                               bool enableAlphaOutput) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(
-                       ::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
-                       { "RenderFinalFSRScale",
-                         {},
-                         { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>>(), ::i2c::type_of<bool>() } })));
+inline void UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderFinalFSRScale(
+    ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> srcDesc,
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> destination,
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> dstDesc, bool enableAlphaOutput) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
+          { "RenderFinalFSRScale",
+            {},
+            { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, source, srcDesc, destination, dstDesc, enableAlphaOutput);
 }
-inline void UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderFinalBlit(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
-                                                                                           ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
-                                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
-                                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> overlayUITexture,
-                                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> postProcessingTarget,
-                                                                                           ::by_ref<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph_FinalBlitSettings> settings) {
+inline void
+UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderFinalBlit(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
+                                                                               ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
+                                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
+                                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> overlayUITexture,
+                                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> postProcessingTarget,
+                                                                               ::by_ref<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph_FinalBlitSettings> settings) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
                                        { "RenderFinalBlit",
                                          {},
                                          { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(),
-                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
+                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                                           ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
                                            ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph_FinalBlitSettings>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, cameraData, source, overlayUITexture, postProcessingTarget, settings);
 }
 inline void UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderFinalPassRenderGraph(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
-    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
-    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> overlayUITexture,
-    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> postProcessingTarget, bool enableColorEncodingIfNeeded) {
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> overlayUITexture,
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> postProcessingTarget, bool enableColorEncodingIfNeeded) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
                                               { "RenderFinalPassRenderGraph",
                                                 {},
                                                 { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>(),
-                                                  ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                                                  ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                                                  ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(), ::i2c::type_of<bool>() } })));
+                                                  ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                                                  ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                                                  ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, frameData, source, overlayUITexture, postProcessingTarget, enableColorEncodingIfNeeded);
 }
 inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle
@@ -5242,41 +5255,42 @@ UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::TryGetCachedUserL
 }
 inline void UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderUberPost(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
-    ::UnityEngine::Rendering::Universal::UniversalPostProcessingData* postProcessingData, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> sourceTexture,
-    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destTexture,
-    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> lutTexture,
-    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> bloomTexture,
-    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> overlayUITexture, bool requireHDROutput, bool enableAlphaOutput) {
+    ::UnityEngine::Rendering::Universal::UniversalPostProcessingData* postProcessingData, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> sourceTexture,
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> destTexture,
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> lutTexture,
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> bloomTexture,
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> overlayUITexture, bool requireHDROutput, bool enableAlphaOutput) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
-          { "RenderUberPost",
-            {},
-            { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>(),
-              ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalPostProcessingData*>(),
-              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
+                          { "RenderUberPost",
+                            {},
+                            { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>(),
+                              ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalPostProcessingData*>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, frameData, cameraData, postProcessingData, sourceTexture, destTexture, lutTexture, bloomTexture,
                                                    overlayUITexture, requireHDROutput, enableAlphaOutput);
 }
 inline void UnityEngine::Rendering::Universal::PostProcessPassRenderGraph::RenderPostProcessingRenderGraph(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
-    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> activeCameraColorTexture,
-    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> lutTexture,
-    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> overlayUITexture,
-    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> postProcessingTarget, bool hasFinalPass, bool resolveToDebugScreen, bool enableColorEndingIfNeeded) {
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> activeCameraColorTexture,
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> lutTexture,
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> overlayUITexture,
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> postProcessingTarget, bool hasFinalPass, bool resolveToDebugScreen, bool enableColorEndingIfNeeded) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
-          { "RenderPostProcessingRenderGraph",
-            {},
-            { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>(),
-              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-              ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPassRenderGraph*>(),
+                                              { "RenderPostProcessingRenderGraph",
+                                                {},
+                                                { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(), ::i2c::type_of<::UnityEngine::Rendering::ContextContainer*>(),
+                                                  ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                                                  ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                                                  ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                                                  ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(),
+                                                  ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderGraph, frameData, activeCameraColorTexture, lutTexture, overlayUITexture, postProcessingTarget, hasFinalPass,
                                                    resolveToDebugScreen, enableColorEndingIfNeeded);
 }

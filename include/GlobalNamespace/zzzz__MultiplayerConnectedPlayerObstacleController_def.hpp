@@ -101,7 +101,7 @@ public:
       _multiplayerConnectedPlayerObstacleClippingController;
 
   /// @brief Method Init, addr 0x5dd91cc, size 0x1f8, virtual true, abstract: false, final false
-  inline void Init(::GlobalNamespace::ObstacleData* obstacleData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::ObstacleSpawnData> obstacleSpawnData);
+  inline void Init(::GlobalNamespace::ObstacleData* obstacleData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::ObstacleSpawnData const> obstacleSpawnData);
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerObstacleController* New_ctor();
 

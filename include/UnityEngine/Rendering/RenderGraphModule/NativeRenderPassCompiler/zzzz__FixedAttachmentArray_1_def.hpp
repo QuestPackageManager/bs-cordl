@@ -36,7 +36,7 @@ public:
   __declspec(property(get = get_size)) int32_t size;
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t Add(/* [IsReadOnly] */ ::by_ref<DataType> data);
+  inline int32_t Add(/* [IsReadOnly] */ ::by_ref<DataType const> data);
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Clear();

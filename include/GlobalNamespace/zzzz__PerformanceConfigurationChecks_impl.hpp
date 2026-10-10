@@ -139,7 +139,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamesp
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PerformanceConfigurationChecks::*)(
-    ::by_ref<::BeatSaber::Settings::Settings>, ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::GameplayModifierMask, ::BeatSaber::Automation::RecPlayBehaviourState*)>(
+    ::by_ref<::BeatSaber::Settings::Settings const>, ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::GameplayModifierMask, ::BeatSaber::Automation::RecPlayBehaviourState*)>(
     &::GlobalNamespace::PerformanceConfigurationChecks::SetExpected)> {
   constexpr static std::size_t size = 0x378;
   constexpr static std::size_t addrs = 0x5d0b8ac;
@@ -149,7 +149,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceConfigurationChecks*>(),
                                                              { "SetExpected",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings>>(), ::i2c::type_of<::GlobalNamespace::PlayerSpecificSettings*>(),
+                                                               { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings const>>(), ::i2c::type_of<::GlobalNamespace::PlayerSpecificSettings*>(),
                                                                  ::i2c::type_of<::GlobalNamespace::GameplayModifierMask>(), ::i2c::type_of<::BeatSaber::Automation::RecPlayBehaviourState*>() } })));
     return ___internal_method;
   }
@@ -158,7 +158,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PerformanceConfigurationChecks::*)(
-    ::by_ref<::BeatSaber::Settings::Settings>, ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::GameplayModifierMask, ::BeatSaber::Automation::RecPlayBehaviourState*)>(
+    ::by_ref<::BeatSaber::Settings::Settings const>, ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::GameplayModifierMask, ::BeatSaber::Automation::RecPlayBehaviourState*)>(
     &::GlobalNamespace::PerformanceConfigurationChecks::VerifyExpected)> {
   constexpr static std::size_t size = 0x1530;
   constexpr static std::size_t addrs = 0x5d0bc24;
@@ -168,7 +168,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceConfigurationChecks*>(),
                                                              { "VerifyExpected",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings>>(), ::i2c::type_of<::GlobalNamespace::PlayerSpecificSettings*>(),
+                                                               { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings const>>(), ::i2c::type_of<::GlobalNamespace::PlayerSpecificSettings*>(),
                                                                  ::i2c::type_of<::GlobalNamespace::GameplayModifierMask>(), ::i2c::type_of<::BeatSaber::Automation::RecPlayBehaviourState*>() } })));
     return ___internal_method;
   }
@@ -268,25 +268,25 @@ inline ::StringW GlobalNamespace::PerformanceConfigurationChecks::CreateErrorLog
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceConfigurationChecks*>(), { "CreateErrorLog", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline bool GlobalNamespace::PerformanceConfigurationChecks::SetExpected(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings,
+inline bool GlobalNamespace::PerformanceConfigurationChecks::SetExpected(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings const> settings,
                                                                          ::GlobalNamespace::PlayerSpecificSettings* playerSettings, ::GlobalNamespace::GameplayModifierMask modifiers,
                                                                          ::BeatSaber::Automation::RecPlayBehaviourState* recPlayState) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceConfigurationChecks*>(),
                                                            { "SetExpected",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings>>(), ::i2c::type_of<::GlobalNamespace::PlayerSpecificSettings*>(),
+                                                             { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings const>>(), ::i2c::type_of<::GlobalNamespace::PlayerSpecificSettings*>(),
                                                                ::i2c::type_of<::GlobalNamespace::GameplayModifierMask>(), ::i2c::type_of<::BeatSaber::Automation::RecPlayBehaviourState*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, settings, playerSettings, modifiers, recPlayState);
 }
-inline bool GlobalNamespace::PerformanceConfigurationChecks::VerifyExpected(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings,
+inline bool GlobalNamespace::PerformanceConfigurationChecks::VerifyExpected(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings const> settings,
                                                                             ::GlobalNamespace::PlayerSpecificSettings* playerSettings, ::GlobalNamespace::GameplayModifierMask modifiers,
                                                                             ::BeatSaber::Automation::RecPlayBehaviourState* recPlayState) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceConfigurationChecks*>(),
                                                            { "VerifyExpected",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings>>(), ::i2c::type_of<::GlobalNamespace::PlayerSpecificSettings*>(),
+                                                             { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings const>>(), ::i2c::type_of<::GlobalNamespace::PlayerSpecificSettings*>(),
                                                                ::i2c::type_of<::GlobalNamespace::GameplayModifierMask>(), ::i2c::type_of<::BeatSaber::Automation::RecPlayBehaviourState*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, settings, playerSettings, modifiers, recPlayState);
 }

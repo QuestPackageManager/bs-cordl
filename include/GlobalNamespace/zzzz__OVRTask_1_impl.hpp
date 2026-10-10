@@ -739,9 +739,10 @@ template <typename TResult> inline void GlobalNamespace::OVRTask_1_AwaitableSour
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTask_1_AwaitableSource<TResult>*>(), { "OnReturn", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename TResult> inline void GlobalNamespace::OVRTask_1_AwaitableSource<TResult>::SetResultAndReturnToPool(/* [IsReadOnly] */ ::by_ref<TResult> result) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTask_1_AwaitableSource<TResult>*>(), { "SetResultAndReturnToPool", {}, { ::i2c::type_of<::by_ref<TResult>>() } })));
+template <typename TResult> inline void GlobalNamespace::OVRTask_1_AwaitableSource<TResult>::SetResultAndReturnToPool(/* [IsReadOnly] */ ::by_ref<TResult const> result) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTask_1_AwaitableSource<TResult>*>(), { "SetResultAndReturnToPool", {}, { ::i2c::type_of<::by_ref<TResult const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, result);
 }
 template <typename TResult> inline void GlobalNamespace::OVRTask_1_AwaitableSource<TResult>::_ctor() {

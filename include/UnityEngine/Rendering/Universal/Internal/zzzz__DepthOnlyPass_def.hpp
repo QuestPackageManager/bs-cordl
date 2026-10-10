@@ -247,7 +247,7 @@ public:
 
   /// @brief Method Render, addr 0x6d249e4, size 0x890, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
-                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> depthTexture, uint32_t batchLayerMask, bool setGlobalDepth);
+                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> depthTexture, uint32_t batchLayerMask, bool setGlobalDepth);
 
   /// @brief Method Setup, addr 0x6d247b8, size 0x4, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::RenderTextureDescriptor baseDescriptor, ::UnityEngine::Rendering::RTHandle* depthAttachmentHandle);

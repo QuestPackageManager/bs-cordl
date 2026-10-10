@@ -179,10 +179,10 @@ public:
   inline int32_t GetNumResourcesAvailable();
 
   /// @brief Method GetResourceName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::StringW GetResourceName(/* [IsReadOnly] */ ::by_ref<Type> res);
+  inline ::StringW GetResourceName(/* [IsReadOnly] */ ::by_ref<Type const> res);
 
   /// @brief Method GetResourceSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int64_t GetResourceSize(/* [IsReadOnly] */ ::by_ref<Type> res);
+  inline int64_t GetResourceSize(/* [IsReadOnly] */ ::by_ref<Type const> res);
 
   /// @brief Method GetResourceTypeName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW GetResourceTypeName();

@@ -297,9 +297,9 @@ inline void Unity::Collections::xxHash3_StreamingState::Update(void* input, int3
 }
 template <typename T>
   requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline void Unity::Collections::xxHash3_StreamingState::Update(/* [IsReadOnly] */ ::by_ref<T> input) {
+inline void Unity::Collections::xxHash3_StreamingState::Update(/* [IsReadOnly] */ ::by_ref<T const> input) {
   static auto* ___internal_method_base = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_StreamingState>(), { "Update", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3_StreamingState>(), { "Update", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T const>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, input);
 }
@@ -1468,9 +1468,9 @@ inline ::Unity::Mathematics::uint2 Unity::Collections::xxHash3::Hash64(void* inp
 }
 template <typename T>
   requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline ::Unity::Mathematics::uint2 Unity::Collections::xxHash3::Hash64(/* [IsReadOnly] */ ::by_ref<T> input) {
+inline ::Unity::Mathematics::uint2 Unity::Collections::xxHash3::Hash64(/* [IsReadOnly] */ ::by_ref<T const> input) {
   static auto* ___internal_method_base =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3*>(), { "Hash64", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3*>(), { "Hash64", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T const>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Mathematics::uint2>(nullptr, ___internal_method, input);
 }
@@ -1487,9 +1487,9 @@ inline ::Unity::Mathematics::uint4 Unity::Collections::xxHash3::Hash128(void* in
 }
 template <typename T>
   requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline ::Unity::Mathematics::uint4 Unity::Collections::xxHash3::Hash128(/* [IsReadOnly] */ ::by_ref<T> input) {
+inline ::Unity::Mathematics::uint4 Unity::Collections::xxHash3::Hash128(/* [IsReadOnly] */ ::by_ref<T const> input) {
   static auto* ___internal_method_base =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3*>(), { "Hash128", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::xxHash3*>(), { "Hash128", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T const>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Mathematics::uint4>(nullptr, ___internal_method, input);
 }

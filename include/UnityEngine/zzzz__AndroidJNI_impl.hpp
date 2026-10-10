@@ -3396,14 +3396,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Int
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.ReleaseStringChars_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::AndroidJNI_JStringBinding>)>(&::UnityEngine::AndroidJNI::ReleaseStringChars_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::AndroidJNI_JStringBinding const>)>(&::UnityEngine::AndroidJNI::ReleaseStringChars_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6e71c98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNI*>(), { "ReleaseStringChars_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::AndroidJNI_JStringBinding>>() } })));
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNI*>(), { "ReleaseStringChars_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::AndroidJNI_JStringBinding const>>() } })));
     return ___internal_method;
   }
 };
@@ -5180,10 +5180,10 @@ inline int32_t UnityEngine::AndroidJNI::UnregisterNatives(::System::IntPtr clazz
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNI*>(), { "UnregisterNatives", {}, { ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, clazz);
 }
-inline void UnityEngine::AndroidJNI::ReleaseStringChars_Injected(::by_ref<::UnityEngine::AndroidJNI_JStringBinding> str) {
+inline void UnityEngine::AndroidJNI::ReleaseStringChars_Injected(::by_ref<::UnityEngine::AndroidJNI_JStringBinding const> str) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNI*>(), { "ReleaseStringChars_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::AndroidJNI_JStringBinding>>() } })));
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::AndroidJNI*>(), { "ReleaseStringChars_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::AndroidJNI_JStringBinding const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, str);
 }
 inline ::System::IntPtr UnityEngine::AndroidJNI::FindClass_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name) {

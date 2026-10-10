@@ -132,7 +132,7 @@ public:
   inline ::UnityEngine::Rect Remove(::UnityEngine::Rect rect);
 
   /// @brief Method Remove_Injected, addr 0x6ed6318, size 0x54, virtual false, abstract: false, final false
-  static inline void Remove_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rect> rect, ::by_ref<::UnityEngine::Rect> ret);
+  static inline void Remove_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rect const> rect, ::by_ref<::UnityEngine::Rect> ret);
 
   /// @brief Method ToString, addr 0x6ed5bdc, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();

@@ -202,7 +202,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::C
 //  Writing Method size for method: ::UnityEngine::Caching.ClearCachedVersionInternal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Hash128>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Hash128 const>)>(
     &::UnityEngine::Caching::ClearCachedVersionInternal_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6ebbfa4;
@@ -212,14 +212,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
         ::i2c::no_logger{},
         (::i2c::find_method(
             ::i2c::class_of<::UnityEngine::Caching*>(),
-            { "ClearCachedVersionInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Hash128>>() } })));
+            { "ClearCachedVersionInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Hash128 const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Caching.ClearCachedVersions_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Hash128>, bool)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Hash128 const>, bool)>(
     &::UnityEngine::Caching::ClearCachedVersions_Injected)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x6ebc1f8;
@@ -229,7 +229,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Caching*>(), { "ClearCachedVersions_Injected",
                                                                                                            {},
                                                                                                            { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(),
-                                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Hash128>>(), ::i2c::type_of<bool>() } })));
+                                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Hash128 const>>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -237,17 +237,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>,
-                                                                ::by_ref<::UnityEngine::Hash128>)>(&::UnityEngine::Caching::IsVersionCached_Injected)> {
+                                                                ::by_ref<::UnityEngine::Hash128 const>)>(&::UnityEngine::Caching::IsVersionCached_Injected)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x6ebc4b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Caching*>(),
-                                                             { "IsVersionCached_Injected",
-                                                               {},
-                                                               { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(),
-                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Hash128>>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Caching*>(), { "IsVersionCached_Injected",
+                                                                                                           {},
+                                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(),
+                                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(),
+                                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Hash128 const>>() } })));
     return ___internal_method;
   }
 };
@@ -313,13 +313,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::Caching.set_currentCacheForWriting_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Cache>)>(&::UnityEngine::Caching::set_currentCacheForWriting_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Cache const>)>(&::UnityEngine::Caching::set_currentCacheForWriting_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6ebcb6c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Caching*>(), { "set_currentCacheForWriting_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Cache>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Caching*>(), { "set_currentCacheForWriting_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Cache const>>() } })));
     return ___internal_method;
   }
 };
@@ -396,30 +397,31 @@ inline void UnityEngine::Caching::set_currentCacheForWriting(::UnityEngine::Cach
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Caching*>(), { "set_currentCacheForWriting", {}, { ::i2c::type_of<::UnityEngine::Cache>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
-inline bool UnityEngine::Caching::ClearCachedVersionInternal_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> assetBundleName, ::by_ref<::UnityEngine::Hash128> hash) {
+inline bool UnityEngine::Caching::ClearCachedVersionInternal_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> assetBundleName, ::by_ref<::UnityEngine::Hash128 const> hash) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
           ::i2c::class_of<::UnityEngine::Caching*>(),
-          { "ClearCachedVersionInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Hash128>>() } })));
+          { "ClearCachedVersionInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Hash128 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, assetBundleName, hash);
 }
-inline bool UnityEngine::Caching::ClearCachedVersions_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> assetBundleName, ::by_ref<::UnityEngine::Hash128> hash, bool keepInputVersion) {
+inline bool UnityEngine::Caching::ClearCachedVersions_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> assetBundleName, ::by_ref<::UnityEngine::Hash128 const> hash,
+                                                               bool keepInputVersion) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Caching*>(), { "ClearCachedVersions_Injected",
                                                                                                          {},
                                                                                                          { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(),
-                                                                                                           ::i2c::type_of<::by_ref<::UnityEngine::Hash128>>(), ::i2c::type_of<bool>() } })));
+                                                                                                           ::i2c::type_of<::by_ref<::UnityEngine::Hash128 const>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, assetBundleName, hash, keepInputVersion);
 }
 inline bool UnityEngine::Caching::IsVersionCached_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> url, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> assetBundleName,
-                                                           ::by_ref<::UnityEngine::Hash128> hash) {
+                                                           ::by_ref<::UnityEngine::Hash128 const> hash) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Caching*>(),
                                                            { "IsVersionCached_Injected",
                                                              {},
                                                              { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(),
-                                                               ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Hash128>>() } })));
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Hash128 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, url, assetBundleName, hash);
 }
 inline void UnityEngine::Caching::AddCache_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> cachePath, bool isReadonly, ::by_ref<::UnityEngine::Cache> ret) {
@@ -447,9 +449,9 @@ inline void UnityEngine::Caching::get_currentCacheForWriting_Injected(::by_ref<:
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Caching*>(), { "get_currentCacheForWriting_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Cache>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ret);
 }
-inline void UnityEngine::Caching::set_currentCacheForWriting_Injected(::by_ref<::UnityEngine::Cache> value) {
+inline void UnityEngine::Caching::set_currentCacheForWriting_Injected(::by_ref<::UnityEngine::Cache const> value) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Caching*>(), { "set_currentCacheForWriting_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Cache>>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Caching*>(), { "set_currentCacheForWriting_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Cache const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
 // Ctor Parameters []

@@ -224,13 +224,13 @@ template <typename TSource, typename TDestination> inline bool Unity::Properties
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, source, destination);
 }
 template <typename TSource, typename TDestination>
-inline bool Unity::Properties::TypeConversion::TryConvert(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::ConversionRegistry> registry, ::by_ref<TSource> source, ::by_ref<TDestination> destination) {
-  static auto* ___internal_method_base =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::Unity::Properties::TypeConversion*>(),
-                                       { "TryConvert",
-                                         { ::i2c::class_of<TSource>(), ::i2c::class_of<TDestination>() },
-                                         { ::i2c::type_of<::by_ref<::Unity::Properties::ConversionRegistry>>(), ::i2c::type_of<::by_ref<TSource>>(), ::i2c::type_of<::by_ref<TDestination>>() } })));
+inline bool Unity::Properties::TypeConversion::TryConvert(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::ConversionRegistry const> registry, ::by_ref<TSource> source,
+                                                          ::by_ref<TDestination> destination) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::TypeConversion*>(), { "TryConvert",
+                                                                                                         { ::i2c::class_of<TSource>(), ::i2c::class_of<TDestination>() },
+                                                                                                         { ::i2c::type_of<::by_ref<::Unity::Properties::ConversionRegistry const>>(),
+                                                                                                           ::i2c::type_of<::by_ref<TSource>>(), ::i2c::type_of<::by_ref<TDestination>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TSource>(), ::i2c::class_of<TDestination>() })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, registry, source, destination);
 }

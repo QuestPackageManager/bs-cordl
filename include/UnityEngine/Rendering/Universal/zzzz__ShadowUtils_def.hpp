@@ -148,7 +148,7 @@ public:
   static inline int32_t GetMaxTileResolutionInAtlas(int32_t atlasWidth, int32_t atlasHeight, int32_t tileCount);
 
   /// @brief Method GetPunctualLightShadowSlicesCount, addr 0x6cf2d10, size 0x1c, virtual false, abstract: false, final false
-  static inline int32_t GetPunctualLightShadowSlicesCount(/* [IsReadOnly] */ ::by_ref<::UnityEngine::LightType> lightType);
+  static inline int32_t GetPunctualLightShadowSlicesCount(/* [IsReadOnly] */ ::by_ref<::UnityEngine::LightType const> lightType);
 
   /// @brief Method GetScaleAndBiasForLinearDistanceFade, addr 0x6cf40f4, size 0x54, virtual false, abstract: false, final false
   static inline void GetScaleAndBiasForLinearDistanceFade(float_t fadeDistance, float_t border, ::by_ref<float_t> scale, ::by_ref<float_t> bias);

@@ -812,25 +812,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
 //  Writing Method size for method: ::UnityEngine::Graphics.Internal_SetRTSimple_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::RenderBuffer>, ::by_ref<::UnityEngine::RenderBuffer>, int32_t, ::UnityEngine::CubemapFace, int32_t)>(
-    &::UnityEngine::Graphics::Internal_SetRTSimple_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::RenderBuffer const>, ::by_ref<::UnityEngine::RenderBuffer const>, int32_t, ::UnityEngine::CubemapFace,
+                                                                int32_t)>(&::UnityEngine::Graphics::Internal_SetRTSimple_Injected)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x6ed8afc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Graphics*>(), { "Internal_SetRTSimple_Injected",
-                                                                           {},
-                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::RenderBuffer>>(), ::i2c::type_of<::by_ref<::UnityEngine::RenderBuffer>>(),
-                                                                             ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::CubemapFace>(), ::i2c::type_of<int32_t>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Graphics*>(),
+                                                             { "Internal_SetRTSimple_Injected",
+                                                               {},
+                                                               { ::i2c::type_of<::by_ref<::UnityEngine::RenderBuffer const>>(), ::i2c::type_of<::by_ref<::UnityEngine::RenderBuffer const>>(),
+                                                                 ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::CubemapFace>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Graphics.Internal_SetMRTFullSetup_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::RenderBuffer>, int32_t, ::UnityEngine::CubemapFace,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::RenderBuffer const>, int32_t, ::UnityEngine::CubemapFace,
                                                                 int32_t, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>,
                                                                 ::UnityEngine::Rendering::RenderBufferLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction)>(
     &::UnityEngine::Graphics::Internal_SetMRTFullSetup_Injected)> {
@@ -842,7 +842,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Graphics*>(),
                                                 { "Internal_SetMRTFullSetup_Injected",
                                                   {},
-                                                  { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::RenderBuffer>>(),
+                                                  { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::RenderBuffer const>>(),
                                                     ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::CubemapFace>(), ::i2c::type_of<int32_t>(),
                                                     ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(),
                                                     ::i2c::type_of<::UnityEngine::Rendering::RenderBufferLoadAction>(), ::i2c::type_of<::UnityEngine::Rendering::RenderBufferStoreAction>() } })));
@@ -887,7 +887,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
 //  Writing Method size for method: ::UnityEngine::Graphics.Internal_DrawMeshNow2_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, ::by_ref<::UnityEngine::Matrix4x4>)>(&::UnityEngine::Graphics::Internal_DrawMeshNow2_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, ::by_ref<::UnityEngine::Matrix4x4 const>)>(&::UnityEngine::Graphics::Internal_DrawMeshNow2_Injected)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x6ed92d4;
 
@@ -895,14 +895,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::UnityEngine::Graphics*>(),
-                            { "Internal_DrawMeshNow2_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
+                            { "Internal_DrawMeshNow2_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Graphics.Internal_DrawMesh_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, ::by_ref<::UnityEngine::Matrix4x4>, ::System::IntPtr, int32_t, ::System::IntPtr, ::System::IntPtr,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, ::by_ref<::UnityEngine::Matrix4x4 const>, ::System::IntPtr, int32_t, ::System::IntPtr, ::System::IntPtr,
                                                                 ::UnityEngine::Rendering::ShadowCastingMode, bool, ::System::IntPtr, ::UnityEngine::Rendering::LightProbeUsage, ::System::IntPtr)>(
     &::UnityEngine::Graphics::Internal_DrawMesh_Injected)> {
   constexpr static std::size_t size = 0xc4;
@@ -914,7 +914,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
         (::i2c::find_method(::i2c::class_of<::UnityEngine::Graphics*>(),
                             { "Internal_DrawMesh_Injected",
                               {},
-                              { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::System::IntPtr>(),
+                              { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>(), ::i2c::type_of<::System::IntPtr>(),
                                 ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::UnityEngine::Rendering::ShadowCastingMode>(),
                                 ::i2c::type_of<bool>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::UnityEngine::Rendering::LightProbeUsage>(), ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
@@ -945,8 +945,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (*)(::System::IntPtr, int32_t, ::System::IntPtr, ::by_ref<::UnityEngine::Bounds>, ::System::IntPtr, int32_t, ::System::IntPtr, ::UnityEngine::Rendering::ShadowCastingMode, bool,
-                         int32_t, ::System::IntPtr, ::UnityEngine::Rendering::LightProbeUsage, ::System::IntPtr)>(&::UnityEngine::Graphics::Internal_DrawMeshInstancedIndirect_Injected)> {
+    static_cast<void (*)(::System::IntPtr, int32_t, ::System::IntPtr, ::by_ref<::UnityEngine::Bounds const>, ::System::IntPtr, int32_t, ::System::IntPtr, ::UnityEngine::Rendering::ShadowCastingMode,
+                         bool, int32_t, ::System::IntPtr, ::UnityEngine::Rendering::LightProbeUsage, ::System::IntPtr)>(&::UnityEngine::Graphics::Internal_DrawMeshInstancedIndirect_Injected)> {
   constexpr static std::size_t size = 0xc4;
   constexpr static std::size_t addrs = 0x6ed9b6c;
 
@@ -956,7 +956,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                      (::i2c::find_method(::i2c::class_of<::UnityEngine::Graphics*>(),
                                          { "Internal_DrawMeshInstancedIndirect_Injected",
                                            {},
-                                           { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Bounds>>(),
+                                           { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Bounds const>>(),
                                              ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::IntPtr>(),
                                              ::i2c::type_of<::UnityEngine::Rendering::ShadowCastingMode>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::IntPtr>(),
                                              ::i2c::type_of<::UnityEngine::Rendering::LightProbeUsage>(), ::i2c::type_of<::System::IntPtr>() } })));
@@ -995,18 +995,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
 //  Writing Method size for method: ::UnityEngine::Graphics.Blit4_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::by_ref<::UnityEngine::Vector2>, ::by_ref<::UnityEngine::Vector2>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::by_ref<::UnityEngine::Vector2 const>, ::by_ref<::UnityEngine::Vector2 const>)>(
     &::UnityEngine::Graphics::Blit4_Injected)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x6eda07c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Graphics*>(), { "Blit4_Injected",
-                                                                                        {},
-                                                                                        { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>(),
-                                                                                          ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Graphics*>(), { "Blit4_Injected",
+                                                                           {},
+                                                                           { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>(),
+                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>() } })));
     return ___internal_method;
   }
 };
@@ -1445,17 +1445,17 @@ inline void UnityEngine::Graphics::SetRenderTarget(::UnityEngine::RenderTexture*
                                        { "SetRenderTarget", {}, { ::i2c::type_of<::UnityEngine::RenderTexture*>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::CubemapFace>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, rt, mipLevel, face);
 }
-inline void UnityEngine::Graphics::Internal_SetRTSimple_Injected(::by_ref<::UnityEngine::RenderBuffer> color, ::by_ref<::UnityEngine::RenderBuffer> depth, int32_t mip, ::UnityEngine::CubemapFace face,
-                                                                 int32_t depthSlice) {
+inline void UnityEngine::Graphics::Internal_SetRTSimple_Injected(::by_ref<::UnityEngine::RenderBuffer const> color, ::by_ref<::UnityEngine::RenderBuffer const> depth, int32_t mip,
+                                                                 ::UnityEngine::CubemapFace face, int32_t depthSlice) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Graphics*>(), { "Internal_SetRTSimple_Injected",
                                                                          {},
-                                                                         { ::i2c::type_of<::by_ref<::UnityEngine::RenderBuffer>>(), ::i2c::type_of<::by_ref<::UnityEngine::RenderBuffer>>(),
+                                                                         { ::i2c::type_of<::by_ref<::UnityEngine::RenderBuffer const>>(), ::i2c::type_of<::by_ref<::UnityEngine::RenderBuffer const>>(),
                                                                            ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::CubemapFace>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, color, depth, mip, face, depthSlice);
 }
-inline void UnityEngine::Graphics::Internal_SetMRTFullSetup_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> color, ::by_ref<::UnityEngine::RenderBuffer> depth, int32_t mip,
+inline void UnityEngine::Graphics::Internal_SetMRTFullSetup_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> color, ::by_ref<::UnityEngine::RenderBuffer const> depth, int32_t mip,
                                                                      ::UnityEngine::CubemapFace face, int32_t depthSlice, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> colorLA,
                                                                      ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> colorSA, ::UnityEngine::Rendering::RenderBufferLoadAction depthLA,
                                                                      ::UnityEngine::Rendering::RenderBufferStoreAction depthSA) {
@@ -1463,7 +1463,7 @@ inline void UnityEngine::Graphics::Internal_SetMRTFullSetup_Injected(::by_ref<::
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Graphics*>(),
                                               { "Internal_SetMRTFullSetup_Injected",
                                                 {},
-                                                { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::RenderBuffer>>(),
+                                                { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::RenderBuffer const>>(),
                                                   ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::CubemapFace>(), ::i2c::type_of<int32_t>(),
                                                   ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(),
                                                   ::i2c::type_of<::UnityEngine::Rendering::RenderBufferLoadAction>(), ::i2c::type_of<::UnityEngine::Rendering::RenderBufferStoreAction>() } })));
@@ -1488,14 +1488,14 @@ inline void UnityEngine::Graphics::CopyTexture_Region_Injected(::System::IntPtr 
                                                                            ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, src, srcElement, srcMip, srcX, srcY, srcWidth, srcHeight, dst, dstElement, dstMip, dstX, dstY);
 }
-inline void UnityEngine::Graphics::Internal_DrawMeshNow2_Injected(::System::IntPtr mesh, int32_t subsetIndex, ::by_ref<::UnityEngine::Matrix4x4> matrix) {
+inline void UnityEngine::Graphics::Internal_DrawMeshNow2_Injected(::System::IntPtr mesh, int32_t subsetIndex, ::by_ref<::UnityEngine::Matrix4x4 const> matrix) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Graphics*>(),
-                          { "Internal_DrawMeshNow2_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
+                          { "Internal_DrawMeshNow2_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, mesh, subsetIndex, matrix);
 }
-inline void UnityEngine::Graphics::Internal_DrawMesh_Injected(::System::IntPtr mesh, int32_t submeshIndex, ::by_ref<::UnityEngine::Matrix4x4> matrix, ::System::IntPtr material, int32_t layer,
+inline void UnityEngine::Graphics::Internal_DrawMesh_Injected(::System::IntPtr mesh, int32_t submeshIndex, ::by_ref<::UnityEngine::Matrix4x4 const> matrix, ::System::IntPtr material, int32_t layer,
                                                               ::System::IntPtr camera, ::System::IntPtr properties, ::UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows,
                                                               ::System::IntPtr probeAnchor, ::UnityEngine::Rendering::LightProbeUsage lightProbeUsage, ::System::IntPtr lightProbeProxyVolume) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1503,7 +1503,7 @@ inline void UnityEngine::Graphics::Internal_DrawMesh_Injected(::System::IntPtr m
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Graphics*>(),
                           { "Internal_DrawMesh_Injected",
                             {},
-                            { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::System::IntPtr>(),
+                            { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>(), ::i2c::type_of<::System::IntPtr>(),
                               ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::UnityEngine::Rendering::ShadowCastingMode>(),
                               ::i2c::type_of<bool>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::UnityEngine::Rendering::LightProbeUsage>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, mesh, submeshIndex, matrix, material, layer, camera, properties, castShadows, receiveShadows, probeAnchor,
@@ -1524,7 +1524,7 @@ inline void UnityEngine::Graphics::Internal_DrawMeshInstanced_Injected(::System:
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, mesh, submeshIndex, material, matrices, count, properties, castShadows, receiveShadows, layer, camera, lightProbeUsage,
                                                    lightProbeProxyVolume);
 }
-inline void UnityEngine::Graphics::Internal_DrawMeshInstancedIndirect_Injected(::System::IntPtr mesh, int32_t submeshIndex, ::System::IntPtr material, ::by_ref<::UnityEngine::Bounds> bounds,
+inline void UnityEngine::Graphics::Internal_DrawMeshInstancedIndirect_Injected(::System::IntPtr mesh, int32_t submeshIndex, ::System::IntPtr material, ::by_ref<::UnityEngine::Bounds const> bounds,
                                                                                ::System::IntPtr bufferWithArgs, int32_t argsOffset, ::System::IntPtr properties,
                                                                                ::UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows, int32_t layer, ::System::IntPtr camera,
                                                                                ::UnityEngine::Rendering::LightProbeUsage lightProbeUsage, ::System::IntPtr lightProbeProxyVolume) {
@@ -1532,10 +1532,10 @@ inline void UnityEngine::Graphics::Internal_DrawMeshInstancedIndirect_Injected(:
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Graphics*>(),
                                               { "Internal_DrawMeshInstancedIndirect_Injected",
                                                 {},
-                                                { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Bounds>>(),
-                                                  ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::IntPtr>(),
-                                                  ::i2c::type_of<::UnityEngine::Rendering::ShadowCastingMode>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::IntPtr>(),
-                                                  ::i2c::type_of<::UnityEngine::Rendering::LightProbeUsage>(), ::i2c::type_of<::System::IntPtr>() } })));
+                                                { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::IntPtr>(),
+                                                  ::i2c::type_of<::by_ref<::UnityEngine::Bounds const>>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(),
+                                                  ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::UnityEngine::Rendering::ShadowCastingMode>(), ::i2c::type_of<bool>(), ::i2c::type_of<int32_t>(),
+                                                  ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::UnityEngine::Rendering::LightProbeUsage>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, mesh, submeshIndex, material, bounds, bufferWithArgs, argsOffset, properties, castShadows, receiveShadows, layer,
                                                    camera, lightProbeUsage, lightProbeProxyVolume);
 }
@@ -1552,13 +1552,13 @@ inline void UnityEngine::Graphics::Blit2_Injected(::System::IntPtr source, ::Sys
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Graphics*>(), { "Blit2_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, source, dest);
 }
-inline void UnityEngine::Graphics::Blit4_Injected(::System::IntPtr source, ::System::IntPtr dest, ::by_ref<::UnityEngine::Vector2> scale, ::by_ref<::UnityEngine::Vector2> offset) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Graphics*>(), { "Blit4_Injected",
-                                                                                      {},
-                                                                                      { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>(),
-                                                                                        ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
+inline void UnityEngine::Graphics::Blit4_Injected(::System::IntPtr source, ::System::IntPtr dest, ::by_ref<::UnityEngine::Vector2 const> scale, ::by_ref<::UnityEngine::Vector2 const> offset) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Graphics*>(), { "Blit4_Injected",
+                                                                         {},
+                                                                         { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>(),
+                                                                           ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, source, dest, scale, offset);
 }
 inline void UnityEngine::Graphics::ExecuteCommandBuffer_Injected(::System::IntPtr buffer) {

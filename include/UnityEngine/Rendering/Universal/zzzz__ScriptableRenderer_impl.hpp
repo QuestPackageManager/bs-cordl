@@ -1354,7 +1354,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::ScriptableRenderer.SetupRenderPasses
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScriptableRenderer::*)(::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScriptableRenderer::*)(::by_ref<::UnityEngine::Rendering::Universal::RenderingData const>)>(
     &::UnityEngine::Rendering::Universal::ScriptableRenderer::SetupRenderPasses)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6c9b350;
@@ -1362,7 +1362,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRenderer*>(),
-                                                             { "SetupRenderPasses", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::RenderingData>>() } })));
+                                                             { "SetupRenderPasses", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::RenderingData const>>() } })));
     return ___internal_method;
   }
 };
@@ -1510,25 +1510,26 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::ScriptableRenderer.CalculateBillboardProperties
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<float_t>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Matrix4x4 const>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<float_t>)>(
     &::UnityEngine::Rendering::Universal::ScriptableRenderer::CalculateBillboardProperties)> {
   constexpr static std::size_t size = 0x410;
   constexpr static std::size_t addrs = 0x6c9c208;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRenderer*>(),
-                                                                                           { "CalculateBillboardProperties",
-                                                                                             {},
-                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<float_t>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRenderer*>(),
+                                                             { "CalculateBillboardProperties",
+                                                               {},
+                                                               { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<float_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::ScriptableRenderer.SetPerCameraClippingPlaneProperties
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScriptableRenderer::*)(::UnityEngine::Rendering::RasterCommandBuffer*,
-                                                                                                                         ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData*>, bool)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScriptableRenderer::*)(
+    ::UnityEngine::Rendering::RasterCommandBuffer*, ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData* const>, bool)>(
     &::UnityEngine::Rendering::Universal::ScriptableRenderer::SetPerCameraClippingPlaneProperties)> {
   constexpr static std::size_t size = 0x22c;
   constexpr static std::size_t addrs = 0x6c9c618;
@@ -1539,7 +1540,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                              { "SetPerCameraClippingPlaneProperties",
                                                                {},
                                                                { ::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>(),
-                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData*>>(), ::i2c::type_of<bool>() } })));
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData* const>>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -2186,7 +2187,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::ScriptableRenderer.OnPreCullRenderPasses
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScriptableRenderer::*)(::by_ref<::UnityEngine::Rendering::Universal::CameraData>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScriptableRenderer::*)(::by_ref<::UnityEngine::Rendering::Universal::CameraData const>)>(
     &::UnityEngine::Rendering::Universal::ScriptableRenderer::OnPreCullRenderPasses)> {
   constexpr static std::size_t size = 0xd0;
   constexpr static std::size_t addrs = 0x6c9fa08;
@@ -2194,7 +2195,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRenderer*>(),
-                                                             { "OnPreCullRenderPasses", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::CameraData>>() } })));
+                                                             { "OnPreCullRenderPasses", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::CameraData const>>() } })));
     return ___internal_method;
   }
 };
@@ -2757,10 +2758,10 @@ inline void UnityEngine::Rendering::Universal::ScriptableRenderer::Execute(::Uni
                           { "Execute", {}, { ::i2c::type_of<::UnityEngine::Rendering::ScriptableRenderContext>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::RenderingData>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, context, renderingData);
 }
-inline void UnityEngine::Rendering::Universal::ScriptableRenderer::SetupRenderPasses(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
+inline void UnityEngine::Rendering::Universal::ScriptableRenderer::SetupRenderPasses(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::RenderingData const> renderingData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRenderer*>(),
-                                                           { "SetupRenderPasses", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::RenderingData>>() } })));
+                                                           { "SetupRenderPasses", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::RenderingData const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderingData);
 }
 inline int32_t UnityEngine::Rendering::Universal::ScriptableRenderer::SupportedCameraStackingTypes() {
@@ -2824,24 +2825,25 @@ inline void UnityEngine::Rendering::Universal::ScriptableRenderer::SetPerCameraB
                                                 { ::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd, cameraData);
 }
-inline void UnityEngine::Rendering::Universal::ScriptableRenderer::CalculateBillboardProperties(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> worldToCameraMatrix,
+inline void UnityEngine::Rendering::Universal::ScriptableRenderer::CalculateBillboardProperties(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4 const> worldToCameraMatrix,
                                                                                                 ::by_ref<::UnityEngine::Vector3> billboardTangent, ::by_ref<::UnityEngine::Vector3> billboardNormal,
                                                                                                 ::by_ref<float_t> cameraXZAngle) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRenderer*>(),
-                                                                                         { "CalculateBillboardProperties",
-                                                                                           {},
-                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<float_t>>() } })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRenderer*>(),
+                                                           { "CalculateBillboardProperties",
+                                                             {},
+                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<float_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, worldToCameraMatrix, billboardTangent, billboardNormal, cameraXZAngle);
 }
 inline void UnityEngine::Rendering::Universal::ScriptableRenderer::SetPerCameraClippingPlaneProperties(
-    ::UnityEngine::Rendering::RasterCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData*> cameraData, bool isTargetFlipped) {
+    ::UnityEngine::Rendering::RasterCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData* const> cameraData, bool isTargetFlipped) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRenderer*>(),
                                                            { "SetPerCameraClippingPlaneProperties",
                                                              {},
                                                              { ::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>(),
-                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData*>>(), ::i2c::type_of<bool>() } })));
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData* const>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cmd, cameraData, isTargetFlipped);
 }
 inline void UnityEngine::Rendering::Universal::ScriptableRenderer::SetShaderTimeValues(::UnityEngine::Rendering::IBaseCommandBuffer* cmd, float_t time, float_t deltaTime, float_t smoothDeltaTime) {
@@ -3116,10 +3118,10 @@ inline ::UnityEngine::Rendering::ClearFlag UnityEngine::Rendering::Universal::Sc
                                                            { "GetCameraClearFlag", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::ClearFlag>(nullptr, ___internal_method, cameraData);
 }
-inline void UnityEngine::Rendering::Universal::ScriptableRenderer::OnPreCullRenderPasses(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData) {
+inline void UnityEngine::Rendering::Universal::ScriptableRenderer::OnPreCullRenderPasses(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData const> cameraData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRenderer*>(),
-                                                           { "OnPreCullRenderPasses", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::CameraData>>() } })));
+                                                           { "OnPreCullRenderPasses", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::CameraData const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cameraData);
 }
 inline void UnityEngine::Rendering::Universal::ScriptableRenderer::AddRenderPasses(::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {

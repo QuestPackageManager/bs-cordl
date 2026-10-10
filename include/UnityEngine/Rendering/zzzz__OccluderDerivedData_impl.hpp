@@ -7,21 +7,23 @@
 //  Writing Method size for method: ::UnityEngine::Rendering::OccluderDerivedData.FromParameters
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::OccluderDerivedData (*)(::by_ref<::UnityEngine::Rendering::OccluderSubviewUpdate>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::OccluderDerivedData (*)(::by_ref<::UnityEngine::Rendering::OccluderSubviewUpdate const>)>(
     &::UnityEngine::Rendering::OccluderDerivedData::FromParameters)> {
   constexpr static std::size_t size = 0x2a8;
   constexpr static std::size_t addrs = 0x6c646cc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OccluderDerivedData>(),
-                                                                                           { "FromParameters", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderSubviewUpdate>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OccluderDerivedData>(),
+                                                             { "FromParameters", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderSubviewUpdate const>>() } })));
     return ___internal_method;
   }
 };
 inline ::UnityEngine::Rendering::OccluderDerivedData
-UnityEngine::Rendering::OccluderDerivedData::FromParameters(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderSubviewUpdate> occluderSubviewUpdate) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OccluderDerivedData>(),
-                                                                                         { "FromParameters", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderSubviewUpdate>>() } })));
+UnityEngine::Rendering::OccluderDerivedData::FromParameters(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderSubviewUpdate const> occluderSubviewUpdate) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OccluderDerivedData>(),
+                                                           { "FromParameters", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderSubviewUpdate const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::OccluderDerivedData>(nullptr, ___internal_method, occluderSubviewUpdate);
 }
 // Ctor Parameters [CppParam { name: "viewProjMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "viewOriginWorldSpace", ty:

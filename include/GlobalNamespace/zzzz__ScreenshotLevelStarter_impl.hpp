@@ -1011,20 +1011,20 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IE
 //  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter.SaveMetadata
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command, ::StringW, ::by_ref<::BeatSaber::Settings::Settings>,
-                                                                ::by_ref<::GlobalNamespace::PlayerSpecificSettings*>, ::by_ref<::GlobalNamespace::GameplayModifiers*>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command, ::StringW, ::by_ref<::BeatSaber::Settings::Settings const>,
+                                                                ::by_ref<::GlobalNamespace::PlayerSpecificSettings* const>, ::by_ref<::GlobalNamespace::GameplayModifiers* const>)>(
     &::GlobalNamespace::ScreenshotLevelStarter::SaveMetadata)> {
   constexpr static std::size_t size = 0x158;
   constexpr static std::size_t addrs = 0x5d2d400;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(),
-                                                             { "SaveMetadata",
-                                                               {},
-                                                               { ::i2c::type_of<::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command>(), ::i2c::type_of<::StringW>(),
-                                                                 ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::PlayerSpecificSettings*>>(),
-                                                                 ::i2c::type_of<::by_ref<::GlobalNamespace::GameplayModifiers*>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(),
+                                                { "SaveMetadata",
+                                                  {},
+                                                  { ::i2c::type_of<::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command>(), ::i2c::type_of<::StringW>(),
+                                                    ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings const>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::PlayerSpecificSettings* const>>(),
+                                                    ::i2c::type_of<::by_ref<::GlobalNamespace::GameplayModifiers* const>>() } })));
     return ___internal_method;
   }
 };
@@ -1044,14 +1044,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::G
 //  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter.SaveBuildSpecificMetadata
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::by_ref<::StringW>)>(&::GlobalNamespace::ScreenshotLevelStarter::SaveBuildSpecificMetadata)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::by_ref<::StringW const>)>(&::GlobalNamespace::ScreenshotLevelStarter::SaveBuildSpecificMetadata)> {
   constexpr static std::size_t size = 0xf0;
   constexpr static std::size_t addrs = 0x5d2d98c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(),
-                                                             { "SaveBuildSpecificMetadata", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
+                                                             { "SaveBuildSpecificMetadata", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::StringW const>>() } })));
     return ___internal_method;
   }
 };
@@ -1309,16 +1309,16 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::ScreenshotLevelStart
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method, command);
 }
 inline void GlobalNamespace::ScreenshotLevelStarter::SaveMetadata(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command command, ::StringW metadataFolderPath,
-                                                                  /* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings,
-                                                                  /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::PlayerSpecificSettings*> playerSpecificSettings,
-                                                                  /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayModifiers*> gameplayModifiers) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(),
-                                                           { "SaveMetadata",
-                                                             {},
-                                                             { ::i2c::type_of<::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command>(), ::i2c::type_of<::StringW>(),
-                                                               ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::PlayerSpecificSettings*>>(),
-                                                               ::i2c::type_of<::by_ref<::GlobalNamespace::GameplayModifiers*>>() } })));
+                                                                  /* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings const> settings,
+                                                                  /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::PlayerSpecificSettings* const> playerSpecificSettings,
+                                                                  /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayModifiers* const> gameplayModifiers) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(),
+                                              { "SaveMetadata",
+                                                {},
+                                                { ::i2c::type_of<::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command>(), ::i2c::type_of<::StringW>(),
+                                                  ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings const>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::PlayerSpecificSettings* const>>(),
+                                                  ::i2c::type_of<::by_ref<::GlobalNamespace::GameplayModifiers* const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, command, metadataFolderPath, settings, playerSpecificSettings, gameplayModifiers);
 }
 inline void GlobalNamespace::ScreenshotLevelStarter::SaveDeviceMetadata(::StringW metadataFolderPath) {
@@ -1326,9 +1326,10 @@ inline void GlobalNamespace::ScreenshotLevelStarter::SaveDeviceMetadata(::String
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(), { "SaveDeviceMetadata", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, metadataFolderPath);
 }
-inline void GlobalNamespace::ScreenshotLevelStarter::SaveBuildSpecificMetadata(::StringW metadataFolderPath, /* [IsReadOnly] */ ::by_ref<::StringW> gameVersion) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(),
-                                                                                         { "SaveBuildSpecificMetadata", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
+inline void GlobalNamespace::ScreenshotLevelStarter::SaveBuildSpecificMetadata(::StringW metadataFolderPath, /* [IsReadOnly] */ ::by_ref<::StringW const> gameVersion) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(),
+                                                           { "SaveBuildSpecificMetadata", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::StringW const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, metadataFolderPath, gameVersion);
 }
 inline void GlobalNamespace::ScreenshotLevelStarter::SaveMetadataObject(::System::Object* obj, ::StringW path) {

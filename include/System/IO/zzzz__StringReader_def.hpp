@@ -50,7 +50,7 @@ public:
   inline int32_t Read();
 
   /// @brief Method Read, addr 0x6031208, size 0x188, virtual true, abstract: false, final false
-  inline int32_t Read(::by_ref<::ArrayW<char16_t>> buffer, int32_t index, int32_t count);
+  inline int32_t Read(::ArrayW<char16_t> buffer, int32_t index, int32_t count);
 
   /// [ComVisible(false)]
   /// @brief Method ReadAsync, addr 0x60314dc, size 0x1cc, virtual true, abstract: false, final false

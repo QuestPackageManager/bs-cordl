@@ -89,7 +89,7 @@ public:
   inline ::UnityEngine::Vector3 ClosestPointOnBounds(::UnityEngine::Vector3 position);
 
   /// @brief Method ClosestPoint_Injected, addr 0x6fea664, size 0x54, virtual false, abstract: false, final false
-  static inline void ClosestPoint_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> position, ::by_ref<::UnityEngine::Vector3> ret);
+  static inline void ClosestPoint_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> position, ::by_ref<::UnityEngine::Vector3> ret);
 
   /// @brief Method GetGeometry, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
@@ -101,7 +101,8 @@ public:
   inline void Internal_ClosestPointOnBounds(::UnityEngine::Vector3 point, ::by_ref<::UnityEngine::Vector3> outPos, ::by_ref<float_t> distance);
 
   /// @brief Method Internal_ClosestPointOnBounds_Injected, addr 0x6feb790, size 0x5c, virtual false, abstract: false, final false
-  static inline void Internal_ClosestPointOnBounds_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> point, ::by_ref<::UnityEngine::Vector3> outPos, ::by_ref<float_t> distance);
+  static inline void Internal_ClosestPointOnBounds_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> point, ::by_ref<::UnityEngine::Vector3> outPos,
+                                                            ::by_ref<float_t> distance);
 
   static inline ::UnityEngine::Collider* New_ctor();
 
@@ -112,7 +113,7 @@ public:
   inline bool Raycast(::UnityEngine::Ray ray, ::by_ref<::UnityEngine::RaycastHit> hitInfo, float_t maxDistance);
 
   /// @brief Method Raycast_Injected, addr 0x6feb624, size 0x6c, virtual false, abstract: false, final false
-  static inline void Raycast_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Ray> ray, float_t maxDistance, ::by_ref<bool> hasHit, ::by_ref<::UnityEngine::RaycastHit> ret);
+  static inline void Raycast_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Ray const> ray, float_t maxDistance, ::by_ref<bool> hasHit, ::by_ref<::UnityEngine::RaycastHit> ret);
 
   /// @brief Method .ctor, addr 0x6fe7268, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
@@ -217,7 +218,7 @@ public:
   inline void set_excludeLayers(::UnityEngine::LayerMask value);
 
   /// @brief Method set_excludeLayers_Injected, addr 0x6feadcc, size 0x44, virtual false, abstract: false, final false
-  static inline void set_excludeLayers_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::LayerMask> value);
+  static inline void set_excludeLayers_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::LayerMask const> value);
 
   /// @brief Method set_hasModifiableContacts, addr 0x6fea868, size 0x90, virtual false, abstract: false, final false
   inline void set_hasModifiableContacts(bool value);
@@ -229,7 +230,7 @@ public:
   inline void set_includeLayers(::UnityEngine::LayerMask value);
 
   /// @brief Method set_includeLayers_Injected, addr 0x6feaf80, size 0x44, virtual false, abstract: false, final false
-  static inline void set_includeLayers_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::LayerMask> value);
+  static inline void set_includeLayers_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::LayerMask const> value);
 
   /// @brief Method set_isTrigger, addr 0x6fea34c, size 0x90, virtual false, abstract: false, final false
   inline void set_isTrigger(bool value);

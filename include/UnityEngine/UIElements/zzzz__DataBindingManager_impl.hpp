@@ -35,15 +35,16 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager_BindingRequest::*)(
-    ::by_ref<::UnityEngine::UIElements::BindingId>, ::UnityEngine::UIElements::Binding*, bool)>(&::UnityEngine::UIElements::DataBindingManager_BindingRequest::_ctor)> {
+    ::by_ref<::UnityEngine::UIElements::BindingId const>, ::UnityEngine::UIElements::Binding*, bool)>(&::UnityEngine::UIElements::DataBindingManager_BindingRequest::_ctor)> {
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x708b61c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager_BindingRequest>(),
-                            { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>(), ::i2c::type_of<::UnityEngine::UIElements::Binding*>(), ::i2c::type_of<bool>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::UnityEngine::UIElements::DataBindingManager_BindingRequest>(),
+                         { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId const>>(), ::i2c::type_of<::UnityEngine::UIElements::Binding*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -61,12 +62,12 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::DataBindingManager_BindingRequest::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId, ::UnityEngine::UIElements::Binding* binding,
-                                                                              bool shouldProcess) {
+inline void UnityEngine::UIElements::DataBindingManager_BindingRequest::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> bindingId,
+                                                                              ::UnityEngine::UIElements::Binding* binding, bool shouldProcess) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager_BindingRequest>(),
-                          { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>(), ::i2c::type_of<::UnityEngine::UIElements::Binding*>(), ::i2c::type_of<bool>() } })));
+                          { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId const>>(), ::i2c::type_of<::UnityEngine::UIElements::Binding*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, bindingId, binding, shouldProcess);
 }
 inline ::UnityEngine::UIElements::DataBindingManager_BindingRequest UnityEngine::UIElements::DataBindingManager_BindingRequest::CancelRequest() {
@@ -117,7 +118,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::DataBindingManager_BindingDataCollection::*)(
-    ::by_ref<::UnityEngine::UIElements::BindingId>, ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*>)>(
+    ::by_ref<::UnityEngine::UIElements::BindingId const>, ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*>)>(
     &::UnityEngine::UIElements::DataBindingManager_BindingDataCollection::TryGetBindingData)> {
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x7089898;
@@ -128,7 +129,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
         (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager_BindingDataCollection>(),
                             { "TryGetBindingData",
                               {},
-                              { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*>>() } })));
+                              { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId const>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*>>() } })));
     return ___internal_method;
   }
 };
@@ -199,13 +200,14 @@ inline void UnityEngine::UIElements::DataBindingManager_BindingDataCollection::A
                                                                                          { "AddBindingData", {}, { ::i2c::type_of<::UnityEngine::UIElements::DataBindingManager_BindingData*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, bindingData);
 }
-inline bool UnityEngine::UIElements::DataBindingManager_BindingDataCollection::TryGetBindingData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
+inline bool UnityEngine::UIElements::DataBindingManager_BindingDataCollection::TryGetBindingData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> bindingId,
                                                                                                  ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*> data) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::UnityEngine::UIElements::DataBindingManager_BindingDataCollection>(),
-          { "TryGetBindingData", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*>>() } })));
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager_BindingDataCollection>(),
+                          { "TryGetBindingData",
+                            {},
+                            { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId const>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, bindingId, data);
 }
 inline bool UnityEngine::UIElements::DataBindingManager_BindingDataCollection::RemoveBindingData(::UnityEngine::UIElements::DataBindingManager_BindingData* bindingData) {
@@ -2370,7 +2372,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::DataBindingManager::*)(
-    ::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::BindingId>, ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*>)>(
+    ::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::BindingId const>, ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*>)>(
     &::UnityEngine::UIElements::DataBindingManager::TryGetBindingData)> {
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x7089820;
@@ -2380,7 +2382,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(),
                                                              { "TryGetBindingData",
                                                                {},
-                                                               { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>(),
+                                                               { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId const>>(),
                                                                  ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*>>() } })));
     return ___internal_method;
   }
@@ -2389,7 +2391,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager::*)(
-    ::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::BindingId>, ::UnityEngine::UIElements::Binding*)>(&::UnityEngine::UIElements::DataBindingManager::RegisterBinding)> {
+    ::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::BindingId const>, ::UnityEngine::UIElements::Binding*)>(
+    &::UnityEngine::UIElements::DataBindingManager::RegisterBinding)> {
   constexpr static std::size_t size = 0x474;
   constexpr static std::size_t addrs = 0x7089928;
 
@@ -2398,7 +2401,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(),
                                                              { "RegisterBinding",
                                                                {},
-                                                               { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>(),
+                                                               { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId const>>(),
                                                                  ::i2c::type_of<::UnityEngine::UIElements::Binding*>() } })));
     return ___internal_method;
   }
@@ -2407,7 +2410,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager::*)(
-    ::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::BindingId>)>(&::UnityEngine::UIElements::DataBindingManager::UnregisterBinding)> {
+    ::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::BindingId const>)>(&::UnityEngine::UIElements::DataBindingManager::UnregisterBinding)> {
   constexpr static std::size_t size = 0x300;
   constexpr static std::size_t addrs = 0x708a4ac;
 
@@ -2415,7 +2418,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(),
-                            { "UnregisterBinding", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>() } })));
+                            { "UnregisterBinding", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId const>>() } })));
     return ___internal_method;
   }
 };
@@ -2467,8 +2470,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 //  Writing Method size for method: ::UnityEngine::UIElements::DataBindingManager.CreateBindingRequest
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::BindingId>, ::UnityEngine::UIElements::Binding*, bool)>(
-    &::UnityEngine::UIElements::DataBindingManager::CreateBindingRequest)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::BindingId const>, ::UnityEngine::UIElements::Binding*,
+                                                                bool)>(&::UnityEngine::UIElements::DataBindingManager::CreateBindingRequest)> {
   constexpr static std::size_t size = 0x348;
   constexpr static std::size_t addrs = 0x708abd0;
 
@@ -2477,7 +2480,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::U
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(),
                                                              { "CreateBindingRequest",
                                                                {},
-                                                               { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>(),
+                                                               { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId const>>(),
                                                                  ::i2c::type_of<::UnityEngine::UIElements::Binding*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
@@ -2526,7 +2529,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::U
 //  Writing Method size for method: ::UnityEngine::UIElements::DataBindingManager.TryGetBindingRequest
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::BindingId>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::BindingId const>,
                                                                 ::by_ref<::UnityEngine::UIElements::Binding*>)>(&::UnityEngine::UIElements::DataBindingManager::TryGetBindingRequest)> {
   constexpr static std::size_t size = 0x1ac;
   constexpr static std::size_t addrs = 0x708bed8;
@@ -2536,7 +2539,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::U
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(),
                                                              { "TryGetBindingRequest",
                                                                {},
-                                                               { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>(),
+                                                               { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId const>>(),
                                                                  ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Binding*>>() } })));
     return ___internal_method;
   }
@@ -2850,32 +2853,33 @@ UnityEngine::UIElements::DataBindingManager::GetBindingData(::UnityEngine::UIEle
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityEngine::UIElements::DataBindingManager_BindingData*>*>(this, ___internal_method, element);
 }
 inline bool UnityEngine::UIElements::DataBindingManager::TryGetBindingData(::UnityEngine::UIElements::VisualElement* element,
-                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
+                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> bindingId,
                                                                            ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*> bindingData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(),
                                                            { "TryGetBindingData",
                                                              {},
-                                                             { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>(),
+                                                             { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId const>>(),
                                                                ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, element, bindingId, bindingData);
 }
-inline void UnityEngine::UIElements::DataBindingManager::RegisterBinding(::UnityEngine::UIElements::VisualElement* element, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
+inline void UnityEngine::UIElements::DataBindingManager::RegisterBinding(::UnityEngine::UIElements::VisualElement* element,
+                                                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> bindingId,
                                                                          ::UnityEngine::UIElements::Binding* binding) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(),
                                                            { "RegisterBinding",
                                                              {},
-                                                             { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>(),
+                                                             { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId const>>(),
                                                                ::i2c::type_of<::UnityEngine::UIElements::Binding*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, element, bindingId, binding);
 }
 inline void UnityEngine::UIElements::DataBindingManager::UnregisterBinding(::UnityEngine::UIElements::VisualElement* element,
-                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId) {
+                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> bindingId) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(),
-                          { "UnregisterBinding", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>() } })));
+                          { "UnregisterBinding", {}, { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, element, bindingId);
 }
 inline void UnityEngine::UIElements::DataBindingManager::TransferBindingRequests(::UnityEngine::UIElements::VisualElement* element) {
@@ -2898,13 +2902,13 @@ inline void UnityEngine::UIElements::DataBindingManager::Dispose() {
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::DataBindingManager::CreateBindingRequest(::UnityEngine::UIElements::VisualElement* target,
-                                                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId, ::UnityEngine::UIElements::Binding* binding,
-                                                                              bool isTransferring) {
+                                                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> bindingId,
+                                                                              ::UnityEngine::UIElements::Binding* binding, bool isTransferring) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(),
                                                            { "CreateBindingRequest",
                                                              {},
-                                                             { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>(),
+                                                             { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId const>>(),
                                                                ::i2c::type_of<::UnityEngine::UIElements::Binding*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, target, bindingId, binding, isTransferring);
 }
@@ -2924,13 +2928,13 @@ inline bool UnityEngine::UIElements::DataBindingManager::AnyPendingBindingReques
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, element);
 }
 inline bool UnityEngine::UIElements::DataBindingManager::TryGetBindingRequest(::UnityEngine::UIElements::VisualElement* element,
-                                                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
+                                                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> bindingId,
                                                                               ::by_ref<::UnityEngine::UIElements::Binding*> binding) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(),
                                                            { "TryGetBindingRequest",
                                                              {},
-                                                             { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>(),
+                                                             { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId const>>(),
                                                                ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Binding*>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, element, bindingId, binding);
 }

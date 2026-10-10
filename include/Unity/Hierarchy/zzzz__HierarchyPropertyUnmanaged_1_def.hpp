@@ -62,23 +62,23 @@ public:
   inline int32_t GetHashCode();
 
   /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline T GetValue(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  inline T GetValue(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// @brief Method SetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void SetValue(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, T value);
+  inline void SetValue(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, T value);
 
   /// [ExcludeFromDocs]
   /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// @brief Method Unity.Hierarchy.IHierarchyProperty<T>.GetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline T Unity_Hierarchy_IHierarchyProperty_T__GetValue(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  inline T Unity_Hierarchy_IHierarchyProperty_T__GetValue(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// @brief Method Unity.Hierarchy.IHierarchyProperty<T>.SetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void Unity_Hierarchy_IHierarchyProperty_T__SetValue(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, T value);
+  inline void Unity_Hierarchy_IHierarchyProperty_T__SetValue(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, T value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::Unity::Hierarchy::Hierarchy* hierarchy, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyId> property);
+  inline void _ctor(::Unity::Hierarchy::Hierarchy* hierarchy, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyId const> property);
 
   /// @brief Convert to "::System::IEquatable_1<::Unity::Hierarchy::HierarchyPropertyUnmanaged_1<T>>"
   constexpr ::System::IEquatable_1<::Unity::Hierarchy::HierarchyPropertyUnmanaged_1<T>>* i___System__IEquatable_1___Unity__Hierarchy__HierarchyPropertyUnmanaged_1_T__();

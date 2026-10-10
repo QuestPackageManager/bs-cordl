@@ -27,10 +27,10 @@ struct CORDL_TYPE PackedMatrix {
 public:
   // Declarations
   /// @brief Method FromFloat4x4, addr 0x6c5cf0c, size 0x40, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::PackedMatrix FromFloat4x4(/* [IsReadOnly] */ ::by_ref<::Unity::Mathematics::float4x4> m);
+  static inline ::UnityEngine::Rendering::PackedMatrix FromFloat4x4(/* [IsReadOnly] */ ::by_ref<::Unity::Mathematics::float4x4 const> m);
 
   /// @brief Method FromMatrix4x4, addr 0x6c5cecc, size 0x40, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::PackedMatrix FromMatrix4x4(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> m);
+  static inline ::UnityEngine::Rendering::PackedMatrix FromMatrix4x4(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4 const> m);
 
   // Ctor Parameters []
   // @brief default ctor

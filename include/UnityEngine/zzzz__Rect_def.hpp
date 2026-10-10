@@ -96,7 +96,7 @@ public:
 
   /// [IsReadOnly]
   /// @brief Method Equals, addr 0x6ed4d90, size 0x104, virtual false, abstract: false, final false
-  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rect> other);
+  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rect const> other);
 
   /// [IsReadOnly]
   /// @brief Method GetHashCode, addr 0x6ed4aa8, size 0x7c, virtual true, abstract: false, final false
@@ -106,7 +106,7 @@ public:
   static inline ::UnityEngine::Rect MinMaxRect(float_t xmin, float_t ymin, float_t xmax, float_t ymax);
 
   /// @brief Method OrderMinMax, addr 0x6ed449c, size 0x84, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rect OrderMinMax(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rect> rect);
+  static inline ::UnityEngine::Rect OrderMinMax(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rect const> rect);
 
   /// [IsReadOnly]
   /// @brief Method Overlaps, addr 0x6ed4520, size 0xf4, virtual false, abstract: false, final false
@@ -118,7 +118,7 @@ public:
 
   /// [IsReadOnly]
   /// @brief Method Overlaps, addr 0x6ed4614, size 0xf8, virtual false, abstract: false, final false
-  inline bool Overlaps(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rect> other);
+  inline bool Overlaps(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rect const> other);
 
   /// [IsReadOnly]
   /// @brief Method ToString, addr 0x6ed4e94, size 0x64, virtual true, abstract: false, final false

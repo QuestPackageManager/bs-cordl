@@ -1056,8 +1056,8 @@ public:
   /// @brief Method CalculateTextureCopySchedules, addr 0x6cb49b8, size 0xb8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::UniversalRenderer_TextureCopySchedules
   CalculateTextureCopySchedules(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
-                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalRenderer_RenderPassInputSummary> renderPassInputs, bool isDeferred, bool requiresDepthPrepass,
-                                bool hasFullPrepass, bool requireDepthTexture);
+                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalRenderer_RenderPassInputSummary const> renderPassInputs, bool isDeferred,
+                                bool requiresDepthPrepass, bool hasFullPrepass, bool requireDepthTexture);
 
   /// @brief Method CalculateUVRect, addr 0x6cad24c, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect CalculateUVRect(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, int32_t textureHeightPercent);
@@ -1092,12 +1092,12 @@ public:
 
   /// @brief Method CreateIntermediateCameraColorAttachment, addr 0x6cafa34, size 0x2fc, virtual false, abstract: false, final false
   inline void CreateIntermediateCameraColorAttachment(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
-                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> cameraDescriptor, bool clearColor,
+                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> cameraDescriptor, bool clearColor,
                                                       ::UnityEngine::Color clearBackgroundColor);
 
   /// @brief Method CreateIntermediateCameraDepthAttachment, addr 0x6cafd30, size 0x2f8, virtual false, abstract: false, final false
   inline void CreateIntermediateCameraDepthAttachment(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
-                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> cameraDescriptor, bool clearDepth,
+                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> cameraDescriptor, bool clearDepth,
                                                       ::UnityEngine::Color clearBackgroundDepth, bool depthTextureIsDepthFormat);
 
   /// @brief Method CreateMotionVectorTextures, addr 0x6cb036c, size 0x17c, virtual false, abstract: false, final false
@@ -1117,13 +1117,13 @@ public:
 
   /// @brief Method CreateRenderGraphTexture, addr 0x6cae78c, size 0x10c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle CreateRenderGraphTexture(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
-                                                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor> desc, ::StringW name,
+                                                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor const> desc, ::StringW name,
                                                                                                     bool clear, ::UnityEngine::Color color, ::UnityEngine::FilterMode filterMode,
                                                                                                     ::UnityEngine::TextureWrapMode wrapMode, bool discardOnLastUse);
 
   /// @brief Method CreateRenderGraphTexture, addr 0x6cae898, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle CreateRenderGraphTexture(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
-                                                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> desc,
+                                                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const> desc,
                                                                                                     ::StringW name, bool clear, ::UnityEngine::Color clearColor, ::UnityEngine::FilterMode filterMode,
                                                                                                     ::UnityEngine::TextureWrapMode wrapMode, bool discardOnLastUse);
 
@@ -1136,7 +1136,7 @@ public:
   /// @brief Method DepthNormalPrepassRender, addr 0x6cb4be8, size 0x140, virtual false, abstract: false, final false
   inline void DepthNormalPrepassRender(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                        ::UnityEngine::Rendering::Universal::UniversalRenderer_RenderPassInputSummary renderPassInputs,
-                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> depthTarget, uint32_t batchLayerMask, bool setGlobalDepth,
+                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> depthTarget, uint32_t batchLayerMask, bool setGlobalDepth,
                                        bool setGlobalTextures, bool partialPass);
 
   /// @brief Method Dispose, addr 0x6cabc1c, size 0x208, virtual true, abstract: false, final false
@@ -1159,7 +1159,7 @@ public:
                       ::UnityEngine::Rendering::Universal::MotionVectorRenderPass* motionVectorPass);
 
   /// @brief Method GetTextureDesc, addr 0x6cae5e4, size 0x1a8, virtual false, abstract: false, final false
-  static inline void GetTextureDesc(/* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor> desc, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> rgDesc);
+  static inline void GetTextureDesc(/* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor const> desc, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> rgDesc);
 
   /// @brief Method HasActiveRenderFeatures, addr 0x6cac158, size 0x124, virtual false, abstract: false, final false
   static inline bool HasActiveRenderFeatures(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::Universal::ScriptableRendererFeature>>* rendererFeatures);
@@ -1177,7 +1177,7 @@ public:
 
   /// @brief Method IsDepthPrimingEnabledRenderGraph, addr 0x6cb1634, size 0xfc, virtual false, abstract: false, final false
   static inline bool IsDepthPrimingEnabledRenderGraph(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
-                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalRenderer_RenderPassInputSummary> renderPassInputs,
+                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalRenderer_RenderPassInputSummary const> renderPassInputs,
                                                       ::UnityEngine::Rendering::Universal::DepthPrimingMode depthPrimingMode, bool requireDepthTexture, bool requirePrepassForTextures,
                                                       bool usesDeferredLighting);
 
@@ -1218,7 +1218,7 @@ public:
 
   /// @brief Method OnMainRendering, addr 0x6cb2078, size 0x13a8, virtual false, abstract: false, final false
   inline void OnMainRendering(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ScriptableRenderContext context,
-                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalRenderer_RenderPassInputSummary> renderPassInputs, bool requiresPrepass,
+                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalRenderer_RenderPassInputSummary const> renderPassInputs, bool requiresPrepass,
                               bool requireDepthTexture);
 
   /// @brief Method OnOffscreenDepthTextureRendering, addr 0x6cb1730, size 0x578, virtual false, abstract: false, final false
@@ -1248,20 +1248,20 @@ public:
 
   /// @brief Method RequireDepthTexture, addr 0x6cb151c, size 0x40, virtual false, abstract: false, final false
   static inline bool RequireDepthTexture(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
-                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalRenderer_RenderPassInputSummary> renderPassInputs, bool applyPostProcessing);
+                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalRenderer_RenderPassInputSummary const> renderPassInputs, bool applyPostProcessing);
 
   /// @brief Method RequirePrepassForTextures, addr 0x6cb155c, size 0xd8, virtual false, abstract: false, final false
   inline bool RequirePrepassForTextures(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
-                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalRenderer_RenderPassInputSummary> renderPassInputs, bool requireDepthTexture);
+                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalRenderer_RenderPassInputSummary const> renderPassInputs, bool requireDepthTexture);
 
   /// @brief Method RequiresIntermediateAttachments, addr 0x6cae938, size 0xf4, virtual false, abstract: false, final false
   inline bool RequiresIntermediateAttachments(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
-                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalRenderer_RenderPassInputSummary> renderPassInputs, bool requireCopyFromDepth,
-                                              bool applyPostProcessing);
+                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalRenderer_RenderPassInputSummary const> renderPassInputs,
+                                              bool requireCopyFromDepth, bool applyPostProcessing);
 
   /// @brief Method RequiresIntermediateColorTexture, addr 0x6cacc9c, size 0x210, virtual false, abstract: false, final false
   static inline bool RequiresIntermediateColorTexture(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
-                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalRenderer_RenderPassInputSummary> renderPassInputs,
+                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalRenderer_RenderPassInputSummary const> renderPassInputs,
                                                       bool usesDeferredLighting, bool applyPostProcessing);
 
   /// @brief Method SetRenderingLayersGlobalTextures, addr 0x6cb4d44, size 0x218, virtual false, abstract: false, final false

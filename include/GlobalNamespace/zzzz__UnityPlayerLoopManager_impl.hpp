@@ -169,7 +169,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::GlobalName
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevel::PlayerLoopSystem (*)(
-    ::by_ref<::UnityEngine::LowLevel::PlayerLoopSystem>, ::System::Collections::Generic::List_1<::GlobalNamespace::UnityPlayerLoopManager_SystemToInsert>*)>(
+    ::by_ref<::UnityEngine::LowLevel::PlayerLoopSystem const>, ::System::Collections::Generic::List_1<::GlobalNamespace::UnityPlayerLoopManager_SystemToInsert>*)>(
     &::GlobalNamespace::UnityPlayerLoopManager::InsertSystems)> {
   constexpr static std::size_t size = 0xa5c;
   constexpr static std::size_t addrs = 0x5c6909c;
@@ -179,7 +179,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevel::
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityPlayerLoopManager*>(),
                                                              { "InsertSystems",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::UnityEngine::LowLevel::PlayerLoopSystem>>(),
+                                                               { ::i2c::type_of<::by_ref<::UnityEngine::LowLevel::PlayerLoopSystem const>>(),
                                                                  ::i2c::type_of<::System::Collections::Generic::List_1<::GlobalNamespace::UnityPlayerLoopManager_SystemToInsert>*>() } })));
     return ___internal_method;
   }
@@ -205,13 +205,13 @@ inline void GlobalNamespace::UnityPlayerLoopManager::InitializePlayerLoop() {
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
 inline ::UnityEngine::LowLevel::PlayerLoopSystem
-GlobalNamespace::UnityPlayerLoopManager::InsertSystems(/* [IsReadOnly] */ ::by_ref<::UnityEngine::LowLevel::PlayerLoopSystem> loopSystem,
+GlobalNamespace::UnityPlayerLoopManager::InsertSystems(/* [IsReadOnly] */ ::by_ref<::UnityEngine::LowLevel::PlayerLoopSystem const> loopSystem,
                                                        ::System::Collections::Generic::List_1<::GlobalNamespace::UnityPlayerLoopManager_SystemToInsert>* systemsToInsert) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityPlayerLoopManager*>(),
                                                            { "InsertSystems",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::UnityEngine::LowLevel::PlayerLoopSystem>>(),
+                                                             { ::i2c::type_of<::by_ref<::UnityEngine::LowLevel::PlayerLoopSystem const>>(),
                                                                ::i2c::type_of<::System::Collections::Generic::List_1<::GlobalNamespace::UnityPlayerLoopManager_SystemToInsert>*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::LowLevel::PlayerLoopSystem>(nullptr, ___internal_method, loopSystem, systemsToInsert);
 }

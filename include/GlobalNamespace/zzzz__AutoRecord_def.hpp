@@ -122,7 +122,7 @@ public:
                                          ::ArrayW<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*> handFrames);
 
   /// @brief Method CreatePlayerPoseFrames, addr 0x5d14080, size 0x908, virtual false, abstract: false, final false
-  static inline ::BeatSaber::RecPlay::PlayerPoseFrames CreatePlayerPoseFrames(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::AutoRecord_Beatmap> beatmap);
+  static inline ::BeatSaber::RecPlay::PlayerPoseFrames CreatePlayerPoseFrames(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::AutoRecord_Beatmap const> beatmap);
 
   /// @brief Method LocateCutPosition, addr 0x5d14988, size 0x40, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 LocateCutPosition(int32_t lineCount, int32_t line, ::GlobalNamespace::NoteLineLayer layer);

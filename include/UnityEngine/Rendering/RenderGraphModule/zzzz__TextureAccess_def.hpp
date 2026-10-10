@@ -30,12 +30,12 @@ struct CORDL_TYPE TextureAccess {
 public:
   // Declarations
   /// @brief Method .ctor, addr 0x6c0aa10, size 0x1c, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureAccess> access,
-                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> handle);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureAccess const> access,
+                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> handle);
 
   /// @brief Method .ctor, addr 0x6c0aca8, size 0x14, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> handle, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags, int32_t mipLevel,
-                    int32_t depthSlice);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> handle, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags,
+                    int32_t mipLevel, int32_t depthSlice);
 
   // Ctor Parameters []
   // @brief default ctor

@@ -87,7 +87,7 @@ public:
   __declspec(property(get = get_property, put = set_property)) ::UnityEngine::UIElements::BindingId property;
 
   /// @brief Method GetPooled, addr 0x71551bc, size 0x94, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::PropertyChangedEvent* GetPooled(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> property);
+  static inline ::UnityEngine::UIElements::PropertyChangedEvent* GetPooled(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> property);
 
   static inline ::UnityEngine::UIElements::PropertyChangedEvent* New_ctor();
 

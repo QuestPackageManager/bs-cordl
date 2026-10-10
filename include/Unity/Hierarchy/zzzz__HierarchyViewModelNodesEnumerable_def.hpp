@@ -56,7 +56,7 @@ class CORDL_TYPE HierarchyViewModelNodesEnumerable_Predicate : public ::System::
 public:
   // Declarations
   /// @brief Method Invoke, addr 0x6f95edc, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags);
+  inline bool Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, ::Unity::Hierarchy::HierarchyNodeFlags flags);
 
   static inline ::Unity::Hierarchy::HierarchyViewModelNodesEnumerable_Predicate* New_ctor(::System::Object* object, ::System::IntPtr method);
 

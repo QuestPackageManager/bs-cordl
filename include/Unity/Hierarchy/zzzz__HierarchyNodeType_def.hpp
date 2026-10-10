@@ -66,7 +66,7 @@ public:
 
   /// [ExcludeFromDocs]
   /// @brief Method op_Equality, addr 0x6f98730, size 0x14, virtual false, abstract: false, final false
-  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNodeType> lhs, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNodeType> rhs);
+  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNodeType const> lhs, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNodeType const> rhs);
 
   static inline void setStaticF_s_Null(::Unity::Hierarchy::HierarchyNodeType value);
 

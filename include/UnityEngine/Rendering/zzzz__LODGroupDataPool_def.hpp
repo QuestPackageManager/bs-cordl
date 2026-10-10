@@ -186,10 +186,10 @@ public:
   static inline ::UnityEngine::Rendering::LODGroupDataPool* New_ctor(::UnityEngine::Rendering::GPUResidentDrawerResources* resources, int32_t initialInstanceCount, bool supportDitheringCrossFade);
 
   /// @brief Method UpdateLODGroupData, addr 0x6c67cd0, size 0x264, virtual false, abstract: false, final false
-  inline void UpdateLODGroupData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData> inputData);
+  inline void UpdateLODGroupData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData const> inputData);
 
   /// @brief Method UpdateLODGroupTransformData, addr 0x6c67b54, size 0x17c, virtual false, abstract: false, final false
-  inline void UpdateLODGroupTransformData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData> inputData);
+  inline void UpdateLODGroupTransformData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData const> inputData);
 
   constexpr int32_t const& __cordl_internal_get_m_CrossfadedRendererCount() const;
 

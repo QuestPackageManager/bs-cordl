@@ -204,7 +204,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Hiera
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyNodeTypeHandlerBase.GetNodeHashCode
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Hierarchy::HierarchyNodeTypeHandlerBase::*)(::by_ref<::Unity::Hierarchy::HierarchyNode>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Hierarchy::HierarchyNodeTypeHandlerBase::*)(::by_ref<::Unity::Hierarchy::HierarchyNode const>)>(
     &::Unity::Hierarchy::HierarchyNodeTypeHandlerBase::GetNodeHashCode)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x6f93fe8;
@@ -219,7 +219,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Hierarc
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Hierarchy::HierarchyNodeFlags (::Unity::Hierarchy::HierarchyNodeTypeHandlerBase::*)(
-    ::by_ref<::Unity::Hierarchy::HierarchyNode>, ::Unity::Hierarchy::HierarchyNodeFlags)>(&::Unity::Hierarchy::HierarchyNodeTypeHandlerBase::GetDefaultNodeFlags)> {
+    ::by_ref<::Unity::Hierarchy::HierarchyNode const>, ::Unity::Hierarchy::HierarchyNodeFlags)>(&::Unity::Hierarchy::HierarchyNodeTypeHandlerBase::GetDefaultNodeFlags)> {
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x6f940d0;
 
@@ -246,7 +246,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy:
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyNodeTypeHandlerBase.SearchMatch
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Hierarchy::HierarchyNodeTypeHandlerBase::*)(::by_ref<::Unity::Hierarchy::HierarchyNode>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Hierarchy::HierarchyNodeTypeHandlerBase::*)(::by_ref<::Unity::Hierarchy::HierarchyNode const>)>(
     &::Unity::Hierarchy::HierarchyNodeTypeHandlerBase::SearchMatch)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x6f941d4;
@@ -385,15 +385,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::I
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyNodeTypeHandlerBase.InvokeGetNodeHashCode
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::by_ref<::Unity::Hierarchy::HierarchyNode>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::by_ref<::Unity::Hierarchy::HierarchyNode const>)>(
     &::Unity::Hierarchy::HierarchyNodeTypeHandlerBase::InvokeGetNodeHashCode)> {
   constexpr static std::size_t size = 0xe8;
   constexpr static std::size_t addrs = 0x6f94af0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyNodeTypeHandlerBase*>(),
-                                                             { "InvokeGetNodeHashCode", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyNodeTypeHandlerBase*>(),
+                                                { "InvokeGetNodeHashCode", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>() } })));
     return ___internal_method;
   }
 };
@@ -401,17 +401,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Int
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Hierarchy::HierarchyNodeFlags (*)(
-    ::System::IntPtr, ::by_ref<::Unity::Hierarchy::HierarchyNode>, ::Unity::Hierarchy::HierarchyNodeFlags)>(&::Unity::Hierarchy::HierarchyNodeTypeHandlerBase::InvokeGetDefaultNodeFlags)> {
+    ::System::IntPtr, ::by_ref<::Unity::Hierarchy::HierarchyNode const>, ::Unity::Hierarchy::HierarchyNodeFlags)>(&::Unity::Hierarchy::HierarchyNodeTypeHandlerBase::InvokeGetDefaultNodeFlags)> {
   constexpr static std::size_t size = 0xf8;
   constexpr static std::size_t addrs = 0x6f94bd8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyNodeTypeHandlerBase*>(),
-                            { "InvokeGetDefaultNodeFlags",
-                              {},
-                              { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyNodeTypeHandlerBase*>(),
+                                                                                           { "InvokeGetDefaultNodeFlags",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(),
+                                                                                               ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
     return ___internal_method;
   }
 };
@@ -445,14 +444,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyNodeTypeHandlerBase.InvokeSearchMatch
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::by_ref<::Unity::Hierarchy::HierarchyNode>)>(&::Unity::Hierarchy::HierarchyNodeTypeHandlerBase::InvokeSearchMatch)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::by_ref<::Unity::Hierarchy::HierarchyNode const>)>(
+    &::Unity::Hierarchy::HierarchyNodeTypeHandlerBase::InvokeSearchMatch)> {
   constexpr static std::size_t size = 0xe8;
   constexpr static std::size_t addrs = 0x6f94f30;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyNodeTypeHandlerBase*>(),
-                                                             { "InvokeSearchMatch", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyNodeTypeHandlerBase*>(),
+                                                { "InvokeSearchMatch", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>() } })));
     return ___internal_method;
   }
 };
@@ -528,7 +528,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
 //  Writing Method size for method: ::Unity::Hierarchy::HierarchyNodeTypeHandlerBase.GetNodeHashCode_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::by_ref<::Unity::Hierarchy::HierarchyNode>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::by_ref<::Unity::Hierarchy::HierarchyNode const>)>(
     &::Unity::Hierarchy::HierarchyNodeTypeHandlerBase::GetNodeHashCode_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6f9408c;
@@ -536,7 +536,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Int
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyNodeTypeHandlerBase*>(),
-                                                { "GetNodeHashCode_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
+                                                { "GetNodeHashCode_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>() } })));
     return ___internal_method;
   }
 };
@@ -544,17 +544,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Int
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Hierarchy::HierarchyNodeFlags (*)(
-    ::System::IntPtr, ::by_ref<::Unity::Hierarchy::HierarchyNode>, ::Unity::Hierarchy::HierarchyNodeFlags)>(&::Unity::Hierarchy::HierarchyNodeTypeHandlerBase::GetDefaultNodeFlags_Injected)> {
+    ::System::IntPtr, ::by_ref<::Unity::Hierarchy::HierarchyNode const>, ::Unity::Hierarchy::HierarchyNodeFlags)>(&::Unity::Hierarchy::HierarchyNodeTypeHandlerBase::GetDefaultNodeFlags_Injected)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x6f9417c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyNodeTypeHandlerBase*>(),
-                            { "GetDefaultNodeFlags_Injected",
-                              {},
-                              { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyNodeTypeHandlerBase*>(),
+                                                                                           { "GetDefaultNodeFlags_Injected",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(),
+                                                                                               ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
     return ___internal_method;
   }
 };
@@ -643,12 +642,12 @@ inline ::StringW Unity::Hierarchy::HierarchyNodeTypeHandlerBase::GetNodeTypeName
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Hierarchy::HierarchyNodeTypeHandlerBase*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
-inline int32_t Unity::Hierarchy::HierarchyNodeTypeHandlerBase::GetNodeHashCode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
+inline int32_t Unity::Hierarchy::HierarchyNodeTypeHandlerBase::GetNodeHashCode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Hierarchy::HierarchyNodeTypeHandlerBase*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, node);
 }
-inline ::Unity::Hierarchy::HierarchyNodeFlags Unity::Hierarchy::HierarchyNodeTypeHandlerBase::GetDefaultNodeFlags(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node,
+inline ::Unity::Hierarchy::HierarchyNodeFlags Unity::Hierarchy::HierarchyNodeTypeHandlerBase::GetDefaultNodeFlags(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node,
                                                                                                                   ::Unity::Hierarchy::HierarchyNodeFlags defaultFlags) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Hierarchy::HierarchyNodeTypeHandlerBase*>(), 8 })));
@@ -659,7 +658,7 @@ inline void Unity::Hierarchy::HierarchyNodeTypeHandlerBase::SearchBegin(::Unity:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Hierarchy::HierarchyNodeTypeHandlerBase*>(), 9 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, query);
 }
-inline bool Unity::Hierarchy::HierarchyNodeTypeHandlerBase::SearchMatch(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
+inline bool Unity::Hierarchy::HierarchyNodeTypeHandlerBase::SearchMatch(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Hierarchy::HierarchyNodeTypeHandlerBase*>(), 10 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, node);
@@ -713,21 +712,21 @@ inline ::StringW Unity::Hierarchy::HierarchyNodeTypeHandlerBase::InvokeGetNodeTy
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyNodeTypeHandlerBase*>(), { "InvokeGetNodeTypeName", {}, { ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, handlePtr);
 }
-inline int32_t Unity::Hierarchy::HierarchyNodeTypeHandlerBase::InvokeGetNodeHashCode(::System::IntPtr handlePtr, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyNodeTypeHandlerBase*>(),
-                                                           { "InvokeGetNodeHashCode", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
+inline int32_t Unity::Hierarchy::HierarchyNodeTypeHandlerBase::InvokeGetNodeHashCode(::System::IntPtr handlePtr, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyNodeTypeHandlerBase*>(),
+                                              { "InvokeGetNodeHashCode", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, handlePtr, node);
 }
 inline ::Unity::Hierarchy::HierarchyNodeFlags Unity::Hierarchy::HierarchyNodeTypeHandlerBase::InvokeGetDefaultNodeFlags(::System::IntPtr handlePtr,
-                                                                                                                        /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node,
+                                                                                                                        /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node,
                                                                                                                         ::Unity::Hierarchy::HierarchyNodeFlags defaultFlags) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyNodeTypeHandlerBase*>(),
                           { "InvokeGetDefaultNodeFlags",
                             {},
-                            { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
+                            { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Hierarchy::HierarchyNodeFlags>(nullptr, ___internal_method, handlePtr, node, defaultFlags);
 }
 inline bool Unity::Hierarchy::HierarchyNodeTypeHandlerBase::InvokeChangesPending(::System::IntPtr handlePtr) {
@@ -741,10 +740,10 @@ inline bool Unity::Hierarchy::HierarchyNodeTypeHandlerBase::InvokeIntegrateChang
                                                            { "InvokeIntegrateChanges", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, handlePtr, cmdListPtr);
 }
-inline bool Unity::Hierarchy::HierarchyNodeTypeHandlerBase::InvokeSearchMatch(::System::IntPtr handlePtr, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
+inline bool Unity::Hierarchy::HierarchyNodeTypeHandlerBase::InvokeSearchMatch(::System::IntPtr handlePtr, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyNodeTypeHandlerBase*>(),
-                                                           { "InvokeSearchMatch", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
+                                                           { "InvokeSearchMatch", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, handlePtr, node);
 }
 inline void Unity::Hierarchy::HierarchyNodeTypeHandlerBase::InvokeSearchEnd(::System::IntPtr handlePtr) {
@@ -774,21 +773,21 @@ inline void Unity::Hierarchy::HierarchyNodeTypeHandlerBase::GetNodeTypeName_Inje
                                               { "GetNodeTypeName_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, ret);
 }
-inline int32_t Unity::Hierarchy::HierarchyNodeTypeHandlerBase::GetNodeHashCode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyNodeTypeHandlerBase*>(),
-                                                           { "GetNodeHashCode_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
+inline int32_t Unity::Hierarchy::HierarchyNodeTypeHandlerBase::GetNodeHashCode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyNodeTypeHandlerBase*>(),
+                                              { "GetNodeHashCode_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, _unity_self, node);
 }
 inline ::Unity::Hierarchy::HierarchyNodeFlags Unity::Hierarchy::HierarchyNodeTypeHandlerBase::GetDefaultNodeFlags_Injected(::System::IntPtr _unity_self,
-                                                                                                                           /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node,
+                                                                                                                           /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node,
                                                                                                                            ::Unity::Hierarchy::HierarchyNodeFlags defaultFlags) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyNodeTypeHandlerBase*>(),
                           { "GetDefaultNodeFlags_Injected",
                             {},
-                            { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
+                            { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(), ::i2c::type_of<::Unity::Hierarchy::HierarchyNodeFlags>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Hierarchy::HierarchyNodeFlags>(nullptr, ___internal_method, _unity_self, node, defaultFlags);
 }
 inline bool Unity::Hierarchy::HierarchyNodeTypeHandlerBase::ChangesPending_Injected(::System::IntPtr _unity_self) {

@@ -123,7 +123,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 //  Writing Method size for method: ::GlobalNamespace::BeatmapCharacteristicsDropdown.SetNotAllowedCharacteristics
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsDropdown::*)(::by_ref<::ArrayW<::GlobalNamespace::BeatmapCharacteristic>>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsDropdown::*)(::by_ref<::ArrayW<::GlobalNamespace::BeatmapCharacteristic> const>)>(
     &::GlobalNamespace::BeatmapCharacteristicsDropdown::SetNotAllowedCharacteristics)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x5d59520;
@@ -131,7 +131,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicsDropdown*>(),
-                                                             { "SetNotAllowedCharacteristics", {}, { ::i2c::type_of<::by_ref<::ArrayW<::GlobalNamespace::BeatmapCharacteristic>>>() } })));
+                                                             { "SetNotAllowedCharacteristics", {}, { ::i2c::type_of<::by_ref<::ArrayW<::GlobalNamespace::BeatmapCharacteristic> const>>() } })));
     return ___internal_method;
   }
 };
@@ -287,10 +287,11 @@ inline void GlobalNamespace::BeatmapCharacteristicsDropdown::OnDisable() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicsDropdown*>(), { "OnDisable", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::BeatmapCharacteristicsDropdown::SetNotAllowedCharacteristics(/* [IsReadOnly] */ ::by_ref<::ArrayW<::GlobalNamespace::BeatmapCharacteristic>> notAllowedCharacteristics) {
+inline void
+GlobalNamespace::BeatmapCharacteristicsDropdown::SetNotAllowedCharacteristics(/* [IsReadOnly] */ ::by_ref<::ArrayW<::GlobalNamespace::BeatmapCharacteristic> const> notAllowedCharacteristics) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicsDropdown*>(),
-                                                           { "SetNotAllowedCharacteristics", {}, { ::i2c::type_of<::by_ref<::ArrayW<::GlobalNamespace::BeatmapCharacteristic>>>() } })));
+                                                           { "SetNotAllowedCharacteristics", {}, { ::i2c::type_of<::by_ref<::ArrayW<::GlobalNamespace::BeatmapCharacteristic> const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, notAllowedCharacteristics);
 }
 inline ::GlobalNamespace::BeatmapCharacteristic GlobalNamespace::BeatmapCharacteristicsDropdown::GetSelectedBeatmapCharacteristic() {

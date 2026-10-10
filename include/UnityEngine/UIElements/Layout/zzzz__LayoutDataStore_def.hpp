@@ -237,15 +237,15 @@ public:
   /// @brief Method Allocate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T0>
     requires(::cordl_internals::value_type_constraint<T0> && ::cordl_internals::default_constructor_constraint<T0>)
-  inline ::UnityEngine::UIElements::Layout::LayoutHandle Allocate(/* [IsReadOnly] */ ::by_ref<T0> component0);
+  inline ::UnityEngine::UIElements::Layout::LayoutHandle Allocate(/* [IsReadOnly] */ ::by_ref<T0 const> component0);
 
   /// @brief Method Allocate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T0, typename T1, typename T2, typename T3>
     requires(::cordl_internals::value_type_constraint<T0> && ::cordl_internals::default_constructor_constraint<T0> && ::cordl_internals::value_type_constraint<T1> &&
              ::cordl_internals::default_constructor_constraint<T1> && ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2> &&
              ::cordl_internals::value_type_constraint<T3> && ::cordl_internals::default_constructor_constraint<T3>)
-  inline ::UnityEngine::UIElements::Layout::LayoutHandle Allocate(/* [IsReadOnly] */ ::by_ref<T0> component0, /* [IsReadOnly] */ ::by_ref<T1> component1, /* [IsReadOnly] */ ::by_ref<T2> component2,
-                                                                  /* [IsReadOnly] */ ::by_ref<T3> component3);
+  inline ::UnityEngine::UIElements::Layout::LayoutHandle Allocate(/* [IsReadOnly] */ ::by_ref<T0 const> component0, /* [IsReadOnly] */ ::by_ref<T1 const> component1,
+                                                                  /* [IsReadOnly] */ ::by_ref<T2 const> component2, /* [IsReadOnly] */ ::by_ref<T3 const> component3);
 
   /// @brief Method Allocate, addr 0x7199878, size 0x1e4, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Layout::LayoutHandle Allocate(uint8_t* data, int32_t count);
@@ -254,10 +254,10 @@ public:
   inline void Dispose();
 
   /// @brief Method Exists, addr 0x71997e0, size 0x40, virtual false, abstract: false, final false
-  inline bool Exists(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle> handle);
+  inline bool Exists(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle const> handle);
 
   /// @brief Method Free, addr 0x7199aac, size 0xf8, virtual false, abstract: false, final false
-  inline void Free(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle> handle);
+  inline void Free(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle const> handle);
 
   /// [IsReadOnly]
   /// @brief Method GetComponentDataPtr, addr 0x7199820, size 0x24, virtual false, abstract: false, final false

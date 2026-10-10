@@ -308,7 +308,7 @@ public:
   static inline ::System::IO::FileStream* New_ctor(::StringW path, ::System::IO::FileMode mode, ::System::IO::FileAccess access, ::System::IO::FileShare share, int32_t bufferSize, bool useAsync);
 
   /// @brief Method Read, addr 0x6034bbc, size 0x244, virtual true, abstract: false, final false
-  inline int32_t Read(::by_ref<::ArrayW<uint8_t>> array, int32_t offset, int32_t count);
+  inline int32_t Read(::ArrayW<uint8_t> array, int32_t offset, int32_t count);
 
   /// @brief Method ReadAsync, addr 0x6036aa0, size 0x4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);

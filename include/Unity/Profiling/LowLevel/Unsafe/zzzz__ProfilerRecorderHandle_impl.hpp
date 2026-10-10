@@ -141,7 +141,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (*)(::by_ref<::Unity::Profiling::ProfilerCategory>, uint8_t*, int32_t, ::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle>)>(
+    static_cast<void (*)(::by_ref<::Unity::Profiling::ProfilerCategory const>, uint8_t*, int32_t, ::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle>)>(
         &::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle::GetByName__Unmanaged_Injected)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x6eafea4;
@@ -151,7 +151,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle>(),
                                                              { "GetByName__Unmanaged_Injected",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerCategory>>(), ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int32_t>(),
+                                                               { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerCategory const>>(), ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int32_t>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle>>() } })));
     return ___internal_method;
   }
@@ -160,7 +160,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (*)(::by_ref<::Unity::Profiling::ProfilerCategory>, char16_t*, int32_t, ::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle>)>(
+    static_cast<void (*)(::by_ref<::Unity::Profiling::ProfilerCategory const>, char16_t*, int32_t, ::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle>)>(
         &::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle::GetByName_Unsafe_Injected)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x6eaff6c;
@@ -170,7 +170,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle>(),
                                                              { "GetByName_Unsafe_Injected",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerCategory>>(), ::i2c::type_of<char16_t*>(), ::i2c::type_of<int32_t>(),
+                                                               { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerCategory const>>(), ::i2c::type_of<char16_t*>(), ::i2c::type_of<int32_t>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle>>() } })));
     return ___internal_method;
   }
@@ -179,7 +179,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (*)(::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle>, ::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription>)>(
+    static_cast<void (*)(::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle const>, ::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription>)>(
         &::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle::GetDescriptionInternal_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6eaffc8;
@@ -188,7 +188,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle>(),
                                                                                            { "GetDescriptionInternal_Injected",
                                                                                              {},
-                                                                                             { ::i2c::type_of<::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle>>(),
+                                                                                             { ::i2c::type_of<::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle const>>(),
                                                                                                ::i2c::type_of<::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription>>() } })));
     return ___internal_method;
   }
@@ -259,32 +259,32 @@ inline void Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle::GetAvail
                                                            { "GetAvailable_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::BlittableListWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, outRecorderHandleList);
 }
-inline void Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle::GetByName__Unmanaged_Injected(::by_ref<::Unity::Profiling::ProfilerCategory> category, uint8_t* name, int32_t nameLen,
+inline void Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle::GetByName__Unmanaged_Injected(::by_ref<::Unity::Profiling::ProfilerCategory const> category, uint8_t* name, int32_t nameLen,
                                                                                                       ::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle> ret) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle>(),
                                                            { "GetByName__Unmanaged_Injected",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerCategory>>(), ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int32_t>(),
+                                                             { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerCategory const>>(), ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int32_t>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, category, name, nameLen, ret);
 }
-inline void Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle::GetByName_Unsafe_Injected(::by_ref<::Unity::Profiling::ProfilerCategory> category, char16_t* name, int32_t nameLen,
+inline void Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle::GetByName_Unsafe_Injected(::by_ref<::Unity::Profiling::ProfilerCategory const> category, char16_t* name, int32_t nameLen,
                                                                                                   ::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle> ret) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle>(),
                                                            { "GetByName_Unsafe_Injected",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerCategory>>(), ::i2c::type_of<char16_t*>(), ::i2c::type_of<int32_t>(),
+                                                             { ::i2c::type_of<::by_ref<::Unity::Profiling::ProfilerCategory const>>(), ::i2c::type_of<char16_t*>(), ::i2c::type_of<int32_t>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, category, name, nameLen, ret);
 }
-inline void Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle::GetDescriptionInternal_Injected(::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle> handle,
+inline void Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle::GetDescriptionInternal_Injected(::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle const> handle,
                                                                                                         ::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription> ret) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle>(),
                                                                                          { "GetDescriptionInternal_Injected",
                                                                                            {},
-                                                                                           { ::i2c::type_of<::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle>>(),
+                                                                                           { ::i2c::type_of<::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle const>>(),
                                                                                              ::i2c::type_of<::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, handle, ret);
 }

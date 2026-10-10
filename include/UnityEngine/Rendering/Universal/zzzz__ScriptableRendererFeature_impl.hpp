@@ -27,7 +27,7 @@ constexpr ::UnityEngine::Rendering::Universal::ScriptableRendererFeature_Interme
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScriptableRendererFeature::*)(::UnityEngine::Rendering::Universal::ScriptableRenderer*,
-                                                                                                                                ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(
+                                                                                                                                ::by_ref<::UnityEngine::Rendering::Universal::RenderingData const>)>(
     &::UnityEngine::Rendering::Universal::ScriptableRendererFeature::SetupRenderPasses)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6ca7120;
@@ -84,7 +84,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScriptableRendererFeature::*)(::UnityEngine::Rendering::Universal::ScriptableRenderer*,
-                                                                                                                                ::by_ref<::UnityEngine::Rendering::Universal::CameraData>)>(
+                                                                                                                                ::by_ref<::UnityEngine::Rendering::Universal::CameraData const>)>(
     &::UnityEngine::Rendering::Universal::ScriptableRendererFeature::OnCameraPreCull)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6ca7134;
@@ -220,7 +220,7 @@ constexpr void UnityEngine::Rendering::Universal::ScriptableRendererFeature::__c
   this->___m_Active = value;
 }
 inline void UnityEngine::Rendering::Universal::ScriptableRendererFeature::SetupRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer,
-                                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData) {
+                                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::RenderingData const> renderingData) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererFeature*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderer, renderingData);
@@ -241,7 +241,7 @@ inline void UnityEngine::Rendering::Universal::ScriptableRendererFeature::Create
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void UnityEngine::Rendering::Universal::ScriptableRendererFeature::OnCameraPreCull(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer,
-                                                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData) {
+                                                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData const> cameraData) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::ScriptableRendererFeature*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderer, cameraData);

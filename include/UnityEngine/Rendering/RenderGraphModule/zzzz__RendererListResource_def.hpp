@@ -25,7 +25,7 @@ struct CORDL_TYPE RendererListResource {
 public:
   // Declarations
   /// @brief Method .ctor, addr 0x6c10fe8, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RendererListParams> desc);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RendererListParams const> desc);
 
   // Ctor Parameters []
   // @brief default ctor

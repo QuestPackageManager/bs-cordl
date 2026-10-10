@@ -69,7 +69,7 @@ public:
 
   /// [IsReadOnly]
   /// @brief Method Equals, addr 0x6ed5814, size 0x4c, virtual false, abstract: false, final false
-  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::RectInt> other);
+  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::RectInt const> other);
 
   /// [IsReadOnly]
   /// @brief Method GetHashCode, addr 0x6ed56fc, size 0x24, virtual true, abstract: false, final false

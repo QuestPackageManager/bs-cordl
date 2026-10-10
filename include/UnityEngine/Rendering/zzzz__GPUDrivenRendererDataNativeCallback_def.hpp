@@ -41,7 +41,7 @@ class CORDL_TYPE GPUDrivenRendererDataNativeCallback : public ::System::Multicas
 public:
   // Declarations
   /// @brief Method Invoke, addr 0x6f88ea4, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative> rendererDataNative,
+  inline void Invoke(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative const> rendererDataNative,
                      ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* meshes, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* materials,
                      ::UnityEngine::Rendering::GPUDrivenRendererDataCallback* callback);
 

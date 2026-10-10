@@ -118,100 +118,101 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::V
 //  Writing Method size for method: ::UnityEngine::Gizmos.DrawLine_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::Gizmos::DrawLine_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3 const>)>(&::UnityEngine::Gizmos::DrawLine_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6ed63d0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gizmos*>(),
-                                                             { "DrawLine_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gizmos*>(),
+                                                { "DrawLine_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Gizmos.DrawSphere_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector3>, float_t)>(&::UnityEngine::Gizmos::DrawSphere_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector3 const>, float_t)>(&::UnityEngine::Gizmos::DrawSphere_Injected)> {
   constexpr static std::size_t size = 0x4c;
   constexpr static std::size_t addrs = 0x6ed6468;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Gizmos*>(), { "DrawSphere_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<float_t>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Gizmos*>(), { "DrawSphere_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Gizmos.DrawWireCube_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::Gizmos::DrawWireCube_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3 const>)>(&::UnityEngine::Gizmos::DrawWireCube_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6ed6504;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gizmos*>(),
-                                                { "DrawWireCube_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Gizmos*>(),
+                                         { "DrawWireCube_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Gizmos.DrawCube_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::Gizmos::DrawCube_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3 const>)>(&::UnityEngine::Gizmos::DrawCube_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6ed6598;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gizmos*>(),
-                                                             { "DrawCube_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gizmos*>(),
+                                                { "DrawCube_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Gizmos.DrawIcon_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, bool, ::by_ref<::UnityEngine::Color>)>(
-    &::UnityEngine::Gizmos::DrawIcon_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, bool,
+                                                                ::by_ref<::UnityEngine::Color const>)>(&::UnityEngine::Gizmos::DrawIcon_Injected)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x6ed6728;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Gizmos*>(), { "DrawIcon_Injected",
-                                                                         {},
-                                                                         { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(),
-                                                                           ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::UnityEngine::Color>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gizmos*>(),
+                                                             { "DrawIcon_Injected",
+                                                               {},
+                                                               { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(),
+                                                                 ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::UnityEngine::Color const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Gizmos.set_color_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Color>)>(&::UnityEngine::Gizmos::set_color_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Color const>)>(&::UnityEngine::Gizmos::set_color_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6ed67c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gizmos*>(), { "set_color_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color>>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gizmos*>(), { "set_color_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Gizmos.set_matrix_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Matrix4x4>)>(&::UnityEngine::Gizmos::set_matrix_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Matrix4x4 const>)>(&::UnityEngine::Gizmos::set_matrix_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6ed6840;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gizmos*>(), { "set_matrix_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gizmos*>(), { "set_matrix_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>() } })));
     return ___internal_method;
   }
 };
@@ -258,48 +259,49 @@ inline void UnityEngine::Gizmos::DrawRay(::UnityEngine::Vector3 from, ::UnityEng
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gizmos*>(), { "DrawRay", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, from, direction);
 }
-inline void UnityEngine::Gizmos::DrawLine_Injected(::by_ref<::UnityEngine::Vector3> from, ::by_ref<::UnityEngine::Vector3> to) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gizmos*>(),
-                                                           { "DrawLine_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, from, to);
-}
-inline void UnityEngine::Gizmos::DrawSphere_Injected(::by_ref<::UnityEngine::Vector3> center, float_t radius) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Gizmos*>(), { "DrawSphere_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<float_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, center, radius);
-}
-inline void UnityEngine::Gizmos::DrawWireCube_Injected(::by_ref<::UnityEngine::Vector3> center, ::by_ref<::UnityEngine::Vector3> size) {
+inline void UnityEngine::Gizmos::DrawLine_Injected(::by_ref<::UnityEngine::Vector3 const> from, ::by_ref<::UnityEngine::Vector3 const> to) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gizmos*>(),
-                                              { "DrawWireCube_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, center, size);
+                                              { "DrawLine_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, from, to);
 }
-inline void UnityEngine::Gizmos::DrawCube_Injected(::by_ref<::UnityEngine::Vector3> center, ::by_ref<::UnityEngine::Vector3> size) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gizmos*>(),
-                                                           { "DrawCube_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, center, size);
-}
-inline void UnityEngine::Gizmos::DrawIcon_Injected(::by_ref<::UnityEngine::Vector3> center, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name, /* [DefaultValue("true")] */ bool allowScaling,
-                                                   /* [DefaultValue("Color(255,255,255,255)")] */ ::by_ref<::UnityEngine::Color> tint) {
+inline void UnityEngine::Gizmos::DrawSphere_Injected(::by_ref<::UnityEngine::Vector3 const> center, float_t radius) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Gizmos*>(), { "DrawIcon_Injected",
-                                                                       {},
-                                                                       { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(),
-                                                                         ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::UnityEngine::Color>>() } })));
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Gizmos*>(), { "DrawSphere_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, center, radius);
+}
+inline void UnityEngine::Gizmos::DrawWireCube_Injected(::by_ref<::UnityEngine::Vector3 const> center, ::by_ref<::UnityEngine::Vector3 const> size) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Gizmos*>(),
+                                       { "DrawWireCube_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, center, size);
+}
+inline void UnityEngine::Gizmos::DrawCube_Injected(::by_ref<::UnityEngine::Vector3 const> center, ::by_ref<::UnityEngine::Vector3 const> size) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gizmos*>(),
+                                              { "DrawCube_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, center, size);
+}
+inline void UnityEngine::Gizmos::DrawIcon_Injected(::by_ref<::UnityEngine::Vector3 const> center, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name,
+                                                   /* [DefaultValue("true")] */ bool allowScaling, /* [DefaultValue("Color(255,255,255,255)")] */ ::by_ref<::UnityEngine::Color const> tint) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gizmos*>(),
+                                                           { "DrawIcon_Injected",
+                                                             {},
+                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(),
+                                                               ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::UnityEngine::Color const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, center, name, allowScaling, tint);
 }
-inline void UnityEngine::Gizmos::set_color_Injected(::by_ref<::UnityEngine::Color> value) {
+inline void UnityEngine::Gizmos::set_color_Injected(::by_ref<::UnityEngine::Color const> value) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gizmos*>(), { "set_color_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gizmos*>(), { "set_color_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
-inline void UnityEngine::Gizmos::set_matrix_Injected(::by_ref<::UnityEngine::Matrix4x4> value) {
+inline void UnityEngine::Gizmos::set_matrix_Injected(::by_ref<::UnityEngine::Matrix4x4 const> value) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gizmos*>(), { "set_matrix_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gizmos*>(), { "set_matrix_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
 // Ctor Parameters []

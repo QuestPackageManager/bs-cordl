@@ -124,7 +124,7 @@ public:
   __declspec(property(get = __cordl_internal_get_kBufferNames, put = __cordl_internal_set_kBufferNames)) ::ArrayW<::StringW> kBufferNames;
 
   /// @brief Method GetBurnMarkPos, addr 0x5da5da8, size 0x324, virtual false, abstract: false, final false
-  static inline bool GetBurnMarkPos(::UnityEngine::Transform* transform, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds> bounds, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Plane> plane,
+  static inline bool GetBurnMarkPos(::UnityEngine::Transform* transform, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds const> bounds, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Plane const> plane,
                                     ::UnityEngine::Vector3 bladeBottomPos, ::UnityEngine::Vector3 bladeTopPos, ::by_ref<::UnityEngine::Vector3> burnMarkPos);
 
   /// [Inject]

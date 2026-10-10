@@ -168,21 +168,21 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&
 //  Writing Method size for method: ::UnityEngine::VFX::VFXManager.PrepareCamera_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::VFX::VFXCameraXRSettings>)>(&::UnityEngine::VFX::VFXManager::PrepareCamera_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::VFX::VFXCameraXRSettings const>)>(&::UnityEngine::VFX::VFXManager::PrepareCamera_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x72c87e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXManager*>(),
-                                                { "PrepareCamera_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::VFX::VFXCameraXRSettings>>() } })));
+                                                { "PrepareCamera_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::VFX::VFXCameraXRSettings const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::VFX::VFXManager.Internal_ProcessCameraCommand_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::by_ref<::UnityEngine::VFX::VFXCameraXRSettings>, ::System::IntPtr, ::System::IntPtr)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::by_ref<::UnityEngine::VFX::VFXCameraXRSettings const>, ::System::IntPtr, ::System::IntPtr)>(
     &::UnityEngine::VFX::VFXManager::Internal_ProcessCameraCommand_Injected)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x72c89cc;
@@ -192,7 +192,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXManager*>(), { "Internal_ProcessCameraCommand_Injected",
                                                                                                                    {},
                                                                                                                    { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>(),
-                                                                                                                     ::i2c::type_of<::by_ref<::UnityEngine::VFX::VFXCameraXRSettings>>(),
+                                                                                                                     ::i2c::type_of<::by_ref<::UnityEngine::VFX::VFXCameraXRSettings const>>(),
                                                                                                                      ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
@@ -300,19 +300,19 @@ inline ::System::IntPtr UnityEngine::VFX::VFXManager::get_runtimeResources_Injec
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXManager*>(), { "get_runtimeResources_Injected", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method);
 }
-inline void UnityEngine::VFX::VFXManager::PrepareCamera_Injected(::System::IntPtr cam, ::by_ref<::UnityEngine::VFX::VFXCameraXRSettings> camXRSettings) {
+inline void UnityEngine::VFX::VFXManager::PrepareCamera_Injected(::System::IntPtr cam, ::by_ref<::UnityEngine::VFX::VFXCameraXRSettings const> camXRSettings) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXManager*>(),
-                                              { "PrepareCamera_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::VFX::VFXCameraXRSettings>>() } })));
+                                              { "PrepareCamera_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::VFX::VFXCameraXRSettings const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cam, camXRSettings);
 }
-inline void UnityEngine::VFX::VFXManager::Internal_ProcessCameraCommand_Injected(::System::IntPtr cam, ::System::IntPtr cmd, ::by_ref<::UnityEngine::VFX::VFXCameraXRSettings> camXRSettings,
+inline void UnityEngine::VFX::VFXManager::Internal_ProcessCameraCommand_Injected(::System::IntPtr cam, ::System::IntPtr cmd, ::by_ref<::UnityEngine::VFX::VFXCameraXRSettings const> camXRSettings,
                                                                                  ::System::IntPtr cullResults, ::System::IntPtr customPassCullResults) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXManager*>(), { "Internal_ProcessCameraCommand_Injected",
                                                                                                                  {},
                                                                                                                  { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>(),
-                                                                                                                   ::i2c::type_of<::by_ref<::UnityEngine::VFX::VFXCameraXRSettings>>(),
+                                                                                                                   ::i2c::type_of<::by_ref<::UnityEngine::VFX::VFXCameraXRSettings const>>(),
                                                                                                                    ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cam, cmd, camXRSettings, cullResults, customPassCullResults);
 }

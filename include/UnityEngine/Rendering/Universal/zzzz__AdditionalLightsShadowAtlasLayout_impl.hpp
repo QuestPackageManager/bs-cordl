@@ -353,7 +353,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngin
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<int32_t (*)(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest>>, int32_t, int32_t)>(
+    static_cast<int32_t (*)(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest> const>, int32_t, int32_t)>(
         &::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout::EstimateScaleFactorNeededToFitAllShadowsInAtlas)> {
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x6cc0624;
@@ -364,7 +364,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout>(),
                             { "EstimateScaleFactorNeededToFitAllShadowsInAtlas",
                               {},
-                              { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest>>>(),
+                              { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest> const>>(),
                                 ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
@@ -500,14 +500,14 @@ inline void UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
 inline int32_t UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout::EstimateScaleFactorNeededToFitAllShadowsInAtlas(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest>> shadowResolutionRequests,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest> const> shadowResolutionRequests,
     int32_t endIndex, int32_t atlasSize) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout>(),
                           { "EstimateScaleFactorNeededToFitAllShadowsInAtlas",
                             {},
-                            { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest>>>(),
+                            { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest> const>>(),
                               ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, shadowResolutionRequests, endIndex, atlasSize);
 }

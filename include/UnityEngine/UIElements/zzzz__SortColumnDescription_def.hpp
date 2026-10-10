@@ -289,7 +289,7 @@ public:
   static inline ::UnityEngine::UIElements::SortColumnDescription* New_ctor(::StringW columnName, ::UnityEngine::UIElements::SortDirection direction);
 
   /// @brief Method NotifyPropertyChanged, addr 0x71f2410, size 0x4c, virtual false, abstract: false, final false
-  inline void NotifyPropertyChanged(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> property);
+  inline void NotifyPropertyChanged(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> property);
 
   constexpr ::UnityEngine::UIElements::Column* const& __cordl_internal_get__column_k__BackingField() const;
 

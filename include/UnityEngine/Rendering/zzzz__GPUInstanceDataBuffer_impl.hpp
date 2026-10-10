@@ -157,7 +157,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::GPUInstanceIndex (*)(
-    ::by_ref<::Unity::Collections::NativeArray_1<int32_t>>, ::UnityEngine::Rendering::InstanceHandle)>(&::UnityEngine::Rendering::GPUInstanceDataBuffer::CPUInstanceToGPUInstance)> {
+    ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>, ::UnityEngine::Rendering::InstanceHandle)>(&::UnityEngine::Rendering::GPUInstanceDataBuffer::CPUInstanceToGPUInstance)> {
   constexpr static std::size_t size = 0x108;
   constexpr static std::size_t addrs = 0x6c546f0;
 
@@ -166,7 +166,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
         ::i2c::no_logger{},
         (::i2c::find_method(
             ::i2c::class_of<::UnityEngine::Rendering::GPUInstanceDataBuffer*>(),
-            { "CPUInstanceToGPUInstance", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t>>>(), ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
+            { "CPUInstanceToGPUInstance", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>>(), ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
     return ___internal_method;
   }
 };
@@ -503,13 +503,13 @@ inline bool UnityEngine::Rendering::GPUInstanceDataBuffer::get_valid() {
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline ::UnityEngine::Rendering::GPUInstanceIndex
-UnityEngine::Rendering::GPUInstanceDataBuffer::CPUInstanceToGPUInstance(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t>> instancesNumPrefixSum,
+UnityEngine::Rendering::GPUInstanceDataBuffer::CPUInstanceToGPUInstance(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const> instancesNumPrefixSum,
                                                                         ::UnityEngine::Rendering::InstanceHandle instance) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(
-                       ::i2c::class_of<::UnityEngine::Rendering::GPUInstanceDataBuffer*>(),
-                       { "CPUInstanceToGPUInstance", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t>>>(), ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::Rendering::GPUInstanceDataBuffer*>(),
+          { "CPUInstanceToGPUInstance", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<int32_t> const>>(), ::i2c::type_of<::UnityEngine::Rendering::InstanceHandle>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::GPUInstanceIndex>(nullptr, ___internal_method, instancesNumPrefixSum, instance);
 }
 inline int32_t UnityEngine::Rendering::GPUInstanceDataBuffer::GetPropertyIndex(int32_t propertyID, bool assertOnFail) {

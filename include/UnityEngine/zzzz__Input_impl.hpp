@@ -497,13 +497,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::Input.set_compositionCursorPos_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector2>)>(&::UnityEngine::Input::set_compositionCursorPos_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector2 const>)>(&::UnityEngine::Input::set_compositionCursorPos_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6fc20f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Input*>(), { "set_compositionCursorPos_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Input*>(), { "set_compositionCursorPos_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>() } })));
     return ___internal_method;
   }
 };
@@ -683,9 +683,9 @@ inline void UnityEngine::Input::get_compositionCursorPos_Injected(::by_ref<::Uni
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Input*>(), { "get_compositionCursorPos_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ret);
 }
-inline void UnityEngine::Input::set_compositionCursorPos_Injected(::by_ref<::UnityEngine::Vector2> value) {
+inline void UnityEngine::Input::set_compositionCursorPos_Injected(::by_ref<::UnityEngine::Vector2 const> value) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Input*>(), { "set_compositionCursorPos_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Input*>(), { "set_compositionCursorPos_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
 // Ctor Parameters []

@@ -52,13 +52,13 @@ public:
   inline void set_center(::UnityEngine::Vector3 value);
 
   /// @brief Method set_center_Injected, addr 0x6fe705c, size 0x44, virtual false, abstract: false, final false
-  static inline void set_center_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_center_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// @brief Method set_size, addr 0x6fe7184, size 0x98, virtual false, abstract: false, final false
   inline void set_size(::UnityEngine::Vector3 value);
 
   /// @brief Method set_size_Injected, addr 0x6fe721c, size 0x44, virtual false, abstract: false, final false
-  static inline void set_size_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_size_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
 protected:
   // Ctor Parameters []

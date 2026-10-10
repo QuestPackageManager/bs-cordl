@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Hierarchy::HierarchyViewModelNodesEnumerable_Predicate::*)(
-    ::by_ref<::Unity::Hierarchy::HierarchyNode>, ::Unity::Hierarchy::HierarchyNodeFlags)>(&::Unity::Hierarchy::HierarchyViewModelNodesEnumerable_Predicate::Invoke)> {
+    ::by_ref<::Unity::Hierarchy::HierarchyNode const>, ::Unity::Hierarchy::HierarchyNodeFlags)>(&::Unity::Hierarchy::HierarchyViewModelNodesEnumerable_Predicate::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x6f95edc;
 
@@ -44,7 +44,8 @@ inline void Unity::Hierarchy::HierarchyViewModelNodesEnumerable_Predicate::_ctor
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline bool Unity::Hierarchy::HierarchyViewModelNodesEnumerable_Predicate::Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags) {
+inline bool Unity::Hierarchy::HierarchyViewModelNodesEnumerable_Predicate::Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node,
+                                                                                  ::Unity::Hierarchy::HierarchyNodeFlags flags) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Hierarchy::HierarchyViewModelNodesEnumerable_Predicate*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, node, flags);

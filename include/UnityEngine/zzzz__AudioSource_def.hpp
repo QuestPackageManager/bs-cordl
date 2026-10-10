@@ -187,7 +187,7 @@ public:
   inline void GetOutputData(::ArrayW<float_t> samples, int32_t channel);
 
   /// @brief Method GetOutputDataHelper, addr 0x6e9e308, size 0x190, virtual false, abstract: false, final false
-  static inline void GetOutputDataHelper(/* [NotNull] */ ::UnityEngine::AudioSource* source, ::by_ref<::ArrayW<float_t>> samples, int32_t channel);
+  static inline void GetOutputDataHelper(/* [NotNull] */ ::UnityEngine::AudioSource* source, ::ArrayW<float_t> samples, int32_t channel);
 
   /// @brief Method GetOutputDataHelper_Injected, addr 0x6e9e498, size 0x54, virtual false, abstract: false, final false
   static inline void GetOutputDataHelper_Injected(::System::IntPtr source, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> samples, int32_t channel);
@@ -213,7 +213,7 @@ public:
 
   /// [NativeThrows]
   /// @brief Method GetSpectrumDataHelper, addr 0x6e9e4ec, size 0x1a0, virtual false, abstract: false, final false
-  static inline void GetSpectrumDataHelper(/* [NotNull] */ ::UnityEngine::AudioSource* source, ::by_ref<::ArrayW<float_t>> samples, int32_t channel, ::UnityEngine::FFTWindow window);
+  static inline void GetSpectrumDataHelper(/* [NotNull] */ ::UnityEngine::AudioSource* source, ::ArrayW<float_t> samples, int32_t channel, ::UnityEngine::FFTWindow window);
 
   /// @brief Method GetSpectrumDataHelper_Injected, addr 0x6e9e68c, size 0x5c, virtual false, abstract: false, final false
   static inline void GetSpectrumDataHelper_Injected(::System::IntPtr source, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> samples, int32_t channel, ::UnityEngine::FFTWindow window);

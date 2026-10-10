@@ -109,28 +109,28 @@ public:
   constexpr ::System::IEquatable_1<::GlobalNamespace::BitMask256>* i___System__IEquatable_1___GlobalNamespace__BitMask256_();
 
   /// @brief Method op_BitwiseAnd, addr 0x3a05ef0, size 0x18, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::BitMask256 op_BitwiseAnd(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256> a, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256> b);
+  static inline ::GlobalNamespace::BitMask256 op_BitwiseAnd(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256 const> a, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256 const> b);
 
   /// @brief Method op_BitwiseOr, addr 0x3a05ed8, size 0x18, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::BitMask256 op_BitwiseOr(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256> a, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256> b);
+  static inline ::GlobalNamespace::BitMask256 op_BitwiseOr(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256 const> a, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256 const> b);
 
   /// @brief Method op_Equality, addr 0x3a06000, size 0x4c, virtual false, abstract: false, final false
-  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256> a, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256> b);
+  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256 const> a, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256 const> b);
 
   /// @brief Method op_ExclusiveOr, addr 0x3a05f08, size 0x18, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::BitMask256 op_ExclusiveOr(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256> a, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256> b);
+  static inline ::GlobalNamespace::BitMask256 op_ExclusiveOr(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256 const> a, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256 const> b);
 
   /// @brief Method op_Implicit, addr 0x3a06098, size 0xc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BitMask256 op_Implicit___GlobalNamespace__BitMask256(uint64_t value);
 
   /// @brief Method op_Inequality, addr 0x3a0604c, size 0x4c, virtual false, abstract: false, final false
-  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256> a, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256> b);
+  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256 const> a, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256 const> b);
 
   /// @brief Method op_LeftShift, addr 0x3a05f20, size 0x70, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::BitMask256 op_LeftShift(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256> a, int32_t bits);
+  static inline ::GlobalNamespace::BitMask256 op_LeftShift(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256 const> a, int32_t bits);
 
   /// @brief Method op_RightShift, addr 0x3a05f90, size 0x70, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::BitMask256 op_RightShift(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256> a, int32_t bits);
+  static inline ::GlobalNamespace::BitMask256 op_RightShift(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BitMask256 const> a, int32_t bits);
 
   // Ctor Parameters []
   // @brief default ctor

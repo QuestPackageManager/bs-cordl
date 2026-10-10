@@ -59,7 +59,7 @@ public:
   inline int32_t GetHashCode();
 
   /// @brief Method GetNodeByRef, addr 0x6f984dc, size 0x4, virtual false, abstract: false, final false
-  static inline ::by_ref<::Unity::Hierarchy::HierarchyNode> GetNodeByRef(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode> hierarchyFlattenedNode);
+  static inline ::by_ref<::Unity::Hierarchy::HierarchyNode> GetNodeByRef(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode const> hierarchyFlattenedNode);
 
   /// [ExcludeFromDocs]
   /// @brief Method ToString, addr 0x6f98268, size 0x164, virtual true, abstract: false, final false
@@ -87,7 +87,7 @@ public:
 
   /// [ExcludeFromDocs]
   /// @brief Method op_Equality, addr 0x6f98240, size 0x14, virtual false, abstract: false, final false
-  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode> lhs, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode> rhs);
+  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode const> lhs, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode const> rhs);
 
   static inline void setStaticF_s_Null(::Unity::Hierarchy::HierarchyFlattenedNode value);
 

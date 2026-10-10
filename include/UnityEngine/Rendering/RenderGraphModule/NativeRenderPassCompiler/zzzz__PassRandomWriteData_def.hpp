@@ -31,7 +31,7 @@ public:
   inline int32_t GetHashCode();
 
   /// @brief Method .ctor, addr 0x6c27054, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> resource, int32_t index, bool preserveCounterValue);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> resource, int32_t index, bool preserveCounterValue);
 
   // Ctor Parameters []
   // @brief default ctor

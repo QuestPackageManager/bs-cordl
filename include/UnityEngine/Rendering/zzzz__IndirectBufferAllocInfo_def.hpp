@@ -30,7 +30,7 @@ public:
   inline bool IsEmpty();
 
   /// @brief Method IsWithinLimits, addr 0x6c64d64, size 0x34, virtual false, abstract: false, final false
-  inline bool IsWithinLimits(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::IndirectBufferLimits> limits);
+  inline bool IsWithinLimits(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::IndirectBufferLimits const> limits);
 
   // Ctor Parameters []
   // @brief default ctor

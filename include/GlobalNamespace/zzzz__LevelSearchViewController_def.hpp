@@ -241,7 +241,7 @@ public:
   inline bool IsFilteringPlayCounts();
 
   /// @brief Method LocalizedLevelFilterParamsDescription, addr 0x5d70b20, size 0x68c, virtual false, abstract: false, final false
-  static inline ::StringW LocalizedLevelFilterParamsDescription(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelFilter> filter, ::GlobalNamespace::SongPackMasksModel* songPackMasksModel,
+  static inline ::StringW LocalizedLevelFilterParamsDescription(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelFilter const> filter, ::GlobalNamespace::SongPackMasksModel* songPackMasksModel,
                                                                 ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapCharacteristic>* characteristics,
                                                                 bool isPlayerSensitivityForced);
 
@@ -251,7 +251,7 @@ public:
   inline void Refresh();
 
   /// @brief Method Refresh, addr 0x5d70770, size 0x20, virtual false, abstract: false, final false
-  inline void Refresh(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelFilter> filter);
+  inline void Refresh(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelFilter const> filter);
 
   /// [AsyncStateMachine(typeof(LevelSearchViewController::<RefreshAsync>d__40))]
   /// @brief Method RefreshAsync, addr 0x5d706cc, size 0xa4, virtual false, abstract: false, final false

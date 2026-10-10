@@ -191,71 +191,71 @@ public:
   inline int64_t ReadLong();
 
   /// @brief Method ReadPackedDouble, addr 0x68d5b84, size 0x8, virtual false, abstract: false, final false
-  inline double_t ReadPackedDouble(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline double_t ReadPackedDouble(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method ReadPackedDoubleDelta, addr 0x68d5b8c, size 0xe0, virtual false, abstract: false, final false
-  inline double_t ReadPackedDoubleDelta(double_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline double_t ReadPackedDoubleDelta(double_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method ReadPackedFixedString128Delta, addr 0x68d623c, size 0x84, virtual false, abstract: false, final false
   inline ::Unity::Collections::FixedString128Bytes ReadPackedFixedString128Delta(::Unity::Collections::FixedString128Bytes baseline,
-                                                                                 /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+                                                                                 /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method ReadPackedFixedString32Delta, addr 0x68d6008, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Collections::FixedString32Bytes ReadPackedFixedString32Delta(::Unity::Collections::FixedString32Bytes baseline,
-                                                                               /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+                                                                               /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method ReadPackedFixedString4096Delta, addr 0x68d6360, size 0xa8, virtual false, abstract: false, final false
   inline ::Unity::Collections::FixedString4096Bytes ReadPackedFixedString4096Delta(::Unity::Collections::FixedString4096Bytes baseline,
-                                                                                   /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+                                                                                   /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method ReadPackedFixedString512Delta, addr 0x68d62c0, size 0xa0, virtual false, abstract: false, final false
   inline ::Unity::Collections::FixedString512Bytes ReadPackedFixedString512Delta(::Unity::Collections::FixedString512Bytes baseline,
-                                                                                 /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+                                                                                 /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method ReadPackedFixedString64Delta, addr 0x68d61c0, size 0x7c, virtual false, abstract: false, final false
   inline ::Unity::Collections::FixedString64Bytes ReadPackedFixedString64Delta(::Unity::Collections::FixedString64Bytes baseline,
-                                                                               /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+                                                                               /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method ReadPackedFixedStringDelta, addr 0x68d6408, size 0x84, virtual false, abstract: false, final false
   inline uint16_t ReadPackedFixedStringDelta(::Unity::Collections::NativeArray_1<uint8_t> data, ::Unity::Collections::NativeArray_1<uint8_t> baseData,
-                                             /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+                                             /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method ReadPackedFixedStringDeltaInternal, addr 0x68d6078, size 0x148, virtual false, abstract: false, final false
   inline uint16_t ReadPackedFixedStringDeltaInternal(uint8_t* data, int32_t maxLength, uint8_t* baseData, uint16_t baseLength,
-                                                     /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+                                                     /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method ReadPackedFloat, addr 0x68d5afc, size 0x8, virtual false, abstract: false, final false
-  inline float_t ReadPackedFloat(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline float_t ReadPackedFloat(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method ReadPackedFloatDelta, addr 0x68d5b04, size 0x80, virtual false, abstract: false, final false
-  inline float_t ReadPackedFloatDelta(float_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline float_t ReadPackedFloatDelta(float_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method ReadPackedInt, addr 0x68d5a88, size 0x24, virtual false, abstract: false, final false
-  inline int32_t ReadPackedInt(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline int32_t ReadPackedInt(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method ReadPackedIntDelta, addr 0x68d5c6c, size 0x28, virtual false, abstract: false, final false
-  inline int32_t ReadPackedIntDelta(int32_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline int32_t ReadPackedIntDelta(int32_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method ReadPackedLong, addr 0x68d5aac, size 0x50, virtual false, abstract: false, final false
-  inline int64_t ReadPackedLong(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline int64_t ReadPackedLong(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method ReadPackedLongDelta, addr 0x68d5cbc, size 0x1c, virtual false, abstract: false, final false
-  inline int64_t ReadPackedLongDelta(int64_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline int64_t ReadPackedLongDelta(int64_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method ReadPackedUInt, addr 0x68d5874, size 0xc, virtual false, abstract: false, final false
-  inline uint32_t ReadPackedUInt(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline uint32_t ReadPackedUInt(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method ReadPackedUIntDelta, addr 0x68d5c94, size 0x28, virtual false, abstract: false, final false
-  inline uint32_t ReadPackedUIntDelta(uint32_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline uint32_t ReadPackedUIntDelta(uint32_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method ReadPackedUIntInternal, addr 0x68d5880, size 0xbc, virtual false, abstract: false, final false
-  inline uint32_t ReadPackedUIntInternal(int32_t maxSymbolLength, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline uint32_t ReadPackedUIntInternal(int32_t maxSymbolLength, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method ReadPackedULong, addr 0x68d5a44, size 0x44, virtual false, abstract: false, final false
-  inline uint64_t ReadPackedULong(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline uint64_t ReadPackedULong(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method ReadPackedULongDelta, addr 0x68d5cd8, size 0x1c, virtual false, abstract: false, final false
-  inline uint64_t ReadPackedULongDelta(uint64_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel> model);
+  inline uint64_t ReadPackedULongDelta(uint64_t baseline, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::StreamCompressionModel const> model);
 
   /// @brief Method ReadRawBits, addr 0x68d59e8, size 0x5c, virtual false, abstract: false, final false
   inline uint32_t ReadRawBits(int32_t numbits);

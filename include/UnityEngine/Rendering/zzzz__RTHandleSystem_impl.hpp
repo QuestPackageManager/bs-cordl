@@ -328,14 +328,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 //  Writing Method size for method: ::UnityEngine::Rendering::RTHandleSystem.CalculateRatioAgainstMaxSize
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Rendering::RTHandleSystem::*)(::by_ref<::UnityEngine::Vector2Int>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Rendering::RTHandleSystem::*)(::by_ref<::UnityEngine::Vector2Int const>)>(
     &::UnityEngine::Rendering::RTHandleSystem::CalculateRatioAgainstMaxSize)> {
   constexpr static std::size_t size = 0x248;
   constexpr static std::size_t addrs = 0x6bc46e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RTHandleSystem*>(),
-                                                                                           { "CalculateRatioAgainstMaxSize", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2Int>>() } })));
+                                                                                           { "CalculateRatioAgainstMaxSize", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2Int const>>() } })));
     return ___internal_method;
   }
 };
@@ -1128,9 +1128,9 @@ inline void UnityEngine::Rendering::RTHandleSystem::SetReferenceSize(int32_t wid
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RTHandleSystem*>(), { "SetReferenceSize", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, width, height, reset);
 }
-inline ::UnityEngine::Vector2 UnityEngine::Rendering::RTHandleSystem::CalculateRatioAgainstMaxSize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2Int> viewportSize) {
+inline ::UnityEngine::Vector2 UnityEngine::Rendering::RTHandleSystem::CalculateRatioAgainstMaxSize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2Int const> viewportSize) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RTHandleSystem*>(),
-                                                                                         { "CalculateRatioAgainstMaxSize", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2Int>>() } })));
+                                                                                         { "CalculateRatioAgainstMaxSize", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2Int const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(this, ___internal_method, viewportSize);
 }
 inline void UnityEngine::Rendering::RTHandleSystem::SetHardwareDynamicResolutionState(bool enableHWDynamicRes) {

@@ -32,7 +32,7 @@ public:
   __declspec(property(get = get_dataSourcePath)) ::Unity::Properties::PropertyPath dataSourcePath;
 
   /// @brief Method .ctor, addr 0x7089d9c, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* dataSource, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> dataSourcePath);
+  inline void _ctor(::System::Object* dataSource, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> dataSourcePath);
 
   /// [CompilerGenerated]
   /// @brief Method get_dataSource, addr 0x708e758, size 0x8, virtual false, abstract: false, final false

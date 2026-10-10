@@ -26,17 +26,11 @@ namespace Mono::Math::Prime {
 class CORDL_TYPE PrimalityTests : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetSPPRounds, addr 0x5ede674, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method GetSPPRounds, addr 0x5ec32b0, size 0x1a8, virtual false, abstract: false, final false
   static inline int32_t GetSPPRounds(::Mono::Math::BigInteger* bi, ::Mono::Math::Prime::ConfidenceFactor confidence);
 
-  /// @brief Method RabinMillerTest, addr 0x5ede9f8, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method RabinMillerTest, addr 0x5ec3458, size 0x2a8, virtual false, abstract: false, final false
   static inline bool RabinMillerTest(::Mono::Math::BigInteger* n, ::Mono::Math::Prime::ConfidenceFactor confidence);
-
-  /// @brief Method SmallPrimeSppTest, addr 0x5ede81c, size 0x1dc, virtual false, abstract: false, final false
-  static inline bool SmallPrimeSppTest(::Mono::Math::BigInteger* bi, ::Mono::Math::Prime::ConfidenceFactor confidence);
-
-  /// @brief Method Test, addr 0x5edd7e0, size 0x4c, virtual false, abstract: false, final false
-  static inline bool Test(::Mono::Math::BigInteger* n, ::Mono::Math::Prime::ConfidenceFactor confidence);
 
 protected:
   // Ctor Parameters []
@@ -53,7 +47,7 @@ public:
   PrimalityTests(PrimalityTests const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2293 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19852 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

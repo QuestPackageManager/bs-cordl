@@ -53,7 +53,8 @@ public:
 
   /// @brief Method TrySetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContainer, typename TValue>
-  inline bool TrySetValue(::by_ref<TContainer> container, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path, TValue value, ::by_ref<::Unity::Properties::VisitReturnCode> returnCode);
+  inline bool TrySetValue(::by_ref<TContainer> container, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> path, TValue value,
+                          ::by_ref<::Unity::Properties::VisitReturnCode> returnCode);
 
   constexpr ::StringW const& __cordl_internal_get__description_k__BackingField() const;
 

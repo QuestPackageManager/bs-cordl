@@ -14,14 +14,16 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData::*)(
-    Il2CppObject*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>)>(&::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData::GetName)> {
+    Il2CppObject*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>)>(
+    &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData::GetName)> {
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x6c2b6e8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData>(),
-                                                { "GetName", {}, { ::i2c::type_of<Il2CppObject*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData>(),
+                                         { "GetName", {}, { ::i2c::type_of<Il2CppObject*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>>() } })));
     return ___internal_method;
   }
 };
@@ -98,12 +100,11 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     return ___internal_method;
   }
 };
-inline ::StringW
-UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData::GetName(Il2CppObject* ctx,
-                                                                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h) {
+inline ::StringW UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData::GetName(
+    Il2CppObject* ctx, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> h) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData>(),
-                                              { "GetName", {}, { ::i2c::type_of<Il2CppObject*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>>() } })));
+                                              { "GetName", {}, { ::i2c::type_of<Il2CppObject*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(*this, ___internal_method, ctx, h);
 }
 inline void UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData::_ctor(::UnityEngine::Rendering::RenderGraphModule::TextureResource* rll,

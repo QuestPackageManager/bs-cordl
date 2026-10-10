@@ -225,7 +225,7 @@ public:
   inline ::UnityEngine::Rendering::GPUInstanceDataBuffer* SubmitToGpu(::by_ref<::UnityEngine::Rendering::GPUInstanceDataBufferGrower_GPUResources> gpuResources);
 
   /// @brief Method .ctor, addr 0x6c56900, size 0x18c, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Rendering::GPUInstanceDataBuffer* sourceBuffer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceNumInfo> instanceNumInfo);
+  inline void _ctor(::UnityEngine::Rendering::GPUInstanceDataBuffer* sourceBuffer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceNumInfo const> instanceNumInfo);
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();

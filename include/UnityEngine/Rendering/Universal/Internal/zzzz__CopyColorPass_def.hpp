@@ -307,8 +307,8 @@ public:
 
   /// @brief Method AddDownsampleAndCopyColorRenderPass, addr 0x6d214ec, size 0x4e0, virtual false, abstract: false, final false
   inline void AddDownsampleAndCopyColorRenderPass(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
-                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
-                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source, bool useProceduralBlit, ::StringW passName);
+                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> destination,
+                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source, bool useProceduralBlit, ::StringW passName);
 
   /// @brief Method ConfigureDescriptor, addr 0x6d20a50, size 0x54, virtual false, abstract: false, final false
   static inline void ConfigureDescriptor(::UnityEngine::Rendering::Universal::Downsampling downsamplingMethod, ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor,
@@ -332,17 +332,19 @@ public:
   /// @brief Method Render, addr 0x6d20e90, size 0x1d4, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                                                                            ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
-                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
+                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
                                                                            ::UnityEngine::Rendering::Universal::Downsampling downsampling);
 
   /// @brief Method RenderInternal, addr 0x6d21064, size 0x3d4, virtual false, abstract: false, final false
-  inline void RenderInternal(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
-                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source, bool useProceduralBlit);
+  inline void RenderInternal(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
+                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> destination,
+                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source, bool useProceduralBlit);
 
   /// @brief Method RenderToExistingTexture, addr 0x6d21438, size 0xb4, virtual false, abstract: false, final false
   inline void RenderToExistingTexture(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
-                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
-                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source, ::UnityEngine::Rendering::Universal::Downsampling downsampling);
+                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> destination,
+                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
+                                      ::UnityEngine::Rendering::Universal::Downsampling downsampling);
 
   /// @brief Method Setup, addr 0x6d20af0, size 0x8, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Rendering::RTHandle* destination, ::UnityEngine::Rendering::Universal::Downsampling downsampling);

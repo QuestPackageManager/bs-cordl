@@ -19,104 +19,104 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
 //  Writing Method size for method: ::UnityEngine::Rendering::HashFNV1A32.Append
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::by_ref<int32_t>)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::by_ref<int32_t const>)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x6be36e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<int32_t>>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<int32_t const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::HashFNV1A32.Append
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::by_ref<uint32_t>)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::by_ref<uint32_t const>)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x6be3708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<uint32_t>>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<uint32_t const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::HashFNV1A32.Append
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::by_ref<bool>)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::by_ref<bool const>)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x6be3728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<bool>>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<bool const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::HashFNV1A32.Append
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::by_ref<float_t>)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::by_ref<float_t const>)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x6be3750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<float_t>>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<float_t const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::HashFNV1A32.Append
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::by_ref<double_t>)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::by_ref<double_t const>)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
   constexpr static std::size_t size = 0x38;
   constexpr static std::size_t addrs = 0x6be3780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<double_t>>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<double_t const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::HashFNV1A32.Append
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::by_ref<::UnityEngine::Vector2>)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::by_ref<::UnityEngine::Vector2 const>)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
   constexpr static std::size_t size = 0x48;
   constexpr static std::size_t addrs = 0x6be37b8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::HashFNV1A32.Append
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::by_ref<::UnityEngine::Vector3 const>)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x6be3800;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::HashFNV1A32.Append
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::by_ref<::UnityEngine::Vector4>)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::by_ref<::UnityEngine::Vector4 const>)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x6be3864;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector4 const>>() } })));
     return ___internal_method;
   }
 };
@@ -149,44 +149,44 @@ inline ::UnityEngine::Rendering::HashFNV1A32 UnityEngine::Rendering::HashFNV1A32
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Create", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::HashFNV1A32>(nullptr, ___internal_method);
 }
-inline void UnityEngine::Rendering::HashFNV1A32::Append(/* [IsReadOnly] */ ::by_ref<int32_t> input) {
+inline void UnityEngine::Rendering::HashFNV1A32::Append(/* [IsReadOnly] */ ::by_ref<int32_t const> input) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<int32_t>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<int32_t const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, input);
 }
-inline void UnityEngine::Rendering::HashFNV1A32::Append(/* [IsReadOnly] */ ::by_ref<uint32_t> input) {
+inline void UnityEngine::Rendering::HashFNV1A32::Append(/* [IsReadOnly] */ ::by_ref<uint32_t const> input) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<uint32_t>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<uint32_t const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, input);
 }
-inline void UnityEngine::Rendering::HashFNV1A32::Append(/* [IsReadOnly] */ ::by_ref<bool> input) {
+inline void UnityEngine::Rendering::HashFNV1A32::Append(/* [IsReadOnly] */ ::by_ref<bool const> input) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<bool>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<bool const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, input);
 }
-inline void UnityEngine::Rendering::HashFNV1A32::Append(/* [IsReadOnly] */ ::by_ref<float_t> input) {
+inline void UnityEngine::Rendering::HashFNV1A32::Append(/* [IsReadOnly] */ ::by_ref<float_t const> input) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<float_t>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<float_t const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, input);
 }
-inline void UnityEngine::Rendering::HashFNV1A32::Append(/* [IsReadOnly] */ ::by_ref<double_t> input) {
+inline void UnityEngine::Rendering::HashFNV1A32::Append(/* [IsReadOnly] */ ::by_ref<double_t const> input) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<double_t>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<double_t const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, input);
 }
-inline void UnityEngine::Rendering::HashFNV1A32::Append(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> input) {
+inline void UnityEngine::Rendering::HashFNV1A32::Append(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2 const> input) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, input);
 }
-inline void UnityEngine::Rendering::HashFNV1A32::Append(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> input) {
+inline void UnityEngine::Rendering::HashFNV1A32::Append(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> input) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, input);
 }
-inline void UnityEngine::Rendering::HashFNV1A32::Append(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> input) {
+inline void UnityEngine::Rendering::HashFNV1A32::Append(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4 const> input) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Append", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector4 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, input);
 }
 template <typename T>

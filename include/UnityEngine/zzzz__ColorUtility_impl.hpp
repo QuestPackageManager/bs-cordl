@@ -74,13 +74,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::UnityEngi
 //  Writing Method size for method: ::UnityEngine::ColorUtility.ToHtmlStringRGB
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::by_ref<::UnityEngine::Color>)>(&::UnityEngine::ColorUtility::ToHtmlStringRGB)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::by_ref<::UnityEngine::Color const>)>(&::UnityEngine::ColorUtility::ToHtmlStringRGB)> {
   constexpr static std::size_t size = 0x348;
   constexpr static std::size_t addrs = 0x6f24d0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ColorUtility*>(), { "ToHtmlStringRGB", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color>>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ColorUtility*>(), { "ToHtmlStringRGB", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color const>>() } })));
     return ___internal_method;
   }
 };
@@ -192,9 +192,9 @@ inline ::StringW UnityEngine::ColorUtility::ToHtmlStringRGB(::UnityEngine::Color
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ColorUtility*>(), { "ToHtmlStringRGB", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, color);
 }
-inline ::StringW UnityEngine::ColorUtility::ToHtmlStringRGB(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Color> color) {
+inline ::StringW UnityEngine::ColorUtility::ToHtmlStringRGB(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Color const> color) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ColorUtility*>(), { "ToHtmlStringRGB", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ColorUtility*>(), { "ToHtmlStringRGB", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Color const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, color);
 }
 inline bool UnityEngine::ColorUtility::TryParseHtmlString(::System::ReadOnlySpan_1<char16_t> input, ::by_ref<::UnityEngine::Color> color) {

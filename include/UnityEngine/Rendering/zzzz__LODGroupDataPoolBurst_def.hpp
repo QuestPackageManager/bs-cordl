@@ -93,7 +93,7 @@ class CORDL_TYPE LODGroupDataPoolBurst_FreeLODGroupData_000002F2$PostfixBurstDel
 public:
   // Declarations
   /// @brief Method BeginInvoke, addr 0x6c688ac, size 0x128, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> destroyedLODGroupsID,
+  inline ::System::IAsyncResult* BeginInvoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> destroyedLODGroupsID,
                                              ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>> lodGroupsData,
                                              ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>> lodGroupDataHash,
                                              ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>> freeLODGroupDataHandles,
@@ -103,7 +103,7 @@ public:
   inline int32_t EndInvoke(::System::IAsyncResult* _cordl_fixed_empty_name_whitespace);
 
   /// @brief Method Invoke, addr 0x6c68898, size 0x14, virtual true, abstract: false, final false
-  inline int32_t Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> destroyedLODGroupsID,
+  inline int32_t Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> destroyedLODGroupsID,
                         ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>> lodGroupsData,
                         ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>> lodGroupDataHash,
                         ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>> freeLODGroupDataHandles);
@@ -155,7 +155,7 @@ public:
   static inline void GetFunctionPointerDiscard(::by_ref<::System::IntPtr> _cordl_fixed_empty_name_whitespace);
 
   /// @brief Method Invoke, addr 0x6c68124, size 0xc8, virtual false, abstract: false, final false
-  static inline int32_t Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> destroyedLODGroupsID,
+  static inline int32_t Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> destroyedLODGroupsID,
                                ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>> lodGroupsData,
                                ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>> lodGroupDataHash,
                                ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>> freeLODGroupDataHandles);
@@ -196,7 +196,7 @@ class CORDL_TYPE LODGroupDataPoolBurst_AllocateOrGetLODGroupDataInstances_000002
 public:
   // Declarations
   /// @brief Method BeginInvoke, addr 0x6c68bb0, size 0x190, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> lodGroupsID,
+  inline ::System::IAsyncResult* BeginInvoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> lodGroupsID,
                                              ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>> lodGroupsData,
                                              ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>> lodGroupCullingData,
                                              ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>> lodGroupDataHash,
@@ -208,7 +208,7 @@ public:
   inline int32_t EndInvoke(::System::IAsyncResult* _cordl_fixed_empty_name_whitespace);
 
   /// @brief Method Invoke, addr 0x6c68b9c, size 0x14, virtual true, abstract: false, final false
-  inline int32_t Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> lodGroupsID,
+  inline int32_t Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> lodGroupsID,
                         ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>> lodGroupsData,
                         ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>> lodGroupCullingData,
                         ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>> lodGroupDataHash,
@@ -262,7 +262,7 @@ public:
   static inline void GetFunctionPointerDiscard(::by_ref<::System::IntPtr> _cordl_fixed_empty_name_whitespace);
 
   /// @brief Method Invoke, addr 0x6c681ec, size 0xec, virtual false, abstract: false, final false
-  static inline int32_t Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> lodGroupsID,
+  static inline int32_t Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> lodGroupsID,
                                ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>> lodGroupsData,
                                ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>> lodGroupCullingData,
                                ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>> lodGroupDataHash,
@@ -315,7 +315,7 @@ public:
   /// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
   /// [MonoPInvokeCallback(typeof(UnityEngine.Rendering.UnityEngine.Rendering.LODGroupDataPoolBurst::AllocateOrGetLODGroupDataInstances_000002F3$PostfixBurstDelegate))]
   /// @brief Method AllocateOrGetLODGroupDataInstances, addr 0x6c67f74, size 0x4, virtual false, abstract: false, final false
-  static inline int32_t AllocateOrGetLODGroupDataInstances(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> lodGroupsID,
+  static inline int32_t AllocateOrGetLODGroupDataInstances(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> lodGroupsID,
                                                            ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>> lodGroupsData,
                                                            ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>> lodGroupCullingData,
                                                            ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>> lodGroupDataHash,
@@ -324,7 +324,7 @@ public:
 
   /// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
   /// @brief Method AllocateOrGetLODGroupDataInstances$BurstManaged, addr 0x6c68538, size 0x2e0, virtual false, abstract: false, final false
-  static inline int32_t AllocateOrGetLODGroupDataInstances$BurstManaged(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> lodGroupsID,
+  static inline int32_t AllocateOrGetLODGroupDataInstances$BurstManaged(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> lodGroupsID,
                                                                         ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>> lodGroupsData,
                                                                         ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>> lodGroupCullingData,
                                                                         ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>> lodGroupDataHash,
@@ -334,14 +334,14 @@ public:
   /// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
   /// [MonoPInvokeCallback(typeof(UnityEngine.Rendering.UnityEngine.Rendering.LODGroupDataPoolBurst::FreeLODGroupData_000002F2$PostfixBurstDelegate))]
   /// @brief Method FreeLODGroupData, addr 0x6c67f78, size 0x4, virtual false, abstract: false, final false
-  static inline int32_t FreeLODGroupData(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> destroyedLODGroupsID,
+  static inline int32_t FreeLODGroupData(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> destroyedLODGroupsID,
                                          ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>> lodGroupsData,
                                          ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>> lodGroupDataHash,
                                          ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>> freeLODGroupDataHandles);
 
   /// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
   /// @brief Method FreeLODGroupData$BurstManaged, addr 0x6c682d8, size 0x260, virtual false, abstract: false, final false
-  static inline int32_t FreeLODGroupData$BurstManaged(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> destroyedLODGroupsID,
+  static inline int32_t FreeLODGroupData$BurstManaged(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> destroyedLODGroupsID,
                                                       ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>> lodGroupsData,
                                                       ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>> lodGroupDataHash,
                                                       ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>> freeLODGroupDataHandles);

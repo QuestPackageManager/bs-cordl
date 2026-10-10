@@ -270,7 +270,7 @@ public:
 
   /// [FreeFunction("Texture2DScripting::GenerateAtlas")]
   /// @brief Method GenerateAtlasImpl, addr 0x6f12148, size 0x1bc, virtual false, abstract: false, final false
-  static inline void GenerateAtlasImpl(::ArrayW<::UnityEngine::Vector2> sizes, int32_t padding, int32_t atlasSize, ::by_ref<::ArrayW<::UnityEngine::Rect>> rect);
+  static inline void GenerateAtlasImpl(::ArrayW<::UnityEngine::Vector2> sizes, int32_t padding, int32_t atlasSize, ::ArrayW<::UnityEngine::Rect> rect);
 
   /// @brief Method GenerateAtlasImpl_Injected, addr 0x6f12304, size 0x5c, virtual false, abstract: false, final false
   static inline void GenerateAtlasImpl_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> sizes, int32_t padding, int32_t atlasSize,
@@ -514,7 +514,7 @@ public:
   inline void ReadPixelsImpl(::UnityEngine::Rect source, int32_t destX, int32_t destY, bool recalculateMipMaps);
 
   /// @brief Method ReadPixelsImpl_Injected, addr 0x6f118d4, size 0x6c, virtual false, abstract: false, final false
-  static inline void ReadPixelsImpl_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rect> source, int32_t destX, int32_t destY, bool recalculateMipMaps);
+  static inline void ReadPixelsImpl_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rect const> source, int32_t destX, int32_t destY, bool recalculateMipMaps);
 
   /// @brief Method Reinitialize, addr 0x6f15070, size 0x64, virtual false, abstract: false, final false
   inline bool Reinitialize(int32_t width, int32_t height);
@@ -616,7 +616,7 @@ public:
   inline void SetPixelImpl(int32_t image, int32_t mip, int32_t x, int32_t y, ::UnityEngine::Color color);
 
   /// @brief Method SetPixelImpl_Injected, addr 0x6f112e8, size 0x74, virtual false, abstract: false, final false
-  static inline void SetPixelImpl_Injected(::System::IntPtr _unity_self, int32_t image, int32_t mip, int32_t x, int32_t y, ::by_ref<::UnityEngine::Color> color);
+  static inline void SetPixelImpl_Injected(::System::IntPtr _unity_self, int32_t image, int32_t mip, int32_t x, int32_t y, ::by_ref<::UnityEngine::Color const> color);
 
   /// [ExcludeFromDocs]
   /// @brief Method SetPixels, addr 0x6f14ba0, size 0x5c, virtual false, abstract: false, final false

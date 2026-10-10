@@ -13283,9 +13283,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlu
 //  Writing Method size for method: ::GlobalNamespace::OVRPlugin_OVRP_1_72_0.ovrp_EnumerateSpaceSupportedComponents
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::by_ref<uint64_t>, uint32_t, ::by_ref<uint32_t>, ::by_ref<::ArrayW<::GlobalNamespace::OVRPlugin_SpaceComponentType>>)>(
-        &::GlobalNamespace::OVRPlugin_OVRP_1_72_0::ovrp_EnumerateSpaceSupportedComponents)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
+    ::by_ref<uint64_t>, uint32_t, ::by_ref<uint32_t>, ::ArrayW<::GlobalNamespace::OVRPlugin_SpaceComponentType>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_72_0::ovrp_EnumerateSpaceSupportedComponents)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x62cecb8;
 
@@ -13294,7 +13293,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                                                                                            { "ovrp_EnumerateSpaceSupportedComponents",
                                                                                              {},
                                                                                              { ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<uint32_t>>(),
-                                                                                               ::i2c::type_of<::by_ref<::ArrayW<::GlobalNamespace::OVRPlugin_SpaceComponentType>>>() } })));
+                                                                                               ::i2c::type_of<::ArrayW<::GlobalNamespace::OVRPlugin_SpaceComponentType>>() } })));
     return ___internal_method;
   }
 };
@@ -13529,14 +13528,14 @@ inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_72_
                                                                ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_Bool>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_Bool>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, space, componentType, enabled, changePending);
 }
-inline ::GlobalNamespace::OVRPlugin_Result
-GlobalNamespace::OVRPlugin_OVRP_1_72_0::ovrp_EnumerateSpaceSupportedComponents(::by_ref<uint64_t> space, uint32_t componentTypesCapacityInput, ::by_ref<uint32_t> componentTypesCountOutput,
-                                                                               ::by_ref<::ArrayW<::GlobalNamespace::OVRPlugin_SpaceComponentType>> componentTypes) {
+inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_72_0::ovrp_EnumerateSpaceSupportedComponents(::by_ref<uint64_t> space, uint32_t componentTypesCapacityInput,
+                                                                                                                          ::by_ref<uint32_t> componentTypesCountOutput,
+                                                                                                                          ::ArrayW<::GlobalNamespace::OVRPlugin_SpaceComponentType> componentTypes) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_72_0*>(),
                                                                                          { "ovrp_EnumerateSpaceSupportedComponents",
                                                                                            {},
                                                                                            { ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<uint32_t>>(),
-                                                                                             ::i2c::type_of<::by_ref<::ArrayW<::GlobalNamespace::OVRPlugin_SpaceComponentType>>>() } })));
+                                                                                             ::i2c::type_of<::ArrayW<::GlobalNamespace::OVRPlugin_SpaceComponentType>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, space, componentTypesCapacityInput, componentTypesCountOutput, componentTypes);
 }
 inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_72_0::ovrp_EnumerateSpaceSupportedComponents(::by_ref<uint64_t> space, uint32_t componentTypesCapacityInput,
@@ -13648,7 +13647,7 @@ constexpr ::GlobalNamespace::OVRPlugin_OVRP_1_73_0::OVRPlugin_OVRP_1_73_0() {}
 //  Writing Method size for method: ::GlobalNamespace::OVRPlugin_OVRP_1_74_0.ovrp_GetSpaceUuid
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::by_ref<uint64_t>, ::by_ref<::System::Guid>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::by_ref<uint64_t const>, ::by_ref<::System::Guid>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_74_0::ovrp_GetSpaceUuid)> {
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x62cf588;
@@ -13656,7 +13655,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlu
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_74_0*>(),
-                                                             { "ovrp_GetSpaceUuid", {}, { ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<::System::Guid>>() } })));
+                                                             { "ovrp_GetSpaceUuid", {}, { ::i2c::type_of<::by_ref<uint64_t const>>(), ::i2c::type_of<::by_ref<::System::Guid>>() } })));
     return ___internal_method;
   }
 };
@@ -13785,10 +13784,10 @@ inline void GlobalNamespace::OVRPlugin_OVRP_1_74_0::setStaticF_version(::System:
 inline ::System::Version* GlobalNamespace::OVRPlugin_OVRP_1_74_0::getStaticF_version() {
   return ::cordl_internals::getStaticField<::System::Version*, "version", ::GlobalNamespace::OVRPlugin_OVRP_1_74_0*>();
 }
-inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_74_0::ovrp_GetSpaceUuid(/* [IsReadOnly] */ ::by_ref<uint64_t> space, ::by_ref<::System::Guid> uuid) {
+inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_74_0::ovrp_GetSpaceUuid(/* [IsReadOnly] */ ::by_ref<uint64_t const> space, ::by_ref<::System::Guid> uuid) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_74_0*>(),
-                                                           { "ovrp_GetSpaceUuid", {}, { ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<::System::Guid>>() } })));
+                                                           { "ovrp_GetSpaceUuid", {}, { ::i2c::type_of<::by_ref<uint64_t const>>(), ::i2c::type_of<::by_ref<::System::Guid>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, space, uuid);
 }
 inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_74_0::ovrp_CreateVirtualKeyboard(::GlobalNamespace::OVRPlugin_VirtualKeyboardCreateInfo createInfo) {
@@ -14515,7 +14514,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlu
 //  Writing Method size for method: ::GlobalNamespace::OVRPlugin_OVRP_1_79_0.ovrp_GetSpaceUserId
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::by_ref<uint64_t>, ::by_ref<uint64_t>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::by_ref<uint64_t const>, ::by_ref<uint64_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_GetSpaceUserId)> {
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x62d0c08;
@@ -14523,14 +14522,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlu
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_79_0*>(),
-                                                             { "ovrp_GetSpaceUserId", {}, { ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
+                                                             { "ovrp_GetSpaceUserId", {}, { ::i2c::type_of<::by_ref<uint64_t const>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRPlugin_OVRP_1_79_0.ovrp_CreateSpaceUser
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::by_ref<uint64_t>, ::by_ref<uint64_t>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::by_ref<uint64_t const>, ::by_ref<uint64_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_CreateSpaceUser)> {
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x62d0c8c;
@@ -14538,20 +14537,20 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlu
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_79_0*>(),
-                                                             { "ovrp_CreateSpaceUser", {}, { ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
+                                                             { "ovrp_CreateSpaceUser", {}, { ::i2c::type_of<::by_ref<uint64_t const>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRPlugin_OVRP_1_79_0.ovrp_DestroySpaceUser
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::by_ref<uint64_t>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_DestroySpaceUser)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::by_ref<uint64_t const>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_DestroySpaceUser)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x62d0d10;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_79_0*>(), { "ovrp_DestroySpaceUser", {}, { ::i2c::type_of<::by_ref<uint64_t>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_79_0*>(), { "ovrp_DestroySpaceUser", {}, { ::i2c::type_of<::by_ref<uint64_t const>>() } })));
     return ___internal_method;
   }
 };
@@ -14559,7 +14558,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlu
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(
-    ::by_ref<::GlobalNamespace::OVRPlugin_SpaceLocationf>, ::by_ref<uint64_t>, ::GlobalNamespace::OVRPlugin_TrackingOrigin)>(&::GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_LocateSpace2)> {
+    ::by_ref<::GlobalNamespace::OVRPlugin_SpaceLocationf>, ::by_ref<uint64_t const>, ::GlobalNamespace::OVRPlugin_TrackingOrigin)>(&::GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_LocateSpace2)> {
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x62d0d8c;
 
@@ -14568,7 +14567,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlu
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_79_0*>(),
                                                              { "ovrp_LocateSpace2",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_SpaceLocationf>>(), ::i2c::type_of<::by_ref<uint64_t>>(),
+                                                               { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_SpaceLocationf>>(), ::i2c::type_of<::by_ref<uint64_t const>>(),
                                                                  ::i2c::type_of<::GlobalNamespace::OVRPlugin_TrackingOrigin>() } })));
     return ___internal_method;
   }
@@ -14576,14 +14575,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlu
 //  Writing Method size for method: ::GlobalNamespace::OVRPlugin_OVRP_1_79_0.ovrp_DeclareUser
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::by_ref<uint64_t>, ::by_ref<uint64_t>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_DeclareUser)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::by_ref<uint64_t const>, ::by_ref<uint64_t>)>(
+    &::GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_DeclareUser)> {
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x62d0e20;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_79_0*>(), { "ovrp_DeclareUser", {}, { ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_79_0*>(),
+                                                             { "ovrp_DeclareUser", {}, { ::i2c::type_of<::by_ref<uint64_t const>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
     return ___internal_method;
   }
 };
@@ -14612,36 +14612,38 @@ inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_79_
                             { ::i2c::type_of<uint64_t*>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<::GlobalNamespace::OVRPlugin_SpaceStorageLocation>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, spaces, numSpaces, location, requestId);
 }
-inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_GetSpaceUserId(/* [IsReadOnly] */ ::by_ref<uint64_t> spaceUserHandle, ::by_ref<uint64_t> spaceUserId) {
+inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_GetSpaceUserId(/* [IsReadOnly] */ ::by_ref<uint64_t const> spaceUserHandle, ::by_ref<uint64_t> spaceUserId) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_79_0*>(),
-                                                           { "ovrp_GetSpaceUserId", {}, { ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
+                                                           { "ovrp_GetSpaceUserId", {}, { ::i2c::type_of<::by_ref<uint64_t const>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, spaceUserHandle, spaceUserId);
 }
-inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_CreateSpaceUser(/* [IsReadOnly] */ ::by_ref<uint64_t> spaceUserId, ::by_ref<uint64_t> spaceUserHandle) {
+inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_CreateSpaceUser(/* [IsReadOnly] */ ::by_ref<uint64_t const> spaceUserId, ::by_ref<uint64_t> spaceUserHandle) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_79_0*>(),
-                                                           { "ovrp_CreateSpaceUser", {}, { ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
+                                                           { "ovrp_CreateSpaceUser", {}, { ::i2c::type_of<::by_ref<uint64_t const>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, spaceUserId, spaceUserHandle);
 }
-inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_DestroySpaceUser(/* [IsReadOnly] */ ::by_ref<uint64_t> userHandle) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_79_0*>(), { "ovrp_DestroySpaceUser", {}, { ::i2c::type_of<::by_ref<uint64_t>>() } })));
+inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_DestroySpaceUser(/* [IsReadOnly] */ ::by_ref<uint64_t const> userHandle) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_79_0*>(), { "ovrp_DestroySpaceUser", {}, { ::i2c::type_of<::by_ref<uint64_t const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, userHandle);
 }
 inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_LocateSpace2(::by_ref<::GlobalNamespace::OVRPlugin_SpaceLocationf> location,
-                                                                                                     /* [IsReadOnly] */ ::by_ref<uint64_t> space,
+                                                                                                     /* [IsReadOnly] */ ::by_ref<uint64_t const> space,
                                                                                                      ::GlobalNamespace::OVRPlugin_TrackingOrigin trackingOrigin) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_79_0*>(),
-                                                                                         { "ovrp_LocateSpace2",
-                                                                                           {},
-                                                                                           { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_SpaceLocationf>>(),
-                                                                                             ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::GlobalNamespace::OVRPlugin_TrackingOrigin>() } })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_79_0*>(),
+                                                           { "ovrp_LocateSpace2",
+                                                             {},
+                                                             { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_SpaceLocationf>>(), ::i2c::type_of<::by_ref<uint64_t const>>(),
+                                                               ::i2c::type_of<::GlobalNamespace::OVRPlugin_TrackingOrigin>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, location, space, trackingOrigin);
 }
-inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_DeclareUser(/* [IsReadOnly] */ ::by_ref<uint64_t> userId, ::by_ref<uint64_t> userHandle) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_79_0*>(),
-                                                                                         { "ovrp_DeclareUser", {}, { ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
+inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_79_0::ovrp_DeclareUser(/* [IsReadOnly] */ ::by_ref<uint64_t const> userId, ::by_ref<uint64_t> userHandle) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_79_0*>(),
+                                                           { "ovrp_DeclareUser", {}, { ::i2c::type_of<::by_ref<uint64_t const>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, userId, userHandle);
 }
 // Ctor Parameters []
@@ -14858,7 +14860,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlu
 //  Writing Method size for method: ::GlobalNamespace::OVRPlugin_OVRP_1_84_0.ovrp_SetInsightPassthroughStyle2
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(int32_t, ::by_ref<::GlobalNamespace::OVRPlugin_InsightPassthroughStyle2>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(int32_t, ::by_ref<::GlobalNamespace::OVRPlugin_InsightPassthroughStyle2 const>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_84_0::ovrp_SetInsightPassthroughStyle2)> {
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x62d153c;
@@ -14867,7 +14869,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlu
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_84_0*>(),
-                            { "ovrp_SetInsightPassthroughStyle2", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_InsightPassthroughStyle2>>() } })));
+                            { "ovrp_SetInsightPassthroughStyle2", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_InsightPassthroughStyle2 const>>() } })));
     return ___internal_method;
   }
 };
@@ -15033,11 +15035,11 @@ inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_84_
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, colorLut, data);
 }
 inline ::GlobalNamespace::OVRPlugin_Result
-GlobalNamespace::OVRPlugin_OVRP_1_84_0::ovrp_SetInsightPassthroughStyle2(int32_t layerId, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_InsightPassthroughStyle2> style) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_84_0*>(),
-                                       { "ovrp_SetInsightPassthroughStyle2", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_InsightPassthroughStyle2>>() } })));
+GlobalNamespace::OVRPlugin_OVRP_1_84_0::ovrp_SetInsightPassthroughStyle2(int32_t layerId, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_InsightPassthroughStyle2 const> style) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_84_0*>(),
+                          { "ovrp_SetInsightPassthroughStyle2", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_InsightPassthroughStyle2 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, layerId, style);
 }
 inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_84_0::ovrp_GetLayerRecommendedResolution(int32_t layerId,
@@ -15863,7 +15865,7 @@ constexpr ::GlobalNamespace::OVRPlugin_OVRP_1_95_0::OVRPlugin_OVRP_1_95_0() {}
 //  Writing Method size for method: ::GlobalNamespace::OVRPlugin_OVRP_1_96_0.ovrp_QplMarkerAnnotationVariant
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(int32_t, ::StringW, ::by_ref<::GlobalNamespace::Qpl_OVRPlugin_Variant>, int32_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(int32_t, ::StringW, ::by_ref<::GlobalNamespace::Qpl_OVRPlugin_Variant const>, int32_t)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_96_0::ovrp_QplMarkerAnnotationVariant)> {
   constexpr static std::size_t size = 0xbc;
   constexpr static std::size_t addrs = 0x62c3f58;
@@ -15874,7 +15876,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlu
         (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_96_0*>(),
                             { "ovrp_QplMarkerAnnotationVariant",
                               {},
-                              { ::i2c::type_of<int32_t>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::GlobalNamespace::Qpl_OVRPlugin_Variant>>(), ::i2c::type_of<int32_t>() } })));
+                              { ::i2c::type_of<int32_t>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::GlobalNamespace::Qpl_OVRPlugin_Variant const>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -15904,13 +15906,13 @@ inline ::System::Version* GlobalNamespace::OVRPlugin_OVRP_1_96_0::getStaticF_ver
 }
 inline ::GlobalNamespace::OVRPlugin_Result
 GlobalNamespace::OVRPlugin_OVRP_1_96_0::ovrp_QplMarkerAnnotationVariant(int32_t markerId, ::StringW annotationKey,
-                                                                        /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::Qpl_OVRPlugin_Variant> annotationValue, int32_t instanceKey) {
+                                                                        /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::Qpl_OVRPlugin_Variant const> annotationValue, int32_t instanceKey) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_96_0*>(),
                           { "ovrp_QplMarkerAnnotationVariant",
                             {},
-                            { ::i2c::type_of<int32_t>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::GlobalNamespace::Qpl_OVRPlugin_Variant>>(), ::i2c::type_of<int32_t>() } })));
+                            { ::i2c::type_of<int32_t>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::GlobalNamespace::Qpl_OVRPlugin_Variant const>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, markerId, annotationKey, annotationValue, instanceKey);
 }
 inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_96_0::ovrp_QplMarkerPointData(int32_t markerId, ::StringW name, ::GlobalNamespace::Qpl_OVRPlugin_Annotation* annotations,
@@ -15928,15 +15930,16 @@ constexpr ::GlobalNamespace::OVRPlugin_OVRP_1_96_0::OVRPlugin_OVRP_1_96_0() {}
 //  Writing Method size for method: ::GlobalNamespace::OVRPlugin_OVRP_1_97_0.ovrp_DiscoverSpaces
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::by_ref<::GlobalNamespace::OVRPlugin_SpaceDiscoveryInfo>, ::by_ref<uint64_t>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::by_ref<::GlobalNamespace::OVRPlugin_SpaceDiscoveryInfo const>, ::by_ref<uint64_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_97_0::ovrp_DiscoverSpaces)> {
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x62d2c7c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_97_0*>(),
-                                                { "ovrp_DiscoverSpaces", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_SpaceDiscoveryInfo>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_97_0*>(),
+                                         { "ovrp_DiscoverSpaces", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_SpaceDiscoveryInfo const>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
     return ___internal_method;
   }
 };
@@ -15993,11 +15996,12 @@ inline void GlobalNamespace::OVRPlugin_OVRP_1_97_0::setStaticF_version(::System:
 inline ::System::Version* GlobalNamespace::OVRPlugin_OVRP_1_97_0::getStaticF_version() {
   return ::cordl_internals::getStaticField<::System::Version*, "version", ::GlobalNamespace::OVRPlugin_OVRP_1_97_0*>();
 }
-inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_97_0::ovrp_DiscoverSpaces(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_SpaceDiscoveryInfo> info,
+inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_97_0::ovrp_DiscoverSpaces(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_SpaceDiscoveryInfo const> info,
                                                                                                        ::by_ref<uint64_t> requestId) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_97_0*>(),
-                                              { "ovrp_DiscoverSpaces", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_SpaceDiscoveryInfo>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_97_0*>(),
+                                       { "ovrp_DiscoverSpaces", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_SpaceDiscoveryInfo const>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, info, requestId);
 }
 inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_97_0::ovrp_RetrieveSpaceDiscoveryResults(uint64_t requestId,
@@ -16286,17 +16290,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlu
 //  Writing Method size for method: ::GlobalNamespace::OVRPlugin_OVRP_1_103_0.ovrp_StartColocationAdvertisement
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::by_ref<::GlobalNamespace::OVRPlugin_ColocationSessionStartAdvertisementInfo>, ::by_ref<uint64_t>)>(
-    &::GlobalNamespace::OVRPlugin_OVRP_1_103_0::ovrp_StartColocationAdvertisement)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::by_ref<::GlobalNamespace::OVRPlugin_ColocationSessionStartAdvertisementInfo const>,
+                                                                                               ::by_ref<uint64_t>)>(&::GlobalNamespace::OVRPlugin_OVRP_1_103_0::ovrp_StartColocationAdvertisement)> {
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x62d3788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_103_0*>(),
-            { "ovrp_StartColocationAdvertisement", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_ColocationSessionStartAdvertisementInfo>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_103_0*>(),
+                                                { "ovrp_StartColocationAdvertisement",
+                                                  {},
+                                                  { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_ColocationSessionStartAdvertisementInfo const>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
     return ___internal_method;
   }
 };
@@ -16342,15 +16346,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlu
 //  Writing Method size for method: ::GlobalNamespace::OVRPlugin_OVRP_1_103_0.ovrp_ShareSpaces2
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::by_ref<::GlobalNamespace::OVRPlugin_ShareSpacesInfo>, ::by_ref<uint64_t>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::by_ref<::GlobalNamespace::OVRPlugin_ShareSpacesInfo const>, ::by_ref<uint64_t>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_103_0::ovrp_ShareSpaces2)> {
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x62d3980;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_103_0*>(),
-                                                { "ovrp_ShareSpaces2", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_ShareSpacesInfo>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_103_0*>(),
+                                         { "ovrp_ShareSpaces2", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_ShareSpacesInfo const>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
     return ___internal_method;
   }
 };
@@ -16403,13 +16408,13 @@ inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_103
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, future);
 }
 inline ::GlobalNamespace::OVRPlugin_Result
-GlobalNamespace::OVRPlugin_OVRP_1_103_0::ovrp_StartColocationAdvertisement(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_ColocationSessionStartAdvertisementInfo> info,
+GlobalNamespace::OVRPlugin_OVRP_1_103_0::ovrp_StartColocationAdvertisement(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_ColocationSessionStartAdvertisementInfo const> info,
                                                                            ::by_ref<uint64_t> requestId) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_103_0*>(),
-          { "ovrp_StartColocationAdvertisement", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_ColocationSessionStartAdvertisementInfo>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_103_0*>(),
+                                              { "ovrp_StartColocationAdvertisement",
+                                                {},
+                                                { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_ColocationSessionStartAdvertisementInfo const>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, info, requestId);
 }
 inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_103_0::ovrp_StopColocationAdvertisement(::by_ref<uint64_t> requestId) {
@@ -16427,11 +16432,11 @@ inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_103
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_103_0*>(), { "ovrp_StopColocationDiscovery", {}, { ::i2c::type_of<::by_ref<uint64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, requestId);
 }
-inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_103_0::ovrp_ShareSpaces2(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_ShareSpacesInfo> info,
+inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_103_0::ovrp_ShareSpaces2(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_ShareSpacesInfo const> info,
                                                                                                       ::by_ref<uint64_t> requestId) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_103_0*>(),
-                                              { "ovrp_ShareSpaces2", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_ShareSpacesInfo>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
+                                              { "ovrp_ShareSpaces2", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_ShareSpacesInfo const>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, info, requestId);
 }
 inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_103_0::ovrp_QuerySpaces2(::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2> queryInfo, ::by_ref<uint64_t> requestId) {
@@ -16518,17 +16523,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlu
 //  Writing Method size for method: ::GlobalNamespace::OVRPlugin_OVRP_1_104_0.ovrp_SetDynamicObjectTrackedClasses
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(uint64_t, ::by_ref<::GlobalNamespace::OVRPlugin_DynamicObjectTrackedClassesSetInfo>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(uint64_t, ::by_ref<::GlobalNamespace::OVRPlugin_DynamicObjectTrackedClassesSetInfo const>)>(
     &::GlobalNamespace::OVRPlugin_OVRP_1_104_0::ovrp_SetDynamicObjectTrackedClasses)> {
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x62d3de4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(
-                         ::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_104_0*>(),
-                         { "ovrp_SetDynamicObjectTrackedClasses", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_DynamicObjectTrackedClassesSetInfo>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_104_0*>(),
+            { "ovrp_SetDynamicObjectTrackedClasses", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_DynamicObjectTrackedClassesSetInfo const>>() } })));
     return ___internal_method;
   }
 };
@@ -16630,11 +16635,13 @@ inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_104
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, tracker);
 }
 inline ::GlobalNamespace::OVRPlugin_Result
-GlobalNamespace::OVRPlugin_OVRP_1_104_0::ovrp_SetDynamicObjectTrackedClasses(uint64_t tracker, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_DynamicObjectTrackedClassesSetInfo> setInfo) {
+GlobalNamespace::OVRPlugin_OVRP_1_104_0::ovrp_SetDynamicObjectTrackedClasses(uint64_t tracker,
+                                                                             /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_DynamicObjectTrackedClassesSetInfo const> setInfo) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_104_0*>(),
-                          { "ovrp_SetDynamicObjectTrackedClasses", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_DynamicObjectTrackedClassesSetInfo>>() } })));
+      (::i2c::find_method(
+          ::i2c::class_of<::GlobalNamespace::OVRPlugin_OVRP_1_104_0*>(),
+          { "ovrp_SetDynamicObjectTrackedClasses", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_DynamicObjectTrackedClassesSetInfo const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, tracker, setInfo);
 }
 inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin_OVRP_1_104_0::ovrp_GetSpaceDynamicObjectData(::by_ref<uint64_t> space,
@@ -24293,7 +24300,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlu
 //  Writing Method size for method: ::GlobalNamespace::OVRPlugin.ShareSpaces
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::by_ref<::GlobalNamespace::OVRPlugin_ShareSpacesInfo>, ::by_ref<uint64_t>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::by_ref<::GlobalNamespace::OVRPlugin_ShareSpacesInfo const>, ::by_ref<uint64_t>)>(
     &::GlobalNamespace::OVRPlugin::ShareSpaces)> {
   constexpr static std::size_t size = 0xe0;
   constexpr static std::size_t addrs = 0x62af5ac;
@@ -24301,22 +24308,23 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlu
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin*>(),
-                                                { "ShareSpaces", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_ShareSpacesInfo>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
+                                                { "ShareSpaces", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_ShareSpacesInfo const>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRPlugin.DiscoverSpaces
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::by_ref<::GlobalNamespace::OVRPlugin_SpaceDiscoveryInfo>, ::by_ref<uint64_t>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_Result (*)(::by_ref<::GlobalNamespace::OVRPlugin_SpaceDiscoveryInfo const>, ::by_ref<uint64_t>)>(
     &::GlobalNamespace::OVRPlugin::DiscoverSpaces)> {
   constexpr static std::size_t size = 0xe4;
   constexpr static std::size_t addrs = 0x62af68c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin*>(),
-                                                { "DiscoverSpaces", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_SpaceDiscoveryInfo>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin*>(),
+                                         { "DiscoverSpaces", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_SpaceDiscoveryInfo const>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
     return ___internal_method;
   }
 };
@@ -26642,16 +26650,17 @@ inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin::StopColoc
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin*>(), { "StopColocationSessionDiscovery", {}, { ::i2c::type_of<::by_ref<uint64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, requestId);
 }
-inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin::ShareSpaces(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_ShareSpacesInfo> info, ::by_ref<uint64_t> requestId) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin*>(),
-                                                           { "ShareSpaces", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_ShareSpacesInfo>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, info, requestId);
-}
-inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin::DiscoverSpaces(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_SpaceDiscoveryInfo> info, ::by_ref<uint64_t> requestId) {
+inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin::ShareSpaces(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_ShareSpacesInfo const> info, ::by_ref<uint64_t> requestId) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin*>(),
-                                              { "DiscoverSpaces", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_SpaceDiscoveryInfo>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
+                                              { "ShareSpaces", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_ShareSpacesInfo const>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, info, requestId);
+}
+inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin::DiscoverSpaces(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_SpaceDiscoveryInfo const> info,
+                                                                                      ::by_ref<uint64_t> requestId) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPlugin*>(),
+                                              { "DiscoverSpaces", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::OVRPlugin_SpaceDiscoveryInfo const>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Result>(nullptr, ___internal_method, info, requestId);
 }
 inline ::GlobalNamespace::OVRPlugin_Result GlobalNamespace::OVRPlugin::RetrieveSpaceDiscoveryResults(uint64_t requestId, ::GlobalNamespace::OVRPlugin_SpaceDiscoveryResult* results,

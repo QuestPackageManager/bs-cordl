@@ -133,9 +133,9 @@ inline ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMap_2_ReadOnly<
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMap_2<TKey, TValue>>(), { "AsReadOnly", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMap_2_ReadOnly<TKey, TValue>>(*this, ___internal_method);
 }
-template <typename TKey, typename TValue> inline void Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMap_2<TKey, TValue>::ThrowKeyAlreadyAdded(/* [IsReadOnly] */ ::by_ref<TKey> key) {
+template <typename TKey, typename TValue> inline void Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMap_2<TKey, TValue>::ThrowKeyAlreadyAdded(/* [IsReadOnly] */ ::by_ref<TKey const> key) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMap_2<TKey, TValue>>(),
-                                                                                         { "ThrowKeyAlreadyAdded", {}, { ::i2c::type_of<::by_ref<TKey>>() } })));
+                                                                                         { "ThrowKeyAlreadyAdded", {}, { ::i2c::type_of<::by_ref<TKey const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, key);
 }
 template <typename TKey, typename TValue> inline void Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMap_2<TKey, TValue>::ThrowAtMaxCapacity() {

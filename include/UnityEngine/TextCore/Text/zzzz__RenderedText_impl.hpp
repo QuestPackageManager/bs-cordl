@@ -246,14 +246,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::UnityEngine::
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::RenderedText_Enumerator._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::RenderedText_Enumerator::*)(::by_ref<::UnityEngine::TextCore::Text::RenderedText>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::RenderedText_Enumerator::*)(::by_ref<::UnityEngine::TextCore::Text::RenderedText const>)>(
     &::UnityEngine::TextCore::Text::RenderedText_Enumerator::_ctor)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x705a164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::RenderedText_Enumerator>(),
-                                                                                           { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::RenderedText>>() } })));
+                                                                                           { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::RenderedText const>>() } })));
     return ___internal_method;
   }
 };
@@ -273,9 +273,9 @@ inline char16_t UnityEngine::TextCore::Text::RenderedText_Enumerator::get_Curren
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::RenderedText_Enumerator>(), { "get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<char16_t>(*this, ___internal_method);
 }
-inline void UnityEngine::TextCore::Text::RenderedText_Enumerator::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::TextCore::Text::RenderedText> source) {
+inline void UnityEngine::TextCore::Text::RenderedText_Enumerator::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::TextCore::Text::RenderedText const> source) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::RenderedText_Enumerator>(),
-                                                                                         { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::RenderedText>>() } })));
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::RenderedText const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, source);
 }
 inline bool UnityEngine::TextCore::Text::RenderedText_Enumerator::MoveNext() {

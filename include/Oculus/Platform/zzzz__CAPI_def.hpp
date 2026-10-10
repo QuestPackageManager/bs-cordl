@@ -370,14 +370,14 @@ class CORDL_TYPE CAPI_FilterCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   /// @brief Method BeginInvoke, addr 0x61ed66c, size 0x90, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::by_ref<::ArrayW<int16_t>> pcmData, ::System::UIntPtr pcmDataLength, int32_t frequency, int32_t numChannels, ::System::AsyncCallback* callback,
+  inline ::System::IAsyncResult* BeginInvoke(::ArrayW<int16_t> pcmData, ::System::UIntPtr pcmDataLength, int32_t frequency, int32_t numChannels, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
   /// @brief Method EndInvoke, addr 0x61ed6fc, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   /// @brief Method Invoke, addr 0x61ed658, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::by_ref<::ArrayW<int16_t>> pcmData, ::System::UIntPtr pcmDataLength, int32_t frequency, int32_t numChannels);
+  inline void Invoke(::ArrayW<int16_t> pcmData, ::System::UIntPtr pcmDataLength, int32_t frequency, int32_t numChannels);
 
   static inline ::Oculus::Platform::CAPI_FilterCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 

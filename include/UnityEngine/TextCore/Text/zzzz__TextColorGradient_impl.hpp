@@ -151,37 +151,40 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextColorGradient.CreateNative_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::Color32>, ::by_ref<::UnityEngine::Color32>, ::by_ref<::UnityEngine::Color32>, ::by_ref<::UnityEngine::Color32>, ::System::IntPtr)>(
-        &::UnityEngine::TextCore::Text::TextColorGradient::CreateNative_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::Color32 const>, ::by_ref<::UnityEngine::Color32 const>, ::by_ref<::UnityEngine::Color32 const>,
+                                                                            ::by_ref<::UnityEngine::Color32 const>, ::System::IntPtr)>(
+    &::UnityEngine::TextCore::Text::TextColorGradient::CreateNative_Injected)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x7054bbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextColorGradient*>(),
-                                                { "CreateNative_Injected",
-                                                  {},
-                                                  { ::i2c::type_of<::by_ref<::UnityEngine::Color32>>(), ::i2c::type_of<::by_ref<::UnityEngine::Color32>>(),
-                                                    ::i2c::type_of<::by_ref<::UnityEngine::Color32>>(), ::i2c::type_of<::by_ref<::UnityEngine::Color32>>(), ::i2c::type_of<::System::IntPtr>() } })));
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextColorGradient*>(),
+                            { "CreateNative_Injected",
+                              {},
+                              { ::i2c::type_of<::by_ref<::UnityEngine::Color32 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Color32 const>>(),
+                                ::i2c::type_of<::by_ref<::UnityEngine::Color32 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Color32 const>>(), ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextColorGradient.UpdateNative_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Color32>, ::by_ref<::UnityEngine::Color32>, ::by_ref<::UnityEngine::Color32>,
-                                                                ::by_ref<::UnityEngine::Color32>)>(&::UnityEngine::TextCore::Text::TextColorGradient::UpdateNative_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Color32 const>, ::by_ref<::UnityEngine::Color32 const>,
+                                                                ::by_ref<::UnityEngine::Color32 const>, ::by_ref<::UnityEngine::Color32 const>)>(
+    &::UnityEngine::TextCore::Text::TextColorGradient::UpdateNative_Injected)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x7054c28;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextColorGradient*>(),
-                                                { "UpdateNative_Injected",
-                                                  {},
-                                                  { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Color32>>(), ::i2c::type_of<::by_ref<::UnityEngine::Color32>>(),
-                                                    ::i2c::type_of<::by_ref<::UnityEngine::Color32>>(), ::i2c::type_of<::by_ref<::UnityEngine::Color32>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextColorGradient*>(),
+                                         { "UpdateNative_Injected",
+                                           {},
+                                           { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Color32 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Color32 const>>(),
+                                             ::i2c::type_of<::by_ref<::UnityEngine::Color32 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Color32 const>>() } })));
     return ___internal_method;
   }
 };
@@ -321,25 +324,27 @@ inline void UnityEngine::TextCore::Text::TextColorGradient::UpdateNative(::Syste
                                                                ::i2c::type_of<::UnityEngine::Color32>(), ::i2c::type_of<::UnityEngine::Color32>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, instance, tl, tr, bl, br);
 }
-inline ::System::IntPtr UnityEngine::TextCore::Text::TextColorGradient::CreateNative_Injected(::by_ref<::UnityEngine::Color32> tl, ::by_ref<::UnityEngine::Color32> tr,
-                                                                                              ::by_ref<::UnityEngine::Color32> bl, ::by_ref<::UnityEngine::Color32> br,
+inline ::System::IntPtr UnityEngine::TextCore::Text::TextColorGradient::CreateNative_Injected(::by_ref<::UnityEngine::Color32 const> tl, ::by_ref<::UnityEngine::Color32 const> tr,
+                                                                                              ::by_ref<::UnityEngine::Color32 const> bl, ::by_ref<::UnityEngine::Color32 const> br,
                                                                                               ::System::IntPtr managedObject) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextColorGradient*>(),
-                                              { "CreateNative_Injected",
-                                                {},
-                                                { ::i2c::type_of<::by_ref<::UnityEngine::Color32>>(), ::i2c::type_of<::by_ref<::UnityEngine::Color32>>(),
-                                                  ::i2c::type_of<::by_ref<::UnityEngine::Color32>>(), ::i2c::type_of<::by_ref<::UnityEngine::Color32>>(), ::i2c::type_of<::System::IntPtr>() } })));
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextColorGradient*>(),
+                          { "CreateNative_Injected",
+                            {},
+                            { ::i2c::type_of<::by_ref<::UnityEngine::Color32 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Color32 const>>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Color32 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Color32 const>>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, tl, tr, bl, br, managedObject);
 }
-inline void UnityEngine::TextCore::Text::TextColorGradient::UpdateNative_Injected(::System::IntPtr instance, ::by_ref<::UnityEngine::Color32> tl, ::by_ref<::UnityEngine::Color32> tr,
-                                                                                  ::by_ref<::UnityEngine::Color32> bl, ::by_ref<::UnityEngine::Color32> br) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextColorGradient*>(),
-                                              { "UpdateNative_Injected",
-                                                {},
-                                                { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Color32>>(), ::i2c::type_of<::by_ref<::UnityEngine::Color32>>(),
-                                                  ::i2c::type_of<::by_ref<::UnityEngine::Color32>>(), ::i2c::type_of<::by_ref<::UnityEngine::Color32>>() } })));
+inline void UnityEngine::TextCore::Text::TextColorGradient::UpdateNative_Injected(::System::IntPtr instance, ::by_ref<::UnityEngine::Color32 const> tl, ::by_ref<::UnityEngine::Color32 const> tr,
+                                                                                  ::by_ref<::UnityEngine::Color32 const> bl, ::by_ref<::UnityEngine::Color32 const> br) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextColorGradient*>(),
+                                       { "UpdateNative_Injected",
+                                         {},
+                                         { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Color32 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Color32 const>>(),
+                                           ::i2c::type_of<::by_ref<::UnityEngine::Color32 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Color32 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, instance, tl, tr, bl, br);
 }
 inline ::UnityEngine::TextCore::Text::TextColorGradient* UnityEngine::TextCore::Text::TextColorGradient::New_ctor() {

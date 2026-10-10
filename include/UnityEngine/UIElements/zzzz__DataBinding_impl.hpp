@@ -337,14 +337,15 @@ inline void UnityEngine::UIElements::DataBinding::ApplyConverterGroupToUI(::Unit
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, group);
 }
 template <typename TValue>
-inline ::UnityEngine::UIElements::BindingResult UnityEngine::UIElements::DataBinding::UpdateUI(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context, ::by_ref<TValue> value) {
+inline ::UnityEngine::UIElements::BindingResult UnityEngine::UIElements::DataBinding::UpdateUI(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext const> context,
+                                                                                               ::by_ref<TValue> value) {
   auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::DataBinding*>(), 9 })));
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TValue>() }));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::BindingResult>(this, ___internal_method, context, value);
 }
 template <typename TValue>
-inline ::UnityEngine::UIElements::BindingResult UnityEngine::UIElements::DataBinding::UpdateSource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context,
+inline ::UnityEngine::UIElements::BindingResult UnityEngine::UIElements::DataBinding::UpdateSource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext const> context,
                                                                                                    ::by_ref<TValue> value) {
   auto* ___internal_method_base =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::UIElements::DataBinding*>(), 10 })));
@@ -353,15 +354,15 @@ inline ::UnityEngine::UIElements::BindingResult UnityEngine::UIElements::DataBin
 }
 template <typename TValue>
 inline ::StringW UnityEngine::UIElements::DataBinding::GetSetValueErrorString(::Unity::Properties::VisitReturnCode returnCode, ::System::Object* source,
-                                                                              /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> sourcePath, ::System::Object* target,
-                                                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> targetPath, TValue extractedValueFromSource) {
-  static auto* ___internal_method_base =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBinding*>(),
-                                       { "GetSetValueErrorString",
-                                         { ::i2c::class_of<TValue>() },
-                                         { ::i2c::type_of<::Unity::Properties::VisitReturnCode>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>(),
-                                           ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>(), ::i2c::type_of<TValue>() } })));
+                                                                              /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> sourcePath, ::System::Object* target,
+                                                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> targetPath, TValue extractedValueFromSource) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBinding*>(),
+                          { "GetSetValueErrorString",
+                            { ::i2c::class_of<TValue>() },
+                            { ::i2c::type_of<::Unity::Properties::VisitReturnCode>(), ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath const>>(),
+                              ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId const>>(), ::i2c::type_of<TValue>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<TValue>() })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, returnCode, source, sourcePath, target, targetPath, extractedValueFromSource);
 }

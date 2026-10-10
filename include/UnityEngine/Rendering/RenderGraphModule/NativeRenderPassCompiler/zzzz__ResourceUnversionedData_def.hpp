@@ -46,7 +46,7 @@ struct CORDL_TYPE ResourceUnversionedData {
 public:
   // Declarations
   /// @brief Method GetName, addr 0x6c2b6e8, size 0x1c, virtual false, abstract: false, final false
-  inline ::StringW GetName(Il2CppObject* ctx, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h);
+  inline ::StringW GetName(Il2CppObject* ctx, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> h);
 
   /// @brief Method InitializeNullResource, addr 0x6c2b808, size 0x1c, virtual false, abstract: false, final false
   inline void InitializeNullResource();

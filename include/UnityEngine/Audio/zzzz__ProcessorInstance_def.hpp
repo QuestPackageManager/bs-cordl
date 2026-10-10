@@ -458,7 +458,7 @@ public:
   inline bool UnityEngine_Audio_ProcessorInstance_IContext_SendData(::Unity::Audio::Handle handle, void* data, int32_t size, int32_t align, int64_t typehash);
 
   /// @brief Method .ctor, addr 0x6eaba98, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RealtimeAccess> access);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RealtimeAccess const> access);
 
   /// @brief Convert to "::UnityEngine::Audio::ProcessorInstance_IContext"
   constexpr ::UnityEngine::Audio::ProcessorInstance_IContext* i___UnityEngine__Audio__ProcessorInstance_IContext();
@@ -559,7 +559,7 @@ public:
   template <typename TAudioContext, typename T>
     requires(::cordl_internals::type_constraint<TAudioContext, ::UnityEngine::Audio::ProcessorInstance_IContext*> && ::cordl_internals::value_type_constraint<TAudioContext> &&
              ::cordl_internals::default_constructor_constraint<TAudioContext> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  inline bool SendData(TAudioContext context, /* [IsReadOnly] */ ::by_ref<T> data);
+  inline bool SendData(TAudioContext context, /* [IsReadOnly] */ ::by_ref<T const> data);
 
   /// @brief Method .ctor, addr 0x6eabaa4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Audio::Handle dualThreadHandle, ::UnityEngine::Audio::AvailableData_ProcessorInstance_Element* head);

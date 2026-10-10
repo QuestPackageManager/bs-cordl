@@ -58,7 +58,7 @@ public:
 
   /// [IsReadOnly]
   /// @brief Method Equals, addr 0x6ed2b48, size 0x6c, virtual false, abstract: false, final false
-  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::BoundsInt> other);
+  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::BoundsInt const> other);
 
   /// [IsReadOnly]
   /// @brief Method GetHashCode, addr 0x6ed2bb4, size 0x3c, virtual true, abstract: false, final false

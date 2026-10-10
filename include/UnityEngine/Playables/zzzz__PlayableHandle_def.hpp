@@ -205,7 +205,7 @@ public:
   inline void SetInputWeightFromIndex(int32_t index, float_t weight);
 
   /// @brief Method SetInputWeight_Injected, addr 0x6f6105c, size 0x54, virtual false, abstract: false, final false
-  static inline void SetInputWeight_Injected(::by_ref<::UnityEngine::Playables::PlayableHandle> _unity_self, ::by_ref<::UnityEngine::Playables::PlayableHandle> input, float_t weight);
+  static inline void SetInputWeight_Injected(::by_ref<::UnityEngine::Playables::PlayableHandle> _unity_self, ::by_ref<::UnityEngine::Playables::PlayableHandle const> input, float_t weight);
 
   /// [VisibleToOtherModules]
   /// [FreeFunction("PlayableHandleBindings::SetPropagateSetTime", HasExplicitThis = true, ThrowsException = true)]

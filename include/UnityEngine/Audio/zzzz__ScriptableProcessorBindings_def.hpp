@@ -49,12 +49,12 @@ class CORDL_TYPE ScriptableProcessorBindings : public ::System::Object {
 public:
   // Declarations
   /// @brief Method AddDataToProcessorHandle, addr 0x6eaaf74, size 0x74, virtual false, abstract: false, final false
-  static inline bool AddDataToProcessorHandle(::UnityEngine::Audio::ControlHeader* control, /* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle> handle, void* data, int32_t size, int32_t align,
+  static inline bool AddDataToProcessorHandle(::UnityEngine::Audio::ControlHeader* control, /* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle const> handle, void* data, int32_t size, int32_t align,
                                               int64_t typeHash);
 
   /// [NativeMethod(Name = "audio::AddDataToProcessor", IsFreeFunction = true, ThrowsException = true)]
   /// @brief Method AddDataToProcessorHandleInternal, addr 0x6eac9cc, size 0x74, virtual false, abstract: false, final false
-  static inline bool AddDataToProcessorHandleInternal(void* control, /* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle> handle, void* data, int32_t size, int32_t align, int64_t typeHash);
+  static inline bool AddDataToProcessorHandleInternal(void* control, /* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle const> handle, void* data, int32_t size, int32_t align, int64_t typeHash);
 
   /// @brief Method CheckProcessorExists, addr 0x6eaa878, size 0x54, virtual false, abstract: false, final false
   static inline bool CheckProcessorExists(::Unity::Audio::Handle handle, ::UnityEngine::Audio::ControlHeader* control);
@@ -64,23 +64,23 @@ public:
   static inline bool CheckProcessorExistsInternal(::Unity::Audio::Handle handle, void* control);
 
   /// @brief Method CheckProcessorExistsInternal_Injected, addr 0x6eacdf8, size 0x44, virtual false, abstract: false, final false
-  static inline bool CheckProcessorExistsInternal_Injected(::by_ref<::Unity::Audio::Handle> handle, void* control);
+  static inline bool CheckProcessorExistsInternal_Injected(::by_ref<::Unity::Audio::Handle const> handle, void* control);
 
   /// @brief Method GetAvailableDataForControl, addr 0x6eaaea0, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::Audio::AvailableData_ProcessorInstance_Element* GetAvailableDataForControl(::UnityEngine::Audio::ControlHeader* control,
-                                                                                                          /* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle> handle);
+                                                                                                          /* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle const> handle);
 
   /// @brief Method GetAvailableDataForRealtime, addr 0x6eabcec, size 0x44, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Audio::AvailableData_ProcessorInstance_Element* GetAvailableDataForRealtime(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RealtimeAccess> access,
-                                                                                                           /* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle> handle);
+  static inline ::UnityEngine::Audio::AvailableData_ProcessorInstance_Element* GetAvailableDataForRealtime(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RealtimeAccess const> access,
+                                                                                                           /* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle const> handle);
 
   /// [NativeMethod(Name = "audio::GetControlDataElementListForProcessor", IsFreeFunction = true)]
   /// @brief Method GetControlDataElementListForProcessorInternal, addr 0x6eaca84, size 0x44, virtual false, abstract: false, final false
-  static inline void* GetControlDataElementListForProcessorInternal(void* control, /* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle> handle);
+  static inline void* GetControlDataElementListForProcessorInternal(void* control, /* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle const> handle);
 
   /// [NativeMethod(Name = "audio::GetRealtimeDataElementListForProcessor", IsFreeFunction = true, IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method GetRealtimeDataElementListForProcessorInternal, addr 0x6eaca40, size 0x44, virtual false, abstract: false, final false
-  static inline void* GetRealtimeDataElementListForProcessorInternal(void* access, /* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle> handle);
+  static inline void* GetRealtimeDataElementListForProcessorInternal(void* access, /* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle const> handle);
 
   /// @brief Method IsSystemWideReconfiguring, addr 0x6eaab10, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsSystemWideReconfiguring(::UnityEngine::Audio::ControlHeader* control);
@@ -91,14 +91,15 @@ public:
 
   /// @brief Method PerformRecursiveConfigure, addr 0x6eaaa7c, size 0x58, virtual false, abstract: false, final false
   static inline void PerformRecursiveConfigure(::Unity::Audio::Handle handle, ::UnityEngine::Audio::ControlHeader* control,
-                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::AudioConfiguration> configuration);
+                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::AudioConfiguration const> configuration);
 
   /// [NativeMethod(Name = "audio::PerformRecursiveConfigure", IsFreeFunction = true, ThrowsException = true)]
   /// @brief Method PerformRecursiveConfigureInternal, addr 0x6eacbd4, size 0x58, virtual false, abstract: false, final false
-  static inline void PerformRecursiveConfigureInternal(::Unity::Audio::Handle handle, void* control, /* [IsReadOnly] */ ::by_ref<::UnityEngine::AudioConfiguration> configuration);
+  static inline void PerformRecursiveConfigureInternal(::Unity::Audio::Handle handle, void* control, /* [IsReadOnly] */ ::by_ref<::UnityEngine::AudioConfiguration const> configuration);
 
   /// @brief Method PerformRecursiveConfigureInternal_Injected, addr 0x6eacda4, size 0x54, virtual false, abstract: false, final false
-  static inline void PerformRecursiveConfigureInternal_Injected(::by_ref<::Unity::Audio::Handle> handle, void* control, /* [IsReadOnly] */ ::by_ref<::UnityEngine::AudioConfiguration> configuration);
+  static inline void PerformRecursiveConfigureInternal_Injected(::by_ref<::Unity::Audio::Handle const> handle, void* control,
+                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::AudioConfiguration const> configuration);
 
   /// @brief Method PerformRecursiveUpdate, addr 0x6eaaba0, size 0x50, virtual false, abstract: false, final false
   static inline void PerformRecursiveUpdate(::Unity::Audio::Handle handle, ::UnityEngine::Audio::ControlHeader* control);
@@ -108,7 +109,7 @@ public:
   static inline void PerformRecursiveUpdateInternal(::Unity::Audio::Handle handle, void* control);
 
   /// @brief Method PerformRecursiveUpdateInternal_Injected, addr 0x6eacd60, size 0x44, virtual false, abstract: false, final false
-  static inline void PerformRecursiveUpdateInternal_Injected(::by_ref<::Unity::Audio::Handle> handle, void* control);
+  static inline void PerformRecursiveUpdateInternal_Injected(::by_ref<::Unity::Audio::Handle const> handle, void* control);
 
   /// @brief Method QueueProcessorDispose, addr 0x6eab00c, size 0x44, virtual false, abstract: false, final false
   static inline void QueueProcessorDispose(::UnityEngine::Audio::ProcessorHeader* header, ::UnityEngine::Audio::ControlHeader* control);
@@ -118,12 +119,12 @@ public:
   static inline void QueueProcessorDisposeInternal(void* header, void* control);
 
   /// @brief Method ReturnDataFromProcessor, addr 0x6eaba24, size 0x74, virtual false, abstract: false, final false
-  static inline void ReturnDataFromProcessor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RealtimeAccess> access, /* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle> handle, void* data,
-                                             int32_t size, int32_t align, int64_t typeHash);
+  static inline void ReturnDataFromProcessor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RealtimeAccess const> access, /* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle const> handle,
+                                             void* data, int32_t size, int32_t align, int64_t typeHash);
 
   /// [NativeMethod(Name = "audio::ReturnDataFromProcessor", IsFreeFunction = true, IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method ReturnDataFromProcessorInternal, addr 0x6eacac8, size 0x74, virtual false, abstract: false, final false
-  static inline void ReturnDataFromProcessorInternal(void* access, /* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle> handle, void* data, int32_t size, int32_t align, int64_t typeHash);
+  static inline void ReturnDataFromProcessorInternal(void* access, /* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle const> handle, void* data, int32_t size, int32_t align, int64_t typeHash);
 
   /// @brief Method SendMessageToProcessor, addr 0x6eaccb8, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Audio::ProcessorInstance_Response SendMessageToProcessor(::UnityEngine::Audio::ProcessorHeader* header, ::UnityEngine::Audio::ControlHeader* control,
@@ -138,11 +139,11 @@ public:
   static inline void ThrowScriptingExceptionForTest();
 
   /// @brief Method ValidateCanProcess, addr 0x6eabe8c, size 0x44, virtual false, abstract: false, final false
-  static inline void ValidateCanProcess(/* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle> handle, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RealtimeContext> ctx);
+  static inline void ValidateCanProcess(/* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle const> handle, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RealtimeContext const> ctx);
 
   /// [NativeMethod(Name = "audio::ValidateCanProcess", IsFreeFunction = true, IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method ValidateCanProcessInternal, addr 0x6eacb3c, size 0x44, virtual false, abstract: false, final false
-  static inline void ValidateCanProcessInternal(/* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle> handle, void* processingContext);
+  static inline void ValidateCanProcessInternal(/* [IsReadOnly] */ ::by_ref<::Unity::Audio::Handle const> handle, void* processingContext);
 
 protected:
   // Ctor Parameters []

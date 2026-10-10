@@ -97,7 +97,7 @@ public:
 
   /// @brief Method CreateCached_Injected, addr 0x72c1950, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateCached_Injected(::UnityEngine::Networking::DownloadHandlerAssetBundle* obj, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> url,
-                                                       ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name, ::by_ref<::UnityEngine::Hash128> hash, uint32_t crc);
+                                                       ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name, ::by_ref<::UnityEngine::Hash128 const> hash, uint32_t crc);
 
   /// @brief Method Create_Injected, addr 0x72c1728, size 0x54, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create_Injected(::UnityEngine::Networking::DownloadHandlerAssetBundle* obj, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> url, uint32_t crc);

@@ -12,18 +12,19 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionGameplaySceneSetupData::*)(
-    ::ArrayW<::GlobalNamespace::MissionObjective*>, bool, ::by_ref<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::GameplayModifiers*, ::StringW)>(
+    ::ArrayW<::GlobalNamespace::MissionObjective*>, bool, ::by_ref<::GlobalNamespace::BeatmapKey const>, ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::GameplayModifiers*, ::StringW)>(
     &::GlobalNamespace::MissionGameplaySceneSetupData::_ctor)> {
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x5d8ce70;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionGameplaySceneSetupData*>(),
-                                                { ".ctor",
-                                                  {},
-                                                  { ::i2c::type_of<::ArrayW<::GlobalNamespace::MissionObjective*>>(), ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>(),
-                                                    ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>(), ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>(), ::i2c::type_of<::StringW>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionGameplaySceneSetupData*>(),
+                                         { ".ctor",
+                                           {},
+                                           { ::i2c::type_of<::ArrayW<::GlobalNamespace::MissionObjective*>>(), ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey const>>(),
+                                             ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>(), ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
@@ -100,18 +101,19 @@ constexpr void GlobalNamespace::MissionGameplaySceneSetupData::__cordl_internal_
   this->___backButtonText = value;
 }
 inline void GlobalNamespace::MissionGameplaySceneSetupData::_ctor(::ArrayW<::GlobalNamespace::MissionObjective*> missionObjectives, bool autoRestart,
-                                                                  /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
+                                                                  /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                   ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::StringW backButtonText) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionGameplaySceneSetupData*>(),
-                                              { ".ctor",
-                                                {},
-                                                { ::i2c::type_of<::ArrayW<::GlobalNamespace::MissionObjective*>>(), ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>(),
-                                                  ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>(), ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>(), ::i2c::type_of<::StringW>() } })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionGameplaySceneSetupData*>(),
+                                       { ".ctor",
+                                         {},
+                                         { ::i2c::type_of<::ArrayW<::GlobalNamespace::MissionObjective*>>(), ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey const>>(),
+                                           ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>(), ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, missionObjectives, autoRestart, beatmapKey, beatmapLevel, gameplayModifiers, backButtonText);
 }
 inline ::GlobalNamespace::MissionGameplaySceneSetupData* GlobalNamespace::MissionGameplaySceneSetupData::New_ctor(::ArrayW<::GlobalNamespace::MissionObjective*> missionObjectives, bool autoRestart,
-                                                                                                                  /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
+                                                                                                                  /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey,
                                                                                                                   ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                                                                   ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::StringW backButtonText) {
   return THROW_UNLESS(::i2c::no_logger{},

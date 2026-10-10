@@ -45,13 +45,13 @@ class CORDL_TYPE NetworkStatisticsState_NetworkStatisticsUpdateDelegate : public
 public:
   // Declarations
   /// @brief Method BeginInvoke, addr 0x35c4900, size 0x90, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NetworkStatisticsState> statisticsState, ::System::AsyncCallback* callback, ::System::Object* object);
+  inline ::System::IAsyncResult* BeginInvoke(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NetworkStatisticsState const> statisticsState, ::System::AsyncCallback* callback, ::System::Object* object);
 
   /// @brief Method EndInvoke, addr 0x35c4990, size 0xc, virtual true, abstract: false, final false
-  inline void EndInvoke(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NetworkStatisticsState> statisticsState, ::System::IAsyncResult* result);
+  inline void EndInvoke(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NetworkStatisticsState const> statisticsState, ::System::IAsyncResult* result);
 
   /// @brief Method Invoke, addr 0x35c48ec, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NetworkStatisticsState> statisticsState);
+  inline void Invoke(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NetworkStatisticsState const> statisticsState);
 
   static inline ::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
@@ -97,8 +97,8 @@ public:
                     int64_t decryptionProcessingTime);
 
   /// @brief Method op_Subtraction, addr 0x35c47f0, size 0x50, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::NetworkStatisticsDelta op_Subtraction(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NetworkStatisticsState> a,
-                                                                         /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NetworkStatisticsState> b);
+  static inline ::GlobalNamespace::NetworkStatisticsDelta op_Subtraction(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NetworkStatisticsState const> a,
+                                                                         /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NetworkStatisticsState const> b);
 
   // Ctor Parameters []
   // @brief default ctor

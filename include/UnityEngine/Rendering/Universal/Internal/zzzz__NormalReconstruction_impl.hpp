@@ -10,7 +10,7 @@
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::NormalReconstruction.SetupProperties
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::Universal::CameraData>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::Universal::CameraData const>)>(
     &::UnityEngine::Rendering::Universal::Internal::NormalReconstruction::SetupProperties)> {
   constexpr static std::size_t size = 0xe0;
   constexpr static std::size_t addrs = 0x6d2edec;
@@ -18,15 +18,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::NormalReconstruction*>(),
-                            { "SetupProperties", {}, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::CameraData>>() } })));
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::NormalReconstruction*>(),
+            { "SetupProperties", {}, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::CameraData const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::NormalReconstruction.SetupProperties
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::by_ref<::UnityEngine::Rendering::Universal::CameraData>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::by_ref<::UnityEngine::Rendering::Universal::CameraData const>)>(
     &::UnityEngine::Rendering::Universal::Internal::NormalReconstruction::SetupProperties)> {
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x6d2eecc;
@@ -36,7 +37,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
         ::i2c::no_logger{},
         (::i2c::find_method(
             ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::NormalReconstruction*>(),
-            { "SetupProperties", {}, { ::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::CameraData>>() } })));
+            { "SetupProperties", {}, { ::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::CameraData const>>() } })));
     return ___internal_method;
   }
 };
@@ -59,7 +60,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::NormalReconstruction.SetupProperties
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData*>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData* const>)>(
     &::UnityEngine::Rendering::Universal::Internal::NormalReconstruction::SetupProperties)> {
   constexpr static std::size_t size = 0x2a8;
   constexpr static std::size_t addrs = 0x6d2ef5c;
@@ -67,9 +68,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::NormalReconstruction*>(),
-            { "SetupProperties", {}, { ::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData*>>() } })));
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::NormalReconstruction*>(),
+                            { "SetupProperties",
+                              {},
+                              { ::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData* const>>() } })));
     return ___internal_method;
   }
 };
@@ -87,20 +89,21 @@ inline ::ArrayW<::UnityEngine::Matrix4x4> UnityEngine::Rendering::Universal::Int
   return ::cordl_internals::getStaticField<::ArrayW<::UnityEngine::Matrix4x4>, "s_NormalReconstructionMatrix", ::UnityEngine::Rendering::Universal::Internal::NormalReconstruction*>();
 }
 inline void UnityEngine::Rendering::Universal::Internal::NormalReconstruction::SetupProperties(::UnityEngine::Rendering::CommandBuffer* cmd,
-                                                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::NormalReconstruction*>(),
-                          { "SetupProperties", {}, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::CameraData>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, cameraData);
-}
-inline void UnityEngine::Rendering::Universal::Internal::NormalReconstruction::SetupProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd,
-                                                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData) {
+                                                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData const> cameraData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(
                        ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::NormalReconstruction*>(),
-                       { "SetupProperties", {}, { ::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::CameraData>>() } })));
+                       { "SetupProperties", {}, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::CameraData const>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, cameraData);
+}
+inline void UnityEngine::Rendering::Universal::Internal::NormalReconstruction::SetupProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd,
+                                                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData const> cameraData) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::NormalReconstruction*>(),
+          { "SetupProperties", {}, { ::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::CameraData const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, cameraData);
 }
 inline void UnityEngine::Rendering::Universal::Internal::NormalReconstruction::SetupProperties(::UnityEngine::Rendering::CommandBuffer* cmd,
@@ -111,13 +114,15 @@ inline void UnityEngine::Rendering::Universal::Internal::NormalReconstruction::S
                           { "SetupProperties", {}, { ::i2c::type_of<::UnityEngine::Rendering::CommandBuffer*>(), ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, cameraData);
 }
-inline void UnityEngine::Rendering::Universal::Internal::NormalReconstruction::SetupProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd,
-                                                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData*> cameraData) {
+inline void
+UnityEngine::Rendering::Universal::Internal::NormalReconstruction::SetupProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd,
+                                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData* const> cameraData) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::NormalReconstruction*>(),
-          { "SetupProperties", {}, { ::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData*>>() } })));
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::NormalReconstruction*>(),
+                          { "SetupProperties",
+                            {},
+                            { ::i2c::type_of<::UnityEngine::Rendering::RasterCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData* const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, cameraData);
 }
 // Ctor Parameters []

@@ -127,18 +127,19 @@ class CORDL_TYPE OpenXRNativeApi : public ::System::Object {
 public:
   // Declarations
   /// @brief Method xrCancelFutureEXT, addr 0x6e3ea60, size 0x7c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus xrCancelFutureEXT(/* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFutureCancelInfoEXT> cancelInfo);
+  static inline ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus
+  xrCancelFutureEXT(/* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFutureCancelInfoEXT const> cancelInfo);
 
   /// @brief Method xrCancelFutureEXT, addr 0x6e3eadc, size 0x2c, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus xrCancelFutureEXT(uint64_t future);
 
   /// @brief Method xrCancelFutureEXT, addr 0x6e3e9dc, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult xrCancelFutureEXT(uint64_t instance,
-                                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFutureCancelInfoEXT> cancelInfo);
+                                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFutureCancelInfoEXT const> cancelInfo);
 
   /// @brief Method xrCreateSpatialAnchorEXT, addr 0x6e3ebb8, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus xrCreateSpatialAnchorEXT(uint64_t spatialContext,
-                                                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrPosef> pose,
+                                                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrPosef const> pose,
                                                                                                     ::by_ref<uint64_t> anchorEntityId, ::by_ref<uint64_t> anchorEntity);
 
   /// @brief Method xrCreateSpatialAnchorEXT, addr 0x6e3ec54, size 0x40, virtual false, abstract: false, final false
@@ -146,17 +147,17 @@ public:
                                                                                                     ::by_ref<uint64_t> anchorEntityId, ::by_ref<uint64_t> anchorEntity);
 
   /// @brief Method xrCreateSpatialAnchorEXT, addr 0x6e3eb1c, size 0x9c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult xrCreateSpatialAnchorEXT(uint64_t spatialContext,
-                                                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialAnchorCreateInfoEXT> createInfo,
-                                                                                          ::by_ref<uint64_t> anchorEntityId, ::by_ref<uint64_t> anchorEntity);
+  static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult
+  xrCreateSpatialAnchorEXT(uint64_t spatialContext, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialAnchorCreateInfoEXT const> createInfo,
+                           ::by_ref<uint64_t> anchorEntityId, ::by_ref<uint64_t> anchorEntity);
 
   /// @brief Method xrCreateSpatialContextAsyncEXT, addr 0x6e3f708, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus
-  xrCreateSpatialContextAsyncEXT(/* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextCreateInfoEXT> createInfo, ::by_ref<uint64_t> future);
+  xrCreateSpatialContextAsyncEXT(/* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextCreateInfoEXT const> createInfo, ::by_ref<uint64_t> future);
 
   /// @brief Method xrCreateSpatialContextAsyncEXT, addr 0x6e3f674, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult
-  xrCreateSpatialContextAsyncEXT(uint64_t session, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextCreateInfoEXT> createInfo, ::by_ref<uint64_t> future);
+  xrCreateSpatialContextAsyncEXT(uint64_t session, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextCreateInfoEXT const> createInfo, ::by_ref<uint64_t> future);
 
   /// @brief Method xrCreateSpatialContextCompleteEXT, addr 0x6e3f85c, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus
@@ -176,7 +177,7 @@ public:
 
   /// @brief Method xrCreateSpatialDiscoverySnapshotAsyncEXT, addr 0x6e3facc, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult
-  xrCreateSpatialDiscoverySnapshotAsyncEXT(uint64_t spatialContext, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialDiscoverySnapshotCreateInfoEXT> createInfo,
+  xrCreateSpatialDiscoverySnapshotAsyncEXT(uint64_t spatialContext, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialDiscoverySnapshotCreateInfoEXT const> createInfo,
                                            ::by_ref<uint64_t> future);
 
   /// @brief Method xrCreateSpatialDiscoverySnapshotCompleteEXT, addr 0x6e3fc30, size 0x20, virtual false, abstract: false, final false
@@ -186,12 +187,12 @@ public:
   /// @brief Method xrCreateSpatialDiscoverySnapshotCompleteEXT, addr 0x6e3fb60, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult
   xrCreateSpatialDiscoverySnapshotCompleteEXT(uint64_t spatialContext,
-                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionInfoEXT> createSnapshotCompletionInfo,
+                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionInfoEXT const> createSnapshotCompletionInfo,
                                               ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionEXT> completion);
 
   /// @brief Method xrCreateSpatialDiscoverySnapshotCompleteEXT_native, addr 0x6e3fb9c, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult xrCreateSpatialDiscoverySnapshotCompleteEXT_native(
-      uint64_t spatialContext, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionInfoEXT> createSnapshotCompletionInfo,
+      uint64_t spatialContext, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionInfoEXT const> createSnapshotCompletionInfo,
       ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionEXT> completion);
 
   /// @brief Method xrCreateSpatialDiscoverySnapshotCompleteEXT_usingContext, addr 0x6e3fc50, size 0x94, virtual false, abstract: false, final false
@@ -201,7 +202,7 @@ public:
 
   /// @brief Method xrCreateSpatialEntityFromIdEXT, addr 0x6e3f97c, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult
-  xrCreateSpatialEntityFromIdEXT(uint64_t spatialContext, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityFromIdCreateInfoEXT> createInfo,
+  xrCreateSpatialEntityFromIdEXT(uint64_t spatialContext, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityFromIdCreateInfoEXT const> createInfo,
                                  ::by_ref<uint64_t> spatialEntity);
 
   /// @brief Method xrCreateSpatialEntityFromIdEXT, addr 0x6e3fa10, size 0x2c, virtual false, abstract: false, final false
@@ -209,7 +210,7 @@ public:
 
   /// @brief Method xrCreateSpatialPersistenceContextAsyncEXT, addr 0x6e40c54, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus
-  xrCreateSpatialPersistenceContextAsyncEXT(/* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextCreateInfoEXT> createInfo, ::by_ref<uint64_t> future);
+  xrCreateSpatialPersistenceContextAsyncEXT(/* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextCreateInfoEXT const> createInfo, ::by_ref<uint64_t> future);
 
   /// @brief Method xrCreateSpatialPersistenceContextAsyncEXT, addr 0x6e40cd8, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus
@@ -217,7 +218,7 @@ public:
 
   /// @brief Method xrCreateSpatialPersistenceContextAsyncEXT, addr 0x6e40bc0, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult
-  xrCreateSpatialPersistenceContextAsyncEXT(uint64_t session, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextCreateInfoEXT> createInfo,
+  xrCreateSpatialPersistenceContextAsyncEXT(uint64_t session, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextCreateInfoEXT const> createInfo,
                                             ::by_ref<uint64_t> future);
 
   /// @brief Method xrCreateSpatialPersistenceContextCompleteEXT, addr 0x6e4111c, size 0x20, virtual false, abstract: false, final false
@@ -249,7 +250,7 @@ public:
 
   /// @brief Method xrCreateSpatialUpdateSnapshotEXT, addr 0x6e40964, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult
-  xrCreateSpatialUpdateSnapshotEXT(uint64_t spatialContext, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialUpdateSnapshotCreateInfoEXT> createInfo,
+  xrCreateSpatialUpdateSnapshotEXT(uint64_t spatialContext, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialUpdateSnapshotCreateInfoEXT const> createInfo,
                                    ::by_ref<uint64_t> snapshot);
 
   /// @brief Method xrDestroySpatialContextEXT, addr 0x6e3f900, size 0x7c, virtual false, abstract: false, final false
@@ -347,79 +348,77 @@ public:
 
   /// @brief Method xrGetSpatialBufferFloatEXT, addr 0x6e404f4, size 0x108, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult xrGetSpatialBufferFloatEXT(uint64_t snapshot,
-                                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT> info,
+                                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const> info,
                                                                                             ::Unity::Collections::Allocator allocator, ::by_ref<::Unity::Collections::NativeArray_1<float_t>> buffer);
 
   /// @brief Method xrGetSpatialBufferFloatEXT, addr 0x6e40448, size 0xac, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult xrGetSpatialBufferFloatEXT(uint64_t snapshot,
-                                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT> info,
+                                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const> info,
                                                                                             uint32_t bufferCapacityInput, ::by_ref<uint32_t> bufferCountOutput, float_t* buffer);
 
   /// @brief Method xrGetSpatialBufferStringEXT, addr 0x6e3fe24, size 0x108, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult xrGetSpatialBufferStringEXT(uint64_t snapshot,
-                                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT> info,
+                                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const> info,
                                                                                              ::Unity::Collections::Allocator allocator, ::by_ref<::Unity::Collections::NativeArray_1<uint8_t>> buffer);
 
   /// @brief Method xrGetSpatialBufferStringEXT, addr 0x6e3fd78, size 0xac, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult xrGetSpatialBufferStringEXT(uint64_t snapshot,
-                                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT> info,
+                                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const> info,
                                                                                              uint32_t bufferCapacityInput, ::by_ref<uint32_t> bufferCountOutput, uint8_t* buffer);
 
   /// @brief Method xrGetSpatialBufferUint16EXT, addr 0x6e4018c, size 0x108, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult xrGetSpatialBufferUint16EXT(uint64_t snapshot,
-                                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT> info,
+                                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const> info,
                                                                                              ::Unity::Collections::Allocator allocator, ::by_ref<::Unity::Collections::NativeArray_1<uint16_t>> buffer);
 
   /// @brief Method xrGetSpatialBufferUint16EXT, addr 0x6e400e0, size 0xac, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult xrGetSpatialBufferUint16EXT(uint64_t snapshot,
-                                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT> info,
+                                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const> info,
                                                                                              uint32_t bufferCapacityInput, ::by_ref<uint32_t> bufferCountOutput, uint16_t* buffer);
 
   /// @brief Method xrGetSpatialBufferUint32EXT, addr 0x6e40340, size 0x108, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult xrGetSpatialBufferUint32EXT(uint64_t snapshot,
-                                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT> info,
+                                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const> info,
                                                                                              ::Unity::Collections::Allocator allocator, ::by_ref<::Unity::Collections::NativeArray_1<uint32_t>> buffer);
 
   /// @brief Method xrGetSpatialBufferUint32EXT, addr 0x6e40294, size 0xac, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult xrGetSpatialBufferUint32EXT(uint64_t snapshot,
-                                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT> info,
+                                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const> info,
                                                                                              uint32_t bufferCapacityInput, ::by_ref<uint32_t> bufferCountOutput, uint32_t* buffer);
 
   /// @brief Method xrGetSpatialBufferUint8EXT, addr 0x6e3ffd8, size 0x108, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult xrGetSpatialBufferUint8EXT(uint64_t snapshot,
-                                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT> info,
+                                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const> info,
                                                                                             ::Unity::Collections::Allocator allocator, ::by_ref<::Unity::Collections::NativeArray_1<uint8_t>> buffer);
 
   /// @brief Method xrGetSpatialBufferUint8EXT, addr 0x6e3ff2c, size 0xac, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult xrGetSpatialBufferUint8EXT(uint64_t snapshot,
-                                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT> info,
+                                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const> info,
                                                                                             uint32_t bufferCapacityInput, ::by_ref<uint32_t> bufferCountOutput, uint8_t* buffer);
 
   /// @brief Method xrGetSpatialBufferVector2fEXT, addr 0x6e406a8, size 0x108, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult
-  xrGetSpatialBufferVector2fEXT(uint64_t snapshot, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT> info, ::Unity::Collections::Allocator allocator,
+  xrGetSpatialBufferVector2fEXT(uint64_t snapshot, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const> info, ::Unity::Collections::Allocator allocator,
                                 ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrVector2f>> buffer);
 
   /// @brief Method xrGetSpatialBufferVector2fEXT, addr 0x6e405fc, size 0xac, virtual false, abstract: false, final false
-  static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult xrGetSpatialBufferVector2fEXT(uint64_t snapshot,
-                                                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT> info,
-                                                                                               uint32_t bufferCapacityInput, ::by_ref<uint32_t> bufferCountOutput,
-                                                                                               ::UnityEngine::XR::OpenXR::NativeTypes::XrVector2f* buffer);
+  static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult
+  xrGetSpatialBufferVector2fEXT(uint64_t snapshot, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const> info, uint32_t bufferCapacityInput,
+                                ::by_ref<uint32_t> bufferCountOutput, ::UnityEngine::XR::OpenXR::NativeTypes::XrVector2f* buffer);
 
   /// @brief Method xrGetSpatialBufferVector3fEXT, addr 0x6e4085c, size 0x108, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult
-  xrGetSpatialBufferVector3fEXT(uint64_t snapshot, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT> info, ::Unity::Collections::Allocator allocator,
+  xrGetSpatialBufferVector3fEXT(uint64_t snapshot, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const> info, ::Unity::Collections::Allocator allocator,
                                 ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f>> buffer);
 
   /// @brief Method xrGetSpatialBufferVector3fEXT, addr 0x6e407b0, size 0xac, virtual false, abstract: false, final false
-  static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult xrGetSpatialBufferVector3fEXT(uint64_t snapshot,
-                                                                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT> info,
-                                                                                               uint32_t bufferCapacityInput, ::by_ref<uint32_t> bufferCountOutput,
-                                                                                               ::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f* buffer);
+  static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult
+  xrGetSpatialBufferVector3fEXT(uint64_t snapshot, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const> info, uint32_t bufferCapacityInput,
+                                ::by_ref<uint32_t> bufferCountOutput, ::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f* buffer);
 
   /// @brief Method xrPersistSpatialEntityAsyncEXT, addr 0x6e4123c, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult
-  xrPersistSpatialEntityAsyncEXT(uint64_t persistenceContext, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityPersistInfoEXT> persistInfo,
+  xrPersistSpatialEntityAsyncEXT(uint64_t persistenceContext, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityPersistInfoEXT const> persistInfo,
                                  ::by_ref<uint64_t> future);
 
   /// @brief Method xrPersistSpatialEntityCompleteEXT, addr 0x6e412d0, size 0x20, virtual false, abstract: false, final false
@@ -434,26 +433,27 @@ public:
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus xrPollFutureEXT(uint64_t future, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollResultEXT> pollResult);
 
   /// @brief Method xrPollFutureEXT, addr 0x6e3e8e8, size 0x1c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus xrPollFutureEXT(/* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT> pollInfo,
+  static inline ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus xrPollFutureEXT(/* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT const> pollInfo,
                                                                                            ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollResultEXT> pollResult);
 
   /// @brief Method xrPollFutureEXT, addr 0x6e3e81c, size 0x1c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult xrPollFutureEXT(uint64_t instance, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT> pollInfo,
+  static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult xrPollFutureEXT(uint64_t instance,
+                                                                                 /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT const> pollInfo,
                                                                                  ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollResultEXT> pollResult);
 
   /// @brief Method xrPollFutureEXT_native, addr 0x6e3e854, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult xrPollFutureEXT_native(uint64_t instance,
-                                                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT> pollInfo,
+                                                                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT const> pollInfo,
                                                                                         ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollResultEXT> pollResult);
 
   /// @brief Method xrPollFutureEXT_usingContext_native, addr 0x6e3e904, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus
-  xrPollFutureEXT_usingContext_native(/* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT> pollInfo,
+  xrPollFutureEXT_usingContext_native(/* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT const> pollInfo,
                                       ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollResultEXT> pollResult);
 
   /// @brief Method xrQuerySpatialComponentDataEXT, addr 0x6e3fce4, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult
-  xrQuerySpatialComponentDataEXT(uint64_t snapshot, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentDataQueryConditionEXT> queryCondition,
+  xrQuerySpatialComponentDataEXT(uint64_t snapshot, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentDataQueryConditionEXT const> queryCondition,
                                  ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentDataQueryResultEXT> queryResult);
 
   /// @brief Method xrUnpersistSpatialEntityAsyncEXT, addr 0x6e41438, size 0x34, virtual false, abstract: false, final false
@@ -462,7 +462,7 @@ public:
 
   /// @brief Method xrUnpersistSpatialEntityAsyncEXT, addr 0x6e413a4, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult
-  xrUnpersistSpatialEntityAsyncEXT(uint64_t persistenceContext, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityUnpersistInfoEXT> unpersistInfo,
+  xrUnpersistSpatialEntityAsyncEXT(uint64_t persistenceContext, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityUnpersistInfoEXT const> unpersistInfo,
                                    ::by_ref<uint64_t> future);
 
   /// @brief Method xrUnpersistSpatialEntityCompleteEXT, addr 0x6e41484, size 0x1c, virtual false, abstract: false, final false

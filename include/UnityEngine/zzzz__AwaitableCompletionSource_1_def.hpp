@@ -48,13 +48,13 @@ public:
   inline void SetException(::System::Exception* exception);
 
   /// @brief Method SetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void SetResult(/* [IsReadOnly] */ ::by_ref<T> value);
+  inline void SetResult(/* [IsReadOnly] */ ::by_ref<T const> value);
 
   /// @brief Method TrySetException, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TrySetException(::System::Exception* exception);
 
   /// @brief Method TrySetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool TrySetResult(/* [IsReadOnly] */ ::by_ref<T> value);
+  inline bool TrySetResult(/* [IsReadOnly] */ ::by_ref<T const> value);
 
   constexpr ::UnityEngine::Awaitable_1<T>* const& __cordl_internal_get__Awaitable_k__BackingField() const;
 

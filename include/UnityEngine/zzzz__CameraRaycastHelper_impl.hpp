@@ -41,24 +41,24 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::G
 //  Writing Method size for method: ::UnityEngine::CameraRaycastHelper.RaycastTry_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::by_ref<::UnityEngine::Ray>, float_t, int32_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::by_ref<::UnityEngine::Ray const>, float_t, int32_t)>(
     &::UnityEngine::CameraRaycastHelper::RaycastTry_Injected)> {
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x6fc120c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(
-                         ::i2c::class_of<::UnityEngine::CameraRaycastHelper*>(),
-                         { "RaycastTry_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Ray>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::CameraRaycastHelper*>(),
+            { "RaycastTry_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Ray const>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::CameraRaycastHelper.RaycastTry2D_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::by_ref<::UnityEngine::Ray>, float_t, int32_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::by_ref<::UnityEngine::Ray const>, float_t, int32_t)>(
     &::UnityEngine::CameraRaycastHelper::RaycastTry2D_Injected)> {
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x6fc13e0;
@@ -68,7 +68,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::Sy
         ::i2c::no_logger{},
         (::i2c::find_method(
             ::i2c::class_of<::UnityEngine::CameraRaycastHelper*>(),
-            { "RaycastTry2D_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Ray>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>() } })));
+            { "RaycastTry2D_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Ray const>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -86,20 +86,20 @@ inline ::UnityW<::UnityEngine::GameObject> UnityEngine::CameraRaycastHelper::Ray
                           { "RaycastTry2D", {}, { ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::UnityEngine::Ray>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>>(nullptr, ___internal_method, cam, ray, distance, layerMask);
 }
-inline ::System::IntPtr UnityEngine::CameraRaycastHelper::RaycastTry_Injected(::System::IntPtr cam, ::by_ref<::UnityEngine::Ray> ray, float_t distance, int32_t layerMask) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(
-                       ::i2c::class_of<::UnityEngine::CameraRaycastHelper*>(),
-                       { "RaycastTry_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Ray>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>() } })));
+inline ::System::IntPtr UnityEngine::CameraRaycastHelper::RaycastTry_Injected(::System::IntPtr cam, ::by_ref<::UnityEngine::Ray const> ray, float_t distance, int32_t layerMask) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::CameraRaycastHelper*>(),
+          { "RaycastTry_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Ray const>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, cam, ray, distance, layerMask);
 }
-inline ::System::IntPtr UnityEngine::CameraRaycastHelper::RaycastTry2D_Injected(::System::IntPtr cam, ::by_ref<::UnityEngine::Ray> ray, float_t distance, int32_t layerMask) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(
-                       ::i2c::class_of<::UnityEngine::CameraRaycastHelper*>(),
-                       { "RaycastTry2D_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Ray>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>() } })));
+inline ::System::IntPtr UnityEngine::CameraRaycastHelper::RaycastTry2D_Injected(::System::IntPtr cam, ::by_ref<::UnityEngine::Ray const> ray, float_t distance, int32_t layerMask) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::CameraRaycastHelper*>(),
+          { "RaycastTry2D_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Ray const>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, cam, ray, distance, layerMask);
 }
 // Ctor Parameters []

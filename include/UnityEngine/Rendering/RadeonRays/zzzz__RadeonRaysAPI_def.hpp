@@ -82,7 +82,7 @@ public:
   /// @brief Method BuildMeshAccelStruct, addr 0x6dfd618, size 0xdc, virtual false, abstract: false, final false
   inline void BuildMeshAccelStruct(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RadeonRays::MeshBuildInfo buildInfo,
                                    ::UnityEngine::Rendering::RadeonRays::BuildFlags buildFlags, ::UnityEngine::GraphicsBuffer* scratchBuffer,
-                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct> result);
+                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct const> result);
 
   /// @brief Method BuildSceneAccelStruct, addr 0x6dfdb5c, size 0x1d0, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RadeonRays::TopLevelAccelStruct BuildSceneAccelStruct(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::GraphicsBuffer* meshAccelStructsBuffer,

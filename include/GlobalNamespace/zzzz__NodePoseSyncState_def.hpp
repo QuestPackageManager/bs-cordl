@@ -122,16 +122,16 @@ public:
   constexpr operator ::LiteNetLib::Utils::INetSerializable*();
 
   /// @brief Method ApplyDelta, addr 0x3544ee8, size 0x124, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::NodePoseSyncState ApplyDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NodePoseSyncState> delta);
+  inline ::GlobalNamespace::NodePoseSyncState ApplyDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NodePoseSyncState const> delta);
 
   /// @brief Method Deserialize, addr 0x3544c58, size 0x58, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
   /// @brief Method Equals, addr 0x3544d30, size 0x94, virtual false, abstract: false, final false
-  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NodePoseSyncState> other);
+  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NodePoseSyncState const> other);
 
   /// @brief Method GetDelta, addr 0x3544dc4, size 0x124, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::NodePoseSyncState GetDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NodePoseSyncState> latest);
+  inline ::GlobalNamespace::NodePoseSyncState GetDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NodePoseSyncState const> latest);
 
   /// @brief Method GetSize, addr 0x354500c, size 0x7c, virtual true, abstract: false, final true
   inline int32_t GetSize();
@@ -140,15 +140,15 @@ public:
   inline ::GlobalNamespace::PoseSerializable GetState(::GlobalNamespace::NodePoseSyncState_NodePose nodePose);
 
   /// @brief Method IEquatableByReference<NodePoseSyncState>.Equals, addr 0x35450e8, size 0x4, virtual true, abstract: false, final true
-  inline bool IEquatableByReference_NodePoseSyncState__Equals(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NodePoseSyncState> other);
+  inline bool IEquatableByReference_NodePoseSyncState__Equals(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NodePoseSyncState const> other);
 
   /// @brief Method IStateTable<NodePoseSyncState,NodePoseSyncState.NodePose,PoseSerializable>.ApplyDelta, addr 0x35450b8, size 0x30, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NodePoseSyncState
-  IStateTable_NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable__ApplyDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NodePoseSyncState> delta);
+  IStateTable_NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable__ApplyDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NodePoseSyncState const> delta);
 
   /// @brief Method IStateTable<NodePoseSyncState,NodePoseSyncState.NodePose,PoseSerializable>.GetDelta, addr 0x3545088, size 0x30, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NodePoseSyncState
-  IStateTable_NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable__GetDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NodePoseSyncState> stateTable);
+  IStateTable_NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable__GetDelta(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NodePoseSyncState const> stateTable);
 
   /// @brief Method Serialize, addr 0x3544c00, size 0x58, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);

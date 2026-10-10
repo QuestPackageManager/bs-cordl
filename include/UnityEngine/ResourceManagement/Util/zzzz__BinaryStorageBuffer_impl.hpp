@@ -1591,9 +1591,9 @@ inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Write
 }
 template <typename T>
   requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::Write(/* [IsReadOnly] */ ::by_ref<T> val) {
+inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::Write(/* [IsReadOnly] */ ::by_ref<T const> val) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer*>(),
-                                                                                              { "Write", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>() } })));
+                                                                                              { "Write", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T const>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(this, ___internal_method, val);
 }
@@ -1608,9 +1608,10 @@ inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Write
 }
 template <typename T>
   requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::Write(uint32_t offset, /* [IsReadOnly] */ ::by_ref<T> val) {
-  static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer*>(),
-                                                                                              { "Write", { ::i2c::class_of<T>() }, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<T>>() } })));
+inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::Write(uint32_t offset, /* [IsReadOnly] */ ::by_ref<T const> val) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer*>(),
+                                                           { "Write", { ::i2c::class_of<T>() }, { ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<T const>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(this, ___internal_method, offset, val);
 }

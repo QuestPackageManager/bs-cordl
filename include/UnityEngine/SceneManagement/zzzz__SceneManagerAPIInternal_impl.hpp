@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AsyncOpera
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, int32_t, ::by_ref<::UnityEngine::SceneManagement::LoadSceneParameters>, bool)>(
+    static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, int32_t, ::by_ref<::UnityEngine::SceneManagement::LoadSceneParameters const>, bool)>(
         &::UnityEngine::SceneManagement::SceneManagerAPIInternal::LoadSceneAsyncNameIndexInternal_Injected)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x6f5b15c;
@@ -52,7 +52,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                                                              { "LoadSceneAsyncNameIndexInternal_Injected",
                                                                {},
                                                                { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<int32_t>(),
-                                                                 ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::LoadSceneParameters>>(), ::i2c::type_of<bool>() } })));
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::LoadSceneParameters const>>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -74,14 +74,14 @@ inline ::UnityEngine::AsyncOperation* UnityEngine::SceneManagement::SceneManager
 }
 inline ::System::IntPtr UnityEngine::SceneManagement::SceneManagerAPIInternal::LoadSceneAsyncNameIndexInternal_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> sceneName,
                                                                                                                         int32_t sceneBuildIndex,
-                                                                                                                        ::by_ref<::UnityEngine::SceneManagement::LoadSceneParameters> parameters,
+                                                                                                                        ::by_ref<::UnityEngine::SceneManagement::LoadSceneParameters const> parameters,
                                                                                                                         bool mustCompleteNextFrame) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::SceneManagerAPIInternal*>(),
                                                            { "LoadSceneAsyncNameIndexInternal_Injected",
                                                              {},
                                                              { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<int32_t>(),
-                                                               ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::LoadSceneParameters>>(), ::i2c::type_of<bool>() } })));
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::LoadSceneParameters const>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, sceneName, sceneBuildIndex, parameters, mustCompleteNextFrame);
 }
 // Ctor Parameters []

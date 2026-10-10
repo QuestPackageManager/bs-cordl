@@ -103,7 +103,8 @@ public:
 
   static inline ::GlobalNamespace::LevelSelectionFlowCoordinator_State* New_ctor(::System::Nullable_1<::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory> levelCategory,
                                                                                  ::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack,
-                                                                                 /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
+                                                                                 /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey,
+                                                                                 ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
   constexpr ::GlobalNamespace::BeatmapKey const& __cordl_internal_get_beatmapKey() const;
 
@@ -137,7 +138,7 @@ public:
 
   /// @brief Method .ctor, addr 0x5d40ba8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::System::Nullable_1<::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory> levelCategory, ::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack,
-                    /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
+                    /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
 protected:
   // Ctor Parameters []
@@ -301,7 +302,7 @@ public:
   inline void Refresh();
 
   /// @brief Method SelectionDidChange, addr 0x5d401a8, size 0x4, virtual true, abstract: false, final false
-  inline void SelectionDidChange(::GlobalNamespace::BeatmapLevelPack* pack, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
+  inline void SelectionDidChange(::GlobalNamespace::BeatmapLevelPack* pack, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey);
 
   /// @brief Method Setup, addr 0x5d401ac, size 0x8, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::LevelSelectionFlowCoordinator_State* state);

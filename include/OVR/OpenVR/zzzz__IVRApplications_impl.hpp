@@ -603,7 +603,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRA
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::IVRApplications__LaunchTemplateApplication::*)(
-    ::StringW, ::StringW, ::by_ref<::ArrayW<::OVR::OpenVR::AppOverrideKeys_t>>, uint32_t)>(&::OVR::OpenVR::IVRApplications__LaunchTemplateApplication::Invoke)> {
+    ::StringW, ::StringW, ::ArrayW<::OVR::OpenVR::AppOverrideKeys_t>, uint32_t)>(&::OVR::OpenVR::IVRApplications__LaunchTemplateApplication::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x624abd0;
 
@@ -617,7 +617,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplica
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
-    ::OVR::OpenVR::IVRApplications__LaunchTemplateApplication::*)(::StringW, ::StringW, ::by_ref<::ArrayW<::OVR::OpenVR::AppOverrideKeys_t>>, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
+    ::OVR::OpenVR::IVRApplications__LaunchTemplateApplication::*)(::StringW, ::StringW, ::ArrayW<::OVR::OpenVR::AppOverrideKeys_t>, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRApplications__LaunchTemplateApplication::BeginInvoke)> {
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x624abe4;
@@ -648,13 +648,13 @@ inline void OVR::OpenVR::IVRApplications__LaunchTemplateApplication::_ctor(::Sys
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
 inline ::OVR::OpenVR::EVRApplicationError OVR::OpenVR::IVRApplications__LaunchTemplateApplication::Invoke(::StringW pchTemplateAppKey, ::StringW pchNewAppKey,
-                                                                                                          ::by_ref<::ArrayW<::OVR::OpenVR::AppOverrideKeys_t>> pKeys, uint32_t unKeys) {
+                                                                                                          ::ArrayW<::OVR::OpenVR::AppOverrideKeys_t> pKeys, uint32_t unKeys) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRApplications__LaunchTemplateApplication*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRApplicationError>(this, ___internal_method, pchTemplateAppKey, pchNewAppKey, pKeys, unKeys);
 }
 inline ::System::IAsyncResult* OVR::OpenVR::IVRApplications__LaunchTemplateApplication::BeginInvoke(::StringW pchTemplateAppKey, ::StringW pchNewAppKey,
-                                                                                                    ::by_ref<::ArrayW<::OVR::OpenVR::AppOverrideKeys_t>> pKeys, uint32_t unKeys,
+                                                                                                    ::ArrayW<::OVR::OpenVR::AppOverrideKeys_t> pKeys, uint32_t unKeys,
                                                                                                     ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRApplications__LaunchTemplateApplication*>(), 14 })));

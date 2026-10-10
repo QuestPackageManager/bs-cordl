@@ -142,7 +142,7 @@ public:
   static inline void Free(::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey>* data);
 
   /// @brief Method GetBucket, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t GetBucket(/* [IsReadOnly] */ ::by_ref<TKey> key);
+  inline int32_t GetBucket(/* [IsReadOnly] */ ::by_ref<TKey const> key);
 
   /// @brief Method GetBucketSize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline int32_t GetBucketSize(int32_t capacity);
@@ -185,7 +185,7 @@ public:
   inline void TrimExcess();
 
   /// @brief Method TryAdd, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t TryAdd(/* [IsReadOnly] */ ::by_ref<TKey> key);
+  inline int32_t TryAdd(/* [IsReadOnly] */ ::by_ref<TKey const> key);
 
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

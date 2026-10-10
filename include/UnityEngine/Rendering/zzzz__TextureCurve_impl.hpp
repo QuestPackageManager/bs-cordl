@@ -49,7 +49,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Keyframe (
 //  Writing Method size for method: ::UnityEngine::Rendering::TextureCurve._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::TextureCurve::*)(::UnityEngine::AnimationCurve*, float_t, bool, ::by_ref<::UnityEngine::Vector2>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::TextureCurve::*)(::UnityEngine::AnimationCurve*, float_t, bool, ::by_ref<::UnityEngine::Vector2 const>)>(
     &::UnityEngine::Rendering::TextureCurve::_ctor)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x6be62a4;
@@ -59,14 +59,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
         ::i2c::no_logger{},
         (::i2c::find_method(
             ::i2c::class_of<::UnityEngine::Rendering::TextureCurve*>(),
-            { ".ctor", {}, { ::i2c::type_of<::UnityEngine::AnimationCurve*>(), ::i2c::type_of<float_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
+            { ".ctor", {}, { ::i2c::type_of<::UnityEngine::AnimationCurve*>(), ::i2c::type_of<float_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::TextureCurve._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::TextureCurve::*)(::ArrayW<::UnityEngine::Keyframe>, float_t, bool, ::by_ref<::UnityEngine::Vector2>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::TextureCurve::*)(::ArrayW<::UnityEngine::Keyframe>, float_t, bool, ::by_ref<::UnityEngine::Vector2 const>)>(
     &::UnityEngine::Rendering::TextureCurve::_ctor)> {
   constexpr static std::size_t size = 0x100;
   constexpr static std::size_t addrs = 0x6be62f8;
@@ -76,7 +76,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
         ::i2c::no_logger{},
         (::i2c::find_method(
             ::i2c::class_of<::UnityEngine::Rendering::TextureCurve*>(),
-            { ".ctor", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::Keyframe>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
+            { ".ctor", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::Keyframe>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>() } })));
     return ___internal_method;
   }
 };
@@ -169,14 +169,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::R
 //  Writing Method size for method: ::UnityEngine::Rendering::TextureCurve.MoveKey
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::TextureCurve::*)(int32_t, ::by_ref<::UnityEngine::Keyframe>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::TextureCurve::*)(int32_t, ::by_ref<::UnityEngine::Keyframe const>)>(
     &::UnityEngine::Rendering::TextureCurve::MoveKey)> {
   constexpr static std::size_t size = 0x48;
   constexpr static std::size_t addrs = 0x6be6950;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::TextureCurve*>(),
-                                                                                           { "MoveKey", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Keyframe>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::TextureCurve*>(), { "MoveKey", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Keyframe const>>() } })));
     return ___internal_method;
   }
 };
@@ -328,20 +329,20 @@ inline ::UnityEngine::Keyframe UnityEngine::Rendering::TextureCurve::get_Item(in
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::TextureCurve*>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Keyframe>(this, ___internal_method, index);
 }
-inline void UnityEngine::Rendering::TextureCurve::_ctor(::UnityEngine::AnimationCurve* baseCurve, float_t zeroValue, bool loop, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> bounds) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(
-                       ::i2c::class_of<::UnityEngine::Rendering::TextureCurve*>(),
-                       { ".ctor", {}, { ::i2c::type_of<::UnityEngine::AnimationCurve*>(), ::i2c::type_of<float_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, baseCurve, zeroValue, loop, bounds);
-}
-inline void UnityEngine::Rendering::TextureCurve::_ctor(::ArrayW<::UnityEngine::Keyframe> keys, float_t zeroValue, bool loop, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> bounds) {
+inline void UnityEngine::Rendering::TextureCurve::_ctor(::UnityEngine::AnimationCurve* baseCurve, float_t zeroValue, bool loop, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2 const> bounds) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
           ::i2c::class_of<::UnityEngine::Rendering::TextureCurve*>(),
-          { ".ctor", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::Keyframe>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
+          { ".ctor", {}, { ::i2c::type_of<::UnityEngine::AnimationCurve*>(), ::i2c::type_of<float_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, baseCurve, zeroValue, loop, bounds);
+}
+inline void UnityEngine::Rendering::TextureCurve::_ctor(::ArrayW<::UnityEngine::Keyframe> keys, float_t zeroValue, bool loop, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2 const> bounds) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::UnityEngine::Rendering::TextureCurve*>(),
+          { ".ctor", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::Keyframe>>(), ::i2c::type_of<float_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, keys, zeroValue, loop, bounds);
 }
 inline void UnityEngine::Rendering::TextureCurve::Dispose() {
@@ -374,9 +375,9 @@ inline int32_t UnityEngine::Rendering::TextureCurve::AddKey(float_t time, float_
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::TextureCurve*>(), { "AddKey", {}, { ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, time, value);
 }
-inline int32_t UnityEngine::Rendering::TextureCurve::MoveKey(int32_t index, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Keyframe> key) {
+inline int32_t UnityEngine::Rendering::TextureCurve::MoveKey(int32_t index, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Keyframe const> key) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::TextureCurve*>(),
-                                                                                         { "MoveKey", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Keyframe>>() } })));
+                                                                                         { "MoveKey", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Keyframe const>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, index, key);
 }
 inline void UnityEngine::Rendering::TextureCurve::RemoveKey(int32_t index) {
@@ -390,11 +391,11 @@ inline void UnityEngine::Rendering::TextureCurve::SmoothTangents(int32_t index, 
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, index, weight);
 }
 inline ::UnityEngine::Rendering::TextureCurve* UnityEngine::Rendering::TextureCurve::New_ctor(::UnityEngine::AnimationCurve* baseCurve, float_t zeroValue, bool loop,
-                                                                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> bounds) {
+                                                                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2 const> bounds) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::TextureCurve*>(baseCurve, zeroValue, loop, bounds));
 }
 inline ::UnityEngine::Rendering::TextureCurve* UnityEngine::Rendering::TextureCurve::New_ctor(::ArrayW<::UnityEngine::Keyframe> keys, float_t zeroValue, bool loop,
-                                                                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> bounds) {
+                                                                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2 const> bounds) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::UnityEngine::Rendering::TextureCurve*>(keys, zeroValue, loop, bounds));
 }
 /// @brief Convert operator to "::System::IDisposable"

@@ -56,14 +56,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::TextureUVOrigin (::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext::*)(
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(&::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext::GetTextureUVOrigin)> {
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>)>(&::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext::GetTextureUVOrigin)> {
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x6c031bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext*>(),
-                                                             { "GetTextureUVOrigin", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
+                                                             { "GetTextureUVOrigin", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>() } })));
     return ___internal_method;
   }
 };
@@ -84,7 +84,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::TextureUVOrigin (::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext::*)(
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>)>(
     &::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext::UnityEngine_Rendering_RenderGraphModule_IDerivedRendergraphContext_GetTextureUVOrigin)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x6c032a0;
@@ -93,7 +93,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext*>(),
                                                                                            { "UnityEngine.Rendering.RenderGraphModule.IDerivedRendergraphContext.GetTextureUVOrigin",
                                                                                              {},
-                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
+                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>() } })));
     return ___internal_method;
   }
 };
@@ -145,10 +145,10 @@ inline void UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext::From
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, context);
 }
 inline ::UnityEngine::Rendering::RenderGraphModule::TextureUVOrigin
-UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext::GetTextureUVOrigin(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> textureHandle) {
+UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext::GetTextureUVOrigin(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> textureHandle) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext*>(),
-                                                           { "GetTextureUVOrigin", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
+                                                           { "GetTextureUVOrigin", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderGraphModule::TextureUVOrigin>(this, ___internal_method, textureHandle);
 }
 inline void UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext::_ctor() {
@@ -157,11 +157,11 @@ inline void UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext::_cto
 }
 inline ::UnityEngine::Rendering::RenderGraphModule::TextureUVOrigin
 UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext::UnityEngine_Rendering_RenderGraphModule_IDerivedRendergraphContext_GetTextureUVOrigin(
-    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> textureHandle) {
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> textureHandle) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext*>(),
                                                                                          { "UnityEngine.Rendering.RenderGraphModule.IDerivedRendergraphContext.GetTextureUVOrigin",
                                                                                            {},
-                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
+                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderGraphModule::TextureUVOrigin>(this, ___internal_method, textureHandle);
 }
 inline ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext* UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext::New_ctor() {

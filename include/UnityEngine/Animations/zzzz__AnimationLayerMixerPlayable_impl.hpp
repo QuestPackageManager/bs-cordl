@@ -161,17 +161,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::Animations::AnimationLayerMixerPlayable.CreateHandleInternal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Playables::PlayableGraph>, ::by_ref<::UnityEngine::Playables::PlayableHandle>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Playables::PlayableGraph const>, ::by_ref<::UnityEngine::Playables::PlayableHandle>)>(
     &::UnityEngine::Animations::AnimationLayerMixerPlayable::CreateHandleInternal_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6e96ac0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::UnityEngine::Animations::AnimationLayerMixerPlayable>(),
-            { "CreateHandleInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableGraph>>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Animations::AnimationLayerMixerPlayable>(),
+                                         { "CreateHandleInternal_Injected",
+                                           {},
+                                           { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableGraph const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>() } })));
     return ___internal_method;
   }
 };
@@ -260,13 +261,14 @@ inline void UnityEngine::Animations::AnimationLayerMixerPlayable::SetLayerMaskFr
                                                 { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>(), ::i2c::type_of<uint32_t>(), ::i2c::type_of<::UnityEngine::AvatarMask*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, handle, layerIndex, mask);
 }
-inline bool UnityEngine::Animations::AnimationLayerMixerPlayable::CreateHandleInternal_Injected(::by_ref<::UnityEngine::Playables::PlayableGraph> graph,
+inline bool UnityEngine::Animations::AnimationLayerMixerPlayable::CreateHandleInternal_Injected(::by_ref<::UnityEngine::Playables::PlayableGraph const> graph,
                                                                                                 ::by_ref<::UnityEngine::Playables::PlayableHandle> handle) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::UnityEngine::Animations::AnimationLayerMixerPlayable>(),
-          { "CreateHandleInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableGraph>>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>() } })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Animations::AnimationLayerMixerPlayable>(),
+                                       { "CreateHandleInternal_Injected",
+                                         {},
+                                         { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableGraph const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, graph, handle);
 }
 inline void UnityEngine::Animations::AnimationLayerMixerPlayable::SetLayerMaskFromAvatarMaskInternal_Injected(::by_ref<::UnityEngine::Playables::PlayableHandle> handle, uint32_t layerIndex,

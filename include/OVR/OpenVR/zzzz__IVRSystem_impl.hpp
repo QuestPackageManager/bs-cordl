@@ -948,7 +948,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRS
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRSystem__GetDeviceToAbsoluteTrackingPose::*)(
-    ::OVR::OpenVR::ETrackingUniverseOrigin, float_t, ::by_ref<::ArrayW<::OVR::OpenVR::TrackedDevicePose_t>>, uint32_t)>(&::OVR::OpenVR::IVRSystem__GetDeviceToAbsoluteTrackingPose::Invoke)> {
+    ::OVR::OpenVR::ETrackingUniverseOrigin, float_t, ::ArrayW<::OVR::OpenVR::TrackedDevicePose_t>, uint32_t)>(&::OVR::OpenVR::IVRSystem__GetDeviceToAbsoluteTrackingPose::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x6246510;
 
@@ -962,8 +962,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRS
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
-    ::OVR::OpenVR::IVRSystem__GetDeviceToAbsoluteTrackingPose::*)(::OVR::OpenVR::ETrackingUniverseOrigin, float_t, ::by_ref<::ArrayW<::OVR::OpenVR::TrackedDevicePose_t>>, uint32_t,
-                                                                  ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRSystem__GetDeviceToAbsoluteTrackingPose::BeginInvoke)> {
+    ::OVR::OpenVR::IVRSystem__GetDeviceToAbsoluteTrackingPose::*)(::OVR::OpenVR::ETrackingUniverseOrigin, float_t, ::ArrayW<::OVR::OpenVR::TrackedDevicePose_t>, uint32_t, ::System::AsyncCallback*,
+                                                                  ::System::Object*)>(&::OVR::OpenVR::IVRSystem__GetDeviceToAbsoluteTrackingPose::BeginInvoke)> {
   constexpr static std::size_t size = 0xcc;
   constexpr static std::size_t addrs = 0x6246524;
 
@@ -993,13 +993,13 @@ inline void OVR::OpenVR::IVRSystem__GetDeviceToAbsoluteTrackingPose::_ctor(::Sys
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
 inline void OVR::OpenVR::IVRSystem__GetDeviceToAbsoluteTrackingPose::Invoke(::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, float_t fPredictedSecondsToPhotonsFromNow,
-                                                                            ::by_ref<::ArrayW<::OVR::OpenVR::TrackedDevicePose_t>> pTrackedDevicePoseArray, uint32_t unTrackedDevicePoseArrayCount) {
+                                                                            ::ArrayW<::OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePoseArray, uint32_t unTrackedDevicePoseArrayCount) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSystem__GetDeviceToAbsoluteTrackingPose*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eOrigin, fPredictedSecondsToPhotonsFromNow, pTrackedDevicePoseArray, unTrackedDevicePoseArrayCount);
 }
 inline ::System::IAsyncResult* OVR::OpenVR::IVRSystem__GetDeviceToAbsoluteTrackingPose::BeginInvoke(::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, float_t fPredictedSecondsToPhotonsFromNow,
-                                                                                                    ::by_ref<::ArrayW<::OVR::OpenVR::TrackedDevicePose_t>> pTrackedDevicePoseArray,
+                                                                                                    ::ArrayW<::OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePoseArray,
                                                                                                     uint32_t unTrackedDevicePoseArrayCount, ::System::AsyncCallback* callback,
                                                                                                     ::System::Object* object) {
   auto* ___internal_method =
@@ -1280,7 +1280,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRS
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::IVRSystem__GetSortedTrackedDeviceIndicesOfClass::*)(
-    ::OVR::OpenVR::ETrackedDeviceClass, ::by_ref<::ArrayW<uint32_t>>, uint32_t, uint32_t)>(&::OVR::OpenVR::IVRSystem__GetSortedTrackedDeviceIndicesOfClass::Invoke)> {
+    ::OVR::OpenVR::ETrackedDeviceClass, ::ArrayW<uint32_t>, uint32_t, uint32_t)>(&::OVR::OpenVR::IVRSystem__GetSortedTrackedDeviceIndicesOfClass::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x62468a4;
 
@@ -1294,8 +1294,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
-    ::OVR::OpenVR::IVRSystem__GetSortedTrackedDeviceIndicesOfClass::*)(::OVR::OpenVR::ETrackedDeviceClass, ::by_ref<::ArrayW<uint32_t>>, uint32_t, uint32_t, ::System::AsyncCallback*,
-                                                                       ::System::Object*)>(&::OVR::OpenVR::IVRSystem__GetSortedTrackedDeviceIndicesOfClass::BeginInvoke)> {
+    ::OVR::OpenVR::IVRSystem__GetSortedTrackedDeviceIndicesOfClass::*)(::OVR::OpenVR::ETrackedDeviceClass, ::ArrayW<uint32_t>, uint32_t, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
+    &::OVR::OpenVR::IVRSystem__GetSortedTrackedDeviceIndicesOfClass::BeginInvoke)> {
   constexpr static std::size_t size = 0xc4;
   constexpr static std::size_t addrs = 0x62468b8;
 
@@ -1324,16 +1324,16 @@ inline void OVR::OpenVR::IVRSystem__GetSortedTrackedDeviceIndicesOfClass::_ctor(
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline uint32_t OVR::OpenVR::IVRSystem__GetSortedTrackedDeviceIndicesOfClass::Invoke(::OVR::OpenVR::ETrackedDeviceClass eTrackedDeviceClass, ::by_ref<::ArrayW<uint32_t>> punTrackedDeviceIndexArray,
+inline uint32_t OVR::OpenVR::IVRSystem__GetSortedTrackedDeviceIndicesOfClass::Invoke(::OVR::OpenVR::ETrackedDeviceClass eTrackedDeviceClass, ::ArrayW<uint32_t> punTrackedDeviceIndexArray,
                                                                                      uint32_t unTrackedDeviceIndexArrayCount, uint32_t unRelativeToTrackedDeviceIndex) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSystem__GetSortedTrackedDeviceIndicesOfClass*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(this, ___internal_method, eTrackedDeviceClass, punTrackedDeviceIndexArray, unTrackedDeviceIndexArrayCount, unRelativeToTrackedDeviceIndex);
 }
 inline ::System::IAsyncResult* OVR::OpenVR::IVRSystem__GetSortedTrackedDeviceIndicesOfClass::BeginInvoke(::OVR::OpenVR::ETrackedDeviceClass eTrackedDeviceClass,
-                                                                                                         ::by_ref<::ArrayW<uint32_t>> punTrackedDeviceIndexArray,
-                                                                                                         uint32_t unTrackedDeviceIndexArrayCount, uint32_t unRelativeToTrackedDeviceIndex,
-                                                                                                         ::System::AsyncCallback* callback, ::System::Object* object) {
+                                                                                                         ::ArrayW<uint32_t> punTrackedDeviceIndexArray, uint32_t unTrackedDeviceIndexArrayCount,
+                                                                                                         uint32_t unRelativeToTrackedDeviceIndex, ::System::AsyncCallback* callback,
+                                                                                                         ::System::Object* object) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRSystem__GetSortedTrackedDeviceIndicesOfClass*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, eTrackedDeviceClass, punTrackedDeviceIndexArray, unTrackedDeviceIndexArrayCount,

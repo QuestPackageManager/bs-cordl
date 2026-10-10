@@ -54,7 +54,7 @@ public:
   inline void _ctor(::StringW path);
 
   /// @brief Method .ctor, addr 0x7154ca0, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> path);
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_Invalid();
 
@@ -62,22 +62,22 @@ public:
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::BindingId>* i___System__IEquatable_1___UnityEngine__UIElements__BindingId_();
 
   /// @brief Method op_Equality, addr 0x7154ef0, size 0x50, virtual false, abstract: false, final false
-  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> lhs, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> rhs);
+  static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> lhs, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> rhs);
 
   /// @brief Method op_Implicit, addr 0x7154ce4, size 0x8, virtual false, abstract: false, final false
-  static inline ::StringW op_Implicit___StringW(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> vep);
+  static inline ::StringW op_Implicit___StringW(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> vep);
 
   /// @brief Method op_Implicit, addr 0x7154cec, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BindingId op_Implicit___UnityEngine__UIElements__BindingId(::StringW name);
 
   /// @brief Method op_Implicit, addr 0x7154d74, size 0x58, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::BindingId op_Implicit___UnityEngine__UIElements__BindingId(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path);
+  static inline ::UnityEngine::UIElements::BindingId op_Implicit___UnityEngine__UIElements__BindingId(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> path);
 
   /// @brief Method op_Implicit, addr 0x7154cd4, size 0x10, virtual false, abstract: false, final false
-  static inline ::Unity::Properties::PropertyPath op_Implicit___Unity__Properties__PropertyPath(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> vep);
+  static inline ::Unity::Properties::PropertyPath op_Implicit___Unity__Properties__PropertyPath(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> vep);
 
   /// @brief Method op_Inequality, addr 0x7154f40, size 0x9c, virtual false, abstract: false, final false
-  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> lhs, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> rhs);
+  static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> lhs, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> rhs);
 
   static inline void setStaticF_Invalid(::UnityEngine::UIElements::BindingId value);
 

@@ -71,8 +71,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NoteCutInfoNetSerializable* (
-    ::GlobalNamespace::NoteCutInfoNetSerializable::*)(::by_ref<::GlobalNamespace::NoteCutInfo>, ::GlobalNamespace::NoteData*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3,
-                                                      ::UnityEngine::Vector3)>(&::GlobalNamespace::NoteCutInfoNetSerializable::Init)> {
+    ::GlobalNamespace::NoteCutInfoNetSerializable::*)(::by_ref<::GlobalNamespace::NoteCutInfo const>, ::GlobalNamespace::NoteData*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion,
+                                                      ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::GlobalNamespace::NoteCutInfoNetSerializable::Init)> {
   constexpr static std::size_t size = 0xd4;
   constexpr static std::size_t addrs = 0x3a09708;
 
@@ -82,7 +82,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NoteCu
                      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutInfoNetSerializable*>(),
                                          { "Init",
                                            {},
-                                           { ::i2c::type_of<::by_ref<::GlobalNamespace::NoteCutInfo>>(), ::i2c::type_of<::GlobalNamespace::NoteData*>(), ::i2c::type_of<::UnityEngine::Vector3>(),
+                                           { ::i2c::type_of<::by_ref<::GlobalNamespace::NoteCutInfo const>>(), ::i2c::type_of<::GlobalNamespace::NoteData*>(), ::i2c::type_of<::UnityEngine::Vector3>(),
                                              ::i2c::type_of<::UnityEngine::Quaternion>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
     return ___internal_method;
   }
@@ -308,16 +308,17 @@ inline void GlobalNamespace::NoteCutInfoNetSerializable::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutInfoNetSerializable*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::NoteCutInfoNetSerializable* GlobalNamespace::NoteCutInfoNetSerializable::Init(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo,
+inline ::GlobalNamespace::NoteCutInfoNetSerializable* GlobalNamespace::NoteCutInfoNetSerializable::Init(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo const> noteCutInfo,
                                                                                                         ::GlobalNamespace::NoteData* noteData, ::UnityEngine::Vector3 notePosition,
                                                                                                         ::UnityEngine::Quaternion noteRotation, ::UnityEngine::Vector3 noteScale,
                                                                                                         ::UnityEngine::Vector3 moveVec) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutInfoNetSerializable*>(),
-                                              { "Init",
-                                                {},
-                                                { ::i2c::type_of<::by_ref<::GlobalNamespace::NoteCutInfo>>(), ::i2c::type_of<::GlobalNamespace::NoteData*>(), ::i2c::type_of<::UnityEngine::Vector3>(),
-                                                  ::i2c::type_of<::UnityEngine::Quaternion>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutInfoNetSerializable*>(),
+                                       { "Init",
+                                         {},
+                                         { ::i2c::type_of<::by_ref<::GlobalNamespace::NoteCutInfo const>>(), ::i2c::type_of<::GlobalNamespace::NoteData*>(), ::i2c::type_of<::UnityEngine::Vector3>(),
+                                           ::i2c::type_of<::UnityEngine::Quaternion>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::NoteCutInfoNetSerializable*>(this, ___internal_method, noteCutInfo, noteData, notePosition, noteRotation, noteScale, moveVec);
 }
 inline ::GlobalNamespace::NoteCutInfoNetSerializable*

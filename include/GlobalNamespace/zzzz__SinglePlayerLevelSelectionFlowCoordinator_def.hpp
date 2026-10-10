@@ -280,7 +280,7 @@ public:
                                                                ::GlobalNamespace::GameplayModifiers* gameplayModifiers, bool practice);
 
   /// @brief Method SelectionDidChange, addr 0x5d53604, size 0x98, virtual true, abstract: false, final false
-  inline void SelectionDidChange(::GlobalNamespace::BeatmapLevelPack* pack, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
+  inline void SelectionDidChange(::GlobalNamespace::BeatmapLevelPack* pack, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey);
 
   /// @brief Method SetupGameplaySetupViewController, addr 0x5d520dc, size 0x28, virtual false, abstract: false, final false
   inline void SetupGameplaySetupViewController(bool showModifiers, bool showEnvironmentOverrideSettings, bool showColorSchemesSettings);

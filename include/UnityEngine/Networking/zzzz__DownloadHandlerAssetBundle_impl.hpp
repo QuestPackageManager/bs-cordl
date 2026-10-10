@@ -228,7 +228,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::Un
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::UnityEngine::Networking::DownloadHandlerAssetBundle*, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>,
-                                                                            ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Hash128>, uint32_t)>(
+                                                                            ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Hash128 const>, uint32_t)>(
     &::UnityEngine::Networking::DownloadHandlerAssetBundle::CreateCached_Injected)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x72c1950;
@@ -240,7 +240,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::Un
                             { "CreateCached_Injected",
                               {},
                               { ::i2c::type_of<::UnityEngine::Networking::DownloadHandlerAssetBundle*>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(),
-                                ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Hash128>>(), ::i2c::type_of<uint32_t>() } })));
+                                ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Hash128 const>>(), ::i2c::type_of<uint32_t>() } })));
     return ___internal_method;
   }
 };
@@ -382,15 +382,15 @@ inline ::System::IntPtr UnityEngine::Networking::DownloadHandlerAssetBundle::Cre
 }
 inline ::System::IntPtr UnityEngine::Networking::DownloadHandlerAssetBundle::CreateCached_Injected(::UnityEngine::Networking::DownloadHandlerAssetBundle* obj,
                                                                                                    ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> url,
-                                                                                                   ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name, ::by_ref<::UnityEngine::Hash128> hash,
-                                                                                                   uint32_t crc) {
+                                                                                                   ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name,
+                                                                                                   ::by_ref<::UnityEngine::Hash128 const> hash, uint32_t crc) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::DownloadHandlerAssetBundle*>(),
                           { "CreateCached_Injected",
                             {},
                             { ::i2c::type_of<::UnityEngine::Networking::DownloadHandlerAssetBundle*>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(),
-                              ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Hash128>>(), ::i2c::type_of<uint32_t>() } })));
+                              ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Hash128 const>>(), ::i2c::type_of<uint32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, obj, url, name, hash, crc);
 }
 inline ::System::IntPtr UnityEngine::Networking::DownloadHandlerAssetBundle::get_assetBundle_Injected(::System::IntPtr _unity_self) {

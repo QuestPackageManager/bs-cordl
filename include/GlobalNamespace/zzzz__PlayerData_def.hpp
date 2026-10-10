@@ -283,7 +283,7 @@ public:
   inline bool DidSelectRegion();
 
   /// @brief Method GetOrCreatePlayerLevelStatsData, addr 0x39d1738, size 0xf8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::PlayerLevelStatsData* GetOrCreatePlayerLevelStatsData(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
+  inline ::GlobalNamespace::PlayerLevelStatsData* GetOrCreatePlayerLevelStatsData(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey);
 
   /// @brief Method GetOrCreatePlayerLevelStatsData, addr 0x39d18c4, size 0x20, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerLevelStatsData* GetOrCreatePlayerLevelStatsData(::StringW levelId, ::GlobalNamespace::BeatmapDifficulty difficulty,
@@ -384,7 +384,7 @@ public:
   inline bool ShouldForceApplySensitivity();
 
   /// @brief Method TryGetPlayerLevelStatsData, addr 0x39d1848, size 0x7c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::PlayerLevelStatsData* TryGetPlayerLevelStatsData(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
+  inline ::GlobalNamespace::PlayerLevelStatsData* TryGetPlayerLevelStatsData(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey);
 
   /// @brief Method WasMissionHelpShowed, addr 0x39d1aac, size 0x68, virtual false, abstract: false, final false
   inline bool WasMissionHelpShowed(::GlobalNamespace::MissionHelpSO* missionHelp);

@@ -391,7 +391,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr
 //  Writing Method size for method: ::UnityEngine::Rendering::BatchRendererGroup.AddDrawCommandBatch_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int32_t, ::by_ref<::UnityEngine::GraphicsBufferHandle>, uint32_t, uint32_t,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int32_t, ::by_ref<::UnityEngine::GraphicsBufferHandle const>, uint32_t, uint32_t,
                                                                 ::by_ref<::UnityEngine::Rendering::BatchID>)>(&::UnityEngine::Rendering::BatchRendererGroup::AddDrawCommandBatch_Injected)> {
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x6f88074;
@@ -401,7 +401,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
                                                                                            { "AddDrawCommandBatch_Injected",
                                                                                              {},
                                                                                              { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(),
-                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::GraphicsBufferHandle>>(), ::i2c::type_of<uint32_t>(),
+                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::GraphicsBufferHandle const>>(), ::i2c::type_of<uint32_t>(),
                                                                                                ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchID>>() } })));
     return ___internal_method;
   }
@@ -409,15 +409,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
 //  Writing Method size for method: ::UnityEngine::Rendering::BatchRendererGroup.RemoveDrawCommandBatch_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Rendering::BatchID>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Rendering::BatchID const>)>(
     &::UnityEngine::Rendering::BatchRendererGroup::RemoveDrawCommandBatch_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6f881c8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BatchRendererGroup*>(),
-                                                { "RemoveDrawCommandBatch_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchID>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BatchRendererGroup*>(),
+                                         { "RemoveDrawCommandBatch_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchID const>>() } })));
     return ___internal_method;
   }
 };
@@ -442,15 +443,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
 //  Writing Method size for method: ::UnityEngine::Rendering::BatchRendererGroup.UnregisterMaterial_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Rendering::BatchMaterialID>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Rendering::BatchMaterialID const>)>(
     &::UnityEngine::Rendering::BatchRendererGroup::UnregisterMaterial_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6f883dc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BatchRendererGroup*>(),
-                                                { "UnregisterMaterial_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchMaterialID>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BatchRendererGroup*>(),
+                                         { "UnregisterMaterial_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchMaterialID const>>() } })));
     return ___internal_method;
   }
 };
@@ -475,7 +477,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
 //  Writing Method size for method: ::UnityEngine::Rendering::BatchRendererGroup.UnregisterMesh_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Rendering::BatchMeshID>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Rendering::BatchMeshID const>)>(
     &::UnityEngine::Rendering::BatchRendererGroup::UnregisterMesh_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6f885e8;
@@ -483,21 +485,21 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BatchRendererGroup*>(),
-                                                { "UnregisterMesh_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchMeshID>>() } })));
+                                                { "UnregisterMesh_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchMeshID const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::BatchRendererGroup.OcclusionTestAABB_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bounds>)>(&::UnityEngine::Rendering::BatchRendererGroup::OcclusionTestAABB_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bounds const>)>(&::UnityEngine::Rendering::BatchRendererGroup::OcclusionTestAABB_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6f889d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BatchRendererGroup*>(),
-                                                             { "OcclusionTestAABB_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Bounds>>() } })));
+                                                             { "OcclusionTestAABB_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Bounds const>>() } })));
     return ___internal_method;
   }
 };
@@ -648,20 +650,20 @@ inline bool UnityEngine::Rendering::BatchRendererGroup::OcclusionTestAABB(::Syst
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, occlusionBuffer, aabb);
 }
 inline void UnityEngine::Rendering::BatchRendererGroup::AddDrawCommandBatch_Injected(::System::IntPtr _unity_self, ::System::IntPtr values, int32_t count,
-                                                                                     ::by_ref<::UnityEngine::GraphicsBufferHandle> buffer, uint32_t bufferOffset, uint32_t windowSize,
+                                                                                     ::by_ref<::UnityEngine::GraphicsBufferHandle const> buffer, uint32_t bufferOffset, uint32_t windowSize,
                                                                                      ::by_ref<::UnityEngine::Rendering::BatchID> ret) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BatchRendererGroup*>(),
                                                                                          { "AddDrawCommandBatch_Injected",
                                                                                            {},
                                                                                            { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(),
-                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::GraphicsBufferHandle>>(), ::i2c::type_of<uint32_t>(),
+                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::GraphicsBufferHandle const>>(), ::i2c::type_of<uint32_t>(),
                                                                                              ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchID>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, values, count, buffer, bufferOffset, windowSize, ret);
 }
-inline void UnityEngine::Rendering::BatchRendererGroup::RemoveDrawCommandBatch_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::BatchID> batchID) {
+inline void UnityEngine::Rendering::BatchRendererGroup::RemoveDrawCommandBatch_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::BatchID const> batchID) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BatchRendererGroup*>(),
-                                              { "RemoveDrawCommandBatch_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchID>>() } })));
+                                              { "RemoveDrawCommandBatch_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchID const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, batchID);
 }
 inline void UnityEngine::Rendering::BatchRendererGroup::RegisterMaterials_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> materialID,
@@ -674,10 +676,11 @@ inline void UnityEngine::Rendering::BatchRendererGroup::RegisterMaterials_Inject
                                                                ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, materialID, batchMaterialID);
 }
-inline void UnityEngine::Rendering::BatchRendererGroup::UnregisterMaterial_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::BatchMaterialID> material) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BatchRendererGroup*>(),
-                                              { "UnregisterMaterial_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchMaterialID>>() } })));
+inline void UnityEngine::Rendering::BatchRendererGroup::UnregisterMaterial_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::BatchMaterialID const> material) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BatchRendererGroup*>(),
+                                       { "UnregisterMaterial_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchMaterialID const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, material);
 }
 inline void UnityEngine::Rendering::BatchRendererGroup::RegisterMeshes_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> meshID,
@@ -690,16 +693,16 @@ inline void UnityEngine::Rendering::BatchRendererGroup::RegisterMeshes_Injected(
                                                                ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, meshID, batchMeshID);
 }
-inline void UnityEngine::Rendering::BatchRendererGroup::UnregisterMesh_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::BatchMeshID> mesh) {
+inline void UnityEngine::Rendering::BatchRendererGroup::UnregisterMesh_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rendering::BatchMeshID const> mesh) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BatchRendererGroup*>(),
-                                              { "UnregisterMesh_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchMeshID>>() } })));
+                                              { "UnregisterMesh_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::BatchMeshID const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, _unity_self, mesh);
 }
-inline bool UnityEngine::Rendering::BatchRendererGroup::OcclusionTestAABB_Injected(::System::IntPtr occlusionBuffer, ::by_ref<::UnityEngine::Bounds> aabb) {
+inline bool UnityEngine::Rendering::BatchRendererGroup::OcclusionTestAABB_Injected(::System::IntPtr occlusionBuffer, ::by_ref<::UnityEngine::Bounds const> aabb) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BatchRendererGroup*>(),
-                                                           { "OcclusionTestAABB_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Bounds>>() } })));
+                                                           { "OcclusionTestAABB_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Bounds const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, occlusionBuffer, aabb);
 }
 inline ::UnityEngine::Rendering::BatchRendererGroup* UnityEngine::Rendering::BatchRendererGroup::New_ctor(::UnityEngine::Rendering::BatchRendererGroupCreateInfo info) {

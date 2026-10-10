@@ -360,8 +360,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRI
 //  Writing Method size for method: ::OVR::OpenVR::IVRInput__UpdateActionState.Invoke
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRInputError (::OVR::OpenVR::IVRInput__UpdateActionState::*)(::by_ref<::ArrayW<::OVR::OpenVR::VRActiveActionSet_t>>, uint32_t,
-                                                                                                                                    uint32_t)>(&::OVR::OpenVR::IVRInput__UpdateActionState::Invoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRInputError (::OVR::OpenVR::IVRInput__UpdateActionState::*)(::ArrayW<::OVR::OpenVR::VRActiveActionSet_t>, uint32_t, uint32_t)>(
+    &::OVR::OpenVR::IVRInput__UpdateActionState::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x625a914;
 
@@ -374,9 +374,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRInputEr
 //  Writing Method size for method: ::OVR::OpenVR::IVRInput__UpdateActionState.BeginInvoke
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRInput__UpdateActionState::*)(::by_ref<::ArrayW<::OVR::OpenVR::VRActiveActionSet_t>>, uint32_t,
-                                                                                                                               uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
-    &::OVR::OpenVR::IVRInput__UpdateActionState::BeginInvoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRInput__UpdateActionState::*)(::ArrayW<::OVR::OpenVR::VRActiveActionSet_t>, uint32_t, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
+        &::OVR::OpenVR::IVRInput__UpdateActionState::BeginInvoke)> {
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x625a928;
 
@@ -406,14 +406,13 @@ inline void OVR::OpenVR::IVRInput__UpdateActionState::_ctor(::System::Object* ob
                    (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRInput__UpdateActionState*>(), { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline ::OVR::OpenVR::EVRInputError OVR::OpenVR::IVRInput__UpdateActionState::Invoke(::by_ref<::ArrayW<::OVR::OpenVR::VRActiveActionSet_t>> pSets, uint32_t unSizeOfVRSelectedActionSet_t,
-                                                                                     uint32_t unSetCount) {
+inline ::OVR::OpenVR::EVRInputError OVR::OpenVR::IVRInput__UpdateActionState::Invoke(::ArrayW<::OVR::OpenVR::VRActiveActionSet_t> pSets, uint32_t unSizeOfVRSelectedActionSet_t, uint32_t unSetCount) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRInput__UpdateActionState*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRInputError>(this, ___internal_method, pSets, unSizeOfVRSelectedActionSet_t, unSetCount);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRInput__UpdateActionState::BeginInvoke(::by_ref<::ArrayW<::OVR::OpenVR::VRActiveActionSet_t>> pSets, uint32_t unSizeOfVRSelectedActionSet_t,
-                                                                                     uint32_t unSetCount, ::System::AsyncCallback* callback, ::System::Object* object) {
+inline ::System::IAsyncResult* OVR::OpenVR::IVRInput__UpdateActionState::BeginInvoke(::ArrayW<::OVR::OpenVR::VRActiveActionSet_t> pSets, uint32_t unSizeOfVRSelectedActionSet_t, uint32_t unSetCount,
+                                                                                     ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRInput__UpdateActionState*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, pSets, unSizeOfVRSelectedActionSet_t, unSetCount, callback, object);
@@ -785,7 +784,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRI
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRInputError (::OVR::OpenVR::IVRInput__GetSkeletalBoneData::*)(
-    uint64_t, ::OVR::OpenVR::EVRSkeletalTransformSpace, ::OVR::OpenVR::EVRSkeletalMotionRange, ::by_ref<::ArrayW<::OVR::OpenVR::VRBoneTransform_t>>, uint32_t, uint64_t)>(
+    uint64_t, ::OVR::OpenVR::EVRSkeletalTransformSpace, ::OVR::OpenVR::EVRSkeletalMotionRange, ::ArrayW<::OVR::OpenVR::VRBoneTransform_t>, uint32_t, uint64_t)>(
     &::OVR::OpenVR::IVRInput__GetSkeletalBoneData::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x625b074;
@@ -800,8 +799,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRInputEr
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
-    ::OVR::OpenVR::IVRInput__GetSkeletalBoneData::*)(uint64_t, ::OVR::OpenVR::EVRSkeletalTransformSpace, ::OVR::OpenVR::EVRSkeletalMotionRange, ::by_ref<::ArrayW<::OVR::OpenVR::VRBoneTransform_t>>,
-                                                     uint32_t, uint64_t, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRInput__GetSkeletalBoneData::BeginInvoke)> {
+    ::OVR::OpenVR::IVRInput__GetSkeletalBoneData::*)(uint64_t, ::OVR::OpenVR::EVRSkeletalTransformSpace, ::OVR::OpenVR::EVRSkeletalMotionRange, ::ArrayW<::OVR::OpenVR::VRBoneTransform_t>, uint32_t,
+                                                     uint64_t, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRInput__GetSkeletalBoneData::BeginInvoke)> {
   constexpr static std::size_t size = 0x10c;
   constexpr static std::size_t addrs = 0x625b088;
 
@@ -831,17 +830,16 @@ inline void OVR::OpenVR::IVRInput__GetSkeletalBoneData::_ctor(::System::Object* 
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
 inline ::OVR::OpenVR::EVRInputError OVR::OpenVR::IVRInput__GetSkeletalBoneData::Invoke(uint64_t action, ::OVR::OpenVR::EVRSkeletalTransformSpace eTransformSpace,
-                                                                                       ::OVR::OpenVR::EVRSkeletalMotionRange eMotionRange,
-                                                                                       ::by_ref<::ArrayW<::OVR::OpenVR::VRBoneTransform_t>> pTransformArray, uint32_t unTransformArrayCount,
-                                                                                       uint64_t ulRestrictToDevice) {
+                                                                                       ::OVR::OpenVR::EVRSkeletalMotionRange eMotionRange, ::ArrayW<::OVR::OpenVR::VRBoneTransform_t> pTransformArray,
+                                                                                       uint32_t unTransformArrayCount, uint64_t ulRestrictToDevice) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRInput__GetSkeletalBoneData*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRInputError>(this, ___internal_method, action, eTransformSpace, eMotionRange, pTransformArray, unTransformArrayCount, ulRestrictToDevice);
 }
 inline ::System::IAsyncResult* OVR::OpenVR::IVRInput__GetSkeletalBoneData::BeginInvoke(uint64_t action, ::OVR::OpenVR::EVRSkeletalTransformSpace eTransformSpace,
-                                                                                       ::OVR::OpenVR::EVRSkeletalMotionRange eMotionRange,
-                                                                                       ::by_ref<::ArrayW<::OVR::OpenVR::VRBoneTransform_t>> pTransformArray, uint32_t unTransformArrayCount,
-                                                                                       uint64_t ulRestrictToDevice, ::System::AsyncCallback* callback, ::System::Object* object) {
+                                                                                       ::OVR::OpenVR::EVRSkeletalMotionRange eMotionRange, ::ArrayW<::OVR::OpenVR::VRBoneTransform_t> pTransformArray,
+                                                                                       uint32_t unTransformArrayCount, uint64_t ulRestrictToDevice, ::System::AsyncCallback* callback,
+                                                                                       ::System::Object* object) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRInput__GetSkeletalBoneData*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, action, eTransformSpace, eMotionRange, pTransformArray, unTransformArrayCount, ulRestrictToDevice,
@@ -966,7 +964,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRI
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRInputError (::OVR::OpenVR::IVRInput__DecompressSkeletalBoneData::*)(
-    ::System::IntPtr, uint32_t, ::by_ref<::OVR::OpenVR::EVRSkeletalTransformSpace>, ::by_ref<::ArrayW<::OVR::OpenVR::VRBoneTransform_t>>, uint32_t)>(
+    ::System::IntPtr, uint32_t, ::by_ref<::OVR::OpenVR::EVRSkeletalTransformSpace>, ::ArrayW<::OVR::OpenVR::VRBoneTransform_t>, uint32_t)>(
     &::OVR::OpenVR::IVRInput__DecompressSkeletalBoneData::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x625b400;
@@ -981,8 +979,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRInputEr
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
-    ::OVR::OpenVR::IVRInput__DecompressSkeletalBoneData::*)(::System::IntPtr, uint32_t, ::by_ref<::OVR::OpenVR::EVRSkeletalTransformSpace>, ::by_ref<::ArrayW<::OVR::OpenVR::VRBoneTransform_t>>,
-                                                            uint32_t, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRInput__DecompressSkeletalBoneData::BeginInvoke)> {
+    ::OVR::OpenVR::IVRInput__DecompressSkeletalBoneData::*)(::System::IntPtr, uint32_t, ::by_ref<::OVR::OpenVR::EVRSkeletalTransformSpace>, ::ArrayW<::OVR::OpenVR::VRBoneTransform_t>, uint32_t,
+                                                            ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRInput__DecompressSkeletalBoneData::BeginInvoke)> {
   constexpr static std::size_t size = 0xe0;
   constexpr static std::size_t addrs = 0x625b414;
 
@@ -1013,7 +1011,7 @@ inline void OVR::OpenVR::IVRInput__DecompressSkeletalBoneData::_ctor(::System::O
 }
 inline ::OVR::OpenVR::EVRInputError OVR::OpenVR::IVRInput__DecompressSkeletalBoneData::Invoke(::System::IntPtr pvCompressedBuffer, uint32_t unCompressedBufferSize,
                                                                                               ::by_ref<::OVR::OpenVR::EVRSkeletalTransformSpace> peTransformSpace,
-                                                                                              ::by_ref<::ArrayW<::OVR::OpenVR::VRBoneTransform_t>> pTransformArray, uint32_t unTransformArrayCount) {
+                                                                                              ::ArrayW<::OVR::OpenVR::VRBoneTransform_t> pTransformArray, uint32_t unTransformArrayCount) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRInput__DecompressSkeletalBoneData*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRInputError>(this, ___internal_method, pvCompressedBuffer, unCompressedBufferSize, peTransformSpace, pTransformArray,
@@ -1021,7 +1019,7 @@ inline ::OVR::OpenVR::EVRInputError OVR::OpenVR::IVRInput__DecompressSkeletalBon
 }
 inline ::System::IAsyncResult* OVR::OpenVR::IVRInput__DecompressSkeletalBoneData::BeginInvoke(::System::IntPtr pvCompressedBuffer, uint32_t unCompressedBufferSize,
                                                                                               ::by_ref<::OVR::OpenVR::EVRSkeletalTransformSpace> peTransformSpace,
-                                                                                              ::by_ref<::ArrayW<::OVR::OpenVR::VRBoneTransform_t>> pTransformArray, uint32_t unTransformArrayCount,
+                                                                                              ::ArrayW<::OVR::OpenVR::VRBoneTransform_t> pTransformArray, uint32_t unTransformArrayCount,
                                                                                               ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRInput__DecompressSkeletalBoneData*>(), 14 })));
@@ -1141,7 +1139,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRI
 //  Writing Method size for method: ::OVR::OpenVR::IVRInput__GetActionOrigins.Invoke
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRInputError (::OVR::OpenVR::IVRInput__GetActionOrigins::*)(uint64_t, uint64_t, ::by_ref<::ArrayW<uint64_t>>, uint32_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRInputError (::OVR::OpenVR::IVRInput__GetActionOrigins::*)(uint64_t, uint64_t, ::ArrayW<uint64_t>, uint32_t)>(
     &::OVR::OpenVR::IVRInput__GetActionOrigins::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x625b6f4;
@@ -1156,7 +1154,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRInputEr
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRInput__GetActionOrigins::*)(uint64_t, uint64_t, ::by_ref<::ArrayW<uint64_t>>, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
+    static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRInput__GetActionOrigins::*)(uint64_t, uint64_t, ::ArrayW<uint64_t>, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::IVRInput__GetActionOrigins::BeginInvoke)> {
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x625b708;
@@ -1187,14 +1185,13 @@ inline void OVR::OpenVR::IVRInput__GetActionOrigins::_ctor(::System::Object* obj
                    (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRInput__GetActionOrigins*>(), { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline ::OVR::OpenVR::EVRInputError OVR::OpenVR::IVRInput__GetActionOrigins::Invoke(uint64_t actionSetHandle, uint64_t digitalActionHandle, ::by_ref<::ArrayW<uint64_t>> originsOut,
-                                                                                    uint32_t originOutCount) {
+inline ::OVR::OpenVR::EVRInputError OVR::OpenVR::IVRInput__GetActionOrigins::Invoke(uint64_t actionSetHandle, uint64_t digitalActionHandle, ::ArrayW<uint64_t> originsOut, uint32_t originOutCount) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRInput__GetActionOrigins*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRInputError>(this, ___internal_method, actionSetHandle, digitalActionHandle, originsOut, originOutCount);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRInput__GetActionOrigins::BeginInvoke(uint64_t actionSetHandle, uint64_t digitalActionHandle, ::by_ref<::ArrayW<uint64_t>> originsOut,
-                                                                                    uint32_t originOutCount, ::System::AsyncCallback* callback, ::System::Object* object) {
+inline ::System::IAsyncResult* OVR::OpenVR::IVRInput__GetActionOrigins::BeginInvoke(uint64_t actionSetHandle, uint64_t digitalActionHandle, ::ArrayW<uint64_t> originsOut, uint32_t originOutCount,
+                                                                                    ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRInput__GetActionOrigins*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, actionSetHandle, digitalActionHandle, originsOut, originOutCount, callback, object);
@@ -1474,7 +1471,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRI
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRInputError (::OVR::OpenVR::IVRInput__ShowBindingsForActionSet::*)(
-    ::by_ref<::ArrayW<::OVR::OpenVR::VRActiveActionSet_t>>, uint32_t, uint32_t, uint64_t)>(&::OVR::OpenVR::IVRInput__ShowBindingsForActionSet::Invoke)> {
+    ::ArrayW<::OVR::OpenVR::VRActiveActionSet_t>, uint32_t, uint32_t, uint64_t)>(&::OVR::OpenVR::IVRInput__ShowBindingsForActionSet::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x625bbe0;
 
@@ -1487,8 +1484,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRInputEr
 //  Writing Method size for method: ::OVR::OpenVR::IVRInput__ShowBindingsForActionSet.BeginInvoke
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRInput__ShowBindingsForActionSet::*)(::by_ref<::ArrayW<::OVR::OpenVR::VRActiveActionSet_t>>, uint32_t,
-                                                                                                                                      uint32_t, uint64_t, ::System::AsyncCallback*, ::System::Object*)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRInput__ShowBindingsForActionSet::*)(::ArrayW<::OVR::OpenVR::VRActiveActionSet_t>, uint32_t, uint32_t,
+                                                                                                                                      uint64_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRInput__ShowBindingsForActionSet::BeginInvoke)> {
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x625bbf4;
@@ -1518,13 +1515,13 @@ inline void OVR::OpenVR::IVRInput__ShowBindingsForActionSet::_ctor(::System::Obj
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline ::OVR::OpenVR::EVRInputError OVR::OpenVR::IVRInput__ShowBindingsForActionSet::Invoke(::by_ref<::ArrayW<::OVR::OpenVR::VRActiveActionSet_t>> pSets, uint32_t unSizeOfVRSelectedActionSet_t,
+inline ::OVR::OpenVR::EVRInputError OVR::OpenVR::IVRInput__ShowBindingsForActionSet::Invoke(::ArrayW<::OVR::OpenVR::VRActiveActionSet_t> pSets, uint32_t unSizeOfVRSelectedActionSet_t,
                                                                                             uint32_t unSetCount, uint64_t originToHighlight) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRInput__ShowBindingsForActionSet*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRInputError>(this, ___internal_method, pSets, unSizeOfVRSelectedActionSet_t, unSetCount, originToHighlight);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRInput__ShowBindingsForActionSet::BeginInvoke(::by_ref<::ArrayW<::OVR::OpenVR::VRActiveActionSet_t>> pSets, uint32_t unSizeOfVRSelectedActionSet_t,
+inline ::System::IAsyncResult* OVR::OpenVR::IVRInput__ShowBindingsForActionSet::BeginInvoke(::ArrayW<::OVR::OpenVR::VRActiveActionSet_t> pSets, uint32_t unSizeOfVRSelectedActionSet_t,
                                                                                             uint32_t unSetCount, uint64_t originToHighlight, ::System::AsyncCallback* callback,
                                                                                             ::System::Object* object) {
   auto* ___internal_method =

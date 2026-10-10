@@ -96,7 +96,7 @@ public:
 
   /// [IsReadOnly]
   /// @brief Method Equals, addr 0x6f27a04, size 0x9c, virtual false, abstract: false, final false
-  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> other);
+  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4 const> other);
 
   /// @brief Method Frustum, addr 0x6f2726c, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 Frustum(::UnityEngine::FrustumPlanes fp);
@@ -142,39 +142,39 @@ public:
 
   /// [FreeFunction("MatrixScripting::Inverse", IsThreadSafe = true)]
   /// @brief Method Internal_Inverse, addr 0x6f26ad8, size 0x6c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Matrix4x4 Internal_Inverse(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> m);
+  static inline ::UnityEngine::Matrix4x4 Internal_Inverse(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4 const> m);
 
   /// [FreeFunction("MatrixScripting::Inverse3DAffine", IsThreadSafe = true)]
   /// @brief Method Internal_Inverse3DAffine, addr 0x6f26a0c, size 0x44, virtual false, abstract: false, final false
-  static inline bool Internal_Inverse3DAffine(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> input, ::by_ref<::UnityEngine::Matrix4x4> result);
+  static inline bool Internal_Inverse3DAffine(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4 const> input, ::by_ref<::UnityEngine::Matrix4x4> result);
 
   /// @brief Method Internal_Inverse_Injected, addr 0x6f26b44, size 0x44, virtual false, abstract: false, final false
-  static inline void Internal_Inverse_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> m, ::by_ref<::UnityEngine::Matrix4x4> ret);
+  static inline void Internal_Inverse_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4 const> m, ::by_ref<::UnityEngine::Matrix4x4> ret);
 
   /// [FreeFunction("MatrixScripting::LookAt", IsThreadSafe = true)]
   /// @brief Method Internal_LookAt, addr 0x6f26fc4, size 0x84, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Matrix4x4 Internal_LookAt(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> from, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> to,
-                                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> up);
+  static inline ::UnityEngine::Matrix4x4 Internal_LookAt(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> from, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> to,
+                                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> up);
 
   /// @brief Method Internal_LookAt_Injected, addr 0x6f27048, size 0x5c, virtual false, abstract: false, final false
-  static inline void Internal_LookAt_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> from, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> to,
-                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> up, ::by_ref<::UnityEngine::Matrix4x4> ret);
+  static inline void Internal_LookAt_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> from, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> to,
+                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> up, ::by_ref<::UnityEngine::Matrix4x4> ret);
 
   /// [FreeFunction("MatrixScripting::TRS", IsThreadSafe = true)]
   /// @brief Method Internal_TRS, addr 0x6f26894, size 0x84, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Matrix4x4 Internal_TRS(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> pos, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> q,
-                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> s);
+  static inline ::UnityEngine::Matrix4x4 Internal_TRS(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> pos, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> q,
+                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> s);
 
   /// @brief Method Internal_TRS_Injected, addr 0x6f26918, size 0x5c, virtual false, abstract: false, final false
-  static inline void Internal_TRS_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> pos, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion> q,
-                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> s, ::by_ref<::UnityEngine::Matrix4x4> ret);
+  static inline void Internal_TRS_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> pos, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Quaternion const> q,
+                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> s, ::by_ref<::UnityEngine::Matrix4x4> ret);
 
   /// [FreeFunction("MatrixScripting::Transpose", IsThreadSafe = true)]
   /// @brief Method Internal_Transpose, addr 0x6f26c70, size 0x6c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Matrix4x4 Internal_Transpose(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> m);
+  static inline ::UnityEngine::Matrix4x4 Internal_Transpose(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4 const> m);
 
   /// @brief Method Internal_Transpose_Injected, addr 0x6f26cdc, size 0x44, virtual false, abstract: false, final false
-  static inline void Internal_Transpose_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> m, ::by_ref<::UnityEngine::Matrix4x4> ret);
+  static inline void Internal_Transpose_Injected(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4 const> m, ::by_ref<::UnityEngine::Matrix4x4> ret);
 
   /// @brief Method Inverse, addr 0x6f26b88, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 Inverse(::UnityEngine::Matrix4x4 m);
@@ -183,7 +183,7 @@ public:
   static inline bool Inverse3DAffine(::UnityEngine::Matrix4x4 input, ::by_ref<::UnityEngine::Matrix4x4> result);
 
   /// @brief Method Inverse3DAffine, addr 0x6f26a94, size 0x44, virtual false, abstract: false, final false
-  static inline bool Inverse3DAffine(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> input, ::by_ref<::UnityEngine::Matrix4x4> result);
+  static inline bool Inverse3DAffine(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4 const> input, ::by_ref<::UnityEngine::Matrix4x4> result);
 
   /// @brief Method LookAt, addr 0x6f270a4, size 0x98, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 LookAt(::UnityEngine::Vector3 from, ::UnityEngine::Vector3 to, ::UnityEngine::Vector3 up);

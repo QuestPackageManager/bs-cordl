@@ -40,7 +40,7 @@
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi.xrPollFutureEXT
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT const>,
                                                                                                             ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollResultEXT>)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrPollFutureEXT)> {
   constexpr static std::size_t size = 0x1c;
@@ -51,7 +51,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                              { "xrPollFutureEXT",
                                                                {},
-                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT>>(),
+                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT const>>(),
                                                                  ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollResultEXT>>() } })));
     return ___internal_method;
   }
@@ -59,7 +59,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi.xrPollFutureEXT_native
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT const>,
                                                                                                             ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollResultEXT>)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrPollFutureEXT_native)> {
   constexpr static std::size_t size = 0x94;
@@ -70,7 +70,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                              { "xrPollFutureEXT_native",
                                                                {},
-                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT>>(),
+                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT const>>(),
                                                                  ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollResultEXT>>() } })));
     return ___internal_method;
   }
@@ -78,7 +78,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi.xrPollFutureEXT
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus (*)(::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus (*)(::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT const>,
                                                                                                                       ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollResultEXT>)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrPollFutureEXT)> {
   constexpr static std::size_t size = 0x1c;
@@ -88,7 +88,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                                                            { "xrPollFutureEXT",
                                                                                              {},
-                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT>>(),
+                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT const>>(),
                                                                                                ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollResultEXT>>() } })));
     return ___internal_method;
   }
@@ -96,7 +96,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi.xrPollFutureEXT_usingContext_native
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus (*)(::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus (*)(::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT const>,
                                                                                                                       ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollResultEXT>)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrPollFutureEXT_usingContext_native)> {
   constexpr static std::size_t size = 0x84;
@@ -106,7 +106,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                                                            { "xrPollFutureEXT_usingContext_native",
                                                                                              {},
-                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT>>(),
+                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT const>>(),
                                                                                                ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollResultEXT>>() } })));
     return ___internal_method;
   }
@@ -129,23 +129,23 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi.xrCancelFutureEXT
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFutureCancelInfoEXT>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFutureCancelInfoEXT const>)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCancelFutureEXT)> {
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x6e3e9dc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
-                                         { "xrCancelFutureEXT", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFutureCancelInfoEXT>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
+                            { "xrCancelFutureEXT", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFutureCancelInfoEXT const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi.xrCancelFutureEXT
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus (*)(::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFutureCancelInfoEXT>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus (*)(::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFutureCancelInfoEXT const>)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCancelFutureEXT)> {
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x6e3ea60;
@@ -153,7 +153,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
-                                                             { "xrCancelFutureEXT", {}, { ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFutureCancelInfoEXT>>() } })));
+                                                             { "xrCancelFutureEXT", {}, { ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFutureCancelInfoEXT const>>() } })));
     return ___internal_method;
   }
 };
@@ -174,9 +174,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi.xrCreateSpatialAnchorEXT
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialAnchorCreateInfoEXT>, ::by_ref<uint64_t>, ::by_ref<uint64_t>)>(
-        &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCreateSpatialAnchorEXT)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(
+    uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialAnchorCreateInfoEXT const>, ::by_ref<uint64_t>, ::by_ref<uint64_t>)>(
+    &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCreateSpatialAnchorEXT)> {
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x6e3eb1c;
 
@@ -185,7 +185,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                              { "xrCreateSpatialAnchorEXT",
                                                                {},
-                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialAnchorCreateInfoEXT>>(),
+                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialAnchorCreateInfoEXT const>>(),
                                                                  ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
     return ___internal_method;
   }
@@ -193,17 +193,19 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi.xrCreateSpatialAnchorEXT
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus (*)(
-    uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrPosef>, ::by_ref<uint64_t>, ::by_ref<uint64_t>)>(&::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCreateSpatialAnchorEXT)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrPosef const>, ::by_ref<uint64_t>, ::by_ref<uint64_t>)>(
+        &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCreateSpatialAnchorEXT)> {
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x6e3ebb8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
-                                                                                           { "xrCreateSpatialAnchorEXT",
-                                                                                             {},
-                                                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrPosef>>(),
-                                                                                               ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
+                                                             { "xrCreateSpatialAnchorEXT",
+                                                               {},
+                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrPosef const>>(),
+                                                                 ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
     return ___internal_method;
   }
 };
@@ -463,7 +465,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextCreateInfoEXT>, ::by_ref<uint64_t>)>(
+    static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextCreateInfoEXT const>, ::by_ref<uint64_t>)>(
         &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCreateSpatialContextAsyncEXT)> {
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x6e3f674;
@@ -473,7 +475,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                              { "xrCreateSpatialContextAsyncEXT",
                                                                {},
-                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextCreateInfoEXT>>(),
+                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextCreateInfoEXT const>>(),
                                                                  ::i2c::type_of<::by_ref<uint64_t>>() } })));
     return ___internal_method;
   }
@@ -481,17 +483,19 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi.xrCreateSpatialContextAsyncEXT
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus (*)(
-    ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextCreateInfoEXT>, ::by_ref<uint64_t>)>(&::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCreateSpatialContextAsyncEXT)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus (*)(::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextCreateInfoEXT const>, ::by_ref<uint64_t>)>(
+        &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCreateSpatialContextAsyncEXT)> {
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x6e3f708;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
-            { "xrCreateSpatialContextAsyncEXT", {}, { ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextCreateInfoEXT>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
+                                         { "xrCreateSpatialContextAsyncEXT",
+                                           {},
+                                           { ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextCreateInfoEXT const>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
     return ___internal_method;
   }
 };
@@ -586,18 +590,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityFromIdCreateInfoEXT>, ::by_ref<uint64_t>)>(
+    static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityFromIdCreateInfoEXT const>, ::by_ref<uint64_t>)>(
         &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCreateSpatialEntityFromIdEXT)> {
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x6e3f97c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
-                                                             { "xrCreateSpatialEntityFromIdEXT",
-                                                               {},
-                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityFromIdCreateInfoEXT>>(),
-                                                                 ::i2c::type_of<::by_ref<uint64_t>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
+                                                { "xrCreateSpatialEntityFromIdEXT",
+                                                  {},
+                                                  { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityFromIdCreateInfoEXT const>>(),
+                                                    ::i2c::type_of<::by_ref<uint64_t>>() } })));
     return ___internal_method;
   }
 };
@@ -634,7 +638,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialDiscoverySnapshotCreateInfoEXT>, ::by_ref<uint64_t>)>(
+    static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialDiscoverySnapshotCreateInfoEXT const>, ::by_ref<uint64_t>)>(
         &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCreateSpatialDiscoverySnapshotAsyncEXT)> {
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x6e3facc;
@@ -644,7 +648,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                 { "xrCreateSpatialDiscoverySnapshotAsyncEXT",
                                                   {},
-                                                  { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialDiscoverySnapshotCreateInfoEXT>>(),
+                                                  { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialDiscoverySnapshotCreateInfoEXT const>>(),
                                                     ::i2c::type_of<::by_ref<uint64_t>>() } })));
     return ___internal_method;
   }
@@ -653,19 +657,20 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionInfoEXT>,
+    static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionInfoEXT const>,
                                                                      ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionEXT>)>(
         &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCreateSpatialDiscoverySnapshotCompleteEXT)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x6e3fb60;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
-                                                { "xrCreateSpatialDiscoverySnapshotCompleteEXT",
-                                                  {},
-                                                  { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionInfoEXT>>(),
-                                                    ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionEXT>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
+                                         { "xrCreateSpatialDiscoverySnapshotCompleteEXT",
+                                           {},
+                                           { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionInfoEXT const>>(),
+                                             ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionEXT>>() } })));
     return ___internal_method;
   }
 };
@@ -673,19 +678,20 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionInfoEXT>,
+    static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionInfoEXT const>,
                                                                      ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionEXT>)>(
         &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCreateSpatialDiscoverySnapshotCompleteEXT_native)> {
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x6e3fb9c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
-                                                { "xrCreateSpatialDiscoverySnapshotCompleteEXT_native",
-                                                  {},
-                                                  { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionInfoEXT>>(),
-                                                    ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionEXT>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
+                                         { "xrCreateSpatialDiscoverySnapshotCompleteEXT_native",
+                                           {},
+                                           { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionInfoEXT const>>(),
+                                             ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionEXT>>() } })));
     return ___internal_method;
   }
 };
@@ -731,7 +737,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(
-    uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentDataQueryConditionEXT>, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentDataQueryResultEXT>)>(
+    uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentDataQueryConditionEXT const>, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentDataQueryResultEXT>)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrQuerySpatialComponentDataEXT)> {
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x6e3fce4;
@@ -741,7 +747,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                 { "xrQuerySpatialComponentDataEXT",
                                                   {},
-                                                  { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentDataQueryConditionEXT>>(),
+                                                  { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentDataQueryConditionEXT const>>(),
                                                     ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentDataQueryResultEXT>>() } })));
     return ___internal_method;
   }
@@ -749,9 +755,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi.xrGetSpatialBufferStringEXT
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>, uint32_t, ::by_ref<uint32_t>, uint8_t*)>(
-        &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferStringEXT)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>,
+                                                                                                            uint32_t, ::by_ref<uint32_t>, uint8_t*)>(
+    &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferStringEXT)> {
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x6e3fd78;
 
@@ -760,7 +766,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                              { "xrGetSpatialBufferStringEXT",
                                                                {},
-                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>>(),
+                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>>(),
                                                                  ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<uint32_t>>(), ::i2c::type_of<uint8_t*>() } })));
     return ___internal_method;
   }
@@ -768,7 +774,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi.xrGetSpatialBufferStringEXT
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>,
                                                                                                             ::Unity::Collections::Allocator, ::by_ref<::Unity::Collections::NativeArray_1<uint8_t>>)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferStringEXT)> {
   constexpr static std::size_t size = 0x108;
@@ -779,7 +785,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                              { "xrGetSpatialBufferStringEXT",
                                                                {},
-                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>>(),
+                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>>(),
                                                                  ::i2c::type_of<::Unity::Collections::Allocator>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<uint8_t>>>() } })));
     return ___internal_method;
   }
@@ -787,9 +793,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi.xrGetSpatialBufferUint8EXT
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>, uint32_t, ::by_ref<uint32_t>, uint8_t*)>(
-        &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferUint8EXT)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>,
+                                                                                                            uint32_t, ::by_ref<uint32_t>, uint8_t*)>(
+    &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferUint8EXT)> {
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x6e3ff2c;
 
@@ -798,7 +804,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                              { "xrGetSpatialBufferUint8EXT",
                                                                {},
-                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>>(),
+                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>>(),
                                                                  ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<uint32_t>>(), ::i2c::type_of<uint8_t*>() } })));
     return ___internal_method;
   }
@@ -806,7 +812,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi.xrGetSpatialBufferUint8EXT
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>,
                                                                                                             ::Unity::Collections::Allocator, ::by_ref<::Unity::Collections::NativeArray_1<uint8_t>>)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferUint8EXT)> {
   constexpr static std::size_t size = 0x108;
@@ -817,7 +823,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                              { "xrGetSpatialBufferUint8EXT",
                                                                {},
-                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>>(),
+                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>>(),
                                                                  ::i2c::type_of<::Unity::Collections::Allocator>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<uint8_t>>>() } })));
     return ___internal_method;
   }
@@ -825,9 +831,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi.xrGetSpatialBufferUint16EXT
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>, uint32_t, ::by_ref<uint32_t>, uint16_t*)>(
-        &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferUint16EXT)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>,
+                                                                                                            uint32_t, ::by_ref<uint32_t>, uint16_t*)>(
+    &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferUint16EXT)> {
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x6e400e0;
 
@@ -836,7 +842,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                              { "xrGetSpatialBufferUint16EXT",
                                                                {},
-                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>>(),
+                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>>(),
                                                                  ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<uint32_t>>(), ::i2c::type_of<uint16_t*>() } })));
     return ___internal_method;
   }
@@ -844,7 +850,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi.xrGetSpatialBufferUint16EXT
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>,
                                                                                                             ::Unity::Collections::Allocator, ::by_ref<::Unity::Collections::NativeArray_1<uint16_t>>)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferUint16EXT)> {
   constexpr static std::size_t size = 0x108;
@@ -855,7 +861,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                              { "xrGetSpatialBufferUint16EXT",
                                                                {},
-                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>>(),
+                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>>(),
                                                                  ::i2c::type_of<::Unity::Collections::Allocator>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<uint16_t>>>() } })));
     return ___internal_method;
   }
@@ -863,9 +869,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi.xrGetSpatialBufferUint32EXT
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>, uint32_t, ::by_ref<uint32_t>, uint32_t*)>(
-        &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferUint32EXT)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>,
+                                                                                                            uint32_t, ::by_ref<uint32_t>, uint32_t*)>(
+    &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferUint32EXT)> {
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x6e40294;
 
@@ -874,7 +880,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                              { "xrGetSpatialBufferUint32EXT",
                                                                {},
-                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>>(),
+                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>>(),
                                                                  ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<uint32_t>>(), ::i2c::type_of<uint32_t*>() } })));
     return ___internal_method;
   }
@@ -882,7 +888,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi.xrGetSpatialBufferUint32EXT
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>,
                                                                                                             ::Unity::Collections::Allocator, ::by_ref<::Unity::Collections::NativeArray_1<uint32_t>>)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferUint32EXT)> {
   constexpr static std::size_t size = 0x108;
@@ -893,7 +899,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                              { "xrGetSpatialBufferUint32EXT",
                                                                {},
-                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>>(),
+                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>>(),
                                                                  ::i2c::type_of<::Unity::Collections::Allocator>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<uint32_t>>>() } })));
     return ___internal_method;
   }
@@ -901,9 +907,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi.xrGetSpatialBufferFloatEXT
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>, uint32_t, ::by_ref<uint32_t>, float_t*)>(
-        &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferFloatEXT)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>,
+                                                                                                            uint32_t, ::by_ref<uint32_t>, float_t*)>(
+    &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferFloatEXT)> {
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x6e40448;
 
@@ -912,7 +918,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                              { "xrGetSpatialBufferFloatEXT",
                                                                {},
-                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>>(),
+                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>>(),
                                                                  ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<uint32_t>>(), ::i2c::type_of<float_t*>() } })));
     return ___internal_method;
   }
@@ -920,7 +926,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi.xrGetSpatialBufferFloatEXT
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>,
                                                                                                             ::Unity::Collections::Allocator, ::by_ref<::Unity::Collections::NativeArray_1<float_t>>)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferFloatEXT)> {
   constexpr static std::size_t size = 0x108;
@@ -931,7 +937,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                              { "xrGetSpatialBufferFloatEXT",
                                                                {},
-                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>>(),
+                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>>(),
                                                                  ::i2c::type_of<::Unity::Collections::Allocator>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<float_t>>>() } })));
     return ___internal_method;
   }
@@ -939,7 +945,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi.xrGetSpatialBufferVector2fEXT
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>,
                                                                                                             uint32_t, ::by_ref<uint32_t>, ::UnityEngine::XR::OpenXR::NativeTypes::XrVector2f*)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferVector2fEXT)> {
   constexpr static std::size_t size = 0xac;
@@ -950,7 +956,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                 { "xrGetSpatialBufferVector2fEXT",
                                                   {},
-                                                  { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>>(),
+                                                  { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>>(),
                                                     ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<uint32_t>>(), ::i2c::type_of<::UnityEngine::XR::OpenXR::NativeTypes::XrVector2f*>() } })));
     return ___internal_method;
   }
@@ -959,7 +965,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(
-    uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>, ::Unity::Collections::Allocator,
+    uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>, ::Unity::Collections::Allocator,
     ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrVector2f>>)>(&::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferVector2fEXT)> {
   constexpr static std::size_t size = 0x108;
   constexpr static std::size_t addrs = 0x6e406a8;
@@ -969,7 +975,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                              { "xrGetSpatialBufferVector2fEXT",
                                                                {},
-                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>>(),
+                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>>(),
                                                                  ::i2c::type_of<::Unity::Collections::Allocator>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrVector2f>>>() } })));
     return ___internal_method;
@@ -978,7 +984,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi.xrGetSpatialBufferVector3fEXT
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>,
                                                                                                             uint32_t, ::by_ref<uint32_t>, ::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f*)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferVector3fEXT)> {
   constexpr static std::size_t size = 0xac;
@@ -989,7 +995,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                 { "xrGetSpatialBufferVector3fEXT",
                                                   {},
-                                                  { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>>(),
+                                                  { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>>(),
                                                     ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<uint32_t>>(), ::i2c::type_of<::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f*>() } })));
     return ___internal_method;
   }
@@ -998,7 +1004,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(
-    uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>, ::Unity::Collections::Allocator,
+    uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>, ::Unity::Collections::Allocator,
     ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f>>)>(&::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferVector3fEXT)> {
   constexpr static std::size_t size = 0x108;
   constexpr static std::size_t addrs = 0x6e4085c;
@@ -1008,7 +1014,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                              { "xrGetSpatialBufferVector3fEXT",
                                                                {},
-                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>>(),
+                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>>(),
                                                                  ::i2c::type_of<::Unity::Collections::Allocator>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f>>>() } })));
     return ___internal_method;
@@ -1018,18 +1024,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialUpdateSnapshotCreateInfoEXT>, ::by_ref<uint64_t>)>(
+    static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialUpdateSnapshotCreateInfoEXT const>, ::by_ref<uint64_t>)>(
         &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCreateSpatialUpdateSnapshotEXT)> {
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x6e40964;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
-                                                             { "xrCreateSpatialUpdateSnapshotEXT",
-                                                               {},
-                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialUpdateSnapshotCreateInfoEXT>>(),
-                                                                 ::i2c::type_of<::by_ref<uint64_t>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
+                                                { "xrCreateSpatialUpdateSnapshotEXT",
+                                                  {},
+                                                  { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialUpdateSnapshotCreateInfoEXT const>>(),
+                                                    ::i2c::type_of<::by_ref<uint64_t>>() } })));
     return ___internal_method;
   }
 };
@@ -1090,7 +1096,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextCreateInfoEXT>, ::by_ref<uint64_t>)>(
+    static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextCreateInfoEXT const>, ::by_ref<uint64_t>)>(
         &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCreateSpatialPersistenceContextAsyncEXT)> {
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x6e40bc0;
@@ -1100,7 +1106,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                 { "xrCreateSpatialPersistenceContextAsyncEXT",
                                                   {},
-                                                  { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextCreateInfoEXT>>(),
+                                                  { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextCreateInfoEXT const>>(),
                                                     ::i2c::type_of<::by_ref<uint64_t>>() } })));
     return ___internal_method;
   }
@@ -1109,18 +1115,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus (*)(::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextCreateInfoEXT>, ::by_ref<uint64_t>)>(
+    static_cast<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus (*)(::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextCreateInfoEXT const>, ::by_ref<uint64_t>)>(
         &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCreateSpatialPersistenceContextAsyncEXT)> {
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x6e40c54;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
-                                         { "xrCreateSpatialPersistenceContextAsyncEXT",
-                                           {},
-                                           { ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextCreateInfoEXT>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
+                            { "xrCreateSpatialPersistenceContextAsyncEXT",
+                              {},
+                              { ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextCreateInfoEXT const>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
     return ___internal_method;
   }
 };
@@ -1311,7 +1317,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityPersistInfoEXT>, ::by_ref<uint64_t>)>(
+    static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityPersistInfoEXT const>, ::by_ref<uint64_t>)>(
         &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrPersistSpatialEntityAsyncEXT)> {
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x6e4123c;
@@ -1321,7 +1327,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                              { "xrPersistSpatialEntityAsyncEXT",
                                                                {},
-                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityPersistInfoEXT>>(),
+                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityPersistInfoEXT const>>(),
                                                                  ::i2c::type_of<::by_ref<uint64_t>>() } })));
     return ___internal_method;
   }
@@ -1368,7 +1374,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityUnpersistInfoEXT>, ::by_ref<uint64_t>)>(
+    static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(uint64_t, ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityUnpersistInfoEXT const>, ::by_ref<uint64_t>)>(
         &::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrUnpersistSpatialEntityAsyncEXT)> {
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x6e413a4;
@@ -1378,7 +1384,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                              { "xrUnpersistSpatialEntityAsyncEXT",
                                                                {},
-                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityUnpersistInfoEXT>>(),
+                                                               { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityUnpersistInfoEXT const>>(),
                                                                  ::i2c::type_of<::by_ref<uint64_t>>() } })));
     return ___internal_method;
   }
@@ -1439,44 +1445,45 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
   }
 };
 inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult
-UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrPollFutureEXT(uint64_t instance, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT> pollInfo,
+UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrPollFutureEXT(uint64_t instance, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT const> pollInfo,
                                                                        ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollResultEXT> pollResult) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                            { "xrPollFutureEXT",
                                                              {},
-                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT>>(),
+                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT const>>(),
                                                                ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollResultEXT>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, instance, pollInfo, pollResult);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult
-UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrPollFutureEXT_native(uint64_t instance, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT> pollInfo,
+UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrPollFutureEXT_native(uint64_t instance,
+                                                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT const> pollInfo,
                                                                               ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollResultEXT> pollResult) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                            { "xrPollFutureEXT_native",
                                                              {},
-                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT>>(),
+                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT const>>(),
                                                                ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollResultEXT>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, instance, pollInfo, pollResult);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus
-UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrPollFutureEXT(/* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT> pollInfo,
+UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrPollFutureEXT(/* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT const> pollInfo,
                                                                        ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollResultEXT> pollResult) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                                                          { "xrPollFutureEXT",
                                                                                            {},
-                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT>>(),
+                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT const>>(),
                                                                                              ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollResultEXT>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus>(nullptr, ___internal_method, pollInfo, pollResult);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus
-UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrPollFutureEXT_usingContext_native(/* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT> pollInfo,
+UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrPollFutureEXT_usingContext_native(/* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT const> pollInfo,
                                                                                            ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollResultEXT> pollResult) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                                                          { "xrPollFutureEXT_usingContext_native",
                                                                                            {},
-                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT>>(),
+                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT const>>(),
                                                                                              ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollResultEXT>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus>(nullptr, ___internal_method, pollInfo, pollResult);
 }
@@ -1488,17 +1495,19 @@ UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrPollFutureEXT(uint64_t 
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus>(nullptr, ___internal_method, future, pollResult);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult
-UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCancelFutureEXT(uint64_t instance, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFutureCancelInfoEXT> cancelInfo) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
-                                              { "xrCancelFutureEXT", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFutureCancelInfoEXT>>() } })));
+UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCancelFutureEXT(uint64_t instance,
+                                                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFutureCancelInfoEXT const> cancelInfo) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
+                                       { "xrCancelFutureEXT", {}, { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFutureCancelInfoEXT const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, instance, cancelInfo);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus
-UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCancelFutureEXT(/* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFutureCancelInfoEXT> cancelInfo) {
+UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCancelFutureEXT(/* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFutureCancelInfoEXT const> cancelInfo) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
-                                                           { "xrCancelFutureEXT", {}, { ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFutureCancelInfoEXT>>() } })));
+                                                           { "xrCancelFutureEXT", {}, { ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrFutureCancelInfoEXT const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus>(nullptr, ___internal_method, cancelInfo);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCancelFutureEXT(uint64_t future) {
@@ -1508,24 +1517,25 @@ inline ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus UnityEngine::X
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult
 UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCreateSpatialAnchorEXT(uint64_t spatialContext,
-                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialAnchorCreateInfoEXT> createInfo,
+                                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialAnchorCreateInfoEXT const> createInfo,
                                                                                 ::by_ref<uint64_t> anchorEntityId, ::by_ref<uint64_t> anchorEntity) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                            { "xrCreateSpatialAnchorEXT",
                                                              {},
-                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialAnchorCreateInfoEXT>>(),
+                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialAnchorCreateInfoEXT const>>(),
                                                                ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, spatialContext, createInfo, anchorEntityId, anchorEntity);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus
-UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCreateSpatialAnchorEXT(uint64_t spatialContext, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrPosef> pose,
+UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCreateSpatialAnchorEXT(uint64_t spatialContext, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrPosef const> pose,
                                                                                 ::by_ref<uint64_t> anchorEntityId, ::by_ref<uint64_t> anchorEntity) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
-                                                                                         { "xrCreateSpatialAnchorEXT",
-                                                                                           {},
-                                                                                           { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrPosef>>(),
-                                                                                             ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
+                                                           { "xrCreateSpatialAnchorEXT",
+                                                             {},
+                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrPosef const>>(),
+                                                               ::i2c::type_of<::by_ref<uint64_t>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus>(nullptr, ___internal_method, spatialContext, pose, anchorEntityId, anchorEntity);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus
@@ -1677,23 +1687,22 @@ inline ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus UnityEngine::X
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus>(nullptr, ___internal_method, capability, allocator, capabilityFeatures);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCreateSpatialContextAsyncEXT(
-    uint64_t session, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextCreateInfoEXT> createInfo, ::by_ref<uint64_t> future) {
+    uint64_t session, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextCreateInfoEXT const> createInfo, ::by_ref<uint64_t> future) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                            { "xrCreateSpatialContextAsyncEXT",
                                                              {},
-                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextCreateInfoEXT>>(),
+                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextCreateInfoEXT const>>(),
                                                                ::i2c::type_of<::by_ref<uint64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, session, createInfo, future);
 }
-inline ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus
-UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCreateSpatialContextAsyncEXT(/* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextCreateInfoEXT> createInfo,
-                                                                                      ::by_ref<uint64_t> future) {
+inline ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCreateSpatialContextAsyncEXT(
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextCreateInfoEXT const> createInfo, ::by_ref<uint64_t> future) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
-          { "xrCreateSpatialContextAsyncEXT", {}, { ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextCreateInfoEXT>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
+                                              { "xrCreateSpatialContextAsyncEXT",
+                                                {},
+                                                { ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialContextCreateInfoEXT const>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus>(nullptr, ___internal_method, createInfo, future);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult
@@ -1743,12 +1752,12 @@ inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult UnityEngine::XR::OpenXR:
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, spatialContext);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCreateSpatialEntityFromIdEXT(
-    uint64_t spatialContext, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityFromIdCreateInfoEXT> createInfo, ::by_ref<uint64_t> spatialEntity) {
+    uint64_t spatialContext, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityFromIdCreateInfoEXT const> createInfo, ::by_ref<uint64_t> spatialEntity) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                            { "xrCreateSpatialEntityFromIdEXT",
                                                              {},
-                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityFromIdCreateInfoEXT>>(),
+                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityFromIdCreateInfoEXT const>>(),
                                                                ::i2c::type_of<::by_ref<uint64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, spatialContext, createInfo, spatialEntity);
 }
@@ -1765,35 +1774,37 @@ inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult UnityEngine::XR::OpenXR:
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, spatialEntity);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCreateSpatialDiscoverySnapshotAsyncEXT(
-    uint64_t spatialContext, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialDiscoverySnapshotCreateInfoEXT> createInfo, ::by_ref<uint64_t> future) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
-                                                           { "xrCreateSpatialDiscoverySnapshotAsyncEXT",
-                                                             {},
-                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialDiscoverySnapshotCreateInfoEXT>>(),
-                                                               ::i2c::type_of<::by_ref<uint64_t>>() } })));
+    uint64_t spatialContext, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialDiscoverySnapshotCreateInfoEXT const> createInfo, ::by_ref<uint64_t> future) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
+                                              { "xrCreateSpatialDiscoverySnapshotAsyncEXT",
+                                                {},
+                                                { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialDiscoverySnapshotCreateInfoEXT const>>(),
+                                                  ::i2c::type_of<::by_ref<uint64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, spatialContext, createInfo, future);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCreateSpatialDiscoverySnapshotCompleteEXT(
-    uint64_t spatialContext, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionInfoEXT> createSnapshotCompletionInfo,
+    uint64_t spatialContext, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionInfoEXT const> createSnapshotCompletionInfo,
     ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionEXT> completion) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
-                                              { "xrCreateSpatialDiscoverySnapshotCompleteEXT",
-                                                {},
-                                                { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionInfoEXT>>(),
-                                                  ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionEXT>>() } })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
+                                       { "xrCreateSpatialDiscoverySnapshotCompleteEXT",
+                                         {},
+                                         { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionInfoEXT const>>(),
+                                           ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionEXT>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, spatialContext, createSnapshotCompletionInfo, completion);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCreateSpatialDiscoverySnapshotCompleteEXT_native(
-    uint64_t spatialContext, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionInfoEXT> createSnapshotCompletionInfo,
+    uint64_t spatialContext, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionInfoEXT const> createSnapshotCompletionInfo,
     ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionEXT> completion) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
-                                              { "xrCreateSpatialDiscoverySnapshotCompleteEXT_native",
-                                                {},
-                                                { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionInfoEXT>>(),
-                                                  ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionEXT>>() } })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
+                                       { "xrCreateSpatialDiscoverySnapshotCompleteEXT_native",
+                                         {},
+                                         { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionInfoEXT const>>(),
+                                           ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialDiscoverySnapshotCompletionEXT>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, spatialContext, createSnapshotCompletionInfo, completion);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCreateSpatialDiscoverySnapshotCompleteEXT(
@@ -1817,190 +1828,190 @@ inline ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus UnityEngine::X
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus>(nullptr, ___internal_method, spatialContext, future, completion);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrQuerySpatialComponentDataEXT(
-    uint64_t snapshot, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentDataQueryConditionEXT> queryCondition,
+    uint64_t snapshot, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentDataQueryConditionEXT const> queryCondition,
     ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentDataQueryResultEXT> queryResult) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
-                                                           { "xrQuerySpatialComponentDataEXT",
-                                                             {},
-                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentDataQueryConditionEXT>>(),
-                                                               ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentDataQueryResultEXT>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
+                                              { "xrQuerySpatialComponentDataEXT",
+                                                {},
+                                                { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentDataQueryConditionEXT const>>(),
+                                                  ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentDataQueryResultEXT>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, snapshot, queryCondition, queryResult);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult
 UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferStringEXT(uint64_t snapshot,
-                                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT> info,
+                                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const> info,
                                                                                    uint32_t bufferCapacityInput, ::by_ref<uint32_t> bufferCountOutput, uint8_t* buffer) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                            { "xrGetSpatialBufferStringEXT",
                                                              {},
-                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>>(),
+                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>>(),
                                                                ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<uint32_t>>(), ::i2c::type_of<uint8_t*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, snapshot, info, bufferCapacityInput, bufferCountOutput, buffer);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult
 UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferStringEXT(uint64_t snapshot,
-                                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT> info,
+                                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const> info,
                                                                                    ::Unity::Collections::Allocator allocator, ::by_ref<::Unity::Collections::NativeArray_1<uint8_t>> buffer) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                            { "xrGetSpatialBufferStringEXT",
                                                              {},
-                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>>(),
+                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>>(),
                                                                ::i2c::type_of<::Unity::Collections::Allocator>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<uint8_t>>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, snapshot, info, allocator, buffer);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult
 UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferUint8EXT(uint64_t snapshot,
-                                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT> info,
+                                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const> info,
                                                                                   uint32_t bufferCapacityInput, ::by_ref<uint32_t> bufferCountOutput, uint8_t* buffer) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                            { "xrGetSpatialBufferUint8EXT",
                                                              {},
-                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>>(),
+                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>>(),
                                                                ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<uint32_t>>(), ::i2c::type_of<uint8_t*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, snapshot, info, bufferCapacityInput, bufferCountOutput, buffer);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult
 UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferUint8EXT(uint64_t snapshot,
-                                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT> info,
+                                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const> info,
                                                                                   ::Unity::Collections::Allocator allocator, ::by_ref<::Unity::Collections::NativeArray_1<uint8_t>> buffer) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                            { "xrGetSpatialBufferUint8EXT",
                                                              {},
-                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>>(),
+                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>>(),
                                                                ::i2c::type_of<::Unity::Collections::Allocator>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<uint8_t>>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, snapshot, info, allocator, buffer);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult
 UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferUint16EXT(uint64_t snapshot,
-                                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT> info,
+                                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const> info,
                                                                                    uint32_t bufferCapacityInput, ::by_ref<uint32_t> bufferCountOutput, uint16_t* buffer) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                            { "xrGetSpatialBufferUint16EXT",
                                                              {},
-                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>>(),
+                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>>(),
                                                                ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<uint32_t>>(), ::i2c::type_of<uint16_t*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, snapshot, info, bufferCapacityInput, bufferCountOutput, buffer);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult
 UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferUint16EXT(uint64_t snapshot,
-                                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT> info,
+                                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const> info,
                                                                                    ::Unity::Collections::Allocator allocator, ::by_ref<::Unity::Collections::NativeArray_1<uint16_t>> buffer) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                            { "xrGetSpatialBufferUint16EXT",
                                                              {},
-                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>>(),
+                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>>(),
                                                                ::i2c::type_of<::Unity::Collections::Allocator>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<uint16_t>>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, snapshot, info, allocator, buffer);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult
 UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferUint32EXT(uint64_t snapshot,
-                                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT> info,
+                                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const> info,
                                                                                    uint32_t bufferCapacityInput, ::by_ref<uint32_t> bufferCountOutput, uint32_t* buffer) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                            { "xrGetSpatialBufferUint32EXT",
                                                              {},
-                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>>(),
+                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>>(),
                                                                ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<uint32_t>>(), ::i2c::type_of<uint32_t*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, snapshot, info, bufferCapacityInput, bufferCountOutput, buffer);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult
 UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferUint32EXT(uint64_t snapshot,
-                                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT> info,
+                                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const> info,
                                                                                    ::Unity::Collections::Allocator allocator, ::by_ref<::Unity::Collections::NativeArray_1<uint32_t>> buffer) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                            { "xrGetSpatialBufferUint32EXT",
                                                              {},
-                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>>(),
+                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>>(),
                                                                ::i2c::type_of<::Unity::Collections::Allocator>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<uint32_t>>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, snapshot, info, allocator, buffer);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult
 UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferFloatEXT(uint64_t snapshot,
-                                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT> info,
+                                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const> info,
                                                                                   uint32_t bufferCapacityInput, ::by_ref<uint32_t> bufferCountOutput, float_t* buffer) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                            { "xrGetSpatialBufferFloatEXT",
                                                              {},
-                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>>(),
+                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>>(),
                                                                ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<uint32_t>>(), ::i2c::type_of<float_t*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, snapshot, info, bufferCapacityInput, bufferCountOutput, buffer);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult
 UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferFloatEXT(uint64_t snapshot,
-                                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT> info,
+                                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const> info,
                                                                                   ::Unity::Collections::Allocator allocator, ::by_ref<::Unity::Collections::NativeArray_1<float_t>> buffer) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                            { "xrGetSpatialBufferFloatEXT",
                                                              {},
-                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>>(),
+                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>>(),
                                                                ::i2c::type_of<::Unity::Collections::Allocator>(), ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<float_t>>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, snapshot, info, allocator, buffer);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferVector2fEXT(
-    uint64_t snapshot, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT> info, uint32_t bufferCapacityInput, ::by_ref<uint32_t> bufferCountOutput,
+    uint64_t snapshot, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const> info, uint32_t bufferCapacityInput, ::by_ref<uint32_t> bufferCountOutput,
     ::UnityEngine::XR::OpenXR::NativeTypes::XrVector2f* buffer) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                               { "xrGetSpatialBufferVector2fEXT",
                                                 {},
-                                                { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>>(), ::i2c::type_of<uint32_t>(),
-                                                  ::i2c::type_of<::by_ref<uint32_t>>(), ::i2c::type_of<::UnityEngine::XR::OpenXR::NativeTypes::XrVector2f*>() } })));
+                                                { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>>(),
+                                                  ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<uint32_t>>(), ::i2c::type_of<::UnityEngine::XR::OpenXR::NativeTypes::XrVector2f*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, snapshot, info, bufferCapacityInput, bufferCountOutput, buffer);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferVector2fEXT(
-    uint64_t snapshot, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT> info, ::Unity::Collections::Allocator allocator,
+    uint64_t snapshot, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const> info, ::Unity::Collections::Allocator allocator,
     ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrVector2f>> buffer) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                            { "xrGetSpatialBufferVector2fEXT",
                                                              {},
-                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>>(),
+                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>>(),
                                                                ::i2c::type_of<::Unity::Collections::Allocator>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrVector2f>>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, snapshot, info, allocator, buffer);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferVector3fEXT(
-    uint64_t snapshot, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT> info, uint32_t bufferCapacityInput, ::by_ref<uint32_t> bufferCountOutput,
+    uint64_t snapshot, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const> info, uint32_t bufferCapacityInput, ::by_ref<uint32_t> bufferCountOutput,
     ::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f* buffer) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                               { "xrGetSpatialBufferVector3fEXT",
                                                 {},
-                                                { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>>(), ::i2c::type_of<uint32_t>(),
-                                                  ::i2c::type_of<::by_ref<uint32_t>>(), ::i2c::type_of<::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f*>() } })));
+                                                { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>>(),
+                                                  ::i2c::type_of<uint32_t>(), ::i2c::type_of<::by_ref<uint32_t>>(), ::i2c::type_of<::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, snapshot, info, bufferCapacityInput, bufferCountOutput, buffer);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrGetSpatialBufferVector3fEXT(
-    uint64_t snapshot, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT> info, ::Unity::Collections::Allocator allocator,
+    uint64_t snapshot, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const> info, ::Unity::Collections::Allocator allocator,
     ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f>> buffer) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                            { "xrGetSpatialBufferVector3fEXT",
                                                              {},
-                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT>>(),
+                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferGetInfoEXT const>>(),
                                                                ::i2c::type_of<::Unity::Collections::Allocator>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f>>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, snapshot, info, allocator, buffer);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCreateSpatialUpdateSnapshotEXT(
-    uint64_t spatialContext, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialUpdateSnapshotCreateInfoEXT> createInfo, ::by_ref<uint64_t> snapshot) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
-                                                           { "xrCreateSpatialUpdateSnapshotEXT",
-                                                             {},
-                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialUpdateSnapshotCreateInfoEXT>>(),
-                                                               ::i2c::type_of<::by_ref<uint64_t>>() } })));
+    uint64_t spatialContext, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialUpdateSnapshotCreateInfoEXT const> createInfo, ::by_ref<uint64_t> snapshot) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
+                                              { "xrCreateSpatialUpdateSnapshotEXT",
+                                                {},
+                                                { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialUpdateSnapshotCreateInfoEXT const>>(),
+                                                  ::i2c::type_of<::by_ref<uint64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, spatialContext, createInfo, snapshot);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus
@@ -2034,23 +2045,23 @@ inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult UnityEngine::XR::OpenXR:
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, snapshot);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCreateSpatialPersistenceContextAsyncEXT(
-    uint64_t session, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextCreateInfoEXT> createInfo, ::by_ref<uint64_t> future) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
-                                                           { "xrCreateSpatialPersistenceContextAsyncEXT",
-                                                             {},
-                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextCreateInfoEXT>>(),
-                                                               ::i2c::type_of<::by_ref<uint64_t>>() } })));
+    uint64_t session, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextCreateInfoEXT const> createInfo, ::by_ref<uint64_t> future) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
+                                              { "xrCreateSpatialPersistenceContextAsyncEXT",
+                                                {},
+                                                { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextCreateInfoEXT const>>(),
+                                                  ::i2c::type_of<::by_ref<uint64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, session, createInfo, future);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrCreateSpatialPersistenceContextAsyncEXT(
-    /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextCreateInfoEXT> createInfo, ::by_ref<uint64_t> future) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
-                                       { "xrCreateSpatialPersistenceContextAsyncEXT",
-                                         {},
-                                         { ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextCreateInfoEXT>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextCreateInfoEXT const> createInfo, ::by_ref<uint64_t> future) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
+                          { "xrCreateSpatialPersistenceContextAsyncEXT",
+                            {},
+                            { ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextCreateInfoEXT const>>(), ::i2c::type_of<::by_ref<uint64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus>(nullptr, ___internal_method, createInfo, future);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::OpenXRResultStatus
@@ -2154,12 +2165,12 @@ inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult UnityEngine::XR::OpenXR:
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, persistenceContext);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrPersistSpatialEntityAsyncEXT(
-    uint64_t persistenceContext, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityPersistInfoEXT> persistInfo, ::by_ref<uint64_t> future) {
+    uint64_t persistenceContext, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityPersistInfoEXT const> persistInfo, ::by_ref<uint64_t> future) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                            { "xrPersistSpatialEntityAsyncEXT",
                                                              {},
-                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityPersistInfoEXT>>(),
+                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityPersistInfoEXT const>>(),
                                                                ::i2c::type_of<::by_ref<uint64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, persistenceContext, persistInfo, future);
 }
@@ -2186,12 +2197,12 @@ UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrPersistSpatialEntityCom
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, persistenceContext, future, completion);
 }
 inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi::xrUnpersistSpatialEntityAsyncEXT(
-    uint64_t persistenceContext, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityUnpersistInfoEXT> unpersistInfo, ::by_ref<uint64_t> future) {
+    uint64_t persistenceContext, /* [IsReadOnly] */ ::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityUnpersistInfoEXT const> unpersistInfo, ::by_ref<uint64_t> future) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::OpenXRNativeApi*>(),
                                                            { "xrUnpersistSpatialEntityAsyncEXT",
                                                              {},
-                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityUnpersistInfoEXT>>(),
+                                                             { ::i2c::type_of<uint64_t>(), ::i2c::type_of<::by_ref<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityUnpersistInfoEXT const>>(),
                                                                ::i2c::type_of<::by_ref<uint64_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::OpenXR::NativeTypes::XrResult>(nullptr, ___internal_method, persistenceContext, unpersistInfo, future);
 }

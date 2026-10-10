@@ -1259,15 +1259,16 @@ public:
   inline ::System::Collections::IEnumerator* RunScreenshotLevelQueue();
 
   /// @brief Method SaveBuildSpecificMetadata, addr 0x5d2d98c, size 0xf0, virtual false, abstract: false, final false
-  static inline void SaveBuildSpecificMetadata(::StringW metadataFolderPath, /* [IsReadOnly] */ ::by_ref<::StringW> gameVersion);
+  static inline void SaveBuildSpecificMetadata(::StringW metadataFolderPath, /* [IsReadOnly] */ ::by_ref<::StringW const> gameVersion);
 
   /// @brief Method SaveDeviceMetadata, addr 0x5d2d784, size 0x208, virtual false, abstract: false, final false
   static inline void SaveDeviceMetadata(::StringW metadataFolderPath);
 
   /// @brief Method SaveMetadata, addr 0x5d2d400, size 0x158, virtual false, abstract: false, final false
   static inline void SaveMetadata(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command command, ::StringW metadataFolderPath,
-                                  /* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::PlayerSpecificSettings*> playerSpecificSettings,
-                                  /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayModifiers*> gameplayModifiers);
+                                  /* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings const> settings,
+                                  /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::PlayerSpecificSettings* const> playerSpecificSettings,
+                                  /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayModifiers* const> gameplayModifiers);
 
   /// @brief Method SaveMetadataObject, addr 0x5d2d558, size 0x22c, virtual false, abstract: false, final false
   static inline void SaveMetadataObject(::System::Object* obj, ::StringW path);

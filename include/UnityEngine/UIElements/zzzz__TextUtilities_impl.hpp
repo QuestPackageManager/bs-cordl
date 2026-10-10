@@ -60,20 +60,20 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*
 //  Writing Method size for method: ::UnityEngine::UIElements::TextUtilities.MeasureVisualElementTextSize
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::UIElements::TextElement*, ::by_ref<::UnityEngine::TextCore::Text::RenderedText>, float_t,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::UIElements::TextElement*, ::by_ref<::UnityEngine::TextCore::Text::RenderedText const>, float_t,
                                                                                   ::UnityEngine::UIElements::VisualElement_MeasureMode, float_t, ::UnityEngine::UIElements::VisualElement_MeasureMode,
                                                                                   ::System::Nullable_1<float_t>)>(&::UnityEngine::UIElements::TextUtilities::MeasureVisualElementTextSize)> {
   constexpr static std::size_t size = 0x1dc;
   constexpr static std::size_t addrs = 0x71323e0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextUtilities*>(),
-                                                             { "MeasureVisualElementTextSize",
-                                                               {},
-                                                               { ::i2c::type_of<::UnityEngine::UIElements::TextElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::RenderedText>>(),
-                                                                 ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement_MeasureMode>(), ::i2c::type_of<float_t>(),
-                                                                 ::i2c::type_of<::UnityEngine::UIElements::VisualElement_MeasureMode>(), ::i2c::type_of<::System::Nullable_1<float_t>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextUtilities*>(),
+                                                { "MeasureVisualElementTextSize",
+                                                  {},
+                                                  { ::i2c::type_of<::UnityEngine::UIElements::TextElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::RenderedText const>>(),
+                                                    ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement_MeasureMode>(), ::i2c::type_of<float_t>(),
+                                                    ::i2c::type_of<::UnityEngine::UIElements::VisualElement_MeasureMode>(), ::i2c::type_of<::System::Nullable_1<float_t>>() } })));
     return ___internal_method;
   }
 };
@@ -221,7 +221,7 @@ inline ::UnityEngine::Vector2 UnityEngine::UIElements::TextUtilities::MeasureVis
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(nullptr, ___internal_method, te, textToMeasure, width, widthMode, height, heightMode, fontsize);
 }
 inline ::UnityEngine::Vector2 UnityEngine::UIElements::TextUtilities::MeasureVisualElementTextSize(::UnityEngine::UIElements::TextElement* te,
-                                                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::TextCore::Text::RenderedText> textToMeasure,
+                                                                                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::TextCore::Text::RenderedText const> textToMeasure,
                                                                                                    float_t width, ::UnityEngine::UIElements::VisualElement_MeasureMode widthMode, float_t height,
                                                                                                    ::UnityEngine::UIElements::VisualElement_MeasureMode heightMode,
                                                                                                    ::System::Nullable_1<float_t> fontsize) {
@@ -229,7 +229,7 @@ inline ::UnityEngine::Vector2 UnityEngine::UIElements::TextUtilities::MeasureVis
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextUtilities*>(),
                                                            { "MeasureVisualElementTextSize",
                                                              {},
-                                                             { ::i2c::type_of<::UnityEngine::UIElements::TextElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::RenderedText>>(),
+                                                             { ::i2c::type_of<::UnityEngine::UIElements::TextElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::TextCore::Text::RenderedText const>>(),
                                                                ::i2c::type_of<float_t>(), ::i2c::type_of<::UnityEngine::UIElements::VisualElement_MeasureMode>(), ::i2c::type_of<float_t>(),
                                                                ::i2c::type_of<::UnityEngine::UIElements::VisualElement_MeasureMode>(), ::i2c::type_of<::System::Nullable_1<float_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(nullptr, ___internal_method, te, textToMeasure, width, widthMode, height, heightMode, fontsize);

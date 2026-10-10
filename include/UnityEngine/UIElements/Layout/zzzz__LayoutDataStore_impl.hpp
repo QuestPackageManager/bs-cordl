@@ -164,14 +164,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 //  Writing Method size for method: ::UnityEngine::UIElements::Layout::LayoutDataStore.Exists
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Layout::LayoutDataStore::*)(::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Layout::LayoutDataStore::*)(::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle const>)>(
     &::UnityEngine::UIElements::Layout::LayoutDataStore::Exists)> {
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x71997e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(),
-                                                                                           { "Exists", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle>>() } })));
+                                                                                           { "Exists", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle const>>() } })));
     return ___internal_method;
   }
 };
@@ -206,14 +206,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 //  Writing Method size for method: ::UnityEngine::UIElements::Layout::LayoutDataStore.Free
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Layout::LayoutDataStore::*)(::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Layout::LayoutDataStore::*)(::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle const>)>(
     &::UnityEngine::UIElements::Layout::LayoutDataStore::Free)> {
   constexpr static std::size_t size = 0xf8;
   constexpr static std::size_t addrs = 0x7199aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(),
-                                                                                           { "Free", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle>>() } })));
+                                                                                           { "Free", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle const>>() } })));
     return ___internal_method;
   }
 };
@@ -307,9 +307,9 @@ inline void UnityEngine::UIElements::Layout::LayoutDataStore::Dispose() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(), { "Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline bool UnityEngine::UIElements::Layout::LayoutDataStore::Exists(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle> handle) {
+inline bool UnityEngine::UIElements::Layout::LayoutDataStore::Exists(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle const> handle) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(),
-                                                                                         { "Exists", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle>>() } })));
+                                                                                         { "Exists", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, handle);
 }
 inline void* UnityEngine::UIElements::Layout::LayoutDataStore::GetComponentDataPtr(int32_t index, int32_t componentIndex) {
@@ -322,9 +322,9 @@ inline ::UnityEngine::UIElements::Layout::LayoutHandle UnityEngine::UIElements::
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(), { "Allocate", {}, { ::i2c::type_of<uint8_t*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Layout::LayoutHandle>(*this, ___internal_method, data, count);
 }
-inline void UnityEngine::UIElements::Layout::LayoutDataStore::Free(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle> handle) {
+inline void UnityEngine::UIElements::Layout::LayoutDataStore::Free(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle const> handle) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(),
-                                                                                         { "Free", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle>>() } })));
+                                                                                         { "Free", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, handle);
 }
 inline void UnityEngine::UIElements::Layout::LayoutDataStore::SetNextFreeIndex(::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore* ptr, int32_t index, int32_t value) {
@@ -360,9 +360,10 @@ inline void* UnityEngine::UIElements::Layout::LayoutDataStore::ResizeArray(void*
 }
 template <typename T0>
   requires(::cordl_internals::value_type_constraint<T0> && ::cordl_internals::default_constructor_constraint<T0>)
-inline ::UnityEngine::UIElements::Layout::LayoutHandle UnityEngine::UIElements::Layout::LayoutDataStore::Allocate(/* [IsReadOnly] */ ::by_ref<T0> component0) {
-  static auto* ___internal_method_base = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(), { "Allocate", { ::i2c::class_of<T0>() }, { ::i2c::type_of<::by_ref<T0>>() } })));
+inline ::UnityEngine::UIElements::Layout::LayoutHandle UnityEngine::UIElements::Layout::LayoutDataStore::Allocate(/* [IsReadOnly] */ ::by_ref<T0 const> component0) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(), { "Allocate", { ::i2c::class_of<T0>() }, { ::i2c::type_of<::by_ref<T0 const>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T0>() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Layout::LayoutHandle>(*this, ___internal_method, component0);
 }
@@ -371,13 +372,14 @@ template <typename T0, typename T1, typename T2, typename T3>
            ::cordl_internals::default_constructor_constraint<T1> && ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2> &&
            ::cordl_internals::value_type_constraint<T3> && ::cordl_internals::default_constructor_constraint<T3>)
 inline ::UnityEngine::UIElements::Layout::LayoutHandle
-UnityEngine::UIElements::Layout::LayoutDataStore::Allocate(/* [IsReadOnly] */ ::by_ref<T0> component0, /* [IsReadOnly] */ ::by_ref<T1> component1, /* [IsReadOnly] */ ::by_ref<T2> component2,
-                                                           /* [IsReadOnly] */ ::by_ref<T3> component3) {
-  static auto* ___internal_method_base =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(),
-                                                           { "Allocate",
-                                                             { ::i2c::class_of<T0>(), ::i2c::class_of<T1>(), ::i2c::class_of<T2>(), ::i2c::class_of<T3>() },
-                                                             { ::i2c::type_of<::by_ref<T0>>(), ::i2c::type_of<::by_ref<T1>>(), ::i2c::type_of<::by_ref<T2>>(), ::i2c::type_of<::by_ref<T3>>() } })));
+UnityEngine::UIElements::Layout::LayoutDataStore::Allocate(/* [IsReadOnly] */ ::by_ref<T0 const> component0, /* [IsReadOnly] */ ::by_ref<T1 const> component1,
+                                                           /* [IsReadOnly] */ ::by_ref<T2 const> component2, /* [IsReadOnly] */ ::by_ref<T3 const> component3) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutDataStore>(),
+                          { "Allocate",
+                            { ::i2c::class_of<T0>(), ::i2c::class_of<T1>(), ::i2c::class_of<T2>(), ::i2c::class_of<T3>() },
+                            { ::i2c::type_of<::by_ref<T0 const>>(), ::i2c::type_of<::by_ref<T1 const>>(), ::i2c::type_of<::by_ref<T2 const>>(), ::i2c::type_of<::by_ref<T3 const>>() } })));
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T0>(), ::i2c::class_of<T1>(), ::i2c::class_of<T2>(), ::i2c::class_of<T3>() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Layout::LayoutHandle>(*this, ___internal_method, component0, component1, component2, component3);

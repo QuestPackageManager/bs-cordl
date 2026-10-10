@@ -44,45 +44,46 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle 
 //  Writing Method size for method: ::Unity::IO::LowLevel::Unsafe::FileHandle.IsFileHandleValid
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle>)>(&::Unity::IO::LowLevel::Unsafe::FileHandle::IsFileHandleValid)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle const>)>(&::Unity::IO::LowLevel::Unsafe::FileHandle::IsFileHandleValid)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6eb0a40;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::FileHandle>(),
-                                                                                           { "IsFileHandleValid", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::FileHandle>(),
+                                                             { "IsFileHandleValid", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::IO::LowLevel::Unsafe::FileHandle.GetJobHandle_Internal
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (*)(::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (*)(::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle const>)>(
     &::Unity::IO::LowLevel::Unsafe::FileHandle::GetJobHandle_Internal)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x6eb0a7c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::FileHandle>(), { "GetJobHandle_Internal", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::FileHandle>(),
+                                                             { "GetJobHandle_Internal", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::IO::LowLevel::Unsafe::FileHandle.GetJobHandle_Internal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle>, ::by_ref<::Unity::Jobs::JobHandle>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle const>, ::by_ref<::Unity::Jobs::JobHandle>)>(
     &::Unity::IO::LowLevel::Unsafe::FileHandle::GetJobHandle_Internal_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6eb0c10;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(
-                         ::i2c::class_of<::Unity::IO::LowLevel::Unsafe::FileHandle>(),
-                         { "GetJobHandle_Internal_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle>>(), ::i2c::type_of<::by_ref<::Unity::Jobs::JobHandle>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::Unity::IO::LowLevel::Unsafe::FileHandle>(),
+            { "GetJobHandle_Internal_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle const>>(), ::i2c::type_of<::by_ref<::Unity::Jobs::JobHandle>>() } })));
     return ___internal_method;
   }
 };
@@ -99,22 +100,25 @@ inline ::Unity::Jobs::JobHandle Unity::IO::LowLevel::Unsafe::FileHandle::Close(:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::FileHandle>(), { "Close", {}, { ::i2c::type_of<::Unity::Jobs::JobHandle>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle>(*this, ___internal_method, dependency);
 }
-inline bool Unity::IO::LowLevel::Unsafe::FileHandle::IsFileHandleValid(/* [IsReadOnly] */ ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> handle) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::FileHandle>(),
-                                                                                         { "IsFileHandleValid", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle>>() } })));
+inline bool Unity::IO::LowLevel::Unsafe::FileHandle::IsFileHandleValid(/* [IsReadOnly] */ ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle const> handle) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::FileHandle>(), { "IsFileHandleValid", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, handle);
 }
-inline ::Unity::Jobs::JobHandle Unity::IO::LowLevel::Unsafe::FileHandle::GetJobHandle_Internal(/* [IsReadOnly] */ ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> handle) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::FileHandle>(),
-                                                                                         { "GetJobHandle_Internal", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle>>() } })));
+inline ::Unity::Jobs::JobHandle Unity::IO::LowLevel::Unsafe::FileHandle::GetJobHandle_Internal(/* [IsReadOnly] */ ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle const> handle) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::FileHandle>(),
+                                                           { "GetJobHandle_Internal", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle>(nullptr, ___internal_method, handle);
 }
-inline void Unity::IO::LowLevel::Unsafe::FileHandle::GetJobHandle_Internal_Injected(/* [IsReadOnly] */ ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle> handle,
+inline void Unity::IO::LowLevel::Unsafe::FileHandle::GetJobHandle_Internal_Injected(/* [IsReadOnly] */ ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle const> handle,
                                                                                     ::by_ref<::Unity::Jobs::JobHandle> ret) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::FileHandle>(),
-                          { "GetJobHandle_Internal_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle>>(), ::i2c::type_of<::by_ref<::Unity::Jobs::JobHandle>>() } })));
+      (::i2c::find_method(
+          ::i2c::class_of<::Unity::IO::LowLevel::Unsafe::FileHandle>(),
+          { "GetJobHandle_Internal_Injected", {}, { ::i2c::type_of<::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle const>>(), ::i2c::type_of<::by_ref<::Unity::Jobs::JobHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, handle, ret);
 }
 // Ctor Parameters [CppParam { name: "fileCommandPtr", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "version", ty: "int32_t", modifiers: "",

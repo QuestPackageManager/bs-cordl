@@ -824,25 +824,26 @@ public:
   static inline bool AlignRight(uint8_t* dest, ::by_ref<int32_t> destIndex, int32_t destLength, int32_t align, int32_t length);
 
   /// @brief Method BigInt_Add, addr 0x689bd38, size 0x98, virtual false, abstract: false, final false
-  static inline void BigInt_Add(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> lhs,
-                                /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> rhs);
+  static inline void BigInt_Add(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt const> lhs,
+                                /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt const> rhs);
 
   /// @brief Method BigInt_Add_internal, addr 0x689bdd0, size 0xa0, virtual false, abstract: false, final false
-  static inline void BigInt_Add_internal(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> pLarge,
-                                         /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> pSmall);
+  static inline void BigInt_Add_internal(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt const> pLarge,
+                                         /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt const> pSmall);
 
   /// @brief Method BigInt_Compare, addr 0x689bcdc, size 0x5c, virtual false, abstract: false, final false
-  static inline int32_t BigInt_Compare(/* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> lhs, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> rhs);
+  static inline int32_t BigInt_Compare(/* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt const> lhs, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt const> rhs);
 
   /// @brief Method BigInt_DivideWithRemainder_MaxQuotient9, addr 0x689c838, size 0x168, virtual false, abstract: false, final false
-  static inline uint32_t BigInt_DivideWithRemainder_MaxQuotient9(::by_ref<::Unity::Burst::BurstString_tBigInt> pDividend, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> divisor);
+  static inline uint32_t BigInt_DivideWithRemainder_MaxQuotient9(::by_ref<::Unity::Burst::BurstString_tBigInt> pDividend,
+                                                                 /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt const> divisor);
 
   /// @brief Method BigInt_Multiply, addr 0x689be70, size 0x98, virtual false, abstract: false, final false
-  static inline void BigInt_Multiply(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> lhs,
-                                     /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> rhs);
+  static inline void BigInt_Multiply(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt const> lhs,
+                                     /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt const> rhs);
 
   /// @brief Method BigInt_Multiply, addr 0x689c038, size 0x60, virtual false, abstract: false, final false
-  static inline void BigInt_Multiply(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> lhs, uint32_t rhs);
+  static inline void BigInt_Multiply(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt const> lhs, uint32_t rhs);
 
   /// @brief Method BigInt_Multiply10, addr 0x689c14c, size 0x58, virtual false, abstract: false, final false
   static inline void BigInt_Multiply10(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult);
@@ -851,14 +852,14 @@ public:
   static inline void BigInt_Multiply2(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult);
 
   /// @brief Method BigInt_Multiply2, addr 0x689c098, size 0x5c, virtual false, abstract: false, final false
-  static inline void BigInt_Multiply2(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> input);
+  static inline void BigInt_Multiply2(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt const> input);
 
   /// @brief Method BigInt_MultiplyPow10, addr 0x689c5ac, size 0x1bc, virtual false, abstract: false, final false
-  static inline void BigInt_MultiplyPow10(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> input, uint32_t exponent);
+  static inline void BigInt_MultiplyPow10(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt const> input, uint32_t exponent);
 
   /// @brief Method BigInt_Multiply_internal, addr 0x689bf08, size 0x130, virtual false, abstract: false, final false
-  static inline void BigInt_Multiply_internal(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> pLarge,
-                                              /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt> pSmall);
+  static inline void BigInt_Multiply_internal(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt const> pLarge,
+                                              /* [IsReadOnly] */ ::by_ref<::Unity::Burst::BurstString_tBigInt const> pSmall);
 
   /// @brief Method BigInt_Pow10, addr 0x689c3e8, size 0x1a8, virtual false, abstract: false, final false
   static inline void BigInt_Pow10(::by_ref<::Unity::Burst::BurstString_tBigInt> pResult, uint32_t exponent);

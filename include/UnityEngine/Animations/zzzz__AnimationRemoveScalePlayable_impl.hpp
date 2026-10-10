@@ -112,17 +112,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::P
 //  Writing Method size for method: ::UnityEngine::Animations::AnimationRemoveScalePlayable.CreateHandleInternal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Playables::PlayableGraph>, ::by_ref<::UnityEngine::Playables::PlayableHandle>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Playables::PlayableGraph const>, ::by_ref<::UnityEngine::Playables::PlayableHandle>)>(
     &::UnityEngine::Animations::AnimationRemoveScalePlayable::CreateHandleInternal_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6e98b64;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::UnityEngine::Animations::AnimationRemoveScalePlayable>(),
-            { "CreateHandleInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableGraph>>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Animations::AnimationRemoveScalePlayable>(),
+                                         { "CreateHandleInternal_Injected",
+                                           {},
+                                           { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableGraph const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>() } })));
     return ___internal_method;
   }
 };
@@ -172,13 +173,14 @@ inline bool UnityEngine::Animations::AnimationRemoveScalePlayable::CreateHandleI
                           { "CreateHandleInternal", {}, { ::i2c::type_of<::UnityEngine::Playables::PlayableGraph>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, graph, handle);
 }
-inline bool UnityEngine::Animations::AnimationRemoveScalePlayable::CreateHandleInternal_Injected(::by_ref<::UnityEngine::Playables::PlayableGraph> graph,
+inline bool UnityEngine::Animations::AnimationRemoveScalePlayable::CreateHandleInternal_Injected(::by_ref<::UnityEngine::Playables::PlayableGraph const> graph,
                                                                                                  ::by_ref<::UnityEngine::Playables::PlayableHandle> handle) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::UnityEngine::Animations::AnimationRemoveScalePlayable>(),
-          { "CreateHandleInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableGraph>>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>() } })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Animations::AnimationRemoveScalePlayable>(),
+                                       { "CreateHandleInternal_Injected",
+                                         {},
+                                         { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableGraph const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, graph, handle);
 }
 /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"

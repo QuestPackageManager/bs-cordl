@@ -28,7 +28,7 @@ public:
   inline void RefreshLevelStats();
 
   /// @brief Method SetData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void SetData(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> previewDifficultyBeatmap);
+  inline void SetData(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> previewDifficultyBeatmap);
 
   /// @brief Method .ctor, addr 0x5d6418c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();

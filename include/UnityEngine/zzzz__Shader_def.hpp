@@ -130,14 +130,14 @@ public:
   static inline void DisableKeyword(::StringW keyword);
 
   /// @brief Method DisableKeyword, addr 0x6ee7728, size 0x44, virtual false, abstract: false, final false
-  static inline void DisableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword);
+  static inline void DisableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword const> keyword);
 
   /// [FreeFunction("ShaderScripting::DisableKeyword")]
   /// @brief Method DisableKeywordFast, addr 0x6ee755c, size 0x40, virtual false, abstract: false, final false
   static inline void DisableKeywordFast(::UnityEngine::Rendering::GlobalKeyword keyword);
 
   /// @brief Method DisableKeywordFast_Injected, addr 0x6ee759c, size 0x3c, virtual false, abstract: false, final false
-  static inline void DisableKeywordFast_Injected(::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword);
+  static inline void DisableKeywordFast_Injected(::by_ref<::UnityEngine::Rendering::GlobalKeyword const> keyword);
 
   /// @brief Method DisableKeyword_Injected, addr 0x6ee7338, size 0x3c, virtual false, abstract: false, final false
   static inline void DisableKeyword_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> keyword);
@@ -147,14 +147,14 @@ public:
   static inline void EnableKeyword(::StringW keyword);
 
   /// @brief Method EnableKeyword, addr 0x6ee76e4, size 0x44, virtual false, abstract: false, final false
-  static inline void EnableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword);
+  static inline void EnableKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword const> keyword);
 
   /// [FreeFunction("ShaderScripting::EnableKeyword")]
   /// @brief Method EnableKeywordFast, addr 0x6ee74e0, size 0x40, virtual false, abstract: false, final false
   static inline void EnableKeywordFast(::UnityEngine::Rendering::GlobalKeyword keyword);
 
   /// @brief Method EnableKeywordFast_Injected, addr 0x6ee7520, size 0x3c, virtual false, abstract: false, final false
-  static inline void EnableKeywordFast_Injected(::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword);
+  static inline void EnableKeywordFast_Injected(::by_ref<::UnityEngine::Rendering::GlobalKeyword const> keyword);
 
   /// @brief Method EnableKeyword_Injected, addr 0x6ee71d8, size 0x3c, virtual false, abstract: false, final false
   static inline void EnableKeyword_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> keyword);
@@ -164,7 +164,7 @@ public:
 
   /// [FreeFunction("ShaderScripting::ExtractGlobalFloatArray")]
   /// @brief Method ExtractGlobalFloatArrayImpl, addr 0x6ee9960, size 0x128, virtual false, abstract: false, final false
-  static inline void ExtractGlobalFloatArrayImpl(int32_t name, ::by_ref<::ArrayW<float_t>> val);
+  static inline void ExtractGlobalFloatArrayImpl(int32_t name, ::ArrayW<float_t> val);
 
   /// @brief Method ExtractGlobalFloatArrayImpl_Injected, addr 0x6ee9a88, size 0x44, virtual false, abstract: false, final false
   static inline void ExtractGlobalFloatArrayImpl_Injected(int32_t name, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> val);
@@ -174,7 +174,7 @@ public:
 
   /// [FreeFunction("ShaderScripting::ExtractGlobalMatrixArray")]
   /// @brief Method ExtractGlobalMatrixArrayImpl, addr 0x6ee9c38, size 0x128, virtual false, abstract: false, final false
-  static inline void ExtractGlobalMatrixArrayImpl(int32_t name, ::by_ref<::ArrayW<::UnityEngine::Matrix4x4>> val);
+  static inline void ExtractGlobalMatrixArrayImpl(int32_t name, ::ArrayW<::UnityEngine::Matrix4x4> val);
 
   /// @brief Method ExtractGlobalMatrixArrayImpl_Injected, addr 0x6ee9d60, size 0x44, virtual false, abstract: false, final false
   static inline void ExtractGlobalMatrixArrayImpl_Injected(int32_t name, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> val);
@@ -184,14 +184,14 @@ public:
 
   /// [FreeFunction("ShaderScripting::ExtractGlobalPropertyNames")]
   /// @brief Method ExtractGlobalPropertyNamesImpl, addr 0x6ee7864, size 0x44, virtual false, abstract: false, final false
-  static inline void ExtractGlobalPropertyNamesImpl(int32_t propertyType, ::by_ref<::ArrayW<::StringW>> names);
+  static inline void ExtractGlobalPropertyNamesImpl(int32_t propertyType, ::ArrayW<::StringW> names);
 
   /// @brief Method ExtractGlobalVectorArray, addr 0x6eea114, size 0x13c, virtual false, abstract: false, final false
   static inline void ExtractGlobalVectorArray(int32_t name, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* values);
 
   /// [FreeFunction("ShaderScripting::ExtractGlobalVectorArray")]
   /// @brief Method ExtractGlobalVectorArrayImpl, addr 0x6ee9acc, size 0x128, virtual false, abstract: false, final false
-  static inline void ExtractGlobalVectorArrayImpl(int32_t name, ::by_ref<::ArrayW<::UnityEngine::Vector4>> val);
+  static inline void ExtractGlobalVectorArrayImpl(int32_t name, ::ArrayW<::UnityEngine::Vector4> val);
 
   /// @brief Method ExtractGlobalVectorArrayImpl_Injected, addr 0x6ee9bf4, size 0x44, virtual false, abstract: false, final false
   static inline void ExtractGlobalVectorArrayImpl_Injected(int32_t name, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> val);
@@ -554,14 +554,14 @@ public:
   static inline bool IsKeywordEnabled(::StringW keyword);
 
   /// @brief Method IsKeywordEnabled, addr 0x6ee77b8, size 0x48, virtual false, abstract: false, final false
-  static inline bool IsKeywordEnabled(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword);
+  static inline bool IsKeywordEnabled(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword const> keyword);
 
   /// [FreeFunction("ShaderScripting::IsKeywordEnabled")]
   /// @brief Method IsKeywordEnabledFast, addr 0x6ee7664, size 0x44, virtual false, abstract: false, final false
   static inline bool IsKeywordEnabledFast(::UnityEngine::Rendering::GlobalKeyword keyword);
 
   /// @brief Method IsKeywordEnabledFast_Injected, addr 0x6ee76a8, size 0x3c, virtual false, abstract: false, final false
-  static inline bool IsKeywordEnabledFast_Injected(::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword);
+  static inline bool IsKeywordEnabledFast_Injected(::by_ref<::UnityEngine::Rendering::GlobalKeyword const> keyword);
 
   /// @brief Method IsKeywordEnabled_Injected, addr 0x6ee74a4, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsKeywordEnabled_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> keyword);
@@ -714,7 +714,7 @@ public:
   static inline void SetGlobalMatrixImpl(int32_t name, ::UnityEngine::Matrix4x4 value);
 
   /// @brief Method SetGlobalMatrixImpl_Injected, addr 0x6ee8894, size 0x44, virtual false, abstract: false, final false
-  static inline void SetGlobalMatrixImpl_Injected(int32_t name, ::by_ref<::UnityEngine::Matrix4x4> value);
+  static inline void SetGlobalMatrixImpl_Injected(int32_t name, ::by_ref<::UnityEngine::Matrix4x4 const> value);
 
   /// @brief Method SetGlobalRayTracingAccelerationStructure, addr 0x6eeab28, size 0x50, virtual false, abstract: false, final false
   static inline void SetGlobalRayTracingAccelerationStructure(::StringW name, ::UnityEngine::Rendering::RayTracingAccelerationStructure* value);
@@ -788,17 +788,17 @@ public:
   static inline void SetGlobalVectorImpl(int32_t name, ::UnityEngine::Vector4 value);
 
   /// @brief Method SetGlobalVectorImpl_Injected, addr 0x6ee880c, size 0x44, virtual false, abstract: false, final false
-  static inline void SetGlobalVectorImpl_Injected(int32_t name, ::by_ref<::UnityEngine::Vector4> value);
+  static inline void SetGlobalVectorImpl_Injected(int32_t name, ::by_ref<::UnityEngine::Vector4 const> value);
 
   /// @brief Method SetKeyword, addr 0x6ee776c, size 0x4c, virtual false, abstract: false, final false
-  static inline void SetKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword, bool value);
+  static inline void SetKeyword(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GlobalKeyword const> keyword, bool value);
 
   /// [FreeFunction("ShaderScripting::SetKeyword")]
   /// @brief Method SetKeywordFast, addr 0x6ee75d8, size 0x48, virtual false, abstract: false, final false
   static inline void SetKeywordFast(::UnityEngine::Rendering::GlobalKeyword keyword, bool value);
 
   /// @brief Method SetKeywordFast_Injected, addr 0x6ee7620, size 0x44, virtual false, abstract: false, final false
-  static inline void SetKeywordFast_Injected(::by_ref<::UnityEngine::Rendering::GlobalKeyword> keyword, bool value);
+  static inline void SetKeywordFast_Injected(::by_ref<::UnityEngine::Rendering::GlobalKeyword const> keyword, bool value);
 
   /// [FreeFunction("ShaderScripting::TagToID")]
   /// @brief Method TagToID, addr 0x6ee7a48, size 0x12c, virtual false, abstract: false, final false

@@ -90,7 +90,7 @@ public:
 
   /// @brief Method ComputeDirectionalShadowMatricesAndCullingPrimitives_Injected, addr 0x6f7e89c, size 0xac, virtual false, abstract: false, final false
   static inline bool ComputeDirectionalShadowMatricesAndCullingPrimitives_Injected(::System::IntPtr cullingResultsPtr, int32_t activeLightIndex, int32_t splitIndex, int32_t splitCount,
-                                                                                   ::by_ref<::UnityEngine::Vector3> splitRatio, int32_t shadowResolution, float_t shadowNearPlaneOffset,
+                                                                                   ::by_ref<::UnityEngine::Vector3 const> splitRatio, int32_t shadowResolution, float_t shadowNearPlaneOffset,
                                                                                    ::by_ref<::UnityEngine::Matrix4x4> viewMatrix, ::by_ref<::UnityEngine::Matrix4x4> projMatrix,
                                                                                    ::by_ref<::UnityEngine::Rendering::ShadowSplitData> shadowSplitData);
 

@@ -122,10 +122,11 @@ public:
 
   static inline ::UnityEngine::Collision* New_ctor();
 
-  static inline ::UnityEngine::Collision* New_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPairHeader> header, /* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPair> pair, bool flipped);
+  static inline ::UnityEngine::Collision* New_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPairHeader const> header, /* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPair const> pair,
+                                                   bool flipped);
 
   /// @brief Method Reuse, addr 0x6fdd720, size 0x44, virtual false, abstract: false, final false
-  inline void Reuse(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPairHeader> header, /* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPair> pair);
+  inline void Reuse(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPairHeader const> header, /* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPair const> pair);
 
   constexpr bool const& __cordl_internal_get_m_Flipped() const;
 
@@ -155,7 +156,7 @@ public:
   inline void _ctor();
 
   /// @brief Method .ctor, addr 0x6fdd670, size 0xb0, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPairHeader> header, /* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPair> pair, bool flipped);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPairHeader const> header, /* [IsReadOnly] */ ::by_ref<::UnityEngine::ContactPair const> pair, bool flipped);
 
   /// @brief Method get_Flipped, addr 0x6fdd484, size 0x8, virtual false, abstract: false, final false
   inline bool get_Flipped();

@@ -91,7 +91,7 @@ public:
                                         ::UnityEngine::Networking::DownloadedTextureParams parameters);
 
   /// @brief Method Create_Injected, addr 0x72c6f1c, size 0x44, virtual false, abstract: false, final false
-  static inline ::System::IntPtr Create_Injected(::UnityEngine::Networking::DownloadHandlerTexture* obj, ::by_ref<::UnityEngine::Networking::DownloadedTextureParams> parameters);
+  static inline ::System::IntPtr Create_Injected(::UnityEngine::Networking::DownloadHandlerTexture* obj, ::by_ref<::UnityEngine::Networking::DownloadedTextureParams const> parameters);
 
   /// @brief Method Dispose, addr 0x72c7014, size 0x60, virtual true, abstract: false, final false
   inline void Dispose();

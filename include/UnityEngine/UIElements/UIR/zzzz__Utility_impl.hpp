@@ -619,28 +619,28 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::Utility.SetScissorRect_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::RectInt>)>(&::UnityEngine::UIElements::UIR::Utility::SetScissorRect_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::RectInt const>)>(&::UnityEngine::UIElements::UIR::Utility::SetScissorRect_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x715f7d4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Utility*>(), { "SetScissorRect_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::RectInt>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Utility*>(),
+                                                                                           { "SetScissorRect_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::RectInt const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::Utility.CreateStencilState_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::Rendering::StencilState>)>(&::UnityEngine::UIElements::UIR::Utility::CreateStencilState_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::Rendering::StencilState const>)>(
+    &::UnityEngine::UIElements::UIR::Utility::CreateStencilState_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x715f8c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Utility*>(),
-                                                             { "CreateStencilState_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::StencilState>>() } })));
+                                                             { "CreateStencilState_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::StencilState const>>() } })));
     return ___internal_method;
   }
 };
@@ -896,15 +896,16 @@ inline void UnityEngine::UIElements::UIR::Utility::SetPropertyBlock_Injected(::S
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Utility*>(), { "SetPropertyBlock_Injected", {}, { ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, props);
 }
-inline void UnityEngine::UIElements::UIR::Utility::SetScissorRect_Injected(::by_ref<::UnityEngine::RectInt> scissorRect) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Utility*>(), { "SetScissorRect_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::RectInt>>() } })));
+inline void UnityEngine::UIElements::UIR::Utility::SetScissorRect_Injected(::by_ref<::UnityEngine::RectInt const> scissorRect) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Utility*>(), { "SetScissorRect_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::RectInt const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, scissorRect);
 }
-inline ::System::IntPtr UnityEngine::UIElements::UIR::Utility::CreateStencilState_Injected(::by_ref<::UnityEngine::Rendering::StencilState> stencilState) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Utility*>(), { "CreateStencilState_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::StencilState>>() } })));
+inline ::System::IntPtr UnityEngine::UIElements::UIR::Utility::CreateStencilState_Injected(::by_ref<::UnityEngine::Rendering::StencilState const> stencilState) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Utility*>(),
+                                                           { "CreateStencilState_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::StencilState const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, stencilState);
 }
 inline void UnityEngine::UIElements::UIR::Utility::GetActiveViewport_Injected(::by_ref<::UnityEngine::RectInt> ret) {

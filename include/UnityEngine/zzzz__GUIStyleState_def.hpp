@@ -125,7 +125,7 @@ public:
   inline void set_textColor(::UnityEngine::Color value);
 
   /// @brief Method set_textColor_Injected, addr 0x6fa68a8, size 0x44, virtual false, abstract: false, final false
-  static inline void set_textColor_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Color> value);
+  static inline void set_textColor_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Color const> value);
 
 protected:
   // Ctor Parameters []

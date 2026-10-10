@@ -26,8 +26,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 //  Writing Method size for method: ::UnityEngine::Rendering::OnCullingCompleteCallback.Invoke
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::OnCullingCompleteCallback::*)(::Unity::Jobs::JobHandle, ::by_ref<::UnityEngine::Rendering::BatchCullingContext>,
-                                                                                                                     ::by_ref<::UnityEngine::Rendering::BatchCullingOutput>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::OnCullingCompleteCallback::*)(
+    ::Unity::Jobs::JobHandle, ::by_ref<::UnityEngine::Rendering::BatchCullingContext const>, ::by_ref<::UnityEngine::Rendering::BatchCullingOutput const>)>(
     &::UnityEngine::Rendering::OnCullingCompleteCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x6c4ec08;
@@ -42,8 +42,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
-    ::UnityEngine::Rendering::OnCullingCompleteCallback::*)(::Unity::Jobs::JobHandle, ::by_ref<::UnityEngine::Rendering::BatchCullingContext>, ::by_ref<::UnityEngine::Rendering::BatchCullingOutput>,
-                                                            ::System::AsyncCallback*, ::System::Object*)>(&::UnityEngine::Rendering::OnCullingCompleteCallback::BeginInvoke)> {
+    ::UnityEngine::Rendering::OnCullingCompleteCallback::*)(::Unity::Jobs::JobHandle, ::by_ref<::UnityEngine::Rendering::BatchCullingContext const>,
+                                                            ::by_ref<::UnityEngine::Rendering::BatchCullingOutput const>, ::System::AsyncCallback*, ::System::Object*)>(
+    &::UnityEngine::Rendering::OnCullingCompleteCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0xf0;
   constexpr static std::size_t addrs = 0x6c4ec1c;
 
@@ -56,8 +57,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
 //  Writing Method size for method: ::UnityEngine::Rendering::OnCullingCompleteCallback.EndInvoke
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::OnCullingCompleteCallback::*)(::by_ref<::UnityEngine::Rendering::BatchCullingContext>,
-                                                                                                                     ::by_ref<::UnityEngine::Rendering::BatchCullingOutput>, ::System::IAsyncResult*)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::OnCullingCompleteCallback::*)(
+    ::by_ref<::UnityEngine::Rendering::BatchCullingContext const>, ::by_ref<::UnityEngine::Rendering::BatchCullingOutput const>, ::System::IAsyncResult*)>(
     &::UnityEngine::Rendering::OnCullingCompleteCallback::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x6c4ed0c;
@@ -73,22 +74,24 @@ inline void UnityEngine::Rendering::OnCullingCompleteCallback::_ctor(::System::O
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline void UnityEngine::Rendering::OnCullingCompleteCallback::Invoke(::Unity::Jobs::JobHandle jobHandle, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext> cullingContext,
-                                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingOutput> cullingOutput) {
+inline void UnityEngine::Rendering::OnCullingCompleteCallback::Invoke(::Unity::Jobs::JobHandle jobHandle,
+                                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext const> cullingContext,
+                                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingOutput const> cullingOutput) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::OnCullingCompleteCallback*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, jobHandle, cullingContext, cullingOutput);
 }
 inline ::System::IAsyncResult* UnityEngine::Rendering::OnCullingCompleteCallback::BeginInvoke(::Unity::Jobs::JobHandle jobHandle,
-                                                                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext> cullingContext,
-                                                                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingOutput> cullingOutput,
+                                                                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext const> cullingContext,
+                                                                                              /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingOutput const> cullingOutput,
                                                                                               ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::OnCullingCompleteCallback*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, jobHandle, cullingContext, cullingOutput, callback, object);
 }
-inline void UnityEngine::Rendering::OnCullingCompleteCallback::EndInvoke(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext> cullingContext,
-                                                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingOutput> cullingOutput, ::System::IAsyncResult* result) {
+inline void UnityEngine::Rendering::OnCullingCompleteCallback::EndInvoke(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext const> cullingContext,
+                                                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingOutput const> cullingOutput,
+                                                                         ::System::IAsyncResult* result) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::OnCullingCompleteCallback*>(), 15 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, cullingContext, cullingOutput, result);

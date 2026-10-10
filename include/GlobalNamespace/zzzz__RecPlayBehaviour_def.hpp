@@ -138,7 +138,7 @@ public:
   inline void Record();
 
   /// @brief Method SavePlayerPoseFrames, addr 0x5d16070, size 0xd0, virtual false, abstract: false, final false
-  static inline void SavePlayerPoseFrames(::StringW path, /* [IsReadOnly] */ ::by_ref<::BeatSaber::RecPlay::PlayerPoseFrames> frames);
+  static inline void SavePlayerPoseFrames(::StringW path, /* [IsReadOnly] */ ::by_ref<::BeatSaber::RecPlay::PlayerPoseFrames const> frames);
 
   /// @brief Method SaveRecording, addr 0x5d15fe4, size 0x8c, virtual false, abstract: false, final false
   inline void SaveRecording();

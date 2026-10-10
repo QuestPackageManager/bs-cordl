@@ -35,7 +35,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::LODGroupDataPoolBurst_FreeLODGroupData_000002F2$PostfixBurstDelegate::*)(
-    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>>,
+    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>>,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>>,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>>)>(
     &::UnityEngine::Rendering::LODGroupDataPoolBurst_FreeLODGroupData_000002F2$PostfixBurstDelegate::Invoke)> {
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::UnityEngine::Rendering::
-        LODGroupDataPoolBurst_FreeLODGroupData_000002F2$PostfixBurstDelegate::*)(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>,
+        LODGroupDataPoolBurst_FreeLODGroupData_000002F2$PostfixBurstDelegate::*)(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>,
                                                                                  ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>>,
                                                                                  ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>>,
                                                                                  ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>>, ::System::AsyncCallback*,
@@ -93,7 +93,7 @@ inline void UnityEngine::Rendering::LODGroupDataPoolBurst_FreeLODGroupData_00000
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, _cordl_fixed_empty_name_whitespace, _cordl_fixed_empty_name_whitespace_param_1);
 }
 inline int32_t UnityEngine::Rendering::LODGroupDataPoolBurst_FreeLODGroupData_000002F2$PostfixBurstDelegate::Invoke(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> destroyedLODGroupsID,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> destroyedLODGroupsID,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>> lodGroupsData,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>> lodGroupDataHash,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>> freeLODGroupDataHandles) {
@@ -103,7 +103,7 @@ inline int32_t UnityEngine::Rendering::LODGroupDataPoolBurst_FreeLODGroupData_00
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, destroyedLODGroupsID, lodGroupsData, lodGroupDataHash, freeLODGroupDataHandles);
 }
 inline ::System::IAsyncResult* UnityEngine::Rendering::LODGroupDataPoolBurst_FreeLODGroupData_000002F2$PostfixBurstDelegate::BeginInvoke(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> destroyedLODGroupsID,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> destroyedLODGroupsID,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>> lodGroupsData,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>> lodGroupDataHash,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>> freeLODGroupDataHandles, ::System::AsyncCallback* _cordl_fixed_empty_name_whitespace,
@@ -160,7 +160,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(
-    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>>,
+    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>>,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>>,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>>)>(&::UnityEngine::Rendering::LODGroupDataPoolBurst_FreeLODGroupData_000002F2$BurstDirectCall::Invoke)> {
   constexpr static std::size_t size = 0xc8;
@@ -171,7 +171,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupDataPoolBurst_FreeLODGroupData_000002F2$BurstDirectCall*>(),
                                                              { "Invoke",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
+                                                               { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>>>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>>>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>>>() } })));
@@ -195,7 +195,7 @@ inline ::System::IntPtr UnityEngine::Rendering::LODGroupDataPoolBurst_FreeLODGro
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method);
 }
 inline int32_t UnityEngine::Rendering::LODGroupDataPoolBurst_FreeLODGroupData_000002F2$BurstDirectCall::Invoke(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> destroyedLODGroupsID,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> destroyedLODGroupsID,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>> lodGroupsData,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>> lodGroupDataHash,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>> freeLODGroupDataHandles) {
@@ -203,7 +203,7 @@ inline int32_t UnityEngine::Rendering::LODGroupDataPoolBurst_FreeLODGroupData_00
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupDataPoolBurst_FreeLODGroupData_000002F2$BurstDirectCall*>(),
                                                            { "Invoke",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
+                                                             { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>>>() } })));
@@ -230,7 +230,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::LODGroupDataPoolBurst_AllocateOrGetLODGroupDataInstances_000002F3$PostfixBurstDelegate::*)(
-    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>>,
+    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>>,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>>,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>>,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>>, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex>>)>(
@@ -250,7 +250,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::UnityEngine::Rendering::
-        LODGroupDataPoolBurst_AllocateOrGetLODGroupDataInstances_000002F3$PostfixBurstDelegate::*)(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>,
+        LODGroupDataPoolBurst_AllocateOrGetLODGroupDataInstances_000002F3$PostfixBurstDelegate::*)(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>,
                                                                                                    ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>>,
                                                                                                    ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>>,
                                                                                                    ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t,
@@ -292,7 +292,7 @@ inline void UnityEngine::Rendering::LODGroupDataPoolBurst_AllocateOrGetLODGroupD
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, _cordl_fixed_empty_name_whitespace, _cordl_fixed_empty_name_whitespace_param_1);
 }
 inline int32_t UnityEngine::Rendering::LODGroupDataPoolBurst_AllocateOrGetLODGroupDataInstances_000002F3$PostfixBurstDelegate::Invoke(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> lodGroupsID,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> lodGroupsID,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>> lodGroupsData,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>> lodGroupCullingData,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>> lodGroupDataHash,
@@ -304,7 +304,7 @@ inline int32_t UnityEngine::Rendering::LODGroupDataPoolBurst_AllocateOrGetLODGro
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, lodGroupsID, lodGroupsData, lodGroupCullingData, lodGroupDataHash, freeLODGroupDataHandles, lodGroupInstances);
 }
 inline ::System::IAsyncResult* UnityEngine::Rendering::LODGroupDataPoolBurst_AllocateOrGetLODGroupDataInstances_000002F3$PostfixBurstDelegate::BeginInvoke(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> lodGroupsID,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> lodGroupsID,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>> lodGroupsData,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>> lodGroupCullingData,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>> lodGroupDataHash,
@@ -366,7 +366,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(
-    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>>,
+    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>>,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>>,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>>,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>>, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex>>)>(
@@ -379,7 +379,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupDataPoolBurst_AllocateOrGetLODGroupDataInstances_000002F3$BurstDirectCall*>(),
                                                              { "Invoke",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
+                                                               { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>>>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>>>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>>>(),
@@ -409,7 +409,7 @@ inline ::System::IntPtr UnityEngine::Rendering::LODGroupDataPoolBurst_AllocateOr
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method);
 }
 inline int32_t UnityEngine::Rendering::LODGroupDataPoolBurst_AllocateOrGetLODGroupDataInstances_000002F3$BurstDirectCall::Invoke(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> lodGroupsID,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> lodGroupsID,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>> lodGroupsData,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>> lodGroupCullingData,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>> lodGroupDataHash,
@@ -419,7 +419,7 @@ inline int32_t UnityEngine::Rendering::LODGroupDataPoolBurst_AllocateOrGetLODGro
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupDataPoolBurst_AllocateOrGetLODGroupDataInstances_000002F3$BurstDirectCall*>(),
                                                            { "Invoke",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
+                                                             { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>>>(),
@@ -434,7 +434,7 @@ constexpr ::UnityEngine::Rendering::LODGroupDataPoolBurst_AllocateOrGetLODGroupD
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<int32_t (*)(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>>,
+    static_cast<int32_t (*)(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>>,
                             ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>>,
                             ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>>)>(&::UnityEngine::Rendering::LODGroupDataPoolBurst::FreeLODGroupData)> {
   constexpr static std::size_t size = 0x4;
@@ -445,7 +445,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupDataPoolBurst*>(),
                                                              { "FreeLODGroupData",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
+                                                               { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>>>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>>>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>>>() } })));
@@ -456,7 +456,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(
-    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>>,
+    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>>,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>>,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>>,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>>, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex>>)>(
@@ -469,7 +469,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupDataPoolBurst*>(),
                                                              { "AllocateOrGetLODGroupDataInstances",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
+                                                               { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>>>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>>>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>>>(),
@@ -482,7 +482,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(
-    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>>,
+    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>>,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>>,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>>)>(&::UnityEngine::Rendering::LODGroupDataPoolBurst::FreeLODGroupData$BurstManaged)> {
   constexpr static std::size_t size = 0x260;
@@ -493,7 +493,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupDataPoolBurst*>(),
                                                              { "FreeLODGroupData$BurstManaged",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
+                                                               { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>>>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>>>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>>>() } })));
@@ -504,7 +504,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(
-    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>>,
+    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>>,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>>,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>>,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>>, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex>>)>(
@@ -517,7 +517,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupDataPoolBurst*>(),
                                                              { "AllocateOrGetLODGroupDataInstances$BurstManaged",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
+                                                               { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>>>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>>>(),
                                                                  ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>>>(),
@@ -527,7 +527,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(
   }
 };
 inline int32_t
-UnityEngine::Rendering::LODGroupDataPoolBurst::FreeLODGroupData(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> destroyedLODGroupsID,
+UnityEngine::Rendering::LODGroupDataPoolBurst::FreeLODGroupData(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> destroyedLODGroupsID,
                                                                 ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>> lodGroupsData,
                                                                 ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>> lodGroupDataHash,
                                                                 ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>> freeLODGroupDataHandles) {
@@ -535,14 +535,14 @@ UnityEngine::Rendering::LODGroupDataPoolBurst::FreeLODGroupData(/* [IsReadOnly] 
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupDataPoolBurst*>(),
                                                            { "FreeLODGroupData",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
+                                                             { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, destroyedLODGroupsID, lodGroupsData, lodGroupDataHash, freeLODGroupDataHandles);
 }
 inline int32_t UnityEngine::Rendering::LODGroupDataPoolBurst::AllocateOrGetLODGroupDataInstances(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> lodGroupsID,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> lodGroupsID,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>> lodGroupsData,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>> lodGroupCullingData,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>> lodGroupDataHash,
@@ -552,7 +552,7 @@ inline int32_t UnityEngine::Rendering::LODGroupDataPoolBurst::AllocateOrGetLODGr
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupDataPoolBurst*>(),
                                                            { "AllocateOrGetLODGroupDataInstances",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
+                                                             { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>>>(),
@@ -561,7 +561,7 @@ inline int32_t UnityEngine::Rendering::LODGroupDataPoolBurst::AllocateOrGetLODGr
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, lodGroupsID, lodGroupsData, lodGroupCullingData, lodGroupDataHash, freeLODGroupDataHandles, lodGroupInstances);
 }
 inline int32_t UnityEngine::Rendering::LODGroupDataPoolBurst::FreeLODGroupData$BurstManaged(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> destroyedLODGroupsID,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> destroyedLODGroupsID,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>> lodGroupsData,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>> lodGroupDataHash,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>> freeLODGroupDataHandles) {
@@ -569,14 +569,14 @@ inline int32_t UnityEngine::Rendering::LODGroupDataPoolBurst::FreeLODGroupData$B
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupDataPoolBurst*>(),
                                                            { "FreeLODGroupData$BurstManaged",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
+                                                             { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, destroyedLODGroupsID, lodGroupsData, lodGroupDataHash, freeLODGroupDataHandles);
 }
 inline int32_t UnityEngine::Rendering::LODGroupDataPoolBurst::AllocateOrGetLODGroupDataInstances$BurstManaged(
-    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>> lodGroupsID,
+    /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> lodGroupsID,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>> lodGroupsData,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>> lodGroupCullingData,
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>> lodGroupDataHash,
@@ -586,7 +586,7 @@ inline int32_t UnityEngine::Rendering::LODGroupDataPoolBurst::AllocateOrGetLODGr
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupDataPoolBurst*>(),
                                                            { "AllocateOrGetLODGroupDataInstances$BurstManaged",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId>>>(),
+                                                             { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData>>>(),
                                                                ::i2c::type_of<::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>>>(),

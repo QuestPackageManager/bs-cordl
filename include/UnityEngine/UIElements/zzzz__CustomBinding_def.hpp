@@ -27,7 +27,7 @@ class CORDL_TYPE CustomBinding : public ::UnityEngine::UIElements::Binding {
 public:
   // Declarations
   /// @brief Method Update, addr 0x70881c4, size 0xc, virtual true, abstract: false, final false
-  inline ::UnityEngine::UIElements::BindingResult Update(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext> context);
+  inline ::UnityEngine::UIElements::BindingResult Update(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingContext const> context);
 
 protected:
   // Ctor Parameters []

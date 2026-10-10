@@ -13,10 +13,10 @@
 #include "System/zzzz__Object_def.hpp"
 template <typename TStateTable, typename TType, typename TState>
 inline bool GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState>::Equals(
-    /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState>> other) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState>>(),
-                                                           { "Equals", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState>>>() } })));
+    /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState> const> other) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState>>(),
+                                              { "Equals", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState> const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
 template <typename TStateTable, typename TType, typename TState>
@@ -33,12 +33,12 @@ template <typename TStateTable, typename TType, typename TState> inline void Glo
 }
 template <typename TStateTable, typename TType, typename TState>
 inline bool GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState>::IEquatableByReference_StateBuffer_TStateTable_TType_TState__TimestampedStateTable__Equals(
-    /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState>> other) {
+    /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState> const> other) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState>>(),
                                                            { "IEquatableByReference<StateBuffer<TStateTable,TType,TState>.TimestampedStateTable>.Equals",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState>>>() } })));
+                                                             { ::i2c::type_of<::by_ref<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState> const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
 /// @brief Convert operator to "::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable,TType,TState>>"
@@ -216,9 +216,9 @@ template <typename TStateTable, typename TType, typename TState> inline int32_t 
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, offset);
 }
 template <typename TStateTable, typename TType, typename TState>
-inline void GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>::InsertState(/* [IsReadOnly] */ ::by_ref<TStateTable> state, int64_t time) {
+inline void GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>::InsertState(/* [IsReadOnly] */ ::by_ref<TStateTable const> state, int64_t time) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>*>(),
-                                                                                         { "InsertState", {}, { ::i2c::type_of<::by_ref<TStateTable>>(), ::i2c::type_of<int64_t>() } })));
+                                                                                         { "InsertState", {}, { ::i2c::type_of<::by_ref<TStateTable const>>(), ::i2c::type_of<int64_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, state, time);
 }
 template <typename TStateTable, typename TType, typename TState> inline TState GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>::GetState(TType type, int64_t time) {

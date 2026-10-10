@@ -242,14 +242,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 //  Writing Method size for method: ::GlobalNamespace::LevelSearchViewController.Refresh
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelSearchViewController::*)(::by_ref<::GlobalNamespace::LevelFilter>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelSearchViewController::*)(::by_ref<::GlobalNamespace::LevelFilter const>)>(
     &::GlobalNamespace::LevelSearchViewController::Refresh)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x5d70770;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelSearchViewController*>(), { "Refresh", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::LevelFilter>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelSearchViewController*>(), { "Refresh", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::LevelFilter const>>() } })));
     return ___internal_method;
   }
 };
@@ -347,7 +348,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 //  Writing Method size for method: ::GlobalNamespace::LevelSearchViewController.LocalizedLevelFilterParamsDescription
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::by_ref<::GlobalNamespace::LevelFilter>, ::GlobalNamespace::SongPackMasksModel*,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::by_ref<::GlobalNamespace::LevelFilter const>, ::GlobalNamespace::SongPackMasksModel*,
                                                                      ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapCharacteristic>*, bool)>(
     &::GlobalNamespace::LevelSearchViewController::LocalizedLevelFilterParamsDescription)> {
   constexpr static std::size_t size = 0x68c;
@@ -358,7 +359,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::by_ref<::
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelSearchViewController*>(),
                                                 { "LocalizedLevelFilterParamsDescription",
                                                   {},
-                                                  { ::i2c::type_of<::by_ref<::GlobalNamespace::LevelFilter>>(), ::i2c::type_of<::GlobalNamespace::SongPackMasksModel*>(),
+                                                  { ::i2c::type_of<::by_ref<::GlobalNamespace::LevelFilter const>>(), ::i2c::type_of<::GlobalNamespace::SongPackMasksModel*>(),
                                                     ::i2c::type_of<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapCharacteristic>*>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
@@ -714,9 +715,10 @@ inline void GlobalNamespace::LevelSearchViewController::Refresh() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelSearchViewController*>(), { "Refresh", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::LevelSearchViewController::Refresh(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelFilter> filter) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelSearchViewController*>(), { "Refresh", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::LevelFilter>>() } })));
+inline void GlobalNamespace::LevelSearchViewController::Refresh(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelFilter const> filter) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelSearchViewController*>(), { "Refresh", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::LevelFilter const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, filter);
 }
 inline void GlobalNamespace::LevelSearchViewController::DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {
@@ -754,13 +756,13 @@ inline void GlobalNamespace::LevelSearchViewController::SearchTextInputFieldView
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, inputFieldView);
 }
 inline ::StringW GlobalNamespace::LevelSearchViewController::LocalizedLevelFilterParamsDescription(
-    /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelFilter> filter, ::GlobalNamespace::SongPackMasksModel* songPackMasksModel,
+    /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelFilter const> filter, ::GlobalNamespace::SongPackMasksModel* songPackMasksModel,
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapCharacteristic>* characteristics, bool isPlayerSensitivityForced) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelSearchViewController*>(),
                                               { "LocalizedLevelFilterParamsDescription",
                                                 {},
-                                                { ::i2c::type_of<::by_ref<::GlobalNamespace::LevelFilter>>(), ::i2c::type_of<::GlobalNamespace::SongPackMasksModel*>(),
+                                                { ::i2c::type_of<::by_ref<::GlobalNamespace::LevelFilter const>>(), ::i2c::type_of<::GlobalNamespace::SongPackMasksModel*>(),
                                                   ::i2c::type_of<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapCharacteristic>*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, filter, songPackMasksModel, characteristics, isPlayerSensitivityForced);
 }

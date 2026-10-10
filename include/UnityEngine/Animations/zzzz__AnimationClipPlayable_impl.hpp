@@ -225,17 +225,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::Animations::AnimationClipPlayable.CreateHandleInternal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Playables::PlayableGraph>, ::System::IntPtr, ::by_ref<::UnityEngine::Playables::PlayableHandle>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Playables::PlayableGraph const>, ::System::IntPtr, ::by_ref<::UnityEngine::Playables::PlayableHandle>)>(
     &::UnityEngine::Animations::AnimationClipPlayable::CreateHandleInternal_Injected)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x6e96278;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animations::AnimationClipPlayable>(),
-                                                                                           { "CreateHandleInternal_Injected",
-                                                                                             {},
-                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableGraph>>(), ::i2c::type_of<::System::IntPtr>(),
-                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animations::AnimationClipPlayable>(),
+                                                             { "CreateHandleInternal_Injected",
+                                                               {},
+                                                               { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableGraph const>>(), ::i2c::type_of<::System::IntPtr>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>() } })));
     return ___internal_method;
   }
 };
@@ -324,13 +325,14 @@ inline void UnityEngine::Animations::AnimationClipPlayable::SetLoopTimeInternal(
                                                            { "SetLoopTimeInternal", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, handle, value);
 }
-inline bool UnityEngine::Animations::AnimationClipPlayable::CreateHandleInternal_Injected(::by_ref<::UnityEngine::Playables::PlayableGraph> graph, ::System::IntPtr clip,
+inline bool UnityEngine::Animations::AnimationClipPlayable::CreateHandleInternal_Injected(::by_ref<::UnityEngine::Playables::PlayableGraph const> graph, ::System::IntPtr clip,
                                                                                           ::by_ref<::UnityEngine::Playables::PlayableHandle> handle) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animations::AnimationClipPlayable>(),
-                                                                                         { "CreateHandleInternal_Injected",
-                                                                                           {},
-                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableGraph>>(), ::i2c::type_of<::System::IntPtr>(),
-                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>() } })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animations::AnimationClipPlayable>(),
+                                                           { "CreateHandleInternal_Injected",
+                                                             {},
+                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableGraph const>>(), ::i2c::type_of<::System::IntPtr>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, graph, clip, handle);
 }
 /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"

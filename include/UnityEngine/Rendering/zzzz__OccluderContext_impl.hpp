@@ -124,7 +124,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 //  Writing Method size for method: ::UnityEngine::Rendering::OccluderContext.SetKeyword
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::ComputeCommandBuffer*, ::UnityEngine::ComputeShader*, ::by_ref<::UnityEngine::Rendering::LocalKeyword>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::ComputeCommandBuffer*, ::UnityEngine::ComputeShader*, ::by_ref<::UnityEngine::Rendering::LocalKeyword const>,
                                                                 bool)>(&::UnityEngine::Rendering::OccluderContext::SetKeyword)> {
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x6c6536c;
@@ -135,7 +135,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
                                                              { "SetKeyword",
                                                                {},
                                                                { ::i2c::type_of<::UnityEngine::Rendering::ComputeCommandBuffer*>(), ::i2c::type_of<::UnityEngine::ComputeShader*>(),
-                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LocalKeyword>>(), ::i2c::type_of<bool>() } })));
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LocalKeyword const>>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -162,21 +162,22 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::OccluderContext::*)(
-    ::UnityEngine::Rendering::ComputeCommandBuffer*, ::by_ref<::UnityEngine::Rendering::OccluderParameters>, ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate>,
-    ::by_ref<::UnityEngine::Rendering::OccluderHandles>, ::Unity::Collections::NativeArray_1<::UnityEngine::Plane>, ::UnityEngine::ComputeShader*, int32_t)>(
+    ::UnityEngine::Rendering::ComputeCommandBuffer*, ::by_ref<::UnityEngine::Rendering::OccluderParameters const>, ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate>,
+    ::by_ref<::UnityEngine::Rendering::OccluderHandles const>, ::Unity::Collections::NativeArray_1<::UnityEngine::Plane>, ::UnityEngine::ComputeShader*, int32_t)>(
     &::UnityEngine::Rendering::OccluderContext::CreateFarDepthPyramid)> {
   constexpr static std::size_t size = 0x4f8;
   constexpr static std::size_t addrs = 0x6c658bc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OccluderContext>(),
-                            { "CreateFarDepthPyramid",
-                              {},
-                              { ::i2c::type_of<::UnityEngine::Rendering::ComputeCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderParameters>>(),
-                                ::i2c::type_of<::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderHandles>>(),
-                                ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Plane>>(), ::i2c::type_of<::UnityEngine::ComputeShader*>(), ::i2c::type_of<int32_t>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::UnityEngine::Rendering::OccluderContext>(),
+                         { "CreateFarDepthPyramid",
+                           {},
+                           { ::i2c::type_of<::UnityEngine::Rendering::ComputeCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderParameters const>>(),
+                             ::i2c::type_of<::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderHandles const>>(),
+                             ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Plane>>(), ::i2c::type_of<::UnityEngine::ComputeShader*>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -197,14 +198,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
 //  Writing Method size for method: ::UnityEngine::Rendering::OccluderContext.PrepareOccluders
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::OccluderContext::*)(::by_ref<::UnityEngine::Rendering::OccluderParameters>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::OccluderContext::*)(::by_ref<::UnityEngine::Rendering::OccluderParameters const>)>(
     &::UnityEngine::Rendering::OccluderContext::PrepareOccluders)> {
   constexpr static std::size_t size = 0x10c;
   constexpr static std::size_t addrs = 0x6c65e5c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OccluderContext>(),
-                                                                                           { "PrepareOccluders", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderParameters>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OccluderContext>(),
+                                                             { "PrepareOccluders", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderParameters const>>() } })));
     return ___internal_method;
   }
 };
@@ -249,13 +251,13 @@ inline void UnityEngine::Rendering::OccluderContext::AllocateTexturesIfNecessary
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, debugOverlayEnabled);
 }
 inline void UnityEngine::Rendering::OccluderContext::SetKeyword(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, ::UnityEngine::ComputeShader* cs,
-                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword> keyword, bool value) {
+                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::LocalKeyword const> keyword, bool value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OccluderContext>(),
                                                            { "SetKeyword",
                                                              {},
                                                              { ::i2c::type_of<::UnityEngine::Rendering::ComputeCommandBuffer*>(), ::i2c::type_of<::UnityEngine::ComputeShader*>(),
-                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LocalKeyword>>(), ::i2c::type_of<bool>() } })));
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::Rendering::LocalKeyword const>>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cmd, cs, keyword, value);
 }
 inline ::UnityEngine::Rendering::OccluderDepthPyramidConstants
@@ -270,9 +272,9 @@ UnityEngine::Rendering::OccluderContext::SetupFarDepthPyramidConstants(::System:
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::OccluderDepthPyramidConstants>(*this, ___internal_method, occluderSubviewUpdates, silhouettePlanes);
 }
 inline void UnityEngine::Rendering::OccluderContext::CreateFarDepthPyramid(::UnityEngine::Rendering::ComputeCommandBuffer* cmd,
-                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams,
+                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters const> occluderParams,
                                                                            ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate> occluderSubviewUpdates,
-                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderHandles> occluderHandles,
+                                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderHandles const> occluderHandles,
                                                                            ::Unity::Collections::NativeArray_1<::UnityEngine::Plane> silhouettePlanes,
                                                                            ::UnityEngine::ComputeShader* occluderDepthPyramidCS, int32_t occluderDepthDownscaleKernel) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -280,8 +282,8 @@ inline void UnityEngine::Rendering::OccluderContext::CreateFarDepthPyramid(::Uni
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OccluderContext>(),
                           { "CreateFarDepthPyramid",
                             {},
-                            { ::i2c::type_of<::UnityEngine::Rendering::ComputeCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderParameters>>(),
-                              ::i2c::type_of<::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderHandles>>(),
+                            { ::i2c::type_of<::UnityEngine::Rendering::ComputeCommandBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderParameters const>>(),
+                              ::i2c::type_of<::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderHandles const>>(),
                               ::i2c::type_of<::Unity::Collections::NativeArray_1<::UnityEngine::Plane>>(), ::i2c::type_of<::UnityEngine::ComputeShader*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, cmd, occluderParams, occluderSubviewUpdates, occluderHandles, silhouettePlanes, occluderDepthPyramidCS,
                                                    occluderDepthDownscaleKernel);
@@ -291,9 +293,10 @@ inline ::UnityEngine::Rendering::OccluderHandles UnityEngine::Rendering::Occlude
                                                                                          { "Import", {}, { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::OccluderHandles>(*this, ___internal_method, renderGraph);
 }
-inline void UnityEngine::Rendering::OccluderContext::PrepareOccluders(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OccluderContext>(),
-                                                                                         { "PrepareOccluders", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderParameters>>() } })));
+inline void UnityEngine::Rendering::OccluderContext::PrepareOccluders(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters const> occluderParams) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OccluderContext>(),
+                                                           { "PrepareOccluders", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::OccluderParameters const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, occluderParams);
 }
 inline ::UnityEngine::Rendering::OcclusionCullingDebugOutput UnityEngine::Rendering::OccluderContext::GetDebugOutput() {

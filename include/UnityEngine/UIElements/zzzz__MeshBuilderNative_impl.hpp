@@ -263,46 +263,47 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::UIElements::MeshBuilderNative.MakeVectorGraphicsStretchBackground_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, float_t, float_t,
-                                                                ::by_ref<::UnityEngine::Rect>, ::by_ref<::UnityEngine::Rect>, ::UnityEngine::ScaleMode, ::by_ref<::UnityEngine::Color>,
-                                                                ::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage>, ::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>)>(
-    &::UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphicsStretchBackground_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
+    ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, float_t, float_t, ::by_ref<::UnityEngine::Rect const>,
+    ::by_ref<::UnityEngine::Rect const>, ::UnityEngine::ScaleMode, ::by_ref<::UnityEngine::Color const>, ::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage const>,
+    ::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>)>(&::UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphicsStretchBackground_Injected)> {
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x726a230;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshBuilderNative*>(),
-                                                { "MakeVectorGraphicsStretchBackground_Injected",
-                                                  {},
-                                                  { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(),
-                                                    ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect>>(),
-                                                    ::i2c::type_of<::by_ref<::UnityEngine::Rect>>(), ::i2c::type_of<::UnityEngine::ScaleMode>(), ::i2c::type_of<::by_ref<::UnityEngine::Color>>(),
-                                                    ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage>>(),
-                                                    ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshBuilderNative*>(),
+                                         { "MakeVectorGraphicsStretchBackground_Injected",
+                                           {},
+                                           { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(),
+                                             ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>(),
+                                             ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>(), ::i2c::type_of<::UnityEngine::ScaleMode>(), ::i2c::type_of<::by_ref<::UnityEngine::Color const>>(),
+                                             ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage const>>(),
+                                             ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::MeshBuilderNative.MakeVectorGraphics9SliceBackground_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, float_t, float_t,
-                                                                ::by_ref<::UnityEngine::Rect>, ::by_ref<::UnityEngine::Vector4>, ::by_ref<::UnityEngine::Color>,
-                                                                ::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage>, ::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>)>(
-    &::UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphics9SliceBackground_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<void (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, float_t, float_t, ::by_ref<::UnityEngine::Rect const>,
+                         ::by_ref<::UnityEngine::Vector4 const>, ::by_ref<::UnityEngine::Color const>, ::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage const>,
+                         ::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>)>(&::UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphics9SliceBackground_Injected)> {
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x726a46c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshBuilderNative*>(),
-                                         { "MakeVectorGraphics9SliceBackground_Injected",
-                                           {},
-                                           { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(),
-                                             ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>(),
-                                             ::i2c::type_of<::by_ref<::UnityEngine::Color>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage>>(),
-                                             ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshBuilderNative*>(),
+                            { "MakeVectorGraphics9SliceBackground_Injected",
+                              {},
+                              { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(),
+                                ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector4 const>>(),
+                                ::i2c::type_of<::by_ref<::UnityEngine::Color const>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage const>>(),
+                                ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>>() } })));
     return ___internal_method;
   }
 };
@@ -385,34 +386,35 @@ inline void UnityEngine::UIElements::MeshBuilderNative::MakeTexturedRect_Injecte
 }
 inline void UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphicsStretchBackground_Injected(
     ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> svgVertices, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> svgIndices, float_t svgWidth, float_t svgHeight,
-    ::by_ref<::UnityEngine::Rect> targetRect, ::by_ref<::UnityEngine::Rect> sourceUV, ::UnityEngine::ScaleMode scaleMode, ::by_ref<::UnityEngine::Color> tint,
-    ::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage> colorPage, ::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface> ret) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshBuilderNative*>(),
-                                              { "MakeVectorGraphicsStretchBackground_Injected",
-                                                {},
-                                                { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(),
-                                                  ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect>>(),
-                                                  ::i2c::type_of<::by_ref<::UnityEngine::Rect>>(), ::i2c::type_of<::UnityEngine::ScaleMode>(), ::i2c::type_of<::by_ref<::UnityEngine::Color>>(),
-                                                  ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage>>(),
-                                                  ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>>() } })));
+    ::by_ref<::UnityEngine::Rect const> targetRect, ::by_ref<::UnityEngine::Rect const> sourceUV, ::UnityEngine::ScaleMode scaleMode, ::by_ref<::UnityEngine::Color const> tint,
+    ::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage const> colorPage, ::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface> ret) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshBuilderNative*>(),
+                                       { "MakeVectorGraphicsStretchBackground_Injected",
+                                         {},
+                                         { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(),
+                                           ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>(),
+                                           ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>(), ::i2c::type_of<::UnityEngine::ScaleMode>(), ::i2c::type_of<::by_ref<::UnityEngine::Color const>>(),
+                                           ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage const>>(),
+                                           ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, svgVertices, svgIndices, svgWidth, svgHeight, targetRect, sourceUV, scaleMode, tint, colorPage, ret);
 }
 inline void UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphics9SliceBackground_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> svgVertices,
                                                                                                     ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> svgIndices, float_t svgWidth,
-                                                                                                    float_t svgHeight, ::by_ref<::UnityEngine::Rect> targetRect,
-                                                                                                    ::by_ref<::UnityEngine::Vector4> sliceLTRB, ::by_ref<::UnityEngine::Color> tint,
-                                                                                                    ::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage> colorPage,
+                                                                                                    float_t svgHeight, ::by_ref<::UnityEngine::Rect const> targetRect,
+                                                                                                    ::by_ref<::UnityEngine::Vector4 const> sliceLTRB, ::by_ref<::UnityEngine::Color const> tint,
+                                                                                                    ::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage const> colorPage,
                                                                                                     ::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface> ret) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshBuilderNative*>(),
-                                       { "MakeVectorGraphics9SliceBackground_Injected",
-                                         {},
-                                         { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(),
-                                           ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector4>>(),
-                                           ::i2c::type_of<::by_ref<::UnityEngine::Color>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage>>(),
-                                           ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshBuilderNative*>(),
+                          { "MakeVectorGraphics9SliceBackground_Injected",
+                            {},
+                            { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(),
+                              ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector4 const>>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Color const>>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage const>>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, svgVertices, svgIndices, svgWidth, svgHeight, targetRect, sliceLTRB, tint, colorPage, ret);
 }
 // Ctor Parameters []

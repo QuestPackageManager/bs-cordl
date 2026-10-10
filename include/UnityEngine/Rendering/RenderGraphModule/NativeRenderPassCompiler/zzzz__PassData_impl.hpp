@@ -49,14 +49,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::*)(
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>, int32_t)>(&::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::_ctor)> {
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass* const>, int32_t)>(&::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::_ctor)> {
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x6c27164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(),
-                                                { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>>(), ::i2c::type_of<int32_t>() } })));
+                                                { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass* const>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -64,15 +64,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::*)(
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>, int32_t)>(&::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::ResetAndInitialize)> {
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass* const>, int32_t)>(&::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::ResetAndInitialize)> {
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x6c271f8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(),
-                                         { "ResetAndInitialize", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>>(), ::i2c::type_of<int32_t>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(),
+                            { "ResetAndInitialize", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass* const>>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -214,18 +214,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::*)(
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>, Il2CppObject*, ::by_ref<::StringW>)>(
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>, Il2CppObject*, ::by_ref<::StringW>)>(
     &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::TrySetupAndValidateFragmentInfo)> {
   constexpr static std::size_t size = 0xf8;
   constexpr static std::size_t addrs = 0x6c277c8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(),
-                            { "TrySetupAndValidateFragmentInfo",
-                              {},
-                              { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>>(), ::i2c::type_of<Il2CppObject*>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(),
+                                                                                           { "TrySetupAndValidateFragmentInfo",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>>(),
+                                                                                               ::i2c::type_of<Il2CppObject*>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
     return ___internal_method;
   }
 };
@@ -233,18 +232,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::*)(
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>, Il2CppObject*, ::by_ref<::StringW>)>(
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>, Il2CppObject*, ::by_ref<::StringW>)>(
     &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::TryAddFragment)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x6c278c0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(),
-                            { "TryAddFragment",
-                              {},
-                              { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>>(), ::i2c::type_of<Il2CppObject*>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(),
+                                                                                           { "TryAddFragment",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>>(),
+                                                                                               ::i2c::type_of<Il2CppObject*>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
     return ___internal_method;
   }
 };
@@ -252,18 +250,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::*)(
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>, Il2CppObject*, ::by_ref<::StringW>)>(
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>, Il2CppObject*, ::by_ref<::StringW>)>(
     &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::TryAddFragmentInput)> {
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x6c278e0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(),
-                            { "TryAddFragmentInput",
-                              {},
-                              { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>>(), ::i2c::type_of<Il2CppObject*>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(),
+                                                                                           { "TryAddFragmentInput",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>>(),
+                                                                                               ::i2c::type_of<Il2CppObject*>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
     return ___internal_method;
   }
 };
@@ -285,14 +282,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::*)(
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>, Il2CppObject*)>(&::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::AddFirstUse)> {
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>, Il2CppObject*)>(&::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::AddFirstUse)> {
   constexpr static std::size_t size = 0x1c0;
   constexpr static std::size_t addrs = 0x6c27910;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(),
-                                                { "AddFirstUse", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>>(), ::i2c::type_of<Il2CppObject*>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(),
+                                         { "AddFirstUse", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>>(), ::i2c::type_of<Il2CppObject*>() } })));
     return ___internal_method;
   }
 };
@@ -300,14 +298,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::*)(
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>, Il2CppObject*)>(&::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::AddLastUse)> {
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>, Il2CppObject*)>(&::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::AddLastUse)> {
   constexpr static std::size_t size = 0x1c0;
   constexpr static std::size_t addrs = 0x6c27ad0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(),
-                                                { "AddLastUse", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>>(), ::i2c::type_of<Il2CppObject*>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(),
+                                         { "AddLastUse", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>>(), ::i2c::type_of<Il2CppObject*>() } })));
     return ___internal_method;
   }
 };
@@ -315,15 +314,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::*)(
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>, Il2CppObject*)>(&::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::IsUsedAsFragment)> {
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>, Il2CppObject*)>(&::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::IsUsedAsFragment)> {
   constexpr static std::size_t size = 0x1e8;
   constexpr static std::size_t addrs = 0x6c27c90;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(),
-                                         { "IsUsedAsFragment", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>>(), ::i2c::type_of<Il2CppObject*>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(),
+                            { "IsUsedAsFragment", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>>(), ::i2c::type_of<Il2CppObject*>() } })));
     return ___internal_method;
   }
 };
@@ -358,19 +357,20 @@ inline ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::Na
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(), { "GetName", {}, { ::i2c::type_of<Il2CppObject*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::Name>(*this, ___internal_method, ctx);
 }
-inline void UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*> pass,
+inline void UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass* const> pass,
                                                                                                  int32_t passIndex) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(),
-                                                           { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>>(), ::i2c::type_of<int32_t>() } })));
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(),
+                                              { ".ctor", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass* const>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, pass, passIndex);
 }
 inline void
-UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::ResetAndInitialize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*> pass,
+UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::ResetAndInitialize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass* const> pass,
                                                                                                   int32_t passIndex) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(),
-                                              { "ResetAndInitialize", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>>(), ::i2c::type_of<int32_t>() } })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(),
+                                       { "ResetAndInitialize", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass* const>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, pass, passIndex);
 }
 inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassOutputData>
@@ -431,34 +431,32 @@ UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::L
   return ::cordl_internals::RunMethodRethrow<::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>>(*this, ___internal_method, ctx);
 }
 inline bool UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::TrySetupAndValidateFragmentInfo(
-    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h, Il2CppObject* ctx, ::by_ref<::StringW> errorMessage) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(),
-                          { "TrySetupAndValidateFragmentInfo",
-                            {},
-                            { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>>(), ::i2c::type_of<Il2CppObject*>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
+    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> h, Il2CppObject* ctx, ::by_ref<::StringW> errorMessage) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(),
+                                                                                         { "TrySetupAndValidateFragmentInfo",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>>(),
+                                                                                             ::i2c::type_of<Il2CppObject*>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, h, ctx, errorMessage);
 }
-inline void UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::TryAddFragment(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h,
-                                                                                                          Il2CppObject* ctx, ::by_ref<::StringW> errorMessage) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(),
-                          { "TryAddFragment",
-                            {},
-                            { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>>(), ::i2c::type_of<Il2CppObject*>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
+inline void
+UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::TryAddFragment(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> h,
+                                                                                              Il2CppObject* ctx, ::by_ref<::StringW> errorMessage) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(),
+                                                                                         { "TryAddFragment",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>>(),
+                                                                                             ::i2c::type_of<Il2CppObject*>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, h, ctx, errorMessage);
 }
 inline void
-UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::TryAddFragmentInput(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h,
+UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::TryAddFragmentInput(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> h,
                                                                                                    Il2CppObject* ctx, ::by_ref<::StringW> errorMessage) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(),
-                          { "TryAddFragmentInput",
-                            {},
-                            { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>>(), ::i2c::type_of<Il2CppObject*>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(),
+                                                                                         { "TryAddFragmentInput",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>>(),
+                                                                                             ::i2c::type_of<Il2CppObject*>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, h, ctx, errorMessage);
 }
 inline void UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::AddRandomAccessResource() {
@@ -466,26 +464,29 @@ inline void UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler:
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(), { "AddRandomAccessResource", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::AddFirstUse(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h,
+inline void UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::AddFirstUse(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> h,
                                                                                                        Il2CppObject* ctx) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(),
-                                              { "AddFirstUse", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>>(), ::i2c::type_of<Il2CppObject*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, h, ctx);
-}
-inline void UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::AddLastUse(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h,
-                                                                                                      Il2CppObject* ctx) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(),
-                                              { "AddLastUse", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>>(), ::i2c::type_of<Il2CppObject*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, h, ctx);
-}
-inline bool UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::IsUsedAsFragment(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h,
-                                                                                                            Il2CppObject* ctx) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(),
-                                       { "IsUsedAsFragment", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>>(), ::i2c::type_of<Il2CppObject*>() } })));
+                                       { "AddFirstUse", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>>(), ::i2c::type_of<Il2CppObject*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, h, ctx);
+}
+inline void UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::AddLastUse(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> h,
+                                                                                                      Il2CppObject* ctx) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(),
+                                       { "AddLastUse", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>>(), ::i2c::type_of<Il2CppObject*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, h, ctx);
+}
+inline bool
+UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::IsUsedAsFragment(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> h,
+                                                                                                Il2CppObject* ctx) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>(),
+                          { "IsUsedAsFragment", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>>(), ::i2c::type_of<Il2CppObject*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, h, ctx);
 }
 inline void UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData::DisconnectFromResources(

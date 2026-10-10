@@ -304,7 +304,7 @@ public:
   __declspec(property(get = __cordl_internal_get_noteType, put = __cordl_internal_set_noteType)) ::GlobalNamespace::SequenceCutInfo_TutorialSongController_NoteType noteType;
 
   /// @brief Method MarkCut, addr 0x5e1558c, size 0x50, virtual false, abstract: false, final false
-  inline void MarkCut(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+  inline void MarkCut(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo const> noteCutInfo);
 
   /// @brief Method MarkMiss, addr 0x5e157e0, size 0x10, virtual false, abstract: false, final false
   inline void MarkMiss();
@@ -1131,7 +1131,7 @@ public:
   inline float_t GetTimeFromBeat(int32_t beatNumber);
 
   /// @brief Method HandleNoteWasCut, addr 0x5e15458, size 0x134, virtual false, abstract: false, final false
-  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo const> noteCutInfo);
 
   /// @brief Method HandleNoteWasMissed, addr 0x5e15740, size 0xa0, virtual false, abstract: false, final false
   inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);

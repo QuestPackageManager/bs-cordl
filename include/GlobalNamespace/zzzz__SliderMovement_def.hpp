@@ -93,7 +93,7 @@ public:
   __declspec(property(get = get_timeSinceHeadNoteJump)) float_t timeSinceHeadNoteJump;
 
   /// @brief Method Init, addr 0x5d913e8, size 0x12c, virtual false, abstract: false, final false
-  inline void Init(::GlobalNamespace::SliderData* sliderData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::SliderSpawnData> sliderSpawnData);
+  inline void Init(::GlobalNamespace::SliderData* sliderData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::SliderSpawnData const> sliderSpawnData);
 
   /// @brief Method ManualUpdate, addr 0x5d93318, size 0x48c, virtual false, abstract: false, final false
   inline void ManualUpdate();

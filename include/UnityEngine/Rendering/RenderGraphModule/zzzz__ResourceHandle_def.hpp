@@ -69,7 +69,7 @@ public:
   static inline void NewFrame(int32_t executionIndex);
 
   /// @brief Method .ctor, addr 0x6c0f138, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h, int32_t version);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> h, int32_t version);
 
   /// @brief Method .ctor, addr 0x6c0caa8, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(int32_t value, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType type, bool shared);

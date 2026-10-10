@@ -93,7 +93,7 @@ public:
              ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
              ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
              ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
-  static inline ::Unity::Collections::FormatError Append(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2> input);
+  static inline ::Unity::Collections::FormatError Append(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2 const> input);
 
   /// [Extension]
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString128Bytes) })]
@@ -178,7 +178,7 @@ public:
              ::cordl_internals::value_type_constraint<U> && ::cordl_internals::default_constructor_constraint<U> &&
              ::cordl_internals::type_constraint<T0, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T0, ::Unity::Collections::IUTF8Bytes*> &&
              ::cordl_internals::value_type_constraint<T0> && ::cordl_internals::default_constructor_constraint<T0>)
-  static inline ::Unity::Collections::FormatError AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U> format, /* [IsReadOnly] */ ::by_ref<T0> arg0);
+  static inline ::Unity::Collections::FormatError AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U const> format, /* [IsReadOnly] */ ::by_ref<T0 const> arg0);
 
   /// [Extension]
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString128Bytes), typeof(Unity.Collections.FixedString128Bytes),
@@ -193,7 +193,8 @@ public:
              ::cordl_internals::value_type_constraint<T0> && ::cordl_internals::default_constructor_constraint<T0> &&
              ::cordl_internals::type_constraint<T1, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T1, ::Unity::Collections::IUTF8Bytes*> &&
              ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
-  static inline ::Unity::Collections::FormatError AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U> format, /* [IsReadOnly] */ ::by_ref<T0> arg0, /* [IsReadOnly] */ ::by_ref<T1> arg1);
+  static inline ::Unity::Collections::FormatError AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U const> format, /* [IsReadOnly] */ ::by_ref<T0 const> arg0,
+                                                               /* [IsReadOnly] */ ::by_ref<T1 const> arg1);
 
   /// [Extension]
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString128Bytes), typeof(Unity.Collections.FixedString128Bytes),
@@ -210,8 +211,8 @@ public:
              ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1> &&
              ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
              ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
-  static inline ::Unity::Collections::FormatError AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U> format, /* [IsReadOnly] */ ::by_ref<T0> arg0, /* [IsReadOnly] */ ::by_ref<T1> arg1,
-                                                               /* [IsReadOnly] */ ::by_ref<T2> arg2);
+  static inline ::Unity::Collections::FormatError AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U const> format, /* [IsReadOnly] */ ::by_ref<T0 const> arg0,
+                                                               /* [IsReadOnly] */ ::by_ref<T1 const> arg1, /* [IsReadOnly] */ ::by_ref<T2 const> arg2);
 
   /// [Extension]
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString128Bytes), typeof(Unity.Collections.FixedString128Bytes),
@@ -230,8 +231,8 @@ public:
              ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2> &&
              ::cordl_internals::type_constraint<T3, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T3, ::Unity::Collections::IUTF8Bytes*> &&
              ::cordl_internals::value_type_constraint<T3> && ::cordl_internals::default_constructor_constraint<T3>)
-  static inline ::Unity::Collections::FormatError AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U> format, /* [IsReadOnly] */ ::by_ref<T0> arg0, /* [IsReadOnly] */ ::by_ref<T1> arg1,
-                                                               /* [IsReadOnly] */ ::by_ref<T2> arg2, /* [IsReadOnly] */ ::by_ref<T3> arg3);
+  static inline ::Unity::Collections::FormatError AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U const> format, /* [IsReadOnly] */ ::by_ref<T0 const> arg0,
+                                                               /* [IsReadOnly] */ ::by_ref<T1 const> arg1, /* [IsReadOnly] */ ::by_ref<T2 const> arg2, /* [IsReadOnly] */ ::by_ref<T3 const> arg3);
 
   /// [Extension]
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString128Bytes), typeof(Unity.Collections.FixedString128Bytes),
@@ -253,8 +254,9 @@ public:
              ::cordl_internals::value_type_constraint<T3> && ::cordl_internals::default_constructor_constraint<T3> &&
              ::cordl_internals::type_constraint<T4, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T4, ::Unity::Collections::IUTF8Bytes*> &&
              ::cordl_internals::value_type_constraint<T4> && ::cordl_internals::default_constructor_constraint<T4>)
-  static inline ::Unity::Collections::FormatError AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U> format, /* [IsReadOnly] */ ::by_ref<T0> arg0, /* [IsReadOnly] */ ::by_ref<T1> arg1,
-                                                               /* [IsReadOnly] */ ::by_ref<T2> arg2, /* [IsReadOnly] */ ::by_ref<T3> arg3, /* [IsReadOnly] */ ::by_ref<T4> arg4);
+  static inline ::Unity::Collections::FormatError AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U const> format, /* [IsReadOnly] */ ::by_ref<T0 const> arg0,
+                                                               /* [IsReadOnly] */ ::by_ref<T1 const> arg1, /* [IsReadOnly] */ ::by_ref<T2 const> arg2, /* [IsReadOnly] */ ::by_ref<T3 const> arg3,
+                                                               /* [IsReadOnly] */ ::by_ref<T4 const> arg4);
 
   /// [Extension]
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString128Bytes), typeof(Unity.Collections.FixedString128Bytes),
@@ -278,9 +280,9 @@ public:
              ::cordl_internals::value_type_constraint<T4> && ::cordl_internals::default_constructor_constraint<T4> &&
              ::cordl_internals::type_constraint<T5, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T5, ::Unity::Collections::IUTF8Bytes*> &&
              ::cordl_internals::value_type_constraint<T5> && ::cordl_internals::default_constructor_constraint<T5>)
-  static inline ::Unity::Collections::FormatError AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U> format, /* [IsReadOnly] */ ::by_ref<T0> arg0, /* [IsReadOnly] */ ::by_ref<T1> arg1,
-                                                               /* [IsReadOnly] */ ::by_ref<T2> arg2, /* [IsReadOnly] */ ::by_ref<T3> arg3, /* [IsReadOnly] */ ::by_ref<T4> arg4,
-                                                               /* [IsReadOnly] */ ::by_ref<T5> arg5);
+  static inline ::Unity::Collections::FormatError AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U const> format, /* [IsReadOnly] */ ::by_ref<T0 const> arg0,
+                                                               /* [IsReadOnly] */ ::by_ref<T1 const> arg1, /* [IsReadOnly] */ ::by_ref<T2 const> arg2, /* [IsReadOnly] */ ::by_ref<T3 const> arg3,
+                                                               /* [IsReadOnly] */ ::by_ref<T4 const> arg4, /* [IsReadOnly] */ ::by_ref<T5 const> arg5);
 
   /// [Extension]
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString128Bytes), typeof(Unity.Collections.FixedString128Bytes),
@@ -306,9 +308,9 @@ public:
              ::cordl_internals::value_type_constraint<T5> && ::cordl_internals::default_constructor_constraint<T5> &&
              ::cordl_internals::type_constraint<T6, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T6, ::Unity::Collections::IUTF8Bytes*> &&
              ::cordl_internals::value_type_constraint<T6> && ::cordl_internals::default_constructor_constraint<T6>)
-  static inline ::Unity::Collections::FormatError AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U> format, /* [IsReadOnly] */ ::by_ref<T0> arg0, /* [IsReadOnly] */ ::by_ref<T1> arg1,
-                                                               /* [IsReadOnly] */ ::by_ref<T2> arg2, /* [IsReadOnly] */ ::by_ref<T3> arg3, /* [IsReadOnly] */ ::by_ref<T4> arg4,
-                                                               /* [IsReadOnly] */ ::by_ref<T5> arg5, /* [IsReadOnly] */ ::by_ref<T6> arg6);
+  static inline ::Unity::Collections::FormatError AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U const> format, /* [IsReadOnly] */ ::by_ref<T0 const> arg0,
+                                                               /* [IsReadOnly] */ ::by_ref<T1 const> arg1, /* [IsReadOnly] */ ::by_ref<T2 const> arg2, /* [IsReadOnly] */ ::by_ref<T3 const> arg3,
+                                                               /* [IsReadOnly] */ ::by_ref<T4 const> arg4, /* [IsReadOnly] */ ::by_ref<T5 const> arg5, /* [IsReadOnly] */ ::by_ref<T6 const> arg6);
 
   /// [Extension]
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString128Bytes), typeof(Unity.Collections.FixedString128Bytes),
@@ -336,9 +338,10 @@ public:
              ::cordl_internals::value_type_constraint<T6> && ::cordl_internals::default_constructor_constraint<T6> &&
              ::cordl_internals::type_constraint<T7, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T7, ::Unity::Collections::IUTF8Bytes*> &&
              ::cordl_internals::value_type_constraint<T7> && ::cordl_internals::default_constructor_constraint<T7>)
-  static inline ::Unity::Collections::FormatError AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U> format, /* [IsReadOnly] */ ::by_ref<T0> arg0, /* [IsReadOnly] */ ::by_ref<T1> arg1,
-                                                               /* [IsReadOnly] */ ::by_ref<T2> arg2, /* [IsReadOnly] */ ::by_ref<T3> arg3, /* [IsReadOnly] */ ::by_ref<T4> arg4,
-                                                               /* [IsReadOnly] */ ::by_ref<T5> arg5, /* [IsReadOnly] */ ::by_ref<T6> arg6, /* [IsReadOnly] */ ::by_ref<T7> arg7);
+  static inline ::Unity::Collections::FormatError AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U const> format, /* [IsReadOnly] */ ::by_ref<T0 const> arg0,
+                                                               /* [IsReadOnly] */ ::by_ref<T1 const> arg1, /* [IsReadOnly] */ ::by_ref<T2 const> arg2, /* [IsReadOnly] */ ::by_ref<T3 const> arg3,
+                                                               /* [IsReadOnly] */ ::by_ref<T4 const> arg4, /* [IsReadOnly] */ ::by_ref<T5 const> arg5, /* [IsReadOnly] */ ::by_ref<T6 const> arg6,
+                                                               /* [IsReadOnly] */ ::by_ref<T7 const> arg7);
 
   /// [Extension]
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString128Bytes), typeof(Unity.Collections.FixedString128Bytes),
@@ -369,10 +372,10 @@ public:
              ::cordl_internals::value_type_constraint<T7> && ::cordl_internals::default_constructor_constraint<T7> &&
              ::cordl_internals::type_constraint<T8, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T8, ::Unity::Collections::IUTF8Bytes*> &&
              ::cordl_internals::value_type_constraint<T8> && ::cordl_internals::default_constructor_constraint<T8>)
-  static inline ::Unity::Collections::FormatError AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U> format, /* [IsReadOnly] */ ::by_ref<T0> arg0, /* [IsReadOnly] */ ::by_ref<T1> arg1,
-                                                               /* [IsReadOnly] */ ::by_ref<T2> arg2, /* [IsReadOnly] */ ::by_ref<T3> arg3, /* [IsReadOnly] */ ::by_ref<T4> arg4,
-                                                               /* [IsReadOnly] */ ::by_ref<T5> arg5, /* [IsReadOnly] */ ::by_ref<T6> arg6, /* [IsReadOnly] */ ::by_ref<T7> arg7,
-                                                               /* [IsReadOnly] */ ::by_ref<T8> arg8);
+  static inline ::Unity::Collections::FormatError AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U const> format, /* [IsReadOnly] */ ::by_ref<T0 const> arg0,
+                                                               /* [IsReadOnly] */ ::by_ref<T1 const> arg1, /* [IsReadOnly] */ ::by_ref<T2 const> arg2, /* [IsReadOnly] */ ::by_ref<T3 const> arg3,
+                                                               /* [IsReadOnly] */ ::by_ref<T4 const> arg4, /* [IsReadOnly] */ ::by_ref<T5 const> arg5, /* [IsReadOnly] */ ::by_ref<T6 const> arg6,
+                                                               /* [IsReadOnly] */ ::by_ref<T7 const> arg7, /* [IsReadOnly] */ ::by_ref<T8 const> arg8);
 
   /// [Extension]
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString128Bytes), typeof(Unity.Collections.FixedString128Bytes),
@@ -405,10 +408,10 @@ public:
              ::cordl_internals::value_type_constraint<T8> && ::cordl_internals::default_constructor_constraint<T8> &&
              ::cordl_internals::type_constraint<T9, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T9, ::Unity::Collections::IUTF8Bytes*> &&
              ::cordl_internals::value_type_constraint<T9> && ::cordl_internals::default_constructor_constraint<T9>)
-  static inline ::Unity::Collections::FormatError AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U> format, /* [IsReadOnly] */ ::by_ref<T0> arg0, /* [IsReadOnly] */ ::by_ref<T1> arg1,
-                                                               /* [IsReadOnly] */ ::by_ref<T2> arg2, /* [IsReadOnly] */ ::by_ref<T3> arg3, /* [IsReadOnly] */ ::by_ref<T4> arg4,
-                                                               /* [IsReadOnly] */ ::by_ref<T5> arg5, /* [IsReadOnly] */ ::by_ref<T6> arg6, /* [IsReadOnly] */ ::by_ref<T7> arg7,
-                                                               /* [IsReadOnly] */ ::by_ref<T8> arg8, /* [IsReadOnly] */ ::by_ref<T9> arg9);
+  static inline ::Unity::Collections::FormatError AppendFormat(::by_ref<T> dest, /* [IsReadOnly] */ ::by_ref<U const> format, /* [IsReadOnly] */ ::by_ref<T0 const> arg0,
+                                                               /* [IsReadOnly] */ ::by_ref<T1 const> arg1, /* [IsReadOnly] */ ::by_ref<T2 const> arg2, /* [IsReadOnly] */ ::by_ref<T3 const> arg3,
+                                                               /* [IsReadOnly] */ ::by_ref<T4 const> arg4, /* [IsReadOnly] */ ::by_ref<T5 const> arg5, /* [IsReadOnly] */ ::by_ref<T6 const> arg6,
+                                                               /* [IsReadOnly] */ ::by_ref<T7 const> arg7, /* [IsReadOnly] */ ::by_ref<T8 const> arg8, /* [IsReadOnly] */ ::by_ref<T9 const> arg9);
 
   /// [Extension]
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString128Bytes) })]
@@ -447,7 +450,7 @@ public:
              ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
              ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
              ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
-  static inline int32_t CompareTo(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2> other);
+  static inline int32_t CompareTo(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2 const> other);
 
   /// [Extension]
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString128Bytes) })]
@@ -465,7 +468,7 @@ public:
              ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
              ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
              ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
-  static inline bool Contains(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2> other);
+  static inline bool Contains(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2 const> other);
 
   /// [Extension]
   /// [ExcludeFromBurstCompatTesting("Returns managed string")]
@@ -483,7 +486,7 @@ public:
              ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
              ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
              ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
-  static inline ::Unity::Collections::CopyError CopyFrom(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2> input);
+  static inline ::Unity::Collections::CopyError CopyFrom(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2 const> input);
 
   /// [Extension]
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -501,7 +504,7 @@ public:
              ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
              ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
              ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
-  static inline ::Unity::Collections::CopyError CopyFromTruncated(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2> input);
+  static inline ::Unity::Collections::CopyError CopyFromTruncated(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2 const> input);
 
   /// [Extension]
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -527,7 +530,7 @@ public:
              ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
              ::cordl_internals::type_constraint<U, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<U, ::Unity::Collections::IUTF8Bytes*> &&
              ::cordl_internals::value_type_constraint<U> && ::cordl_internals::default_constructor_constraint<U>)
-  static inline bool EndsWith(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<U> other);
+  static inline bool EndsWith(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<U const> other);
 
   /// [Extension]
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString128Bytes) })]
@@ -553,7 +556,7 @@ public:
              ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
              ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
              ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
-  static inline bool Equals(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2> other);
+  static inline bool Equals(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2 const> other);
 
   /// [Extension]
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString128Bytes) })]
@@ -595,7 +598,7 @@ public:
              ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
              ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
              ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
-  static inline int32_t IndexOf(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2> other);
+  static inline int32_t IndexOf(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2 const> other);
 
   /// [Extension]
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString128Bytes), typeof(Unity.Collections.FixedString128Bytes) })]
@@ -605,7 +608,7 @@ public:
              ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
              ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
              ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
-  static inline int32_t IndexOf(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2> other, int32_t startIndex, int32_t distance);
+  static inline int32_t IndexOf(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2 const> other, int32_t startIndex, int32_t distance);
 
   /// [Extension]
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString128Bytes) })]
@@ -639,7 +642,7 @@ public:
              ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
              ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
              ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
-  static inline int32_t LastIndexOf(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2> other);
+  static inline int32_t LastIndexOf(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2 const> other);
 
   /// [Extension]
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString128Bytes), typeof(Unity.Collections.FixedString128Bytes) })]
@@ -649,7 +652,7 @@ public:
              ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
              ::cordl_internals::type_constraint<T2, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<T2, ::Unity::Collections::IUTF8Bytes*> &&
              ::cordl_internals::value_type_constraint<T2> && ::cordl_internals::default_constructor_constraint<T2>)
-  static inline int32_t LastIndexOf(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2> other, int32_t startIndex, int32_t distance);
+  static inline int32_t LastIndexOf(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<T2 const> other, int32_t startIndex, int32_t distance);
 
   /// [Extension]
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString128Bytes) })]
@@ -714,7 +717,7 @@ public:
              ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T> &&
              ::cordl_internals::type_constraint<U, ::Unity::Collections::INativeList_1<uint8_t>*> && ::cordl_internals::type_constraint<U, ::Unity::Collections::IUTF8Bytes*> &&
              ::cordl_internals::value_type_constraint<U> && ::cordl_internals::default_constructor_constraint<U>)
-  static inline bool StartsWith(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<U> other);
+  static inline bool StartsWith(::by_ref<T> fs, /* [IsReadOnly] */ ::by_ref<U const> other);
 
   /// [Extension]
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString128Bytes) })]

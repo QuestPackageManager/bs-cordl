@@ -136,14 +136,14 @@ public:
   /// @brief Method CopyFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
     requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  static inline void CopyFrom(::by_ref<::Unity::Collections::NativeArray_1<T>> container, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T>> other);
+  static inline void CopyFrom(::by_ref<::Unity::Collections::NativeArray_1<T>> container, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeHashSet_1<T> const> other);
 
   /// [Extension]
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
   /// @brief Method CopyFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
     requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  static inline void CopyFrom(::by_ref<::Unity::Collections::NativeArray_1<T>> container, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeHashSet_1<T>> other);
+  static inline void CopyFrom(::by_ref<::Unity::Collections::NativeArray_1<T>> container, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeHashSet_1<T> const> other);
 
   /// [Extension]
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]

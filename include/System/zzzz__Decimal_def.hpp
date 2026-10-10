@@ -917,7 +917,7 @@ public:
   static inline uint32_t GetExponent(float_t f);
 
   /// @brief Method GetHashCode, addr 0x60bd3dc, size 0x14c, virtual false, abstract: false, final false
-  static inline int32_t GetHashCode(/* [IsReadOnly] */ ::by_ref<::System::Decimal> d);
+  static inline int32_t GetHashCode(/* [IsReadOnly] */ ::by_ref<::System::Decimal const> d);
 
   /// @brief Method IncreaseScale, addr 0x60c1040, size 0x8c, virtual false, abstract: false, final false
   static inline uint32_t IncreaseScale(::by_ref<::System::DecCalc_Decimal_Buf12> bufNum, uint32_t power);
@@ -950,10 +950,10 @@ public:
   static inline void Unscale(::by_ref<uint32_t> low, ::by_ref<uint64_t> high64, ::by_ref<int32_t> scale);
 
   /// @brief Method VarDecCmp, addr 0x60bc638, size 0x148, virtual false, abstract: false, final false
-  static inline int32_t VarDecCmp(/* [IsReadOnly] */ ::by_ref<::System::Decimal> d1, /* [IsReadOnly] */ ::by_ref<::System::Decimal> d2);
+  static inline int32_t VarDecCmp(/* [IsReadOnly] */ ::by_ref<::System::Decimal const> d1, /* [IsReadOnly] */ ::by_ref<::System::Decimal const> d2);
 
   /// @brief Method VarDecCmpSub, addr 0x60c2164, size 0x1d4, virtual false, abstract: false, final false
-  static inline int32_t VarDecCmpSub(/* [IsReadOnly] */ ::by_ref<::System::Decimal> d1, /* [IsReadOnly] */ ::by_ref<::System::Decimal> d2);
+  static inline int32_t VarDecCmpSub(/* [IsReadOnly] */ ::by_ref<::System::Decimal const> d1, /* [IsReadOnly] */ ::by_ref<::System::Decimal const> d2);
 
   /// @brief Method VarDecDiv, addr 0x60bc9f4, size 0x81c, virtual false, abstract: false, final false
   static inline void VarDecDiv(::by_ref<::System::Decimal_DecCalc> d1, ::by_ref<::System::Decimal_DecCalc> d2);
@@ -968,10 +968,10 @@ public:
   static inline void VarDecMul(::by_ref<::System::Decimal_DecCalc> d1, ::by_ref<::System::Decimal_DecCalc> d2);
 
   /// @brief Method VarR4FromDec, addr 0x60bf654, size 0x60, virtual false, abstract: false, final false
-  static inline float_t VarR4FromDec(/* [IsReadOnly] */ ::by_ref<::System::Decimal> value);
+  static inline float_t VarR4FromDec(/* [IsReadOnly] */ ::by_ref<::System::Decimal const> value);
 
   /// @brief Method VarR8FromDec, addr 0x60befcc, size 0x110, virtual false, abstract: false, final false
-  static inline double_t VarR8FromDec(/* [IsReadOnly] */ ::by_ref<::System::Decimal> value);
+  static inline double_t VarR8FromDec(/* [IsReadOnly] */ ::by_ref<::System::Decimal const> value);
 
   constexpr uint32_t const& __cordl_internal_get_uflags() const;
 
@@ -1419,7 +1419,7 @@ public:
   inline void _ctor(::ArrayW<int32_t> bits);
 
   /// @brief Method .ctor, addr 0x60bbe00, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::System::Decimal> d, int32_t flags);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::System::Decimal const> d, int32_t flags);
 
   /// @brief Method .ctor, addr 0x60bbcb8, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(int32_t lo, int32_t mid, int32_t hi, bool isNegative, uint8_t scale);

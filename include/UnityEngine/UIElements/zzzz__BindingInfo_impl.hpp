@@ -22,7 +22,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 //  Writing Method size for method: ::UnityEngine::UIElements::BindingInfo._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BindingInfo::*)(::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::BindingId>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BindingInfo::*)(::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::BindingId const>,
                                                                                                         ::UnityEngine::UIElements::Binding*)>(&::UnityEngine::UIElements::BindingInfo::_ctor)> {
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x708e044;
@@ -32,7 +32,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindingInfo>(),
                                                              { ".ctor",
                                                                {},
-                                                               { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>(),
+                                                               { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId const>>(),
                                                                  ::i2c::type_of<::UnityEngine::UIElements::Binding*>() } })));
     return ___internal_method;
   }
@@ -40,7 +40,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 //  Writing Method size for method: ::UnityEngine::UIElements::BindingInfo.FromRequest
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BindingInfo (*)(::UnityEngine::UIElements::VisualElement*, ::by_ref<::Unity::Properties::PropertyPath>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BindingInfo (*)(::UnityEngine::UIElements::VisualElement*, ::by_ref<::Unity::Properties::PropertyPath const>,
                                                                                                   ::UnityEngine::UIElements::Binding*)>(&::UnityEngine::UIElements::BindingInfo::FromRequest)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x708e074;
@@ -50,7 +50,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindingInfo>(),
                                                              { "FromRequest",
                                                                {},
-                                                               { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>(),
+                                                               { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath const>>(),
                                                                  ::i2c::type_of<::UnityEngine::UIElements::Binding*>() } })));
     return ___internal_method;
   }
@@ -58,7 +58,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
 //  Writing Method size for method: ::UnityEngine::UIElements::BindingInfo.FromBindingData
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BindingInfo (*)(::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BindingInfo (*)(::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData* const>)>(
     &::UnityEngine::UIElements::BindingInfo::FromBindingData)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x708e124;
@@ -66,7 +66,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindingInfo>(),
-                                                             { "FromBindingData", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*>>() } })));
+                                                             { "FromBindingData", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData* const>>() } })));
     return ___internal_method;
   }
 };
@@ -74,32 +74,32 @@ inline ::UnityEngine::UIElements::Binding* UnityEngine::UIElements::BindingInfo:
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindingInfo>(), { "get_binding", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Binding*>(*this, ___internal_method);
 }
-inline void UnityEngine::UIElements::BindingInfo::_ctor(::UnityEngine::UIElements::VisualElement* targetElement, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
+inline void UnityEngine::UIElements::BindingInfo::_ctor(::UnityEngine::UIElements::VisualElement* targetElement, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> bindingId,
                                                         ::UnityEngine::UIElements::Binding* binding) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindingInfo>(),
                                                            { ".ctor",
                                                              {},
-                                                             { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>(),
+                                                             { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId const>>(),
                                                                ::i2c::type_of<::UnityEngine::UIElements::Binding*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, targetElement, bindingId, binding);
 }
 inline ::UnityEngine::UIElements::BindingInfo UnityEngine::UIElements::BindingInfo::FromRequest(::UnityEngine::UIElements::VisualElement* target,
-                                                                                                /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> targetPath,
+                                                                                                /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> targetPath,
                                                                                                 ::UnityEngine::UIElements::Binding* binding) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindingInfo>(),
                                                            { "FromRequest",
                                                              {},
-                                                             { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>(),
+                                                             { ::i2c::type_of<::UnityEngine::UIElements::VisualElement*>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath const>>(),
                                                                ::i2c::type_of<::UnityEngine::UIElements::Binding*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::BindingInfo>(nullptr, ___internal_method, target, targetPath, binding);
 }
 inline ::UnityEngine::UIElements::BindingInfo
-UnityEngine::UIElements::BindingInfo::FromBindingData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*> bindingData) {
+UnityEngine::UIElements::BindingInfo::FromBindingData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData* const> bindingData) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindingInfo>(),
-                                                           { "FromBindingData", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*>>() } })));
+                                                           { "FromBindingData", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData* const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::BindingInfo>(nullptr, ___internal_method, bindingData);
 }
 // Ctor Parameters [CppParam { name: "_targetElement_k__BackingField", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:

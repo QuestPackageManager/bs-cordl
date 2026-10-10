@@ -230,7 +230,7 @@ constexpr ::UnityEngine::Rendering::GPUInstanceDataBufferUploader_WriteInstanceD
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUInstanceDataBufferUploader::*)(
-    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceComponentDesc>>, int32_t, ::UnityEngine::Rendering::InstanceType)>(
+    ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceComponentDesc> const>, int32_t, ::UnityEngine::Rendering::InstanceType)>(
     &::UnityEngine::Rendering::GPUInstanceDataBufferUploader::_ctor)> {
   constexpr static std::size_t size = 0x260;
   constexpr static std::size_t addrs = 0x6c5593c;
@@ -240,7 +240,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUInstanceDataBufferUploader>(),
                                                              { ".ctor",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceComponentDesc>>>(),
+                                                               { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceComponentDesc> const>>(),
                                                                  ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::InstanceType>() } })));
     return ___internal_method;
   }
@@ -354,13 +354,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
   }
 };
 inline void
-UnityEngine::Rendering::GPUInstanceDataBufferUploader::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceComponentDesc>> descriptions,
+UnityEngine::Rendering::GPUInstanceDataBufferUploader::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceComponentDesc> const> descriptions,
                                                              int32_t capacity, ::UnityEngine::Rendering::InstanceType instanceType) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUInstanceDataBufferUploader>(),
                                                            { ".ctor",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceComponentDesc>>>(),
+                                                             { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceComponentDesc> const>>(),
                                                                ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Rendering::InstanceType>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, descriptions, capacity, instanceType);
 }

@@ -143,7 +143,7 @@ public:
   static inline void set_state(::UnityEngine::Random_State value);
 
   /// @brief Method set_state_Injected, addr 0x6f324d4, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_state_Injected(::by_ref<::UnityEngine::Random_State> value);
+  static inline void set_state_Injected(::by_ref<::UnityEngine::Random_State const> value);
 
 protected:
   // Ctor Parameters []

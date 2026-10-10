@@ -62,15 +62,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::C
 //  Writing Method size for method: ::UnityEngine::Cursor.SetCursor_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector2>, ::UnityEngine::CursorMode)>(&::UnityEngine::Cursor::SetCursor_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector2 const>, ::UnityEngine::CursorMode)>(&::UnityEngine::Cursor::SetCursor_Injected)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x6f220e4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Cursor*>(),
-                            { "SetCursor_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(), ::i2c::type_of<::UnityEngine::CursorMode>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::UnityEngine::Cursor*>(),
+                         { "SetCursor_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>(), ::i2c::type_of<::UnityEngine::CursorMode>() } })));
     return ___internal_method;
   }
 };
@@ -94,11 +95,12 @@ inline void UnityEngine::Cursor::set_lockState(::UnityEngine::CursorLockMode val
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Cursor*>(), { "set_lockState", {}, { ::i2c::type_of<::UnityEngine::CursorLockMode>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
-inline void UnityEngine::Cursor::SetCursor_Injected(::System::IntPtr texture, ::by_ref<::UnityEngine::Vector2> hotspot, ::UnityEngine::CursorMode cursorMode) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Cursor*>(),
-                          { "SetCursor_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(), ::i2c::type_of<::UnityEngine::CursorMode>() } })));
+inline void UnityEngine::Cursor::SetCursor_Injected(::System::IntPtr texture, ::by_ref<::UnityEngine::Vector2 const> hotspot, ::UnityEngine::CursorMode cursorMode) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(
+                       ::i2c::class_of<::UnityEngine::Cursor*>(),
+                       { "SetCursor_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>(), ::i2c::type_of<::UnityEngine::CursorMode>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, texture, hotspot, cursorMode);
 }
 // Ctor Parameters []

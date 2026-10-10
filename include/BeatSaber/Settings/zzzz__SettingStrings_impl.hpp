@@ -9,14 +9,14 @@
 //  Writing Method size for method: ::BeatSaber::Settings::SettingStrings.Encode
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::BeatSaber::Settings::Settings>, ::System::Text::StringBuilder*)>(&::BeatSaber::Settings::SettingStrings::Encode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::BeatSaber::Settings::Settings const>, ::System::Text::StringBuilder*)>(&::BeatSaber::Settings::SettingStrings::Encode)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x354e250;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::SettingStrings*>(),
-                                                             { "Encode", {}, { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings>>(), ::i2c::type_of<::System::Text::StringBuilder*>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::SettingStrings*>(),
+                                                { "Encode", {}, { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings const>>(), ::i2c::type_of<::System::Text::StringBuilder*>() } })));
     return ___internal_method;
   }
 };
@@ -38,14 +38,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::BeatS
 //  Writing Method size for method: ::BeatSaber::Settings::SettingStrings.WriteProperties
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::BeatSaber::Settings::Settings>, ::System::Text::StringBuilder*)>(&::BeatSaber::Settings::SettingStrings::WriteProperties)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::BeatSaber::Settings::Settings const>, ::System::Text::StringBuilder*)>(
+    &::BeatSaber::Settings::SettingStrings::WriteProperties)> {
   constexpr static std::size_t size = 0xd14;
   constexpr static std::size_t addrs = 0x354e254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::SettingStrings*>(),
-                                                { "WriteProperties", {}, { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings>>(), ::i2c::type_of<::System::Text::StringBuilder*>() } })));
+                                                { "WriteProperties", {}, { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings const>>(), ::i2c::type_of<::System::Text::StringBuilder*>() } })));
     return ___internal_method;
   }
 };
@@ -184,10 +185,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOn
     return ___internal_method;
   }
 };
-inline void BeatSaber::Settings::SettingStrings::Encode(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings, ::System::Text::StringBuilder* stream) {
+inline void BeatSaber::Settings::SettingStrings::Encode(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings const> settings, ::System::Text::StringBuilder* stream) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::SettingStrings*>(),
-                                                           { "Encode", {}, { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings>>(), ::i2c::type_of<::System::Text::StringBuilder*>() } })));
+                                                           { "Encode", {}, { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings const>>(), ::i2c::type_of<::System::Text::StringBuilder*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, settings, stream);
 }
 inline bool BeatSaber::Settings::SettingStrings::Decode(::by_ref<::BeatSaber::Settings::Settings> settings, ::StringW text, ::by_ref<::StringW> log) {
@@ -196,10 +197,10 @@ inline bool BeatSaber::Settings::SettingStrings::Decode(::by_ref<::BeatSaber::Se
                                               { "Decode", {}, { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings>>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::StringW>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, settings, text, log);
 }
-inline void BeatSaber::Settings::SettingStrings::WriteProperties(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings, ::System::Text::StringBuilder* text) {
+inline void BeatSaber::Settings::SettingStrings::WriteProperties(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings const> settings, ::System::Text::StringBuilder* text) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::SettingStrings*>(),
-                                              { "WriteProperties", {}, { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings>>(), ::i2c::type_of<::System::Text::StringBuilder*>() } })));
+                                              { "WriteProperties", {}, { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings const>>(), ::i2c::type_of<::System::Text::StringBuilder*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, settings, text);
 }
 inline bool BeatSaber::Settings::SettingStrings::ReadProperty(::by_ref<::BeatSaber::Settings::Settings> settings, ::System::ReadOnlySpan_1<char16_t> name, ::System::ReadOnlySpan_1<char16_t> value,

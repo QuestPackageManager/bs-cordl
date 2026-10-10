@@ -479,7 +479,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::FileS
 //  Writing Method size for method: ::System::IO::FileStream.Read
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::IO::FileStream::*)(::by_ref<::ArrayW<uint8_t>>, int32_t, int32_t)>(&::System::IO::FileStream::Read)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::IO::FileStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::IO::FileStream::Read)> {
   constexpr static std::size_t size = 0x244;
   constexpr static std::size_t addrs = 0x6034bbc;
 
@@ -1119,7 +1119,7 @@ inline void System::IO::FileStream::WriteByte(uint8_t value) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::IO::FileStream*>(), 40 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline int32_t System::IO::FileStream::Read(::by_ref<::ArrayW<uint8_t>> array, int32_t offset, int32_t count) {
+inline int32_t System::IO::FileStream::Read(::ArrayW<uint8_t> array, int32_t offset, int32_t count) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::IO::FileStream*>(), 35 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, array, offset, count);
 }

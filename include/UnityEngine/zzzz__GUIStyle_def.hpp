@@ -301,7 +301,7 @@ public:
   inline ::UnityEngine::Vector2 Internal_CalcSizeWithConstraints(::UnityEngine::GUIContent* content, ::UnityEngine::Vector2 maxSize);
 
   /// @brief Method Internal_CalcSizeWithConstraints_Injected, addr 0x6fa80a4, size 0x5c, virtual false, abstract: false, final false
-  static inline void Internal_CalcSizeWithConstraints_Injected(::System::IntPtr _unity_self, ::UnityEngine::GUIContent* content, ::by_ref<::UnityEngine::Vector2> maxSize,
+  static inline void Internal_CalcSizeWithConstraints_Injected(::System::IntPtr _unity_self, ::UnityEngine::GUIContent* content, ::by_ref<::UnityEngine::Vector2 const> maxSize,
                                                                ::by_ref<::UnityEngine::Vector2> ret);
 
   /// [FreeFunction(Name = "GUIStyle_Bindings::Internal_Create", IsThreadSafe = true)]
@@ -325,10 +325,10 @@ public:
   inline void Internal_Draw2(::UnityEngine::Rect position, ::UnityEngine::GUIContent* content, int32_t controlID, bool on);
 
   /// @brief Method Internal_Draw2_Injected, addr 0x6fa7f74, size 0x6c, virtual false, abstract: false, final false
-  static inline void Internal_Draw2_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rect> position, ::UnityEngine::GUIContent* content, int32_t controlID, bool on);
+  static inline void Internal_Draw2_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rect const> position, ::UnityEngine::GUIContent* content, int32_t controlID, bool on);
 
   /// @brief Method Internal_Draw_Injected, addr 0x6fa7e1c, size 0x84, virtual false, abstract: false, final false
-  static inline void Internal_Draw_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rect> screenRect, ::UnityEngine::GUIContent* content, bool isHover, bool isActive, bool on,
+  static inline void Internal_Draw_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rect const> screenRect, ::UnityEngine::GUIContent* content, bool isHover, bool isActive, bool on,
                                             bool hasKeyboardFocus);
 
   /// [FreeFunction(Name = "GUIStyle_Bindings::Internal_GetTextRectOffset", HasExplicitThis = true)]
@@ -336,8 +336,8 @@ public:
   inline ::UnityEngine::Vector2 Internal_GetTextRectOffset(::UnityEngine::Rect screenRect, ::UnityEngine::GUIContent* content, ::UnityEngine::Vector2 textSize);
 
   /// @brief Method Internal_GetTextRectOffset_Injected, addr 0x6fa83e0, size 0x6c, virtual false, abstract: false, final false
-  static inline void Internal_GetTextRectOffset_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rect> screenRect, ::UnityEngine::GUIContent* content,
-                                                         ::by_ref<::UnityEngine::Vector2> textSize, ::by_ref<::UnityEngine::Vector2> ret);
+  static inline void Internal_GetTextRectOffset_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rect const> screenRect, ::UnityEngine::GUIContent* content,
+                                                         ::by_ref<::UnityEngine::Vector2 const> textSize, ::by_ref<::UnityEngine::Vector2> ret);
 
   /// [FreeFunction(Name = "GUIStyle_Bindings::IsTooltipActive")]
   /// @brief Method IsTooltipActive, addr 0x6f9fa58, size 0x15c, virtual false, abstract: false, final false
@@ -360,7 +360,7 @@ public:
   static inline void SetMouseTooltip(::StringW tooltip, ::UnityEngine::Rect screenRect);
 
   /// @brief Method SetMouseTooltip_Injected, addr 0x6fa844c, size 0x44, virtual false, abstract: false, final false
-  static inline void SetMouseTooltip_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> tooltip, ::by_ref<::UnityEngine::Rect> screenRect);
+  static inline void SetMouseTooltip_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> tooltip, ::by_ref<::UnityEngine::Rect const> screenRect);
 
   /// @brief Method ToString, addr 0x6fa9148, size 0x94, virtual true, abstract: false, final false
   inline ::StringW ToString();

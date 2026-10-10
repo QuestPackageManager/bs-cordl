@@ -143,7 +143,8 @@ public:
   inline void FreeRendererGroupInstances(::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> rendererGroupIDs);
 
   /// @brief Method InstanceOcclusionTest, addr 0x6c41f4c, size 0x3c, virtual false, abstract: false, final false
-  inline void InstanceOcclusionTest(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings> settings,
+  inline void InstanceOcclusionTest(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
+                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings const> settings,
                                     ::System::ReadOnlySpan_1<::UnityEngine::Rendering::SubviewOcclusionTest> subviewOcclusionTests);
 
   static inline ::UnityEngine::Rendering::GPUResidentBatcher* New_ctor(::UnityEngine::Rendering::RenderersBatchersContext* batcherContext,
@@ -182,16 +183,17 @@ public:
   inline void UpdateFrame();
 
   /// @brief Method UpdateInstanceOccluders, addr 0x6c4247c, size 0x3c, virtual false, abstract: false, final false
-  inline void UpdateInstanceOccluders(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams,
+  inline void UpdateInstanceOccluders(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
+                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters const> occluderParams,
                                       ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate> occluderSubviewUpdates);
 
   /// @brief Method UpdateRendererBatches, addr 0x6c4288c, size 0x140, virtual false, abstract: false, final false
-  inline void UpdateRendererBatches(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
+  inline void UpdateRendererBatches(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const> rendererData,
                                     ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Mesh>>* meshes,
                                     ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Material>>* materials);
 
   /// @brief Method UpdateRendererInstancesAndBatches, addr 0x6c425e4, size 0x2a8, virtual false, abstract: false, final false
-  inline void UpdateRendererInstancesAndBatches(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
+  inline void UpdateRendererInstancesAndBatches(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const> rendererData,
                                                 ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Mesh>>* meshes,
                                                 ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Material>>* materials);
 

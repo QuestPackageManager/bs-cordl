@@ -261,10 +261,10 @@ public:
   static inline bool op_Equality(::Unity::Collections::NativeArray_1<T> left, ::Unity::Collections::NativeArray_1<T> right);
 
   /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::System::ReadOnlySpan_1<T> op_Implicit___System__ReadOnlySpan_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<T>> source);
+  static inline ::System::ReadOnlySpan_1<T> op_Implicit___System__ReadOnlySpan_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<T> const> source);
 
   /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::System::Span_1<T> op_Implicit___System__Span_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<T>> source);
+  static inline ::System::Span_1<T> op_Implicit___System__Span_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<T> const> source);
 
   /// [WriteAccessRequired]
   /// @brief Method set_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -437,7 +437,7 @@ public:
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable();
 
   /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::System::ReadOnlySpan_1<T> op_Implicit___System__ReadOnlySpan_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<T>> source);
+  static inline ::System::ReadOnlySpan_1<T> op_Implicit___System__ReadOnlySpan_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<T> const> source);
 
   // Ctor Parameters []
   // @brief default ctor
@@ -500,7 +500,7 @@ public:
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<T>> array);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<T> const> array);
 
   /// @brief Method get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T get_Current();

@@ -204,7 +204,7 @@ public:
   inline void NoteDidStartDissolving(::GlobalNamespace::NoteControllerBase* noteController);
 
   /// @brief Method NoteWasCut, addr 0x5ccf2b0, size 0x230, virtual false, abstract: false, final false
-  inline void NoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+  inline void NoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo const> noteCutInfo);
 
   /// @brief Method OnLateUpdate, addr 0x5ccee88, size 0x264, virtual false, abstract: false, final false
   inline void OnLateUpdate();

@@ -234,9 +234,9 @@ template <typename T> inline void Unity::Collections::LowLevel::Unsafe::UnsafePt
                                                            { "AddRangeNoResize", {}, { ::i2c::type_of<::Unity::Collections::LowLevel::Unsafe::UnsafePtrList_1<T>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, list);
 }
-template <typename T> inline void Unity::Collections::LowLevel::Unsafe::UnsafePtrList_1<T>::Add(/* [IsReadOnly] */ ::by_ref<::System::IntPtr> value) {
+template <typename T> inline void Unity::Collections::LowLevel::Unsafe::UnsafePtrList_1<T>::Add(/* [IsReadOnly] */ ::by_ref<::System::IntPtr const> value) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafePtrList_1<T>>(), { "Add", {}, { ::i2c::type_of<::by_ref<::System::IntPtr>>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafePtrList_1<T>>(), { "Add", {}, { ::i2c::type_of<::by_ref<::System::IntPtr const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
 template <typename T> inline void Unity::Collections::LowLevel::Unsafe::UnsafePtrList_1<T>::Add(void* value) {

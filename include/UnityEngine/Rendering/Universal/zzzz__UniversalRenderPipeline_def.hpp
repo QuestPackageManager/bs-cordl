@@ -1189,7 +1189,7 @@ public:
   static inline bool TryGetCullingParameters(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::by_ref<::UnityEngine::Rendering::ScriptableCullingParameters> cullingParams);
 
   /// @brief Method UpdateCameraData, addr 0x6d09e6c, size 0x3e8, virtual false, abstract: false, final false
-  static inline void UpdateCameraData(::UnityEngine::Rendering::Universal::UniversalCameraData* baseCameraData, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Experimental::Rendering::XRPass*> xr);
+  static inline void UpdateCameraData(::UnityEngine::Rendering::Universal::UniversalCameraData* baseCameraData, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Experimental::Rendering::XRPass* const> xr);
 
   /// @brief Method UpdateCameraStereoMatrices, addr 0x6d09cf8, size 0x174, virtual false, abstract: false, final false
   static inline void UpdateCameraStereoMatrices(::UnityEngine::Camera* camera, ::UnityEngine::Experimental::Rendering::XRPass* xr);

@@ -60,7 +60,7 @@ public:
   static inline void GLClear(bool clearDepth, bool clearColor, ::UnityEngine::Color backgroundColor, float_t depth);
 
   /// @brief Method GLClear_Injected, addr 0x6edc61c, size 0x64, virtual false, abstract: false, final false
-  static inline void GLClear_Injected(bool clearDepth, bool clearColor, ::by_ref<::UnityEngine::Color> backgroundColor, float_t depth);
+  static inline void GLClear_Injected(bool clearDepth, bool clearColor, ::by_ref<::UnityEngine::Color const> backgroundColor, float_t depth);
 
   /// [FreeFunction]
   /// @brief Method GLLoadPixelMatrixScript, addr 0x6edc49c, size 0x58, virtual false, abstract: false, final false
@@ -71,7 +71,7 @@ public:
   static inline ::UnityEngine::Matrix4x4 GetGPUProjectionMatrix(::UnityEngine::Matrix4x4 proj, bool renderIntoTexture);
 
   /// @brief Method GetGPUProjectionMatrix_Injected, addr 0x6edc448, size 0x54, virtual false, abstract: false, final false
-  static inline void GetGPUProjectionMatrix_Injected(::by_ref<::UnityEngine::Matrix4x4> proj, bool renderIntoTexture, ::by_ref<::UnityEngine::Matrix4x4> ret);
+  static inline void GetGPUProjectionMatrix_Injected(::by_ref<::UnityEngine::Matrix4x4 const> proj, bool renderIntoTexture, ::by_ref<::UnityEngine::Matrix4x4> ret);
 
   /// [NativeName("ImmediateColor")]
   /// @brief Method ImmediateColor, addr 0x6edc050, size 0x58, virtual false, abstract: false, final false
@@ -89,7 +89,7 @@ public:
   static inline void LoadProjectionMatrix(::UnityEngine::Matrix4x4 mat);
 
   /// @brief Method LoadProjectionMatrix_Injected, addr 0x6edc390, size 0x3c, virtual false, abstract: false, final false
-  static inline void LoadProjectionMatrix_Injected(::by_ref<::UnityEngine::Matrix4x4> mat);
+  static inline void LoadProjectionMatrix_Injected(::by_ref<::UnityEngine::Matrix4x4 const> mat);
 
   /// @brief Method MultiTexCoord2, addr 0x6edbff8, size 0x58, virtual false, abstract: false, final false
   static inline void MultiTexCoord2(int32_t unit, float_t x, float_t y);
@@ -110,7 +110,7 @@ public:
   static inline void SetViewMatrix(::UnityEngine::Matrix4x4 m);
 
   /// @brief Method SetViewMatrix_Injected, addr 0x6edc254, size 0x3c, virtual false, abstract: false, final false
-  static inline void SetViewMatrix_Injected(::by_ref<::UnityEngine::Matrix4x4> m);
+  static inline void SetViewMatrix_Injected(::by_ref<::UnityEngine::Matrix4x4 const> m);
 
   /// @brief Method TexCoord2, addr 0x6edbf50, size 0x44, virtual false, abstract: false, final false
   static inline void TexCoord2(float_t x, float_t y);
@@ -128,7 +128,7 @@ public:
   static inline void Viewport(::UnityEngine::Rect pixelRect);
 
   /// @brief Method Viewport_Injected, addr 0x6edc6d0, size 0x3c, virtual false, abstract: false, final false
-  static inline void Viewport_Injected(::by_ref<::UnityEngine::Rect> pixelRect);
+  static inline void Viewport_Injected(::by_ref<::UnityEngine::Rect const> pixelRect);
 
   /// @brief Method get_invertCulling, addr 0x6edc18c, size 0x28, virtual false, abstract: false, final false
   static inline bool get_invertCulling();

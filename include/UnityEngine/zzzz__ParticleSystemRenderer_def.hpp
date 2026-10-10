@@ -303,7 +303,7 @@ public:
 
   /// [FreeFunction(Name = "ParticleSystemRendererScriptBindings::GetMeshWeightings", HasExplicitThis = true)]
   /// @brief Method GetMeshWeightings, addr 0x6fcdf54, size 0x190, virtual false, abstract: false, final false
-  inline int32_t GetMeshWeightings(/* [NotNull] */ ::by_ref<::ArrayW<float_t>> weightings);
+  inline int32_t GetMeshWeightings(/* [NotNull] */ ::ArrayW<float_t> weightings);
 
   /// @brief Method GetMeshWeightings_Injected, addr 0x6fce0e4, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetMeshWeightings_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> weightings);
@@ -311,10 +311,10 @@ public:
   /// [FreeFunction(Name = "ParticleSystemRendererScriptBindings::GetMeshes", HasExplicitThis = true)]
   /// [RequiredByNativeCode]
   /// @brief Method GetMeshes, addr 0x6fcdd28, size 0xbc, virtual false, abstract: false, final false
-  inline int32_t GetMeshes(/* [NotNull] */ ::by_ref<::ArrayW<::UnityEngine::Mesh*>> meshes);
+  inline int32_t GetMeshes(/* [NotNull] */ ::ArrayW<::UnityEngine::Mesh*> meshes);
 
   /// @brief Method GetMeshes_Injected, addr 0x6fcdde4, size 0x44, virtual false, abstract: false, final false
-  static inline int32_t GetMeshes_Injected(::System::IntPtr _unity_self, ::by_ref<::ArrayW<::UnityEngine::Mesh*>> meshes);
+  static inline int32_t GetMeshes_Injected(::System::IntPtr _unity_self, ::ArrayW<::UnityEngine::Mesh*> meshes);
 
   /// [Obsolete("Internal_GetVertexStreams is deprecated. Use GetActiveVertexStreams instead.", false)]
   /// @brief Method Internal_GetEnabledVertexStreams, addr 0x6fcad00, size 0x248, virtual false, abstract: false, final false
@@ -548,7 +548,7 @@ public:
   inline void set_flip(::UnityEngine::Vector3 value);
 
   /// @brief Method set_flip_Injected, addr 0x6fccd60, size 0x44, virtual false, abstract: false, final false
-  static inline void set_flip_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_flip_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// @brief Method set_freeformStretching, addr 0x6fcd6a4, size 0x90, virtual false, abstract: false, final false
   inline void set_freeformStretching(bool value);
@@ -609,7 +609,7 @@ public:
   inline void set_pivot(::UnityEngine::Vector3 value);
 
   /// @brief Method set_pivot_Injected, addr 0x6fccba0, size 0x44, virtual false, abstract: false, final false
-  static inline void set_pivot_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_pivot_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// @brief Method set_renderMode, addr 0x6fcb970, size 0x90, virtual false, abstract: false, final false
   inline void set_renderMode(::UnityEngine::ParticleSystemRenderMode value);

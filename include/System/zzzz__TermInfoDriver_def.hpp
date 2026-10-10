@@ -245,7 +245,7 @@ public:
   inline void QueueEcho(char16_t c);
 
   /// @brief Method Read, addr 0x60b4e10, size 0x2ec, virtual false, abstract: false, final false
-  inline int32_t Read(::by_ref<::ArrayW<char16_t>> dest, int32_t index, int32_t count);
+  inline int32_t Read(::ArrayW<char16_t> dest, int32_t index, int32_t count);
 
   /// @brief Method ReadKey, addr 0x60b50fc, size 0x64, virtual true, abstract: false, final true
   inline ::System::ConsoleKeyInfo ReadKey(bool intercept);

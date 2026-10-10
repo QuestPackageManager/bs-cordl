@@ -20,7 +20,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::BufferPool.GetResourceName
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::RenderGraphModule::BufferPool::*)(::by_ref<::UnityEngine::GraphicsBuffer*>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::RenderGraphModule::BufferPool::*)(::by_ref<::UnityEngine::GraphicsBuffer* const>)>(
     &::UnityEngine::Rendering::RenderGraphModule::BufferPool::GetResourceName)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6c0d548;
@@ -34,7 +34,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine:
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::BufferPool.GetResourceSize
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::Rendering::RenderGraphModule::BufferPool::*)(::by_ref<::UnityEngine::GraphicsBuffer*>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::Rendering::RenderGraphModule::BufferPool::*)(::by_ref<::UnityEngine::GraphicsBuffer* const>)>(
     &::UnityEngine::Rendering::RenderGraphModule::BufferPool::GetResourceSize)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6c0d58c;
@@ -90,12 +90,12 @@ inline void UnityEngine::Rendering::RenderGraphModule::BufferPool::ReleaseIntern
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::BufferPool*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, res);
 }
-inline ::StringW UnityEngine::Rendering::RenderGraphModule::BufferPool::GetResourceName(/* [IsReadOnly] */ ::by_ref<::UnityEngine::GraphicsBuffer*> res) {
+inline ::StringW UnityEngine::Rendering::RenderGraphModule::BufferPool::GetResourceName(/* [IsReadOnly] */ ::by_ref<::UnityEngine::GraphicsBuffer* const> res) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::BufferPool*>(), 9 })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, res);
 }
-inline int64_t UnityEngine::Rendering::RenderGraphModule::BufferPool::GetResourceSize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::GraphicsBuffer*> res) {
+inline int64_t UnityEngine::Rendering::RenderGraphModule::BufferPool::GetResourceSize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::GraphicsBuffer* const> res) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::BufferPool*>(), 10 })));
   return ::cordl_internals::RunMethodRethrow<int64_t>(this, ___internal_method, res);

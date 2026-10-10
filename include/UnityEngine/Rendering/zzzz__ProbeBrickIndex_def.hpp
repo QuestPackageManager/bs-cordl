@@ -324,7 +324,7 @@ public:
   static inline int32_t LocationToIndex(int32_t x, int32_t y, int32_t z, ::UnityEngine::Vector3Int sizeOfValid);
 
   /// @brief Method MarkBrickInPhysicalBuffer, addr 0x6ba3cc4, size 0x334, virtual false, abstract: false, final false
-  inline void MarkBrickInPhysicalBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeBrickIndex_IndirectionEntryUpdateInfo> entry, ::UnityEngine::Vector3Int brickMin,
+  inline void MarkBrickInPhysicalBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeBrickIndex_IndirectionEntryUpdateInfo const> entry, ::UnityEngine::Vector3Int brickMin,
                                         ::UnityEngine::Vector3Int brickMax, int32_t brickSubdivLevel, int32_t entrySubdivLevel, int32_t idx);
 
   /// @brief Method MergeIndex, addr 0x6ba370c, size 0xc, virtual false, abstract: false, final false

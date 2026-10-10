@@ -9,21 +9,21 @@
 #include "Unity/Hierarchy/zzzz__Hierarchy_def.hpp"
 #include "Unity/Hierarchy/zzzz__IHierarchyProperty_1_def.hpp"
 template <typename T>
-inline void Unity::Hierarchy::HierarchyPropertyUnmanaged_1<T>::_ctor(::Unity::Hierarchy::Hierarchy* hierarchy, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyId> property) {
+inline void Unity::Hierarchy::HierarchyPropertyUnmanaged_1<T>::_ctor(::Unity::Hierarchy::Hierarchy* hierarchy, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyId const> property) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyPropertyUnmanaged_1<T>>(),
-                                              { ".ctor", {}, { ::i2c::type_of<::Unity::Hierarchy::Hierarchy*>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyPropertyId>>() } })));
+                                              { ".ctor", {}, { ::i2c::type_of<::Unity::Hierarchy::Hierarchy*>(), ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyPropertyId const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, hierarchy, property);
 }
-template <typename T> inline void Unity::Hierarchy::HierarchyPropertyUnmanaged_1<T>::SetValue(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, T value) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyPropertyUnmanaged_1<T>>(),
-                                                                                         { "SetValue", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<T>() } })));
+template <typename T> inline void Unity::Hierarchy::HierarchyPropertyUnmanaged_1<T>::SetValue(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, T value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyPropertyUnmanaged_1<T>>(),
+                                                           { "SetValue", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(), ::i2c::type_of<T>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, node, value);
 }
-template <typename T> inline T Unity::Hierarchy::HierarchyPropertyUnmanaged_1<T>::GetValue(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyPropertyUnmanaged_1<T>>(), { "GetValue", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
+template <typename T> inline T Unity::Hierarchy::HierarchyPropertyUnmanaged_1<T>::GetValue(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyPropertyUnmanaged_1<T>>(),
+                                                                                         { "GetValue", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>() } })));
   return ::cordl_internals::RunMethodRethrow<T>(*this, ___internal_method, node);
 }
 template <typename T> inline bool Unity::Hierarchy::HierarchyPropertyUnmanaged_1<T>::Equals(::Unity::Hierarchy::HierarchyPropertyUnmanaged_1<T> other) {
@@ -46,17 +46,18 @@ template <typename T> inline int32_t Unity::Hierarchy::HierarchyPropertyUnmanage
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Hierarchy::HierarchyPropertyUnmanaged_1<T>>(), 2 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-template <typename T> inline T Unity::Hierarchy::HierarchyPropertyUnmanaged_1<T>::Unity_Hierarchy_IHierarchyProperty_T__GetValue(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node) {
+template <typename T>
+inline T Unity::Hierarchy::HierarchyPropertyUnmanaged_1<T>::Unity_Hierarchy_IHierarchyProperty_T__GetValue(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyPropertyUnmanaged_1<T>>(),
-                                                           { "Unity.Hierarchy.IHierarchyProperty<T>.GetValue", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>() } })));
+                                                           { "Unity.Hierarchy.IHierarchyProperty<T>.GetValue", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>() } })));
   return ::cordl_internals::RunMethodRethrow<T>(*this, ___internal_method, node);
 }
 template <typename T>
-inline void Unity::Hierarchy::HierarchyPropertyUnmanaged_1<T>::Unity_Hierarchy_IHierarchyProperty_T__SetValue(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, T value) {
+inline void Unity::Hierarchy::HierarchyPropertyUnmanaged_1<T>::Unity_Hierarchy_IHierarchyProperty_T__SetValue(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, T value) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyPropertyUnmanaged_1<T>>(),
-                                              { "Unity.Hierarchy.IHierarchyProperty<T>.SetValue", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode>>(), ::i2c::type_of<T>() } })));
+                                              { "Unity.Hierarchy.IHierarchyProperty<T>.SetValue", {}, { ::i2c::type_of<::by_ref<::Unity::Hierarchy::HierarchyNode const>>(), ::i2c::type_of<T>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, node, value);
 }
 /// @brief Convert operator to "::System::IEquatable_1<::Unity::Hierarchy::HierarchyPropertyUnmanaged_1<T>>"

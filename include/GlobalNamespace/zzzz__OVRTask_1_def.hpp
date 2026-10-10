@@ -1031,7 +1031,7 @@ public:
   inline void OnReturn();
 
   /// @brief Method SetResultAndReturnToPool, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void SetResultAndReturnToPool(/* [IsReadOnly] */ ::by_ref<TResult> result);
+  inline void SetResultAndReturnToPool(/* [IsReadOnly] */ ::by_ref<TResult const> result);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();

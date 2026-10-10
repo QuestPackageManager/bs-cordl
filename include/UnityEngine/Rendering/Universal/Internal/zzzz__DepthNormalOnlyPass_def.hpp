@@ -313,9 +313,9 @@ public:
 
   /// @brief Method Render, addr 0x6d23654, size 0xc28, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
-                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> cameraNormalsTexture,
-                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> depthTexture,
-                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> renderingLayersTexture, uint32_t batchLayerMask, bool setGlobalDepth,
+                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> cameraNormalsTexture,
+                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> depthTexture,
+                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> renderingLayersTexture, uint32_t batchLayerMask, bool setGlobalDepth,
                      bool setGlobalNormalAndRenderingLayers, bool allowPartialPass);
 
   /// @brief Method Setup, addr 0x6d23300, size 0x8, virtual false, abstract: false, final false

@@ -91,11 +91,13 @@ public:
   static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetTextureFormat();
 
   /// @brief Method MoveKey, addr 0x6be6950, size 0x48, virtual false, abstract: false, final false
-  inline int32_t MoveKey(int32_t index, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Keyframe> key);
+  inline int32_t MoveKey(int32_t index, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Keyframe const> key);
 
-  static inline ::UnityEngine::Rendering::TextureCurve* New_ctor(::UnityEngine::AnimationCurve* baseCurve, float_t zeroValue, bool loop, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> bounds);
+  static inline ::UnityEngine::Rendering::TextureCurve* New_ctor(::UnityEngine::AnimationCurve* baseCurve, float_t zeroValue, bool loop,
+                                                                 /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2 const> bounds);
 
-  static inline ::UnityEngine::Rendering::TextureCurve* New_ctor(::ArrayW<::UnityEngine::Keyframe> keys, float_t zeroValue, bool loop, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> bounds);
+  static inline ::UnityEngine::Rendering::TextureCurve* New_ctor(::ArrayW<::UnityEngine::Keyframe> keys, float_t zeroValue, bool loop,
+                                                                 /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2 const> bounds);
 
   /// @brief Method Release, addr 0x6be63fc, size 0xa4, virtual false, abstract: false, final false
   inline void Release();
@@ -164,10 +166,10 @@ public:
   constexpr void __cordl_internal_set_m_ZeroValue(float_t value);
 
   /// @brief Method .ctor, addr 0x6be62a4, size 0x54, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::AnimationCurve* baseCurve, float_t zeroValue, bool loop, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> bounds);
+  inline void _ctor(::UnityEngine::AnimationCurve* baseCurve, float_t zeroValue, bool loop, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2 const> bounds);
 
   /// @brief Method .ctor, addr 0x6be62f8, size 0x100, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::UnityEngine::Keyframe> keys, float_t zeroValue, bool loop, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> bounds);
+  inline void _ctor(::ArrayW<::UnityEngine::Keyframe> keys, float_t zeroValue, bool loop, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2 const> bounds);
 
   /// @brief Method get_Item, addr 0x6be6268, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Keyframe get_Item(int32_t index);

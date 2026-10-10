@@ -303,13 +303,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Settings::Se
 //  Writing Method size for method: ::GlobalNamespace::SettingsIO.Encode
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::by_ref<::BeatSaber::Settings::Settings>)>(&::GlobalNamespace::SettingsIO::Encode)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::by_ref<::BeatSaber::Settings::Settings const>)>(&::GlobalNamespace::SettingsIO::Encode)> {
   constexpr static std::size_t size = 0x160;
   constexpr static std::size_t addrs = 0x3515688;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsIO*>(), { "Encode", {}, { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsIO*>(), { "Encode", {}, { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings const>>() } })));
     return ___internal_method;
   }
 };
@@ -376,9 +376,9 @@ inline ::BeatSaber::Settings::Settings GlobalNamespace::SettingsIO::Load(::Globa
                                                            { "Load", {}, { ::i2c::type_of<::GlobalNamespace::IFileStorage*>(), ::i2c::type_of<::GlobalNamespace::HardwareCategory>() } })));
   return ::cordl_internals::RunMethodRethrow<::BeatSaber::Settings::Settings>(nullptr, ___internal_method, fileStorage, platform);
 }
-inline ::StringW GlobalNamespace::SettingsIO::Encode(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsIO*>(), { "Encode", {}, { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings>>() } })));
+inline ::StringW GlobalNamespace::SettingsIO::Encode(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings const> settings) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsIO*>(), { "Encode", {}, { ::i2c::type_of<::by_ref<::BeatSaber::Settings::Settings const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, settings);
 }
 inline bool GlobalNamespace::SettingsIO::Decode(::by_ref<::BeatSaber::Settings::Settings> settings, ::StringW text) {

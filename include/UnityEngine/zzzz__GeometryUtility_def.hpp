@@ -50,21 +50,21 @@ public:
   static inline void CalculateFrustumPlanes(::UnityEngine::Matrix4x4 worldToProjectionMatrix, ::ArrayW<::UnityEngine::Plane> planes);
 
   /// @brief Method CalculateFrustumPlanes, addr 0x6ed2cd8, size 0x144, virtual false, abstract: false, final false
-  static inline void CalculateFrustumPlanes(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> worldToProjectionMatrix, ::System::Span_1<::UnityEngine::Plane> planes);
+  static inline void CalculateFrustumPlanes(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4 const> worldToProjectionMatrix, ::System::Span_1<::UnityEngine::Plane> planes);
 
   /// [NativeName("ExtractPlanes")]
   /// @brief Method Internal_ExtractPlanes, addr 0x6ed2e1c, size 0xa8, virtual false, abstract: false, final false
-  static inline void Internal_ExtractPlanes(::System::Span_1<::UnityEngine::Plane> planes, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> worldToProjectionMatrix);
+  static inline void Internal_ExtractPlanes(::System::Span_1<::UnityEngine::Plane> planes, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4 const> worldToProjectionMatrix);
 
   /// @brief Method Internal_ExtractPlanes_Injected, addr 0x6ed30e8, size 0x44, virtual false, abstract: false, final false
-  static inline void Internal_ExtractPlanes_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> planes, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4> worldToProjectionMatrix);
+  static inline void Internal_ExtractPlanes_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> planes, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Matrix4x4 const> worldToProjectionMatrix);
 
   /// [NativeName("TestPlanesAABB")]
   /// @brief Method Internal_TestPlanesAABB, addr 0x6ed2f44, size 0xac, virtual false, abstract: false, final false
-  static inline bool Internal_TestPlanesAABB(::System::ReadOnlySpan_1<::UnityEngine::Plane> planes, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds> bounds);
+  static inline bool Internal_TestPlanesAABB(::System::ReadOnlySpan_1<::UnityEngine::Plane> planes, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds const> bounds);
 
   /// @brief Method Internal_TestPlanesAABB_Injected, addr 0x6ed2ff0, size 0x44, virtual false, abstract: false, final false
-  static inline bool Internal_TestPlanesAABB_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> planes, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds> bounds);
+  static inline bool Internal_TestPlanesAABB_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> planes, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds const> bounds);
 
   /// @brief Method TestPlanesAABB, addr 0x6ed3034, size 0xb4, virtual false, abstract: false, final false
   static inline bool TestPlanesAABB(::ArrayW<::UnityEngine::Plane> planes, ::UnityEngine::Bounds bounds);

@@ -265,17 +265,16 @@ template <typename T> inline ::System::ReadOnlySpan_1<T> Unity::Collections::Nat
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeArray_1<T>>(), { "AsReadOnlySpan", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::ReadOnlySpan_1<T>>(*this, ___internal_method);
 }
-template <typename T> inline ::System::Span_1<T> Unity::Collections::NativeArray_1<T>::op_Implicit___System__Span_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<T>> source) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeArray_1<T>>(), { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<T>>>() } })));
+template <typename T>
+inline ::System::Span_1<T> Unity::Collections::NativeArray_1<T>::op_Implicit___System__Span_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<T> const> source) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeArray_1<T>>(),
+                                                                                         { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<T> const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Span_1<T>>(nullptr, ___internal_method, source);
 }
 template <typename T>
-inline ::System::ReadOnlySpan_1<T> Unity::Collections::NativeArray_1<T>::op_Implicit___System__ReadOnlySpan_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<T>> source) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeArray_1<T>>(), { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<T>>>() } })));
+inline ::System::ReadOnlySpan_1<T> Unity::Collections::NativeArray_1<T>::op_Implicit___System__ReadOnlySpan_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<T> const> source) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeArray_1<T>>(),
+                                                                                         { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1<T> const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::ReadOnlySpan_1<T>>(nullptr, ___internal_method, source);
 }
 /// @brief Convert operator to "::System::IDisposable"
@@ -423,9 +422,10 @@ template <typename T> inline ::System::ReadOnlySpan_1<T> Unity::Collections::Nat
 }
 template <typename T>
 inline ::System::ReadOnlySpan_1<T>
-Unity::Collections::NativeArray_1_ReadOnly<T>::op_Implicit___System__ReadOnlySpan_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<T>> source) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeArray_1_ReadOnly<T>>(),
-                                                                                         { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<T>>>() } })));
+Unity::Collections::NativeArray_1_ReadOnly<T>::op_Implicit___System__ReadOnlySpan_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<T> const> source) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeArray_1_ReadOnly<T>>(),
+                                                           { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<T> const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::ReadOnlySpan_1<T>>(nullptr, ___internal_method, source);
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
@@ -452,9 +452,9 @@ template <typename T> constexpr ::Unity::Collections::NativeArray_1_ReadOnly<T>:
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Unity::Collections::NativeArray_1_ReadOnly<T>::NativeArray_1_ReadOnly() {}
-template <typename T> inline void Unity::Collections::ReadOnly_NativeArray_1_Enumerator<T>::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<T>> array) {
+template <typename T> inline void Unity::Collections::ReadOnly_NativeArray_1_Enumerator<T>::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<T> const> array) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::ReadOnly_NativeArray_1_Enumerator<T>>(),
-                                                                                         { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<T>>>() } })));
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<T> const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, array);
 }
 template <typename T> inline void Unity::Collections::ReadOnly_NativeArray_1_Enumerator<T>::Dispose() {

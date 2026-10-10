@@ -426,7 +426,7 @@ public:
   inline void set_delta(::UnityEngine::Vector2 value);
 
   /// @brief Method set_delta_Injected, addr 0x6f9c400, size 0x44, virtual false, abstract: false, final false
-  static inline void set_delta_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2> value);
+  static inline void set_delta_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2 const> value);
 
   /// @brief Method set_displayIndex, addr 0x6f9cb58, size 0x58, virtual false, abstract: false, final false
   inline void set_displayIndex(int32_t value);
@@ -438,7 +438,7 @@ public:
   inline void set_mousePosition(::UnityEngine::Vector2 value);
 
   /// @brief Method set_mousePosition_Injected, addr 0x6f9c2bc, size 0x44, virtual false, abstract: false, final false
-  static inline void set_mousePosition_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2> value);
+  static inline void set_mousePosition_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2 const> value);
 
   /// [FreeFunction("GUIEvent::SetType", HasExplicitThis = true)]
   /// @brief Method set_type, addr 0x6f9cc80, size 0x58, virtual false, abstract: false, final false

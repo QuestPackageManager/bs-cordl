@@ -1016,7 +1016,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::UniversalRenderPipeline.UpdateCameraData
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::Universal::UniversalCameraData*, ::by_ref<::UnityEngine::Experimental::Rendering::XRPass*>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::Universal::UniversalCameraData*, ::by_ref<::UnityEngine::Experimental::Rendering::XRPass* const>)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipeline::UpdateCameraData)> {
   constexpr static std::size_t size = 0x3e8;
   constexpr static std::size_t addrs = 0x6d09e6c;
@@ -1024,9 +1024,10 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
-            { "UpdateCameraData", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::by_ref<::UnityEngine::Experimental::Rendering::XRPass*>>() } })));
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
+                            { "UpdateCameraData",
+                              {},
+                              { ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::by_ref<::UnityEngine::Experimental::Rendering::XRPass* const>>() } })));
     return ___internal_method;
   }
 };
@@ -2288,12 +2289,13 @@ inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::RenderCa
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, context, baseCamera, isLastBaseCamera);
 }
 inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::UpdateCameraData(::UnityEngine::Rendering::Universal::UniversalCameraData* baseCameraData,
-                                                                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Experimental::Rendering::XRPass*> xr) {
+                                                                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Experimental::Rendering::XRPass* const> xr) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
-          { "UpdateCameraData", {}, { ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::by_ref<::UnityEngine::Experimental::Rendering::XRPass*>>() } })));
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipeline*>(),
+                          { "UpdateCameraData",
+                            {},
+                            { ::i2c::type_of<::UnityEngine::Rendering::Universal::UniversalCameraData*>(), ::i2c::type_of<::by_ref<::UnityEngine::Experimental::Rendering::XRPass* const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, baseCameraData, xr);
 }
 inline void UnityEngine::Rendering::Universal::UniversalRenderPipeline::UpdateVolumeFramework(::UnityEngine::Camera* camera,

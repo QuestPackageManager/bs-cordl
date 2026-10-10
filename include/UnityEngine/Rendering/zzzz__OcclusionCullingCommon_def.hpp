@@ -786,9 +786,9 @@ public:
   constexpr operator ::System::IDisposable*() noexcept;
 
   /// @brief Method CreateFarDepthPyramid, addr 0x6c6bd88, size 0x224, virtual false, abstract: false, final false
-  inline void CreateFarDepthPyramid(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams,
+  inline void CreateFarDepthPyramid(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters const> occluderParams,
                                     ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate> occluderSubviewUpdates,
-                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderHandles> occluderHandles);
+                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderHandles const> occluderHandles);
 
   /// @brief Method DeleteContext, addr 0x6c6bbdc, size 0x1ac, virtual false, abstract: false, final false
   inline void DeleteContext(int32_t viewInstanceID);
@@ -817,36 +817,38 @@ public:
   static inline ::UnityEngine::Rendering::OcclusionCullingCommon* New_ctor();
 
   /// @brief Method PrepareCulling, addr 0x6c69d38, size 0x1cc, virtual false, abstract: false, final false
-  inline void PrepareCulling(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderContext> occluderCtx,
-                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings> settings,
-                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings> subviewSettings,
-                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader> shader, bool useOcclusionDebug);
+  inline void PrepareCulling(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderContext const> occluderCtx,
+                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings const> settings,
+                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings const> subviewSettings,
+                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader const> shader, bool useOcclusionDebug);
 
   /// @brief Method PrepareOccluders, addr 0x6c6b69c, size 0x250, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::OccluderHandles PrepareOccluders(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
-                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams);
+                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters const> occluderParams);
 
   /// @brief Method RenderDebugOccluderOverlay, addr 0x6c6b104, size 0x598, virtual false, abstract: false, final false
   inline void RenderDebugOccluderOverlay(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* debugSettings,
-                                         ::UnityEngine::Vector2 screenPos, float_t maxHeight, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> colorBuffer);
+                                         ::UnityEngine::Vector2 screenPos, float_t maxHeight,
+                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> colorBuffer);
 
   /// @brief Method RenderDebugOcclusionTestOverlay, addr 0x6c6a718, size 0x878, virtual false, abstract: false, final false
   inline void RenderDebugOcclusionTestOverlay(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* debugSettings,
-                                              int32_t viewInstanceID, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> colorBuffer);
+                                              int32_t viewInstanceID, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> colorBuffer);
 
   /// @brief Method SetDebugPyramid, addr 0x6c6a634, size 0xe4, virtual false, abstract: false, final false
-  static inline void SetDebugPyramid(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader> shader, int32_t kernel,
-                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderHandles> occluderHandles);
+  static inline void SetDebugPyramid(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader const> shader,
+                                     int32_t kernel, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderHandles const> occluderHandles);
 
   /// @brief Method SetDepthPyramid, addr 0x6c6a598, size 0x9c, virtual false, abstract: false, final false
-  static inline void SetDepthPyramid(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader> shader, int32_t kernel,
-                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderHandles> occluderHandles);
+  static inline void SetDepthPyramid(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionTestComputeShader const> shader,
+                                     int32_t kernel, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderHandles const> occluderHandles);
 
   /// @brief Method UpdateFrame, addr 0x6c6cc58, size 0x27c, virtual false, abstract: false, final false
   inline void UpdateFrame();
 
   /// @brief Method UpdateInstanceOccluders, addr 0x6c6bfac, size 0x79c, virtual false, abstract: false, final false
-  inline bool UpdateInstanceOccluders(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters> occluderParams,
+  inline bool UpdateInstanceOccluders(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
+                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderParameters const> occluderParams,
                                       ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate> occluderSubviewUpdates);
 
   /// @brief Method UpdateOccluderStats, addr 0x6c6c754, size 0x380, virtual false, abstract: false, final false
@@ -856,7 +858,7 @@ public:
   inline void UpdateSilhouettePlanes(int32_t viewInstanceID, ::Unity::Collections::NativeArray_1<::UnityEngine::Plane> planes);
 
   /// @brief Method UseOcclusionDebug, addr 0x6c69d28, size 0x10, virtual false, abstract: false, final false
-  static inline bool UseOcclusionDebug(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderContext> occluderCtx);
+  static inline bool UseOcclusionDebug(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderContext const> occluderCtx);
 
   /// [CompilerGenerated]
   /// @brief Method <RenderDebugOcclusionTestOverlay>b__29_1, addr 0x6c6d1a4, size 0x114, virtual false, abstract: false, final false

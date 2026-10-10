@@ -285,7 +285,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::Hash128.Hash128ToStringImpl_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Hash128>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Hash128 const>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
     &::UnityEngine::Hash128::Hash128ToStringImpl_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6f20b1c;
@@ -293,8 +293,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Hash128>(),
-                            { "Hash128ToStringImpl_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Hash128>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
+        (::i2c::find_method(
+            ::i2c::class_of<::UnityEngine::Hash128>(),
+            { "Hash128ToStringImpl_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Hash128 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
     return ___internal_method;
   }
 };
@@ -421,11 +422,12 @@ inline void UnityEngine::Hash128::Parse_Injected(::by_ref<::UnityEngine::Binding
                                        { "Parse_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>(), ::i2c::type_of<::by_ref<::UnityEngine::Hash128>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, hashString, ret);
 }
-inline void UnityEngine::Hash128::Hash128ToStringImpl_Injected(::by_ref<::UnityEngine::Hash128> hash, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Hash128>(),
-                          { "Hash128ToStringImpl_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Hash128>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
+inline void UnityEngine::Hash128::Hash128ToStringImpl_Injected(::by_ref<::UnityEngine::Hash128 const> hash, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(
+                       ::i2c::class_of<::UnityEngine::Hash128>(),
+                       { "Hash128ToStringImpl_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Hash128 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, hash, ret);
 }
 /// @brief Convert operator to "::System::IComparable"

@@ -183,8 +183,8 @@ public:
   inline void HiddenStateDidChange(bool hide);
 
   /// @brief Method Init, addr 0x5ce8250, size 0x1f4, virtual false, abstract: false, final false
-  inline void Init(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, ::GlobalNamespace::NoteVisualModifierType noteVisualModifierType,
-                   float_t cutAngleTolerance, float_t uniformScale);
+  inline void Init(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData const> noteSpawnData,
+                   ::GlobalNamespace::NoteVisualModifierType noteVisualModifierType, float_t cutAngleTolerance, float_t uniformScale);
 
   static inline ::GlobalNamespace::GameNoteController* New_ctor();
 

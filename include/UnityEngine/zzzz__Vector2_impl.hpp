@@ -100,13 +100,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Vect
 //  Writing Method size for method: ::UnityEngine::Vector2.Normalize
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::by_ref<::UnityEngine::Vector2>)>(&::UnityEngine::Vector2::Normalize)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::by_ref<::UnityEngine::Vector2 const>)>(&::UnityEngine::Vector2::Normalize)> {
   constexpr static std::size_t size = 0xc8;
   constexpr static std::size_t addrs = 0x6f2cdfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector2>(), { "Normalize", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector2>(), { "Normalize", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>() } })));
     return ___internal_method;
   }
 };
@@ -210,13 +210,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Vect
 //  Writing Method size for method: ::UnityEngine::Vector2.Equals
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Vector2::*)(::by_ref<::UnityEngine::Vector2>)>(&::UnityEngine::Vector2::Equals)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Vector2::*)(::by_ref<::UnityEngine::Vector2 const>)>(&::UnityEngine::Vector2::Equals)> {
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x6f2d1a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector2>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector2>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>() } })));
     return ___internal_method;
   }
 };
@@ -249,14 +249,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine
 //  Writing Method size for method: ::UnityEngine::Vector2.Dot
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::by_ref<::UnityEngine::Vector2>, ::by_ref<::UnityEngine::Vector2>)>(&::UnityEngine::Vector2::Dot)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::by_ref<::UnityEngine::Vector2 const>, ::by_ref<::UnityEngine::Vector2 const>)>(&::UnityEngine::Vector2::Dot)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x6f2d1f0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector2>(), { "Dot", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector2>(),
+                                                             { "Dot", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>() } })));
     return ___internal_method;
   }
 };
@@ -300,14 +300,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine
 //  Writing Method size for method: ::UnityEngine::Vector2.Angle
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::by_ref<::UnityEngine::Vector2>, ::by_ref<::UnityEngine::Vector2>)>(&::UnityEngine::Vector2::Angle)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::by_ref<::UnityEngine::Vector2 const>, ::by_ref<::UnityEngine::Vector2 const>)>(&::UnityEngine::Vector2::Angle)> {
   constexpr static std::size_t size = 0xec;
   constexpr static std::size_t addrs = 0x6f2d36c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector2>(), { "Angle", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector2>(),
+                                                             { "Angle", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>() } })));
     return ___internal_method;
   }
 };
@@ -720,9 +720,9 @@ inline void UnityEngine::Vector2::Scale(::UnityEngine::Vector2 scale) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector2>(), { "Scale", {}, { ::i2c::type_of<::UnityEngine::Vector2>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, scale);
 }
-inline ::UnityEngine::Vector2 UnityEngine::Vector2::Normalize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> value) {
+inline ::UnityEngine::Vector2 UnityEngine::Vector2::Normalize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2 const> value) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector2>(), { "Normalize", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector2>(), { "Normalize", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(nullptr, ___internal_method, value);
 }
 inline void UnityEngine::Vector2::Normalize() {
@@ -758,9 +758,9 @@ inline bool UnityEngine::Vector2::Equals(::UnityEngine::Vector2 other) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector2>(), { "Equals", {}, { ::i2c::type_of<::UnityEngine::Vector2>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
-inline bool UnityEngine::Vector2::Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> other) {
+inline bool UnityEngine::Vector2::Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2 const> other) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector2>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector2>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
 inline ::UnityEngine::Vector2 UnityEngine::Vector2::Perpendicular(::UnityEngine::Vector2 inDirection) {
@@ -773,10 +773,10 @@ inline float_t UnityEngine::Vector2::Dot(::UnityEngine::Vector2 lhs, ::UnityEngi
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector2>(), { "Dot", {}, { ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector2>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, lhs, rhs);
 }
-inline float_t UnityEngine::Vector2::Dot(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> lhs, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> rhs) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector2>(), { "Dot", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
+inline float_t UnityEngine::Vector2::Dot(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2 const> lhs, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2 const> rhs) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector2>(),
+                                                           { "Dot", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, lhs, rhs);
 }
 inline float_t UnityEngine::Vector2::get_magnitude() {
@@ -792,10 +792,10 @@ inline float_t UnityEngine::Vector2::Angle(::UnityEngine::Vector2 from, ::UnityE
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector2>(), { "Angle", {}, { ::i2c::type_of<::UnityEngine::Vector2>(), ::i2c::type_of<::UnityEngine::Vector2>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, from, to);
 }
-inline float_t UnityEngine::Vector2::Angle(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> from, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> to) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector2>(), { "Angle", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
+inline float_t UnityEngine::Vector2::Angle(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2 const> from, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2 const> to) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector2>(),
+                                                           { "Angle", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, from, to);
 }
 inline float_t UnityEngine::Vector2::SignedAngle(::UnityEngine::Vector2 from, ::UnityEngine::Vector2 to) {

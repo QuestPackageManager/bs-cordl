@@ -255,7 +255,7 @@ public:
   static inline void InitializePlayerLoop();
 
   /// @brief Method InsertSystems, addr 0x5c6909c, size 0xa5c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::LowLevel::PlayerLoopSystem InsertSystems(/* [IsReadOnly] */ ::by_ref<::UnityEngine::LowLevel::PlayerLoopSystem> loopSystem,
+  static inline ::UnityEngine::LowLevel::PlayerLoopSystem InsertSystems(/* [IsReadOnly] */ ::by_ref<::UnityEngine::LowLevel::PlayerLoopSystem const> loopSystem,
                                                                         ::System::Collections::Generic::List_1<::GlobalNamespace::UnityPlayerLoopManager_SystemToInsert>* systemsToInsert);
 
   /// @brief Method RemoveDisabledSubsystems, addr 0x5c69af8, size 0x250, virtual false, abstract: false, final false

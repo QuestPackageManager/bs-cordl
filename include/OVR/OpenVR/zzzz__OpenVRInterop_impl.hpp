@@ -22,7 +22,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::by_ref<::O
 //  Writing Method size for method: ::OVR::OpenVR::OpenVRInterop.InitInternal2
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::by_ref<::OVR::OpenVR::EVRInitError>, ::OVR::OpenVR::EVRApplicationType, ::ByRefConst<::StringW>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::by_ref<::OVR::OpenVR::EVRInitError>, ::OVR::OpenVR::EVRApplicationType, ::StringW)>(
     &::OVR::OpenVR::OpenVRInterop::InitInternal2)> {
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x6261a08;
@@ -30,9 +30,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::by_ref<::O
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::OVR::OpenVR::OpenVRInterop*>(),
-            { "InitInternal2", {}, { ::i2c::type_of<::by_ref<::OVR::OpenVR::EVRInitError>>(), ::i2c::type_of<::OVR::OpenVR::EVRApplicationType>(), ::i2c::type_of<::ByRefConst<::StringW>>() } })));
+        (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::OpenVRInterop*>(),
+                            { "InitInternal2", {}, { ::i2c::type_of<::by_ref<::OVR::OpenVR::EVRInitError>>(), ::i2c::type_of<::OVR::OpenVR::EVRApplicationType>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
@@ -88,27 +87,27 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::OV
 //  Writing Method size for method: ::OVR::OpenVR::OpenVRInterop.GetGenericInterface
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::ByRefConst<::StringW>, ::by_ref<::OVR::OpenVR::EVRInitError>)>(&::OVR::OpenVR::OpenVRInterop::GetGenericInterface)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::StringW, ::by_ref<::OVR::OpenVR::EVRInitError>)>(&::OVR::OpenVR::OpenVRInterop::GetGenericInterface)> {
   constexpr static std::size_t size = 0xa0;
   constexpr static std::size_t addrs = 0x6261c74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::OpenVRInterop*>(),
-                                                             { "GetGenericInterface", {}, { ::i2c::type_of<::ByRefConst<::StringW>>(), ::i2c::type_of<::by_ref<::OVR::OpenVR::EVRInitError>>() } })));
+                                                             { "GetGenericInterface", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::OVR::OpenVR::EVRInitError>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::OVR::OpenVR::OpenVRInterop.IsInterfaceVersionValid
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::ByRefConst<::StringW>)>(&::OVR::OpenVR::OpenVRInterop::IsInterfaceVersionValid)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::OVR::OpenVR::OpenVRInterop::IsInterfaceVersionValid)> {
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x6261d14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::OpenVRInterop*>(), { "IsInterfaceVersionValid", {}, { ::i2c::type_of<::ByRefConst<::StringW>>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::OpenVRInterop*>(), { "IsInterfaceVersionValid", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
@@ -142,12 +141,11 @@ inline uint32_t OVR::OpenVR::OpenVRInterop::InitInternal(::by_ref<::OVR::OpenVR:
                                                            { "InitInternal", {}, { ::i2c::type_of<::by_ref<::OVR::OpenVR::EVRInitError>>(), ::i2c::type_of<::OVR::OpenVR::EVRApplicationType>() } })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, peError, eApplicationType);
 }
-inline uint32_t OVR::OpenVR::OpenVRInterop::InitInternal2(::by_ref<::OVR::OpenVR::EVRInitError> peError, ::OVR::OpenVR::EVRApplicationType eApplicationType, ::ByRefConst<::StringW> pStartupInfo) {
+inline uint32_t OVR::OpenVR::OpenVRInterop::InitInternal2(::by_ref<::OVR::OpenVR::EVRInitError> peError, ::OVR::OpenVR::EVRApplicationType eApplicationType, ::StringW pStartupInfo) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::OVR::OpenVR::OpenVRInterop*>(),
-          { "InitInternal2", {}, { ::i2c::type_of<::by_ref<::OVR::OpenVR::EVRInitError>>(), ::i2c::type_of<::OVR::OpenVR::EVRApplicationType>(), ::i2c::type_of<::ByRefConst<::StringW>>() } })));
+      (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::OpenVRInterop*>(),
+                          { "InitInternal2", {}, { ::i2c::type_of<::by_ref<::OVR::OpenVR::EVRInitError>>(), ::i2c::type_of<::OVR::OpenVR::EVRApplicationType>(), ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<uint32_t>(nullptr, ___internal_method, peError, eApplicationType, pStartupInfo);
 }
 inline void OVR::OpenVR::OpenVRInterop::ShutdownInternal() {
@@ -167,15 +165,15 @@ inline ::System::IntPtr OVR::OpenVR::OpenVRInterop::GetStringForHmdError(::OVR::
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::OpenVRInterop*>(), { "GetStringForHmdError", {}, { ::i2c::type_of<::OVR::OpenVR::EVRInitError>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, error);
 }
-inline ::System::IntPtr OVR::OpenVR::OpenVRInterop::GetGenericInterface(::ByRefConst<::StringW> pchInterfaceVersion, ::by_ref<::OVR::OpenVR::EVRInitError> peError) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::OpenVRInterop*>(),
-                                                           { "GetGenericInterface", {}, { ::i2c::type_of<::ByRefConst<::StringW>>(), ::i2c::type_of<::by_ref<::OVR::OpenVR::EVRInitError>>() } })));
+inline ::System::IntPtr OVR::OpenVR::OpenVRInterop::GetGenericInterface(::StringW pchInterfaceVersion, ::by_ref<::OVR::OpenVR::EVRInitError> peError) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::OpenVRInterop*>(), { "GetGenericInterface", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::by_ref<::OVR::OpenVR::EVRInitError>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, pchInterfaceVersion, peError);
 }
-inline bool OVR::OpenVR::OpenVRInterop::IsInterfaceVersionValid(::ByRefConst<::StringW> pchInterfaceVersion) {
+inline bool OVR::OpenVR::OpenVRInterop::IsInterfaceVersionValid(::StringW pchInterfaceVersion) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::OpenVRInterop*>(), { "IsInterfaceVersionValid", {}, { ::i2c::type_of<::ByRefConst<::StringW>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::OpenVRInterop*>(), { "IsInterfaceVersionValid", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, pchInterfaceVersion);
 }
 inline uint32_t OVR::OpenVR::OpenVRInterop::GetInitToken() {

@@ -112,8 +112,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRS
 //  Writing Method size for method: ::OVR::OpenVR::IVRScreenshots__HookScreenshot.Invoke
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRScreenshotError (::OVR::OpenVR::IVRScreenshots__HookScreenshot::*)(
-    ::by_ref<::ArrayW<::OVR::OpenVR::EVRScreenshotType>>, int32_t)>(&::OVR::OpenVR::IVRScreenshots__HookScreenshot::Invoke)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRScreenshotError (::OVR::OpenVR::IVRScreenshots__HookScreenshot::*)(::ArrayW<::OVR::OpenVR::EVRScreenshotType>, int32_t)>(
+    &::OVR::OpenVR::IVRScreenshots__HookScreenshot::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x62598ac;
 
@@ -127,7 +127,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRScreens
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRScreenshots__HookScreenshot::*)(::by_ref<::ArrayW<::OVR::OpenVR::EVRScreenshotType>>, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
+    static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRScreenshots__HookScreenshot::*)(::ArrayW<::OVR::OpenVR::EVRScreenshotType>, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::IVRScreenshots__HookScreenshot::BeginInvoke)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x62598c0;
@@ -157,13 +157,13 @@ inline void OVR::OpenVR::IVRScreenshots__HookScreenshot::_ctor(::System::Object*
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline ::OVR::OpenVR::EVRScreenshotError OVR::OpenVR::IVRScreenshots__HookScreenshot::Invoke(::by_ref<::ArrayW<::OVR::OpenVR::EVRScreenshotType>> pSupportedTypes, int32_t numTypes) {
+inline ::OVR::OpenVR::EVRScreenshotError OVR::OpenVR::IVRScreenshots__HookScreenshot::Invoke(::ArrayW<::OVR::OpenVR::EVRScreenshotType> pSupportedTypes, int32_t numTypes) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRScreenshots__HookScreenshot*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRScreenshotError>(this, ___internal_method, pSupportedTypes, numTypes);
 }
-inline ::System::IAsyncResult* OVR::OpenVR::IVRScreenshots__HookScreenshot::BeginInvoke(::by_ref<::ArrayW<::OVR::OpenVR::EVRScreenshotType>> pSupportedTypes, int32_t numTypes,
-                                                                                        ::System::AsyncCallback* callback, ::System::Object* object) {
+inline ::System::IAsyncResult* OVR::OpenVR::IVRScreenshots__HookScreenshot::BeginInvoke(::ArrayW<::OVR::OpenVR::EVRScreenshotType> pSupportedTypes, int32_t numTypes, ::System::AsyncCallback* callback,
+                                                                                        ::System::Object* object) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OVR::OpenVR::IVRScreenshots__HookScreenshot*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, pSupportedTypes, numTypes, callback, object);

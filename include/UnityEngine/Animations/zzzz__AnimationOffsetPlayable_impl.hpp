@@ -120,19 +120,19 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::P
 //  Writing Method size for method: ::UnityEngine::Animations::AnimationOffsetPlayable.CreateHandleInternal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<bool (*)(::by_ref<::UnityEngine::Playables::PlayableGraph>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Quaternion>, ::by_ref<::UnityEngine::Playables::PlayableHandle>)>(
-        &::UnityEngine::Animations::AnimationOffsetPlayable::CreateHandleInternal_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Playables::PlayableGraph const>, ::by_ref<::UnityEngine::Vector3 const>,
+                                                                ::by_ref<::UnityEngine::Quaternion const>, ::by_ref<::UnityEngine::Playables::PlayableHandle>)>(
+    &::UnityEngine::Animations::AnimationOffsetPlayable::CreateHandleInternal_Injected)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x6e97ca4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animations::AnimationOffsetPlayable>(),
-                                                             { "CreateHandleInternal_Injected",
-                                                               {},
-                                                               { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableGraph>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animations::AnimationOffsetPlayable>(),
+                                                { "CreateHandleInternal_Injected",
+                                                  {},
+                                                  { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableGraph const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                    ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>() } })));
     return ___internal_method;
   }
 };
@@ -191,14 +191,15 @@ inline bool UnityEngine::Animations::AnimationOffsetPlayable::CreateHandleIntern
                                                                ::i2c::type_of<::UnityEngine::Quaternion>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, graph, position, rotation, handle);
 }
-inline bool UnityEngine::Animations::AnimationOffsetPlayable::CreateHandleInternal_Injected(::by_ref<::UnityEngine::Playables::PlayableGraph> graph, ::by_ref<::UnityEngine::Vector3> position,
-                                                                                            ::by_ref<::UnityEngine::Quaternion> rotation, ::by_ref<::UnityEngine::Playables::PlayableHandle> handle) {
+inline bool UnityEngine::Animations::AnimationOffsetPlayable::CreateHandleInternal_Injected(::by_ref<::UnityEngine::Playables::PlayableGraph const> graph,
+                                                                                            ::by_ref<::UnityEngine::Vector3 const> position, ::by_ref<::UnityEngine::Quaternion const> rotation,
+                                                                                            ::by_ref<::UnityEngine::Playables::PlayableHandle> handle) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animations::AnimationOffsetPlayable>(),
                                                            { "CreateHandleInternal_Injected",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableGraph>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                                               ::i2c::type_of<::by_ref<::UnityEngine::Quaternion>>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>() } })));
+                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableGraph const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::Quaternion const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Playables::PlayableHandle>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, graph, position, rotation, handle);
 }
 /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"

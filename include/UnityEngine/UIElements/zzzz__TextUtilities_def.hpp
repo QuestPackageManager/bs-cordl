@@ -94,8 +94,9 @@ public:
                                                                     ::UnityEngine::UIElements::VisualElement_MeasureMode heightMode, ::System::Nullable_1<float_t> fontsize);
 
   /// @brief Method MeasureVisualElementTextSize, addr 0x71323e0, size 0x1dc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector2 MeasureVisualElementTextSize(::UnityEngine::UIElements::TextElement* te, /* [IsReadOnly] */ ::by_ref<::UnityEngine::TextCore::Text::RenderedText> textToMeasure,
-                                                                    float_t width, ::UnityEngine::UIElements::VisualElement_MeasureMode widthMode, float_t height,
+  static inline ::UnityEngine::Vector2 MeasureVisualElementTextSize(::UnityEngine::UIElements::TextElement* te,
+                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::TextCore::Text::RenderedText const> textToMeasure, float_t width,
+                                                                    ::UnityEngine::UIElements::VisualElement_MeasureMode widthMode, float_t height,
                                                                     ::UnityEngine::UIElements::VisualElement_MeasureMode heightMode, ::System::Nullable_1<float_t> fontsize);
 
   /// @brief Method PostProcessMeasuredSize, addr 0x7131ffc, size 0x148, virtual false, abstract: false, final false

@@ -10,7 +10,7 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardGameplaySceneSetupData::*)(
-    bool, ::by_ref<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::GameplayModifiers*)>(&::GlobalNamespace::StandardGameplaySceneSetupData::_ctor)> {
+    bool, ::by_ref<::GlobalNamespace::BeatmapKey const>, ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::GameplayModifiers*)>(&::GlobalNamespace::StandardGameplaySceneSetupData::_ctor)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x5d2840c;
 
@@ -19,8 +19,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardGameplaySceneSetupData*>(),
                                                              { ".ctor",
                                                                {},
-                                                               { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>(), ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>(),
-                                                                 ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>() } })));
+                                                               { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey const>>(),
+                                                                 ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>(), ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>() } })));
     return ___internal_method;
   }
 };
@@ -72,18 +72,18 @@ constexpr void GlobalNamespace::StandardGameplaySceneSetupData::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___gameplayModifiers = value;
 }
-inline void GlobalNamespace::StandardGameplaySceneSetupData::_ctor(bool autoRestart, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
+inline void GlobalNamespace::StandardGameplaySceneSetupData::_ctor(bool autoRestart, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey,
                                                                    ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardGameplaySceneSetupData*>(),
                                                            { ".ctor",
                                                              {},
-                                                             { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey>>(), ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>(),
-                                                               ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>() } })));
+                                                             { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::GlobalNamespace::BeatmapKey const>>(),
+                                                               ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>(), ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, autoRestart, beatmapKey, beatmapLevel, gameplayModifiers);
 }
 inline ::GlobalNamespace::StandardGameplaySceneSetupData* GlobalNamespace::StandardGameplaySceneSetupData::New_ctor(bool autoRestart,
-                                                                                                                    /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
+                                                                                                                    /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey,
                                                                                                                     ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                                                                     ::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::StandardGameplaySceneSetupData*>(autoRestart, beatmapKey, beatmapLevel, gameplayModifiers));

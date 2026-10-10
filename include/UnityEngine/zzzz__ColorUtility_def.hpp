@@ -51,7 +51,7 @@ public:
   static inline ::StringW ToHtmlStringRGB(::UnityEngine::Color color);
 
   /// @brief Method ToHtmlStringRGB, addr 0x6f24d0c, size 0x348, virtual false, abstract: false, final false
-  static inline ::StringW ToHtmlStringRGB(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Color> color);
+  static inline ::StringW ToHtmlStringRGB(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Color const> color);
 
   /// @brief Method TryHexToByte, addr 0x6f25670, size 0xf8, virtual false, abstract: false, final false
   static inline bool TryHexToByte(::System::ReadOnlySpan_1<char16_t> span, ::by_ref<uint8_t> result);

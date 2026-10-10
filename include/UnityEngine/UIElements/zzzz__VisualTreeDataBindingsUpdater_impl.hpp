@@ -181,8 +181,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 //  Writing Method size for method: ::UnityEngine::UIElements::VisualTreeDataBindingsUpdater.CacheAndLogBindingResult
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeDataBindingsUpdater::*)(bool, ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*>,
-                                                                                                                          ::by_ref<::UnityEngine::UIElements::BindingResult>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeDataBindingsUpdater::*)(
+    bool, ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData* const>, ::by_ref<::UnityEngine::UIElements::BindingResult const>)>(
     &::UnityEngine::UIElements::VisualTreeDataBindingsUpdater::CacheAndLogBindingResult)> {
   constexpr static std::size_t size = 0x11c;
   constexpr static std::size_t addrs = 0x70906c0;
@@ -192,22 +192,22 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeDataBindingsUpdater*>(),
                                                              { "CacheAndLogBindingResult",
                                                                {},
-                                                               { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*>>(),
-                                                                 ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingResult>>() } })));
+                                                               { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData* const>>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingResult const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::VisualTreeDataBindingsUpdater.LogResult
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeDataBindingsUpdater::*)(::by_ref<::UnityEngine::UIElements::BindingResult>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeDataBindingsUpdater::*)(::by_ref<::UnityEngine::UIElements::BindingResult const>)>(
     &::UnityEngine::UIElements::VisualTreeDataBindingsUpdater::LogResult)> {
   constexpr static std::size_t size = 0x144;
   constexpr static std::size_t addrs = 0x70907dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeDataBindingsUpdater*>(),
-                                                                                           { "LogResult", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingResult>>() } })));
+                                                                                           { "LogResult", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingResult const>>() } })));
     return ___internal_method;
   }
 };
@@ -243,14 +243,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<bo
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualTreeDataBindingsUpdater::*)(
-    ::by_ref<::Unity::Properties::PropertyPath>, ::by_ref<::Unity::Properties::PropertyPath>)>(&::UnityEngine::UIElements::VisualTreeDataBindingsUpdater::IsPrefix)> {
+    ::by_ref<::Unity::Properties::PropertyPath const>, ::by_ref<::Unity::Properties::PropertyPath const>)>(&::UnityEngine::UIElements::VisualTreeDataBindingsUpdater::IsPrefix)> {
   constexpr static std::size_t size = 0x16c;
   constexpr static std::size_t addrs = 0x7092190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeDataBindingsUpdater*>(),
-                                                { "IsPrefix", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>() } })));
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeDataBindingsUpdater*>(),
+                            { "IsPrefix", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath const>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath const>>() } })));
     return ___internal_method;
   }
 };
@@ -547,19 +548,19 @@ inline void UnityEngine::UIElements::VisualTreeDataBindingsUpdater::OnVersionCha
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, ve, versionChangeType);
 }
 inline void UnityEngine::UIElements::VisualTreeDataBindingsUpdater::CacheAndLogBindingResult(bool appliedOnUiCache,
-                                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*> bindingData,
-                                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingResult> result) {
+                                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData* const> bindingData,
+                                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingResult const> result) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeDataBindingsUpdater*>(),
                                                            { "CacheAndLogBindingResult",
                                                              {},
-                                                             { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*>>(),
-                                                               ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingResult>>() } })));
+                                                             { ::i2c::type_of<bool>(), ::i2c::type_of<::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData* const>>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingResult const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, appliedOnUiCache, bindingData, result);
 }
-inline void UnityEngine::UIElements::VisualTreeDataBindingsUpdater::LogResult(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingResult> result) {
+inline void UnityEngine::UIElements::VisualTreeDataBindingsUpdater::LogResult(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingResult const> result) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeDataBindingsUpdater*>(),
-                                                                                         { "LogResult", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingResult>>() } })));
+                                                                                         { "LogResult", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingResult const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, result);
 }
 inline void UnityEngine::UIElements::VisualTreeDataBindingsUpdater::Update() {
@@ -572,11 +573,12 @@ inline ::System::ValueTuple_2<bool, int64_t> UnityEngine::UIElements::VisualTree
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeDataBindingsUpdater*>(), { "GetDataSourceVersion", {}, { ::i2c::type_of<::System::Object*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::ValueTuple_2<bool, int64_t>>(this, ___internal_method, source);
 }
-inline bool UnityEngine::UIElements::VisualTreeDataBindingsUpdater::IsPrefix(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> prefix,
-                                                                             /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> path) {
+inline bool UnityEngine::UIElements::VisualTreeDataBindingsUpdater::IsPrefix(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> prefix,
+                                                                             /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> path) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeDataBindingsUpdater*>(),
-                                              { "IsPrefix", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>() } })));
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeDataBindingsUpdater*>(),
+                          { "IsPrefix", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath const>>(), ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, prefix, path);
 }
 inline void UnityEngine::UIElements::VisualTreeDataBindingsUpdater::ProcessDataSourceChangedRequests() {

@@ -192,7 +192,7 @@ public:
   inline ::UnityEngine::UIElements::DataBindingManager_BindingRequest CancelRequest();
 
   /// @brief Method .ctor, addr 0x708b61c, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId, ::UnityEngine::UIElements::Binding* binding, bool shouldProcess);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> bindingId, ::UnityEngine::UIElements::Binding* binding, bool shouldProcess);
 
   // Ctor Parameters []
   // @brief default ctor
@@ -258,7 +258,7 @@ public:
   inline bool RemoveBindingData(::UnityEngine::UIElements::DataBindingManager_BindingData* bindingData);
 
   /// @brief Method TryGetBindingData, addr 0x7089898, size 0x90, virtual false, abstract: false, final false
-  inline bool TryGetBindingData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId, ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*> data);
+  inline bool TryGetBindingData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> bindingId, ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*> data);
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
@@ -1457,7 +1457,7 @@ public:
   inline void ClearSourceCache();
 
   /// @brief Method CreateBindingRequest, addr 0x708abd0, size 0x348, virtual false, abstract: false, final false
-  static inline void CreateBindingRequest(::UnityEngine::UIElements::VisualElement* target, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
+  static inline void CreateBindingRequest(::UnityEngine::UIElements::VisualElement* target, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> bindingId,
                                           ::UnityEngine::UIElements::Binding* binding, bool isTransferring);
 
   /// @brief Method DirtyBindingOrder, addr 0x708c084, size 0x1c, virtual false, abstract: false, final false
@@ -1505,7 +1505,7 @@ public:
   inline void ProcessBindingRequests(::UnityEngine::UIElements::VisualElement* element);
 
   /// @brief Method RegisterBinding, addr 0x7089928, size 0x474, virtual false, abstract: false, final false
-  inline void RegisterBinding(::UnityEngine::UIElements::VisualElement* element, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
+  inline void RegisterBinding(::UnityEngine::UIElements::VisualElement* element, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> bindingId,
                               ::UnityEngine::UIElements::Binding* binding);
 
   /// @brief Method ReleasePoolBindingData, addr 0x708a944, size 0xd4, virtual false, abstract: false, final false
@@ -1521,11 +1521,11 @@ public:
   inline void TransferBindingRequests(::UnityEngine::UIElements::VisualElement* element);
 
   /// @brief Method TryGetBindingData, addr 0x7089820, size 0x78, virtual false, abstract: false, final false
-  inline bool TryGetBindingData(::UnityEngine::UIElements::VisualElement* element, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
+  inline bool TryGetBindingData(::UnityEngine::UIElements::VisualElement* element, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> bindingId,
                                 ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*> bindingData);
 
   /// @brief Method TryGetBindingRequest, addr 0x708bed8, size 0x1ac, virtual false, abstract: false, final false
-  static inline bool TryGetBindingRequest(::UnityEngine::UIElements::VisualElement* element, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
+  static inline bool TryGetBindingRequest(::UnityEngine::UIElements::VisualElement* element, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> bindingId,
                                           ::by_ref<::UnityEngine::UIElements::Binding*> binding);
 
   /// @brief Method TryGetLastSourceBindingResult, addr 0x7088eb4, size 0x88, virtual false, abstract: false, final false
@@ -1538,7 +1538,7 @@ public:
   inline bool TryGetLastVersion(::System::Object* source, ::by_ref<int64_t> version);
 
   /// @brief Method UnregisterBinding, addr 0x708a4ac, size 0x300, virtual false, abstract: false, final false
-  inline void UnregisterBinding(::UnityEngine::UIElements::VisualElement* element, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> bindingId);
+  inline void UnregisterBinding(::UnityEngine::UIElements::VisualElement* element, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> bindingId);
 
   /// @brief Method UpdateVersion, addr 0x7088c84, size 0x14, virtual false, abstract: false, final false
   inline void UpdateVersion(::System::Object* source, int64_t version);

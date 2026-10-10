@@ -83,7 +83,7 @@ public:
   static inline float_t Angle(::UnityEngine::Vector2 from, ::UnityEngine::Vector2 to);
 
   /// @brief Method Angle, addr 0x6f2d36c, size 0xec, virtual false, abstract: false, final false
-  static inline float_t Angle(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> from, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> to);
+  static inline float_t Angle(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2 const> from, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2 const> to);
 
   /// @brief Method ClampMagnitude, addr 0x6f2d5e4, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 ClampMagnitude(::UnityEngine::Vector2 vector, float_t maxLength);
@@ -95,7 +95,7 @@ public:
   static inline float_t Dot(::UnityEngine::Vector2 lhs, ::UnityEngine::Vector2 rhs);
 
   /// @brief Method Dot, addr 0x6f2d1f0, size 0x14, virtual false, abstract: false, final false
-  static inline float_t Dot(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> lhs, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> rhs);
+  static inline float_t Dot(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2 const> lhs, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2 const> rhs);
 
   /// [IsReadOnly]
   /// @brief Method Equals, addr 0x6f2d0f0, size 0x8c, virtual true, abstract: false, final false
@@ -107,7 +107,7 @@ public:
 
   /// [IsReadOnly]
   /// @brief Method Equals, addr 0x6f2d1a0, size 0x2c, virtual false, abstract: false, final false
-  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> other);
+  inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2 const> other);
 
   /// [IsReadOnly]
   /// @brief Method GetHashCode, addr 0x6f2d0c0, size 0x30, virtual true, abstract: false, final false
@@ -126,7 +126,7 @@ public:
   static inline ::UnityEngine::Vector2 Min(::UnityEngine::Vector2 lhs, ::UnityEngine::Vector2 rhs);
 
   /// @brief Method Normalize, addr 0x6f2cdfc, size 0xc8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector2 Normalize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2> value);
+  static inline ::UnityEngine::Vector2 Normalize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2 const> value);
 
   /// @brief Method Normalize, addr 0x6f2cec4, size 0x90, virtual false, abstract: false, final false
   inline void Normalize();

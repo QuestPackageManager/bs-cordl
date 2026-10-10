@@ -444,19 +444,20 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
 //  Writing Method size for method: ::UnityEngine::Rendering::Vrs.ShadingRateImageToColorMaskTexture
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>,
-                                                                ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>,
+                                                                ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>)>(
     &::UnityEngine::Rendering::Vrs::ShadingRateImageToColorMaskTexture)> {
   constexpr static std::size_t size = 0x930;
   constexpr static std::size_t addrs = 0x6bee584;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Vrs*>(), { "ShadingRateImageToColorMaskTexture",
-                                                                                                     {},
-                                                                                                     { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(),
-                                                                                                       ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                                                                                                       ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Vrs*>(), { "ShadingRateImageToColorMaskTexture",
+                                                                                              {},
+                                                                                              { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(),
+                                                                                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                                                                                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>() } })));
     return ___internal_method;
   }
 };
@@ -565,14 +566,15 @@ inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle UnityEngine::R
                                                                                                          colorMaskDimension, yFlip);
 }
 inline void UnityEngine::Rendering::Vrs::ShadingRateImageToColorMaskTexture(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
-                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> sriTextureHandle,
-                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> colorMaskHandle) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Vrs*>(), { "ShadingRateImageToColorMaskTexture",
-                                                                                                   {},
-                                                                                                   { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(),
-                                                                                                     ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>(),
-                                                                                                     ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>() } })));
+                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> sriTextureHandle,
+                                                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> colorMaskHandle) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Vrs*>(), { "ShadingRateImageToColorMaskTexture",
+                                                                                            {},
+                                                                                            { ::i2c::type_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraph*>(),
+                                                                                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>(),
+                                                                                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, renderGraph, sriTextureHandle, colorMaskHandle);
 }
 inline void UnityEngine::Rendering::Vrs::ConversionDispatch(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, ::UnityEngine::Rendering::Vrs_ConversionPassData* conversionPassData) {

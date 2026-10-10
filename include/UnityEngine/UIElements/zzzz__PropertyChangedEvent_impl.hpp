@@ -94,14 +94,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 //  Writing Method size for method: ::UnityEngine::UIElements::PropertyChangedEvent.GetPooled
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::PropertyChangedEvent* (*)(::by_ref<::UnityEngine::UIElements::BindingId>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::PropertyChangedEvent* (*)(::by_ref<::UnityEngine::UIElements::BindingId const>)>(
     &::UnityEngine::UIElements::PropertyChangedEvent::GetPooled)> {
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x71551bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyChangedEvent*>(),
-                                                                                           { "GetPooled", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>() } })));
+                                                                                           { "GetPooled", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId const>>() } })));
     return ___internal_method;
   }
 };
@@ -131,9 +131,9 @@ inline void UnityEngine::UIElements::PropertyChangedEvent::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyChangedEvent*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::PropertyChangedEvent* UnityEngine::UIElements::PropertyChangedEvent::GetPooled(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId> property) {
+inline ::UnityEngine::UIElements::PropertyChangedEvent* UnityEngine::UIElements::PropertyChangedEvent::GetPooled(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> property) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyChangedEvent*>(),
-                                                                                         { "GetPooled", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId>>() } })));
+                                                                                         { "GetPooled", {}, { ::i2c::type_of<::by_ref<::UnityEngine::UIElements::BindingId const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::PropertyChangedEvent*>(nullptr, ___internal_method, property);
 }
 inline ::UnityEngine::UIElements::PropertyChangedEvent* UnityEngine::UIElements::PropertyChangedEvent::New_ctor() {

@@ -24,7 +24,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::CullContextData.SetRenderContext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::CullContextData::*)(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::CullContextData::*)(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext const>)>(
     &::UnityEngine::Rendering::Universal::CullContextData::SetRenderContext)> {
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x6bf1c74;
@@ -32,7 +32,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::CullContextData*>(),
-                                                             { "SetRenderContext", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ScriptableRenderContext>>() } })));
+                                                             { "SetRenderContext", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ScriptableRenderContext const>>() } })));
     return ___internal_method;
   }
 };
@@ -95,10 +95,10 @@ inline void UnityEngine::Rendering::Universal::CullContextData::Reset() {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::Universal::CullContextData*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::Universal::CullContextData::SetRenderContext(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> renderContext) {
+inline void UnityEngine::Rendering::Universal::CullContextData::SetRenderContext(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ScriptableRenderContext const> renderContext) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::CullContextData*>(),
-                                                           { "SetRenderContext", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ScriptableRenderContext>>() } })));
+                                                           { "SetRenderContext", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ScriptableRenderContext const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderContext);
 }
 inline ::UnityEngine::Rendering::CullingResults UnityEngine::Rendering::Universal::CullContextData::Cull(::by_ref<::UnityEngine::Rendering::ScriptableCullingParameters> parameters) {

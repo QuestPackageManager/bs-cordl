@@ -167,26 +167,26 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&
 //  Writing Method size for method: ::UnityEngine::Resources.EntityIdToObject_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::EntityId>)>(&::UnityEngine::Resources::EntityIdToObject_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::EntityId const>)>(&::UnityEngine::Resources::EntityIdToObject_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6f33da0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "EntityIdToObject_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId>>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "EntityIdToObject_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Resources.EntityIdIsValid_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::EntityId>)>(&::UnityEngine::Resources::EntityIdIsValid_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::EntityId const>)>(&::UnityEngine::Resources::EntityIdIsValid_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6f33e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "EntityIdIsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId>>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "EntityIdIsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId const>>() } })));
     return ___internal_method;
   }
 };
@@ -278,14 +278,14 @@ inline ::System::IntPtr UnityEngine::Resources::UnloadUnusedAssets_Injected() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "UnloadUnusedAssets_Injected", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method);
 }
-inline ::System::IntPtr UnityEngine::Resources::EntityIdToObject_Injected(::by_ref<::UnityEngine::EntityId> entityId) {
+inline ::System::IntPtr UnityEngine::Resources::EntityIdToObject_Injected(::by_ref<::UnityEngine::EntityId const> entityId) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "EntityIdToObject_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId>>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "EntityIdToObject_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, entityId);
 }
-inline bool UnityEngine::Resources::EntityIdIsValid_Injected(::by_ref<::UnityEngine::EntityId> entityId) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "EntityIdIsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId>>() } })));
+inline bool UnityEngine::Resources::EntityIdIsValid_Injected(::by_ref<::UnityEngine::EntityId const> entityId) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Resources*>(), { "EntityIdIsValid_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, entityId);
 }
 // Ctor Parameters []

@@ -140,17 +140,19 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
 //  Writing Method size for method: ::GlobalNamespace::OVROverlayMeshGenerator.InverseTransformVert
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>, float_t)>(
-    &::GlobalNamespace::OVROverlayMeshGenerator::InverseTransformVert)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::UnityEngine::Vector3 (*)(::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3 const>, float_t)>(
+        &::GlobalNamespace::OVROverlayMeshGenerator::InverseTransformVert)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x62b6e5c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVROverlayMeshGenerator*>(),
-                                                                                           { "InverseTransformVert",
-                                                                                             {},
-                                                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                                                                               ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<float_t>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVROverlayMeshGenerator*>(),
+                                                             { "InverseTransformVert",
+                                                               {},
+                                                               { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
@@ -586,14 +588,15 @@ inline void GlobalNamespace::OVROverlayMeshGenerator::GenerateMesh(::System::Col
                               ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Rect>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, verts, uvs, cubeUVs, tris, shape, position, rotation, scale, rect);
 }
-inline ::UnityEngine::Vector3 GlobalNamespace::OVROverlayMeshGenerator::InverseTransformVert(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> vert,
-                                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> position,
-                                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3> scale, float_t worldScale) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVROverlayMeshGenerator*>(),
-                                                                                         { "InverseTransformVert",
-                                                                                           {},
-                                                                                           { ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                                                                             ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(), ::i2c::type_of<float_t>() } })));
+inline ::UnityEngine::Vector3 GlobalNamespace::OVROverlayMeshGenerator::InverseTransformVert(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> vert,
+                                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> position,
+                                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> scale, float_t worldScale) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVROverlayMeshGenerator*>(),
+                                                           { "InverseTransformVert",
+                                                             {},
+                                                             { ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(nullptr, ___internal_method, vert, position, scale, worldScale);
 }
 inline ::UnityEngine::Vector2 GlobalNamespace::OVROverlayMeshGenerator::GetSphereUV(float_t theta, float_t phi, float_t expandScale) {

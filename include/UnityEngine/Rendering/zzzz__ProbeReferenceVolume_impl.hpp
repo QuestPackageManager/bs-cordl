@@ -1996,14 +1996,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellData::*)(
-    ::by_ref<::UnityEngine::Rendering::CellData_ProbeReferenceVolume_PerScenarioData>)>(&::UnityEngine::Rendering::ProbeReferenceVolume_CellData::CleanupPerScenarioData)> {
+    ::by_ref<::UnityEngine::Rendering::CellData_ProbeReferenceVolume_PerScenarioData const>)>(&::UnityEngine::Rendering::ProbeReferenceVolume_CellData::CleanupPerScenarioData)> {
   constexpr static std::size_t size = 0x144;
   constexpr static std::size_t addrs = 0x6baa7c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume_CellData*>(),
-                                                { "CleanupPerScenarioData", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CellData_ProbeReferenceVolume_PerScenarioData>>() } })));
+                                                { "CleanupPerScenarioData", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CellData_ProbeReferenceVolume_PerScenarioData const>>() } })));
     return ___internal_method;
   }
 };
@@ -2238,10 +2238,11 @@ inline void UnityEngine::Rendering::ProbeReferenceVolume_CellData::set_layer(::U
                                                                                          { "set_layer", {}, { ::i2c::type_of<::Unity::Collections::NativeArray_1<uint8_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void UnityEngine::Rendering::ProbeReferenceVolume_CellData::CleanupPerScenarioData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CellData_ProbeReferenceVolume_PerScenarioData> data) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume_CellData*>(),
-                                                           { "CleanupPerScenarioData", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CellData_ProbeReferenceVolume_PerScenarioData>>() } })));
+inline void
+UnityEngine::Rendering::ProbeReferenceVolume_CellData::CleanupPerScenarioData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CellData_ProbeReferenceVolume_PerScenarioData const> data) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume_CellData*>(),
+                                              { "CleanupPerScenarioData", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::CellData_ProbeReferenceVolume_PerScenarioData const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, data);
 }
 inline void UnityEngine::Rendering::ProbeReferenceVolume_CellData::Cleanup(bool cleanScenarioList) {
@@ -5770,7 +5771,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeReferenceVolume.Initialize
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::by_ref<::UnityEngine::Rendering::ProbeVolumeSystemParameters>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::by_ref<::UnityEngine::Rendering::ProbeVolumeSystemParameters const>)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::Initialize)> {
   constexpr static std::size_t size = 0x4a4;
   constexpr static std::size_t addrs = 0x6b98f68;
@@ -5778,7 +5779,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(),
-                                                             { "Initialize", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ProbeVolumeSystemParameters>>() } })));
+                                                             { "Initialize", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ProbeVolumeSystemParameters const>>() } })));
     return ___internal_method;
   }
 };
@@ -9254,9 +9255,10 @@ inline ::UnityEngine::Rendering::ProbeReferenceVolume* UnityEngine::Rendering::P
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "get_instance", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::ProbeReferenceVolume*>(nullptr, ___internal_method);
 }
-inline void UnityEngine::Rendering::ProbeReferenceVolume::Initialize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeVolumeSystemParameters> parameters) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(),
-                                                                                         { "Initialize", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ProbeVolumeSystemParameters>>() } })));
+inline void UnityEngine::Rendering::ProbeReferenceVolume::Initialize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeVolumeSystemParameters const> parameters) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(),
+                                                           { "Initialize", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ProbeVolumeSystemParameters const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, parameters);
 }
 inline void UnityEngine::Rendering::ProbeReferenceVolume::SetEnableStateFromSRP(bool srpEnablesPV) {

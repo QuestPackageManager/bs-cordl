@@ -1564,14 +1564,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr
 //  Writing Method size for method: ::UnityEngine::GameObject.CompareTagHandle_Internal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::by_ref<::UnityEngine::TagHandle>)>(&::UnityEngine::GameObject::CompareTagHandle_Internal_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::by_ref<::UnityEngine::TagHandle const>)>(&::UnityEngine::GameObject::CompareTagHandle_Internal_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6f3d1d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(),
-                                                { "CompareTagHandle_Internal_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::TagHandle>>() } })));
+                                                { "CompareTagHandle_Internal_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::TagHandle const>>() } })));
     return ___internal_method;
   }
 };
@@ -1690,8 +1690,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by
 //  Writing Method size for method: ::UnityEngine::GameObject.InstantiateGameObjects_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::EntityId>, ::System::IntPtr, ::System::IntPtr, int32_t, ::by_ref<::UnityEngine::SceneManagement::Scene>)>(
-    &::UnityEngine::GameObject::InstantiateGameObjects_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::EntityId const>, ::System::IntPtr, ::System::IntPtr, int32_t,
+                                                                ::by_ref<::UnityEngine::SceneManagement::Scene const>)>(&::UnityEngine::GameObject::InstantiateGameObjects_Injected)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x6f3df68;
 
@@ -1700,15 +1700,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(),
                                                              { "InstantiateGameObjects_Injected",
                                                                {},
-                                                               { ::i2c::type_of<::by_ref<::UnityEngine::EntityId>>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>(),
-                                                                 ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::Scene>>() } })));
+                                                               { ::i2c::type_of<::by_ref<::UnityEngine::EntityId const>>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>(),
+                                                                 ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::Scene const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::GameObject.GetSceneInternal_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::EntityId>, ::by_ref<::UnityEngine::SceneManagement::Scene>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::EntityId const>, ::by_ref<::UnityEngine::SceneManagement::Scene>)>(
     &::UnityEngine::GameObject::GetSceneInternal_Injected)> {
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x6f3e3c0;
@@ -1717,7 +1717,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(),
-                            { "GetSceneInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId>>(), ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::Scene>>() } })));
+                            { "GetSceneInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId const>>(), ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::Scene>>() } })));
     return ___internal_method;
   }
 };
@@ -2468,10 +2468,10 @@ inline bool UnityEngine::GameObject::CompareTag_Internal_Injected(::System::IntP
                                        { "CompareTag_Internal_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, _unity_self, tag);
 }
-inline bool UnityEngine::GameObject::CompareTagHandle_Internal_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::TagHandle> tag) {
+inline bool UnityEngine::GameObject::CompareTagHandle_Internal_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::TagHandle const> tag) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(),
-                                              { "CompareTagHandle_Internal_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::TagHandle>>() } })));
+                                              { "CompareTagHandle_Internal_Injected", {}, { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::by_ref<::UnityEngine::TagHandle const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, _unity_self, tag);
 }
 inline ::System::IntPtr UnityEngine::GameObject::FindGameObjectWithTag_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> tag) {
@@ -2531,21 +2531,21 @@ inline ::System::IntPtr UnityEngine::GameObject::Find_Injected(::by_ref<::UnityE
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "Find_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, name);
 }
-inline void UnityEngine::GameObject::InstantiateGameObjects_Injected(::by_ref<::UnityEngine::EntityId> sourceInstanceID, ::System::IntPtr newInstanceIDs, ::System::IntPtr newTransformInstanceIDs,
-                                                                     int32_t count, ::by_ref<::UnityEngine::SceneManagement::Scene> destinationScene) {
+inline void UnityEngine::GameObject::InstantiateGameObjects_Injected(::by_ref<::UnityEngine::EntityId const> sourceInstanceID, ::System::IntPtr newInstanceIDs,
+                                                                     ::System::IntPtr newTransformInstanceIDs, int32_t count, ::by_ref<::UnityEngine::SceneManagement::Scene const> destinationScene) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(),
                                                            { "InstantiateGameObjects_Injected",
                                                              {},
-                                                             { ::i2c::type_of<::by_ref<::UnityEngine::EntityId>>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>(),
-                                                               ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::Scene>>() } })));
+                                                             { ::i2c::type_of<::by_ref<::UnityEngine::EntityId const>>(), ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<::System::IntPtr>(),
+                                                               ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::Scene const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, sourceInstanceID, newInstanceIDs, newTransformInstanceIDs, count, destinationScene);
 }
-inline void UnityEngine::GameObject::GetSceneInternal_Injected(::by_ref<::UnityEngine::EntityId> entityId, ::by_ref<::UnityEngine::SceneManagement::Scene> ret) {
+inline void UnityEngine::GameObject::GetSceneInternal_Injected(::by_ref<::UnityEngine::EntityId const> entityId, ::by_ref<::UnityEngine::SceneManagement::Scene> ret) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(),
-                          { "GetSceneInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId>>(), ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::Scene>>() } })));
+                          { "GetSceneInternal_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::EntityId const>>(), ::i2c::type_of<::by_ref<::UnityEngine::SceneManagement::Scene>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, entityId, ret);
 }
 inline void UnityEngine::GameObject::get_scene_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::SceneManagement::Scene> ret) {

@@ -21,18 +21,19 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::IntegerTime::Rat
 //  Writing Method size for method: ::Unity::IntegerTime::RationalTimeExtensions.Convert_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::IntegerTime::RationalTime>, ::by_ref<::Unity::IntegerTime::RationalTime_TicksPerSecond>,
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::IntegerTime::RationalTime const>, ::by_ref<::Unity::IntegerTime::RationalTime_TicksPerSecond const>,
                                                                 ::by_ref<::Unity::IntegerTime::RationalTime>)>(&::Unity::IntegerTime::RationalTimeExtensions::Convert_Injected)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x6eaeba0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IntegerTime::RationalTimeExtensions*>(),
-                                                { "Convert_Injected",
-                                                  {},
-                                                  { ::i2c::type_of<::by_ref<::Unity::IntegerTime::RationalTime>>(), ::i2c::type_of<::by_ref<::Unity::IntegerTime::RationalTime_TicksPerSecond>>(),
-                                                    ::i2c::type_of<::by_ref<::Unity::IntegerTime::RationalTime>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::Unity::IntegerTime::RationalTimeExtensions*>(),
+                                         { "Convert_Injected",
+                                           {},
+                                           { ::i2c::type_of<::by_ref<::Unity::IntegerTime::RationalTime const>>(), ::i2c::type_of<::by_ref<::Unity::IntegerTime::RationalTime_TicksPerSecond const>>(),
+                                             ::i2c::type_of<::by_ref<::Unity::IntegerTime::RationalTime>>() } })));
     return ___internal_method;
   }
 };
@@ -42,14 +43,15 @@ inline ::Unity::IntegerTime::RationalTime Unity::IntegerTime::RationalTimeExtens
                                               { "Convert", {}, { ::i2c::type_of<::Unity::IntegerTime::RationalTime>(), ::i2c::type_of<::Unity::IntegerTime::RationalTime_TicksPerSecond>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::IntegerTime::RationalTime>(nullptr, ___internal_method, time, rate);
 }
-inline void Unity::IntegerTime::RationalTimeExtensions::Convert_Injected(::by_ref<::Unity::IntegerTime::RationalTime> time, ::by_ref<::Unity::IntegerTime::RationalTime_TicksPerSecond> rate,
-                                                                         ::by_ref<::Unity::IntegerTime::RationalTime> ret) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IntegerTime::RationalTimeExtensions*>(),
-                                              { "Convert_Injected",
-                                                {},
-                                                { ::i2c::type_of<::by_ref<::Unity::IntegerTime::RationalTime>>(), ::i2c::type_of<::by_ref<::Unity::IntegerTime::RationalTime_TicksPerSecond>>(),
-                                                  ::i2c::type_of<::by_ref<::Unity::IntegerTime::RationalTime>>() } })));
+inline void Unity::IntegerTime::RationalTimeExtensions::Convert_Injected(::by_ref<::Unity::IntegerTime::RationalTime const> time,
+                                                                         ::by_ref<::Unity::IntegerTime::RationalTime_TicksPerSecond const> rate, ::by_ref<::Unity::IntegerTime::RationalTime> ret) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Unity::IntegerTime::RationalTimeExtensions*>(),
+                                       { "Convert_Injected",
+                                         {},
+                                         { ::i2c::type_of<::by_ref<::Unity::IntegerTime::RationalTime const>>(), ::i2c::type_of<::by_ref<::Unity::IntegerTime::RationalTime_TicksPerSecond const>>(),
+                                           ::i2c::type_of<::by_ref<::Unity::IntegerTime::RationalTime>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, time, rate, ret);
 }
 // Ctor Parameters []

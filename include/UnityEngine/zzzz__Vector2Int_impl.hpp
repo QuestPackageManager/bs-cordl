@@ -215,13 +215,13 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Vect
 //  Writing Method size for method: ::UnityEngine::Vector2Int.Equals
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Vector2Int::*)(::by_ref<::UnityEngine::Vector2Int>)>(&::UnityEngine::Vector2Int::Equals)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Vector2Int::*)(::by_ref<::UnityEngine::Vector2Int const>)>(&::UnityEngine::Vector2Int::Equals)> {
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x6f2dc90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector2Int>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2Int>>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector2Int>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2Int const>>() } })));
     return ___internal_method;
   }
 };
@@ -400,9 +400,9 @@ inline bool UnityEngine::Vector2Int::Equals(::UnityEngine::Vector2Int other) {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector2Int>(), { "Equals", {}, { ::i2c::type_of<::UnityEngine::Vector2Int>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
-inline bool UnityEngine::Vector2Int::Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2Int> other) {
+inline bool UnityEngine::Vector2Int::Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2Int const> other) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector2Int>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2Int>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Vector2Int>(), { "Equals", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2Int const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
 inline int32_t UnityEngine::Vector2Int::GetHashCode() {

@@ -486,8 +486,8 @@ public:
 
   /// @brief Method MakeVectorGraphics9SliceBackground_Injected, addr 0x726a46c, size 0x9c, virtual false, abstract: false, final false
   static inline void MakeVectorGraphics9SliceBackground_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> svgVertices, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> svgIndices,
-                                                                 float_t svgWidth, float_t svgHeight, ::by_ref<::UnityEngine::Rect> targetRect, ::by_ref<::UnityEngine::Vector4> sliceLTRB,
-                                                                 ::by_ref<::UnityEngine::Color> tint, ::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage> colorPage,
+                                                                 float_t svgWidth, float_t svgHeight, ::by_ref<::UnityEngine::Rect const> targetRect, ::by_ref<::UnityEngine::Vector4 const> sliceLTRB,
+                                                                 ::by_ref<::UnityEngine::Color const> tint, ::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage const> colorPage,
                                                                  ::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface> ret);
 
   /// [ThreadSafe]
@@ -499,9 +499,9 @@ public:
 
   /// @brief Method MakeVectorGraphicsStretchBackground_Injected, addr 0x726a230, size 0xa4, virtual false, abstract: false, final false
   static inline void MakeVectorGraphicsStretchBackground_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> svgVertices, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> svgIndices,
-                                                                  float_t svgWidth, float_t svgHeight, ::by_ref<::UnityEngine::Rect> targetRect, ::by_ref<::UnityEngine::Rect> sourceUV,
-                                                                  ::UnityEngine::ScaleMode scaleMode, ::by_ref<::UnityEngine::Color> tint,
-                                                                  ::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage> colorPage,
+                                                                  float_t svgWidth, float_t svgHeight, ::by_ref<::UnityEngine::Rect const> targetRect, ::by_ref<::UnityEngine::Rect const> sourceUV,
+                                                                  ::UnityEngine::ScaleMode scaleMode, ::by_ref<::UnityEngine::Color const> tint,
+                                                                  ::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage const> colorPage,
                                                                   ::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface> ret);
 
 protected:

@@ -520,8 +520,8 @@ public:
 
   /// @brief Method Render, addr 0x6d2b628, size 0xac4, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
-                     ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> src,
-                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> dest, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle overlayUITexture,
+                     ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> src,
+                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> dest, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle overlayUITexture,
                      bool useFullScreenViewport);
 
   /// @brief Method Setup, addr 0x6d2b128, size 0x4, virtual false, abstract: false, final false

@@ -125,12 +125,12 @@ public:
   static inline ::UnityEngine::Rendering::GPUDrivenProcessor___c* New_ctor();
 
   /// @brief Method <.cctor>b__34_0, addr 0x6f89e98, size 0x2b0, virtual false, abstract: false, final false
-  inline void __cctor_b__34_0(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative> nativeData,
+  inline void __cctor_b__34_0(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative const> nativeData,
                               ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* meshes, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* materials,
                               ::UnityEngine::Rendering::GPUDrivenRendererDataCallback* callback);
 
   /// @brief Method <.cctor>b__34_1, addr 0x6f8a148, size 0x15c, virtual false, abstract: false, final false
-  inline void __cctor_b__34_1(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative> nativeData, ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback* callback);
+  inline void __cctor_b__34_1(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative const> nativeData, ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback* callback);
 
   /// @brief Method .ctor, addr 0x6f89e94, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();

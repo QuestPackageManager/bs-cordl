@@ -281,34 +281,34 @@ public:
   constexpr operator ::System::IDisposable*() noexcept;
 
   /// @brief Method ClearFlags, addr 0x6f9a410, size 0x4, virtual false, abstract: false, final false
-  inline void ClearFlags(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags);
+  inline void ClearFlags(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, ::Unity::Hierarchy::HierarchyNodeFlags flags);
 
   /// [FreeFunction("HierarchyViewModelBindings::ClearFlagsNode", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method ClearFlagsNode, addr 0x6f9a414, size 0x68, virtual false, abstract: false, final false
-  inline void ClearFlagsNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags);
+  inline void ClearFlagsNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, ::Unity::Hierarchy::HierarchyNodeFlags flags);
 
   /// @brief Method ClearFlagsNode_Injected, addr 0x6f9a8c8, size 0x54, virtual false, abstract: false, final false
-  static inline void ClearFlagsNode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags);
+  static inline void ClearFlagsNode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, ::Unity::Hierarchy::HierarchyNodeFlags flags);
 
   /// @brief Method ClearFlagsRecursive, addr 0x6f9a47c, size 0x4, virtual false, abstract: false, final false
-  inline void ClearFlagsRecursive(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags,
+  inline void ClearFlagsRecursive(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, ::Unity::Hierarchy::HierarchyNodeFlags flags,
                                   ::Unity::Hierarchy::HierarchyTraversalDirection direction);
 
   /// [FreeFunction("HierarchyViewModelBindings::ClearFlagsRecursiveNode", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method ClearFlagsRecursiveNode, addr 0x6f9a480, size 0x70, virtual false, abstract: false, final false
-  inline void ClearFlagsRecursiveNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags,
+  inline void ClearFlagsRecursiveNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, ::Unity::Hierarchy::HierarchyNodeFlags flags,
                                       ::Unity::Hierarchy::HierarchyTraversalDirection direction);
 
   /// @brief Method ClearFlagsRecursiveNode_Injected, addr 0x6f9a91c, size 0x5c, virtual false, abstract: false, final false
-  static inline void ClearFlagsRecursiveNode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags,
-                                                      ::Unity::Hierarchy::HierarchyTraversalDirection direction);
+  static inline void ClearFlagsRecursiveNode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node,
+                                                      ::Unity::Hierarchy::HierarchyNodeFlags flags, ::Unity::Hierarchy::HierarchyTraversalDirection direction);
 
   /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method Contains, addr 0x6f9a1cc, size 0x58, virtual false, abstract: false, final false
-  inline bool Contains(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  inline bool Contains(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// @brief Method Contains_Injected, addr 0x6f9a224, size 0x44, virtual false, abstract: false, final false
-  static inline bool Contains_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  static inline bool Contains_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// [FreeFunction("HierarchyViewModelBindings::Create", IsThreadSafe = true)]
   /// @brief Method Create, addr 0x6f99dc0, size 0x98, virtual false, abstract: false, final false
@@ -349,21 +349,21 @@ public:
   inline ::Unity::Hierarchy::HierarchyViewModel_Enumerator GetEnumerator();
 
   /// @brief Method HasAllFlags, addr 0x6f9a3a4, size 0x4, virtual false, abstract: false, final false
-  inline bool HasAllFlags(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags);
+  inline bool HasAllFlags(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, ::Unity::Hierarchy::HierarchyNodeFlags flags);
 
   /// [FreeFunction("HierarchyViewModelBindings::HasAllFlagsNode", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method HasAllFlagsNode, addr 0x6f9a3a8, size 0x68, virtual false, abstract: false, final false
-  inline bool HasAllFlagsNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags);
+  inline bool HasAllFlagsNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, ::Unity::Hierarchy::HierarchyNodeFlags flags);
 
   /// @brief Method HasAllFlagsNode_Injected, addr 0x6f9a874, size 0x54, virtual false, abstract: false, final false
-  static inline bool HasAllFlagsNode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags);
+  static inline bool HasAllFlagsNode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, ::Unity::Hierarchy::HierarchyNodeFlags flags);
 
   /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method IndexOf, addr 0x6f9a130, size 0x58, virtual false, abstract: false, final false
-  inline int32_t IndexOf(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  inline int32_t IndexOf(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// @brief Method IndexOf_Injected, addr 0x6f9a188, size 0x44, virtual false, abstract: false, final false
-  static inline int32_t IndexOf_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node);
+  static inline int32_t IndexOf_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// [RequiredByNativeCode]
   /// @brief Method InvokeFlagsChanged, addr 0x6f9ab98, size 0xb4, virtual false, abstract: false, final false
@@ -382,7 +382,7 @@ public:
   inline void SetFlags(::Unity::Hierarchy::HierarchyNodeFlags flags);
 
   /// @brief Method SetFlags, addr 0x6f9a2c4, size 0x4, virtual false, abstract: false, final false
-  inline void SetFlags(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags);
+  inline void SetFlags(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, ::Unity::Hierarchy::HierarchyNodeFlags flags);
 
   /// [FreeFunction("HierarchyViewModelBindings::SetFlagsAll", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method SetFlagsAll, addr 0x6f9a26c, size 0x58, virtual false, abstract: false, final false
@@ -393,23 +393,23 @@ public:
 
   /// [FreeFunction("HierarchyViewModelBindings::SetFlagsNode", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method SetFlagsNode, addr 0x6f9a2c8, size 0x68, virtual false, abstract: false, final false
-  inline void SetFlagsNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags);
+  inline void SetFlagsNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, ::Unity::Hierarchy::HierarchyNodeFlags flags);
 
   /// @brief Method SetFlagsNode_Injected, addr 0x6f9a7c4, size 0x54, virtual false, abstract: false, final false
-  static inline void SetFlagsNode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags);
+  static inline void SetFlagsNode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, ::Unity::Hierarchy::HierarchyNodeFlags flags);
 
   /// @brief Method SetFlagsRecursive, addr 0x6f9a330, size 0x4, virtual false, abstract: false, final false
-  inline void SetFlagsRecursive(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags,
+  inline void SetFlagsRecursive(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, ::Unity::Hierarchy::HierarchyNodeFlags flags,
                                 ::Unity::Hierarchy::HierarchyTraversalDirection direction);
 
   /// [FreeFunction("HierarchyViewModelBindings::SetFlagsRecursiveNode", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
   /// @brief Method SetFlagsRecursiveNode, addr 0x6f9a334, size 0x70, virtual false, abstract: false, final false
-  inline void SetFlagsRecursiveNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags,
+  inline void SetFlagsRecursiveNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, ::Unity::Hierarchy::HierarchyNodeFlags flags,
                                     ::Unity::Hierarchy::HierarchyTraversalDirection direction);
 
   /// @brief Method SetFlagsRecursiveNode_Injected, addr 0x6f9a818, size 0x5c, virtual false, abstract: false, final false
-  static inline void SetFlagsRecursiveNode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode> node, ::Unity::Hierarchy::HierarchyNodeFlags flags,
-                                                    ::Unity::Hierarchy::HierarchyTraversalDirection direction);
+  static inline void SetFlagsRecursiveNode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node,
+                                                    ::Unity::Hierarchy::HierarchyNodeFlags flags, ::Unity::Hierarchy::HierarchyTraversalDirection direction);
 
   /// [NativeMethod(IsThreadSafe = true)]
   /// @brief Method Update, addr 0x6f9a58c, size 0x50, virtual false, abstract: false, final false

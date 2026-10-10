@@ -400,8 +400,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr
 //  Writing Method size for method: ::UnityEngine::Rendering::CullingResults.ComputeDirectionalShadowMatricesAndCullingPrimitives_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, int32_t, int32_t, int32_t, ::by_ref<::UnityEngine::Vector3>, int32_t, float_t, ::by_ref<::UnityEngine::Matrix4x4>,
-                                                                ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Rendering::ShadowSplitData>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, int32_t, int32_t, int32_t, ::by_ref<::UnityEngine::Vector3 const>, int32_t, float_t,
+                                                                ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Rendering::ShadowSplitData>)>(
     &::UnityEngine::Rendering::CullingResults::ComputeDirectionalShadowMatricesAndCullingPrimitives_Injected)> {
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x6f7e89c;
@@ -412,9 +412,9 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr
         (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CullingResults>(),
                             { "ComputeDirectionalShadowMatricesAndCullingPrimitives_Injected",
                               {},
-                              { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                                ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(),
-                                ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ShadowSplitData>>() } })));
+                              { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(),
+                                ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(),
+                                ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ShadowSplitData>>() } })));
     return ___internal_method;
   }
 };
@@ -602,16 +602,16 @@ inline void UnityEngine::Rendering::CullingResults::FillLightAndReflectionProbeI
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, cullingResultsPtr, computeBuffer);
 }
 inline bool UnityEngine::Rendering::CullingResults::ComputeDirectionalShadowMatricesAndCullingPrimitives_Injected(
-    ::System::IntPtr cullingResultsPtr, int32_t activeLightIndex, int32_t splitIndex, int32_t splitCount, ::by_ref<::UnityEngine::Vector3> splitRatio, int32_t shadowResolution,
+    ::System::IntPtr cullingResultsPtr, int32_t activeLightIndex, int32_t splitIndex, int32_t splitCount, ::by_ref<::UnityEngine::Vector3 const> splitRatio, int32_t shadowResolution,
     float_t shadowNearPlaneOffset, ::by_ref<::UnityEngine::Matrix4x4> viewMatrix, ::by_ref<::UnityEngine::Matrix4x4> projMatrix, ::by_ref<::UnityEngine::Rendering::ShadowSplitData> shadowSplitData) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CullingResults>(),
                           { "ComputeDirectionalShadowMatricesAndCullingPrimitives_Injected",
                             {},
-                            { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>(),
-                              ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(),
-                              ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ShadowSplitData>>() } })));
+                            { ::i2c::type_of<::System::IntPtr>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Vector3 const>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<float_t>(), ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(),
+                              ::i2c::type_of<::by_ref<::UnityEngine::Matrix4x4>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::ShadowSplitData>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, cullingResultsPtr, activeLightIndex, splitIndex, splitCount, splitRatio, shadowResolution, shadowNearPlaneOffset,
                                                    viewMatrix, projMatrix, shadowSplitData);
 }

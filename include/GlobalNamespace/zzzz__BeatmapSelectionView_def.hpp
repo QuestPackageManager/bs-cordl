@@ -37,7 +37,7 @@ public:
   static inline ::GlobalNamespace::BeatmapSelectionView* New_ctor();
 
   /// @brief Method SetBeatmap, addr 0x5d85ccc, size 0xa4, virtual true, abstract: false, final false
-  inline void SetBeatmap(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
+  inline void SetBeatmap(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey);
 
   constexpr ::UnityW<::GlobalNamespace::LevelBar> const& __cordl_internal_get__levelBar() const;
 

@@ -152,7 +152,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::R
 //  Writing Method size for method: ::System::Net::RequestStream.Read
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::RequestStream::*)(::by_ref<::ArrayW<uint8_t>>, int32_t, int32_t)>(&::System::Net::RequestStream::Read)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::RequestStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Net::RequestStream::Read)> {
   constexpr static std::size_t size = 0x114;
   constexpr static std::size_t addrs = 0x67636e0;
 
@@ -372,7 +372,7 @@ inline int32_t System::Net::RequestStream::FillFromBuffer(::ArrayW<uint8_t> buff
       (::i2c::find_method(::i2c::class_of<::System::Net::RequestStream*>(), { "FillFromBuffer", {}, { ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, buffer, off, count);
 }
-inline int32_t System::Net::RequestStream::Read(::by_ref<::ArrayW<uint8_t>> buffer, int32_t offset, int32_t count) {
+inline int32_t System::Net::RequestStream::Read(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::System::Net::RequestStream*>(), 35 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, buffer, offset, count);
 }

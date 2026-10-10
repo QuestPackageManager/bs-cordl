@@ -36,7 +36,7 @@ public:
   /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
     requires(::cordl_internals::reference_type_constraint<T>)
-  static inline T Get(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::ProcessorInstance_Message> message);
+  static inline T Get(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::ProcessorInstance_Message const> message);
 
   /// [Extension]
   /// @brief Method SendMessage, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

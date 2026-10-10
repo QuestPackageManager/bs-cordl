@@ -98,7 +98,7 @@ public:
   inline void ClearContextsAndGrowBuffers();
 
   /// @brief Method CopyFromStaging, addr 0x6c671bc, size 0xc0, virtual false, abstract: false, final false
-  inline void CopyFromStaging(::UnityEngine::Rendering::CommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::IndirectBufferAllocInfo> allocInfo);
+  inline void CopyFromStaging(::UnityEngine::Rendering::CommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::IndirectBufferAllocInfo const> allocInfo);
 
   /// @brief Method Dispose, addr 0x6c66b38, size 0xd0, virtual true, abstract: false, final true
   inline void Dispose();

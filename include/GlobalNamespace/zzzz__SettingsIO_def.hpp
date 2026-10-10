@@ -348,7 +348,7 @@ public:
   static inline bool Decode(::by_ref<::BeatSaber::Settings::Settings> settings, ::StringW text);
 
   /// @brief Method Encode, addr 0x3515688, size 0x160, virtual false, abstract: false, final false
-  static inline ::StringW Encode(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings);
+  static inline ::StringW Encode(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings const> settings);
 
   /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
   /// @brief Method Init, addr 0x3514b08, size 0x78, virtual false, abstract: false, final false

@@ -161,7 +161,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform:
 //  Writing Method size for method: ::Oculus::Platform::CAPI_FilterCallback.Invoke
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::CAPI_FilterCallback::*)(::by_ref<::ArrayW<int16_t>>, ::System::UIntPtr, int32_t, int32_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::CAPI_FilterCallback::*)(::ArrayW<int16_t>, ::System::UIntPtr, int32_t, int32_t)>(
     &::Oculus::Platform::CAPI_FilterCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x61ed658;
@@ -176,7 +176,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform:
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::System::IAsyncResult* (::Oculus::Platform::CAPI_FilterCallback::*)(::by_ref<::ArrayW<int16_t>>, ::System::UIntPtr, int32_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
+    static_cast<::System::IAsyncResult* (::Oculus::Platform::CAPI_FilterCallback::*)(::ArrayW<int16_t>, ::System::UIntPtr, int32_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
         &::Oculus::Platform::CAPI_FilterCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x61ed66c;
@@ -206,11 +206,11 @@ inline void Oculus::Platform::CAPI_FilterCallback::_ctor(::System::Object* objec
                    (::i2c::find_method(::i2c::class_of<::Oculus::Platform::CAPI_FilterCallback*>(), { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline void Oculus::Platform::CAPI_FilterCallback::Invoke(::by_ref<::ArrayW<int16_t>> pcmData, ::System::UIntPtr pcmDataLength, int32_t frequency, int32_t numChannels) {
+inline void Oculus::Platform::CAPI_FilterCallback::Invoke(::ArrayW<int16_t> pcmData, ::System::UIntPtr pcmDataLength, int32_t frequency, int32_t numChannels) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Oculus::Platform::CAPI_FilterCallback*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, pcmData, pcmDataLength, frequency, numChannels);
 }
-inline ::System::IAsyncResult* Oculus::Platform::CAPI_FilterCallback::BeginInvoke(::by_ref<::ArrayW<int16_t>> pcmData, ::System::UIntPtr pcmDataLength, int32_t frequency, int32_t numChannels,
+inline ::System::IAsyncResult* Oculus::Platform::CAPI_FilterCallback::BeginInvoke(::ArrayW<int16_t> pcmData, ::System::UIntPtr pcmDataLength, int32_t frequency, int32_t numChannels,
                                                                                   ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Oculus::Platform::CAPI_FilterCallback*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, pcmData, pcmDataLength, frequency, numChannels, callback, object);

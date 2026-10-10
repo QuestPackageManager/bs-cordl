@@ -29,11 +29,11 @@ public:
 
   /// [Extension]
   /// @brief Method ShiftLeft, addr 0x34e6dbc, size 0x44, virtual false, abstract: false, final false
-  static inline uint64_t ShiftLeft(/* [IsReadOnly] */ ::by_ref<uint64_t> value, /* [IsReadOnly] */ ::by_ref<int32_t> shift);
+  static inline uint64_t ShiftLeft(/* [IsReadOnly] */ ::by_ref<uint64_t const> value, /* [IsReadOnly] */ ::by_ref<int32_t const> shift);
 
   /// [Extension]
   /// @brief Method ShiftRight, addr 0x34e6e00, size 0x5c, virtual false, abstract: false, final false
-  static inline uint64_t ShiftRight(/* [IsReadOnly] */ ::by_ref<uint64_t> value, /* [IsReadOnly] */ ::by_ref<int32_t> shift);
+  static inline uint64_t ShiftRight(/* [IsReadOnly] */ ::by_ref<uint64_t const> value, /* [IsReadOnly] */ ::by_ref<int32_t const> shift);
 
 protected:
   // Ctor Parameters []

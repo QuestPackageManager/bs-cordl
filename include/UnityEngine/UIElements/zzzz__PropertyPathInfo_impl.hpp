@@ -7,7 +7,7 @@
 //  Writing Method size for method: ::UnityEngine::UIElements::PropertyPathInfo._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyPathInfo::*)(::by_ref<::Unity::Properties::PropertyPath>, ::System::Type*)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyPathInfo::*)(::by_ref<::Unity::Properties::PropertyPath const>, ::System::Type*)>(
     &::UnityEngine::UIElements::PropertyPathInfo::_ctor)> {
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x708e168;
@@ -15,14 +15,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyPathInfo>(),
-                                                             { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>(), ::i2c::type_of<::System::Type*>() } })));
+                                                             { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath const>>(), ::i2c::type_of<::System::Type*>() } })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::PropertyPathInfo::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath> propertyPath, ::System::Type* type) {
+inline void UnityEngine::UIElements::PropertyPathInfo::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> propertyPath, ::System::Type* type) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyPathInfo>(),
-                                                           { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath>>(), ::i2c::type_of<::System::Type*>() } })));
+                                                           { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Properties::PropertyPath const>>(), ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, propertyPath, type);
 }
 // Ctor Parameters [CppParam { name: "propertyPath", ty: "::Unity::Properties::PropertyPath", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "type", ty: "::System::Type*",

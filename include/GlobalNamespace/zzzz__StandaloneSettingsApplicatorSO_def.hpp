@@ -23,7 +23,7 @@ class CORDL_TYPE StandaloneSettingsApplicatorSO : public ::GlobalNamespace::Sett
 public:
   // Declarations
   /// @brief Method ApplyWindowSettings, addr 0x5d1c418, size 0x15c, virtual true, abstract: false, final false
-  inline void ApplyWindowSettings(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::WindowSettings> settings);
+  inline void ApplyWindowSettings(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::WindowSettings const> settings);
 
   static inline ::GlobalNamespace::StandaloneSettingsApplicatorSO* New_ctor();
 

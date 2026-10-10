@@ -86,9 +86,9 @@ template <typename T> inline int32_t Unity::Collections::FixedList64Bytes_1<T>::
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(), 2 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-template <typename T> inline void Unity::Collections::FixedList64Bytes_1<T>::Add(/* [IsReadOnly] */ ::by_ref<T> item) {
+template <typename T> inline void Unity::Collections::FixedList64Bytes_1<T>::Add(/* [IsReadOnly] */ ::by_ref<T const> item) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(), { "Add", {}, { ::i2c::type_of<::by_ref<T>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(), { "Add", {}, { ::i2c::type_of<::by_ref<T const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, item);
 }
 template <typename T> inline void Unity::Collections::FixedList64Bytes_1<T>::AddRange(void* ptr, int32_t length) {
@@ -96,9 +96,9 @@ template <typename T> inline void Unity::Collections::FixedList64Bytes_1<T>::Add
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(), { "AddRange", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, ptr, length);
 }
-template <typename T> inline void Unity::Collections::FixedList64Bytes_1<T>::AddNoResize(/* [IsReadOnly] */ ::by_ref<T> item) {
+template <typename T> inline void Unity::Collections::FixedList64Bytes_1<T>::AddNoResize(/* [IsReadOnly] */ ::by_ref<T const> item) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(), { "AddNoResize", {}, { ::i2c::type_of<::by_ref<T>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(), { "AddNoResize", {}, { ::i2c::type_of<::by_ref<T const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, item);
 }
 template <typename T> inline void Unity::Collections::FixedList64Bytes_1<T>::AddRangeNoResize(void* ptr, int32_t length) {
@@ -106,9 +106,10 @@ template <typename T> inline void Unity::Collections::FixedList64Bytes_1<T>::Add
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(), { "AddRangeNoResize", {}, { ::i2c::type_of<void*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, ptr, length);
 }
-template <typename T> inline void Unity::Collections::FixedList64Bytes_1<T>::AddReplicate(/* [IsReadOnly] */ ::by_ref<T> value, int32_t count) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(), { "AddReplicate", {}, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<int32_t>() } })));
+template <typename T> inline void Unity::Collections::FixedList64Bytes_1<T>::AddReplicate(/* [IsReadOnly] */ ::by_ref<T const> value, int32_t count) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(), { "AddReplicate", {}, { ::i2c::type_of<::by_ref<T const>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value, count);
 }
 template <typename T> inline void Unity::Collections::FixedList64Bytes_1<T>::Clear() {
@@ -126,9 +127,9 @@ template <typename T> inline void Unity::Collections::FixedList64Bytes_1<T>::Ins
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(), { "InsertRange", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, index, count);
 }
-template <typename T> inline void Unity::Collections::FixedList64Bytes_1<T>::Insert(int32_t index, /* [IsReadOnly] */ ::by_ref<T> item) {
+template <typename T> inline void Unity::Collections::FixedList64Bytes_1<T>::Insert(int32_t index, /* [IsReadOnly] */ ::by_ref<T const> item) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(), { "Insert", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<T>>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(), { "Insert", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::by_ref<T const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, index, item);
 }
 template <typename T> inline void Unity::Collections::FixedList64Bytes_1<T>::RemoveAtSwapBack(int32_t index) {
@@ -162,23 +163,23 @@ template <typename T> inline ::Unity::Collections::NativeArray_1<T> Unity::Colle
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<T>>(*this, ___internal_method, allocator);
 }
 template <typename T>
-inline bool Unity::Collections::FixedList64Bytes_1<T>::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a,
-                                                                   /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList32Bytes_1<T>> b) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(
-                       ::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(),
-                       { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList64Bytes_1<T>>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedList32Bytes_1<T>>>() } })));
+inline bool Unity::Collections::FixedList64Bytes_1<T>::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const> a,
+                                                                   /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList32Bytes_1<T> const> b) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(),
+          { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedList32Bytes_1<T> const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
 template <typename T>
-inline bool Unity::Collections::FixedList64Bytes_1<T>::op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a,
-                                                                     /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList32Bytes_1<T>> b) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(
-                       ::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(),
-                       { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList64Bytes_1<T>>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedList32Bytes_1<T>>>() } })));
+inline bool Unity::Collections::FixedList64Bytes_1<T>::op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const> a,
+                                                                     /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList32Bytes_1<T> const> b) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(),
+          { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedList32Bytes_1<T> const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
 template <typename T> inline int32_t Unity::Collections::FixedList64Bytes_1<T>::CompareTo(::Unity::Collections::FixedList32Bytes_1<T> other) {
@@ -191,42 +192,41 @@ template <typename T> inline bool Unity::Collections::FixedList64Bytes_1<T>::Equ
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(), { "Equals", {}, { ::i2c::type_of<::Unity::Collections::FixedList32Bytes_1<T>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
-template <typename T> inline void Unity::Collections::FixedList64Bytes_1<T>::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList32Bytes_1<T>> other) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList32Bytes_1<T>>>() } })));
+template <typename T> inline void Unity::Collections::FixedList64Bytes_1<T>::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList32Bytes_1<T> const> other) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(),
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList32Bytes_1<T> const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, other);
 }
-template <typename T> inline int32_t Unity::Collections::FixedList64Bytes_1<T>::Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList32Bytes_1<T>> other) {
+template <typename T> inline int32_t Unity::Collections::FixedList64Bytes_1<T>::Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList32Bytes_1<T> const> other) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(),
-                                                                                         { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList32Bytes_1<T>>>() } })));
+                                                                                         { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList32Bytes_1<T> const>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, other);
 }
 template <typename T>
 inline ::Unity::Collections::FixedList64Bytes_1<T>
-Unity::Collections::FixedList64Bytes_1<T>::op_Implicit___Unity__Collections__FixedList64Bytes_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList32Bytes_1<T>> other) {
+Unity::Collections::FixedList64Bytes_1<T>::op_Implicit___Unity__Collections__FixedList64Bytes_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList32Bytes_1<T> const> other) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(),
-                                                                                         { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList32Bytes_1<T>>>() } })));
+                                                                                         { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList32Bytes_1<T> const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedList64Bytes_1<T>>(nullptr, ___internal_method, other);
 }
 template <typename T>
-inline bool Unity::Collections::FixedList64Bytes_1<T>::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a,
-                                                                   /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> b) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(
-                       ::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(),
-                       { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList64Bytes_1<T>>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedList64Bytes_1<T>>>() } })));
+inline bool Unity::Collections::FixedList64Bytes_1<T>::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const> a,
+                                                                   /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const> b) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(),
+          { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
 template <typename T>
-inline bool Unity::Collections::FixedList64Bytes_1<T>::op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a,
-                                                                     /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> b) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(
-                       ::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(),
-                       { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList64Bytes_1<T>>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedList64Bytes_1<T>>>() } })));
+inline bool Unity::Collections::FixedList64Bytes_1<T>::op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const> a,
+                                                                     /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const> b) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(),
+          { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
 template <typename T> inline int32_t Unity::Collections::FixedList64Bytes_1<T>::CompareTo(::Unity::Collections::FixedList64Bytes_1<T> other) {
@@ -240,23 +240,23 @@ template <typename T> inline bool Unity::Collections::FixedList64Bytes_1<T>::Equ
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
 template <typename T>
-inline bool Unity::Collections::FixedList64Bytes_1<T>::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a,
-                                                                   /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList128Bytes_1<T>> b) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(
-                       ::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(),
-                       { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList64Bytes_1<T>>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedList128Bytes_1<T>>>() } })));
-  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
-}
-template <typename T>
-inline bool Unity::Collections::FixedList64Bytes_1<T>::op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a,
-                                                                     /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList128Bytes_1<T>> b) {
+inline bool Unity::Collections::FixedList64Bytes_1<T>::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const> a,
+                                                                   /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList128Bytes_1<T> const> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
           ::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(),
-          { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList64Bytes_1<T>>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedList128Bytes_1<T>>>() } })));
+          { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedList128Bytes_1<T> const>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
+}
+template <typename T>
+inline bool Unity::Collections::FixedList64Bytes_1<T>::op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const> a,
+                                                                     /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList128Bytes_1<T> const> b) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(),
+          { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedList128Bytes_1<T> const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
 template <typename T> inline int32_t Unity::Collections::FixedList64Bytes_1<T>::CompareTo(::Unity::Collections::FixedList128Bytes_1<T> other) {
@@ -270,42 +270,41 @@ template <typename T> inline bool Unity::Collections::FixedList64Bytes_1<T>::Equ
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(), { "Equals", {}, { ::i2c::type_of<::Unity::Collections::FixedList128Bytes_1<T>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
-template <typename T> inline void Unity::Collections::FixedList64Bytes_1<T>::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList128Bytes_1<T>> other) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList128Bytes_1<T>>>() } })));
+template <typename T> inline void Unity::Collections::FixedList64Bytes_1<T>::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList128Bytes_1<T> const> other) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(),
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList128Bytes_1<T> const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, other);
 }
-template <typename T> inline int32_t Unity::Collections::FixedList64Bytes_1<T>::Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList128Bytes_1<T>> other) {
+template <typename T> inline int32_t Unity::Collections::FixedList64Bytes_1<T>::Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList128Bytes_1<T> const> other) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(),
-                                                                                         { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList128Bytes_1<T>>>() } })));
+                                                                                         { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList128Bytes_1<T> const>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, other);
 }
 template <typename T>
 inline ::Unity::Collections::FixedList64Bytes_1<T>
-Unity::Collections::FixedList64Bytes_1<T>::op_Implicit___Unity__Collections__FixedList64Bytes_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList128Bytes_1<T>> other) {
+Unity::Collections::FixedList64Bytes_1<T>::op_Implicit___Unity__Collections__FixedList64Bytes_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList128Bytes_1<T> const> other) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(),
-                                                                                         { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList128Bytes_1<T>>>() } })));
+                                                                                         { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList128Bytes_1<T> const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedList64Bytes_1<T>>(nullptr, ___internal_method, other);
 }
 template <typename T>
-inline bool Unity::Collections::FixedList64Bytes_1<T>::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a,
-                                                                   /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList512Bytes_1<T>> b) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(
-                       ::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(),
-                       { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList64Bytes_1<T>>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedList512Bytes_1<T>>>() } })));
-  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
-}
-template <typename T>
-inline bool Unity::Collections::FixedList64Bytes_1<T>::op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a,
-                                                                     /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList512Bytes_1<T>> b) {
+inline bool Unity::Collections::FixedList64Bytes_1<T>::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const> a,
+                                                                   /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList512Bytes_1<T> const> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
           ::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(),
-          { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList64Bytes_1<T>>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedList512Bytes_1<T>>>() } })));
+          { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedList512Bytes_1<T> const>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
+}
+template <typename T>
+inline bool Unity::Collections::FixedList64Bytes_1<T>::op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const> a,
+                                                                     /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList512Bytes_1<T> const> b) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(),
+          { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedList512Bytes_1<T> const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
 template <typename T> inline int32_t Unity::Collections::FixedList64Bytes_1<T>::CompareTo(::Unity::Collections::FixedList512Bytes_1<T> other) {
@@ -319,42 +318,42 @@ template <typename T> inline bool Unity::Collections::FixedList64Bytes_1<T>::Equ
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(), { "Equals", {}, { ::i2c::type_of<::Unity::Collections::FixedList512Bytes_1<T>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
-template <typename T> inline void Unity::Collections::FixedList64Bytes_1<T>::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList512Bytes_1<T>> other) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(), { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList512Bytes_1<T>>>() } })));
+template <typename T> inline void Unity::Collections::FixedList64Bytes_1<T>::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList512Bytes_1<T> const> other) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(),
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList512Bytes_1<T> const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, other);
 }
-template <typename T> inline int32_t Unity::Collections::FixedList64Bytes_1<T>::Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList512Bytes_1<T>> other) {
+template <typename T> inline int32_t Unity::Collections::FixedList64Bytes_1<T>::Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList512Bytes_1<T> const> other) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(),
-                                                                                         { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList512Bytes_1<T>>>() } })));
+                                                                                         { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList512Bytes_1<T> const>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, other);
 }
 template <typename T>
 inline ::Unity::Collections::FixedList64Bytes_1<T>
-Unity::Collections::FixedList64Bytes_1<T>::op_Implicit___Unity__Collections__FixedList64Bytes_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList512Bytes_1<T>> other) {
+Unity::Collections::FixedList64Bytes_1<T>::op_Implicit___Unity__Collections__FixedList64Bytes_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList512Bytes_1<T> const> other) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(),
-                                                                                         { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList512Bytes_1<T>>>() } })));
+                                                                                         { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList512Bytes_1<T> const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedList64Bytes_1<T>>(nullptr, ___internal_method, other);
 }
 template <typename T>
-inline bool Unity::Collections::FixedList64Bytes_1<T>::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a,
-                                                                   /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList4096Bytes_1<T>> b) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(
-                       ::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(),
-                       { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList64Bytes_1<T>>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedList4096Bytes_1<T>>>() } })));
-  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
-}
-template <typename T>
-inline bool Unity::Collections::FixedList64Bytes_1<T>::op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T>> a,
-                                                                     /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList4096Bytes_1<T>> b) {
+inline bool Unity::Collections::FixedList64Bytes_1<T>::op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const> a,
+                                                                   /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList4096Bytes_1<T> const> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
           ::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(),
-          { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList64Bytes_1<T>>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedList4096Bytes_1<T>>>() } })));
+          { "op_Equality", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedList4096Bytes_1<T> const>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
+}
+template <typename T>
+inline bool Unity::Collections::FixedList64Bytes_1<T>::op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const> a,
+                                                                     /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList4096Bytes_1<T> const> b) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(),
+                          { "op_Inequality",
+                            {},
+                            { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList64Bytes_1<T> const>>(), ::i2c::type_of<::by_ref<::Unity::Collections::FixedList4096Bytes_1<T> const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
 template <typename T> inline int32_t Unity::Collections::FixedList64Bytes_1<T>::CompareTo(::Unity::Collections::FixedList4096Bytes_1<T> other) {
@@ -368,21 +367,21 @@ template <typename T> inline bool Unity::Collections::FixedList64Bytes_1<T>::Equ
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(), { "Equals", {}, { ::i2c::type_of<::Unity::Collections::FixedList4096Bytes_1<T>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
-template <typename T> inline void Unity::Collections::FixedList64Bytes_1<T>::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList4096Bytes_1<T>> other) {
+template <typename T> inline void Unity::Collections::FixedList64Bytes_1<T>::_ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList4096Bytes_1<T> const> other) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(),
-                                                                                         { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList4096Bytes_1<T>>>() } })));
+                                                                                         { ".ctor", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList4096Bytes_1<T> const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, other);
 }
-template <typename T> inline int32_t Unity::Collections::FixedList64Bytes_1<T>::Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList4096Bytes_1<T>> other) {
+template <typename T> inline int32_t Unity::Collections::FixedList64Bytes_1<T>::Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList4096Bytes_1<T> const> other) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(),
-                                                                                         { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList4096Bytes_1<T>>>() } })));
+                                                                                         { "Initialize", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList4096Bytes_1<T> const>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method, other);
 }
 template <typename T>
 inline ::Unity::Collections::FixedList64Bytes_1<T>
-Unity::Collections::FixedList64Bytes_1<T>::op_Implicit___Unity__Collections__FixedList64Bytes_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList4096Bytes_1<T>> other) {
+Unity::Collections::FixedList64Bytes_1<T>::op_Implicit___Unity__Collections__FixedList64Bytes_1_T_(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedList4096Bytes_1<T> const> other) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedList64Bytes_1<T>>(),
-                                                                                         { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList4096Bytes_1<T>>>() } })));
+                                                                                         { "op_Implicit", {}, { ::i2c::type_of<::by_ref<::Unity::Collections::FixedList4096Bytes_1<T> const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::FixedList64Bytes_1<T>>(nullptr, ___internal_method, other);
 }
 template <typename T> inline bool Unity::Collections::FixedList64Bytes_1<T>::Equals(::System::Object* obj) {

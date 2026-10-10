@@ -70,7 +70,7 @@ public:
   inline bool IsValidInstance(::UnityEngine::Rendering::InstanceHandle instance);
 
   /// @brief Method .ctor, addr 0x6c59258, size 0x3bc, virtual false, abstract: false, final false
-  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData);
+  inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData const> instanceData);
 
   /// @brief Method get_handlesLength, addr 0x6c59614, size 0x44, virtual false, abstract: false, final false
   inline int32_t get_handlesLength();
@@ -261,8 +261,8 @@ public:
 
   /// @brief Method Set, addr 0x6c58de8, size 0xf0, virtual false, abstract: false, final false
   inline void Set(::UnityEngine::Rendering::InstanceHandle instance, ::UnityEngine::Rendering::SharedInstanceHandle sharedInstance, bool localToWorldIsFlipped,
-                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::AABB> worldAABB, int32_t tetrahedronCacheIndex, bool movedInCurrentFrame, bool movedInPreviousFrame,
-                  bool visibleInPreviousFrame, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererMeshLodData> meshLod);
+                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::AABB const> worldAABB, int32_t tetrahedronCacheIndex, bool movedInCurrentFrame, bool movedInPreviousFrame,
+                  bool visibleInPreviousFrame, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererMeshLodData const> meshLod);
 
   /// @brief Method SetDefault, addr 0x6c58ae8, size 0xac, virtual false, abstract: false, final false
   inline void SetDefault(::UnityEngine::Rendering::InstanceHandle instance);
@@ -289,7 +289,7 @@ public:
   inline void Set_VisibleInPreviousFrame(::UnityEngine::Rendering::InstanceHandle instance, bool visibleInPreviousFrame);
 
   /// @brief Method Set_WorldAABB, addr 0x6c590ec, size 0x44, virtual false, abstract: false, final false
-  inline void Set_WorldAABB(::UnityEngine::Rendering::InstanceHandle instance, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::AABB> worldBounds);
+  inline void Set_WorldAABB(::UnityEngine::Rendering::InstanceHandle instance, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::AABB const> worldBounds);
 
   /// @brief Method get_handlesLength, addr 0x6c57d10, size 0x64, virtual false, abstract: false, final false
   inline int32_t get_handlesLength();

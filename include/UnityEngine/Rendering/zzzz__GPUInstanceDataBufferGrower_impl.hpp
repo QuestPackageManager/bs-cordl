@@ -153,7 +153,7 @@ constexpr ::UnityEngine::Rendering::GPUInstanceDataBufferGrower_GPUResources::GP
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUInstanceDataBufferGrower::*)(
-    ::UnityEngine::Rendering::GPUInstanceDataBuffer*, ::by_ref<::UnityEngine::Rendering::InstanceNumInfo>)>(&::UnityEngine::Rendering::GPUInstanceDataBufferGrower::_ctor)> {
+    ::UnityEngine::Rendering::GPUInstanceDataBuffer*, ::by_ref<::UnityEngine::Rendering::InstanceNumInfo const>)>(&::UnityEngine::Rendering::GPUInstanceDataBufferGrower::_ctor)> {
   constexpr static std::size_t size = 0x18c;
   constexpr static std::size_t addrs = 0x6c56900;
 
@@ -161,7 +161,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUInstanceDataBufferGrower>(),
-                            { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Rendering::GPUInstanceDataBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceNumInfo>>() } })));
+                            { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Rendering::GPUInstanceDataBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceNumInfo const>>() } })));
     return ___internal_method;
   }
 };
@@ -194,11 +194,11 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
   }
 };
 inline void UnityEngine::Rendering::GPUInstanceDataBufferGrower::_ctor(::UnityEngine::Rendering::GPUInstanceDataBuffer* sourceBuffer,
-                                                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceNumInfo> instanceNumInfo) {
+                                                                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceNumInfo const> instanceNumInfo) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUInstanceDataBufferGrower>(),
-                          { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Rendering::GPUInstanceDataBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceNumInfo>>() } })));
+                          { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Rendering::GPUInstanceDataBuffer*>(), ::i2c::type_of<::by_ref<::UnityEngine::Rendering::InstanceNumInfo const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, sourceBuffer, instanceNumInfo);
 }
 inline ::UnityEngine::Rendering::GPUInstanceDataBuffer*

@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUDrivenRendererDataNativeCallback::*)(
-    ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative>, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*,
+    ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative const>, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*,
     ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*, ::UnityEngine::Rendering::GPUDrivenRendererDataCallback*)>(
     &::UnityEngine::Rendering::GPUDrivenRendererDataNativeCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
@@ -44,7 +44,7 @@ inline void UnityEngine::Rendering::GPUDrivenRendererDataNativeCallback::_ctor(:
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline void UnityEngine::Rendering::GPUDrivenRendererDataNativeCallback::Invoke(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative> rendererDataNative,
+inline void UnityEngine::Rendering::GPUDrivenRendererDataNativeCallback::Invoke(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative const> rendererDataNative,
                                                                                 ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* meshes,
                                                                                 ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* materials,
                                                                                 ::UnityEngine::Rendering::GPUDrivenRendererDataCallback* callback) {

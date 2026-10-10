@@ -599,14 +599,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
 //  Writing Method size for method: ::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor.OnEvent
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::*)(::by_ref<::UnityEngine::InputForUI::Event>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::*)(::by_ref<::UnityEngine::InputForUI::Event const>)>(
     &::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::OnEvent)> {
   constexpr static std::size_t size = 0xb8;
   constexpr static std::size_t addrs = 0x723c890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor*>(),
-                                                                                           { "OnEvent", {}, { ::i2c::type_of<::by_ref<::UnityEngine::InputForUI::Event>>() } })));
+                                                                                           { "OnEvent", {}, { ::i2c::type_of<::by_ref<::UnityEngine::InputForUI::Event const>>() } })));
     return ___internal_method;
   }
 };
@@ -798,9 +798,9 @@ inline void UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::Res
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor*>(), { "Reset", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::OnEvent(/* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::Event> ev) {
+inline bool UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::OnEvent(/* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::Event const> ev) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor*>(),
-                                                                                         { "OnEvent", {}, { ::i2c::type_of<::by_ref<::UnityEngine::InputForUI::Event>>() } })));
+                                                                                         { "OnEvent", {}, { ::i2c::type_of<::by_ref<::UnityEngine::InputForUI::Event const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, ev);
 }
 inline void UnityEngine::UIElements::DefaultEventSystem_InputForUIProcessor::ProcessInputForUIEvents() {

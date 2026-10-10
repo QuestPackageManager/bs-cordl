@@ -64,21 +64,21 @@ public:
   static inline float_t ConvertExposureToEV100(float_t exposure);
 
   /// @brief Method Luminance, addr 0x6bd8fbc, size 0x30, virtual false, abstract: false, final false
-  static inline float_t Luminance(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Color> color);
+  static inline float_t Luminance(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Color const> color);
 
   /// @brief Method PrepareLiftGammaGain, addr 0x6bd8c2c, size 0x390, virtual false, abstract: false, final false
-  static inline ::System::ValueTuple_3<::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4> PrepareLiftGammaGain(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> inLift,
-                                                                                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> inGamma,
-                                                                                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> inGain);
+  static inline ::System::ValueTuple_3<::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4> PrepareLiftGammaGain(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4 const> inLift,
+                                                                                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4 const> inGamma,
+                                                                                                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4 const> inGain);
 
   /// @brief Method PrepareShadowsMidtonesHighlights, addr 0x6bd8994, size 0x298, virtual false, abstract: false, final false
   static inline ::System::ValueTuple_3<::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4>
-  PrepareShadowsMidtonesHighlights(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> inShadows, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> inMidtones,
-                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> inHighlights);
+  PrepareShadowsMidtonesHighlights(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4 const> inShadows, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4 const> inMidtones,
+                                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4 const> inHighlights);
 
   /// @brief Method PrepareSplitToning, addr 0x6bd8fec, size 0x8c, virtual false, abstract: false, final false
-  static inline ::System::ValueTuple_2<::UnityEngine::Vector4, ::UnityEngine::Vector4> PrepareSplitToning(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> inShadows,
-                                                                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4> inHighlights, float_t balance);
+  static inline ::System::ValueTuple_2<::UnityEngine::Vector4, ::UnityEngine::Vector4> PrepareSplitToning(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4 const> inShadows,
+                                                                                                          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4 const> inHighlights, float_t balance);
 
   /// @brief Method StandardIlluminantY, addr 0x6bd8778, size 0x2c, virtual false, abstract: false, final false
   static inline float_t StandardIlluminantY(float_t x);

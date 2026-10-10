@@ -115,16 +115,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::ArrayW<::Un
 //  Writing Method size for method: ::UnityEngine::Rendering::SweepLineRectUtils.InsertEvents
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Rect>, ::ArrayW<::UnityEngine::Vector4>, ::by_ref<int32_t>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Rect const>, ::ArrayW<::UnityEngine::Vector4>, ::by_ref<int32_t>)>(
     &::UnityEngine::Rendering::SweepLineRectUtils::InsertEvents)> {
   constexpr static std::size_t size = 0x160;
   constexpr static std::size_t addrs = 0x6be5ba4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SweepLineRectUtils*>(),
-                            { "InsertEvents", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rect>>(), ::i2c::type_of<::ArrayW<::UnityEngine::Vector4>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::UnityEngine::Rendering::SweepLineRectUtils*>(),
+                         { "InsertEvents", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>(), ::i2c::type_of<::ArrayW<::UnityEngine::Vector4>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
     return ___internal_method;
   }
 };
@@ -146,12 +147,12 @@ inline float_t UnityEngine::Rendering::SweepLineRectUtils::CalculateRectUnionAre
                           { "CalculateRectUnionArea", {}, { ::i2c::type_of<::ArrayW<::UnityEngine::Vector4>>(), ::i2c::type_of<::ArrayW<::UnityEngine::Vector2>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<float_t>(nullptr, ___internal_method, eventsBuffer, activeBuffer, eventCount);
 }
-inline void UnityEngine::Rendering::SweepLineRectUtils::InsertEvents(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rect> rect, ::ArrayW<::UnityEngine::Vector4> eventsBuffer,
+inline void UnityEngine::Rendering::SweepLineRectUtils::InsertEvents(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rect const> rect, ::ArrayW<::UnityEngine::Vector4> eventsBuffer,
                                                                      ::by_ref<int32_t> eventCount) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SweepLineRectUtils*>(),
-                          { "InsertEvents", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rect>>(), ::i2c::type_of<::ArrayW<::UnityEngine::Vector4>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
+                          { "InsertEvents", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>(), ::i2c::type_of<::ArrayW<::UnityEngine::Vector4>>(), ::i2c::type_of<::by_ref<int32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, rect, eventsBuffer, eventCount);
 }
 // Ctor Parameters []

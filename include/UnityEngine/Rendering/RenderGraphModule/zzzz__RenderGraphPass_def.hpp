@@ -306,13 +306,13 @@ public:
                       put = __cordl_internal_set_usedRendererListList)) ::System::Collections::Generic::List_1<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle>* usedRendererListList;
 
   /// @brief Method AddResourceRead, addr 0x6c0a5e8, size 0x144, virtual false, abstract: false, final false
-  inline void AddResourceRead(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> res);
+  inline void AddResourceRead(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> res);
 
   /// @brief Method AddResourceWrite, addr 0x6c0a4a4, size 0x144, virtual false, abstract: false, final false
-  inline void AddResourceWrite(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> res);
+  inline void AddResourceWrite(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> res);
 
   /// @brief Method AddTransientResource, addr 0x6c0a72c, size 0x144, virtual false, abstract: false, final false
-  inline void AddTransientResource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> res);
+  inline void AddTransientResource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> res);
 
   /// @brief Method AllowGlobalState, addr 0x6c0a954, size 0x8, virtual false, abstract: false, final false
   inline void AllowGlobalState(bool value);
@@ -331,11 +331,11 @@ public:
 
   /// @brief Method ComputeHashForTextureAccess, addr 0x6c0bcdc, size 0xac, virtual false, abstract: false, final false
   static inline void ComputeHashForTextureAccess(::by_ref<::UnityEngine::Rendering::HashFNV1A32> generator,
-                                                 /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> handle,
-                                                 /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureAccess> textureAccess);
+                                                 /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> handle,
+                                                 /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureAccess const> textureAccess);
 
   /// @brief Method ComputeTextureHash, addr 0x6c0b468, size 0x4ec, virtual false, abstract: false, final false
-  inline void ComputeTextureHash(::by_ref<::UnityEngine::Rendering::HashFNV1A32> generator, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> handle,
+  inline void ComputeTextureHash(::by_ref<::UnityEngine::Rendering::HashFNV1A32> generator, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> handle,
                                  ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* resources);
 
   /// @brief Method EnableAsyncCompute, addr 0x6c0a934, size 0x8, virtual false, abstract: false, final false
@@ -360,16 +360,16 @@ public:
   inline bool HasRenderFunc();
 
   /// @brief Method IsAttachment, addr 0x6c0a204, size 0x2a0, virtual false, abstract: false, final false
-  inline bool IsAttachment(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> res);
+  inline bool IsAttachment(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> res);
 
   /// @brief Method IsRead, addr 0x6c09f98, size 0x26c, virtual false, abstract: false, final false
-  inline bool IsRead(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> res);
+  inline bool IsRead(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> res);
 
   /// @brief Method IsTransient, addr 0x6c09c48, size 0x1a8, virtual false, abstract: false, final false
-  inline bool IsTransient(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> res);
+  inline bool IsTransient(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> res);
 
   /// @brief Method IsWritten, addr 0x6c09df0, size 0x1a8, virtual false, abstract: false, final false
-  inline bool IsWritten(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> res);
+  inline bool IsWritten(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> res);
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass* New_ctor();
 
@@ -377,28 +377,28 @@ public:
   inline void Release(::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool* pool);
 
   /// @brief Method SetColorBuffer, addr 0x6c0a964, size 0xac, virtual false, abstract: false, final false
-  inline void SetColorBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> resource, int32_t index);
+  inline void SetColorBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> resource, int32_t index);
 
   /// @brief Method SetColorBufferRaw, addr 0x6c0aa2c, size 0x27c, virtual false, abstract: false, final false
-  inline void SetColorBufferRaw(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> resource, int32_t index,
+  inline void SetColorBufferRaw(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> resource, int32_t index,
                                 ::UnityEngine::Rendering::RenderGraphModule::AccessFlags accessFlags, int32_t mipLevel, int32_t depthSlice);
 
   /// @brief Method SetDepthBuffer, addr 0x6c0b21c, size 0x60, virtual false, abstract: false, final false
-  inline void SetDepthBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> resource, ::UnityEngine::Rendering::RenderGraphModule::DepthAccess flags);
+  inline void SetDepthBuffer(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> resource, ::UnityEngine::Rendering::RenderGraphModule::DepthAccess flags);
 
   /// @brief Method SetDepthBufferRaw, addr 0x6c0b27c, size 0x1ec, virtual false, abstract: false, final false
-  inline void SetDepthBufferRaw(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> resource, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags accessFlags,
-                                int32_t mipLevel, int32_t depthSlice);
+  inline void SetDepthBufferRaw(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> resource,
+                                ::UnityEngine::Rendering::RenderGraphModule::AccessFlags accessFlags, int32_t mipLevel, int32_t depthSlice);
 
   /// @brief Method SetExtendedFeatureFlags, addr 0x6c0c9f8, size 0x10, virtual false, abstract: false, final false
   inline void SetExtendedFeatureFlags(::UnityEngine::Rendering::RenderGraphModule::ExtendedFeatureFlags value);
 
   /// @brief Method SetFragmentInputRaw, addr 0x6c0acbc, size 0x27c, virtual false, abstract: false, final false
-  inline void SetFragmentInputRaw(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> resource, int32_t index,
+  inline void SetFragmentInputRaw(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> resource, int32_t index,
                                   ::UnityEngine::Rendering::RenderGraphModule::AccessFlags accessFlags, int32_t mipLevel, int32_t depthSlice);
 
   /// @brief Method SetRandomWriteResourceRaw, addr 0x6c0af38, size 0x2e4, virtual false, abstract: false, final false
-  inline void SetRandomWriteResourceRaw(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> resource, int32_t index, bool preserveCounterValue,
+  inline void SetRandomWriteResourceRaw(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> resource, int32_t index, bool preserveCounterValue,
                                         ::UnityEngine::Rendering::RenderGraphModule::AccessFlags accessFlags);
 
   /// @brief Method SetShadingRateCombiner, addr 0x6c0c984, size 0x74, virtual false, abstract: false, final false
@@ -408,14 +408,14 @@ public:
   inline void SetShadingRateFragmentSize(::UnityEngine::Rendering::ShadingRateFragmentSize shadingRateFragmentSize);
 
   /// @brief Method SetShadingRateImage, addr 0x6c0c898, size 0x9c, virtual false, abstract: false, final false
-  inline void SetShadingRateImage(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> shadingRateImage,
+  inline void SetShadingRateImage(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> shadingRateImage,
                                   ::UnityEngine::Rendering::RenderGraphModule::AccessFlags accessFlags, int32_t mipLevel, int32_t depthSlice);
 
   /// @brief Method SetShadingRateImageRaw, addr 0x6c0c83c, size 0x5c, virtual false, abstract: false, final false
-  inline void SetShadingRateImageRaw(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> shadingRateImage);
+  inline void SetShadingRateImageRaw(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> shadingRateImage);
 
   /// @brief Method UseRendererList, addr 0x6c0a870, size 0xc4, virtual false, abstract: false, final false
-  inline void UseRendererList(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle> rendererList);
+  inline void UseRendererList(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle const> rendererList);
 
   constexpr bool const& __cordl_internal_get__allowGlobalState_k__BackingField() const;
 

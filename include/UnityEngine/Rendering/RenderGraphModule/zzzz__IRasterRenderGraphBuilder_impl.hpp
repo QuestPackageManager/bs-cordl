@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder::*)(
-    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(&::UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder::SetShadingRateImageAttachment)> {
+    ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>)>(&::UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder::SetShadingRateImageAttachment)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
@@ -113,7 +113,7 @@ inline void UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, tex, index, flags, mipLevel, depthSlice);
 }
 inline void
-UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder::SetShadingRateImageAttachment(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> tex) {
+UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder::SetShadingRateImageAttachment(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> tex) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder*>(), 2 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, tex);

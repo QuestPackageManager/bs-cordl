@@ -156,7 +156,7 @@ public:
   inline void set_anchor(::UnityEngine::Vector3 value);
 
   /// @brief Method set_anchor_Injected, addr 0x6ffd260, size 0x44, virtual false, abstract: false, final false
-  static inline void set_anchor_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_anchor_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// @brief Method set_autoConfigureConnectedAnchor, addr 0x6ffd520, size 0x90, virtual false, abstract: false, final false
   inline void set_autoConfigureConnectedAnchor(bool value);
@@ -168,7 +168,7 @@ public:
   inline void set_axis(::UnityEngine::Vector3 value);
 
   /// @brief Method set_axis_Injected, addr 0x6ffd0a0, size 0x44, virtual false, abstract: false, final false
-  static inline void set_axis_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_axis_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// @brief Method set_breakForce, addr 0x6ffd6b0, size 0x90, virtual false, abstract: false, final false
   inline void set_breakForce(float_t value);
@@ -186,7 +186,7 @@ public:
   inline void set_connectedAnchor(::UnityEngine::Vector3 value);
 
   /// @brief Method set_connectedAnchor_Injected, addr 0x6ffd420, size 0x44, virtual false, abstract: false, final false
-  static inline void set_connectedAnchor_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_connectedAnchor_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// @brief Method set_connectedArticulationBody, addr 0x6ffce20, size 0xc0, virtual false, abstract: false, final false
   inline void set_connectedArticulationBody(::UnityEngine::ArticulationBody* value);

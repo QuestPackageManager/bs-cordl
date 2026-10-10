@@ -362,7 +362,7 @@ public:
   inline void Hide(bool hide);
 
   /// @brief Method Init, addr 0x5ce522c, size 0x26c, virtual false, abstract: false, final false
-  inline void Init(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, float_t endRotation, float_t uniformScale,
+  inline void Init(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData const> noteSpawnData, float_t endRotation, float_t uniformScale,
                    bool rotateTowardsPlayer, bool useRandomRotation);
 
   /// @brief Method ManualUpdate, addr 0x5ce708c, size 0x14, virtual true, abstract: false, final false
@@ -392,7 +392,7 @@ public:
   inline void Pause(bool pause);
 
   /// @brief Method SendNoteWasCutEvent, addr 0x5ce6030, size 0x1a8, virtual false, abstract: false, final false
-  inline void SendNoteWasCutEvent(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+  inline void SendNoteWasCutEvent(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo const> noteCutInfo);
 
   /// @brief Method SendNoteWasMissedEvent, addr 0x5ce5bc8, size 0x1a0, virtual false, abstract: false, final false
   inline void SendNoteWasMissedEvent();

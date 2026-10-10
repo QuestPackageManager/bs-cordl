@@ -83,11 +83,11 @@ public:
   __declspec(property(get = getStaticF_s_DefaultInstance, put = setStaticF_s_DefaultInstance)) ::UnityEngine::Rendering::RTHandleSystem* s_DefaultInstance;
 
   /// @brief Method Alloc, addr 0x6bcbb3c, size 0x19c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::RTHandle* Alloc(/* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor, ::UnityEngine::FilterMode filterMode,
+  static inline ::UnityEngine::Rendering::RTHandle* Alloc(/* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor const> descriptor, ::UnityEngine::FilterMode filterMode,
                                                           ::UnityEngine::TextureWrapMode wrapMode, bool isShadowMap, int32_t anisoLevel, float_t mipMapBias, ::StringW name);
 
   /// @brief Method Alloc, addr 0x6bcc0bc, size 0x1a0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::RTHandle* Alloc(::UnityEngine::Vector2 scaleFactor, /* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor,
+  static inline ::UnityEngine::Rendering::RTHandle* Alloc(::UnityEngine::Vector2 scaleFactor, /* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor const> descriptor,
                                                           ::UnityEngine::FilterMode filterMode, ::UnityEngine::TextureWrapMode wrapMode, bool isShadowMap, int32_t anisoLevel, float_t mipMapBias,
                                                           ::StringW name);
 
@@ -110,7 +110,7 @@ public:
                                                           ::UnityEngine::VRTextureUsage vrUsage, ::StringW name);
 
   /// @brief Method Alloc, addr 0x6bcc59c, size 0x198, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::RTHandle* Alloc(::UnityEngine::Rendering::ScaleFunc* scaleFunc, /* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor,
+  static inline ::UnityEngine::Rendering::RTHandle* Alloc(::UnityEngine::Rendering::ScaleFunc* scaleFunc, /* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor const> descriptor,
                                                           ::UnityEngine::FilterMode filterMode, ::UnityEngine::TextureWrapMode wrapMode, bool isShadowMap, int32_t anisoLevel, float_t mipMapBias,
                                                           ::StringW name);
 
@@ -187,7 +187,7 @@ public:
                                                                                  ::UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat);
 
   /// @brief Method GetRTHandleAllocInfo, addr 0x6bcbce4, size 0x124, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::RTHandleAllocInfo GetRTHandleAllocInfo(/* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor> desc, ::UnityEngine::FilterMode filterMode,
+  static inline ::UnityEngine::Rendering::RTHandleAllocInfo GetRTHandleAllocInfo(/* [IsReadOnly] */ ::by_ref<::UnityEngine::RenderTextureDescriptor const> desc, ::UnityEngine::FilterMode filterMode,
                                                                                  ::UnityEngine::TextureWrapMode wrapMode, int32_t anisoLevel, float_t mipMapBias, ::StringW name);
 
   /// @brief Method Initialize, addr 0x6bcc9c8, size 0x7c, virtual false, abstract: false, final false

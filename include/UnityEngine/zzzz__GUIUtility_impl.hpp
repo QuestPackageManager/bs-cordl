@@ -756,15 +756,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::GUIUtility.Internal_GetControlID_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, ::UnityEngine::FocusType, ::by_ref<::UnityEngine::Rect>)>(&::UnityEngine::GUIUtility::Internal_GetControlID_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, ::UnityEngine::FocusType, ::by_ref<::UnityEngine::Rect const>)>(
+    &::UnityEngine::GUIUtility::Internal_GetControlID_Injected)> {
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x6fa9d7c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIUtility*>(),
-                            { "Internal_GetControlID_Injected", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::FocusType>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::UnityEngine::GUIUtility*>(),
+                         { "Internal_GetControlID_Injected", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::FocusType>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>() } })));
     return ___internal_method;
   }
 };
@@ -810,7 +812,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Int
 //  Writing Method size for method: ::UnityEngine::GUIUtility.AlignRectToDevice_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Rect>, ::by_ref<int32_t>, ::by_ref<int32_t>, ::by_ref<::UnityEngine::Rect>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Rect const>, ::by_ref<int32_t>, ::by_ref<int32_t>, ::by_ref<::UnityEngine::Rect>)>(
     &::UnityEngine::GUIUtility::AlignRectToDevice_Injected)> {
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x6faa264;
@@ -819,7 +821,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIUtility*>(), { "AlignRectToDevice_Injected",
                                                                                                  {},
-                                                                                                 { ::i2c::type_of<::by_ref<::UnityEngine::Rect>>(), ::i2c::type_of<::by_ref<int32_t>>(),
+                                                                                                 { ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>(), ::i2c::type_of<::by_ref<int32_t>>(),
                                                                                                    ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect>>() } })));
     return ___internal_method;
   }
@@ -841,13 +843,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
 //  Writing Method size for method: ::UnityEngine::GUIUtility.set_compositionCursorPos_Injected
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector2>)>(&::UnityEngine::GUIUtility::set_compositionCursorPos_Injected)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector2 const>)>(&::UnityEngine::GUIUtility::set_compositionCursorPos_Injected)> {
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x6faa4b4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIUtility*>(), { "set_compositionCursorPos_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIUtility*>(), { "set_compositionCursorPos_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>() } })));
     return ___internal_method;
   }
 };
@@ -1202,11 +1205,11 @@ inline void UnityEngine::GUIUtility::set_systemCopyBuffer_Injected(::by_ref<::Un
       (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIUtility*>(), { "set_systemCopyBuffer_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
-inline int32_t UnityEngine::GUIUtility::Internal_GetControlID_Injected(int32_t hint, ::UnityEngine::FocusType focusType, ::by_ref<::UnityEngine::Rect> rect) {
+inline int32_t UnityEngine::GUIUtility::Internal_GetControlID_Injected(int32_t hint, ::UnityEngine::FocusType focusType, ::by_ref<::UnityEngine::Rect const> rect) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIUtility*>(),
-                          { "Internal_GetControlID_Injected", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::FocusType>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect>>() } })));
+                          { "Internal_GetControlID_Injected", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::FocusType>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, hint, focusType, rect);
 }
 inline void UnityEngine::GUIUtility::BeginContainerFromOwner_Injected(::System::IntPtr owner) {
@@ -1224,12 +1227,12 @@ inline int32_t UnityEngine::GUIUtility::CheckForTabEvent_Injected(::System::IntP
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIUtility*>(), { "CheckForTabEvent_Injected", {}, { ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, evt);
 }
-inline void UnityEngine::GUIUtility::AlignRectToDevice_Injected(::by_ref<::UnityEngine::Rect> rect, ::by_ref<int32_t> widthInPixels, ::by_ref<int32_t> heightInPixels,
+inline void UnityEngine::GUIUtility::AlignRectToDevice_Injected(::by_ref<::UnityEngine::Rect const> rect, ::by_ref<int32_t> widthInPixels, ::by_ref<int32_t> heightInPixels,
                                                                 ::by_ref<::UnityEngine::Rect> ret) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIUtility*>(), { "AlignRectToDevice_Injected",
                                                                                                {},
-                                                                                               { ::i2c::type_of<::by_ref<::UnityEngine::Rect>>(), ::i2c::type_of<::by_ref<int32_t>>(),
+                                                                                               { ::i2c::type_of<::by_ref<::UnityEngine::Rect const>>(), ::i2c::type_of<::by_ref<int32_t>>(),
                                                                                                  ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<::UnityEngine::Rect>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, rect, widthInPixels, heightInPixels, ret);
 }
@@ -1239,9 +1242,10 @@ inline void UnityEngine::GUIUtility::get_compositionString_Injected(::by_ref<::U
       (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIUtility*>(), { "get_compositionString_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, ret);
 }
-inline void UnityEngine::GUIUtility::set_compositionCursorPos_Injected(::by_ref<::UnityEngine::Vector2> value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIUtility*>(), { "set_compositionCursorPos_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2>>() } })));
+inline void UnityEngine::GUIUtility::set_compositionCursorPos_Injected(::by_ref<::UnityEngine::Vector2 const> value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIUtility*>(), { "set_compositionCursorPos_Injected", {}, { ::i2c::type_of<::by_ref<::UnityEngine::Vector2 const>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, value);
 }
 // Ctor Parameters []

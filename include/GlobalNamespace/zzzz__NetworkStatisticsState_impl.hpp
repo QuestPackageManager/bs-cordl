@@ -25,7 +25,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 //  Writing Method size for method: ::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate.Invoke
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::*)(::by_ref<::GlobalNamespace::NetworkStatisticsState>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::*)(::by_ref<::GlobalNamespace::NetworkStatisticsState const>)>(
     &::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x35c48ec;
@@ -40,7 +40,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
-    ::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::*)(::by_ref<::GlobalNamespace::NetworkStatisticsState>, ::System::AsyncCallback*, ::System::Object*)>(
+    ::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::*)(::by_ref<::GlobalNamespace::NetworkStatisticsState const>, ::System::AsyncCallback*, ::System::Object*)>(
     &::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x35c4900;
@@ -55,7 +55,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::*)(
-    ::by_ref<::GlobalNamespace::NetworkStatisticsState>, ::System::IAsyncResult*)>(&::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::EndInvoke)> {
+    ::by_ref<::GlobalNamespace::NetworkStatisticsState const>, ::System::IAsyncResult*)>(&::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x35c4990;
 
@@ -70,19 +70,19 @@ inline void GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDeleg
                                                                                          { ".ctor", {}, { ::i2c::type_of<::System::Object*>(), ::i2c::type_of<::System::IntPtr>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, object, method);
 }
-inline void GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::Invoke(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NetworkStatisticsState> statisticsState) {
+inline void GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::Invoke(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NetworkStatisticsState const> statisticsState) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, statisticsState);
 }
 inline ::System::IAsyncResult*
-GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::BeginInvoke(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NetworkStatisticsState> statisticsState,
+GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::BeginInvoke(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NetworkStatisticsState const> statisticsState,
                                                                                      ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*>(this, ___internal_method, statisticsState, callback, object);
 }
-inline void GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::EndInvoke(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NetworkStatisticsState> statisticsState,
+inline void GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::EndInvoke(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NetworkStatisticsState const> statisticsState,
                                                                                                ::System::IAsyncResult* result) {
   auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate*>(), 15 })));
@@ -117,16 +117,16 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NetworkStatisticsDelta (*)(
-    ::by_ref<::GlobalNamespace::NetworkStatisticsState>, ::by_ref<::GlobalNamespace::NetworkStatisticsState>)>(&::GlobalNamespace::NetworkStatisticsState::op_Subtraction)> {
+    ::by_ref<::GlobalNamespace::NetworkStatisticsState const>, ::by_ref<::GlobalNamespace::NetworkStatisticsState const>)>(&::GlobalNamespace::NetworkStatisticsState::op_Subtraction)> {
   constexpr static std::size_t size = 0x50;
   constexpr static std::size_t addrs = 0x35c47f0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(
-                         ::i2c::class_of<::GlobalNamespace::NetworkStatisticsState>(),
-                         { "op_Subtraction", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::NetworkStatisticsState>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::NetworkStatisticsState>>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(
+            ::i2c::class_of<::GlobalNamespace::NetworkStatisticsState>(),
+            { "op_Subtraction", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::NetworkStatisticsState const>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::NetworkStatisticsState const>>() } })));
     return ___internal_method;
   }
 };
@@ -144,12 +144,13 @@ inline void GlobalNamespace::NetworkStatisticsState::_ctor(int64_t packetsSent, 
                                                    packetsSentRejected, packetsReceivedEncrypted, packetsReceivedPlaintext, packetsReceivedRejected, encryptionProcessingTime,
                                                    decryptionProcessingTime);
 }
-inline ::GlobalNamespace::NetworkStatisticsDelta GlobalNamespace::NetworkStatisticsState::op_Subtraction(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NetworkStatisticsState> a,
-                                                                                                         /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NetworkStatisticsState> b) {
+inline ::GlobalNamespace::NetworkStatisticsDelta GlobalNamespace::NetworkStatisticsState::op_Subtraction(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NetworkStatisticsState const> a,
+                                                                                                         /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NetworkStatisticsState const> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkStatisticsState>(),
-                          { "op_Subtraction", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::NetworkStatisticsState>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::NetworkStatisticsState>>() } })));
+      (::i2c::find_method(
+          ::i2c::class_of<::GlobalNamespace::NetworkStatisticsState>(),
+          { "op_Subtraction", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::NetworkStatisticsState const>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::NetworkStatisticsState const>>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::NetworkStatisticsDelta>(nullptr, ___internal_method, a, b);
 }
 // Ctor Parameters [CppParam { name: "packetsSent", ty: "int64_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "packetsReceived", ty: "int64_t", modifiers: "", def_value:

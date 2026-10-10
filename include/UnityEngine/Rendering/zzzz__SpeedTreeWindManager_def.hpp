@@ -36,7 +36,7 @@ public:
 
   /// @brief Method UpdateWindAndWriteBufferWindParams_Injected, addr 0x701b464, size 0x1c0, virtual false, abstract: false, final false
   static inline void UpdateWindAndWriteBufferWindParams_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> renderersID,
-                                                                 ::by_ref<::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator> windParams, bool history);
+                                                                 ::by_ref<::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator const> windParams, bool history);
 
 protected:
   // Ctor Parameters []

@@ -39,7 +39,7 @@ class CORDL_TYPE PerformanceConfigurationLog : public ::System::Object {
 public:
   // Declarations
   /// @brief Method Create, addr 0x5d0d874, size 0x260, virtual false, abstract: false, final false
-  static inline ::StringW Create(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings,
+  static inline ::StringW Create(/* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings const> settings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings,
                                  ::GlobalNamespace::GameplayModifierMask modifiers, ::BeatSaber::Automation::RecPlayBehaviourState* recPlayState,
                                  ::GlobalNamespace::PerformanceConfigurationStats* stats, ::StringW warning);
 
@@ -74,7 +74,7 @@ public:
   static inline void LogPlayerSettings(::System::Text::StringBuilder* sb, ::GlobalNamespace::PlayerSpecificSettings* playerSettings);
 
   /// @brief Method LogSettings, addr 0x5d0ef60, size 0x9fc, virtual false, abstract: false, final false
-  static inline void LogSettings(::System::Text::StringBuilder* sb, /* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings> settings,
+  static inline void LogSettings(::System::Text::StringBuilder* sb, /* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings const> settings,
                                  ::BeatSaber::Automation::RecPlayBehaviourState* recPlayState);
 
   /// @brief Method LogSystemInfo, addr 0x5d0dad4, size 0x5b0, virtual false, abstract: false, final false

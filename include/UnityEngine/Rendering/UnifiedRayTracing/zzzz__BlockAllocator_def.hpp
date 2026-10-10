@@ -160,7 +160,7 @@ public:
   inline void Dispose();
 
   /// @brief Method FreeAllocation, addr 0x6e036b0, size 0x16c, virtual false, abstract: false, final false
-  inline void FreeAllocation(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation> allocation);
+  inline void FreeAllocation(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation const> allocation);
 
   /// @brief Method GetExpectedGrowthToFitAllocation, addr 0x6e08240, size 0x15c, virtual false, abstract: false, final false
   inline bool GetExpectedGrowthToFitAllocation(int32_t elementCounts, int32_t maxAllowedCapacity, ::by_ref<int32_t> newCapacity);
@@ -183,7 +183,7 @@ public:
 
   /// @brief Method SplitAllocation, addr 0x6e083bc, size 0x318, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation>
-  SplitAllocation(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation> allocation, int32_t count);
+  SplitAllocation(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation const> allocation, int32_t count);
 
   /// @brief Method get_allocatedSize, addr 0x6e07f3c, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_allocatedSize();

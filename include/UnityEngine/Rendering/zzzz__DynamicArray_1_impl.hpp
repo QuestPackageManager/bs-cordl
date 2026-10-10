@@ -174,9 +174,9 @@ template <typename T> inline bool UnityEngine::Rendering::DynamicArray_1<T>::Con
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DynamicArray_1<T>*>(), { "Contains", {}, { ::i2c::type_of<T>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, item);
 }
-template <typename T> inline int32_t UnityEngine::Rendering::DynamicArray_1<T>::Add(/* [IsReadOnly] */ ::by_ref<T> value) {
+template <typename T> inline int32_t UnityEngine::Rendering::DynamicArray_1<T>::Add(/* [IsReadOnly] */ ::by_ref<T const> value) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DynamicArray_1<T>*>(), { "Add", {}, { ::i2c::type_of<::by_ref<T>>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DynamicArray_1<T>*>(), { "Add", {}, { ::i2c::type_of<::by_ref<T const>>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, value);
 }
 template <typename T> inline void UnityEngine::Rendering::DynamicArray_1<T>::AddRange(::UnityEngine::Rendering::DynamicArray_1<T>* array) {

@@ -278,7 +278,7 @@ public:
   __declspec(property(get = get_size, put = set_size)) int32_t size;
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t Add(/* [IsReadOnly] */ ::by_ref<T> value);
+  inline int32_t Add(/* [IsReadOnly] */ ::by_ref<T const> value);
 
   /// @brief Method AddRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddRange(::UnityEngine::Rendering::DynamicArray_1<T>* array);

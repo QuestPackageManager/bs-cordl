@@ -687,8 +687,9 @@ public:
                           float_t startNormalizedTime, float_t targetNormalizedTime, bool completeMatch);
 
   /// @brief Method MatchTarget_Injected, addr 0x6e8fabc, size 0x8c, virtual false, abstract: false, final false
-  static inline void MatchTarget_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> matchPosition, ::by_ref<::UnityEngine::Quaternion> matchRotation, int32_t targetBodyPart,
-                                          ::by_ref<::UnityEngine::MatchTargetWeightMask> weightMask, float_t startNormalizedTime, float_t targetNormalizedTime, bool completeMatch);
+  static inline void MatchTarget_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> matchPosition, ::by_ref<::UnityEngine::Quaternion const> matchRotation,
+                                          int32_t targetBodyPart, ::by_ref<::UnityEngine::MatchTargetWeightMask const> weightMask, float_t startNormalizedTime, float_t targetNormalizedTime,
+                                          bool completeMatch);
 
   static inline ::UnityEngine::Animator* New_ctor();
 
@@ -801,7 +802,7 @@ public:
   inline void SetBoneLocalRotationInternal(int32_t humanBoneId, ::UnityEngine::Quaternion rotation);
 
   /// @brief Method SetBoneLocalRotationInternal_Injected, addr 0x6e8df94, size 0x54, virtual false, abstract: false, final false
-  static inline void SetBoneLocalRotationInternal_Injected(::System::IntPtr _unity_self, int32_t humanBoneId, ::by_ref<::UnityEngine::Quaternion> rotation);
+  static inline void SetBoneLocalRotationInternal_Injected(::System::IntPtr _unity_self, int32_t humanBoneId, ::by_ref<::UnityEngine::Quaternion const> rotation);
 
   /// @brief Method SetBool, addr 0x6e8acac, size 0x4, virtual false, abstract: false, final false
   inline void SetBool(int32_t id, bool value);
@@ -867,13 +868,13 @@ public:
   inline void SetGoalPosition(::UnityEngine::AvatarIKGoal goal, ::UnityEngine::Vector3 goalPosition);
 
   /// @brief Method SetGoalPosition_Injected, addr 0x6e8ceb8, size 0x54, virtual false, abstract: false, final false
-  static inline void SetGoalPosition_Injected(::System::IntPtr _unity_self, ::UnityEngine::AvatarIKGoal goal, ::by_ref<::UnityEngine::Vector3> goalPosition);
+  static inline void SetGoalPosition_Injected(::System::IntPtr _unity_self, ::UnityEngine::AvatarIKGoal goal, ::by_ref<::UnityEngine::Vector3 const> goalPosition);
 
   /// @brief Method SetGoalRotation, addr 0x6e8d08c, size 0xa8, virtual false, abstract: false, final false
   inline void SetGoalRotation(::UnityEngine::AvatarIKGoal goal, ::UnityEngine::Quaternion goalRotation);
 
   /// @brief Method SetGoalRotation_Injected, addr 0x6e8d134, size 0x54, virtual false, abstract: false, final false
-  static inline void SetGoalRotation_Injected(::System::IntPtr _unity_self, ::UnityEngine::AvatarIKGoal goal, ::by_ref<::UnityEngine::Quaternion> goalRotation);
+  static inline void SetGoalRotation_Injected(::System::IntPtr _unity_self, ::UnityEngine::AvatarIKGoal goal, ::by_ref<::UnityEngine::Quaternion const> goalRotation);
 
   /// @brief Method SetGoalWeightPosition, addr 0x6e8d2bc, size 0xa0, virtual false, abstract: false, final false
   inline void SetGoalWeightPosition(::UnityEngine::AvatarIKGoal goal, float_t value);
@@ -891,7 +892,7 @@ public:
   inline void SetHintPosition(::UnityEngine::AvatarIKHint hint, ::UnityEngine::Vector3 hintPosition);
 
   /// @brief Method SetHintPosition_Injected, addr 0x6e8d7fc, size 0x54, virtual false, abstract: false, final false
-  static inline void SetHintPosition_Injected(::System::IntPtr _unity_self, ::UnityEngine::AvatarIKHint hint, ::by_ref<::UnityEngine::Vector3> hintPosition);
+  static inline void SetHintPosition_Injected(::System::IntPtr _unity_self, ::UnityEngine::AvatarIKHint hint, ::by_ref<::UnityEngine::Vector3 const> hintPosition);
 
   /// @brief Method SetHintWeightPosition, addr 0x6e8d984, size 0xa0, virtual false, abstract: false, final false
   inline void SetHintWeightPosition(::UnityEngine::AvatarIKHint hint, float_t value);
@@ -951,7 +952,7 @@ public:
   inline void SetLookAtPositionInternal(::UnityEngine::Vector3 lookAtPosition);
 
   /// @brief Method SetLookAtPositionInternal_Injected, addr 0x6e8db50, size 0x44, virtual false, abstract: false, final false
-  static inline void SetLookAtPositionInternal_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> lookAtPosition);
+  static inline void SetLookAtPositionInternal_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> lookAtPosition);
 
   /// @brief Method SetLookAtWeight, addr 0x6e8db94, size 0x38, virtual false, abstract: false, final false
   inline void SetLookAtWeight(float_t weight);
@@ -1418,7 +1419,7 @@ public:
   inline void set_bodyPositionInternal(::UnityEngine::Vector3 value);
 
   /// @brief Method set_bodyPositionInternal_Injected, addr 0x6e8ca34, size 0x44, virtual false, abstract: false, final false
-  static inline void set_bodyPositionInternal_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_bodyPositionInternal_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// @brief Method set_bodyRotation, addr 0x6e8cb2c, size 0x48, virtual false, abstract: false, final false
   inline void set_bodyRotation(::UnityEngine::Quaternion value);
@@ -1428,7 +1429,7 @@ public:
   inline void set_bodyRotationInternal(::UnityEngine::Quaternion value);
 
   /// @brief Method set_bodyRotationInternal_Injected, addr 0x6e8cc50, size 0x44, virtual false, abstract: false, final false
-  static inline void set_bodyRotationInternal_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Quaternion> value);
+  static inline void set_bodyRotationInternal_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Quaternion const> value);
 
   /// @brief Method set_cullingMode, addr 0x6e91658, size 0x90, virtual false, abstract: false, final false
   inline void set_cullingMode(::UnityEngine::AnimatorCullingMode value);
@@ -1492,14 +1493,14 @@ public:
   inline void set_rootPosition(::UnityEngine::Vector3 value);
 
   /// @brief Method set_rootPosition_Injected, addr 0x6e8bc80, size 0x44, virtual false, abstract: false, final false
-  static inline void set_rootPosition_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
+  static inline void set_rootPosition_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
   /// [NativeMethod("SetAvatarRotation")]
   /// @brief Method set_rootRotation, addr 0x6e8bda4, size 0x98, virtual false, abstract: false, final false
   inline void set_rootRotation(::UnityEngine::Quaternion value);
 
   /// @brief Method set_rootRotation_Injected, addr 0x6e8be3c, size 0x44, virtual false, abstract: false, final false
-  static inline void set_rootRotation_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Quaternion> value);
+  static inline void set_rootRotation_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Quaternion const> value);
 
   /// @brief Method set_runtimeAnimatorController, addr 0x6e91f9c, size 0xc0, virtual false, abstract: false, final false
   inline void set_runtimeAnimatorController(::UnityEngine::RuntimeAnimatorController* value);

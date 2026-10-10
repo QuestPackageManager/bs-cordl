@@ -40,14 +40,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 //  Writing Method size for method: ::GlobalNamespace::GameplayServerConfiguration.Equals
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameplayServerConfiguration::*)(::by_ref<::GlobalNamespace::GameplayServerConfiguration>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameplayServerConfiguration::*)(::by_ref<::GlobalNamespace::GameplayServerConfiguration const>)>(
     &::GlobalNamespace::GameplayServerConfiguration::Equals)> {
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x3538824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayServerConfiguration>(),
-                                                                                           { "Equals", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::GameplayServerConfiguration>>() } })));
+                                                                                           { "Equals", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::GameplayServerConfiguration const>>() } })));
     return ___internal_method;
   }
 };
@@ -95,34 +95,36 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespac
 //  Writing Method size for method: ::GlobalNamespace::GameplayServerConfiguration.op_Equality
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::GlobalNamespace::GameplayServerConfiguration>, ::by_ref<::GlobalNamespace::GameplayServerConfiguration>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::GlobalNamespace::GameplayServerConfiguration const>, ::by_ref<::GlobalNamespace::GameplayServerConfiguration const>)>(
     &::GlobalNamespace::GameplayServerConfiguration::op_Equality)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x35389a0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::GlobalNamespace::GameplayServerConfiguration>(),
-            { "op_Equality", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::GameplayServerConfiguration>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::GameplayServerConfiguration>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayServerConfiguration>(), { "op_Equality",
+                                                                                                              {},
+                                                                                                              { ::i2c::type_of<::by_ref<::GlobalNamespace::GameplayServerConfiguration const>>(),
+                                                                                                                ::i2c::type_of<::by_ref<::GlobalNamespace::GameplayServerConfiguration const>>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::GameplayServerConfiguration.op_Inequality
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::GlobalNamespace::GameplayServerConfiguration>, ::by_ref<::GlobalNamespace::GameplayServerConfiguration>)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::GlobalNamespace::GameplayServerConfiguration const>, ::by_ref<::GlobalNamespace::GameplayServerConfiguration const>)>(
     &::GlobalNamespace::GameplayServerConfiguration::op_Inequality)> {
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x35389a4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::GlobalNamespace::GameplayServerConfiguration>(),
-            { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::GameplayServerConfiguration>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::GameplayServerConfiguration>>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayServerConfiguration>(), { "op_Inequality",
+                                                                                                              {},
+                                                                                                              { ::i2c::type_of<::by_ref<::GlobalNamespace::GameplayServerConfiguration const>>(),
+                                                                                                                ::i2c::type_of<::by_ref<::GlobalNamespace::GameplayServerConfiguration const>>() } })));
     return ___internal_method;
   }
 };
@@ -194,9 +196,9 @@ inline void GlobalNamespace::GameplayServerConfiguration::_ctor(int32_t maxPlaye
                                                                ::i2c::type_of<::GlobalNamespace::GameplayServerControlSettings>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, maxPlayerCount, discoveryPolicy, invitePolicy, gameplayServerMode, songSelectionMode, gameplayServerControlSettings);
 }
-inline bool GlobalNamespace::GameplayServerConfiguration::Equals(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayServerConfiguration> other) {
+inline bool GlobalNamespace::GameplayServerConfiguration::Equals(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayServerConfiguration const> other) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayServerConfiguration>(),
-                                                                                         { "Equals", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::GameplayServerConfiguration>>() } })));
+                                                                                         { "Equals", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::GameplayServerConfiguration const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
 }
 inline bool GlobalNamespace::GameplayServerConfiguration::Equals(::GlobalNamespace::GameplayServerConfiguration other) {
@@ -215,22 +217,24 @@ inline int32_t GlobalNamespace::GameplayServerConfiguration::GetHashCode() {
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::GameplayServerConfiguration>(), 2 })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
 }
-inline bool GlobalNamespace::GameplayServerConfiguration::op_Equality(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayServerConfiguration> a,
-                                                                      /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayServerConfiguration> b) {
+inline bool GlobalNamespace::GameplayServerConfiguration::op_Equality(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayServerConfiguration const> a,
+                                                                      /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayServerConfiguration const> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::GlobalNamespace::GameplayServerConfiguration>(),
-          { "op_Equality", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::GameplayServerConfiguration>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::GameplayServerConfiguration>>() } })));
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayServerConfiguration>(),
+                          { "op_Equality",
+                            {},
+                            { ::i2c::type_of<::by_ref<::GlobalNamespace::GameplayServerConfiguration const>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::GameplayServerConfiguration const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
-inline bool GlobalNamespace::GameplayServerConfiguration::op_Inequality(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayServerConfiguration> a,
-                                                                        /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayServerConfiguration> b) {
+inline bool GlobalNamespace::GameplayServerConfiguration::op_Inequality(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayServerConfiguration const> a,
+                                                                        /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayServerConfiguration const> b) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::GlobalNamespace::GameplayServerConfiguration>(),
-          { "op_Inequality", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::GameplayServerConfiguration>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::GameplayServerConfiguration>>() } })));
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayServerConfiguration>(),
+                          { "op_Inequality",
+                            {},
+                            { ::i2c::type_of<::by_ref<::GlobalNamespace::GameplayServerConfiguration const>>(), ::i2c::type_of<::by_ref<::GlobalNamespace::GameplayServerConfiguration const>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, a, b);
 }
 inline void GlobalNamespace::GameplayServerConfiguration::Serialize(::LiteNetLib::Utils::NetDataWriter* writer) {

@@ -243,7 +243,7 @@ public:
   inline ::UnityEngine::Rendering::GPUInstanceIndex CPUInstanceToGPUInstance(::UnityEngine::Rendering::InstanceHandle instance);
 
   /// @brief Method CPUInstanceToGPUInstance, addr 0x6c546f0, size 0x108, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::GPUInstanceIndex CPUInstanceToGPUInstance(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t>> instancesNumPrefixSum,
+  static inline ::UnityEngine::Rendering::GPUInstanceIndex CPUInstanceToGPUInstance(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const> instancesNumPrefixSum,
                                                                                     ::UnityEngine::Rendering::InstanceHandle instance);
 
   /// @brief Method Dispose, addr 0x6c54c0c, size 0x1b4, virtual true, abstract: false, final true
