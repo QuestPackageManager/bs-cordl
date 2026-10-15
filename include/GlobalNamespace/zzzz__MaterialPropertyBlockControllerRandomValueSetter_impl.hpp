@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MaterialPropertyBlockControllerRandomValueSetter.hpp"
-#include "UnityEngine/zzzz__MaterialPropertyBlock_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockControllerRandomValueSetter_def.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
@@ -10,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter::Start)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5c883b4;
+  constexpr static std::size_t addrs = 0x5cc08b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter::OnValidate)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5c884d8;
+  constexpr static std::size_t addrs = 0x5cc09d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter::RefreshPropertyId)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5c883dc;
+  constexpr static std::size_t addrs = 0x5cc08dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter::ApplyParams)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5c883fc;
+  constexpr static std::size_t addrs = 0x5cc08fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5c88500;
+  constexpr static std::size_t addrs = 0x5cc0a00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,18 +122,6 @@ constexpr float_t const& GlobalNamespace::MaterialPropertyBlockControllerRandomV
 constexpr void GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter::__cordl_internal_set__max(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____max = value;
-}
-constexpr ::ArrayW<::UnityEngine::MaterialPropertyBlock*>& GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter::__cordl_internal_get__materialPropertyBlocks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____materialPropertyBlocks;
-}
-constexpr ::ArrayW<::UnityEngine::MaterialPropertyBlock*> const& GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter::__cordl_internal_get__materialPropertyBlocks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____materialPropertyBlocks;
-}
-constexpr void GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter::__cordl_internal_set__materialPropertyBlocks(::ArrayW<::UnityEngine::MaterialPropertyBlock*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____materialPropertyBlocks = value;
 }
 constexpr int32_t& GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter::__cordl_internal_get__propertyId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

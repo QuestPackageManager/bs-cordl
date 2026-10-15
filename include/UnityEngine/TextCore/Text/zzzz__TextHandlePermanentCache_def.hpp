@@ -38,16 +38,16 @@ public:
   /// @brief Field syncRoot, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_syncRoot, put = __cordl_internal_set_syncRoot)) ::System::Object* syncRoot;
 
-  /// @brief Method AddToCache, addr 0x7063c34, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method AddToCache, addr 0x70a0b28, size 0x290, virtual false, abstract: false, final false
   inline void AddToCache(::UnityEngine::TextCore::Text::TextHandle* textHandle);
 
   static inline ::UnityEngine::TextCore::Text::TextHandlePermanentCache* New_ctor();
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
-  /// @brief Method RemoveFromCache, addr 0x7064050, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method RemoveFromCache, addr 0x70a0f44, size 0x15c, virtual false, abstract: false, final false
   inline void RemoveFromCache(::UnityEngine::TextCore::Text::TextHandle* textHandle);
 
-  /// @brief Method ResetEntryState, addr 0x70641ac, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ResetEntryState, addr 0x70a10a0, size 0x34, virtual false, abstract: false, final false
   inline void ResetEntryState(::UnityEngine::TextCore::Text::TextHandle* handle);
 
   constexpr ::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextCacheEntry>* const& __cordl_internal_get_s_Cache() const;
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_syncRoot(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x706424c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70a1140, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -80,7 +80,7 @@ public:
   TextHandlePermanentCache(TextHandlePermanentCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17868 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17901 };
 
   /// @brief Field s_Cache, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextCacheEntry>* ___s_Cache;

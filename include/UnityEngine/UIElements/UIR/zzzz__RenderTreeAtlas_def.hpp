@@ -40,7 +40,7 @@ namespace UnityEngine::UIElements::UIR {
 struct CORDL_TYPE RenderTreeAtlas_AtlasBlock {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x717cc3c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71b9b70, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(int32_t w, int32_t h, ::UnityEngine::RectInt r, ::UnityEngine::Rect uv);
 
   // Ctor Parameters []
@@ -98,10 +98,10 @@ public:
   // Declarations
   using AtlasBlock = ::UnityEngine::UIElements::UIR::RenderTreeAtlas_AtlasBlock;
 
-  /// @brief Method CreateTextureForAtlasBlock, addr 0x717cc54, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method CreateTextureForAtlasBlock, addr 0x71b9b88, size 0x310, virtual false, abstract: false, final false
   static inline bool CreateTextureForAtlasBlock(::by_ref<::UnityEngine::UIElements::UIR::RenderTreeAtlas_AtlasBlock> block, bool forceGammaRendering, ::by_ref<bool> allocatedNewTexture);
 
-  /// @brief Method ReserveSize, addr 0x717cb54, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ReserveSize, addr 0x71b9a88, size 0xe8, virtual false, abstract: false, final false
   static inline bool ReserveSize(int32_t width, int32_t height, ::by_ref<::UnityEngine::UIElements::UIR::RenderTreeAtlas_AtlasBlock> block);
 
 protected:

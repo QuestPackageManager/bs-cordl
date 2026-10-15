@@ -37,10 +37,10 @@ public:
 
   __declspec(property(get = get_Name)) ::StringW Name;
 
-  /// @brief Method AppendText, addr 0x6021fd8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method AppendText, addr 0x605e8c0, size 0x64, virtual false, abstract: false, final false
   inline ::System::IO::StreamWriter* AppendText();
 
-  /// @brief Method CreateText, addr 0x6021f74, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CreateText, addr 0x605e85c, size 0x64, virtual false, abstract: false, final false
   inline ::System::IO::StreamWriter* CreateText();
 
   static inline ::System::IO::FileInfo* New_ctor();
@@ -51,25 +51,25 @@ public:
 
   static inline ::System::IO::FileInfo* New_ctor(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized);
 
-  /// @brief Method OpenRead, addr 0x602203c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OpenRead, addr 0x605e924, size 0x80, virtual false, abstract: false, final false
   inline ::System::IO::FileStream* OpenRead();
 
-  /// @brief Method .ctor, addr 0x6021ed4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x605e7bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6021edc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x605e7c4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW fileName);
 
-  /// @brief Method .ctor, addr 0x60220bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x605e9a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x600e680, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x604af68, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized);
 
-  /// @brief Method get_Length, addr 0x6021eec, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x605e7d4, size 0x88, virtual false, abstract: false, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Name, addr 0x60220c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x605e9ac, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:

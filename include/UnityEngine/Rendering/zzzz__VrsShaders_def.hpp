@@ -85,7 +85,7 @@ public:
   VrsShaders(VrsShaders const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9267 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9274 };
 
   /// @brief Field k_DisableTexture2dXArray offset 0xffffffff size 0x8
   static constexpr ::ConstString k_DisableTexture2dXArray{ u"DISABLE_TEXTURE2D_X_ARRAY" };

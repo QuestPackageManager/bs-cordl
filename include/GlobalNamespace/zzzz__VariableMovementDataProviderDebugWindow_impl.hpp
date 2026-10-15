@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VariableMovementDataProviderDebugWindow::*)()>(&::GlobalNamespace::VariableMovementDataProviderDebugWindow::OnGUI)> {
   constexpr static std::size_t size = 0xbf8;
-  constexpr static std::size_t addrs = 0x5ce4288;
+  constexpr static std::size_t addrs = 0x5d1d9a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VariableMovementDataProviderDebugWindow*>(), { "OnGUI", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VariableMovementDataProviderDebugWindow::*)()>(&::GlobalNamespace::VariableMovementDataProviderDebugWindow::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ce4e80;
+  constexpr static std::size_t addrs = 0x5d1e5a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VariableMovementDataProviderDebugWindow*>(), { ".ctor", {}, {} })));
@@ -38,18 +38,6 @@ constexpr ::GlobalNamespace::VariableMovementDataProvider* const& GlobalNamespac
 constexpr void GlobalNamespace::VariableMovementDataProviderDebugWindow::__cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::VariableMovementDataProvider* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____variableMovementDataProvider = value;
-}
-constexpr float_t& GlobalNamespace::VariableMovementDataProviderDebugWindow::__cordl_internal_get__njs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____njs;
-}
-constexpr float_t const& GlobalNamespace::VariableMovementDataProviderDebugWindow::__cordl_internal_get__njs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____njs;
-}
-constexpr void GlobalNamespace::VariableMovementDataProviderDebugWindow::__cordl_internal_set__njs(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____njs = value;
 }
 inline void GlobalNamespace::VariableMovementDataProviderDebugWindow::OnGUI() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VariableMovementDataProviderDebugWindow*>(), { "OnGUI", {}, {} })));

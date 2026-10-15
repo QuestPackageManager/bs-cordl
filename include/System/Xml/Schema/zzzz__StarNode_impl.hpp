@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::StarNode::*)(::System::Xml::Schema::BitSet*, ::System::Xml::Schema::BitSet*,
                                                                                                  ::ArrayW<::System::Xml::Schema::BitSet*>)>(&::System::Xml::Schema::StarNode::ConstructPos)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x674796c;
+  constexpr static std::size_t addrs = 0x678453c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::StarNode::*)()>(&::System::Xml::Schema::StarNode::get_IsNullable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6747a08;
+  constexpr static std::size_t addrs = 0x67845d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::StarNode::*)()>(&::System::Xml::Schema::StarNode::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6747a10;
+  constexpr static std::size_t addrs = 0x67845e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::StarNode*>(), { ".ctor", {}, {} })));

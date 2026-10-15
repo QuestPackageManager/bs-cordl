@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/FloatingTransformEffect.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
-#include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__FloatingTransformEffect_def.hpp"
@@ -15,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatingTransformEffect::*)()>(&::GlobalNamespace::FloatingTransformEffect::Start)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5da1760;
+  constexpr static std::size_t addrs = 0x5ddea2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatingTransformEffect*>(), { "Start", {}, {} })));
@@ -27,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatingTransformEffect::*)()>(&::GlobalNamespace::FloatingTransformEffect::Tick)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x5da1900;
+  constexpr static std::size_t addrs = 0x5ddebcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatingTransformEffect*>(), { "Tick", {}, {} })));
@@ -39,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatingTransformEffect::*)()>(&::GlobalNamespace::FloatingTransformEffect::Refresh)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5da1798;
+  constexpr static std::size_t addrs = 0x5ddea64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatingTransformEffect*>(), { "Refresh", {}, {} })));
@@ -51,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::FloatingTransformEffect::*)(float_t)>(&::GlobalNamespace::FloatingTransformEffect::GetPoint)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5da1a54;
+  constexpr static std::size_t addrs = 0x5dded20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatingTransformEffect::*)()>(&::GlobalNamespace::FloatingTransformEffect::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5da1ae0;
+  constexpr static std::size_t addrs = 0x5ddedac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatingTransformEffect*>(), { ".ctor", {}, {} })));
@@ -346,18 +345,6 @@ constexpr float_t const& GlobalNamespace::FloatingTransformEffect::__cordl_inter
 constexpr void GlobalNamespace::FloatingTransformEffect::__cordl_internal_set__frequencyZ(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____frequencyZ = value;
-}
-constexpr ::UnityEngine::Quaternion& GlobalNamespace::FloatingTransformEffect::__cordl_internal_get__targetRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____targetRotation;
-}
-constexpr ::UnityEngine::Quaternion const& GlobalNamespace::FloatingTransformEffect::__cordl_internal_get__targetRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____targetRotation;
-}
-constexpr void GlobalNamespace::FloatingTransformEffect::__cordl_internal_set__targetRotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____targetRotation = value;
 }
 inline void GlobalNamespace::FloatingTransformEffect::Start() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatingTransformEffect*>(), { "Start", {}, {} })));

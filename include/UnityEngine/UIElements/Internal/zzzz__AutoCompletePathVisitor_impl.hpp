@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::PropertyPathInfo>* (
     ::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext::*)()>(&::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext::get_propertyPathInfos)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71d2020;
+  constexpr static std::size_t addrs = 0x720ef54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::PropertyPathInfo>*)>(&::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext::set_propertyPathInfos)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71d2028;
+  constexpr static std::size_t addrs = 0x720ef5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::HashSet_1<::System::Type*>* (::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext::*)()>(
     &::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext::get_types)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71d2030;
+  constexpr static std::size_t addrs = 0x720ef64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::PropertyPath (::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext::*)()>(
     &::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext::get_current)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x71d2038;
+  constexpr static std::size_t addrs = 0x720ef6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext::*)(::Unity::Properties::PropertyPath)>(
     &::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext::set_current)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x71d2048;
+  constexpr static std::size_t addrs = 0x720ef7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext*>(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext::*)()>(
     &::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext::get_currentDepth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71d2054;
+  constexpr static std::size_t addrs = 0x720ef88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext::*)(int32_t)>(
     &::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext::set_currentDepth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71d205c;
+  constexpr static std::size_t addrs = 0x720ef90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext::*)()>(
     &::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x71d1fac;
+  constexpr static std::size_t addrs = 0x720eee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -266,7 +266,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext*, ::Unity::Properties::IProperty*)>(
     &::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitedPropertyScope::_ctor)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x71d2064;
+  constexpr static std::size_t addrs = 0x720ef98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitedPropertyScope::*)(
     ::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext*, int32_t, ::System::Type*)>(&::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitedPropertyScope::_ctor)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x71d1dbc;
+  constexpr static std::size_t addrs = 0x720ecf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitedPropertyScope::*)()>(
     &::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitedPropertyScope::Dispose)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x71d2250;
+  constexpr static std::size_t addrs = 0x720f184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -350,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::Internal::AutoCompletePathVisitor::*)()>(
     &::UnityEngine::UIElements::Internal::AutoCompletePathVisitor::get_maxDepth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71d1888;
+  constexpr static std::size_t addrs = 0x720e7bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Internal::AutoCompletePathVisitor::*)(::System::Type*)>(
     &::UnityEngine::UIElements::Internal::AutoCompletePathVisitor::HasReachedEnd)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x71d1890;
+  constexpr static std::size_t addrs = 0x720e7c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -378,7 +378,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::AutoCompletePathVisitor::*)()>(
     &::UnityEngine::UIElements::Internal::AutoCompletePathVisitor::Reset)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x71d1920;
+  constexpr static std::size_t addrs = 0x720e854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Internal::AutoCompletePathVisitor*>(), { "Reset", {}, {} })));
@@ -391,7 +391,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::AutoCompletePathVisitor::*)(::System::Type*)>(
     &::UnityEngine::UIElements::Internal::AutoCompletePathVisitor::VisitPropertyType)> {
   constexpr static std::size_t size = 0x414;
-  constexpr static std::size_t addrs = 0x71d19a8;
+  constexpr static std::size_t addrs = 0x720e8dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -405,7 +405,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::AutoCompletePathVisitor::*)()>(
     &::UnityEngine::UIElements::Internal::AutoCompletePathVisitor::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x71d1f54;
+  constexpr static std::size_t addrs = 0x720ee88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Internal::AutoCompletePathVisitor*>(), { ".ctor", {}, {} })));

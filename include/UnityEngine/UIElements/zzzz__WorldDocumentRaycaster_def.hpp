@@ -50,12 +50,12 @@ public:
   /// @brief Field worldPicker, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_worldPicker, put = setStaticF_worldPicker)) ::UnityEngine::UIElements::PhysicsDocumentPicker* worldPicker;
 
-  /// @brief Method GetWorldRay, addr 0x72b2de4, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method GetWorldRay, addr 0x72efd18, size 0x19c, virtual true, abstract: false, final false
   inline bool GetWorldRay(::UnityEngine::EventSystems::PointerEventData* eventData, ::by_ref<::UnityEngine::Ray> worldRay, ::by_ref<float_t> maxDistance, ::by_ref<int32_t> layerMask);
 
   static inline ::UnityEngine::UIElements::WorldDocumentRaycaster* New_ctor();
 
-  /// @brief Method Raycast, addr 0x72b28a4, size 0x46c, virtual true, abstract: false, final false
+  /// @brief Method Raycast, addr 0x72ef7d8, size 0x46c, virtual true, abstract: false, final false
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get_m_EventCamera() const;
@@ -64,20 +64,20 @@ public:
 
   constexpr void __cordl_internal_set_m_EventCamera(::UnityW<::UnityEngine::Camera> value);
 
-  /// @brief Method .ctor, addr 0x72b2f80, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72efeb4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::PhysicsDocumentPicker* getStaticF_worldPicker();
 
-  /// @brief Method get_camera, addr 0x72b2894, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_camera, addr 0x72ef7c8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_camera();
 
-  /// @brief Method get_eventCamera, addr 0x72b288c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_eventCamera, addr 0x72ef7c0, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_eventCamera();
 
   static inline void setStaticF_worldPicker(::UnityEngine::UIElements::PhysicsDocumentPicker* value);
 
-  /// @brief Method set_camera, addr 0x72b289c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_camera, addr 0x72ef7d0, size 0x8, virtual false, abstract: false, final false
   inline void set_camera(::UnityEngine::Camera* value);
 
 protected:
@@ -95,7 +95,7 @@ public:
   WorldDocumentRaycaster(WorldDocumentRaycaster const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18042 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18075 };
 
   /// [SerializeField]
   /// @brief Field m_EventCamera, offset: 0x28, size: 0x8, def value: None

@@ -27,24 +27,24 @@ public:
 
   __declspec(property(get = get_type)) ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type;
 
-  /// @brief Method .ctor, addr 0x6e3d96c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7a608, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type);
 
-  /// @brief Method .ctor, addr 0x6e3d960, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7a5fc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type, void* next);
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e3d950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x6e7a5ec, size 0x8, virtual false, abstract: false, final false
   inline void* get_next();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e3d948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6e7a5e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   /// [CompilerGenerated]
-  /// @brief Method set_next, addr 0x6e3d958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_next, addr 0x6e7a5f4, size 0x8, virtual false, abstract: false, final false
   inline void set_next(void* value);
 
   // Ctor Parameters []
@@ -56,7 +56,7 @@ public:
   constexpr XrBaseInStructure(::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType _type_k__BackingField, void* _next_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17507 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17540 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

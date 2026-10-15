@@ -34,18 +34,18 @@ namespace UnityEngine::XR::OpenXR::NativeTypes {
 class CORDL_TYPE XrPollEventCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6e3cac0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6e7975c, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::XR::OpenXR::NativeTypes::XrEventDataBaseHeader* eventData, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x6e3cae0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6e7977c, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x6e3caac, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6e79748, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::XR::OpenXR::NativeTypes::XrEventDataBaseHeader* eventData);
 
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrPollEventCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6e3ca30, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e796cc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -63,7 +63,7 @@ public:
   XrPollEventCallback(XrPollEventCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17505 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17538 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

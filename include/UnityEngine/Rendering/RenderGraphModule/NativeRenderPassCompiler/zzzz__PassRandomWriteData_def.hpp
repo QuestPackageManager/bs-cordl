@@ -27,10 +27,10 @@ namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 struct CORDL_TYPE PassRandomWriteData {
 public:
   // Declarations
-  /// @brief Method GetHashCode, addr 0x6c2706c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c63ce8, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6c27054, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c63cd0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> resource, int32_t index, bool preserveCounterValue);
 
   // Ctor Parameters []
@@ -42,7 +42,7 @@ public:
   constexpr PassRandomWriteData(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle resource, int32_t index, bool preserveCounterValue) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9406 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9413 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

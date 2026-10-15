@@ -45,36 +45,36 @@ public:
 
   __declspec(property(get = get_type)) ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type;
 
-  /// @brief Method .ctor, addr 0x6e416e0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7e37c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(uint64_t baseSpace, int64_t time, ::UnityEngine::XR::OpenXR::NativeTypes::XrPosef pose);
 
-  /// @brief Method .ctor, addr 0x6e41750, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7e3ec, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(uint64_t baseSpace, int64_t time, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method .ctor, addr 0x6e416b0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7e34c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(void* next, uint64_t baseSpace, int64_t time, ::UnityEngine::XR::OpenXR::NativeTypes::XrPosef pose);
 
-  /// @brief Method .ctor, addr 0x6e4171c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7e3b8, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(void* next, uint64_t baseSpace, int64_t time, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
   /// [CompilerGenerated]
-  /// @brief Method get_baseSpace, addr 0x6e4168c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_baseSpace, addr 0x6e7e328, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_baseSpace();
 
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e41684, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x6e7e320, size 0x8, virtual false, abstract: false, final false
   inline void* get_next();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pose, addr 0x6e4169c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_pose, addr 0x6e7e338, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrPosef get_pose();
 
   /// [CompilerGenerated]
-  /// @brief Method get_time, addr 0x6e41694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x6e7e330, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_time();
 
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e4167c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6e7e318, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   // Ctor Parameters []
@@ -89,7 +89,7 @@ public:
                                          int64_t _time_k__BackingField, ::UnityEngine::XR::OpenXR::NativeTypes::XrPosef _pose_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17535 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17568 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

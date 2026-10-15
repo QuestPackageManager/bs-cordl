@@ -39,26 +39,26 @@ public:
   constexpr operator ::System::IEquatable_1<::Unity::Properties::ConverterKey>*();
 
   /// [CompilerGenerated]
-  /// @brief Method Equals, addr 0x700dd10, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x704ac04, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
   /// [CompilerGenerated]
-  /// @brief Method Equals, addr 0x700dd90, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x704ac84, size 0xac, virtual true, abstract: false, final true
   inline bool Equals(::Unity::Properties::ConverterKey other);
 
   /// [CompilerGenerated]
-  /// @brief Method GetHashCode, addr 0x700dc7c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x704ab70, size 0x94, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// [CompilerGenerated]
-  /// @brief Method PrintMembers, addr 0x700dba8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method PrintMembers, addr 0x704aa9c, size 0xd4, virtual false, abstract: false, final false
   inline bool PrintMembers(::System::Text::StringBuilder* builder);
 
   /// [CompilerGenerated]
-  /// @brief Method ToString, addr 0x700dacc, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x704a9c0, size 0xdc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x700dac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x704a9b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* source, ::System::Type* destination);
 
   /// @brief Convert to "::System::IEquatable_1<::Unity::Properties::ConverterKey>"
@@ -73,7 +73,7 @@ public:
   constexpr ConverterKey(::System::Type* SourceType, ::System::Type* DestinationType) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20774 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20821 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

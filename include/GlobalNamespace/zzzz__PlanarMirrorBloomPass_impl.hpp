@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlanarMirrorBloomPass_PassData::*)()>(&::GlobalNamespace::PlanarMirrorBloomPass_PassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6365370;
+  constexpr static std::size_t addrs = 0x63a1e48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlanarMirrorBloomPass_PassData*>(), { ".ctor", {}, {} })));
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlanarMirrorBloomPass___c::*)()>(&::GlobalNamespace::PlanarMirrorBloomPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63653c8;
+  constexpr static std::size_t addrs = 0x63a1ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlanarMirrorBloomPass___c*>(), { ".ctor", {}, {} })));
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlanarMirrorBloomPass___c::*)(
     ::GlobalNamespace::PlanarMirrorBloomPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*)>(&::GlobalNamespace::PlanarMirrorBloomPass___c::_RecordRenderGraph_b__4_0)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x63653cc;
+  constexpr static std::size_t addrs = 0x63a1ea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlanarMirrorBloomPass::*)(
     ::UnityEngine::Rendering::Universal::RenderPassEvent, ::GlobalNamespace::BloomPrePassEffectSO*)>(&::GlobalNamespace::PlanarMirrorBloomPass::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x63644ac;
+  constexpr static std::size_t addrs = 0x63a0f84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlanarMirrorBloomPass::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*)>(&::GlobalNamespace::PlanarMirrorBloomPass::RecordRenderGraph)> {
   constexpr static std::size_t size = 0x7d0;
-  constexpr static std::size_t addrs = 0x6364868;
+  constexpr static std::size_t addrs = 0x63a1340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::PlanarMirrorBloomPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*)>(
     &::GlobalNamespace::PlanarMirrorBloomPass::ExecutePass)> {
   constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x6365038;
+  constexpr static std::size_t addrs = 0x63a1b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(&::UnityEngine::TextCore::Text::TextShaderUtilities::get_ShaderRef_MobileSDF)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x7066d94;
+  constexpr static std::size_t addrs = 0x70a3cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(&::UnityEngine::TextCore::Text::TextShaderUtilities::get_ShaderRef_MobileBitmap)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x7066e44;
+  constexpr static std::size_t addrs = 0x70a3d78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(&::UnityEngine::TextCore::Text::TextShaderUtilities::get_ShaderRef_Sprite)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x7066f30;
+  constexpr static std::size_t addrs = 0x70a3e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::TextCore::Text::TextShaderUtilities::GetShaderPropertyIDs)> {
   constexpr static std::size_t size = 0xca8;
-  constexpr static std::size_t addrs = 0x706726c;
+  constexpr static std::size_t addrs = 0x70a41a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

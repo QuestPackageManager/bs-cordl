@@ -46,16 +46,16 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Add, addr 0x716cbe8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x71a9b1c, size 0x6c, virtual false, abstract: false, final false
   inline void Add(::Unity::Jobs::JobHandle job);
 
-  /// @brief Method Dispose, addr 0x716d1e4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x71aa118, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x716d4bc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x71aa3f0, size 0x70, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method MergeAndReset, addr 0x716cc54, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method MergeAndReset, addr 0x71a9b88, size 0x8c, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle MergeAndReset();
 
   static inline ::UnityEngine::UIElements::UIR::JobMerger* New_ctor(int32_t capacity);
@@ -78,13 +78,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Jobs(::Unity::Collections::NativeArray_1<::Unity::Jobs::JobHandle> value);
 
-  /// @brief Method .ctor, addr 0x716d3c8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71aa2fc, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
   static inline ::Unity::Collections::MemoryLabel getStaticF_k_MemoryLabel();
 
   /// [CompilerGenerated]
-  /// @brief Method get_disposed, addr 0x716d4ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x71aa3e0, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
@@ -93,7 +93,7 @@ public:
   static inline void setStaticF_k_MemoryLabel(::Unity::Collections::MemoryLabel value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_disposed, addr 0x716d4b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x71aa3e8, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:

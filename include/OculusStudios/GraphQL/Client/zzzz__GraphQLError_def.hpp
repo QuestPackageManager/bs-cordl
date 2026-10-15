@@ -211,127 +211,127 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x633c6a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63790e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_APIErrorCode, addr 0x633c5f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_APIErrorCode, addr 0x6379038, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> get_APIErrorCode();
 
   /// [CompilerGenerated]
-  /// @brief Method get_AllowUserRetry, addr 0x633c660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllowUserRetry, addr 0x63790a8, size 0x8, virtual false, abstract: false, final false
   inline bool get_AllowUserRetry();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Code, addr 0x633c5e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Code, addr 0x6379028, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> get_Code();
 
   /// [CompilerGenerated]
-  /// @brief Method get_DebugInfo, addr 0x633c620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DebugInfo, addr 0x6379068, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DebugInfo();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Description, addr 0x633c610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Description, addr 0x6379058, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Description();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Exception, addr 0x633c690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Exception, addr 0x63790d8, size 0x8, virtual false, abstract: false, final false
   inline ::OculusStudios::GraphQL::Client::GraphQLErrorException* get_Exception();
 
   /// [CompilerGenerated]
-  /// @brief Method get_FBTraceId, addr 0x633c680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FBTraceId, addr 0x63790c8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FBTraceId();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsSilent, addr 0x633c630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsSilent, addr 0x6379078, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsSilent();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsTransient, addr 0x633c640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsTransient, addr 0x6379088, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsTransient();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Message, addr 0x633c5b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Message, addr 0x6378ff8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Message();
 
   /// [CompilerGenerated]
-  /// @brief Method get_QueryPath, addr 0x633c670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_QueryPath, addr 0x63790b8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_QueryPath();
 
   /// [CompilerGenerated]
-  /// @brief Method get_RequiresReauth, addr 0x633c650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RequiresReauth, addr 0x6379098, size 0x8, virtual false, abstract: false, final false
   inline bool get_RequiresReauth();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Severity, addr 0x633c5c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Severity, addr 0x6379008, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Severity();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Summary, addr 0x633c600, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Summary, addr 0x6379048, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Summary();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Type, addr 0x633c5d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x6379018, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Type();
 
   /// [CompilerGenerated]
-  /// @brief Method set_APIErrorCode, addr 0x633c5f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_APIErrorCode, addr 0x6379040, size 0x8, virtual false, abstract: false, final false
   inline void set_APIErrorCode(::System::Nullable_1<int32_t> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_AllowUserRetry, addr 0x633c668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AllowUserRetry, addr 0x63790b0, size 0x8, virtual false, abstract: false, final false
   inline void set_AllowUserRetry(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Code, addr 0x633c5e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Code, addr 0x6379030, size 0x8, virtual false, abstract: false, final false
   inline void set_Code(::System::Nullable_1<int32_t> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_DebugInfo, addr 0x633c628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DebugInfo, addr 0x6379070, size 0x8, virtual false, abstract: false, final false
   inline void set_DebugInfo(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Description, addr 0x633c618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Description, addr 0x6379060, size 0x8, virtual false, abstract: false, final false
   inline void set_Description(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Exception, addr 0x633c698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Exception, addr 0x63790e0, size 0x8, virtual false, abstract: false, final false
   inline void set_Exception(::OculusStudios::GraphQL::Client::GraphQLErrorException* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_FBTraceId, addr 0x633c688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FBTraceId, addr 0x63790d0, size 0x8, virtual false, abstract: false, final false
   inline void set_FBTraceId(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_IsSilent, addr 0x633c638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsSilent, addr 0x6379080, size 0x8, virtual false, abstract: false, final false
   inline void set_IsSilent(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_IsTransient, addr 0x633c648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsTransient, addr 0x6379090, size 0x8, virtual false, abstract: false, final false
   inline void set_IsTransient(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Message, addr 0x633c5b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Message, addr 0x6379000, size 0x8, virtual false, abstract: false, final false
   inline void set_Message(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_QueryPath, addr 0x633c678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_QueryPath, addr 0x63790c0, size 0x8, virtual false, abstract: false, final false
   inline void set_QueryPath(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_RequiresReauth, addr 0x633c658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RequiresReauth, addr 0x63790a0, size 0x8, virtual false, abstract: false, final false
   inline void set_RequiresReauth(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Severity, addr 0x633c5c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Severity, addr 0x6379010, size 0x8, virtual false, abstract: false, final false
   inline void set_Severity(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Summary, addr 0x633c608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Summary, addr 0x6379050, size 0x8, virtual false, abstract: false, final false
   inline void set_Summary(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Type, addr 0x633c5d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Type, addr 0x6379020, size 0x8, virtual false, abstract: false, final false
   inline void set_Type(::StringW value);
 
 protected:
@@ -349,7 +349,7 @@ public:
   GraphQLError(GraphQLError const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21040 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21087 };
 
   /// [CompilerGenerated]
   /// @brief Field <Message>k__BackingField, offset: 0x10, size: 0x8, def value: None

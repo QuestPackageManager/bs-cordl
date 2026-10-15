@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::EventProvider___c::*)()>(&::UnityEngine::InputForUI::EventProvider___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6fbc14c;
+  constexpr static std::size_t addrs = 0x6ff9040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::EventProvider___c*>(), { ".ctor", {}, {} })));
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputForUI::EventProvider___c::*)(
     ::UnityEngine::InputForUI::EventProvider_Registration, ::UnityEngine::InputForUI::EventProvider_Registration)>(&::UnityEngine::InputForUI::EventProvider___c::_Subscribe_b__7_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6fbc150;
+  constexpr static std::size_t addrs = 0x6ff9044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::EventProvider___c__DisplayClass8_0::*)()>(
     &::UnityEngine::InputForUI::EventProvider___c__DisplayClass8_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6fbb134;
+  constexpr static std::size_t addrs = 0x6ff8028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::EventProvider___c__DisplayClass8_0*>(), { ".ctor", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::EventProvider___c__DisplayClass8_0::*)(::UnityEngine::InputForUI::EventProvider_Registration)>(
     &::UnityEngine::InputForUI::EventProvider___c__DisplayClass8_0::_Unsubscribe_b__0)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6fbc168;
+  constexpr static std::size_t addrs = 0x6ff905c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::EventProvider___c__DisplayClass8_0*>(),
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputForUI::EventConsumer*, int32_t, ::System::Nullable_1<int32_t>, ::ArrayW<::UnityEngine::InputForUI::Event_Type>)>(
     &::UnityEngine::InputForUI::EventProvider::Subscribe)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x6fbad08;
+  constexpr static std::size_t addrs = 0x6ff7bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputForUI::EventConsumer*)>(&::UnityEngine::InputForUI::EventProvider::Unsubscribe)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6fbaff8;
+  constexpr static std::size_t addrs = 0x6ff7eec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::InputForUI::EventProvider::SetEnabled)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6fbb138;
+  constexpr static std::size_t addrs = 0x6ff802c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::InputForUI::Event const>)>(&::UnityEngine::InputForUI::EventProvider::Dispatch)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x6fbb568;
+  constexpr static std::size_t addrs = 0x6ff845c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::InputForUI::EventProvider::Bootstrap)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6fbaf80;
+  constexpr static std::size_t addrs = 0x6ff7e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::EventProvider*>(), { "Bootstrap", {}, {} })));
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::InputForUI::EventProvider::Initialize)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x6fbb1dc;
+  constexpr static std::size_t addrs = 0x6ff80d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::EventProvider*>(), { "Initialize", {}, {} })));
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::InputForUI::EventProvider::Shutdown)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x6fbb3b4;
+  constexpr static std::size_t addrs = 0x6ff82a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::EventProvider*>(), { "Shutdown", {}, {} })));
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::InputForUI::EventProvider::OnFocusChanged)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6fbb9b0;
+  constexpr static std::size_t addrs = 0x6ff88a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -249,7 +249,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::InputForUI::EventProvider::NotifyUpdate)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x6fbba94;
+  constexpr static std::size_t addrs = 0x6ff8988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::EventProvider*>(), { "NotifyUpdate", {}, {} })));
@@ -261,7 +261,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputForUI::IEventProviderImpl*)>(&::UnityEngine::InputForUI::EventProvider::SetInputSystemProvider)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6fbbe3c;
+  constexpr static std::size_t addrs = 0x6ff8d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::EventProvider*>(),

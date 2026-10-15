@@ -22,12 +22,12 @@ class CORDL_TYPE MetalPatchShaderComputeBufferAnalytic : public ::UnityEngine::A
 public:
   // Declarations
   /// [RequiredByNativeCode]
-  /// @brief Method CreateMetalPatchShaderComputeBufferAnalytic, addr 0x72c02ec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateMetalPatchShaderComputeBufferAnalytic, addr 0x72fd220, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEditor::Analytics::MetalPatchShaderComputeBufferAnalytic* CreateMetalPatchShaderComputeBufferAnalytic();
 
   static inline ::UnityEditor::Analytics::MetalPatchShaderComputeBufferAnalytic* New_ctor();
 
-  /// @brief Method .ctor, addr 0x72c0274, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72fd1a8, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +45,7 @@ public:
   MetalPatchShaderComputeBufferAnalytic(MetalPatchShaderComputeBufferAnalytic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23286 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23390 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -36,30 +36,30 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleValueHandle>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleValueHandle>*();
 
-  /// @brief Method Equals, addr 0x7119e48, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x7156d7c, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x7119e20, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x7156d54, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StyleValueHandle other);
 
-  /// @brief Method GetHashCode, addr 0x7119ed4, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x7156e08, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsVarFunction, addr 0x7119dfc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsVarFunction, addr 0x7156d30, size 0x24, virtual false, abstract: false, final false
   inline bool IsVarFunction();
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method .ctor, addr 0x7119260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7156194, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t valueIndex, ::UnityEngine::UIElements::StyleValueType valueType);
 
-  /// @brief Method get_valueType, addr 0x7119258, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_valueType, addr 0x715618c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleValueType get_valueType();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleValueHandle>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleValueHandle>* i___System__IEquatable_1___UnityEngine__UIElements__StyleValueHandle_();
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method set_valueType, addr 0x7119df4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_valueType, addr 0x7156d28, size 0x8, virtual false, abstract: false, final false
   inline void set_valueType(::UnityEngine::UIElements::StyleValueType value);
 
   // Ctor Parameters []

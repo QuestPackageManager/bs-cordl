@@ -42,38 +42,38 @@ public:
 
   __declspec(property(get = get_type)) ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type;
 
-  /// @brief Method .ctor, addr 0x6e452c8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e81f64, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t meshCount, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMeshDataEXT* meshes);
 
-  /// @brief Method .ctor, addr 0x6e45358, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e81ff4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMeshDataEXT> meshes);
 
-  /// @brief Method .ctor, addr 0x6e45448, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e820e4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMeshDataEXT> meshes);
 
-  /// @brief Method .ctor, addr 0x6e452ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e81f48, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(void* next, uint32_t meshCount, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMeshDataEXT* meshes);
 
-  /// @brief Method .ctor, addr 0x6e452e4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e81f80, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(void* next, ::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMeshDataEXT> meshes);
 
-  /// @brief Method .ctor, addr 0x6e453c0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e8205c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(void* next, ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMeshDataEXT> meshes);
 
   /// [CompilerGenerated]
-  /// @brief Method get_meshCount, addr 0x6e4529c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_meshCount, addr 0x6e81f38, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_meshCount();
 
   /// [CompilerGenerated]
-  /// @brief Method get_meshes, addr 0x6e452a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_meshes, addr 0x6e81f40, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMeshDataEXT* get_meshes();
 
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e45294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x6e81f30, size 0x8, virtual false, abstract: false, final false
   inline void* get_next();
 
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e4528c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6e81f28, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   // Ctor Parameters []
@@ -87,7 +87,7 @@ public:
                                             ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMeshDataEXT* _meshes_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17592 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17625 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AssetBundleCreateRequest* (*)(::System::IntPtr)>(&::UnityEngine::AssetBundleCreateRequest_BindingsMarshaller::ConvertToManaged)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6e9a9a8;
+  constexpr static std::size_t addrs = 0x6ed7644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::UnityEngine::AssetBundleCreateRequest*)>(&::UnityEngine::AssetBundleCreateRequest_BindingsMarshaller::ConvertToNative)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e9aa30;
+  constexpr static std::size_t addrs = 0x6ed76cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AssetBundleCreateRequest_BindingsMarshaller*>(),
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::AssetBundle> (::UnityEngine::AssetBundleCreateRequest::*)()>(
     &::UnityEngine::AssetBundleCreateRequest::get_assetBundle)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6e9a7e0;
+  constexpr static std::size_t addrs = 0x6ed747c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AssetBundleCreateRequest*>(), { "get_assetBundle", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AssetBundleCreateRequest::*)(::System::IntPtr)>(&::UnityEngine::AssetBundleCreateRequest::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6e9a958;
+  constexpr static std::size_t addrs = 0x6ed75f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::AssetBundleCreateRequest::get_assetBundle_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e9a91c;
+  constexpr static std::size_t addrs = 0x6ed75b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

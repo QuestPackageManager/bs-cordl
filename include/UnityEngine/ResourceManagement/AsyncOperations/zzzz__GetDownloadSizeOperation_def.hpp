@@ -36,17 +36,17 @@ public:
   /// @brief Field m_Started, offset 0xa0, size 0x1
   __declspec(property(get = __cordl_internal_get_m_Started, put = __cordl_internal_set_m_Started)) bool m_Started;
 
-  /// @brief Method Calculate, addr 0x6d4d2b0, size 0x534, virtual false, abstract: false, final false
+  /// @brief Method Calculate, addr 0x6d89f2c, size 0x534, virtual false, abstract: false, final false
   inline void Calculate();
 
-  /// @brief Method Execute, addr 0x6d4d7e4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x6d8a460, size 0x4, virtual true, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method Init, addr 0x6d4d2a0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6d89f1c, size 0x10, virtual false, abstract: false, final false
   inline void Init(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations,
                    ::UnityEngine::ResourceManagement::ResourceManager* resourceManager);
 
-  /// @brief Method InvokeWaitForCompletion, addr 0x6d4d7e8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method InvokeWaitForCompletion, addr 0x6d8a464, size 0x14, virtual true, abstract: false, final false
   inline bool InvokeWaitForCompletion();
 
   static inline ::UnityEngine::ResourceManagement::AsyncOperations::GetDownloadSizeOperation* New_ctor();
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Started(bool value);
 
-  /// @brief Method .ctor, addr 0x6d4d7fc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d8a478, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -81,7 +81,7 @@ public:
   GetDownloadSizeOperation(GetDownloadSizeOperation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19243 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19276 };
 
   /// @brief Field m_Locations, offset: 0x98, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* ___m_Locations;

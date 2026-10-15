@@ -49,15 +49,15 @@ public:
 
   constexpr void __cordl_internal_set__IntraFrameMemoryAliasing_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6c0d6b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c4a334, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IntraFrameMemoryAliasing, addr 0x6c0d6a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IntraFrameMemoryAliasing, addr 0x6c4a324, size 0x8, virtual false, abstract: false, final false
   inline bool get_IntraFrameMemoryAliasing();
 
   /// [CompilerGenerated]
-  /// @brief Method set_IntraFrameMemoryAliasing, addr 0x6c0d6b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IntraFrameMemoryAliasing, addr 0x6c4a32c, size 0x8, virtual false, abstract: false, final false
   inline void set_IntraFrameMemoryAliasing(bool value);
 
 protected:
@@ -75,7 +75,7 @@ public:
   IRenderGraphResourcePool(IRenderGraphResourcePool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9356 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9363 };
 
   /// [CompilerGenerated]
   /// @brief Field <IntraFrameMemoryAliasing>k__BackingField, offset: 0x10, size: 0x1, def value: None

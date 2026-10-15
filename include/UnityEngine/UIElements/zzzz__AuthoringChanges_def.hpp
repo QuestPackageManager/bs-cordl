@@ -60,10 +60,10 @@ public:
 
   __declspec(property(get = get_stylingContextChanged)) ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* stylingContextChanged;
 
-  /// @brief Method Clear, addr 0x7083700, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x70c0634, size 0x94, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ContainsChanges, addr 0x7083650, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ContainsChanges, addr 0x70c0584, size 0xb0, virtual false, abstract: false, final false
   inline bool ContainsChanges();
 
   static inline ::UnityEngine::UIElements::AuthoringChanges* New_ctor();
@@ -98,27 +98,27 @@ public:
 
   constexpr void __cordl_internal_set__stylingContextChanged_k__BackingField(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method .ctor, addr 0x7083794, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70c06c8, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_addedOrMovedElements, addr 0x7083628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_addedOrMovedElements, addr 0x70c055c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* get_addedOrMovedElements();
 
   /// [CompilerGenerated]
-  /// @brief Method get_bindingContextChanged, addr 0x7083648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bindingContextChanged, addr 0x70c057c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* get_bindingContextChanged();
 
   /// [CompilerGenerated]
-  /// @brief Method get_removedFromPanel, addr 0x7083630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_removedFromPanel, addr 0x70c0564, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* get_removedFromPanel();
 
   /// [CompilerGenerated]
-  /// @brief Method get_styleChanged, addr 0x7083638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_styleChanged, addr 0x70c056c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* get_styleChanged();
 
   /// [CompilerGenerated]
-  /// @brief Method get_stylingContextChanged, addr 0x7083640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stylingContextChanged, addr 0x70c0574, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* get_stylingContextChanged();
 
 protected:

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::NamespaceListV1Compat::*)(::StringW, ::StringW)>(&::System::Xml::Schema::NamespaceListV1Compat::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x66073a8;
+  constexpr static std::size_t addrs = 0x6643f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::NamespaceListV1Compat::*)(::StringW)>(&::System::Xml::Schema::NamespaceListV1Compat::Allows)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x66073ac;
+  constexpr static std::size_t addrs = 0x6643f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

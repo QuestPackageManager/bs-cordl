@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::System::Runtime::InteropServices::RuntimeInformation::GetRuntimeArchitecture)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f8500c;
+  constexpr static std::size_t addrs = 0x5fc18f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::System::Runtime::InteropServices::RuntimeInformation::GetOSName)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f8501c;
+  constexpr static std::size_t addrs = 0x5fc1904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::InteropServices::RuntimeInformation*>(), { "GetOSName", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Runtime::InteropServices::OSPlatform)>(&::System::Runtime::InteropServices::RuntimeInformation::IsOSPlatform)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5f8502c;
+  constexpr static std::size_t addrs = 0x5fc1914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::InteropServices::RuntimeInformation*>(),
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::InteropServices::Architecture (*)()>(&::System::Runtime::InteropServices::RuntimeInformation::get_ProcessArchitecture)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5f850c0;
+  constexpr static std::size_t addrs = 0x5fc19a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

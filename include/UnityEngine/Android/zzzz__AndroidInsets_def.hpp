@@ -30,7 +30,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_NativeHandle, put = __cordl_internal_set_m_NativeHandle)) ::System::IntPtr m_NativeHandle;
 
   /// [RequiredByNativeCode(GenerateProxy = true)]
-  /// @brief Method SetNativeHandle, addr 0x6e82944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetNativeHandle, addr 0x6ebf5e0, size 0x8, virtual false, abstract: false, final false
   inline void SetNativeHandle(::System::IntPtr ptr);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_NativeHandle() const;
@@ -54,7 +54,7 @@ public:
   AndroidInsets(AndroidInsets const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20665 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20712 };
 
   /// @brief Field m_NativeHandle, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_NativeHandle;

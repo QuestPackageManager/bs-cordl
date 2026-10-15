@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set__dragArea_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x71d8350, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7215284, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_dragAreaUssClassName();
@@ -50,7 +50,7 @@ public:
   static inline ::StringW getStaticF_ussClassName();
 
   /// [CompilerGenerated]
-  /// @brief Method get_dragArea, addr 0x71dd578, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dragArea, addr 0x721a4ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_dragArea();
 
   static inline void setStaticF_dragAreaUssClassName(::StringW value);

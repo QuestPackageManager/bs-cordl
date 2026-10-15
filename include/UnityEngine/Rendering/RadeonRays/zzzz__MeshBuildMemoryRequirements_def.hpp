@@ -29,7 +29,7 @@ public:
   constexpr MeshBuildMemoryRequirements(uint64_t buildScratchSizeInDwords, uint64_t bvhSizeInDwords, uint64_t bvhLeavesSizeInDwords) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20430 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20477 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

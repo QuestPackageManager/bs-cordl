@@ -21,13 +21,13 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE ProbeVolumeUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BrickSize, addr 0x6bb442c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method BrickSize, addr 0x6bf10a8, size 0x44, virtual false, abstract: false, final false
   static inline float_t BrickSize(float_t minBrickSize, int32_t subdivisionLevel);
 
-  /// @brief Method CellSize, addr 0x6bb43fc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method CellSize, addr 0x6bf1078, size 0x30, virtual false, abstract: false, final false
   static inline int32_t CellSize(int32_t subdivisionLevel);
 
-  /// @brief Method MaxBrickSize, addr 0x6bb4470, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method MaxBrickSize, addr 0x6bf10ec, size 0x48, virtual false, abstract: false, final false
   static inline float_t MaxBrickSize(float_t minBrickSize, int32_t maxSubDivision);
 
 protected:
@@ -45,7 +45,7 @@ public:
   ProbeVolumeUtil(ProbeVolumeUtil const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9027 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9034 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

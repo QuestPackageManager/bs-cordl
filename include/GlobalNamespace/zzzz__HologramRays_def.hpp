@@ -101,26 +101,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5dd2ec0, size 0x18c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e0fe6c, size 0x18c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::HologramRays__FadingCoroutine_d__28* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5dd304c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5e0fff8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5dd3054, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5e10000, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5dd308c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5e10038, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x5dd2ebc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5e0fe68, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -160,7 +160,7 @@ public:
   constexpr void __cordl_internal_set_turningOn(bool value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x5dd2d54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e0fd00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -187,7 +187,7 @@ public:
   HologramRays__FadingCoroutine_d__28(HologramRays__FadingCoroutine_d__28 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6168 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6169 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -298,39 +298,39 @@ public:
   /// @brief Field cachedExtent, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get_cachedExtent, put = __cordl_internal_set_cachedExtent)) float_t cachedExtent;
 
-  /// @brief Method Animate, addr 0x5dd2b60, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Animate, addr 0x5e0fb0c, size 0xa4, virtual false, abstract: false, final false
   inline void Animate(bool turningOn, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method Awake, addr 0x5dd2628, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5e0f5d4, size 0x1b4, virtual false, abstract: false, final false
   inline void Awake();
 
   /// [IteratorStateMachine(typeof(HologramRays::<FadingCoroutine>d__28))]
-  /// @brief Method FadingCoroutine, addr 0x5dd2c04, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method FadingCoroutine, addr 0x5e0fbb0, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* FadingCoroutine(bool turningOn, float_t duration, ::GlobalNamespace::EaseType easeType);
 
   static inline ::GlobalNamespace::HologramRays* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5dd27dc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5e0f788, size 0x1c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnValidate, addr 0x5dd27f8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x5e0f7a4, size 0xd0, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method Refresh, addr 0x5dd28c8, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x5e0f874, size 0x294, virtual false, abstract: false, final false
   inline void Refresh();
 
   /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
-  /// @brief Method RuntimeInit, addr 0x5dd25cc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method RuntimeInit, addr 0x5e0f578, size 0x5c, virtual false, abstract: false, final false
   static inline void RuntimeInit();
 
-  /// @brief Method Update, addr 0x5dd2b5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5e0fb08, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateBounds, addr 0x5dd2c84, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method UpdateBounds, addr 0x5e0fc30, size 0xd0, virtual false, abstract: false, final false
   inline void UpdateBounds();
 
   /// [CompilerGenerated]
-  /// @brief Method <Awake>b__22_0, addr 0x5dd2e54, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__22_0, addr 0x5e0fe00, size 0x68, virtual false, abstract: false, final false
   inline void _Awake_b__22_0(float_t f);
 
   constexpr float_t const& __cordl_internal_get__alpha() const;
@@ -435,7 +435,7 @@ public:
 
   constexpr void __cordl_internal_set_cachedExtent(float_t value);
 
-  /// @brief Method .ctor, addr 0x5dd2d5c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e0fd08, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__materialAlphaID();
@@ -469,7 +469,7 @@ public:
   HologramRays(HologramRays const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6169 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6170 };
 
   /// [SerializeField]
   /// @brief Field _bloomLight, offset: 0x20, size: 0x8, def value: None

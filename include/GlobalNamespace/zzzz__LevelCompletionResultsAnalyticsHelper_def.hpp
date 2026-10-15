@@ -45,26 +45,26 @@ namespace GlobalNamespace {
 class CORDL_TYPE LevelCompletionResultsAnalyticsHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FillEventData, addr 0x5cc6af8, size 0xa2c, virtual false, abstract: false, final false
+  /// @brief Method FillEventData, addr 0x5cffac0, size 0xa2c, virtual false, abstract: false, final false
   static inline void FillEventData(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* eventData);
 
-  /// @brief Method GetAnalyticsGameplayModifiers, addr 0x5cc7594, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetAnalyticsGameplayModifiers, addr 0x5d0055c, size 0x13c, virtual false, abstract: false, final false
   static inline ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsGameplayModifiers* GetAnalyticsGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method GetAnalyticsPracticeSettings, addr 0x5cc7524, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetAnalyticsPracticeSettings, addr 0x5d004ec, size 0x70, virtual false, abstract: false, final false
   static inline ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapPracticeSettings* GetAnalyticsPracticeSettings(::GlobalNamespace::PracticeSettings* practiceSettings);
 
-  /// @brief Method GetBeatmapAttemptFinishGameplayEventDataForCampaign, addr 0x5cc7888, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapAttemptFinishGameplayEventDataForCampaign, addr 0x5d00854, size 0x38, virtual false, abstract: false, final false
   static inline ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapAttemptEventData*
   GetBeatmapAttemptFinishGameplayEventDataForCampaign(::GlobalNamespace::LevelCompletionResults* results, ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapLevelData* levelData,
                                                       bool isMissionComplete, uint8_t missionObjectivesResultMask);
 
-  /// @brief Method GetBeatmapAttemptFinishGameplayEventDataForMultiplayer, addr 0x5cc78c0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapAttemptFinishGameplayEventDataForMultiplayer, addr 0x5d0088c, size 0x20, virtual false, abstract: false, final false
   static inline ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapAttemptEventData*
   GetBeatmapAttemptFinishGameplayEventDataForMultiplayer(::GlobalNamespace::LevelCompletionResults* results, ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapLevelData* levelData,
                                                          ::StringW matchId);
 
-  /// @brief Method GetStandardBeatmapAttemptFinishGameplayEventData, addr 0x5cc76d0, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method GetStandardBeatmapAttemptFinishGameplayEventData, addr 0x5d00698, size 0x1bc, virtual false, abstract: false, final false
   static inline ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapAttemptEventData*
   GetStandardBeatmapAttemptFinishGameplayEventData(::GlobalNamespace::LevelCompletionResults* results, ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapLevelData* levelData);
 

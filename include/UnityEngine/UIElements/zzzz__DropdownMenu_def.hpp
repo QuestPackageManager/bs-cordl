@@ -71,7 +71,7 @@ public:
 
   static inline ::UnityEngine::UIElements::DropdownMenu___c__DisplayClass14_0* New_ctor();
 
-  /// @brief Method <AppendAction>b__0, addr 0x72225c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <AppendAction>b__0, addr 0x725f4f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DropdownMenuAction_Status _AppendAction_b__0(::UnityEngine::UIElements::DropdownMenuAction* e);
 
   constexpr ::UnityEngine::UIElements::DropdownMenuAction_Status const& __cordl_internal_get_status() const;
@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set_status(::UnityEngine::UIElements::DropdownMenuAction_Status value);
 
-  /// @brief Method .ctor, addr 0x72225c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x725f4f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -124,7 +124,7 @@ public:
 
   static inline ::UnityEngine::UIElements::DropdownMenu___c__DisplayClass17_0* New_ctor();
 
-  /// @brief Method <AppendSeparator>b__0, addr 0x72225d0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method <AppendSeparator>b__0, addr 0x725f504, size 0xa8, virtual false, abstract: false, final false
   inline bool _AppendSeparator_b__0(::UnityEngine::UIElements::DropdownMenuItem* item);
 
   constexpr ::StringW const& __cordl_internal_get_subMenuPath() const;
@@ -133,7 +133,7 @@ public:
 
   constexpr void __cordl_internal_set_subMenuPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x72225cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x725f500, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -191,25 +191,25 @@ public:
 
   __declspec(property(put = set_repaintPanelBeforeDisplay)) bool repaintPanelBeforeDisplay;
 
-  /// @brief Method AppendAction, addr 0x7221b98, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method AppendAction, addr 0x725eacc, size 0xf8, virtual false, abstract: false, final false
   inline void AppendAction(::StringW actionName, ::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction*>* action,
                            ::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::DropdownMenuAction_Status>* actionStatusCallback, ::System::Object* userData);
 
-  /// @brief Method AppendAction, addr 0x7221c90, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method AppendAction, addr 0x725ebc4, size 0x134, virtual false, abstract: false, final false
   inline void AppendAction(::StringW actionName, ::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction*>* action, ::UnityEngine::UIElements::DropdownMenuAction_Status status);
 
-  /// @brief Method AppendSeparator, addr 0x7221dc4, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method AppendSeparator, addr 0x725ecf8, size 0x294, virtual false, abstract: false, final false
   inline void AppendSeparator(::StringW subMenuPath);
 
-  /// @brief Method InsertSeparator, addr 0x7222058, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method InsertSeparator, addr 0x725ef8c, size 0x138, virtual false, abstract: false, final false
   inline void InsertSeparator(::StringW subMenuPath, int32_t atIndex);
 
-  /// @brief Method MenuItems, addr 0x7221b90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method MenuItems, addr 0x725eac4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>* MenuItems();
 
   static inline ::UnityEngine::UIElements::DropdownMenu* New_ctor();
 
-  /// @brief Method PrepareForDisplay, addr 0x7222190, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method PrepareForDisplay, addr 0x725f0c4, size 0x290, virtual false, abstract: false, final false
   inline void PrepareForDisplay(::UnityEngine::UIElements::EventBase* e);
 
   constexpr bool const& __cordl_internal_get__repaintPanelBeforeDisplay_k__BackingField() const;
@@ -230,14 +230,14 @@ public:
 
   constexpr void __cordl_internal_set_m_MenuItems(::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>* value);
 
-  /// @brief Method .ctor, addr 0x7222420, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x725f354, size 0x1a0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x7221b38, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x725ea6c, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
   /// [CompilerGenerated]
-  /// @brief Method set_repaintPanelBeforeDisplay, addr 0x7221b88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_repaintPanelBeforeDisplay, addr 0x725eabc, size 0x8, virtual false, abstract: false, final false
   inline void set_repaintPanelBeforeDisplay(bool value);
 
 protected:

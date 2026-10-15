@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Line (*)(::Unity::Mathematics::float4, ::Unity::Mathematics::float4)>(
     &::UnityEngine::Rendering::Line::LineOfPlaneIntersectingPlane)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6c3fad8;
+  constexpr static std::size_t addrs = 0x6c7c754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::float4 (*)(::UnityEngine::Rendering::Line, ::Unity::Mathematics::float3)>(
     &::UnityEngine::Rendering::Line::PlaneContainingLineAndPoint)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6c3fb38;
+  constexpr static std::size_t addrs = 0x6c7c7b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::float4 (*)(::UnityEngine::Rendering::Line, ::Unity::Mathematics::float3)>(
     &::UnityEngine::Rendering::Line::PlaneContainingLineWithNormalPerpendicularToVector)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6c3fb94;
+  constexpr static std::size_t addrs = 0x6c7c810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

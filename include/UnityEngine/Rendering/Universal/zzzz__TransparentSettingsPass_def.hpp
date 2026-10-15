@@ -28,12 +28,12 @@ public:
   /// @brief Field m_shouldReceiveShadows, offset 0x5c, size 0x1
   __declspec(property(get = __cordl_internal_get_m_shouldReceiveShadows, put = __cordl_internal_set_m_shouldReceiveShadows)) bool m_shouldReceiveShadows;
 
-  /// @brief Method ExecutePass, addr 0x6cdec9c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x6d1b918, size 0x90, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* rasterCommandBuffer);
 
   static inline ::UnityEngine::Rendering::Universal::TransparentSettingsPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, bool shadowReceiveSupported);
 
-  /// @brief Method Setup, addr 0x6cdec8c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6d1b908, size 0x10, virtual false, abstract: false, final false
   inline bool Setup();
 
   constexpr bool const& __cordl_internal_get_m_shouldReceiveShadows() const;
@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_m_shouldReceiveShadows(bool value);
 
-  /// @brief Method .ctor, addr 0x6cdebe0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d1b85c, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, bool shadowReceiveSupported);
 
 protected:
@@ -60,7 +60,7 @@ public:
   TransparentSettingsPass(TransparentSettingsPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13124 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13131 };
 
   /// @brief Field m_shouldReceiveShadows, offset: 0x5c, size: 0x1, def value: None
   bool ___m_shouldReceiveShadows;

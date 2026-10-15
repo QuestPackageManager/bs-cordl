@@ -42,7 +42,7 @@ public:
   constexpr MetaQuestFeature_TargetDevice(::StringW visibleName, ::StringW manifestName, bool enabled, bool active) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24436 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24529 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -87,13 +87,13 @@ public:
 
   static inline ::UnityEngine::XR::OpenXR::Features::MetaQuestSupport::MetaQuestFeature* New_ctor();
 
-  /// @brief Method OnAfterDeserialize, addr 0x6e46434, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnAfterDeserialize, addr 0x6e830d0, size 0x4, virtual true, abstract: false, final true
   inline void OnAfterDeserialize();
 
-  /// @brief Method OnBeforeSerialize, addr 0x6e46430, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnBeforeSerialize, addr 0x6e830cc, size 0x4, virtual true, abstract: false, final true
   inline void OnBeforeSerialize();
 
-  /// @brief Method .ctor, addr 0x6e46438, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e830d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
@@ -114,7 +114,7 @@ public:
   MetaQuestFeature(MetaQuestFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24437 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24530 };
 
   /// @brief Field ambientOcclusionScriptName offset 0xffffffff size 0x8
   static constexpr ::ConstString ambientOcclusionScriptName{ u"ScreenSpaceAmbientOcclusion" };

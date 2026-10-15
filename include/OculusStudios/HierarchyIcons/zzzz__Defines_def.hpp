@@ -10,7 +10,7 @@ namespace OculusStudios::HierarchyIcons {
 struct Icon;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
 }
 // Forward declare root types
 namespace OculusStudios::HierarchyIcons {
@@ -19,6 +19,8 @@ class Defines;
 // Write type traits
 MARK_REF_T(::OculusStudios::HierarchyIcons::Defines*);
 DEFINE_IL2CPP_CLASS(::OculusStudios::HierarchyIcons::Defines*, "OculusStudios.HierarchyIcons", "Defines");
+// [NullableContext(1)]
+// [Nullable(0)]
 // Dependencies System.Object
 namespace OculusStudios::HierarchyIcons {
 // Is value type: false
@@ -27,16 +29,12 @@ class CORDL_TYPE Defines : public ::System::Object {
 public:
   // Declarations
   /// @brief Field iconDatabase, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_iconDatabase, put = setStaticF_iconDatabase)) ::System::Collections::Generic::Dictionary_2<::OculusStudios::HierarchyIcons::Icon, ::StringW>* iconDatabase;
+  __declspec(property(get = getStaticF_iconDatabase,
+                      put = setStaticF_iconDatabase)) ::System::Collections::Generic::IReadOnlyDictionary_2<::OculusStudios::HierarchyIcons::Icon, ::StringW>* iconDatabase;
 
-  static inline ::OculusStudios::HierarchyIcons::Defines* New_ctor();
+  static inline ::System::Collections::Generic::IReadOnlyDictionary_2<::OculusStudios::HierarchyIcons::Icon, ::StringW>* getStaticF_iconDatabase();
 
-  /// @brief Method .ctor, addr 0x63486b0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  static inline ::System::Collections::Generic::Dictionary_2<::OculusStudios::HierarchyIcons::Icon, ::StringW>* getStaticF_iconDatabase();
-
-  static inline void setStaticF_iconDatabase(::System::Collections::Generic::Dictionary_2<::OculusStudios::HierarchyIcons::Icon, ::StringW>* value);
+  static inline void setStaticF_iconDatabase(::System::Collections::Generic::IReadOnlyDictionary_2<::OculusStudios::HierarchyIcons::Icon, ::StringW>* value);
 
 protected:
   // Ctor Parameters []
@@ -53,7 +51,10 @@ public:
   Defines(Defines const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24308 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24390 };
+
+  /// @brief Field kIconsFolder offset 0xffffffff size 0x8
+  static constexpr ::ConstString kIconsFolder{ u"Packages/com.oculusstudios.beatgames.editortools/HierarchyIcons/Icons/" };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

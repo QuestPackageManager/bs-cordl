@@ -83,18 +83,18 @@ namespace UnityEngine::Rendering::Universal {
 class CORDL_TYPE DecalProjector_DecalProjectorAction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6c913d4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6cce050, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::Rendering::Universal::DecalProjector* decalProjector, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x6c913f4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6cce070, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x6c913c0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6cce03c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::Rendering::Universal::DecalProjector* decalProjector);
 
   static inline ::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6c9127c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ccdef8, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -112,7 +112,7 @@ public:
   DecalProjector_DecalProjectorAction(DecalProjector_DecalProjectorAction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12902 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12909 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -163,7 +163,7 @@ public:
   static ::UnityEngine::Rendering::Universal::DecalProjector_Version const RenderingLayerMask;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12903 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12910 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -327,33 +327,33 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-  /// @brief Method InitMaterial, addr 0x6c90c14, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method InitMaterial, addr 0x6ccd890, size 0x64, virtual false, abstract: false, final false
   inline void InitMaterial();
 
-  /// @brief Method IsValid, addr 0x6c90f20, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6ccdb9c, size 0x150, virtual false, abstract: false, final false
   inline bool IsValid();
 
   static inline ::UnityEngine::Rendering::Universal::DecalProjector* New_ctor();
 
-  /// @brief Method OnDidApplyAnimationProperties, addr 0x6c90d68, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method OnDidApplyAnimationProperties, addr 0x6ccd9e4, size 0x1b8, virtual false, abstract: false, final false
   inline void OnDidApplyAnimationProperties();
 
-  /// @brief Method OnDisable, addr 0x6c90cf8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x6ccd974, size 0x70, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x6c90c78, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6ccd8f4, size 0x80, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x6c90920, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x6ccd59c, size 0x11c, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x6c910f0, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x6ccdd6c, size 0x80, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x6c910d8, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x6ccdd54, size 0x18, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
 
-  /// @brief Method UpdateAllDecalProperties, addr 0x6c91070, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UpdateAllDecalProperties, addr 0x6ccdcec, size 0x68, virtual false, abstract: false, final false
   static inline void UpdateAllDecalProperties();
 
   constexpr ::UnityEngine::Rendering::Universal::DecalEntity const& __cordl_internal_get__decalEntity_k__BackingField() const;
@@ -512,27 +512,27 @@ public:
 
   constexpr void __cordl_internal_set_version(::UnityEngine::Rendering::Universal::DecalProjector_Version value);
 
-  /// @brief Method .ctor, addr 0x6c91170, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ccddec, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_onAllDecalPropertyChange, addr 0x6c904d0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method add_onAllDecalPropertyChange, addr 0x6ccd14c, size 0xd0, virtual false, abstract: false, final false
   static inline void add_onAllDecalPropertyChange(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_onDecalAdd, addr 0x6c8fff8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method add_onDecalAdd, addr 0x6cccc74, size 0xcc, virtual false, abstract: false, final false
   static inline void add_onDecalAdd(::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_onDecalMaterialChange, addr 0x6c90670, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method add_onDecalMaterialChange, addr 0x6ccd2ec, size 0xd0, virtual false, abstract: false, final false
   static inline void add_onDecalMaterialChange(::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_onDecalPropertyChange, addr 0x6c90330, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method add_onDecalPropertyChange, addr 0x6cccfac, size 0xd0, virtual false, abstract: false, final false
   static inline void add_onDecalPropertyChange(::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_onDecalRemove, addr 0x6c90190, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method add_onDecalRemove, addr 0x6ccce0c, size 0xd0, virtual false, abstract: false, final false
   static inline void add_onDecalRemove(::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction* value);
 
   static inline ::UnityW<::UnityEngine::Material> getStaticF__defaultMaterial_k__BackingField();
@@ -548,85 +548,85 @@ public:
   static inline ::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction* getStaticF_onDecalRemove();
 
   /// [CompilerGenerated]
-  /// @brief Method get_decalEntity, addr 0x6c90900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_decalEntity, addr 0x6ccd57c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DecalEntity get_decalEntity();
 
-  /// @brief Method get_decalOffset, addr 0x6c90bf8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_decalOffset, addr 0x6ccd874, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_decalOffset();
 
-  /// @brief Method get_decalSize, addr 0x6c90bec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_decalSize, addr 0x6ccd868, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_decalSize();
 
   /// [CompilerGenerated]
-  /// @brief Method get_defaultMaterial, addr 0x6c90810, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_defaultMaterial, addr 0x6ccd48c, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> get_defaultMaterial();
 
-  /// @brief Method get_drawDistance, addr 0x6c90a3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_drawDistance, addr 0x6ccd6b8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_drawDistance();
 
-  /// @brief Method get_effectiveScale, addr 0x6c90b70, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_effectiveScale, addr 0x6ccd7ec, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_effectiveScale();
 
-  /// @brief Method get_endAngleFade, addr 0x6c90aac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_endAngleFade, addr 0x6ccd728, size 0x8, virtual false, abstract: false, final false
   inline float_t get_endAngleFade();
 
-  /// @brief Method get_fadeFactor, addr 0x6c90b48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fadeFactor, addr 0x6ccd7c4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fadeFactor();
 
-  /// @brief Method get_fadeScale, addr 0x6c90a58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fadeScale, addr 0x6ccd6d4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fadeScale();
 
-  /// @brief Method get_isSupported, addr 0x6c908ac, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_isSupported, addr 0x6ccd528, size 0x54, virtual false, abstract: false, final false
   static inline bool get_isSupported();
 
-  /// @brief Method get_material, addr 0x6c90910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_material, addr 0x6ccd58c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_material();
 
-  /// @brief Method get_pivot, addr 0x6c90b18, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pivot, addr 0x6ccd794, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_pivot();
 
-  /// @brief Method get_renderingLayerMask, addr 0x6c90af8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderingLayerMask, addr 0x6ccd774, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::RenderingLayerMask get_renderingLayerMask();
 
-  /// @brief Method get_scaleMode, addr 0x6c90b08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scaleMode, addr 0x6ccd784, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DecalScaleMode get_scaleMode();
 
-  /// @brief Method get_size, addr 0x6c90b30, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x6ccd7ac, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_size();
 
-  /// @brief Method get_startAngleFade, addr 0x6c90a80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startAngleFade, addr 0x6ccd6fc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_startAngleFade();
 
-  /// @brief Method get_uvBias, addr 0x6c90ae8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_uvBias, addr 0x6ccd764, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_uvBias();
 
-  /// @brief Method get_uvScale, addr 0x6c90ad8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_uvScale, addr 0x6ccd754, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_uvScale();
 
-  /// @brief Method get_uvScaleBias, addr 0x6c90c08, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_uvScaleBias, addr 0x6ccd884, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_uvScaleBias();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_onAllDecalPropertyChange, addr 0x6c905a0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method remove_onAllDecalPropertyChange, addr 0x6ccd21c, size 0xd0, virtual false, abstract: false, final false
   static inline void remove_onAllDecalPropertyChange(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_onDecalAdd, addr 0x6c900c4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method remove_onDecalAdd, addr 0x6cccd40, size 0xcc, virtual false, abstract: false, final false
   static inline void remove_onDecalAdd(::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_onDecalMaterialChange, addr 0x6c90740, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method remove_onDecalMaterialChange, addr 0x6ccd3bc, size 0xd0, virtual false, abstract: false, final false
   static inline void remove_onDecalMaterialChange(::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_onDecalPropertyChange, addr 0x6c90400, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method remove_onDecalPropertyChange, addr 0x6ccd07c, size 0xd0, virtual false, abstract: false, final false
   static inline void remove_onDecalPropertyChange(::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_onDecalRemove, addr 0x6c90260, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method remove_onDecalRemove, addr 0x6cccedc, size 0xd0, virtual false, abstract: false, final false
   static inline void remove_onDecalRemove(::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction* value);
 
   static inline void setStaticF__defaultMaterial_k__BackingField(::UnityW<::UnityEngine::Material> value);
@@ -642,47 +642,47 @@ public:
   static inline void setStaticF_onDecalRemove(::UnityEngine::Rendering::Universal::DecalProjector_DecalProjectorAction* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_decalEntity, addr 0x6c90908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_decalEntity, addr 0x6ccd584, size 0x8, virtual false, abstract: false, final false
   inline void set_decalEntity(::UnityEngine::Rendering::Universal::DecalEntity value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_defaultMaterial, addr 0x6c9085c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_defaultMaterial, addr 0x6ccd4d8, size 0x50, virtual false, abstract: false, final false
   static inline void set_defaultMaterial(::UnityEngine::Material* value);
 
-  /// @brief Method set_drawDistance, addr 0x6c90a44, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_drawDistance, addr 0x6ccd6c0, size 0x14, virtual false, abstract: false, final false
   inline void set_drawDistance(float_t value);
 
-  /// @brief Method set_endAngleFade, addr 0x6c90ab4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_endAngleFade, addr 0x6ccd730, size 0x24, virtual false, abstract: false, final false
   inline void set_endAngleFade(float_t value);
 
-  /// @brief Method set_fadeFactor, addr 0x6c90b50, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_fadeFactor, addr 0x6ccd7cc, size 0x20, virtual false, abstract: false, final false
   inline void set_fadeFactor(float_t value);
 
-  /// @brief Method set_fadeScale, addr 0x6c90a60, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_fadeScale, addr 0x6ccd6dc, size 0x20, virtual false, abstract: false, final false
   inline void set_fadeScale(float_t value);
 
-  /// @brief Method set_material, addr 0x6c90918, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_material, addr 0x6ccd594, size 0x8, virtual false, abstract: false, final false
   inline void set_material(::UnityEngine::Material* value);
 
-  /// @brief Method set_pivot, addr 0x6c90b24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_pivot, addr 0x6ccd7a0, size 0xc, virtual false, abstract: false, final false
   inline void set_pivot(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_renderingLayerMask, addr 0x6c90b00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_renderingLayerMask, addr 0x6ccd77c, size 0x8, virtual false, abstract: false, final false
   inline void set_renderingLayerMask(::UnityEngine::RenderingLayerMask value);
 
-  /// @brief Method set_scaleMode, addr 0x6c90b10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_scaleMode, addr 0x6ccd78c, size 0x8, virtual false, abstract: false, final false
   inline void set_scaleMode(::UnityEngine::Rendering::Universal::DecalScaleMode value);
 
-  /// @brief Method set_size, addr 0x6c90b3c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_size, addr 0x6ccd7b8, size 0xc, virtual false, abstract: false, final false
   inline void set_size(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_startAngleFade, addr 0x6c90a88, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_startAngleFade, addr 0x6ccd704, size 0x24, virtual false, abstract: false, final false
   inline void set_startAngleFade(float_t value);
 
-  /// @brief Method set_uvBias, addr 0x6c90af0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_uvBias, addr 0x6ccd76c, size 0x8, virtual false, abstract: false, final false
   inline void set_uvBias(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_uvScale, addr 0x6c90ae0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_uvScale, addr 0x6ccd75c, size 0x8, virtual false, abstract: false, final false
   inline void set_uvScale(::UnityEngine::Vector2 value);
 
 protected:
@@ -700,7 +700,7 @@ public:
   DecalProjector(DecalProjector const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12904 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12911 };
 
   /// [CompilerGenerated]
   /// @brief Field <decalEntity>k__BackingField, offset: 0x20, size: 0x8, def value: None

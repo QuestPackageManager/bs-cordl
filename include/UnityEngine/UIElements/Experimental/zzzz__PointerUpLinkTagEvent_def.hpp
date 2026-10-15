@@ -41,10 +41,10 @@ public:
 
   static inline ::UnityEngine::UIElements::Experimental::PointerUpLinkTagEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x71d108c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x720dfc0, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Experimental::PointerUpLinkTagEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x71d1088, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x720dfbc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::Experimental::PointerUpLinkTagEvent___c* getStaticF___9();
@@ -93,16 +93,16 @@ public:
 
   __declspec(property(put = set_linkText)) ::StringW linkText;
 
-  /// @brief Method Dispatch, addr 0x71d102c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x720df60, size 0x8, virtual true, abstract: false, final false
   inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
-  /// @brief Method GetPooled, addr 0x71d0f68, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x720de9c, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Experimental::PointerUpLinkTagEvent* GetPooled(::UnityEngine::UIElements::IPointerEvent* evt, ::StringW linkID, ::StringW linkText);
 
-  /// @brief Method Init, addr 0x71d0f04, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x720de38, size 0x58, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x71d0f5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x720de90, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::Experimental::PointerUpLinkTagEvent* New_ctor();
@@ -119,15 +119,15 @@ public:
 
   constexpr void __cordl_internal_set__linkText_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x71d0fd4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x720df08, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method set_linkID, addr 0x71d0ef4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_linkID, addr 0x720de28, size 0x8, virtual false, abstract: false, final false
   inline void set_linkID(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_linkText, addr 0x71d0efc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_linkText, addr 0x720de30, size 0x8, virtual false, abstract: false, final false
   inline void set_linkText(::StringW value);
 
 protected:

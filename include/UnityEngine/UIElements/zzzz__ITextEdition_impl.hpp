@@ -433,7 +433,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ITextEdition::*)()>(&::UnityEngine::UIElements::ITextEdition::get_autoCorrection)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x71354d8;
+  constexpr static std::size_t addrs = 0x717240c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -446,7 +446,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ITextEdition::*)(bool)>(&::UnityEngine::UIElements::ITextEdition::set_autoCorrection)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x71355ac;
+  constexpr static std::size_t addrs = 0x71724e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -459,7 +459,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ITextEdition::*)()>(&::UnityEngine::UIElements::ITextEdition::get_hideSoftKeyboard)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x7135678;
+  constexpr static std::size_t addrs = 0x71725ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -472,7 +472,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ITextEdition::*)(bool)>(&::UnityEngine::UIElements::ITextEdition::set_hideSoftKeyboard)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x713574c;
+  constexpr static std::size_t addrs = 0x7172680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -485,7 +485,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ITextEdition::*)()>(&::UnityEngine::UIElements::ITextEdition::get_hideMobileInput)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x7135818;
+  constexpr static std::size_t addrs = 0x717274c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -498,7 +498,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ITextEdition::*)(bool)>(&::UnityEngine::UIElements::ITextEdition::set_hideMobileInput)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x71358ec;
+  constexpr static std::size_t addrs = 0x7172820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -512,7 +512,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TouchScreenKeyboard* (::UnityEngine::UIElements::ITextEdition::*)()>(
     &::UnityEngine::UIElements::ITextEdition::get_touchScreenKeyboard)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x71359b8;
+  constexpr static std::size_t addrs = 0x71728ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -526,7 +526,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TouchScreenKeyboardType (::UnityEngine::UIElements::ITextEdition::*)()>(
     &::UnityEngine::UIElements::ITextEdition::get_keyboardType)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x7135a8c;
+  constexpr static std::size_t addrs = 0x71729c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -540,7 +540,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ITextEdition::*)(::UnityEngine::TouchScreenKeyboardType)>(
     &::UnityEngine::UIElements::ITextEdition::set_keyboardType)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x7135b60;
+  constexpr static std::size_t addrs = 0x7172a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

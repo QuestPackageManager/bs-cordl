@@ -98,7 +98,7 @@ public:
   SelectObservable_2_Select(SelectObservable_2_Select const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11037 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11044 };
 
   /// @brief Field m_Observable, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::InputSystem::LowLevel::SelectObservable_2<TSource, TResult>* ___m_Observable;
@@ -168,7 +168,7 @@ public:
   SelectObservable_2(SelectObservable_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11038 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11045 };
 
   /// @brief Field m_Source, offset: 0x10, size: 0x8, def value: None
   ::System::IObservable_1<TSource>* ___m_Source;

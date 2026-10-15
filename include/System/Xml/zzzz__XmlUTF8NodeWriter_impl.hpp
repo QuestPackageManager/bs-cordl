@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)()>(&::System::Xml::XmlUTF8NodeWriter::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6555400;
+  constexpr static std::size_t addrs = 0x6591fd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlUTF8NodeWriter*>(), { ".ctor", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::ArrayW<bool>, ::ArrayW<bool>)>(&::System::Xml::XmlUTF8NodeWriter::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x65554fc;
+  constexpr static std::size_t addrs = 0x65920cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::System::IO::Stream*, bool, ::System::Text::Encoding*)>(
     &::System::Xml::XmlUTF8NodeWriter::SetOutput)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6555464;
+  constexpr static std::size_t addrs = 0x6592034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Xml::XmlUTF8NodeWriter::*)()>(&::System::Xml::XmlUTF8NodeWriter::GetCharEntityBuffer)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6555570;
+  constexpr static std::size_t addrs = 0x6592140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlUTF8NodeWriter*>(), { "GetCharEntityBuffer", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<char16_t> (::System::Xml::XmlUTF8NodeWriter::*)(int32_t)>(&::System::Xml::XmlUTF8NodeWriter::GetCharBuffer)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x65555cc;
+  constexpr static std::size_t addrs = 0x659219c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)()>(&::System::Xml::XmlUTF8NodeWriter::WriteDeclaration)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6555664;
+  constexpr static std::size_t addrs = 0x6592234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::StringW)>(&::System::Xml::XmlUTF8NodeWriter::WriteCData)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x65557ac;
+  constexpr static std::size_t addrs = 0x659237c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)()>(&::System::Xml::XmlUTF8NodeWriter::WriteStartComment)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6555998;
+  constexpr static std::size_t addrs = 0x6592568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlUTF8NodeWriter*>(), { "WriteStartComment", {}, {} })));
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)()>(&::System::Xml::XmlUTF8NodeWriter::WriteEndComment)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6555a54;
+  constexpr static std::size_t addrs = 0x6592624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlUTF8NodeWriter*>(), { "WriteEndComment", {}, {} })));
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::StringW)>(&::System::Xml::XmlUTF8NodeWriter::WriteComment)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6555af4;
+  constexpr static std::size_t addrs = 0x65926c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::StringW, ::StringW)>(&::System::Xml::XmlUTF8NodeWriter::WriteStartElement)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6555b24;
+  constexpr static std::size_t addrs = 0x65926f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::StringW, ::System::Xml::XmlDictionaryString*)>(
     &::System::Xml::XmlUTF8NodeWriter::WriteStartElement)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6555bb0;
+  constexpr static std::size_t addrs = 0x6592780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::System::Xml::XmlUTF8NodeWriter::WriteStartElement)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6555bcc;
+  constexpr static std::size_t addrs = 0x659279c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(bool)>(&::System::Xml::XmlUTF8NodeWriter::WriteEndStartElement)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6555c88;
+  constexpr static std::size_t addrs = 0x6592858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::StringW, ::StringW)>(&::System::Xml::XmlUTF8NodeWriter::WriteEndElement)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6555ca0;
+  constexpr static std::size_t addrs = 0x6592870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::System::Xml::XmlUTF8NodeWriter::WriteEndElement)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6555d08;
+  constexpr static std::size_t addrs = 0x65928d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)()>(&::System::Xml::XmlUTF8NodeWriter::WriteStartXmlnsAttribute)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6555d94;
+  constexpr static std::size_t addrs = 0x6592964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlUTF8NodeWriter*>(), { "WriteStartXmlnsAttribute", {}, {} })));
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::StringW, ::StringW)>(&::System::Xml::XmlUTF8NodeWriter::WriteXmlnsAttribute)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6555e94;
+  constexpr static std::size_t addrs = 0x6592a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -250,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::StringW, ::System::Xml::XmlDictionaryString*)>(
     &::System::Xml::XmlUTF8NodeWriter::WriteXmlnsAttribute)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6555f18;
+  constexpr static std::size_t addrs = 0x6592ae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::System::Xml::XmlUTF8NodeWriter::WriteXmlnsAttribute)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6555f38;
+  constexpr static std::size_t addrs = 0x6592b08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -277,7 +277,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::StringW, ::StringW)>(&::System::Xml::XmlUTF8NodeWriter::WriteStartAttribute)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6555fe0;
+  constexpr static std::size_t addrs = 0x6592bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::StringW, ::System::Xml::XmlDictionaryString*)>(
     &::System::Xml::XmlUTF8NodeWriter::WriteStartAttribute)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6556054;
+  constexpr static std::size_t addrs = 0x6592c24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -305,7 +305,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::System::Xml::XmlUTF8NodeWriter::WriteStartAttribute)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6556074;
+  constexpr static std::size_t addrs = 0x6592c44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -318,7 +318,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)()>(&::System::Xml::XmlUTF8NodeWriter::WriteEndAttribute)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x655610c;
+  constexpr static std::size_t addrs = 0x6592cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -331,7 +331,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::StringW)>(&::System::Xml::XmlUTF8NodeWriter::WritePrefix)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6555b7c;
+  constexpr static std::size_t addrs = 0x659274c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -344,7 +344,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Xml::XmlUTF8NodeWriter::WritePrefix)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6555c48;
+  constexpr static std::size_t addrs = 0x6592818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -358,7 +358,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::StringW)>(&::System::Xml::XmlUTF8NodeWriter::WriteLocalName)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6555bac;
+  constexpr static std::size_t addrs = 0x659277c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -371,7 +371,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Xml::XmlUTF8NodeWriter::WriteLocalName)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6555c84;
+  constexpr static std::size_t addrs = 0x6592854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -385,7 +385,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::System::Xml::XmlDictionaryString*)>(&::System::Xml::XmlUTF8NodeWriter::WriteEscapedText)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6556128;
+  constexpr static std::size_t addrs = 0x6592cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -398,7 +398,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::StringW)>(&::System::Xml::XmlUTF8NodeWriter::WriteEscapedText)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6556148;
+  constexpr static std::size_t addrs = 0x6592d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -411,7 +411,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::ArrayW<char16_t>, int32_t, int32_t)>(&::System::Xml::XmlUTF8NodeWriter::WriteEscapedText)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x655627c;
+  constexpr static std::size_t addrs = 0x6592e4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -424,7 +424,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(char16_t*, int32_t)>(&::System::Xml::XmlUTF8NodeWriter::UnsafeWriteEscapedText)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x655616c;
+  constexpr static std::size_t addrs = 0x6592d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -437,7 +437,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Xml::XmlUTF8NodeWriter::WriteEscapedText)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x65562bc;
+  constexpr static std::size_t addrs = 0x6592e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -450,7 +450,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(int32_t)>(&::System::Xml::XmlUTF8NodeWriter::WriteText)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6556480;
+  constexpr static std::size_t addrs = 0x6593050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlUTF8NodeWriter*>(), { "WriteText", {}, { ::i2c::type_of<int32_t>() } })));
@@ -462,7 +462,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Xml::XmlUTF8NodeWriter::WriteText)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6556484;
+  constexpr static std::size_t addrs = 0x6593054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -475,7 +475,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::ArrayW<char16_t>, int32_t, int32_t)>(&::System::Xml::XmlUTF8NodeWriter::WriteText)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6556488;
+  constexpr static std::size_t addrs = 0x6593058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -488,7 +488,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::StringW)>(&::System::Xml::XmlUTF8NodeWriter::WriteText)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65564c8;
+  constexpr static std::size_t addrs = 0x6593098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -501,7 +501,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::System::Xml::XmlDictionaryString*)>(&::System::Xml::XmlUTF8NodeWriter::WriteText)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x65564cc;
+  constexpr static std::size_t addrs = 0x659309c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -514,7 +514,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)()>(&::System::Xml::XmlUTF8NodeWriter::WriteLessThanCharEntity)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x65564e0;
+  constexpr static std::size_t addrs = 0x65930b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlUTF8NodeWriter*>(), { "WriteLessThanCharEntity", {}, {} })));
@@ -526,7 +526,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)()>(&::System::Xml::XmlUTF8NodeWriter::WriteGreaterThanCharEntity)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x65565a0;
+  constexpr static std::size_t addrs = 0x6593170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlUTF8NodeWriter*>(), { "WriteGreaterThanCharEntity", {}, {} })));
@@ -538,7 +538,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)()>(&::System::Xml::XmlUTF8NodeWriter::WriteAmpersandCharEntity)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6556660;
+  constexpr static std::size_t addrs = 0x6593230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlUTF8NodeWriter*>(), { "WriteAmpersandCharEntity", {}, {} })));
@@ -550,7 +550,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)()>(&::System::Xml::XmlUTF8NodeWriter::WriteApostropheCharEntity)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x655673c;
+  constexpr static std::size_t addrs = 0x659330c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlUTF8NodeWriter*>(), { "WriteApostropheCharEntity", {}, {} })));
@@ -562,7 +562,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)()>(&::System::Xml::XmlUTF8NodeWriter::WriteQuoteCharEntity)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6556834;
+  constexpr static std::size_t addrs = 0x6593404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlUTF8NodeWriter*>(), { "WriteQuoteCharEntity", {}, {} })));
@@ -574,7 +574,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(int32_t)>(&::System::Xml::XmlUTF8NodeWriter::WriteHexCharEntity)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x655692c;
+  constexpr static std::size_t addrs = 0x65934fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -587,7 +587,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(int32_t)>(&::System::Xml::XmlUTF8NodeWriter::WriteCharEntity)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6556abc;
+  constexpr static std::size_t addrs = 0x659368c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -600,7 +600,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlUTF8NodeWriter::*)(::ArrayW<uint8_t>, int32_t, uint32_t)>(&::System::Xml::XmlUTF8NodeWriter::ToBase16)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x65569ec;
+  constexpr static std::size_t addrs = 0x65935bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -614,7 +614,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(bool)>(&::System::Xml::XmlUTF8NodeWriter::WriteBoolText)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6556b04;
+  constexpr static std::size_t addrs = 0x65936d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -627,7 +627,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::System::Decimal)>(&::System::Xml::XmlUTF8NodeWriter::WriteDecimalText)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6556bac;
+  constexpr static std::size_t addrs = 0x659377c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -640,7 +640,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(double_t)>(&::System::Xml::XmlUTF8NodeWriter::WriteDoubleText)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6556c5c;
+  constexpr static std::size_t addrs = 0x659382c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -653,7 +653,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(float_t)>(&::System::Xml::XmlUTF8NodeWriter::WriteFloatText)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6556d04;
+  constexpr static std::size_t addrs = 0x65938d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -666,7 +666,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::System::DateTime)>(&::System::Xml::XmlUTF8NodeWriter::WriteDateTimeText)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6556dac;
+  constexpr static std::size_t addrs = 0x659397c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -679,7 +679,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::System::Xml::UniqueId*)>(&::System::Xml::XmlUTF8NodeWriter::WriteUniqueIdText)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6556e54;
+  constexpr static std::size_t addrs = 0x6593a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -692,7 +692,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(int32_t)>(&::System::Xml::XmlUTF8NodeWriter::WriteInt32Text)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6556f14;
+  constexpr static std::size_t addrs = 0x6593ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -705,7 +705,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(int64_t)>(&::System::Xml::XmlUTF8NodeWriter::WriteInt64Text)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6556fbc;
+  constexpr static std::size_t addrs = 0x6593b8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -718,7 +718,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(uint64_t)>(&::System::Xml::XmlUTF8NodeWriter::WriteUInt64Text)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6557064;
+  constexpr static std::size_t addrs = 0x6593c34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -731,7 +731,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::System::Guid)>(&::System::Xml::XmlUTF8NodeWriter::WriteGuidText)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x655710c;
+  constexpr static std::size_t addrs = 0x6593cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -745,7 +745,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::ArrayW<uint8_t>, int32_t, ::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::System::Xml::XmlUTF8NodeWriter::WriteBase64Text)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6557148;
+  constexpr static std::size_t addrs = 0x6593d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -758,7 +758,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Xml::XmlUTF8NodeWriter::InternalWriteBase64Text)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x655719c;
+  constexpr static std::size_t addrs = 0x6593d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -772,7 +772,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::System::TimeSpan)>(&::System::Xml::XmlUTF8NodeWriter::WriteTimeSpanText)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6557340;
+  constexpr static std::size_t addrs = 0x6593f10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -785,7 +785,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)()>(&::System::Xml::XmlUTF8NodeWriter::WriteStartListText)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65573e4;
+  constexpr static std::size_t addrs = 0x6593fb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -798,7 +798,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)()>(&::System::Xml::XmlUTF8NodeWriter::WriteListSeparator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65573e8;
+  constexpr static std::size_t addrs = 0x6593fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -811,7 +811,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)()>(&::System::Xml::XmlUTF8NodeWriter::WriteEndListText)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65573f0;
+  constexpr static std::size_t addrs = 0x6593fc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -825,7 +825,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8NodeWriter::*)(::StringW, ::System::Xml::XmlDictionaryString*)>(
     &::System::Xml::XmlUTF8NodeWriter::WriteQualifiedName)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x65573f4;
+  constexpr static std::size_t addrs = 0x6593fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

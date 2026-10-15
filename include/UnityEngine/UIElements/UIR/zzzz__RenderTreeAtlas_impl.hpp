@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::RenderTreeAtlas_AtlasBlock::*)(int32_t, int32_t, ::UnityEngine::RectInt, ::UnityEngine::Rect)>(
     &::UnityEngine::UIElements::UIR::RenderTreeAtlas_AtlasBlock::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x717cc3c;
+  constexpr static std::size_t addrs = 0x71b9b70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t, int32_t, ::by_ref<::UnityEngine::UIElements::UIR::RenderTreeAtlas_AtlasBlock>)>(
     &::UnityEngine::UIElements::UIR::RenderTreeAtlas::ReserveSize)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x717cb54;
+  constexpr static std::size_t addrs = 0x71b9a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::UIElements::UIR::RenderTreeAtlas_AtlasBlock>, bool, ::by_ref<bool>)>(
     &::UnityEngine::UIElements::UIR::RenderTreeAtlas::CreateTextureForAtlasBlock)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x717cc54;
+  constexpr static std::size_t addrs = 0x71b9b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

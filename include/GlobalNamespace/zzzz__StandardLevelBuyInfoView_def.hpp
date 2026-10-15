@@ -52,7 +52,7 @@ public:
 
   static inline ::GlobalNamespace::StandardLevelBuyInfoView* New_ctor();
 
-  /// @brief Method RefreshView, addr 0x5cf4a68, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method RefreshView, addr 0x5d2d81c, size 0x8c, virtual false, abstract: false, final false
   inline void RefreshView(::StringW infoText, bool canBuyPack);
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__buyLevelButton() const;
@@ -85,16 +85,16 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x5cf4af4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d2d8a8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_buyLevelButton, addr 0x5cf4a50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buyLevelButton, addr 0x5d2d804, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_buyLevelButton();
 
-  /// @brief Method get_buyPackButton, addr 0x5cf4a60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buyPackButton, addr 0x5d2d814, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_buyPackButton();
 
-  /// @brief Method get_openPackButton, addr 0x5cf4a58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_openPackButton, addr 0x5d2d80c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_openPackButton();
 
 protected:
@@ -112,7 +112,7 @@ public:
   StandardLevelBuyInfoView(StandardLevelBuyInfoView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6618 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6622 };
 
   /// [SerializeField]
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None

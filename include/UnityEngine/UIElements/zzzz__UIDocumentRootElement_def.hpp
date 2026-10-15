@@ -52,15 +52,15 @@ public:
 
   constexpr void __cordl_internal_set_document(::UnityW<::UnityEngine::UIElements::UIDocument> value);
 
-  /// @brief Method .ctor, addr 0x7248bc4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7285af8, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::UIDocument* document, ::UnityEngine::UIElements::VisualTreeAsset* sourceAsset);
 
   /// [CompilerGenerated]
-  /// @brief Method get_uiRenderer, addr 0x7248bb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_uiRenderer, addr 0x7285ae8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UIElements::UIRenderer> get_uiRenderer();
 
   /// [CompilerGenerated]
-  /// @brief Method set_uiRenderer, addr 0x7248bbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_uiRenderer, addr 0x7285af0, size 0x8, virtual false, abstract: false, final false
   inline void set_uiRenderer(::UnityEngine::UIElements::UIRenderer* value);
 
 protected:

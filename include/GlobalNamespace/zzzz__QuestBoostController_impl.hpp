@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuestBoostController::*)()>(&::GlobalNamespace::QuestBoostController::AskForBoost)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5d134bc;
+  constexpr static std::size_t addrs = 0x5d4d174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuestBoostController*>(), { "AskForBoost", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuestBoostController::*)()>(&::GlobalNamespace::QuestBoostController::Awake)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5d134c8;
+  constexpr static std::size_t addrs = 0x5d4d180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuestBoostController*>(), { "Awake", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuestBoostController::*)()>(&::GlobalNamespace::QuestBoostController::Update)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x5d13598;
+  constexpr static std::size_t addrs = 0x5d4d250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuestBoostController*>(), { "Update", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuestBoostController::*)(::GlobalNamespace::QuestBoostController_BoostModeReason)>(
     &::GlobalNamespace::QuestBoostController::EnableBoost)> {
   constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x5d139c8;
+  constexpr static std::size_t addrs = 0x5d4d680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuestBoostController*>(),
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuestBoostController::*)()>(&::GlobalNamespace::QuestBoostController::UpdateFrameTimeHistory)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x5d137cc;
+  constexpr static std::size_t addrs = 0x5d4d484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuestBoostController*>(), { "UpdateFrameTimeHistory", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::GlobalNamespace::QuestBoostController::*)()>(&::GlobalNamespace::QuestBoostController::GetMaxFrameTimeInHistory)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5d13984;
+  constexpr static std::size_t addrs = 0x5d4d63c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuestBoostController*>(), { "GetMaxFrameTimeInHistory", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuestBoostController::*)()>(&::GlobalNamespace::QuestBoostController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d13d6c;
+  constexpr static std::size_t addrs = 0x5d4da24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuestBoostController*>(), { ".ctor", {}, {} })));

@@ -55,16 +55,16 @@ public:
 
   constexpr void __cordl_internal_set_hasTypeForwardedFrom(bool value);
 
-  /// @brief Method .ctor, addr 0x5f78890, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fb5178, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW fullTypeName, ::StringW assemblyString, bool hasTypeForwardedFrom);
 
-  /// @brief Method get_AssemblyString, addr 0x5f78880, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssemblyString, addr 0x5fb5168, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AssemblyString();
 
-  /// @brief Method get_FullTypeName, addr 0x5f78878, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FullTypeName, addr 0x5fb5160, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FullTypeName();
 
-  /// @brief Method get_HasTypeForwardedFrom, addr 0x5f78888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasTypeForwardedFrom, addr 0x5fb5170, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasTypeForwardedFrom();
 
 protected:

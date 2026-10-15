@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::WorldSpaceData)>(
     &::UnityEngine::UIElements::WorldSpaceDataStore::SetWorldSpaceData)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x715e35c;
+  constexpr static std::size_t addrs = 0x719b290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::WorldSpaceData (*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::WorldSpaceDataStore::GetWorldSpaceData)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x715e42c;
+  constexpr static std::size_t addrs = 0x719b360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::WorldSpaceDataStore*>(),
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::WorldSpaceDataStore::ClearWorldSpaceData)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x715e524;
+  constexpr static std::size_t addrs = 0x719b458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::WorldSpaceDataStore*>(),
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::WorldSpaceDataStore::ClearLocalBounds3DData)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x715e630;
+  constexpr static std::size_t addrs = 0x719b564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::WorldSpaceDataStore*>(),

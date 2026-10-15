@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Type*, ::System::Type*, ::System::Func_1<::System::Delegate*>*)>(
     &::UnityEngine::UIElements::ConverterGroups_Unsafe::LazyRegisterGlobal)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x7088114;
+  constexpr static std::size_t addrs = 0x70c5048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

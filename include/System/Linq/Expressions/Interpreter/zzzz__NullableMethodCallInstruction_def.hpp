@@ -86,15 +86,15 @@ public:
   /// @brief Field s_value, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_value, put = setStaticF_s_value)) ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction* s_value;
 
-  /// @brief Method Create, addr 0x63dad6c, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x641793c, size 0x360, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::Instruction* Create(::StringW method, int32_t argCount, ::System::Reflection::MethodInfo* mi);
 
-  /// @brief Method CreateGetValue, addr 0x63db118, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CreateGetValue, addr 0x6417ce8, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::Instruction* CreateGetValue();
 
   static inline ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction* New_ctor();
 
-  /// @brief Method .ctor, addr 0x63dad68, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6417938, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction* getStaticF_s_equals();
@@ -109,13 +109,13 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction* getStaticF_s_value();
 
-  /// @brief Method get_ConsumedStack, addr 0x63dad14, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x64178e4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x63dad24, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x64178f4, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x63dad1c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x64178ec, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_s_equals(::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction* value);
@@ -145,7 +145,7 @@ public:
   NullableMethodCallInstruction(NullableMethodCallInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17128 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17161 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

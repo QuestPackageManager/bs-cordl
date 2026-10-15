@@ -48,10 +48,10 @@ public:
 
   static inline ::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c* New_ctor();
 
-  /// @brief Method <GetValueFromBag>b__3_0, addr 0x7145d08, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <GetValueFromBag>b__3_0, addr 0x7182c3c, size 0x40, virtual false, abstract: false, final false
   inline uint32_t _GetValueFromBag_b__3_0(::StringW s, uint32_t i);
 
-  /// @brief Method .ctor, addr 0x7145d04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7182c38, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c* getStaticF___9();
@@ -94,15 +94,15 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription___c;
 
-  /// @brief Method ConvertValueToUInt, addr 0x7145c74, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ConvertValueToUInt, addr 0x7182ba8, size 0x3c, virtual false, abstract: false, final false
   static inline uint32_t ConvertValueToUInt(::StringW v, uint32_t defaultValue);
 
-  /// @brief Method GetValueFromBag, addr 0x7145afc, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method GetValueFromBag, addr 0x7182a30, size 0x178, virtual true, abstract: false, final false
   inline uint32_t GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x7145a5c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7182990, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

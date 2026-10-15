@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/CompositeRotationSpreadLayout.hpp"
 #include "GlobalNamespace/zzzz__CompositeLayoutBase_impl.hpp"
-#include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__CompositeRotationSpreadLayout_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
@@ -11,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CompositeRotationSpreadLayout::*)(::System::Collections::Generic::IReadOnlyList_1<::UnityW<::UnityEngine::Transform>>*,
                                                                                                                   int32_t, int32_t)>(&::GlobalNamespace::CompositeRotationSpreadLayout::Apply)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5dae2f0;
+  constexpr static std::size_t addrs = 0x5deb47c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,38 +22,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CompositeRotationSpreadLayout::*)()>(&::GlobalNamespace::CompositeRotationSpreadLayout::_ctor)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5dae2f4;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5deb480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CompositeRotationSpreadLayout*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Vector3& GlobalNamespace::CompositeRotationSpreadLayout::__cordl_internal_get__rotationStep() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____rotationStep;
-}
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::CompositeRotationSpreadLayout::__cordl_internal_get__rotationStep() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____rotationStep;
-}
-constexpr void GlobalNamespace::CompositeRotationSpreadLayout::__cordl_internal_set__rotationStep(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____rotationStep = value;
-}
-constexpr bool& GlobalNamespace::CompositeRotationSpreadLayout::__cordl_internal_get__startFromCenter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____startFromCenter;
-}
-constexpr bool const& GlobalNamespace::CompositeRotationSpreadLayout::__cordl_internal_get__startFromCenter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____startFromCenter;
-}
-constexpr void GlobalNamespace::CompositeRotationSpreadLayout::__cordl_internal_set__startFromCenter(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____startFromCenter = value;
-}
 inline void GlobalNamespace::CompositeRotationSpreadLayout::Apply(::System::Collections::Generic::IReadOnlyList_1<::UnityW<::UnityEngine::Transform>>* childTransforms, int32_t numberOfElements,
                                                                   int32_t sameIdElements) {
   auto* ___internal_method =

@@ -88,7 +88,7 @@ public:
   NoAllocHelpers_ListPrivateFieldAccess_1(NoAllocHelpers_ListPrivateFieldAccess_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9941 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9948 };
 
   /// @brief Field _items, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<T> ____items;
@@ -123,7 +123,7 @@ public:
   template <typename T> static inline ::ArrayW<T> ExtractArrayFromList(::System::Collections::Generic::List_1<T>* list);
 
   /// [RequiredByNativeCode]
-  /// @brief Method PrepareListForNativeFill, addr 0x6f40564, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method PrepareListForNativeFill, addr 0x6f7d3c4, size 0xc0, virtual false, abstract: false, final false
   static inline ::System::Array* PrepareListForNativeFill(::System::Object* list, ::System::Type* elementType, int32_t newSize);
 
   /// @brief Method ResetListContents, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -132,7 +132,7 @@ public:
   /// @brief Method ResetListSize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void ResetListSize(::System::Collections::Generic::List_1<T>* list, int32_t size);
 
-  /// @brief Method SafeLength, addr 0x6f40554, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SafeLength, addr 0x6f7d3b4, size 0x10, virtual false, abstract: false, final false
   static inline int32_t SafeLength(::System::Array* values);
 
   /// @brief Method SafeLength, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -153,7 +153,7 @@ public:
   NoAllocHelpers(NoAllocHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9942 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9949 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

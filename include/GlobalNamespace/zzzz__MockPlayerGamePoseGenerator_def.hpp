@@ -16,7 +16,7 @@ namespace GlobalNamespace {
 class IGameplayRpcManager;
 }
 namespace GlobalNamespace {
-struct LevelCompletionResults_LevelEndStateType;
+struct LevelCompletionResultsBase_LevelEndStateType;
 }
 namespace GlobalNamespace {
 class LevelCompletionResults;
@@ -70,10 +70,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CreateEmptyLevelCompletionResults, addr 0x5e9afd4, size 0xd0, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::LevelCompletionResults* CreateEmptyLevelCompletionResults(::GlobalNamespace::LevelCompletionResults_LevelEndStateType levelEndStateType);
+  /// @brief Method CreateEmptyLevelCompletionResults, addr 0x5ed77d4, size 0xf4, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::LevelCompletionResults* CreateEmptyLevelCompletionResults(::GlobalNamespace::LevelCompletionResultsBase_LevelEndStateType levelEndStateType);
 
-  /// @brief Method Dispose, addr 0x5e9adfc, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5ed75fc, size 0x2c, virtual true, abstract: false, final false
   inline void Dispose();
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -82,10 +82,10 @@ public:
   static inline ::GlobalNamespace::MockPlayerGamePoseGenerator* New_ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager,
                                                                          ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, bool leftHanded);
 
-  /// @brief Method SimulateFail, addr 0x5e9aee8, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method SimulateFail, addr 0x5ed76e8, size 0xec, virtual true, abstract: false, final false
   inline void SimulateFail();
 
-  /// @brief Method SimulateGiveUp, addr 0x5e9b0a4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SimulateGiveUp, addr 0x5ed78c8, size 0xf0, virtual false, abstract: false, final false
   inline void SimulateGiveUp();
 
   /// @brief Method Tick, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -121,7 +121,7 @@ public:
 
   constexpr void __cordl_internal_set_multiplayerSessionManager(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* value);
 
-  /// @brief Method .ctor, addr 0x5e9aba0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ed73a0, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, bool leftHanded);
 
   /// @brief Convert to "::System::IDisposable"
@@ -142,7 +142,7 @@ public:
   MockPlayerGamePoseGenerator(MockPlayerGamePoseGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23036 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23056 };
 
   /// @brief Field multiplayerSessionManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ___multiplayerSessionManager;

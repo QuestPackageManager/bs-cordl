@@ -92,7 +92,7 @@ public:
                                                     ::GlobalNamespace::OVRSkeleton_BoneId BoneName, ::StringW HandPresenceLeftBoneName, ::StringW HandPresenceRightBoneName) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7907 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7914 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -154,7 +154,7 @@ public:
   constexpr OVRTrackedKeyboardHands_TrackedKeyboardHandsVisibilityChangedEvent(bool leftVisible, bool rightVisible) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7908 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7915 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
@@ -296,45 +296,45 @@ public:
   /// @brief Field rightHand_, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_rightHand_, put = __cordl_internal_set_rightHand_)) ::UnityW<::GlobalNamespace::OVRHand> rightHand_;
 
-  /// @brief Method Awake, addr 0x62fd2b8, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x6339d00, size 0x270, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ComputeOpacity, addr 0x62fe8b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ComputeOpacity, addr 0x633b2f8, size 0x28, virtual false, abstract: false, final false
   inline float_t ComputeOpacity(float_t distance, float_t innerThreshold, float_t outerThreshold);
 
-  /// @brief Method DisableHandObjects, addr 0x62fe1f8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method DisableHandObjects, addr 0x633ac40, size 0xf0, virtual false, abstract: false, final false
   inline void DisableHandObjects();
 
-  /// @brief Method GetHandDistanceToKeyboard, addr 0x62fe2e8, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method GetHandDistanceToKeyboard, addr 0x633ad30, size 0x2d8, virtual false, abstract: false, final false
   inline float_t GetHandDistanceToKeyboard(::GlobalNamespace::OVRSkeleton* handSkeleton);
 
-  /// @brief Method LateUpdate, addr 0x62fda10, size 0x7e8, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x633a458, size 0x7e8, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::OVRTrackedKeyboardHands* New_ctor();
 
-  /// @brief Method RetargetHandTrackingToHandPresence, addr 0x62fd854, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method RetargetHandTrackingToHandPresence, addr 0x633a29c, size 0x180, virtual false, abstract: false, final false
   inline void RetargetHandTrackingToHandPresence();
 
-  /// @brief Method SetHandModelsEnabled, addr 0x62fe6a0, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method SetHandModelsEnabled, addr 0x633b0e8, size 0x210, virtual false, abstract: false, final false
   inline void SetHandModelsEnabled(bool enableLeftModel, bool enableRightModel);
 
-  /// @brief Method ShouldEnableModel, addr 0x62fe630, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ShouldEnableModel, addr 0x633b078, size 0x70, virtual false, abstract: false, final false
   inline bool ShouldEnableModel(float_t distance);
 
-  /// @brief Method ShouldEnablePassthrough, addr 0x62fe5c0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ShouldEnablePassthrough, addr 0x633b008, size 0x70, virtual false, abstract: false, final false
   inline bool ShouldEnablePassthrough(float_t distance);
 
-  /// @brief Method Start, addr 0x62fd528, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x6339f70, size 0x32c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StopHandPresence, addr 0x62fe8d8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method StopHandPresence, addr 0x633b320, size 0x30, virtual false, abstract: false, final false
   inline void StopHandPresence();
 
-  /// @brief Method TrackedKeyboardActiveUpdated, addr 0x62fe908, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method TrackedKeyboardActiveUpdated, addr 0x633b350, size 0xc, virtual false, abstract: false, final false
   inline void TrackedKeyboardActiveUpdated(::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardSetActiveEvent e);
 
-  /// @brief Method TrackedKeyboardVisibilityChanged, addr 0x62fe914, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method TrackedKeyboardVisibilityChanged, addr 0x633b35c, size 0x1c8, virtual false, abstract: false, final false
   inline void TrackedKeyboardVisibilityChanged(::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardVisibilityChangedEvent e);
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_HandsMaterial() const;
@@ -499,7 +499,7 @@ public:
 
   constexpr void __cordl_internal_set_rightHand_(::UnityW<::GlobalNamespace::OVRHand> value);
 
-  /// @brief Method .ctor, addr 0x62feadc, size 0x698, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x633b524, size 0x698, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline float_t getStaticF_handInnerAlphaThreshold_();
@@ -510,15 +510,15 @@ public:
 
   static inline float_t getStaticF_minimumModelHandsDistance_();
 
-  /// @brief Method get_AreControllersActive, addr 0x62fd9d4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_AreControllersActive, addr 0x633a41c, size 0x3c, virtual false, abstract: false, final false
   inline bool get_AreControllersActive();
 
   /// [CompilerGenerated]
-  /// @brief Method get_LeftHandOverKeyboard, addr 0x62fd2a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LeftHandOverKeyboard, addr 0x6339cf0, size 0x8, virtual false, abstract: false, final false
   inline bool get_LeftHandOverKeyboard();
 
   /// [CompilerGenerated]
-  /// @brief Method get_RightHandOverKeyboard, addr 0x62fd298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RightHandOverKeyboard, addr 0x6339ce0, size 0x8, virtual false, abstract: false, final false
   inline bool get_RightHandOverKeyboard();
 
   static inline void setStaticF_handInnerAlphaThreshold_(float_t value);
@@ -530,11 +530,11 @@ public:
   static inline void setStaticF_minimumModelHandsDistance_(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_LeftHandOverKeyboard, addr 0x62fd2b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LeftHandOverKeyboard, addr 0x6339cf8, size 0x8, virtual false, abstract: false, final false
   inline void set_LeftHandOverKeyboard(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_RightHandOverKeyboard, addr 0x62fd2a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RightHandOverKeyboard, addr 0x6339ce8, size 0x8, virtual false, abstract: false, final false
   inline void set_RightHandOverKeyboard(bool value);
 
 protected:
@@ -561,7 +561,7 @@ public:
   static constexpr float_t YSCALE{ static_cast<float_t>(0.8f) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7909 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7916 };
 
   /// @brief Field LeftHandPresence, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___LeftHandPresence;

@@ -31,22 +31,22 @@ public:
 
   __declspec(property(get = get_type)) ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type;
 
-  /// @brief Method .ctor, addr 0x6e3e9c8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7b664, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(uint64_t future);
 
-  /// @brief Method .ctor, addr 0x6e41610, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7e2ac, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(void* next, uint64_t future);
 
   /// [CompilerGenerated]
-  /// @brief Method get_future, addr 0x6e41608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_future, addr 0x6e7e2a4, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_future();
 
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e41600, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x6e7e29c, size 0x8, virtual false, abstract: false, final false
   inline void* get_next();
 
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e415f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6e7e294, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   // Ctor Parameters []
@@ -58,7 +58,7 @@ public:
   constexpr XrFuturePollInfoEXT(::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType _type_k__BackingField, void* _next_k__BackingField, uint64_t _future_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17533 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17566 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

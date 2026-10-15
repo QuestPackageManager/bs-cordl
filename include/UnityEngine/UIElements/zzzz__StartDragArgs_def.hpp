@@ -53,54 +53,54 @@ public:
 
   __declspec(property(get = get_visualMode)) ::UnityEngine::UIElements::DragVisualMode visualMode;
 
-  /// @brief Method SetGenericData, addr 0x721950c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetGenericData, addr 0x7256440, size 0x98, virtual false, abstract: false, final false
   inline void SetGenericData(::StringW key, ::System::Object* data);
 
-  /// @brief Method .ctor, addr 0x72171b8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72540ec, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::StringW title, ::UnityEngine::UIElements::DragVisualMode visualMode);
 
-  /// @brief Method .ctor, addr 0x72194b0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72563e4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::StringW title, ::UnityEngine::UIElements::DragVisualMode visualMode, ::UnityEngine::EventModifiers modifiers);
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_assetPaths, addr 0x72194fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_assetPaths, addr 0x7256430, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> get_assetPaths();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_entityIds, addr 0x72194ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_entityIds, addr 0x7256420, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::EntityId>* get_entityIds();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_genericData, addr 0x72194dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_genericData, addr 0x7256410, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Hashtable* get_genericData();
 
   /// [CompilerGenerated]
   /// [IsReadOnly]
-  /// @brief Method get_title, addr 0x72194c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_title, addr 0x72563f8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_title();
 
   /// [CompilerGenerated]
   /// [IsReadOnly]
-  /// @brief Method get_visualMode, addr 0x72194cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_visualMode, addr 0x7256400, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DragVisualMode get_visualMode();
 
   /// [CompilerGenerated]
-  /// @brief Method set_assetPaths, addr 0x7219504, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_assetPaths, addr 0x7256438, size 0x8, virtual false, abstract: false, final false
   inline void set_assetPaths(::ArrayW<::StringW> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_entityIds, addr 0x72194f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_entityIds, addr 0x7256428, size 0x8, virtual false, abstract: false, final false
   inline void set_entityIds(::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::EntityId>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_genericData, addr 0x72194e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_genericData, addr 0x7256418, size 0x8, virtual false, abstract: false, final false
   inline void set_genericData(::System::Collections::Hashtable* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_modifiers, addr 0x72194d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_modifiers, addr 0x7256408, size 0x8, virtual false, abstract: false, final false
   inline void set_modifiers(::UnityEngine::EventModifiers value);
 
   // Ctor Parameters []

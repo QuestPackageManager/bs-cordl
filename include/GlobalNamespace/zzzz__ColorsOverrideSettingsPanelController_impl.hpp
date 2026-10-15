@@ -2,6 +2,7 @@
 // IWYU pragma private; include "GlobalNamespace/ColorsOverrideSettingsPanelController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorsOverrideSettingsPanelController_def.hpp"
+#include "BeatSaber/Analytics/Settings/zzzz__SettingsChangeAnalytics_def.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeDropdown_def.hpp"
 #include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemesSettings_def.hpp"
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::HMUI::ModalView> (::GlobalNamespace::ColorsOverrideSettingsPanelController::*)()>(
     &::GlobalNamespace::ColorsOverrideSettingsPanelController::get_editColorSchemeModalView)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d3b2dc;
+  constexpr static std::size_t addrs = 0x5d75b9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,8 +36,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorsOverrideSettingsPanelController::*)(::GlobalNamespace::ColorSchemesSettings*)>(
     &::GlobalNamespace::ColorsOverrideSettingsPanelController::SetData)> {
-  constexpr static std::size_t size = 0x410;
-  constexpr static std::size_t addrs = 0x5d3b2e4;
+  constexpr static std::size_t size = 0x450;
+  constexpr static std::size_t addrs = 0x5d75ba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorsOverrideSettingsPanelController*>(),
@@ -49,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorsOverrideSettingsPanelController::*)()>(&::GlobalNamespace::ColorsOverrideSettingsPanelController::OnDestroy)> {
   constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x5d3b860;
+  constexpr static std::size_t addrs = 0x5d76160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorsOverrideSettingsPanelController*>(), { "OnDestroy", {}, {} })));
@@ -60,8 +61,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorsOverrideSettingsPanelController::*)()>(&::GlobalNamespace::ColorsOverrideSettingsPanelController::OnDisable)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5d3bd04;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5d76604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorsOverrideSettingsPanelController*>(), { "OnDisable", {}, {} })));
@@ -73,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorsOverrideSettingsPanelController::*)()>(&::GlobalNamespace::ColorsOverrideSettingsPanelController::OnEnable)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5d3bd28;
+  constexpr static std::size_t addrs = 0x5d76674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorsOverrideSettingsPanelController*>(), { "OnEnable", {}, {} })));
@@ -85,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorsOverrideSettingsPanelController::*)()>(&::GlobalNamespace::ColorsOverrideSettingsPanelController::Refresh)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x5d3bd38;
+  constexpr static std::size_t addrs = 0x5d76684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorsOverrideSettingsPanelController*>(), { "Refresh", {}, {} })));
@@ -98,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorsOverrideSettingsPanelController::*)(bool)>(
     &::GlobalNamespace::ColorsOverrideSettingsPanelController::HideDropdown)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5d3bf3c;
+  constexpr static std::size_t addrs = 0x5d76888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorsOverrideSettingsPanelController::*)(::HMUI::DropdownWithTableView*, int32_t)>(
     &::GlobalNamespace::ColorsOverrideSettingsPanelController::HandleDropDownDidSelectCellWithIdx)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x5d3bf88;
+  constexpr static std::size_t addrs = 0x5d768d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorsOverrideSettingsPanelController::*)(bool)>(
     &::GlobalNamespace::ColorsOverrideSettingsPanelController::HandleOverrideColorsToggleValueChanged)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x5d3c164;
+  constexpr static std::size_t addrs = 0x5d76ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorsOverrideSettingsPanelController::*)(::HMUI::DropdownWithTableView*, int32_t)>(
     &::GlobalNamespace::ColorsOverrideSettingsPanelController::HandleColorOverrideTypeDropdownDidSelectCellWithIdx)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5d3c438;
+  constexpr static std::size_t addrs = 0x5d76d84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -157,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorsOverrideSettingsPanelController::*)()>(
     &::GlobalNamespace::ColorsOverrideSettingsPanelController::HandleEditColorSchemeButtonWasPressed)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5d3c450;
+  constexpr static std::size_t addrs = 0x5d76d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -171,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorsOverrideSettingsPanelController::*)()>(
     &::GlobalNamespace::ColorsOverrideSettingsPanelController::HandleEditColorSchemeControllerDidFinish)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5d3c4e4;
+  constexpr static std::size_t addrs = 0x5d76e30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -185,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorsOverrideSettingsPanelController::*)(::GlobalNamespace::ColorScheme*)>(
     &::GlobalNamespace::ColorsOverrideSettingsPanelController::HandleEditColorSchemeControllerDidChangeColorScheme)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5d3c538;
+  constexpr static std::size_t addrs = 0x5d76e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -199,24 +200,24 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorsOverrideSettingsPanelController::*)()>(&::GlobalNamespace::ColorsOverrideSettingsPanelController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d3c564;
+  constexpr static std::size_t addrs = 0x5d76eb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorsOverrideSettingsPanelController*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::ColorsOverrideSettingsPanelController._HandleOverrideColorsToggleValueChanged_b__25_0
+//  Writing Method size for method: ::GlobalNamespace::ColorsOverrideSettingsPanelController._HandleOverrideColorsToggleValueChanged_b__26_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorsOverrideSettingsPanelController::*)()>(
-    &::GlobalNamespace::ColorsOverrideSettingsPanelController::_HandleOverrideColorsToggleValueChanged_b__25_0)> {
+    &::GlobalNamespace::ColorsOverrideSettingsPanelController::_HandleOverrideColorsToggleValueChanged_b__26_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5d3c568;
+  constexpr static std::size_t addrs = 0x5d76eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorsOverrideSettingsPanelController*>(), { "<HandleOverrideColorsToggleValueChanged>b__25_0", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorsOverrideSettingsPanelController*>(), { "<HandleOverrideColorsToggleValueChanged>b__26_0", {}, {} })));
     return ___internal_method;
   }
 };
@@ -340,6 +341,18 @@ constexpr void GlobalNamespace::ColorsOverrideSettingsPanelController::__cordl_i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____analyticsModel = value;
 }
+constexpr ::BeatSaber::Analytics::Settings::SettingsChangeAnalytics*& GlobalNamespace::ColorsOverrideSettingsPanelController::__cordl_internal_get__settingsChangeAnalytics() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____settingsChangeAnalytics;
+}
+constexpr ::BeatSaber::Analytics::Settings::SettingsChangeAnalytics* const& GlobalNamespace::ColorsOverrideSettingsPanelController::__cordl_internal_get__settingsChangeAnalytics() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____settingsChangeAnalytics;
+}
+constexpr void GlobalNamespace::ColorsOverrideSettingsPanelController::__cordl_internal_set__settingsChangeAnalytics(::BeatSaber::Analytics::Settings::SettingsChangeAnalytics* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____settingsChangeAnalytics = value;
+}
 constexpr ::GlobalNamespace::ColorSchemesSettings*& GlobalNamespace::ColorsOverrideSettingsPanelController::__cordl_internal_get__colorSchemesSettings() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorSchemesSettings;
@@ -457,9 +470,9 @@ inline void GlobalNamespace::ColorsOverrideSettingsPanelController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorsOverrideSettingsPanelController*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::ColorsOverrideSettingsPanelController::_HandleOverrideColorsToggleValueChanged_b__25_0() {
+inline void GlobalNamespace::ColorsOverrideSettingsPanelController::_HandleOverrideColorsToggleValueChanged_b__26_0() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorsOverrideSettingsPanelController*>(), { "<HandleOverrideColorsToggleValueChanged>b__25_0", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorsOverrideSettingsPanelController*>(), { "<HandleOverrideColorsToggleValueChanged>b__26_0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::GlobalNamespace::ColorsOverrideSettingsPanelController* GlobalNamespace::ColorsOverrideSettingsPanelController::New_ctor() {

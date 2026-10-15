@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::UnityEngine::UIElements::Experimental::Lerp::Interpolate)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x71d1440;
+  constexpr static std::size_t addrs = 0x720e374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Color, ::UnityEngine::Color, float_t)>(&::UnityEngine::UIElements::Experimental::Lerp::Interpolate)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x71d1450;
+  constexpr static std::size_t addrs = 0x720e384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Experimental::StyleValues (*)(
     ::UnityEngine::UIElements::Experimental::StyleValues, ::UnityEngine::UIElements::Experimental::StyleValues, float_t)>(&::UnityEngine::UIElements::Experimental::Lerp::Interpolate)> {
   constexpr static std::size_t size = 0x400;
-  constexpr static std::size_t addrs = 0x71d1488;
+  constexpr static std::size_t addrs = 0x720e3bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Experimental::Lerp*>(),

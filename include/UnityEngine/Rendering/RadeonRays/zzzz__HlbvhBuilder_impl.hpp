@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RadeonRays::HlbvhBuilder_ScratchBufferLayout (*)(uint32_t)>(
     &::UnityEngine::Rendering::RadeonRays::HlbvhBuilder_ScratchBufferLayout::Create)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6dfba1c;
+  constexpr static std::size_t addrs = 0x6e386b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::Rendering::RadeonRays::HlbvhBuilder_ScratchBufferLayout::*)(uint32_t)>(
     &::UnityEngine::Rendering::RadeonRays::HlbvhBuilder_ScratchBufferLayout::Reserve)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6dfc50c;
+  constexpr static std::size_t addrs = 0x6e391a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RadeonRays::HlbvhBuilder::*)(::UnityEngine::Rendering::RadeonRays::RadeonRaysShaders*)>(
     &::UnityEngine::Rendering::RadeonRays::HlbvhBuilder::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6dfb7d4;
+  constexpr static std::size_t addrs = 0x6e38470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RadeonRays::HlbvhBuilder*>(),
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::Rendering::RadeonRays::HlbvhBuilder::*)(uint32_t)>(
     &::UnityEngine::Rendering::RadeonRays::HlbvhBuilder::GetScratchDataSizeInDwords)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6dfb9f8;
+  constexpr static std::size_t addrs = 0x6e38694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::UnityEngine::Rendering::RadeonRays::HlbvhBuilder::GetBvhNodeCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dfb23c;
+  constexpr static std::size_t addrs = 0x6e37ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::Rendering::RadeonRays::HlbvhBuilder::*)(uint32_t)>(
     &::UnityEngine::Rendering::RadeonRays::HlbvhBuilder::GetResultDataSizeInDwords)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dfba90;
+  constexpr static std::size_t addrs = 0x6e3872c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::GraphicsBuffer*, int32_t, uint32_t, ::UnityEngine::GraphicsBuffer*, int32_t, int32_t, ::UnityEngine::Rendering::RadeonRays::IndexFormat,
     uint32_t, ::UnityEngine::GraphicsBuffer*, ::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct const>)>(&::UnityEngine::Rendering::RadeonRays::HlbvhBuilder::Execute)> {
   constexpr static std::size_t size = 0x4e4;
-  constexpr static std::size_t addrs = 0x6dfba98;
+  constexpr static std::size_t addrs = 0x6e38734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -152,7 +152,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RadeonRays::HlbvhBuilder_ScratchBufferLayout, ::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct, bool)>(
     &::UnityEngine::Rendering::RadeonRays::HlbvhBuilder::BindKernelArguments)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x6dfbf7c;
+  constexpr static std::size_t addrs = 0x6e38c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

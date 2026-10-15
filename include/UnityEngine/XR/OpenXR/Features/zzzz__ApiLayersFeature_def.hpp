@@ -67,10 +67,10 @@ public:
 
   static inline ::UnityEngine::XR::OpenXR::Features::ApiLayersFeature___c* New_ctor();
 
-  /// @brief Method <GetEnabledApiLayers>b__10_1, addr 0x6e49b44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetEnabledApiLayers>b__10_1, addr 0x6e867e0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW _GetEnabledApiLayers_b__10_1(::UnityEngine::XR::OpenXR::ApiLayers_ApiLayer layer);
 
-  /// @brief Method .ctor, addr 0x6e49b40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e867dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::XR::OpenXR::Features::ApiLayersFeature___c* getStaticF___9();
@@ -96,7 +96,7 @@ public:
   ApiLayersFeature___c(ApiLayersFeature___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17600 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17633 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -117,7 +117,7 @@ public:
 
   static inline ::UnityEngine::XR::OpenXR::Features::ApiLayersFeature___c__DisplayClass10_0* New_ctor();
 
-  /// @brief Method <GetEnabledApiLayers>b__0, addr 0x6e49b4c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <GetEnabledApiLayers>b__0, addr 0x6e867e8, size 0x34, virtual false, abstract: false, final false
   inline bool _GetEnabledApiLayers_b__0(::UnityEngine::XR::OpenXR::ApiLayers_ApiLayer layer);
 
   constexpr ::System::Runtime::InteropServices::Architecture const& __cordl_internal_get_targetArchitecture() const;
@@ -126,7 +126,7 @@ public:
 
   constexpr void __cordl_internal_set_targetArchitecture(::System::Runtime::InteropServices::Architecture value);
 
-  /// @brief Method .ctor, addr 0x6e499ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e86688, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -144,7 +144,7 @@ public:
   ApiLayersFeature___c__DisplayClass10_0(ApiLayersFeature___c__DisplayClass10_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17601 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17634 };
 
   /// @brief Field targetArchitecture, offset: 0x10, size: 0x4, def value: None
   ::System::Runtime::InteropServices::Architecture ___targetArchitecture;
@@ -177,27 +177,27 @@ public:
   __declspec(property(get = getStaticF_s_ApiLayersSupport,
                       put = setStaticF_s_ApiLayersSupport)) ::System::Collections::Generic::List_1<::UnityEngine::XR::OpenXR::ApiLayers_ISupport*>* s_ApiLayersSupport;
 
-  /// @brief Method AddSupport, addr 0x6e490e4, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method AddSupport, addr 0x6e85d80, size 0x11c, virtual false, abstract: false, final false
   static inline void AddSupport(::UnityEngine::XR::OpenXR::ApiLayers_ISupport* support);
 
-  /// @brief Method GetEnabledApiLayers, addr 0x6e49478, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method GetEnabledApiLayers, addr 0x6e86114, size 0x284, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> GetEnabledApiLayers();
 
-  /// @brief Method HookGetInstanceProcAddr, addr 0x6e49288, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method HookGetInstanceProcAddr, addr 0x6e85f24, size 0x1f0, virtual true, abstract: false, final false
   inline ::System::IntPtr HookGetInstanceProcAddr(::System::IntPtr hookGetInstanceProcAddr);
 
   static inline ::UnityEngine::XR::OpenXR::Features::ApiLayersFeature* New_ctor();
 
-  /// @brief Method OnInstanceCreate, addr 0x6e49828, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnInstanceCreate, addr 0x6e864c4, size 0x8, virtual true, abstract: false, final false
   inline bool OnInstanceCreate(uint64_t xrInstance);
 
-  /// @brief Method OnInstanceDestroy, addr 0x6e49838, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method OnInstanceDestroy, addr 0x6e864d4, size 0x1b0, virtual true, abstract: false, final false
   inline void OnInstanceDestroy(uint64_t xrInstance);
 
-  /// @brief Method RemoveSupport, addr 0x6e49200, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method RemoveSupport, addr 0x6e85e9c, size 0x88, virtual false, abstract: false, final false
   static inline void RemoveSupport(::UnityEngine::XR::OpenXR::ApiLayers_ISupport* support);
 
-  /// @brief Method SetEnabledApiLayers, addr 0x6e496fc, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method SetEnabledApiLayers, addr 0x6e86398, size 0x124, virtual false, abstract: false, final false
   static inline void SetEnabledApiLayers(::ArrayW<::StringW> apiLayerNames, int32_t arraySize);
 
   constexpr ::UnityEngine::XR::OpenXR::ApiLayers* const& __cordl_internal_get_m_ApiLayers() const;
@@ -206,12 +206,12 @@ public:
 
   constexpr void __cordl_internal_set_m_ApiLayers(::UnityEngine::XR::OpenXR::ApiLayers* value);
 
-  /// @brief Method .ctor, addr 0x6e499f0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e8668c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::XR::OpenXR::ApiLayers_ISupport*>* getStaticF_s_ApiLayersSupport();
 
-  /// @brief Method get_apiLayers, addr 0x6e490dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_apiLayers, addr 0x6e85d78, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::ApiLayers* get_apiLayers();
 
   static inline void setStaticF_s_ApiLayersSupport(::System::Collections::Generic::List_1<::UnityEngine::XR::OpenXR::ApiLayers_ISupport*>* value);
@@ -231,7 +231,7 @@ public:
   ApiLayersFeature(ApiLayersFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17602 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17635 };
 
   /// @brief Field featureId offset 0xffffffff size 0x8
   static constexpr ::ConstString featureId{ u"com.unity.openxr.feature.apilayers" };

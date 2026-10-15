@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DeterminismConfig::*)()>(&::GlobalNamespace::DeterminismConfig::get_isDeterministic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35af5c4;
+  constexpr static std::size_t addrs = 0x35d1ea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeterminismConfig*>(), { "get_isDeterministic", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeterminismConfig::*)(bool)>(&::GlobalNamespace::DeterminismConfig::set_isDeterministic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35af5cc;
+  constexpr static std::size_t addrs = 0x35d1eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeterminismConfig::*)(::System::Action_1<bool>*)>(&::GlobalNamespace::DeterminismConfig::add_determinismSetEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x35af5d4;
+  constexpr static std::size_t addrs = 0x35d1eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeterminismConfig::*)(::System::Action_1<bool>*)>(&::GlobalNamespace::DeterminismConfig::remove_determinismSetEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x35af694;
+  constexpr static std::size_t addrs = 0x35d1f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeterminismConfig::*)(bool, ::GlobalNamespace::TimeHelper*)>(&::GlobalNamespace::DeterminismConfig::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35af754;
+  constexpr static std::size_t addrs = 0x35d2034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,11 +74,23 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeterminismConfig::*)(bool)>(&::GlobalNamespace::DeterminismConfig::SetDeterminism)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x35af75c;
+  constexpr static std::size_t addrs = 0x35d203c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeterminismConfig*>(), { "SetDeterminism", {}, { ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::DeterminismConfig.NextRandomSeed
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::GlobalNamespace::DeterminismConfig::*)()>(&::GlobalNamespace::DeterminismConfig::NextRandomSeed)> {
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x35d21a0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeterminismConfig*>(), { "NextRandomSeed", {}, {} })));
     return ___internal_method;
   }
 };
@@ -118,6 +130,18 @@ constexpr void GlobalNamespace::DeterminismConfig::__cordl_internal_set__timeHel
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____timeHelper = value;
 }
+constexpr uint32_t& GlobalNamespace::DeterminismConfig::__cordl_internal_get__lastRandomSeed() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____lastRandomSeed;
+}
+constexpr uint32_t const& GlobalNamespace::DeterminismConfig::__cordl_internal_get__lastRandomSeed() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____lastRandomSeed;
+}
+constexpr void GlobalNamespace::DeterminismConfig::__cordl_internal_set__lastRandomSeed(uint32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____lastRandomSeed = value;
+}
 inline bool GlobalNamespace::DeterminismConfig::get_isDeterministic() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeterminismConfig*>(), { "get_isDeterministic", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
@@ -147,6 +171,10 @@ inline void GlobalNamespace::DeterminismConfig::SetDeterminism(bool isDeterminis
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeterminismConfig*>(), { "SetDeterminism", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, isDeterministic);
+}
+inline uint32_t GlobalNamespace::DeterminismConfig::NextRandomSeed() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeterminismConfig*>(), { "NextRandomSeed", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t>(this, ___internal_method);
 }
 inline ::GlobalNamespace::DeterminismConfig* GlobalNamespace::DeterminismConfig::New_ctor(bool initialDeterminism, ::GlobalNamespace::TimeHelper* timeHelper) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::DeterminismConfig*>(initialDeterminism, timeHelper));

@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalPlayerInGameMenuInitData::*)(::by_ref<::GlobalNamespace::BeatmapKey const>, bool)>(
     &::GlobalNamespace::LocalPlayerInGameMenuInitData::_ctor)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5dcabd0;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5e07db8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

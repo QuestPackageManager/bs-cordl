@@ -166,7 +166,7 @@ public:
   VolumeDebugSettings_1___c(VolumeDebugSettings_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8928 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8935 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -214,7 +214,7 @@ public:
   VolumeDebugSettings_1___c__DisplayClass22_0(VolumeDebugSettings_1___c__DisplayClass22_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8929 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8936 };
 
   /// @brief Field value, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___value;
@@ -468,7 +468,7 @@ public:
   VolumeDebugSettings_1(VolumeDebugSettings_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8930 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8937 };
 
   /// [CompilerGenerated]
   /// @brief Field <selectedComponent>k__BackingField, offset: 0x10, size: 0x4, def value: None

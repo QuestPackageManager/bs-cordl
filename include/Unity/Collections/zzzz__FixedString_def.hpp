@@ -32,15 +32,15 @@ class CORDL_TYPE FixedString : public ::System::Object {
 public:
   // Declarations
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68ea8b8, size 0x5ac, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6927534, size 0x5ac, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68ea5d4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6927250, size 0x110, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, ::StringW arg1);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e9b7c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x69267f8, size 0x130, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, ::StringW arg1, ::StringW arg2);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -51,11 +51,11 @@ public:
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, ::StringW arg1, T1 arg2);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e8f80, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6925bfc, size 0x154, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, ::StringW arg1, float_t arg2);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e8388, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6925004, size 0x148, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, ::StringW arg1, int32_t arg2);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -96,11 +96,11 @@ public:
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, T1 arg1, int32_t arg2);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68ea254, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6926ed0, size 0x12c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, float_t arg1);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e978c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6926408, size 0x154, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, float_t arg1, ::StringW arg2);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -111,19 +111,19 @@ public:
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, float_t arg1, T1 arg2);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e8b74, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x69257f0, size 0x150, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, float_t arg1, float_t arg2);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e7f68, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6924be4, size 0x16c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, float_t arg1, int32_t arg2);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e9ee8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6926b64, size 0x128, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, int32_t arg1);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e9388, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6926004, size 0x148, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, int32_t arg1, ::StringW arg2);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -134,11 +134,11 @@ public:
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, int32_t arg1, T1 arg2);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e8774, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x69253f0, size 0x16c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, int32_t arg1, float_t arg2);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e7b7c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x69247f8, size 0x148, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, ::StringW arg0, int32_t arg1, int32_t arg2);
 
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString32Bytes) })]
@@ -307,15 +307,15 @@ public:
              ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, T1 arg0, int32_t arg1, int32_t arg2);
 
-  /// @brief Method Format, addr 0x68ea7cc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6927448, size 0xec, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68ea4a8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6927124, size 0x12c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, ::StringW arg1);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e9a28, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x69266a4, size 0x154, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, ::StringW arg1, ::StringW arg2);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -326,11 +326,11 @@ public:
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, ::StringW arg1, T1 arg2);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e8e30, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6925aac, size 0x150, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, ::StringW arg1, float_t arg2);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e821c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6924e98, size 0x16c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, ::StringW arg1, int32_t arg2);
 
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString32Bytes) })]
@@ -370,11 +370,11 @@ public:
              ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, T1 arg1, int32_t arg2);
 
-  /// @brief Method Format, addr 0x68ea13c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6926db8, size 0x118, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, float_t arg1);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e963c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x69262b8, size 0x150, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, float_t arg1, ::StringW arg2);
 
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString32Bytes) })]
@@ -384,17 +384,17 @@ public:
              ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, float_t arg1, T1 arg2);
 
-  /// @brief Method Format, addr 0x68e8a30, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x69256ac, size 0x144, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, float_t arg1, float_t arg2);
 
-  /// @brief Method Format, addr 0x68e7e18, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6924a94, size 0x150, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, float_t arg1, int32_t arg2);
 
-  /// @brief Method Format, addr 0x68e9dbc, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6926a38, size 0x12c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, int32_t arg1);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e921c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6925e98, size 0x16c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, int32_t arg1, ::StringW arg2);
 
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString32Bytes) })]
@@ -404,21 +404,21 @@ public:
              ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, int32_t arg1, T1 arg2);
 
-  /// @brief Method Format, addr 0x68e8624, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x69252a0, size 0x150, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, int32_t arg1, float_t arg2);
 
-  /// @brief Method Format, addr 0x68e7a28, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x69246a4, size 0x154, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, float_t arg0, int32_t arg1, int32_t arg2);
 
-  /// @brief Method Format, addr 0x68ea6e4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6927360, size 0xe8, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68ea380, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6926ffc, size 0x128, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, ::StringW arg1);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e98e0, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x692655c, size 0x148, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, ::StringW arg1, ::StringW arg2);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -429,11 +429,11 @@ public:
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, ::StringW arg1, T1 arg2);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e8cc4, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6925940, size 0x16c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, ::StringW arg1, float_t arg2);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e80d4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6924d50, size 0x148, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, ::StringW arg1, int32_t arg2);
 
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString32Bytes) })]
@@ -473,11 +473,11 @@ public:
              ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, T1 arg1, int32_t arg2);
 
-  /// @brief Method Format, addr 0x68ea010, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6926c8c, size 0x12c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, float_t arg1);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e94d0, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x692614c, size 0x16c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, float_t arg1, ::StringW arg2);
 
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString32Bytes) })]
@@ -487,17 +487,17 @@ public:
              ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, float_t arg1, T1 arg2);
 
-  /// @brief Method Format, addr 0x68e88e0, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x692555c, size 0x150, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, float_t arg1, float_t arg2);
 
-  /// @brief Method Format, addr 0x68e7cc4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6924940, size 0x154, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, float_t arg1, int32_t arg2);
 
-  /// @brief Method Format, addr 0x68e9cac, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6926928, size 0x110, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, int32_t arg1);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e90d4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6925d50, size 0x148, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, int32_t arg1, ::StringW arg2);
 
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString32Bytes) })]
@@ -507,14 +507,14 @@ public:
              ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, int32_t arg1, T1 arg2);
 
-  /// @brief Method Format, addr 0x68e84d0, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x692514c, size 0x154, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, int32_t arg1, float_t arg2);
 
-  /// @brief Method Format, addr 0x68e78f8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6924574, size 0x130, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes Format(::Unity::Collections::FixedString128Bytes formatString, int32_t arg0, int32_t arg1, int32_t arg2);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e77a0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x692441c, size 0x158, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, ::StringW arg2, ::StringW arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -525,11 +525,11 @@ public:
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, ::StringW arg2, T1 arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e4f40, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6921bbc, size 0x174, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, ::StringW arg2, float_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e2694, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691f310, size 0x170, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, ::StringW arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -563,7 +563,7 @@ public:
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, T1 arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e6a64, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x69236e0, size 0x174, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, float_t arg2, ::StringW arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -574,15 +574,15 @@ public:
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, float_t arg2, T1 arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e4198, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6920e14, size 0x178, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, float_t arg2, float_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e18f8, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691e574, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, float_t arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e5cc4, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6922940, size 0x170, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, int32_t arg2, ::StringW arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -593,11 +593,11 @@ public:
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, int32_t arg2, T1 arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e341c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6920098, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, int32_t arg2, float_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e0b70, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691d7ec, size 0x170, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, ::StringW arg1, int32_t arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -729,7 +729,7 @@ public:
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, T1 arg1, int32_t arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e7348, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6923fc4, size 0x174, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, ::StringW arg2, ::StringW arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -740,11 +740,11 @@ public:
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, ::StringW arg2, T1 arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e4ac4, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6921740, size 0x178, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, ::StringW arg2, float_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e220c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691ee88, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, ::StringW arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -778,7 +778,7 @@ public:
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, T1 arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e65e8, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6923264, size 0x178, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, float_t arg2, ::StringW arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -789,15 +789,15 @@ public:
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, float_t arg2, T1 arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e3d10, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x692098c, size 0x17c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, float_t arg2, float_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e144c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691e0c8, size 0x190, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, float_t arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e583c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x69224b8, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, int32_t arg2, ::StringW arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -808,15 +808,15 @@ public:
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, int32_t arg2, T1 arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e2f70, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691fbec, size 0x190, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, int32_t arg2, float_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e06e8, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691d364, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, float_t arg1, int32_t arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e6ed4, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6923b50, size 0x170, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, ::StringW arg2, ::StringW arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -827,11 +827,11 @@ public:
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, ::StringW arg2, T1 arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e462c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x69212a8, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, ::StringW arg2, float_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e1d80, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691e9fc, size 0x170, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, ::StringW arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -865,7 +865,7 @@ public:
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, T1 arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e6150, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6922dcc, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, float_t arg2, ::StringW arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -876,15 +876,15 @@ public:
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, float_t arg2, T1 arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e389c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6920518, size 0x190, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, float_t arg2, float_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e0fcc, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691dc48, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, float_t arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e53b0, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x692202c, size 0x170, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, int32_t arg2, ::StringW arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -895,11 +895,11 @@ public:
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, int32_t arg2, T1 arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e2af0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691f76c, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, int32_t arg2, float_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e028c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691cf08, size 0x170, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, ::StringW arg0, int32_t arg1, int32_t arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -1454,7 +1454,7 @@ public:
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, T1 arg0, int32_t arg1, int32_t arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e762c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x69242a8, size 0x174, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, ::StringW arg2, ::StringW arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -1465,11 +1465,11 @@ public:
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, ::StringW arg2, T1 arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e4dc8, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6921a44, size 0x178, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, ::StringW arg2, float_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e2508, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691f184, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, ::StringW arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -1503,7 +1503,7 @@ public:
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, T1 arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e68ec, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6923568, size 0x178, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, float_t arg2, ::StringW arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -1514,15 +1514,15 @@ public:
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, float_t arg2, T1 arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e401c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6920c98, size 0x17c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, float_t arg2, float_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e1768, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691e3e4, size 0x190, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, float_t arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e5b38, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x69227b4, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, int32_t arg2, ::StringW arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -1533,11 +1533,11 @@ public:
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, int32_t arg2, T1 arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e328c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691ff08, size 0x190, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, int32_t arg2, float_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e09e4, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691d660, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, ::StringW arg1, int32_t arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -1670,7 +1670,7 @@ public:
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, T1 arg1, int32_t arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e71d0, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6923e4c, size 0x178, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, ::StringW arg2, ::StringW arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -1681,11 +1681,11 @@ public:
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, ::StringW arg2, T1 arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e4948, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x69215c4, size 0x17c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, ::StringW arg2, float_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e207c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691ecf8, size 0x190, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, ::StringW arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -1719,7 +1719,7 @@ public:
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, T1 arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e646c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x69230e8, size 0x17c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, float_t arg2, ::StringW arg3);
 
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString32Bytes) })]
@@ -1729,14 +1729,14 @@ public:
              ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, float_t arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x68e3ba8, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6920824, size 0x168, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, float_t arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x68e12d0, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691df4c, size 0x17c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, float_t arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e56ac, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6922328, size 0x190, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, int32_t arg2, ::StringW arg3);
 
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString32Bytes) })]
@@ -1746,14 +1746,14 @@ public:
              ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, int32_t arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x68e2df4, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691fa70, size 0x17c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, int32_t arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x68e0570, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691d1ec, size 0x178, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, float_t arg1, int32_t arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e6d48, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x69239c4, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, ::StringW arg2, ::StringW arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -1764,11 +1764,11 @@ public:
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, ::StringW arg2, T1 arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e449c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6921118, size 0x190, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, ::StringW arg2, float_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e1bf4, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691e870, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, ::StringW arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -1802,7 +1802,7 @@ public:
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, T1 arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e5fc0, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6922c3c, size 0x190, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, float_t arg2, ::StringW arg3);
 
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString32Bytes) })]
@@ -1812,14 +1812,14 @@ public:
              ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, float_t arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x68e3720, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x692039c, size 0x17c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, float_t arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x68e0e54, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691dad0, size 0x178, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, float_t arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e5224, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6921ea0, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, int32_t arg2, ::StringW arg3);
 
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString32Bytes) })]
@@ -1829,14 +1829,14 @@ public:
              ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, int32_t arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x68e2978, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691f5f4, size 0x178, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, int32_t arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x68e0118, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691cd94, size 0x174, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, float_t arg0, int32_t arg1, int32_t arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e74bc, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6924138, size 0x170, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, ::StringW arg2, ::StringW arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -1847,11 +1847,11 @@ public:
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, ::StringW arg2, T1 arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e4c3c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x69218b8, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, ::StringW arg2, float_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e2398, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691f014, size 0x170, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, ::StringW arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -1885,7 +1885,7 @@ public:
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, T1 arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e6760, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x69233dc, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, float_t arg2, ::StringW arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -1896,15 +1896,15 @@ public:
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, float_t arg2, T1 arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e3e8c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6920b08, size 0x190, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, float_t arg2, float_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e15dc, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691e258, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, float_t arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e59c8, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6922644, size 0x170, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, int32_t arg2, ::StringW arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -1915,11 +1915,11 @@ public:
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, int32_t arg2, T1 arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e3100, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691fd7c, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, int32_t arg2, float_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e0874, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691d4f0, size 0x170, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, ::StringW arg1, int32_t arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -2052,7 +2052,7 @@ public:
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, T1 arg1, int32_t arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e7044, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6923cc0, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, ::StringW arg2, ::StringW arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -2063,11 +2063,11 @@ public:
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, ::StringW arg2, T1 arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e47b8, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6921434, size 0x190, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, ::StringW arg2, float_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e1ef0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691eb6c, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, ::StringW arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -2101,7 +2101,7 @@ public:
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, T1 arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e62dc, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6922f58, size 0x190, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, float_t arg2, ::StringW arg3);
 
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString32Bytes) })]
@@ -2111,14 +2111,14 @@ public:
              ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, float_t arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x68e3a2c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x69206a8, size 0x17c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, float_t arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x68e1158, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691ddd4, size 0x178, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, float_t arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e5520, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x692219c, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, int32_t arg2, ::StringW arg3);
 
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString32Bytes) })]
@@ -2128,14 +2128,14 @@ public:
              ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, int32_t arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x68e2c7c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691f8f8, size 0x178, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, int32_t arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x68e03fc, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691d078, size 0x174, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, float_t arg1, int32_t arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e6bd8, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6923854, size 0x170, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, ::StringW arg2, ::StringW arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -2146,11 +2146,11 @@ public:
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, ::StringW arg2, T1 arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e4310, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6920f8c, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, ::StringW arg2, float_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e1a84, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691e700, size 0x170, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, ::StringW arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
@@ -2184,7 +2184,7 @@ public:
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, T1 arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e5e34, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6922ab0, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, float_t arg2, ::StringW arg3);
 
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString32Bytes) })]
@@ -2194,14 +2194,14 @@ public:
              ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, float_t arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x68e35a8, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6920224, size 0x178, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, float_t arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x68e0ce0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691d95c, size 0x174, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, float_t arg2, int32_t arg3);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Format, addr 0x68e50b4, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x6921d30, size 0x170, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, int32_t arg2, ::StringW arg3);
 
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(Unity.Collections.FixedString32Bytes) })]
@@ -2211,10 +2211,10 @@ public:
              ::cordl_internals::value_type_constraint<T1> && ::cordl_internals::default_constructor_constraint<T1>)
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, int32_t arg2, T1 arg3);
 
-  /// @brief Method Format, addr 0x68e2804, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691f480, size 0x174, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, int32_t arg2, float_t arg3);
 
-  /// @brief Method Format, addr 0x68dffc0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x691cc3c, size 0x158, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes Format(::Unity::Collections::FixedString512Bytes formatString, int32_t arg0, int32_t arg1, int32_t arg2, int32_t arg3);
 
 protected:
@@ -2232,7 +2232,7 @@ public:
   FixedString(FixedString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15859 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15892 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -49,60 +49,60 @@ public:
 
   __declspec(property(get = get_touchSupported)) bool touchSupported;
 
-  /// @brief Method GetAxisRaw, addr 0x72b8248, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetAxisRaw, addr 0x72f517c, size 0x8, virtual true, abstract: false, final false
   inline float_t GetAxisRaw(::StringW axisName);
 
-  /// @brief Method GetButtonDown, addr 0x72b8250, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetButtonDown, addr 0x72f5184, size 0x8, virtual true, abstract: false, final false
   inline bool GetButtonDown(::StringW buttonName);
 
-  /// @brief Method GetMouseButton, addr 0x72b8144, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetMouseButton, addr 0x72f5078, size 0x3c, virtual true, abstract: false, final false
   inline bool GetMouseButton(int32_t button);
 
-  /// @brief Method GetMouseButtonDown, addr 0x72b80cc, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetMouseButtonDown, addr 0x72f5000, size 0x3c, virtual true, abstract: false, final false
   inline bool GetMouseButtonDown(int32_t button);
 
-  /// @brief Method GetMouseButtonUp, addr 0x72b8108, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetMouseButtonUp, addr 0x72f503c, size 0x3c, virtual true, abstract: false, final false
   inline bool GetMouseButtonUp(int32_t button);
 
-  /// @brief Method GetTouch, addr 0x72b81c8, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method GetTouch, addr 0x72f50fc, size 0x80, virtual true, abstract: false, final false
   inline ::UnityEngine::Touch GetTouch(int32_t index);
 
   static inline ::UnityEngine::EventSystems::BaseInput* New_ctor();
 
-  /// @brief Method .ctor, addr 0x72b8258, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72f518c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_compositionCursorPos, addr 0x72b807c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_compositionCursorPos, addr 0x72f4fb0, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 get_compositionCursorPos();
 
-  /// @brief Method get_compositionString, addr 0x72b8010, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_compositionString, addr 0x72f4f44, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_compositionString();
 
-  /// @brief Method get_imeCompositionMode, addr 0x72b8018, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_imeCompositionMode, addr 0x72f4f4c, size 0x28, virtual true, abstract: false, final false
   inline ::UnityEngine::IMECompositionMode get_imeCompositionMode();
 
-  /// @brief Method get_mousePosition, addr 0x72b8180, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_mousePosition, addr 0x72f50b4, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 get_mousePosition();
 
-  /// @brief Method get_mousePresent, addr 0x72b80c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_mousePresent, addr 0x72f4ff8, size 0x8, virtual true, abstract: false, final false
   inline bool get_mousePresent();
 
-  /// @brief Method get_mouseScrollDelta, addr 0x72b8188, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_mouseScrollDelta, addr 0x72f50bc, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 get_mouseScrollDelta();
 
-  /// @brief Method get_mouseScrollDeltaPerTick, addr 0x72b8190, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_mouseScrollDeltaPerTick, addr 0x72f50c4, size 0x8, virtual true, abstract: false, final false
   inline float_t get_mouseScrollDeltaPerTick();
 
-  /// @brief Method get_touchCount, addr 0x72b81a0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_touchCount, addr 0x72f50d4, size 0x28, virtual true, abstract: false, final false
   inline int32_t get_touchCount();
 
-  /// @brief Method get_touchSupported, addr 0x72b8198, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_touchSupported, addr 0x72f50cc, size 0x8, virtual true, abstract: false, final false
   inline bool get_touchSupported();
 
-  /// @brief Method set_compositionCursorPos, addr 0x72b8084, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method set_compositionCursorPos, addr 0x72f4fb8, size 0x40, virtual true, abstract: false, final false
   inline void set_compositionCursorPos(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_imeCompositionMode, addr 0x72b8040, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method set_imeCompositionMode, addr 0x72f4f74, size 0x3c, virtual true, abstract: false, final false
   inline void set_imeCompositionMode(::UnityEngine::IMECompositionMode value);
 
 protected:
@@ -120,7 +120,7 @@ public:
   BaseInput(BaseInput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18077 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18110 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

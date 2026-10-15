@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlQualifiedName* (::System::Xml::Schema::XmlSchemaKeyref::*)()>(&::System::Xml::Schema::XmlSchemaKeyref::get_Refer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6659674;
+  constexpr static std::size_t addrs = 0x6696244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaKeyref*>(), { "get_Refer", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaKeyref::*)(::System::Xml::XmlQualifiedName*)>(&::System::Xml::Schema::XmlSchemaKeyref::set_Refer)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x665967c;
+  constexpr static std::size_t addrs = 0x669624c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaKeyref::*)()>(&::System::Xml::Schema::XmlSchemaKeyref::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6659710;
+  constexpr static std::size_t addrs = 0x66962e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaKeyref*>(), { ".ctor", {}, {} })));

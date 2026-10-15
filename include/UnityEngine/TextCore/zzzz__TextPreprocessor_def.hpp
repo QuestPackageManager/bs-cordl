@@ -36,21 +36,21 @@ namespace UnityEngine::TextCore {
 class CORDL_TYPE TextPreprocessor : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetStyle, addr 0x702d520, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetStyle, addr 0x706a414, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::TextStyle* GetStyle(::UnityEngine::TextCore::Text::TextSettings* textSettings, int32_t hashCode);
 
   /// [NullableContext(0)]
-  /// @brief Method GetStyleHashCode, addr 0x702d498, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetStyleHashCode, addr 0x706a38c, size 0x88, virtual false, abstract: false, final false
   static inline int32_t GetStyleHashCode(::System::ReadOnlySpan_1<char16_t> text);
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
-  /// @brief Method PreProcessString, addr 0x702c3a0, size 0x720, virtual false, abstract: false, final false
+  /// @brief Method PreProcessString, addr 0x7069294, size 0x720, virtual false, abstract: false, final false
   static inline void PreProcessString(::by_ref<::StringW> text, ::UnityEngine::TextCore::PreProcessFlags flags, /* [Nullable(2)] */ ::UnityEngine::TextCore::Text::TextSettings* textSettings);
 
-  /// @brief Method ReplaceNobrTags, addr 0x702d110, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method ReplaceNobrTags, addr 0x706a004, size 0x388, virtual false, abstract: false, final false
   static inline ::StringW ReplaceNobrTags(::StringW text);
 
-  /// @brief Method ReplaceStyleTags, addr 0x702cac0, size 0x650, virtual false, abstract: false, final false
+  /// @brief Method ReplaceStyleTags, addr 0x70699b4, size 0x650, virtual false, abstract: false, final false
   static inline ::StringW ReplaceStyleTags(::StringW text, ::UnityEngine::TextCore::Text::TextSettings* textSettings);
 
 protected:
@@ -68,7 +68,7 @@ public:
   TextPreprocessor(TextPreprocessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17795 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17828 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

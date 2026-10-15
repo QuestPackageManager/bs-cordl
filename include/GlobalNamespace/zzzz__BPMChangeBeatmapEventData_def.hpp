@@ -33,10 +33,10 @@ public:
 
   __declspec(property(get = get_previousSameTypeEventData)) ::GlobalNamespace::BPMChangeBeatmapEventData* previousSameTypeEventData;
 
-  /// @brief Method GetCopy, addr 0x34def38, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method GetCopy, addr 0x34f7374, size 0x78, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  /// @brief Method GetDefault, addr 0x34defb0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetDefault, addr 0x34f73ec, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* GetDefault();
 
   static inline ::GlobalNamespace::BPMChangeBeatmapEventData* New_ctor(float_t time, float_t bpm);
@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set_bpm(float_t value);
 
-  /// @brief Method .ctor, addr 0x34dee88, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34f72c4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t bpm);
 
-  /// @brief Method get_nextSameTypeEventData, addr 0x34dee0c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_nextSameTypeEventData, addr 0x34f7248, size 0x7c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BPMChangeBeatmapEventData* get_nextSameTypeEventData();
 
-  /// @brief Method get_previousSameTypeEventData, addr 0x34ded90, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_previousSameTypeEventData, addr 0x34f71cc, size 0x7c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BPMChangeBeatmapEventData* get_previousSameTypeEventData();
 
 protected:
@@ -71,7 +71,7 @@ public:
   BPMChangeBeatmapEventData(BPMChangeBeatmapEventData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21954 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22003 };
 
   /// @brief Field bpm, offset: 0x38, size: 0x4, def value: None
   float_t ___bpm;

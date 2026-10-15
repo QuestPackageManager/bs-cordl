@@ -60,36 +60,36 @@ public:
   /// @brief Field mSrpIdentity, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_mSrpIdentity, put = __cordl_internal_set_mSrpIdentity)) ::ArrayW<uint8_t> mSrpIdentity;
 
-  /// @brief Method Build, addr 0x36f9340, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x371bca4, size 0x134, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::SessionParameters* Build();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::SessionParameters_Builder* New_ctor();
 
-  /// @brief Method SetCipherSuite, addr 0x36f94f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetCipherSuite, addr 0x371be58, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::SessionParameters_Builder* SetCipherSuite(int32_t cipherSuite);
 
-  /// @brief Method SetCompressionAlgorithm, addr 0x36f94fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetCompressionAlgorithm, addr 0x371be60, size 0xc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::SessionParameters_Builder* SetCompressionAlgorithm(uint8_t compressionAlgorithm);
 
-  /// @brief Method SetExtendedMasterSecret, addr 0x36f9508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetExtendedMasterSecret, addr 0x371be6c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::SessionParameters_Builder* SetExtendedMasterSecret(bool extendedMasterSecret);
 
-  /// @brief Method SetMasterSecret, addr 0x36f9510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetMasterSecret, addr 0x371be74, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::SessionParameters_Builder* SetMasterSecret(::ArrayW<uint8_t> masterSecret);
 
-  /// @brief Method SetPeerCertificate, addr 0x36f9518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetPeerCertificate, addr 0x371be7c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::SessionParameters_Builder* SetPeerCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* peerCertificate);
 
-  /// @brief Method SetPskIdentity, addr 0x36f9520, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetPskIdentity, addr 0x371be84, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::SessionParameters_Builder* SetPskIdentity(::ArrayW<uint8_t> pskIdentity);
 
-  /// @brief Method SetServerExtensions, addr 0x36f9530, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SetServerExtensions, addr 0x371be94, size 0xa4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::SessionParameters_Builder* SetServerExtensions(::System::Collections::IDictionary* serverExtensions);
 
-  /// @brief Method SetSrpIdentity, addr 0x36f9528, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSrpIdentity, addr 0x371be8c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::SessionParameters_Builder* SetSrpIdentity(::ArrayW<uint8_t> srpIdentity);
 
-  /// @brief Method Validate, addr 0x36f9474, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Validate, addr 0x371bdd8, size 0x80, virtual false, abstract: false, final false
   inline void Validate(bool condition, ::StringW parameter);
 
   constexpr int32_t const& __cordl_internal_get_mCipherSuite() const;
@@ -140,7 +140,7 @@ public:
 
   constexpr void __cordl_internal_set_mSrpIdentity(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x36f931c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x371bc80, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -253,17 +253,17 @@ public:
   /// @brief Field mSrpIdentity, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_mSrpIdentity, put = __cordl_internal_set_mSrpIdentity)) ::ArrayW<uint8_t> mSrpIdentity;
 
-  /// @brief Method Clear, addr 0x36f8e24, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x371b788, size 0x88, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Copy, addr 0x36f8eac, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x371b810, size 0xb0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::SessionParameters* Copy();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::SessionParameters* New_ctor(int32_t cipherSuite, uint8_t compressionAlgorithm, ::ArrayW<uint8_t> masterSecret,
                                                                               ::Org::BouncyCastle::Crypto::Tls::Certificate* peerCertificate, ::ArrayW<uint8_t> pskIdentity,
                                                                               ::ArrayW<uint8_t> srpIdentity, ::ArrayW<uint8_t> encodedServerExtensions, bool extendedMasterSecret);
 
-  /// @brief Method ReadServerExtensions, addr 0x36f8f94, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ReadServerExtensions, addr 0x371b8f8, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionary* ReadServerExtensions();
 
   constexpr int32_t const& __cordl_internal_get_mCipherSuite() const;
@@ -314,29 +314,29 @@ public:
 
   constexpr void __cordl_internal_set_mSrpIdentity(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x36f8d50, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x371b6b4, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(int32_t cipherSuite, uint8_t compressionAlgorithm, ::ArrayW<uint8_t> masterSecret, ::Org::BouncyCastle::Crypto::Tls::Certificate* peerCertificate, ::ArrayW<uint8_t> pskIdentity,
                     ::ArrayW<uint8_t> srpIdentity, ::ArrayW<uint8_t> encodedServerExtensions, bool extendedMasterSecret);
 
-  /// @brief Method get_CipherSuite, addr 0x36f8f5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CipherSuite, addr 0x371b8c0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CipherSuite();
 
-  /// @brief Method get_CompressionAlgorithm, addr 0x36f8f64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CompressionAlgorithm, addr 0x371b8c8, size 0x8, virtual false, abstract: false, final false
   inline uint8_t get_CompressionAlgorithm();
 
-  /// @brief Method get_IsExtendedMasterSecret, addr 0x36f8f6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsExtendedMasterSecret, addr 0x371b8d0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsExtendedMasterSecret();
 
-  /// @brief Method get_MasterSecret, addr 0x36f8f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MasterSecret, addr 0x371b8d8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_MasterSecret();
 
-  /// @brief Method get_PeerCertificate, addr 0x36f8f7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PeerCertificate, addr 0x371b8e0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::Certificate* get_PeerCertificate();
 
-  /// @brief Method get_PskIdentity, addr 0x36f8f84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PskIdentity, addr 0x371b8e8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_PskIdentity();
 
-  /// @brief Method get_SrpIdentity, addr 0x36f8f8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SrpIdentity, addr 0x371b8f0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_SrpIdentity();
 
 protected:

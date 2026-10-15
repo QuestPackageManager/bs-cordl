@@ -38,15 +38,15 @@ public:
 
   constexpr void __cordl_internal_set__errorCode_k__BackingField(::UnityEngine::Rendering::UnifiedRayTracing::UnifiedRayTracingError value);
 
-  /// @brief Method .ctor, addr 0x6e0e450, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e4b0ec, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::UnityEngine::Rendering::UnifiedRayTracing::UnifiedRayTracingError errorCode);
 
   /// [CompilerGenerated]
-  /// @brief Method get_errorCode, addr 0x6e0e4c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_errorCode, addr 0x6e4b160, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::UnifiedRayTracing::UnifiedRayTracingError get_errorCode();
 
   /// [CompilerGenerated]
-  /// @brief Method set_errorCode, addr 0x6e0e4cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_errorCode, addr 0x6e4b168, size 0x8, virtual false, abstract: false, final false
   inline void set_errorCode(::UnityEngine::Rendering::UnifiedRayTracing::UnifiedRayTracingError value);
 
 protected:
@@ -64,7 +64,7 @@ public:
   UnifiedRayTracingException(UnifiedRayTracingException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20506 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20553 };
 
   /// [CompilerGenerated]
   /// @brief Field <errorCode>k__BackingField, offset: 0x8c, size: 0x4, def value: None

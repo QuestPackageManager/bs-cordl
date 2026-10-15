@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutHapticEffect::*)(::GlobalNamespace::SaberType, ::GlobalNamespace::NoteCutHapticEffect_Type)>(
     &::GlobalNamespace::NoteCutHapticEffect::HitNote)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5da48c4;
+  constexpr static std::size_t addrs = 0x5de1c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutHapticEffect::*)()>(&::GlobalNamespace::NoteCutHapticEffect::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5da497c;
+  constexpr static std::size_t addrs = 0x5de1cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutHapticEffect*>(), { ".ctor", {}, {} })));

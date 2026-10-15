@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::ComputeTerrainMeshJob::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::ComputeTerrainMeshJob::DisposeArrays)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6e07804;
+  constexpr static std::size_t addrs = 0x6e444a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::ComputeTerrainMeshJob::*)(int32_t)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::ComputeTerrainMeshJob::Execute)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x6e078ec;
+  constexpr static std::size_t addrs = 0x6e44588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Unity::Mathematics::float3 (*)(::Unity::Collections::NativeArray_1<float_t>, int32_t, int32_t, int32_t, int32_t, ::Unity::Mathematics::float3)>(
         &::UnityEngine::Rendering::UnifiedRayTracing::ComputeTerrainMeshJob::CalculateTerrainNormal)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x6e07a24;
+  constexpr static std::size_t addrs = 0x6e446c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(int32_t, int32_t, int32_t, int32_t, ::Unity::Collections::NativeArray_1<float_t>, float_t)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::ComputeTerrainMeshJob::SampleHeight)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6e07c78;
+  constexpr static std::size_t addrs = 0x6e44914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

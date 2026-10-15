@@ -51,14 +51,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::UnifiedRayTracing::IRayTracingBackend"
   constexpr operator ::UnityEngine::Rendering::UnifiedRayTracing::IRayTracingBackend*() noexcept;
 
-  /// @brief Method CreateAccelerationStructure, addr 0x6e0c04c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method CreateAccelerationStructure, addr 0x6e48ce8, size 0x80, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::UnifiedRayTracing::IRayTracingAccelStruct* CreateAccelerationStructure(::UnityEngine::Rendering::UnifiedRayTracing::AccelerationStructureOptions* options,
                                                                                                           ::UnityEngine::Rendering::UnifiedRayTracing::ReferenceCounter* counter);
 
-  /// @brief Method CreateRayTracingShader, addr 0x6e0bedc, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method CreateRayTracingShader, addr 0x6e48b78, size 0xac, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::UnifiedRayTracing::IRayTracingShader* CreateRayTracingShader(::UnityEngine::Object* shader, ::StringW kernelName, ::UnityEngine::GraphicsBuffer* dispatchBuffer);
 
-  /// @brief Method GetRequiredTraceScratchBufferSizeInBytes, addr 0x6e0c0cc, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method GetRequiredTraceScratchBufferSizeInBytes, addr 0x6e48d68, size 0x14, virtual true, abstract: false, final true
   inline uint64_t GetRequiredTraceScratchBufferSizeInBytes(uint32_t width, uint32_t height, uint32_t depth);
 
   static inline ::UnityEngine::Rendering::UnifiedRayTracing::ComputeRayTracingBackend* New_ctor(::UnityEngine::Rendering::UnifiedRayTracing::RayTracingResources* resources);
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Resources(::UnityEngine::Rendering::UnifiedRayTracing::RayTracingResources* value);
 
-  /// @brief Method .ctor, addr 0x6e0bed4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e48b70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::UnifiedRayTracing::RayTracingResources* resources);
 
   /// @brief Convert to "::UnityEngine::Rendering::UnifiedRayTracing::IRayTracingBackend"
@@ -90,7 +90,7 @@ public:
   ComputeRayTracingBackend(ComputeRayTracingBackend const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20487 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20534 };
 
   /// @brief Field m_Resources, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::UnifiedRayTracing::RayTracingResources* ___m_Resources;

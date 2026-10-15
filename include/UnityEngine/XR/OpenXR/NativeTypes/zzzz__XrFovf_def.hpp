@@ -20,7 +20,7 @@ namespace UnityEngine::XR::OpenXR::NativeTypes {
 struct CORDL_TYPE XrFovf {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6e3db98, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7a834, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t angleLeft, float_t angleRight, float_t angleUp, float_t angleDown);
 
   // Ctor Parameters []
@@ -33,7 +33,7 @@ public:
   constexpr XrFovf(float_t AngleLeft, float_t AngleRight, float_t AngleUp, float_t AngleDown) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17511 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17544 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

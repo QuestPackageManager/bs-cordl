@@ -36,7 +36,7 @@ public:
                                    int32_t m_TransitionType) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20880 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20927 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

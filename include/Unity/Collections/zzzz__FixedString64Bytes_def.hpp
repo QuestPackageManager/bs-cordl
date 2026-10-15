@@ -148,176 +148,176 @@ public:
   /// @brief Convert operator to "::Unity::Collections::IUTF8Bytes"
   constexpr operator ::Unity::Collections::IUTF8Bytes*();
 
-  /// @brief Method Add, addr 0x68d8fc8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6915c44, size 0x20, virtual false, abstract: false, final false
   inline void Add(/* [IsReadOnly] */ ::by_ref<uint8_t const> value);
 
-  /// @brief Method AsFixedList, addr 0x68d90cc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AsFixedList, addr 0x6915d48, size 0x44, virtual false, abstract: false, final false
   inline ::by_ref<::Unity::Collections::FixedList64Bytes_1<uint8_t>> AsFixedList();
 
   /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// [Conditional("UNITY_DOTS_DEBUG")]
-  /// @brief Method CheckCapacityInRange, addr 0x68da2a4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CheckCapacityInRange, addr 0x6916f20, size 0xa0, virtual false, abstract: false, final false
   inline void CheckCapacityInRange(int32_t capacity);
 
   /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// [Conditional("UNITY_DOTS_DEBUG")]
-  /// @brief Method CheckCopyError, addr 0x68da344, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method CheckCopyError, addr 0x6916fc0, size 0x88, virtual false, abstract: false, final false
   static inline void CheckCopyError(::Unity::Collections::CopyError error, ::StringW source);
 
   /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// [Conditional("UNITY_DOTS_DEBUG")]
-  /// @brief Method CheckFormatError, addr 0x68da3cc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CheckFormatError, addr 0x6917048, size 0x54, virtual false, abstract: false, final false
   static inline void CheckFormatError(::Unity::Collections::FormatError error);
 
   /// [IsReadOnly]
   /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// [Conditional("UNITY_DOTS_DEBUG")]
-  /// @brief Method CheckIndexInRange, addr 0x68da0c8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method CheckIndexInRange, addr 0x6916d44, size 0xf4, virtual false, abstract: false, final false
   inline void CheckIndexInRange(int32_t index);
 
   /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// [Conditional("UNITY_DOTS_DEBUG")]
-  /// @brief Method CheckLengthInRange, addr 0x68da1bc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method CheckLengthInRange, addr 0x6916e38, size 0xe8, virtual false, abstract: false, final false
   inline void CheckLengthInRange(int32_t length);
 
-  /// @brief Method Clear, addr 0x68d8fbc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Clear, addr 0x6915c38, size 0xc, virtual true, abstract: false, final true
   inline void Clear();
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method CompareTo, addr 0x68d9018, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x6915c94, size 0x24, virtual true, abstract: false, final true
   inline int32_t CompareTo(::StringW other);
 
-  /// @brief Method CompareTo, addr 0x68d96f8, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x6916374, size 0x5c, virtual true, abstract: false, final true
   inline int32_t CompareTo(::Unity::Collections::FixedString128Bytes other);
 
-  /// @brief Method CompareTo, addr 0x68d93c0, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x691603c, size 0x5c, virtual true, abstract: false, final true
   inline int32_t CompareTo(::Unity::Collections::FixedString32Bytes other);
 
-  /// @brief Method CompareTo, addr 0x68d9af4, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x6916770, size 0x5c, virtual true, abstract: false, final true
   inline int32_t CompareTo(::Unity::Collections::FixedString4096Bytes other);
 
-  /// @brief Method CompareTo, addr 0x68d98e0, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x691655c, size 0x5c, virtual true, abstract: false, final true
   inline int32_t CompareTo(::Unity::Collections::FixedString512Bytes other);
 
-  /// @brief Method CompareTo, addr 0x68d9560, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x69161dc, size 0x5c, virtual true, abstract: false, final true
   inline int32_t CompareTo(::Unity::Collections::FixedString64Bytes other);
 
-  /// @brief Method ElementAt, addr 0x68d8fb0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method ElementAt, addr 0x6915c2c, size 0xc, virtual true, abstract: false, final true
   inline ::by_ref<uint8_t> ElementAt(int32_t index);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed object")]
-  /// @brief Method Equals, addr 0x68d9e9c, size 0x22c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6916b18, size 0x22c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Equals, addr 0x68d903c, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6915cb8, size 0x90, virtual true, abstract: false, final true
   inline bool Equals(::StringW other);
 
-  /// @brief Method Equals, addr 0x68d98a4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6916520, size 0x4, virtual true, abstract: false, final true
   inline bool Equals(::Unity::Collections::FixedString128Bytes other);
 
-  /// @brief Method Equals, addr 0x68d955c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x69161d8, size 0x4, virtual true, abstract: false, final true
   inline bool Equals(::Unity::Collections::FixedString32Bytes other);
 
-  /// @brief Method Equals, addr 0x68d9ca0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x691691c, size 0x4, virtual true, abstract: false, final true
   inline bool Equals(::Unity::Collections::FixedString4096Bytes other);
 
-  /// @brief Method Equals, addr 0x68d9a8c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6916708, size 0x4, virtual true, abstract: false, final true
   inline bool Equals(::Unity::Collections::FixedString512Bytes other);
 
-  /// @brief Method Equals, addr 0x68d96f4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6916370, size 0x4, virtual true, abstract: false, final true
   inline bool Equals(::Unity::Collections::FixedString64Bytes other);
 
-  /// @brief Method GetEnumerator, addr 0x68d8fe8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x6915c64, size 0x18, virtual false, abstract: false, final false
   inline ::Unity::Collections::FixedString64Bytes_Enumerator GetEnumerator();
 
-  /// @brief Method GetHashCode, addr 0x68d9e50, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6916acc, size 0x4c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// [IsReadOnly]
-  /// @brief Method GetUnsafePtr, addr 0x68d8eac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetUnsafePtr, addr 0x6915b28, size 0x8, virtual true, abstract: false, final true
   inline uint8_t* GetUnsafePtr();
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method Initialize, addr 0x68d9120, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6915d9c, size 0x5c, virtual false, abstract: false, final false
   inline ::Unity::Collections::CopyError Initialize(::StringW source);
 
-  /// @brief Method Initialize, addr 0x68d9764, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x69163e0, size 0x6c, virtual false, abstract: false, final false
   inline ::Unity::Collections::FormatError Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString128Bytes const> other);
 
-  /// @brief Method Initialize, addr 0x68d941c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6916098, size 0x6c, virtual false, abstract: false, final false
   inline ::Unity::Collections::FormatError Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes const> other);
 
-  /// @brief Method Initialize, addr 0x68d9b60, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x69167dc, size 0x6c, virtual false, abstract: false, final false
   inline ::Unity::Collections::FormatError Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes const> other);
 
-  /// @brief Method Initialize, addr 0x68d994c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x69165c8, size 0x6c, virtual false, abstract: false, final false
   inline ::Unity::Collections::FormatError Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString512Bytes const> other);
 
-  /// @brief Method Initialize, addr 0x68d95cc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6916248, size 0x6c, virtual false, abstract: false, final false
   inline ::Unity::Collections::FormatError Initialize(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes const> other);
 
-  /// @brief Method Initialize, addr 0x68d9190, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6915e0c, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Collections::FormatError Initialize(::Unity::Collections::Unicode_Rune rune, int32_t count);
 
-  /// @brief Method Initialize, addr 0x68d9200, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6915e7c, size 0x98, virtual false, abstract: false, final false
   inline ::Unity::Collections::FormatError Initialize(uint8_t* srcBytes, int32_t srcLength);
 
   /// [ExcludeFromBurstCompatTesting("Returns managed string")]
-  /// @brief Method ToString, addr 0x68d8e60, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6915adc, size 0x4c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryResize, addr 0x68d8ed8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method TryResize, addr 0x6915b54, size 0xb0, virtual true, abstract: false, final true
   inline bool TryResize(int32_t newLength, ::Unity::Collections::NativeArrayOptions clearOptions);
 
-  /// @brief Method .ctor, addr 0x68d9298, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6915f14, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeText_ReadOnly other);
 
-  /// @brief Method .ctor, addr 0x68d9754, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69163d0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString128Bytes const> other);
 
-  /// @brief Method .ctor, addr 0x68d8088, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6914d04, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes const> other);
 
-  /// @brief Method .ctor, addr 0x68d9b50, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69167cc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes const> other);
 
-  /// @brief Method .ctor, addr 0x68d993c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69165b8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString512Bytes const> other);
 
-  /// @brief Method .ctor, addr 0x68d95bc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6916238, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes const> other);
 
-  /// @brief Method .ctor, addr 0x68d932c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6915fa8, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText const> other);
 
-  /// @brief Method .ctor, addr 0x68d917c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6915df8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::Unicode_Rune rune, int32_t count);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method .ctor, addr 0x68d9110, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6915d8c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW source);
 
   /// [IsReadOnly]
-  /// @brief Method get_Capacity, addr 0x68d8ecc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Capacity, addr 0x6915b48, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_Capacity();
 
   /// [IsReadOnly]
-  /// @brief Method get_IsEmpty, addr 0x68d8f88, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_IsEmpty, addr 0x6915c04, size 0x10, virtual true, abstract: false, final true
   inline bool get_IsEmpty();
 
   /// [IsReadOnly]
-  /// @brief Method get_Item, addr 0x68d8f98, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_Item, addr 0x6915c14, size 0xc, virtual true, abstract: false, final true
   inline uint8_t get_Item(int32_t index);
 
   /// [IsReadOnly]
-  /// @brief Method get_Length, addr 0x68d8eb4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Length, addr 0x6915b30, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_Length();
 
-  /// @brief Method get_UTF8MaxLengthInBytes, addr 0x68d8e54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UTF8MaxLengthInBytes, addr 0x6915ad0, size 0x8, virtual false, abstract: false, final false
   static inline int32_t get_UTF8MaxLengthInBytes();
 
-  /// @brief Method get_Value, addr 0x68d8e5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x6915ad8, size 0x4, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
   /// @brief Convert to "::System::IComparable_1<::StringW>"
@@ -366,63 +366,63 @@ public:
   constexpr ::Unity::Collections::IUTF8Bytes* i___Unity__Collections__IUTF8Bytes();
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method op_Equality, addr 0x68d9d08, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6916984, size 0xb8, virtual false, abstract: false, final false
   static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes const> a, ::StringW b);
 
-  /// @brief Method op_Equality, addr 0x68d97d0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x691644c, size 0xbc, virtual false, abstract: false, final false
   static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes const> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString128Bytes const> b);
 
-  /// @brief Method op_Equality, addr 0x68d9488, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6916104, size 0xbc, virtual false, abstract: false, final false
   static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes const> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes const> b);
 
-  /// @brief Method op_Equality, addr 0x68d9bcc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6916848, size 0xbc, virtual false, abstract: false, final false
   static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes const> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes const> b);
 
-  /// @brief Method op_Equality, addr 0x68d99b8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6916634, size 0xbc, virtual false, abstract: false, final false
   static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes const> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString512Bytes const> b);
 
-  /// @brief Method op_Equality, addr 0x68d9638, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x69162b4, size 0xa4, virtual false, abstract: false, final false
   static inline bool op_Equality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes const> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes const> b);
 
-  /// @brief Method op_Implicit, addr 0x68d98a8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6916524, size 0x20, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString128Bytes op_Implicit___Unity__Collections__FixedString128Bytes(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes const> fs);
 
-  /// @brief Method op_Implicit, addr 0x68d9ca4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6916920, size 0x34, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString4096Bytes op_Implicit___Unity__Collections__FixedString4096Bytes(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes const> fs);
 
-  /// @brief Method op_Implicit, addr 0x68d9a90, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x691670c, size 0x34, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString512Bytes op_Implicit___Unity__Collections__FixedString512Bytes(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes const> fs);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method op_Implicit, addr 0x68d9dc0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6916a3c, size 0x18, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FixedString64Bytes op_Implicit___Unity__Collections__FixedString64Bytes(::StringW b);
 
   /// [ExcludeFromBurstCompatTesting("Takes managed string")]
-  /// @brief Method op_Inequality, addr 0x68d9dd8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6916a54, size 0x78, virtual false, abstract: false, final false
   static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes const> a, ::StringW b);
 
-  /// @brief Method op_Inequality, addr 0x68d988c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6916508, size 0x18, virtual false, abstract: false, final false
   static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes const> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString128Bytes const> b);
 
-  /// @brief Method op_Inequality, addr 0x68d9544, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x69161c0, size 0x18, virtual false, abstract: false, final false
   static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes const> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString32Bytes const> b);
 
-  /// @brief Method op_Inequality, addr 0x68d9c88, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6916904, size 0x18, virtual false, abstract: false, final false
   static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes const> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString4096Bytes const> b);
 
-  /// @brief Method op_Inequality, addr 0x68d9a74, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x69166f0, size 0x18, virtual false, abstract: false, final false
   static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes const> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString512Bytes const> b);
 
-  /// @brief Method op_Inequality, addr 0x68d96dc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6916358, size 0x18, virtual false, abstract: false, final false
   static inline bool op_Inequality(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes const> a, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::FixedString64Bytes const> b);
 
-  /// @brief Method set_Capacity, addr 0x68d8ed4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method set_Capacity, addr 0x6915b50, size 0x4, virtual true, abstract: false, final true
   inline void set_Capacity(int32_t value);
 
-  /// @brief Method set_Item, addr 0x68d8fa4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_Item, addr 0x6915c20, size 0xc, virtual true, abstract: false, final true
   inline void set_Item(int32_t index, uint8_t value);
 
-  /// @brief Method set_Length, addr 0x68d8ebc, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method set_Length, addr 0x6915b38, size 0x10, virtual true, abstract: false, final true
   inline void set_Length(int32_t value);
 
   // Ctor Parameters []
@@ -434,7 +434,7 @@ public:
   constexpr FixedString64Bytes(uint16_t utf8LengthInBytes, ::Unity::Collections::FixedBytes62 bytes) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15848 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15881 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -475,22 +475,22 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
 
-  /// @brief Method Dispose, addr 0x68da420, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x691709c, size 0x4, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method MoveNext, addr 0x68da424, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x69170a0, size 0x48, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset, addr 0x68da46c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x69170e8, size 0x8, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x68da47c, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x69170f8, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method .ctor, addr 0x68d9000, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6915c7c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::FixedString64Bytes other);
 
-  /// @brief Method get_Current, addr 0x68da474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x69170f0, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Collections::Unicode_Rune get_Current();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -505,7 +505,7 @@ public:
   constexpr FixedString64Bytes_Enumerator(::Unity::Collections::FixedString64Bytes target, int32_t offset, ::Unity::Collections::Unicode_Rune current) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15847 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15880 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };

@@ -27,11 +27,11 @@ class CORDL_TYPE AvatarDataMultiplayerAvatarsDataConverter : public ::System::Ob
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method CreateAvatarData, addr 0x34fac44, size 0x584, virtual false, abstract: false, final false
+  /// @brief Method CreateAvatarData, addr 0x351b5a0, size 0x584, virtual false, abstract: false, final false
   static inline ::BeatSaber::BeatAvatarSDK::AvatarData* CreateAvatarData(::GlobalNamespace::MultiplayerAvatarData multiplayerAvatarsData);
 
   /// [Extension]
-  /// @brief Method CreateMultiplayerAvatarsData, addr 0x34fa7a8, size 0x49c, virtual false, abstract: false, final false
+  /// @brief Method CreateMultiplayerAvatarsData, addr 0x351b104, size 0x49c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::MultiplayerAvatarData CreateMultiplayerAvatarsData(::BeatSaber::BeatAvatarSDK::AvatarData* avatarData);
 
 protected:
@@ -49,7 +49,7 @@ public:
   AvatarDataMultiplayerAvatarsDataConverter(AvatarDataMultiplayerAvatarsDataConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22403 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22453 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

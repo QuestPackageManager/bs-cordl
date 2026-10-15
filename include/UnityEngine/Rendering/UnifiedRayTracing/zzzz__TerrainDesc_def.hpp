@@ -24,7 +24,7 @@ namespace UnityEngine::Rendering::UnifiedRayTracing {
 struct CORDL_TYPE TerrainDesc {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6e01f40, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3ebdc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Terrain* terrain);
 
   // Ctor Parameters []
@@ -40,7 +40,7 @@ public:
                         bool enableTriangleCulling, bool frontTriangleCounterClockwise) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20451 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20498 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };

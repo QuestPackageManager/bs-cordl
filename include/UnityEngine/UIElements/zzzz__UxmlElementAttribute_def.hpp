@@ -58,10 +58,10 @@ public:
 
   constexpr void __cordl_internal_set_visibility(::UnityEngine::UIElements::LibraryVisibility value);
 
-  /// @brief Method .ctor, addr 0x7146870, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71837a4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW uxmlName);
 
-  /// @brief Method .ctor, addr 0x7146880, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71837b4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW uxmlName, /* [ParamArray] */ ::ArrayW<::System::Type*> supportedTypes);
 
 protected:

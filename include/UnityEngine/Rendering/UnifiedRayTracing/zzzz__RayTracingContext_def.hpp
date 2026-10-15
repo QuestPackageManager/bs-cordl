@@ -80,25 +80,25 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CreateAccelerationStructure, addr 0x6e0d3f0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method CreateAccelerationStructure, addr 0x6e4a08c, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::UnifiedRayTracing::IRayTracingAccelStruct* CreateAccelerationStructure(::UnityEngine::Rendering::UnifiedRayTracing::AccelerationStructureOptions* options);
 
-  /// @brief Method CreateRayTracingShader, addr 0x6e0d2c4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method CreateRayTracingShader, addr 0x6e49f60, size 0xdc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::UnifiedRayTracing::IRayTracingShader* CreateRayTracingShader(::UnityEngine::Object* shader);
 
-  /// @brief Method Dispose, addr 0x6e0d214, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6e49eb0, size 0xa0, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetRequiredTraceScratchBufferSizeInBytes, addr 0x6e0d4b0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetRequiredTraceScratchBufferSizeInBytes, addr 0x6e4a14c, size 0xd0, virtual false, abstract: false, final false
   inline uint64_t GetRequiredTraceScratchBufferSizeInBytes(uint32_t width, uint32_t height, uint32_t depth);
 
-  /// @brief Method GetScratchBufferStrideInBytes, addr 0x6e0c0e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetScratchBufferStrideInBytes, addr 0x6e48d7c, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t GetScratchBufferStrideInBytes();
 
-  /// @brief Method IsBackendSupported, addr 0x6e0d100, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method IsBackendSupported, addr 0x6e49d9c, size 0x60, virtual false, abstract: false, final false
   static inline bool IsBackendSupported(::UnityEngine::Rendering::UnifiedRayTracing::RayTracingBackend backend);
 
-  /// @brief Method LoadRayTracingShaderFromAssetBundle, addr 0x6e0d3a0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method LoadRayTracingShaderFromAssetBundle, addr 0x6e4a03c, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::UnifiedRayTracing::IRayTracingShader* LoadRayTracingShaderFromAssetBundle(::UnityEngine::AssetBundle* assetBundle, ::StringW name);
 
   static inline ::UnityEngine::Rendering::UnifiedRayTracing::RayTracingContext* New_ctor(::UnityEngine::Rendering::UnifiedRayTracing::RayTracingBackend backend,
@@ -136,29 +136,29 @@ public:
 
   constexpr void __cordl_internal_set_m_DispatchBuffer(::UnityEngine::GraphicsBuffer* value);
 
-  /// @brief Method .ctor, addr 0x6e0cfa8, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e49c44, size 0x154, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::UnifiedRayTracing::RayTracingBackend backend, ::UnityEngine::Rendering::UnifiedRayTracing::RayTracingResources* resources);
 
-  /// @brief Method .ctor, addr 0x6e0d1c4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e49e60, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::UnifiedRayTracing::RayTracingResources* resources);
 
   /// [CompilerGenerated]
-  /// @brief Method get_BackendType, addr 0x6e0d580, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BackendType, addr 0x6e4a21c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::UnifiedRayTracing::RayTracingBackend get_BackendType();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Resources, addr 0x6e0d2b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Resources, addr 0x6e49f50, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::UnifiedRayTracing::RayTracingResources* get_Resources();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_BackendType, addr 0x6e0d588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BackendType, addr 0x6e4a224, size 0x8, virtual false, abstract: false, final false
   inline void set_BackendType(::UnityEngine::Rendering::UnifiedRayTracing::RayTracingBackend value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Resources, addr 0x6e0d2bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Resources, addr 0x6e49f58, size 0x8, virtual false, abstract: false, final false
   inline void set_Resources(::UnityEngine::Rendering::UnifiedRayTracing::RayTracingResources* value);
 
 protected:
@@ -176,7 +176,7 @@ public:
   RayTracingContext(RayTracingContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20497 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20544 };
 
   /// [CompilerGenerated]
   /// @brief Field <Resources>k__BackingField, offset: 0x10, size: 0x8, def value: None

@@ -32,11 +32,11 @@ public:
   __declspec(property(get = getStaticF__acesToneMappingKeyword, put = setStaticF__acesToneMappingKeyword)) ::UnityEngine::Rendering::GlobalKeyword _acesToneMappingKeyword;
 
   /// [Extension]
-  /// @brief Method SetShaderKeyword, addr 0x5c7d5dc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetShaderKeyword, addr 0x5cb5200, size 0x64, virtual false, abstract: false, final false
   static inline void SetShaderKeyword(::GlobalNamespace::ToneMapping toneMapping);
 
   /// [Extension]
-  /// @brief Method SetShaderKeyword, addr 0x5c7b144, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SetShaderKeyword, addr 0x5cb2d68, size 0xac, virtual false, abstract: false, final false
   static inline void SetShaderKeyword(::GlobalNamespace::ToneMapping toneMapping, ::UnityEngine::Rendering::CommandBuffer* cmd);
 
   static inline ::UnityEngine::Rendering::GlobalKeyword getStaticF__acesToneMappingKeyword();
@@ -58,7 +58,7 @@ public:
   ToneMappingExtensions(ToneMappingExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19918 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19957 };
 
   /// @brief Field kAcesToneMappingEnabledKeyword offset 0xffffffff size 0x8
   static constexpr ::ConstString kAcesToneMappingEnabledKeyword{ u"ACES_TONE_MAPPING" };

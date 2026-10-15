@@ -34,25 +34,25 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::UxmlNamespaceDefinition>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::UxmlNamespaceDefinition>*();
 
-  /// @brief Method Equals, addr 0x7146bf0, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x7183b24, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x7146b78, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x7183aac, size 0x78, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::UxmlNamespaceDefinition other);
 
-  /// @brief Method GetHashCode, addr 0x7146c84, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x7183bb8, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::UIElements::UxmlNamespaceDefinition getStaticF__Empty_k__BackingField();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Empty, addr 0x7146a90, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Empty, addr 0x71839c4, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UxmlNamespaceDefinition get_Empty();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::UxmlNamespaceDefinition>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::UxmlNamespaceDefinition>* i___System__IEquatable_1___UnityEngine__UIElements__UxmlNamespaceDefinition_();
 
-  /// @brief Method op_Equality, addr 0x7146aec, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x7183a20, size 0x8c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::UxmlNamespaceDefinition lhs, ::UnityEngine::UIElements::UxmlNamespaceDefinition rhs);
 
   static inline void setStaticF__Empty_k__BackingField(::UnityEngine::UIElements::UxmlNamespaceDefinition value);

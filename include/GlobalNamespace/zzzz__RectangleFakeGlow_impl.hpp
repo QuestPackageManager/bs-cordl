@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RectangleFakeGlow::*)(::UnityEngine::Color)>(&::GlobalNamespace::RectangleFakeGlow::set_color)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5dc0cfc;
+  constexpr static std::size_t addrs = 0x5dfdecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::RectangleFakeGlow::*)()>(&::GlobalNamespace::RectangleFakeGlow::get_color)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5dc0dc0;
+  constexpr static std::size_t addrs = 0x5dfdf90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RectangleFakeGlow*>(), { "get_color", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RectangleFakeGlow::*)()>(&::GlobalNamespace::RectangleFakeGlow::Awake)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5dc0dcc;
+  constexpr static std::size_t addrs = 0x5dfdf9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RectangleFakeGlow*>(), { "Awake", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RectangleFakeGlow::*)()>(&::GlobalNamespace::RectangleFakeGlow::OnEnable)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5dc0e2c;
+  constexpr static std::size_t addrs = 0x5dfdffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RectangleFakeGlow*>(), { "OnEnable", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RectangleFakeGlow::*)()>(&::GlobalNamespace::RectangleFakeGlow::OnDisable)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5dc0fa4;
+  constexpr static std::size_t addrs = 0x5dfe174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RectangleFakeGlow*>(), { "OnDisable", {}, {} })));
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RectangleFakeGlow::*)()>(&::GlobalNamespace::RectangleFakeGlow::Refresh)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5dc0e94;
+  constexpr static std::size_t addrs = 0x5dfe064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RectangleFakeGlow*>(), { "Refresh", {}, {} })));
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RectangleFakeGlow::*)()>(&::GlobalNamespace::RectangleFakeGlow::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5dc1004;
+  constexpr static std::size_t addrs = 0x5dfe1d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RectangleFakeGlow*>(), { ".ctor", {}, {} })));

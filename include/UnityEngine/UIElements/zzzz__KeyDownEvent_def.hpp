@@ -37,10 +37,10 @@ public:
 
   static inline ::UnityEngine::UIElements::KeyDownEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x722bdf4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x7268d28, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::KeyDownEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x722bdf0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7268d24, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::KeyDownEvent___c* getStaticF___9();
@@ -81,13 +81,13 @@ public:
 
   static inline ::UnityEngine::UIElements::KeyDownEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x722b2e8, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x726821c, size 0x110, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method SendEquivalentNavigationEventIfAny, addr 0x722b3f8, size 0x6dc, virtual false, abstract: false, final false
+  /// @brief Method SendEquivalentNavigationEventIfAny, addr 0x726832c, size 0x6dc, virtual false, abstract: false, final false
   inline void SendEquivalentNavigationEventIfAny(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x722bd50, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7268c84, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

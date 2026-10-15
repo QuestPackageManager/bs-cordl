@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::GraphicsBuffer* (*)()>(&::UnityEngine::Rendering::UnifiedRayTracing::RayTracingHelper::CreateDispatchIndirectBuffer)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6e0d160;
+  constexpr static std::size_t addrs = 0x6e49dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::GraphicsBu
                                                                                           ::UnityEngine::Rendering::UnifiedRayTracing::IRayTracingShader*, uint32_t, uint32_t, uint32_t)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::RayTracingHelper::CreateScratchBufferForBuildAndDispatch)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x6e0d594;
+  constexpr static std::size_t addrs = 0x6e4a230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::RayTracingHelper*>(),
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::GraphicsBuffer* (*)(::UnityEngine::Rendering::UnifiedRayTracing::IRayTracingAccelStruct*)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::RayTracingHelper::CreateScratchBufferForBuild)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6e0d75c;
+  constexpr static std::size_t addrs = 0x6e4a3f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::GraphicsBuffer* (*)(::UnityEngine::Rendering::UnifiedRayTracing::IRayTracingShader*, uint32_t, uint32_t, uint32_t)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::RayTracingHelper::CreateScratchBufferForTrace)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6e0d848;
+  constexpr static std::size_t addrs = 0x6e4a4e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::RayTracingHelper*>(),
@@ -77,7 +77,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::UnityEngine::Rendering::UnifiedRayTracing::IRayTracingShader*, uint32_t, uint32_t, uint32_t, ::by_ref<::UnityEngine::GraphicsBuffer*>)>(
         &::UnityEngine::Rendering::UnifiedRayTracing::RayTracingHelper::ResizeScratchBufferForTrace)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x6e0d95c;
+  constexpr static std::size_t addrs = 0x6e4a5f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::UnifiedRayTracing::IRayTracingAccelStruct*, ::by_ref<::UnityEngine::GraphicsBuffer*>)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::RayTracingHelper::ResizeScratchBufferForBuild)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6e0dab8;
+  constexpr static std::size_t addrs = 0x6e4a754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

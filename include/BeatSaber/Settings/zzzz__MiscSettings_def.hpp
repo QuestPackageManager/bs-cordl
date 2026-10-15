@@ -61,7 +61,7 @@ public:
   static ::BeatSaber::Settings::MiscSettings_ResponseLevel const Long;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22845 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22933 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -77,6 +77,7 @@ static_assert(offsetof(::BeatSaber::Settings::MiscSettings_ResponseLevel, value_
 static_assert(sizeof(::BeatSaber::Settings::MiscSettings_ResponseLevel) == 0x4, "Size mismatch!");
 
 } // namespace BeatSaber::Settings
+// [AnalyticsSettingsStruct("misc")]
 // Dependencies BeatSaber.Settings.MiscSettings::ResponseLevel
 namespace BeatSaber::Settings {
 // Is value type: true
@@ -95,15 +96,17 @@ public:
   constexpr MiscSettings(int32_t region, ::StringW language, ::BeatSaber::Settings::MiscSettings_ResponseLevel pauseButtonResponse) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22846 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22934 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// [AnalyticsExcluded("Demographic / geographic region (country-level)")]
   /// @brief Field region, offset: 0x0, size: 0x4, def value: None
   int32_t region;
 
   /// [Nullable(1)]
+  /// [AnalyticsExcluded("Demographic / locale signal")]
   /// @brief Field language, offset: 0x8, size: 0x8, def value: None
   ::StringW language;
 

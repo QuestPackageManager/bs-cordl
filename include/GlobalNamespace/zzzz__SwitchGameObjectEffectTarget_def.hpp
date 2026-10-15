@@ -32,13 +32,13 @@ public:
 
   static inline ::GlobalNamespace::SwitchGameObjectEffectTarget* New_ctor();
 
-  /// @brief Method SetFloat, addr 0x5db3028, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SetFloat, addr 0x5df01bc, size 0xd8, virtual false, abstract: false, final false
   inline void SetFloat(float_t value);
 
-  /// @brief Method SetValue, addr 0x5db3024, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x5df01b8, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x5db3100, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x5df0294, size 0x4, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__gameObject01() const;
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set__gameObject02(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x5db3104, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5df0298, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -71,7 +71,7 @@ public:
   SwitchGameObjectEffectTarget(SwitchGameObjectEffectTarget const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6002 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6003 };
 
   /// [SerializeField]
   /// [NullAllowed((NullAllowedContext)0)]

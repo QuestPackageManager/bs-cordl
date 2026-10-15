@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Exp
     ::System::Linq::Expressions::Expression*, ::System::Type*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(
     &::System::Linq::Expressions::InvocationExpression2::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x63a1f18;
+  constexpr static std::size_t addrs = 0x63deae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::InvocationExpression2::*)(int32_t)>(
     &::System::Linq::Expressions::InvocationExpression2::GetArgument)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x63a1f40;
+  constexpr static std::size_t addrs = 0x63deb10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::InvocationExpression2::*)()>(&::System::Linq::Expressions::InvocationExpression2::get_ArgumentCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63a2000;
+  constexpr static std::size_t addrs = 0x63debd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressio
     ::System::Linq::Expressions::InvocationExpression2::*)(::System::Linq::Expressions::Expression*, ::ArrayW<::System::Linq::Expressions::Expression*>)>(
     &::System::Linq::Expressions::InvocationExpression2::Rewrite)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x63a2008;
+  constexpr static std::size_t addrs = 0x63debd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

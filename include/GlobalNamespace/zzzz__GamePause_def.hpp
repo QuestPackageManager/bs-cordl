@@ -91,13 +91,13 @@ public:
 
   static inline ::GlobalNamespace::GamePause* New_ctor();
 
-  /// @brief Method Pause, addr 0x5dca8c4, size 0x174, virtual true, abstract: false, final true
+  /// @brief Method Pause, addr 0x5e07aac, size 0x174, virtual true, abstract: false, final true
   inline void Pause();
 
-  /// @brief Method Resume, addr 0x5dcaa5c, size 0x170, virtual true, abstract: false, final true
+  /// @brief Method Resume, addr 0x5e07c44, size 0x170, virtual true, abstract: false, final true
   inline void Resume();
 
-  /// @brief Method WillResume, addr 0x5dcaa38, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method WillResume, addr 0x5e07c20, size 0x24, virtual true, abstract: false, final true
   inline void WillResume();
 
   constexpr ::UnityW<::GlobalNamespace::AudioListenerController> const& __cordl_internal_get__audioListenerController() const;
@@ -166,37 +166,37 @@ public:
 
   constexpr void __cordl_internal_set_willResumeEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x5dcabcc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e07db4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_didPauseEvent, addr 0x5dca4bc, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_didPauseEvent, addr 0x5e076a4, size 0xac, virtual true, abstract: false, final true
   inline void add_didPauseEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_didResumeEvent, addr 0x5dca76c, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_didResumeEvent, addr 0x5e07954, size 0xac, virtual true, abstract: false, final true
   inline void add_didResumeEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_willResumeEvent, addr 0x5dca614, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_willResumeEvent, addr 0x5e077fc, size 0xac, virtual true, abstract: false, final true
   inline void add_willResumeEvent(::System::Action* value);
 
-  /// @brief Method get_isPaused, addr 0x5dca4b4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isPaused, addr 0x5e0769c, size 0x8, virtual true, abstract: false, final true
   inline bool get_isPaused();
 
   /// @brief Convert to "::GlobalNamespace::IGamePause"
   constexpr ::GlobalNamespace::IGamePause* i___GlobalNamespace__IGamePause() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_didPauseEvent, addr 0x5dca568, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_didPauseEvent, addr 0x5e07750, size 0xac, virtual true, abstract: false, final true
   inline void remove_didPauseEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_didResumeEvent, addr 0x5dca818, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_didResumeEvent, addr 0x5e07a00, size 0xac, virtual true, abstract: false, final true
   inline void remove_didResumeEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_willResumeEvent, addr 0x5dca6c0, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_willResumeEvent, addr 0x5e078a8, size 0xac, virtual true, abstract: false, final true
   inline void remove_willResumeEvent(::System::Action* value);
 
 protected:
@@ -214,7 +214,7 @@ public:
   GamePause(GamePause const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6143 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6144 };
 
   /// [CompilerGenerated]
   /// @brief Field didPauseEvent, offset: 0x10, size: 0x8, def value: None

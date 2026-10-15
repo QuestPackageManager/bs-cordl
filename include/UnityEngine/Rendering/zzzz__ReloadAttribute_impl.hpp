@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ReloadAttribute::*)(::ArrayW<::StringW>, ::UnityEngine::Rendering::ReloadAttribute_Package)>(
     &::UnityEngine::Rendering::ReloadAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b706bc;
+  constexpr static std::size_t addrs = 0x6bad338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ReloadAttribute::*)(::StringW, ::UnityEngine::Rendering::ReloadAttribute_Package)>(
     &::UnityEngine::Rendering::ReloadAttribute::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6b706c0;
+  constexpr static std::size_t addrs = 0x6bad33c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ReloadAttribute::*)(::StringW, int32_t, int32_t, ::UnityEngine::Rendering::ReloadAttribute_Package)>(
     &::UnityEngine::Rendering::ReloadAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b70728;
+  constexpr static std::size_t addrs = 0x6bad3a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

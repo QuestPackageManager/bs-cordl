@@ -75,33 +75,33 @@ public:
   /// @brief [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   __declspec(property(get = get_toggleOnTextClick, put = set_toggleOnTextClick)) bool toggleOnTextClick;
 
-  /// @brief Method InitLabel, addr 0x70a1f38, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method InitLabel, addr 0x70dee6c, size 0xfc, virtual true, abstract: false, final false
   inline void InitLabel();
 
   static inline ::UnityEngine::UIElements::BaseBoolField* New_ctor(::StringW label);
 
-  /// @brief Method OnClickEvent, addr 0x70a20e0, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method OnClickEvent, addr 0x70df014, size 0x380, virtual false, abstract: false, final false
   inline void OnClickEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method OnNavigationSubmit, addr 0x70a1ee4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method OnNavigationSubmit, addr 0x70dee18, size 0x38, virtual false, abstract: false, final false
   inline void OnNavigationSubmit(::UnityEngine::UIElements::NavigationSubmitEvent* evt);
 
-  /// @brief Method RegisterEditingCallbacks, addr 0x70a27e4, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method RegisterEditingCallbacks, addr 0x70df718, size 0x118, virtual true, abstract: false, final false
   inline void RegisterEditingCallbacks();
 
-  /// @brief Method SetValueWithoutNotify, addr 0x70a2034, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x70def68, size 0xac, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(bool newValue);
 
-  /// @brief Method ShouldIgnoreClick, addr 0x70a2460, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method ShouldIgnoreClick, addr 0x70df394, size 0x1e8, virtual false, abstract: false, final false
   inline bool ShouldIgnoreClick(::UnityEngine::Vector3 position);
 
-  /// @brief Method ToggleValue, addr 0x70a2648, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ToggleValue, addr 0x70df57c, size 0x38, virtual true, abstract: false, final false
   inline void ToggleValue();
 
-  /// @brief Method UnregisterEditingCallbacks, addr 0x70a28fc, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method UnregisterEditingCallbacks, addr 0x70df830, size 0x118, virtual true, abstract: false, final false
   inline void UnregisterEditingCallbacks();
 
-  /// @brief Method UpdateMixedValueContent, addr 0x70a2680, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method UpdateMixedValueContent, addr 0x70df5b4, size 0x164, virtual true, abstract: false, final false
   inline void UpdateMixedValueContent();
 
   constexpr bool const& __cordl_internal_get__toggleOnLabelClick_k__BackingField() const;
@@ -140,40 +140,40 @@ public:
 
   constexpr void __cordl_internal_set_m_OriginalText(::StringW value);
 
-  /// @brief Method .ctor, addr 0x70a1b48, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70dea7c, size 0x2a0, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_textProperty();
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_toggleOnLabelClickProperty();
 
-  /// @brief Method get_text, addr 0x70a1f1c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x70dee50, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
   /// [CompilerGenerated]
-  /// @brief Method get_toggleOnLabelClick, addr 0x70a1b28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_toggleOnLabelClick, addr 0x70dea5c, size 0x8, virtual false, abstract: false, final false
   inline bool get_toggleOnLabelClick();
 
   /// [CompilerGenerated]
-  /// @brief Method get_toggleOnTextClick, addr 0x70a1b38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_toggleOnTextClick, addr 0x70dea6c, size 0x8, virtual false, abstract: false, final false
   inline bool get_toggleOnTextClick();
 
   static inline void setStaticF_textProperty(::UnityEngine::UIElements::BindingId value);
 
   static inline void setStaticF_toggleOnLabelClickProperty(::UnityEngine::UIElements::BindingId value);
 
-  /// @brief Method set_acceptClicksIfDisabled, addr 0x70a1b0c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_acceptClicksIfDisabled, addr 0x70dea40, size 0x1c, virtual false, abstract: false, final false
   inline void set_acceptClicksIfDisabled(bool value);
 
-  /// @brief Method set_text, addr 0x70a1de8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x70ded1c, size 0xfc, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_toggleOnLabelClick, addr 0x70a1b30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_toggleOnLabelClick, addr 0x70dea64, size 0x8, virtual false, abstract: false, final false
   inline void set_toggleOnLabelClick(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_toggleOnTextClick, addr 0x70a1b40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_toggleOnTextClick, addr 0x70dea74, size 0x8, virtual false, abstract: false, final false
   inline void set_toggleOnTextClick(bool value);
 
 protected:

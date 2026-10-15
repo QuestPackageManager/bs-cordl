@@ -23,7 +23,7 @@ public:
   // Declarations
   __declspec(property(get = get_IsCreated)) bool IsCreated;
 
-  /// @brief Method get_IsCreated, addr 0x6eabc88, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsCreated, addr 0x6ee8924, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
   // Ctor Parameters []
@@ -35,7 +35,7 @@ public:
   constexpr RealtimeAccess(void* m_Realtime, int32_t m_Frame, int32_t m_DTM) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20391 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20438 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

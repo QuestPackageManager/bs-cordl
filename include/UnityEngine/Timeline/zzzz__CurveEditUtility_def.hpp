@@ -22,7 +22,7 @@ namespace UnityEngine::Timeline {
 class CORDL_TYPE CurveEditUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateMatchingCurve, addr 0x6dec600, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method CreateMatchingCurve, addr 0x6e2929c, size 0xf8, virtual false, abstract: false, final false
   static inline ::UnityEngine::AnimationCurve* CreateMatchingCurve(::UnityEngine::AnimationCurve* curve);
 
 protected:
@@ -40,7 +40,7 @@ public:
   CurveEditUtility(CurveEditUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19307 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19340 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

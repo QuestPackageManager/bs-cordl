@@ -41,24 +41,24 @@ public:
   // Declarations
   __declspec(property(get = get_IsNull)) bool IsNull;
 
-  /// @brief Method Equals, addr 0x60a4204, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x60e0c44, size 0x50, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode, addr 0x60a41ac, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x60e0bec, size 0x58, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method InternalMakeTypedReference, addr 0x60a41a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalMakeTypedReference, addr 0x60e0be8, size 0x4, virtual false, abstract: false, final false
   static inline void InternalMakeTypedReference(void* result, ::System::Object* target, ::ArrayW<::System::IntPtr> flds, ::System::RuntimeType* lastFieldType);
 
   /// [CLSCompliant(false)]
-  /// @brief Method MakeTypedReference, addr 0x60a3d84, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method MakeTypedReference, addr 0x60e07c4, size 0x418, virtual false, abstract: false, final false
   static inline ::System::TypedReference MakeTypedReference(::System::Object* target, ::ArrayW<::System::Reflection::FieldInfo*> flds);
 
   /// [CLSCompliant(false)]
-  /// @brief Method SetTypedReference, addr 0x60a4274, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetTypedReference, addr 0x60e0cb4, size 0x4c, virtual false, abstract: false, final false
   static inline void SetTypedReference(::System::TypedReference target, ::System::Object* value);
 
-  /// @brief Method get_IsNull, addr 0x60a4254, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_IsNull, addr 0x60e0c94, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsNull();
 
   // Ctor Parameters []

@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include <cmath>
 CORDL_MODULE_EXPORT(BTSCharacterSpawnController)
 namespace GlobalNamespace {
 class BTSCharacterSpawnAnimationController;
@@ -35,9 +34,6 @@ namespace GlobalNamespace {
 class CORDL_TYPE BTSCharacterSpawnController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _animatorNormalizedTimeBeforePause, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get__animatorNormalizedTimeBeforePause, put = __cordl_internal_set__animatorNormalizedTimeBeforePause)) float_t _animatorNormalizedTimeBeforePause;
-
   /// @brief Field _btsCharacterSpawnEventEffect, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__btsCharacterSpawnEventEffect, put = __cordl_internal_set__btsCharacterSpawnEventEffect)) ::UnityW<::GlobalNamespace::BTSCharacterSpawnEventEffect>
       _btsCharacterSpawnEventEffect;
@@ -56,42 +52,35 @@ public:
   /// @brief Field _levelEndActions, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__levelEndActions, put = __cordl_internal_set__levelEndActions)) ::GlobalNamespace::ILevelEndActions* _levelEndActions;
 
-  /// @brief Field _playableDirectorTimeBeforePause, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__playableDirectorTimeBeforePause, put = __cordl_internal_set__playableDirectorTimeBeforePause)) double_t _playableDirectorTimeBeforePause;
-
   __declspec(property(get = get_isCharacterVisible)) bool isCharacterVisible;
 
   __declspec(property(get = get_isSpawned)) bool isSpawned;
 
-  /// @brief Method HandleAnimationFinished, addr 0x350a4a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandleAnimationFinished, addr 0x352ae14, size 0x8, virtual false, abstract: false, final false
   inline void HandleAnimationFinished();
 
-  /// @brief Method HandleGamePauseDidPause, addr 0x350a3dc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleGamePauseDidPause, addr 0x352ad50, size 0x40, virtual false, abstract: false, final false
   inline void HandleGamePauseDidPause();
 
-  /// @brief Method HandleGamePauseDidResume, addr 0x350a460, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleGamePauseDidResume, addr 0x352add4, size 0x20, virtual false, abstract: false, final false
   inline void HandleGamePauseDidResume();
 
-  /// @brief Method HandleGamePauseWillResume, addr 0x350a41c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HandleGamePauseWillResume, addr 0x352ad90, size 0x44, virtual false, abstract: false, final false
   inline void HandleGamePauseWillResume();
 
-  /// @brief Method HandleLevelEndActionsLevelFailed, addr 0x350a480, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelEndActionsLevelFailed, addr 0x352adf4, size 0x20, virtual false, abstract: false, final false
   inline void HandleLevelEndActionsLevelFailed();
 
-  /// @brief Method HandleStartCharacterAnimation, addr 0x350a320, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method HandleStartCharacterAnimation, addr 0x352ac94, size 0xbc, virtual false, abstract: false, final false
   inline void HandleStartCharacterAnimation(::GlobalNamespace::BTSCharacter* btsCharacter);
 
   static inline ::GlobalNamespace::BTSCharacterSpawnController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3509db4, size 0x4ac, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x352a728, size 0x4ac, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x35098fc, size 0x3f8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x352a270, size 0x3f8, virtual false, abstract: false, final false
   inline void Start();
-
-  constexpr float_t const& __cordl_internal_get__animatorNormalizedTimeBeforePause() const;
-
-  constexpr float_t& __cordl_internal_get__animatorNormalizedTimeBeforePause();
 
   constexpr ::UnityW<::GlobalNamespace::BTSCharacterSpawnEventEffect> const& __cordl_internal_get__btsCharacterSpawnEventEffect() const;
 
@@ -113,12 +102,6 @@ public:
 
   constexpr ::GlobalNamespace::ILevelEndActions*& __cordl_internal_get__levelEndActions();
 
-  constexpr double_t const& __cordl_internal_get__playableDirectorTimeBeforePause() const;
-
-  constexpr double_t& __cordl_internal_get__playableDirectorTimeBeforePause();
-
-  constexpr void __cordl_internal_set__animatorNormalizedTimeBeforePause(float_t value);
-
   constexpr void __cordl_internal_set__btsCharacterSpawnEventEffect(::UnityW<::GlobalNamespace::BTSCharacterSpawnEventEffect> value);
 
   constexpr void __cordl_internal_set__characterSpawnAnimationController(::UnityW<::GlobalNamespace::BTSCharacterSpawnAnimationController> value);
@@ -129,15 +112,13 @@ public:
 
   constexpr void __cordl_internal_set__levelEndActions(::GlobalNamespace::ILevelEndActions* value);
 
-  constexpr void __cordl_internal_set__playableDirectorTimeBeforePause(double_t value);
-
-  /// @brief Method .ctor, addr 0x350a4a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x352ae1c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isCharacterVisible, addr 0x35098e0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_isCharacterVisible, addr 0x352a254, size 0x14, virtual false, abstract: false, final false
   inline bool get_isCharacterVisible();
 
-  /// @brief Method get_isSpawned, addr 0x35098f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isSpawned, addr 0x352a268, size 0x8, virtual false, abstract: false, final false
   inline bool get_isSpawned();
 
 protected:
@@ -155,7 +136,7 @@ public:
   BTSCharacterSpawnController(BTSCharacterSpawnController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22806 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22975 };
 
   /// [SerializeField]
   /// @brief Field _characterSpawnAnimationController, offset: 0x20, size: 0x8, def value: None
@@ -177,12 +158,6 @@ public:
   /// @brief Field _characterSpawned, offset: 0x40, size: 0x1, def value: None
   bool ____characterSpawned;
 
-  /// @brief Field _playableDirectorTimeBeforePause, offset: 0x48, size: 0x8, def value: None
-  double_t ____playableDirectorTimeBeforePause;
-
-  /// @brief Field _animatorNormalizedTimeBeforePause, offset: 0x50, size: 0x4, def value: None
-  float_t ____animatorNormalizedTimeBeforePause;
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -196,10 +171,6 @@ static_assert(offsetof(::GlobalNamespace::BTSCharacterSpawnController, ____level
 
 static_assert(offsetof(::GlobalNamespace::BTSCharacterSpawnController, ____characterSpawned) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BTSCharacterSpawnController, ____playableDirectorTimeBeforePause) == 0x48, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::BTSCharacterSpawnController, ____animatorNormalizedTimeBeforePause) == 0x50, "Offset mismatch!");
-
-static_assert(sizeof(::GlobalNamespace::BTSCharacterSpawnController) == 0x58, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::BTSCharacterSpawnController) == 0x48, "Size mismatch!");
 
 } // namespace GlobalNamespace

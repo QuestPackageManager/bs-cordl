@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentLightGroups___c::*)()>(&::GlobalNamespace::EnvironmentLightGroups___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39920c0;
+  constexpr static std::size_t addrs = 0x39b64b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentLightGroups___c*>(), { ".ctor", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::EnvironmentLightGroups___c::*)(::GlobalNamespace::LightGroupSO*)>(
     &::GlobalNamespace::EnvironmentLightGroups___c::_Sort_b__9_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x39920c4;
+  constexpr static std::size_t addrs = 0x39b64b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ILightGroup*>* (::GlobalNamespace::EnvironmentLightGroups::*)()>(
     &::GlobalNamespace::EnvironmentLightGroups::get_lightGroups)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3991cfc;
+  constexpr static std::size_t addrs = 0x39b60ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentLightGroups*>(), { "get_lightGroups", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* (::GlobalNamespace::EnvironmentLightGroups::*)()>(
     &::GlobalNamespace::EnvironmentLightGroups::get_lightGroupSOList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3991d04;
+  constexpr static std::size_t addrs = 0x39b60f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentLightGroups*>(), { "get_lightGroupSOList", {}, {} })));
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentLightGroups::*)(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>*)>(
     &::GlobalNamespace::EnvironmentLightGroups::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3991d0c;
+  constexpr static std::size_t addrs = 0x39b60fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ILightGroup* (::GlobalNamespace::EnvironmentLightGroups::*)(int32_t)>(
     &::GlobalNamespace::EnvironmentLightGroups::GetDataForGroup)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x3991d14;
+  constexpr static std::size_t addrs = 0x39b6104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentLightGroups::*)()>(&::GlobalNamespace::EnvironmentLightGroups::Sort)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x3991f40;
+  constexpr static std::size_t addrs = 0x39b6330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentLightGroups*>(), { "Sort", {}, {} })));

@@ -20,19 +20,19 @@ namespace UnityEngine::InputSystem::Utilities {
 class CORDL_TYPE CSharpCodeHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsEmptyOrProperIdentifier, addr 0x6929c10, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IsEmptyOrProperIdentifier, addr 0x696688c, size 0x18, virtual false, abstract: false, final false
   static inline bool IsEmptyOrProperIdentifier(::StringW name);
 
-  /// @brief Method IsEmptyOrProperNamespaceName, addr 0x6929c28, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method IsEmptyOrProperNamespaceName, addr 0x69668a4, size 0xd4, virtual false, abstract: false, final false
   static inline bool IsEmptyOrProperNamespaceName(::StringW name);
 
-  /// @brief Method IsProperIdentifier, addr 0x6929b3c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method IsProperIdentifier, addr 0x69667b8, size 0xd4, virtual false, abstract: false, final false
   static inline bool IsProperIdentifier(::StringW name);
 
-  /// @brief Method MakeIdentifier, addr 0x6929cfc, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method MakeIdentifier, addr 0x6966978, size 0x210, virtual false, abstract: false, final false
   static inline ::StringW MakeIdentifier(::StringW name, ::StringW suffix);
 
-  /// @brief Method MakeTypeName, addr 0x6929f0c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method MakeTypeName, addr 0x6966b88, size 0xdc, virtual false, abstract: false, final false
   static inline ::StringW MakeTypeName(::StringW name, ::StringW suffix);
 
 protected:
@@ -50,7 +50,7 @@ public:
   CSharpCodeHelpers(CSharpCodeHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11119 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11126 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

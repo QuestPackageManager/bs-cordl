@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::XR::OpenXR::NativeTypes::PollEventRouter::get_numSubscribersToEventReceived)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6e3cd40;
+  constexpr static std::size_t addrs = 0x6e799dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::XR::OpenXR::NativeTypes::PollEventRouter::RegisterNativeCallback)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6e3cde8;
+  constexpr static std::size_t addrs = 0x6e79a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::XR::OpenXR::NativeTypes::PollEventRouter::UnregisterNativeCallback)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x6e3cfa8;
+  constexpr static std::size_t addrs = 0x6e79c44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::XR::OpenXR::OpenXRLoaderBase*)>(&::UnityEngine::XR::OpenXR::NativeTypes::PollEventRouter::ClearAllState)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x6e3d144;
+  constexpr static std::size_t addrs = 0x6e79de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::PollEventRouter*>(),
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::XR::OpenXR::NativeTypes::XrEventDataBaseHeader*)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::PollEventRouter::OnXrPollEvent)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x6e3caec;
+  constexpr static std::size_t addrs = 0x6e79788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::XR::OpenXR::NativeTypes::XrPollEventCallback*)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::PollEventRouter::TrySubscribeToAllEvents)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6e3d2e0;
+  constexpr static std::size_t addrs = 0x6e79f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType, ::UnityEngine::XR::OpenXR::NativeTypes::XrPollEventCallback*)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::PollEventRouter::TrySubscribeToEventType)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x6e3d3b4;
+  constexpr static std::size_t addrs = 0x6e7a050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::XR::OpenXR::NativeTypes::XrPollEventCallback*)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::PollEventRouter::TryUnsubscribeFromAllEvents)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6e3d570;
+  constexpr static std::size_t addrs = 0x6e7a20c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType, ::UnityEngine::XR::OpenXR::NativeTypes::XrPollEventCallback*)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::PollEventRouter::TryUnsubscribeFromEventType)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x6e3d634;
+  constexpr static std::size_t addrs = 0x6e7a2d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::XR::OpenXR::NativeTypes::PollEventRouter::Internal_RegisterPollEventCallback)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6e3cf2c;
+  constexpr static std::size_t addrs = 0x6e79bc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::PollEventRouter*>(),
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::XR::OpenXR::NativeTypes::PollEventRouter::Internal_UnregisterPollEventCallback)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6e3d0e0;
+  constexpr static std::size_t addrs = 0x6e79d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

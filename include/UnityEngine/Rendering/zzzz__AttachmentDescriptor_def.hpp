@@ -65,46 +65,46 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::AttachmentDescriptor>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::AttachmentDescriptor>*();
 
-  /// @brief Method Equals, addr 0x6f7bc5c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6fb8b38, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6f7ba08, size 0x254, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6fb88e4, size 0x254, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::AttachmentDescriptor other);
 
-  /// @brief Method GetHashCode, addr 0x6f7bcf0, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6fb8bcc, size 0x140, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6f7b9a4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fb8880, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
-  /// @brief Method get_loadStoreTarget, addr 0x6f7b948, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_loadStoreTarget, addr 0x6fb8824, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderTargetIdentifier get_loadStoreTarget();
 
-  /// @brief Method get_storeAction, addr 0x6f7b938, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_storeAction, addr 0x6fb8814, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderBufferStoreAction get_storeAction();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::AttachmentDescriptor>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::AttachmentDescriptor>* i___System__IEquatable_1___UnityEngine__Rendering__AttachmentDescriptor_();
 
-  /// @brief Method set_clearColor, addr 0x6f7b988, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_clearColor, addr 0x6fb8864, size 0xc, virtual false, abstract: false, final false
   inline void set_clearColor(::UnityEngine::Color value);
 
-  /// @brief Method set_clearDepth, addr 0x6f7b994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_clearDepth, addr 0x6fb8870, size 0x8, virtual false, abstract: false, final false
   inline void set_clearDepth(float_t value);
 
-  /// @brief Method set_clearStencil, addr 0x6f7b99c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_clearStencil, addr 0x6fb8878, size 0x8, virtual false, abstract: false, final false
   inline void set_clearStencil(uint32_t value);
 
-  /// @brief Method set_loadAction, addr 0x6f7b930, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_loadAction, addr 0x6fb880c, size 0x8, virtual false, abstract: false, final false
   inline void set_loadAction(::UnityEngine::Rendering::RenderBufferLoadAction value);
 
-  /// @brief Method set_loadStoreTarget, addr 0x6f7b95c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_loadStoreTarget, addr 0x6fb8838, size 0x14, virtual false, abstract: false, final false
   inline void set_loadStoreTarget(::UnityEngine::Rendering::RenderTargetIdentifier value);
 
-  /// @brief Method set_resolveTarget, addr 0x6f7b970, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_resolveTarget, addr 0x6fb884c, size 0x18, virtual false, abstract: false, final false
   inline void set_resolveTarget(::UnityEngine::Rendering::RenderTargetIdentifier value);
 
-  /// @brief Method set_storeAction, addr 0x6f7b940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_storeAction, addr 0x6fb881c, size 0x8, virtual false, abstract: false, final false
   inline void set_storeAction(::UnityEngine::Rendering::RenderBufferStoreAction value);
 
   // Ctor Parameters []
@@ -122,7 +122,7 @@ public:
                                  ::UnityEngine::Rendering::RenderTargetIdentifier m_ResolveTarget, ::UnityEngine::Color m_ClearColor, float_t m_ClearDepth, uint32_t m_ClearStencil) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10392 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10399 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };

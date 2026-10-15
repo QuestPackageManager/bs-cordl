@@ -42,56 +42,56 @@ public:
 
   __declspec(property(get = get_type)) ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type;
 
-  /// @brief Method .ctor, addr 0x6e44604, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e812a0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::OpenXR::NativeTypes::XrResult futureResult, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextResultEXT createResult,
                     uint64_t persistenceContext);
 
-  /// @brief Method .ctor, addr 0x6e44668, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e81304, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(void* next, ::UnityEngine::XR::OpenXR::NativeTypes::XrResult futureResult, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextResultEXT createResult,
                     uint64_t persistenceContext);
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_createResult, addr 0x6e44648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_createResult, addr 0x6e812e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextResultEXT get_createResult();
 
-  /// @brief Method get_defaultValue, addr 0x6e41070, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_defaultValue, addr 0x6e7dd0c, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialPersistenceContextCompletionEXT get_defaultValue();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_futureResult, addr 0x6e44638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_futureResult, addr 0x6e812d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult get_futureResult();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e44628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x6e812c4, size 0x8, virtual false, abstract: false, final false
   inline void* get_next();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_persistenceContext, addr 0x6e44658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_persistenceContext, addr 0x6e812f4, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_persistenceContext();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e44620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6e812bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   /// [CompilerGenerated]
-  /// @brief Method set_createResult, addr 0x6e44650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_createResult, addr 0x6e812ec, size 0x8, virtual false, abstract: false, final false
   inline void set_createResult(::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextResultEXT value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_futureResult, addr 0x6e44640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_futureResult, addr 0x6e812dc, size 0x8, virtual false, abstract: false, final false
   inline void set_futureResult(::UnityEngine::XR::OpenXR::NativeTypes::XrResult value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_next, addr 0x6e44630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_next, addr 0x6e812cc, size 0x8, virtual false, abstract: false, final false
   inline void set_next(void* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_persistenceContext, addr 0x6e44660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_persistenceContext, addr 0x6e812fc, size 0x8, virtual false, abstract: false, final false
   inline void set_persistenceContext(uint64_t value);
 
   // Ctor Parameters []
@@ -108,7 +108,7 @@ public:
                                                            uint64_t _persistenceContext_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17578 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17611 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Awaitable* (::UnityEngine::Awaitable_AwaitableAndFrameIndex::*)()>(
     &::UnityEngine::Awaitable_AwaitableAndFrameIndex::get_Awaitable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f36b24;
+  constexpr static std::size_t addrs = 0x6f73984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Awaitable_AwaitableAndFrameIndex>(), { "get_Awaitable", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Awaitable_AwaitableAndFrameIndex::*)()>(&::UnityEngine::Awaitable_AwaitableAndFrameIndex::get_FrameIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f36b2c;
+  constexpr static std::size_t addrs = 0x6f7398c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Awaitable_AwaitableAndFrameIndex>(), { "get_FrameIndex", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Awaitable_DoubleBufferedAwaitableList::*)()>(&::UnityEngine::Awaitable_DoubleBufferedAwaitableList::SwapAndComplete)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x6f35480;
+  constexpr static std::size_t addrs = 0x6f722e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Awaitable_DoubleBufferedAwaitableList*>(), { "SwapAndComplete", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Awaitable_DoubleBufferedAwaitableList::*)()>(&::UnityEngine::Awaitable_DoubleBufferedAwaitableList::Clear)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6f353a4;
+  constexpr static std::size_t addrs = 0x6f72204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Awaitable_DoubleBufferedAwaitableList*>(), { "Clear", {}, {} })));
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Awaitable_DoubleBufferedAwaitableList::*)()>(&::UnityEngine::Awaitable_DoubleBufferedAwaitableList::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6f36a90;
+  constexpr static std::size_t addrs = 0x6f738f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Awaitable_DoubleBufferedAwaitableList*>(), { ".ctor", {}, {} })));
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Awaitable_AwaitableHandle::*)()>(&::UnityEngine::Awaitable_AwaitableHandle::get_IsNull)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6f36290;
+  constexpr static std::size_t addrs = 0x6f730f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Awaitable_AwaitableHandle>(), { "get_IsNull", {}, {} })));
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Awaitable_AwaitableHandle::*)()>(&::UnityEngine::Awaitable_AwaitableHandle::get_IsManaged)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6f36224;
+  constexpr static std::size_t addrs = 0x6f73084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Awaitable_AwaitableHandle>(), { "get_IsManaged", {}, {} })));
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Awaitable_AwaitableHandle::*)(::System::IntPtr)>(&::UnityEngine::Awaitable_AwaitableHandle::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f36b34;
+  constexpr static std::size_t addrs = 0x6f73994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::UnityEngine::Awaitable_AwaitableHandle)>(&::UnityEngine::Awaitable_AwaitableHandle::op_Implicit___System__IntPtr)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6f36b3c;
+  constexpr static std::size_t addrs = 0x6f7399c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -274,7 +274,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Awaitable___c::*)()>(&::UnityEngine::Awaitable___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6f36be8;
+  constexpr static std::size_t addrs = 0x6f73a48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Awaitable___c*>(), { ".ctor", {}, {} })));
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Pool::ObjectPool_1<::UnityEngine::Awaitable*>* (::UnityEngine::Awaitable___c::*)()>(
     &::UnityEngine::Awaitable___c::__cctor_b__76_0)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x6f36bec;
+  constexpr static std::size_t addrs = 0x6f73a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Awaitable___c*>(), { "<.cctor>b__76_0", {}, {} })));
@@ -299,7 +299,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Awaitable* (::UnityEngine::Awaitable___c::*)()>(&::UnityEngine::Awaitable___c::__cctor_b__76_1)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6f36d2c;
+  constexpr static std::size_t addrs = 0x6f73b8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Awaitable___c*>(), { "<.cctor>b__76_1", {}, {} })));
@@ -340,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Awaitable::*)(::System::Exception*)>(&::UnityEngine::Awaitable::SetExceptionFromNative)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6f35044;
+  constexpr static std::size_t addrs = 0x6f71ea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -353,7 +353,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Awaitable::*)()>(&::UnityEngine::Awaitable::RunContinuation)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x6f35178;
+  constexpr static std::size_t addrs = 0x6f71fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Awaitable*>(), { "RunContinuation", {}, {} })));
@@ -365,7 +365,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::Awaitable::ReleaseNativeAwaitable)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f352b0;
+  constexpr static std::size_t addrs = 0x6f72110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -378,7 +378,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::Awaitable::IsNativeAwaitableCompleted)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f352ec;
+  constexpr static std::size_t addrs = 0x6f7214c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -391,7 +391,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::Awaitable::OnDelayedCallManagerCleared)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6f35328;
+  constexpr static std::size_t addrs = 0x6f72188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Awaitable*>(), { "OnDelayedCallManagerCleared", {}, {} })));
@@ -403,7 +403,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::Awaitable::OnUpdate)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6f3541c;
+  constexpr static std::size_t addrs = 0x6f7227c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Awaitable*>(), { "OnUpdate", {}, {} })));
@@ -415,7 +415,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::Awaitable::OnEndOfFrame)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6f35718;
+  constexpr static std::size_t addrs = 0x6f72578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Awaitable*>(), { "OnEndOfFrame", {}, {} })));
@@ -427,7 +427,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UnitySynchronizationContext*)>(&::UnityEngine::Awaitable::SetSynchronizationContext)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6f3577c;
+  constexpr static std::size_t addrs = 0x6f725dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -440,7 +440,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Awaitable::*)()>(&::UnityEngine::Awaitable::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f357ec;
+  constexpr static std::size_t addrs = 0x6f7264c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Awaitable*>(), { ".ctor", {}, {} })));
@@ -452,7 +452,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Awaitable* (*)()>(&::UnityEngine::Awaitable::NewManagedAwaitable)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6f357f4;
+  constexpr static std::size_t addrs = 0x6f72654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Awaitable*>(), { "NewManagedAwaitable", {}, {} })));
@@ -464,7 +464,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Awaitable_AwaiterCompletionThreadAffinity)>(&::UnityEngine::Awaitable::MatchCompletionThreadAffinity)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6f358e4;
+  constexpr static std::size_t addrs = 0x6f72744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -478,7 +478,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Awaitable::*)(::System::Exception*)>(&::UnityEngine::Awaitable::RaiseManagedCompletion)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x6f359cc;
+  constexpr static std::size_t addrs = 0x6f7282c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -492,7 +492,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Awaitable::*)(::UnityEngine::Awaitable_AwaiterCompletionThreadAffinity, ::System::Action*)>(
     &::UnityEngine::Awaitable::RunOrScheduleContinuation)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x6f35b50;
+  constexpr static std::size_t addrs = 0x6f729b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -507,7 +507,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*)>(&::UnityEngine::Awaitable::DoRunContinuationOnSynchonizationContext)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6f35cc4;
+  constexpr static std::size_t addrs = 0x6f72b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -520,7 +520,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Awaitable::*)()>(&::UnityEngine::Awaitable::RaiseManagedCompletion)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x6f35d34;
+  constexpr static std::size_t addrs = 0x6f72b94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Awaitable*>(), { "RaiseManagedCompletion", {}, {} })));
@@ -532,7 +532,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Awaitable::*)()>(&::UnityEngine::Awaitable::PropagateExceptionAndRelease)> {
   constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x6f35e80;
+  constexpr static std::size_t addrs = 0x6f72ce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Awaitable*>(), { "PropagateExceptionAndRelease", {}, {} })));
@@ -544,7 +544,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Awaitable::*)()>(&::UnityEngine::Awaitable::get_IsCompletedNoLock)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x6f362a0;
+  constexpr static std::size_t addrs = 0x6f73100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Awaitable*>(), { "get_IsCompletedNoLock", {}, {} })));
@@ -556,7 +556,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Awaitable::*)()>(&::UnityEngine::Awaitable::get_IsCompleted)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6f36440;
+  constexpr static std::size_t addrs = 0x6f732a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Awaitable*>(), { "get_IsCompleted", {}, {} })));
@@ -568,7 +568,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Awaitable::*)()>(&::UnityEngine::Awaitable::get_IsDettachedOrCompleted)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x6f3656c;
+  constexpr static std::size_t addrs = 0x6f733cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Awaitable*>(), { "get_IsDettachedOrCompleted", {}, {} })));
@@ -580,7 +580,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Awaitable_AwaitableHandle (::UnityEngine::Awaitable::*)()>(&::UnityEngine::Awaitable::CheckPointerValidity)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6f36830;
+  constexpr static std::size_t addrs = 0x6f73690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Awaitable*>(), { "CheckPointerValidity", {}, {} })));
@@ -592,7 +592,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Awaitable::*)()>(&::UnityEngine::Awaitable::System_Collections_IEnumerator_MoveNext)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6f368d8;
+  constexpr static std::size_t addrs = 0x6f73738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Awaitable*>(), { "System.Collections.IEnumerator.MoveNext", {}, {} })));
@@ -604,7 +604,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Awaitable::*)()>(&::UnityEngine::Awaitable::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6f3690c;
+  constexpr static std::size_t addrs = 0x6f7376c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Awaitable*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
@@ -616,7 +616,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Awaitable::*)()>(&::UnityEngine::Awaitable::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f36910;
+  constexpr static std::size_t addrs = 0x6f73770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Awaitable*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));

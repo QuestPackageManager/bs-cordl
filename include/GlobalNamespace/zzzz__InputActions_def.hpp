@@ -34,40 +34,33 @@ public:
   /// @brief Field _autoplayKeyEnabled, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__autoplayKeyEnabled, put = __cordl_internal_set__autoplayKeyEnabled)) bool _autoplayKeyEnabled;
 
-  /// @brief Field _isBeatmapEditorGameplayLoaded, offset 0x29, size 0x1
-  __declspec(property(get = __cordl_internal_get__isBeatmapEditorGameplayLoaded, put = __cordl_internal_set__isBeatmapEditorGameplayLoaded)) bool _isBeatmapEditorGameplayLoaded;
-
   /// @brief Field _keyboardManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__keyboardManager, put = __cordl_internal_set__keyboardManager)) ::UnityW<::GlobalNamespace::UIKeyboardManager> _keyboardManager;
 
-  /// @brief Method HasInputFocus, addr 0x5cfc15c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method HasInputFocus, addr 0x5d350a0, size 0x104, virtual false, abstract: false, final false
   static inline bool HasInputFocus(::UnityEngine::EventSystems::EventSystem* eventSystem, ::GlobalNamespace::UIKeyboardManager* keyboardManager);
 
   /// [Inject]
-  /// @brief Method InstallDependencies, addr 0x5cfbdf4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method InstallDependencies, addr 0x5d34d38, size 0x90, virtual false, abstract: false, final false
   inline void InstallDependencies(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult commandLineParserResult);
 
   static inline ::GlobalNamespace::InputActions* New_ctor();
 
-  /// @brief Method ResolveGameplayCoreSceneContext, addr 0x5cfc418, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method ResolveGameplayCoreSceneContext, addr 0x5d3535c, size 0x3a4, virtual false, abstract: false, final false
   static inline ::UnityW<::Zenject::SceneContext> ResolveGameplayCoreSceneContext();
 
-  /// @brief Method ToggleAutoplay, addr 0x5cfc260, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method ToggleAutoplay, addr 0x5d351a4, size 0x1b4, virtual false, abstract: false, final false
   static inline void ToggleAutoplay();
 
-  /// @brief Method ToggleLevelFreeze, addr 0x5cfc414, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToggleLevelFreeze, addr 0x5d35358, size 0x4, virtual false, abstract: false, final false
   static inline void ToggleLevelFreeze();
 
-  /// @brief Method Update, addr 0x5cfbe84, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5d34dc8, size 0x2d8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get__autoplayKeyEnabled() const;
 
   constexpr bool& __cordl_internal_get__autoplayKeyEnabled();
-
-  constexpr bool const& __cordl_internal_get__isBeatmapEditorGameplayLoaded() const;
-
-  constexpr bool& __cordl_internal_get__isBeatmapEditorGameplayLoaded();
 
   constexpr ::UnityW<::GlobalNamespace::UIKeyboardManager> const& __cordl_internal_get__keyboardManager() const;
 
@@ -75,11 +68,9 @@ public:
 
   constexpr void __cordl_internal_set__autoplayKeyEnabled(bool value);
 
-  constexpr void __cordl_internal_set__isBeatmapEditorGameplayLoaded(bool value);
-
   constexpr void __cordl_internal_set__keyboardManager(::UnityW<::GlobalNamespace::UIKeyboardManager> value);
 
-  /// @brief Method .ctor, addr 0x5cfc7bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d35700, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -97,7 +88,7 @@ public:
   InputActions(InputActions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6645 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6649 };
 
   /// @brief Field _keyboardManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::UIKeyboardManager> ____keyboardManager;
@@ -105,17 +96,12 @@ public:
   /// @brief Field _autoplayKeyEnabled, offset: 0x28, size: 0x1, def value: None
   bool ____autoplayKeyEnabled;
 
-  /// @brief Field _isBeatmapEditorGameplayLoaded, offset: 0x29, size: 0x1, def value: None
-  bool ____isBeatmapEditorGameplayLoaded;
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::InputActions, ____keyboardManager) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::InputActions, ____autoplayKeyEnabled) == 0x28, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::InputActions, ____isBeatmapEditorGameplayLoaded) == 0x29, "Offset mismatch!");
 
 static_assert(sizeof(::GlobalNamespace::InputActions) == 0x30, "Size mismatch!");
 

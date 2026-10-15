@@ -109,7 +109,7 @@ public:
                                             uint32_t renderingLayerMask, uint32_t instanceMask, uint32_t userMaterialID, uint32_t geometryIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20452 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20499 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xd0 };
@@ -210,7 +210,7 @@ public:
 
   constexpr void __cordl_internal_set_vertexOffset(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x6e029c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3f664, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -228,7 +228,7 @@ public:
   AccelStructInstances_InstanceEntry(AccelStructInstances_InstanceEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20453 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20500 };
 
   /// @brief Field geometryPoolHandle, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle ___geometryPoolHandle;
@@ -278,10 +278,10 @@ public:
 
   static inline ::UnityEngine::Rendering::UnifiedRayTracing::AccelStructInstances___c* New_ctor();
 
-  /// @brief Method <NextFrame>b__22_0, addr 0x6e02dfc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <NextFrame>b__22_0, addr 0x6e3fa98, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::UnifiedRayTracing::AccelStructInstances_RTInstance _NextFrame_b__22_0(::UnityEngine::Rendering::UnifiedRayTracing::AccelStructInstances_RTInstance instance);
 
-  /// @brief Method .ctor, addr 0x6e02df8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3fa94, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::UnifiedRayTracing::AccelStructInstances___c* getStaticF___9();
@@ -309,7 +309,7 @@ public:
   AccelStructInstances___c(AccelStructInstances___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20454 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20501 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -364,53 +364,53 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AddInstance, addr 0x6e00690, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method AddInstance, addr 0x6e3d32c, size 0xac, virtual false, abstract: false, final false
   inline int32_t AddInstance(::UnityEngine::Rendering::UnifiedRayTracing::MeshInstanceDesc meshInstance, uint32_t materialID, uint32_t renderingLayerMask);
 
-  /// @brief Method AddInstance, addr 0x6e023d0, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method AddInstance, addr 0x6e3f06c, size 0x340, virtual false, abstract: false, final false
   inline void AddInstance(::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation slotAllocation,
                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::MeshInstanceDesc const> meshInstance, uint32_t materialID, uint32_t renderingLayerMask);
 
-  /// @brief Method AddInstances, addr 0x6e02710, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method AddInstances, addr 0x6e3f3ac, size 0x12c, virtual false, abstract: false, final false
   inline int32_t AddInstances(::System::Span_1<::UnityEngine::Rendering::UnifiedRayTracing::MeshInstanceDesc> meshInstances, ::System::Span_1<uint32_t> materialIDs,
                               ::System::Span_1<uint32_t> renderingLayerMask);
 
-  /// @brief Method Bind, addr 0x6dffa88, size 0x390, virtual false, abstract: false, final false
+  /// @brief Method Bind, addr 0x6e3c724, size 0x390, virtual false, abstract: false, final false
   inline void Bind(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::UnifiedRayTracing::IRayTracingShader* shader);
 
-  /// @brief Method ClearInstances, addr 0x6e02a60, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method ClearInstances, addr 0x6e3f6fc, size 0x19c, virtual false, abstract: false, final false
   inline void ClearInstances();
 
-  /// @brief Method Dispose, addr 0x6dffef8, size 0x180, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6e3cb94, size 0x180, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetEntryGeomAllocation, addr 0x6e029d4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetEntryGeomAllocation, addr 0x6e3f670, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_MeshChunk GetEntryGeomAllocation(::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle handle, int32_t submeshIndex);
 
-  /// @brief Method GetInstanceCount, addr 0x6e02d4c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetInstanceCount, addr 0x6e3f9e8, size 0x58, virtual false, abstract: false, final false
   inline int32_t GetInstanceCount();
 
   static inline ::UnityEngine::Rendering::UnifiedRayTracing::AccelStructInstances* New_ctor(::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool* geometryPool);
 
-  /// @brief Method NextFrame, addr 0x6e01c48, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method NextFrame, addr 0x6e3e8e4, size 0x12c, virtual false, abstract: false, final false
   inline void NextFrame();
 
-  /// @brief Method NormalMatrix, addr 0x6e02860, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method NormalMatrix, addr 0x6e3f4fc, size 0x9c, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float4x4 NormalMatrix(::Unity::Mathematics::float4x4 m);
 
-  /// @brief Method RemoveInstance, addr 0x6e01094, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method RemoveInstance, addr 0x6e3dd30, size 0x108, virtual false, abstract: false, final false
   inline void RemoveInstance(int32_t instanceHandle);
 
-  /// @brief Method UpdateInstanceMask, addr 0x6e0188c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method UpdateInstanceMask, addr 0x6e3e528, size 0x10c, virtual false, abstract: false, final false
   inline void UpdateInstanceMask(int32_t instanceHandle, uint32_t mask);
 
-  /// @brief Method UpdateInstanceMaterialID, addr 0x6e01614, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method UpdateInstanceMaterialID, addr 0x6e3e2b0, size 0x104, virtual false, abstract: false, final false
   inline void UpdateInstanceMaterialID(int32_t instanceHandle, uint32_t materialID);
 
-  /// @brief Method UpdateInstanceTransform, addr 0x6e01334, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method UpdateInstanceTransform, addr 0x6e3dfd0, size 0x200, virtual false, abstract: false, final false
   inline void UpdateInstanceTransform(int32_t instanceHandle, ::UnityEngine::Matrix4x4 localToWorldMatrix);
 
-  /// @brief Method UpdateRenderingLayerMask, addr 0x6e02bfc, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method UpdateRenderingLayerMask, addr 0x6e3f898, size 0x138, virtual false, abstract: false, final false
   inline void UpdateRenderingLayerMask(int32_t instanceHandle, uint32_t renderingLayerMask);
 
   constexpr uint32_t const& __cordl_internal_get_m_FrameTimestamp() const;
@@ -445,25 +445,25 @@ public:
 
   constexpr void __cordl_internal_set_m_TransformTouchedLastTimestamp(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x6dff424, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3c0c0, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool* geometryPool);
 
-  /// @brief Method get_geometryPool, addr 0x6e023c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_geometryPool, addr 0x6e3f064, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool* get_geometryPool();
 
-  /// @brief Method get_indexBuffer, addr 0x6e02a30, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_indexBuffer, addr 0x6e3f6cc, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* get_indexBuffer();
 
-  /// @brief Method get_instanceBuffer, addr 0x6e0236c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_instanceBuffer, addr 0x6e3f008, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::UnifiedRayTracing::PersistentGpuArray_1<::UnityEngine::Rendering::UnifiedRayTracing::AccelStructInstances_RTInstance>* get_instanceBuffer();
 
-  /// @brief Method get_instanceListValid, addr 0x6e02d34, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_instanceListValid, addr 0x6e3f9d0, size 0x10, virtual false, abstract: false, final false
   inline bool get_instanceListValid();
 
-  /// @brief Method get_instances, addr 0x6e02374, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_instances, addr 0x6e3f010, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyCollection_1<::UnityEngine::Rendering::UnifiedRayTracing::AccelStructInstances_InstanceEntry*>* get_instances();
 
-  /// @brief Method get_vertexBuffer, addr 0x6e02a48, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_vertexBuffer, addr 0x6e3f6e4, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* get_vertexBuffer();
 
   /// @brief Convert to "::System::IDisposable"
@@ -484,7 +484,7 @@ public:
   AccelStructInstances(AccelStructInstances const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20455 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20502 };
 
   /// @brief Field m_GeometryPool, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool* ___m_GeometryPool;

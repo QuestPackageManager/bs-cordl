@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::BGLib::JsonExtension::ColorConverter::*)(
     ::Newtonsoft::Json::JsonReader*, ::System::Type*, ::UnityEngine::Color, bool, ::Newtonsoft::Json::JsonSerializer*)>(&::BGLib::JsonExtension::ColorConverter::ReadJson)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x359eefc;
+  constexpr static std::size_t addrs = 0x35c17dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::JsonExtension::ColorConverter::*)(::Newtonsoft::Json::JsonWriter*, ::UnityEngine::Color, ::Newtonsoft::Json::JsonSerializer*)>(
     &::BGLib::JsonExtension::ColorConverter::WriteJson)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x359efb8;
+  constexpr static std::size_t addrs = 0x35c1898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::JsonExtension::ColorConverter::*)()>(&::BGLib::JsonExtension::ColorConverter::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x359f150;
+  constexpr static std::size_t addrs = 0x35c1a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::JsonExtension::ColorConverter*>(), { ".ctor", {}, {} })));

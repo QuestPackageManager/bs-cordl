@@ -28,10 +28,10 @@ public:
 
   static inline ::GlobalNamespace::FullScreenPassRendererFeature_OldGUID* New_ctor();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x6c719c4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x6cae640, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
 
-  /// @brief Method .ctor, addr 0x6c719c8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cae644, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
@@ -52,7 +52,7 @@ public:
   FullScreenPassRendererFeature_OldGUID(FullScreenPassRendererFeature_OldGUID const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12778 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12785 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

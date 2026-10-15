@@ -5,6 +5,13 @@
 #include "BeatSaber/Init/zzzz__InitArguments_def.hpp"
 #include "BGLib/DotnetExtension/CommandLine/zzzz__ArgumentOption_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+inline void BeatSaber::Init::InitArguments::setStaticF_kBuildInfoOption(::BGLib::DotnetExtension::CommandLine::ArgumentOption value) {
+  ::cordl_internals::setStaticField<::BGLib::DotnetExtension::CommandLine::ArgumentOption, "kBuildInfoOption", ::BeatSaber::Init::InitArguments*>(
+      std::forward<::BGLib::DotnetExtension::CommandLine::ArgumentOption>(value));
+}
+inline ::BGLib::DotnetExtension::CommandLine::ArgumentOption BeatSaber::Init::InitArguments::getStaticF_kBuildInfoOption() {
+  return ::cordl_internals::getStaticField<::BGLib::DotnetExtension::CommandLine::ArgumentOption, "kBuildInfoOption", ::BeatSaber::Init::InitArguments*>();
+}
 inline void BeatSaber::Init::InitArguments::setStaticF_kFPFCOption(::BGLib::DotnetExtension::CommandLine::ArgumentOption value) {
   ::cordl_internals::setStaticField<::BGLib::DotnetExtension::CommandLine::ArgumentOption, "kFPFCOption", ::BeatSaber::Init::InitArguments*>(
       std::forward<::BGLib::DotnetExtension::CommandLine::ArgumentOption>(value));

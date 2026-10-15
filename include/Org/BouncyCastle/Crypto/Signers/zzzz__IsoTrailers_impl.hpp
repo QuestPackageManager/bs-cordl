@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IDictionary* (*)()>(&::Org::BouncyCastle::Crypto::Signers::IsoTrailers::CreateTrailerMap)> {
   constexpr static std::size_t size = 0x688;
-  constexpr static std::size_t addrs = 0x36b79c8;
+  constexpr static std::size_t addrs = 0x36da32c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Signers::IsoTrailers*>(), { "CreateTrailerMap", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Org::BouncyCastle::Crypto::IDigest*)>(&::Org::BouncyCastle::Crypto::Signers::IsoTrailers::GetTrailer)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x36b3e90;
+  constexpr static std::size_t addrs = 0x36d67f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Org::BouncyCastle::Crypto::IDigest*)>(&::Org::BouncyCastle::Crypto::Signers::IsoTrailers::NoTrailerAvailable)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x36b3d30;
+  constexpr static std::size_t addrs = 0x36d6694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Signers::IsoTrailers*>(),
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::IsoTrailers::*)()>(&::Org::BouncyCastle::Crypto::Signers::IsoTrailers::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x36b80a0;
+  constexpr static std::size_t addrs = 0x36daa04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Signers::IsoTrailers*>(), { ".ctor", {}, {} })));

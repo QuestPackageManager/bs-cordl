@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleSheets::Syntax::Expression::*)(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType)>(
     &::UnityEngine::UIElements::StyleSheets::Syntax::Expression::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x71ccef4;
+  constexpr static std::size_t addrs = 0x7209e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>(),

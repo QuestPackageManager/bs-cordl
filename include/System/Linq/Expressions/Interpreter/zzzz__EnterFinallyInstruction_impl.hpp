@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::Interpreter::EnterFinallyInstruction::*)(int32_t)>(
     &::System::Linq::Expressions::Interpreter::EnterFinallyInstruction::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63ac7e8;
+  constexpr static std::size_t addrs = 0x63e93b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::EnterFinallyInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::EnterFinallyInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x63ac7f0;
+  constexpr static std::size_t addrs = 0x63e93c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction*>(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::EnterFinallyInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::EnterFinallyInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63ac834;
+  constexpr static std::size_t addrs = 0x63e9404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction*>(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::EnterFinallyInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::EnterFinallyInstruction::get_ConsumedContinuations)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63ac83c;
+  constexpr static std::size_t addrs = 0x63e940c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction*>(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction* (*)(int32_t)>(
     &::System::Linq::Expressions::Interpreter::EnterFinallyInstruction::Create)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x63ac844;
+  constexpr static std::size_t addrs = 0x63e9414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::EnterFinallyInstruction::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(
     &::System::Linq::Expressions::Interpreter::EnterFinallyInstruction::Run)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x63ac93c;
+  constexpr static std::size_t addrs = 0x63e950c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction*>(),

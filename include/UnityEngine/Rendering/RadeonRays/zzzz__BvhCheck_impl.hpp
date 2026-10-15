@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RadeonRays::BvhCheck_VertexBuffers::*)()>(
     &::UnityEngine::Rendering::RadeonRays::BvhCheck_VertexBuffers::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6dfacf0;
+  constexpr static std::size_t addrs = 0x6e3798c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RadeonRays::BvhCheck_VertexBuffers*>(), { ".ctor", {}, {} })));
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RadeonRays::BvhCheck_VertexBuffersCPU::*)()>(
     &::UnityEngine::Rendering::RadeonRays::BvhCheck_VertexBuffersCPU::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6dfb714;
+  constexpr static std::size_t addrs = 0x6e383b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RadeonRays::BvhCheck_VertexBuffersCPU*>(), { ".ctor", {}, {} })));
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RadeonRays::BvhCheck_VertexBuffers* (*)(::UnityEngine::Rendering::RadeonRays::MeshBuildInfo)>(
     &::UnityEngine::Rendering::RadeonRays::BvhCheck::Convert)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6dfac58;
+  constexpr static std::size_t addrs = 0x6e378f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RadeonRays::BvhCheck*>(),
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::UnityEngine::Rendering::RadeonRays::AABB*)>(&::UnityEngine::Rendering::RadeonRays::BvhCheck::SurfaceArea)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6dfacfc;
+  constexpr static std::size_t addrs = 0x6e37998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RadeonRays::BvhCheck*>(),
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(uint32_t, ::UnityEngine::Rendering::RadeonRays::AABB*, ::UnityEngine::Rendering::RadeonRays::AABB*)>(
     &::UnityEngine::Rendering::RadeonRays::BvhCheck::NodeSahCost)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6dfad40;
+  constexpr static std::size_t addrs = 0x6e379dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::UnityEngine::Rendering::RadeonRays::BvhCheck_VertexBuffers*, ::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct,
                                                                     uint32_t)>(&::UnityEngine::Rendering::RadeonRays::BvhCheck::CheckConsistency)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6dfada4;
+  constexpr static std::size_t addrs = 0x6e37a40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::UnityEngine::GraphicsBuffer*, uint32_t, uint32_t)>(&::UnityEngine::Rendering::RadeonRays::BvhCheck::CheckConsistency)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6dfaeac;
+  constexpr static std::size_t addrs = 0x6e37b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::UnityEngine::Rendering::RadeonRays::BvhCheck_VertexBuffers*, ::UnityEngine::GraphicsBuffer*, uint32_t,
                                                                     ::UnityEngine::GraphicsBuffer*, uint32_t, uint32_t)>(&::UnityEngine::Rendering::RadeonRays::BvhCheck::CheckConsistency)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6dfadc0;
+  constexpr static std::size_t addrs = 0x6e37a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -298,7 +298,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint32_t, int32_t, int32_t)>(&::UnityEngine::Rendering::RadeonRays::BvhCheck::ExtractBits)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6dfb218;
+  constexpr static std::size_t addrs = 0x6e37eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -312,7 +312,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t)>(&::UnityEngine::Rendering::RadeonRays::BvhCheck::IsLeafNode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dfad90;
+  constexpr static std::size_t addrs = 0x6e37a2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -325,7 +325,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::UnityEngine::Rendering::RadeonRays::BvhCheck::GetLeafNodeFirstPrim)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dfb234;
+  constexpr static std::size_t addrs = 0x6e37ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -338,7 +338,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::UnityEngine::Rendering::RadeonRays::BvhCheck::GetLeafNodePrimCount)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6dfad98;
+  constexpr static std::size_t addrs = 0x6e37a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -353,7 +353,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::UnityEngin
                                                                     ::UnityEngine::GraphicsBuffer*, uint32_t, ::UnityEngine::Rendering::RadeonRays::BvhHeader, uint32_t)>(
     &::UnityEngine::Rendering::RadeonRays::BvhCheck::CheckConsistency)> {
   constexpr static std::size_t size = 0x350;
-  constexpr static std::size_t addrs = 0x6dfaec8;
+  constexpr static std::size_t addrs = 0x6e37b64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -371,7 +371,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::uint3 (*)(::ArrayW<uint32_t>, uint32_t)>(&::UnityEngine::Rendering::RadeonRays::BvhCheck::GetFaceIndices)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6dfb5d0;
+  constexpr static std::size_t addrs = 0x6e3826c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RadeonRays::BvhCheck*>(),
@@ -384,7 +384,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::float3 (*)(::ArrayW<float_t>, uint32_t, uint32_t)>(&::UnityEngine::Rendering::RadeonRays::BvhCheck::GetVertex)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6dfb628;
+  constexpr static std::size_t addrs = 0x6e382c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -399,7 +399,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RadeonRays::BvhCheck_Triangle (*)(::ArrayW<float_t>, uint32_t, ::Unity::Mathematics::uint3)>(
     &::UnityEngine::Rendering::RadeonRays::BvhCheck::GetTriangle)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6dfb67c;
+  constexpr static std::size_t addrs = 0x6e38318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -414,7 +414,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RadeonRays::BvhCheck_VertexBuffersCPU* (*)(::UnityEngine::Rendering::RadeonRays::BvhCheck_VertexBuffers*)>(
     &::UnityEngine::Rendering::RadeonRays::BvhCheck::DownloadVertexData)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x6dfb244;
+  constexpr static std::size_t addrs = 0x6e37ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -430,7 +430,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::Rendering::RadeonRays::AABB* (*)(::UnityEngine::Rendering::RadeonRays::BvhCheck_VertexBuffersCPU*, ::ArrayW<::UnityEngine::Rendering::RadeonRays::BvhNode>,
                                                                 ::ArrayW<::Unity::Mathematics::uint4>, uint32_t, bool)>(&::UnityEngine::Rendering::RadeonRays::BvhCheck::GetAabb)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x6dfb3fc;
+  constexpr static std::size_t addrs = 0x6e38098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -448,7 +448,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RadeonRays::BvhCheck::*)()>(&::UnityEngine::Rendering::RadeonRays::BvhCheck::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6dfb718;
+  constexpr static std::size_t addrs = 0x6e383b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RadeonRays::BvhCheck*>(), { ".ctor", {}, {} })));

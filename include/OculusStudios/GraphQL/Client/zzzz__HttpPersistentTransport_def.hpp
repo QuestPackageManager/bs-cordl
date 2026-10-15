@@ -143,10 +143,10 @@ public:
 
   static inline ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c* New_ctor();
 
-  /// @brief Method <ExecuteAsync>b__18_0, addr 0x633f7fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <ExecuteAsync>b__18_0, addr 0x637c244, size 0x4, virtual false, abstract: false, final false
   inline void _ExecuteAsync_b__18_0();
 
-  /// @brief Method .ctor, addr 0x633f7f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x637c240, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c* getStaticF___9();
@@ -172,7 +172,7 @@ public:
   HttpPersistentTransport___c(HttpPersistentTransport___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21067 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21114 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -199,7 +199,7 @@ public:
 
   constexpr void __cordl_internal_set_responseStream(::OculusStudios::GraphQL::Client::GraphQLResponseStream* value);
 
-  /// @brief Method .ctor, addr 0x633f800, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x637c248, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -217,7 +217,7 @@ public:
   HttpPersistentTransport___c__DisplayClass20_0(HttpPersistentTransport___c__DisplayClass20_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21068 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21115 };
 
   /// @brief Field responseStream, offset: 0x10, size: 0x8, def value: None
   ::OculusStudios::GraphQL::Client::GraphQLResponseStream* ___responseStream;
@@ -247,7 +247,7 @@ public:
 
   static inline ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_1* New_ctor();
 
-  /// @brief Method <ReadFromStream>b__0, addr 0x633f808, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <ReadFromStream>b__0, addr 0x637c250, size 0x1c, virtual false, abstract: false, final false
   inline void _ReadFromStream_b__0();
 
   constexpr ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_0* const& __cordl_internal_get_CS$__8__locals1() const;
@@ -262,7 +262,7 @@ public:
 
   constexpr void __cordl_internal_set_reader(::System::IO::StreamReader* value);
 
-  /// @brief Method .ctor, addr 0x633f804, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x637c24c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -280,7 +280,7 @@ public:
   HttpPersistentTransport___c__DisplayClass20_1(HttpPersistentTransport___c__DisplayClass20_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21069 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21116 };
 
   /// @brief Field reader, offset: 0x10, size: 0x8, def value: None
   ::System::IO::StreamReader* ___reader;
@@ -315,7 +315,7 @@ public:
 
   static inline ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_2* New_ctor();
 
-  /// @brief Method <ReadFromStream>b__1, addr 0x633f828, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <ReadFromStream>b__1, addr 0x637c270, size 0x30, virtual false, abstract: false, final false
   inline void _ReadFromStream_b__1();
 
   constexpr ::OculusStudios::GraphQL::Client::HttpPersistentTransport___c__DisplayClass20_1* const& __cordl_internal_get_CS$__8__locals2() const;
@@ -330,7 +330,7 @@ public:
 
   constexpr void __cordl_internal_set_resp(::OculusStudios::GraphQL::Client::GraphQLResponse* value);
 
-  /// @brief Method .ctor, addr 0x633f824, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x637c26c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -348,7 +348,7 @@ public:
   HttpPersistentTransport___c__DisplayClass20_2(HttpPersistentTransport___c__DisplayClass20_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21070 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21117 };
 
   /// @brief Field resp, offset: 0x10, size: 0x8, def value: None
   ::OculusStudios::GraphQL::Client::GraphQLResponse* ___resp;
@@ -377,11 +377,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x633f914, size 0x384, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x637c35c, size 0x384, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x633fd80, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x637c7c8, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -406,7 +406,7 @@ public:
                                                         ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21071 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21118 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -463,11 +463,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x633fe00, size 0x13e8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x637c848, size 0x13e8, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x63411f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x637dc38, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -505,7 +505,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<int32_t> __u__4) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21072 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21119 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xd0 };
@@ -674,21 +674,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x633f72c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x637c174, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
   /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.HttpPersistentTransport::<ExecuteAsync>d__18))]
-  /// @brief Method ExecuteAsync, addr 0x633ec60, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method ExecuteAsync, addr 0x637b6a8, size 0xf4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>*
   ExecuteAsync(::OculusStudios::GraphQL::Client::GraphQLRequest* graphQLRequest, ::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor* MinimalMainThreadExecutor);
 
-  /// @brief Method GetHttpRequest, addr 0x633ed54, size 0x910, virtual false, abstract: false, final false
+  /// @brief Method GetHttpRequest, addr 0x637b79c, size 0x910, virtual false, abstract: false, final false
   inline ::System::Net::Http::HttpRequestMessage* GetHttpRequest(::OculusStudios::GraphQL::Client::GraphQLRequest* graphQLRequest);
 
   static inline ::OculusStudios::GraphQL::Client::HttpPersistentTransport* New_ctor(::OculusStudios::GraphQL::ClientInterface::IGraphQLClientEvents* logger);
 
   /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.HttpPersistentTransport::<ReadFromStream>d__20))]
-  /// @brief Method ReadFromStream, addr 0x633f664, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ReadFromStream, addr 0x637c0ac, size 0xc8, virtual false, abstract: false, final false
   inline void ReadFromStream(::OculusStudios::GraphQL::Client::GraphQLLiveQuery* liveQuery, ::OculusStudios::GraphQL::Client::GraphQLResponseStream* responseStream,
                              ::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor* MinimalMainThreadExecutor);
 
@@ -722,7 +722,7 @@ public:
 
   constexpr void __cordl_internal_set_logger(::OculusStudios::GraphQL::ClientInterface::IGraphQLClientEvents* value);
 
-  /// @brief Method .ctor, addr 0x633eb1c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x637b564, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::OculusStudios::GraphQL::ClientInterface::IGraphQLClientEvents* logger);
 
   static inline int32_t getStaticF_HeartbeatCount();
@@ -730,14 +730,14 @@ public:
   static inline ::StringW getStaticF_HeartbeatInterval();
 
   /// [CompilerGenerated]
-  /// @brief Method get_AccessToken, addr 0x633eaf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AccessToken, addr 0x637b53c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AccessToken();
 
-  /// @brief Method get_CustomAppHeaders, addr 0x633eb04, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_CustomAppHeaders, addr 0x637b54c, size 0xc, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* get_CustomAppHeaders();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Endpoint, addr 0x633eae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Endpoint, addr 0x637b52c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Endpoint();
 
   /// @brief Convert to "::OculusStudios::GraphQL::Client::IGraphQLClientTransport"
@@ -751,14 +751,14 @@ public:
   static inline void setStaticF_HeartbeatInterval(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_AccessToken, addr 0x633eafc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AccessToken, addr 0x637b544, size 0x8, virtual false, abstract: false, final false
   inline void set_AccessToken(::StringW value);
 
-  /// @brief Method set_CustomAppHeaders, addr 0x633eb10, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_CustomAppHeaders, addr 0x637b558, size 0xc, virtual true, abstract: false, final true
   inline void set_CustomAppHeaders(::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Endpoint, addr 0x633eaec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Endpoint, addr 0x637b534, size 0x8, virtual false, abstract: false, final false
   inline void set_Endpoint(::StringW value);
 
 protected:
@@ -779,7 +779,7 @@ public:
   static constexpr int32_t BUFF_SIZE{ static_cast<int32_t>(0x400) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21073 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21120 };
 
   /// [CompilerGenerated]
   /// @brief Field <Endpoint>k__BackingField, offset: 0x10, size: 0x8, def value: None

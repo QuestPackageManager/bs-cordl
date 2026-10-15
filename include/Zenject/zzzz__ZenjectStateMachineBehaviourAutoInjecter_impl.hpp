@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ZenjectStateMachineBehaviourAutoInjecter::*)(::Zenject::DiContainer*)>(
     &::Zenject::ZenjectStateMachineBehaviourAutoInjecter::Construct)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x733b3c4;
+  constexpr static std::size_t addrs = 0x7378428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ZenjectStateMachineBehaviourAutoInjecter::*)()>(&::Zenject::ZenjectStateMachineBehaviourAutoInjecter::Start)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x733b42c;
+  constexpr static std::size_t addrs = 0x7378490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ZenjectStateMachineBehaviourAutoInjecter*>(), { "Start", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ZenjectStateMachineBehaviourAutoInjecter::*)()>(&::Zenject::ZenjectStateMachineBehaviourAutoInjecter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x733b51c;
+  constexpr static std::size_t addrs = 0x7378580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ZenjectStateMachineBehaviourAutoInjecter*>(), { ".ctor", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*, ::ArrayW<::System::Object*>)>(&::Zenject::ZenjectStateMachineBehaviourAutoInjecter::__zenInjectMethod0)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x733b520;
+  constexpr static std::size_t addrs = 0x7378584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::ZenjectStateMachineBehaviourAutoInjecter::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x733b618;
+  constexpr static std::size_t addrs = 0x737867c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

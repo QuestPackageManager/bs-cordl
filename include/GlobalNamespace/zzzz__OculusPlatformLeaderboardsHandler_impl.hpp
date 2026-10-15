@@ -4,7 +4,6 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OculusPlatformLeaderboardsHandler_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiersModelSO_def.hpp"
 #include "GlobalNamespace/zzzz__HMAsyncRequest_def.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardIdsModel_def.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardScoreUploader_def.hpp"
@@ -20,25 +19,25 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformLeaderboardsHandler___c::*)()>(&::GlobalNamespace::OculusPlatformLeaderboardsHandler___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39e5654;
+  constexpr static std::size_t addrs = 0x3a0ee0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformLeaderboardsHandler___c*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformLeaderboardsHandler___c.__ctor_b__4_0
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformLeaderboardsHandler___c.__ctor_b__3_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformLeaderboardsHandler___c::*)(
-    ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*>*)>(&::GlobalNamespace::OculusPlatformLeaderboardsHandler___c::__ctor_b__4_0)> {
+    ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*>*)>(&::GlobalNamespace::OculusPlatformLeaderboardsHandler___c::__ctor_b__3_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39e5658;
+  constexpr static std::size_t addrs = 0x3a0ee10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformLeaderboardsHandler___c*>(),
-                                                             { "<.ctor>b__4_0", {}, { ::i2c::type_of<::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*>*>() } })));
+                                                             { "<.ctor>b__3_0", {}, { ::i2c::type_of<::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*>*>() } })));
     return ___internal_method;
   }
 };
@@ -49,22 +48,22 @@ inline void GlobalNamespace::OculusPlatformLeaderboardsHandler___c::setStaticF__
 inline ::GlobalNamespace::OculusPlatformLeaderboardsHandler___c* GlobalNamespace::OculusPlatformLeaderboardsHandler___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::GlobalNamespace::OculusPlatformLeaderboardsHandler___c*, "<>9", ::GlobalNamespace::OculusPlatformLeaderboardsHandler___c*>();
 }
-inline void GlobalNamespace::OculusPlatformLeaderboardsHandler___c::setStaticF___9__4_0(::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::LeaderboardEntryList*>* value) {
-  ::cordl_internals::setStaticField<::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::LeaderboardEntryList*>*, "<>9__4_0", ::GlobalNamespace::OculusPlatformLeaderboardsHandler___c*>(
+inline void GlobalNamespace::OculusPlatformLeaderboardsHandler___c::setStaticF___9__3_0(::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::LeaderboardEntryList*>* value) {
+  ::cordl_internals::setStaticField<::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::LeaderboardEntryList*>*, "<>9__3_0", ::GlobalNamespace::OculusPlatformLeaderboardsHandler___c*>(
       std::forward<::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::LeaderboardEntryList*>*>(value));
 }
-inline ::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::LeaderboardEntryList*>* GlobalNamespace::OculusPlatformLeaderboardsHandler___c::getStaticF___9__4_0() {
-  return ::cordl_internals::getStaticField<::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::LeaderboardEntryList*>*, "<>9__4_0",
+inline ::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::LeaderboardEntryList*>* GlobalNamespace::OculusPlatformLeaderboardsHandler___c::getStaticF___9__3_0() {
+  return ::cordl_internals::getStaticField<::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::LeaderboardEntryList*>*, "<>9__3_0",
                                            ::GlobalNamespace::OculusPlatformLeaderboardsHandler___c*>();
 }
 inline void GlobalNamespace::OculusPlatformLeaderboardsHandler___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformLeaderboardsHandler___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::OculusPlatformLeaderboardsHandler___c::__ctor_b__4_0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*>* _) {
+inline void GlobalNamespace::OculusPlatformLeaderboardsHandler___c::__ctor_b__3_0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*>* _) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformLeaderboardsHandler___c*>(),
-                                                           { "<.ctor>b__4_0", {}, { ::i2c::type_of<::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*>*>() } })));
+                                                           { "<.ctor>b__3_0", {}, { ::i2c::type_of<::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, _);
 }
 inline ::GlobalNamespace::OculusPlatformLeaderboardsHandler___c* GlobalNamespace::OculusPlatformLeaderboardsHandler___c::New_ctor() {
@@ -72,80 +71,164 @@ inline ::GlobalNamespace::OculusPlatformLeaderboardsHandler___c* GlobalNamespace
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OculusPlatformLeaderboardsHandler___c::OculusPlatformLeaderboardsHandler___c() {}
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass5_0._ctor
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass4_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass5_0::*)()>(
-    &::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass5_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass4_0::*)()>(
+    &::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass4_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39e50a8;
+  constexpr static std::size_t addrs = 0x3a0e808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass5_0*>(), { ".ctor", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass4_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass5_0._AddOculusRequest_b__0
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass4_0._AddOculusRequest_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass5_0::*)(::GlobalNamespace::HMAsyncRequest*)>(
-    &::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass5_0::_AddOculusRequest_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass4_0::*)(::GlobalNamespace::HMAsyncRequest*)>(
+    &::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass4_0::_AddOculusRequest_b__0)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x39e565c;
+  constexpr static std::size_t addrs = 0x3a0ee14;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass5_0*>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass4_0*>(),
                                                                                            { "<AddOculusRequest>b__0", {}, { ::i2c::type_of<::GlobalNamespace::HMAsyncRequest*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::OculusPlatformLeaderboardsHandler*& GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass5_0::__cordl_internal_get___4__this() {
+constexpr ::GlobalNamespace::OculusPlatformLeaderboardsHandler*& GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass4_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::GlobalNamespace::OculusPlatformLeaderboardsHandler* const& GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass5_0::__cordl_internal_get___4__this() const {
+constexpr ::GlobalNamespace::OculusPlatformLeaderboardsHandler* const& GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass4_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass5_0::__cordl_internal_set___4__this(::GlobalNamespace::OculusPlatformLeaderboardsHandler* value) {
+constexpr void GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass4_0::__cordl_internal_set___4__this(::GlobalNamespace::OculusPlatformLeaderboardsHandler* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-constexpr ::Oculus::Platform::Request*& GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass5_0::__cordl_internal_get_oculusRequest() {
+constexpr ::Oculus::Platform::Request*& GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass4_0::__cordl_internal_get_oculusRequest() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___oculusRequest;
 }
-constexpr ::Oculus::Platform::Request* const& GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass5_0::__cordl_internal_get_oculusRequest() const {
+constexpr ::Oculus::Platform::Request* const& GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass4_0::__cordl_internal_get_oculusRequest() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___oculusRequest;
 }
-constexpr void GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass5_0::__cordl_internal_set_oculusRequest(::Oculus::Platform::Request* value) {
+constexpr void GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass4_0::__cordl_internal_set_oculusRequest(::Oculus::Platform::Request* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___oculusRequest = value;
 }
-inline void GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass5_0::_ctor() {
+inline void GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass4_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass5_0*>(), { ".ctor", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass4_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass5_0::_AddOculusRequest_b__0(::GlobalNamespace::HMAsyncRequest* _) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass5_0*>(),
+inline void GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass4_0::_AddOculusRequest_b__0(::GlobalNamespace::HMAsyncRequest* _) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass4_0*>(),
                                                                                          { "<AddOculusRequest>b__0", {}, { ::i2c::type_of<::GlobalNamespace::HMAsyncRequest*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, _);
 }
-inline ::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass5_0* GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass5_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass5_0*>());
+inline ::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass4_0* GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass4_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass4_0*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass5_0::OculusPlatformLeaderboardsHandler___c__DisplayClass5_0() {}
+constexpr ::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass4_0::OculusPlatformLeaderboardsHandler___c__DisplayClass4_0() {}
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass6_0._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass6_0::*)()>(
+    &::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass6_0::_ctor)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3a0eb50;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass6_0*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass6_0._GetScores_g__Callback_0
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass6_0::*)(
+    ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*>*)>(&::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass6_0::_GetScores_g__Callback_0)> {
+  constexpr static std::size_t size = 0x304;
+  constexpr static std::size_t addrs = 0x3a0ee7c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass6_0*>(),
+                                                { "<GetScores>g__Callback|0", {}, { ::i2c::type_of<::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*>*>() } })));
+    return ___internal_method;
+  }
+};
+constexpr ::GlobalNamespace::OculusPlatformLeaderboardsHandler*& GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass6_0::__cordl_internal_get___4__this() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr ::GlobalNamespace::OculusPlatformLeaderboardsHandler* const& GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass6_0::__cordl_internal_get___4__this() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr void GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass6_0::__cordl_internal_set___4__this(::GlobalNamespace::OculusPlatformLeaderboardsHandler* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____4__this = value;
+}
+constexpr ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler*& GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass6_0::__cordl_internal_get_completionHandler() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___completionHandler;
+}
+constexpr ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler* const&
+GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass6_0::__cordl_internal_get_completionHandler() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___completionHandler;
+}
+constexpr void
+GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass6_0::__cordl_internal_set_completionHandler(::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___completionHandler = value;
+}
+constexpr uint64_t& GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass6_0::__cordl_internal_get_referencePlayerId() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___referencePlayerId;
+}
+constexpr uint64_t const& GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass6_0::__cordl_internal_get_referencePlayerId() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___referencePlayerId;
+}
+constexpr void GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass6_0::__cordl_internal_set_referencePlayerId(uint64_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___referencePlayerId = value;
+}
+inline void GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass6_0::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass6_0*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void
+GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass6_0::_GetScores_g__Callback_0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*>* message) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass6_0*>(),
+                                              { "<GetScores>g__Callback|0", {}, { ::i2c::type_of<::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, message);
+}
+inline ::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass6_0* GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass6_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass6_0*>());
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass6_0::OculusPlatformLeaderboardsHandler___c__DisplayClass6_0() {}
 //  Writing Method size for method: ::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass7_0._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass7_0::*)()>(
     &::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass7_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39e53cc;
+  constexpr static std::size_t addrs = 0x3a0edb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,18 +236,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass7_0._GetScores_g__Callback_0
+//  Writing Method size for method: ::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass7_0._UploadScore_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass7_0::*)(
-    ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*>*)>(&::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass7_0::_GetScores_g__Callback_0)> {
-  constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x39e56c4;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass7_0::*)(::Oculus::Platform::Message_1<bool>*)>(
+    &::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass7_0::_UploadScore_b__0)> {
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x3a0f18c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass7_0*>(),
-                                                { "<GetScores>g__Callback|0", {}, { ::i2c::type_of<::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*>*>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass7_0*>(),
+                                                                                           { "<UploadScore>b__0", {}, { ::i2c::type_of<::Oculus::Platform::Message_1<bool>*>() } })));
     return ___internal_method;
   }
 };
@@ -180,125 +262,42 @@ constexpr void GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayCl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-constexpr ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler*& GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass7_0::__cordl_internal_get_completionHandler() {
+constexpr ::GlobalNamespace::PlatformLeaderboardsModel_UploadScoreCompletionHandler*&
+GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass7_0::__cordl_internal_get_completionHandler() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___completionHandler;
 }
-constexpr ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler* const&
+constexpr ::GlobalNamespace::PlatformLeaderboardsModel_UploadScoreCompletionHandler* const&
 GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass7_0::__cordl_internal_get_completionHandler() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___completionHandler;
 }
 constexpr void
-GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass7_0::__cordl_internal_set_completionHandler(::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler* value) {
+GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass7_0::__cordl_internal_set_completionHandler(::GlobalNamespace::PlatformLeaderboardsModel_UploadScoreCompletionHandler* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___completionHandler = value;
-}
-constexpr uint64_t& GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass7_0::__cordl_internal_get_referencePlayerId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___referencePlayerId;
-}
-constexpr uint64_t const& GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass7_0::__cordl_internal_get_referencePlayerId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___referencePlayerId;
-}
-constexpr void GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass7_0::__cordl_internal_set_referencePlayerId(uint64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___referencePlayerId = value;
 }
 inline void GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass7_0::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass7_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void
-GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass7_0::_GetScores_g__Callback_0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*>* message) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass7_0*>(),
-                                              { "<GetScores>g__Callback|0", {}, { ::i2c::type_of<::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*>*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, message);
+inline void GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass7_0::_UploadScore_b__0(::Oculus::Platform::Message_1<bool>* messsage) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass7_0*>(),
+                                                                                         { "<UploadScore>b__0", {}, { ::i2c::type_of<::Oculus::Platform::Message_1<bool>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, messsage);
 }
 inline ::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass7_0* GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass7_0::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass7_0*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass7_0::OculusPlatformLeaderboardsHandler___c__DisplayClass7_0() {}
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass8_0._ctor
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass8_0::*)()>(
-    &::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass8_0::_ctor)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39e55fc;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass8_0*>(), { ".ctor", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass8_0._UploadScore_b__0
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass8_0::*)(::Oculus::Platform::Message_1<bool>*)>(
-    &::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass8_0::_UploadScore_b__0)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x39e59d4;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass8_0*>(),
-                                                                                           { "<UploadScore>b__0", {}, { ::i2c::type_of<::Oculus::Platform::Message_1<bool>*>() } })));
-    return ___internal_method;
-  }
-};
-constexpr ::GlobalNamespace::OculusPlatformLeaderboardsHandler*& GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass8_0::__cordl_internal_get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr ::GlobalNamespace::OculusPlatformLeaderboardsHandler* const& GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass8_0::__cordl_internal_get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr void GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass8_0::__cordl_internal_set___4__this(::GlobalNamespace::OculusPlatformLeaderboardsHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____4__this = value;
-}
-constexpr ::GlobalNamespace::PlatformLeaderboardsModel_UploadScoreCompletionHandler*&
-GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass8_0::__cordl_internal_get_completionHandler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___completionHandler;
-}
-constexpr ::GlobalNamespace::PlatformLeaderboardsModel_UploadScoreCompletionHandler* const&
-GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass8_0::__cordl_internal_get_completionHandler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___completionHandler;
-}
-constexpr void
-GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass8_0::__cordl_internal_set_completionHandler(::GlobalNamespace::PlatformLeaderboardsModel_UploadScoreCompletionHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___completionHandler = value;
-}
-inline void GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass8_0::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass8_0*>(), { ".ctor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline void GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass8_0::_UploadScore_b__0(::Oculus::Platform::Message_1<bool>* messsage) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass8_0*>(),
-                                                                                         { "<UploadScore>b__0", {}, { ::i2c::type_of<::Oculus::Platform::Message_1<bool>*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, messsage);
-}
-inline ::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass8_0* GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass8_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass8_0*>());
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::OculusPlatformLeaderboardsHandler___c__DisplayClass8_0::OculusPlatformLeaderboardsHandler___c__DisplayClass8_0() {}
 //  Writing Method size for method: ::GlobalNamespace::OculusPlatformLeaderboardsHandler._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformLeaderboardsHandler::*)()>(&::GlobalNamespace::OculusPlatformLeaderboardsHandler::_ctor)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x39e4e8c;
+  constexpr static std::size_t addrs = 0x3a0e5ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformLeaderboardsHandler*>(), { ".ctor", {}, {} })));
@@ -311,7 +310,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusPlatformLeaderboardsHandler::*)(::Oculus::Platform::Request*, ::GlobalNamespace::HMAsyncRequest*)>(
     &::GlobalNamespace::OculusPlatformLeaderboardsHandler::AddOculusRequest)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x39e4fac;
+  constexpr static std::size_t addrs = 0x3a0e70c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -326,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OculusPlatformLeaderboardsHandler::*)(::Oculus::Platform::Message*)>(
     &::GlobalNamespace::OculusPlatformLeaderboardsHandler::CheckMessageForValidRequest)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x39e50ac;
+  constexpr static std::size_t addrs = 0x3a0e80c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformLeaderboardsHandler*>(),
@@ -341,8 +340,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::HMAsyn
     ::GlobalNamespace::OculusPlatformLeaderboardsHandler::*)(::by_ref<::GlobalNamespace::BeatmapKey const>, int32_t, int32_t, ::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope, uint64_t,
                                                              ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler*)>(
     &::GlobalNamespace::OculusPlatformLeaderboardsHandler::GetScores)> {
-  constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x39e5150;
+  constexpr static std::size_t size = 0x2a0;
+  constexpr static std::size_t addrs = 0x3a0e8b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformLeaderboardsHandler*>(),
@@ -356,8 +355,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::HMAsyncRequest* (
     ::GlobalNamespace::OculusPlatformLeaderboardsHandler::*)(::GlobalNamespace::LeaderboardScoreUploader_ScoreData*, ::GlobalNamespace::PlatformLeaderboardsModel_UploadScoreCompletionHandler*)>(
     &::GlobalNamespace::OculusPlatformLeaderboardsHandler::UploadScore)> {
-  constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x39e53d0;
+  constexpr static std::size_t size = 0x260;
+  constexpr static std::size_t addrs = 0x3a0eb54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformLeaderboardsHandler*>(),
@@ -388,18 +387,6 @@ constexpr ::System::Collections::Generic::HashSet_1<uint64_t>* const& GlobalName
 constexpr void GlobalNamespace::OculusPlatformLeaderboardsHandler::__cordl_internal_set__oculusRequestIds(::System::Collections::Generic::HashSet_1<uint64_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____oculusRequestIds = value;
-}
-constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO>& GlobalNamespace::OculusPlatformLeaderboardsHandler::__cordl_internal_get__gameplayModifiersModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____gameplayModifiersModel;
-}
-constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> const& GlobalNamespace::OculusPlatformLeaderboardsHandler::__cordl_internal_get__gameplayModifiersModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____gameplayModifiersModel;
-}
-constexpr void GlobalNamespace::OculusPlatformLeaderboardsHandler::__cordl_internal_set__gameplayModifiersModel(::UnityW<::GlobalNamespace::GameplayModifiersModelSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____gameplayModifiersModel = value;
 }
 inline void GlobalNamespace::OculusPlatformLeaderboardsHandler::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusPlatformLeaderboardsHandler*>(), { ".ctor", {}, {} })));

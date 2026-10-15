@@ -64,48 +64,48 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::MaterialDefinition>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::MaterialDefinition>*();
 
-  /// @brief Method BuildPropertyBlock, addr 0x7105dd8, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method BuildPropertyBlock, addr 0x7142d0c, size 0x298, virtual false, abstract: false, final false
   inline ::UnityEngine::MaterialPropertyBlock* BuildPropertyBlock();
 
-  /// @brief Method Equals, addr 0x7106294, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x71431c8, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x7106280, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x71431b4, size 0x14, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::MaterialDefinition other);
 
-  /// @brief Method FromMaterial, addr 0x7105ce4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FromMaterial, addr 0x7142c18, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MaterialDefinition FromMaterial(::UnityEngine::Material* m);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIToolkitAuthoringModule" })]
-  /// @brief Method FromObject, addr 0x7105cec, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method FromObject, addr 0x7142c20, size 0xec, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MaterialDefinition FromObject(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x7106314, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x7143248, size 0x158, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x71065b8, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x71434ec, size 0x1d0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method .ctor, addr 0x7105c4c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7142b80, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::MaterialDefinition other);
 
-  /// @brief Method get_material, addr 0x7105c3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_material, addr 0x7142b70, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_material();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::MaterialDefinition>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::MaterialDefinition>* i___System__IEquatable_1___UnityEngine__UIElements__MaterialDefinition_();
 
-  /// @brief Method op_Equality, addr 0x7106090, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x7142fc4, size 0x19c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::MaterialDefinition lhs, ::UnityEngine::UIElements::MaterialDefinition rhs);
 
-  /// @brief Method op_Implicit, addr 0x7106278, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x71431ac, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MaterialDefinition op_Implicit___UnityEngine__UIElements__MaterialDefinition(::UnityEngine::Material* m);
 
-  /// @brief Method op_Inequality, addr 0x7106260, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x7143194, size 0x18, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::MaterialDefinition lhs, ::UnityEngine::UIElements::MaterialDefinition rhs);
 
-  /// @brief Method set_material, addr 0x7105c44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_material, addr 0x7142b78, size 0x8, virtual false, abstract: false, final false
   inline void set_material(::UnityEngine::Material* value);
 
   // Ctor Parameters []
@@ -158,12 +158,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x7106a44, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x7143978, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetValue(::by_ref<::UnityEngine::UIElements::MaterialDefinition> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_MaterialDefinition_MaterialProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x7106a4c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x7143980, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::MaterialDefinition> container, ::UnityEngine::Material* value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -178,15 +178,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x71069d0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7143904, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x7106a3c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x7143970, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x7106a34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x7143968, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -237,7 +237,7 @@ public:
 
   static inline ::UnityEngine::UIElements::MaterialDefinition_PropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x7106908, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x714383c, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

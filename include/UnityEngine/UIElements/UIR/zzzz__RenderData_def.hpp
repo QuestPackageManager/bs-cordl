@@ -214,27 +214,27 @@ public:
   /// @brief Field worldTransformScaleZero, offset 0x9a, size 0x1
   __declspec(property(get = __cordl_internal_get_worldTransformScaleZero, put = __cordl_internal_set_worldTransformScaleZero)) bool worldTransformScaleZero;
 
-  /// @brief Method AllocatesID, addr 0x71763ac, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method AllocatesID, addr 0x71b32e0, size 0x70, virtual false, abstract: false, final false
   static inline bool AllocatesID(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method GetLocalClippingRect, addr 0x7176ee4, size 0x62c, virtual false, abstract: false, final false
+  /// @brief Method GetLocalClippingRect, addr 0x71b3e18, size 0x62c, virtual false, abstract: false, final false
   static inline void GetLocalClippingRect(::UnityEngine::UIElements::VisualElement* owner, ::by_ref<::UnityEngine::Rect> localRect);
 
-  /// @brief Method InheritsID, addr 0x717641c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method InheritsID, addr 0x71b3350, size 0x6c, virtual false, abstract: false, final false
   static inline bool InheritsID(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method Init, addr 0x7176488, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x71b33bc, size 0x288, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method IntersectClipRects, addr 0x7177510, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method IntersectClipRects, addr 0x71b4444, size 0xd4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect IntersectClipRects(::UnityEngine::Rect rect, ::UnityEngine::Rect parentRect);
 
   static inline ::UnityEngine::UIElements::UIR::RenderData* New_ctor();
 
-  /// @brief Method Reset, addr 0x7176740, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x71b3674, size 0x28, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method UpdateClippingRect, addr 0x71767f8, size 0x680, virtual false, abstract: false, final false
+  /// @brief Method UpdateClippingRect, addr 0x71b372c, size 0x680, virtual false, abstract: false, final false
   inline void UpdateClippingRect();
 
   constexpr float_t const& __cordl_internal_get_backgroundAlpha() const;
@@ -519,46 +519,46 @@ public:
 
   constexpr void __cordl_internal_set_worldTransformScaleZero(bool value);
 
-  /// @brief Method .ctor, addr 0x71775e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71b4518, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clippingRect, addr 0x71767bc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_clippingRect, addr 0x71b36f0, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_clippingRect();
 
-  /// @brief Method get_clippingRectIsInfinite, addr 0x7176eb4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_clippingRectIsInfinite, addr 0x71b3de8, size 0x30, virtual false, abstract: false, final false
   inline bool get_clippingRectIsInfinite();
 
-  /// @brief Method get_clippingRectMinusGroup, addr 0x7176e78, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_clippingRectMinusGroup, addr 0x71b3dac, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_clippingRectMinusGroup();
 
-  /// @brief Method get_hasExtraData, addr 0x7176780, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_hasExtraData, addr 0x71b36b4, size 0xc, virtual false, abstract: false, final false
   inline bool get_hasExtraData();
 
-  /// @brief Method get_hasExtraMeshes, addr 0x717678c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_hasExtraMeshes, addr 0x71b36c0, size 0xc, virtual false, abstract: false, final false
   inline bool get_hasExtraMeshes();
 
-  /// @brief Method get_isClippingRectDirty, addr 0x71767b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isClippingRectDirty, addr 0x71b36e4, size 0xc, virtual false, abstract: false, final false
   inline bool get_isClippingRectDirty();
 
-  /// @brief Method get_isGroupTransform, addr 0x7176768, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isGroupTransform, addr 0x71b369c, size 0xc, virtual false, abstract: false, final false
   inline bool get_isGroupTransform();
 
-  /// @brief Method get_isIgnoringDynamicColorHint, addr 0x7176774, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isIgnoringDynamicColorHint, addr 0x71b36a8, size 0xc, virtual false, abstract: false, final false
   inline bool get_isIgnoringDynamicColorHint();
 
-  /// @brief Method get_isNestedRenderTreeRoot, addr 0x71767a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isNestedRenderTreeRoot, addr 0x71b36d8, size 0xc, virtual false, abstract: false, final false
   inline bool get_isNestedRenderTreeRoot();
 
-  /// @brief Method get_isSubTreeQuad, addr 0x7176798, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isSubTreeQuad, addr 0x71b36cc, size 0xc, virtual false, abstract: false, final false
   inline bool get_isSubTreeQuad();
 
-  /// @brief Method set_clippingRect, addr 0x7176710, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_clippingRect, addr 0x71b3644, size 0x14, virtual false, abstract: false, final false
   inline void set_clippingRect(::UnityEngine::Rect value);
 
-  /// @brief Method set_clippingRectIsInfinite, addr 0x7176738, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_clippingRectIsInfinite, addr 0x71b366c, size 0x8, virtual false, abstract: false, final false
   inline void set_clippingRectIsInfinite(bool value);
 
-  /// @brief Method set_clippingRectMinusGroup, addr 0x7176724, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_clippingRectMinusGroup, addr 0x71b3658, size 0x14, virtual false, abstract: false, final false
   inline void set_clippingRectMinusGroup(::UnityEngine::Rect value);
 
 protected:

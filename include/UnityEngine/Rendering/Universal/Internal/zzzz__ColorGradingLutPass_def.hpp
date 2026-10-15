@@ -158,7 +158,7 @@ public:
 
   constexpr void __cordl_internal_set_postProcessingData(::UnityEngine::Rendering::Universal::UniversalPostProcessingData* value);
 
-  /// @brief Method .ctor, addr 0x6d2034c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d5cfc8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -176,7 +176,7 @@ public:
   ColorGradingLutPass_PassData(ColorGradingLutPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13303 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13310 };
 
   /// @brief Field cameraData, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::UniversalCameraData* ___cameraData;
@@ -404,7 +404,7 @@ public:
   ColorGradingLutPass_ShaderConstants(ColorGradingLutPass_ShaderConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13304 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13311 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -430,10 +430,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass___c* New_ctor();
 
-  /// @brief Method <Render>b__12_0, addr 0x6d208c4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__12_0, addr 0x6d5d540, size 0x8c, virtual false, abstract: false, final false
   inline void _Render_b__12_0(::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x6d208c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d5d53c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass___c* getStaticF___9();
@@ -462,7 +462,7 @@ public:
   ColorGradingLutPass___c(ColorGradingLutPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13305 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13312 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -498,36 +498,36 @@ public:
   /// @brief Field m_LutBuilderLdr, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_m_LutBuilderLdr, put = __cordl_internal_set_m_LutBuilderLdr)) ::UnityW<::UnityEngine::Material> m_LutBuilderLdr;
 
-  /// @brief Method Cleanup, addr 0x6d202e0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x6d5cf5c, size 0x6c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method ConfigureDescriptor, addr 0x6d1e990, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ConfigureDescriptor, addr 0x6d5b60c, size 0x50, virtual false, abstract: false, final false
   inline void ConfigureDescriptor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::PostProcessingData const> postProcessingData,
                                   ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor, ::by_ref<::UnityEngine::FilterMode> filterMode);
 
-  /// @brief Method ConfigureDescriptor, addr 0x6d1e9e0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ConfigureDescriptor, addr 0x6d5b65c, size 0x90, virtual false, abstract: false, final false
   inline void ConfigureDescriptor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalPostProcessingData* const> postProcessingData,
                                   ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor, ::by_ref<::UnityEngine::FilterMode> filterMode);
 
   /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
-  /// @brief Method Execute, addr 0x6d1e6a0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x6d5b31c, size 0x4, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecutePass, addr 0x6d1ea70, size 0x12a0, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x6d5b6ec, size 0x12a0, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass_PassData* passData,
                                  ::UnityEngine::Rendering::RTHandle* internalLutTarget);
 
   static inline ::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt,
                                                                                              ::UnityEngine::Rendering::Universal::PostProcessData* data);
 
-  /// @brief Method RecordRenderGraph, addr 0x6d2023c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x6d5ceb8, size 0xa4, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method Render, addr 0x6d1fd10, size 0x52c, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6d5c98c, size 0x52c, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                      ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> internalColorLut);
 
-  /// @brief Method Setup, addr 0x6d1e98c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6d5b608, size 0x4, virtual false, abstract: false, final false
   inline void Setup(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RTHandle* const> internalLut);
 
   constexpr bool const& __cordl_internal_get_m_AllowColorGradingACESHDR() const;
@@ -561,10 +561,10 @@ public:
   constexpr void __cordl_internal_set_m_LutBuilderLdr(::UnityW<::UnityEngine::Material> value);
 
   /// [CompilerGenerated]
-  /// @brief Method <.ctor>g__Load|6_0, addr 0x6d1e898, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>g__Load|6_0, addr 0x6d5b514, size 0xf4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> __ctor_g__Load_6_0(::UnityEngine::Shader* shader);
 
-  /// @brief Method .ctor, addr 0x6d1e6a4, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d5b320, size 0x1f4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Rendering::Universal::PostProcessData* data);
 
 protected:
@@ -582,7 +582,7 @@ public:
   ColorGradingLutPass(ColorGradingLutPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13306 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13313 };
 
   /// @brief Field m_LutBuilderLdr, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___m_LutBuilderLdr;

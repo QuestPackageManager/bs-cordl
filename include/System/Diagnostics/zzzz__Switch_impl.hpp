@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Diagnostics::Switch::*)()>(&::System::Diagnostics::Switch::get_IntializedLock)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x67bf868;
+  constexpr static std::size_t addrs = 0x67fc4ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::Switch*>(), { "get_IntializedLock", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::Switch::*)(::StringW, ::StringW)>(&::System::Diagnostics::Switch::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x67bf158;
+  constexpr static std::size_t addrs = 0x67fbd9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::Switch::*)(::StringW, ::StringW, ::StringW)>(&::System::Diagnostics::Switch::_ctor)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x67bf51c;
+  constexpr static std::size_t addrs = 0x67fc160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Diagnostics::Switch::_pruneCachedSwitches)> {
   constexpr static std::size_t size = 0x50c;
-  constexpr static std::size_t addrs = 0x67bf8d4;
+  constexpr static std::size_t addrs = 0x67fc518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::Switch*>(), { "_pruneCachedSwitches", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Diagnostics::Switch::*)()>(&::System::Diagnostics::Switch::get_SwitchSetting)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x67bf754;
+  constexpr static std::size_t addrs = 0x67fc398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::Switch*>(), { "get_SwitchSetting", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::Switch::*)(int32_t)>(&::System::Diagnostics::Switch::set_SwitchSetting)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x67bf240;
+  constexpr static std::size_t addrs = 0x67fbe84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Diagnostics::Switch::*)()>(&::System::Diagnostics::Switch::get_Value)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x67bf224;
+  constexpr static std::size_t addrs = 0x67fbe68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::Switch*>(), { "get_Value", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::Switch::*)()>(&::System::Diagnostics::Switch::Initialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67bff04;
+  constexpr static std::size_t addrs = 0x67fcb48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::Switch*>(), { "Initialize", {}, {} })));
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Diagnostics::Switch::*)()>(&::System::Diagnostics::Switch::InitializeWithStatus)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x67bfde0;
+  constexpr static std::size_t addrs = 0x67fca24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::Switch*>(), { "InitializeWithStatus", {}, {} })));
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Diagnostics::Switch::*)()>(&::System::Diagnostics::Switch::InitializeConfigSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67bff08;
+  constexpr static std::size_t addrs = 0x67fcb4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::Switch*>(), { "InitializeConfigSettings", {}, {} })));
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::Switch::*)()>(&::System::Diagnostics::Switch::OnSwitchSettingChanged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67bff10;
+  constexpr static std::size_t addrs = 0x67fcb54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Diagnostics::Switch*>(), { ::i2c::class_of<::System::Diagnostics::Switch*>(), 4 }));
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::Switch::*)()>(&::System::Diagnostics::Switch::OnValueChanged)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x67bf350;
+  constexpr static std::size_t addrs = 0x67fbf94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Diagnostics::Switch*>(), { ::i2c::class_of<::System::Diagnostics::Switch*>(), 5 }));

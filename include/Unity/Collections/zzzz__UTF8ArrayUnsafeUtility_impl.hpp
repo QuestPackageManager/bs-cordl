@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collection
                                                                                                                          ::Unity::Collections::Unicode_Rune, ::Unity::Collections::ConversionError)>(
     &::Unity::Collections::UTF8ArrayUnsafeUtility_Comparison::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x68f2030;
+  constexpr static std::size_t addrs = 0x692ecac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::CopyError (*)(uint8_t*, ::by_ref<int32_t>, int32_t, char16_t*, int32_t)>(
     &::Unity::Collections::UTF8ArrayUnsafeUtility::Copy)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68ecfb0;
+  constexpr static std::size_t addrs = 0x6929c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::CopyError (*)(uint8_t*, ::by_ref<uint16_t>, uint16_t, char16_t*, int32_t)>(
     &::Unity::Collections::UTF8ArrayUnsafeUtility::Copy)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x68f1b94;
+  constexpr static std::size_t addrs = 0x692e810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::CopyError (*)(uint8_t*, ::by_ref<int32_t>, int32_t, uint8_t*, int32_t)>(
     &::Unity::Collections::UTF8ArrayUnsafeUtility::Copy)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x68f1bdc;
+  constexpr static std::size_t addrs = 0x692e858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::CopyError (*)(uint8_t*, ::by_ref<uint16_t>, uint16_t, uint8_t*, uint16_t)>(
     &::Unity::Collections::UTF8ArrayUnsafeUtility::Copy)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x68f1cf0;
+  constexpr static std::size_t addrs = 0x692e96c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::CopyError (*)(char16_t*, ::by_ref<int32_t>, int32_t, uint8_t*, int32_t)>(
     &::Unity::Collections::UTF8ArrayUnsafeUtility::Copy)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68f1d34;
+  constexpr static std::size_t addrs = 0x692e9b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::CopyError (*)(char16_t*, ::by_ref<uint16_t>, uint16_t, uint8_t*, uint16_t)>(
     &::Unity::Collections::UTF8ArrayUnsafeUtility::Copy)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x68f1dd8;
+  constexpr static std::size_t addrs = 0x692ea54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FormatError (*)(uint8_t*, ::by_ref<int32_t>, int32_t, uint8_t*, int32_t)>(
     &::Unity::Collections::UTF8ArrayUnsafeUtility::AppendUTF8Bytes)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x68f1e1c;
+  constexpr static std::size_t addrs = 0x692ea98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::CopyError (*)(uint8_t*, ::by_ref<uint16_t>, uint16_t, uint8_t*, uint16_t)>(
     &::Unity::Collections::UTF8ArrayUnsafeUtility::Append)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x68f1eac;
+  constexpr static std::size_t addrs = 0x692eb28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::CopyError (*)(uint8_t*, ::by_ref<uint16_t>, uint16_t, char16_t*, int32_t)>(
     &::Unity::Collections::UTF8ArrayUnsafeUtility::Append)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x68f1f00;
+  constexpr static std::size_t addrs = 0x692eb7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::CopyError (*)(char16_t*, ::by_ref<uint16_t>, uint16_t, uint8_t*, uint16_t)>(
     &::Unity::Collections::UTF8ArrayUnsafeUtility::Append)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x68f1f54;
+  constexpr static std::size_t addrs = 0x692ebd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint8_t*, int32_t, uint8_t*, int32_t)>(&::Unity::Collections::UTF8ArrayUnsafeUtility::StrCmp)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x68f1fa8;
+  constexpr static std::size_t addrs = 0x692ec24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -228,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint8_t*, int32_t, ::Unity::Collections::Unicode_Rune*, int32_t)>(&::Unity::Collections::UTF8ArrayUnsafeUtility::StrCmp)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x68f205c;
+  constexpr static std::size_t addrs = 0x692ecd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(char16_t*, int32_t, char16_t*, int32_t)>(&::Unity::Collections::UTF8ArrayUnsafeUtility::StrCmp)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x68f2124;
+  constexpr static std::size_t addrs = 0x692eda0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -257,7 +257,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint8_t*, int32_t, uint8_t*, int32_t)>(&::Unity::Collections::UTF8ArrayUnsafeUtility::EqualsUTF8Bytes)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x68ee1e4;
+  constexpr static std::size_t addrs = 0x692ae60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -271,7 +271,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint8_t*, int32_t, char16_t*, int32_t)>(&::Unity::Collections::UTF8ArrayUnsafeUtility::StrCmp)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x68f2234;
+  constexpr static std::size_t addrs = 0x692eeb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -285,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(char16_t*, int32_t, uint8_t*, int32_t)>(&::Unity::Collections::UTF8ArrayUnsafeUtility::StrCmp)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x68f22bc;
+  constexpr static std::size_t addrs = 0x692ef38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::InputField> (::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::*)()>(
     &::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::get_InputField)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63077c4;
+  constexpr static std::size_t addrs = 0x634420c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::*)(::UnityEngine::UI::InputField*)>(
     &::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::set_InputField)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x630084c;
+  constexpr static std::size_t addrs = 0x633d294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Action_1<::StringW>* (::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::*)()>(
     &::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::get_OnTextChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63077cc;
+  constexpr static std::size_t addrs = 0x6344214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler*>(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::set_OnTextChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63077d4;
+  constexpr static std::size_t addrs = 0x634421c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler*>(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::*)()>(
     &::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::get_Text)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x63077dc;
+  constexpr static std::size_t addrs = 0x6344224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler*>(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::*)()>(
     &::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::get_SubmitOnEnter)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6307868;
+  constexpr static std::size_t addrs = 0x63442b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler*>(),
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::*)()>(
     &::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::get_IsFocused)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x63078f0;
+  constexpr static std::size_t addrs = 0x6344338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler*>(),
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::*)()>(&::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::Submit)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6307978;
+  constexpr static std::size_t addrs = 0x63443c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler*>(),
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::*)(::StringW)>(
     &::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::AppendText)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6307a20;
+  constexpr static std::size_t addrs = 0x6344468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler*>(),
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::*)()>(
     &::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::ApplyBackspace)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6307acc;
+  constexpr static std::size_t addrs = 0x6344514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler*>(),
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::*)()>(
     &::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::MoveTextEnd)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6307bb4;
+  constexpr static std::size_t addrs = 0x63445fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler*>(),
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::*)()>(&::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::Start)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6307c3c;
+  constexpr static std::size_t addrs = 0x6344684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler*>(), { "Start", {}, {} })));
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::*)(::StringW)>(
     &::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::ProxyOnValueChanged)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6307d34;
+  constexpr static std::size_t addrs = 0x634477c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::*)()>(&::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6307d78;
+  constexpr static std::size_t addrs = 0x63447c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler*>(), { ".ctor", {}, {} })));

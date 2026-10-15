@@ -34,7 +34,7 @@ public:
   constexpr ProcessorRealtimeUpdateArguments(::UnityEngine::Audio::RealtimeAccess Access, ::UnityEngine::Audio::AvailableData_ProcessorInstance_Element* Head, ::Unity::Audio::Handle Self) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20396 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20443 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

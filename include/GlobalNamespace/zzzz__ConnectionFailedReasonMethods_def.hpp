@@ -25,11 +25,11 @@ class CORDL_TYPE ConnectionFailedReasonMethods : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method ErrorCode, addr 0x39bff38, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ErrorCode, addr 0x39e64c4, size 0x94, virtual false, abstract: false, final false
   static inline ::StringW ErrorCode(::GlobalNamespace::ConnectionFailedReason connectionFailedReason);
 
   /// [Extension]
-  /// @brief Method LocalizedKey, addr 0x39bfe08, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method LocalizedKey, addr 0x39e6394, size 0x130, virtual false, abstract: false, final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::ConnectionFailedReason connectionFailedReason);
 
 protected:
@@ -47,7 +47,7 @@ public:
   ConnectionFailedReasonMethods(ConnectionFailedReasonMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15328 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14552 };
 
   /// @brief Field kConnectionFailedFailedToFindMatch offset 0xffffffff size 0x8
   static constexpr ::ConstString kConnectionFailedFailedToFindMatch{ u"CONNECTION_FAILED_FAILED_TO_FIND_MATCH" };

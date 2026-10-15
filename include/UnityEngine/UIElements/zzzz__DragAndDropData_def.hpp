@@ -42,14 +42,14 @@ public:
 
   constexpr void __cordl_internal_set__paths_k__BackingField(::ArrayW<::StringW> value);
 
-  /// @brief Method .ctor, addr 0x7217ce8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7254c1c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_source, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_source();
 
   /// [CompilerGenerated]
-  /// @brief Method set_paths, addr 0x7219404, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_paths, addr 0x7256338, size 0x8, virtual true, abstract: false, final false
   inline void set_paths(::ArrayW<::StringW> value);
 
 protected:

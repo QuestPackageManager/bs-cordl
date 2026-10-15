@@ -60,7 +60,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::DoubleField_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x71b1898, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71ee7cc, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -96,7 +96,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::DoubleField_UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x71b1900, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71ee834, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -133,24 +133,24 @@ public:
 
   __declspec(property(get = get_parentDoubleField)) ::UnityEngine::UIElements::DoubleField* parentDoubleField;
 
-  /// @brief Method ApplyInputDeviceDelta, addr 0x71b1a70, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method ApplyInputDeviceDelta, addr 0x71ee9a4, size 0x1ac, virtual true, abstract: false, final false
   inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, double_t startValue);
 
   static inline ::UnityEngine::UIElements::DoubleField_DoubleInput* New_ctor();
 
-  /// @brief Method StringToValue, addr 0x71b1c78, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method StringToValue, addr 0x71eebac, size 0x2c, virtual true, abstract: false, final false
   inline double_t StringToValue(::StringW str);
 
-  /// @brief Method ValueToString, addr 0x71b1c1c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ValueToString, addr 0x71eeb50, size 0x5c, virtual true, abstract: false, final false
   inline ::StringW ValueToString(double_t v);
 
-  /// @brief Method .ctor, addr 0x71b16a4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71ee5d8, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_allowedCharacters, addr 0x71b19c8, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method get_allowedCharacters, addr 0x71ee8fc, size 0xa8, virtual true, abstract: false, final false
   inline ::StringW get_allowedCharacters();
 
-  /// @brief Method get_parentDoubleField, addr 0x71b194c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_parentDoubleField, addr 0x71ee880, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DoubleField* get_parentDoubleField();
 
 protected:
@@ -201,26 +201,26 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method ApplyInputDeviceDelta, addr 0x71b1760, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ApplyInputDeviceDelta, addr 0x71ee694, size 0x5c, virtual true, abstract: false, final false
   inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, double_t startValue);
 
-  /// @brief Method CanTryParse, addr 0x71b1740, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method CanTryParse, addr 0x71ee674, size 0x20, virtual true, abstract: false, final false
   inline bool CanTryParse(::StringW textString);
 
   static inline ::UnityEngine::UIElements::DoubleField* New_ctor();
 
   static inline ::UnityEngine::UIElements::DoubleField* New_ctor(::StringW label, int32_t maxLength);
 
-  /// @brief Method StringToValue, addr 0x71b1408, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method StringToValue, addr 0x71ee33c, size 0x110, virtual true, abstract: false, final false
   inline double_t StringToValue(::StringW str);
 
-  /// @brief Method ValueToString, addr 0x71b1348, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ValueToString, addr 0x71ee27c, size 0xc0, virtual true, abstract: false, final false
   inline ::StringW ValueToString(double_t v);
 
-  /// @brief Method .ctor, addr 0x71b1518, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71ee44c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x71b1524, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71ee458, size 0x180, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, int32_t maxLength);
 
   static inline ::StringW getStaticF_inputUssClassName();
@@ -229,7 +229,7 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_doubleInput, addr 0x71b12b8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_doubleInput, addr 0x71ee1ec, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DoubleField_DoubleInput* get_doubleInput();
 
   static inline void setStaticF_inputUssClassName(::StringW value);

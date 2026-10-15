@@ -79,119 +79,119 @@ public:
   constexpr operator ::System::IFormattable*();
 
   /// [IsReadOnly]
-  /// @brief Method Contains, addr 0x6ed4324, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x6f10fc0, size 0xbc, virtual false, abstract: false, final false
   inline bool Contains(::UnityEngine::Vector2 point);
 
   /// [IsReadOnly]
-  /// @brief Method Contains, addr 0x6ed43e0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x6f1107c, size 0xbc, virtual false, abstract: false, final false
   inline bool Contains(::UnityEngine::Vector3 point);
 
   /// [IsReadOnly]
-  /// @brief Method Equals, addr 0x6ed4b24, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6f117c0, size 0x178, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
   /// [IsReadOnly]
-  /// @brief Method Equals, addr 0x6ed4c9c, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6f11938, size 0xf4, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rect other);
 
   /// [IsReadOnly]
-  /// @brief Method Equals, addr 0x6ed4d90, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x6f11a2c, size 0x104, virtual false, abstract: false, final false
   inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rect const> other);
 
   /// [IsReadOnly]
-  /// @brief Method GetHashCode, addr 0x6ed4aa8, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6f11744, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method MinMaxRect, addr 0x6ed3f70, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MinMaxRect, addr 0x6f10c0c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect MinMaxRect(float_t xmin, float_t ymin, float_t xmax, float_t ymax);
 
-  /// @brief Method OrderMinMax, addr 0x6ed449c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method OrderMinMax, addr 0x6f11138, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect OrderMinMax(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rect const> rect);
 
   /// [IsReadOnly]
-  /// @brief Method Overlaps, addr 0x6ed4520, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Overlaps, addr 0x6f111bc, size 0xf4, virtual false, abstract: false, final false
   inline bool Overlaps(::UnityEngine::Rect other);
 
   /// [IsReadOnly]
-  /// @brief Method Overlaps, addr 0x6ed470c, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method Overlaps, addr 0x6f113a8, size 0x2c0, virtual false, abstract: false, final false
   inline bool Overlaps(::UnityEngine::Rect other, bool allowInverse);
 
   /// [IsReadOnly]
-  /// @brief Method Overlaps, addr 0x6ed4614, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Overlaps, addr 0x6f112b0, size 0xf8, virtual false, abstract: false, final false
   inline bool Overlaps(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rect const> other);
 
   /// [IsReadOnly]
-  /// @brief Method ToString, addr 0x6ed4e94, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6f11b30, size 0x64, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// [IsReadOnly]
-  /// @brief Method ToString, addr 0x6ed4ef8, size 0x218, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x6f11b94, size 0x218, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x6ed3ef8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f10b94, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 position, ::UnityEngine::Vector2 size);
 
-  /// @brief Method .ctor, addr 0x6ed3f04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f10ba0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rect source);
 
-  /// @brief Method .ctor, addr 0x6ed3eec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f10b88, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t x, float_t y, float_t width, float_t height);
 
   static inline ::UnityEngine::Rect getStaticF_kZero();
 
   /// [IsReadOnly]
-  /// @brief Method get_center, addr 0x6ed3fac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_center, addr 0x6f10c48, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_center();
 
   /// [IsReadOnly]
-  /// @brief Method get_height, addr 0x6ed41c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x6f10e60, size 0x8, virtual false, abstract: false, final false
   inline float_t get_height();
 
   /// [IsReadOnly]
-  /// @brief Method get_max, addr 0x6ed40d8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_max, addr 0x6f10d74, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_max();
 
   /// [IsReadOnly]
-  /// @brief Method get_min, addr 0x6ed3fc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_min, addr 0x6f10c60, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_min();
 
   /// [IsReadOnly]
-  /// @brief Method get_position, addr 0x6ed3f9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x6f10c38, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_position();
 
   /// [IsReadOnly]
-  /// @brief Method get_size, addr 0x6ed41d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x6f10e70, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_size();
 
   /// [IsReadOnly]
-  /// @brief Method get_width, addr 0x6ed41b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x6f10e50, size 0x8, virtual false, abstract: false, final false
   inline float_t get_width();
 
   /// [IsReadOnly]
-  /// @brief Method get_x, addr 0x6ed3f7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_x, addr 0x6f10c18, size 0x8, virtual false, abstract: false, final false
   inline float_t get_x();
 
   /// [IsReadOnly]
-  /// @brief Method get_xMax, addr 0x6ed42e4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_xMax, addr 0x6f10f80, size 0x10, virtual false, abstract: false, final false
   inline float_t get_xMax();
 
   /// [IsReadOnly]
-  /// @brief Method get_xMin, addr 0x6ed41e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xMin, addr 0x6f10e80, size 0x8, virtual false, abstract: false, final false
   inline float_t get_xMin();
 
   /// [IsReadOnly]
-  /// @brief Method get_y, addr 0x6ed3f8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_y, addr 0x6f10c28, size 0x8, virtual false, abstract: false, final false
   inline float_t get_y();
 
   /// [IsReadOnly]
-  /// @brief Method get_yMax, addr 0x6ed4304, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_yMax, addr 0x6f10fa0, size 0x10, virtual false, abstract: false, final false
   inline float_t get_yMax();
 
   /// [IsReadOnly]
-  /// @brief Method get_yMin, addr 0x6ed4264, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yMin, addr 0x6f10f00, size 0x8, virtual false, abstract: false, final false
   inline float_t get_yMin();
 
-  /// @brief Method get_zero, addr 0x6ed3f10, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_zero, addr 0x6f10bac, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect get_zero();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rect>"
@@ -200,48 +200,48 @@ public:
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  /// @brief Method op_Equality, addr 0x6ed4a80, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6f1171c, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rect lhs, ::UnityEngine::Rect rhs);
 
-  /// @brief Method op_Inequality, addr 0x6ed49cc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6f11668, size 0xb4, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Rect lhs, ::UnityEngine::Rect rhs);
 
   static inline void setStaticF_kZero(::UnityEngine::Rect value);
 
-  /// @brief Method set_height, addr 0x6ed41cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_height, addr 0x6f10e68, size 0x8, virtual false, abstract: false, final false
   inline void set_height(float_t value);
 
-  /// @brief Method set_max, addr 0x6ed4138, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_max, addr 0x6f10dd4, size 0x7c, virtual false, abstract: false, final false
   inline void set_max(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_min, addr 0x6ed3fcc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method set_min, addr 0x6f10c68, size 0x10c, virtual false, abstract: false, final false
   inline void set_min(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_position, addr 0x6ed3fa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_position, addr 0x6f10c40, size 0x8, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_size, addr 0x6ed41dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_size, addr 0x6f10e78, size 0x8, virtual false, abstract: false, final false
   inline void set_size(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_width, addr 0x6ed41bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_width, addr 0x6f10e58, size 0x8, virtual false, abstract: false, final false
   inline void set_width(float_t value);
 
-  /// @brief Method set_x, addr 0x6ed3f84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_x, addr 0x6f10c20, size 0x8, virtual false, abstract: false, final false
   inline void set_x(float_t value);
 
-  /// @brief Method set_xMax, addr 0x6ed42f4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_xMax, addr 0x6f10f90, size 0x10, virtual false, abstract: false, final false
   inline void set_xMax(float_t value);
 
-  /// @brief Method set_xMin, addr 0x6ed41ec, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method set_xMin, addr 0x6f10e88, size 0x78, virtual false, abstract: false, final false
   inline void set_xMin(float_t value);
 
-  /// @brief Method set_y, addr 0x6ed3f94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_y, addr 0x6f10c30, size 0x8, virtual false, abstract: false, final false
   inline void set_y(float_t value);
 
-  /// @brief Method set_yMax, addr 0x6ed4314, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_yMax, addr 0x6f10fb0, size 0x10, virtual false, abstract: false, final false
   inline void set_yMax(float_t value);
 
-  /// @brief Method set_yMin, addr 0x6ed426c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method set_yMin, addr 0x6f10f08, size 0x78, virtual false, abstract: false, final false
   inline void set_yMin(float_t value);
 
   // Ctor Parameters []
@@ -253,7 +253,7 @@ public:
   constexpr Rect(float_t m_XMin, float_t m_YMin, float_t m_Width, float_t m_Height) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9691 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9698 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

@@ -49,38 +49,38 @@ public:
   constexpr operator ::System::IFormattable*();
 
   /// [IsReadOnly]
-  /// @brief Method Equals, addr 0x6ed2a14, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6f0f6b0, size 0xc8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
   /// [IsReadOnly]
-  /// @brief Method Equals, addr 0x6ed2adc, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6f0f778, size 0x6c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::BoundsInt other);
 
   /// [IsReadOnly]
-  /// @brief Method Equals, addr 0x6ed2b48, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x6f0f7e4, size 0x6c, virtual false, abstract: false, final false
   inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::BoundsInt const> other);
 
   /// [IsReadOnly]
-  /// @brief Method GetHashCode, addr 0x6ed2bb4, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6f0f850, size 0x3c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// [IsReadOnly]
-  /// @brief Method ToString, addr 0x6ed28f4, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6f0f590, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// [IsReadOnly]
-  /// @brief Method ToString, addr 0x6ed2904, size 0x110, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x6f0f5a0, size 0x110, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x6ed28e0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f0f57c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3Int position, ::UnityEngine::Vector3Int size);
 
   /// [IsReadOnly]
-  /// @brief Method get_position, addr 0x6ed28a8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x6f0f544, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3Int get_position();
 
   /// [IsReadOnly]
-  /// @brief Method get_size, addr 0x6ed28c4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x6f0f560, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3Int get_size();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::BoundsInt>"
@@ -89,10 +89,10 @@ public:
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  /// @brief Method set_position, addr 0x6ed28b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_position, addr 0x6f0f554, size 0xc, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::Vector3Int value);
 
-  /// @brief Method set_size, addr 0x6ed28d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_size, addr 0x6f0f570, size 0xc, virtual false, abstract: false, final false
   inline void set_size(::UnityEngine::Vector3Int value);
 
   // Ctor Parameters []
@@ -104,7 +104,7 @@ public:
   constexpr BoundsInt(::UnityEngine::Vector3Int m_Position, ::UnityEngine::Vector3Int m_Size) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9686 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9693 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

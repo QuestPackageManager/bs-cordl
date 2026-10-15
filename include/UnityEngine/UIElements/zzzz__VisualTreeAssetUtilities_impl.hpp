@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeAssetUtilities__EnumerateEnclosingNamespaces_d__0::*)(int32_t)>(
     &::UnityEngine::UIElements::VisualTreeAssetUtilities__EnumerateEnclosingNamespaces_d__0::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x7152b90;
+  constexpr static std::size_t addrs = 0x718fac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeAssetUtilities__EnumerateEnclosingNamespaces_d__0::*)()>(
     &::UnityEngine::UIElements::VisualTreeAssetUtilities__EnumerateEnclosingNamespaces_d__0::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x7152bb0;
+  constexpr static std::size_t addrs = 0x718fae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualTreeAssetUtilities__EnumerateEnclosingNamespaces_d__0::*)()>(
     &::UnityEngine::UIElements::VisualTreeAssetUtilities__EnumerateEnclosingNamespaces_d__0::MoveNext)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x7152bb4;
+  constexpr static std::size_t addrs = 0x718fae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::VisualTreeAssetUtilities__EnumerateEnclosingNamespaces_d__0::*)()>(
     &::UnityEngine::UIElements::VisualTreeAssetUtilities__EnumerateEnclosingNamespaces_d__0::System_Collections_Generic_IEnumerator_System_String__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7152c90;
+  constexpr static std::size_t addrs = 0x718fbc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeAssetUtilities__EnumerateEnclosingNamespaces_d__0*>(),
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeAssetUtilities__EnumerateEnclosingNamespaces_d__0::*)()>(
     &::UnityEngine::UIElements::VisualTreeAssetUtilities__EnumerateEnclosingNamespaces_d__0::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x7152c98;
+  constexpr static std::size_t addrs = 0x718fbcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeAssetUtilities__EnumerateEnclosingNamespaces_d__0*>(),
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::UIElements::VisualTreeAssetUtilities__EnumerateEnclosingNamespaces_d__0::*)()>(
     &::UnityEngine::UIElements::VisualTreeAssetUtilities__EnumerateEnclosingNamespaces_d__0::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7152cd0;
+  constexpr static std::size_t addrs = 0x718fc04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeAssetUtilities__EnumerateEnclosingNamespaces_d__0*>(),
@@ -104,7 +104,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::StringW>* (::UnityEngine::UIElements::VisualTreeAssetUtilities__EnumerateEnclosingNamespaces_d__0::*)()>(
         &::UnityEngine::UIElements::VisualTreeAssetUtilities__EnumerateEnclosingNamespaces_d__0::System_Collections_Generic_IEnumerable_System_String__GetEnumerator)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x7152cd8;
+  constexpr static std::size_t addrs = 0x718fc0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeAssetUtilities__EnumerateEnclosingNamespaces_d__0*>(),
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::UIElements::VisualTreeAssetUtilities__EnumerateEnclosingNamespaces_d__0::*)()>(
     &::UnityEngine::UIElements::VisualTreeAssetUtilities__EnumerateEnclosingNamespaces_d__0::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x7152d70;
+  constexpr static std::size_t addrs = 0x718fca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeAssetUtilities__EnumerateEnclosingNamespaces_d__0*>(),
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (*)(::StringW)>(
     &::UnityEngine::UIElements::VisualTreeAssetUtilities::EnumerateEnclosingNamespaces)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7152b20;
+  constexpr static std::size_t addrs = 0x718fa54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -321,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UxmlNamespaceDefinition (*)(
     ::UnityEngine::UIElements::VisualTreeAsset*, ::UnityEngine::UIElements::UxmlAsset*, ::StringW)>(&::UnityEngine::UIElements::VisualTreeAssetUtilities::FindUxmlNamespaceDefinitionForTypeName)> {
   constexpr static std::size_t size = 0x5e0;
-  constexpr static std::size_t addrs = 0x7150430;
+  constexpr static std::size_t addrs = 0x718d364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

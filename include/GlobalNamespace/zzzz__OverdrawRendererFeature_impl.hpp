@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action_4<::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, int32_t, int32_t>*)>(
     &::GlobalNamespace::OverdrawRendererFeature::Register)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6367090;
+  constexpr static std::size_t addrs = 0x63a3b68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action_4<::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, int32_t, int32_t>*)>(
     &::GlobalNamespace::OverdrawRendererFeature::Unregister)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x63670e0;
+  constexpr static std::size_t addrs = 0x63a3bb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OverdrawRendererFeature::*)()>(&::GlobalNamespace::OverdrawRendererFeature::Create)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6367164;
+  constexpr static std::size_t addrs = 0x63a3c3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OverdrawRendererFeature::*)(bool)>(&::GlobalNamespace::OverdrawRendererFeature::Dispose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63671e8;
+  constexpr static std::size_t addrs = 0x63a3cc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OverdrawRendererFeature::*)(
     ::UnityEngine::Rendering::Universal::ScriptableRenderer*, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::GlobalNamespace::OverdrawRendererFeature::AddRenderPasses)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x63671f0;
+  constexpr static std::size_t addrs = 0x63a3cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OverdrawRendererFeature::*)()>(&::GlobalNamespace::OverdrawRendererFeature::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x636727c;
+  constexpr static std::size_t addrs = 0x63a3d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OverdrawRendererFeature*>(), { ".ctor", {}, {} })));

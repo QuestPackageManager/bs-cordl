@@ -108,11 +108,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5e38688, size 0x534, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e760d8, size 0x534, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5e38bbc, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e7660c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -135,7 +135,7 @@ public:
                                                    ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>> __u__3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6573 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6577 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -190,16 +190,16 @@ public:
   // Declarations
   using _LoadSong_d__32 = ::GlobalNamespace::PracticeViewController__LoadSong_d__32;
 
-  /// @brief Field _audioClip, offset 0x140, size 0x8
+  /// @brief Field _audioClip, offset 0x148, size 0x8
   __declspec(property(get = __cordl_internal_get__audioClip, put = __cordl_internal_set__audioClip)) ::UnityW<::UnityEngine::AudioClip> _audioClip;
 
   /// @brief Field _audioClipAsyncLoader, offset 0xf0, size 0x8
   __declspec(property(get = __cordl_internal_get__audioClipAsyncLoader, put = __cordl_internal_set__audioClipAsyncLoader)) ::GlobalNamespace::AudioClipAsyncLoader* _audioClipAsyncLoader;
 
-  /// @brief Field _beatmapKey, offset 0x128, size 0x10
+  /// @brief Field _beatmapKey, offset 0x128, size 0x18
   __declspec(property(get = __cordl_internal_get__beatmapKey, put = __cordl_internal_set__beatmapKey)) ::GlobalNamespace::BeatmapKey _beatmapKey;
 
-  /// @brief Field _beatmapLevel, offset 0x138, size 0x8
+  /// @brief Field _beatmapLevel, offset 0x140, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapLevel, put = __cordl_internal_set__beatmapLevel)) ::GlobalNamespace::BeatmapLevel* _beatmapLevel;
 
   /// @brief Field _beatmapLevelsEntitlementModel, offset 0xe8, size 0x8
@@ -266,40 +266,40 @@ public:
 
   __declspec(property(get = get_practiceSettings)) ::GlobalNamespace::PracticeSettings* practiceSettings;
 
-  /// @brief Method CancelSongLoading, addr 0x5e37fa0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CancelSongLoading, addr 0x5e75a94, size 0x40, virtual false, abstract: false, final false
   inline void CancelSongLoading();
 
-  /// @brief Method DidActivate, addr 0x5e38050, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5e75b44, size 0x16c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x5e38324, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5e75d74, size 0xd0, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method GetSongTime, addr 0x5e384e8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetSongTime, addr 0x5e75f38, size 0x60, virtual false, abstract: false, final false
   inline float_t GetSongTime();
 
-  /// @brief Method HandlePlayButtonPressed, addr 0x5e385fc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayButtonPressed, addr 0x5e7604c, size 0x88, virtual false, abstract: false, final false
   inline void HandlePlayButtonPressed();
 
-  /// @brief Method HandleSongStartSliderValueDidChange, addr 0x5e385c8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HandleSongStartSliderValueDidChange, addr 0x5e76018, size 0x34, virtual false, abstract: false, final false
   inline void HandleSongStartSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
 
-  /// @brief Method Init, addr 0x5e37e34, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5e75924, size 0x170, virtual false, abstract: false, final false
   inline void Init(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
   /// [AsyncStateMachine(typeof(PracticeViewController::<LoadSong>d__32))]
-  /// @brief Method LoadSong, addr 0x5e381a8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method LoadSong, addr 0x5e75cb0, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadSong(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::PracticeViewController* New_ctor();
 
-  /// @brief Method PlayPreview, addr 0x5e383f4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method PlayPreview, addr 0x5e75e44, size 0xf4, virtual false, abstract: false, final false
   inline void PlayPreview();
 
-  /// @brief Method SetLoader, addr 0x5e38548, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetLoader, addr 0x5e75f98, size 0x80, virtual false, abstract: false, final false
   inline void SetLoader(bool loading);
 
-  /// @brief Method SetSongLength, addr 0x5e37fe0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetSongLength, addr 0x5e75ad4, size 0x70, virtual false, abstract: false, final false
   inline void SetSongLength(float_t songLength);
 
   constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__audioClip() const;
@@ -446,18 +446,18 @@ public:
 
   constexpr void __cordl_internal_set_didPressPlayButtonEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x5e38684, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e760d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_didPressPlayButtonEvent, addr 0x5e37cd4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_didPressPlayButtonEvent, addr 0x5e757c4, size 0xac, virtual false, abstract: false, final false
   inline void add_didPressPlayButtonEvent(::System::Action* value);
 
-  /// @brief Method get_practiceSettings, addr 0x5e37e2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_practiceSettings, addr 0x5e7591c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PracticeSettings* get_practiceSettings();
 
   /// [CompilerGenerated]
-  /// @brief Method remove_didPressPlayButtonEvent, addr 0x5e37d80, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressPlayButtonEvent, addr 0x5e75870, size 0xac, virtual false, abstract: false, final false
   inline void remove_didPressPlayButtonEvent(::System::Action* value);
 
 protected:
@@ -475,7 +475,7 @@ public:
   PracticeViewController(PracticeViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6574 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6578 };
 
   /// @brief Field kMinValueChangeToInstantPlayPreview offset 0xffffffff size 0x4
   static constexpr float_t kMinValueChangeToInstantPlayPreview{ static_cast<float_t>(3.0f) };
@@ -560,13 +560,13 @@ public:
   /// @brief Field _cancellationTokenSource, offset: 0x120, size: 0x8, def value: None
   ::System::Threading::CancellationTokenSource* ____cancellationTokenSource;
 
-  /// @brief Field _beatmapKey, offset: 0x128, size: 0x10, def value: None
+  /// @brief Field _beatmapKey, offset: 0x128, size: 0x18, def value: None
   ::GlobalNamespace::BeatmapKey ____beatmapKey;
 
-  /// @brief Field _beatmapLevel, offset: 0x138, size: 0x8, def value: None
+  /// @brief Field _beatmapLevel, offset: 0x140, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevel* ____beatmapLevel;
 
-  /// @brief Field _audioClip, offset: 0x140, size: 0x8, def value: None
+  /// @brief Field _audioClip, offset: 0x148, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioClip> ____audioClip;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -616,10 +616,10 @@ static_assert(offsetof(::GlobalNamespace::PracticeViewController, ____cancellati
 
 static_assert(offsetof(::GlobalNamespace::PracticeViewController, ____beatmapKey) == 0x128, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PracticeViewController, ____beatmapLevel) == 0x138, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PracticeViewController, ____beatmapLevel) == 0x140, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PracticeViewController, ____audioClip) == 0x140, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PracticeViewController, ____audioClip) == 0x148, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::PracticeViewController) == 0x148, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::PracticeViewController) == 0x150, "Size mismatch!");
 
 } // namespace GlobalNamespace

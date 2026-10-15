@@ -37,16 +37,16 @@ public:
   /// @brief Field m_Data, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Data, put = __cordl_internal_set_m_Data)) ::ArrayW<::UnityEngine::Color> m_Data;
 
-  /// @brief Method CreateBuffer, addr 0x6beff8c, size 0x414, virtual false, abstract: false, final false
+  /// @brief Method CreateBuffer, addr 0x6c2cc08, size 0x414, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* CreateBuffer(bool forVisualization);
 
-  /// @brief Method CreateDefault, addr 0x6befd04, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method CreateDefault, addr 0x6c2c980, size 0x19c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::VrsLut* CreateDefault();
 
-  /// @brief Method EncodeShadingRate, addr 0x6bf03c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EncodeShadingRate, addr 0x6c2d040, size 0x8, virtual false, abstract: false, final false
   inline uint32_t EncodeShadingRate(uint32_t x, uint32_t y);
 
-  /// @brief Method MapFragmentShadingRateToBinary, addr 0x6bf03a0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method MapFragmentShadingRateToBinary, addr 0x6c2d01c, size 0x24, virtual false, abstract: false, final false
   inline uint32_t MapFragmentShadingRateToBinary(::UnityEngine::Rendering::ShadingRateFragmentSize fs);
 
   static inline ::UnityEngine::Rendering::VrsLut* New_ctor();
@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Data(::ArrayW<::UnityEngine::Color> value);
 
-  /// @brief Method .ctor, addr 0x6befea0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2cb1c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Item, addr 0x6beff58, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x6c2cbd4, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_Item(::UnityEngine::Rendering::ShadingRateFragmentSize fragmentSize);
 
-  /// @brief Method set_Item, addr 0x6beff24, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x6c2cba0, size 0x34, virtual false, abstract: false, final false
   inline void set_Item(::UnityEngine::Rendering::ShadingRateFragmentSize fragmentSize, ::UnityEngine::Color value);
 
 protected:
@@ -90,7 +90,7 @@ public:
   static constexpr uint32_t Rate4x{ static_cast<uint32_t>(0x2u) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9264 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9271 };
 
   /// [SerializeField]
   /// @brief Field m_Data, offset: 0x10, size: 0x8, def value: None

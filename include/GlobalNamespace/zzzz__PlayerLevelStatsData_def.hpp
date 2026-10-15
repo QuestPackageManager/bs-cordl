@@ -20,6 +20,9 @@ namespace GlobalNamespace {
 struct BeatmapKey;
 }
 namespace GlobalNamespace {
+struct GameplayType;
+}
+namespace GlobalNamespace {
 struct RankModel_Rank;
 }
 // Forward declare root types
@@ -69,6 +72,8 @@ public:
 
   __declspec(property(get = get_fullCombo)) bool fullCombo;
 
+  __declspec(property(get = get_gameplayType)) ::GlobalNamespace::GameplayType gameplayType;
+
   __declspec(property(get = get_highScore)) int32_t highScore;
 
   __declspec(property(get = get_levelID)) ::StringW levelID;
@@ -81,10 +86,10 @@ public:
 
   __declspec(property(get = get_validScore)) bool validScore;
 
-  /// @brief Method GetBeatmapKey, addr 0x39d1430, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapKey, addr 0x39faa80, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKey GetBeatmapKey();
 
-  /// @brief Method IncreaseNumberOfGameplays, addr 0x39d1c30, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IncreaseNumberOfGameplays, addr 0x39fb2c8, size 0x10, virtual false, abstract: false, final false
   inline void IncreaseNumberOfGameplays();
 
   static inline ::GlobalNamespace::PlayerLevelStatsData* New_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey);
@@ -94,7 +99,7 @@ public:
   static inline ::GlobalNamespace::PlayerLevelStatsData* New_ctor(::StringW levelID, ::GlobalNamespace::BeatmapDifficulty difficulty, ::GlobalNamespace::BeatmapCharacteristic beatmapCharacteristic,
                                                                   int32_t highScore, int32_t maxCombo, bool fullCombo, ::GlobalNamespace::RankModel_Rank maxRank, bool validScore, int32_t playCount);
 
-  /// @brief Method UpdateScoreData, addr 0x39d1440, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method UpdateScoreData, addr 0x39faa98, size 0x3c, virtual false, abstract: false, final false
   inline void UpdateScoreData(int32_t score, int32_t maxCombo, bool fullCombo, ::GlobalNamespace::RankModel_Rank rank);
 
   constexpr ::GlobalNamespace::BeatmapCharacteristic const& __cordl_internal_get__beatmapCharacteristic() const;
@@ -151,41 +156,44 @@ public:
 
   constexpr void __cordl_internal_set__validScore(bool value);
 
-  /// @brief Method .ctor, addr 0x39d1830, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39faeb0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey);
 
-  /// @brief Method .ctor, addr 0x39d76d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a00d44, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW levelID, ::GlobalNamespace::BeatmapDifficulty difficulty, ::GlobalNamespace::BeatmapCharacteristic beatmapCharacteristic);
 
-  /// @brief Method .ctor, addr 0x39d57b4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39fee2c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW levelID, ::GlobalNamespace::BeatmapDifficulty difficulty, ::GlobalNamespace::BeatmapCharacteristic beatmapCharacteristic, int32_t highScore, int32_t maxCombo,
                     bool fullCombo, ::GlobalNamespace::RankModel_Rank maxRank, bool validScore, int32_t playCount);
 
-  /// @brief Method get_beatmapCharacteristic, addr 0x39d769c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapCharacteristic, addr 0x3a00d04, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapCharacteristic get_beatmapCharacteristic();
 
-  /// @brief Method get_difficulty, addr 0x39d7694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_difficulty, addr 0x3a00cfc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDifficulty get_difficulty();
 
-  /// @brief Method get_fullCombo, addr 0x39d76b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fullCombo, addr 0x3a00d24, size 0x8, virtual false, abstract: false, final false
   inline bool get_fullCombo();
 
-  /// @brief Method get_highScore, addr 0x39d76a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayType, addr 0x3a00d0c, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::GameplayType get_gameplayType();
+
+  /// @brief Method get_highScore, addr 0x3a00d14, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_highScore();
 
-  /// @brief Method get_levelID, addr 0x39d768c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelID, addr 0x3a00cf4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_levelID();
 
-  /// @brief Method get_maxCombo, addr 0x39d76ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxCombo, addr 0x3a00d1c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxCombo();
 
-  /// @brief Method get_maxRank, addr 0x39d76bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxRank, addr 0x3a00d2c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::RankModel_Rank get_maxRank();
 
-  /// @brief Method get_playCount, addr 0x39d76cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playCount, addr 0x3a00d3c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_playCount();
 
-  /// @brief Method get_validScore, addr 0x39d76c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_validScore, addr 0x3a00d34, size 0x8, virtual false, abstract: false, final false
   inline bool get_validScore();
 
 protected:
@@ -203,7 +211,7 @@ public:
   PlayerLevelStatsData(PlayerLevelStatsData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15410 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14646 };
 
   /// [SerializeField]
   /// @brief Field _highScore, offset: 0x10, size: 0x4, def value: None

@@ -34,25 +34,25 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::SceneManagement::SceneHandle>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::SceneManagement::SceneHandle>*();
 
-  /// @brief Method Equals, addr 0x6f5aeac, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6f97d88, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6f5af28, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6f97e04, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::SceneManagement::SceneHandle other);
 
-  /// @brief Method GetHashCode, addr 0x6f5adc8, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6f97ca4, size 0x68, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x6f5af3c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6f97e18, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::SceneManagement::SceneHandle>"
   constexpr ::System::IEquatable_1<::UnityEngine::SceneManagement::SceneHandle>* i___System__IEquatable_1___UnityEngine__SceneManagement__SceneHandle_();
 
-  /// @brief Method op_Equality, addr 0x6f5ad54, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6f97c30, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::SceneManagement::SceneHandle left, ::UnityEngine::SceneManagement::SceneHandle right);
 
-  /// @brief Method op_Implicit, addr 0x6f5af38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6f97e14, size 0x4, virtual false, abstract: false, final false
   static inline int32_t op_Implicit_int32_t(::UnityEngine::SceneManagement::SceneHandle handle);
 
   // Ctor Parameters []
@@ -63,7 +63,7 @@ public:
   constexpr SceneHandle(::UnityEngine::EntityId m_Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10077 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10084 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

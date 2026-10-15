@@ -42,38 +42,38 @@ public:
 
   __declspec(property(get = get_type)) ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type;
 
-  /// @brief Method .ctor, addr 0x6e446dc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e81378, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(void* next, ::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceDataEXT> persistData);
 
-  /// @brief Method .ctor, addr 0x6e447b8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e81454, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(void* next, ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceDataEXT> persistData);
 
-  /// @brief Method .ctor, addr 0x6e446a4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e81340, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(void* next, uint32_t persistDataCount, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceDataEXT* persistData);
 
-  /// @brief Method .ctor, addr 0x6e44750, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e813ec, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceDataEXT> persistData);
 
-  /// @brief Method .ctor, addr 0x6e44840, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e814dc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceDataEXT> persistData);
 
-  /// @brief Method .ctor, addr 0x6e446c0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e8135c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t persistDataCount, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceDataEXT* persistData);
 
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e4468c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x6e81328, size 0x8, virtual false, abstract: false, final false
   inline void* get_next();
 
   /// [CompilerGenerated]
-  /// @brief Method get_persistData, addr 0x6e4469c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_persistData, addr 0x6e81338, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceDataEXT* get_persistData();
 
   /// [CompilerGenerated]
-  /// @brief Method get_persistDataCount, addr 0x6e44694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_persistDataCount, addr 0x6e81330, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_persistDataCount();
 
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e44684, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6e81320, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   // Ctor Parameters []
@@ -87,7 +87,7 @@ public:
                                                  ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceDataEXT* _persistData_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17579 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17612 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

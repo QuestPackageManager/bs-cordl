@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::HierarchyIcons::HierarchyIconAttribute::*)(::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::StringW)>(
     &::OculusStudios::HierarchyIcons::HierarchyIconAttribute::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x63488ac;
+  constexpr static std::size_t addrs = 0x63852f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::HierarchyIcons::HierarchyIconAttribute*>(),
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::HierarchyIcons::HierarchyIconAttribute::*)(
     ::StringW, ::OculusStudios::HierarchyIcons::Icon, ::StringW, ::StringW, ::OculusStudios::HierarchyIcons::Icon, ::StringW)>(&::OculusStudios::HierarchyIcons::HierarchyIconAttribute::_ctor)> {
-  constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x6348980;
+  constexpr static std::size_t size = 0x228;
+  constexpr static std::size_t addrs = 0x63853c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

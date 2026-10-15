@@ -56,100 +56,97 @@ namespace GlobalNamespace {
 class CORDL_TYPE MultiplayerOutroAnimationController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _badgeMidTransform, offset 0x68, size 0x8
+  /// @brief Field _badgeMidTransform, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__badgeMidTransform, put = __cordl_internal_set__badgeMidTransform)) ::UnityW<::UnityEngine::Transform> _badgeMidTransform;
 
-  /// @brief Field _badgeStartTransform, offset 0x60, size 0x8
+  /// @brief Field _badgeStartTransform, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__badgeStartTransform, put = __cordl_internal_set__badgeStartTransform)) ::UnityW<::UnityEngine::Transform> _badgeStartTransform;
 
-  /// @brief Field _badgeTimelinePropertyNames, offset 0x78, size 0x8
+  /// @brief Field _badgeTimelinePropertyNames, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__badgeTimelinePropertyNames, put = __cordl_internal_set__badgeTimelinePropertyNames)) ::ArrayW<::UnityEngine::PropertyName>
       _badgeTimelinePropertyNames;
 
-  /// @brief Field _badgeTimelineTrackNames, offset 0x70, size 0x8
+  /// @brief Field _badgeTimelineTrackNames, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__badgeTimelineTrackNames, put = __cordl_internal_set__badgeTimelineTrackNames)) ::ArrayW<::StringW> _badgeTimelineTrackNames;
 
-  /// @brief Field _layoutProvider, offset 0xb8, size 0x8
+  /// @brief Field _layoutProvider, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get__layoutProvider, put = __cordl_internal_set__layoutProvider)) ::GlobalNamespace::MultiplayerLayoutProvider* _layoutProvider;
 
-  /// @brief Field _localPlayerTimelinePropertyName, offset 0x40, size 0x4
+  /// @brief Field _localPlayerTimelinePropertyName, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__localPlayerTimelinePropertyName,
                       put = __cordl_internal_set__localPlayerTimelinePropertyName)) ::UnityEngine::PropertyName _localPlayerTimelinePropertyName;
 
-  /// @brief Field _localPlayerTrackName, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__localPlayerTrackName, put = __cordl_internal_set__localPlayerTrackName)) ::StringW _localPlayerTrackName;
-
-  /// @brief Field _multiplayerPlayersManager, offset 0xa0, size 0x8
+  /// @brief Field _multiplayerPlayersManager, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerPlayersManager, put = __cordl_internal_set__multiplayerPlayersManager)) ::UnityW<::GlobalNamespace::MultiplayerPlayersManager>
       _multiplayerPlayersManager;
 
-  /// @brief Field _multiplayerResultsPyramidView, offset 0x98, size 0x8
+  /// @brief Field _multiplayerResultsPyramidView, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerResultsPyramidView, put = __cordl_internal_set__multiplayerResultsPyramidView)) ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidView>
       _multiplayerResultsPyramidView;
 
-  /// @brief Field _multiplayerScoreRingManager, offset 0x90, size 0x8
+  /// @brief Field _multiplayerScoreRingManager, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerScoreRingManager, put = __cordl_internal_set__multiplayerScoreRingManager)) ::UnityW<::GlobalNamespace::MultiplayerScoreRingManager>
       _multiplayerScoreRingManager;
 
-  /// @brief Field _multiplayerSessionManager, offset 0xa8, size 0x8
+  /// @brief Field _multiplayerSessionManager, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
                       put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* _multiplayerSessionManager;
 
-  /// @brief Field _onCompleted, offset 0xc0, size 0x8
+  /// @brief Field _onCompleted, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__onCompleted, put = __cordl_internal_set__onCompleted)) ::System::Action* _onCompleted;
 
   /// @brief Field _outroPlayableDirector, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__outroPlayableDirector, put = __cordl_internal_set__outroPlayableDirector)) ::UnityW<::UnityEngine::Playables::PlayableDirector>
       _outroPlayableDirector;
 
-  /// @brief Field _playerTimelinePropertyNames, offset 0x48, size 0x8
+  /// @brief Field _playerTimelinePropertyNames, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__playerTimelinePropertyNames, put = __cordl_internal_set__playerTimelinePropertyNames)) ::ArrayW<::UnityEngine::PropertyName>
       _playerTimelinePropertyNames;
 
-  /// @brief Field _playerTimelineTrackNames, offset 0x30, size 0x8
+  /// @brief Field _playerTimelineTrackNames, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__playerTimelineTrackNames, put = __cordl_internal_set__playerTimelineTrackNames)) ::ArrayW<::StringW> _playerTimelineTrackNames;
 
-  /// @brief Field _resultsMocksActivationTrack, offset 0x88, size 0x8
+  /// @brief Field _resultsMocksActivationTrack, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__resultsMocksActivationTrack, put = __cordl_internal_set__resultsMocksActivationTrack)) ::StringW _resultsMocksActivationTrack;
 
-  /// @brief Field _resultsTimelinePropertyNames, offset 0x58, size 0x8
+  /// @brief Field _resultsTimelinePropertyNames, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__resultsTimelinePropertyNames, put = __cordl_internal_set__resultsTimelinePropertyNames)) ::ArrayW<::UnityEngine::PropertyName>
       _resultsTimelinePropertyNames;
 
-  /// @brief Field _resultsTimelineTrackNames, offset 0x50, size 0x8
+  /// @brief Field _resultsTimelineTrackNames, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__resultsTimelineTrackNames, put = __cordl_internal_set__resultsTimelineTrackNames)) ::ArrayW<::StringW> _resultsTimelineTrackNames;
 
-  /// @brief Field _ringTimelineTrackNames, offset 0x38, size 0x8
+  /// @brief Field _ringTimelineTrackNames, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__ringTimelineTrackNames, put = __cordl_internal_set__ringTimelineTrackNames)) ::ArrayW<::StringW> _ringTimelineTrackNames;
 
-  /// @brief Field _sceneSetupData, offset 0xb0, size 0x8
+  /// @brief Field _sceneSetupData, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData)) ::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
 
-  /// @brief Field _songPreviewTrackName, offset 0x80, size 0x8
+  /// @brief Field _songPreviewTrackName, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__songPreviewTrackName, put = __cordl_internal_set__songPreviewTrackName)) ::StringW _songPreviewTrackName;
 
-  /// @brief Method AnimateOutro, addr 0x5defe40, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method AnimateOutro, addr 0x5e2d5b8, size 0x1c8, virtual false, abstract: false, final false
   inline void AnimateOutro(::GlobalNamespace::MultiplayerResultsData* multiplayerResultsData, ::System::Action* onCompleted);
 
-  /// @brief Method BindOutroTimeline, addr 0x5dfbe54, size 0x67c, virtual false, abstract: false, final false
+  /// @brief Method BindOutroTimeline, addr 0x5e39488, size 0x67c, virtual false, abstract: false, final false
   inline void BindOutroTimeline();
 
-  /// @brief Method BindRingsAndAudio, addr 0x5dfc4d0, size 0x6f0, virtual false, abstract: false, final false
+  /// @brief Method BindRingsAndAudio, addr 0x5e39b04, size 0x6f0, virtual false, abstract: false, final false
   inline void BindRingsAndAudio(::ArrayW<::UnityEngine::GameObject*> rings, bool isMock, bool isDuel, ::UnityEngine::GameObject* resultsMocks);
 
   /// [UsedImplicitly]
-  /// @brief Method Completed, addr 0x5dfd1b4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Completed, addr 0x5e3a1f4, size 0x20, virtual false, abstract: false, final false
   inline void Completed();
 
-  /// @brief Method HandlePlayerSpawningDidFinish, addr 0x5dfbbcc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerSpawningDidFinish, addr 0x5e391fc, size 0x28, virtual false, abstract: false, final false
   inline void HandlePlayerSpawningDidFinish();
 
   static inline ::GlobalNamespace::MultiplayerOutroAnimationController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5dfbc9c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5e392d0, size 0x10c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x5dfbaf4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5e39124, size 0xd8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__badgeMidTransform() const;
@@ -175,10 +172,6 @@ public:
   constexpr ::UnityEngine::PropertyName const& __cordl_internal_get__localPlayerTimelinePropertyName() const;
 
   constexpr ::UnityEngine::PropertyName& __cordl_internal_get__localPlayerTimelinePropertyName();
-
-  constexpr ::StringW const& __cordl_internal_get__localPlayerTrackName() const;
-
-  constexpr ::StringW& __cordl_internal_get__localPlayerTrackName();
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerPlayersManager> const& __cordl_internal_get__multiplayerPlayersManager() const;
 
@@ -248,8 +241,6 @@ public:
 
   constexpr void __cordl_internal_set__localPlayerTimelinePropertyName(::UnityEngine::PropertyName value);
 
-  constexpr void __cordl_internal_set__localPlayerTrackName(::StringW value);
-
   constexpr void __cordl_internal_set__multiplayerPlayersManager(::UnityW<::GlobalNamespace::MultiplayerPlayersManager> value);
 
   constexpr void __cordl_internal_set__multiplayerResultsPyramidView(::UnityW<::GlobalNamespace::MultiplayerResultsPyramidView> value);
@@ -278,7 +269,7 @@ public:
 
   constexpr void __cordl_internal_set__songPreviewTrackName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5dfd5c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e3a214, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -296,7 +287,7 @@ public:
   MultiplayerOutroAnimationController(MultiplayerOutroAnimationController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6290 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6294 };
 
   /// [Header("Master Timeline")]
   /// [SerializeField]
@@ -305,89 +296,85 @@ public:
 
   /// [Header("Common Timeline")]
   /// [SerializeField]
-  /// @brief Field _localPlayerTrackName, offset: 0x28, size: 0x8, def value: None
-  ::StringW ____localPlayerTrackName;
-
-  /// [SerializeField]
-  /// @brief Field _playerTimelineTrackNames, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _playerTimelineTrackNames, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::StringW> ____playerTimelineTrackNames;
 
   /// [SerializeField]
-  /// @brief Field _ringTimelineTrackNames, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _ringTimelineTrackNames, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::StringW> ____ringTimelineTrackNames;
 
   /// [HideInInspector]
   /// [SerializeField]
-  /// @brief Field _localPlayerTimelinePropertyName, offset: 0x40, size: 0x4, def value: None
+  /// @brief Field _localPlayerTimelinePropertyName, offset: 0x38, size: 0x4, def value: None
   ::UnityEngine::PropertyName ____localPlayerTimelinePropertyName;
 
   /// [HideInInspector]
   /// [SerializeField]
-  /// @brief Field _playerTimelinePropertyNames, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _playerTimelinePropertyNames, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::PropertyName> ____playerTimelinePropertyNames;
 
   /// [Header("Common Start")]
   /// [SerializeField]
-  /// @brief Field _resultsTimelineTrackNames, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _resultsTimelineTrackNames, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::StringW> ____resultsTimelineTrackNames;
 
   /// [HideInInspector]
   /// [SerializeField]
-  /// @brief Field _resultsTimelinePropertyNames, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _resultsTimelinePropertyNames, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::PropertyName> ____resultsTimelinePropertyNames;
 
   /// [Header("Badges")]
   /// [SerializeField]
-  /// @brief Field _badgeStartTransform, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _badgeStartTransform, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____badgeStartTransform;
 
   /// [SerializeField]
-  /// @brief Field _badgeMidTransform, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _badgeMidTransform, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____badgeMidTransform;
 
   /// [SerializeField]
-  /// @brief Field _badgeTimelineTrackNames, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _badgeTimelineTrackNames, offset: 0x68, size: 0x8, def value: None
   ::ArrayW<::StringW> ____badgeTimelineTrackNames;
 
   /// [HideInInspector]
   /// [SerializeField]
-  /// @brief Field _badgeTimelinePropertyNames, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _badgeTimelinePropertyNames, offset: 0x70, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::PropertyName> ____badgeTimelinePropertyNames;
 
   /// [Header("Others")]
   /// [SerializeField]
-  /// @brief Field _songPreviewTrackName, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _songPreviewTrackName, offset: 0x78, size: 0x8, def value: None
   ::StringW ____songPreviewTrackName;
 
   /// [SerializeField]
-  /// @brief Field _resultsMocksActivationTrack, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field _resultsMocksActivationTrack, offset: 0x80, size: 0x8, def value: None
   ::StringW ____resultsMocksActivationTrack;
 
   /// [SerializeField]
-  /// @brief Field _multiplayerScoreRingManager, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field _multiplayerScoreRingManager, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerScoreRingManager> ____multiplayerScoreRingManager;
 
   /// [SerializeField]
-  /// @brief Field _multiplayerResultsPyramidView, offset: 0x98, size: 0x8, def value: None
+  /// @brief Field _multiplayerResultsPyramidView, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidView> ____multiplayerResultsPyramidView;
 
   /// [Inject]
-  /// @brief Field _multiplayerPlayersManager, offset: 0xa0, size: 0x8, def value: None
+  /// @brief Field _multiplayerPlayersManager, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerPlayersManager> ____multiplayerPlayersManager;
 
   /// [Inject]
-  /// @brief Field _multiplayerSessionManager, offset: 0xa8, size: 0x8, def value: None
+  /// @brief Field _multiplayerSessionManager, offset: 0xa0, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ____multiplayerSessionManager;
 
   /// [Inject]
-  /// @brief Field _sceneSetupData, offset: 0xb0, size: 0x8, def value: None
+  /// @brief Field _sceneSetupData, offset: 0xa8, size: 0x8, def value: None
   ::GlobalNamespace::GameplayCoreSceneSetupData* ____sceneSetupData;
 
   /// [Inject]
-  /// @brief Field _layoutProvider, offset: 0xb8, size: 0x8, def value: None
+  /// @brief Field _layoutProvider, offset: 0xb0, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerLayoutProvider* ____layoutProvider;
 
-  /// @brief Field _onCompleted, offset: 0xc0, size: 0x8, def value: None
+  /// @brief Field _onCompleted, offset: 0xb8, size: 0x8, def value: None
   ::System::Action* ____onCompleted;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -395,46 +382,44 @@ public:
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____outroPlayableDirector) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____localPlayerTrackName) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____playerTimelineTrackNames) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____playerTimelineTrackNames) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____ringTimelineTrackNames) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____ringTimelineTrackNames) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____localPlayerTimelinePropertyName) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____localPlayerTimelinePropertyName) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____playerTimelinePropertyNames) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____playerTimelinePropertyNames) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____resultsTimelineTrackNames) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____resultsTimelineTrackNames) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____resultsTimelinePropertyNames) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____resultsTimelinePropertyNames) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____badgeStartTransform) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____badgeStartTransform) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____badgeMidTransform) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____badgeMidTransform) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____badgeTimelineTrackNames) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____badgeTimelineTrackNames) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____badgeTimelinePropertyNames) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____badgeTimelinePropertyNames) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____songPreviewTrackName) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____songPreviewTrackName) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____resultsMocksActivationTrack) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____resultsMocksActivationTrack) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____multiplayerScoreRingManager) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____multiplayerScoreRingManager) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____multiplayerResultsPyramidView) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____multiplayerResultsPyramidView) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____multiplayerPlayersManager) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____multiplayerPlayersManager) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____multiplayerSessionManager) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____multiplayerSessionManager) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____sceneSetupData) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____sceneSetupData) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____layoutProvider) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____layoutProvider) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____onCompleted) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerOutroAnimationController, ____onCompleted) == 0xc0, "Offset mismatch!");
-
-static_assert(sizeof(::GlobalNamespace::MultiplayerOutroAnimationController) == 0xc8, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::MultiplayerOutroAnimationController) == 0xc0, "Size mismatch!");
 
 } // namespace GlobalNamespace

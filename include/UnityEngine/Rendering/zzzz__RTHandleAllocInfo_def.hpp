@@ -93,196 +93,196 @@ public:
 
   __declspec(property(get = get_wrapModeW, put = set_wrapModeW)) ::UnityEngine::TextureWrapMode wrapModeW;
 
-  /// @brief Method .ctor, addr 0x6bc8394, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c05010, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_anisoLevel, addr 0x6bc82f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_anisoLevel, addr 0x6c04f70, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_anisoLevel();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_autoGenerateMips, addr 0x6bc82d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_autoGenerateMips, addr 0x6c04f50, size 0x8, virtual false, abstract: false, final false
   inline bool get_autoGenerateMips();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_bindTextureMS, addr 0x6bc8324, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bindTextureMS, addr 0x6c04fa0, size 0x8, virtual false, abstract: false, final false
   inline bool get_bindTextureMS();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_dimension, addr 0x6bc82a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dimension, addr 0x6c04f20, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::TextureDimension get_dimension();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_enableRandomWrite, addr 0x6bc82b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enableRandomWrite, addr 0x6c04f30, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableRandomWrite();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_enableShadingRate, addr 0x6bc8374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enableShadingRate, addr 0x6c04ff0, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableShadingRate();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_filterMode, addr 0x6bc8264, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_filterMode, addr 0x6c04ee0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::FilterMode get_filterMode();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_format, addr 0x6bc8254, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_format, addr 0x6c04ed0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Experimental::Rendering::GraphicsFormat get_format();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_isShadowMap, addr 0x6bc82e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isShadowMap, addr 0x6c04f60, size 0x8, virtual false, abstract: false, final false
   inline bool get_isShadowMap();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_memoryless, addr 0x6bc8354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_memoryless, addr 0x6c04fd0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::RenderTextureMemoryless get_memoryless();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_mipMapBias, addr 0x6bc8304, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mipMapBias, addr 0x6c04f80, size 0x8, virtual false, abstract: false, final false
   inline float_t get_mipMapBias();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_msaaSamples, addr 0x6bc8314, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_msaaSamples, addr 0x6c04f90, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::MSAASamples get_msaaSamples();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_name, addr 0x6bc8384, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x6c05000, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_slices, addr 0x6bc8244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_slices, addr 0x6c04ec0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_slices();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_useDynamicScale, addr 0x6bc8334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useDynamicScale, addr 0x6c04fb0, size 0x8, virtual false, abstract: false, final false
   inline bool get_useDynamicScale();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_useDynamicScaleExplicit, addr 0x6bc8344, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useDynamicScaleExplicit, addr 0x6c04fc0, size 0x8, virtual false, abstract: false, final false
   inline bool get_useDynamicScaleExplicit();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_useMipMap, addr 0x6bc82c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useMipMap, addr 0x6c04f40, size 0x8, virtual false, abstract: false, final false
   inline bool get_useMipMap();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_vrUsage, addr 0x6bc8364, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vrUsage, addr 0x6c04fe0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::VRTextureUsage get_vrUsage();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_wrapModeU, addr 0x6bc8274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_wrapModeU, addr 0x6c04ef0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextureWrapMode get_wrapModeU();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_wrapModeV, addr 0x6bc8284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_wrapModeV, addr 0x6c04f00, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextureWrapMode get_wrapModeV();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_wrapModeW, addr 0x6bc8294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_wrapModeW, addr 0x6c04f10, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextureWrapMode get_wrapModeW();
 
   /// [CompilerGenerated]
-  /// @brief Method set_anisoLevel, addr 0x6bc82fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_anisoLevel, addr 0x6c04f78, size 0x8, virtual false, abstract: false, final false
   inline void set_anisoLevel(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_autoGenerateMips, addr 0x6bc82dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_autoGenerateMips, addr 0x6c04f58, size 0x8, virtual false, abstract: false, final false
   inline void set_autoGenerateMips(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_bindTextureMS, addr 0x6bc832c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bindTextureMS, addr 0x6c04fa8, size 0x8, virtual false, abstract: false, final false
   inline void set_bindTextureMS(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_dimension, addr 0x6bc82ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_dimension, addr 0x6c04f28, size 0x8, virtual false, abstract: false, final false
   inline void set_dimension(::UnityEngine::Rendering::TextureDimension value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_enableRandomWrite, addr 0x6bc82bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_enableRandomWrite, addr 0x6c04f38, size 0x8, virtual false, abstract: false, final false
   inline void set_enableRandomWrite(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_enableShadingRate, addr 0x6bc837c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_enableShadingRate, addr 0x6c04ff8, size 0x8, virtual false, abstract: false, final false
   inline void set_enableShadingRate(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_filterMode, addr 0x6bc826c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_filterMode, addr 0x6c04ee8, size 0x8, virtual false, abstract: false, final false
   inline void set_filterMode(::UnityEngine::FilterMode value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_format, addr 0x6bc825c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_format, addr 0x6c04ed8, size 0x8, virtual false, abstract: false, final false
   inline void set_format(::UnityEngine::Experimental::Rendering::GraphicsFormat value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_isShadowMap, addr 0x6bc82ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isShadowMap, addr 0x6c04f68, size 0x8, virtual false, abstract: false, final false
   inline void set_isShadowMap(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_memoryless, addr 0x6bc835c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_memoryless, addr 0x6c04fd8, size 0x8, virtual false, abstract: false, final false
   inline void set_memoryless(::UnityEngine::RenderTextureMemoryless value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_mipMapBias, addr 0x6bc830c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mipMapBias, addr 0x6c04f88, size 0x8, virtual false, abstract: false, final false
   inline void set_mipMapBias(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_msaaSamples, addr 0x6bc831c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_msaaSamples, addr 0x6c04f98, size 0x8, virtual false, abstract: false, final false
   inline void set_msaaSamples(::UnityEngine::Rendering::MSAASamples value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_name, addr 0x6bc838c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x6c05008, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_slices, addr 0x6bc824c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_slices, addr 0x6c04ec8, size 0x8, virtual false, abstract: false, final false
   inline void set_slices(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_useDynamicScale, addr 0x6bc833c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useDynamicScale, addr 0x6c04fb8, size 0x8, virtual false, abstract: false, final false
   inline void set_useDynamicScale(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_useDynamicScaleExplicit, addr 0x6bc834c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useDynamicScaleExplicit, addr 0x6c04fc8, size 0x8, virtual false, abstract: false, final false
   inline void set_useDynamicScaleExplicit(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_useMipMap, addr 0x6bc82cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useMipMap, addr 0x6c04f48, size 0x8, virtual false, abstract: false, final false
   inline void set_useMipMap(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_vrUsage, addr 0x6bc836c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_vrUsage, addr 0x6c04fe8, size 0x8, virtual false, abstract: false, final false
   inline void set_vrUsage(::UnityEngine::VRTextureUsage value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_wrapModeU, addr 0x6bc827c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_wrapModeU, addr 0x6c04ef8, size 0x8, virtual false, abstract: false, final false
   inline void set_wrapModeU(::UnityEngine::TextureWrapMode value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_wrapModeV, addr 0x6bc828c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_wrapModeV, addr 0x6c04f08, size 0x8, virtual false, abstract: false, final false
   inline void set_wrapModeV(::UnityEngine::TextureWrapMode value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_wrapModeW, addr 0x6bc829c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_wrapModeW, addr 0x6c04f18, size 0x8, virtual false, abstract: false, final false
   inline void set_wrapModeW(::UnityEngine::TextureWrapMode value);
 
   // Ctor Parameters []
@@ -313,7 +313,7 @@ public:
                               ::UnityEngine::VRTextureUsage _vrUsage_k__BackingField, bool _enableShadingRate_k__BackingField, ::StringW _name_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9119 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9126 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };

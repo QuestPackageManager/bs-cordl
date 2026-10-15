@@ -43,7 +43,7 @@ public:
   constexpr OVRTracker_Frustum(float_t nearZ, float_t farZ, ::UnityEngine::Vector2 fov) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7912 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7919 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -87,36 +87,36 @@ public:
 
   __declspec(property(get = get_isPresent)) bool isPresent;
 
-  /// @brief Method GetFrustum, addr 0x62ffbf0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetFrustum, addr 0x633c638, size 0xb4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTracker_Frustum GetFrustum(int32_t tracker);
 
-  /// @brief Method GetPose, addr 0x62ffca4, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method GetPose, addr 0x633c6ec, size 0x214, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPose GetPose(int32_t tracker);
 
-  /// @brief Method GetPoseValid, addr 0x62ffeb8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetPoseValid, addr 0x633c900, size 0xec, virtual false, abstract: false, final false
   inline bool GetPoseValid(int32_t tracker);
 
-  /// @brief Method GetPresent, addr 0x62ffb04, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetPresent, addr 0x633c54c, size 0xec, virtual false, abstract: false, final false
   inline bool GetPresent(int32_t tracker);
 
   static inline ::GlobalNamespace::OVRTracker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x62fffa4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x633c9ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_count, addr 0x62ffac8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_count, addr 0x633c510, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_count();
 
-  /// @brief Method get_isEnabled, addr 0x62ff994, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_isEnabled, addr 0x633c3dc, size 0x98, virtual false, abstract: false, final false
   inline bool get_isEnabled();
 
-  /// @brief Method get_isPositionTracked, addr 0x62ff940, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_isPositionTracked, addr 0x633c388, size 0x54, virtual false, abstract: false, final false
   inline bool get_isPositionTracked();
 
-  /// @brief Method get_isPresent, addr 0x62ff8a8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_isPresent, addr 0x633c2f0, size 0x98, virtual false, abstract: false, final false
   inline bool get_isPresent();
 
-  /// @brief Method set_isEnabled, addr 0x62ffa2c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_isEnabled, addr 0x633c474, size 0x9c, virtual false, abstract: false, final false
   inline void set_isEnabled(bool value);
 
 protected:
@@ -134,7 +134,7 @@ public:
   OVRTracker(OVRTracker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7913 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7920 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

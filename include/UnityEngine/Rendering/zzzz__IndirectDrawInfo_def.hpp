@@ -31,7 +31,7 @@ public:
   constexpr IndirectDrawInfo(uint32_t indexCount, uint32_t firstIndex, uint32_t baseVertex, uint32_t firstInstanceGlobalIndex, uint32_t maxInstanceCountAndTopology) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18267 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18300 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

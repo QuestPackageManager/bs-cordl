@@ -31,22 +31,22 @@ public:
 
   __declspec(property(get = get_type)) ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type;
 
-  /// @brief Method .ctor, addr 0x6e44588, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e81224, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(float_t markerSideLength);
 
-  /// @brief Method .ctor, addr 0x6e44570, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e8120c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(void* next, float_t markerSideLength);
 
   /// [CompilerGenerated]
-  /// @brief Method get_markerSideLength, addr 0x6e44568, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_markerSideLength, addr 0x6e81204, size 0x8, virtual false, abstract: false, final false
   inline float_t get_markerSideLength();
 
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e44560, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x6e811fc, size 0x8, virtual false, abstract: false, final false
   inline void* get_next();
 
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e44558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6e811f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   // Ctor Parameters []
@@ -59,7 +59,7 @@ public:
   constexpr XrSpatialMarkerSizeEXT(::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType _type_k__BackingField, void* _next_k__BackingField, float_t _markerSideLength_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17573 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17606 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

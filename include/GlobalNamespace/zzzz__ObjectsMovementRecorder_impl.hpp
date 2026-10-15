@@ -40,7 +40,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>, bool, ::GlobalNamespace::IBeatSaberLogger*, ::GlobalNamespace::IPosesSerializer*)>(
     &::GlobalNamespace::ObjectsMovementRecorder_InitData::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5d02c4c;
+  constexpr static std::size_t addrs = 0x5d3bc60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -229,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObjectsMovementRecorder::*)()>(&::GlobalNamespace::ObjectsMovementRecorder::Init)> {
   constexpr static std::size_t size = 0x6b0;
-  constexpr static std::size_t addrs = 0x5d01a6c;
+  constexpr static std::size_t addrs = 0x5d3aa80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObjectsMovementRecorder*>(), { "Init", {}, {} })));
@@ -241,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObjectsMovementRecorder::*)()>(&::GlobalNamespace::ObjectsMovementRecorder::OnDestroy)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x5d02850;
+  constexpr static std::size_t addrs = 0x5d3b864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObjectsMovementRecorder*>(), { "OnDestroy", {}, {} })));
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObjectsMovementRecorder::*)()>(&::GlobalNamespace::ObjectsMovementRecorder::HandleGameStateChanged)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5d02ad0;
+  constexpr static std::size_t addrs = 0x5d3bae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObjectsMovementRecorder*>(), { "HandleGameStateChanged", {}, {} })));
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObjectsMovementRecorder::*)()>(&::GlobalNamespace::ObjectsMovementRecorder::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5d02c40;
+  constexpr static std::size_t addrs = 0x5d3bc54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObjectsMovementRecorder*>(), { ".ctor", {}, {} })));
@@ -439,18 +439,6 @@ constexpr ::UnityW<::UnityEngine::Camera> const& GlobalNamespace::ObjectsMovemen
 constexpr void GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_set__externalCamera(::UnityW<::UnityEngine::Camera> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____externalCamera = value;
-}
-constexpr ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>& GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_get__playbackScreenshots() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____playbackScreenshots;
-}
-constexpr ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*> const& GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_get__playbackScreenshots() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____playbackScreenshots;
-}
-constexpr void GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_set__playbackScreenshots(::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____playbackScreenshots = value;
 }
 constexpr ::GlobalNamespace::IBeatSaberLogger*& GlobalNamespace::ObjectsMovementRecorder::__cordl_internal_get__logger() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

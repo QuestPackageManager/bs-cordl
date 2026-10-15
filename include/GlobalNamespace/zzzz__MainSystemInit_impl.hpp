@@ -24,6 +24,7 @@
 #include "GlobalNamespace/zzzz__MainSystemInit_def.hpp"
 #include "GlobalNamespace/zzzz__NetworkPlayerEntitlementChecker_def.hpp"
 #include "GlobalNamespace/zzzz__NodePoseSyncStateManager_def.hpp"
+#include "GlobalNamespace/zzzz__OculusGameDlcProductCollectionModel_def.hpp"
 #include "GlobalNamespace/zzzz__OculusLevelProductCollectionModel_def.hpp"
 #include "GlobalNamespace/zzzz__PackDefinitionSO_def.hpp"
 #include "GlobalNamespace/zzzz__PerceivedLoudnessPerLevelModel_def.hpp"
@@ -47,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSystemInit___c::*)()>(&::GlobalNamespace::MainSystemInit___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a007e8;
+  constexpr static std::size_t addrs = 0x3a2a93c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit___c*>(), { ".ctor", {}, {} })));
@@ -60,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ResettableRandom* (::GlobalNamespace::MainSystemInit___c::*)(::Zenject::InjectContext*)>(
     &::GlobalNamespace::MainSystemInit___c::_InstallBindings_b__26_1)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3a007ec;
+  constexpr static std::size_t addrs = 0x3a2a940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +76,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Percei
     ::GlobalNamespace::MainSystemInit___c::*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
     &::GlobalNamespace::MainSystemInit___c::_InstallBindings_b__26_2)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3a008ec;
+  constexpr static std::size_t addrs = 0x3a2aa40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +93,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Oculus
     ::GlobalNamespace::MainSystemInit___c::*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
     &::GlobalNamespace::MainSystemInit___c::_InstallBindings_b__26_3)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3a00960;
+  constexpr static std::size_t addrs = 0x3a2aab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,13 +103,27 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Oculus
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::MainSystemInit___c._InstallBindings_b__26_4
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OculusGameDlcProductCollectionModel* (::GlobalNamespace::MainSystemInit___c::*)(::Zenject::InjectContext*)>(
+    &::GlobalNamespace::MainSystemInit___c::_InstallBindings_b__26_4)> {
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x3a2ab28;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit___c*>(), { "<InstallBindings>b__26_4", {}, { ::i2c::type_of<::Zenject::InjectContext*>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::MainSystemInit___c._InstallPlatformLeaderboardsModel_b__29_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LeaderboardIdsModel* (::GlobalNamespace::MainSystemInit___c::*)(::GlobalNamespace::BeatmapLevelsModel*)>(
     &::GlobalNamespace::MainSystemInit___c::_InstallPlatformLeaderboardsModel_b__29_0)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3a009d4;
+  constexpr static std::size_t addrs = 0x3a2abe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,6 +171,14 @@ GlobalNamespace::MainSystemInit___c::getStaticF___9__26_3() {
       ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::GlobalNamespace::OculusLevelProductCollectionModel*>*, "<>9__26_3",
       ::GlobalNamespace::MainSystemInit___c*>();
 }
+inline void GlobalNamespace::MainSystemInit___c::setStaticF___9__26_4(::System::Func_2<::Zenject::InjectContext*, ::GlobalNamespace::OculusGameDlcProductCollectionModel*>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::Zenject::InjectContext*, ::GlobalNamespace::OculusGameDlcProductCollectionModel*>*, "<>9__26_4", ::GlobalNamespace::MainSystemInit___c*>(
+      std::forward<::System::Func_2<::Zenject::InjectContext*, ::GlobalNamespace::OculusGameDlcProductCollectionModel*>*>(value));
+}
+inline ::System::Func_2<::Zenject::InjectContext*, ::GlobalNamespace::OculusGameDlcProductCollectionModel*>* GlobalNamespace::MainSystemInit___c::getStaticF___9__26_4() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::Zenject::InjectContext*, ::GlobalNamespace::OculusGameDlcProductCollectionModel*>*, "<>9__26_4",
+                                           ::GlobalNamespace::MainSystemInit___c*>();
+}
 inline void GlobalNamespace::MainSystemInit___c::setStaticF___9__29_0(::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>*, "<>9__29_0", ::GlobalNamespace::MainSystemInit___c*>(
       std::forward<::System::Func_2<::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::LeaderboardIdsModel*>*>(value));
@@ -188,6 +211,11 @@ GlobalNamespace::MainSystemInit___c::_InstallBindings_b__26_3(::System::Collecti
                                        { "<InstallBindings>b__26_3", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OculusLevelProductCollectionModel*>(this, ___internal_method, packDefinitions);
 }
+inline ::GlobalNamespace::OculusGameDlcProductCollectionModel* GlobalNamespace::MainSystemInit___c::_InstallBindings_b__26_4(::Zenject::InjectContext* context) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit___c*>(), { "<InstallBindings>b__26_4", {}, { ::i2c::type_of<::Zenject::InjectContext*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OculusGameDlcProductCollectionModel*>(this, ___internal_method, context);
+}
 inline ::GlobalNamespace::LeaderboardIdsModel* GlobalNamespace::MainSystemInit___c::_InstallPlatformLeaderboardsModel_b__29_0(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit___c*>(),
@@ -204,7 +232,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSystemInit___c__DisplayClass26_0::*)()>(&::GlobalNamespace::MainSystemInit___c__DisplayClass26_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a00290;
+  constexpr static std::size_t addrs = 0x3a2a3e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit___c__DisplayClass26_0*>(), { ".ctor", {}, {} })));
@@ -217,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::DeterminismConfig* (::GlobalNamespace::MainSystemInit___c__DisplayClass26_0::*)(::GlobalNamespace::TimeHelper*)>(
     &::GlobalNamespace::MainSystemInit___c__DisplayClass26_0::_InstallBindings_b__0)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3a00a50;
+  constexpr static std::size_t addrs = 0x3a2ac5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit___c__DisplayClass26_0*>(),
@@ -256,7 +284,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSystemInit::*)(::GlobalNamespace::SettingsApplicatorSO*)>(&::GlobalNamespace::MainSystemInit::Init)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x39f693c;
+  constexpr static std::size_t addrs = 0x3a206e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -269,8 +297,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSystemInit::*)(::Zenject::DiContainer*, ::BeatSaber::Destinations::Destination*)>(
     &::GlobalNamespace::MainSystemInit::InstallBindings)> {
-  constexpr static std::size_t size = 0x1e7c;
-  constexpr static std::size_t addrs = 0x39f7334;
+  constexpr static std::size_t size = 0x2050;
+  constexpr static std::size_t addrs = 0x3a21220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -284,7 +312,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSystemInit::*)(::Zenject::DiContainer*, bool)>(&::GlobalNamespace::MainSystemInit::InstallRichPresence)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3a003b8;
+  constexpr static std::size_t addrs = 0x3a2a50c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -298,7 +326,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSystemInit::*)(::Zenject::DiContainer*)>(&::GlobalNamespace::MainSystemInit::InstallOculusDestinationBindings)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3a00294;
+  constexpr static std::size_t addrs = 0x3a2a3e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -312,7 +340,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSystemInit::*)(::Zenject::DiContainer*, bool)>(
     &::GlobalNamespace::MainSystemInit::InstallPlatformLeaderboardsModel)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x3a004f0;
+  constexpr static std::size_t addrs = 0x3a2a644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -326,7 +354,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSystemInit::*)()>(&::GlobalNamespace::MainSystemInit::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3a00788;
+  constexpr static std::size_t addrs = 0x3a2a8dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit*>(), { ".ctor", {}, {} })));

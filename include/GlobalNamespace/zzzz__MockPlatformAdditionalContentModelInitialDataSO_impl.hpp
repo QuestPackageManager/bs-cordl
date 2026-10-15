@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* (
     ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::*)()>(&::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::get_levelsEntitlements)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3986a18;
+  constexpr static std::size_t addrs = 0x39a9ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,11 +25,25 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* (
     ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::*)()>(&::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::get_levelPacksEntitlements)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3986a20;
+  constexpr static std::size_t addrs = 0x39a9ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*>(), { "get_levelPacksEntitlements", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO.get_gameDlcEntitlements
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* (
+    ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::*)()>(&::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::get_gameDlcEntitlements)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x39aa004;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*>(), { "get_gameDlcEntitlements", {}, {} })));
     return ___internal_method;
   }
 };
@@ -39,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::*)()>(
     &::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::get_packBetterBuyThanLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3986a28;
+  constexpr static std::size_t addrs = 0x39aa00c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::*)()>(
     &::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::get_useCustomEntitlement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3986a30;
+  constexpr static std::size_t addrs = 0x39aa014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,8 +80,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::*)()>(
     &::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::_ctor)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3986a38;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x39aa01c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,6 +137,18 @@ constexpr void GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____packBetterBuyThanLevel = value;
 }
+constexpr ::ArrayW<::GlobalNamespace::MockPlatformEntitlement*>& GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__cordl_internal_get__gameDlcEntitlements() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____gameDlcEntitlements;
+}
+constexpr ::ArrayW<::GlobalNamespace::MockPlatformEntitlement*> const& GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__cordl_internal_get__gameDlcEntitlements() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____gameDlcEntitlements;
+}
+constexpr void GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__cordl_internal_set__gameDlcEntitlements(::ArrayW<::GlobalNamespace::MockPlatformEntitlement*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____gameDlcEntitlements = value;
+}
 inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::get_levelsEntitlements() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*>(), { "get_levelsEntitlements", {}, {} })));
@@ -131,6 +157,11 @@ inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPl
 inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::get_levelPacksEntitlements() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*>(), { "get_levelPacksEntitlements", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>*>(this, ___internal_method);
+}
+inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::get_gameDlcEntitlements() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*>(), { "get_gameDlcEntitlements", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>*>(this, ___internal_method);
 }
 inline bool GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::get_packBetterBuyThanLevel() {

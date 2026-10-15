@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::StencilCrossFadeRenderPass_PassData::*)()>(
     &::UnityEngine::Rendering::Universal::StencilCrossFadeRenderPass_PassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6cdeafc;
+  constexpr static std::size_t addrs = 0x6d1b778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::StencilCrossFadeRenderPass___c::*)()>(
     &::UnityEngine::Rendering::Universal::StencilCrossFadeRenderPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6cdeb54;
+  constexpr static std::size_t addrs = 0x6d1b7d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::Universal::StencilCrossFadeRenderPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::StencilCrossFadeRenderPass___c::_Render_b__8_0)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6cdeb58;
+  constexpr static std::size_t addrs = 0x6d1b7d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::StencilCrossFadeRenderPass___c*>(),
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::StencilCrossFadeRenderPass::*)(::UnityEngine::Shader*)>(
     &::UnityEngine::Rendering::Universal::StencilCrossFadeRenderPass::_ctor)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x6cde254;
+  constexpr static std::size_t addrs = 0x6d1aed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::StencilCrossFadeRenderPass::*)()>(
     &::UnityEngine::Rendering::Universal::StencilCrossFadeRenderPass::Dispose)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6cde528;
+  constexpr static std::size_t addrs = 0x6d1b1a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle)>(
     &::UnityEngine::Rendering::Universal::StencilCrossFadeRenderPass::Render)> {
   constexpr static std::size_t size = 0x394;
-  constexpr static std::size_t addrs = 0x6cde5e0;
+  constexpr static std::size_t addrs = 0x6d1b25c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::ArrayW<::UnityEngine::Material*>)>(
     &::UnityEngine::Rendering::Universal::StencilCrossFadeRenderPass::ExecutePass)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x6cde974;
+  constexpr static std::size_t addrs = 0x6d1b5f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

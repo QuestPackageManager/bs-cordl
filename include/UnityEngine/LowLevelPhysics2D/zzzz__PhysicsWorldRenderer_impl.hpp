@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Mesh> (::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_BaseDrawer::*)()>(
     &::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_BaseDrawer::GetMesh)> {
   constexpr static std::size_t size = 0x39c;
-  constexpr static std::size_t addrs = 0x6fdb428;
+  constexpr static std::size_t addrs = 0x701831c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_BaseDrawer::*)()>(
     &::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_BaseDrawer::Dispose)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6fdb30c;
+  constexpr static std::size_t addrs = 0x7018200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_BaseDrawer::*)()>(
     &::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_BaseDrawer::_ctor)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x6fdb7c4;
+  constexpr static std::size_t addrs = 0x70186b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_PolygonGeometryDrawer::*)()>(
     &::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_PolygonGeometryDrawer::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6fdaf24;
+  constexpr static std::size_t addrs = 0x7017e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -277,7 +277,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowL
     ::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld_DrawResults>, float_t, float_t, ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane,
     int32_t)>(&::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_PolygonGeometryDrawer::Draw)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x6fdb9c8;
+  constexpr static std::size_t addrs = 0x70188bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_CircleGeometryDrawer::*)()>(
     &::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_CircleGeometryDrawer::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6fdafec;
+  constexpr static std::size_t addrs = 0x7017ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -327,7 +327,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowL
     ::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld_DrawResults>, float_t, float_t, ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane,
     int32_t)>(&::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_CircleGeometryDrawer::Draw)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x6fdbbcc;
+  constexpr static std::size_t addrs = 0x7018ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -361,7 +361,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_CapsuleGeometryDrawer::*)()>(
     &::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_CapsuleGeometryDrawer::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6fdb0b4;
+  constexpr static std::size_t addrs = 0x7017fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -376,7 +376,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowL
     ::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld_DrawResults>, float_t, float_t, ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane,
     int32_t)>(&::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_CapsuleGeometryDrawer::Draw)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x6fdbdd0;
+  constexpr static std::size_t addrs = 0x7018cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -411,7 +411,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_LineDrawer::*)()>(
     &::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_LineDrawer::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6fdb17c;
+  constexpr static std::size_t addrs = 0x7018070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -426,7 +426,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowL
     ::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld_DrawResults>, float_t, float_t, ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane,
     int32_t)>(&::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_LineDrawer::Draw)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x6fdbfd4;
+  constexpr static std::size_t addrs = 0x7018ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_LineDrawer*>(),
@@ -458,7 +458,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_PointDrawer::*)()>(
     &::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_PointDrawer::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6fdb244;
+  constexpr static std::size_t addrs = 0x7018138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -473,7 +473,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowL
     ::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld_DrawResults>, float_t, float_t, ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane,
     int32_t)>(&::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_PointDrawer::Draw)> {
   constexpr static std::size_t size = 0xa78;
-  constexpr static std::size_t addrs = 0x6fdc1c0;
+  constexpr static std::size_t addrs = 0x70190b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_PointDrawer*>(),
@@ -506,7 +506,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::LowLevelPhysics2D::PhysicsWorldRenderer_DrawerGroup::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsWorldRenderer_DrawerGroup::get_isValid)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6fdaf14;
+  constexpr static std::size_t addrs = 0x7017e08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -520,7 +520,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowLevelPhysics2D::PhysicsWorldRenderer_DrawerGroup::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsWorldRenderer_DrawerGroup::_ctor)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x6fdac6c;
+  constexpr static std::size_t addrs = 0x7017b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -535,7 +535,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowL
     ::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld_DrawResults>, float_t, float_t, ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane,
     int32_t)>(&::UnityEngine::LowLevelPhysics2D::PhysicsWorldRenderer_DrawerGroup::Draw)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6fdae74;
+  constexpr static std::size_t addrs = 0x7017d68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -554,7 +554,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowLevelPhysics2D::PhysicsWorldRenderer_DrawerGroup::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsWorldRenderer_DrawerGroup::Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6fda54c;
+  constexpr static std::size_t addrs = 0x7017440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -621,7 +621,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::LowLevelPhysics2D::PhysicsWorldRenderer::InitializeRendering)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x6fda120;
+  constexpr static std::size_t addrs = 0x7017014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -634,7 +634,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::LowLevelPhysics2D::PhysicsWorldRenderer::ShutdownRendering)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x6fda358;
+  constexpr static std::size_t addrs = 0x701724c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -648,7 +648,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsAABB (*)(::UnityEngine::Camera*)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsWorldRenderer::GetCameraViewAABB)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6fda5bc;
+  constexpr static std::size_t addrs = 0x70174b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -662,7 +662,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Camera*)>(&::UnityEngine::LowLevelPhysics2D::PhysicsWorldRenderer::IsCameraTypeValid)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6fda650;
+  constexpr static std::size_t addrs = 0x7017544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -676,7 +676,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Camera*)>(&::UnityEngine::LowLevelPhysics2D::PhysicsWorldRenderer::BIRP_RenderAllWorlds)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x6fda674;
+  constexpr static std::size_t addrs = 0x7017568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -691,7 +691,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::ScriptableRenderContext, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>*)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsWorldRenderer::SRP_RenderAllWorlds)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x6fda8a4;
+  constexpr static std::size_t addrs = 0x7017798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -710,7 +710,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::L
                                                                 ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane, float_t, float_t, int32_t)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsWorldRenderer::SendDrawResultsToCommandBuffer)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x6fdaadc;
+  constexpr static std::size_t addrs = 0x70179d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

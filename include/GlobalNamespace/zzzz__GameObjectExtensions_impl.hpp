@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::GameObject*)>(&::GlobalNamespace::GameObjectExtensions::ActivateSafe)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x35adba0;
+  constexpr static std::size_t addrs = 0x35d0480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::GameObject*)>(&::GlobalNamespace::GameObjectExtensions::DeactivateSafe)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x35adbd8;
+  constexpr static std::size_t addrs = 0x35d04b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

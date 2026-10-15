@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TextAutoSizeMode (::UnityEngine::UIElements::TextAutoSize::*)()>(
     &::UnityEngine::UIElements::TextAutoSize::get_mode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7134f40;
+  constexpr static std::size_t addrs = 0x7171e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextAutoSize>(), { "get_mode", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextAutoSize::*)(::UnityEngine::UIElements::TextAutoSizeMode)>(
     &::UnityEngine::UIElements::TextAutoSize::set_mode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7134f48;
+  constexpr static std::size_t addrs = 0x7171e7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Length (::UnityEngine::UIElements::TextAutoSize::*)()>(&::UnityEngine::UIElements::TextAutoSize::get_minSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7134f50;
+  constexpr static std::size_t addrs = 0x7171e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextAutoSize>(), { "get_minSize", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextAutoSize::*)(::UnityEngine::UIElements::Length)>(&::UnityEngine::UIElements::TextAutoSize::set_minSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7134f58;
+  constexpr static std::size_t addrs = 0x7171e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Length (::UnityEngine::UIElements::TextAutoSize::*)()>(&::UnityEngine::UIElements::TextAutoSize::get_maxSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7134f60;
+  constexpr static std::size_t addrs = 0x7171e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextAutoSize>(), { "get_maxSize", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextAutoSize::*)(::UnityEngine::UIElements::Length)>(&::UnityEngine::UIElements::TextAutoSize::set_maxSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7134f68;
+  constexpr static std::size_t addrs = 0x7171e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TextAutoSize (*)()>(&::UnityEngine::UIElements::TextAutoSize::None)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x7134f70;
+  constexpr static std::size_t addrs = 0x7171ea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextAutoSize>(), { "None", {}, {} })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TextAutoSize::*)(::UnityEngine::UIElements::TextAutoSize)>(&::UnityEngine::UIElements::TextAutoSize::Equals)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x7134f84;
+  constexpr static std::size_t addrs = 0x7171eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TextAutoSize::*)(::System::Object*)>(&::UnityEngine::UIElements::TextAutoSize::Equals)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x7134ff0;
+  constexpr static std::size_t addrs = 0x7171f24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::TextAutoSize::*)()>(&::UnityEngine::UIElements::TextAutoSize::GetHashCode)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x71350bc;
+  constexpr static std::size_t addrs = 0x7171ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::TextAutoSize, ::UnityEngine::UIElements::TextAutoSize)>(
     &::UnityEngine::UIElements::TextAutoSize::op_Equality)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x7135124;
+  constexpr static std::size_t addrs = 0x7172058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::TextAutoSize, ::UnityEngine::UIElements::TextAutoSize)>(
     &::UnityEngine::UIElements::TextAutoSize::op_Inequality)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x7135190;
+  constexpr static std::size_t addrs = 0x71720c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::PropertyBag_TextAutoSize_ModeProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TextAutoSize_ModeProperty::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7135478;
+  constexpr static std::size_t addrs = 0x71723ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TextAutoSize_ModeProperty*>(),
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PropertyBag_TextAutoSize_ModeProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TextAutoSize_ModeProperty::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7135480;
+  constexpr static std::size_t addrs = 0x71723b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TextAutoSize_ModeProperty*>(),
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TextAutoSizeMode (::UnityEngine::UIElements::PropertyBag_TextAutoSize_ModeProperty::*)(
     ::by_ref<::UnityEngine::UIElements::TextAutoSize>)>(&::UnityEngine::UIElements::PropertyBag_TextAutoSize_ModeProperty::GetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7135488;
+  constexpr static std::size_t addrs = 0x71723bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TextAutoSize_ModeProperty*>(),
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_TextAutoSize_ModeProperty::*)(
     ::by_ref<::UnityEngine::UIElements::TextAutoSize>, ::UnityEngine::UIElements::TextAutoSizeMode)>(&::UnityEngine::UIElements::PropertyBag_TextAutoSize_ModeProperty::SetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7135490;
+  constexpr static std::size_t addrs = 0x71723c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TextAutoSize_ModeProperty*>(),
@@ -305,7 +305,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_TextAutoSize_ModeProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TextAutoSize_ModeProperty::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x713534c;
+  constexpr static std::size_t addrs = 0x7172280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TextAutoSize_ModeProperty*>(), { ".ctor", {}, {} })));
@@ -371,7 +371,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::PropertyBag_TextAutoSize_MinSizeProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TextAutoSize_MinSizeProperty::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7135498;
+  constexpr static std::size_t addrs = 0x71723cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TextAutoSize_MinSizeProperty*>(),
@@ -385,7 +385,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PropertyBag_TextAutoSize_MinSizeProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TextAutoSize_MinSizeProperty::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71354a0;
+  constexpr static std::size_t addrs = 0x71723d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TextAutoSize_MinSizeProperty*>(),
@@ -399,7 +399,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Length (::UnityEngine::UIElements::PropertyBag_TextAutoSize_MinSizeProperty::*)(
     ::by_ref<::UnityEngine::UIElements::TextAutoSize>)>(&::UnityEngine::UIElements::PropertyBag_TextAutoSize_MinSizeProperty::GetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71354a8;
+  constexpr static std::size_t addrs = 0x71723dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TextAutoSize_MinSizeProperty*>(),
@@ -413,7 +413,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_TextAutoSize_MinSizeProperty::*)(
     ::by_ref<::UnityEngine::UIElements::TextAutoSize>, ::UnityEngine::UIElements::Length)>(&::UnityEngine::UIElements::PropertyBag_TextAutoSize_MinSizeProperty::SetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71354b0;
+  constexpr static std::size_t addrs = 0x71723e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TextAutoSize_MinSizeProperty*>(),
@@ -427,7 +427,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_TextAutoSize_MinSizeProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TextAutoSize_MinSizeProperty::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x71353b0;
+  constexpr static std::size_t addrs = 0x71722e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -495,7 +495,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::PropertyBag_TextAutoSize_MaxSizeProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TextAutoSize_MaxSizeProperty::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71354b8;
+  constexpr static std::size_t addrs = 0x71723ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TextAutoSize_MaxSizeProperty*>(),
@@ -509,7 +509,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PropertyBag_TextAutoSize_MaxSizeProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TextAutoSize_MaxSizeProperty::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71354c0;
+  constexpr static std::size_t addrs = 0x71723f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TextAutoSize_MaxSizeProperty*>(),
@@ -523,7 +523,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Length (::UnityEngine::UIElements::PropertyBag_TextAutoSize_MaxSizeProperty::*)(
     ::by_ref<::UnityEngine::UIElements::TextAutoSize>)>(&::UnityEngine::UIElements::PropertyBag_TextAutoSize_MaxSizeProperty::GetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71354c8;
+  constexpr static std::size_t addrs = 0x71723fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TextAutoSize_MaxSizeProperty*>(),
@@ -537,7 +537,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_TextAutoSize_MaxSizeProperty::*)(
     ::by_ref<::UnityEngine::UIElements::TextAutoSize>, ::UnityEngine::UIElements::Length)>(&::UnityEngine::UIElements::PropertyBag_TextAutoSize_MaxSizeProperty::SetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71354d0;
+  constexpr static std::size_t addrs = 0x7172404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TextAutoSize_MaxSizeProperty*>(),
@@ -551,7 +551,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_TextAutoSize_MaxSizeProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TextAutoSize_MaxSizeProperty::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x7135414;
+  constexpr static std::size_t addrs = 0x7172348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -618,7 +618,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextAutoSize_PropertyBag::*)()>(&::UnityEngine::UIElements::TextAutoSize_PropertyBag::_ctor)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x71351fc;
+  constexpr static std::size_t addrs = 0x7172130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextAutoSize_PropertyBag*>(), { ".ctor", {}, {} })));

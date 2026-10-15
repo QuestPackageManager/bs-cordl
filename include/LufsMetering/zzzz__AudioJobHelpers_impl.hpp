@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LufsMetering::FilterCoefficients (*)(float_t, float_t, float_t, float_t)>(&::LufsMetering::AudioJobHelpers::GetHighShelfDeManCoefficients)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x34eda80;
+  constexpr static std::size_t addrs = 0x350e3dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LufsMetering::FilterCoefficients (*)(float_t, float_t, float_t)>(&::LufsMetering::AudioJobHelpers::GetHighPassDeManCoefficients)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x34edb48;
+  constexpr static std::size_t addrs = 0x350e4a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

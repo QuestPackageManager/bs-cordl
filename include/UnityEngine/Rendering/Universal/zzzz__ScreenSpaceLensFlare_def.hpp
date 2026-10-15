@@ -104,14 +104,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
   constexpr operator ::UnityEngine::Rendering::IPostProcessComponent*() noexcept;
 
-  /// @brief Method IsActive, addr 0x6cbe830, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method IsActive, addr 0x6cfb4ac, size 0x30, virtual true, abstract: false, final true
   inline bool IsActive();
 
-  /// @brief Method IsStreaksActive, addr 0x6cbe860, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsStreaksActive, addr 0x6cfb4dc, size 0x30, virtual false, abstract: false, final false
   inline bool IsStreaksActive();
 
   /// [Obsolete("Unused. #from(2023.1)")]
-  /// @brief Method IsTileCompatible, addr 0x6cbe890, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsTileCompatible, addr 0x6cfb50c, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
   static inline ::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare* New_ctor();
@@ -224,7 +224,7 @@ public:
 
   constexpr void __cordl_internal_set_warpedFlareScale(::UnityEngine::Rendering::Vector2Parameter* value);
 
-  /// @brief Method .ctor, addr 0x6cbe898, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cfb514, size 0x370, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"
@@ -245,7 +245,7 @@ public:
   ScreenSpaceLensFlare(ScreenSpaceLensFlare const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13047 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13054 };
 
   /// @brief Field intensity, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Rendering::MinFloatParameter* ___intensity;

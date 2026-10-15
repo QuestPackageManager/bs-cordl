@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::StateMachineAttribute::*)(::System::Type*)>(
     &::System::Runtime::CompilerServices::StateMachineAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f87810;
+  constexpr static std::size_t addrs = 0x5fc40f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Runtime::CompilerServices::StateMachineAttribute::*)()>(
     &::System::Runtime::CompilerServices::StateMachineAttribute::get_StateMachineType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f88748;
+  constexpr static std::size_t addrs = 0x5fc5030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

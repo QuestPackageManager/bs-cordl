@@ -30,7 +30,7 @@ namespace GlobalNamespace {
 class LightColorBaseData;
 }
 namespace GlobalNamespace {
-class LightColorBeatmapEventDataBox__Unpack_d__9;
+class LightColorBeatmapEventDataBox__Unpack_d__7;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -58,19 +58,19 @@ namespace GlobalNamespace {
 class LightColorBeatmapEventDataBox;
 }
 namespace GlobalNamespace {
-class LightColorBeatmapEventDataBox__Unpack_d__9;
+class LightColorBeatmapEventDataBox__Unpack_d__7;
 }
 // Write type traits
 MARK_REF_T(::GlobalNamespace::LightColorBeatmapEventDataBox*);
-MARK_REF_T(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__9*);
+MARK_REF_T(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__7*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LightColorBeatmapEventDataBox*, "", "LightColorBeatmapEventDataBox");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__9*, "", "LightColorBeatmapEventDataBox/<Unpack>d__9");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__7*, "", "LightColorBeatmapEventDataBox/<Unpack>d__7");
 // [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: LightColorBeatmapEventDataBox/<Unpack>d__9
-class CORDL_TYPE LightColorBeatmapEventDataBox__Unpack_d__9 : public ::System::Object {
+// CS Name: LightColorBeatmapEventDataBox/<Unpack>d__7
+class CORDL_TYPE LightColorBeatmapEventDataBox__Unpack_d__7 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get =
@@ -166,34 +166,34 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x39a3720, size 0x774, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39c7d1c, size 0x774, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
-  static inline ::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__9* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__7* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerable<BeatmapEventData>.GetEnumerator, addr 0x39a3f90, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<BeatmapEventData>.GetEnumerator, addr 0x39c858c, size 0xd8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::BeatmapEventData*>* System_Collections_Generic_IEnumerable_BeatmapEventData__GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<BeatmapEventData>.get_Current, addr 0x39a3f48, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<BeatmapEventData>.get_Current, addr 0x39c8544, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatmapEventData* System_Collections_Generic_IEnumerator_BeatmapEventData__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x39a4068, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x39c8664, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39a3f50, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39c854c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39a3f88, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39c8584, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x39a3704, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x39c7d00, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -340,11 +340,11 @@ public:
 
   constexpr void __cordl_internal_set_maxBeat(float_t value);
 
-  /// @brief Method <>m__Finally1, addr 0x39a3e94, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x39c8490, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x39a36e4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c7ce0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>"
@@ -365,19 +365,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr LightColorBeatmapEventDataBox__Unpack_d__9();
+  constexpr LightColorBeatmapEventDataBox__Unpack_d__7();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightColorBeatmapEventDataBox__Unpack_d__9", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightColorBeatmapEventDataBox__Unpack_d__7", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  LightColorBeatmapEventDataBox__Unpack_d__9(LightColorBeatmapEventDataBox__Unpack_d__9&&) = delete;
+  LightColorBeatmapEventDataBox__Unpack_d__7(LightColorBeatmapEventDataBox__Unpack_d__7&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightColorBeatmapEventDataBox__Unpack_d__9", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightColorBeatmapEventDataBox__Unpack_d__7", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightColorBeatmapEventDataBox__Unpack_d__9(LightColorBeatmapEventDataBox__Unpack_d__9 const&) = delete;
+  LightColorBeatmapEventDataBox__Unpack_d__7(LightColorBeatmapEventDataBox__Unpack_d__7 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15171 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14388 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -454,55 +454,55 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__9, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__7, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__9, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__7, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__9, _____l__initialThreadId) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__7, _____l__initialThreadId) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__9, ___durationOrderIndex) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__7, ___durationOrderIndex) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__9, _____3__durationOrderIndex) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__7, _____3__durationOrderIndex) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__9, _____4__this) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__7, _____4__this) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__9, ___distributionOrderIndex) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__7, ___distributionOrderIndex) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__9, _____3__distributionOrderIndex) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__7, _____3__distributionOrderIndex) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__9, ___groupBoxBeat) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__7, ___groupBoxBeat) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__9, _____3__groupBoxBeat) == 0x44, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__7, _____3__groupBoxBeat) == 0x44, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__9, ___maxBeat) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__7, ___maxBeat) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__9, _____3__maxBeat) == 0x4c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__7, _____3__maxBeat) == 0x4c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__9, ___beatToTimeConverter) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__7, ___beatToTimeConverter) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__9, _____3__beatToTimeConverter) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__7, _____3__beatToTimeConverter) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__9, ___lightEventConverter) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__7, ___lightEventConverter) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__9, _____3__lightEventConverter) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__7, _____3__lightEventConverter) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__9, ___groupId) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__7, ___groupId) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__9, _____3__groupId) == 0x74, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__7, _____3__groupId) == 0x74, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__9, ___elementId) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__7, ___elementId) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__9, _____3__elementId) == 0x7c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__7, _____3__elementId) == 0x7c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__9, ____isFirstBaseData_5__2) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__7, ____isFirstBaseData_5__2) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__9, ____beatOffset_5__3) == 0x84, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__7, ____beatOffset_5__3) == 0x84, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__9, ____index_5__4) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__7, ____index_5__4) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__9, _____7__wrap4) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__7, _____7__wrap4) == 0x90, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__9) == 0x98, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__7) == 0x98, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies BeatmapEventDataBox
@@ -512,17 +512,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE LightColorBeatmapEventDataBox : public ::GlobalNamespace::BeatmapEventDataBox {
 public:
   // Declarations
-  using _Unpack_d__9 = ::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__9;
+  using _Unpack_d__7 = ::GlobalNamespace::LightColorBeatmapEventDataBox__Unpack_d__7;
 
-  /// @brief Field _beatStep, offset 0x44, size 0x4
+  /// @brief Field _beatStep, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__beatStep, put = __cordl_internal_set__beatStep)) float_t _beatStep;
-
-  /// @brief Field _brightnessDistributionShouldAffectFirstBaseEvent, offset 0x48, size 0x1
-  __declspec(property(get = __cordl_internal_get__brightnessDistributionShouldAffectFirstBaseEvent,
-                      put = __cordl_internal_set__brightnessDistributionShouldAffectFirstBaseEvent)) bool _brightnessDistributionShouldAffectFirstBaseEvent;
-
-  /// @brief Field _brightnessStep, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get__brightnessStep, put = __cordl_internal_set__brightnessStep)) float_t _brightnessStep;
 
   /// @brief Field _lightColorBaseDataList, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__lightColorBaseDataList,
@@ -538,8 +531,8 @@ public:
                                                                            bool brightnessDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType brightnessDistributionEaseType,
                                                                            ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>* lightColorBaseDataList);
 
-  /// [IteratorStateMachine(typeof(LightColorBeatmapEventDataBox::<Unpack>d__9))]
-  /// @brief Method Unpack, addr 0x39a3618, size 0xcc, virtual true, abstract: false, final false
+  /// [IteratorStateMachine(typeof(LightColorBeatmapEventDataBox::<Unpack>d__7))]
+  /// @brief Method Unpack, addr 0x39c7c14, size 0xcc, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>* Unpack(float_t groupBoxBeat, int32_t groupId, int32_t elementId, int32_t durationOrderIndex,
                                                                                                      int32_t distributionOrderIndex, float_t maxBeat,
                                                                                                      ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter,
@@ -549,36 +542,24 @@ public:
 
   constexpr float_t& __cordl_internal_get__beatStep();
 
-  constexpr bool const& __cordl_internal_get__brightnessDistributionShouldAffectFirstBaseEvent() const;
-
-  constexpr bool& __cordl_internal_get__brightnessDistributionShouldAffectFirstBaseEvent();
-
-  constexpr float_t const& __cordl_internal_get__brightnessStep() const;
-
-  constexpr float_t& __cordl_internal_get__brightnessStep();
-
   constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>* const& __cordl_internal_get__lightColorBaseDataList() const;
 
   constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>*& __cordl_internal_get__lightColorBaseDataList();
 
   constexpr void __cordl_internal_set__beatStep(float_t value);
 
-  constexpr void __cordl_internal_set__brightnessDistributionShouldAffectFirstBaseEvent(bool value);
-
-  constexpr void __cordl_internal_set__brightnessStep(float_t value);
-
   constexpr void __cordl_internal_set__lightColorBaseDataList(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>* value);
 
-  /// @brief Method .ctor, addr 0x39a33f0, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c79ec, size 0x228, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IndexFilter* indexFilter, float_t beatDistributionParam, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType beatDistributionParamType,
                     float_t brightnessDistributionParam, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType brightnessDistributionParamType,
                     bool brightnessDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType brightnessDistributionEaseType,
                     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>* lightColorBaseDataList);
 
-  /// @brief Method get_beatStep, addr 0x39a33e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_beatStep, addr 0x39c79e4, size 0x8, virtual true, abstract: false, final false
   inline float_t get_beatStep();
 
-  /// @brief Method get_subtypeIdentifier, addr 0x39a33e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_subtypeIdentifier, addr 0x39c79dc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_subtypeIdentifier();
 
 protected:
@@ -596,31 +577,21 @@ public:
   LightColorBeatmapEventDataBox(LightColorBeatmapEventDataBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15172 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14389 };
 
   /// @brief Field _lightColorBaseDataList, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>* ____lightColorBaseDataList;
 
-  /// @brief Field _brightnessStep, offset: 0x40, size: 0x4, def value: None
-  float_t ____brightnessStep;
-
-  /// @brief Field _beatStep, offset: 0x44, size: 0x4, def value: None
+  /// @brief Field _beatStep, offset: 0x40, size: 0x4, def value: None
   float_t ____beatStep;
-
-  /// @brief Field _brightnessDistributionShouldAffectFirstBaseEvent, offset: 0x48, size: 0x1, def value: None
-  bool ____brightnessDistributionShouldAffectFirstBaseEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox, ____lightColorBaseDataList) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox, ____brightnessStep) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox, ____beatStep) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox, ____beatStep) == 0x44, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox, ____brightnessDistributionShouldAffectFirstBaseEvent) == 0x48, "Offset mismatch!");
-
-static_assert(sizeof(::GlobalNamespace::LightColorBeatmapEventDataBox) == 0x50, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::LightColorBeatmapEventDataBox) == 0x48, "Size mismatch!");
 
 } // namespace GlobalNamespace

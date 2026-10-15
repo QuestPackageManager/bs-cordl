@@ -44,16 +44,16 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method EncodeGPUInstanceIndexAndCrossFade, addr 0x6c49ef8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method EncodeGPUInstanceIndexAndCrossFade, addr 0x6c86b74, size 0xec, virtual false, abstract: false, final false
   inline int32_t EncodeGPUInstanceIndexAndCrossFade(int32_t rendererIndex, bool negateCrossFade);
 
-  /// @brief Method Execute, addr 0x6c4a0e0, size 0x7b8, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6c86d5c, size 0x7b8, virtual true, abstract: false, final true
   inline void Execute(int32_t batchIndex);
 
-  /// @brief Method IsInstanceFlipped, addr 0x6c49fe4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method IsInstanceFlipped, addr 0x6c86c60, size 0xa0, virtual false, abstract: false, final false
   inline bool IsInstanceFlipped(int32_t rendererIndex);
 
-  /// @brief Method IsMeshLodVisible, addr 0x6c4a084, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsMeshLodVisible, addr 0x6c86d00, size 0x5c, virtual false, abstract: false, final false
   inline bool IsMeshLodVisible(int32_t batchLodLevel, int32_t rendererIndex, bool supportsCrossFade, ::by_ref<bool> negateCrossfade);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -98,7 +98,7 @@ public:
                                       ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectInstanceInfo> indirectInstanceInfoGlobalArray) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18166 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18199 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x208 };

@@ -42,7 +42,7 @@ public:
 
   static inline ::GlobalNamespace::ConnectionErrorDialogViewController___c__DisplayClass1_0* New_ctor();
 
-  /// @brief Method <Init>b__0, addr 0x5e33f10, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Init>b__0, addr 0x5e71b70, size 0x1c, virtual false, abstract: false, final false
   inline void _Init_b__0(int32_t btnIdx);
 
   constexpr ::System::Action* const& __cordl_internal_get_buttonAction() const;
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_buttonAction(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x5e33ef4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e71b54, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -69,7 +69,7 @@ public:
   ConnectionErrorDialogViewController___c__DisplayClass1_0(ConnectionErrorDialogViewController___c__DisplayClass1_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6540 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6544 };
 
   /// @brief Field buttonAction, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___buttonAction;
@@ -91,12 +91,12 @@ public:
   // Declarations
   using __c__DisplayClass1_0 = ::GlobalNamespace::ConnectionErrorDialogViewController___c__DisplayClass1_0;
 
-  /// @brief Method Init, addr 0x5e33d20, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5e71980, size 0x1d4, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::DisconnectedReason reason, ::System::Action* buttonAction);
 
   static inline ::GlobalNamespace::ConnectionErrorDialogViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5e33f08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e71b68, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -114,7 +114,7 @@ public:
   ConnectionErrorDialogViewController(ConnectionErrorDialogViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6541 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6545 };
 
   /// @brief Field kTitleClientDisconnectedLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kTitleClientDisconnectedLocalizationKey{ u"TITLE_CLIENT_DISCONNECTED" };

@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::NativeTypes::XrPosef::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrPosef::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6e3dba4;
+  constexpr static std::size_t addrs = 0x6e7a840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::NativeTypes::XrPosef::*)(::UnityEngine::Pose)>(&::UnityEngine::XR::OpenXR::NativeTypes::XrPosef::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6e3dbe8;
+  constexpr static std::size_t addrs = 0x6e7a884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrPosef (*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrPosef::FromSessionSpaceCoordinates)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e3dc10;
+  constexpr static std::size_t addrs = 0x6e7a8ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrPosef (*)(::UnityEngine::Pose)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrPosef::FromSessionSpaceCoordinates)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6e3dc2c;
+  constexpr static std::size_t addrs = 0x6e7a8c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Pose (::UnityEngine::XR::OpenXR::NativeTypes::XrPosef::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrPosef::ToSessionSpacePose)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6e3dc48;
+  constexpr static std::size_t addrs = 0x6e7a8e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrPosef>(), { "ToSessionSpacePose", {}, {} })));
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::NativeTypes::XrPosef::*)(::UnityEngine::XR::OpenXR::NativeTypes::XrPosef)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrPosef::Equals)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6e3dc88;
+  constexpr static std::size_t addrs = 0x6e7a924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::NativeTypes::XrPosef::*)(::System::Object*)>(&::UnityEngine::XR::OpenXR::NativeTypes::XrPosef::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6e3de80;
+  constexpr static std::size_t addrs = 0x6e7ab1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::XR::OpenXR::NativeTypes::XrPosef::*)()>(&::UnityEngine::XR::OpenXR::NativeTypes::XrPosef::GetHashCode)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6e3df14;
+  constexpr static std::size_t addrs = 0x6e7abb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

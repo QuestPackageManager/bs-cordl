@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::PanelRootElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x726d66c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72aa5a0, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

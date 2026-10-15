@@ -14,7 +14,7 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
+template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -47,24 +47,24 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::Cvar_1___c<T>* __9;
 
-  /// @brief Field <>9__4_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__4_0, put = setStaticF___9__4_0)) ::System::Func_2<::System::Type*, bool>* __9__4_0;
+  /// @brief Field <>9__6_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__6_0, put = setStaticF___9__6_0)) ::System::Func_2<::System::Type*, bool>* __9__6_0;
 
   static inline ::GlobalNamespace::Cvar_1___c<T>* New_ctor();
 
-  /// @brief Method <Reset>b__4_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool _Reset_b__4_0(::System::Type* t);
+  /// @brief Method <Reset>b__6_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool _Reset_b__6_0(::System::Type* t);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::Cvar_1___c<T>* getStaticF___9();
 
-  static inline ::System::Func_2<::System::Type*, bool>* getStaticF___9__4_0();
+  static inline ::System::Func_2<::System::Type*, bool>* getStaticF___9__6_0();
 
   static inline void setStaticF___9(::GlobalNamespace::Cvar_1___c<T>* value);
 
-  static inline void setStaticF___9__4_0(::System::Func_2<::System::Type*, bool>* value);
+  static inline void setStaticF___9__6_0(::System::Func_2<::System::Type*, bool>* value);
 
 protected:
   // Ctor Parameters []
@@ -81,7 +81,7 @@ public:
   Cvar_1___c(Cvar_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21434 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21481 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -103,6 +103,8 @@ public:
 
   /// @brief Field _initialValue, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__initialValue, put = __cordl_internal_set__initialValue)) T _initialValue;
+
+  __declspec(property(get = get_initialValue)) T initialValue;
 
   static inline ::GlobalNamespace::Cvar_1<T>* New_ctor(::StringW name, T initialValue);
 
@@ -126,8 +128,11 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::Cvar_1<T>*>* getStaticF__cvars();
 
-  /// @brief Method get_List, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::ICollection_1<::StringW>* get_List();
+  /// @brief Method get_All, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::IReadOnlyDictionary_2<::StringW, ::GlobalNamespace::Cvar_1<T>*>* get_All();
+
+  /// @brief Method get_initialValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline T get_initialValue();
 
   static inline void setStaticF__cvars(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::Cvar_1<T>*>* value);
 
@@ -146,7 +151,7 @@ public:
   Cvar_1(Cvar_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21435 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21482 };
 
   /// @brief Field _initialValue, offset: 0x20, size: 0x8, def value: None
   T ____initialValue;

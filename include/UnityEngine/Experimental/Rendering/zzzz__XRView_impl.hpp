@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Expe
                                                                                                                 ::UnityEngine::Rect, ::UnityEngine::Mesh*, ::UnityEngine::Mesh*, int32_t)>(
     &::UnityEngine::Experimental::Rendering::XRView::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6b61cbc;
+  constexpr static std::size_t addrs = 0x6b9e938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Matrix4x4)>(&::UnityEngine::Experimental::Rendering::XRView::ComputeEyeCenterUV)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6b61f1c;
+  constexpr static std::size_t addrs = 0x6b9eb98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

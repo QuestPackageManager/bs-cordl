@@ -32,41 +32,41 @@ class CORDL_TYPE ShadingRateInfo : public ::System::Object {
 public:
   // Declarations
   /// [FreeFunction("ShadingRateInfo::GetAvailableFragmentSizes")]
-  /// @brief Method GetAvailableFragmentSizes, addr 0x6f7a438, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetAvailableFragmentSizes, addr 0x6fb7314, size 0x114, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Rendering::ShadingRateFragmentSize> GetAvailableFragmentSizes();
 
-  /// @brief Method GetAvailableFragmentSizes_Injected, addr 0x6f7a5c4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetAvailableFragmentSizes_Injected, addr 0x6fb74a0, size 0x3c, virtual false, abstract: false, final false
   static inline void GetAvailableFragmentSizes_Injected(::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
 
   /// [FreeFunction("ShadingRateInfo::GetImageTileSize")]
-  /// @brief Method GetImageTileSize, addr 0x6f7a3f0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetImageTileSize, addr 0x6fb72cc, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2Int GetImageTileSize();
 
-  /// @brief Method GetImageTileSize_Injected, addr 0x6f7a588, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetImageTileSize_Injected, addr 0x6fb7464, size 0x3c, virtual false, abstract: false, final false
   static inline void GetImageTileSize_Injected(::by_ref<::UnityEngine::Vector2Int> ret);
 
   /// [FreeFunction("ShadingRateInfo::QueryNativeValue")]
-  /// @brief Method QueryNativeValue, addr 0x6f7a54c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method QueryNativeValue, addr 0x6fb7428, size 0x3c, virtual false, abstract: false, final false
   static inline uint8_t QueryNativeValue(::UnityEngine::Rendering::ShadingRateFragmentSize fragmentSize);
 
   /// [FreeFunction("ShadingRateInfo::SupportsPerDrawCall")]
-  /// @brief Method SupportsPerDrawCall, addr 0x6f7a384, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SupportsPerDrawCall, addr 0x6fb7260, size 0x28, virtual false, abstract: false, final false
   static inline bool SupportsPerDrawCall();
 
   /// [FreeFunction("ShadingRateInfo::SupportsPerImageTile")]
-  /// @brief Method SupportsPerImageTile, addr 0x6f7a334, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SupportsPerImageTile, addr 0x6fb7210, size 0x28, virtual false, abstract: false, final false
   static inline bool SupportsPerImageTile();
 
-  /// @brief Method get_availableFragmentSizes, addr 0x6f7a434, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_availableFragmentSizes, addr 0x6fb7310, size 0x4, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Rendering::ShadingRateFragmentSize> get_availableFragmentSizes();
 
-  /// @brief Method get_imageTileSize, addr 0x6f7a3ac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_imageTileSize, addr 0x6fb7288, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2Int get_imageTileSize();
 
-  /// @brief Method get_supportsPerDrawCall, addr 0x6f7a35c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_supportsPerDrawCall, addr 0x6fb7238, size 0x28, virtual false, abstract: false, final false
   static inline bool get_supportsPerDrawCall();
 
-  /// @brief Method get_supportsPerImageTile, addr 0x6f7a30c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_supportsPerImageTile, addr 0x6fb71e8, size 0x28, virtual false, abstract: false, final false
   static inline bool get_supportsPerImageTile();
 
 protected:
@@ -84,7 +84,7 @@ public:
   ShadingRateInfo(ShadingRateInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10385 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10392 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

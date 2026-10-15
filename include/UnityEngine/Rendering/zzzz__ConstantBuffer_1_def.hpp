@@ -139,7 +139,7 @@ public:
   ConstantBuffer_1(ConstantBuffer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8750 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8757 };
 
   /// @brief Field m_GlobalBindings, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<int32_t>* ___m_GlobalBindings;

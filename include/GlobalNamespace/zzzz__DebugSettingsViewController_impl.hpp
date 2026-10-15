@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DebugSettingsViewController::*)(bool, bool, bool)>(&::GlobalNamespace::DebugSettingsViewController::DidActivate)> {
   constexpr static std::size_t size = 0x37c;
-  constexpr static std::size_t addrs = 0x5e3b1a4;
+  constexpr static std::size_t addrs = 0x5e78bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DebugSettingsViewController::*)(bool, bool)>(&::GlobalNamespace::DebugSettingsViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x5e3b520;
+  constexpr static std::size_t addrs = 0x5e78f70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DebugSettingsViewController::*)(bool)>(&::GlobalNamespace::DebugSettingsViewController::HandleFpsCounterChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5e3b820;
+  constexpr static std::size_t addrs = 0x5e79270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DebugSettingsViewController::*)(bool)>(&::GlobalNamespace::DebugSettingsViewController::HandleFpsRecorderChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5e3b83c;
+  constexpr static std::size_t addrs = 0x5e7928c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DebugSettingsViewController::*)(bool)>(&::GlobalNamespace::DebugSettingsViewController::HandleMemoryTrackerChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5e3b858;
+  constexpr static std::size_t addrs = 0x5e792a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DebugSettingsViewController::*)(bool)>(
     &::GlobalNamespace::DebugSettingsViewController::HandleShowBeatmapLevelVersionsChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5e3b874;
+  constexpr static std::size_t addrs = 0x5e792c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DebugSettingsViewController::*)(bool)>(
     &::GlobalNamespace::DebugSettingsViewController::HandleDisableVRTrackingInAutoplayChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5e3b890;
+  constexpr static std::size_t addrs = 0x5e792e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DebugSettingsViewController::*)()>(&::GlobalNamespace::DebugSettingsViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e3b8ac;
+  constexpr static std::size_t addrs = 0x5e792fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DebugSettingsViewController*>(), { ".ctor", {}, {} })));

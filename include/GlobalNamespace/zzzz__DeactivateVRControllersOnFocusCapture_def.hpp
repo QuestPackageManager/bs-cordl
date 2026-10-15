@@ -35,16 +35,16 @@ namespace GlobalNamespace {
 class CORDL_TYPE DeactivateVRControllersOnFocusCapture : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _vrControllerGameObjects, offset 0x28, size 0x8
+  /// @brief Field _vrControllerGameObjects, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__vrControllerGameObjects, put = __cordl_internal_set__vrControllerGameObjects)) ::ArrayW<::UnityW<::UnityEngine::GameObject>> _vrControllerGameObjects;
 
   /// @brief Field _vrControllers, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__vrControllers, put = __cordl_internal_set__vrControllers)) ::ArrayW<::UnityW<::GlobalNamespace::VRController>> _vrControllers;
 
-  /// @brief Field _vrPlatformHelper, offset 0x30, size 0x8
+  /// @brief Field _vrPlatformHelper, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper)) ::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
 
-  /// @brief Field _xrSystemState, offset 0x38, size 0x8
+  /// @brief Field _xrSystemState, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__xrSystemState, put = __cordl_internal_set__xrSystemState)) ::GlobalNamespace::IXRSystemState* _xrSystemState;
 
   __declspec(property(get = get_loggerPrefix)) ::StringW loggerPrefix;
@@ -52,21 +52,21 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IVerboseLogger"
   constexpr operator ::GlobalNamespace::IVerboseLogger*() noexcept;
 
-  /// @brief Method HandleSystemStateChange, addr 0x5c6a760, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HandleSystemStateChange, addr 0x5ca2384, size 0x10, virtual false, abstract: false, final false
   inline void HandleSystemStateChange(::GlobalNamespace::XRSystemEventType eventType);
 
-  /// @brief Method LateUpdate, addr 0x5c6a8ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x5ca24d0, size 0x4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::DeactivateVRControllersOnFocusCapture* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5c6a770, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5ca2394, size 0x13c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x5c6a260, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5ca1e84, size 0x254, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UpdateVRControllerActiveState, addr 0x5c6a4b4, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method UpdateVRControllerActiveState, addr 0x5ca20d8, size 0x2ac, virtual false, abstract: false, final false
   inline void UpdateVRControllerActiveState();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>> const& __cordl_internal_get__vrControllerGameObjects() const;
@@ -93,10 +93,10 @@ public:
 
   constexpr void __cordl_internal_set__xrSystemState(::GlobalNamespace::IXRSystemState* value);
 
-  /// @brief Method .ctor, addr 0x5c6a8b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ca24d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_loggerPrefix, addr 0x5c6a21c, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method get_loggerPrefix, addr 0x5ca1e40, size 0x44, virtual true, abstract: false, final true
   inline ::StringW get_loggerPrefix();
 
   /// @brief Convert to "::GlobalNamespace::IVerboseLogger"
@@ -117,33 +117,33 @@ public:
   DeactivateVRControllersOnFocusCapture(DeactivateVRControllersOnFocusCapture const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22109 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22158 };
 
   /// [SerializeField]
   /// @brief Field _vrControllers, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::VRController>> ____vrControllers;
 
-  /// @brief Field _vrControllerGameObjects, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<::UnityW<::UnityEngine::GameObject>> ____vrControllerGameObjects;
-
   /// [Inject]
-  /// @brief Field _vrPlatformHelper, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _vrPlatformHelper, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;
 
   /// [Inject]
-  /// @brief Field _xrSystemState, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _xrSystemState, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IXRSystemState* ____xrSystemState;
+
+  /// @brief Field _vrControllerGameObjects, offset: 0x38, size: 0x8, def value: None
+  ::ArrayW<::UnityW<::UnityEngine::GameObject>> ____vrControllerGameObjects;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::DeactivateVRControllersOnFocusCapture, ____vrControllers) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DeactivateVRControllersOnFocusCapture, ____vrControllerGameObjects) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DeactivateVRControllersOnFocusCapture, ____vrPlatformHelper) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DeactivateVRControllersOnFocusCapture, ____vrPlatformHelper) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DeactivateVRControllersOnFocusCapture, ____xrSystemState) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DeactivateVRControllersOnFocusCapture, ____xrSystemState) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DeactivateVRControllersOnFocusCapture, ____vrControllerGameObjects) == 0x38, "Offset mismatch!");
 
 static_assert(sizeof(::GlobalNamespace::DeactivateVRControllersOnFocusCapture) == 0x40, "Size mismatch!");
 

@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Interop::UnsafeNativeMethods_EtwEnableCallback::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Runtime::Interop::UnsafeNativeMethods_EtwEnableCallback::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x65b28a0;
+  constexpr static std::size_t addrs = 0x65ef470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Interop::UnsafeNativeMethods_EtwEnableCallback*>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Interop::UnsafeNativeMethods_EtwEnableCallback::*)(
     ::by_ref<::System::Guid const>, int32_t, uint8_t, int64_t, int64_t, void*, void*)>(&::System::Runtime::Interop::UnsafeNativeMethods_EtwEnableCallback::Invoke)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x65b2920;
+  constexpr static std::size_t addrs = 0x65ef4f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Interop::UnsafeNativeMethods_EtwEnableCallback*>(),
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::by_ref<::System::Guid const>, ::System::Runtime::Interop::UnsafeNativeMethods_EtwEnableCallback*, void*, ::by_ref<int64_t>)>(
     &::System::Runtime::Interop::UnsafeNativeMethods::EventRegister)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x65b248c;
+  constexpr static std::size_t addrs = 0x65ef05c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(int64_t)>(&::System::Runtime::Interop::UnsafeNativeMethods::EventUnregister)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x65b2534;
+  constexpr static std::size_t addrs = 0x65ef104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int64_t, ::by_ref<::System::Runtime::Diagnostics::EventDescriptor const>)>(
     &::System::Runtime::Interop::UnsafeNativeMethods::EventEnabled)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x65b25b4;
+  constexpr static std::size_t addrs = 0x65ef184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(int64_t, ::by_ref<::System::Runtime::Diagnostics::EventDescriptor const>, uint32_t,
                                                                     ::System::Runtime::Interop::UnsafeNativeMethods_EventData*)>(&::System::Runtime::Interop::UnsafeNativeMethods::EventWrite)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x65b2640;
+  constexpr static std::size_t addrs = 0x65ef210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(int32_t, ::by_ref<::System::Guid>)>(&::System::Runtime::Interop::UnsafeNativeMethods::EventActivityIdControl)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x65b26e0;
+  constexpr static std::size_t addrs = 0x65ef2b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Runtime::InteropServices::SafeHandle*, uint16_t, uint16_t, uint32_t, ::ArrayW<uint8_t>, uint16_t, uint32_t,
                                                                 ::System::Runtime::InteropServices::HandleRef, ::ArrayW<uint8_t>)>(&::System::Runtime::Interop::UnsafeNativeMethods::ReportEvent)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x65b2764;
+  constexpr static std::size_t addrs = 0x65ef334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Interop::SafeEventLogWriteHandle* (*)(::StringW, ::StringW)>(
     &::System::Runtime::Interop::UnsafeNativeMethods::RegisterEventSource)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x65b22e0;
+  constexpr static std::size_t addrs = 0x65eeeb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Interop::UnsafeNativeMethods*>(),

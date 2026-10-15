@@ -57,7 +57,7 @@ public:
   constexpr BlockAllocator_Block(int32_t offset, int32_t count) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20475 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20522 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -93,7 +93,7 @@ public:
   static inline ::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation getStaticF_Invalid();
 
   /// [IsReadOnly]
-  /// @brief Method get_valid, addr 0x6e036a0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_valid, addr 0x6e4033c, size 0x10, virtual false, abstract: false, final false
   inline bool get_valid();
 
   static inline void setStaticF_Invalid(::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation value);
@@ -107,7 +107,7 @@ public:
   constexpr BlockAllocator_Allocation(int32_t handle, ::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Block block) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20476 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20523 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -150,51 +150,51 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Allocate, addr 0x6e04210, size 0x404, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x6e40eac, size 0x404, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation Allocate(int32_t elementCounts);
 
-  /// @brief Method CalculateGeometricGrowthCapacity, addr 0x6e07f48, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method CalculateGeometricGrowthCapacity, addr 0x6e44be4, size 0x28, virtual false, abstract: false, final false
   inline int32_t CalculateGeometricGrowthCapacity(int32_t desiredNewCapacity, int32_t maxAllowedNewCapacity);
 
-  /// @brief Method Dispose, addr 0x6e033d4, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6e40070, size 0xcc, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method FreeAllocation, addr 0x6e036b0, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method FreeAllocation, addr 0x6e4034c, size 0x16c, virtual false, abstract: false, final false
   inline void FreeAllocation(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation const> allocation);
 
-  /// @brief Method GetExpectedGrowthToFitAllocation, addr 0x6e08240, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetExpectedGrowthToFitAllocation, addr 0x6e44edc, size 0x15c, virtual false, abstract: false, final false
   inline bool GetExpectedGrowthToFitAllocation(int32_t elementCounts, int32_t maxAllowedCapacity, ::by_ref<int32_t> newCapacity);
 
-  /// @brief Method Grow, addr 0x6e07f70, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Grow, addr 0x6e44c0c, size 0x100, virtual false, abstract: false, final false
   inline int32_t Grow(int32_t newDesiredCapacity, int32_t maxAllowedCapacity);
 
-  /// @brief Method GrowAndAllocate, addr 0x6e0463c, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method GrowAndAllocate, addr 0x6e412d8, size 0x1a8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation GrowAndAllocate(int32_t elementCounts, int32_t maxAllowedCapacity, ::by_ref<int32_t> oldCapacity,
                                                                                                 ::by_ref<int32_t> newCapacity);
 
-  /// @brief Method GrowAndAllocate, addr 0x6e0839c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GrowAndAllocate, addr 0x6e45038, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation GrowAndAllocate(int32_t elementCounts, ::by_ref<int32_t> oldCapacity, ::by_ref<int32_t> newCapacity);
 
-  /// @brief Method Initialize, addr 0x6e03090, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6e3fd2c, size 0x1d4, virtual false, abstract: false, final false
   inline void Initialize(int32_t maxElementCounts);
 
-  /// @brief Method MergeBlockFrontBack, addr 0x6e08070, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method MergeBlockFrontBack, addr 0x6e44d0c, size 0x1d0, virtual false, abstract: false, final false
   inline int32_t MergeBlockFrontBack(int32_t freeBlockId);
 
-  /// @brief Method SplitAllocation, addr 0x6e083bc, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method SplitAllocation, addr 0x6e45058, size 0x318, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation>
   SplitAllocation(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation const> allocation, int32_t count);
 
-  /// @brief Method get_allocatedSize, addr 0x6e07f3c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_allocatedSize, addr 0x6e44bd8, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_allocatedSize();
 
-  /// @brief Method get_capacity, addr 0x6e07f34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_capacity, addr 0x6e44bd0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_capacity();
 
-  /// @brief Method get_freeBlocks, addr 0x6e07ed0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_freeBlocks, addr 0x6e44b6c, size 0x64, virtual false, abstract: false, final false
   inline int32_t get_freeBlocks();
 
-  /// @brief Method get_freeElementsCount, addr 0x6e07ec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_freeElementsCount, addr 0x6e44b64, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_freeElementsCount();
 
   /// @brief Convert to "::System::IDisposable"
@@ -213,7 +213,7 @@ public:
                            ::Unity::Collections::NativeList_1<int32_t> m_freeSlots) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20477 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20524 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

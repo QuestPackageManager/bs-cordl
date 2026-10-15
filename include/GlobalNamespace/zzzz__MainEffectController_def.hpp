@@ -83,24 +83,24 @@ public:
 
   constexpr void __cordl_internal_set_afterImageEffectEvent(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
 
-  /// @brief Method .ctor, addr 0x635e828, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x639b300, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_afterImageEffectEvent, addr 0x635e650, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_afterImageEffectEvent, addr 0x639b128, size 0xc0, virtual false, abstract: false, final false
   inline void add_afterImageEffectEvent(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
 
-  /// @brief Method get_container, addr 0x635e820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_container, addr 0x639b2f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MainEffectContainerSO> get_container();
 
-  /// @brief Method get_fadeValue, addr 0x635e7d0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_fadeValue, addr 0x639b2a8, size 0x50, virtual false, abstract: false, final false
   inline float_t get_fadeValue();
 
-  /// @brief Method get_renderData, addr 0x635e648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderData, addr 0x639b120, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MainEffectRenderData* get_renderData();
 
   /// [CompilerGenerated]
-  /// @brief Method remove_afterImageEffectEvent, addr 0x635e710, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_afterImageEffectEvent, addr 0x639b1e8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_afterImageEffectEvent(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
 
 protected:
@@ -118,7 +118,7 @@ public:
   MainEffectController(MainEffectController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21121 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21168 };
 
   /// [SerializeField]
   /// @brief Field _mainEffectContainer, offset: 0x20, size: 0x8, def value: None

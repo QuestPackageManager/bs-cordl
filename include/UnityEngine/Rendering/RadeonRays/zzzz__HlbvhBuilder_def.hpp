@@ -50,10 +50,10 @@ namespace UnityEngine::Rendering::RadeonRays {
 struct CORDL_TYPE HlbvhBuilder_ScratchBufferLayout {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x6dfba1c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6e386b8, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RadeonRays::HlbvhBuilder_ScratchBufferLayout Create(uint32_t triangleCount);
 
-  /// @brief Method Reserve, addr 0x6dfc50c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Reserve, addr 0x6e391a8, size 0x14, virtual false, abstract: false, final false
   inline uint32_t Reserve(uint32_t size);
 
   // Ctor Parameters []
@@ -69,7 +69,7 @@ public:
                                              uint32_t LeafParents, uint32_t InternalNodeRange, uint32_t TotalSize) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20423 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20470 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };
@@ -152,23 +152,23 @@ public:
   /// @brief Field shaderBuildHlbvh, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_shaderBuildHlbvh, put = __cordl_internal_set_shaderBuildHlbvh)) ::UnityW<::UnityEngine::ComputeShader> shaderBuildHlbvh;
 
-  /// @brief Method BindKernelArguments, addr 0x6dfbf7c, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method BindKernelArguments, addr 0x6e38c18, size 0x1cc, virtual false, abstract: false, final false
   inline void BindKernelArguments(::UnityEngine::Rendering::CommandBuffer* cmd, int32_t kernel, ::UnityEngine::GraphicsBuffer* vertices, ::UnityEngine::GraphicsBuffer* indices,
                                   ::UnityEngine::GraphicsBuffer* scratch, ::UnityEngine::Rendering::RadeonRays::HlbvhBuilder_ScratchBufferLayout scratchLayout,
                                   ::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct result, bool setSortedCodes);
 
-  /// @brief Method Execute, addr 0x6dfba98, size 0x4e4, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x6e38734, size 0x4e4, virtual false, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::GraphicsBuffer* vertices, int32_t verticesOffset, uint32_t vertexStride, ::UnityEngine::GraphicsBuffer* indices,
                       int32_t indicesOffset, int32_t baseIndex, ::UnityEngine::Rendering::RadeonRays::IndexFormat indexFormat, uint32_t triangleCount, ::UnityEngine::GraphicsBuffer* scratch,
                       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct const> result);
 
-  /// @brief Method GetBvhNodeCount, addr 0x6dfb23c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetBvhNodeCount, addr 0x6e37ed8, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t GetBvhNodeCount(uint32_t leafCount);
 
-  /// @brief Method GetResultDataSizeInDwords, addr 0x6dfba90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetResultDataSizeInDwords, addr 0x6e3872c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t GetResultDataSizeInDwords(uint32_t triangleCount);
 
-  /// @brief Method GetScratchDataSizeInDwords, addr 0x6dfb9f8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetScratchDataSizeInDwords, addr 0x6e38694, size 0x24, virtual false, abstract: false, final false
   inline uint32_t GetScratchDataSizeInDwords(uint32_t triangleCount);
 
   static inline ::UnityEngine::Rendering::RadeonRays::HlbvhBuilder* New_ctor(::UnityEngine::Rendering::RadeonRays::RadeonRaysShaders* shaders);
@@ -209,7 +209,7 @@ public:
 
   constexpr void __cordl_internal_set_shaderBuildHlbvh(::UnityW<::UnityEngine::ComputeShader> value);
 
-  /// @brief Method .ctor, addr 0x6dfb7d4, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e38470, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RadeonRays::RadeonRaysShaders* shaders);
 
 protected:
@@ -227,7 +227,7 @@ public:
   HlbvhBuilder(HlbvhBuilder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20424 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20471 };
 
   /// @brief Field kGroupSize offset 0xffffffff size 0x4
   static constexpr uint32_t kGroupSize{ static_cast<uint32_t>(0x100u) };

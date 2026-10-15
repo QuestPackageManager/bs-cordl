@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::CommandListManager::*)(::System::IntPtr, ::System::IntPtr)>(
     &::UnityEngine::UIElements::UIR::CommandListManager::_ctor)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x716228c;
+  constexpr static std::size_t addrs = 0x719f1c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::CommandListManager*>(),
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::CommandList* (::UnityEngine::UIElements::UIR::CommandListManager::*)()>(
     &::UnityEngine::UIElements::UIR::CommandListManager::get_defaultCommandList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7162480;
+  constexpr static std::size_t addrs = 0x719f3b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
     ::UnityEngine::UIElements::UIR::CommandListManager::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::Material*, ::UnityEngine::UIElements::UIR::CommandFlags)>(
     &::UnityEngine::UIElements::UIR::CommandListManager::GetOrCreateCommandList)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x7162488;
+  constexpr static std::size_t addrs = 0x719f3bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::CommandListManager*>(),
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::CommandListManager::*)()>(&::UnityEngine::UIElements::UIR::CommandListManager::AdvanceFrame)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x71625e8;
+  constexpr static std::size_t addrs = 0x719f51c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::CommandListManager*>(), { "AdvanceFrame", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::CommandListManager::*)(::UnityEngine::UIElements::TextureSlotCount)>(
     &::UnityEngine::UIElements::UIR::CommandListManager::BeginSerialize)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x71628cc;
+  constexpr static std::size_t addrs = 0x719f800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::CommandListManager*>(),
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::CommandListManager::*)()>(&::UnityEngine::UIElements::UIR::CommandListManager::EndSerialize)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x71628f4;
+  constexpr static std::size_t addrs = 0x719f828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::CommandListManager*>(), { "EndSerialize", {}, {} })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::CommandListManager::*)()>(&::UnityEngine::UIElements::UIR::CommandListManager::get_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7162b0c;
+  constexpr static std::size_t addrs = 0x719fa40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::CommandListManager*>(), { "get_disposed", {}, {} })));
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::CommandListManager::*)(bool)>(&::UnityEngine::UIElements::UIR::CommandListManager::set_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7162b14;
+  constexpr static std::size_t addrs = 0x719fa48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::CommandListManager::*)()>(&::UnityEngine::UIElements::UIR::CommandListManager::Dispose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7162b1c;
+  constexpr static std::size_t addrs = 0x719fa50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::CommandListManager*>(), { "Dispose", {}, {} })));
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::CommandListManager::*)()>(
     &::UnityEngine::UIElements::UIR::CommandListManager::ResetUIRendererDrawCallData)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x7162724;
+  constexpr static std::size_t addrs = 0x719f658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::CommandListManager::*)(bool)>(&::UnityEngine::UIElements::UIR::CommandListManager::Dispose)> {
   constexpr static std::size_t size = 0x52c;
-  constexpr static std::size_t addrs = 0x7162b24;
+  constexpr static std::size_t addrs = 0x719fa58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -37,10 +37,10 @@ public:
 
   static inline ::UnityEngine::UIElements::MouseEnterEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x722da04, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x726a938, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MouseEnterEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x722da00, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x726a934, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::MouseEnterEvent___c* getStaticF___9();
@@ -80,18 +80,18 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::MouseEnterEvent___c;
 
-  /// @brief Method Dispatch, addr 0x722d9a8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x726a8dc, size 0x4, virtual true, abstract: false, final false
   inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
-  /// @brief Method Init, addr 0x722d8ec, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x726a820, size 0x58, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x722d944, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x726a878, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::MouseEnterEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x722d950, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x726a884, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

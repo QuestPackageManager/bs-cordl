@@ -67,46 +67,46 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::TimeValue>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::TimeValue>*();
 
-  /// @brief Method Equals, addr 0x710b8c4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x71487f8, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x710b8a0, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x71487d4, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::TimeValue other);
 
-  /// @brief Method GetHashCode, addr 0x710b958, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x714888c, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x710b97c, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x71488b0, size 0xf8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x710b840, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7148774, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t value);
 
-  /// @brief Method .ctor, addr 0x710b84c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7148780, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t value, ::UnityEngine::UIElements::TimeUnit unit);
 
-  /// @brief Method get_unit, addr 0x710b830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unit, addr 0x7148764, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TimeUnit get_unit();
 
-  /// @brief Method get_value, addr 0x710b820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x7148754, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::TimeValue>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::TimeValue>* i___System__IEquatable_1___UnityEngine__UIElements__TimeValue_();
 
-  /// @brief Method op_Equality, addr 0x710b860, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x7148794, size 0x20, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::TimeValue lhs, ::UnityEngine::UIElements::TimeValue rhs);
 
-  /// @brief Method op_Implicit, addr 0x710b858, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x714878c, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::TimeValue op_Implicit___UnityEngine__UIElements__TimeValue(float_t value);
 
-  /// @brief Method op_Inequality, addr 0x710b880, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x71487b4, size 0x20, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::TimeValue lhs, ::UnityEngine::UIElements::TimeValue rhs);
 
-  /// @brief Method set_unit, addr 0x710b838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_unit, addr 0x714876c, size 0x8, virtual false, abstract: false, final false
   inline void set_unit(::UnityEngine::UIElements::TimeUnit value);
 
-  /// @brief Method set_value, addr 0x710b828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x714875c, size 0x8, virtual false, abstract: false, final false
   inline void set_value(float_t value);
 
   // Ctor Parameters []
@@ -158,12 +158,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x710bc64, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x7148b98, size 0x8, virtual true, abstract: false, final false
   inline float_t GetValue(::by_ref<::UnityEngine::UIElements::TimeValue> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x710bc6c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x7148ba0, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::TimeValue> container, float_t value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -178,15 +178,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x710bb8c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7148ac0, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x710bc5c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x7148b90, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x710bc54, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x7148b88, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -243,12 +243,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x710bc84, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x7148bb8, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::TimeUnit GetValue(::by_ref<::UnityEngine::UIElements::TimeValue> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x710bc8c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x7148bc0, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::TimeValue> container, ::UnityEngine::UIElements::TimeUnit value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -263,15 +263,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x710bbf0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7148b24, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x710bc7c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x7148bb0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x710bc74, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x7148ba8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -324,7 +324,7 @@ public:
 
   static inline ::UnityEngine::UIElements::TimeValue_PropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x710ba74, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71489a8, size 0x118, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

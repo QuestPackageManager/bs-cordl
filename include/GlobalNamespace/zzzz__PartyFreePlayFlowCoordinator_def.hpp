@@ -18,10 +18,10 @@ namespace GlobalNamespace {
 class EnterPlayerGuestNameViewController;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
+struct GameMode;
 }
 namespace GlobalNamespace {
-class IFileStorage;
+class GameplayModifiers;
 }
 namespace GlobalNamespace {
 class IReadonlyBeatmapData;
@@ -42,10 +42,10 @@ namespace GlobalNamespace {
 class MenuLightsPresetSO;
 }
 namespace GlobalNamespace {
-class PartyFreePlayFlowCoordinator___c__DisplayClass18_0;
+class PartyFreePlayFlowCoordinator___c__DisplayClass17_0;
 }
 namespace GlobalNamespace {
-class PartyFreePlayFlowCoordinator___c__DisplayClass23_0;
+class PartyFreePlayFlowCoordinator___c__DisplayClass22_0;
 }
 namespace GlobalNamespace {
 class ResultsViewController;
@@ -55,33 +55,33 @@ namespace GlobalNamespace {
 class PartyFreePlayFlowCoordinator;
 }
 namespace GlobalNamespace {
-class PartyFreePlayFlowCoordinator___c__DisplayClass18_0;
+class PartyFreePlayFlowCoordinator___c__DisplayClass17_0;
 }
 namespace GlobalNamespace {
-class PartyFreePlayFlowCoordinator___c__DisplayClass23_0;
+class PartyFreePlayFlowCoordinator___c__DisplayClass22_0;
 }
 // Write type traits
 MARK_REF_T(::GlobalNamespace::PartyFreePlayFlowCoordinator*);
-MARK_REF_T(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0*);
-MARK_REF_T(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass23_0*);
+MARK_REF_T(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass17_0*);
+MARK_REF_T(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass22_0*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PartyFreePlayFlowCoordinator*, "", "PartyFreePlayFlowCoordinator");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0*, "", "PartyFreePlayFlowCoordinator/<>c__DisplayClass18_0");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass23_0*, "", "PartyFreePlayFlowCoordinator/<>c__DisplayClass23_0");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass17_0*, "", "PartyFreePlayFlowCoordinator/<>c__DisplayClass17_0");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass22_0*, "", "PartyFreePlayFlowCoordinator/<>c__DisplayClass22_0");
 // [CompilerGenerated]
 // Dependencies BeatmapKey, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: PartyFreePlayFlowCoordinator/<>c__DisplayClass18_0
-class CORDL_TYPE PartyFreePlayFlowCoordinator___c__DisplayClass18_0 : public ::System::Object {
+// CS Name: PartyFreePlayFlowCoordinator/<>c__DisplayClass17_0
+class CORDL_TYPE PartyFreePlayFlowCoordinator___c__DisplayClass17_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::PartyFreePlayFlowCoordinator> __4__this;
 
-  /// @brief Field beatmapKey, offset 0x30, size 0x10
+  /// @brief Field beatmapKey, offset 0x30, size 0x18
   __declspec(property(get = __cordl_internal_get_beatmapKey, put = __cordl_internal_set_beatmapKey)) ::GlobalNamespace::BeatmapKey beatmapKey;
 
-  /// @brief Field beatmapLevel, offset 0x40, size 0x8
+  /// @brief Field beatmapLevel, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_beatmapLevel, put = __cordl_internal_set_beatmapLevel)) ::GlobalNamespace::BeatmapLevel* beatmapLevel;
 
   /// @brief Field leaderboardId, offset 0x20, size 0x8
@@ -90,15 +90,15 @@ public:
   /// @brief Field levelCompletionResults, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_levelCompletionResults, put = __cordl_internal_set_levelCompletionResults)) ::GlobalNamespace::LevelCompletionResults* levelCompletionResults;
 
-  /// @brief Field practice, offset 0x48, size 0x1
+  /// @brief Field practice, offset 0x50, size 0x1
   __declspec(property(get = __cordl_internal_get_practice, put = __cordl_internal_set_practice)) bool practice;
 
   /// @brief Field transformedBeatmapData, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_transformedBeatmapData, put = __cordl_internal_set_transformedBeatmapData)) ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData;
 
-  static inline ::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0* New_ctor();
+  static inline ::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass17_0* New_ctor();
 
-  /// @brief Method <ProcessLevelCompletionResultsAfterLevelDidFinish>b__0, addr 0x5d52ac8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method <ProcessLevelCompletionResultsAfterLevelDidFinish>b__0, addr 0x5d8d7cc, size 0xe0, virtual false, abstract: false, final false
   inline void _ProcessLevelCompletionResultsAfterLevelDidFinish_b__0(::GlobalNamespace::EnterPlayerGuestNameViewController* _, ::StringW playerName);
 
   constexpr ::UnityW<::GlobalNamespace::PartyFreePlayFlowCoordinator> const& __cordl_internal_get___4__this() const;
@@ -143,25 +143,25 @@ public:
 
   constexpr void __cordl_internal_set_transformedBeatmapData(::GlobalNamespace::IReadonlyBeatmapData* value);
 
-  /// @brief Method .ctor, addr 0x5d5251c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d8d4a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr PartyFreePlayFlowCoordinator___c__DisplayClass18_0();
+  constexpr PartyFreePlayFlowCoordinator___c__DisplayClass17_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PartyFreePlayFlowCoordinator___c__DisplayClass18_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PartyFreePlayFlowCoordinator___c__DisplayClass17_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  PartyFreePlayFlowCoordinator___c__DisplayClass18_0(PartyFreePlayFlowCoordinator___c__DisplayClass18_0&&) = delete;
+  PartyFreePlayFlowCoordinator___c__DisplayClass17_0(PartyFreePlayFlowCoordinator___c__DisplayClass17_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PartyFreePlayFlowCoordinator___c__DisplayClass18_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PartyFreePlayFlowCoordinator___c__DisplayClass17_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PartyFreePlayFlowCoordinator___c__DisplayClass18_0(PartyFreePlayFlowCoordinator___c__DisplayClass18_0 const&) = delete;
+  PartyFreePlayFlowCoordinator___c__DisplayClass17_0(PartyFreePlayFlowCoordinator___c__DisplayClass17_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6972 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6979 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PartyFreePlayFlowCoordinator> _____4__this;
@@ -175,41 +175,41 @@ public:
   /// @brief Field transformedBeatmapData, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IReadonlyBeatmapData* ___transformedBeatmapData;
 
-  /// @brief Field beatmapKey, offset: 0x30, size: 0x10, def value: None
+  /// @brief Field beatmapKey, offset: 0x30, size: 0x18, def value: None
   ::GlobalNamespace::BeatmapKey ___beatmapKey;
 
-  /// @brief Field beatmapLevel, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field beatmapLevel, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevel* ___beatmapLevel;
 
-  /// @brief Field practice, offset: 0x48, size: 0x1, def value: None
+  /// @brief Field practice, offset: 0x50, size: 0x1, def value: None
   bool ___practice;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0, _____4__this) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass17_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0, ___levelCompletionResults) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass17_0, ___levelCompletionResults) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0, ___leaderboardId) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass17_0, ___leaderboardId) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0, ___transformedBeatmapData) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass17_0, ___transformedBeatmapData) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0, ___beatmapKey) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass17_0, ___beatmapKey) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0, ___beatmapLevel) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass17_0, ___beatmapLevel) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0, ___practice) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass17_0, ___practice) == 0x50, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0) == 0x50, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass17_0) == 0x58, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: PartyFreePlayFlowCoordinator/<>c__DisplayClass23_0
-class CORDL_TYPE PartyFreePlayFlowCoordinator___c__DisplayClass23_0 : public ::System::Object {
+// CS Name: PartyFreePlayFlowCoordinator/<>c__DisplayClass22_0
+class CORDL_TYPE PartyFreePlayFlowCoordinator___c__DisplayClass22_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -218,9 +218,9 @@ public:
   /// @brief Field resultsViewController, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_resultsViewController, put = __cordl_internal_set_resultsViewController)) ::UnityW<::GlobalNamespace::ResultsViewController> resultsViewController;
 
-  static inline ::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass23_0* New_ctor();
+  static inline ::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass22_0* New_ctor();
 
-  /// @brief Method <HandleResultsViewControllerRestartButtonPressed>b__0, addr 0x5d52ba8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <HandleResultsViewControllerRestartButtonPressed>b__0, addr 0x5d8d8ac, size 0x54, virtual false, abstract: false, final false
   inline void _HandleResultsViewControllerRestartButtonPressed_b__0();
 
   constexpr ::UnityW<::GlobalNamespace::PartyFreePlayFlowCoordinator> const& __cordl_internal_get___4__this() const;
@@ -235,25 +235,25 @@ public:
 
   constexpr void __cordl_internal_set_resultsViewController(::UnityW<::GlobalNamespace::ResultsViewController> value);
 
-  /// @brief Method .ctor, addr 0x5d52830, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d8d7b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr PartyFreePlayFlowCoordinator___c__DisplayClass23_0();
+  constexpr PartyFreePlayFlowCoordinator___c__DisplayClass22_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PartyFreePlayFlowCoordinator___c__DisplayClass23_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PartyFreePlayFlowCoordinator___c__DisplayClass22_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  PartyFreePlayFlowCoordinator___c__DisplayClass23_0(PartyFreePlayFlowCoordinator___c__DisplayClass23_0&&) = delete;
+  PartyFreePlayFlowCoordinator___c__DisplayClass22_0(PartyFreePlayFlowCoordinator___c__DisplayClass22_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PartyFreePlayFlowCoordinator___c__DisplayClass23_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PartyFreePlayFlowCoordinator___c__DisplayClass22_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PartyFreePlayFlowCoordinator___c__DisplayClass23_0(PartyFreePlayFlowCoordinator___c__DisplayClass23_0 const&) = delete;
+  PartyFreePlayFlowCoordinator___c__DisplayClass22_0(PartyFreePlayFlowCoordinator___c__DisplayClass22_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6973 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6980 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PartyFreePlayFlowCoordinator> _____4__this;
@@ -264,11 +264,11 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass23_0, _____4__this) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass22_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass23_0, ___resultsViewController) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass22_0, ___resultsViewController) == 0x18, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass23_0) == 0x20, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass22_0) == 0x20, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies SinglePlayerLevelSelectionFlowCoordinator
@@ -278,40 +278,37 @@ namespace GlobalNamespace {
 class CORDL_TYPE PartyFreePlayFlowCoordinator : public ::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator {
 public:
   // Declarations
-  using __c__DisplayClass18_0 = ::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0;
+  using __c__DisplayClass17_0 = ::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass17_0;
 
-  using __c__DisplayClass23_0 = ::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass23_0;
+  using __c__DisplayClass22_0 = ::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass22_0;
 
-  /// @brief Field _defaultLightsPreset, offset 0x118, size 0x8
+  /// @brief Field _defaultLightsPreset, offset 0x110, size 0x8
   __declspec(property(get = __cordl_internal_get__defaultLightsPreset, put = __cordl_internal_set__defaultLightsPreset)) ::UnityW<::GlobalNamespace::MenuLightsPresetSO> _defaultLightsPreset;
 
-  /// @brief Field _enterNameViewController, offset 0x148, size 0x8
+  /// @brief Field _enterNameViewController, offset 0x140, size 0x8
   __declspec(property(get = __cordl_internal_get__enterNameViewController, put = __cordl_internal_set__enterNameViewController)) ::UnityW<::GlobalNamespace::EnterPlayerGuestNameViewController>
       _enterNameViewController;
 
-  /// @brief Field _fileStorage, offset 0x150, size 0x8
-  __declspec(property(get = __cordl_internal_get__fileStorage, put = __cordl_internal_set__fileStorage)) ::GlobalNamespace::IFileStorage* _fileStorage;
-
-  /// @brief Field _localLeaderboardViewController, offset 0x140, size 0x8
+  /// @brief Field _localLeaderboardViewController, offset 0x138, size 0x8
   __declspec(property(get = __cordl_internal_get__localLeaderboardViewController,
                       put = __cordl_internal_set__localLeaderboardViewController)) ::UnityW<::GlobalNamespace::LocalLeaderboardViewController>
       _localLeaderboardViewController;
 
-  /// @brief Field _menuLightsManager, offset 0x130, size 0x8
+  /// @brief Field _menuLightsManager, offset 0x128, size 0x8
   __declspec(property(get = __cordl_internal_get__menuLightsManager, put = __cordl_internal_set__menuLightsManager)) ::UnityW<::GlobalNamespace::MenuLightsManager> _menuLightsManager;
 
-  /// @brief Field _resultsClearedLightsPreset, offset 0x120, size 0x8
+  /// @brief Field _resultsClearedLightsPreset, offset 0x118, size 0x8
   __declspec(property(get = __cordl_internal_get__resultsClearedLightsPreset, put = __cordl_internal_set__resultsClearedLightsPreset)) ::UnityW<::GlobalNamespace::MenuLightsPresetSO>
       _resultsClearedLightsPreset;
 
-  /// @brief Field _resultsFailedLightsPreset, offset 0x128, size 0x8
+  /// @brief Field _resultsFailedLightsPreset, offset 0x120, size 0x8
   __declspec(property(get = __cordl_internal_get__resultsFailedLightsPreset, put = __cordl_internal_set__resultsFailedLightsPreset)) ::UnityW<::GlobalNamespace::MenuLightsPresetSO>
       _resultsFailedLightsPreset;
 
-  /// @brief Field _resultsViewController, offset 0x138, size 0x8
+  /// @brief Field _resultsViewController, offset 0x130, size 0x8
   __declspec(property(get = __cordl_internal_get__resultsViewController, put = __cordl_internal_set__resultsViewController)) ::UnityW<::GlobalNamespace::ResultsViewController> _resultsViewController;
 
-  __declspec(property(get = get_gameMode)) ::StringW gameMode;
+  __declspec(property(get = get_gameMode)) ::GlobalNamespace::GameMode gameMode;
 
   __declspec(property(get = get_leaderboardViewController)) ::UnityW<::GlobalNamespace::LeaderboardViewController> leaderboardViewController;
 
@@ -319,32 +316,32 @@ public:
 
   __declspec(property(get = get_showBackButtonForMainViewController)) bool showBackButtonForMainViewController;
 
-  /// @brief Method HandleResultsViewControllerContinueButtonPressed, addr 0x5d526f4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleResultsViewControllerContinueButtonPressed, addr 0x5d8d67c, size 0x40, virtual false, abstract: false, final false
   inline void HandleResultsViewControllerContinueButtonPressed(::GlobalNamespace::ResultsViewController* resultsViewController);
 
-  /// @brief Method HandleResultsViewControllerRestartButtonPressed, addr 0x5d52734, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method HandleResultsViewControllerRestartButtonPressed, addr 0x5d8d6bc, size 0xfc, virtual false, abstract: false, final false
   inline void HandleResultsViewControllerRestartButtonPressed(::GlobalNamespace::ResultsViewController* resultsViewController);
 
-  /// @brief Method IsNewHighScore, addr 0x5d52590, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsNewHighScore, addr 0x5d8d518, size 0x44, virtual false, abstract: false, final false
   inline bool IsNewHighScore(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::StringW leaderboardId);
 
   static inline ::GlobalNamespace::PartyFreePlayFlowCoordinator* New_ctor();
 
-  /// @brief Method ProcessLevelCompletionResultsAfterLevelDidFinish, addr 0x5d52258, size 0x2c4, virtual true, abstract: false, final false
+  /// @brief Method ProcessLevelCompletionResultsAfterLevelDidFinish, addr 0x5d8d1dc, size 0x2c8, virtual true, abstract: false, final false
   inline void ProcessLevelCompletionResultsAfterLevelDidFinish(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData,
                                                                ::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* modifiers,
                                                                bool practice);
 
-  /// @brief Method ProcessScore, addr 0x5d525d4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ProcessScore, addr 0x5d8d55c, size 0x120, virtual false, abstract: false, final false
   inline void ProcessScore(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::StringW leaderboardId, ::StringW playerName);
 
-  /// @brief Method SinglePlayerLevelSelectionFlowCoordinatorDidActivate, addr 0x5d51efc, size 0x1e0, virtual true, abstract: false, final false
+  /// @brief Method SinglePlayerLevelSelectionFlowCoordinatorDidActivate, addr 0x5d8ce40, size 0x21c, virtual true, abstract: false, final false
   inline void SinglePlayerLevelSelectionFlowCoordinatorDidActivate(bool firstActivation, bool addedToHierarchy);
 
-  /// @brief Method SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate, addr 0x5d52104, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate, addr 0x5d8d088, size 0x154, virtual true, abstract: false, final false
   inline void SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate(bool removedFromHierarchy);
 
-  /// @brief Method WillScoreGoToLeaderboard, addr 0x5d52540, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method WillScoreGoToLeaderboard, addr 0x5d8d4c8, size 0x50, virtual false, abstract: false, final false
   inline bool WillScoreGoToLeaderboard(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::StringW leaderboardId, bool practice);
 
   constexpr ::UnityW<::GlobalNamespace::MenuLightsPresetSO> const& __cordl_internal_get__defaultLightsPreset() const;
@@ -354,10 +351,6 @@ public:
   constexpr ::UnityW<::GlobalNamespace::EnterPlayerGuestNameViewController> const& __cordl_internal_get__enterNameViewController() const;
 
   constexpr ::UnityW<::GlobalNamespace::EnterPlayerGuestNameViewController>& __cordl_internal_get__enterNameViewController();
-
-  constexpr ::GlobalNamespace::IFileStorage* const& __cordl_internal_get__fileStorage() const;
-
-  constexpr ::GlobalNamespace::IFileStorage*& __cordl_internal_get__fileStorage();
 
   constexpr ::UnityW<::GlobalNamespace::LocalLeaderboardViewController> const& __cordl_internal_get__localLeaderboardViewController() const;
 
@@ -383,8 +376,6 @@ public:
 
   constexpr void __cordl_internal_set__enterNameViewController(::UnityW<::GlobalNamespace::EnterPlayerGuestNameViewController> value);
 
-  constexpr void __cordl_internal_set__fileStorage(::GlobalNamespace::IFileStorage* value);
-
   constexpr void __cordl_internal_set__localLeaderboardViewController(::UnityW<::GlobalNamespace::LocalLeaderboardViewController> value);
 
   constexpr void __cordl_internal_set__menuLightsManager(::UnityW<::GlobalNamespace::MenuLightsManager> value);
@@ -395,19 +386,19 @@ public:
 
   constexpr void __cordl_internal_set__resultsViewController(::UnityW<::GlobalNamespace::ResultsViewController> value);
 
-  /// @brief Method .ctor, addr 0x5d52ab8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d8d7bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gameMode, addr 0x5d51e60, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_gameMode();
+  /// @brief Method get_gameMode, addr 0x5d8cde0, size 0x8, virtual true, abstract: false, final false
+  inline ::GlobalNamespace::GameMode get_gameMode();
 
-  /// @brief Method get_leaderboardViewController, addr 0x5d51ea4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_leaderboardViewController, addr 0x5d8cde8, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LeaderboardViewController> get_leaderboardViewController();
 
-  /// @brief Method get_mainTitle, addr 0x5d51eb4, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_mainTitle, addr 0x5d8cdf8, size 0x48, virtual true, abstract: false, final false
   inline ::StringW get_mainTitle();
 
-  /// @brief Method get_showBackButtonForMainViewController, addr 0x5d51eac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_showBackButtonForMainViewController, addr 0x5d8cdf0, size 0x8, virtual true, abstract: false, final false
   inline bool get_showBackButtonForMainViewController();
 
 protected:
@@ -425,59 +416,53 @@ public:
   PartyFreePlayFlowCoordinator(PartyFreePlayFlowCoordinator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6974 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6981 };
 
   /// [SerializeField]
-  /// @brief Field _defaultLightsPreset, offset: 0x118, size: 0x8, def value: None
+  /// @brief Field _defaultLightsPreset, offset: 0x110, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____defaultLightsPreset;
 
   /// [SerializeField]
-  /// @brief Field _resultsClearedLightsPreset, offset: 0x120, size: 0x8, def value: None
+  /// @brief Field _resultsClearedLightsPreset, offset: 0x118, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____resultsClearedLightsPreset;
 
   /// [SerializeField]
-  /// @brief Field _resultsFailedLightsPreset, offset: 0x128, size: 0x8, def value: None
+  /// @brief Field _resultsFailedLightsPreset, offset: 0x120, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____resultsFailedLightsPreset;
 
   /// [Inject]
-  /// @brief Field _menuLightsManager, offset: 0x130, size: 0x8, def value: None
+  /// @brief Field _menuLightsManager, offset: 0x128, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsManager> ____menuLightsManager;
 
   /// [Inject]
-  /// @brief Field _resultsViewController, offset: 0x138, size: 0x8, def value: None
+  /// @brief Field _resultsViewController, offset: 0x130, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ResultsViewController> ____resultsViewController;
 
   /// [Inject]
-  /// @brief Field _localLeaderboardViewController, offset: 0x140, size: 0x8, def value: None
+  /// @brief Field _localLeaderboardViewController, offset: 0x138, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LocalLeaderboardViewController> ____localLeaderboardViewController;
 
   /// [Inject]
-  /// @brief Field _enterNameViewController, offset: 0x148, size: 0x8, def value: None
+  /// @brief Field _enterNameViewController, offset: 0x140, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EnterPlayerGuestNameViewController> ____enterNameViewController;
-
-  /// [Inject]
-  /// @brief Field _fileStorage, offset: 0x150, size: 0x8, def value: None
-  ::GlobalNamespace::IFileStorage* ____fileStorage;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator, ____defaultLightsPreset) == 0x118, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator, ____defaultLightsPreset) == 0x110, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator, ____resultsClearedLightsPreset) == 0x120, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator, ____resultsClearedLightsPreset) == 0x118, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator, ____resultsFailedLightsPreset) == 0x128, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator, ____resultsFailedLightsPreset) == 0x120, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator, ____menuLightsManager) == 0x130, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator, ____menuLightsManager) == 0x128, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator, ____resultsViewController) == 0x138, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator, ____resultsViewController) == 0x130, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator, ____localLeaderboardViewController) == 0x140, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator, ____localLeaderboardViewController) == 0x138, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator, ____enterNameViewController) == 0x148, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator, ____enterNameViewController) == 0x140, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PartyFreePlayFlowCoordinator, ____fileStorage) == 0x150, "Offset mismatch!");
-
-static_assert(sizeof(::GlobalNamespace::PartyFreePlayFlowCoordinator) == 0x158, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::PartyFreePlayFlowCoordinator) == 0x148, "Size mismatch!");
 
 } // namespace GlobalNamespace

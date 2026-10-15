@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapSaveDataCommon::IBeat::*)(::BeatmapSaveDataCommon::IBeat*)>(
     &::BeatmapSaveDataCommon::IBeat::System_IComparable_BeatmapSaveDataCommon_IBeat__CompareTo)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x39e9594;
+  constexpr static std::size_t addrs = 0x3a12d08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

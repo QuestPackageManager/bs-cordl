@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(uint8_t)>(&::Org::BouncyCastle::Bcpg::Sig::Features::FeatureToByteArray)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x391d898;
+  constexpr static std::size_t addrs = 0x39401fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::Features::*)(bool, bool, ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Bcpg::Sig::Features::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x391d900;
+  constexpr static std::size_t addrs = 0x3940264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::Sig::Features*>(),
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::Features::*)(bool, uint8_t)>(&::Org::BouncyCastle::Bcpg::Sig::Features::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x391d918;
+  constexpr static std::size_t addrs = 0x394027c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Bcpg::Sig::Features::*)()>(&::Org::BouncyCastle::Bcpg::Sig::Features::get_SupportsModificationDetection)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x391d99c;
+  constexpr static std::size_t addrs = 0x3940300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Bcpg::Sig::Features::*)(uint8_t)>(&::Org::BouncyCastle::Bcpg::Sig::Features::SupportsFeature)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x391da34;
+  constexpr static std::size_t addrs = 0x3940398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::Features::*)(uint8_t, bool)>(&::Org::BouncyCastle::Bcpg::Sig::Features::SetSupportsFeature)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x391da78;
+  constexpr static std::size_t addrs = 0x39403dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

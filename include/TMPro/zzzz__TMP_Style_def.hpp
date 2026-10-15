@@ -57,7 +57,7 @@ public:
 
   static inline ::TMPro::TMP_Style* New_ctor(::StringW styleName, ::StringW styleOpeningDefinition, ::StringW styleClosingDefinition);
 
-  /// @brief Method RefreshStyle, addr 0x6da9810, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method RefreshStyle, addr 0x6de64ac, size 0x15c, virtual false, abstract: false, final false
   inline void RefreshStyle();
 
   constexpr ::StringW const& __cordl_internal_get_m_ClosingDefinition() const;
@@ -96,38 +96,38 @@ public:
 
   constexpr void __cordl_internal_set_m_OpeningTagArray(::ArrayW<uint32_t> value);
 
-  /// @brief Method .ctor, addr 0x6da9658, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6de62f4, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::StringW styleName, ::StringW styleOpeningDefinition, ::StringW styleClosingDefinition);
 
   static inline ::TMPro::TMP_Style* getStaticF_k_NormalStyle();
 
-  /// @brief Method get_NormalStyle, addr 0x6da95ac, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_NormalStyle, addr 0x6de6248, size 0xac, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_Style* get_NormalStyle();
 
-  /// @brief Method get_hashCode, addr 0x6da971c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hashCode, addr 0x6de63b8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_hashCode();
 
-  /// @brief Method get_name, addr 0x6da96e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x6de637c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_styleClosingDefinition, addr 0x6da9740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_styleClosingDefinition, addr 0x6de63dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_styleClosingDefinition();
 
-  /// @brief Method get_styleClosingTagArray, addr 0x6da9750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_styleClosingTagArray, addr 0x6de63ec, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint32_t> get_styleClosingTagArray();
 
-  /// @brief Method get_styleOpeningDefinition, addr 0x6da9738, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_styleOpeningDefinition, addr 0x6de63d4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_styleOpeningDefinition();
 
-  /// @brief Method get_styleOpeningTagArray, addr 0x6da9748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_styleOpeningTagArray, addr 0x6de63e4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint32_t> get_styleOpeningTagArray();
 
   static inline void setStaticF_k_NormalStyle(::TMPro::TMP_Style* value);
 
-  /// @brief Method set_hashCode, addr 0x6da9724, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_hashCode, addr 0x6de63c0, size 0x14, virtual false, abstract: false, final false
   inline void set_hashCode(int32_t value);
 
-  /// @brief Method set_name, addr 0x6da96e8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x6de6384, size 0x34, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
 protected:
@@ -145,7 +145,7 @@ public:
   TMP_Style(TMP_Style const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16201 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16234 };
 
   /// [SerializeField]
   /// @brief Field m_Name, offset: 0x10, size: 0x8, def value: None

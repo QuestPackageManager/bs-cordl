@@ -9,6 +9,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RankModel)
 namespace GlobalNamespace {
+struct LevelScore;
+}
+namespace GlobalNamespace {
 struct RankModel_Rank;
 }
 // Forward declare root types
@@ -86,7 +89,7 @@ public:
   static ::GlobalNamespace::RankModel_Rank const SSS;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21926 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21975 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -111,10 +114,13 @@ public:
   // Declarations
   using Rank = ::GlobalNamespace::RankModel_Rank;
 
-  /// @brief Method GetRankForScore, addr 0x3a0b928, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetRankForScore, addr 0x3a35cc0, size 0xc8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::RankModel_Rank GetRankForScore(int32_t multipliedScore, int32_t modifiedScore, int32_t maxMultipliedScore, int32_t maxModifiedScore);
 
-  /// @brief Method GetRankName, addr 0x3a0b824, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetRankForScore, addr 0x3a35ca0, size 0x20, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::RankModel_Rank GetRankForScore(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelScore const> score);
+
+  /// @brief Method GetRankName, addr 0x3a35b9c, size 0x104, virtual false, abstract: false, final false
   static inline ::StringW GetRankName(::GlobalNamespace::RankModel_Rank rank);
 
 protected:
@@ -132,7 +138,7 @@ public:
   RankModel(RankModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21927 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21976 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

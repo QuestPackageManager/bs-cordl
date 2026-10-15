@@ -27,22 +27,22 @@ namespace UnityEngine::UIElements::UIR {
 class CORDL_TYPE JobProcessor : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ScheduleConvertMeshJobs, addr 0x715e85c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleConvertMeshJobs, addr 0x719b790, size 0x5c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleConvertMeshJobs(::System::IntPtr buffer, int32_t jobCount);
 
-  /// @brief Method ScheduleConvertMeshJobs_Injected, addr 0x715e8b8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ScheduleConvertMeshJobs_Injected, addr 0x719b7ec, size 0x54, virtual false, abstract: false, final false
   static inline void ScheduleConvertMeshJobs_Injected(::System::IntPtr buffer, int32_t jobCount, ::by_ref<::Unity::Jobs::JobHandle> ret);
 
-  /// @brief Method ScheduleCopyMeshJobs, addr 0x715e90c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleCopyMeshJobs, addr 0x719b840, size 0x5c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleCopyMeshJobs(::System::IntPtr buffer, int32_t jobCount);
 
-  /// @brief Method ScheduleCopyMeshJobs_Injected, addr 0x715e968, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ScheduleCopyMeshJobs_Injected, addr 0x719b89c, size 0x54, virtual false, abstract: false, final false
   static inline void ScheduleCopyMeshJobs_Injected(::System::IntPtr buffer, int32_t jobCount, ::by_ref<::Unity::Jobs::JobHandle> ret);
 
-  /// @brief Method ScheduleNudgeJobs, addr 0x715e7ac, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleNudgeJobs, addr 0x719b6e0, size 0x5c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleNudgeJobs(::System::IntPtr buffer, int32_t jobCount);
 
-  /// @brief Method ScheduleNudgeJobs_Injected, addr 0x715e808, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ScheduleNudgeJobs_Injected, addr 0x719b73c, size 0x54, virtual false, abstract: false, final false
   static inline void ScheduleNudgeJobs_Injected(::System::IntPtr buffer, int32_t jobCount, ::by_ref<::Unity::Jobs::JobHandle> ret);
 
 protected:

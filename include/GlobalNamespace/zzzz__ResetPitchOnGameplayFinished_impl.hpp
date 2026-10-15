@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ResetPitchOnGameplayFinished::*)(
     ::GlobalNamespace::GameplayLevelSceneTransitionEvents*, ::GlobalNamespace::AudioManager*)>(&::GlobalNamespace::ResetPitchOnGameplayFinished::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5cd0824;
+  constexpr static std::size_t addrs = 0x5d09810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ResetPitchOnGameplayFinished::*)()>(&::GlobalNamespace::ResetPitchOnGameplayFinished::Dispose)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5cd08c4;
+  constexpr static std::size_t addrs = 0x5d098b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ResetPitchOnGameplayFinished*>(), { "Dispose", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ResetPitchOnGameplayFinished::*)()>(
     &::GlobalNamespace::ResetPitchOnGameplayFinished::HandleAnyGameplayLevelDidFinish)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cd0954;
+  constexpr static std::size_t addrs = 0x5d09940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -31,11 +31,11 @@ class CORDL_TYPE TextCacheEntryNodeExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method SetTextHandle, addr 0x7063ec4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SetTextHandle, addr 0x70a0db8, size 0xe8, virtual false, abstract: false, final false
   static inline void SetTextHandle(::System::Collections::Generic::LinkedListNode_1<::UnityEngine::TextCore::Text::TextCacheEntry>* node, ::UnityEngine::TextCore::Text::TextHandle* newTextHandle);
 
   /// [Extension]
-  /// @brief Method SetTime, addr 0x70641e0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetTime, addr 0x70a10d4, size 0x6c, virtual false, abstract: false, final false
   static inline void SetTime(::System::Collections::Generic::LinkedListNode_1<::UnityEngine::TextCore::Text::TextCacheEntry>* node, float_t newTime);
 
 protected:
@@ -53,7 +53,7 @@ public:
   TextCacheEntryNodeExtensions(TextCacheEntryNodeExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17869 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17902 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

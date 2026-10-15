@@ -211,7 +211,7 @@ public:
   __declspec(property(get = get_uiModeType)) ::UnityEngine::Android::AndroidUIModeType uiModeType;
 
   /// [Preserve]
-  /// @brief Method ToString, addr 0x6e836fc, size 0x11b0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6ec0398, size 0x11b0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get__colorMode_k__BackingField() const;
@@ -335,110 +335,110 @@ public:
   constexpr void __cordl_internal_set__uiMode_k__BackingField(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method get_colorMode, addr 0x6e83504, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorMode, addr 0x6ec01a0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_colorMode();
 
-  /// @brief Method get_colorModeHdr, addr 0x6e8369c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_colorModeHdr, addr 0x6ec0338, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Android::AndroidColorModeHdr get_colorModeHdr();
 
-  /// @brief Method get_colorModeWideColorGamut, addr 0x6e836a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_colorModeWideColorGamut, addr 0x6ec0344, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Android::AndroidColorModeWideColorGamut get_colorModeWideColorGamut();
 
   /// [CompilerGenerated]
-  /// @brief Method get_densityDpi, addr 0x6e8350c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_densityDpi, addr 0x6ec01a8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_densityDpi();
 
   /// [CompilerGenerated]
-  /// @brief Method get_fontScale, addr 0x6e83514, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fontScale, addr 0x6ec01b0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fontScale();
 
   /// [CompilerGenerated]
-  /// @brief Method get_fontWeightAdjustment, addr 0x6e8351c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fontWeightAdjustment, addr 0x6ec01b8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_fontWeightAdjustment();
 
   /// [CompilerGenerated]
-  /// @brief Method get_hardKeyboardHidden, addr 0x6e8352c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hardKeyboardHidden, addr 0x6ec01c8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Android::AndroidHardwareKeyboardHidden get_hardKeyboardHidden();
 
   /// [CompilerGenerated]
-  /// @brief Method get_keyboard, addr 0x6e83524, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keyboard, addr 0x6ec01c0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Android::AndroidKeyboard get_keyboard();
 
   /// [CompilerGenerated]
-  /// @brief Method get_keyboardHidden, addr 0x6e83534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keyboardHidden, addr 0x6ec01d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Android::AndroidKeyboardHidden get_keyboardHidden();
 
-  /// @brief Method get_locales, addr 0x6e835a4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method get_locales, addr 0x6ec0240, size 0xf8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Android::AndroidLocale*> get_locales();
 
   /// [CompilerGenerated]
-  /// @brief Method get_mobileCountryCode, addr 0x6e8353c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mobileCountryCode, addr 0x6ec01d8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_mobileCountryCode();
 
   /// [CompilerGenerated]
-  /// @brief Method get_mobileNetworkCode, addr 0x6e83544, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mobileNetworkCode, addr 0x6ec01e0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_mobileNetworkCode();
 
   /// [CompilerGenerated]
-  /// @brief Method get_navigation, addr 0x6e8354c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_navigation, addr 0x6ec01e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Android::AndroidNavigation get_navigation();
 
   /// [CompilerGenerated]
-  /// @brief Method get_navigationHidden, addr 0x6e83554, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_navigationHidden, addr 0x6ec01f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Android::AndroidNavigationHidden get_navigationHidden();
 
   /// [CompilerGenerated]
-  /// @brief Method get_orientation, addr 0x6e8355c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_orientation, addr 0x6ec01f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Android::AndroidOrientation get_orientation();
 
   /// [CompilerGenerated]
-  /// @brief Method get_primaryLocaleCountry, addr 0x6e83594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_primaryLocaleCountry, addr 0x6ec0230, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_primaryLocaleCountry();
 
   /// [CompilerGenerated]
-  /// @brief Method get_primaryLocaleLanguage, addr 0x6e8359c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_primaryLocaleLanguage, addr 0x6ec0238, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_primaryLocaleLanguage();
 
   /// [CompilerGenerated]
-  /// @brief Method get_screenHeightDp, addr 0x6e83564, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_screenHeightDp, addr 0x6ec0200, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_screenHeightDp();
 
   /// [CompilerGenerated]
-  /// @brief Method get_screenLayout, addr 0x6e8357c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_screenLayout, addr 0x6ec0218, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_screenLayout();
 
-  /// @brief Method get_screenLayoutDirection, addr 0x6e836b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_screenLayoutDirection, addr 0x6ec0350, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Android::AndroidScreenLayoutDirection get_screenLayoutDirection();
 
-  /// @brief Method get_screenLayoutLong, addr 0x6e836c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_screenLayoutLong, addr 0x6ec035c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Android::AndroidScreenLayoutLong get_screenLayoutLong();
 
-  /// @brief Method get_screenLayoutRound, addr 0x6e836cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_screenLayoutRound, addr 0x6ec0368, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Android::AndroidScreenLayoutRound get_screenLayoutRound();
 
-  /// @brief Method get_screenLayoutSize, addr 0x6e836d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_screenLayoutSize, addr 0x6ec0374, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Android::AndroidScreenLayoutSize get_screenLayoutSize();
 
   /// [CompilerGenerated]
-  /// @brief Method get_screenWidthDp, addr 0x6e8356c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_screenWidthDp, addr 0x6ec0208, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_screenWidthDp();
 
   /// [CompilerGenerated]
-  /// @brief Method get_smallestScreenWidthDp, addr 0x6e83574, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_smallestScreenWidthDp, addr 0x6ec0210, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_smallestScreenWidthDp();
 
   /// [CompilerGenerated]
-  /// @brief Method get_touchScreen, addr 0x6e83584, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_touchScreen, addr 0x6ec0220, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Android::AndroidTouchScreen get_touchScreen();
 
   /// [CompilerGenerated]
-  /// @brief Method get_uiMode, addr 0x6e8358c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_uiMode, addr 0x6ec0228, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_uiMode();
 
-  /// @brief Method get_uiModeNight, addr 0x6e836e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_uiModeNight, addr 0x6ec0380, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Android::AndroidUIModeNight get_uiModeNight();
 
-  /// @brief Method get_uiModeType, addr 0x6e836f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_uiModeType, addr 0x6ec038c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Android::AndroidUIModeType get_uiModeType();
 
 protected:
@@ -456,7 +456,7 @@ public:
   AndroidConfiguration(AndroidConfiguration const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20672 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20719 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]

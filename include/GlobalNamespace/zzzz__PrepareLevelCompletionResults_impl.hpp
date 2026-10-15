@@ -10,24 +10,24 @@
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
 #include "GlobalNamespace/zzzz__IScoreController_def.hpp"
+#include "GlobalNamespace/zzzz__LevelCompletionResultsBase_def.hpp"
 #include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
 #include "GlobalNamespace/zzzz__SaberActivityCounter_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PrepareLevelCompletionResults.FillLevelCompletionResults
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LevelCompletionResults* (
-    ::GlobalNamespace::PrepareLevelCompletionResults::*)(::GlobalNamespace::LevelCompletionResults_LevelEndStateType, ::GlobalNamespace::LevelCompletionResults_LevelEndAction)>(
+    ::GlobalNamespace::PrepareLevelCompletionResults::*)(::GlobalNamespace::LevelCompletionResultsBase_LevelEndStateType, ::GlobalNamespace::LevelCompletionResultsBase_LevelEndAction)>(
     &::GlobalNamespace::PrepareLevelCompletionResults::FillLevelCompletionResults)> {
-  constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x5e07c80;
+  constexpr static std::size_t size = 0x2d8;
+  constexpr static std::size_t addrs = 0x5e45444;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PrepareLevelCompletionResults*>(),
-                            { "FillLevelCompletionResults",
-                              {},
-                              { ::i2c::type_of<::GlobalNamespace::LevelCompletionResults_LevelEndStateType>(), ::i2c::type_of<::GlobalNamespace::LevelCompletionResults_LevelEndAction>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PrepareLevelCompletionResults*>(),
+                                                                                           { "FillLevelCompletionResults",
+                                                                                             {},
+                                                                                             { ::i2c::type_of<::GlobalNamespace::LevelCompletionResultsBase_LevelEndStateType>(),
+                                                                                               ::i2c::type_of<::GlobalNamespace::LevelCompletionResultsBase_LevelEndAction>() } })));
     return ___internal_method;
   }
 };
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PrepareLevelCompletionResults::*)()>(&::GlobalNamespace::PrepareLevelCompletionResults::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e07f84;
+  constexpr static std::size_t addrs = 0x5e4574c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PrepareLevelCompletionResults*>(), { ".ctor", {}, {} })));
@@ -153,14 +153,14 @@ constexpr void GlobalNamespace::PrepareLevelCompletionResults::__cordl_internal_
   this->____comboController = value;
 }
 inline ::GlobalNamespace::LevelCompletionResults*
-GlobalNamespace::PrepareLevelCompletionResults::FillLevelCompletionResults(::GlobalNamespace::LevelCompletionResults_LevelEndStateType levelEndStateType,
-                                                                           ::GlobalNamespace::LevelCompletionResults_LevelEndAction levelEndAction) {
+GlobalNamespace::PrepareLevelCompletionResults::FillLevelCompletionResults(::GlobalNamespace::LevelCompletionResultsBase_LevelEndStateType levelEndStateType,
+                                                                           ::GlobalNamespace::LevelCompletionResultsBase_LevelEndAction levelEndAction) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PrepareLevelCompletionResults*>(),
                           { "FillLevelCompletionResults",
                             {},
-                            { ::i2c::type_of<::GlobalNamespace::LevelCompletionResults_LevelEndStateType>(), ::i2c::type_of<::GlobalNamespace::LevelCompletionResults_LevelEndAction>() } })));
+                            { ::i2c::type_of<::GlobalNamespace::LevelCompletionResultsBase_LevelEndStateType>(), ::i2c::type_of<::GlobalNamespace::LevelCompletionResultsBase_LevelEndAction>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::LevelCompletionResults*>(this, ___internal_method, levelEndStateType, levelEndAction);
 }
 inline void GlobalNamespace::PrepareLevelCompletionResults::_ctor() {

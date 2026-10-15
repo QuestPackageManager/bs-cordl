@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::Timeline::TrackAsset*)>(
     &::UnityEngine::Timeline::TimelineClipExtensions::MoveToTrack)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x6df972c;
+  constexpr static std::size_t addrs = 0x6e363c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::Timeline::TrackAsset*)>(
     &::UnityEngine::Timeline::TimelineClipExtensions::TryMoveToTrack)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x6df9b6c;
+  constexpr static std::size_t addrs = 0x6e36808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::Object*,
                                                                 ::UnityEngine::Timeline::TrackAsset*)>(&::UnityEngine::Timeline::TimelineClipExtensions::MoveToTrack_Impl)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6df9a48;
+  constexpr static std::size_t addrs = 0x6e366e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

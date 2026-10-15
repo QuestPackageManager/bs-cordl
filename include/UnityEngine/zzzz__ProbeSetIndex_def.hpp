@@ -31,7 +31,7 @@ public:
   constexpr ProbeSetIndex(::UnityEngine::Hash128 m_Hash, int32_t m_Offset, int32_t m_Size) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9726 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9733 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectPreRenderPass_PassData::*)()>(&::GlobalNamespace::MainEffectPreRenderPass_PassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x635f538;
+  constexpr static std::size_t addrs = 0x639c010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectPreRenderPass_PassData*>(), { ".ctor", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectPreRenderPass___c::*)()>(&::GlobalNamespace::MainEffectPreRenderPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x635f590;
+  constexpr static std::size_t addrs = 0x639c068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectPreRenderPass___c*>(), { ".ctor", {}, {} })));
@@ -62,7 +62,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::GlobalNamespace::MainEffectPreRenderPass___c::*)(::GlobalNamespace::MainEffectPreRenderPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
         &::GlobalNamespace::MainEffectPreRenderPass___c::_RecordRenderGraph_b__2_0)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x635f594;
+  constexpr static std::size_t addrs = 0x639c06c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectPreRenderPass::*)(::UnityEngine::Rendering::Universal::RenderPassEvent)>(
     &::GlobalNamespace::MainEffectPreRenderPass::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x635ed18;
+  constexpr static std::size_t addrs = 0x639b7f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectPreRenderPass::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*)>(&::GlobalNamespace::MainEffectPreRenderPass::RecordRenderGraph)> {
   constexpr static std::size_t size = 0x45c;
-  constexpr static std::size_t addrs = 0x635f0dc;
+  constexpr static std::size_t addrs = 0x639bbb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

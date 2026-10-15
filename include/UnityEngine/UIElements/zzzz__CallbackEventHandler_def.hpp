@@ -65,61 +65,61 @@ public:
   /// [EventInterest((UnityEngine.UIElements.EventInterestOptions)0)]
   /// [Obsolete("Use HandleEventBubbleUp. Before proceeding, make sure you understand the latest changes to UIToolkit event propagation rules by visiting Unity\'s manual page
   /// https://docs.unity3d.com/Manual/UIE-Events-Dispatching.html")]
-  /// @brief Method ExecuteDefaultAction, addr 0x7229e7c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultAction, addr 0x7266db0, size 0x4, virtual true, abstract: false, final false
   inline void ExecuteDefaultAction(::UnityEngine::UIElements::EventBase* evt);
 
   /// [Obsolete("Use HandleEventBubbleUp. Before proceeding, make sure you understand the latest changes to UIToolkit event propagation rules by visiting Unity\'s manual page
   /// https://docs.unity3d.com/Manual/UIE-Events-Dispatching.html")] [EventInterest((UnityEngine.UIElements.EventInterestOptions)0)]
-  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x7229e50, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x7266d84, size 0x4, virtual true, abstract: false, final false
   inline void ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method ExecuteDefaultActionAtTargetInternal, addr 0x7229ea4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ExecuteDefaultActionAtTargetInternal, addr 0x7266dd8, size 0xc, virtual false, abstract: false, final false
   inline void ExecuteDefaultActionAtTargetInternal(::UnityEngine::UIElements::EventBase* evt);
 
   /// [EventInterest((UnityEngine.UIElements.EventInterestOptions)0)]
   /// [Obsolete("Use HandleEventBubbleUpDisabled.")]
-  /// @brief Method ExecuteDefaultActionDisabled, addr 0x7229e84, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultActionDisabled, addr 0x7266db8, size 0x4, virtual true, abstract: false, final false
   inline void ExecuteDefaultActionDisabled(::UnityEngine::UIElements::EventBase* evt);
 
   /// [Obsolete("Use HandleEventBubbleUpDisabled.")]
   /// [EventInterest((UnityEngine.UIElements.EventInterestOptions)0)]
-  /// @brief Method ExecuteDefaultActionDisabledAtTarget, addr 0x7229e80, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultActionDisabledAtTarget, addr 0x7266db4, size 0x4, virtual true, abstract: false, final false
   inline void ExecuteDefaultActionDisabledAtTarget(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method ExecuteDefaultActionDisabledAtTargetInternal, addr 0x7229eb0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ExecuteDefaultActionDisabledAtTargetInternal, addr 0x7266de4, size 0x10, virtual false, abstract: false, final false
   inline void ExecuteDefaultActionDisabledAtTargetInternal(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method ExecuteDefaultActionDisabledInternal, addr 0x7229e94, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ExecuteDefaultActionDisabledInternal, addr 0x7266dc8, size 0x10, virtual false, abstract: false, final false
   inline void ExecuteDefaultActionDisabledInternal(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method ExecuteDefaultActionInternal, addr 0x7229e88, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ExecuteDefaultActionInternal, addr 0x7266dbc, size 0xc, virtual false, abstract: false, final false
   inline void ExecuteDefaultActionInternal(::UnityEngine::UIElements::EventBase* evt);
 
   /// [EventInterest((UnityEngine.UIElements.EventInterestOptions)0)]
-  /// @brief Method HandleEventBubbleUp, addr 0x7229e54, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HandleEventBubbleUp, addr 0x7266d88, size 0x4, virtual true, abstract: false, final false
   inline void HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt);
 
   /// [EventInterest((UnityEngine.UIElements.EventInterestOptions)0)]
-  /// @brief Method HandleEventBubbleUpDisabled, addr 0x7229e58, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HandleEventBubbleUpDisabled, addr 0x7266d8c, size 0x4, virtual true, abstract: false, final false
   inline void HandleEventBubbleUpDisabled(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method HandleEventBubbleUpInternal, addr 0x7229e5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleEventBubbleUpInternal, addr 0x7266d90, size 0xc, virtual false, abstract: false, final false
   inline void HandleEventBubbleUpInternal(::UnityEngine::UIElements::EventBase* evt);
 
   /// [EventInterest((UnityEngine.UIElements.EventInterestOptions)0)]
-  /// @brief Method HandleEventTrickleDown, addr 0x7229e68, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HandleEventTrickleDown, addr 0x7266d9c, size 0x4, virtual true, abstract: false, final false
   inline void HandleEventTrickleDown(::UnityEngine::UIElements::EventBase* evt);
 
   /// [EventInterest((UnityEngine.UIElements.EventInterestOptions)0)]
-  /// @brief Method HandleEventTrickleDownDisabled, addr 0x7229e6c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HandleEventTrickleDownDisabled, addr 0x7266da0, size 0x4, virtual true, abstract: false, final false
   inline void HandleEventTrickleDownDisabled(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method HandleEventTrickleDownInternal, addr 0x7229e70, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleEventTrickleDownInternal, addr 0x7266da4, size 0xc, virtual false, abstract: false, final false
   inline void HandleEventTrickleDownInternal(::UnityEngine::UIElements::EventBase* evt);
 
   static inline ::UnityEngine::UIElements::CallbackEventHandler* New_ctor();
 
-  /// @brief Method NotifyPropertyChanged, addr 0x7229ec0, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method NotifyPropertyChanged, addr 0x7266df4, size 0x1c4, virtual false, abstract: false, final false
   inline void NotifyPropertyChanged(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> property);
 
   /// @brief Method RegisterCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -171,7 +171,7 @@ public:
 
   constexpr void __cordl_internal_set_m_CallbackRegistry(::UnityEngine::UIElements::EventCallbackRegistry* value);
 
-  /// @brief Method .ctor, addr 0x722a084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7266fb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::UIElements::IEventHandler"

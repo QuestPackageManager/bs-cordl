@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectPostRenderPass_PassData::*)()>(&::GlobalNamespace::MainEffectPostRenderPass_PassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6360748;
+  constexpr static std::size_t addrs = 0x639d220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectPostRenderPass_PassData*>(), { ".ctor", {}, {} })));
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectPostRenderPass___c::*)()>(&::GlobalNamespace::MainEffectPostRenderPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63607a0;
+  constexpr static std::size_t addrs = 0x639d278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectPostRenderPass___c*>(), { ".ctor", {}, {} })));
@@ -124,7 +124,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::GlobalNamespace::MainEffectPostRenderPass___c::*)(::GlobalNamespace::MainEffectPostRenderPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*)>(
         &::GlobalNamespace::MainEffectPostRenderPass___c::_RecordRenderGraph_b__2_0)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x63607a4;
+  constexpr static std::size_t addrs = 0x639d27c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -143,7 +143,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::GlobalNamespace::MainEffectPostRenderPass___c::*)(::GlobalNamespace::MainEffectPostRenderPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
         &::GlobalNamespace::MainEffectPostRenderPass___c::_RecordRenderGraph_b__2_1)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x63607b0;
+  constexpr static std::size_t addrs = 0x639d288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectPostRenderPass::*)(::UnityEngine::Rendering::Universal::RenderPassEvent)>(
     &::GlobalNamespace::MainEffectPostRenderPass::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x635ed40;
+  constexpr static std::size_t addrs = 0x639b818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectPostRenderPass*>(),
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectPostRenderPass::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*)>(&::GlobalNamespace::MainEffectPostRenderPass::RecordRenderGraph)> {
   constexpr static std::size_t size = 0xe50;
-  constexpr static std::size_t addrs = 0x635f648;
+  constexpr static std::size_t addrs = 0x639c120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::MainEffectPostRenderPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*)>(
     &::GlobalNamespace::MainEffectPostRenderPass::ExecutePyramidBloomPass)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x6360498;
+  constexpr static std::size_t addrs = 0x639cf70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -273,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::MainEffectPostRenderPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::GlobalNamespace::MainEffectPostRenderPass::ExecuteNoPostProcessPass)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x636070c;
+  constexpr static std::size_t addrs = 0x639d1e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

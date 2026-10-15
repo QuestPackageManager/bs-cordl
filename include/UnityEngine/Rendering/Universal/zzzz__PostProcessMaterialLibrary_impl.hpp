@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Rendering::Universal::PostProcessData> (::UnityEngine::Rendering::Universal::PostProcessMaterialLibrary::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessMaterialLibrary::get_resources)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cda6ac;
+  constexpr static std::size_t addrs = 0x6d17328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessMaterialLibrary::*)(::UnityEngine::Rendering::Universal::PostProcessData*)>(
     &::UnityEngine::Rendering::Universal::PostProcessMaterialLibrary::_ctor)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x6cda6b4;
+  constexpr static std::size_t addrs = 0x6d17330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessMaterialLibrary*>(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::UnityEngine::Rendering::Universal::PostProcessMaterialLibrary::*)(::UnityEngine::Shader*)>(
     &::UnityEngine::Rendering::Universal::PostProcessMaterialLibrary::Load)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x6cda8d8;
+  constexpr static std::size_t addrs = 0x6d17554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessMaterialLibrary::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessMaterialLibrary::Cleanup)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x6cdaa60;
+  constexpr static std::size_t addrs = 0x6d176dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

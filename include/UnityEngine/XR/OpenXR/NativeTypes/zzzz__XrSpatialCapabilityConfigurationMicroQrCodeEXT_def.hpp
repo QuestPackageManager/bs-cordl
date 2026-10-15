@@ -54,42 +54,42 @@ public:
   /// @brief Convert operator to "::UnityEngine::XR::OpenXR::NativeTypes::ISpatialCapabilityConfiguration"
   constexpr operator ::UnityEngine::XR::OpenXR::NativeTypes::ISpatialCapabilityConfiguration*();
 
-  /// @brief Method .ctor, addr 0x6e43d34, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e809d0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t enabledComponentCount, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT* enabledComponents);
 
-  /// @brief Method .ctor, addr 0x6e43dc4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e80a60, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT> enabledComponents);
 
-  /// @brief Method .ctor, addr 0x6e43eb4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e80b50, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT> enabledComponents);
 
-  /// @brief Method .ctor, addr 0x6e43d18, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e809b4, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(void* next, uint32_t enabledComponentCount, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT* enabledComponents);
 
-  /// @brief Method .ctor, addr 0x6e43d50, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e809ec, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(void* next, ::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT> enabledComponents);
 
-  /// @brief Method .ctor, addr 0x6e43e2c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e80ac8, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(void* next, ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT> enabledComponents);
 
   /// [CompilerGenerated]
-  /// @brief Method get_capability, addr 0x6e43d00, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_capability, addr 0x6e8099c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityEXT get_capability();
 
   /// [CompilerGenerated]
-  /// @brief Method get_enabledComponentCount, addr 0x6e43d08, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_enabledComponentCount, addr 0x6e809a4, size 0x8, virtual true, abstract: false, final true
   inline uint32_t get_enabledComponentCount();
 
   /// [CompilerGenerated]
-  /// @brief Method get_enabledComponents, addr 0x6e43d10, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_enabledComponents, addr 0x6e809ac, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT* get_enabledComponents();
 
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e43cf8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_next, addr 0x6e80994, size 0x8, virtual true, abstract: false, final true
   inline void* get_next();
 
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e43cf0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_type, addr 0x6e8098c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   /// @brief Convert to "::UnityEngine::XR::OpenXR::NativeTypes::ISpatialCapabilityConfiguration"
@@ -109,7 +109,7 @@ public:
                                                            ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT* _enabledComponents_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17569 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17602 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

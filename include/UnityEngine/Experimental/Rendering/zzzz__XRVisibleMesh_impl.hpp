@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::Rendering::XRVisibleMesh::*)(::UnityEngine::Experimental::Rendering::XRPass*)>(
     &::UnityEngine::Experimental::Rendering::XRVisibleMesh::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b5e524;
+  constexpr static std::size_t addrs = 0x6b9b1a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::XRVisibleMesh*>(),
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::Rendering::XRVisibleMesh::*)()>(&::UnityEngine::Experimental::Rendering::XRVisibleMesh::Dispose)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6b5e8bc;
+  constexpr static std::size_t addrs = 0x6b9b538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::XRVisibleMesh*>(), { "Dispose", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Experimental::Rendering::XRVisibleMesh::*)()>(
     &::UnityEngine::Experimental::Rendering::XRVisibleMesh::get_hasValidVisibleMesh)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6b5f254;
+  constexpr static std::size_t addrs = 0x6b9bed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Expe
                                                                                                                        ::UnityEngine::MaterialPropertyBlock*, int32_t, bool)>(
     &::UnityEngine::Experimental::Rendering::XRVisibleMesh::RenderVisibleMeshCustomMaterial)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x6b5f3a0;
+  constexpr static std::size_t addrs = 0x6b9c01c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::Rendering::XRVisibleMesh::*)()>(&::UnityEngine::Experimental::Rendering::XRVisibleMesh::UpdateCombinedMesh)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6b5faa0;
+  constexpr static std::size_t addrs = 0x6b9c71c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Experimental::Rendering::XRVisibleMesh::*)()>(
     &::UnityEngine::Experimental::Rendering::XRVisibleMesh::IsVisibleMeshSupported)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b61fe0;
+  constexpr static std::size_t addrs = 0x6b9ec5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Experimental::Rendering::XRVisibleMesh::*)(::by_ref<int32_t>)>(
     &::UnityEngine::Experimental::Rendering::XRVisibleMesh::TryGetVisibleMeshCombinedHashCode)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6b62024;
+  constexpr static std::size_t addrs = 0x6b9eca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::XRVisibleMesh*>(),
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::Rendering::XRVisibleMesh::*)()>(
     &::UnityEngine::Experimental::Rendering::XRVisibleMesh::CreateVisibleMeshCombined)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x6b6211c;
+  constexpr static std::size_t addrs = 0x6b9ed98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

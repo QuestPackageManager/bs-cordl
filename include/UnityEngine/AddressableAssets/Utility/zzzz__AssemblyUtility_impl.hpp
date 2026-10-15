@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Reflection::Assembly*>* (*)()>(
     &::UnityEngine::AddressableAssets::Utility::AssemblyUtility::GetAssemblies)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x688c928;
+  constexpr static std::size_t addrs = 0x68c95a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

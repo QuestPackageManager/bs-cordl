@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::OnCullingCompleteCallback::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::Rendering::OnCullingCompleteCallback::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6c4eb9c;
+  constexpr static std::size_t addrs = 0x6c8b818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OnCullingCompleteCallback*>(),
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::Unity::Jobs::JobHandle, ::by_ref<::UnityEngine::Rendering::BatchCullingContext const>, ::by_ref<::UnityEngine::Rendering::BatchCullingOutput const>)>(
     &::UnityEngine::Rendering::OnCullingCompleteCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6c4ec08;
+  constexpr static std::size_t addrs = 0x6c8b884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OnCullingCompleteCallback*>(),
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
                                                             ::by_ref<::UnityEngine::Rendering::BatchCullingOutput const>, ::System::AsyncCallback*, ::System::Object*)>(
     &::UnityEngine::Rendering::OnCullingCompleteCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6c4ec1c;
+  constexpr static std::size_t addrs = 0x6c8b898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OnCullingCompleteCallback*>(),
@@ -61,7 +61,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::by_ref<::UnityEngine::Rendering::BatchCullingContext const>, ::by_ref<::UnityEngine::Rendering::BatchCullingOutput const>, ::System::IAsyncResult*)>(
     &::UnityEngine::Rendering::OnCullingCompleteCallback::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c4ed0c;
+  constexpr static std::size_t addrs = 0x6c8b988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OnCullingCompleteCallback*>(),

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::TextCore::Text::TextGenerationInfo::get_CurrentGenerationIteration)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x705f9b8;
+  constexpr static std::size_t addrs = 0x709c8ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::UnityEngine::TextCore::Text::TextGenerationInfo::set_CurrentGenerationIteration)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x705fa04;
+  constexpr static std::size_t addrs = 0x709c8f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(bool)>(&::UnityEngine::TextCore::Text::TextGenerationInfo::Create)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x705fa54;
+  constexpr static std::size_t addrs = 0x709c948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::TextCore::Text::TextGenerationInfo::Destroy)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x705fa90;
+  constexpr static std::size_t addrs = 0x709c984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::TextCore::Text::TextGenerationInfo::OnRepaintEnd)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x705facc;
+  constexpr static std::size_t addrs = 0x709c9c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextGenerationInfo*>(), { "OnRepaintEnd", {}, {} })));
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::TextCore::Text::TextGenerationInfo::DestroyAllTempAllocations)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x705fb78;
+  constexpr static std::size_t addrs = 0x709ca6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

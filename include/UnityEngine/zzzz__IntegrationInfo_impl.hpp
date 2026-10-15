@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::IntegrationInfo::*)()>(&::UnityEngine::IntegrationInfo::get_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ffe764;
+  constexpr static std::size_t addrs = 0x703b658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::IntegrationInfo>(), { "get_id", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::IntegrationInfo::*)()>(&::UnityEngine::IntegrationInfo::get_name)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6ffe76c;
+  constexpr static std::size_t addrs = 0x703b660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::IntegrationInfo>(), { "get_name", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::IntegrationInfo::*)()>(&::UnityEngine::IntegrationInfo::get_description)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6ffe7c4;
+  constexpr static std::size_t addrs = 0x703b6b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::IntegrationInfo>(), { "get_description", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::UnityEngine::IntegrationInfo::*)()>(&::UnityEngine::IntegrationInfo::get_sDKMajorVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ffe81c;
+  constexpr static std::size_t addrs = 0x703b710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::IntegrationInfo>(), { "get_sDKMajorVersion", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::UnityEngine::IntegrationInfo::*)()>(&::UnityEngine::IntegrationInfo::get_sDKMinorVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ffe824;
+  constexpr static std::size_t addrs = 0x703b718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::IntegrationInfo>(), { "get_sDKMinorVersion", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::UnityEngine::IntegrationInfo::*)()>(&::UnityEngine::IntegrationInfo::get_sDKPatchVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ffe82c;
+  constexpr static std::size_t addrs = 0x703b720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::IntegrationInfo>(), { "get_sDKPatchVersion", {}, {} })));
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::UnityEngine::IntegrationInfo::*)()>(&::UnityEngine::IntegrationInfo::get_majorVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ffe834;
+  constexpr static std::size_t addrs = 0x703b728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::IntegrationInfo>(), { "get_majorVersion", {}, {} })));
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::UnityEngine::IntegrationInfo::*)()>(&::UnityEngine::IntegrationInfo::get_minorVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ffe83c;
+  constexpr static std::size_t addrs = 0x703b730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::IntegrationInfo>(), { "get_minorVersion", {}, {} })));
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::UnityEngine::IntegrationInfo::*)()>(&::UnityEngine::IntegrationInfo::get_patchVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ffe844;
+  constexpr static std::size_t addrs = 0x703b738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::IntegrationInfo>(), { "get_patchVersion", {}, {} })));
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::IntegrationInfo::*)()>(&::UnityEngine::IntegrationInfo::get_isFallback)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6ffe84c;
+  constexpr static std::size_t addrs = 0x703b740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::IntegrationInfo>(), { "get_isFallback", {}, {} })));
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::IntegrationInfo::*)()>(&::UnityEngine::IntegrationInfo::get_isExperimental)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6ffe864;
+  constexpr static std::size_t addrs = 0x703b758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::IntegrationInfo>(), { "get_isExperimental", {}, {} })));
@@ -178,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::IntegrationLimits (::UnityEngine::IntegrationInfo::*)()>(&::UnityEngine::IntegrationInfo::get_limit)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6ffe874;
+  constexpr static std::size_t addrs = 0x703b768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::IntegrationInfo>(), { "get_limit", {}, {} })));

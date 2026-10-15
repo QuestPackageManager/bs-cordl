@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HDROutputUtils_HDRDisplayInformation::*)(int32_t, int32_t, int32_t, float_t)>(
     &::UnityEngine::Rendering::HDROutputUtils_HDRDisplayInformation::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6be2be8;
+  constexpr static std::size_t addrs = 0x6c1f864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::ColorGamut, ::by_ref<int32_t>)>(&::UnityEngine::Rendering::HDROutputUtils::GetColorSpaceForGamut)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x6be1fac;
+  constexpr static std::size_t addrs = 0x6c1ec28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::ColorGamut, ::by_ref<int32_t>)>(&::UnityEngine::Rendering::HDROutputUtils::GetColorEncodingForGamut)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x6be2200;
+  constexpr static std::size_t addrs = 0x6c1ee7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Material*, ::UnityEngine::ColorGamut, ::UnityEngine::Rendering::HDROutputUtils_Operation)>(
     &::UnityEngine::Rendering::HDROutputUtils::ConfigureHDROutput)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x6be23ac;
+  constexpr static std::size_t addrs = 0x6c1f028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::MaterialPropertyBlock*, ::UnityEngine::ColorGamut)>(&::UnityEngine::Rendering::HDROutputUtils::ConfigureHDROutput)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6be25f4;
+  constexpr static std::size_t addrs = 0x6c1f270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Material*, ::UnityEngine::Rendering::HDROutputUtils_Operation)>(
     &::UnityEngine::Rendering::HDROutputUtils::ConfigureHDROutput)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x6be26bc;
+  constexpr static std::size_t addrs = 0x6c1f338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ComputeShader*, ::UnityEngine::ColorGamut, ::UnityEngine::Rendering::HDROutputUtils_Operation)>(
     &::UnityEngine::Rendering::HDROutputUtils::ConfigureHDROutput)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x6be2830;
+  constexpr static std::size_t addrs = 0x6c1f4ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::ShaderKeywordSet, bool)>(&::UnityEngine::Rendering::HDROutputUtils::IsShaderVariantValid)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x6be2a80;
+  constexpr static std::size_t addrs = 0x6c1f6fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

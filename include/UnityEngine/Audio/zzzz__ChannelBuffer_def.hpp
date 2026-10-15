@@ -34,22 +34,22 @@ public:
 
   __declspec(property(get = get_frameCount)) int32_t frameCount;
 
-  /// @brief Method Clear, addr 0x6eaa5d0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6ee726c, size 0x50, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method .ctor, addr 0x6eaa620, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ee72bc, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::System::Span_1<float_t> buffer, int32_t channels);
 
-  /// @brief Method get_Item, addr 0x6eaa580, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x6ee721c, size 0x28, virtual false, abstract: false, final false
   inline float_t get_Item(int32_t channel, int32_t frame);
 
-  /// @brief Method get_channelCount, addr 0x6eaa570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_channelCount, addr 0x6ee720c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_channelCount();
 
-  /// @brief Method get_frameCount, addr 0x6eaa578, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_frameCount, addr 0x6ee7214, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_frameCount();
 
-  /// @brief Method set_Item, addr 0x6eaa5a8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x6ee7244, size 0x28, virtual false, abstract: false, final false
   inline void set_Item(int32_t channel, int32_t frame, float_t value);
 
   // Ctor Parameters []
@@ -61,7 +61,7 @@ public:
   constexpr ChannelBuffer(::System::Span_1<float_t> Buffer, int32_t m_ChannelCount, int32_t m_FrameCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20335 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20382 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

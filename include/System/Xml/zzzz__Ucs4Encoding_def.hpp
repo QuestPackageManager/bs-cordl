@@ -41,31 +41,31 @@ public:
   /// @brief Field ucs4Decoder, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_ucs4Decoder, put = __cordl_internal_set_ucs4Decoder)) ::System::Xml::Ucs4Decoder* ucs4Decoder;
 
-  /// @brief Method GetByteCount, addr 0x670b46c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetByteCount, addr 0x674803c, size 0x68, virtual true, abstract: false, final false
   inline int32_t GetByteCount(::ArrayW<char16_t> chars, int32_t index, int32_t count);
 
-  /// @brief Method GetBytes, addr 0x670b4d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x67480a4, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> GetBytes(::StringW s);
 
-  /// @brief Method GetBytes, addr 0x670b4dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x67480ac, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetBytes(::ArrayW<char16_t> chars, int32_t charIndex, int32_t charCount, ::ArrayW<uint8_t> bytes, int32_t byteIndex);
 
-  /// @brief Method GetCharCount, addr 0x670b4ec, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetCharCount, addr 0x67480bc, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetCharCount(::ArrayW<uint8_t> bytes, int32_t index, int32_t count);
 
-  /// @brief Method GetChars, addr 0x670b508, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetChars, addr 0x67480d8, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetChars(::ArrayW<uint8_t> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t> chars, int32_t charIndex);
 
-  /// @brief Method GetDecoder, addr 0x670b464, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetDecoder, addr 0x6748034, size 0x8, virtual true, abstract: false, final false
   inline ::System::Text::Decoder* GetDecoder();
 
-  /// @brief Method GetEncoder, addr 0x670b544, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetEncoder, addr 0x6748114, size 0x8, virtual true, abstract: false, final false
   inline ::System::Text::Encoder* GetEncoder();
 
-  /// @brief Method GetMaxByteCount, addr 0x670b4e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetMaxByteCount, addr 0x67480b4, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetMaxByteCount(int32_t charCount);
 
-  /// @brief Method GetMaxCharCount, addr 0x670b524, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetMaxCharCount, addr 0x67480f4, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetMaxCharCount(int32_t byteCount);
 
   static inline ::System::Xml::Ucs4Encoding* New_ctor();
@@ -76,25 +76,25 @@ public:
 
   constexpr void __cordl_internal_set_ucs4Decoder(::System::Xml::Ucs4Decoder* value);
 
-  /// @brief Method .ctor, addr 0x670b86c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x674843c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CodePage, addr 0x670b53c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CodePage, addr 0x674810c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_CodePage();
 
-  /// @brief Method get_UCS4_2143, addr 0x670b6dc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_UCS4_2143, addr 0x67482ac, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* get_UCS4_2143();
 
-  /// @brief Method get_UCS4_3412, addr 0x670b7a4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_UCS4_3412, addr 0x6748374, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* get_UCS4_3412();
 
-  /// @brief Method get_UCS4_Bigendian, addr 0x670b614, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_UCS4_Bigendian, addr 0x67481e4, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* get_UCS4_Bigendian();
 
-  /// @brief Method get_UCS4_Littleendian, addr 0x670b54c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_UCS4_Littleendian, addr 0x674811c, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* get_UCS4_Littleendian();
 
-  /// @brief Method get_WebName, addr 0x670b458, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_WebName, addr 0x6748028, size 0xc, virtual true, abstract: false, final false
   inline ::StringW get_WebName();
 
 protected:
@@ -112,7 +112,7 @@ public:
   Ucs4Encoding(Ucs4Encoding const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11409 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11416 };
 
   /// @brief Field ucs4Decoder, offset: 0x38, size: 0x8, def value: None
   ::System::Xml::Ucs4Decoder* ___ucs4Decoder;

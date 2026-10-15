@@ -14,6 +14,9 @@ namespace GlobalNamespace {
 class ILightTransformGroup;
 }
 namespace GlobalNamespace {
+class LightGroupCountProvider;
+}
+namespace GlobalNamespace {
 struct LightTransformGroupType;
 }
 namespace System::Collections::Generic {
@@ -57,6 +60,8 @@ public:
   __declspec(property(get = __cordl_internal_get__zTransforms, put = __cordl_internal_set__zTransforms)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* _zTransforms;
 
   __declspec(property(get = get_count)) int32_t count;
+
+  __declspec(property(get = get_countProvider)) ::GlobalNamespace::LightGroupCountProvider* countProvider;
 
   __declspec(property(get = get_groupName)) ::StringW groupName;
 
@@ -132,6 +137,9 @@ public:
   /// @brief Method get_count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_count();
 
+  /// @brief Method get_countProvider, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::GlobalNamespace::LightGroupCountProvider* get_countProvider();
+
   /// @brief Method get_groupName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::StringW get_groupName();
 
@@ -189,7 +197,7 @@ public:
   LightTransformGroup_3(LightTransformGroup_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6036 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6037 };
 
   /// [Space]
   /// [SerializeField]

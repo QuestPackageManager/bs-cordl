@@ -97,7 +97,7 @@ public:
   static ::UnityEngine::UIElements::UIToolkitInteroperabilityBridge_EventHandlerTypes const WorldSpace;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18039 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18072 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -129,7 +129,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIToolkitInteroperabilityBridge___c__DisplayClass37_0* New_ctor();
 
-  /// @brief Method <CreatePanelGameObject>b__0, addr 0x72b2870, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <CreatePanelGameObject>b__0, addr 0x72ef7a4, size 0x1c, virtual false, abstract: false, final false
   inline void _CreatePanelGameObject_b__0();
 
   constexpr ::UnityEngine::UIElements::UIToolkitInteroperabilityBridge* const& __cordl_internal_get___4__this() const;
@@ -144,7 +144,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::UIElements::BaseRuntimePanel* value);
 
-  /// @brief Method .ctor, addr 0x72b1afc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72eea30, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -162,7 +162,7 @@ public:
   UIToolkitInteroperabilityBridge___c__DisplayClass37_0(UIToolkitInteroperabilityBridge___c__DisplayClass37_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18040 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18073 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIToolkitInteroperabilityBridge* _____4__this;
@@ -267,60 +267,60 @@ public:
 
   __declspec(property(get = get_worldPickingMaxDistance, put = set_worldPickingMaxDistance)) float_t worldPickingMaxDistance;
 
-  /// @brief Method Apply, addr 0x72b2064, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x72eef98, size 0x194, virtual false, abstract: false, final false
   inline void Apply(::UnityEngine::UIElements::PanelInputConfiguration* input);
 
-  /// @brief Method ApplyCameraProperties, addr 0x72b1cd0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method ApplyCameraProperties, addr 0x72eec04, size 0x174, virtual false, abstract: false, final false
   inline void ApplyCameraProperties();
 
-  /// @brief Method ApplyOtherProperties, addr 0x72b11a0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ApplyOtherProperties, addr 0x72ee0d4, size 0x48, virtual false, abstract: false, final false
   inline void ApplyOtherProperties();
 
-  /// @brief Method ApplyOverrideUIToolkitEvents, addr 0x72b10e4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ApplyOverrideUIToolkitEvents, addr 0x72ee018, size 0xac, virtual false, abstract: false, final false
   inline void ApplyOverrideUIToolkitEvents();
 
-  /// @brief Method CreatePanelGameObject, addr 0x72b17e0, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method CreatePanelGameObject, addr 0x72ee714, size 0x31c, virtual false, abstract: false, final false
   inline void CreatePanelGameObject(::UnityEngine::UIElements::BaseRuntimePanel* panel);
 
-  /// @brief Method CreateWorldSpacePanelGameObject, addr 0x72b1b00, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method CreateWorldSpacePanelGameObject, addr 0x72eea34, size 0x1d0, virtual false, abstract: false, final false
   inline void CreateWorldSpacePanelGameObject();
 
-  /// @brief Method DestroyPanelGameObject, addr 0x72b1640, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method DestroyPanelGameObject, addr 0x72ee574, size 0x10c, virtual false, abstract: false, final false
   inline void DestroyPanelGameObject(::UnityEngine::UIElements::BaseRuntimePanel* panel);
 
-  /// @brief Method DestroyWorldSpacePanelGameObject, addr 0x72b174c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method DestroyWorldSpacePanelGameObject, addr 0x72ee680, size 0x64, virtual false, abstract: false, final false
   inline void DestroyWorldSpacePanelGameObject();
 
   static inline ::UnityEngine::UIElements::UIToolkitInteroperabilityBridge* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x72b21f8, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x72ef12c, size 0x15c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x72b1e50, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x72eed84, size 0x214, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Start, addr 0x72b1e44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x72eed78, size 0xc, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartTrackingPanel, addr 0x72b140c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method StartTrackingPanel, addr 0x72ee340, size 0x70, virtual false, abstract: false, final false
   inline void StartTrackingPanel(::UnityEngine::UIElements::BaseRuntimePanel* panel);
 
-  /// @brief Method StartTrackingUIToolkitPanels, addr 0x72b1248, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method StartTrackingUIToolkitPanels, addr 0x72ee17c, size 0x1c4, virtual false, abstract: false, final false
   inline void StartTrackingUIToolkitPanels();
 
-  /// @brief Method StopTrackingUIToolkitPanels, addr 0x72b147c, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method StopTrackingUIToolkitPanels, addr 0x72ee3b0, size 0x1c4, virtual false, abstract: false, final false
   inline void StopTrackingUIToolkitPanels();
 
-  /// @brief Method Update, addr 0x72b2354, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x72ef288, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdatePanelGameObject, addr 0x72b17b0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method UpdatePanelGameObject, addr 0x72ee6e4, size 0x30, virtual false, abstract: false, final false
   inline void UpdatePanelGameObject(::UnityEngine::UIElements::BaseRuntimePanel* panel);
 
-  /// @brief Method UpdatePanelGameObjects, addr 0x72b2358, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method UpdatePanelGameObjects, addr 0x72ef28c, size 0x314, virtual false, abstract: false, final false
   inline void UpdatePanelGameObjects();
 
-  /// @brief Method UpdatePanelTracking, addr 0x72b266c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method UpdatePanelTracking, addr 0x72ef5a0, size 0x28, virtual false, abstract: false, final false
   inline void UpdatePanelTracking();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::BaseRuntimePanel*, ::System::Action*>* const& __cordl_internal_get_destroyedActions() const;
@@ -437,46 +437,46 @@ public:
 
   constexpr void __cordl_internal_set_trackedPanels(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::BaseRuntimePanel*>* value);
 
-  /// @brief Method .ctor, addr 0x72b2694, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72ef5c8, size 0x1dc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_createDefaultPanelComponents, addr 0x72b1208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_createDefaultPanelComponents, addr 0x72ee13c, size 0x8, virtual false, abstract: false, final false
   inline bool get_createDefaultPanelComponents();
 
-  /// @brief Method get_eventSystem, addr 0x72b1050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventSystem, addr 0x72edf84, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::EventSystems::EventSystem> get_eventSystem();
 
-  /// @brief Method get_handlerTypes, addr 0x72b1190, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_handlerTypes, addr 0x72ee0c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIToolkitInteroperabilityBridge_EventHandlerTypes get_handlerTypes();
 
-  /// @brief Method get_overrideUIToolkitEvents, addr 0x72b10d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overrideUIToolkitEvents, addr 0x72ee008, size 0x8, virtual false, abstract: false, final false
   inline bool get_overrideUIToolkitEvents();
 
-  /// @brief Method get_shouldTrackPanels, addr 0x72b1218, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_shouldTrackPanels, addr 0x72ee14c, size 0x30, virtual false, abstract: false, final false
   inline bool get_shouldTrackPanels();
 
-  /// @brief Method get_worldPickingLayers, addr 0x72b11e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_worldPickingLayers, addr 0x72ee11c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_worldPickingLayers();
 
-  /// @brief Method get_worldPickingMaxDistance, addr 0x72b11f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_worldPickingMaxDistance, addr 0x72ee12c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_worldPickingMaxDistance();
 
-  /// @brief Method set_createDefaultPanelComponents, addr 0x72b1210, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_createDefaultPanelComponents, addr 0x72ee144, size 0x8, virtual false, abstract: false, final false
   inline void set_createDefaultPanelComponents(bool value);
 
-  /// @brief Method set_eventSystem, addr 0x72b1058, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_eventSystem, addr 0x72edf8c, size 0x7c, virtual false, abstract: false, final false
   inline void set_eventSystem(::UnityEngine::EventSystems::EventSystem* value);
 
-  /// @brief Method set_handlerTypes, addr 0x72b1198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_handlerTypes, addr 0x72ee0cc, size 0x8, virtual false, abstract: false, final false
   inline void set_handlerTypes(::UnityEngine::UIElements::UIToolkitInteroperabilityBridge_EventHandlerTypes value);
 
-  /// @brief Method set_overrideUIToolkitEvents, addr 0x72b10dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_overrideUIToolkitEvents, addr 0x72ee010, size 0x8, virtual false, abstract: false, final false
   inline void set_overrideUIToolkitEvents(bool value);
 
-  /// @brief Method set_worldPickingLayers, addr 0x72b11f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_worldPickingLayers, addr 0x72ee124, size 0x8, virtual false, abstract: false, final false
   inline void set_worldPickingLayers(int32_t value);
 
-  /// @brief Method set_worldPickingMaxDistance, addr 0x72b1200, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_worldPickingMaxDistance, addr 0x72ee134, size 0x8, virtual false, abstract: false, final false
   inline void set_worldPickingMaxDistance(float_t value);
 
 protected:
@@ -494,7 +494,7 @@ public:
   UIToolkitInteroperabilityBridge(UIToolkitInteroperabilityBridge const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18041 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18074 };
 
   /// @brief Field m_EventSystem, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::EventSystems::EventSystem> ___m_EventSystem;

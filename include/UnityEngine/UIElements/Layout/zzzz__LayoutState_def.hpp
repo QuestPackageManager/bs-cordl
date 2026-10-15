@@ -21,7 +21,7 @@ namespace UnityEngine::UIElements::Layout {
 struct CORDL_TYPE LayoutState {
 public:
   // Declarations
-  /// @brief Method get_Default, addr 0x719a450, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_Default, addr 0x71d7384, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Layout::LayoutState get_Default();
 
   // Ctor Parameters []

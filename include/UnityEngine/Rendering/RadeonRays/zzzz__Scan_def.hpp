@@ -44,16 +44,16 @@ public:
   /// @brief Field shaderScan, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_shaderScan, put = __cordl_internal_set_shaderScan)) ::UnityW<::UnityEngine::ComputeShader> shaderScan;
 
-  /// @brief Method Execute, addr 0x6dfe338, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x6e3afd4, size 0x240, virtual false, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::GraphicsBuffer* buffer, uint32_t inputKeysOffset, uint32_t outputKeysOffset, uint32_t scratchDataOffset,
                       uint32_t size);
 
-  /// @brief Method GetScratchDataSizeInDwords, addr 0x6dfe578, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetScratchDataSizeInDwords, addr 0x6e3b214, size 0x30, virtual false, abstract: false, final false
   static inline uint64_t GetScratchDataSizeInDwords(uint32_t size);
 
   static inline ::UnityEngine::Rendering::RadeonRays::Scan* New_ctor(::UnityEngine::Rendering::RadeonRays::RadeonRaysShaders* shaders);
 
-  /// @brief Method SetState, addr 0x6dfe70c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method SetState, addr 0x6e3b3a8, size 0x134, virtual false, abstract: false, final false
   inline void SetState(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::ComputeShader* shader, int32_t kernelIndex, uint32_t size, ::UnityEngine::GraphicsBuffer* buffer,
                        uint32_t inputKeysOffset, uint32_t scratchDataOffset, uint32_t outputKeysOffset);
 
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set_shaderScan(::UnityW<::UnityEngine::ComputeShader> value);
 
-  /// @brief Method .ctor, addr 0x6dfe28c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3af28, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RadeonRays::RadeonRaysShaders* shaders);
 
 protected:
@@ -99,7 +99,7 @@ public:
   Scan(Scan const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20446 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20493 };
 
   /// @brief Field kGroupSize offset 0xffffffff size 0x4
   static constexpr uint32_t kGroupSize{ static_cast<uint32_t>(0x100u) };

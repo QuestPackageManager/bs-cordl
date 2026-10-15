@@ -73,7 +73,7 @@ public:
   static ::UnityEngine::Rendering::LensFlareComponentSRP_Version const Initial;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9045 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9052 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -168,21 +168,21 @@ public:
   /// @brief Field volumetricCloudOcclusion, offset 0x6d, size 0x1
   __declspec(property(get = __cordl_internal_get_volumetricCloudOcclusion, put = __cordl_internal_set_volumetricCloudOcclusion)) bool volumetricCloudOcclusion;
 
-  /// @brief Method Awake, addr 0x6bbc244, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x6bf8ec0, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::UnityEngine::Rendering::LensFlareComponentSRP* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x6bbc370, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x6bf8fec, size 0x18, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x6bbc30c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x6bf8f88, size 0x64, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x6bbc248, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6bf8ec4, size 0xc4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x6bbc164, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x6bf8de0, size 0xe0, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr bool const& __cordl_internal_get_allowOffScreen() const;
@@ -311,20 +311,20 @@ public:
 
   constexpr void __cordl_internal_set_volumetricCloudOcclusion(bool value);
 
-  /// @brief Method .ctor, addr 0x6bbc388, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bf9004, size 0x248, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method celestialProjectedOcclusionRadius, addr 0x6bb84b0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method celestialProjectedOcclusionRadius, addr 0x6bf512c, size 0xd0, virtual false, abstract: false, final false
   inline float_t celestialProjectedOcclusionRadius(::UnityEngine::Camera* mainCam);
 
   static inline float_t getStaticF_sCelestialAngularRadius();
 
-  /// @brief Method get_lensFlareData, addr 0x6bbc154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lensFlareData, addr 0x6bf8dd0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::LensFlareDataSRP> get_lensFlareData();
 
   static inline void setStaticF_sCelestialAngularRadius(float_t value);
 
-  /// @brief Method set_lensFlareData, addr 0x6bbc15c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lensFlareData, addr 0x6bf8dd8, size 0x8, virtual false, abstract: false, final false
   inline void set_lensFlareData(::UnityEngine::Rendering::LensFlareDataSRP* value);
 
 protected:
@@ -342,7 +342,7 @@ public:
   LensFlareComponentSRP(LensFlareComponentSRP const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9046 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9053 };
 
   /// [SerializeField]
   /// @brief Field m_LensFlareData, offset: 0x20, size: 0x8, def value: None

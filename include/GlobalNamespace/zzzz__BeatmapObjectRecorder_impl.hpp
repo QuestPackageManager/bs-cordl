@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectRecorder::*)(int32_t)>(&::GlobalNamespace::BeatmapObjectRecorder::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5d0891c;
+  constexpr static std::size_t addrs = 0x5d41930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectRecorder::*)(::GlobalNamespace::BeatmapObjectManager*)>(
     &::GlobalNamespace::BeatmapObjectRecorder::Begin)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d089a0;
+  constexpr static std::size_t addrs = 0x5d419b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectRecorder::*)()>(&::GlobalNamespace::BeatmapObjectRecorder::CaptureFrame)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5d08bec;
+  constexpr static std::size_t addrs = 0x5d41c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectRecorder*>(), { "CaptureFrame", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::BeatmapObjectRecorder_ObjectCounts> (::GlobalNamespace::BeatmapObjectRecorder::*)()>(
     &::GlobalNamespace::BeatmapObjectRecorder::Finish)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5d08cc8;
+  constexpr static std::size_t addrs = 0x5d41cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectRecorder*>(), { "Finish", {}, {} })));
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::ArrayW<::GlobalNamespace::BeatmapObjectRecorder_ObjectCounts>)>(
     &::GlobalNamespace::BeatmapObjectRecorder::GenerateTableReport)> {
   constexpr static std::size_t size = 0x4c4;
-  constexpr static std::size_t addrs = 0x5d08fb0;
+  constexpr static std::size_t addrs = 0x5d41fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectRecorder::*)()>(&::GlobalNamespace::BeatmapObjectRecorder::ClearCallbacks)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x5d08d64;
+  constexpr static std::size_t addrs = 0x5d41d78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectRecorder*>(), { "ClearCallbacks", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectRecorder::*)(::GlobalNamespace::BeatmapObjectManager*)>(
     &::GlobalNamespace::BeatmapObjectRecorder::SetupCallbacks)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x5d089a4;
+  constexpr static std::size_t addrs = 0x5d419b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectRecorder::*)(::GlobalNamespace::NoteController*)>(
     &::GlobalNamespace::BeatmapObjectRecorder::OnSpawnNote)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5d09474;
+  constexpr static std::size_t addrs = 0x5d42488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectRecorder::*)(::GlobalNamespace::NoteController*)>(
     &::GlobalNamespace::BeatmapObjectRecorder::OnDespawnNote)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5d09510;
+  constexpr static std::size_t addrs = 0x5d42524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectRecorder::*)(::GlobalNamespace::SliderController*)>(
     &::GlobalNamespace::BeatmapObjectRecorder::OnSpawnSlider)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5d09548;
+  constexpr static std::size_t addrs = 0x5d4255c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectRecorder::*)(::GlobalNamespace::SliderController*)>(
     &::GlobalNamespace::BeatmapObjectRecorder::OnDespawnSlider)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5d095c8;
+  constexpr static std::size_t addrs = 0x5d425dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectRecorder::*)(::GlobalNamespace::ObstacleController*)>(
     &::GlobalNamespace::BeatmapObjectRecorder::OnSpawnObstacle)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5d0960c;
+  constexpr static std::size_t addrs = 0x5d42620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectRecorder::*)(::GlobalNamespace::ObstacleController*)>(
     &::GlobalNamespace::BeatmapObjectRecorder::OnDepawnObstacle)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5d0961c;
+  constexpr static std::size_t addrs = 0x5d42630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::GlobalNamespace::BeatmapObjectRecorder_ObjectCounts>, ::GlobalNamespace::NoteData*, int32_t)>(
     &::GlobalNamespace::BeatmapObjectRecorder::ChangeNoteTypeCount)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5d094ac;
+  constexpr static std::size_t addrs = 0x5d424c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::GlobalNamespace::BeatmapObjectRecorder_ObjectCounts>, ::GlobalNamespace::SliderData*, int32_t)>(
     &::GlobalNamespace::BeatmapObjectRecorder::ChangeSliderTypeCount)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5d0958c;
+  constexpr static std::size_t addrs = 0x5d425a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

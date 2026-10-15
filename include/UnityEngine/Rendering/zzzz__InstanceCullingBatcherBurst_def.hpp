@@ -116,7 +116,7 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE InstanceCullingBatcherBurst_RemoveDrawInstanceIndices_00000188$PostfixBurstDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6c53f58, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6c90bd4, size 0x190, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const> drawInstanceIndices,
                                              ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>> drawInstances,
                                              ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>> rangeHash,
@@ -125,10 +125,10 @@ public:
                                              ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>> drawBatches, ::System::AsyncCallback* _cordl_fixed_empty_name_whitespace,
                                              ::System::Object* _cordl_fixed_empty_name_whitespace_param_7);
 
-  /// @brief Method EndInvoke, addr 0x6c540e8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6c90d64, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method Invoke, addr 0x6c53f44, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6c90bc0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const> drawInstanceIndices,
                      ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>> drawInstances,
                      ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>> rangeHash,
@@ -139,7 +139,7 @@ public:
   static inline ::UnityEngine::Rendering::InstanceCullingBatcherBurst_RemoveDrawInstanceIndices_00000188$PostfixBurstDelegate* New_ctor(::System::Object* _cordl_fixed_empty_name_whitespace,
                                                                                                                                         ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1);
 
-  /// @brief Method .ctor, addr 0x6c53ec4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c90b40, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* _cordl_fixed_empty_name_whitespace, ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1);
 
 protected:
@@ -157,7 +157,7 @@ public:
   InstanceCullingBatcherBurst_RemoveDrawInstanceIndices_00000188$PostfixBurstDelegate(InstanceCullingBatcherBurst_RemoveDrawInstanceIndices_00000188$PostfixBurstDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18196 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18229 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -175,14 +175,14 @@ public:
   /// @brief Field Pointer, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Pointer, put = setStaticF_Pointer)) ::System::IntPtr Pointer;
 
-  /// @brief Method GetFunctionPointer, addr 0x6c54200, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetFunctionPointer, addr 0x6c90e7c, size 0x18, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFunctionPointer();
 
   /// [BurstDiscard]
-  /// @brief Method GetFunctionPointerDiscard, addr 0x6c540f4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetFunctionPointerDiscard, addr 0x6c90d70, size 0x10c, virtual false, abstract: false, final false
   static inline void GetFunctionPointerDiscard(::by_ref<::System::IntPtr> _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method Invoke, addr 0x6c52ec4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6c8fb40, size 0xec, virtual false, abstract: false, final false
   static inline void Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const> drawInstanceIndices,
                             ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>> drawInstances,
                             ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>> rangeHash,
@@ -209,7 +209,7 @@ public:
   InstanceCullingBatcherBurst_RemoveDrawInstanceIndices_00000188$BurstDirectCall(InstanceCullingBatcherBurst_RemoveDrawInstanceIndices_00000188$BurstDirectCall const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18197 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18230 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -225,7 +225,7 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE InstanceCullingBatcherBurst_CreateDrawBatches_0000018C$PostfixBurstDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6c542ac, size 0x260, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6c90f28, size 0x260, virtual true, abstract: false, final false
   inline ::System::IAsyncResult*
   BeginInvoke(bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> const> instances,
               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const> rendererData,
@@ -239,10 +239,10 @@ public:
               ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>> drawInstances, ::System::AsyncCallback* _cordl_fixed_empty_name_whitespace,
               ::System::Object* _cordl_fixed_empty_name_whitespace_param_12);
 
-  /// @brief Method EndInvoke, addr 0x6c5450c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6c91188, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method Invoke, addr 0x6c54284, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6c90f00, size 0x28, virtual true, abstract: false, final false
   inline void
   Invoke(bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> const> instances,
          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const> rendererData,
@@ -258,7 +258,7 @@ public:
   static inline ::UnityEngine::Rendering::InstanceCullingBatcherBurst_CreateDrawBatches_0000018C$PostfixBurstDelegate* New_ctor(::System::Object* _cordl_fixed_empty_name_whitespace,
                                                                                                                                 ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1);
 
-  /// @brief Method .ctor, addr 0x6c54218, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c90e94, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* _cordl_fixed_empty_name_whitespace, ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1);
 
 protected:
@@ -276,7 +276,7 @@ public:
   InstanceCullingBatcherBurst_CreateDrawBatches_0000018C$PostfixBurstDelegate(InstanceCullingBatcherBurst_CreateDrawBatches_0000018C$PostfixBurstDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18198 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18231 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -294,14 +294,14 @@ public:
   /// @brief Field Pointer, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Pointer, put = setStaticF_Pointer)) ::System::IntPtr Pointer;
 
-  /// @brief Method GetFunctionPointer, addr 0x6c54624, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetFunctionPointer, addr 0x6c912a0, size 0x18, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFunctionPointer();
 
   /// [BurstDiscard]
-  /// @brief Method GetFunctionPointerDiscard, addr 0x6c54518, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetFunctionPointerDiscard, addr 0x6c91194, size 0x10c, virtual false, abstract: false, final false
   static inline void GetFunctionPointerDiscard(::by_ref<::System::IntPtr> _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method Invoke, addr 0x6c53a48, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6c906c4, size 0x1b4, virtual false, abstract: false, final false
   static inline void
   Invoke(bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> const> instances,
          /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const> rendererData,
@@ -333,7 +333,7 @@ public:
   InstanceCullingBatcherBurst_CreateDrawBatches_0000018C$BurstDirectCall(InstanceCullingBatcherBurst_CreateDrawBatches_0000018C$BurstDirectCall const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18199 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18232 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -359,7 +359,7 @@ public:
 
   /// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
   /// [MonoPInvokeCallback(typeof(UnityEngine.Rendering.UnityEngine.Rendering.InstanceCullingBatcherBurst::CreateDrawBatches_0000018C$PostfixBurstDelegate))]
-  /// @brief Method CreateDrawBatches, addr 0x6c52914, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CreateDrawBatches, addr 0x6c8f590, size 0x14, virtual false, abstract: false, final false
   static inline void CreateDrawBatches(
       bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> const> instances,
       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const> rendererData,
@@ -373,7 +373,7 @@ public:
       ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>> drawInstances);
 
   /// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
-  /// @brief Method CreateDrawBatches$BurstManaged, addr 0x6c53dec, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method CreateDrawBatches$BurstManaged, addr 0x6c90a68, size 0xd8, virtual false, abstract: false, final false
   static inline void CreateDrawBatches$BurstManaged(
       bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> const> instances,
       /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const> rendererData,
@@ -386,18 +386,18 @@ public:
       ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>> drawBatches,
       ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>> drawInstances);
 
-  /// @brief Method EditDrawBatch, addr 0x6c53128, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method EditDrawBatch, addr 0x6c8fda4, size 0x1b4, virtual false, abstract: false, final false
   static inline ::by_ref<::UnityEngine::Rendering::DrawBatch> EditDrawBatch(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::DrawKey const> key,
                                                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::SubMeshDescriptor const> subMeshDescriptor,
                                                                             ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t> batchHash,
                                                                             ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> drawBatches);
 
-  /// @brief Method EditDrawRange, addr 0x6c52fb0, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method EditDrawRange, addr 0x6c8fc2c, size 0x178, virtual false, abstract: false, final false
   static inline ::by_ref<::UnityEngine::Rendering::DrawRange> EditDrawRange(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RangeKey const> key,
                                                                             ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t> rangeHash,
                                                                             ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange> drawRanges);
 
-  /// @brief Method ProcessRenderer, addr 0x6c532dc, size 0x76c, virtual false, abstract: false, final false
+  /// @brief Method ProcessRenderer, addr 0x6c8ff58, size 0x76c, virtual false, abstract: false, final false
   static inline void ProcessRenderer(int32_t i, bool implicitInstanceIndices, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const> rendererData,
                                      ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMeshID> batchMeshHash,
                                      ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> packedMaterialDataHash,
@@ -409,7 +409,7 @@ public:
                                      ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t> batchHash,
                                      ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> drawBatches);
 
-  /// @brief Method RemoveDrawBatch, addr 0x6c52c58, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method RemoveDrawBatch, addr 0x6c8f8d4, size 0x26c, virtual false, abstract: false, final false
   static inline void RemoveDrawBatch(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::DrawKey const> key,
                                      ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>> drawRanges,
                                      ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>> rangeHash,
@@ -418,7 +418,7 @@ public:
 
   /// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
   /// [MonoPInvokeCallback(typeof(UnityEngine.Rendering.UnityEngine.Rendering.InstanceCullingBatcherBurst::RemoveDrawInstanceIndices_00000188$PostfixBurstDelegate))]
-  /// @brief Method RemoveDrawInstanceIndices, addr 0x6c503ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RemoveDrawInstanceIndices, addr 0x6c8d068, size 0x4, virtual false, abstract: false, final false
   static inline void RemoveDrawInstanceIndices(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const> drawInstanceIndices,
                                                ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>> drawInstances,
                                                ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>> rangeHash,
@@ -427,7 +427,7 @@ public:
                                                ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>> drawBatches);
 
   /// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
-  /// @brief Method RemoveDrawInstanceIndices$BurstManaged, addr 0x6c53bfc, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method RemoveDrawInstanceIndices$BurstManaged, addr 0x6c90878, size 0x1f0, virtual false, abstract: false, final false
   static inline void RemoveDrawInstanceIndices$BurstManaged(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<int32_t> const> drawInstanceIndices,
                                                             ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>> drawInstances,
                                                             ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>> rangeHash,
@@ -435,7 +435,7 @@ public:
                                                             ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>> drawRanges,
                                                             ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>> drawBatches);
 
-  /// @brief Method RemoveDrawRange, addr 0x6c52ab4, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method RemoveDrawRange, addr 0x6c8f730, size 0x1a4, virtual false, abstract: false, final false
   static inline void RemoveDrawRange(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RangeKey const> key,
                                      ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>> rangeHash,
                                      ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>> drawRanges);
@@ -455,7 +455,7 @@ public:
   InstanceCullingBatcherBurst(InstanceCullingBatcherBurst const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18200 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18233 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

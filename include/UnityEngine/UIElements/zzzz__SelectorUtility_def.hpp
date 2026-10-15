@@ -26,7 +26,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE SelectorUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ExtractSelectorsAndSpecificityFromString, addr 0x71132a0, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method ExtractSelectorsAndSpecificityFromString, addr 0x71501d4, size 0x3b4, virtual false, abstract: false, final false
   static inline bool ExtractSelectorsAndSpecificityFromString(::StringW complexSelectorStr, ::by_ref<::ArrayW<::UnityEngine::UIElements::StyleSelector*>> selectors, ::by_ref<int32_t> specificity,
                                                               ::by_ref<::StringW> error);
 

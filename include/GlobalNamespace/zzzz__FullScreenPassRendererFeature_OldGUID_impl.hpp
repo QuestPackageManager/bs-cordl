@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FullScreenPassRendererFeature_OldGUID::*)()>(
     &::GlobalNamespace::FullScreenPassRendererFeature_OldGUID::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c719c4;
+  constexpr static std::size_t addrs = 0x6cae640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FullScreenPassRendererFeature_OldGUID::*)()>(&::GlobalNamespace::FullScreenPassRendererFeature_OldGUID::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6c719c8;
+  constexpr static std::size_t addrs = 0x6cae644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FullScreenPassRendererFeature_OldGUID*>(), { ".ctor", {}, {} })));

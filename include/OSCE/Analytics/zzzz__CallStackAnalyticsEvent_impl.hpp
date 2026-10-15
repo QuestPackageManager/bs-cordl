@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IDType (::OSCE::Analytics::CallStackAnalyticsEvent::*)()>(&::OSCE::Analytics::CallStackAnalyticsEvent::GetIDType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6354e3c;
+  constexpr static std::size_t addrs = 0x6391914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::CallStackAnalyticsEvent::*)(::OSCE::Analytics::AnalyticsManager*)>(
     &::OSCE::Analytics::CallStackAnalyticsEvent::ApplyBasicFields)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6354e44;
+  constexpr static std::size_t addrs = 0x639191c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::CallStackAnalyticsEvent::*)()>(&::OSCE::Analytics::CallStackAnalyticsEvent::ReturnEventToPool)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6354ee4;
+  constexpr static std::size_t addrs = 0x63919bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::CallStackAnalyticsEvent::*)()>(&::OSCE::Analytics::CallStackAnalyticsEvent::ReturnedToPool)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6354f58;
+  constexpr static std::size_t addrs = 0x6391a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::CallStackAnalyticsEvent::*)()>(&::OSCE::Analytics::CallStackAnalyticsEvent::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6355034;
+  constexpr static std::size_t addrs = 0x6391b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::CallStackAnalyticsEvent*>(), { ".ctor", {}, {} })));

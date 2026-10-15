@@ -142,7 +142,7 @@ public:
 
   constexpr void __cordl_internal_set_xr(::UnityEngine::Experimental::Rendering::XRPass* value);
 
-  /// @brief Method .ctor, addr 0x6365370, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63a1e48, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -160,7 +160,7 @@ public:
   PlanarMirrorBloomPass_PassData(PlanarMirrorBloomPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21146 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21193 };
 
   /// @brief Field cameraData, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::UniversalCameraData* ___cameraData;
@@ -226,10 +226,10 @@ public:
 
   static inline ::GlobalNamespace::PlanarMirrorBloomPass___c* New_ctor();
 
-  /// @brief Method <RecordRenderGraph>b__4_0, addr 0x63653cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RecordRenderGraph>b__4_0, addr 0x63a1ea4, size 0xc, virtual false, abstract: false, final false
   inline void _RecordRenderGraph_b__4_0(::GlobalNamespace::PlanarMirrorBloomPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context);
 
-  /// @brief Method .ctor, addr 0x63653c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63a1ea0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::PlanarMirrorBloomPass___c* getStaticF___9();
@@ -257,7 +257,7 @@ public:
   PlanarMirrorBloomPass___c(PlanarMirrorBloomPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21147 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21194 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -283,12 +283,12 @@ public:
   __declspec(property(get = __cordl_internal_get__tempTextureHandles, put = __cordl_internal_set__tempTextureHandles)) ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>
       _tempTextureHandles;
 
-  /// @brief Method ExecutePass, addr 0x6365038, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x63a1b10, size 0x338, virtual false, abstract: false, final false
   static inline void ExecutePass(::GlobalNamespace::PlanarMirrorBloomPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context);
 
   static inline ::GlobalNamespace::PlanarMirrorBloomPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent renderPassEvent, ::GlobalNamespace::BloomPrePassEffectSO* effectOverride);
 
-  /// @brief Method RecordRenderGraph, addr 0x6364868, size 0x7d0, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x63a1340, size 0x7d0, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
   constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectSO> const& __cordl_internal_get__effectOverride() const;
@@ -303,7 +303,7 @@ public:
 
   constexpr void __cordl_internal_set__tempTextureHandles(::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> value);
 
-  /// @brief Method .ctor, addr 0x63644ac, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63a0f84, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent renderPassEvent, ::GlobalNamespace::BloomPrePassEffectSO* effectOverride);
 
 protected:
@@ -321,7 +321,7 @@ public:
   PlanarMirrorBloomPass(PlanarMirrorBloomPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21148 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21195 };
 
   /// @brief Field _effectOverride, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassEffectSO> ____effectOverride;

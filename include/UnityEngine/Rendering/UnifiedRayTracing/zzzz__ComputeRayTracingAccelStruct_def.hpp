@@ -136,7 +136,7 @@ public:
   constexpr ComputeRayTracingAccelStruct_Triangle(::Unity::Mathematics::float3 v0, ::Unity::Mathematics::float3 v1, ::Unity::Mathematics::float3 v2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20483 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20530 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };
@@ -243,7 +243,7 @@ public:
 
   constexpr void __cordl_internal_set_userInstanceID(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x6e0be9c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e48b38, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -261,7 +261,7 @@ public:
   ComputeRayTracingAccelStruct_RadeonRaysInstance(ComputeRayTracingAccelStruct_RadeonRaysInstance const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20484 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20531 };
 
   /// [TupleElementNames(new[] { "mesh", "subMeshIndex" })]
   /// @brief Field geomKey, offset: 0x10, size: 0x8, def value: None
@@ -335,13 +335,13 @@ public:
   /// @brief Field refCount, offset 0x68, size 0x4
   __declspec(property(get = __cordl_internal_get_refCount, put = __cordl_internal_set_refCount)) uint32_t refCount;
 
-  /// @brief Method DecRef, addr 0x6e0beb0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method DecRef, addr 0x6e48b4c, size 0x10, virtual false, abstract: false, final false
   inline void DecRef();
 
-  /// @brief Method IncRef, addr 0x6e0bea0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IncRef, addr 0x6e48b3c, size 0x10, virtual false, abstract: false, final false
   inline void IncRef();
 
-  /// @brief Method IsUnreferenced, addr 0x6e0bec0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsUnreferenced, addr 0x6e48b5c, size 0x10, virtual false, abstract: false, final false
   inline bool IsUnreferenced();
 
   static inline ::UnityEngine::Rendering::UnifiedRayTracing::ComputeRayTracingAccelStruct_MeshBlas* New_ctor();
@@ -382,7 +382,7 @@ public:
 
   constexpr void __cordl_internal_set_refCount(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x6e0bed0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e48b6c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -400,7 +400,7 @@ public:
   ComputeRayTracingAccelStruct_MeshBlas(ComputeRayTracingAccelStruct_MeshBlas const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20485 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20532 };
 
   /// @brief Field buildInfo, offset: 0x10, size: 0x30, def value: None
   ::UnityEngine::Rendering::RadeonRays::MeshBuildInfo ___buildInfo;
@@ -512,85 +512,85 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::UnifiedRayTracing::IRayTracingAccelStruct"
   constexpr operator ::UnityEngine::Rendering::UnifiedRayTracing::IRayTracingAccelStruct*() noexcept;
 
-  /// @brief Method AddInstance, addr 0x6e09928, size 0x198, virtual true, abstract: false, final true
+  /// @brief Method AddInstance, addr 0x6e465c4, size 0x198, virtual true, abstract: false, final true
   inline int32_t AddInstance(::UnityEngine::Rendering::UnifiedRayTracing::MeshInstanceDesc meshInstance);
 
-  /// @brief Method AllocateBlas, addr 0x6e0a5e8, size 0x598, virtual false, abstract: false, final false
+  /// @brief Method AllocateBlas, addr 0x6e47284, size 0x598, virtual false, abstract: false, final false
   inline void AllocateBlas(::UnityEngine::Mesh* mesh, int32_t submeshIndex, ::UnityEngine::Rendering::UnifiedRayTracing::ComputeRayTracingAccelStruct_MeshBlas* blas);
 
-  /// @brief Method AllocateBlasInternalNodes, addr 0x6e0ac40, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method AllocateBlasInternalNodes, addr 0x6e478dc, size 0x1e8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation AllocateBlasInternalNodes(int32_t allocationNodeCount);
 
-  /// @brief Method AllocateBlasLeafNodes, addr 0x6e0ae28, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method AllocateBlasLeafNodes, addr 0x6e47ac4, size 0x1e8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation AllocateBlasLeafNodes(int32_t allocationNodeCount);
 
-  /// @brief Method Bind, addr 0x6e0b974, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method Bind, addr 0x6e48610, size 0x1e4, virtual false, abstract: false, final false
   inline void Bind(::UnityEngine::Rendering::CommandBuffer* cmd, ::StringW name, ::UnityEngine::ComputeShader* shader, int32_t kernelIndex);
 
-  /// @brief Method Bind, addr 0x6e0b5d0, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method Bind, addr 0x6e4826c, size 0x3a4, virtual false, abstract: false, final false
   inline void Bind(::UnityEngine::Rendering::CommandBuffer* cmd, ::StringW name, ::UnityEngine::Rendering::UnifiedRayTracing::IRayTracingShader* shader);
 
-  /// @brief Method Build, addr 0x6e0a354, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method Build, addr 0x6e46ff0, size 0x8c, virtual true, abstract: false, final true
   inline void Build(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::GraphicsBuffer* scratchBuffer);
 
-  /// @brief Method BuildMissingBottomLevelAccelStructs, addr 0x6e0b010, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method BuildMissingBottomLevelAccelStructs, addr 0x6e47cac, size 0x1f4, virtual false, abstract: false, final false
   inline void BuildMissingBottomLevelAccelStructs(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::GraphicsBuffer* scratchBuffer);
 
-  /// @brief Method BuildTopLevelAccelStruct, addr 0x6e0b204, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method BuildTopLevelAccelStruct, addr 0x6e47ea0, size 0x3cc, virtual false, abstract: false, final false
   inline void BuildTopLevelAccelStruct(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::GraphicsBuffer* scratchBuffer);
 
   /// [Conditional("UNITY_ASSERTIONS")]
-  /// @brief Method CheckInstanceHandleIsValid, addr 0x6e0bda4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method CheckInstanceHandleIsValid, addr 0x6e48a40, size 0xf8, virtual false, abstract: false, final false
   inline void CheckInstanceHandleIsValid(int32_t instanceHandle);
 
-  /// @brief Method ClearInstances, addr 0x6e09f90, size 0x218, virtual true, abstract: false, final true
+  /// @brief Method ClearInstances, addr 0x6e46c2c, size 0x218, virtual true, abstract: false, final true
   inline void ClearInstances();
 
-  /// @brief Method ConvertFlagsToGpuBuild, addr 0x6e0ac30, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ConvertFlagsToGpuBuild, addr 0x6e478cc, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RadeonRays::BuildFlags ConvertFlagsToGpuBuild(::UnityEngine::Rendering::UnifiedRayTracing::BuildFlags flags);
 
-  /// @brief Method ConvertTranform, addr 0x6e0bb58, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ConvertTranform, addr 0x6e487f4, size 0xc8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 ConvertTranform(::UnityEngine::Rendering::RadeonRays::Transform input);
 
-  /// @brief Method ConvertTranform, addr 0x6e09d40, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ConvertTranform, addr 0x6e469dc, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RadeonRays::Transform ConvertTranform(::UnityEngine::Matrix4x4 input);
 
-  /// @brief Method CreateBvh, addr 0x6e0a3f4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method CreateBvh, addr 0x6e47090, size 0x30, virtual false, abstract: false, final false
   inline void CreateBvh(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::GraphicsBuffer* scratchBuffer);
 
-  /// @brief Method DeleteMeshBlas, addr 0x6e09e94, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method DeleteMeshBlas, addr 0x6e46b30, size 0xfc, virtual false, abstract: false, final false
   inline void DeleteMeshBlas(/* [TupleElementNames(new[] { "mesh", "subMeshIndex" })] */ ::System::ValueTuple_2<int32_t, int32_t> geomKey,
                              ::UnityEngine::Rendering::UnifiedRayTracing::ComputeRayTracingAccelStruct_MeshBlas* blas);
 
-  /// @brief Method Dispose, addr 0x6e09744, size 0x1e4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6e463e0, size 0x1e4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method FreeTopLevelAccelStruct, addr 0x6e09c10, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method FreeTopLevelAccelStruct, addr 0x6e468ac, size 0x88, virtual false, abstract: false, final false
   inline void FreeTopLevelAccelStruct();
 
-  /// @brief Method GetBuildScratchBufferRequiredSizeInBytes, addr 0x6e0a3e0, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method GetBuildScratchBufferRequiredSizeInBytes, addr 0x6e4707c, size 0x14, virtual true, abstract: false, final true
   inline uint64_t GetBuildScratchBufferRequiredSizeInBytes();
 
-  /// @brief Method GetBvhBuildScratchBufferSizeInDwords, addr 0x6e0a424, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method GetBvhBuildScratchBufferSizeInDwords, addr 0x6e470c0, size 0x1c4, virtual false, abstract: false, final false
   inline uint64_t GetBvhBuildScratchBufferSizeInDwords();
 
-  /// @brief Method GetFaceIndices, addr 0x6e0bc20, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetFaceIndices, addr 0x6e488bc, size 0xa4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::int3 GetFaceIndices(::System::Collections::Generic::List_1<int32_t>* indices, int32_t triangleIdx);
 
-  /// @brief Method GetOrAllocateMeshBlas, addr 0x6e09ac0, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetOrAllocateMeshBlas, addr 0x6e4675c, size 0x150, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::UnifiedRayTracing::ComputeRayTracingAccelStruct_MeshBlas* GetOrAllocateMeshBlas(::UnityEngine::Mesh* mesh, int32_t subMeshIndex);
 
-  /// @brief Method GetTriangle, addr 0x6e0bcc4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetTriangle, addr 0x6e48960, size 0xe0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::UnifiedRayTracing::ComputeRayTracingAccelStruct_Triangle GetTriangle(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* vertices,
                                                                                                                ::Unity::Mathematics::int3 idx);
 
-  /// @brief Method LoadIndexBuffer, addr 0x6e0ac18, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method LoadIndexBuffer, addr 0x6e478b4, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* LoadIndexBuffer(::UnityEngine::Mesh* mesh);
 
-  /// @brief Method LoadPositionBuffer, addr 0x6e0ab80, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method LoadPositionBuffer, addr 0x6e4781c, size 0x98, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* LoadPositionBuffer(::UnityEngine::Mesh* mesh, ::by_ref<int32_t> stride, ::by_ref<int32_t> offset);
 
-  /// @brief Method NewHandle, addr 0x6e09c98, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method NewHandle, addr 0x6e46934, size 0xa8, virtual false, abstract: false, final false
   inline int32_t NewHandle();
 
   static inline ::UnityEngine::Rendering::UnifiedRayTracing::ComputeRayTracingAccelStruct* New_ctor(::UnityEngine::Rendering::UnifiedRayTracing::AccelerationStructureOptions* options,
@@ -598,19 +598,19 @@ public:
                                                                                                     ::UnityEngine::Rendering::UnifiedRayTracing::ReferenceCounter* counter,
                                                                                                     int32_t blasBufferInitialSizeBytes);
 
-  /// @brief Method ReleaseHandle, addr 0x6e09e2c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ReleaseHandle, addr 0x6e46ac8, size 0x68, virtual false, abstract: false, final false
   inline void ReleaseHandle(int32_t handle);
 
-  /// @brief Method RemoveInstance, addr 0x6e09d7c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method RemoveInstance, addr 0x6e46a18, size 0xb0, virtual true, abstract: false, final true
   inline void RemoveInstance(int32_t instanceHandle);
 
-  /// @brief Method UpdateInstanceID, addr 0x6e0a25c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method UpdateInstanceID, addr 0x6e46ef8, size 0x7c, virtual true, abstract: false, final true
   inline void UpdateInstanceID(int32_t instanceHandle, uint32_t instanceID);
 
-  /// @brief Method UpdateInstanceMask, addr 0x6e0a2d8, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method UpdateInstanceMask, addr 0x6e46f74, size 0x7c, virtual true, abstract: false, final true
   inline void UpdateInstanceMask(int32_t instanceHandle, uint32_t mask);
 
-  /// @brief Method UpdateInstanceTransform, addr 0x6e0a1a8, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method UpdateInstanceTransform, addr 0x6e46e44, size 0xb4, virtual true, abstract: false, final true
   inline void UpdateInstanceTransform(int32_t instanceHandle, ::UnityEngine::Matrix4x4 localToWorldMatrix);
 
   constexpr ::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator const& __cordl_internal_get_m_BlasAllocator() const;
@@ -703,17 +703,17 @@ public:
 
   constexpr void __cordl_internal_set_m_TopLevelAccelStruct(::System::Nullable_1<::UnityEngine::Rendering::RadeonRays::TopLevelAccelStruct> value);
 
-  /// @brief Method .ctor, addr 0x6e092e0, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e45f7c, size 0x32c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::UnifiedRayTracing::AccelerationStructureOptions* options, ::UnityEngine::Rendering::UnifiedRayTracing::RayTracingResources* resources,
                     ::UnityEngine::Rendering::UnifiedRayTracing::ReferenceCounter* counter, int32_t blasBufferInitialSizeBytes);
 
-  /// @brief Method get_bottomLevelBvhBuffer, addr 0x6e09674, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_bottomLevelBvhBuffer, addr 0x6e46310, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* get_bottomLevelBvhBuffer();
 
-  /// @brief Method get_instanceInfoBuffer, addr 0x6e096dc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_instanceInfoBuffer, addr 0x6e46378, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* get_instanceInfoBuffer();
 
-  /// @brief Method get_topLevelBvhBuffer, addr 0x6e0960c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_topLevelBvhBuffer, addr 0x6e462a8, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* get_topLevelBvhBuffer();
 
   /// @brief Convert to "::System::IDisposable"
@@ -737,7 +737,7 @@ public:
   ComputeRayTracingAccelStruct(ComputeRayTracingAccelStruct const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20486 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20533 };
 
   /// @brief Field m_HandleObfuscation, offset: 0x10, size: 0x4, def value: None
   uint32_t ___m_HandleObfuscation;

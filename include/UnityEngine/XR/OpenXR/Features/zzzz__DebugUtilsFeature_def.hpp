@@ -100,7 +100,7 @@ public:
   static ::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_MessageSeverity const Warning;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17604 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17637 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -164,7 +164,7 @@ public:
   static ::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_MessageType const Validation;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17605 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17638 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -187,18 +187,18 @@ namespace UnityEngine::XR::OpenXR::Features {
 class CORDL_TYPE DebugUtilsFeature_DebugCallbackDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6e4a740, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6e873dc, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW message, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x6e4a760, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6e873fc, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x6e4a72c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6e873c8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::StringW message);
 
   static inline ::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_DebugCallbackDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6e4a55c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e871f8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -216,7 +216,7 @@ public:
   DebugUtilsFeature_DebugCallbackDelegate(DebugUtilsFeature_DebugCallbackDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17606 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17639 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -252,30 +252,30 @@ public:
   __declspec(property(get = get_messageType, put = set_messageType)) ::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_MessageType messageType;
 
   /// [MonoPInvokeCallback(typeof(UnityEngine.XR.OpenXR.Features.DebugUtilsFeature::DebugCallbackDelegate))]
-  /// @brief Method DebugCallback, addr 0x6e4a400, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method DebugCallback, addr 0x6e8709c, size 0x8c, virtual false, abstract: false, final false
   static inline void DebugCallback(::StringW msg);
 
-  /// @brief Method DebugUtilsSetCallback, addr 0x6e4a5f4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method DebugUtilsSetCallback, addr 0x6e87290, size 0x80, virtual false, abstract: false, final false
   static inline void DebugUtilsSetCallback(::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_DebugCallbackDelegate* callback);
 
-  /// @brief Method DebugUtilsSetConfig, addr 0x6e4a674, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method DebugUtilsSetConfig, addr 0x6e87310, size 0x8c, virtual false, abstract: false, final false
   static inline bool DebugUtilsSetConfig(uint64_t messageSeverity, uint64_t messageType);
 
-  /// @brief Method HookGetInstanceProcAddr, addr 0x6e4a4c4, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method HookGetInstanceProcAddr, addr 0x6e87160, size 0x98, virtual true, abstract: false, final false
   inline ::System::IntPtr HookGetInstanceProcAddr(::System::IntPtr hookGetInstanceProcAddr);
 
   static inline ::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature* New_ctor();
 
-  /// @brief Method OnInstanceCreate, addr 0x6e4a700, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnInstanceCreate, addr 0x6e8739c, size 0x8, virtual true, abstract: false, final false
   inline bool OnInstanceCreate(uint64_t xrInstance);
 
-  /// @brief Method OnInstanceDestroy, addr 0x6e4a708, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method OnInstanceDestroy, addr 0x6e873a4, size 0x10, virtual true, abstract: false, final false
   inline void OnInstanceDestroy(uint64_t xrInstance);
 
-  /// @brief Method SetCallback, addr 0x6e4a5d8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetCallback, addr 0x6e87274, size 0x10, virtual false, abstract: false, final false
   inline void SetCallback(::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_DebugCallbackDelegate* callbackDelegate);
 
-  /// @brief Method SetConfig, addr 0x6e4a5e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetConfig, addr 0x6e87284, size 0xc, virtual false, abstract: false, final false
   inline bool SetConfig(::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_MessageSeverity messageSeverity, ::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_MessageType messageType);
 
   constexpr ::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_DebugCallbackDelegate* const& __cordl_internal_get_callback() const;
@@ -296,19 +296,19 @@ public:
 
   constexpr void __cordl_internal_set_m_MessageType(::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_MessageType value);
 
-  /// @brief Method .ctor, addr 0x6e4a718, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e873b4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_messageSeverity, addr 0x6e4a48c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_messageSeverity, addr 0x6e87128, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_MessageSeverity get_messageSeverity();
 
-  /// @brief Method get_messageType, addr 0x6e4a4a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_messageType, addr 0x6e87144, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_MessageType get_messageType();
 
-  /// @brief Method set_messageSeverity, addr 0x6e4a494, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_messageSeverity, addr 0x6e87130, size 0x14, virtual false, abstract: false, final false
   inline void set_messageSeverity(::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_MessageSeverity value);
 
-  /// @brief Method set_messageType, addr 0x6e4a4b0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_messageType, addr 0x6e8714c, size 0x14, virtual false, abstract: false, final false
   inline void set_messageType(::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_MessageType value);
 
 protected:
@@ -326,7 +326,7 @@ public:
   DebugUtilsFeature(DebugUtilsFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17607 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17640 };
 
   /// @brief Field featureId offset 0xffffffff size 0x8
   static constexpr ::ConstString featureId{ u"com.unity.openxr.feature.debugutils" };

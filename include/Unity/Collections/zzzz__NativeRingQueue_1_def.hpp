@@ -122,7 +122,7 @@ public:
   static constexpr int32_t MaxCapacity{ static_cast<int32_t>(0x7fffffff) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15928 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15961 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

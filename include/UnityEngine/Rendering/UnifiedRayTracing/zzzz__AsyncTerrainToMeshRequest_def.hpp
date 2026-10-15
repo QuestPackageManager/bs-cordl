@@ -36,19 +36,19 @@ public:
   // Declarations
   __declspec(property(get = get_done)) bool done;
 
-  /// @brief Method GetMesh, addr 0x6e0725c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method GetMesh, addr 0x6e43ef8, size 0x16c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> GetMesh();
 
-  /// @brief Method TriangleIndicesWithoutHoles, addr 0x6e074c8, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method TriangleIndicesWithoutHoles, addr 0x6e44164, size 0x33c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<int32_t>* TriangleIndicesWithoutHoles();
 
-  /// @brief Method WaitForCompletion, addr 0x6e07214, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method WaitForCompletion, addr 0x6e43eb0, size 0x48, virtual false, abstract: false, final false
   inline void WaitForCompletion();
 
-  /// @brief Method .ctor, addr 0x6e06e08, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e43aa4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::UnifiedRayTracing::ComputeTerrainMeshJob job, ::Unity::Jobs::JobHandle jobHandle);
 
-  /// @brief Method get_done, addr 0x6e0748c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_done, addr 0x6e44128, size 0x3c, virtual false, abstract: false, final false
   inline bool get_done();
 
   // Ctor Parameters []
@@ -60,7 +60,7 @@ public:
   constexpr AsyncTerrainToMeshRequest(::Unity::Jobs::JobHandle m_JobHandle, ::UnityEngine::Rendering::UnifiedRayTracing::ComputeTerrainMeshJob m_Job) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20472 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20519 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x88 };

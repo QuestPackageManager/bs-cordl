@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::DES::*)()>(&::System::Security::Cryptography::DES::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5f11490;
+  constexpr static std::size_t addrs = 0x5f4dd78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DES*>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Security::Cryptography::DES::*)()>(&::System::Security::Cryptography::DES::get_Key)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5f11510;
+  constexpr static std::size_t addrs = 0x5f4ddf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::DES::*)(::ArrayW<uint8_t>)>(&::System::Security::Cryptography::DES::set_Key)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x5f11930;
+  constexpr static std::size_t addrs = 0x5f4e218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::DES* (*)()>(&::System::Security::Cryptography::DES::Create)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5f11b20;
+  constexpr static std::size_t addrs = 0x5f4e408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DES*>(), { "Create", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::ArrayW<uint8_t>)>(&::System::Security::Cryptography::DES::IsWeakKey)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x5f115fc;
+  constexpr static std::size_t addrs = 0x5f4dee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::ArrayW<uint8_t>)>(&::System::Security::Cryptography::DES::IsSemiWeakKey)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x5f11728;
+  constexpr static std::size_t addrs = 0x5f4e010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::ArrayW<uint8_t>)>(&::System::Security::Cryptography::DES::IsLegalKeySize)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5f11bd8;
+  constexpr static std::size_t addrs = 0x5f4e4c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(::ArrayW<uint8_t>)>(&::System::Security::Cryptography::DES::QuadWordFromBigEndian)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5f11bf8;
+  constexpr static std::size_t addrs = 0x5f4e4e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

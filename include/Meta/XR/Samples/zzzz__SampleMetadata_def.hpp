@@ -25,21 +25,21 @@ public:
   /// @brief Field _timestampOpen, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__timestampOpen, put = __cordl_internal_set__timestampOpen)) float_t _timestampOpen;
 
-  /// @brief Method Awake, addr 0x626a69c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x62a70e4, size 0x40, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::Meta::XR::Samples::SampleMetadata* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x626a6dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x62a7124, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEditorShutdown, addr 0x626aac0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnEditorShutdown, addr 0x62a7508, size 0xc, virtual false, abstract: false, final false
   inline void OnEditorShutdown();
 
-  /// @brief Method SendEvent, addr 0x626a770, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method SendEvent, addr 0x62a71b8, size 0x350, virtual false, abstract: false, final false
   inline void SendEvent(int32_t eventType);
 
-  /// @brief Method Start, addr 0x626a6e0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x62a7128, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__timestampOpen() const;
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__timestampOpen(float_t value);
 
-  /// @brief Method .ctor, addr 0x626aacc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62a7514, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,7 +66,7 @@ public:
   SampleMetadata(SampleMetadata const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8686 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8693 };
 
   /// @brief Field _timestampOpen, offset: 0x20, size: 0x4, def value: None
   float_t ____timestampOpen;

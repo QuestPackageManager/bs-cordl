@@ -197,7 +197,7 @@ public:
   constexpr HttpRequestManager_GlobalConfig(int32_t connectionLimit, ::System::TimeSpan defaultRequestTimeout, bool forceIPV6) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21079 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21126 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -246,7 +246,7 @@ public:
   constexpr HttpRequestManager_SessionConfig(::System::Uri* baseAddress, ::System::TimeSpan requestTimeout) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21080 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21127 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -330,7 +330,7 @@ public:
   static ::OculusStudios::GraphQL::Client::HttpRequestManager_fastFallbackState const NOT_REQUIRED_NO_IPV6;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21081 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21128 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -353,19 +353,19 @@ namespace OculusStudios::GraphQL::Client {
 class CORDL_TYPE HttpRequestManager_ByteArrayResultCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6343464, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x637feac, size 0xac, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::ArrayW<uint8_t> result, ::System::Net::HttpStatusCode statusCode, ::StringW reasonPhrase, ::System::Exception* exception,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x6343510, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x637ff58, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x6343450, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x637fe98, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::ArrayW<uint8_t> result, ::System::Net::HttpStatusCode statusCode, ::StringW reasonPhrase, ::System::Exception* exception);
 
   static inline ::OculusStudios::GraphQL::Client::HttpRequestManager_ByteArrayResultCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x63433d0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x637fe18, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -383,7 +383,7 @@ public:
   HttpRequestManager_ByteArrayResultCallback(HttpRequestManager_ByteArrayResultCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21082 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21129 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -404,7 +404,7 @@ public:
 
   static inline ::OculusStudios::GraphQL::Client::HttpRequestManager___c__DisplayClass32_0* New_ctor();
 
-  /// @brief Method <CheckFastFallbackAsync>b__0, addr 0x6343520, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method <CheckFastFallbackAsync>b__0, addr 0x637ff68, size 0x1dc, virtual false, abstract: false, final false
   inline void _CheckFastFallbackAsync_b__0(::System::IAsyncResult* a);
 
   constexpr ::OculusStudios::GraphQL::Client::HttpRequestManager_fastFallbackState const& __cordl_internal_get_tmpState() const;
@@ -413,7 +413,7 @@ public:
 
   constexpr void __cordl_internal_set_tmpState(::OculusStudios::GraphQL::Client::HttpRequestManager_fastFallbackState value);
 
-  /// @brief Method .ctor, addr 0x634351c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x637ff64, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -431,7 +431,7 @@ public:
   HttpRequestManager___c__DisplayClass32_0(HttpRequestManager___c__DisplayClass32_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21083 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21130 };
 
   /// @brief Field tmpState, offset: 0x10, size: 0x4, def value: None
   ::OculusStudios::GraphQL::Client::HttpRequestManager_fastFallbackState ___tmpState;
@@ -455,11 +455,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x63436fc, size 0x210, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6380144, size 0x210, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x634390c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x6380354, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -476,7 +476,7 @@ public:
                                                                         ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21084 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21131 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -518,11 +518,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x6343978, size 0xb94, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x63803c0, size 0xb94, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x634450c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x6380f54, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -548,7 +548,7 @@ public:
                                                              ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Threading::Tasks::Task*> __u__3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21085 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21132 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -615,11 +615,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x6344578, size 0x19c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6380fc0, size 0x19c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x6344714, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x638115c, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -636,7 +636,7 @@ public:
                                                               ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21086 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21133 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -673,11 +673,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x634471c, size 0x430, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6381164, size 0x430, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x6344b4c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x6381594, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -697,7 +697,7 @@ public:
                                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21087 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21134 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -744,11 +744,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x6344bcc, size 0x6b4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6381614, size 0x6b4, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x6345280, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x6381cc8, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -780,7 +780,7 @@ public:
                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21088 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21135 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
@@ -910,35 +910,35 @@ public:
 
   __declspec(property(get = get_sessionConfig)) ::OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig sessionConfig;
 
-  /// @brief Method BindTo, addr 0x63428e0, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method BindTo, addr 0x637f328, size 0x180, virtual false, abstract: false, final false
   static inline ::System::Net::IPEndPoint* BindTo(::System::Net::ServicePoint* servicePoint, ::System::Net::IPEndPoint* remoteEndPoint, int32_t retryCount);
 
   /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.HttpRequestManager::<CheckAndConsiderFastFallbackAsync>d__37))]
-  /// @brief Method CheckAndConsiderFastFallbackAsync, addr 0x6342bdc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method CheckAndConsiderFastFallbackAsync, addr 0x637f624, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* CheckAndConsiderFastFallbackAsync(::System::Uri* uri);
 
   /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.HttpRequestManager::<CheckFastFallbackAsync>d__32))]
-  /// @brief Method CheckFastFallbackAsync, addr 0x634282c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CheckFastFallbackAsync, addr 0x637f274, size 0xb4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* CheckFastFallbackAsync();
 
   /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.HttpRequestManager::<CheckFastFallbackNoWait>d__31))]
-  /// @brief Method CheckFastFallbackNoWait, addr 0x6342794, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method CheckFastFallbackNoWait, addr 0x637f1dc, size 0x98, virtual false, abstract: false, final false
   static inline void CheckFastFallbackNoWait();
 
-  /// @brief Method ConsiderFastFallback, addr 0x6342ac4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ConsiderFastFallback, addr 0x637f50c, size 0x118, virtual false, abstract: false, final false
   static inline void ConsiderFastFallback(::System::Uri* uri);
 
-  /// @brief Method CreateByteArrayRequest, addr 0x6342ddc, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method CreateByteArrayRequest, addr 0x637f824, size 0x1bc, virtual false, abstract: false, final false
   inline ::System::Net::Http::HttpRequestMessage* CreateByteArrayRequest(::System::Net::Http::HttpMethod* method, ::System::Uri* uri, ::StringW accept, ::StringW contentType,
                                                                          ::ArrayW<uint8_t> content);
 
-  /// @brief Method CreateHttpClient, addr 0x6342164, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method CreateHttpClient, addr 0x637ebac, size 0x278, virtual false, abstract: false, final false
   static inline void CreateHttpClient();
 
-  /// @brief Method CreateRequest, addr 0x6342c8c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method CreateRequest, addr 0x637f6d4, size 0x150, virtual false, abstract: false, final false
   inline ::System::Net::Http::HttpRequestMessage* CreateRequest(::System::Net::Http::HttpMethod* method, ::System::Uri* uri);
 
-  /// @brief Method MyCertHandler, addr 0x6342538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method MyCertHandler, addr 0x637ef80, size 0x8, virtual false, abstract: false, final false
   static inline bool MyCertHandler(::System::Object* sender, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate,
                                    ::System::Security::Cryptography::X509Certificates::X509Chain* chain, ::System::Net::Security::SslPolicyErrors error);
 
@@ -948,30 +948,30 @@ public:
 
   static inline ::OculusStudios::GraphQL::Client::HttpRequestManager* New_ctor(::System::Net::Http::HttpMessageHandler* handler);
 
-  /// @brief Method OpenPersistentStream, addr 0x63411e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OpenPersistentStream, addr 0x637dc30, size 0x4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* OpenPersistentStream(::System::Net::Http::HttpRequestMessage* request);
 
-  /// @brief Method ResetFastFallback, addr 0x63423dc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ResetFastFallback, addr 0x637ee24, size 0x7c, virtual false, abstract: false, final false
   static inline void ResetFastFallback();
 
-  /// @brief Method SendAsync, addr 0x6342f98, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SendAsync, addr 0x637f9e0, size 0x4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request);
 
   /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.HttpRequestManager::<SendAsyncInternal>d__41))]
-  /// @brief Method SendAsyncInternal, addr 0x6342f9c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SendAsyncInternal, addr 0x637f9e4, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsyncInternal(::System::Net::Http::HttpRequestMessage* request);
 
   /// [AsyncStateMachine(typeof(OculusStudios.GraphQL.Client.HttpRequestManager::<SendAsyncReceiveByteArray>d__43))]
-  /// @brief Method SendAsyncReceiveByteArray, addr 0x634307c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SendAsyncReceiveByteArray, addr 0x637fac4, size 0xbc, virtual false, abstract: false, final false
   inline void SendAsyncReceiveByteArray(::System::Net::Http::HttpRequestMessage* request, ::OculusStudios::GraphQL::Client::HttpRequestManager_ByteArrayResultCallback* callback);
 
-  /// @brief Method SetQueryTimeout, addr 0x6339c74, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method SetQueryTimeout, addr 0x63766bc, size 0x24c, virtual false, abstract: false, final false
   static inline void SetQueryTimeout(::System::TimeSpan timeout);
 
-  /// @brief Method UpdateGlobalConfig, addr 0x6342458, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method UpdateGlobalConfig, addr 0x637eea0, size 0xe0, virtual false, abstract: false, final false
   static inline void UpdateGlobalConfig(::OculusStudios::GraphQL::Client::HttpRequestManager_GlobalConfig config);
 
-  /// @brief Method UpdateSessionConfig, addr 0x6342540, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method UpdateSessionConfig, addr 0x637ef88, size 0xf0, virtual false, abstract: false, final false
   inline void UpdateSessionConfig(::OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig config);
 
   constexpr ::OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig const& __cordl_internal_get__sessionConfig() const;
@@ -980,13 +980,13 @@ public:
 
   constexpr void __cordl_internal_set__sessionConfig(::OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig value);
 
-  /// @brief Method .ctor, addr 0x633ebf0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x637b638, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6342630, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x637f078, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig config);
 
-  /// @brief Method .ctor, addr 0x63426b0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x637f0f8, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::HttpMessageHandler* handler);
 
   static inline ::OculusStudios::GraphQL::Client::HttpRequestManager_GlobalConfig getStaticF__globalConfig();
@@ -1003,16 +1003,16 @@ public:
 
   static inline ::OculusStudios::GraphQL::Client::HttpRequestManager_fastFallbackState getStaticF_fastFallback();
 
-  /// @brief Method get_currentFastFallbackState, addr 0x6342090, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_currentFastFallbackState, addr 0x637ead8, size 0x5c, virtual false, abstract: false, final false
   static inline ::OculusStudios::GraphQL::Client::HttpRequestManager_fastFallbackState get_currentFastFallbackState();
 
-  /// @brief Method get_fastFallbackChecked, addr 0x6342a60, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_fastFallbackChecked, addr 0x637f4a8, size 0x64, virtual false, abstract: false, final false
   static inline bool get_fastFallbackChecked();
 
-  /// @brief Method get_globalConfig, addr 0x63420ec, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_globalConfig, addr 0x637eb34, size 0x6c, virtual false, abstract: false, final false
   static inline ::OculusStudios::GraphQL::Client::HttpRequestManager_GlobalConfig get_globalConfig();
 
-  /// @brief Method get_sessionConfig, addr 0x6342158, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_sessionConfig, addr 0x637eba0, size 0xc, virtual false, abstract: false, final false
   inline ::OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig get_sessionConfig();
 
   static inline void setStaticF__globalConfig(::OculusStudios::GraphQL::Client::HttpRequestManager_GlobalConfig value);
@@ -1056,7 +1056,7 @@ public:
   static constexpr int32_t FAST_FALLBACK_TEST_WAIT_INTERVAL_MS{ static_cast<int32_t>(0xc8) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21089 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21136 };
 
   /// @brief Field _sessionConfig, offset: 0x10, size: 0x10, def value: None
   ::OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig ____sessionConfig;

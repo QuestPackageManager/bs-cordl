@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ShowTextOnGameEventController_EventTextBinding::*)(::GlobalNamespace::TextFadeTransitions*)>(
     &::GlobalNamespace::ShowTextOnGameEventController_EventTextBinding::Init)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5e07fe8;
+  constexpr static std::size_t addrs = 0x5e457b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ShowTextOnGameEventController_EventTextBinding*>(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ShowTextOnGameEventController_EventTextBinding::*)()>(
     &::GlobalNamespace::ShowTextOnGameEventController_EventTextBinding::Deinit)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5e080e0;
+  constexpr static std::size_t addrs = 0x5e458a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ShowTextOnGameEventController_EventTextBinding::*)()>(
     &::GlobalNamespace::ShowTextOnGameEventController_EventTextBinding::HandleGameEvent)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5e08170;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x5e45938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ShowTextOnGameEventController_EventTextBinding::*)()>(
     &::GlobalNamespace::ShowTextOnGameEventController_EventTextBinding::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e08228;
+  constexpr static std::size_t addrs = 0x5e45974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ShowTextOnGameEventController::*)()>(&::GlobalNamespace::ShowTextOnGameEventController::Awake)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5e07f88;
+  constexpr static std::size_t addrs = 0x5e45750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ShowTextOnGameEventController*>(), { "Awake", {}, {} })));
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ShowTextOnGameEventController::*)()>(&::GlobalNamespace::ShowTextOnGameEventController::OnDestroy)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5e08090;
+  constexpr static std::size_t addrs = 0x5e45858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ShowTextOnGameEventController*>(), { "OnDestroy", {}, {} })));
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ShowTextOnGameEventController::*)()>(&::GlobalNamespace::ShowTextOnGameEventController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e0816c;
+  constexpr static std::size_t addrs = 0x5e45934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ShowTextOnGameEventController*>(), { ".ctor", {}, {} })));

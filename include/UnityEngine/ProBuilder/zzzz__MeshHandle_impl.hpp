@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Mesh> (::UnityEngine::ProBuilder::MeshHandle::*)()>(&::UnityEngine::ProBuilder::MeshHandle::get_mesh)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ad2a3c;
+  constexpr static std::size_t addrs = 0x6b0f6b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshHandle*>(), { "get_mesh", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::MeshHandle::*)(::UnityEngine::Transform*, ::UnityEngine::Mesh*)>(
     &::UnityEngine::ProBuilder::MeshHandle::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ad2a44;
+  constexpr static std::size_t addrs = 0x6b0f6c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshHandle*>(),
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::MeshHandle::*)(int32_t)>(&::UnityEngine::ProBuilder::MeshHandle::DrawMeshNow)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6ad2a4c;
+  constexpr static std::size_t addrs = 0x6b0f6c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -73,7 +73,7 @@ public:
   constexpr NativeSortExtension_DefaultComparer_1();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15932 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15965 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -475,7 +475,7 @@ public:
   NativeSortExtension(NativeSortExtension const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15933 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15966 };
 
   /// @brief Field k_IntrosortSizeThreshold offset 0xffffffff size 0x4
   static constexpr int32_t k_IntrosortSizeThreshold{ static_cast<int32_t>(0x10) };

@@ -38,15 +38,15 @@ public:
 
   __declspec(property(get = get_parentId, put = set_parentId)) int32_t parentId;
 
-  /// @brief Method Accepts, addr 0x7147f04, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method Accepts, addr 0x7184e38, size 0x170, virtual true, abstract: false, final false
   inline bool Accepts(::UnityEngine::UIElements::UxmlAsset* asset, ::by_ref<::StringW> errorMessage);
 
-  /// @brief Method HasParent, addr 0x7147ecc, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method HasParent, addr 0x7184e00, size 0x10, virtual true, abstract: false, final false
   inline bool HasParent();
 
   static inline ::UnityEngine::UIElements::UxmlObjectAsset* New_ctor(::StringW fullTypeNameOrFieldName, bool isField, ::UnityEngine::UIElements::UxmlNamespaceDefinition xmlNamespace);
 
-  /// @brief Method ToString, addr 0x7148074, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x7184fa8, size 0xe4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_m_IsField() const;
@@ -61,16 +61,16 @@ public:
 
   constexpr void __cordl_internal_set_m_ParentId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x7147ef4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7184e28, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW fullTypeNameOrFieldName, bool isField, ::UnityEngine::UIElements::UxmlNamespaceDefinition xmlNamespace);
 
-  /// @brief Method get_isField, addr 0x7147eec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isField, addr 0x7184e20, size 0x8, virtual false, abstract: false, final false
   inline bool get_isField();
 
-  /// @brief Method get_parentId, addr 0x7147edc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parentId, addr 0x7184e10, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_parentId();
 
-  /// @brief Method set_parentId, addr 0x7147ee4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parentId, addr 0x7184e18, size 0x8, virtual false, abstract: false, final false
   inline void set_parentId(int32_t value);
 
 protected:

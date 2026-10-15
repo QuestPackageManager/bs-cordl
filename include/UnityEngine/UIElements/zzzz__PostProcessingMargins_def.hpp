@@ -32,28 +32,28 @@ public:
   /// @brief [CreateProperty]
   __declspec(property(get = get_top, put = set_top)) float_t top;
 
-  /// @brief Method get_bottom, addr 0x72362a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bottom, addr 0x72731d8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bottom();
 
-  /// @brief Method get_left, addr 0x7236274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_left, addr 0x72731a8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_left();
 
-  /// @brief Method get_right, addr 0x7236294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_right, addr 0x72731c8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_right();
 
-  /// @brief Method get_top, addr 0x7236284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_top, addr 0x72731b8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_top();
 
-  /// @brief Method set_bottom, addr 0x72362ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bottom, addr 0x72731e0, size 0x8, virtual false, abstract: false, final false
   inline void set_bottom(float_t value);
 
-  /// @brief Method set_left, addr 0x723627c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_left, addr 0x72731b0, size 0x8, virtual false, abstract: false, final false
   inline void set_left(float_t value);
 
-  /// @brief Method set_right, addr 0x723629c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_right, addr 0x72731d0, size 0x8, virtual false, abstract: false, final false
   inline void set_right(float_t value);
 
-  /// @brief Method set_top, addr 0x723628c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_top, addr 0x72731c0, size 0x8, virtual false, abstract: false, final false
   inline void set_top(float_t value);
 
   // Ctor Parameters []

@@ -50,17 +50,17 @@ public:
   /// @brief Field <Type>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Type_k__BackingField, put = __cordl_internal_set__Type_k__BackingField)) ::System::Type* _Type_k__BackingField;
 
-  /// @brief Method Accept, addr 0x63a4d18, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x63e18e8, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
-  /// @brief Method Make, addr 0x63a4c60, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Make, addr 0x63e1830, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::NewArrayExpression* Make(::System::Linq::Expressions::ExpressionType nodeType, ::System::Type* type,
                                                                       ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* expressions);
 
   static inline ::System::Linq::Expressions::NewArrayExpression* New_ctor(::System::Type* type,
                                                                           ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* expressions);
 
-  /// @brief Method Update, addr 0x63a0fa4, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x63ddb74, size 0x178, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::NewArrayExpression* Update(::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* expressions);
 
   constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* const& __cordl_internal_get__Expressions_k__BackingField() const;
@@ -75,15 +75,15 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x63a4bf8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63e17c8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* expressions);
 
   /// [CompilerGenerated]
-  /// @brief Method get_Expressions, addr 0x63a4d10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Expressions, addr 0x63e18e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* get_Expressions();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Type, addr 0x63a4d08, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x63e18d8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
 protected:
@@ -101,7 +101,7 @@ public:
   NewArrayExpression(NewArrayExpression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16737 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16770 };
 
   /// [CompilerGenerated]
   /// @brief Field <Type>k__BackingField, offset: 0x10, size: 0x8, def value: None

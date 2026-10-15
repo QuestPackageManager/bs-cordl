@@ -2,7 +2,6 @@
 // IWYU pragma private; include "GlobalNamespace/TextureProcessor3D.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "UnityEngine/zzzz__Material_impl.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Texture2D_impl.hpp"
 #include "GlobalNamespace/zzzz__TextureProcessor3D_def.hpp"
@@ -101,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::get_activePresetIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x636b6d4;
+  constexpr static std::size_t addrs = 0x63a81ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_activePresetIndex", {}, {} })));
@@ -113,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(int32_t)>(&::GlobalNamespace::TextureProcessor3D::set_activePresetIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x636b6dc;
+  constexpr static std::size_t addrs = 0x63a81b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::TextureProcessor3D_ComputeKernel (::GlobalNamespace::TextureProcessor3D::*)()>(
     &::GlobalNamespace::TextureProcessor3D::get_computeKernelA)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x636b6e4;
+  constexpr static std::size_t addrs = 0x63a81bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_computeKernelA", {}, {} })));
@@ -140,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(::GlobalNamespace::TextureProcessor3D_ComputeKernel)>(
     &::GlobalNamespace::TextureProcessor3D::set_computeKernelA)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x636b78c;
+  constexpr static std::size_t addrs = 0x63a8264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(),
@@ -154,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::TextureProcessor3D_ComputeKernel (::GlobalNamespace::TextureProcessor3D::*)()>(
     &::GlobalNamespace::TextureProcessor3D::get_computeKernelB)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x636b88c;
+  constexpr static std::size_t addrs = 0x63a8364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_computeKernelB", {}, {} })));
@@ -167,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(::GlobalNamespace::TextureProcessor3D_ComputeKernel)>(
     &::GlobalNamespace::TextureProcessor3D::set_computeKernelB)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x636b900;
+  constexpr static std::size_t addrs = 0x63a83d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(),
@@ -180,8 +179,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::TextureProcessor3D_ComputeKernel (::GlobalNamespace::TextureProcessor3D::*)()>(
     &::GlobalNamespace::TextureProcessor3D::get_computeKernelC)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x636ba00;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x63a84d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_computeKernelC", {}, {} })));
@@ -193,8 +192,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(::GlobalNamespace::TextureProcessor3D_ComputeKernel)>(
     &::GlobalNamespace::TextureProcessor3D::set_computeKernelC)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x636ba78;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x63a854c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(),
@@ -207,8 +206,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::TextureProcessor3D_ComputeKernel (::GlobalNamespace::TextureProcessor3D::*)()>(
     &::GlobalNamespace::TextureProcessor3D::get_computeKernelD)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x636bb7c;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x63a864c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_computeKernelD", {}, {} })));
@@ -220,8 +219,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(::GlobalNamespace::TextureProcessor3D_ComputeKernel)>(
     &::GlobalNamespace::TextureProcessor3D::set_computeKernelD)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x636bbf4;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x63a86c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(),
@@ -234,7 +233,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::get_inputTextureIndexA)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x636bcf8;
+  constexpr static std::size_t addrs = 0x63a87c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_inputTextureIndexA", {}, {} })));
@@ -246,7 +245,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(int32_t)>(&::GlobalNamespace::TextureProcessor3D::set_inputTextureIndexA)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x636bd6c;
+  constexpr static std::size_t addrs = 0x63a8834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -259,7 +258,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::get_inputTextureIndexB)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x636bdc4;
+  constexpr static std::size_t addrs = 0x63a888c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_inputTextureIndexB", {}, {} })));
@@ -271,7 +270,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(int32_t)>(&::GlobalNamespace::TextureProcessor3D::set_inputTextureIndexB)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x636be38;
+  constexpr static std::size_t addrs = 0x63a8900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -283,8 +282,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::get_inputTextureIndexC)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x636be90;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x63a8958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_inputTextureIndexC", {}, {} })));
@@ -295,8 +294,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespac
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(int32_t)>(&::GlobalNamespace::TextureProcessor3D::set_inputTextureIndexC)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x636bf08;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x63a89cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -308,8 +307,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::get_inputTextureIndexD)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x636bf64;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x63a8a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_inputTextureIndexD", {}, {} })));
@@ -320,8 +319,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespac
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(int32_t)>(&::GlobalNamespace::TextureProcessor3D::set_inputTextureIndexD)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x636bfdc;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x63a8a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -334,7 +333,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::get_speedA)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x636c038;
+  constexpr static std::size_t addrs = 0x63a8af0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_speedA", {}, {} })));
@@ -346,7 +345,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(float_t)>(&::GlobalNamespace::TextureProcessor3D::set_speedA)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x636c0ac;
+  constexpr static std::size_t addrs = 0x63a8b64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -359,7 +358,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::get_speedB)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x636c104;
+  constexpr static std::size_t addrs = 0x63a8bbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_speedB", {}, {} })));
@@ -371,7 +370,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(float_t)>(&::GlobalNamespace::TextureProcessor3D::set_speedB)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x636c178;
+  constexpr static std::size_t addrs = 0x63a8c30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -384,7 +383,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::get_speedC)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x636c1d0;
+  constexpr static std::size_t addrs = 0x63a8c88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_speedC", {}, {} })));
@@ -396,7 +395,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(float_t)>(&::GlobalNamespace::TextureProcessor3D::set_speedC)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x636c244;
+  constexpr static std::size_t addrs = 0x63a8cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -409,7 +408,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::get_speedD)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x636c29c;
+  constexpr static std::size_t addrs = 0x63a8d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_speedD", {}, {} })));
@@ -421,7 +420,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(float_t)>(&::GlobalNamespace::TextureProcessor3D::set_speedD)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x636c310;
+  constexpr static std::size_t addrs = 0x63a8dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -434,7 +433,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::get_spatialScaleA)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x636c368;
+  constexpr static std::size_t addrs = 0x63a8e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_spatialScaleA", {}, {} })));
@@ -446,7 +445,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(float_t)>(&::GlobalNamespace::TextureProcessor3D::set_spatialScaleA)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x636c3dc;
+  constexpr static std::size_t addrs = 0x63a8e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -459,7 +458,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::get_spatialScaleB)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x636c434;
+  constexpr static std::size_t addrs = 0x63a8eec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_spatialScaleB", {}, {} })));
@@ -471,7 +470,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(float_t)>(&::GlobalNamespace::TextureProcessor3D::set_spatialScaleB)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x636c4a8;
+  constexpr static std::size_t addrs = 0x63a8f60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -484,7 +483,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::get_spatialScaleC)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x636c500;
+  constexpr static std::size_t addrs = 0x63a8fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_spatialScaleC", {}, {} })));
@@ -496,7 +495,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(float_t)>(&::GlobalNamespace::TextureProcessor3D::set_spatialScaleC)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x636c574;
+  constexpr static std::size_t addrs = 0x63a902c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -509,7 +508,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::get_spatialScaleD)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x636c5cc;
+  constexpr static std::size_t addrs = 0x63a9084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_spatialScaleD", {}, {} })));
@@ -521,7 +520,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(float_t)>(&::GlobalNamespace::TextureProcessor3D::set_spatialScaleD)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x636c640;
+  constexpr static std::size_t addrs = 0x63a90f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -534,7 +533,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::get_phaseA)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x636c698;
+  constexpr static std::size_t addrs = 0x63a9150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_phaseA", {}, {} })));
@@ -546,7 +545,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(float_t)>(&::GlobalNamespace::TextureProcessor3D::set_phaseA)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x636c70c;
+  constexpr static std::size_t addrs = 0x63a91c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -559,7 +558,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::get_phaseB)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x636c764;
+  constexpr static std::size_t addrs = 0x63a921c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_phaseB", {}, {} })));
@@ -571,7 +570,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(float_t)>(&::GlobalNamespace::TextureProcessor3D::set_phaseB)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x636c7d8;
+  constexpr static std::size_t addrs = 0x63a9290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -584,7 +583,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::get_phaseC)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x636c830;
+  constexpr static std::size_t addrs = 0x63a92e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_phaseC", {}, {} })));
@@ -596,7 +595,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(float_t)>(&::GlobalNamespace::TextureProcessor3D::set_phaseC)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x636c8a4;
+  constexpr static std::size_t addrs = 0x63a935c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -609,7 +608,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::get_phaseD)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x636c8fc;
+  constexpr static std::size_t addrs = 0x63a93b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_phaseD", {}, {} })));
@@ -621,7 +620,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(float_t)>(&::GlobalNamespace::TextureProcessor3D::set_phaseD)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x636c970;
+  constexpr static std::size_t addrs = 0x63a9428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -634,7 +633,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::get_param1A)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x636c9c8;
+  constexpr static std::size_t addrs = 0x63a9480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_param1A", {}, {} })));
@@ -646,7 +645,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(float_t)>(&::GlobalNamespace::TextureProcessor3D::set_param1A)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x636ca3c;
+  constexpr static std::size_t addrs = 0x63a94f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -659,7 +658,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::get_param1B)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x636ca94;
+  constexpr static std::size_t addrs = 0x63a954c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_param1B", {}, {} })));
@@ -671,7 +670,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(float_t)>(&::GlobalNamespace::TextureProcessor3D::set_param1B)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x636cb08;
+  constexpr static std::size_t addrs = 0x63a95c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -684,7 +683,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::get_param1C)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x636cb60;
+  constexpr static std::size_t addrs = 0x63a9618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_param1C", {}, {} })));
@@ -696,7 +695,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(float_t)>(&::GlobalNamespace::TextureProcessor3D::set_param1C)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x636cbd4;
+  constexpr static std::size_t addrs = 0x63a968c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -709,7 +708,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::get_param1D)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x636cc2c;
+  constexpr static std::size_t addrs = 0x63a96e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_param1D", {}, {} })));
@@ -721,7 +720,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(float_t)>(&::GlobalNamespace::TextureProcessor3D::set_param1D)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x636cca0;
+  constexpr static std::size_t addrs = 0x63a9758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -734,7 +733,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::get_param2A)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x636ccf8;
+  constexpr static std::size_t addrs = 0x63a97b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_param2A", {}, {} })));
@@ -746,7 +745,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(float_t)>(&::GlobalNamespace::TextureProcessor3D::set_param2A)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x636cd6c;
+  constexpr static std::size_t addrs = 0x63a9824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -759,7 +758,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::get_param2B)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x636cdc4;
+  constexpr static std::size_t addrs = 0x63a987c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_param2B", {}, {} })));
@@ -771,7 +770,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(float_t)>(&::GlobalNamespace::TextureProcessor3D::set_param2B)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x636ce38;
+  constexpr static std::size_t addrs = 0x63a98f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -784,7 +783,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::get_param2C)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x636ce90;
+  constexpr static std::size_t addrs = 0x63a9948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_param2C", {}, {} })));
@@ -796,7 +795,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(float_t)>(&::GlobalNamespace::TextureProcessor3D::set_param2C)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x636cf04;
+  constexpr static std::size_t addrs = 0x63a99bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -809,7 +808,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::get_param2D)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x636cf5c;
+  constexpr static std::size_t addrs = 0x63a9a14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_param2D", {}, {} })));
@@ -821,7 +820,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(float_t)>(&::GlobalNamespace::TextureProcessor3D::set_param2D)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x636cfd0;
+  constexpr static std::size_t addrs = 0x63a9a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -834,7 +833,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::get_outputOffsetA)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x636d028;
+  constexpr static std::size_t addrs = 0x63a9ae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_outputOffsetA", {}, {} })));
@@ -846,7 +845,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(float_t)>(&::GlobalNamespace::TextureProcessor3D::set_outputOffsetA)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x636d09c;
+  constexpr static std::size_t addrs = 0x63a9b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -859,7 +858,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::get_outputOffsetB)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x636d0f4;
+  constexpr static std::size_t addrs = 0x63a9bac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_outputOffsetB", {}, {} })));
@@ -871,7 +870,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(float_t)>(&::GlobalNamespace::TextureProcessor3D::set_outputOffsetB)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x636d168;
+  constexpr static std::size_t addrs = 0x63a9c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -884,7 +883,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::get_outputOffsetC)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x636d1c0;
+  constexpr static std::size_t addrs = 0x63a9c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_outputOffsetC", {}, {} })));
@@ -896,7 +895,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(float_t)>(&::GlobalNamespace::TextureProcessor3D::set_outputOffsetC)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x636d234;
+  constexpr static std::size_t addrs = 0x63a9cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -909,7 +908,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::get_outputOffsetD)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x636d28c;
+  constexpr static std::size_t addrs = 0x63a9d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_outputOffsetD", {}, {} })));
@@ -921,7 +920,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(float_t)>(&::GlobalNamespace::TextureProcessor3D::set_outputOffsetD)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x636d300;
+  constexpr static std::size_t addrs = 0x63a9db8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -934,7 +933,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::get_rowSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x636d358;
+  constexpr static std::size_t addrs = 0x63a9e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_rowSize", {}, {} })));
@@ -946,7 +945,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(int32_t)>(&::GlobalNamespace::TextureProcessor3D::set_rowSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x636d360;
+  constexpr static std::size_t addrs = 0x63a9e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -959,7 +958,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::get_columnSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x636d368;
+  constexpr static std::size_t addrs = 0x63a9e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_columnSize", {}, {} })));
@@ -971,7 +970,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(int32_t)>(&::GlobalNamespace::TextureProcessor3D::set_columnSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x636d370;
+  constexpr static std::size_t addrs = 0x63a9e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -984,7 +983,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::get_depthSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x636d378;
+  constexpr static std::size_t addrs = 0x63a9e30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get_depthSize", {}, {} })));
@@ -996,7 +995,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(int32_t)>(&::GlobalNamespace::TextureProcessor3D::set_depthSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x636d380;
+  constexpr static std::size_t addrs = 0x63a9e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1010,7 +1009,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::GlobalNamespace::TextureProcessor3D_MotionPreset> (::GlobalNamespace::TextureProcessor3D::*)()>(
     &::GlobalNamespace::TextureProcessor3D::get__activePreset)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x636b758;
+  constexpr static std::size_t addrs = 0x63a8230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "get__activePreset", {}, {} })));
@@ -1022,7 +1021,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::Awake)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x636d388;
+  constexpr static std::size_t addrs = 0x63a9e40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "Awake", {}, {} })));
@@ -1034,7 +1033,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::LateUpdate)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x636d604;
+  constexpr static std::size_t addrs = 0x63aa0bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "LateUpdate", {}, {} })));
@@ -1046,7 +1045,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x636d99c;
+  constexpr static std::size_t addrs = 0x63aa454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "OnEnable", {}, {} })));
@@ -1058,7 +1057,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::OnValidate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x636d9a0;
+  constexpr static std::size_t addrs = 0x63aa458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "OnValidate", {}, {} })));
@@ -1070,7 +1069,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RenderTexture> (*)(int32_t, int32_t, int32_t)>(&::GlobalNamespace::TextureProcessor3D::CreateTexture)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x636d9a4;
+  constexpr static std::size_t addrs = 0x63aa45c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1084,7 +1083,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::ReleaseTextures)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x636dac0;
+  constexpr static std::size_t addrs = 0x63aa578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "ReleaseTextures", {}, {} })));
@@ -1096,7 +1095,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::UpdateBuffers)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x636d490;
+  constexpr static std::size_t addrs = 0x63a9f48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "UpdateBuffers", {}, {} })));
@@ -1108,7 +1107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::AnimateTextures)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x636d648;
+  constexpr static std::size_t addrs = 0x63aa100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "AnimateTextures", {}, {} })));
@@ -1121,7 +1120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(::by_ref<::GlobalNamespace::TextureProcessor3D_ChannelParams>, ::UnityEngine::RenderTexture*)>(
     &::GlobalNamespace::TextureProcessor3D::AnimateChannel)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x636dcc8;
+  constexpr static std::size_t addrs = 0x63aa780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1136,7 +1135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::ApplyIntention)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x636dc20;
+  constexpr static std::size_t addrs = 0x63aa6d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "ApplyIntention", {}, {} })));
@@ -1148,7 +1147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::OnDisable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x636e254;
+  constexpr static std::size_t addrs = 0x63aad0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "OnDisable", {}, {} })));
@@ -1160,7 +1159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::OnDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x636e258;
+  constexpr static std::size_t addrs = 0x63aad10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "OnDestroy", {}, {} })));
@@ -1172,7 +1171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)(int32_t, int32_t, int32_t)>(&::GlobalNamespace::TextureProcessor3D::ModifyGridSize)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x636e25c;
+  constexpr static std::size_t addrs = 0x63aad14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1186,7 +1185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::Step)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x636e2fc;
+  constexpr static std::size_t addrs = 0x63aadb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { "Step", {}, {} })));
@@ -1199,7 +1198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::TextureProcessor3D::*)(::GlobalNamespace::TextureProcessor3D_ComputeKernel)>(
     &::GlobalNamespace::TextureProcessor3D::GetKernelName)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x636df54;
+  constexpr static std::size_t addrs = 0x63aaa0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(),
@@ -1212,25 +1211,25 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3D::*)()>(&::GlobalNamespace::TextureProcessor3D::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x636e300;
+  constexpr static std::size_t addrs = 0x63aadb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::TextureProcessor3D._ApplyIntention_g__ApplyChannelIntention_163_0
+//  Writing Method size for method: ::GlobalNamespace::TextureProcessor3D._ApplyIntention_g__ApplyChannelIntention_161_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::by_ref<::GlobalNamespace::TextureProcessor3D_ChannelParams>, ::by_ref<::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention>)>(
-        &::GlobalNamespace::TextureProcessor3D::_ApplyIntention_g__ApplyChannelIntention_163_0)> {
+        &::GlobalNamespace::TextureProcessor3D::_ApplyIntention_g__ApplyChannelIntention_161_0)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x636e08c;
+  constexpr static std::size_t addrs = 0x63aab44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(),
-                                                                                           { "<ApplyIntention>g__ApplyChannelIntention|163_0",
+                                                                                           { "<ApplyIntention>g__ApplyChannelIntention|161_0",
                                                                                              {},
                                                                                              { ::i2c::type_of<::by_ref<::GlobalNamespace::TextureProcessor3D_ChannelParams>>(),
                                                                                                ::i2c::type_of<::by_ref<::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention>>() } })));
@@ -1357,18 +1356,6 @@ constexpr void GlobalNamespace::TextureProcessor3D::__cordl_internal_set__Materi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____MaterialsUsingOutput = value;
 }
-constexpr ::ArrayW<::UnityEngine::Matrix4x4>& GlobalNamespace::TextureProcessor3D::__cordl_internal_get__matrices() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____matrices;
-}
-constexpr ::ArrayW<::UnityEngine::Matrix4x4> const& GlobalNamespace::TextureProcessor3D::__cordl_internal_get__matrices() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____matrices;
-}
-constexpr void GlobalNamespace::TextureProcessor3D::__cordl_internal_set__matrices(::ArrayW<::UnityEngine::Matrix4x4> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____matrices = value;
-}
 constexpr int32_t& GlobalNamespace::TextureProcessor3D::__cordl_internal_get__numInstances() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numInstances;
@@ -1452,18 +1439,6 @@ constexpr int32_t const& GlobalNamespace::TextureProcessor3D::__cordl_internal_g
 constexpr void GlobalNamespace::TextureProcessor3D::__cordl_internal_set__textureArrayLength(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____textureArrayLength = value;
-}
-constexpr int32_t& GlobalNamespace::TextureProcessor3D::__cordl_internal_get__testMaterialArrayCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____testMaterialArrayCount;
-}
-constexpr int32_t const& GlobalNamespace::TextureProcessor3D::__cordl_internal_get__testMaterialArrayCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____testMaterialArrayCount;
-}
-constexpr void GlobalNamespace::TextureProcessor3D::__cordl_internal_set__testMaterialArrayCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____testMaterialArrayCount = value;
 }
 constexpr int32_t& GlobalNamespace::TextureProcessor3D::__cordl_internal_get__kernelIndexMax() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -1998,10 +1973,10 @@ inline void GlobalNamespace::TextureProcessor3D::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::TextureProcessor3D::_ApplyIntention_g__ApplyChannelIntention_163_0(::by_ref<::GlobalNamespace::TextureProcessor3D_ChannelParams> channel,
+inline void GlobalNamespace::TextureProcessor3D::_ApplyIntention_g__ApplyChannelIntention_161_0(::by_ref<::GlobalNamespace::TextureProcessor3D_ChannelParams> channel,
                                                                                                 ::by_ref<::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention> channelIntention) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(),
-                                                                                         { "<ApplyIntention>g__ApplyChannelIntention|163_0",
+                                                                                         { "<ApplyIntention>g__ApplyChannelIntention|161_0",
                                                                                            {},
                                                                                            { ::i2c::type_of<::by_ref<::GlobalNamespace::TextureProcessor3D_ChannelParams>>(),
                                                                                              ::i2c::type_of<::by_ref<::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention>>() } })));
@@ -2009,11 +1984,11 @@ inline void GlobalNamespace::TextureProcessor3D::_ApplyIntention_g__ApplyChannel
 }
 template <typename T>
   requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-inline void GlobalNamespace::TextureProcessor3D::_ApplyIntention_g__ApplyParamIntention_163_1(::by_ref<T> param, ::by_ref<::System::Nullable_1<T>> intention) {
+inline void GlobalNamespace::TextureProcessor3D::_ApplyIntention_g__ApplyParamIntention_161_1(::by_ref<T> param, ::by_ref<::System::Nullable_1<T>> intention) {
   static auto* ___internal_method_base = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3D*>(),
-                          { "<ApplyIntention>g__ApplyParamIntention|163_1", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<::System::Nullable_1<T>>>() } })));
+                          { "<ApplyIntention>g__ApplyParamIntention|161_1", { ::i2c::class_of<T>() }, { ::i2c::type_of<::by_ref<T>>(), ::i2c::type_of<::by_ref<::System::Nullable_1<T>>>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, param, intention);
 }

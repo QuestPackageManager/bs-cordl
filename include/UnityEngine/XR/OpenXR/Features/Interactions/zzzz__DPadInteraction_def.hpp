@@ -136,7 +136,7 @@ public:
   /// @brief [InputControl]
   __declspec(property(get = get_trackpadDpadUp, put = set_trackpadDpadUp)) ::UnityEngine::InputSystem::Controls::ButtonControl* trackpadDpadUp;
 
-  /// @brief Method FinishSetup, addr 0x6e4f338, size 0x1dc, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x6e8bfd4, size 0x1dc, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad* New_ctor();
@@ -195,79 +195,79 @@ public:
 
   constexpr void __cordl_internal_set__trackpadDpadUp_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method .ctor, addr 0x6e4f514, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e8c1b0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_thumbstickDpadDown, addr 0x6e4f2b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_thumbstickDpadDown, addr 0x6e8bf54, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_thumbstickDpadDown();
 
   /// [CompilerGenerated]
-  /// @brief Method get_thumbstickDpadLeft, addr 0x6e4f2c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_thumbstickDpadLeft, addr 0x6e8bf64, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_thumbstickDpadLeft();
 
   /// [CompilerGenerated]
-  /// @brief Method get_thumbstickDpadRight, addr 0x6e4f2d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_thumbstickDpadRight, addr 0x6e8bf74, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_thumbstickDpadRight();
 
   /// [CompilerGenerated]
-  /// @brief Method get_thumbstickDpadUp, addr 0x6e4f2a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_thumbstickDpadUp, addr 0x6e8bf44, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_thumbstickDpadUp();
 
   /// [CompilerGenerated]
-  /// @brief Method get_trackpadDpadCenter, addr 0x6e4f328, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackpadDpadCenter, addr 0x6e8bfc4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_trackpadDpadCenter();
 
   /// [CompilerGenerated]
-  /// @brief Method get_trackpadDpadDown, addr 0x6e4f2f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackpadDpadDown, addr 0x6e8bf94, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_trackpadDpadDown();
 
   /// [CompilerGenerated]
-  /// @brief Method get_trackpadDpadLeft, addr 0x6e4f308, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackpadDpadLeft, addr 0x6e8bfa4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_trackpadDpadLeft();
 
   /// [CompilerGenerated]
-  /// @brief Method get_trackpadDpadRight, addr 0x6e4f318, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackpadDpadRight, addr 0x6e8bfb4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_trackpadDpadRight();
 
   /// [CompilerGenerated]
-  /// @brief Method get_trackpadDpadUp, addr 0x6e4f2e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackpadDpadUp, addr 0x6e8bf84, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_trackpadDpadUp();
 
   /// [CompilerGenerated]
-  /// @brief Method set_thumbstickDpadDown, addr 0x6e4f2c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_thumbstickDpadDown, addr 0x6e8bf5c, size 0x8, virtual false, abstract: false, final false
   inline void set_thumbstickDpadDown(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_thumbstickDpadLeft, addr 0x6e4f2d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_thumbstickDpadLeft, addr 0x6e8bf6c, size 0x8, virtual false, abstract: false, final false
   inline void set_thumbstickDpadLeft(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_thumbstickDpadRight, addr 0x6e4f2e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_thumbstickDpadRight, addr 0x6e8bf7c, size 0x8, virtual false, abstract: false, final false
   inline void set_thumbstickDpadRight(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_thumbstickDpadUp, addr 0x6e4f2b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_thumbstickDpadUp, addr 0x6e8bf4c, size 0x8, virtual false, abstract: false, final false
   inline void set_thumbstickDpadUp(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_trackpadDpadCenter, addr 0x6e4f330, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trackpadDpadCenter, addr 0x6e8bfcc, size 0x8, virtual false, abstract: false, final false
   inline void set_trackpadDpadCenter(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_trackpadDpadDown, addr 0x6e4f300, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trackpadDpadDown, addr 0x6e8bf9c, size 0x8, virtual false, abstract: false, final false
   inline void set_trackpadDpadDown(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_trackpadDpadLeft, addr 0x6e4f310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trackpadDpadLeft, addr 0x6e8bfac, size 0x8, virtual false, abstract: false, final false
   inline void set_trackpadDpadLeft(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_trackpadDpadRight, addr 0x6e4f320, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trackpadDpadRight, addr 0x6e8bfbc, size 0x8, virtual false, abstract: false, final false
   inline void set_trackpadDpadRight(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_trackpadDpadUp, addr 0x6e4f2f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trackpadDpadUp, addr 0x6e8bf8c, size 0x8, virtual false, abstract: false, final false
   inline void set_trackpadDpadUp(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
 protected:
@@ -285,7 +285,7 @@ public:
   DPadInteraction_DPad(DPadInteraction_DPad const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17625 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17658 };
 
   /// [CompilerGenerated]
   /// @brief Field <thumbstickDpadUp>k__BackingField, offset: 0x1a8, size: 0x8, def value: None
@@ -372,19 +372,19 @@ public:
 
   static inline ::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction___c* New_ctor();
 
-  /// @brief Method <AddAdditiveActions>b__32_0, addr 0x6e4f58c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method <AddAdditiveActions>b__32_0, addr 0x6e8c228, size 0xb8, virtual false, abstract: false, final false
   inline bool _AddAdditiveActions_b__32_0(::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_DeviceConfig* d);
 
-  /// @brief Method <AddAdditiveActions>b__32_1, addr 0x6e4f644, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <AddAdditiveActions>b__32_1, addr 0x6e8c2e0, size 0x70, virtual false, abstract: false, final false
   inline bool _AddAdditiveActions_b__32_1(::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionBinding* b);
 
-  /// @brief Method <AddAdditiveActions>b__32_2, addr 0x6e4f6b4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <AddAdditiveActions>b__32_2, addr 0x6e8c350, size 0x70, virtual false, abstract: false, final false
   inline bool _AddAdditiveActions_b__32_2(::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionBinding* b);
 
-  /// @brief Method <AddAdditiveActions>b__32_3, addr 0x6e4f724, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <AddAdditiveActions>b__32_3, addr 0x6e8c3c0, size 0x14, virtual false, abstract: false, final false
   inline bool _AddAdditiveActions_b__32_3(::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionConfig* a);
 
-  /// @brief Method .ctor, addr 0x6e4f588, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e8c224, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction___c* getStaticF___9();
@@ -422,7 +422,7 @@ public:
   DPadInteraction___c(DPadInteraction___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17626 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17659 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -476,25 +476,25 @@ public:
   /// @brief Field wedgeAngleRight, offset 0x8c, size 0x4
   __declspec(property(get = __cordl_internal_get_wedgeAngleRight, put = __cordl_internal_set_wedgeAngleRight)) float_t wedgeAngleRight;
 
-  /// @brief Method AddAdditiveActions, addr 0x6e4e814, size 0x9a0, virtual true, abstract: false, final false
+  /// @brief Method AddAdditiveActions, addr 0x6e8b4b0, size 0x9a0, virtual true, abstract: false, final false
   inline void AddAdditiveActions(::System::Collections::Generic::List_1<::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionMapConfig*>* actionMaps,
                                  ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionMapConfig* additiveMap);
 
-  /// @brief Method GetDeviceLayoutName, addr 0x6e4d8a4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetDeviceLayoutName, addr 0x6e8a540, size 0x44, virtual true, abstract: false, final false
   inline ::StringW GetDeviceLayoutName();
 
   static inline ::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction* New_ctor();
 
-  /// @brief Method OnInstanceCreate, addr 0x6e4d648, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method OnInstanceCreate, addr 0x6e8a2e4, size 0x8c, virtual true, abstract: false, final false
   inline bool OnInstanceCreate(uint64_t instance);
 
-  /// @brief Method RegisterActionMapsWithRuntime, addr 0x6e4d8e8, size 0xf2c, virtual true, abstract: false, final false
+  /// @brief Method RegisterActionMapsWithRuntime, addr 0x6e8a584, size 0xf2c, virtual true, abstract: false, final false
   inline void RegisterActionMapsWithRuntime();
 
-  /// @brief Method RegisterDeviceLayout, addr 0x6e4d6d4, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method RegisterDeviceLayout, addr 0x6e8a370, size 0x160, virtual true, abstract: false, final false
   inline void RegisterDeviceLayout();
 
-  /// @brief Method UnregisterDeviceLayout, addr 0x6e4d834, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method UnregisterDeviceLayout, addr 0x6e8a4d0, size 0x70, virtual true, abstract: false, final false
   inline void UnregisterDeviceLayout();
 
   constexpr float_t const& __cordl_internal_get_centerRegionLeft() const;
@@ -563,10 +563,10 @@ public:
 
   constexpr void __cordl_internal_set_wedgeAngleRight(float_t value);
 
-  /// @brief Method .ctor, addr 0x6e4f1b4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e8be50, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsAdditive, addr 0x6e4d640, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsAdditive, addr 0x6e8a2dc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsAdditive();
 
 protected:
@@ -584,7 +584,7 @@ public:
   DPadInteraction(DPadInteraction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17627 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17660 };
 
   /// @brief Field featureId offset 0xffffffff size 0x8
   static constexpr ::ConstString featureId{ u"com.unity.openxr.feature.input.dpadinteraction" };

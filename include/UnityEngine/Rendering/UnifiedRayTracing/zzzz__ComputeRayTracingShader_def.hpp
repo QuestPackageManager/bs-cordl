@@ -72,55 +72,55 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::UnifiedRayTracing::IRayTracingShader"
   constexpr operator ::UnityEngine::Rendering::UnifiedRayTracing::IRayTracingShader*() noexcept;
 
-  /// @brief Method Dispatch, addr 0x6e0c4a4, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Dispatch, addr 0x6e49140, size 0x44, virtual true, abstract: false, final true
   inline void Dispatch(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::GraphicsBuffer* scratchBuffer, ::UnityEngine::GraphicsBuffer* argsBuffer);
 
-  /// @brief Method Dispatch, addr 0x6e0c320, size 0x170, virtual true, abstract: false, final true
+  /// @brief Method Dispatch, addr 0x6e48fbc, size 0x170, virtual true, abstract: false, final true
   inline void Dispatch(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::GraphicsBuffer* scratchBuffer, uint32_t width, uint32_t height, uint32_t depth);
 
-  /// @brief Method DispatchIndirect, addr 0x6e0c5bc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method DispatchIndirect, addr 0x6e49258, size 0xd8, virtual false, abstract: false, final false
   inline void DispatchIndirect(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::GraphicsBuffer* scratchBuffer, ::UnityEngine::GraphicsBuffer* argsBuffer);
 
-  /// @brief Method GetThreadGroupSizes, addr 0x6e0c0e8, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method GetThreadGroupSizes, addr 0x6e48d84, size 0x10, virtual true, abstract: false, final true
   inline ::Unity::Mathematics::uint3 GetThreadGroupSizes();
 
-  /// @brief Method GetTraceScratchBufferRequiredSizeInBytes, addr 0x6e0c490, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method GetTraceScratchBufferRequiredSizeInBytes, addr 0x6e4912c, size 0x14, virtual true, abstract: false, final true
   inline uint64_t GetTraceScratchBufferRequiredSizeInBytes(uint32_t width, uint32_t height, uint32_t depth);
 
   static inline ::UnityEngine::Rendering::UnifiedRayTracing::ComputeRayTracingShader* New_ctor(::UnityEngine::ComputeShader* shader, ::StringW dispatchFuncName,
                                                                                                ::UnityEngine::GraphicsBuffer* dispatchBuffer);
 
-  /// @brief Method SetAccelerationStructure, addr 0x6e0c0f8, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method SetAccelerationStructure, addr 0x6e48d94, size 0xa8, virtual true, abstract: false, final true
   inline void SetAccelerationStructure(::UnityEngine::Rendering::CommandBuffer* cmd, ::StringW name, ::UnityEngine::Rendering::UnifiedRayTracing::IRayTracingAccelStruct* accelStruct);
 
-  /// @brief Method SetBufferParam, addr 0x6e0c2c0, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method SetBufferParam, addr 0x6e48f5c, size 0x28, virtual true, abstract: false, final true
   inline void SetBufferParam(::UnityEngine::Rendering::CommandBuffer* cmd, int32_t nameID, ::UnityEngine::ComputeBuffer* buffer);
 
-  /// @brief Method SetBufferParam, addr 0x6e0c298, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method SetBufferParam, addr 0x6e48f34, size 0x28, virtual true, abstract: false, final true
   inline void SetBufferParam(::UnityEngine::Rendering::CommandBuffer* cmd, int32_t nameID, ::UnityEngine::GraphicsBuffer* buffer);
 
-  /// @brief Method SetConstantBufferParam, addr 0x6e0c304, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method SetConstantBufferParam, addr 0x6e48fa0, size 0x1c, virtual true, abstract: false, final true
   inline void SetConstantBufferParam(::UnityEngine::Rendering::CommandBuffer* cmd, int32_t nameID, ::UnityEngine::ComputeBuffer* buffer, int32_t offset, int32_t size);
 
-  /// @brief Method SetConstantBufferParam, addr 0x6e0c2e8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method SetConstantBufferParam, addr 0x6e48f84, size 0x1c, virtual true, abstract: false, final true
   inline void SetConstantBufferParam(::UnityEngine::Rendering::CommandBuffer* cmd, int32_t nameID, ::UnityEngine::GraphicsBuffer* buffer, int32_t offset, int32_t size);
 
-  /// @brief Method SetFloatParam, addr 0x6e0c1c0, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method SetFloatParam, addr 0x6e48e5c, size 0x20, virtual true, abstract: false, final true
   inline void SetFloatParam(::UnityEngine::Rendering::CommandBuffer* cmd, int32_t nameID, float_t val);
 
-  /// @brief Method SetIndirectDispatchDimensions, addr 0x6e0c4e8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetIndirectDispatchDimensions, addr 0x6e49184, size 0xd4, virtual false, abstract: false, final false
   inline void SetIndirectDispatchDimensions(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::GraphicsBuffer* argsBuffer);
 
-  /// @brief Method SetIntParam, addr 0x6e0c1a0, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method SetIntParam, addr 0x6e48e3c, size 0x20, virtual true, abstract: false, final true
   inline void SetIntParam(::UnityEngine::Rendering::CommandBuffer* cmd, int32_t nameID, int32_t val);
 
-  /// @brief Method SetMatrixParam, addr 0x6e0c200, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method SetMatrixParam, addr 0x6e48e9c, size 0x44, virtual true, abstract: false, final true
   inline void SetMatrixParam(::UnityEngine::Rendering::CommandBuffer* cmd, int32_t nameID, ::UnityEngine::Matrix4x4 val);
 
-  /// @brief Method SetTextureParam, addr 0x6e0c244, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method SetTextureParam, addr 0x6e48ee0, size 0x54, virtual true, abstract: false, final true
   inline void SetTextureParam(::UnityEngine::Rendering::CommandBuffer* cmd, int32_t nameID, ::UnityEngine::Rendering::RenderTargetIdentifier rt);
 
-  /// @brief Method SetVectorParam, addr 0x6e0c1e0, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method SetVectorParam, addr 0x6e48e7c, size 0x20, virtual true, abstract: false, final true
   inline void SetVectorParam(::UnityEngine::Rendering::CommandBuffer* cmd, int32_t nameID, ::UnityEngine::Vector4 val);
 
   constexpr int32_t const& __cordl_internal_get_m_ComputeIndirectDispatchDimsKernelIndex() const;
@@ -153,7 +153,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ThreadGroupSizes(::Unity::Mathematics::uint3 value);
 
-  /// @brief Method .ctor, addr 0x6e0bf88, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e48c24, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ComputeShader* shader, ::StringW dispatchFuncName, ::UnityEngine::GraphicsBuffer* dispatchBuffer);
 
   /// @brief Convert to "::UnityEngine::Rendering::UnifiedRayTracing::IRayTracingShader"
@@ -174,7 +174,7 @@ public:
   ComputeRayTracingShader(ComputeRayTracingShader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20488 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20535 };
 
   /// @brief Field m_Shader, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ___m_Shader;

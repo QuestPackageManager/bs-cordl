@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup_UxmlFactory::*)()>(&::UnityEngine::UIElements::RadioButtonGroup_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x71f7138;
+  constexpr static std::size_t addrs = 0x723406c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::RadioButtonGroup_UxmlFactory*>(), { ".ctor", {}, {} })));
@@ -55,7 +55,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(
     &::UnityEngine::UIElements::RadioButtonGroup_UxmlTraits::Init)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x71f71a0;
+  constexpr static std::size_t addrs = 0x72340d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::RadioButtonGroup_UxmlTraits*>(),
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup_UxmlTraits::*)()>(&::UnityEngine::UIElements::RadioButtonGroup_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x71f72cc;
+  constexpr static std::size_t addrs = 0x7234200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::RadioButtonGroup_UxmlTraits*>(), { ".ctor", {}, {} })));
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup__get_choices_d__17::*)(int32_t)>(
     &::UnityEngine::UIElements::RadioButtonGroup__get_choices_d__17::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x71f7370;
+  constexpr static std::size_t addrs = 0x72342a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup__get_choices_d__17::*)()>(
     &::UnityEngine::UIElements::RadioButtonGroup__get_choices_d__17::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x71f7390;
+  constexpr static std::size_t addrs = 0x72342c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::RadioButtonGroup__get_choices_d__17::*)()>(
     &::UnityEngine::UIElements::RadioButtonGroup__get_choices_d__17::MoveNext)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x71f7474;
+  constexpr static std::size_t addrs = 0x72343a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup__get_choices_d__17::*)()>(
     &::UnityEngine::UIElements::RadioButtonGroup__get_choices_d__17::__m__Finally1)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x71f7710;
+  constexpr static std::size_t addrs = 0x7234644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup__get_choices_d__17::*)()>(
     &::UnityEngine::UIElements::RadioButtonGroup__get_choices_d__17::__m__Finally2)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x71f76c8;
+  constexpr static std::size_t addrs = 0x72345fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::RadioButtonGroup__get_choices_d__17::*)()>(
     &::UnityEngine::UIElements::RadioButtonGroup__get_choices_d__17::System_Collections_Generic_IEnumerator_System_String__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71f7764;
+  constexpr static std::size_t addrs = 0x7234698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::RadioButtonGroup__get_choices_d__17*>(),
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup__get_choices_d__17::*)()>(
     &::UnityEngine::UIElements::RadioButtonGroup__get_choices_d__17::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x71f776c;
+  constexpr static std::size_t addrs = 0x72346a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::UIElements::RadioButtonGroup__get_choices_d__17::*)()>(
     &::UnityEngine::UIElements::RadioButtonGroup__get_choices_d__17::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71f77a4;
+  constexpr static std::size_t addrs = 0x72346d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<::StringW>* (::UnityEngine::UIElements::RadioButtonGroup__get_choices_d__17::*)()>(
     &::UnityEngine::UIElements::RadioButtonGroup__get_choices_d__17::System_Collections_Generic_IEnumerable_System_String__GetEnumerator)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x71f77ac;
+  constexpr static std::size_t addrs = 0x72346e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::RadioButtonGroup__get_choices_d__17*>(),
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::UIElements::RadioButtonGroup__get_choices_d__17::*)()>(
     &::UnityEngine::UIElements::RadioButtonGroup__get_choices_d__17::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x71f7844;
+  constexpr static std::size_t addrs = 0x7234778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -448,7 +448,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (::UnityEngine::UIElements::RadioButtonGroup::*)()>(
     &::UnityEngine::UIElements::RadioButtonGroup::get_choices)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x71f54c4;
+  constexpr static std::size_t addrs = 0x72323f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::RadioButtonGroup*>(), { "get_choices", {}, {} })));
@@ -461,7 +461,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup::*)(::System::Collections::Generic::IEnumerable_1<::StringW>*)>(
     &::UnityEngine::UIElements::RadioButtonGroup::set_choices)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x71f5534;
+  constexpr static std::size_t addrs = 0x7232468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::RadioButtonGroup*>(),
@@ -474,7 +474,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup::*)()>(&::UnityEngine::UIElements::RadioButtonGroup::RebuildRadioButtonsFromChoices)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x71f5b78;
+  constexpr static std::size_t addrs = 0x7232aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -488,7 +488,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup::*)(::System::Collections::Generic::List_1<::StringW>*)>(
     &::UnityEngine::UIElements::RadioButtonGroup::set_choicesList)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x71f5f44;
+  constexpr static std::size_t addrs = 0x7232e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::RadioButtonGroup*>(),
@@ -502,7 +502,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::RadioButtonGroup::*)()>(
     &::UnityEngine::UIElements::RadioButtonGroup::get_contentContainer)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x71f5f48;
+  constexpr static std::size_t addrs = 0x7232e7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -515,7 +515,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup::*)()>(&::UnityEngine::UIElements::RadioButtonGroup::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x71f5f58;
+  constexpr static std::size_t addrs = 0x7232e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::RadioButtonGroup*>(), { ".ctor", {}, {} })));
@@ -528,7 +528,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup::*)(::StringW, ::System::Collections::Generic::List_1<::StringW>*)>(
     &::UnityEngine::UIElements::RadioButtonGroup::_ctor)> {
   constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x71f5f64;
+  constexpr static std::size_t addrs = 0x7232e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -543,7 +543,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup::*)(::UnityEngine::UIElements::ChangeEvent_1<bool>*)>(
     &::UnityEngine::UIElements::RadioButtonGroup::RadioButtonValueChangedCallback)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x71f62fc;
+  constexpr static std::size_t addrs = 0x7233230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -557,7 +557,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup::*)(int32_t)>(&::UnityEngine::UIElements::RadioButtonGroup::SetValueWithoutNotify)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x71f65dc;
+  constexpr static std::size_t addrs = 0x7233510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -571,7 +571,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup::*)(::System::Collections::Generic::List_1<::UnityEngine::UIElements::RadioButton*>*)>(
     &::UnityEngine::UIElements::RadioButtonGroup::GetAllRadioButtons)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x71f6508;
+  constexpr static std::size_t addrs = 0x723343c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -585,7 +585,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup::*)(bool)>(&::UnityEngine::UIElements::RadioButtonGroup::UpdateRadioButtons)> {
   constexpr static std::size_t size = 0x410;
-  constexpr static std::size_t addrs = 0x71f6644;
+  constexpr static std::size_t addrs = 0x7233578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -598,7 +598,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup::*)()>(&::UnityEngine::UIElements::RadioButtonGroup::ScheduleRadioButtons)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x71f5e0c;
+  constexpr static std::size_t addrs = 0x7232d40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::RadioButtonGroup*>(), { "ScheduleRadioButtons", {}, {} })));
@@ -611,7 +611,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup::*)(::UnityEngine::UIElements::RadioButton*)>(
     &::UnityEngine::UIElements::RadioButtonGroup::RegisterRadioButton)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x71f6a54;
+  constexpr static std::size_t addrs = 0x7233988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::RadioButtonGroup*>(),
@@ -625,7 +625,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup::*)(::UnityEngine::UIElements::RadioButton*)>(
     &::UnityEngine::UIElements::RadioButtonGroup::UnregisterRadioButton)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x71f6cec;
+  constexpr static std::size_t addrs = 0x7233c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::RadioButtonGroup*>(),
@@ -639,7 +639,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup::*)(::UnityEngine::UIElements::IGroupBoxOption*)>(
     &::UnityEngine::UIElements::RadioButtonGroup::UnityEngine_UIElements_IGroupBox_OnOptionAdded)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x71f6dc4;
+  constexpr static std::size_t addrs = 0x7233cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -654,7 +654,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup::*)(::UnityEngine::UIElements::IGroupBoxOption*)>(
     &::UnityEngine::UIElements::RadioButtonGroup::UnityEngine_UIElements_IGroupBox_OnOptionRemoved)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x71f6e94;
+  constexpr static std::size_t addrs = 0x7233dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -669,7 +669,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Collections::Generic::List_1<::StringW>*, ::System::Collections::Generic::IEnumerable_1<::StringW>*)>(
     &::UnityEngine::UIElements::RadioButtonGroup::_set_choices_g__AreListEqual_18_0)> {
   constexpr static std::size_t size = 0x4e8;
-  constexpr static std::size_t addrs = 0x71f5690;
+  constexpr static std::size_t addrs = 0x72325c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -686,7 +686,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup::*)()>(&::UnityEngine::UIElements::RadioButtonGroup::_ScheduleRadioButtons_b__31_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71f7130;
+  constexpr static std::size_t addrs = 0x7234064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

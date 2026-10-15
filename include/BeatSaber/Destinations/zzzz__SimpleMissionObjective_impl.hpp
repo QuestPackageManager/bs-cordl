@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Destinations::MissionObjectiveType (::BeatSaber::Destinations::SimpleMissionObjective::*)()>(
     &::BeatSaber::Destinations::SimpleMissionObjective::get_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35078f8;
+  constexpr static std::size_t addrs = 0x3528254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Destinations::SimpleMissionObjective*>(), { "get_type", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MissionObjective_ReferenceValueComparisonType (::BeatSaber::Destinations::SimpleMissionObjective::*)()>(
     &::BeatSaber::Destinations::SimpleMissionObjective::get_referenceValueComparisonType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3507900;
+  constexpr static std::size_t addrs = 0x352825c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatSaber::Destinations::SimpleMissionObjective::*)()>(&::BeatSaber::Destinations::SimpleMissionObjective::get_referenceValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3507908;
+  constexpr static std::size_t addrs = 0x3528264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Destinations::SimpleMissionObjective*>(), { "get_referenceValue", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Destinations::SimpleMissionObjective::*)(
     ::BeatSaber::Destinations::MissionObjectiveType, ::GlobalNamespace::MissionObjective_ReferenceValueComparisonType, int32_t)>(&::BeatSaber::Destinations::SimpleMissionObjective::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3507910;
+  constexpr static std::size_t addrs = 0x352826c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MissionObjective* (::BeatSaber::Destinations::SimpleMissionObjective::*)(::GlobalNamespace::MissionObjectiveTypeCollection*)>(
     &::BeatSaber::Destinations::SimpleMissionObjective::ToMissionObjective)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x350791c;
+  constexpr static std::size_t addrs = 0x3528278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Destinations::SimpleMissionObjective*>(),

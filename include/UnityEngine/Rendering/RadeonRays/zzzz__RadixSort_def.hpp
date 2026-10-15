@@ -50,11 +50,11 @@ public:
   /// @brief Field shaderScatter, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_shaderScatter, put = __cordl_internal_set_shaderScatter)) ::UnityW<::UnityEngine::ComputeShader> shaderScatter;
 
-  /// @brief Method Execute, addr 0x6dfc148, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x6e38de4, size 0x37c, virtual false, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::GraphicsBuffer* buffer, uint32_t inputKeysOffset, uint32_t outputKeysOffset, uint32_t inputValuesOffset,
                       uint32_t outputValuesOffset, uint32_t scratchDataOffset, uint32_t size);
 
-  /// @brief Method GetScratchDataSizeInDwords, addr 0x6dfc4c4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetScratchDataSizeInDwords, addr 0x6e39160, size 0x48, virtual false, abstract: false, final false
   static inline uint64_t GetScratchDataSizeInDwords(uint32_t size);
 
   static inline ::UnityEngine::Rendering::RadeonRays::RadixSort* New_ctor(::UnityEngine::Rendering::RadeonRays::RadeonRaysShaders* shaders);
@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set_shaderScatter(::UnityW<::UnityEngine::ComputeShader> value);
 
-  /// @brief Method .ctor, addr 0x6dfb918, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e385b4, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RadeonRays::RadeonRaysShaders* shaders);
 
 protected:
@@ -107,7 +107,7 @@ public:
   RadixSort(RadixSort const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20443 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20490 };
 
   /// @brief Field kGroupSize offset 0xffffffff size 0x4
   static constexpr uint32_t kGroupSize{ static_cast<uint32_t>(0x100u) };

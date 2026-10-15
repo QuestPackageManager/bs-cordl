@@ -46,18 +46,18 @@ public:
   /// @brief Field _particleSystems, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__particleSystems, put = __cordl_internal_set__particleSystems)) ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>> _particleSystems;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x5db9ab4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x5df6c48, size 0x1c, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::ParticleSystemContinuousEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5db9a98, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5df6c2c, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x5db9970, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5df6b04, size 0x128, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method ToggleEmitting, addr 0x5db9ad0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ToggleEmitting, addr 0x5df6c64, size 0xa0, virtual false, abstract: false, final false
   inline void ToggleEmitting(bool shouldPlay);
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -84,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set__particleSystems(::ArrayW<::UnityW<::UnityEngine::ParticleSystem>> value);
 
-  /// @brief Method .ctor, addr 0x5db9b70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5df6d04, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -102,7 +102,7 @@ public:
   ParticleSystemContinuousEventEffect(ParticleSystemContinuousEventEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6050 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6051 };
 
   /// [SerializeField]
   /// @brief Field _beatmapEvent, offset: 0x20, size: 0x4, def value: None

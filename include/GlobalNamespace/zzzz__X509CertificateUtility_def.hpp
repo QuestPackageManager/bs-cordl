@@ -88,7 +88,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::OpenSsl::IPasswordFinder"
   constexpr operator ::Org::BouncyCastle::OpenSsl::IPasswordFinder*() noexcept;
 
-  /// @brief Method GetPassword, addr 0x35cbb9c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetPassword, addr 0x35ee500, size 0x8, virtual true, abstract: false, final true
   inline ::ArrayW<char16_t> GetPassword();
 
   static inline ::GlobalNamespace::X509CertificateUtility_PasswordFinder* New_ctor(::ArrayW<uint8_t> password);
@@ -101,10 +101,10 @@ public:
 
   constexpr void __cordl_internal_set__password(::ArrayW<char16_t> value);
 
-  /// @brief Method .ctor, addr 0x35cbaec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ee450, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> password);
 
-  /// @brief Method .ctor, addr 0x35cb6c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ee024, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW password);
 
   /// @brief Convert to "::Org::BouncyCastle::OpenSsl::IPasswordFinder"
@@ -125,7 +125,7 @@ public:
   X509CertificateUtility_PasswordFinder(X509CertificateUtility_PasswordFinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18839 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18872 };
 
   /// @brief Field _password, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<char16_t> ____password;
@@ -154,12 +154,12 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x35cbba4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x35ee508, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider* New_ctor(::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters* privateKey);
 
-  /// @brief Method SignData, addr 0x35cbba8, size 0x198, virtual true, abstract: false, final true
+  /// @brief Method SignData, addr 0x35ee50c, size 0x198, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t> SignData(::ArrayW<uint8_t> data, int32_t offset, int32_t length);
 
   constexpr ::Org::BouncyCastle::Crypto::ISigner* const& __cordl_internal_get__signer() const;
@@ -168,7 +168,7 @@ public:
 
   constexpr void __cordl_internal_set__signer(::Org::BouncyCastle::Crypto::ISigner* value);
 
-  /// @brief Method .ctor, addr 0x35cb8dc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ee240, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters* privateKey);
 
   /// @brief Convert to "::GlobalNamespace::ICertificateEncryptionProvider"
@@ -192,7 +192,7 @@ public:
   X509CertificateUtility_RSACertificateEncryptionProvider(X509CertificateUtility_RSACertificateEncryptionProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18840 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18873 };
 
   /// @brief Field _signer, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::ISigner* ____signer;
@@ -262,37 +262,37 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x35cbd5c, size 0x4f0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35ee6c0, size 0x4f0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Security.Cryptography.X509Certificates.X509Certificate2>.GetEnumerator, addr 0x35cc354, size 0xa0, virtual true, abstract: false,
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Security.Cryptography.X509Certificates.X509Certificate2>.GetEnumerator, addr 0x35eecb8, size 0xa0, virtual true, abstract: false,
   /// final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>*
   System_Collections_Generic_IEnumerable_System_Security_Cryptography_X509Certificates_X509Certificate2__GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Security.Cryptography.X509Certificates.X509Certificate2>.get_Current, addr 0x35cc30c, size 0x8, virtual true, abstract: false, final
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Security.Cryptography.X509Certificates.X509Certificate2>.get_Current, addr 0x35eec70, size 0x8, virtual true, abstract: false, final
   /// true
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* System_Collections_Generic_IEnumerator_System_Security_Cryptography_X509Certificates_X509Certificate2__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x35cc3f4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x35eed58, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x35cc314, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x35eec78, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x35cc34c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x35eecb0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x35cbd40, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x35ee6a4, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -349,11 +349,11 @@ public:
 
   constexpr void __cordl_internal_set_certificatePem(::StringW value);
 
-  /// @brief Method <>m__Finally1, addr 0x35cc24c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x35eebb0, size 0xc0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x35cba64, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ee3c8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>"
@@ -388,7 +388,7 @@ public:
   X509CertificateUtility__GetCertificateList_d__5(X509CertificateUtility__GetCertificateList_d__5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18841 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18874 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -457,15 +457,15 @@ public:
   /// @brief Field kAwsRootCertificates, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_kAwsRootCertificates, put = setStaticF_kAwsRootCertificates)) ::StringW kAwsRootCertificates;
 
-  /// @brief Method GetCertificateEncryptionProvider, addr 0x35cb610, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetCertificateEncryptionProvider, addr 0x35edf74, size 0xb0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ICertificateEncryptionProvider* GetCertificateEncryptionProvider(::StringW privateKeyPem, ::StringW password);
 
   /// [IteratorStateMachine(typeof(X509CertificateUtility::<GetCertificateList>d__5))]
-  /// @brief Method GetCertificateList, addr 0x35cb9e8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetCertificateList, addr 0x35ee34c, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>* GetCertificateList(::StringW certificatePem,
                                                                                                                                                          ::StringW certificateChainPem);
 
-  /// @brief Method GetRSACertificateEncryptionProvider, addr 0x35cb6e8, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method GetRSACertificateEncryptionProvider, addr 0x35ee04c, size 0x1f4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider*
   GetRSACertificateEncryptionProvider(::StringW privateKeyPem, ::GlobalNamespace::X509CertificateUtility_PasswordFinder* passwordFinder);
 
@@ -488,7 +488,7 @@ public:
   X509CertificateUtility(X509CertificateUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18842 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18875 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

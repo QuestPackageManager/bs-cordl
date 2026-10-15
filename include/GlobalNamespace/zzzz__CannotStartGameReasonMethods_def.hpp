@@ -25,7 +25,7 @@ class CORDL_TYPE CannotStartGameReasonMethods : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method LocalizedKey, addr 0x39bfd0c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method LocalizedKey, addr 0x39e6298, size 0xfc, virtual false, abstract: false, final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::CannotStartGameReason cannotStartGameReason);
 
 protected:
@@ -43,7 +43,7 @@ public:
   CannotStartGameReasonMethods(CannotStartGameReasonMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15327 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14551 };
 
   /// @brief Field kAllPlayersNotInLobby offset 0xffffffff size 0x8
   static constexpr ::ConstString kAllPlayersNotInLobby{ u"LABEL_CANT_START_GAME_ALL_PLAYERS_NOT_IN_LOBBY" };

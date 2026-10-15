@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_MainLightShadowmapResolutionMultiplier)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6e6d288;
+  constexpr static std::size_t addrs = 0x6ea9f24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_DecalsDrawDistance)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6e6d2e4;
+  constexpr static std::size_t addrs = 0x6ea9f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_MainLightShadowCascadesCountBias)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6e6d340;
+  constexpr static std::size_t addrs = 0x6ea9fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_ShadowQualityBias)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6e6d39c;
+  constexpr static std::size_t addrs = 0x6eaa038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_LutBias)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6e6d3f8;
+  constexpr static std::size_t addrs = 0x6eaa094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_MaxShadowDistanceMultiplier)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6e6d454;
+  constexpr static std::size_t addrs = 0x6eaa0f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_RenderScaleMultiplier)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6e6d4b0;
+  constexpr static std::size_t addrs = 0x6eaa14c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_AntiAliasingQualityBias)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6e6d50c;
+  constexpr static std::size_t addrs = 0x6eaa1a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_SkipDynamicBatching)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6e6d568;
+  constexpr static std::size_t addrs = 0x6eaa204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_SkipFrontToBackSorting)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6e6d5c4;
+  constexpr static std::size_t addrs = 0x6eaa260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::AdaptivePerformance::AdaptivePerformanceRenderSettings::get_SkipTransparentObjects)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6e6d620;
+  constexpr static std::size_t addrs = 0x6eaa2bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

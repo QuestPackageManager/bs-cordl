@@ -56,7 +56,7 @@ public:
   constexpr LightProbeOcclusion__m_Occlusion_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9717 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9724 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -94,7 +94,7 @@ public:
   constexpr LightProbeOcclusion__m_OcclusionMaskChannel_e__FixedBuffer(int8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9718 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9725 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -132,7 +132,7 @@ public:
   constexpr LightProbeOcclusion__m_ProbeOcclusionLightIndex_e__FixedBuffer(int32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9719 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9726 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -179,7 +179,7 @@ public:
                                 ::UnityEngine::LightProbeOcclusion__m_OcclusionMaskChannel_e__FixedBuffer m_OcclusionMaskChannel) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9720 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9727 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };

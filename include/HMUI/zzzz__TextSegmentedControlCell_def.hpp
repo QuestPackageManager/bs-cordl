@@ -65,37 +65,37 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x637377c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63b034c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_fontSize, addr 0x6373734, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_fontSize, addr 0x63b0304, size 0x18, virtual false, abstract: false, final false
   inline float_t get_fontSize();
 
-  /// @brief Method get_preferredWidth, addr 0x63736dc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_preferredWidth, addr 0x63b02ac, size 0x20, virtual false, abstract: false, final false
   inline float_t get_preferredWidth();
 
-  /// @brief Method get_text, addr 0x6373714, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x63b02e4, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method get_textOverflowMode, addr 0x6373764, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_textOverflowMode, addr 0x63b0334, size 0x18, virtual false, abstract: false, final false
   inline ::TMPro::TextOverflowModes get_textOverflowMode();
 
-  /// @brief Method get_textWrappingMode, addr 0x637374c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_textWrappingMode, addr 0x63b031c, size 0x18, virtual false, abstract: false, final false
   inline ::TMPro::TextWrappingModes get_textWrappingMode();
 
-  /// @brief Method set_fontSize, addr 0x63735c8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_fontSize, addr 0x63b0198, size 0x18, virtual false, abstract: false, final false
   inline void set_fontSize(float_t value);
 
-  /// @brief Method set_hideBackgroundImage, addr 0x6373600, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_hideBackgroundImage, addr 0x63b01d0, size 0x20, virtual false, abstract: false, final false
   inline void set_hideBackgroundImage(bool value);
 
-  /// @brief Method set_text, addr 0x63735e0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x63b01b0, size 0x20, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method set_textOverflowMode, addr 0x6373680, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_textOverflowMode, addr 0x63b0250, size 0x5c, virtual false, abstract: false, final false
   inline void set_textOverflowMode(::TMPro::TextOverflowModes value);
 
-  /// @brief Method set_textWrappingMode, addr 0x6373620, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_textWrappingMode, addr 0x63b01f0, size 0x60, virtual false, abstract: false, final false
   inline void set_textWrappingMode(::TMPro::TextWrappingModes value);
 
 protected:
@@ -113,7 +113,7 @@ public:
   TextSegmentedControlCell(TextSegmentedControlCell const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23862 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23944 };
 
   /// [SerializeField]
   /// @brief Field _text, offset: 0x70, size: 0x8, def value: None

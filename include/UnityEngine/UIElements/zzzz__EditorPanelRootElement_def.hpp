@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::EditorPanelRootElement* New_ctor();
 
-  /// @brief Method OnEventCompletedAtAnyTarget, addr 0x7270328, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method OnEventCompletedAtAnyTarget, addr 0x72ad25c, size 0x3c, virtual false, abstract: false, final false
   inline void OnEventCompletedAtAnyTarget(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method .ctor, addr 0x726d768, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72aa69c, size 0x238, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

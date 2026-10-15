@@ -46,19 +46,19 @@ public:
 
   constexpr void __cordl_internal_set__lightmap2(::UnityW<::UnityEngine::Texture2D> value);
 
-  /// @brief Method .ctor, addr 0x5cff14c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d38090, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_lightmap1, addr 0x5cff12c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightmap1, addr 0x5d38070, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_lightmap1();
 
-  /// @brief Method get_lightmap2, addr 0x5cff13c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightmap2, addr 0x5d38080, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_lightmap2();
 
-  /// @brief Method set_lightmap1, addr 0x5cff134, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightmap1, addr 0x5d38078, size 0x8, virtual false, abstract: false, final false
   inline void set_lightmap1(::UnityEngine::Texture2D* value);
 
-  /// @brief Method set_lightmap2, addr 0x5cff144, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightmap2, addr 0x5d38088, size 0x8, virtual false, abstract: false, final false
   inline void set_lightmap2(::UnityEngine::Texture2D* value);
 
 protected:
@@ -76,7 +76,7 @@ public:
   LightmapDataSO(LightmapDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6658 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6662 };
 
   /// [SerializeField]
   /// @brief Field _lightmap1, offset: 0x18, size: 0x8, def value: None

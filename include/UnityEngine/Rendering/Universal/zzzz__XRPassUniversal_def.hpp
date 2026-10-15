@@ -46,12 +46,12 @@ public:
 
   __declspec(property(get = get_isLateLatchEnabled, put = set_isLateLatchEnabled)) bool isLateLatchEnabled;
 
-  /// @brief Method Create, addr 0x6d120f0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6d4ed6c, size 0xec, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::XRPass* Create(::UnityEngine::Experimental::Rendering::XRPassCreateInfo createInfo);
 
   static inline ::UnityEngine::Rendering::Universal::XRPassUniversal* New_ctor();
 
-  /// @brief Method Release, addr 0x6d121dc, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method Release, addr 0x6d4ee58, size 0x74, virtual true, abstract: false, final false
   inline void Release();
 
   constexpr bool const& __cordl_internal_get__canFoveateIntermediatePasses_k__BackingField() const;
@@ -78,39 +78,39 @@ public:
 
   constexpr void __cordl_internal_set__isLateLatchEnabled_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6d12290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d4ef0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_canFoveateIntermediatePasses, addr 0x6d12280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_canFoveateIntermediatePasses, addr 0x6d4eefc, size 0x8, virtual false, abstract: false, final false
   inline bool get_canFoveateIntermediatePasses();
 
   /// [CompilerGenerated]
-  /// @brief Method get_canMarkLateLatch, addr 0x6d12260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_canMarkLateLatch, addr 0x6d4eedc, size 0x8, virtual false, abstract: false, final false
   inline bool get_canMarkLateLatch();
 
   /// [CompilerGenerated]
-  /// @brief Method get_hasMarkedLateLatch, addr 0x6d12270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasMarkedLateLatch, addr 0x6d4eeec, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasMarkedLateLatch();
 
   /// [CompilerGenerated]
-  /// @brief Method get_isLateLatchEnabled, addr 0x6d12250, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isLateLatchEnabled, addr 0x6d4eecc, size 0x8, virtual false, abstract: false, final false
   inline bool get_isLateLatchEnabled();
 
   /// [CompilerGenerated]
-  /// @brief Method set_canFoveateIntermediatePasses, addr 0x6d12288, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_canFoveateIntermediatePasses, addr 0x6d4ef04, size 0x8, virtual false, abstract: false, final false
   inline void set_canFoveateIntermediatePasses(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_canMarkLateLatch, addr 0x6d12268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_canMarkLateLatch, addr 0x6d4eee4, size 0x8, virtual false, abstract: false, final false
   inline void set_canMarkLateLatch(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_hasMarkedLateLatch, addr 0x6d12278, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hasMarkedLateLatch, addr 0x6d4eef4, size 0x8, virtual false, abstract: false, final false
   inline void set_hasMarkedLateLatch(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_isLateLatchEnabled, addr 0x6d12258, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isLateLatchEnabled, addr 0x6d4eed4, size 0x8, virtual false, abstract: false, final false
   inline void set_isLateLatchEnabled(bool value);
 
 protected:
@@ -128,7 +128,7 @@ public:
   XRPassUniversal(XRPassUniversal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13288 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13295 };
 
   /// [CompilerGenerated]
   /// @brief Field <isLateLatchEnabled>k__BackingField, offset: 0x744, size: 0x1, def value: None

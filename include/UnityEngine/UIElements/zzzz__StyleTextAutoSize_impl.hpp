@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TextAutoSize (::UnityEngine::UIElements::StyleTextAutoSize::*)()>(
     &::UnityEngine::UIElements::StyleTextAutoSize::get_value)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x711b818;
+  constexpr static std::size_t addrs = 0x715874c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleTextAutoSize>(), { "get_value", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleTextAutoSize::*)(::UnityEngine::UIElements::TextAutoSize)>(
     &::UnityEngine::UIElements::StyleTextAutoSize::set_value)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x711b858;
+  constexpr static std::size_t addrs = 0x715878c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleKeyword (::UnityEngine::UIElements::StyleTextAutoSize::*)()>(
     &::UnityEngine::UIElements::StyleTextAutoSize::get_keyword)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x711b870;
+  constexpr static std::size_t addrs = 0x71587a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleTextAutoSize>(), { "get_keyword", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleTextAutoSize::*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleTextAutoSize::set_keyword)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x711b878;
+  constexpr static std::size_t addrs = 0x71587ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleTextAutoSize::*)(::UnityEngine::UIElements::TextAutoSize)>(
     &::UnityEngine::UIElements::StyleTextAutoSize::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x711b880;
+  constexpr static std::size_t addrs = 0x71587b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleTextAutoSize::*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleTextAutoSize::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x711b8b0;
+  constexpr static std::size_t addrs = 0x71587e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleTextAutoSize::*)(::UnityEngine::UIElements::TextAutoSize, ::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleTextAutoSize::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x711b898;
+  constexpr static std::size_t addrs = 0x71587cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::StyleTextAutoSize, ::UnityEngine::UIElements::StyleTextAutoSize)>(
     &::UnityEngine::UIElements::StyleTextAutoSize::op_Equality)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x711b8c4;
+  constexpr static std::size_t addrs = 0x71587f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleTextAutoSize (*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleTextAutoSize::op_Implicit___UnityEngine__UIElements__StyleTextAutoSize)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x711b940;
+  constexpr static std::size_t addrs = 0x7158874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleTextAutoSize (*)(::UnityEngine::UIElements::TextAutoSize)>(
     &::UnityEngine::UIElements::StyleTextAutoSize::op_Implicit___UnityEngine__UIElements__StyleTextAutoSize)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x711b954;
+  constexpr static std::size_t addrs = 0x7158888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleTextAutoSize::*)(::UnityEngine::UIElements::StyleTextAutoSize)>(
     &::UnityEngine::UIElements::StyleTextAutoSize::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x711b96c;
+  constexpr static std::size_t addrs = 0x71588a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleTextAutoSize::*)(::System::Object*)>(&::UnityEngine::UIElements::StyleTextAutoSize::Equals)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x711b9e8;
+  constexpr static std::size_t addrs = 0x715891c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::StyleTextAutoSize::*)()>(&::UnityEngine::UIElements::StyleTextAutoSize::GetHashCode)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x711bac8;
+  constexpr static std::size_t addrs = 0x71589fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::StyleTextAutoSize::*)()>(&::UnityEngine::UIElements::StyleTextAutoSize::ToString)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x711baf8;
+  constexpr static std::size_t addrs = 0x7158a2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

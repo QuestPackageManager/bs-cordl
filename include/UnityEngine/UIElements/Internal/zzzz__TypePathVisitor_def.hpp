@@ -76,15 +76,15 @@ public:
   /// @brief Convert operator to "::Unity::Properties::ITypeVisitor"
   constexpr operator ::Unity::Properties::ITypeVisitor*() noexcept;
 
-  /// @brief Method GetElementType, addr 0x71d2388, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method GetElementType, addr 0x720f2bc, size 0x1c4, virtual false, abstract: false, final false
   static inline ::System::Type* GetElementType(::System::Type* type);
 
-  /// @brief Method IsLastPartReached, addr 0x71d231c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsLastPartReached, addr 0x720f250, size 0x6c, virtual false, abstract: false, final false
   inline bool IsLastPartReached();
 
   static inline ::UnityEngine::UIElements::Internal::TypePathVisitor* New_ctor();
 
-  /// @brief Method Reset, addr 0x71d2300, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x720f234, size 0x1c, virtual false, abstract: false, final false
   inline void Reset();
 
   /// @brief Method Unity.Properties.IPropertyBagVisitor.Visit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
@@ -126,15 +126,15 @@ public:
 
   constexpr void __cordl_internal_set_m_PathIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x71d254c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x720f480, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Path, addr 0x71d22cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Path, addr 0x720f200, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Properties::PropertyPath get_Path();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ReturnCode, addr 0x71d22f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReturnCode, addr 0x720f224, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Properties::VisitReturnCode get_ReturnCode();
 
   /// @brief Convert to "::Unity::Properties::IPropertyBagVisitor"
@@ -147,15 +147,15 @@ public:
   constexpr ::Unity::Properties::ITypeVisitor* i___Unity__Properties__ITypeVisitor() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_Path, addr 0x71d22dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Path, addr 0x720f210, size 0xc, virtual false, abstract: false, final false
   inline void set_Path(::Unity::Properties::PropertyPath value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_ReturnCode, addr 0x71d22f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ReturnCode, addr 0x720f22c, size 0x8, virtual false, abstract: false, final false
   inline void set_ReturnCode(::Unity::Properties::VisitReturnCode value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_resolvedType, addr 0x71d22e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_resolvedType, addr 0x720f21c, size 0x8, virtual false, abstract: false, final false
   inline void set_resolvedType(::System::Type* value);
 
 protected:

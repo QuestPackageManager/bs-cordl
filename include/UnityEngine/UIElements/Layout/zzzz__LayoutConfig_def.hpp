@@ -43,25 +43,25 @@ public:
 
   __declspec(property(get = get_PointScaleFactor)) float_t PointScaleFactor;
 
-  /// @brief Method .ctor, addr 0x7192d30, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71cfc64, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Layout::LayoutDataAccess access, ::UnityEngine::UIElements::Layout::LayoutHandle handle);
 
-  /// @brief Method get_Baseline, addr 0x7192eb0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_Baseline, addr 0x71cfde4, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Layout::LayoutBaselineFunction* get_Baseline();
 
-  /// @brief Method get_Handle, addr 0x7192d4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x71cfc80, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Layout::LayoutHandle get_Handle();
 
-  /// @brief Method get_Measure, addr 0x7192db8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_Measure, addr 0x71cfcec, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Layout::LayoutMeasureFunction* get_Measure();
 
-  /// @brief Method get_PointScaleFactor, addr 0x7192d54, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_PointScaleFactor, addr 0x71cfc88, size 0x64, virtual false, abstract: false, final false
   inline ::by_ref<float_t> get_PointScaleFactor();
 
-  /// @brief Method get_Undefined, addr 0x7192d18, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Undefined, addr 0x71cfc4c, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Layout::LayoutConfig get_Undefined();
 
-  /// @brief Method set_Measure, addr 0x7192e30, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_Measure, addr 0x71cfd64, size 0x80, virtual false, abstract: false, final false
   inline void set_Measure(::UnityEngine::UIElements::Layout::LayoutMeasureFunction* value);
 
   // Ctor Parameters []

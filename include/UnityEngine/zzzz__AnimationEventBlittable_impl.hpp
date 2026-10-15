@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AnimationEventBlittable (*)(::UnityEngine::AnimationEvent*)>(&::UnityEngine::AnimationEventBlittable::FromAnimationEvent)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x6e8785c;
+  constexpr static std::size_t addrs = 0x6ec44f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<::UnityEngine::AnimationEvent*>, ::UnityEngine::AnimationEventBlittable*)>(
     &::UnityEngine::AnimationEventBlittable::FromAnimationEvents)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x6e87aa4;
+  constexpr static std::size_t addrs = 0x6ec4740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AnimationEvent* (*)(::System::IntPtr)>(&::UnityEngine::AnimationEventBlittable::PointerToAnimationEvent)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6e87cb8;
+  constexpr static std::size_t addrs = 0x6ec4954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::AnimationEvent*> (*)(::System::IntPtr, int32_t)>(&::UnityEngine::AnimationEventBlittable::PointerToAnimationEvents)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6e87f70;
+  constexpr static std::size_t addrs = 0x6ec4c0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AnimationEventBlittable>(),
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t)>(&::UnityEngine::AnimationEventBlittable::DisposeEvents)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6e88034;
+  constexpr static std::size_t addrs = 0x6ec4cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::AnimationEventBlittable::FreeEventsInternal)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e88220;
+  constexpr static std::size_t addrs = 0x6ec4ebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AnimationEvent* (*)(::UnityEngine::AnimationEventBlittable)>(&::UnityEngine::AnimationEventBlittable::ToAnimationEvent)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x6e87ce4;
+  constexpr static std::size_t addrs = 0x6ec4980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AnimationEventBlittable::*)()>(&::UnityEngine::AnimationEventBlittable::Dispose)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x6e88094;
+  constexpr static std::size_t addrs = 0x6ec4d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AnimationEventBlittable>(), { "Dispose", {}, {} })));

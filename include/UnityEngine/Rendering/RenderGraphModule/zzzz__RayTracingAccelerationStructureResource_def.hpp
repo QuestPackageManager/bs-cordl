@@ -27,12 +27,12 @@ class CORDL_TYPE RayTracingAccelerationStructureResource
                                                                                 ::UnityEngine::Rendering::RayTracingAccelerationStructure*> {
 public:
   // Declarations
-  /// @brief Method GetName, addr 0x6c0cdb8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetName, addr 0x6c49a34, size 0x8, virtual true, abstract: false, final false
   inline ::StringW GetName();
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureResource* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6c0cdc0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c49a3c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -50,7 +50,7 @@ public:
   RayTracingAccelerationStructureResource(RayTracingAccelerationStructureResource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9351 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9358 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

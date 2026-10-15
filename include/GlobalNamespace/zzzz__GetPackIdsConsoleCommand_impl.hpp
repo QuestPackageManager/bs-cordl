@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::GetPackIdsConsoleCommand::*)()>(&::GlobalNamespace::GetPackIdsConsoleCommand::get_commandName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3563fcc;
+  constexpr static std::size_t addrs = 0x358520c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::GetPackIdsConsoleCommand::*)()>(&::GlobalNamespace::GetPackIdsConsoleCommand::get_description)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3564010;
+  constexpr static std::size_t addrs = 0x3585250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (
     ::GlobalNamespace::GetPackIdsConsoleCommand::*)(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*)>(&::GlobalNamespace::GetPackIdsConsoleCommand::ExecuteAsync)> {
   constexpr static std::size_t size = 0x45c;
-  constexpr static std::size_t addrs = 0x3564054;
+  constexpr static std::size_t addrs = 0x3585294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GetPackIdsConsoleCommand::*)()>(&::GlobalNamespace::GetPackIdsConsoleCommand::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35644b0;
+  constexpr static std::size_t addrs = 0x35856f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GetPackIdsConsoleCommand*>(), { ".ctor", {}, {} })));

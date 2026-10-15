@@ -24,11 +24,11 @@ class CORDL_TYPE XrSpatialPersistenceContextResultEXTExtensions : public ::Syste
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method IsError, addr 0x6e445fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsError, addr 0x6e81298, size 0x8, virtual false, abstract: false, final false
   static inline bool IsError(::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextResultEXT result);
 
   /// [Extension]
-  /// @brief Method IsSuccess, addr 0x6e445f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsSuccess, addr 0x6e8128c, size 0xc, virtual false, abstract: false, final false
   static inline bool IsSuccess(::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextResultEXT result);
 
 protected:
@@ -46,7 +46,7 @@ public:
   XrSpatialPersistenceContextResultEXTExtensions(XrSpatialPersistenceContextResultEXTExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17576 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17609 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

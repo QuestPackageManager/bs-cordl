@@ -20,7 +20,7 @@ namespace UnityEngine::Rendering::UnifiedRayTracing {
 struct CORDL_TYPE GeometryPoolEntryInfo {
 public:
   // Declarations
-  /// @brief Method NewDefault, addr 0x6e02e88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method NewDefault, addr 0x6e3fb24, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolEntryInfo NewDefault();
 
   // Ctor Parameters []
@@ -32,7 +32,7 @@ public:
   constexpr GeometryPoolEntryInfo(bool valid, uint32_t refCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20458 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20505 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

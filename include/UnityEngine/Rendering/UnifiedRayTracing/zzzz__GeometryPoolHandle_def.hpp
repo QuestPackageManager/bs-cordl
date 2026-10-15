@@ -31,13 +31,13 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle>*();
 
-  /// @brief Method Equals, addr 0x6e02e28, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6e3fac4, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle other);
 
   static inline ::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle getStaticF_Invalid();
 
   /// [IsReadOnly]
-  /// @brief Method get_valid, addr 0x6e02e18, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_valid, addr 0x6e3fab4, size 0x10, virtual false, abstract: false, final false
   inline bool get_valid();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle>"
@@ -53,7 +53,7 @@ public:
   constexpr GeometryPoolHandle(int32_t index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20457 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20504 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

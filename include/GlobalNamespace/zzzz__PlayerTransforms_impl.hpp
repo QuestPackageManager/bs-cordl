@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::PlayerTransforms::*)()>(&::GlobalNamespace::PlayerTransforms::get_headWorldPos)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e08288;
+  constexpr static std::size_t addrs = 0x5e459d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerTransforms*>(), { "get_headWorldPos", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (::GlobalNamespace::PlayerTransforms::*)()>(&::GlobalNamespace::PlayerTransforms::get_headWorldRot)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e08294;
+  constexpr static std::size_t addrs = 0x5e459e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerTransforms*>(), { "get_headWorldRot", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::PlayerTransforms::*)()>(&::GlobalNamespace::PlayerTransforms::get_headPseudoLocalPos)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e082a0;
+  constexpr static std::size_t addrs = 0x5e459ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerTransforms*>(), { "get_headPseudoLocalPos", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::PlayerTransforms::*)()>(&::GlobalNamespace::PlayerTransforms::get_headPseudoLocalZOnlyPos)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e082ac;
+  constexpr static std::size_t addrs = 0x5e459f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerTransforms*>(), { "get_headPseudoLocalZOnlyPos", {}, {} })));
@@ -62,10 +62,34 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (::GlobalNamespace::PlayerTransforms::*)()>(&::GlobalNamespace::PlayerTransforms::get_headPseudoLocalRot)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e082b8;
+  constexpr static std::size_t addrs = 0x5e45a04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerTransforms*>(), { "get_headPseudoLocalRot", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PlayerTransforms.get_rawHeadPseudoLocalPos
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::PlayerTransforms::*)()>(&::GlobalNamespace::PlayerTransforms::get_rawHeadPseudoLocalPos)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5e45a10;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerTransforms*>(), { "get_rawHeadPseudoLocalPos", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PlayerTransforms.get_rawHeadPseudoLocalRot
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (::GlobalNamespace::PlayerTransforms::*)()>(&::GlobalNamespace::PlayerTransforms::get_rawHeadPseudoLocalRot)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5e45a1c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerTransforms*>(), { "get_rawHeadPseudoLocalRot", {}, {} })));
     return ___internal_method;
   }
 };
@@ -74,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::PlayerTransforms::*)()>(&::GlobalNamespace::PlayerTransforms::get_leftHandPseudoLocalPos)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e082c4;
+  constexpr static std::size_t addrs = 0x5e45a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerTransforms*>(), { "get_leftHandPseudoLocalPos", {}, {} })));
@@ -86,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (::GlobalNamespace::PlayerTransforms::*)()>(&::GlobalNamespace::PlayerTransforms::get_leftHandPseudoLocalRot)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e082d0;
+  constexpr static std::size_t addrs = 0x5e45a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerTransforms*>(), { "get_leftHandPseudoLocalRot", {}, {} })));
@@ -98,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::PlayerTransforms::*)()>(&::GlobalNamespace::PlayerTransforms::get_rightHandPseudoLocalPos)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e082dc;
+  constexpr static std::size_t addrs = 0x5e45a40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerTransforms*>(), { "get_rightHandPseudoLocalPos", {}, {} })));
@@ -110,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (::GlobalNamespace::PlayerTransforms::*)()>(&::GlobalNamespace::PlayerTransforms::get_rightHandPseudoLocalRot)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e082e8;
+  constexpr static std::size_t addrs = 0x5e45a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerTransforms*>(), { "get_rightHandPseudoLocalRot", {}, {} })));
@@ -122,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerTransforms::*)()>(&::GlobalNamespace::PlayerTransforms::Awake)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5e082f4;
+  constexpr static std::size_t addrs = 0x5e45a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerTransforms*>(), { "Awake", {}, {} })));
@@ -134,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerTransforms::*)(::UnityEngine::Vector3)>(&::GlobalNamespace::PlayerTransforms::OverrideHeadPos)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e0837c;
+  constexpr static std::size_t addrs = 0x5e45ae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerTransforms::*)()>(&::GlobalNamespace::PlayerTransforms::ClearHeadPositionOverride)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e0839c;
+  constexpr static std::size_t addrs = 0x5e45b00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerTransforms*>(), { "ClearHeadPositionOverride", {}, {} })));
@@ -158,11 +182,35 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerTransforms::*)()>(&::GlobalNamespace::PlayerTransforms::Update)> {
-  constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x5e083a4;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5e45b08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerTransforms*>(), { "Update", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PlayerTransforms.UpdateHands
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerTransforms::*)()>(&::GlobalNamespace::PlayerTransforms::UpdateHands)> {
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x5e45b20;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerTransforms*>(), { "UpdateHands", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PlayerTransforms.UpdateHead
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerTransforms::*)()>(&::GlobalNamespace::PlayerTransforms::UpdateHead)> {
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x5e45c48;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerTransforms*>(), { "UpdateHead", {}, {} })));
     return ___internal_method;
   }
 };
@@ -171,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerTransforms::*)()>(&::GlobalNamespace::PlayerTransforms::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e085f8;
+  constexpr static std::size_t addrs = 0x5e45df8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerTransforms*>(), { ".ctor", {}, {} })));
@@ -310,6 +358,30 @@ constexpr void GlobalNamespace::PlayerTransforms::__cordl_internal_set__headPseu
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____headPseudoLocalZOnlyPos = value;
 }
+constexpr ::UnityEngine::Vector3& GlobalNamespace::PlayerTransforms::__cordl_internal_get__rawHeadPseudoLocalPos() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____rawHeadPseudoLocalPos;
+}
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::PlayerTransforms::__cordl_internal_get__rawHeadPseudoLocalPos() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____rawHeadPseudoLocalPos;
+}
+constexpr void GlobalNamespace::PlayerTransforms::__cordl_internal_set__rawHeadPseudoLocalPos(::UnityEngine::Vector3 value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____rawHeadPseudoLocalPos = value;
+}
+constexpr ::UnityEngine::Quaternion& GlobalNamespace::PlayerTransforms::__cordl_internal_get__rawHeadPseudoLocalRot() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____rawHeadPseudoLocalRot;
+}
+constexpr ::UnityEngine::Quaternion const& GlobalNamespace::PlayerTransforms::__cordl_internal_get__rawHeadPseudoLocalRot() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____rawHeadPseudoLocalRot;
+}
+constexpr void GlobalNamespace::PlayerTransforms::__cordl_internal_set__rawHeadPseudoLocalRot(::UnityEngine::Quaternion value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____rawHeadPseudoLocalRot = value;
+}
 constexpr ::UnityEngine::Vector3& GlobalNamespace::PlayerTransforms::__cordl_internal_get__leftHandPseudoLocalPos() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftHandPseudoLocalPos;
@@ -402,6 +474,14 @@ inline ::UnityEngine::Quaternion GlobalNamespace::PlayerTransforms::get_headPseu
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerTransforms*>(), { "get_headPseudoLocalRot", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Quaternion>(this, ___internal_method);
 }
+inline ::UnityEngine::Vector3 GlobalNamespace::PlayerTransforms::get_rawHeadPseudoLocalPos() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerTransforms*>(), { "get_rawHeadPseudoLocalPos", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method);
+}
+inline ::UnityEngine::Quaternion GlobalNamespace::PlayerTransforms::get_rawHeadPseudoLocalRot() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerTransforms*>(), { "get_rawHeadPseudoLocalRot", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Quaternion>(this, ___internal_method);
+}
 inline ::UnityEngine::Vector3 GlobalNamespace::PlayerTransforms::get_leftHandPseudoLocalPos() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerTransforms*>(), { "get_leftHandPseudoLocalPos", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3>(this, ___internal_method);
@@ -433,6 +513,14 @@ inline void GlobalNamespace::PlayerTransforms::ClearHeadPositionOverride() {
 }
 inline void GlobalNamespace::PlayerTransforms::Update() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerTransforms*>(), { "Update", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void GlobalNamespace::PlayerTransforms::UpdateHands() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerTransforms*>(), { "UpdateHands", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void GlobalNamespace::PlayerTransforms::UpdateHead() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerTransforms*>(), { "UpdateHead", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::PlayerTransforms::_ctor() {

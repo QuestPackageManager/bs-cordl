@@ -54,45 +54,45 @@ public:
   /// @brief Field x, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x)) ::ArrayW<uint64_t> x;
 
-  /// @brief Method Add, addr 0x378ba60, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x37ae3c4, size 0xb4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Add(::Org::BouncyCastle::Math::EC::ECFieldElement* b);
 
-  /// @brief Method AddOne, addr 0x378bb14, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method AddOne, addr 0x37ae478, size 0x6c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* AddOne();
 
-  /// @brief Method Divide, addr 0x378bdb0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Divide, addr 0x37ae714, size 0x40, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Divide(::Org::BouncyCastle::Math::EC::ECFieldElement* b);
 
-  /// @brief Method Equals, addr 0x378c194, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x37aeaf8, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x378c2c4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x37aec28, size 0x2c, virtual true, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT409FieldElement* other);
 
-  /// @brief Method Equals, addr 0x378c22c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x37aeb90, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Math::EC::ECFieldElement* other);
 
-  /// @brief Method GetHashCode, addr 0x378c2f0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x37aec54, size 0x78, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method HalfTrace, addr 0x378c018, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method HalfTrace, addr 0x37ae97c, size 0x6c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* HalfTrace();
 
-  /// @brief Method Invert, addr 0x378c094, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Invert, addr 0x37ae9f8, size 0x6c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Invert();
 
-  /// @brief Method Multiply, addr 0x378bb8c, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Multiply, addr 0x37ae4f0, size 0xb4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Multiply(::Org::BouncyCastle::Math::EC::ECFieldElement* b);
 
-  /// @brief Method MultiplyMinusProduct, addr 0x378bc40, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method MultiplyMinusProduct, addr 0x37ae5a4, size 0x10, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* MultiplyMinusProduct(::Org::BouncyCastle::Math::EC::ECFieldElement* b, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
                                                                              ::Org::BouncyCastle::Math::EC::ECFieldElement* y);
 
-  /// @brief Method MultiplyPlusProduct, addr 0x378bc50, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method MultiplyPlusProduct, addr 0x37ae5b4, size 0x160, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* MultiplyPlusProduct(::Org::BouncyCastle::Math::EC::ECFieldElement* b, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
                                                                             ::Org::BouncyCastle::Math::EC::ECFieldElement* y);
 
-  /// @brief Method Negate, addr 0x378bdf0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Negate, addr 0x37ae754, size 0x4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Negate();
 
   static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT409FieldElement* New_ctor();
@@ -101,31 +101,31 @@ public:
 
   static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT409FieldElement* New_ctor(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method Sqrt, addr 0x378c100, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Sqrt, addr 0x37aea64, size 0x6c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Sqrt();
 
-  /// @brief Method Square, addr 0x378bdf4, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Square, addr 0x37ae758, size 0x6c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Square();
 
-  /// @brief Method SquareMinusProduct, addr 0x378be60, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method SquareMinusProduct, addr 0x37ae7c4, size 0x10, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* SquareMinusProduct(::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y);
 
-  /// @brief Method SquarePlusProduct, addr 0x378be70, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method SquarePlusProduct, addr 0x37ae7d4, size 0x11c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* SquarePlusProduct(::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y);
 
-  /// @brief Method SquarePow, addr 0x378bf8c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method SquarePow, addr 0x37ae8f0, size 0x8c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* SquarePow(int32_t pow);
 
-  /// @brief Method Subtract, addr 0x378bb80, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Subtract, addr 0x37ae4e4, size 0xc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Subtract(::Org::BouncyCastle::Math::EC::ECFieldElement* b);
 
-  /// @brief Method TestBitZero, addr 0x378b9dc, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method TestBitZero, addr 0x37ae340, size 0x2c, virtual true, abstract: false, final false
   inline bool TestBitZero();
 
-  /// @brief Method ToBigInteger, addr 0x378ba08, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToBigInteger, addr 0x37ae36c, size 0xc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* ToBigInteger();
 
-  /// @brief Method Trace, addr 0x378c08c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Trace, addr 0x37ae9f0, size 0x8, virtual true, abstract: false, final false
   inline int32_t Trace();
 
   constexpr ::ArrayW<uint64_t> const& __cordl_internal_get_x() const;
@@ -134,43 +134,43 @@ public:
 
   constexpr void __cordl_internal_set_x(::ArrayW<uint64_t> value);
 
-  /// @brief Method .ctor, addr 0x378b9a0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37ae304, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x378b9bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37ae320, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint64_t> x);
 
-  /// @brief Method .ctor, addr 0x378b8f4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37ae258, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method get_FieldName, addr 0x378ba14, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_FieldName, addr 0x37ae378, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_FieldName();
 
-  /// @brief Method get_FieldSize, addr 0x378ba58, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_FieldSize, addr 0x37ae3bc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_FieldSize();
 
-  /// @brief Method get_HasFastTrace, addr 0x378c084, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_HasFastTrace, addr 0x37ae9e8, size 0x8, virtual true, abstract: false, final false
   inline bool get_HasFastTrace();
 
-  /// @brief Method get_IsOne, addr 0x378b9c4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_IsOne, addr 0x37ae328, size 0xc, virtual true, abstract: false, final false
   inline bool get_IsOne();
 
-  /// @brief Method get_IsZero, addr 0x378b9d0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_IsZero, addr 0x37ae334, size 0xc, virtual true, abstract: false, final false
   inline bool get_IsZero();
 
-  /// @brief Method get_K1, addr 0x378c17c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_K1, addr 0x37aeae0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_K1();
 
-  /// @brief Method get_K2, addr 0x378c184, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_K2, addr 0x37aeae8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_K2();
 
-  /// @brief Method get_K3, addr 0x378c18c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_K3, addr 0x37aeaf0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_K3();
 
-  /// @brief Method get_M, addr 0x378c174, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_M, addr 0x37aead8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_M();
 
-  /// @brief Method get_Representation, addr 0x378c16c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Representation, addr 0x37aead0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Representation();
 
 protected:

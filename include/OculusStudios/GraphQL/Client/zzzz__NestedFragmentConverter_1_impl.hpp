@@ -3,6 +3,7 @@
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__NestedFragmentConverter_1_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JObject_def.hpp"
+#include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonSerializer_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
@@ -26,6 +27,14 @@ inline void OculusStudios::GraphQL::Client::NestedFragmentConverter_1<T>::WriteJ
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::GraphQL::Client::NestedFragmentConverter_1<T>*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, writer, value, serializer);
+}
+template <typename T>
+inline void OculusStudios::GraphQL::Client::NestedFragmentConverter_1<T>::ConvertFragmentsRecursively(::OculusStudios::GraphQL::Client::IFragment* fragment, ::Newtonsoft::Json::Linq::JToken* token) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::NestedFragmentConverter_1<T>*>(),
+                          { "ConvertFragmentsRecursively", {}, { ::i2c::type_of<::OculusStudios::GraphQL::Client::IFragment*>(), ::i2c::type_of<::Newtonsoft::Json::Linq::JToken*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, fragment, token);
 }
 template <typename T>
 inline ::Newtonsoft::Json::Linq::JObject* OculusStudios::GraphQL::Client::NestedFragmentConverter_1<T>::MergeFragments(::OculusStudios::GraphQL::Client::IFragment* frag,

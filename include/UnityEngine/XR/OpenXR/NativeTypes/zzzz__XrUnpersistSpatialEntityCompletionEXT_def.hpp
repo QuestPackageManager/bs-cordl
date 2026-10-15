@@ -39,45 +39,45 @@ public:
 
   __declspec(property(get = get_unpersistResult, put = set_unpersistResult)) ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextResultEXT unpersistResult;
 
-  /// @brief Method .ctor, addr 0x6e44fe4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e81c80, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::OpenXR::NativeTypes::XrResult futureResult, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextResultEXT unpersistResult);
 
-  /// @brief Method .ctor, addr 0x6e45034, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e81cd0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(void* next, ::UnityEngine::XR::OpenXR::NativeTypes::XrResult futureResult, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextResultEXT unpersistResult);
 
-  /// @brief Method get_defaultValue, addr 0x6e414a0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_defaultValue, addr 0x6e7e13c, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrUnpersistSpatialEntityCompletionEXT get_defaultValue();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_futureResult, addr 0x6e45014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_futureResult, addr 0x6e81cb0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult get_futureResult();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e45004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x6e81ca0, size 0x8, virtual false, abstract: false, final false
   inline void* get_next();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e44ffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6e81c98, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_unpersistResult, addr 0x6e45024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unpersistResult, addr 0x6e81cc0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextResultEXT get_unpersistResult();
 
   /// [CompilerGenerated]
-  /// @brief Method set_futureResult, addr 0x6e4501c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_futureResult, addr 0x6e81cb8, size 0x8, virtual false, abstract: false, final false
   inline void set_futureResult(::UnityEngine::XR::OpenXR::NativeTypes::XrResult value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_next, addr 0x6e4500c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_next, addr 0x6e81ca8, size 0x8, virtual false, abstract: false, final false
   inline void set_next(void* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_unpersistResult, addr 0x6e4502c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_unpersistResult, addr 0x6e81cc8, size 0x8, virtual false, abstract: false, final false
   inline void set_unpersistResult(::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextResultEXT value);
 
   // Ctor Parameters []
@@ -93,7 +93,7 @@ public:
                                                   ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextResultEXT _unpersistResult_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17588 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17621 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

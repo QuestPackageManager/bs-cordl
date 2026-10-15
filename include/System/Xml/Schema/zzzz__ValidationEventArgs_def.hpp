@@ -52,16 +52,16 @@ public:
 
   constexpr void __cordl_internal_set_severity(::System::Xml::Schema::XmlSeverityType value);
 
-  /// @brief Method .ctor, addr 0x6646b88, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6683758, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaException* ex);
 
-  /// @brief Method .ctor, addr 0x6646bf0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66837c0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaException* ex, ::System::Xml::Schema::XmlSeverityType severity);
 
-  /// @brief Method get_Exception, addr 0x6646c64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Exception, addr 0x6683834, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaException* get_Exception();
 
-  /// @brief Method get_Severity, addr 0x6646c5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Severity, addr 0x668382c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSeverityType get_Severity();
 
 protected:
@@ -79,7 +79,7 @@ public:
   ValidationEventArgs(ValidationEventArgs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11685 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11692 };
 
   /// @brief Field ex, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaException* ___ex;

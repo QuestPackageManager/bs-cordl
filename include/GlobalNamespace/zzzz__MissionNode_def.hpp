@@ -117,34 +117,34 @@ public:
 
   constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x5d563ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d90f84, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_childNodes, addr 0x5d562b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_childNodes, addr 0x5d90e50, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::MissionNode>> get_childNodes();
 
-  /// @brief Method get_formattedMissionNodeName, addr 0x5d562d8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_formattedMissionNodeName, addr 0x5d90e70, size 0x9c, virtual false, abstract: false, final false
   inline ::StringW get_formattedMissionNodeName();
 
-  /// @brief Method get_letterPartName, addr 0x5d562c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_letterPartName, addr 0x5d90e60, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_letterPartName();
 
-  /// @brief Method get_missionData, addr 0x5d562b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_missionData, addr 0x5d90e48, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::GlobalNamespace::MissionDataSO> get_missionData();
 
-  /// @brief Method get_missionId, addr 0x5d54f64, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_missionId, addr 0x5d8fafc, size 0x24, virtual true, abstract: false, final true
   inline ::StringW get_missionId();
 
-  /// @brief Method get_missionNodeVisualController, addr 0x5d562c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionNodeVisualController, addr 0x5d90e58, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionNodeVisualController> get_missionNodeVisualController();
 
-  /// @brief Method get_numberPartName, addr 0x5d562d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numberPartName, addr 0x5d90e68, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_numberPartName();
 
-  /// @brief Method get_position, addr 0x5d5563c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x5d901d4, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_position();
 
-  /// @brief Method get_radius, addr 0x5d56374, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_radius, addr 0x5d90f0c, size 0x78, virtual false, abstract: false, final false
   inline float_t get_radius();
 
   /// @brief Convert to "::GlobalNamespace::IMissionNode"
@@ -165,7 +165,7 @@ public:
   MissionNode(MissionNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6990 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6997 };
 
   /// [SerializeField]
   /// @brief Field _missionDataSO, offset: 0x20, size: 0x8, def value: None

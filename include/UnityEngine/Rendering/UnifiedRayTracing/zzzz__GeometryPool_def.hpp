@@ -313,7 +313,7 @@ public:
   GeometryPool_GeoPoolShaderIDs(GeometryPool_GeoPoolShaderIDs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20461 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20508 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -328,10 +328,10 @@ namespace UnityEngine::Rendering::UnifiedRayTracing {
 struct CORDL_TYPE GeometryPool_MeshChunk {
 public:
   // Declarations
-  /// @brief Method EncodeGPUEntry, addr 0x6e05b60, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method EncodeGPUEntry, addr 0x6e427fc, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::UnifiedRayTracing::GeoPoolMeshChunk EncodeGPUEntry();
 
-  /// @brief Method get_Invalid, addr 0x6e04954, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_Invalid, addr 0x6e415f0, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_MeshChunk get_Invalid();
 
   // Ctor Parameters []
@@ -344,7 +344,7 @@ public:
                                    ::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation indexAlloc) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20462 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20509 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -379,7 +379,7 @@ public:
 
   static inline ::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_GeometrySlot getStaticF_Invalid();
 
-  /// @brief Method get_valid, addr 0x6e034a0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_valid, addr 0x6e4013c, size 0x60, virtual false, abstract: false, final false
   inline bool get_valid();
 
   static inline void setStaticF_Invalid(::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_GeometrySlot value);
@@ -396,7 +396,7 @@ public:
                                       ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_MeshChunk> meshChunks, bool hasGPUData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20463 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20510 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -446,7 +446,7 @@ public:
 
   static inline ::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_GeoPoolEntrySlot getStaticF_Invalid();
 
-  /// @brief Method get_valid, addr 0x6e04d04, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_valid, addr 0x6e419a0, size 0x10, virtual false, abstract: false, final false
   inline bool get_valid();
 
   static inline void setStaticF_Invalid(::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_GeoPoolEntrySlot value);
@@ -460,7 +460,7 @@ public:
   constexpr GeometryPool_GeoPoolEntrySlot(uint32_t refCount, uint32_t hash, int32_t geoSlotHandle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20464 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20511 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -495,7 +495,7 @@ public:
   // Declarations
   __declspec(property(get = get_valid)) bool valid;
 
-  /// @brief Method get_valid, addr 0x6e063ec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_valid, addr 0x6e43088, size 0x10, virtual false, abstract: false, final false
   inline bool get_valid();
 
   // Ctor Parameters []
@@ -508,7 +508,7 @@ public:
   constexpr GeometryPool_VertexBufferAttribInfo(::UnityEngine::GraphicsBuffer* buffer, int32_t stride, int32_t offset, int32_t byteCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20465 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20512 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -660,13 +660,13 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AddIndexUpdateCommand, addr 0x6e058d4, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method AddIndexUpdateCommand, addr 0x6e42570, size 0x28c, virtual false, abstract: false, final false
   inline void AddIndexUpdateCommand(::UnityEngine::Rendering::CommandBuffer* cmdBuffer, ::UnityEngine::Rendering::IndexFormat inputFormat,
                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::GraphicsBuffer* const> inputBuffer,
                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation const> location, int32_t firstVertex, int32_t inputOffset,
                                     int32_t indexCount, int32_t outputOffset, ::UnityEngine::GraphicsBuffer* outputIdxBuffer);
 
-  /// @brief Method AddVertexUpdateCommand, addr 0x6e0543c, size 0x498, virtual false, abstract: false, final false
+  /// @brief Method AddVertexUpdateCommand, addr 0x6e420d8, size 0x498, virtual false, abstract: false, final false
   inline void AddVertexUpdateCommand(::UnityEngine::Rendering::CommandBuffer* cmdBuffer, int32_t baseVertexOffset,
                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo const> pos,
                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo const> uv0,
@@ -675,102 +675,102 @@ public:
                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation const> location,
                                      ::UnityEngine::GraphicsBuffer* outputVertexBuffer);
 
-  /// @brief Method AllocateCommandBuffer, addr 0x6e05188, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method AllocateCommandBuffer, addr 0x6e41e24, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::CommandBuffer* AllocateCommandBuffer();
 
-  /// @brief Method AllocateGeo, addr 0x6e03950, size 0x8c0, virtual false, abstract: false, final false
+  /// @brief Method AllocateGeo, addr 0x6e405ec, size 0x8c0, virtual false, abstract: false, final false
   inline bool AllocateGeo(::UnityEngine::Mesh* mesh, ::by_ref<int32_t> allocationHandle);
 
-  /// @brief Method CalcIndexCount, addr 0x6e03058, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CalcIndexCount, addr 0x6e3fcf4, size 0x18, virtual false, abstract: false, final false
   inline int32_t CalcIndexCount(int32_t bufferByteSize);
 
-  /// @brief Method CalcMeshChunkTablesCount, addr 0x6e03070, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method CalcMeshChunkTablesCount, addr 0x6e3fd0c, size 0x20, virtual false, abstract: false, final false
   inline int32_t CalcMeshChunkTablesCount(int32_t bufferByteSize);
 
-  /// @brief Method CalcVertexCount, addr 0x6e03040, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CalcVertexCount, addr 0x6e3fcdc, size 0x18, virtual false, abstract: false, final false
   inline int32_t CalcVertexCount(int32_t bufferByteSize);
 
-  /// @brief Method CalculateClusterHash, addr 0x6e05ba0, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method CalculateClusterHash, addr 0x6e4283c, size 0x148, virtual false, abstract: false, final false
   inline uint32_t CalculateClusterHash(::UnityEngine::Mesh* mesh, ::ArrayW<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolSubmeshData> submeshData);
 
-  /// @brief Method DeallocateGeoPoolEntrySlot, addr 0x6e04b38, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method DeallocateGeoPoolEntrySlot, addr 0x6e417d4, size 0x8c, virtual false, abstract: false, final false
   inline void DeallocateGeoPoolEntrySlot(::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_GeoPoolEntrySlot> geoPoolEntrySlot);
 
-  /// @brief Method DeallocateGeoPoolEntrySlot, addr 0x6e049e0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method DeallocateGeoPoolEntrySlot, addr 0x6e4167c, size 0x158, virtual false, abstract: false, final false
   inline void DeallocateGeoPoolEntrySlot(::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle handle);
 
-  /// @brief Method DeallocateGeometrySlot, addr 0x6e0381c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method DeallocateGeometrySlot, addr 0x6e404b8, size 0x134, virtual false, abstract: false, final false
   inline void DeallocateGeometrySlot(int32_t geoSlotHandle);
 
-  /// @brief Method DeallocateGeometrySlot, addr 0x6e03500, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method DeallocateGeometrySlot, addr 0x6e4019c, size 0x1a0, virtual false, abstract: false, final false
   inline void DeallocateGeometrySlot(::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_GeometrySlot> slot);
 
-  /// @brief Method Dispose, addr 0x6e020a8, size 0x2c4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6e3ed44, size 0x2c4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DisposeInputBuffers, addr 0x6e03264, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method DisposeInputBuffers, addr 0x6e3ff00, size 0x170, virtual false, abstract: false, final false
   inline void DisposeInputBuffers();
 
-  /// @brief Method DivUp, addr 0x6e02f28, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method DivUp, addr 0x6e3fbc4, size 0x10, virtual false, abstract: false, final false
   static inline int32_t DivUp(int32_t x, int32_t y);
 
-  /// @brief Method FNVHash, addr 0x6e05b70, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method FNVHash, addr 0x6e4280c, size 0x30, virtual false, abstract: false, final false
   inline uint32_t FNVHash(uint32_t prevHash, uint32_t dword);
 
-  /// @brief Method FindSubmeshEntryInDesc, addr 0x6e05ce8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method FindSubmeshEntryInDesc, addr 0x6e42984, size 0x44, virtual false, abstract: false, final false
   static inline int32_t FindSubmeshEntryInDesc(int32_t submeshIndex, /* [IsReadOnly] */ ::by_ref<::ArrayW<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolSubmeshData> const> submeshData);
 
-  /// @brief Method GetEntryGeomAllocation, addr 0x6e028fc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetEntryGeomAllocation, addr 0x6e3f598, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_GeometrySlot GetEntryGeomAllocation(::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle handle);
 
-  /// @brief Method GetEntryInfo, addr 0x6e04bc4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetEntryInfo, addr 0x6e41860, size 0x140, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolEntryInfo GetEntryInfo(::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle handle);
 
-  /// @brief Method GetFormatByteCount, addr 0x6e02f04, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetFormatByteCount, addr 0x6e3fba0, size 0x24, virtual false, abstract: false, final false
   inline int32_t GetFormatByteCount(::UnityEngine::Rendering::VertexAttributeFormat format);
 
-  /// @brief Method GetHandle, addr 0x6e04d44, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetHandle, addr 0x6e419e0, size 0xb4, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle GetHandle(::UnityEngine::Mesh* mesh);
 
-  /// @brief Method GetIndexByteSize, addr 0x6e02e90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetIndexByteSize, addr 0x6e3fb2c, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetIndexByteSize();
 
-  /// @brief Method GetInstanceGeometryIndex, addr 0x6e04d14, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetInstanceGeometryIndex, addr 0x6e419b0, size 0x30, virtual false, abstract: false, final false
   inline int32_t GetInstanceGeometryIndex(::UnityEngine::Mesh* mesh);
 
-  /// @brief Method GetMeshChunkTableEntryByteSize, addr 0x6e02e98, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetMeshChunkTableEntryByteSize, addr 0x6e3fb34, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t GetMeshChunkTableEntryByteSize();
 
-  /// @brief Method GetVertexByteSize, addr 0x6e029cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetVertexByteSize, addr 0x6e3f668, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetVertexByteSize();
 
-  /// @brief Method LoadIndexBuffer, addr 0x6e051c8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method LoadIndexBuffer, addr 0x6e41e64, size 0x100, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* LoadIndexBuffer(::UnityEngine::Mesh* mesh);
 
-  /// @brief Method LoadKernels, addr 0x6e02f68, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method LoadKernels, addr 0x6e3fc04, size 0xd8, virtual false, abstract: false, final false
   inline void LoadKernels(::UnityEngine::ComputeShader* geometryPoolShader);
 
-  /// @brief Method LoadVertexAttribInfo, addr 0x6e052c8, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method LoadVertexAttribInfo, addr 0x6e41f64, size 0x174, virtual false, abstract: false, final false
   inline void LoadVertexAttribInfo(::UnityEngine::Mesh* mesh, ::UnityEngine::Rendering::VertexAttribute attribute,
                                    ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo> output);
 
   static inline ::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool* New_ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolDesc const> desc,
                                                                                     ::UnityEngine::ComputeShader* geometryPoolShader, ::UnityEngine::ComputeShader* copyShader);
 
-  /// @brief Method Register, addr 0x6e05d2c, size 0x6c0, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x6e429c8, size 0x6c0, virtual false, abstract: false, final false
   inline bool Register(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolEntryDesc const> entryDesc,
                        ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle> outHandle);
 
-  /// @brief Method Register, addr 0x6e0283c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x6e3f4d8, size 0x24, virtual false, abstract: false, final false
   inline bool Register(::UnityEngine::Mesh* mesh, ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle> outHandle);
 
-  /// @brief Method SendGpuCommands, addr 0x6e0202c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SendGpuCommands, addr 0x6e3ecc8, size 0x7c, virtual false, abstract: false, final false
   inline void SendGpuCommands();
 
-  /// @brief Method Unregister, addr 0x6e01fbc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Unregister, addr 0x6e3ec58, size 0x70, virtual false, abstract: false, final false
   inline void Unregister(::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle handle);
 
-  /// @brief Method UpdateGeoGpuState, addr 0x6e04df8, size 0x390, virtual false, abstract: false, final false
+  /// @brief Method UpdateGeoGpuState, addr 0x6e41a94, size 0x390, virtual false, abstract: false, final false
   inline void UpdateGeoGpuState(::UnityEngine::Mesh* mesh, ::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle handle);
 
   constexpr ::UnityEngine::Rendering::CommandBuffer* const& __cordl_internal_get_m_CmdBuffer() const;
@@ -923,29 +923,29 @@ public:
 
   constexpr void __cordl_internal_set_m_VertexAllocator(::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator value);
 
-  /// @brief Method .ctor, addr 0x6dff5cc, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3c268, size 0x3bc, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolDesc const> desc, ::UnityEngine::ComputeShader* geometryPoolShader,
                     ::UnityEngine::ComputeShader* copyShader);
 
-  /// @brief Method get_globalIndexBuffer, addr 0x6e02f38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_globalIndexBuffer, addr 0x6e3fbd4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* get_globalIndexBuffer();
 
-  /// @brief Method get_globalMeshChunkTableEntryBuffer, addr 0x6e02f48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_globalMeshChunkTableEntryBuffer, addr 0x6e3fbe4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* get_globalMeshChunkTableEntryBuffer();
 
-  /// @brief Method get_globalVertexBuffer, addr 0x6e02f40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_globalVertexBuffer, addr 0x6e3fbdc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* get_globalVertexBuffer();
 
-  /// @brief Method get_globalVertexBufferStrideBytes, addr 0x6e02d44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_globalVertexBufferStrideBytes, addr 0x6e3f9e0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_globalVertexBufferStrideBytes();
 
-  /// @brief Method get_indicesCount, addr 0x6e02f50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_indicesCount, addr 0x6e3fbec, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_indicesCount();
 
-  /// @brief Method get_meshChunkTablesEntryCount, addr 0x6e02f60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_meshChunkTablesEntryCount, addr 0x6e3fbfc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_meshChunkTablesEntryCount();
 
-  /// @brief Method get_verticesCount, addr 0x6e02f58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_verticesCount, addr 0x6e3fbf4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_verticesCount();
 
   /// @brief Convert to "::System::IDisposable"
@@ -975,7 +975,7 @@ public:
   static ::UnityEngine::GraphicsBuffer_Target const VertexBufferTarget;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20466 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20513 };
 
   /// @brief Field kMaxThreadGroupsPerDispatch offset 0xffffffff size 0x4
   static constexpr int32_t kMaxThreadGroupsPerDispatch{ static_cast<int32_t>(0xffff) };

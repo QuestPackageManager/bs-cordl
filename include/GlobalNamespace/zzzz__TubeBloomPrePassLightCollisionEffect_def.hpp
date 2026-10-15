@@ -94,19 +94,19 @@ public:
 
   static inline ::GlobalNamespace::TubeBloomPrePassLightCollisionEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5dbdd1c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5dfaeec, size 0xb0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x5dbdc84, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5dfae54, size 0x98, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5dbdbec, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5dfadbc, size 0x98, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Start, addr 0x5dbd9ec, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5dfab80, size 0x48, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UpdateExternal, addr 0x5dbdf5c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method UpdateExternal, addr 0x5dfb12c, size 0xe0, virtual false, abstract: false, final false
   inline void UpdateExternal(bool hit, float_t normalizedHitDistance);
 
   constexpr ::UnityW<::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater> const& __cordl_internal_get__effectUpdater() const;
@@ -181,31 +181,31 @@ public:
 
   constexpr void __cordl_internal_set__useScale(bool value);
 
-  /// @brief Method .ctor, addr 0x5dbe03c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dfb20c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_EffectTransform, addr 0x5dbd9d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EffectTransform, addr 0x5dfab68, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_EffectTransform();
 
-  /// @brief Method get_EnvironmentLayerMask, addr 0x5dbd9cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnvironmentLayerMask, addr 0x5dfab60, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_EnvironmentLayerMask();
 
-  /// @brief Method get_HitPointTransform, addr 0x5dbd9dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HitPointTransform, addr 0x5dfab70, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_HitPointTransform();
 
-  /// @brief Method get_MaxLength, addr 0x5dbd9b4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_MaxLength, addr 0x5dfab48, size 0x18, virtual false, abstract: false, final false
   inline float_t get_MaxLength();
 
-  /// @brief Method get_NeedsUpdate, addr 0x5dbd99c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_NeedsUpdate, addr 0x5dfab30, size 0x18, virtual false, abstract: false, final false
   inline bool get_NeedsUpdate();
 
-  /// @brief Method get_ScaleTransform, addr 0x5dbd9e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ScaleTransform, addr 0x5dfab78, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_ScaleTransform();
 
-  /// @brief Method get_ShowHitPoint, addr 0x5dbd98c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ShowHitPoint, addr 0x5dfab20, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShowHitPoint();
 
-  /// @brief Method get_UseScale, addr 0x5dbd994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseScale, addr 0x5dfab28, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseScale();
 
 protected:
@@ -223,7 +223,7 @@ public:
   TubeBloomPrePassLightCollisionEffect(TubeBloomPrePassLightCollisionEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6069 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6070 };
 
   /// [Header("Light")]
   /// [SerializeField]

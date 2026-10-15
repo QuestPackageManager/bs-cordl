@@ -148,7 +148,7 @@ public:
   static ::UnityEngine::Rendering::RTHandleSystem_ResizeMode const OnDemand;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9120 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9127 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -180,10 +180,10 @@ public:
 
   static inline ::UnityEngine::Rendering::RTHandleSystem___c* New_ctor();
 
-  /// @brief Method <Alloc>b__32_0, addr 0x6bcb3ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <Alloc>b__32_0, addr 0x6c08068, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2Int _Alloc_b__32_0(::UnityEngine::Vector2Int refSize);
 
-  /// @brief Method .ctor, addr 0x6bcb3e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c08064, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::RTHandleSystem___c* getStaticF___9();
@@ -209,7 +209,7 @@ public:
   RTHandleSystem___c(RTHandleSystem___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9121 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9128 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -230,7 +230,7 @@ public:
 
   static inline ::UnityEngine::Rendering::RTHandleSystem___c__DisplayClass37_0* New_ctor();
 
-  /// @brief Method <Alloc>b__0, addr 0x6bcb3f8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Alloc>b__0, addr 0x6c08074, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2Int _Alloc_b__0(::UnityEngine::Vector2Int refSize);
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_scaleFactor() const;
@@ -239,7 +239,7 @@ public:
 
   constexpr void __cordl_internal_set_scaleFactor(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x6bca764, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c073e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -257,7 +257,7 @@ public:
   RTHandleSystem___c__DisplayClass37_0(RTHandleSystem___c__DisplayClass37_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9122 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9129 };
 
   /// @brief Field scaleFactor, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___scaleFactor;
@@ -283,7 +283,7 @@ public:
 
   static inline ::UnityEngine::Rendering::RTHandleSystem___c__DisplayClass41_0* New_ctor();
 
-  /// @brief Method <Alloc>b__0, addr 0x6bcb414, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <Alloc>b__0, addr 0x6c08090, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2Int _Alloc_b__0(::UnityEngine::Vector2Int refSize);
 
   constexpr ::UnityEngine::Rendering::ScaleFunc* const& __cordl_internal_get_scaleFunc() const;
@@ -292,7 +292,7 @@ public:
 
   constexpr void __cordl_internal_set_scaleFunc(::UnityEngine::Rendering::ScaleFunc* value);
 
-  /// @brief Method .ctor, addr 0x6bcad48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c079c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -310,7 +310,7 @@ public:
   RTHandleSystem___c__DisplayClass41_0(RTHandleSystem___c__DisplayClass41_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9123 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9130 };
 
   /// @brief Field scaleFunc, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::ScaleFunc* ___scaleFunc;
@@ -366,80 +366,80 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Alloc, addr 0x6bc9fc0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Alloc, addr 0x6c06c3c, size 0x10c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* Alloc(::UnityEngine::Vector2 scaleFactor, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, int32_t slices,
                                                    ::UnityEngine::FilterMode filterMode, ::UnityEngine::TextureWrapMode wrapMode, ::UnityEngine::Rendering::TextureDimension dimension,
                                                    bool enableRandomWrite, bool useMipMap, bool autoGenerateMips, bool isShadowMap, int32_t anisoLevel, float_t mipMapBias,
                                                    ::UnityEngine::Rendering::MSAASamples msaaSamples, bool bindTextureMS, bool useDynamicScale, bool useDynamicScaleExplicit,
                                                    ::UnityEngine::RenderTextureMemoryless memoryless, ::UnityEngine::VRTextureUsage vrUsage, ::StringW name);
 
-  /// @brief Method Alloc, addr 0x6bca46c, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method Alloc, addr 0x6c070e8, size 0x2f8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* Alloc(::UnityEngine::Vector2 scaleFactor, ::UnityEngine::Rendering::RTHandleAllocInfo info);
 
-  /// @brief Method Alloc, addr 0x6bca308, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Alloc, addr 0x6c06f84, size 0x164, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* Alloc(::UnityEngine::Vector2 scaleFactor, int32_t slices, ::UnityEngine::Rendering::DepthBits depthBufferBits,
                                                    ::UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, ::UnityEngine::FilterMode filterMode, ::UnityEngine::TextureWrapMode wrapMode,
                                                    ::UnityEngine::Rendering::TextureDimension dimension, bool enableRandomWrite, bool useMipMap, bool autoGenerateMips, bool isShadowMap,
                                                    int32_t anisoLevel, float_t mipMapBias, ::UnityEngine::Rendering::MSAASamples msaaSamples, bool bindTextureMS, bool useDynamicScale,
                                                    bool useDynamicScaleExplicit, ::UnityEngine::RenderTextureMemoryless memoryless, ::UnityEngine::VRTextureUsage vrUsage, ::StringW name);
 
-  /// @brief Method Alloc, addr 0x6bcaad4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Alloc, addr 0x6c07750, size 0x100, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* Alloc(::UnityEngine::Rendering::ScaleFunc* scaleFunc, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, int32_t slices,
                                                    ::UnityEngine::FilterMode filterMode, ::UnityEngine::TextureWrapMode wrapMode, ::UnityEngine::Rendering::TextureDimension dimension,
                                                    bool enableRandomWrite, bool useMipMap, bool autoGenerateMips, bool isShadowMap, int32_t anisoLevel, float_t mipMapBias,
                                                    ::UnityEngine::Rendering::MSAASamples msaaSamples, bool bindTextureMS, bool useDynamicScale, bool useDynamicScaleExplicit,
                                                    ::UnityEngine::RenderTextureMemoryless memoryless, ::UnityEngine::VRTextureUsage vrUsage, ::StringW name);
 
-  /// @brief Method Alloc, addr 0x6bcabd4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Alloc, addr 0x6c07850, size 0x174, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* Alloc(::UnityEngine::Rendering::ScaleFunc* scaleFunc, ::UnityEngine::Rendering::RTHandleAllocInfo info);
 
-  /// @brief Method Alloc, addr 0x6bca98c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Alloc, addr 0x6c07608, size 0x148, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* Alloc(::UnityEngine::Rendering::ScaleFunc* scaleFunc, int32_t slices, ::UnityEngine::Rendering::DepthBits depthBufferBits,
                                                    ::UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, ::UnityEngine::FilterMode filterMode, ::UnityEngine::TextureWrapMode wrapMode,
                                                    ::UnityEngine::Rendering::TextureDimension dimension, bool enableRandomWrite, bool useMipMap, bool autoGenerateMips, bool isShadowMap,
                                                    int32_t anisoLevel, float_t mipMapBias, ::UnityEngine::Rendering::MSAASamples msaaSamples, bool bindTextureMS, bool useDynamicScale,
                                                    bool useDynamicScaleExplicit, ::UnityEngine::RenderTextureMemoryless memoryless, ::UnityEngine::VRTextureUsage vrUsage, ::StringW name);
 
-  /// @brief Method Alloc, addr 0x6bcb000, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Alloc, addr 0x6c07c7c, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RTHandle* Alloc(::UnityEngine::Rendering::RTHandle* tex);
 
-  /// @brief Method Alloc, addr 0x6bcad4c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Alloc, addr 0x6c079c8, size 0xd0, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* Alloc(::UnityEngine::RenderTexture* texture, bool transferOwnership);
 
-  /// @brief Method Alloc, addr 0x6bcaee8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Alloc, addr 0x6c07b64, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* Alloc(::UnityEngine::Rendering::RenderTargetIdentifier texture);
 
-  /// @brief Method Alloc, addr 0x6bcaf60, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Alloc, addr 0x6c07bdc, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* Alloc(::UnityEngine::Rendering::RenderTargetIdentifier texture, ::StringW name);
 
-  /// @brief Method Alloc, addr 0x6bcae1c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Alloc, addr 0x6c07a98, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* Alloc(::UnityEngine::Texture* texture);
 
-  /// @brief Method Alloc, addr 0x6bc957c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Alloc, addr 0x6c061f8, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* Alloc(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, int32_t slices, ::UnityEngine::FilterMode filterMode,
                                                    ::UnityEngine::TextureWrapMode wrapMode, ::UnityEngine::Rendering::TextureDimension dimension, bool enableRandomWrite, bool useMipMap,
                                                    bool autoGenerateMips, bool isShadowMap, int32_t anisoLevel, float_t mipMapBias, ::UnityEngine::Rendering::MSAASamples msaaSamples,
                                                    bool bindTextureMS, bool useDynamicScale, bool useDynamicScaleExplicit, ::UnityEngine::RenderTextureMemoryless memoryless,
                                                    ::UnityEngine::VRTextureUsage vrUsage, ::StringW name);
 
-  /// @brief Method Alloc, addr 0x6bc9350, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method Alloc, addr 0x6c05fcc, size 0x22c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* Alloc(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::TextureWrapMode wrapModeU,
                                                    ::UnityEngine::TextureWrapMode wrapModeV, ::UnityEngine::TextureWrapMode wrapModeW, int32_t slices, ::UnityEngine::FilterMode filterMode,
                                                    ::UnityEngine::Rendering::TextureDimension dimension, bool enableRandomWrite, bool useMipMap, bool autoGenerateMips, bool isShadowMap,
                                                    int32_t anisoLevel, float_t mipMapBias, ::UnityEngine::Rendering::MSAASamples msaaSamples, bool bindTextureMS, bool useDynamicScale,
                                                    bool useDynamicScaleExplicit, ::UnityEngine::RenderTextureMemoryless memoryless, ::UnityEngine::VRTextureUsage vrUsage, ::StringW name);
 
-  /// @brief Method Alloc, addr 0x6bc3eac, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method Alloc, addr 0x6c00b28, size 0x238, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* Alloc(int32_t width, int32_t height, ::UnityEngine::Rendering::RTHandleAllocInfo info);
 
-  /// @brief Method Alloc, addr 0x6bc91e0, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Alloc, addr 0x6c05e5c, size 0x170, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* Alloc(int32_t width, int32_t height, int32_t slices, ::UnityEngine::Rendering::DepthBits depthBufferBits,
                                                    ::UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, ::UnityEngine::FilterMode filterMode, ::UnityEngine::TextureWrapMode wrapMode,
                                                    ::UnityEngine::Rendering::TextureDimension dimension, bool enableRandomWrite, bool useMipMap, bool autoGenerateMips, bool isShadowMap,
                                                    int32_t anisoLevel, float_t mipMapBias, ::UnityEngine::Rendering::MSAASamples msaaSamples, bool bindTextureMS, bool useDynamicScale,
                                                    bool useDynamicScaleExplicit, ::UnityEngine::RenderTextureMemoryless memoryless, ::UnityEngine::VRTextureUsage vrUsage, ::StringW name);
 
-  /// @brief Method Alloc, addr 0x6bc9618, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Alloc, addr 0x6c06294, size 0x17c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* Alloc(int32_t width, int32_t height, ::UnityEngine::TextureWrapMode wrapModeU, ::UnityEngine::TextureWrapMode wrapModeV,
                                                    ::UnityEngine::TextureWrapMode wrapModeW, int32_t slices, ::UnityEngine::Rendering::DepthBits depthBufferBits,
                                                    ::UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, ::UnityEngine::FilterMode filterMode,
@@ -447,10 +447,10 @@ public:
                                                    int32_t anisoLevel, float_t mipMapBias, ::UnityEngine::Rendering::MSAASamples msaaSamples, bool bindTextureMS, bool useDynamicScale,
                                                    bool useDynamicScaleExplicit, ::UnityEngine::RenderTextureMemoryless memoryless, ::UnityEngine::VRTextureUsage vrUsage, ::StringW name);
 
-  /// @brief Method AllocAutoSizedRenderTexture, addr 0x6bca768, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method AllocAutoSizedRenderTexture, addr 0x6c073e4, size 0x1e0, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* AllocAutoSizedRenderTexture(int32_t width, int32_t height, ::UnityEngine::Rendering::RTHandleAllocInfo info);
 
-  /// @brief Method AllocAutoSizedRenderTexture, addr 0x6bca0cc, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method AllocAutoSizedRenderTexture, addr 0x6c06d48, size 0x23c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* AllocAutoSizedRenderTexture(int32_t width, int32_t height, int32_t slices, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                                                          ::UnityEngine::FilterMode filterMode, ::UnityEngine::TextureWrapMode wrapMode,
                                                                          ::UnityEngine::Rendering::TextureDimension dimension, bool enableRandomWrite, bool useMipMap, bool autoGenerateMips,
@@ -458,19 +458,19 @@ public:
                                                                          bool bindTextureMS, bool useDynamicScale, bool useDynamicScaleExplicit, ::UnityEngine::RenderTextureMemoryless memoryless,
                                                                          ::UnityEngine::VRTextureUsage vrUsage, bool enableShadingRate, ::StringW name);
 
-  /// @brief Method CalculateDimensions, addr 0x6bc9df0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CalculateDimensions, addr 0x6c06a6c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2Int CalculateDimensions(::UnityEngine::Vector2 scaleFactor);
 
-  /// @brief Method CalculateDimensions, addr 0x6bc9df8, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method CalculateDimensions, addr 0x6c06a74, size 0x1c8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2Int CalculateDimensions(::UnityEngine::Vector2 scaleFactor, ::UnityEngine::Vector2Int size);
 
-  /// @brief Method CalculateDimensions, addr 0x6bca948, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CalculateDimensions, addr 0x6c075c4, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2Int CalculateDimensions(::UnityEngine::Rendering::ScaleFunc* scaleFunc);
 
-  /// @brief Method CalculateRatioAgainstMaxSize, addr 0x6bc46e0, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method CalculateRatioAgainstMaxSize, addr 0x6c0135c, size 0x248, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 CalculateRatioAgainstMaxSize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2Int const> viewportSize);
 
-  /// @brief Method CreateRenderTexture, addr 0x6bc9794, size 0x59c, virtual false, abstract: false, final false
+  /// @brief Method CreateRenderTexture, addr 0x6c06410, size 0x59c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> CreateRenderTexture(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, int32_t slices,
                                                                     ::UnityEngine::FilterMode filterMode, ::UnityEngine::TextureWrapMode wrapModeU, ::UnityEngine::TextureWrapMode wrapModeV,
                                                                     ::UnityEngine::TextureWrapMode wrapModeW, ::UnityEngine::Rendering::TextureDimension dimension, bool enableRandomWrite,
@@ -478,58 +478,58 @@ public:
                                                                     ::UnityEngine::Rendering::MSAASamples msaaSamples, bool bindTextureMS, bool useDynamicScale, bool useDynamicScaleExplicit,
                                                                     ::UnityEngine::RenderTextureMemoryless memoryless, ::UnityEngine::VRTextureUsage vrUsage, bool enableShadingRate, ::StringW name);
 
-  /// @brief Method DemandResize, addr 0x6bc8f40, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method DemandResize, addr 0x6c05bbc, size 0x290, virtual false, abstract: false, final false
   inline void DemandResize(::UnityEngine::Rendering::RTHandle* rth);
 
-  /// @brief Method Dispose, addr 0x6bc4ba8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6c01824, size 0x8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6bc83ec, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6c05068, size 0x1dc, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method DumpRTInfo, addr 0x6bcb078, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method DumpRTInfo, addr 0x6c07cf4, size 0x31c, virtual false, abstract: false, final false
   inline ::StringW DumpRTInfo();
 
-  /// @brief Method GetMaxHeight, addr 0x6bc91d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetMaxHeight, addr 0x6c05e54, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetMaxHeight();
 
-  /// @brief Method GetMaxWidth, addr 0x6bc91d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetMaxWidth, addr 0x6c05e4c, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetMaxWidth();
 
-  /// @brief Method GetStencilFormat, addr 0x6bc9d30, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetStencilFormat, addr 0x6c069ac, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetStencilFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat);
 
-  /// @brief Method Initialize, addr 0x6bc85c8, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6c05244, size 0x2dc, virtual false, abstract: false, final false
   inline void Initialize(int32_t width, int32_t height);
 
   /// [Obsolete("useLegacyDynamicResControl is deprecated. Please use SetHardwareDynamicResolutionState() instead. #from(2023.3)")]
-  /// @brief Method Initialize, addr 0x6bc88a4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6c05520, size 0x2c, virtual false, abstract: false, final false
   inline void Initialize(int32_t width, int32_t height, bool useLegacyDynamicResControl);
 
   static inline ::UnityEngine::Rendering::RTHandleSystem* New_ctor();
 
-  /// @brief Method Release, addr 0x6bc41d8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x6c00e54, size 0x10, virtual false, abstract: false, final false
   inline void Release(::UnityEngine::Rendering::RTHandle* rth);
 
-  /// @brief Method Remove, addr 0x6bc7b24, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x6c047a0, size 0x64, virtual false, abstract: false, final false
   inline void Remove(::UnityEngine::Rendering::RTHandle* rth);
 
-  /// @brief Method ResetReferenceSize, addr 0x6bc45f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ResetReferenceSize, addr 0x6c01274, size 0xc, virtual false, abstract: false, final false
   inline void ResetReferenceSize(int32_t width, int32_t height);
 
-  /// @brief Method Resize, addr 0x6bc8a7c, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method Resize, addr 0x6c056f8, size 0x328, virtual false, abstract: false, final false
   inline void Resize(int32_t width, int32_t height, bool sizeChanged);
 
-  /// @brief Method SetHardwareDynamicResolutionState, addr 0x6bc8da4, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method SetHardwareDynamicResolutionState, addr 0x6c05a20, size 0x19c, virtual false, abstract: false, final false
   inline void SetHardwareDynamicResolutionState(bool enableHWDynamicRes);
 
-  /// @brief Method SetReferenceSize, addr 0x6bc45d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetReferenceSize, addr 0x6c01250, size 0x8, virtual false, abstract: false, final false
   inline void SetReferenceSize(int32_t width, int32_t height);
 
-  /// @brief Method SetReferenceSize, addr 0x6bc88d0, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method SetReferenceSize, addr 0x6c0554c, size 0x1ac, virtual false, abstract: false, final false
   inline void SetReferenceSize(int32_t width, int32_t height, bool reset);
 
-  /// @brief Method SwitchResizeMode, addr 0x6bc3a10, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method SwitchResizeMode, addr 0x6c0068c, size 0x128, virtual false, abstract: false, final false
   inline void SwitchResizeMode(::UnityEngine::Rendering::RTHandle* rth, ::UnityEngine::Rendering::RTHandleSystem_ResizeMode mode);
 
   constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::RTHandle*>* const& __cordl_internal_get_m_AutoSizedRTs() const;
@@ -574,10 +574,10 @@ public:
 
   constexpr void __cordl_internal_set_m_ResizeOnDemandRTs(::System::Collections::Generic::HashSet_1<::UnityEngine::Rendering::RTHandle*>* value);
 
-  /// @brief Method .ctor, addr 0x6bc4c7c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c018f8, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_rtHandleProperties, addr 0x6bc83d8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_rtHandleProperties, addr 0x6c05054, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandleProperties get_rtHandleProperties();
 
   /// @brief Convert to "::System::IDisposable"
@@ -598,7 +598,7 @@ public:
   RTHandleSystem(RTHandleSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9124 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9131 };
 
   /// @brief Field m_HardwareDynamicResRequested, offset: 0x10, size: 0x1, def value: None
   bool ___m_HardwareDynamicResRequested;

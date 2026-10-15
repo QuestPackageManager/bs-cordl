@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<double_t>, ::by_ref<::UnityEngine::ExpressionEvaluator_Expression*>)>(
     &::UnityEngine::UINumericFieldsUtils::TryConvertStringToDouble)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x6f4de10;
+  constexpr static std::size_t addrs = 0x6f8ac70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::StringW, ::by_ref<double_t>, ::by_ref<::UnityEngine::ExpressionEvaluator_Expression*>)>(
     &::UnityEngine::UINumericFieldsUtils::TryConvertStringToDouble)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6f4dfa8;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x6f8ae08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::StringW, ::by_ref<float_t>, ::by_ref<::UnityEngine::ExpressionEvaluator_Expression*>)>(
     &::UnityEngine::UINumericFieldsUtils::TryConvertStringToFloat)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6f4e0d4;
+  constexpr static std::size_t addrs = 0x6f8af28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<int64_t>, ::by_ref<::UnityEngine::ExpressionEvaluator_Expression*>)>(
     &::UnityEngine::UINumericFieldsUtils::TryConvertStringToLong)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6f4e1d0;
+  constexpr static std::size_t addrs = 0x6f8b024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,8 +78,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::StringW, ::by_ref<int64_t>, ::by_ref<::UnityEngine::ExpressionEvaluator_Expression*>)>(
     &::UnityEngine::UINumericFieldsUtils::TryConvertStringToLong)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6f4e25c;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x6f8b0b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<uint64_t>, ::by_ref<::UnityEngine::ExpressionEvaluator_Expression*>)>(
     &::UnityEngine::UINumericFieldsUtils::TryConvertStringToULong)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6f4e388;
+  constexpr static std::size_t addrs = 0x6f8b1d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,8 +113,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::StringW, ::by_ref<uint64_t>, ::by_ref<::UnityEngine::ExpressionEvaluator_Expression*>)>(
     &::UnityEngine::UINumericFieldsUtils::TryConvertStringToULong)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6f4e414;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x6f8b25c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::StringW, ::by_ref<int32_t>, ::by_ref<::UnityEngine::ExpressionEvaluator_Expression*>)>(
     &::UnityEngine::UINumericFieldsUtils::TryConvertStringToInt)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6f4e540;
+  constexpr static std::size_t addrs = 0x6f8b37c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::StringW, ::by_ref<uint32_t>, ::by_ref<::UnityEngine::ExpressionEvaluator_Expression*>)>(
     &::UnityEngine::UINumericFieldsUtils::TryConvertStringToUInt)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6f4e5ec;
+  constexpr static std::size_t addrs = 0x6f8b428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

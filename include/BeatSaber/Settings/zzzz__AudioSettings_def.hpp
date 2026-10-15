@@ -13,6 +13,7 @@ struct AudioSettings;
 // Write type traits
 MARK_VAL_T(::BeatSaber::Settings::AudioSettings);
 DEFINE_IL2CPP_CLASS(::BeatSaber::Settings::AudioSettings, "BeatSaber.Settings", "AudioSettings");
+// [AnalyticsSettingsStruct("audio")]
 // Dependencies
 namespace BeatSaber::Settings {
 // Is value type: true
@@ -30,7 +31,7 @@ public:
   constexpr AudioSettings(float_t volume, float_t ambientVolumeScale, float_t latency, bool overrideLatency) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22844 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22932 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -41,9 +42,11 @@ public:
   /// @brief Field ambientVolumeScale, offset: 0x4, size: 0x4, def value: None
   float_t ambientVolumeScale;
 
+  /// [AnalyticsExcluded("Audio-hardware fingerprint")]
   /// @brief Field latency, offset: 0x8, size: 0x4, def value: None
   float_t latency;
 
+  /// [AnalyticsExcluded("Audio-hardware fingerprint")]
   /// @brief Field overrideLatency, offset: 0xc, size: 0x1, def value: None
   bool overrideLatency;
 

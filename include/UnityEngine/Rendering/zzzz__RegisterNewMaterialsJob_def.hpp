@@ -33,7 +33,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x6c4fa40, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6c8c6bc, size 0x9c, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -56,7 +56,7 @@ public:
       ::Unity::Collections::NativeParallelHashMap_2_ParallelWriter<::UnityEngine::EntityId, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> packedMaterialHashMap) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18192 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18225 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };

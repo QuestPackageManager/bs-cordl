@@ -29,12 +29,12 @@ public:
   /// @brief Field _isDevServer, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get__isDevServer, put = __cordl_internal_set__isDevServer)) bool _isDevServer;
 
-  /// @brief Method InstallBindings, addr 0x351da00, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x353e374, size 0xa4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO* New_ctor();
 
-  /// @brief Method SetEndpoint, addr 0x351d9f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetEndpoint, addr 0x353e368, size 0xc, virtual false, abstract: false, final false
   inline void SetEndpoint(::StringW endpoint, bool isDevServer);
 
   constexpr bool const& __cordl_internal_get__autoInitialize() const;
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__isDevServer(bool value);
 
-  /// @brief Method .ctor, addr 0x351daa4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x353e418, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -73,7 +73,7 @@ public:
   GraphQLClientProviderInstallerSO(GraphQLClientProviderInstallerSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23428 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23532 };
 
   /// [SerializeField]
   /// @brief Field _autoInitialize, offset: 0x20, size: 0x1, def value: None

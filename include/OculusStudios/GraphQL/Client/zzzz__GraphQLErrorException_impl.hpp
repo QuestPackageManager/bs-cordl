@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::GraphQL::Client::GraphQLErrorException::*)()>(&::OculusStudios::GraphQL::Client::GraphQLErrorException::get_Class)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x633c6a4;
+  constexpr static std::size_t addrs = 0x63790ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLErrorException*>(), { "get_Class", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLErrorException::*)(::StringW)>(
     &::OculusStudios::GraphQL::Client::GraphQLErrorException::set_Class)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x633c6ac;
+  constexpr static std::size_t addrs = 0x63790f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::GraphQL::Client::GraphQLErrorException::*)()>(
     &::OculusStudios::GraphQL::Client::GraphQLErrorException::get_Message)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x633c6b4;
+  constexpr static std::size_t addrs = 0x63790fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLErrorException*>(), { "get_Message", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLErrorException::*)(::StringW)>(
     &::OculusStudios::GraphQL::Client::GraphQLErrorException::set_Message)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x633c6bc;
+  constexpr static std::size_t addrs = 0x6379104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::StringW>* (::OculusStudios::GraphQL::Client::GraphQLErrorException::*)()>(
     &::OculusStudios::GraphQL::Client::GraphQLErrorException::get_StackTrace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x633c6c4;
+  constexpr static std::size_t addrs = 0x637910c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLErrorException*>(), { "get_StackTrace", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLErrorException::*)(::System::Collections::Generic::List_1<::StringW>*)>(
     &::OculusStudios::GraphQL::Client::GraphQLErrorException::set_StackTrace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x633c6cc;
+  constexpr static std::size_t addrs = 0x6379114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLErrorException*>(),
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLErrorException::*)()>(&::OculusStudios::GraphQL::Client::GraphQLErrorException::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x633c6d4;
+  constexpr static std::size_t addrs = 0x637911c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLErrorException*>(), { ".ctor", {}, {} })));

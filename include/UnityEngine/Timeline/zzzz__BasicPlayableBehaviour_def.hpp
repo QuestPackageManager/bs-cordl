@@ -58,42 +58,42 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayableBehaviour"
   constexpr operator ::UnityEngine::Playables::IPlayableBehaviour*() noexcept;
 
-  /// @brief Method CreatePlayable, addr 0x6df02ec, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method CreatePlayable, addr 0x6e2cf88, size 0xb0, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* owner);
 
   static inline ::UnityEngine::Timeline::BasicPlayableBehaviour* New_ctor();
 
-  /// @brief Method OnBehaviourPause, addr 0x6df02e0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPause, addr 0x6e2cf7c, size 0x4, virtual true, abstract: false, final false
   inline void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnBehaviourPlay, addr 0x6df02dc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPlay, addr 0x6e2cf78, size 0x4, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnGraphStart, addr 0x6df02cc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnGraphStart, addr 0x6e2cf68, size 0x4, virtual true, abstract: false, final false
   inline void OnGraphStart(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnGraphStop, addr 0x6df02d0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnGraphStop, addr 0x6e2cf6c, size 0x4, virtual true, abstract: false, final false
   inline void OnGraphStop(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnPlayableCreate, addr 0x6df02d4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableCreate, addr 0x6e2cf70, size 0x4, virtual true, abstract: false, final false
   inline void OnPlayableCreate(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnPlayableDestroy, addr 0x6df02d8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x6e2cf74, size 0x4, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method PrepareFrame, addr 0x6df02e4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PrepareFrame, addr 0x6e2cf80, size 0x4, virtual true, abstract: false, final false
   inline void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method ProcessFrame, addr 0x6df02e8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x6e2cf84, size 0x4, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
-  /// @brief Method .ctor, addr 0x6df039c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e2d038, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_duration, addr 0x6df0214, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_duration, addr 0x6e2ceb0, size 0x5c, virtual true, abstract: false, final false
   inline double_t get_duration();
 
-  /// @brief Method get_outputs, addr 0x6df0270, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_outputs, addr 0x6e2cf0c, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
 
   /// @brief Convert to "::UnityEngine::Playables::IPlayableAsset"
@@ -117,7 +117,7 @@ public:
   BasicPlayableBehaviour(BasicPlayableBehaviour const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19337 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19370 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -80,13 +80,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Registry(::Unity::Properties::ConversionRegistry value);
 
-  /// @brief Method .ctor, addr 0x7087fdc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70c4f10, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW id, ::StringW displayName, ::StringW description);
 
-  /// @brief Method get_registerRef, addr 0x7087fd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_registerRef, addr 0x70c4f08, size 0x8, virtual false, abstract: false, final false
   inline ::by_ref<::Unity::Properties::ConversionRegistry> get_registerRef();
 
-  /// @brief Method get_registry, addr 0x7087fc8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_registry, addr 0x70c4efc, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Properties::ConversionRegistry get_registry();
 
 protected:

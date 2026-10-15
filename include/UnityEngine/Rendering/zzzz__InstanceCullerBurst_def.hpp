@@ -65,16 +65,16 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE InstanceCullerBurst_SetupCullingJobInput_0000014D$PostfixBurstDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6c4e9c0, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6c8b63c, size 0xac, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(float_t lodBias, float_t meshLodThreshold, ::UnityEngine::Rendering::BatchCullingContext* context,
                                              ::UnityEngine::Rendering::ReceiverPlanes* receiverPlanes, ::UnityEngine::Rendering::ReceiverSphereCuller* receiverSphereCuller,
                                              ::UnityEngine::Rendering::FrustumPlaneCuller* frustumPlaneCuller, float_t* screenRelativeMetric, float_t* meshLodConstant,
                                              ::System::AsyncCallback* _cordl_fixed_empty_name_whitespace, ::System::Object* _cordl_fixed_empty_name_whitespace_param_9);
 
-  /// @brief Method EndInvoke, addr 0x6c4ea6c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6c8b6e8, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method Invoke, addr 0x6c4e9ac, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6c8b628, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(float_t lodBias, float_t meshLodThreshold, ::UnityEngine::Rendering::BatchCullingContext* context, ::UnityEngine::Rendering::ReceiverPlanes* receiverPlanes,
                      ::UnityEngine::Rendering::ReceiverSphereCuller* receiverSphereCuller, ::UnityEngine::Rendering::FrustumPlaneCuller* frustumPlaneCuller, float_t* screenRelativeMetric,
                      float_t* meshLodConstant);
@@ -82,7 +82,7 @@ public:
   static inline ::UnityEngine::Rendering::InstanceCullerBurst_SetupCullingJobInput_0000014D$PostfixBurstDelegate* New_ctor(::System::Object* _cordl_fixed_empty_name_whitespace,
                                                                                                                            ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1);
 
-  /// @brief Method .ctor, addr 0x6c4e940, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c8b5bc, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* _cordl_fixed_empty_name_whitespace, ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1);
 
 protected:
@@ -100,7 +100,7 @@ public:
   InstanceCullerBurst_SetupCullingJobInput_0000014D$PostfixBurstDelegate(InstanceCullerBurst_SetupCullingJobInput_0000014D$PostfixBurstDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18179 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18212 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -118,14 +118,14 @@ public:
   /// @brief Field Pointer, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Pointer, put = setStaticF_Pointer)) ::System::IntPtr Pointer;
 
-  /// @brief Method GetFunctionPointer, addr 0x6c4eb84, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetFunctionPointer, addr 0x6c8b800, size 0x18, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFunctionPointer();
 
   /// [BurstDiscard]
-  /// @brief Method GetFunctionPointerDiscard, addr 0x6c4ea78, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetFunctionPointerDiscard, addr 0x6c8b6f4, size 0x10c, virtual false, abstract: false, final false
   static inline void GetFunctionPointerDiscard(::by_ref<::System::IntPtr> _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method Invoke, addr 0x6c4e6f4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6c8b370, size 0x110, virtual false, abstract: false, final false
   static inline void Invoke(float_t lodBias, float_t meshLodThreshold, ::UnityEngine::Rendering::BatchCullingContext* context, ::UnityEngine::Rendering::ReceiverPlanes* receiverPlanes,
                             ::UnityEngine::Rendering::ReceiverSphereCuller* receiverSphereCuller, ::UnityEngine::Rendering::FrustumPlaneCuller* frustumPlaneCuller, float_t* screenRelativeMetric,
                             float_t* meshLodConstant);
@@ -149,7 +149,7 @@ public:
   InstanceCullerBurst_SetupCullingJobInput_0000014D$BurstDirectCall(InstanceCullerBurst_SetupCullingJobInput_0000014D$BurstDirectCall const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18180 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18213 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -171,13 +171,13 @@ public:
 
   /// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
   /// [MonoPInvokeCallback(typeof(UnityEngine.Rendering.UnityEngine.Rendering.InstanceCullerBurst::SetupCullingJobInput_0000014D$PostfixBurstDelegate))]
-  /// @brief Method SetupCullingJobInput, addr 0x6c4e6f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetupCullingJobInput, addr 0x6c8b36c, size 0x4, virtual false, abstract: false, final false
   static inline void SetupCullingJobInput(float_t lodBias, float_t meshLodThreshold, ::UnityEngine::Rendering::BatchCullingContext* context, ::UnityEngine::Rendering::ReceiverPlanes* receiverPlanes,
                                           ::UnityEngine::Rendering::ReceiverSphereCuller* receiverSphereCuller, ::UnityEngine::Rendering::FrustumPlaneCuller* frustumPlaneCuller,
                                           float_t* screenRelativeMetric, float_t* meshLodConstant);
 
   /// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
-  /// @brief Method SetupCullingJobInput$BurstManaged, addr 0x6c4e804, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SetupCullingJobInput$BurstManaged, addr 0x6c8b480, size 0x13c, virtual false, abstract: false, final false
   static inline void SetupCullingJobInput$BurstManaged(float_t lodBias, float_t meshLodThreshold, ::UnityEngine::Rendering::BatchCullingContext* context,
                                                        ::UnityEngine::Rendering::ReceiverPlanes* receiverPlanes, ::UnityEngine::Rendering::ReceiverSphereCuller* receiverSphereCuller,
                                                        ::UnityEngine::Rendering::FrustumPlaneCuller* frustumPlaneCuller, float_t* screenRelativeMetric, float_t* meshLodConstant);
@@ -197,7 +197,7 @@ public:
   InstanceCullerBurst(InstanceCullerBurst const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18181 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18214 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

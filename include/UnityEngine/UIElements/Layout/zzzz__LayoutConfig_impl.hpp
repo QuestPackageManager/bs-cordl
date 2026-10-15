@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Layout::LayoutConfig (*)()>(&::UnityEngine::UIElements::Layout::LayoutConfig::get_Undefined)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x7192d18;
+  constexpr static std::size_t addrs = 0x71cfc4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutConfig>(), { "get_Undefined", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Layout::LayoutConfig::*)(
     ::UnityEngine::UIElements::Layout::LayoutDataAccess, ::UnityEngine::UIElements::Layout::LayoutHandle)>(&::UnityEngine::UIElements::Layout::LayoutConfig::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x7192d30;
+  constexpr static std::size_t addrs = 0x71cfc64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Layout::LayoutHandle (::UnityEngine::UIElements::Layout::LayoutConfig::*)()>(
     &::UnityEngine::UIElements::Layout::LayoutConfig::get_Handle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7192d4c;
+  constexpr static std::size_t addrs = 0x71cfc80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutConfig>(), { "get_Handle", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<float_t> (::UnityEngine::UIElements::Layout::LayoutConfig::*)()>(
     &::UnityEngine::UIElements::Layout::LayoutConfig::get_PointScaleFactor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x7192d54;
+  constexpr static std::size_t addrs = 0x71cfc88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutConfig>(), { "get_PointScaleFactor", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Layout::LayoutMeasureFunction* (::UnityEngine::UIElements::Layout::LayoutConfig::*)()>(
     &::UnityEngine::UIElements::Layout::LayoutConfig::get_Measure)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x7192db8;
+  constexpr static std::size_t addrs = 0x71cfcec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutConfig>(), { "get_Measure", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Layout::LayoutConfig::*)(::UnityEngine::UIElements::Layout::LayoutMeasureFunction*)>(
     &::UnityEngine::UIElements::Layout::LayoutConfig::set_Measure)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x7192e30;
+  constexpr static std::size_t addrs = 0x71cfd64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutConfig>(),
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Layout::LayoutBaselineFunction* (::UnityEngine::UIElements::Layout::LayoutConfig::*)()>(
     &::UnityEngine::UIElements::Layout::LayoutConfig::get_Baseline)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x7192eb0;
+  constexpr static std::size_t addrs = 0x71cfde4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutConfig>(), { "get_Baseline", {}, {} })));

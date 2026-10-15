@@ -27,23 +27,23 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE UIPainter2D : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ClearSnapshots, addr 0x7269d88, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ClearSnapshots, addr 0x72a6cbc, size 0x3c, virtual false, abstract: false, final false
   static inline void ClearSnapshots(::System::IntPtr handle);
 
-  /// @brief Method Create, addr 0x7269cd4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x72a6c08, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create(bool computeBBox);
 
-  /// @brief Method Destroy, addr 0x7269d10, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x72a6c44, size 0x3c, virtual false, abstract: false, final false
   static inline void Destroy(::System::IntPtr handle);
 
   /// [ThreadSafe]
-  /// @brief Method ExecuteSnapshotFromJob, addr 0x7269dc4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ExecuteSnapshotFromJob, addr 0x72a6cf8, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MeshWriteDataInterface ExecuteSnapshotFromJob(::System::IntPtr painterHandle, int32_t i);
 
-  /// @brief Method ExecuteSnapshotFromJob_Injected, addr 0x7269e34, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ExecuteSnapshotFromJob_Injected, addr 0x72a6d68, size 0x54, virtual false, abstract: false, final false
   static inline void ExecuteSnapshotFromJob_Injected(::System::IntPtr painterHandle, int32_t i, ::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface> ret);
 
-  /// @brief Method Reset, addr 0x7269d4c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x72a6c80, size 0x3c, virtual false, abstract: false, final false
   static inline void Reset(::System::IntPtr handle);
 
 protected:

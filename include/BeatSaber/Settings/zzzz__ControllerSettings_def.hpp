@@ -14,6 +14,7 @@ struct ControllerSettings;
 // Write type traits
 MARK_VAL_T(::BeatSaber::Settings::ControllerSettings);
 DEFINE_IL2CPP_CLASS(::BeatSaber::Settings::ControllerSettings, "BeatSaber.Settings", "ControllerSettings");
+// [AnalyticsSettingsStruct("controller")]
 // Dependencies BeatSaber.Settings.SelectedProfile, Unity.Mathematics.float3
 namespace BeatSaber::Settings {
 // Is value type: true
@@ -31,20 +32,23 @@ public:
   constexpr ControllerSettings(::Unity::Mathematics::float3 position, ::Unity::Mathematics::float3 rotation, bool hapticFeedback, ::BeatSaber::Settings::SelectedProfile selectedProfile) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22841 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22929 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };
 
+  /// [AnalyticsExcluded("Reveals physical play-space layout")]
   /// @brief Field position, offset: 0x0, size: 0xc, def value: None
   ::Unity::Mathematics::float3 position;
 
+  /// [AnalyticsExcluded("Reveals physical play-space layout")]
   /// @brief Field rotation, offset: 0xc, size: 0xc, def value: None
   ::Unity::Mathematics::float3 rotation;
 
   /// @brief Field hapticFeedback, offset: 0x18, size: 0x1, def value: None
   bool hapticFeedback;
 
+  /// [AnalyticsExcluded("Composite value; no scalar encoding")]
   /// @brief Field selectedProfile, offset: 0x1c, size: 0x8, def value: None
   ::BeatSaber::Settings::SelectedProfile selectedProfile;
 

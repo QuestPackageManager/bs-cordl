@@ -45,47 +45,47 @@ public:
 
   __declspec(property(get = get_valueCount)) int32_t valueCount;
 
-  /// @brief Method Match, addr 0x71cc6fc, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Match, addr 0x7209630, size 0x148, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::MatchResult Match(::UnityEngine::UIElements::StyleSheets::Syntax::Expression* exp,
                                                                    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyValue>* values);
 
-  /// @brief Method MatchAngle, addr 0x71ccdd4, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method MatchAngle, addr 0x7209d08, size 0xc8, virtual true, abstract: false, final false
   inline bool MatchAngle();
 
-  /// @brief Method MatchColor, addr 0x71cca98, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method MatchColor, addr 0x72099cc, size 0x9c, virtual true, abstract: false, final false
   inline bool MatchColor();
 
-  /// @brief Method MatchCustomIdent, addr 0x71ccd1c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method MatchCustomIdent, addr 0x7209c50, size 0xb8, virtual true, abstract: false, final false
   inline bool MatchCustomIdent();
 
-  /// @brief Method MatchFilterFunction, addr 0x71ccba4, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method MatchFilterFunction, addr 0x7209ad8, size 0xbc, virtual true, abstract: false, final false
   inline bool MatchFilterFunction();
 
-  /// @brief Method MatchInteger, addr 0x71cc8f8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method MatchInteger, addr 0x720982c, size 0x18, virtual true, abstract: false, final false
   inline bool MatchInteger();
 
-  /// @brief Method MatchKeyword, addr 0x71cc844, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method MatchKeyword, addr 0x7209778, size 0x64, virtual true, abstract: false, final false
   inline bool MatchKeyword(::StringW keyword);
 
-  /// @brief Method MatchLength, addr 0x71cc910, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method MatchLength, addr 0x7209844, size 0xc4, virtual true, abstract: false, final false
   inline bool MatchLength();
 
-  /// @brief Method MatchMaterialPropertyValue, addr 0x71ccc60, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method MatchMaterialPropertyValue, addr 0x7209b94, size 0xbc, virtual true, abstract: false, final false
   inline bool MatchMaterialPropertyValue();
 
-  /// @brief Method MatchNumber, addr 0x71cc8a8, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method MatchNumber, addr 0x72097dc, size 0x50, virtual true, abstract: false, final false
   inline bool MatchNumber(::UnityEngine::UIElements::StyleSheets::Syntax::Expression* exp);
 
-  /// @brief Method MatchPercentage, addr 0x71cc9d4, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method MatchPercentage, addr 0x7209908, size 0xc4, virtual true, abstract: false, final false
   inline bool MatchPercentage();
 
-  /// @brief Method MatchResource, addr 0x71ccb34, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method MatchResource, addr 0x7209a68, size 0x18, virtual true, abstract: false, final false
   inline bool MatchResource();
 
-  /// @brief Method MatchTime, addr 0x71ccb68, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method MatchTime, addr 0x7209a9c, size 0x3c, virtual true, abstract: false, final false
   inline bool MatchTime();
 
-  /// @brief Method MatchUrl, addr 0x71ccb4c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method MatchUrl, addr 0x7209a80, size 0x1c, virtual true, abstract: false, final false
   inline bool MatchUrl();
 
   static inline ::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher* New_ctor();
@@ -96,19 +96,19 @@ public:
 
   constexpr void __cordl_internal_set_m_Values(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyValue>* value);
 
-  /// @brief Method .ctor, addr 0x71cce9c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7209dd0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_current, addr 0x71cc590, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x72094c4, size 0x88, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::StylePropertyValue get_current();
 
-  /// @brief Method get_isCurrentComma, addr 0x71cc670, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method get_isCurrentComma, addr 0x72095a4, size 0x8c, virtual true, abstract: false, final false
   inline bool get_isCurrentComma();
 
-  /// @brief Method get_isCurrentVariable, addr 0x71cc668, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_isCurrentVariable, addr 0x720959c, size 0x8, virtual true, abstract: false, final false
   inline bool get_isCurrentVariable();
 
-  /// @brief Method get_valueCount, addr 0x71cc618, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method get_valueCount, addr 0x720954c, size 0x50, virtual true, abstract: false, final false
   inline int32_t get_valueCount();
 
 protected:

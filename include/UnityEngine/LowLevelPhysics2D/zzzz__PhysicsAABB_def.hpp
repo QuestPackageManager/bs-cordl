@@ -31,25 +31,25 @@ public:
   __declspec(property(get = get_upperBound, put = set_upperBound)) ::UnityEngine::Vector2 upperBound;
 
   /// [IsReadOnly]
-  /// @brief Method ToString, addr 0x6fd41cc, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x70110c0, size 0xf4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// [IsReadOnly]
-  /// @brief Method get_isValid, addr 0x6fd41a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isValid, addr 0x7011094, size 0xc, virtual false, abstract: false, final false
   inline bool get_isValid();
 
   /// [IsReadOnly]
-  /// @brief Method get_lowerBound, addr 0x6fd41ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lowerBound, addr 0x70110a0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_lowerBound();
 
   /// [IsReadOnly]
-  /// @brief Method get_upperBound, addr 0x6fd41bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_upperBound, addr 0x70110b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_upperBound();
 
-  /// @brief Method set_lowerBound, addr 0x6fd41b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lowerBound, addr 0x70110a8, size 0x8, virtual false, abstract: false, final false
   inline void set_lowerBound(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_upperBound, addr 0x6fd41c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_upperBound, addr 0x70110b8, size 0x8, virtual false, abstract: false, final false
   inline void set_upperBound(::UnityEngine::Vector2 value);
 
   // Ctor Parameters []
@@ -61,7 +61,7 @@ public:
   constexpr PhysicsAABB(::UnityEngine::Vector2 m_LowerBound, ::UnityEngine::Vector2 m_UpperBound) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21517 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21564 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

@@ -77,7 +77,7 @@ public:
                                                                    TUserControl UserControl) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20381 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20428 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
@@ -134,7 +134,7 @@ public:
   JobStruct_2_IGeneratorControlExtensions_ExecuteJobFunction(JobStruct_2_IGeneratorControlExtensions_ExecuteJobFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20382 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20429 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -174,7 +174,7 @@ public:
   constexpr IGeneratorControlExtensions_JobStruct_2();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20383 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20430 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -216,7 +216,7 @@ public:
   IGeneratorControlExtensions(IGeneratorControlExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20384 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20431 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

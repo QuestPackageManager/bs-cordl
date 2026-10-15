@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectMultiplayerLobbyDestination::*)(::StringW, ::StringW)>(
     &::GlobalNamespace::SelectMultiplayerLobbyDestination::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x399133c;
+  constexpr static std::size_t addrs = 0x39b572c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectMultiplayerLobbyDestination::*)(::StringW)>(&::GlobalNamespace::SelectMultiplayerLobbyDestination::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3991344;
+  constexpr static std::size_t addrs = 0x39b5734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

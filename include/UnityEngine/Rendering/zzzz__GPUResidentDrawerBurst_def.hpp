@@ -115,7 +115,7 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE GPUResidentDrawerBurst_ClassifyMaterials_000000EA$PostfixBurstDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6c46bb0, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6c8382c, size 0x148, virtual true, abstract: false, final false
   inline ::System::IAsyncResult*
   BeginInvoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> materialIDs,
               /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const> batchMaterialHash,
@@ -123,10 +123,10 @@ public:
               ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> supportedPackedMaterialDatas,
               ::System::AsyncCallback* _cordl_fixed_empty_name_whitespace, ::System::Object* _cordl_fixed_empty_name_whitespace_param_6);
 
-  /// @brief Method EndInvoke, addr 0x6c46cf8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6c83974, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method Invoke, addr 0x6c46b9c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6c83818, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> materialIDs,
                      /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const> batchMaterialHash,
                      ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> supportedMaterialIDs,
@@ -136,7 +136,7 @@ public:
   static inline ::UnityEngine::Rendering::GPUResidentDrawerBurst_ClassifyMaterials_000000EA$PostfixBurstDelegate* New_ctor(::System::Object* _cordl_fixed_empty_name_whitespace,
                                                                                                                            ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1);
 
-  /// @brief Method .ctor, addr 0x6c46b1c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c83798, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* _cordl_fixed_empty_name_whitespace, ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1);
 
 protected:
@@ -154,7 +154,7 @@ public:
   GPUResidentDrawerBurst_ClassifyMaterials_000000EA$PostfixBurstDelegate(GPUResidentDrawerBurst_ClassifyMaterials_000000EA$PostfixBurstDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18130 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18163 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -172,14 +172,14 @@ public:
   /// @brief Field Pointer, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Pointer, put = setStaticF_Pointer)) ::System::IntPtr Pointer;
 
-  /// @brief Method GetFunctionPointer, addr 0x6c46e10, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetFunctionPointer, addr 0x6c83a8c, size 0x18, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFunctionPointer();
 
   /// [BurstDiscard]
-  /// @brief Method GetFunctionPointerDiscard, addr 0x6c46d04, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetFunctionPointerDiscard, addr 0x6c83980, size 0x10c, virtual false, abstract: false, final false
   static inline void GetFunctionPointerDiscard(::by_ref<::System::IntPtr> _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method Invoke, addr 0x6c460b8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6c82d34, size 0xe0, virtual false, abstract: false, final false
   static inline void
   Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> materialIDs,
          /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const> batchMaterialHash,
@@ -205,7 +205,7 @@ public:
   GPUResidentDrawerBurst_ClassifyMaterials_000000EA$BurstDirectCall(GPUResidentDrawerBurst_ClassifyMaterials_000000EA$BurstDirectCall const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18131 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18164 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -221,17 +221,17 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE GPUResidentDrawerBurst_FindUnsupportedRenderers_000000EB$PostfixBurstDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6c46ebc, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6c83b38, size 0x128, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> unsupportedMaterials,
                                              /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray> const> materialIDArrays,
                                              /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const> rendererGroups,
                                              ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> unsupportedRenderers, ::System::AsyncCallback* _cordl_fixed_empty_name_whitespace,
                                              ::System::Object* _cordl_fixed_empty_name_whitespace_param_5);
 
-  /// @brief Method EndInvoke, addr 0x6c46fe4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6c83c60, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method Invoke, addr 0x6c46ea8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6c83b24, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> unsupportedMaterials,
                      /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray> const> materialIDArrays,
                      /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const> rendererGroups,
@@ -240,7 +240,7 @@ public:
   static inline ::UnityEngine::Rendering::GPUResidentDrawerBurst_FindUnsupportedRenderers_000000EB$PostfixBurstDelegate* New_ctor(::System::Object* _cordl_fixed_empty_name_whitespace,
                                                                                                                                   ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1);
 
-  /// @brief Method .ctor, addr 0x6c46e28, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c83aa4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* _cordl_fixed_empty_name_whitespace, ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1);
 
 protected:
@@ -258,7 +258,7 @@ public:
   GPUResidentDrawerBurst_FindUnsupportedRenderers_000000EB$PostfixBurstDelegate(GPUResidentDrawerBurst_FindUnsupportedRenderers_000000EB$PostfixBurstDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18132 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18165 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -276,14 +276,14 @@ public:
   /// @brief Field Pointer, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Pointer, put = setStaticF_Pointer)) ::System::IntPtr Pointer;
 
-  /// @brief Method GetFunctionPointer, addr 0x6c470fc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetFunctionPointer, addr 0x6c83d78, size 0x18, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFunctionPointer();
 
   /// [BurstDiscard]
-  /// @brief Method GetFunctionPointerDiscard, addr 0x6c46ff0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetFunctionPointerDiscard, addr 0x6c83c6c, size 0x10c, virtual false, abstract: false, final false
   static inline void GetFunctionPointerDiscard(::by_ref<::System::IntPtr> _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method Invoke, addr 0x6c46198, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6c82e14, size 0xc8, virtual false, abstract: false, final false
   static inline void Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> unsupportedMaterials,
                             /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray> const> materialIDArrays,
                             /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const> rendererGroups,
@@ -308,7 +308,7 @@ public:
   GPUResidentDrawerBurst_FindUnsupportedRenderers_000000EB$BurstDirectCall(GPUResidentDrawerBurst_FindUnsupportedRenderers_000000EB$BurstDirectCall const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18133 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18166 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -324,7 +324,7 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE GPUResidentDrawerBurst_GetMaterialsWithChangedPackedMaterial_000000EC$PostfixBurstDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6c471a8, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6c83e24, size 0x128, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(
       /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> materialIDs,
       /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const> packedMaterialDatas,
@@ -332,10 +332,10 @@ public:
       ::by_ref<::Unity::Collections::NativeHashSet_1<::UnityEngine::EntityId>> filteredMaterials, ::System::AsyncCallback* _cordl_fixed_empty_name_whitespace,
       ::System::Object* _cordl_fixed_empty_name_whitespace_param_5);
 
-  /// @brief Method EndInvoke, addr 0x6c472d0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6c83f4c, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method Invoke, addr 0x6c47194, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6c83e10, size 0x14, virtual true, abstract: false, final false
   inline void
   Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> materialIDs,
          /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const> packedMaterialDatas,
@@ -345,7 +345,7 @@ public:
   static inline ::UnityEngine::Rendering::GPUResidentDrawerBurst_GetMaterialsWithChangedPackedMaterial_000000EC$PostfixBurstDelegate*
   New_ctor(::System::Object* _cordl_fixed_empty_name_whitespace, ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1);
 
-  /// @brief Method .ctor, addr 0x6c47114, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c83d90, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* _cordl_fixed_empty_name_whitespace, ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1);
 
 protected:
@@ -364,7 +364,7 @@ public:
       delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18134 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18167 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -382,14 +382,14 @@ public:
   /// @brief Field Pointer, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Pointer, put = setStaticF_Pointer)) ::System::IntPtr Pointer;
 
-  /// @brief Method GetFunctionPointer, addr 0x6c473e8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetFunctionPointer, addr 0x6c84064, size 0x18, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFunctionPointer();
 
   /// [BurstDiscard]
-  /// @brief Method GetFunctionPointerDiscard, addr 0x6c472dc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetFunctionPointerDiscard, addr 0x6c83f58, size 0x10c, virtual false, abstract: false, final false
   static inline void GetFunctionPointerDiscard(::by_ref<::System::IntPtr> _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method Invoke, addr 0x6c46260, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6c82edc, size 0x17c, virtual false, abstract: false, final false
   static inline void
   Invoke(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> materialIDs,
          /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const> packedMaterialDatas,
@@ -415,7 +415,7 @@ public:
   GPUResidentDrawerBurst_GetMaterialsWithChangedPackedMaterial_000000EC$BurstDirectCall(GPUResidentDrawerBurst_GetMaterialsWithChangedPackedMaterial_000000EC$BurstDirectCall const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18135 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18168 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -445,7 +445,7 @@ public:
 
   /// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
   /// [MonoPInvokeCallback(typeof(UnityEngine.Rendering.UnityEngine.Rendering.GPUResidentDrawerBurst::ClassifyMaterials_000000EA$PostfixBurstDelegate))]
-  /// @brief Method ClassifyMaterials, addr 0x6c45b54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ClassifyMaterials, addr 0x6c827d0, size 0x4, virtual false, abstract: false, final false
   static inline void
   ClassifyMaterials(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> materialIDs,
                     /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const> batchMaterialHash,
@@ -454,7 +454,7 @@ public:
                     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>> supportedPackedMaterialDatas);
 
   /// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
-  /// @brief Method ClassifyMaterials$BurstManaged, addr 0x6c463dc, size 0x480, virtual false, abstract: false, final false
+  /// @brief Method ClassifyMaterials$BurstManaged, addr 0x6c83058, size 0x480, virtual false, abstract: false, final false
   static inline void ClassifyMaterials$BurstManaged(
       /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> materialIDs,
       /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeParallelHashMap_2_ReadOnly<::UnityEngine::EntityId, ::UnityEngine::Rendering::BatchMaterialID> const> batchMaterialHash,
@@ -463,14 +463,14 @@ public:
 
   /// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
   /// [MonoPInvokeCallback(typeof(UnityEngine.Rendering.UnityEngine.Rendering.GPUResidentDrawerBurst::FindUnsupportedRenderers_000000EB$PostfixBurstDelegate))]
-  /// @brief Method FindUnsupportedRenderers, addr 0x6c45b58, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FindUnsupportedRenderers, addr 0x6c827d4, size 0x4, virtual false, abstract: false, final false
   static inline void FindUnsupportedRenderers(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> unsupportedMaterials,
                                               /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray> const> materialIDArrays,
                                               /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::EntityId> const> rendererGroups,
                                               ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::EntityId>> unsupportedRenderers);
 
   /// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
-  /// @brief Method FindUnsupportedRenderers$BurstManaged, addr 0x6c4685c, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method FindUnsupportedRenderers$BurstManaged, addr 0x6c834d8, size 0x1cc, virtual false, abstract: false, final false
   static inline void
   FindUnsupportedRenderers$BurstManaged(/* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> unsupportedMaterials,
                                         /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::Rendering::SmallEntityIdArray> const> materialIDArrays,
@@ -479,7 +479,7 @@ public:
 
   /// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
   /// [MonoPInvokeCallback(typeof(UnityEngine.Rendering.UnityEngine.Rendering.GPUResidentDrawerBurst::GetMaterialsWithChangedPackedMaterial_000000EC$PostfixBurstDelegate))]
-  /// @brief Method GetMaterialsWithChangedPackedMaterial, addr 0x6c45b5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetMaterialsWithChangedPackedMaterial, addr 0x6c827d8, size 0x4, virtual false, abstract: false, final false
   static inline void GetMaterialsWithChangedPackedMaterial(
       /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> materialIDs,
       /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const> packedMaterialDatas,
@@ -487,7 +487,7 @@ public:
       ::by_ref<::Unity::Collections::NativeHashSet_1<::UnityEngine::EntityId>> filteredMaterials);
 
   /// [BurstCompile(DisableSafetyChecks = true, OptimizeFor = (Unity.Burst.OptimizeFor)1)]
-  /// @brief Method GetMaterialsWithChangedPackedMaterial$BurstManaged, addr 0x6c46a28, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetMaterialsWithChangedPackedMaterial$BurstManaged, addr 0x6c836a4, size 0xf4, virtual false, abstract: false, final false
   static inline void GetMaterialsWithChangedPackedMaterial$BurstManaged(
       /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> const> materialIDs,
       /* [IsReadOnly] */ ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> const> packedMaterialDatas,
@@ -509,7 +509,7 @@ public:
   GPUResidentDrawerBurst(GPUResidentDrawerBurst const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18136 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18169 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -84,7 +84,7 @@ public:
   static ::UnityEngine::Rendering::Universal::ScriptableRendererFeature_IntermediateTextureUsage const Unknown;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12969 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12976 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -127,32 +127,32 @@ public:
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Create();
 
-  /// @brief Method Dispose, addr 0x6ca72a0, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6ce3f1c, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6ca7310, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6ce3f8c, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::Rendering::Universal::ScriptableRendererFeature* New_ctor();
 
-  /// @brief Method OnCameraPreCull, addr 0x6ca7134, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnCameraPreCull, addr 0x6ce3db0, size 0x4, virtual true, abstract: false, final false
   inline void OnCameraPreCull(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData const> cameraData);
 
-  /// @brief Method OnEnable, addr 0x6ca7138, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6ce3db4, size 0xa8, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x6ca71e0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x6ce3e5c, size 0xa8, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method RequireRenderingLayers, addr 0x6ca7288, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method RequireRenderingLayers, addr 0x6ce3f04, size 0x10, virtual true, abstract: false, final false
   inline bool RequireRenderingLayers(bool isDeferred, bool needsGBufferAccurateNormals, ::by_ref<::UnityEngine::Rendering::Universal::RenderingLayerUtils_Event> atEvent,
                                      ::by_ref<::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize> maskSize);
 
-  /// @brief Method SetActive, addr 0x6ca7298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetActive, addr 0x6ce3f14, size 0x8, virtual false, abstract: false, final false
   inline void SetActive(bool active);
 
   /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
-  /// @brief Method SetupRenderPasses, addr 0x6ca7120, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetupRenderPasses, addr 0x6ce3d9c, size 0x4, virtual true, abstract: false, final false
   inline void SetupRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::RenderingData const> renderingData);
 
   constexpr bool const& __cordl_internal_get_m_Active() const;
@@ -161,13 +161,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Active(bool value);
 
-  /// @brief Method .ctor, addr 0x6ca70a4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ce3d20, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isActive, addr 0x6ca7124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isActive, addr 0x6ce3da0, size 0x8, virtual false, abstract: false, final false
   inline bool get_isActive();
 
-  /// @brief Method get_useIntermediateTextures, addr 0x6ca712c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_useIntermediateTextures, addr 0x6ce3da8, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::ScriptableRendererFeature_IntermediateTextureUsage get_useIntermediateTextures();
 
   /// @brief Convert to "::System::IDisposable"
@@ -188,7 +188,7 @@ public:
   ScriptableRendererFeature(ScriptableRendererFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12970 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12977 };
 
   /// [SerializeField]
   /// [HideInInspector]

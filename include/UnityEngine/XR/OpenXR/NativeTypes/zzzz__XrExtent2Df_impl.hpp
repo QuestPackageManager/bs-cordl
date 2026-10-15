@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::NativeTypes::XrExtent2Df::*)(float_t, float_t)>(&::UnityEngine::XR::OpenXR::NativeTypes::XrExtent2Df::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3d9a0;
+  constexpr static std::size_t addrs = 0x6e7a63c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::NativeTypes::XrExtent2Df::*)(::UnityEngine::XR::OpenXR::NativeTypes::XrExtent2Df)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrExtent2Df::Equals)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6e3d9a8;
+  constexpr static std::size_t addrs = 0x6e7a644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrExtent2Df>(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::NativeTypes::XrExtent2Df::*)(::System::Object*)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrExtent2Df::Equals)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6e3da2c;
+  constexpr static std::size_t addrs = 0x6e7a6c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::XR::OpenXR::NativeTypes::XrExtent2Df::*)()>(&::UnityEngine::XR::OpenXR::NativeTypes::XrExtent2Df::GetHashCode)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6e3db14;
+  constexpr static std::size_t addrs = 0x6e7a7b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

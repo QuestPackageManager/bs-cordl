@@ -150,7 +150,7 @@ public:
   GeneratorInstance_IProcessor(GeneratorInstance_IProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20344 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20391 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -183,7 +183,7 @@ public:
   GeneratorInstance_ICapabilities(GeneratorInstance_ICapabilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20345 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20392 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -197,10 +197,10 @@ namespace UnityEngine::Audio {
 struct CORDL_TYPE GeneratorInstance_Setup {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6eab73c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ee83d8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::AudioFormat const> fromFormat);
 
-  /// @brief Method .ctor, addr 0x6eab734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ee83d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AudioSpeakerMode speakerMode, int32_t sampleRate);
 
   // Ctor Parameters []
@@ -212,7 +212,7 @@ public:
   constexpr GeneratorInstance_Setup(::UnityEngine::AudioSpeakerMode speakerMode, int32_t sampleRate) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20346 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20393 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -248,7 +248,7 @@ public:
   constexpr GeneratorInstance_Properties(uint8_t m_Reserved) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20347 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20394 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -281,19 +281,19 @@ public:
 
   __declspec(property(get = get_setup)) ::UnityEngine::Audio::GeneratorInstance_Setup setup;
 
-  /// @brief Method get_isFinite, addr 0x6eab75c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isFinite, addr 0x6ee83f8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isFinite();
 
-  /// @brief Method get_isRealtime, addr 0x6eab764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isRealtime, addr 0x6ee8400, size 0x8, virtual false, abstract: false, final false
   inline bool get_isRealtime();
 
-  /// @brief Method get_length, addr 0x6eab76c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x6ee8408, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::Unity::IntegerTime::DiscreteTime> get_length();
 
-  /// @brief Method get_properties, addr 0x6eab754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_properties, addr 0x6ee83f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Audio::GeneratorInstance_Properties get_properties();
 
-  /// @brief Method get_setup, addr 0x6eab74c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_setup, addr 0x6ee83e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Audio::GeneratorInstance_Setup get_setup();
 
   // Ctor Parameters []
@@ -308,7 +308,7 @@ public:
                                             ::Unity::IntegerTime::DiscreteTime ReportedLength, bool IsFinite, bool IsRealtime, bool HasKnownLength) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20348 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20395 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -360,10 +360,10 @@ public:
   // Declarations
   __declspec(property(get = get_processedFrames)) int32_t processedFrames;
 
-  /// @brief Method get_processedFrames, addr 0x6eab7c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_processedFrames, addr 0x6ee8464, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_processedFrames();
 
-  /// @brief Method op_Implicit, addr 0x6eab7d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6ee846c, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Audio::GeneratorInstance_Result op_Implicit___UnityEngine__Audio__GeneratorInstance_Result(int32_t processedFrames);
 
   // Ctor Parameters []
@@ -374,7 +374,7 @@ public:
   constexpr GeneratorInstance_Result(int32_t m_ProcessedFrames) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20349 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20396 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -407,7 +407,7 @@ public:
   constexpr GeneratorInstance_Arguments(float_t Speed) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20350 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20397 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -448,7 +448,7 @@ public:
   GeneratorInstance_IControl_1(GeneratorInstance_IControl_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20351 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20398 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -483,7 +483,7 @@ public:
   GeneratorInstance_IRealtime(GeneratorInstance_IRealtime const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20352 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20399 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -507,7 +507,7 @@ public:
   constexpr GeneratorInstance_GeneratorHeader(::UnityEngine::Audio::ProcessorHeader Processor, ::UnityEngine::Audio::GeneratorInstance_Configuration Configuration) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20353 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20400 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -559,41 +559,41 @@ public:
   constexpr operator ::System::IEquatable_1<::UnityEngine::Audio::GeneratorInstance>*();
 
   /// [Obsolete("GeneratorInstance.Configure has been deprecated. Use ControlContext.Configure instead.", true)]
-  /// @brief Method Configure, addr 0x6eab500, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Configure, addr 0x6ee819c, size 0x38, virtual false, abstract: false, final false
   inline void Configure(::UnityEngine::Audio::ControlContext context, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::AudioFormat const> format);
 
-  /// @brief Method Equals, addr 0x6eab614, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6ee82b0, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6eab5bc, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6ee8258, size 0x2c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Audio::GeneratorInstance other);
 
-  /// @brief Method GetHashCode, addr 0x6eab6f8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6ee8394, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// [Obsolete("GeneratorInstance.Process has been deprecated. Use RealtimeContext.Process instead.", true)]
-  /// @brief Method Process, addr 0x6eab570, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x6ee820c, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Audio::GeneratorInstance_Result Process(::UnityEngine::Audio::RealtimeContext context, ::UnityEngine::Audio::ChannelBuffer buffer,
                                                                 ::UnityEngine::Audio::GeneratorInstance_Arguments args);
 
   /// [Obsolete("GeneratorInstance.Update has been deprecated. Use ControlContext.Update instead.", true)]
-  /// @brief Method Update, addr 0x6eab538, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6ee81d4, size 0x38, virtual false, abstract: false, final false
   inline void Update(::UnityEngine::Audio::ControlContext context);
 
-  /// @brief Method .ctor, addr 0x6e9f058, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6edbcf4, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Audio::GeneratorInstance_GeneratorHeader* header);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Audio::GeneratorInstance>"
   constexpr ::System::IEquatable_1<::UnityEngine::Audio::GeneratorInstance>* i___System__IEquatable_1___UnityEngine__Audio__GeneratorInstance_();
 
-  /// @brief Method op_Equality, addr 0x6eab6a0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6ee833c, size 0x2c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Audio::GeneratorInstance a, ::UnityEngine::Audio::GeneratorInstance b);
 
-  /// @brief Method op_Implicit, addr 0x6eab5a8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6ee8244, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Audio::ProcessorInstance
   op_Implicit___UnityEngine__Audio__ProcessorInstance(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::GeneratorInstance const> generatorInstance);
 
-  /// @brief Method op_Inequality, addr 0x6eab6cc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6ee8368, size 0x2c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Audio::GeneratorInstance a, ::UnityEngine::Audio::GeneratorInstance b);
 
   // Ctor Parameters []
@@ -604,7 +604,7 @@ public:
   constexpr GeneratorInstance(::UnityEngine::Audio::ProcessorInstance m_ProcessorInstance) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20354 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20401 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

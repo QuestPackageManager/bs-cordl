@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::OccluderContext::*)()>(&::UnityEngine::Rendering::OccluderContext::get_subviewCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c64de4;
+  constexpr static std::size_t addrs = 0x6ca1a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OccluderContext>(), { "get_subviewCount", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::OccluderContext::*)(int32_t)>(&::UnityEngine::Rendering::OccluderContext::IsSubviewValid)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6c64dec;
+  constexpr static std::size_t addrs = 0x6ca1a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Rendering::OccluderContext::*)()>(
     &::UnityEngine::Rendering::OccluderContext::get_depthBufferSizeInOccluderPixels)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c64e10;
+  constexpr static std::size_t addrs = 0x6ca1a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::OccluderContext::*)()>(&::UnityEngine::Rendering::OccluderContext::Dispose)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x6c64e28;
+  constexpr static std::size_t addrs = 0x6ca1aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OccluderContext>(), { "Dispose", {}, {} })));
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::OccluderContext::*)()>(&::UnityEngine::Rendering::OccluderContext::UpdateMipBounds)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x6c64f50;
+  constexpr static std::size_t addrs = 0x6ca1bcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OccluderContext>(), { "UpdateMipBounds", {}, {} })));
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::OccluderContext::*)(bool)>(&::UnityEngine::Rendering::OccluderContext::AllocateTexturesIfNecessary)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x6c6511c;
+  constexpr static std::size_t addrs = 0x6ca1d98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::ComputeCommandBuffer*, ::UnityEngine::ComputeShader*, ::by_ref<::UnityEngine::Rendering::LocalKeyword const>,
                                                                 bool)>(&::UnityEngine::Rendering::OccluderContext::SetKeyword)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6c6536c;
+  constexpr static std::size_t addrs = 0x6ca1fe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate>, ::Unity::Collections::NativeArray_1<::UnityEngine::Plane>)>(
     &::UnityEngine::Rendering::OccluderContext::SetupFarDepthPyramidConstants)> {
   constexpr static std::size_t size = 0x524;
-  constexpr static std::size_t addrs = 0x6c65398;
+  constexpr static std::size_t addrs = 0x6ca2014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::by_ref<::UnityEngine::Rendering::OccluderHandles const>, ::Unity::Collections::NativeArray_1<::UnityEngine::Plane>, ::UnityEngine::ComputeShader*, int32_t)>(
     &::UnityEngine::Rendering::OccluderContext::CreateFarDepthPyramid)> {
   constexpr static std::size_t size = 0x4f8;
-  constexpr static std::size_t addrs = 0x6c658bc;
+  constexpr static std::size_t addrs = 0x6ca2538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::OccluderHandles (::UnityEngine::Rendering::OccluderContext::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*)>(&::UnityEngine::Rendering::OccluderContext::Import)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6c65db4;
+  constexpr static std::size_t addrs = 0x6ca2a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OccluderContext>(),
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::OccluderContext::*)(::by_ref<::UnityEngine::Rendering::OccluderParameters const>)>(
     &::UnityEngine::Rendering::OccluderContext::PrepareOccluders)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6c65e5c;
+  constexpr static std::size_t addrs = 0x6ca2ad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::OcclusionCullingDebugOutput (::UnityEngine::Rendering::OccluderContext::*)()>(
     &::UnityEngine::Rendering::OccluderContext::GetDebugOutput)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6c65f68;
+  constexpr static std::size_t addrs = 0x6ca2be4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OccluderContext>(), { "GetDebugOutput", {}, {} })));

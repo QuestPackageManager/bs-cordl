@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::UnityEngine::Audio::RealtimeContext::*)()>(&::UnityEngine::Audio::RealtimeContext::get_dspTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6eabc70;
+  constexpr static std::size_t addrs = 0x6ee890c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::RealtimeContext>(), { "get_dspTime", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Audio::RealtimeContext::*)()>(&::UnityEngine::Audio::RealtimeContext::get_isCreated)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6eabc78;
+  constexpr static std::size_t addrs = 0x6ee8914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::RealtimeContext>(), { "get_isCreated", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Audio::ProcessorInstance_AvailableData (::UnityEngine::Audio::RealtimeContext::*)(::Unity::Audio::Handle)>(
     &::UnityEngine::Audio::RealtimeContext::UnityEngine_Audio_ProcessorInstance_IContext_GetAvailableData)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eabc98;
+  constexpr static std::size_t addrs = 0x6ee8934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Audio::RealtimeContext::*)(::Unity::Audio::Handle, void*, int32_t, int32_t, int64_t)>(
     &::UnityEngine::Audio::RealtimeContext::UnityEngine_Audio_ProcessorInstance_IContext_SendData)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6eabd30;
+  constexpr static std::size_t addrs = 0x6ee89cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Audio::GeneratorInstance_Result (::UnityEngine::Audio::RealtimeContext::*)(
     ::UnityEngine::Audio::GeneratorInstance, ::UnityEngine::Audio::ChannelBuffer, ::UnityEngine::Audio::GeneratorInstance_Arguments)>(&::UnityEngine::Audio::RealtimeContext::Process)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6eabdb4;
+  constexpr static std::size_t addrs = 0x6ee8a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

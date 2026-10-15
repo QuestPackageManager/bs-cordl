@@ -118,19 +118,19 @@ public:
 
   static inline ::UnityEngine::Rendering::VolumeManager___c* New_ctor();
 
-  /// @brief Method <BuildVolumeComponentDisplayList>b__18_0, addr 0x6ba23a0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <BuildVolumeComponentDisplayList>b__18_0, addr 0x6bdf01c, size 0x10, virtual false, abstract: false, final false
   inline int32_t _BuildVolumeComponentDisplayList_b__18_0(::System::ValueTuple_2<::StringW, ::System::Type*> a, ::System::ValueTuple_2<::StringW, ::System::Type*> b);
 
-  /// @brief Method <GetVolumes>b__75_0, addr 0x6ba2410, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <GetVolumes>b__75_0, addr 0x6bdf08c, size 0x60, virtual false, abstract: false, final false
   inline bool _GetVolumes_b__75_0(::UnityEngine::Rendering::Volume* v);
 
-  /// @brief Method <SetCustomDefaultProfiles>b__52_0, addr 0x6ba23b0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <SetCustomDefaultProfiles>b__52_0, addr 0x6bdf02c, size 0x60, virtual false, abstract: false, final false
   inline bool _SetCustomDefaultProfiles_b__52_0(::UnityEngine::Rendering::VolumeProfile* x);
 
-  /// @brief Method <.cctor>b__78_0, addr 0x6ba2470, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__78_0, addr 0x6bdf0ec, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::VolumeManager* __cctor_b__78_0();
 
-  /// @brief Method .ctor, addr 0x6ba239c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bdf018, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::VolumeManager___c* getStaticF___9();
@@ -164,7 +164,7 @@ public:
   VolumeManager___c(VolumeManager___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8933 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8940 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -189,7 +189,7 @@ public:
   constexpr VolumeManager___c__DisplayClass62_0(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>* componentsDefaultStateList) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8934 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8941 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -218,7 +218,7 @@ public:
 
   static inline ::UnityEngine::Rendering::VolumeManager___c__DisplayClass62_1* New_ctor();
 
-  /// @brief Method <EvaluateVolumeDefaultState>b__1, addr 0x6ba24c4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <EvaluateVolumeDefaultState>b__1, addr 0x6bdf140, size 0x68, virtual false, abstract: false, final false
   inline bool _EvaluateVolumeDefaultState_b__1(::UnityEngine::Rendering::VolumeComponent* x);
 
   constexpr ::UnityW<::UnityEngine::Rendering::VolumeComponent> const& __cordl_internal_get_profileComponent() const;
@@ -227,7 +227,7 @@ public:
 
   constexpr void __cordl_internal_set_profileComponent(::UnityW<::UnityEngine::Rendering::VolumeComponent> value);
 
-  /// @brief Method .ctor, addr 0x6ba2344, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bdefc0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -245,7 +245,7 @@ public:
   VolumeManager___c__DisplayClass62_1(VolumeManager___c__DisplayClass62_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8935 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8942 };
 
   /// @brief Field profileComponent, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Rendering::VolumeComponent> ___profileComponent;
@@ -353,57 +353,57 @@ public:
 
   __declspec(property(get = get_stack, put = set_stack)) ::UnityEngine::Rendering::VolumeStack* stack;
 
-  /// @brief Method BuildVolumeComponentDisplayList, addr 0x6b9f2b8, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method BuildVolumeComponentDisplayList, addr 0x6bdbf34, size 0x3a0, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, ::System::Type*>>* BuildVolumeComponentDisplayList(::ArrayW<::System::Type*> types);
 
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method CheckDefaultVolumeState, addr 0x6ba16fc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CheckDefaultVolumeState, addr 0x6bde378, size 0x94, virtual false, abstract: false, final false
   inline void CheckDefaultVolumeState();
 
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method CheckStack, addr 0x6ba1790, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method CheckStack, addr 0x6bde40c, size 0x1e4, virtual false, abstract: false, final false
   inline void CheckStack(::UnityEngine::Rendering::VolumeStack* stack);
 
-  /// @brief Method CheckUpdateRequired, addr 0x6ba1974, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CheckUpdateRequired, addr 0x6bde5f0, size 0x54, virtual false, abstract: false, final false
   inline bool CheckUpdateRequired(::UnityEngine::Rendering::VolumeStack* stack);
 
-  /// @brief Method CreateStack, addr 0x6ba0d14, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CreateStack, addr 0x6bdd990, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::VolumeStack* CreateStack();
 
-  /// @brief Method CreateStackInternal, addr 0x6ba042c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method CreateStackInternal, addr 0x6bdd0a8, size 0xe4, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::VolumeStack* CreateStackInternal();
 
-  /// @brief Method Deinitialize, addr 0x6ba0510, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Deinitialize, addr 0x6bdd18c, size 0x16c, virtual false, abstract: false, final false
   inline void Deinitialize();
 
-  /// @brief Method DestroyStack, addr 0x6ba067c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method DestroyStack, addr 0x6bdd2f8, size 0x78, virtual false, abstract: false, final false
   inline void DestroyStack(::UnityEngine::Rendering::VolumeStack* stack);
 
-  /// @brief Method EvaluateVolumeDefaultState, addr 0x6b9fac0, size 0x96c, virtual false, abstract: false, final false
+  /// @brief Method EvaluateVolumeDefaultState, addr 0x6bdc73c, size 0x96c, virtual false, abstract: false, final false
   inline void EvaluateVolumeDefaultState();
 
-  /// @brief Method GetVolumeComponentDefaultState, addr 0x6b9f690, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetVolumeComponentDefaultState, addr 0x6bdc30c, size 0x110, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::VolumeComponent> GetVolumeComponentDefaultState(::System::Type* volumeComponentType);
 
-  /// @brief Method GetVolumeComponentsForDisplay, addr 0x6b9ee10, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method GetVolumeComponentsForDisplay, addr 0x6bdba8c, size 0x238, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, ::System::Type*>>* GetVolumeComponentsForDisplay(::System::Type* currentPipelineAssetType);
 
-  /// @brief Method GetVolumes, addr 0x6ba1f18, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetVolumes, addr 0x6bdeb94, size 0x148, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Rendering::Volume>> GetVolumes(::UnityEngine::LayerMask layerMask);
 
-  /// @brief Method GrabVolumes, addr 0x6ba1efc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GrabVolumes, addr 0x6bdeb78, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::Volume>>* GrabVolumes(::UnityEngine::LayerMask mask);
 
-  /// @brief Method Initialize, addr 0x6b9f854, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6bdc4d0, size 0x154, virtual false, abstract: false, final false
   inline void Initialize(::UnityEngine::Rendering::VolumeProfile* globalDefaultVolumeProfile, ::UnityEngine::Rendering::VolumeProfile* qualityDefaultVolumeProfile);
 
-  /// @brief Method InitializeBaseTypesArray, addr 0x6b9f048, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method InitializeBaseTypesArray, addr 0x6bdbcc4, size 0x270, virtual false, abstract: false, final false
   inline void InitializeBaseTypesArray(::UnityEngine::Rendering::VolumeProfile* globalDefaultVolumeProfile);
 
-  /// @brief Method InitializeInternal, addr 0x6b9f9a8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method InitializeInternal, addr 0x6bdc624, size 0x48, virtual false, abstract: false, final false
   inline void InitializeInternal(::UnityEngine::Rendering::VolumeProfile* globalDefaultVolumeProfile, ::UnityEngine::Rendering::VolumeProfile* qualityDefaultVolumeProfile);
 
-  /// @brief Method InitializeVolumeComponents, addr 0x6b9f9f4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method InitializeVolumeComponents, addr 0x6bdc670, size 0xcc, virtual false, abstract: false, final false
   inline void InitializeVolumeComponents();
 
   /// @brief Method IsComponentActiveInMask, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -411,69 +411,69 @@ public:
     requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::VolumeComponent*>)
   inline bool IsComponentActiveInMask(::UnityEngine::LayerMask layerMask);
 
-  /// @brief Method IsVolumeRenderedByCamera, addr 0x6ba2060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsVolumeRenderedByCamera, addr 0x6bdecdc, size 0x8, virtual false, abstract: false, final false
   static inline bool IsVolumeRenderedByCamera(::UnityEngine::Rendering::Volume* volume, ::UnityEngine::Camera* camera);
 
-  /// @brief Method LoadBaseTypes, addr 0x6b9f9f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LoadBaseTypes, addr 0x6bdc66c, size 0x4, virtual false, abstract: false, final false
   inline void LoadBaseTypes(::System::Type* pipelineAssetType, ::UnityEngine::Rendering::VolumeProfile* globalDefaultVolumeProfile);
 
-  /// @brief Method LoadBaseTypesByDefaultVolume, addr 0x6ba0d78, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method LoadBaseTypesByDefaultVolume, addr 0x6bdd9f4, size 0x3e4, virtual false, abstract: false, final false
   inline void LoadBaseTypesByDefaultVolume(::System::Type* rpType, ::UnityEngine::Rendering::VolumeProfile* globalDefaultVolumeProfile);
 
   static inline ::UnityEngine::Rendering::VolumeManager* New_ctor();
 
-  /// @brief Method OnVolumeComponentChanged, addr 0x6ba0a90, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method OnVolumeComponentChanged, addr 0x6bdd70c, size 0x284, virtual false, abstract: false, final false
   inline void OnVolumeComponentChanged(::UnityEngine::Rendering::VolumeComponent* component);
 
-  /// @brief Method OnVolumeProfileChanged, addr 0x6ba09a4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method OnVolumeProfileChanged, addr 0x6bdd620, size 0xec, virtual false, abstract: false, final false
   inline void OnVolumeProfileChanged(::UnityEngine::Rendering::VolumeProfile* profile);
 
-  /// @brief Method OverrideData, addr 0x6ba1384, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method OverrideData, addr 0x6bde000, size 0x158, virtual false, abstract: false, final false
   inline void OverrideData(::UnityEngine::Rendering::VolumeStack* stack, ::UnityEngine::Rendering::Volume* volume, float_t interpFactor);
 
-  /// @brief Method Register, addr 0x6b9ea04, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x6bdb680, size 0x50, virtual false, abstract: false, final false
   inline void Register(::UnityEngine::Rendering::Volume* volume);
 
   /// [Obsolete("Please use the Register without a given layer index. #from(6000.0)")]
-  /// @brief Method Register, addr 0x6b9e7b0, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x6bdb42c, size 0x254, virtual false, abstract: false, final false
   inline void Register(::UnityEngine::Rendering::Volume* volume, int32_t layer);
 
-  /// @brief Method ReplaceData, addr 0x6ba14dc, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method ReplaceData, addr 0x6bde158, size 0x220, virtual false, abstract: false, final false
   inline void ReplaceData(::UnityEngine::Rendering::VolumeStack* stack);
 
-  /// @brief Method ResetMainStack, addr 0x6ba0d6c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ResetMainStack, addr 0x6bdd9e8, size 0xc, virtual false, abstract: false, final false
   inline void ResetMainStack();
 
-  /// @brief Method SetCustomDefaultProfiles, addr 0x6ba077c, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method SetCustomDefaultProfiles, addr 0x6bdd3f8, size 0x228, virtual false, abstract: false, final false
   inline void SetCustomDefaultProfiles(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::VolumeProfile>>* profiles);
 
-  /// @brief Method SetGlobalDefaultProfile, addr 0x6ba06f4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalDefaultProfile, addr 0x6bdd370, size 0x80, virtual false, abstract: false, final false
   inline void SetGlobalDefaultProfile(::UnityEngine::Rendering::VolumeProfile* profile);
 
-  /// @brief Method SetLayerDirty, addr 0x6ba1354, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetLayerDirty, addr 0x6bddfd0, size 0x18, virtual false, abstract: false, final false
   inline void SetLayerDirty(int32_t layer);
 
-  /// @brief Method SetQualityDefaultProfile, addr 0x6ba0774, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetQualityDefaultProfile, addr 0x6bdd3f0, size 0x8, virtual false, abstract: false, final false
   inline void SetQualityDefaultProfile(::UnityEngine::Rendering::VolumeProfile* profile);
 
-  /// @brief Method Unregister, addr 0x6b9eca8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Unregister, addr 0x6bdb924, size 0x50, virtual false, abstract: false, final false
   inline void Unregister(::UnityEngine::Rendering::Volume* volume);
 
   /// [Obsolete("Please use the Register without a given layer index. #from(6000.0)")]
-  /// @brief Method Unregister, addr 0x6b9ea54, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method Unregister, addr 0x6bdb6d0, size 0x254, virtual false, abstract: false, final false
   inline void Unregister(::UnityEngine::Rendering::Volume* volume, int32_t layer);
 
-  /// @brief Method Update, addr 0x6ba19dc, size 0x520, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6bde658, size 0x520, virtual false, abstract: false, final false
   inline void Update(::UnityEngine::Rendering::VolumeStack* stack, ::UnityEngine::Transform* trigger, ::UnityEngine::LayerMask layerMask);
 
-  /// @brief Method Update, addr 0x6ba19c8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6bde644, size 0x14, virtual false, abstract: false, final false
   inline void Update(::UnityEngine::Transform* trigger, ::UnityEngine::LayerMask layerMask);
 
-  /// @brief Method UpdateVolumeLayer, addr 0x6ba136c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method UpdateVolumeLayer, addr 0x6bddfe8, size 0x18, virtual false, abstract: false, final false
   inline void UpdateVolumeLayer(::UnityEngine::Rendering::Volume* volume, int32_t prevLayer, int32_t newLayer);
 
   /// [CompilerGenerated]
-  /// @brief Method <EvaluateVolumeDefaultState>g__ApplyDefaultProfile|62_0, addr 0x6ba115c, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method <EvaluateVolumeDefaultState>g__ApplyDefaultProfile|62_0, addr 0x6bdddd8, size 0x1f8, virtual false, abstract: false, final false
   static inline void _EvaluateVolumeDefaultState_g__ApplyDefaultProfile_62_0(::UnityEngine::Rendering::VolumeProfile* profile,
                                                                              ::by_ref<::UnityEngine::Rendering::VolumeManager___c__DisplayClass62_0> _cordl_fixed_empty_name_whitespace);
 
@@ -543,7 +543,7 @@ public:
 
   constexpr void __cordl_internal_set_m_VolumeCollection(::UnityEngine::Rendering::VolumeCollection* value);
 
-  /// @brief Method .ctor, addr 0x6b9f7a0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bdc41c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_k_ProfilerMarkerEvaluateVolumeDefaultState();
@@ -561,33 +561,33 @@ public:
   static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, ::System::Type*>>*>*
   getStaticF_s_SupportedVolumeComponentsForRenderPipeline();
 
-  /// @brief Method get_baseComponentTypeArray, addr 0x6b9edb4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_baseComponentTypeArray, addr 0x6bdba30, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*> get_baseComponentTypeArray();
 
-  /// @brief Method get_baseComponentTypes, addr 0x6b9edb0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_baseComponentTypes, addr 0x6bdba2c, size 0x4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* get_baseComponentTypes();
 
   /// [CompilerGenerated]
-  /// @brief Method get_customDefaultProfiles, addr 0x6b9f680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_customDefaultProfiles, addr 0x6bdc2fc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityW<::UnityEngine::Rendering::VolumeProfile>>* get_customDefaultProfiles();
 
   /// [CompilerGenerated]
-  /// @brief Method get_globalDefaultProfile, addr 0x6b9f660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_globalDefaultProfile, addr 0x6bdc2dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::VolumeProfile> get_globalDefaultProfile();
 
-  /// @brief Method get_instance, addr 0x6b9ecf8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x6bdb974, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::VolumeManager* get_instance();
 
   /// [CompilerGenerated]
-  /// @brief Method get_isInitialized, addr 0x6b9f844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isInitialized, addr 0x6bdc4c0, size 0x8, virtual false, abstract: false, final false
   inline bool get_isInitialized();
 
   /// [CompilerGenerated]
-  /// @brief Method get_qualityDefaultProfile, addr 0x6b9f670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_qualityDefaultProfile, addr 0x6bdc2ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::VolumeProfile> get_qualityDefaultProfile();
 
   /// [CompilerGenerated]
-  /// @brief Method get_stack, addr 0x6b9eda0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stack, addr 0x6bdba1c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::VolumeStack* get_stack();
 
   static inline void setStaticF_k_ProfilerMarkerEvaluateVolumeDefaultState(::Unity::Profiling::ProfilerMarker value);
@@ -605,27 +605,27 @@ public:
   static inline void setStaticF_s_SupportedVolumeComponentsForRenderPipeline(
       ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, ::System::Type*>>*>* value);
 
-  /// @brief Method set_baseComponentTypeArray, addr 0x6b9f658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_baseComponentTypeArray, addr 0x6bdc2d4, size 0x8, virtual false, abstract: false, final false
   inline void set_baseComponentTypeArray(::ArrayW<::System::Type*> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_customDefaultProfiles, addr 0x6b9f688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_customDefaultProfiles, addr 0x6bdc304, size 0x8, virtual false, abstract: false, final false
   inline void set_customDefaultProfiles(::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityW<::UnityEngine::Rendering::VolumeProfile>>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_globalDefaultProfile, addr 0x6b9f668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_globalDefaultProfile, addr 0x6bdc2e4, size 0x8, virtual false, abstract: false, final false
   inline void set_globalDefaultProfile(::UnityEngine::Rendering::VolumeProfile* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_isInitialized, addr 0x6b9f84c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isInitialized, addr 0x6bdc4c8, size 0x8, virtual false, abstract: false, final false
   inline void set_isInitialized(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_qualityDefaultProfile, addr 0x6b9f678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_qualityDefaultProfile, addr 0x6bdc2f4, size 0x8, virtual false, abstract: false, final false
   inline void set_qualityDefaultProfile(::UnityEngine::Rendering::VolumeProfile* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_stack, addr 0x6b9eda8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_stack, addr 0x6bdba24, size 0x8, virtual false, abstract: false, final false
   inline void set_stack(::UnityEngine::Rendering::VolumeStack* value);
 
 protected:
@@ -643,7 +643,7 @@ public:
   VolumeManager(VolumeManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8936 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8943 };
 
   /// [CompilerGenerated]
   /// @brief Field <stack>k__BackingField, offset: 0x10, size: 0x8, def value: None

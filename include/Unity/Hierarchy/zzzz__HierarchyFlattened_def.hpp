@@ -58,7 +58,7 @@ namespace Unity::Hierarchy {
 class CORDL_TYPE HierarchyFlattened_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToUnmanaged, addr 0x6f97f84, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToUnmanaged, addr 0x6fd4e60, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToUnmanaged(::Unity::Hierarchy::HierarchyFlattened* hierarchyFlattened);
 
 protected:
@@ -76,7 +76,7 @@ public:
   HierarchyFlattened_BindingsMarshaller(HierarchyFlattened_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22599 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22649 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -94,13 +94,13 @@ public:
   /// @brief [IsReadOnly]
   __declspec(property(get = get_Current)) ::Unity::Hierarchy::HierarchyFlattenedNode Current;
 
-  /// @brief Method MoveNext, addr 0x6f980a4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x6fd4f80, size 0x58, virtual false, abstract: false, final false
   inline bool MoveNext();
 
-  /// @brief Method .ctor, addr 0x6f97c68, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fd4b44, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Hierarchy::HierarchyFlattened* hierarchyFlattened);
 
-  /// @brief Method get_Current, addr 0x6f97f98, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x6fd4e74, size 0x10c, virtual false, abstract: false, final false
   inline ::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode> get_Current();
 
   // Ctor Parameters []
@@ -114,7 +114,7 @@ public:
                                           ::Unity::Hierarchy::ReadOnlyNativeVector_1<::Unity::Hierarchy::HierarchyFlattenedNode> m_FlattenedNodes, int32_t m_Version, int32_t m_Index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22600 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22650 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -189,51 +189,51 @@ public:
   constexpr operator ::System::IDisposable*() noexcept;
 
   /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
-  /// @brief Method Contains, addr 0x6f937a4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x6fd0680, size 0x58, virtual false, abstract: false, final false
   inline bool Contains(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
-  /// @brief Method Contains_Injected, addr 0x6f97b50, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Contains_Injected, addr 0x6fd4a2c, size 0x44, virtual false, abstract: false, final false
   static inline bool Contains_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// [FreeFunction("HierarchyFlattenedBindings::Create", IsThreadSafe = true)]
-  /// @brief Method Create, addr 0x6f9781c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6fd46f8, size 0x78, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create(::System::IntPtr handlePtr, ::Unity::Hierarchy::Hierarchy* hierarchy, ::by_ref<::System::IntPtr> nodesPtr, ::by_ref<int32_t> nodesCount,
                                         ::by_ref<int32_t> version);
 
   /// [RequiredByNativeCode]
-  /// @brief Method CreateHierarchyFlattened, addr 0x6f97d84, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method CreateHierarchyFlattened, addr 0x6fd4c60, size 0x130, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateHierarchyFlattened(::System::IntPtr nativePtr, ::System::IntPtr hierarchyPtr, ::System::IntPtr flattenedNodesPtr, int32_t flattenedNodesCount, int32_t version);
 
-  /// @brief Method Create_Injected, addr 0x6f97d18, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Create_Injected, addr 0x6fd4bf4, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create_Injected(::System::IntPtr handlePtr, ::System::IntPtr hierarchy, ::by_ref<::System::IntPtr> nodesPtr, ::by_ref<int32_t> nodesCount, ::by_ref<int32_t> version);
 
   /// [FreeFunction("HierarchyFlattenedBindings::Destroy", IsThreadSafe = true)]
-  /// @brief Method Destroy, addr 0x6f97a1c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x6fd48f8, size 0x3c, virtual false, abstract: false, final false
   static inline void Destroy(::System::IntPtr nativePtr);
 
-  /// @brief Method Dispose, addr 0x6f979b4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6fd4890, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6f9795c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6fd4838, size 0x58, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EnumerateChildren, addr 0x6f97b94, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method EnumerateChildren, addr 0x6fd4a70, size 0x1c, virtual false, abstract: false, final false
   inline ::Unity::Hierarchy::HierarchyFlattenedChildrenEnumerable EnumerateChildren(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
-  /// @brief Method Finalize, addr 0x6f97914, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x6fd47f0, size 0x48, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method FromIntPtr, addr 0x6f97c90, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method FromIntPtr, addr 0x6fd4b6c, size 0x88, virtual false, abstract: false, final false
   static inline ::Unity::Hierarchy::HierarchyFlattened* FromIntPtr(::System::IntPtr handlePtr);
 
-  /// @brief Method GetEnumerator, addr 0x6f97c3c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x6fd4b18, size 0x2c, virtual false, abstract: false, final false
   inline ::Unity::Hierarchy::HierarchyFlattened_Enumerator GetEnumerator();
 
   /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
-  /// @brief Method IndexOf, addr 0x6f937fc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x6fd06d8, size 0x58, virtual false, abstract: false, final false
   inline int32_t IndexOf(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
-  /// @brief Method IndexOf_Injected, addr 0x6f97b0c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IndexOf_Injected, addr 0x6fd49e8, size 0x44, virtual false, abstract: false, final false
   static inline int32_t IndexOf_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   static inline ::Unity::Hierarchy::HierarchyFlattened* New_ctor(::Unity::Hierarchy::Hierarchy* hierarchy);
@@ -242,14 +242,14 @@ public:
                                                                  int32_t version);
 
   /// [NativeMethod(IsThreadSafe = true)]
-  /// @brief Method Update, addr 0x6f97bb0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6fd4a8c, size 0x50, virtual false, abstract: false, final false
   inline void Update();
 
   /// [RequiredByNativeCode]
-  /// @brief Method UpdateHierarchyFlattened, addr 0x6f97eb4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method UpdateHierarchyFlattened, addr 0x6fd4d90, size 0xd0, virtual false, abstract: false, final false
   static inline void UpdateHierarchyFlattened(::System::IntPtr handlePtr, ::System::IntPtr flattenedNodesPtr, int32_t flattenedNodesCount, int32_t version);
 
-  /// @brief Method Update_Injected, addr 0x6f97c00, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Update_Injected, addr 0x6fd4adc, size 0x3c, virtual false, abstract: false, final false
   static inline void Update_Injected(::System::IntPtr _unity_self);
 
   constexpr ::Unity::Hierarchy::ReadOnlyNativeVector_1<::Unity::Hierarchy::HierarchyFlattenedNode> const& __cordl_internal_get_m_FlattenedNodes() const;
@@ -282,26 +282,26 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6f97748, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fd4624, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Hierarchy::Hierarchy* hierarchy);
 
-  /// @brief Method .ctor, addr 0x6f97894, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fd4770, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr nativePtr, ::Unity::Hierarchy::Hierarchy* hierarchy, ::System::IntPtr flattenedNodesPtr, int32_t flattenedNodesCount, int32_t version);
 
-  /// @brief Method get_IsCreated, addr 0x6f93720, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsCreated, addr 0x6fd05fc, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
-  /// @brief Method get_Item, addr 0x6f97a58, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x6fd4934, size 0xb4, virtual false, abstract: false, final false
   inline ::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode> get_Item(int32_t index);
 
   /// [NativeMethod("UpdateNeeded", IsThreadSafe = true)]
-  /// @brief Method get_UpdateNeeded, addr 0x6f976b4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_UpdateNeeded, addr 0x6fd4590, size 0x50, virtual false, abstract: false, final false
   inline bool get_UpdateNeeded();
 
-  /// @brief Method get_UpdateNeeded_Injected, addr 0x6f97704, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_UpdateNeeded_Injected, addr 0x6fd45e0, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_UpdateNeeded_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_Version, addr 0x6f97740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x6fd461c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
   /// @brief Convert to "::System::IDisposable"
@@ -322,7 +322,7 @@ public:
   HierarchyFlattened(HierarchyFlattened const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22601 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22651 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

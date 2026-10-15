@@ -28,7 +28,7 @@ public:
   __declspec(property(get = __cordl_internal_get_serializableType, put = __cordl_internal_set_serializableType)) ::System::Type* serializableType;
 
   /// [RequiredByNativeCode]
-  /// @brief Method GetSerializableType, addr 0x6f470e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSerializableType, addr 0x6f83f48, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* GetSerializableType();
 
   constexpr ::System::Type* const& __cordl_internal_get_serializableType() const;
@@ -52,7 +52,7 @@ public:
   MakeSerializableAttribute(MakeSerializableAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9978 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9985 };
 
   /// @brief Field serializableType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___serializableType;

@@ -28,24 +28,24 @@ public:
   // Declarations
   __declspec(property(get = get_treeView)) ::UnityEngine::UIElements::TreeView* treeView;
 
-  /// @brief Method BindItem, addr 0x709e84c, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method BindItem, addr 0x70db780, size 0x190, virtual true, abstract: false, final false
   inline void BindItem(::UnityEngine::UIElements::VisualElement* element, int32_t index);
 
-  /// @brief Method DestroyItem, addr 0x709ea2c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method DestroyItem, addr 0x70db960, size 0x3c, virtual true, abstract: false, final false
   inline void DestroyItem(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method MakeItem, addr 0x709e74c, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method MakeItem, addr 0x70db680, size 0x100, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* MakeItem();
 
   static inline ::UnityEngine::UIElements::TreeViewController* New_ctor();
 
-  /// @brief Method UnbindItem, addr 0x709e9dc, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method UnbindItem, addr 0x70db910, size 0x50, virtual true, abstract: false, final false
   inline void UnbindItem(::UnityEngine::UIElements::VisualElement* element, int32_t index);
 
-  /// @brief Method .ctor, addr 0x709ea68, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70db99c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_treeView, addr 0x709e6cc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_treeView, addr 0x70db600, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TreeView* get_treeView();
 
 protected:

@@ -48,18 +48,18 @@ public:
   __declspec(property(get = __cordl_internal_get__prepareLevelCompletionResults, put = __cordl_internal_set__prepareLevelCompletionResults)) ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults>
       _prepareLevelCompletionResults;
 
-  /// @brief Method HandleLevelFinished, addr 0x5d33d70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelFinished, addr 0x5d6e62c, size 0x4, virtual false, abstract: false, final false
   inline void HandleLevelFinished();
 
   static inline ::GlobalNamespace::MissionLevelFinishedController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5d33c38, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5d6e4f4, size 0x138, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x5d33b44, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5d6e400, size 0xf4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartLevelFinished, addr 0x5d33d74, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method StartLevelFinished, addr 0x5d6e630, size 0xb4, virtual false, abstract: false, final false
   inline void StartLevelFinished();
 
   constexpr ::GlobalNamespace::ILevelEndActions* const& __cordl_internal_get__gameplayManager() const;
@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set__prepareLevelCompletionResults(::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> value);
 
-  /// @brief Method .ctor, addr 0x5d33e28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d6e6e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -104,7 +104,7 @@ public:
   MissionLevelFinishedController(MissionLevelFinishedController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6904 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6911 };
 
   /// [SerializeField]
   /// @brief Field _prepareLevelCompletionResults, offset: 0x20, size: 0x8, def value: None

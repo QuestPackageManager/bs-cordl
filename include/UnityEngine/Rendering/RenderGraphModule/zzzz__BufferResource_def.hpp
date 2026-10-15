@@ -29,30 +29,30 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 class CORDL_TYPE BufferResource : public ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResource_2<::UnityEngine::Rendering::RenderGraphModule::BufferDesc, ::UnityEngine::GraphicsBuffer*> {
 public:
   // Declarations
-  /// @brief Method CreateGraphicsResource, addr 0x6c0d218, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method CreateGraphicsResource, addr 0x6c49e94, size 0x90, virtual true, abstract: false, final false
   inline void CreateGraphicsResource();
 
-  /// @brief Method GetDescHashCode, addr 0x6c0d1dc, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetDescHashCode, addr 0x6c49e58, size 0x3c, virtual true, abstract: false, final false
   inline int32_t GetDescHashCode();
 
-  /// @brief Method GetName, addr 0x6c0d178, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetName, addr 0x6c49df4, size 0x64, virtual true, abstract: false, final false
   inline ::StringW GetName();
 
-  /// @brief Method LogCreation, addr 0x6c0d328, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method LogCreation, addr 0x6c49fa4, size 0xe8, virtual true, abstract: false, final false
   inline void LogCreation(::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger* logger);
 
-  /// @brief Method LogRelease, addr 0x6c0d410, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method LogRelease, addr 0x6c4a08c, size 0xe8, virtual true, abstract: false, final false
   inline void LogRelease(::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger* logger);
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::BufferResource* New_ctor();
 
-  /// @brief Method ReleaseGraphicsResource, addr 0x6c0d2d8, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method ReleaseGraphicsResource, addr 0x6c49f54, size 0x50, virtual true, abstract: false, final false
   inline void ReleaseGraphicsResource();
 
-  /// @brief Method UpdateGraphicsResource, addr 0x6c0d2a8, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method UpdateGraphicsResource, addr 0x6c49f24, size 0x30, virtual true, abstract: false, final false
   inline void UpdateGraphicsResource();
 
-  /// @brief Method .ctor, addr 0x6c0d4f8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c4a174, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -70,7 +70,7 @@ public:
   BufferResource(BufferResource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9354 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9361 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

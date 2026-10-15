@@ -80,28 +80,28 @@ public:
 
   static inline ::UnityEngine::UI::LayoutRebuilder___c* New_ctor();
 
-  /// @brief Method <Rebuild>b__12_0, addr 0x72964f4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method <Rebuild>b__12_0, addr 0x72d3428, size 0xc0, virtual false, abstract: false, final false
   inline void _Rebuild_b__12_0(::UnityEngine::Component* e);
 
-  /// @brief Method <Rebuild>b__12_1, addr 0x72965b4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method <Rebuild>b__12_1, addr 0x72d34e8, size 0xc0, virtual false, abstract: false, final false
   inline void _Rebuild_b__12_1(::UnityEngine::Component* e);
 
-  /// @brief Method <Rebuild>b__12_2, addr 0x7296674, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method <Rebuild>b__12_2, addr 0x72d35a8, size 0xc4, virtual false, abstract: false, final false
   inline void _Rebuild_b__12_2(::UnityEngine::Component* e);
 
-  /// @brief Method <Rebuild>b__12_3, addr 0x7296738, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method <Rebuild>b__12_3, addr 0x72d366c, size 0xc4, virtual false, abstract: false, final false
   inline void _Rebuild_b__12_3(::UnityEngine::Component* e);
 
-  /// @brief Method <StripDisabledBehavioursFromList>b__10_0, addr 0x7296464, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <StripDisabledBehavioursFromList>b__10_0, addr 0x72d3398, size 0x90, virtual false, abstract: false, final false
   inline bool _StripDisabledBehavioursFromList_b__10_0(::UnityEngine::Component* e);
 
-  /// @brief Method <.cctor>b__5_0, addr 0x7296408, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__5_0, addr 0x72d333c, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::LayoutRebuilder* __cctor_b__5_0();
 
-  /// @brief Method <.cctor>b__5_1, addr 0x729644c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__5_1, addr 0x72d3380, size 0x18, virtual false, abstract: false, final false
   inline void __cctor_b__5_1(::UnityEngine::UI::LayoutRebuilder* x);
 
-  /// @brief Method .ctor, addr 0x7296404, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72d3338, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UI::LayoutRebuilder___c* getStaticF___9();
@@ -143,7 +143,7 @@ public:
   LayoutRebuilder___c(LayoutRebuilder___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17969 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18002 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -174,57 +174,57 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::ICanvasElement"
   constexpr operator ::UnityEngine::UI::ICanvasElement*() noexcept;
 
-  /// @brief Method Clear, addr 0x72950b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x72d1fec, size 0xc, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Equals, addr 0x72962ec, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x72d3220, size 0x50, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method ForceRebuildLayoutImmediate, addr 0x7295474, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ForceRebuildLayoutImmediate, addr 0x72d23a8, size 0xe8, virtual false, abstract: false, final false
   static inline void ForceRebuildLayoutImmediate(::UnityEngine::RectTransform* layoutRoot);
 
-  /// @brief Method GetHashCode, addr 0x72962e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x72d3218, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GraphicUpdateComplete, addr 0x72962e0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method GraphicUpdateComplete, addr 0x72d3214, size 0x4, virtual true, abstract: false, final true
   inline void GraphicUpdateComplete();
 
-  /// @brief Method Initialize, addr 0x7295084, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x72d1fb8, size 0x34, virtual false, abstract: false, final false
   inline void Initialize(::UnityEngine::RectTransform* controller);
 
-  /// @brief Method IsDestroyed, addr 0x7295308, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method IsDestroyed, addr 0x72d223c, size 0x64, virtual true, abstract: false, final true
   inline bool IsDestroyed();
 
-  /// @brief Method LayoutComplete, addr 0x7296258, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method LayoutComplete, addr 0x72d318c, size 0x88, virtual true, abstract: false, final true
   inline void LayoutComplete();
 
-  /// @brief Method MarkLayoutForRebuild, addr 0x729054c, size 0x3f8, virtual false, abstract: false, final false
+  /// @brief Method MarkLayoutForRebuild, addr 0x72cd480, size 0x3f8, virtual false, abstract: false, final false
   static inline void MarkLayoutForRebuild(::UnityEngine::RectTransform* rect);
 
-  /// @brief Method MarkLayoutRootForRebuild, addr 0x72960e8, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method MarkLayoutRootForRebuild, addr 0x72d301c, size 0x170, virtual false, abstract: false, final false
   static inline void MarkLayoutRootForRebuild(::UnityEngine::RectTransform* controller);
 
   static inline ::UnityEngine::UI::LayoutRebuilder* New_ctor();
 
-  /// @brief Method PerformLayoutCalculation, addr 0x7295814, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method PerformLayoutCalculation, addr 0x72d2748, size 0x2f8, virtual false, abstract: false, final false
   inline void PerformLayoutCalculation(::UnityEngine::RectTransform* rect, ::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::Component>>* action);
 
-  /// @brief Method PerformLayoutControl, addr 0x7295b0c, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method PerformLayoutControl, addr 0x72d2a40, size 0x3e4, virtual false, abstract: false, final false
   inline void PerformLayoutControl(::UnityEngine::RectTransform* rect, ::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::Component>>* action);
 
-  /// @brief Method ReapplyDrivenProperties, addr 0x72952a8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ReapplyDrivenProperties, addr 0x72d21dc, size 0x58, virtual false, abstract: false, final false
   static inline void ReapplyDrivenProperties(::UnityEngine::RectTransform* driven);
 
-  /// @brief Method Rebuild, addr 0x729555c, size 0x2b8, virtual true, abstract: false, final true
+  /// @brief Method Rebuild, addr 0x72d2490, size 0x2b8, virtual true, abstract: false, final true
   inline void Rebuild(::UnityEngine::UI::CanvasUpdate executing);
 
-  /// @brief Method StripDisabledBehavioursFromList, addr 0x729536c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method StripDisabledBehavioursFromList, addr 0x72d22a0, size 0x108, virtual false, abstract: false, final false
   static inline void StripDisabledBehavioursFromList(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Component>>* components);
 
-  /// @brief Method ToString, addr 0x729633c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x72d3270, size 0x70, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ValidController, addr 0x7295ef0, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method ValidController, addr 0x72d2e24, size 0x1f8, virtual false, abstract: false, final false
   static inline bool ValidController(::UnityEngine::RectTransform* layoutRoot, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Component>>* comps);
 
   constexpr int32_t const& __cordl_internal_get_m_CachedHashFromTransform() const;
@@ -239,12 +239,12 @@ public:
 
   constexpr void __cordl_internal_set_m_ToRebuild(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x72963ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72d32e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Pool::ObjectPool_1<::UnityEngine::UI::LayoutRebuilder*>* getStaticF_s_Rebuilders();
 
-  /// @brief Method get_transform, addr 0x7295300, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_transform, addr 0x72d2234, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Transform> get_transform();
 
   /// @brief Convert to "::UnityEngine::UI::ICanvasElement"
@@ -267,7 +267,7 @@ public:
   LayoutRebuilder(LayoutRebuilder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17970 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18003 };
 
   /// @brief Field m_ToRebuild, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ___m_ToRebuild;

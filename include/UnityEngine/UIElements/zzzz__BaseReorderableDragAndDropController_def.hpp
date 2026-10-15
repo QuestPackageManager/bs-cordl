@@ -73,22 +73,22 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IReorderable"
   constexpr operator ::UnityEngine::UIElements::IReorderable*() noexcept;
 
-  /// @brief Method CanDrop, addr 0x7216850, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CanDrop, addr 0x7253784, size 0x8, virtual true, abstract: false, final false
   inline bool CanDrop();
 
-  /// @brief Method CanStartDrag, addr 0x7216848, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CanStartDrag, addr 0x725377c, size 0x8, virtual true, abstract: false, final false
   inline bool CanStartDrag(::System::Collections::Generic::IEnumerable_1<int32_t>* itemIds);
 
-  /// @brief Method CompareId, addr 0x72171d4, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method CompareId, addr 0x7254108, size 0x10, virtual true, abstract: false, final false
   inline int32_t CompareId(int32_t id1, int32_t id2);
 
-  /// @brief Method DragCleanup, addr 0x72171e8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DragCleanup, addr 0x725411c, size 0x4, virtual true, abstract: false, final false
   inline void DragCleanup();
 
-  /// @brief Method GetSortedSelectedIds, addr 0x72167a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetSortedSelectedIds, addr 0x72536dc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* GetSortedSelectedIds();
 
-  /// @brief Method HandleAutoExpand, addr 0x72171ec, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HandleAutoExpand, addr 0x7254120, size 0x4, virtual true, abstract: false, final false
   inline void HandleAutoExpand(::UnityEngine::UIElements::ReusableCollectionItem* item, ::UnityEngine::Vector2 pointerPosition);
 
   /// @brief Method HandleDragAndDrop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -96,10 +96,10 @@ public:
 
   static inline ::UnityEngine::UIElements::BaseReorderableDragAndDropController* New_ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* view);
 
-  /// @brief Method OnDrop, addr 0x72171e4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnDrop, addr 0x7254118, size 0x4, virtual true, abstract: false, final false
   inline void OnDrop(::UnityEngine::UIElements::IListDragAndDropArgs* args);
 
-  /// @brief Method SetupDragAndDrop, addr 0x7216858, size 0x664, virtual true, abstract: false, final false
+  /// @brief Method SetupDragAndDrop, addr 0x725378c, size 0x664, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StartDragArgs SetupDragAndDrop(::System::Collections::Generic::IEnumerable_1<int32_t>* itemIds, bool skipText);
 
   constexpr bool const& __cordl_internal_get__enableReordering_k__BackingField() const;
@@ -120,11 +120,11 @@ public:
 
   constexpr void __cordl_internal_set_m_View(::UnityEngine::UIElements::BaseVerticalCollectionView* value);
 
-  /// @brief Method .ctor, addr 0x72167b0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72536e4, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* view);
 
   /// [CompilerGenerated]
-  /// @brief Method get_enableReordering, addr 0x7216838, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_enableReordering, addr 0x725376c, size 0x8, virtual true, abstract: false, final false
   inline bool get_enableReordering();
 
   /// @brief Convert to "::UnityEngine::UIElements::ICollectionDragAndDropController"
@@ -138,7 +138,7 @@ public:
   constexpr ::UnityEngine::UIElements::IReorderable* i___UnityEngine__UIElements__IReorderable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_enableReordering, addr 0x7216840, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_enableReordering, addr 0x7253774, size 0x8, virtual true, abstract: false, final false
   inline void set_enableReordering(bool value);
 
 protected:

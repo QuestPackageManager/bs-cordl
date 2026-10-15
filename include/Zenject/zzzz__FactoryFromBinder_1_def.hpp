@@ -155,7 +155,7 @@ public:
   FactoryFromBinder_1___c(FactoryFromBinder_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14313 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15089 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -215,7 +215,7 @@ public:
   FactoryFromBinder_1___c__5_1(FactoryFromBinder_1___c__5_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14314 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15090 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -288,7 +288,7 @@ public:
   FactoryFromBinder_1___c__DisplayClass3_0_1(FactoryFromBinder_1___c__DisplayClass3_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14315 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15091 };
 
   /// @brief Field subIdentifier, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___subIdentifier;
@@ -352,7 +352,7 @@ public:
   FactoryFromBinder_1___c__DisplayClass4_0(FactoryFromBinder_1___c__DisplayClass4_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14316 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15092 };
 
   /// @brief Field method, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<::Zenject::DiContainer*, TContract>* ___method;
@@ -431,7 +431,7 @@ public:
   FactoryFromBinder_1___c__DisplayClass8_0(FactoryFromBinder_1___c__DisplayClass8_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14317 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15093 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::Zenject::FactoryFromBinder_1<TContract>* _____4__this;
@@ -512,7 +512,7 @@ public:
   FactoryFromBinder_1(FactoryFromBinder_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14318 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15094 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

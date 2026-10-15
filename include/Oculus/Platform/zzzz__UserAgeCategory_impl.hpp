@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserAccountAgeCategory*>* (*)()>(&::Oculus::Platform::UserAgeCategory::Get)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6204d48;
+  constexpr static std::size_t addrs = 0x6241790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::UserAgeCategory*>(), { "Get", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request* (*)(::Oculus::Platform::AppAgeCategory)>(&::Oculus::Platform::UserAgeCategory::Report)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x6204ea0;
+  constexpr static std::size_t addrs = 0x62418e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

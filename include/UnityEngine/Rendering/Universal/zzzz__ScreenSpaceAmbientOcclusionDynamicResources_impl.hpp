@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Texture2D>> (::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionDynamicResources::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionDynamicResources::get_BlueNoise256Textures)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ce9200;
+  constexpr static std::size_t addrs = 0x6d25e7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionDynamicResources::*)(::ArrayW<::UnityEngine::Texture2D*>)>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionDynamicResources::set_BlueNoise256Textures)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6ce9208;
+  constexpr static std::size_t addrs = 0x6d25e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionDynamicResources*>(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionDynamicResources::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionDynamicResources::get_isAvailableInPlayerBuild)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ce9278;
+  constexpr static std::size_t addrs = 0x6d25ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionDynamicResources::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionDynamicResources::get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ce9280;
+  constexpr static std::size_t addrs = 0x6d25efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionDynamicResources::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionDynamicResources::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ce9288;
+  constexpr static std::size_t addrs = 0x6d25f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

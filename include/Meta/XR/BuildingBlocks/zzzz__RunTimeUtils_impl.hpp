@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(int32_t, bool, bool, bool, bool)>(&::Meta::XR::BuildingBlocks::RunTimeUtils::GenerateRandomString)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x5e4cfdc;
+  constexpr static std::size_t addrs = 0x5e89764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

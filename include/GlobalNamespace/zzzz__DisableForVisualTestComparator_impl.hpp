@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DisableForVisualTestComparator::*)(::GlobalNamespace::DeterminismConfig*)>(
     &::GlobalNamespace::DisableForVisualTestComparator::Init)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5da0050;
+  constexpr static std::size_t addrs = 0x5ddd31c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DisableForVisualTestComparator::*)()>(&::GlobalNamespace::DisableForVisualTestComparator::OnDestroy)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5da00ec;
+  constexpr static std::size_t addrs = 0x5ddd3b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DisableForVisualTestComparator*>(), { "OnDestroy", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DisableForVisualTestComparator::*)(bool)>(&::GlobalNamespace::DisableForVisualTestComparator::OnDeterminismSet)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x5da01bc;
+  constexpr static std::size_t addrs = 0x5ddd488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DisableForVisualTestComparator::*)()>(&::GlobalNamespace::DisableForVisualTestComparator::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5da0410;
+  constexpr static std::size_t addrs = 0x5ddd6dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DisableForVisualTestComparator*>(), { ".ctor", {}, {} })));

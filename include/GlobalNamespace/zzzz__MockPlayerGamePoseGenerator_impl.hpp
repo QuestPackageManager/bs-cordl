@@ -5,6 +5,7 @@
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatSaberMultiplayerSessionManager_def.hpp"
 #include "GlobalNamespace/zzzz__IGameplayRpcManager_def.hpp"
+#include "GlobalNamespace/zzzz__LevelCompletionResultsBase_def.hpp"
 #include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
 #include "GlobalNamespace/zzzz__MockBeatmapData_def.hpp"
 #include "GlobalNamespace/zzzz__MockNodePoseSyncStateSender_def.hpp"
@@ -17,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGenerator::*)(
     ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*, ::GlobalNamespace::IGameplayRpcManager*, bool)>(&::GlobalNamespace::MockPlayerGamePoseGenerator::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5e9aba0;
+  constexpr static std::size_t addrs = 0x5ed73a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGenerator::*)()>(&::GlobalNamespace::MockPlayerGamePoseGenerator::Dispose)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5e9adfc;
+  constexpr static std::size_t addrs = 0x5ed75fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGenerator::*)()>(&::GlobalNamespace::MockPlayerGamePoseGenerator::SimulateFail)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5e9aee8;
+  constexpr static std::size_t addrs = 0x5ed76e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGenerator::*)()>(&::GlobalNamespace::MockPlayerGamePoseGenerator::SimulateGiveUp)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5e9b0a4;
+  constexpr static std::size_t addrs = 0x5ed78c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerGamePoseGenerator*>(), { "SimulateGiveUp", {}, {} })));
@@ -96,15 +97,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 //  Writing Method size for method: ::GlobalNamespace::MockPlayerGamePoseGenerator.CreateEmptyLevelCompletionResults
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LevelCompletionResults* (*)(::GlobalNamespace::LevelCompletionResults_LevelEndStateType)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LevelCompletionResults* (*)(::GlobalNamespace::LevelCompletionResultsBase_LevelEndStateType)>(
     &::GlobalNamespace::MockPlayerGamePoseGenerator::CreateEmptyLevelCompletionResults)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5e9afd4;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x5ed77d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerGamePoseGenerator*>(),
-                                                             { "CreateEmptyLevelCompletionResults", {}, { ::i2c::type_of<::GlobalNamespace::LevelCompletionResults_LevelEndStateType>() } })));
+                                                             { "CreateEmptyLevelCompletionResults", {}, { ::i2c::type_of<::GlobalNamespace::LevelCompletionResultsBase_LevelEndStateType>() } })));
     return ___internal_method;
   }
 };
@@ -203,10 +204,10 @@ inline void GlobalNamespace::MockPlayerGamePoseGenerator::SimulateGiveUp() {
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::GlobalNamespace::LevelCompletionResults*
-GlobalNamespace::MockPlayerGamePoseGenerator::CreateEmptyLevelCompletionResults(::GlobalNamespace::LevelCompletionResults_LevelEndStateType levelEndStateType) {
+GlobalNamespace::MockPlayerGamePoseGenerator::CreateEmptyLevelCompletionResults(::GlobalNamespace::LevelCompletionResultsBase_LevelEndStateType levelEndStateType) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerGamePoseGenerator*>(),
-                                                           { "CreateEmptyLevelCompletionResults", {}, { ::i2c::type_of<::GlobalNamespace::LevelCompletionResults_LevelEndStateType>() } })));
+                                                           { "CreateEmptyLevelCompletionResults", {}, { ::i2c::type_of<::GlobalNamespace::LevelCompletionResultsBase_LevelEndStateType>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::LevelCompletionResults*>(nullptr, ___internal_method, levelEndStateType);
 }
 inline ::GlobalNamespace::MockPlayerGamePoseGenerator* GlobalNamespace::MockPlayerGamePoseGenerator::New_ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager,

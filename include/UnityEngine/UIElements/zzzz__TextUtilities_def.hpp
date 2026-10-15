@@ -70,47 +70,47 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE TextUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetFontAsset, addr 0x71325bc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetFontAsset, addr 0x716f4f0, size 0xb8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> GetFontAsset(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method GetTextCoreSettingsForElement, addr 0x71327e0, size 0x420, virtual false, abstract: false, final false
+  /// @brief Method GetTextCoreSettingsForElement, addr 0x716f714, size 0x420, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::TextCoreSettings GetTextCoreSettingsForElement(::UnityEngine::UIElements::VisualElement* ve, bool ignoreColors);
 
-  /// @brief Method GetTextSettingsFrom, addr 0x7132674, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetTextSettingsFrom, addr 0x716f5a8, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::TextCore::Text::TextSettings> GetTextSettingsFrom(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method IsAdvancedTextEnabledForElement, addr 0x7130578, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method IsAdvancedTextEnabledForElement, addr 0x716d4ac, size 0x38, virtual false, abstract: false, final false
   static inline bool IsAdvancedTextEnabledForElement(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method IsAdvancedTextEnabledForPanel, addr 0x7132714, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method IsAdvancedTextEnabledForPanel, addr 0x716f648, size 0xcc, virtual false, abstract: false, final false
   static inline bool IsAdvancedTextEnabledForPanel(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method IsFontAssigned, addr 0x7132328, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method IsFontAssigned, addr 0x716f25c, size 0xb8, virtual false, abstract: false, final false
   static inline bool IsFontAssigned(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method MeasureVisualElementTextSize, addr 0x7132144, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method MeasureVisualElementTextSize, addr 0x716f078, size 0x1e4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 MeasureVisualElementTextSize(::UnityEngine::UIElements::TextElement* te, ::StringW textToMeasure, float_t width,
                                                                     ::UnityEngine::UIElements::VisualElement_MeasureMode widthMode, float_t height,
                                                                     ::UnityEngine::UIElements::VisualElement_MeasureMode heightMode, ::System::Nullable_1<float_t> fontsize);
 
-  /// @brief Method MeasureVisualElementTextSize, addr 0x71323e0, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method MeasureVisualElementTextSize, addr 0x716f314, size 0x1dc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 MeasureVisualElementTextSize(::UnityEngine::UIElements::TextElement* te,
                                                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::TextCore::Text::RenderedText const> textToMeasure, float_t width,
                                                                     ::UnityEngine::UIElements::VisualElement_MeasureMode widthMode, float_t height,
                                                                     ::UnityEngine::UIElements::VisualElement_MeasureMode heightMode, ::System::Nullable_1<float_t> fontsize);
 
-  /// @brief Method PostProcessMeasuredSize, addr 0x7131ffc, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method PostProcessMeasuredSize, addr 0x716ef30, size 0x148, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 PostProcessMeasuredSize(::UnityEngine::UIElements::TextElement* te, ::UnityEngine::Vector2 measuredSize, float_t width,
                                                                ::UnityEngine::UIElements::VisualElement_MeasureMode widthMode, float_t height,
                                                                ::UnityEngine::UIElements::VisualElement_MeasureMode heightMode, float_t pixelsPerPoint);
 
   /// [Extension]
-  /// @brief Method toTextCore, addr 0x7132c44, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method toTextCore, addr 0x716fb78, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::TextOverflow toTextCore(::UnityEngine::UIElements::TextOverflow textOverflow, ::UnityEngine::UIElements::OverflowInternal overflow,
                                                                  ::UnityEngine::UIElements::TextOverflowPosition position);
 
   /// [Extension]
-  /// @brief Method toTextWrappingMode, addr 0x7132c00, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method toTextWrappingMode, addr 0x716fb34, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::TextWrappingMode toTextWrappingMode(::UnityEngine::UIElements::WhiteSpace whiteSpace, bool isSingleLineInputField);
 
 protected:

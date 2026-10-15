@@ -28,24 +28,24 @@ public:
   // Declarations
   __declspec(property(get = get_listView)) ::UnityEngine::UIElements::ListView* listView;
 
-  /// @brief Method BindItem, addr 0x709ce74, size 0x240, virtual true, abstract: false, final false
+  /// @brief Method BindItem, addr 0x70d9da8, size 0x240, virtual true, abstract: false, final false
   inline void BindItem(::UnityEngine::UIElements::VisualElement* element, int32_t index);
 
-  /// @brief Method DestroyItem, addr 0x709d12c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method DestroyItem, addr 0x70da060, size 0x3c, virtual true, abstract: false, final false
   inline void DestroyItem(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method MakeItem, addr 0x709cd74, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method MakeItem, addr 0x70d9ca8, size 0x100, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* MakeItem();
 
   static inline ::UnityEngine::UIElements::ListViewController* New_ctor();
 
-  /// @brief Method UnbindItem, addr 0x709d0dc, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method UnbindItem, addr 0x70da010, size 0x50, virtual true, abstract: false, final false
   inline void UnbindItem(::UnityEngine::UIElements::VisualElement* element, int32_t index);
 
-  /// @brief Method .ctor, addr 0x709d168, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70da09c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_listView, addr 0x709ccf4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_listView, addr 0x70d9c28, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ListView* get_listView();
 
 protected:

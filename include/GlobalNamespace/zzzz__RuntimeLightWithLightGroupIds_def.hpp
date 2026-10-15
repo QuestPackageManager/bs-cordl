@@ -53,13 +53,13 @@ public:
 
   constexpr void __cordl_internal_set__intensity(float_t value);
 
-  /// @brief Method .ctor, addr 0x5c86c5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cbf244, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t lightId, float_t intensity);
 
-  /// @brief Method get_intensity, addr 0x5c86dd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x5cbf3b8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method set_intensity, addr 0x5c86dd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_intensity, addr 0x5cbf3c0, size 0x8, virtual false, abstract: false, final false
   inline void set_intensity(float_t value);
 
 protected:
@@ -77,7 +77,7 @@ public:
   RuntimeLightWithLightGroupIds_LightIntensitiesWithId(RuntimeLightWithLightGroupIds_LightIntensitiesWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19984 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20031 };
 
   /// [SerializeField]
   /// @brief Field _intensity, offset: 0x30, size: 0x4, def value: None
@@ -117,21 +117,21 @@ public:
   /// @brief Field _multiplyColorByAlpha, offset 0x48, size 0x1
   __declspec(property(get = __cordl_internal_get__multiplyColorByAlpha, put = __cordl_internal_set__multiplyColorByAlpha)) bool _multiplyColorByAlpha;
 
-  /// @brief Method Awake, addr 0x5c86aa8, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x5cbf078, size 0x1cc, virtual true, abstract: false, final false
   inline void Awake();
 
   /// @brief Method ColorWasSet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
-  /// @brief Method GetLightWithIds, addr 0x5c86db4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetLightWithIds, addr 0x5cbf39c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds_LightWithId*>* GetLightWithIds();
 
   static inline ::GlobalNamespace::RuntimeLightWithLightGroupIds* New_ctor();
 
-  /// @brief Method ProcessColor, addr 0x5c86d94, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ProcessColor, addr 0x5cbf37c, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Color ProcessColor(::UnityEngine::Color color, float_t intensity);
 
-  /// @brief Method ProcessNewColorData, addr 0x5c86c68, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method ProcessNewColorData, addr 0x5cbf250, size 0x12c, virtual true, abstract: false, final false
   inline void ProcessNewColorData();
 
   constexpr float_t const& __cordl_internal_get__intensity() const;
@@ -164,7 +164,7 @@ public:
 
   constexpr void __cordl_internal_set__multiplyColorByAlpha(bool value);
 
-  /// @brief Method .ctor, addr 0x5c86dbc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cbf3a4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -182,7 +182,7 @@ public:
   RuntimeLightWithLightGroupIds(RuntimeLightWithLightGroupIds const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19985 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20032 };
 
   /// [SerializeField]
   /// @brief Field _lightGroupList, offset: 0x38, size: 0x8, def value: None

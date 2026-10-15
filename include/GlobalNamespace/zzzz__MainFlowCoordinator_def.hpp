@@ -177,11 +177,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5d42598, size 0x244, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d7cfa0, size 0x244, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5d427dc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5d7d1e4, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -203,7 +203,7 @@ public:
                                                                                       ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6954 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6961 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -255,11 +255,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5d427e4, size 0x6d8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d7d1ec, size 0x6d8, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5d42ebc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5d7d8c4, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -279,7 +279,7 @@ public:
                                                                                   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6955 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6962 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -331,11 +331,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5d42ec4, size 0x6b0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d7d8cc, size 0x6b0, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5d43574, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5d7df7c, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -355,7 +355,7 @@ public:
                                                                                                                     ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6956 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6963 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -402,11 +402,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5d4357c, size 0x5cc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d7df84, size 0x5d4, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5d43b48, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5d7e96c, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -425,7 +425,7 @@ public:
                                                                      ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6957 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6964 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -494,26 +494,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5d43b54, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d7e980, size 0x58, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::MainFlowCoordinator__ProcessMenuDestinationRequestAfterFrameCoroutine_d__45* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d43ba8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d7e9d8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d43bb0, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d7e9e0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d43be8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d7ea18, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x5d43b50, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5d7e97c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -541,7 +541,7 @@ public:
   constexpr void __cordl_internal_set_destination(::GlobalNamespace::MenuDestination* value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x5d42398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d7e974, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -568,7 +568,7 @@ public:
   MainFlowCoordinator__ProcessMenuDestinationRequestAfterFrameCoroutine_d__45(MainFlowCoordinator__ProcessMenuDestinationRequestAfterFrameCoroutine_d__45 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6958 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6965 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -614,174 +614,174 @@ public:
 
   using _ProcessMenuDestinationRequest_d__43 = ::GlobalNamespace::MainFlowCoordinator__ProcessMenuDestinationRequest_d__43;
 
-  /// @brief Field _additionalContentModel, offset 0x148, size 0x8
+  /// @brief Field _additionalContentModel, offset 0x140, size 0x8
   __declspec(property(get = __cordl_internal_get__additionalContentModel, put = __cordl_internal_set__additionalContentModel)) ::GlobalNamespace::IAdditionalContentModel* _additionalContentModel;
 
-  /// @brief Field _afterDialogPromptFlowCoordinator, offset 0x158, size 0x8
+  /// @brief Field _afterDialogPromptFlowCoordinator, offset 0x150, size 0x8
   __declspec(property(get = __cordl_internal_get__afterDialogPromptFlowCoordinator, put = __cordl_internal_set__afterDialogPromptFlowCoordinator)) ::UnityW<::HMUI::FlowCoordinator>
       _afterDialogPromptFlowCoordinator;
 
-  /// @brief Field _analyticsModel, offset 0x138, size 0x8
+  /// @brief Field _analyticsModel, offset 0x130, size 0x8
   __declspec(property(get = __cordl_internal_get__analyticsModel, put = __cordl_internal_set__analyticsModel)) ::GlobalNamespace::IAnalyticsModel* _analyticsModel;
 
-  /// @brief Field _avatarSystemCollection, offset 0x140, size 0x8
+  /// @brief Field _avatarSystemCollection, offset 0x138, size 0x8
   __declspec(property(get = __cordl_internal_get__avatarSystemCollection, put = __cordl_internal_set__avatarSystemCollection)) ::BeatSaber::AvatarCore::AvatarSystemCollection* _avatarSystemCollection;
 
-  /// @brief Field _beatmapLevelsModel, offset 0x128, size 0x8
+  /// @brief Field _beatmapLevelsModel, offset 0x120, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel)) ::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
 
-  /// @brief Field _campaignFlowCoordinator, offset 0xc8, size 0x8
+  /// @brief Field _campaignFlowCoordinator, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get__campaignFlowCoordinator, put = __cordl_internal_set__campaignFlowCoordinator)) ::UnityW<::GlobalNamespace::CampaignFlowCoordinator>
       _campaignFlowCoordinator;
 
-  /// @brief Field _defaultLightsPreset, offset 0xb0, size 0x8
+  /// @brief Field _defaultLightsPreset, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__defaultLightsPreset, put = __cordl_internal_set__defaultLightsPreset)) ::UnityW<::GlobalNamespace::MenuLightsPresetSO> _defaultLightsPreset;
 
-  /// @brief Field _editAvatarFlowCoordinatorHelper, offset 0xe8, size 0x8
+  /// @brief Field _editAvatarFlowCoordinatorHelper, offset 0xe0, size 0x8
   __declspec(property(get = __cordl_internal_get__editAvatarFlowCoordinatorHelper,
                       put = __cordl_internal_set__editAvatarFlowCoordinatorHelper)) ::GlobalNamespace::EditAvatarFlowCoordinatorHelper* _editAvatarFlowCoordinatorHelper;
 
-  /// @brief Field _fadeInOut, offset 0x120, size 0x8
+  /// @brief Field _fadeInOut, offset 0x118, size 0x8
   __declspec(property(get = __cordl_internal_get__fadeInOut, put = __cordl_internal_set__fadeInOut)) ::UnityW<::GlobalNamespace::FadeInOutController> _fadeInOut;
 
-  /// @brief Field _goToMultiplayerAfterAvatarCreation, offset 0x160, size 0x1
+  /// @brief Field _goToMultiplayerAfterAvatarCreation, offset 0x158, size 0x1
   __declspec(property(get = __cordl_internal_get__goToMultiplayerAfterAvatarCreation, put = __cordl_internal_set__goToMultiplayerAfterAvatarCreation)) bool _goToMultiplayerAfterAvatarCreation;
 
-  /// @brief Field _helpFlowCoordinator, offset 0xe0, size 0x8
+  /// @brief Field _helpFlowCoordinator, offset 0xd8, size 0x8
   __declspec(property(get = __cordl_internal_get__helpFlowCoordinator, put = __cordl_internal_set__helpFlowCoordinator)) ::UnityW<::GlobalNamespace::HelpFlowCoordinator> _helpFlowCoordinator;
 
-  /// @brief Field _mainMenuViewController, offset 0xf8, size 0x8
+  /// @brief Field _mainMenuViewController, offset 0xf0, size 0x8
   __declspec(property(get = __cordl_internal_get__mainMenuViewController, put = __cordl_internal_set__mainMenuViewController)) ::UnityW<::GlobalNamespace::MainMenuViewController>
       _mainMenuViewController;
 
-  /// @brief Field _menuDestinationRequest, offset 0x150, size 0x8
+  /// @brief Field _menuDestinationRequest, offset 0x148, size 0x8
   __declspec(property(get = __cordl_internal_get__menuDestinationRequest, put = __cordl_internal_set__menuDestinationRequest)) ::GlobalNamespace::MenuDestination* _menuDestinationRequest;
 
-  /// @brief Field _menuLightsManager, offset 0x118, size 0x8
+  /// @brief Field _menuLightsManager, offset 0x110, size 0x8
   __declspec(property(get = __cordl_internal_get__menuLightsManager, put = __cordl_internal_set__menuLightsManager)) ::UnityW<::GlobalNamespace::MenuLightsManager> _menuLightsManager;
 
-  /// @brief Field _menuTransitionsHelper, offset 0x130, size 0x8
+  /// @brief Field _menuTransitionsHelper, offset 0x128, size 0x8
   __declspec(property(get = __cordl_internal_get__menuTransitionsHelper, put = __cordl_internal_set__menuTransitionsHelper)) ::GlobalNamespace::MenuTransitionsHelper* _menuTransitionsHelper;
 
-  /// @brief Field _multiplayerModeSelectionFlowCoordinator, offset 0xd8, size 0x8
+  /// @brief Field _multiplayerModeSelectionFlowCoordinator, offset 0xd0, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerModeSelectionFlowCoordinator,
                       put = __cordl_internal_set__multiplayerModeSelectionFlowCoordinator)) ::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>
       _multiplayerModeSelectionFlowCoordinator;
 
-  /// @brief Field _optionsViewController, offset 0x108, size 0x8
+  /// @brief Field _optionsViewController, offset 0x100, size 0x8
   __declspec(property(get = __cordl_internal_get__optionsViewController, put = __cordl_internal_set__optionsViewController)) ::UnityW<::GlobalNamespace::OptionsViewController> _optionsViewController;
 
-  /// @brief Field _partyFreePlayFlowCoordinator, offset 0xc0, size 0x8
+  /// @brief Field _partyFreePlayFlowCoordinator, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__partyFreePlayFlowCoordinator, put = __cordl_internal_set__partyFreePlayFlowCoordinator)) ::UnityW<::GlobalNamespace::PartyFreePlayFlowCoordinator>
       _partyFreePlayFlowCoordinator;
 
-  /// @brief Field _playerDataModel, offset 0x110, size 0x8
+  /// @brief Field _playerDataModel, offset 0x108, size 0x8
   __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel)) ::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
-  /// @brief Field _playerOptionsViewController, offset 0x100, size 0x8
+  /// @brief Field _playerOptionsViewController, offset 0xf8, size 0x8
   __declspec(property(get = __cordl_internal_get__playerOptionsViewController, put = __cordl_internal_set__playerOptionsViewController)) ::UnityW<::GlobalNamespace::PlayerOptionsViewController>
       _playerOptionsViewController;
 
-  /// @brief Field _settingsFlowCoordinator, offset 0xd0, size 0x8
+  /// @brief Field _settingsFlowCoordinator, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsFlowCoordinator, put = __cordl_internal_set__settingsFlowCoordinator)) ::UnityW<::GlobalNamespace::SettingsFlowCoordinator>
       _settingsFlowCoordinator;
 
-  /// @brief Field _simpleDialogPromptViewController, offset 0xf0, size 0x8
+  /// @brief Field _simpleDialogPromptViewController, offset 0xe8, size 0x8
   __declspec(property(get = __cordl_internal_get__simpleDialogPromptViewController,
                       put = __cordl_internal_set__simpleDialogPromptViewController)) ::UnityW<::GlobalNamespace::SimpleDialogPromptViewController>
       _simpleDialogPromptViewController;
 
-  /// @brief Field _soloFreePlayFlowCoordinator, offset 0xb8, size 0x8
+  /// @brief Field _soloFreePlayFlowCoordinator, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get__soloFreePlayFlowCoordinator, put = __cordl_internal_set__soloFreePlayFlowCoordinator)) ::UnityW<::GlobalNamespace::SoloFreePlayFlowCoordinator>
       _soloFreePlayFlowCoordinator;
 
   /// @brief Field _startWithSettings, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF__startWithSettings, put = setStaticF__startWithSettings)) bool _startWithSettings;
 
-  /// @brief Method BackButtonWasPressed, addr 0x5d423a0, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method BackButtonWasPressed, addr 0x5d7cda8, size 0xa0, virtual true, abstract: false, final false
   inline void BackButtonWasPressed(::HMUI::ViewController* topViewController);
 
-  /// @brief Method DidActivate, addr 0x5d40bdc, size 0x508, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5d7b5e0, size 0x508, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x5d41354, size 0x4b4, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5d7bd58, size 0x4b4, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleCampaignFlowCoordinatorDidFinish, addr 0x5d41ed0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HandleCampaignFlowCoordinatorDidFinish, addr 0x5d7c8d4, size 0x14, virtual false, abstract: false, final false
   inline void HandleCampaignFlowCoordinatorDidFinish(::GlobalNamespace::CampaignFlowCoordinator* flowCoordinator);
 
   /// [AsyncStateMachine(typeof(MainFlowCoordinator::<HandleEditAvatarFlowCoordinatorHelperDidFinish>d__36))]
-  /// @brief Method HandleEditAvatarFlowCoordinatorHelperDidFinish, addr 0x5d41ee4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method HandleEditAvatarFlowCoordinatorHelperDidFinish, addr 0x5d7c8e8, size 0xbc, virtual false, abstract: false, final false
   inline void HandleEditAvatarFlowCoordinatorHelperDidFinish(::HMUI::FlowCoordinator* flowCoordinator, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction finishAction);
 
-  /// @brief Method HandleHelpFlowCoordinatorDidFinish, addr 0x5d4206c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HandleHelpFlowCoordinatorDidFinish, addr 0x5d7ca70, size 0x14, virtual false, abstract: false, final false
   inline void HandleHelpFlowCoordinatorDidFinish(::GlobalNamespace::HelpFlowCoordinator* helpFlowCoordinator);
 
-  /// @brief Method HandleMainMenuViewControllerDidFinish, addr 0x5d41a94, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method HandleMainMenuViewControllerDidFinish, addr 0x5d7c498, size 0x1c4, virtual false, abstract: false, final false
   inline void HandleMainMenuViewControllerDidFinish(::GlobalNamespace::MainMenuViewController* viewController, ::GlobalNamespace::MainMenuViewController_MenuButton subMenuType);
 
-  /// @brief Method HandleMainMenuViewControllerPromoButtonWasPressed, addr 0x5d42094, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method HandleMainMenuViewControllerPromoButtonWasPressed, addr 0x5d7ca98, size 0x264, virtual false, abstract: false, final false
   inline void HandleMainMenuViewControllerPromoButtonWasPressed(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* promoInfo);
 
   /// [AsyncStateMachine(typeof(MainFlowCoordinator::<HandleMultiplayerDisclaimerDidFinishAction>d__32))]
-  /// @brief Method HandleMultiplayerDisclaimerDidFinishAction, addr 0x5d41d0c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerDisclaimerDidFinishAction, addr 0x5d7c710, size 0xb4, virtual false, abstract: false, final false
   inline void HandleMultiplayerDisclaimerDidFinishAction(int32_t buttonNumber);
 
-  /// @brief Method HandleMultiplayerModeSelectionFlowCoordinatorDidFinish, addr 0x5d42080, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerModeSelectionFlowCoordinatorDidFinish, addr 0x5d7ca84, size 0x14, virtual false, abstract: false, final false
   inline void HandleMultiplayerModeSelectionFlowCoordinatorDidFinish(::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator* multiplayerModeSelectionFlowCoordinator);
 
-  /// @brief Method HandleOptionsViewControllerDidFinish, addr 0x5d41dc0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method HandleOptionsViewControllerDidFinish, addr 0x5d7c7c4, size 0xfc, virtual false, abstract: false, final false
   inline void HandleOptionsViewControllerDidFinish(::GlobalNamespace::OptionsViewController_OptionsButton optionsType);
 
-  /// @brief Method HandlePartyFreePlayFlowCoordinatorDidFinish, addr 0x5d41fb4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HandlePartyFreePlayFlowCoordinatorDidFinish, addr 0x5d7c9b8, size 0x14, virtual false, abstract: false, final false
   inline void HandlePartyFreePlayFlowCoordinatorDidFinish(::GlobalNamespace::LevelSelectionFlowCoordinator* flowCoordinator);
 
-  /// @brief Method HandlePlayerOptionsViewControllerDidFinish, addr 0x5d41ebc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerOptionsViewControllerDidFinish, addr 0x5d7c8c0, size 0x14, virtual false, abstract: false, final false
   inline void HandlePlayerOptionsViewControllerDidFinish(::HMUI::ViewController* viewController);
 
-  /// @brief Method HandleSettingsFlowCoordinatorDidFinish, addr 0x5d41fc8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method HandleSettingsFlowCoordinatorDidFinish, addr 0x5d7c9cc, size 0xa4, virtual false, abstract: false, final false
   inline void HandleSettingsFlowCoordinatorDidFinish(::GlobalNamespace::SettingsFlowCoordinator* settingsFlowCoordinator, ::GlobalNamespace::SettingsFlowCoordinator_FinishAction finishAction);
 
-  /// @brief Method HandleSoloFreePlayFlowCoordinatorDidFinish, addr 0x5d41fa0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HandleSoloFreePlayFlowCoordinatorDidFinish, addr 0x5d7c9a4, size 0x14, virtual false, abstract: false, final false
   inline void HandleSoloFreePlayFlowCoordinatorDidFinish(::GlobalNamespace::LevelSelectionFlowCoordinator* flowCoordinator);
 
-  /// @brief Method InitialViewControllerWasPresented, addr 0x5d412d8, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method InitialViewControllerWasPresented, addr 0x5d7bcdc, size 0x7c, virtual true, abstract: false, final false
   inline void InitialViewControllerWasPresented();
 
   static inline ::GlobalNamespace::MainFlowCoordinator* New_ctor();
 
-  /// @brief Method PresentFlowCoordinatorOrAskForTutorial, addr 0x5d41808, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method PresentFlowCoordinatorOrAskForTutorial, addr 0x5d7c20c, size 0x28c, virtual false, abstract: false, final false
   inline void PresentFlowCoordinatorOrAskForTutorial(::HMUI::FlowCoordinator* flowCoordinator);
 
   /// [AsyncStateMachine(typeof(MainFlowCoordinator::<PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator>d__44))]
-  /// @brief Method PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator, addr 0x5d41c58, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator, addr 0x5d7c65c, size 0xb4, virtual false, abstract: false, final false
   inline void PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator(bool presentImmediately);
 
   /// [AsyncStateMachine(typeof(MainFlowCoordinator::<ProcessMenuDestinationRequest>d__43))]
-  /// @brief Method ProcessMenuDestinationRequest, addr 0x5d422ec, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ProcessMenuDestinationRequest, addr 0x5d7ccfc, size 0xac, virtual false, abstract: false, final false
   inline void ProcessMenuDestinationRequest(::GlobalNamespace::MenuDestination* destination);
 
   /// [IteratorStateMachine(typeof(MainFlowCoordinator::<ProcessMenuDestinationRequestAfterFrameCoroutine>d__45))]
-  /// @brief Method ProcessMenuDestinationRequestAfterFrameCoroutine, addr 0x5d410e4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ProcessMenuDestinationRequestAfterFrameCoroutine, addr 0x5d7bae8, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ProcessMenuDestinationRequestAfterFrameCoroutine(::GlobalNamespace::MenuDestination* destination);
 
-  /// @brief Method TopViewControllerWillChange, addr 0x5d41144, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method TopViewControllerWillChange, addr 0x5d7bb48, size 0x194, virtual true, abstract: false, final false
   inline void TopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController, ::HMUI::ViewController_AnimationType animationType);
 
   /// [CompilerGenerated]
-  /// @brief Method <HandleMainMenuViewControllerDidFinish>b__31_0, addr 0x5d4257c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <HandleMainMenuViewControllerDidFinish>b__31_0, addr 0x5d7cf84, size 0x18, virtual false, abstract: false, final false
   inline void _HandleMainMenuViewControllerDidFinish_b__31_0();
 
   /// [CompilerGenerated]
-  /// @brief Method <PresentFlowCoordinatorOrAskForTutorial>b__30_0, addr 0x5d42448, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method <PresentFlowCoordinatorOrAskForTutorial>b__30_0, addr 0x5d7ce50, size 0x11c, virtual false, abstract: false, final false
   inline void _PresentFlowCoordinatorOrAskForTutorial_b__30_0(int32_t buttonNumber);
 
   /// [CompilerGenerated]
-  /// @brief Method <PresentFlowCoordinatorOrAskForTutorial>b__30_1, addr 0x5d42564, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <PresentFlowCoordinatorOrAskForTutorial>b__30_1, addr 0x5d7cf6c, size 0x18, virtual false, abstract: false, final false
   inline void _PresentFlowCoordinatorOrAskForTutorial_b__30_1();
 
   /// [CompilerGenerated]
-  /// @brief Method <PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator>b__44_0, addr 0x5d42594, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator>b__44_0, addr 0x5d7cf9c, size 0x4, virtual false, abstract: false, final false
   inline void _PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator_b__44_0(int32_t buttonNumber);
 
   constexpr ::GlobalNamespace::IAdditionalContentModel* const& __cordl_internal_get__additionalContentModel() const;
@@ -922,7 +922,7 @@ public:
 
   constexpr void __cordl_internal_set__soloFreePlayFlowCoordinator(::UnityW<::GlobalNamespace::SoloFreePlayFlowCoordinator> value);
 
-  /// @brief Method .ctor, addr 0x5d42440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d7ce48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline bool getStaticF__startWithSettings();
@@ -944,7 +944,7 @@ public:
   MainFlowCoordinator(MainFlowCoordinator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6959 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6966 };
 
   /// @brief Field kLabelOptionsLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kLabelOptionsLocalizationKey{ u"LABEL_OPTIONS" };
@@ -953,144 +953,144 @@ public:
   static constexpr ::ConstString kPromptHaventPlayedYetLocalizationKey{ u"PROMPT_HAVENT_PLAYED_YET" };
 
   /// [SerializeField]
-  /// @brief Field _defaultLightsPreset, offset: 0xb0, size: 0x8, def value: None
+  /// @brief Field _defaultLightsPreset, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____defaultLightsPreset;
 
   /// [Inject]
-  /// @brief Field _soloFreePlayFlowCoordinator, offset: 0xb8, size: 0x8, def value: None
+  /// @brief Field _soloFreePlayFlowCoordinator, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SoloFreePlayFlowCoordinator> ____soloFreePlayFlowCoordinator;
 
   /// [Inject]
-  /// @brief Field _partyFreePlayFlowCoordinator, offset: 0xc0, size: 0x8, def value: None
+  /// @brief Field _partyFreePlayFlowCoordinator, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PartyFreePlayFlowCoordinator> ____partyFreePlayFlowCoordinator;
 
   /// [Inject]
-  /// @brief Field _campaignFlowCoordinator, offset: 0xc8, size: 0x8, def value: None
+  /// @brief Field _campaignFlowCoordinator, offset: 0xc0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CampaignFlowCoordinator> ____campaignFlowCoordinator;
 
   /// [Inject]
-  /// @brief Field _settingsFlowCoordinator, offset: 0xd0, size: 0x8, def value: None
+  /// @brief Field _settingsFlowCoordinator, offset: 0xc8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SettingsFlowCoordinator> ____settingsFlowCoordinator;
 
   /// [Inject]
-  /// @brief Field _multiplayerModeSelectionFlowCoordinator, offset: 0xd8, size: 0x8, def value: None
+  /// @brief Field _multiplayerModeSelectionFlowCoordinator, offset: 0xd0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator> ____multiplayerModeSelectionFlowCoordinator;
 
   /// [Inject]
-  /// @brief Field _helpFlowCoordinator, offset: 0xe0, size: 0x8, def value: None
+  /// @brief Field _helpFlowCoordinator, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::HelpFlowCoordinator> ____helpFlowCoordinator;
 
   /// [Inject]
-  /// @brief Field _editAvatarFlowCoordinatorHelper, offset: 0xe8, size: 0x8, def value: None
+  /// @brief Field _editAvatarFlowCoordinatorHelper, offset: 0xe0, size: 0x8, def value: None
   ::GlobalNamespace::EditAvatarFlowCoordinatorHelper* ____editAvatarFlowCoordinatorHelper;
 
   /// [Inject]
-  /// @brief Field _simpleDialogPromptViewController, offset: 0xf0, size: 0x8, def value: None
+  /// @brief Field _simpleDialogPromptViewController, offset: 0xe8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> ____simpleDialogPromptViewController;
 
   /// [Inject]
-  /// @brief Field _mainMenuViewController, offset: 0xf8, size: 0x8, def value: None
+  /// @brief Field _mainMenuViewController, offset: 0xf0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainMenuViewController> ____mainMenuViewController;
 
   /// [Inject]
-  /// @brief Field _playerOptionsViewController, offset: 0x100, size: 0x8, def value: None
+  /// @brief Field _playerOptionsViewController, offset: 0xf8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerOptionsViewController> ____playerOptionsViewController;
 
   /// [Inject]
-  /// @brief Field _optionsViewController, offset: 0x108, size: 0x8, def value: None
+  /// @brief Field _optionsViewController, offset: 0x100, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OptionsViewController> ____optionsViewController;
 
   /// [Inject]
-  /// @brief Field _playerDataModel, offset: 0x110, size: 0x8, def value: None
+  /// @brief Field _playerDataModel, offset: 0x108, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
   /// [Inject]
-  /// @brief Field _menuLightsManager, offset: 0x118, size: 0x8, def value: None
+  /// @brief Field _menuLightsManager, offset: 0x110, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsManager> ____menuLightsManager;
 
   /// [Inject]
-  /// @brief Field _fadeInOut, offset: 0x120, size: 0x8, def value: None
+  /// @brief Field _fadeInOut, offset: 0x118, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FadeInOutController> ____fadeInOut;
 
   /// [Inject]
-  /// @brief Field _beatmapLevelsModel, offset: 0x128, size: 0x8, def value: None
+  /// @brief Field _beatmapLevelsModel, offset: 0x120, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
 
   /// [Inject]
-  /// @brief Field _menuTransitionsHelper, offset: 0x130, size: 0x8, def value: None
+  /// @brief Field _menuTransitionsHelper, offset: 0x128, size: 0x8, def value: None
   ::GlobalNamespace::MenuTransitionsHelper* ____menuTransitionsHelper;
 
   /// [Inject]
-  /// @brief Field _analyticsModel, offset: 0x138, size: 0x8, def value: None
+  /// @brief Field _analyticsModel, offset: 0x130, size: 0x8, def value: None
   ::GlobalNamespace::IAnalyticsModel* ____analyticsModel;
 
   /// [Inject]
-  /// @brief Field _avatarSystemCollection, offset: 0x140, size: 0x8, def value: None
+  /// @brief Field _avatarSystemCollection, offset: 0x138, size: 0x8, def value: None
   ::BeatSaber::AvatarCore::AvatarSystemCollection* ____avatarSystemCollection;
 
   /// [Inject]
-  /// @brief Field _additionalContentModel, offset: 0x148, size: 0x8, def value: None
+  /// @brief Field _additionalContentModel, offset: 0x140, size: 0x8, def value: None
   ::GlobalNamespace::IAdditionalContentModel* ____additionalContentModel;
 
   /// [InjectOptional]
-  /// @brief Field _menuDestinationRequest, offset: 0x150, size: 0x8, def value: None
+  /// @brief Field _menuDestinationRequest, offset: 0x148, size: 0x8, def value: None
   ::GlobalNamespace::MenuDestination* ____menuDestinationRequest;
 
-  /// @brief Field _afterDialogPromptFlowCoordinator, offset: 0x158, size: 0x8, def value: None
+  /// @brief Field _afterDialogPromptFlowCoordinator, offset: 0x150, size: 0x8, def value: None
   ::UnityW<::HMUI::FlowCoordinator> ____afterDialogPromptFlowCoordinator;
 
-  /// @brief Field _goToMultiplayerAfterAvatarCreation, offset: 0x160, size: 0x1, def value: None
+  /// @brief Field _goToMultiplayerAfterAvatarCreation, offset: 0x158, size: 0x1, def value: None
   bool ____goToMultiplayerAfterAvatarCreation;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____defaultLightsPreset) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____defaultLightsPreset) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____soloFreePlayFlowCoordinator) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____soloFreePlayFlowCoordinator) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____partyFreePlayFlowCoordinator) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____partyFreePlayFlowCoordinator) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____campaignFlowCoordinator) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____campaignFlowCoordinator) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____settingsFlowCoordinator) == 0xd0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____settingsFlowCoordinator) == 0xc8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____multiplayerModeSelectionFlowCoordinator) == 0xd8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____multiplayerModeSelectionFlowCoordinator) == 0xd0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____helpFlowCoordinator) == 0xe0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____helpFlowCoordinator) == 0xd8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____editAvatarFlowCoordinatorHelper) == 0xe8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____editAvatarFlowCoordinatorHelper) == 0xe0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____simpleDialogPromptViewController) == 0xf0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____simpleDialogPromptViewController) == 0xe8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____mainMenuViewController) == 0xf8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____mainMenuViewController) == 0xf0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____playerOptionsViewController) == 0x100, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____playerOptionsViewController) == 0xf8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____optionsViewController) == 0x108, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____optionsViewController) == 0x100, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____playerDataModel) == 0x110, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____playerDataModel) == 0x108, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____menuLightsManager) == 0x118, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____menuLightsManager) == 0x110, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____fadeInOut) == 0x120, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____fadeInOut) == 0x118, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____beatmapLevelsModel) == 0x128, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____beatmapLevelsModel) == 0x120, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____menuTransitionsHelper) == 0x130, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____menuTransitionsHelper) == 0x128, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____analyticsModel) == 0x138, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____analyticsModel) == 0x130, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____avatarSystemCollection) == 0x140, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____avatarSystemCollection) == 0x138, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____additionalContentModel) == 0x148, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____additionalContentModel) == 0x140, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____menuDestinationRequest) == 0x150, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____menuDestinationRequest) == 0x148, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____afterDialogPromptFlowCoordinator) == 0x158, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____afterDialogPromptFlowCoordinator) == 0x150, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____goToMultiplayerAfterAvatarCreation) == 0x160, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainFlowCoordinator, ____goToMultiplayerAfterAvatarCreation) == 0x158, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::MainFlowCoordinator) == 0x168, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::MainFlowCoordinator) == 0x160, "Size mismatch!");
 
 } // namespace GlobalNamespace

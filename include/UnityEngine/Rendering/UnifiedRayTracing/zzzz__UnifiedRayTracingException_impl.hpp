@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::UnifiedRayTracingException::*)(
     ::StringW, ::UnityEngine::Rendering::UnifiedRayTracing::UnifiedRayTracingError)>(&::UnityEngine::Rendering::UnifiedRayTracing::UnifiedRayTracingException::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6e0e450;
+  constexpr static std::size_t addrs = 0x6e4b0ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::UnifiedRayTracing::UnifiedRayTracingError (
     ::UnityEngine::Rendering::UnifiedRayTracing::UnifiedRayTracingException::*)()>(&::UnityEngine::Rendering::UnifiedRayTracing::UnifiedRayTracingException::get_errorCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e0e4c4;
+  constexpr static std::size_t addrs = 0x6e4b160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::UnifiedRayTracingException::*)(
     ::UnityEngine::Rendering::UnifiedRayTracing::UnifiedRayTracingError)>(&::UnityEngine::Rendering::UnifiedRayTracing::UnifiedRayTracingException::set_errorCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e0e4cc;
+  constexpr static std::size_t addrs = 0x6e4b168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

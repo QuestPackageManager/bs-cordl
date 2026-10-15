@@ -129,7 +129,7 @@ public:
   constexpr NativeParallelMultiHashMap_2_ParallelWriter(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelMultiHashMap_2_ParallelWriter<TKey, TValue> m_Writer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15911 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15944 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -303,7 +303,7 @@ public:
   static constexpr int32_t MaxCapacity{ static_cast<int32_t>(0x3fffffff) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15915 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15948 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -376,7 +376,7 @@ public:
                                                     ::Unity::Collections::NativeParallelMultiHashMapIterator_1<TKey> iterator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15912 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15945 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -458,7 +458,7 @@ public:
   constexpr NativeParallelMultiHashMap_2_KeyValueEnumerator(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator m_Enumerator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15913 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15946 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -576,7 +576,7 @@ public:
   constexpr NativeParallelMultiHashMap_2_ReadOnly(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelMultiHashMap_2<TKey, TValue> m_MultiHashMapData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15914 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15947 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

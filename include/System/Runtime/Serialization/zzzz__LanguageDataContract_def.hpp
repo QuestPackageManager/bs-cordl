@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Runtime::Serialization::LanguageDataContract* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6585884, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65c2454, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +39,7 @@ public:
   LanguageDataContract(LanguageDataContract const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16471 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16504 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -30,10 +30,10 @@ public:
   /// @brief Field s_PropertySyntaxCache, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_PropertySyntaxCache, put = setStaticF_s_PropertySyntaxCache)) ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* s_PropertySyntaxCache;
 
-  /// @brief Method TryGetNonTerminalValue, addr 0x71a12a8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method TryGetNonTerminalValue, addr 0x71de1dc, size 0x98, virtual false, abstract: false, final false
   static inline bool TryGetNonTerminalValue(::StringW name, ::by_ref<::StringW> syntax);
 
-  /// @brief Method TryGetSyntax, addr 0x71a1210, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method TryGetSyntax, addr 0x71de144, size 0x98, virtual false, abstract: false, final false
   static inline bool TryGetSyntax(::StringW name, ::by_ref<::StringW> syntax);
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* getStaticF_s_NonTerminalValues();

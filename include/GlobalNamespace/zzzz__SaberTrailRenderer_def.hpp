@@ -92,33 +92,36 @@ public:
   /// @brief Field _whiteSectionMaxDuration, offset 0x74, size 0x4
   __declspec(property(get = __cordl_internal_get__whiteSectionMaxDuration, put = __cordl_internal_set__whiteSectionMaxDuration)) float_t _whiteSectionMaxDuration;
 
-  /// @brief Method Init, addr 0x63702c4, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x63ace94, size 0x1a4, virtual true, abstract: false, final false
   inline void Init(float_t trailWidth, float_t trailDuration, int32_t granularity, float_t whiteSectionMaxDuration);
 
   static inline ::GlobalNamespace::SaberTrailRenderer* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x63705c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x63ad190, size 0xc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x6370738, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x63ad308, size 0x88, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x63706b0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x63ad280, size 0x88, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x63705cc, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x63ad19c, size 0xe4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method SetTrailWidth, addr 0x63707c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSortingOrder, addr 0x63ac070, size 0x18, virtual false, abstract: false, final false
+  inline void SetSortingOrder(int32_t sortingOrder);
+
+  /// @brief Method SetTrailWidth, addr 0x63ad390, size 0x8, virtual false, abstract: false, final false
   inline void SetTrailWidth(float_t width);
 
-  /// @brief Method UpdateIndices, addr 0x6370468, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method UpdateIndices, addr 0x63ad038, size 0x158, virtual false, abstract: false, final false
   inline void UpdateIndices();
 
-  /// @brief Method UpdateMesh, addr 0x636fc30, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method UpdateMesh, addr 0x63ac800, size 0x130, virtual false, abstract: false, final false
   inline void UpdateMesh(::GlobalNamespace::TrailElementCollection* trailElementCollection, ::UnityEngine::Color color);
 
-  /// @brief Method UpdateVertices, addr 0x63707c8, size 0x3b8, virtual true, abstract: false, final false
+  /// @brief Method UpdateVertices, addr 0x63ad398, size 0x3b8, virtual true, abstract: false, final false
   inline void UpdateVertices(::GlobalNamespace::TrailElementCollection* trailElementCollection, ::UnityEngine::Color color);
 
   constexpr ::ArrayW<::UnityEngine::Color> const& __cordl_internal_get__colors() const;
@@ -205,7 +208,7 @@ public:
 
   constexpr void __cordl_internal_set__whiteSectionMaxDuration(float_t value);
 
-  /// @brief Method .ctor, addr 0x6370e24, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63ad9f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Bounds getStaticF__bounds();
@@ -231,7 +234,7 @@ public:
   SaberTrailRenderer(SaberTrailRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23960 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24022 };
 
   /// @brief Field kMinMotionBlurSpeed offset 0xffffffff size 0x4
   static constexpr float_t kMinMotionBlurSpeed{ static_cast<float_t>(2.5f) };

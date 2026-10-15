@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::PlatformMissingDependenciesException::*)()>(
     &::OculusStudios::Platform::Core::PlatformMissingDependenciesException::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6349c98;
+  constexpr static std::size_t addrs = 0x6386770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::PlatformMissingDependenciesException::*)(::StringW)>(
     &::OculusStudios::Platform::Core::PlatformMissingDependenciesException::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6349cf0;
+  constexpr static std::size_t addrs = 0x63867c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::PlatformMissingDependenciesException::*)(::StringW, ::System::Exception*)>(
     &::OculusStudios::Platform::Core::PlatformMissingDependenciesException::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6349d5c;
+  constexpr static std::size_t addrs = 0x6386834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::PlatformMissingDependenciesException*>(),

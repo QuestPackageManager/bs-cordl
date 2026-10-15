@@ -43,10 +43,10 @@ public:
 
   static inline ::Tayx::Graphy::Fps::G_FpsMonitor___c* New_ctor();
 
-  /// @brief Method <Update>b__25_0, addr 0x6868b84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <Update>b__25_0, addr 0x68a5800, size 0xc, virtual false, abstract: false, final false
   inline int32_t _Update_b__25_0(int16_t x, int16_t y);
 
-  /// @brief Method .ctor, addr 0x6868b80, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68a57fc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Tayx::Graphy::Fps::G_FpsMonitor___c* getStaticF___9();
@@ -72,7 +72,7 @@ public:
   G_FpsMonitor___c(G_FpsMonitor___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22220 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22269 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -133,18 +133,18 @@ public:
   /// @brief Field m_zero1PercentSamples, offset 0x34, size 0x2
   __declspec(property(get = __cordl_internal_get_m_zero1PercentSamples, put = __cordl_internal_set_m_zero1PercentSamples)) int16_t m_zero1PercentSamples;
 
-  /// @brief Method Awake, addr 0x686875c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x68a53d8, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x6863324, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x689ffa0, size 0xb4, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Fps::G_FpsMonitor* New_ctor();
 
-  /// @brief Method Update, addr 0x6868760, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x68a53dc, size 0x3b4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateParameters, addr 0x686848c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x68a5108, size 0x40, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
   constexpr int16_t const& __cordl_internal_get__AverageFPS_k__BackingField() const;
@@ -219,39 +219,39 @@ public:
 
   constexpr void __cordl_internal_set_m_zero1PercentSamples(int16_t value);
 
-  /// @brief Method .ctor, addr 0x6868b14, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68a5790, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_AverageFPS, addr 0x686872c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AverageFPS, addr 0x68a53a8, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_AverageFPS();
 
   /// [CompilerGenerated]
-  /// @brief Method get_CurrentFPS, addr 0x686871c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentFPS, addr 0x68a5398, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_CurrentFPS();
 
   /// [CompilerGenerated]
-  /// @brief Method get_OnePercentFPS, addr 0x686873c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OnePercentFPS, addr 0x68a53b8, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_OnePercentFPS();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Zero1PercentFps, addr 0x686874c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Zero1PercentFps, addr 0x68a53c8, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_Zero1PercentFps();
 
   /// [CompilerGenerated]
-  /// @brief Method set_AverageFPS, addr 0x6868734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AverageFPS, addr 0x68a53b0, size 0x8, virtual false, abstract: false, final false
   inline void set_AverageFPS(int16_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_CurrentFPS, addr 0x6868724, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CurrentFPS, addr 0x68a53a0, size 0x8, virtual false, abstract: false, final false
   inline void set_CurrentFPS(int16_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_OnePercentFPS, addr 0x6868744, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_OnePercentFPS, addr 0x68a53c0, size 0x8, virtual false, abstract: false, final false
   inline void set_OnePercentFPS(int16_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Zero1PercentFps, addr 0x6868754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Zero1PercentFps, addr 0x68a53d0, size 0x8, virtual false, abstract: false, final false
   inline void set_Zero1PercentFps(int16_t value);
 
 protected:
@@ -269,7 +269,7 @@ public:
   G_FpsMonitor(G_FpsMonitor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22221 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22270 };
 
   /// @brief Field m_fpsSamples, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<int16_t> ___m_fpsSamples;

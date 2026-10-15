@@ -78,27 +78,27 @@ public:
 
   constexpr void __cordl_internal_set__obstaclesCount_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x399a3fc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39be9a0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t numberOfLines, int32_t cuttableNotesCount, int32_t cuttableScoringObjectsCount, int32_t obstaclesCount, int32_t bombsCount);
 
   /// [CompilerGenerated]
-  /// @brief Method get_bombsCount, addr 0x399a3f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bombsCount, addr 0x39be998, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_bombsCount();
 
   /// [CompilerGenerated]
-  /// @brief Method get_cuttableNotesCount, addr 0x399a3dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cuttableNotesCount, addr 0x39be980, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cuttableNotesCount();
 
   /// [CompilerGenerated]
-  /// @brief Method get_cuttableScoringObjectsCount, addr 0x399a3e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cuttableScoringObjectsCount, addr 0x39be988, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cuttableScoringObjectsCount();
 
   /// [CompilerGenerated]
-  /// @brief Method get_numberOfLines, addr 0x399a3d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numberOfLines, addr 0x39be978, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_numberOfLines();
 
   /// [CompilerGenerated]
-  /// @brief Method get_obstaclesCount, addr 0x399a3ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_obstaclesCount, addr 0x39be990, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_obstaclesCount();
 
 protected:
@@ -116,7 +116,7 @@ public:
   BeatmapDataBasicInfo(BeatmapDataBasicInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15123 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14340 };
 
   /// [CompilerGenerated]
   /// @brief Field <numberOfLines>k__BackingField, offset: 0x10, size: 0x4, def value: None

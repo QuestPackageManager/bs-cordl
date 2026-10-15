@@ -48,16 +48,16 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Timeline::ObjectId>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Timeline::ObjectId>*();
 
-  /// @brief Method CompareTo, addr 0x6defd18, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x6e2c9b4, size 0x14, virtual true, abstract: false, final true
   inline int32_t CompareTo(::UnityEngine::Timeline::ObjectId other);
 
-  /// @brief Method Equals, addr 0x6defc80, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6e2c91c, size 0x88, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6defd08, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6e2c9a4, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Timeline::ObjectId other);
 
-  /// @brief Method GetHashCode, addr 0x6defe2c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6e2cac8, size 0x68, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   constexpr ::UnityEngine::EntityId const& __cordl_internal_get_m_Data() const;
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set_m_IntData(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6defc6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e2c908, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::EntityId data);
 
   static inline ::UnityEngine::Timeline::ObjectId getStaticF_InvalidId();
@@ -83,34 +83,34 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Timeline::ObjectId>"
   constexpr ::System::IEquatable_1<::UnityEngine::Timeline::ObjectId>* i___System__IEquatable_1___UnityEngine__Timeline__ObjectId_();
 
-  /// @brief Method op_Equality, addr 0x6defd2c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6e2c9c8, size 0x68, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Timeline::ObjectId left, ::UnityEngine::Timeline::ObjectId right);
 
-  /// @brief Method op_GreaterThan, addr 0x6defe08, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThan, addr 0x6e2caa4, size 0xc, virtual false, abstract: false, final false
   static inline bool op_GreaterThan(::UnityEngine::Timeline::ObjectId left, ::UnityEngine::Timeline::ObjectId right);
 
-  /// @brief Method op_GreaterThanOrEqual, addr 0x6defe20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThanOrEqual, addr 0x6e2cabc, size 0xc, virtual false, abstract: false, final false
   static inline bool op_GreaterThanOrEqual(::UnityEngine::Timeline::ObjectId left, ::UnityEngine::Timeline::ObjectId right);
 
-  /// @brief Method op_Implicit, addr 0x6defc74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6e2c910, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::EntityId op_Implicit___UnityEngine__EntityId(::UnityEngine::Timeline::ObjectId objectId);
 
-  /// @brief Method op_Implicit, addr 0x6def7b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6e2c450, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Timeline::ObjectId op_Implicit___UnityEngine__Timeline__ObjectId(::UnityEngine::EntityId entityId);
 
-  /// @brief Method op_Implicit, addr 0x6defc7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6e2c918, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Timeline::ObjectId op_Implicit___UnityEngine__Timeline__ObjectId(int32_t instanceId);
 
-  /// @brief Method op_Implicit, addr 0x6defc78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6e2c914, size 0x4, virtual false, abstract: false, final false
   static inline int32_t op_Implicit_int32_t(::UnityEngine::Timeline::ObjectId objectId);
 
-  /// @brief Method op_Inequality, addr 0x6defd94, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6e2ca30, size 0x68, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Timeline::ObjectId left, ::UnityEngine::Timeline::ObjectId right);
 
-  /// @brief Method op_LessThan, addr 0x6defdfc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_LessThan, addr 0x6e2ca98, size 0xc, virtual false, abstract: false, final false
   static inline bool op_LessThan(::UnityEngine::Timeline::ObjectId left, ::UnityEngine::Timeline::ObjectId right);
 
-  /// @brief Method op_LessThanOrEqual, addr 0x6defe14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_LessThanOrEqual, addr 0x6e2cab0, size 0xc, virtual false, abstract: false, final false
   static inline bool op_LessThanOrEqual(::UnityEngine::Timeline::ObjectId left, ::UnityEngine::Timeline::ObjectId right);
 
   static inline void setStaticF_InvalidId(::UnityEngine::Timeline::ObjectId value);
@@ -160,7 +160,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19333 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19366 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

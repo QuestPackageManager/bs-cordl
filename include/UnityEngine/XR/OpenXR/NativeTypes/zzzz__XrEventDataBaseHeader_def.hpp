@@ -28,18 +28,18 @@ public:
 
   __declspec(property(get = get_type)) ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type;
 
-  /// @brief Method .ctor, addr 0x6e3d994, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7a630, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type);
 
-  /// @brief Method .ctor, addr 0x6e3d988, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7a624, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type, void* next);
 
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e3d980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x6e7a61c, size 0x8, virtual false, abstract: false, final false
   inline void* get_next();
 
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e3d978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6e7a614, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   // Ctor Parameters []
@@ -51,7 +51,7 @@ public:
   constexpr XrEventDataBaseHeader(::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType _type_k__BackingField, void* _next_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17509 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17542 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

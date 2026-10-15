@@ -52,10 +52,10 @@ public:
 
   static inline ::UnityEngine::LowLevelPhysics2D::PhysicsLayers_LayerNames* New_ctor();
 
-  /// @brief Method OnAfterDeserialize, addr 0x6fd43c0, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method OnAfterDeserialize, addr 0x70112b4, size 0xe4, virtual true, abstract: false, final true
   inline void OnAfterDeserialize();
 
-  /// @brief Method OnBeforeSerialize, addr 0x6fd43bc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnBeforeSerialize, addr 0x70112b0, size 0x4, virtual true, abstract: false, final true
   inline void OnBeforeSerialize();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* const& __cordl_internal_get_m_NameMap() const;
@@ -70,16 +70,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Names(::ArrayW<::StringW> value);
 
-  /// @brief Method .ctor, addr 0x6fd44a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7011398, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DefaultLayerNames, addr 0x6fd1cbc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultLayerNames, addr 0x700ebb0, size 0xd0, virtual false, abstract: false, final false
   static inline ::UnityEngine::LowLevelPhysics2D::PhysicsLayers_LayerNames* get_DefaultLayerNames();
 
-  /// @brief Method get_NameMap, addr 0x6fd4328, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_NameMap, addr 0x701121c, size 0x94, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* get_NameMap();
 
-  /// @brief Method get_Names, addr 0x6fd42c0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_Names, addr 0x70111b4, size 0x68, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> get_Names();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
@@ -100,7 +100,7 @@ public:
   PhysicsLayers_LayerNames(PhysicsLayers_LayerNames const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21518 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21565 };
 
   /// [SerializeField]
   /// @brief Field m_Names, offset: 0x10, size: 0x8, def value: None
@@ -135,7 +135,7 @@ public:
   constexpr PhysicsLayers();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21519 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21566 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

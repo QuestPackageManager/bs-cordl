@@ -21,18 +21,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE BitMaskUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NumberOfSetBits, addr 0x34ded1c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method NumberOfSetBits, addr 0x34f7158, size 0x14, virtual false, abstract: false, final false
   static inline uint32_t NumberOfSetBits(uint32_t i);
 
-  /// @brief Method NumberOfSetBits, addr 0x34e6d8c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method NumberOfSetBits, addr 0x34ff1dc, size 0x30, virtual false, abstract: false, final false
   static inline uint32_t NumberOfSetBits(uint64_t i);
 
   /// [Extension]
-  /// @brief Method ShiftLeft, addr 0x34e6dbc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ShiftLeft, addr 0x34ff20c, size 0x44, virtual false, abstract: false, final false
   static inline uint64_t ShiftLeft(/* [IsReadOnly] */ ::by_ref<uint64_t const> value, /* [IsReadOnly] */ ::by_ref<int32_t const> shift);
 
   /// [Extension]
-  /// @brief Method ShiftRight, addr 0x34e6e00, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ShiftRight, addr 0x34ff250, size 0x5c, virtual false, abstract: false, final false
   static inline uint64_t ShiftRight(/* [IsReadOnly] */ ::by_ref<uint64_t const> value, /* [IsReadOnly] */ ::by_ref<int32_t const> shift);
 
 protected:
@@ -50,7 +50,7 @@ public:
   BitMaskUtil(BitMaskUtil const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22005 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22054 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

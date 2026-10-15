@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSetWeakReference::*)(::UnityEngine::Rendering::ProbeVolumeBakingSet*)>(
     &::UnityEngine::Rendering::ProbeVolumeBakingSetWeakReference::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6bb12bc;
+  constexpr static std::size_t addrs = 0x6bedf38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeBakingSetWeakReference*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSetWeakReference::*)()>(&::UnityEngine::Rendering::ProbeVolumeBakingSetWeakReference::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb1354;
+  constexpr static std::size_t addrs = 0x6bedfd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeBakingSetWeakReference*>(), { ".ctor", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSetWeakReference::*)(::UnityEngine::Rendering::ProbeVolumeBakingSet*)>(
     &::UnityEngine::Rendering::ProbeVolumeBakingSetWeakReference::Set)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6bb12c0;
+  constexpr static std::size_t addrs = 0x6bedf3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeBakingSetWeakReference*>(),
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Rendering::ProbeVolumeBakingSet> (::UnityEngine::Rendering::ProbeVolumeBakingSetWeakReference::*)()>(
     &::UnityEngine::Rendering::ProbeVolumeBakingSetWeakReference::Get)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6bb135c;
+  constexpr static std::size_t addrs = 0x6bedfd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeBakingSetWeakReference*>(), { "Get", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeBakingSetWeakReference::*)()>(
     &::UnityEngine::Rendering::ProbeVolumeBakingSetWeakReference::IsLoaded)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6bb13c0;
+  constexpr static std::size_t addrs = 0x6bee03c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeBakingSetWeakReference*>(), { "IsLoaded", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingSetWeakReference::*)()>(&::UnityEngine::Rendering::ProbeVolumeBakingSetWeakReference::Unload)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6bb1408;
+  constexpr static std::size_t addrs = 0x6bee084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeBakingSetWeakReference*>(), { "Unload", {}, {} })));

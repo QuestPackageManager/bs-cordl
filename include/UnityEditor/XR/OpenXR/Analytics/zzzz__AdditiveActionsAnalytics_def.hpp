@@ -40,7 +40,7 @@ public:
   constexpr AdditiveActionsAnalytics_Payload(::StringW additive_profile_name, ::ArrayW<::StringW> augmented_profiles, ::ArrayW<::StringW> additive_action_names) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17666 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17699 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -75,7 +75,7 @@ public:
   // Declarations
   using Payload = ::UnityEditor::XR::OpenXR::Analytics::AdditiveActionsAnalytics_Payload;
 
-  /// @brief Method Send, addr 0x6e6d284, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Send, addr 0x6ea9f20, size 0x4, virtual false, abstract: false, final false
   static inline void Send(::StringW additiveProfileName, ::ArrayW<::StringW> augmentedProfiles, ::ArrayW<::StringW> additiveActionNames);
 
 protected:
@@ -93,7 +93,7 @@ public:
   AdditiveActionsAnalytics(AdditiveActionsAnalytics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17667 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17700 };
 
   /// @brief Field kEventName offset 0xffffffff size 0x8
   static constexpr ::ConstString kEventName{ u"xr_additive_playmode_usage" };

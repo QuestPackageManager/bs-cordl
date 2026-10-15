@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::Rendering::RendererUtils::RendererListDesc::*)()>(
     &::UnityEngine::Rendering::RendererUtils::RendererListDesc::get_batchLayerMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f8bdb0;
+  constexpr static std::size_t addrs = 0x6fc8c8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::CullingResults (::UnityEngine::Rendering::RendererUtils::RendererListDesc::*)()>(
     &::UnityEngine::Rendering::RendererUtils::RendererListDesc::get_cullingResult)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6f8bdb8;
+  constexpr static std::size_t addrs = 0x6fc8c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Camera> (::UnityEngine::Rendering::RendererUtils::RendererListDesc::*)()>(
     &::UnityEngine::Rendering::RendererUtils::RendererListDesc::get_camera)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f8bdc4;
+  constexpr static std::size_t addrs = 0x6fc8ca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RendererUtils::RendererListDesc>(), { "get_camera", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ShaderTagId (::UnityEngine::Rendering::RendererUtils::RendererListDesc::*)()>(
     &::UnityEngine::Rendering::RendererUtils::RendererListDesc::get_passName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f8bdcc;
+  constexpr static std::size_t addrs = 0x6fc8ca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RendererUtils::RendererListDesc>(), { "get_passName", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Rendering::ShaderTagId> (::UnityEngine::Rendering::RendererUtils::RendererListDesc::*)()>(
     &::UnityEngine::Rendering::RendererUtils::RendererListDesc::get_passNames)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f8bdd4;
+  constexpr static std::size_t addrs = 0x6fc8cb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RendererUtils::RendererListDesc>(), { "get_passNames", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RendererUtils::RendererListDesc::*)()>(&::UnityEngine::Rendering::RendererUtils::RendererListDesc::IsValid)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6f8bddc;
+  constexpr static std::size_t addrs = 0x6fc8cb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RendererUtils::RendererListDesc>(), { "IsValid", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RendererListParams (*)(::by_ref<::UnityEngine::Rendering::RendererUtils::RendererListDesc const>)>(
     &::UnityEngine::Rendering::RendererUtils::RendererListDesc::ConvertToParameters)> {
   constexpr static std::size_t size = 0x750;
-  constexpr static std::size_t addrs = 0x6f8bf00;
+  constexpr static std::size_t addrs = 0x6fc8ddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

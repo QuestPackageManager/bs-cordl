@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::LocalAppContextSwitches::get_AllowArbitraryTypeInstantiation)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x64195b0;
+  constexpr static std::size_t addrs = 0x6456180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::LocalAppContextSwitches*>(), { "get_AllowArbitraryTypeInstantiation", {}, {} })));

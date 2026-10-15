@@ -35,13 +35,13 @@ public:
   __declspec(property(get = getStaticF_visitedFontAssets,
                       put = setStaticF_visitedFontAssets)) ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* visitedFontAssets;
 
-  /// @brief Method ConvertFontToFontAsset, addr 0x70515dc, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method ConvertFontToFontAsset, addr 0x708e4d0, size 0x124, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> ConvertFontToFontAsset(::UnityEngine::Font* font);
 
-  /// @brief Method SetHideFlags, addr 0x70517a8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SetHideFlags, addr 0x708e69c, size 0xc0, virtual false, abstract: false, final false
   static inline void SetHideFlags(::UnityEngine::TextCore::Text::FontAsset* fontAsset);
 
-  /// @brief Method SetupFontAssetSettings, addr 0x7051700, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetupFontAssetSettings, addr 0x708e5f4, size 0xa8, virtual false, abstract: false, final false
   static inline void SetupFontAssetSettings(::UnityEngine::TextCore::Text::FontAsset* fontAsset);
 
   static inline ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* getStaticF_visitedFontAssets();
@@ -63,7 +63,7 @@ public:
   FontAssetFactory(FontAssetFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17823 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17856 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

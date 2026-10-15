@@ -221,13 +221,13 @@ public:
 
   constexpr void __cordl_internal_set_uberPostPS(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x6c75c8c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cb2908, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isAvailableInPlayerBuild, addr 0x6c75c84, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isAvailableInPlayerBuild, addr 0x6cb2900, size 0x8, virtual true, abstract: false, final true
   inline bool get_isAvailableInPlayerBuild();
 
-  /// @brief Method get_version, addr 0x6c75c7c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_version, addr 0x6cb28f8, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
@@ -251,7 +251,7 @@ public:
   PostProcessData_ShaderResources(PostProcessData_ShaderResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12793 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12800 };
 
   /// [ResourcePath("Shaders/PostProcessing/StopNaN.shader", (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field stopNanPS, offset: 0x10, size: 0x8, def value: None
@@ -430,13 +430,13 @@ public:
 
   constexpr void __cordl_internal_set_smaaSearchTex(::UnityW<::UnityEngine::Texture2D> value);
 
-  /// @brief Method .ctor, addr 0x6c75ca0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cb291c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isAvailableInPlayerBuild, addr 0x6c75c98, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isAvailableInPlayerBuild, addr 0x6cb2914, size 0x8, virtual true, abstract: false, final true
   inline bool get_isAvailableInPlayerBuild();
 
-  /// @brief Method get_version, addr 0x6c75c90, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_version, addr 0x6cb290c, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
@@ -460,7 +460,7 @@ public:
   PostProcessData_TextureResources(PostProcessData_TextureResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12794 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12801 };
 
   /// [ResourceFormattedPaths("Textures/BlueNoise16/L/LDR_LLL1_{0}.png", 0, 32, (UnityEngine.Rendering.SearchType)0)]
   /// @brief Field blueNoise16LTex, offset: 0x10, size: 0x8, def value: None
@@ -532,7 +532,7 @@ public:
 
   constexpr void __cordl_internal_set_textures(::UnityEngine::Rendering::Universal::PostProcessData_TextureResources* value);
 
-  /// @brief Method .ctor, addr 0x6c75c74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cb28f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -550,7 +550,7 @@ public:
   PostProcessData(PostProcessData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12795 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12802 };
 
   /// @brief Field shaders, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::PostProcessData_ShaderResources* ___shaders;

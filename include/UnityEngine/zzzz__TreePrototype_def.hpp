@@ -44,13 +44,13 @@ public:
 
   __declspec(property(get = get_prefab)) ::UnityW<::UnityEngine::GameObject> prefab;
 
-  /// @brief Method Equals, addr 0x701988c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x7056780, size 0x70, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x70198fc, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x70567f0, size 0xf8, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::TreePrototype* other);
 
-  /// @brief Method GetHashCode, addr 0x70199f4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x70568e8, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::TreePrototype* New_ctor();
@@ -73,16 +73,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Prefab(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x7019888, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x705677c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bendFactor, addr 0x7019878, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bendFactor, addr 0x705676c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bendFactor();
 
-  /// @brief Method get_navMeshLod, addr 0x7019880, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_navMeshLod, addr 0x7056774, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_navMeshLod();
 
-  /// @brief Method get_prefab, addr 0x7019870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_prefab, addr 0x7056764, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_prefab();
 
 protected:
@@ -100,7 +100,7 @@ public:
   TreePrototype(TreePrototype const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23129 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23209 };
 
   /// [NativeName("prefab")]
   /// @brief Field m_Prefab, offset: 0x10, size: 0x8, def value: None

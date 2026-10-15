@@ -49,40 +49,40 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::SyncStateId>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::SyncStateId>*();
 
-  /// @brief Method Before, addr 0x35cb1b0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Before, addr 0x35edb14, size 0x2c, virtual false, abstract: false, final false
   inline bool Before(::GlobalNamespace::SyncStateId other);
 
-  /// @brief Method CreateFromSerializedData, addr 0x35cb26c, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method CreateFromSerializedData, addr 0x35edbd0, size 0x18, virtual true, abstract: false, final true
   inline ::GlobalNamespace::SyncStateId CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Deserialize, addr 0x35cb22c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x35edb90, size 0x14, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::SyncStateId Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method DeserializeWithFlag, addr 0x35cb240, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method DeserializeWithFlag, addr 0x35edba4, size 0x2c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::SyncStateId DeserializeWithFlag(::LiteNetLib::Utils::NetDataReader* reader, ::by_ref<bool> flag);
 
-  /// @brief Method Equals, addr 0x35cb0dc, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x35eda40, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x35cb0cc, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x35eda30, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::SyncStateId other);
 
-  /// @brief Method GetHashCode, addr 0x35cb158, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x35edabc, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Increment, addr 0x35cb1a0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Increment, addr 0x35edb04, size 0x10, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SyncStateId Increment();
 
-  /// @brief Method Serialize, addr 0x35cb1dc, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x35edb40, size 0x20, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method SerializeWithFlag, addr 0x35cb1fc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SerializeWithFlag, addr 0x35edb60, size 0x30, virtual false, abstract: false, final false
   inline void SerializeWithFlag(::LiteNetLib::Utils::NetDataWriter* writer, bool flag);
 
-  /// @brief Method ToString, addr 0x35cb160, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x35edac4, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x35cb0c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35eda28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint8_t id);
 
   /// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable"
@@ -94,10 +94,10 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::SyncStateId>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::SyncStateId>* i___System__IEquatable_1___GlobalNamespace__SyncStateId_();
 
-  /// @brief Method op_Equality, addr 0x35cb180, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x35edae4, size 0x10, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::SyncStateId a, ::GlobalNamespace::SyncStateId b);
 
-  /// @brief Method op_Inequality, addr 0x35cb190, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x35edaf4, size 0x10, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::SyncStateId a, ::GlobalNamespace::SyncStateId b);
 
   // Ctor Parameters []
@@ -108,7 +108,7 @@ public:
   constexpr SyncStateId(uint8_t _id) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18834 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18867 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

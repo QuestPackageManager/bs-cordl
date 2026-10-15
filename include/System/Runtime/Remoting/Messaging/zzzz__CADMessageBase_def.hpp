@@ -60,39 +60,39 @@ public:
   /// @brief Field serializedMethod, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_serializedMethod, put = __cordl_internal_set_serializedMethod)) ::ArrayW<uint8_t> serializedMethod;
 
-  /// @brief Method GetLogicalCallContext, addr 0x5f5a330, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetLogicalCallContext, addr 0x5f96c18, size 0x94, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* GetLogicalCallContext(::System::Collections::ArrayList* args);
 
-  /// @brief Method GetMethod, addr 0x5f588e0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetMethod, addr 0x5f951c8, size 0x84, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodBase* GetMethod();
 
-  /// @brief Method GetSignature, addr 0x5f58964, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method GetSignature, addr 0x5f9524c, size 0x1c0, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Type*> GetSignature(::System::Reflection::MethodBase* methodBase, bool load);
 
-  /// @brief Method IsPossibleToIgnoreMarshal, addr 0x5f594e8, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method IsPossibleToIgnoreMarshal, addr 0x5f95dd0, size 0x17c, virtual false, abstract: false, final false
   static inline bool IsPossibleToIgnoreMarshal(::System::Object* obj);
 
-  /// @brief Method MarshalArgument, addr 0x5f59664, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method MarshalArgument, addr 0x5f95f4c, size 0x16c, virtual false, abstract: false, final false
   inline ::System::Object* MarshalArgument(::System::Object* arg, ::by_ref<::System::Collections::ArrayList*> args);
 
-  /// @brief Method MarshalArguments, addr 0x5f59f1c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method MarshalArguments, addr 0x5f96804, size 0xf4, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*> MarshalArguments(::ArrayW<::System::Object*> arguments, ::by_ref<::System::Collections::ArrayList*> args);
 
-  /// @brief Method MarshalProperties, addr 0x5f58b24, size 0x6e4, virtual false, abstract: false, final false
+  /// @brief Method MarshalProperties, addr 0x5f9540c, size 0x6e4, virtual false, abstract: false, final false
   static inline int32_t MarshalProperties(::System::Collections::IDictionary* dict, ::by_ref<::System::Collections::ArrayList*> args);
 
   static inline ::System::Runtime::Remoting::Messaging::CADMessageBase* New_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* msg);
 
-  /// @brief Method SaveLogicalCallContext, addr 0x5f5a104, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method SaveLogicalCallContext, addr 0x5f969ec, size 0x22c, virtual false, abstract: false, final false
   inline void SaveLogicalCallContext(::System::Runtime::Remoting::Messaging::IMethodMessage* msg, ::by_ref<::System::Collections::ArrayList*> serializeList);
 
-  /// @brief Method UnmarshalArgument, addr 0x5f597d0, size 0x74c, virtual false, abstract: false, final false
+  /// @brief Method UnmarshalArgument, addr 0x5f960b8, size 0x74c, virtual false, abstract: false, final false
   inline ::System::Object* UnmarshalArgument(::System::Object* arg, ::System::Collections::ArrayList* args);
 
-  /// @brief Method UnmarshalArguments, addr 0x5f5a010, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method UnmarshalArguments, addr 0x5f968f8, size 0xf4, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*> UnmarshalArguments(::ArrayW<::System::Object*> arguments, ::System::Collections::ArrayList* args);
 
-  /// @brief Method UnmarshalProperties, addr 0x5f593a8, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method UnmarshalProperties, addr 0x5f95c90, size 0x140, virtual false, abstract: false, final false
   static inline void UnmarshalProperties(::System::Collections::IDictionary* dict, int32_t count, ::System::Collections::ArrayList* args);
 
   constexpr ::ArrayW<::System::Object*> const& __cordl_internal_get__args() const;
@@ -125,7 +125,7 @@ public:
 
   constexpr void __cordl_internal_set_serializedMethod(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x5f58860, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f95148, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* msg);
 
 protected:

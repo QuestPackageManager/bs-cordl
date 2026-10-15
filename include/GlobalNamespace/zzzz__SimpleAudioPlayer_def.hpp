@@ -46,24 +46,24 @@ public:
 
   __declspec(property(get = get_activeAudioClip)) ::UnityW<::UnityEngine::AudioClip> activeAudioClip;
 
-  /// @brief Method FadeIn, addr 0x5cd0cbc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method FadeIn, addr 0x5d09ca8, size 0x3c, virtual false, abstract: false, final false
   inline void FadeIn(float_t duration);
 
-  /// @brief Method FadeOut, addr 0x5cd0e30, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method FadeOut, addr 0x5d09e1c, size 0x38, virtual true, abstract: false, final false
   inline void FadeOut(float_t duration);
 
   static inline ::GlobalNamespace::SimpleAudioPlayer* New_ctor();
 
-  /// @brief Method PauseCurrentChannel, addr 0x5cd0e68, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method PauseCurrentChannel, addr 0x5d09e54, size 0x18, virtual true, abstract: false, final false
   inline void PauseCurrentChannel();
 
-  /// @brief Method Start, addr 0x5cd0c40, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5d09c2c, size 0x7c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UnPauseCurrentChannel, addr 0x5cd0e80, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method UnPauseCurrentChannel, addr 0x5d09e6c, size 0x18, virtual true, abstract: false, final false
   inline void UnPauseCurrentChannel();
 
-  /// @brief Method Update, addr 0x5cd0cf8, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5d09ce4, size 0x138, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__audioClip() const;
@@ -102,10 +102,10 @@ public:
 
   constexpr void __cordl_internal_set__targetVolume(float_t value);
 
-  /// @brief Method .ctor, addr 0x5cd0e98, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d09e84, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activeAudioClip, addr 0x5cd0c38, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_activeAudioClip, addr 0x5d09c24, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioClip> get_activeAudioClip();
 
 protected:

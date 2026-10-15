@@ -47,13 +47,13 @@ public:
 
   static inline ::OculusStudios::MetaNetworking::Utils::MetaApiUserAgentProviderBase* New_ctor();
 
-  /// @brief Method SetHeader, addr 0x63493ac, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method SetHeader, addr 0x6385e84, size 0xdc, virtual true, abstract: false, final true
   inline void SetHeader(::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* headers);
 
-  /// @brief Method SetHeader, addr 0x6349330, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetHeader, addr 0x6385e08, size 0x7c, virtual true, abstract: false, final true
   inline void SetHeader(::System::Net::Http::Headers::HttpRequestHeaders* headers);
 
-  /// @brief Method SetUserAgent, addr 0x6349488, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetUserAgent, addr 0x6385f60, size 0x24, virtual false, abstract: false, final false
   inline void SetUserAgent(::StringW userAgent);
 
   constexpr ::StringW const& __cordl_internal_get__userAgent() const;
@@ -68,15 +68,15 @@ public:
 
   constexpr void __cordl_internal_set_userAgentDidChangeEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x63494ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6385f84, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [NullableContext(2)]
   /// [CompilerGenerated]
-  /// @brief Method add_userAgentDidChangeEvent, addr 0x63491d8, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_userAgentDidChangeEvent, addr 0x6385cb0, size 0xac, virtual true, abstract: false, final true
   inline void add_userAgentDidChangeEvent(::System::Action* value);
 
-  /// @brief Method get_userAgent, addr 0x63491cc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_userAgent, addr 0x6385ca4, size 0xc, virtual true, abstract: false, final true
   inline ::StringW get_userAgent();
 
   /// @brief Convert to "::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider"
@@ -84,7 +84,7 @@ public:
 
   /// [NullableContext(2)]
   /// [CompilerGenerated]
-  /// @brief Method remove_userAgentDidChangeEvent, addr 0x6349284, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_userAgentDidChangeEvent, addr 0x6385d5c, size 0xac, virtual true, abstract: false, final true
   inline void remove_userAgentDidChangeEvent(::System::Action* value);
 
 protected:
@@ -102,7 +102,7 @@ public:
   MetaApiUserAgentProviderBase(MetaApiUserAgentProviderBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24252 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24334 };
 
   /// @brief Field _userAgent, offset: 0x10, size: 0x8, def value: None
   ::StringW ____userAgent;

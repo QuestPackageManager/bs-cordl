@@ -96,28 +96,28 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AdvanceFrame, addr 0x71625e8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method AdvanceFrame, addr 0x719f51c, size 0x13c, virtual false, abstract: false, final false
   inline void AdvanceFrame();
 
-  /// @brief Method BeginSerialize, addr 0x71628cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method BeginSerialize, addr 0x719f800, size 0x28, virtual false, abstract: false, final false
   inline void BeginSerialize(::UnityEngine::UIElements::TextureSlotCount textureSlotCount);
 
-  /// @brief Method Dispose, addr 0x7162b1c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x719fa50, size 0x8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x7162b24, size 0x52c, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x719fa58, size 0x52c, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EndSerialize, addr 0x71628f4, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method EndSerialize, addr 0x719f828, size 0x218, virtual false, abstract: false, final false
   inline void EndSerialize();
 
-  /// @brief Method GetOrCreateCommandList, addr 0x7162488, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateCommandList, addr 0x719f3bc, size 0x160, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::CommandList* GetOrCreateCommandList(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::Material* material,
                                                                              ::UnityEngine::UIElements::UIR::CommandFlags commandFlags);
 
   static inline ::UnityEngine::UIElements::UIR::CommandListManager* New_ctor(::System::IntPtr vertexDecl, ::System::IntPtr defaultStencilState);
 
-  /// @brief Method ResetUIRendererDrawCallData, addr 0x7162724, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method ResetUIRendererDrawCallData, addr 0x719f658, size 0x1a8, virtual false, abstract: false, final false
   inline void ResetUIRendererDrawCallData();
 
   constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
@@ -180,21 +180,21 @@ public:
 
   constexpr void __cordl_internal_set_m_VertexDecl(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x716228c, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x719f1c0, size 0x1f4, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr vertexDecl, ::System::IntPtr defaultStencilState);
 
-  /// @brief Method get_defaultCommandList, addr 0x7162480, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultCommandList, addr 0x719f3b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::CommandList* get_defaultCommandList();
 
   /// [CompilerGenerated]
-  /// @brief Method get_disposed, addr 0x7162b0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x719fa40, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_disposed, addr 0x7162b14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x719fa48, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:

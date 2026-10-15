@@ -23,7 +23,7 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE OcclusionTestComputeShader {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x6c6900c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6ca5c88, size 0x84, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::ComputeShader* cs);
 
   // Ctor Parameters []
@@ -35,7 +35,7 @@ public:
   constexpr OcclusionTestComputeShader(::UnityW<::UnityEngine::ComputeShader> cs, ::UnityEngine::Rendering::LocalKeyword occlusionDebugKeyword) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18304 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18337 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

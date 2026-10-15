@@ -31,15 +31,15 @@ namespace GlobalNamespace {
 class CORDL_TYPE ConnectedPlayerExtension : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ApplyIdentityData, addr 0x352dc58, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ApplyIdentityData, addr 0x354ebb0, size 0xe4, virtual false, abstract: false, final false
   inline void ApplyIdentityData(::GlobalNamespace::BeatSaberPlayerIdentityPacketData identityData, ::GlobalNamespace::IBeatSaberConnectedPlayer* player);
 
-  /// @brief Method BuildIdentityData, addr 0x352db54, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method BuildIdentityData, addr 0x354eaac, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatSaberPlayerIdentityPacketData BuildIdentityData(::GlobalNamespace::MultiplayerAvatarsData avatars, ::GlobalNamespace::MultiplayerActiveHand activeHand);
 
   static inline ::GlobalNamespace::ConnectedPlayerExtension* New_ctor();
 
-  /// @brief Method .ctor, addr 0x352db28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x354ea80, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +57,7 @@ public:
   ConnectedPlayerExtension(ConnectedPlayerExtension const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19463 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19497 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

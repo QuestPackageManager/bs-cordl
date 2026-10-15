@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualData (::UnityEngine::UIElements::VisualData::*)()>(&::UnityEngine::UIElements::VisualData::Copy)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x70f21a8;
+  constexpr static std::size_t addrs = 0x712f0dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualData>(), { "Copy", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualData::*)(::by_ref<::UnityEngine::UIElements::VisualData>)>(
     &::UnityEngine::UIElements::VisualData::CopyFrom)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x70f2324;
+  constexpr static std::size_t addrs = 0x712f258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::VisualData, ::UnityEngine::UIElements::VisualData)>(&::UnityEngine::UIElements::VisualData::op_Equality)> {
   constexpr static std::size_t size = 0x390;
-  constexpr static std::size_t addrs = 0x70f2484;
+  constexpr static std::size_t addrs = 0x712f3b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualData::*)(::UnityEngine::UIElements::VisualData)>(&::UnityEngine::UIElements::VisualData::Equals)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x70f2814;
+  constexpr static std::size_t addrs = 0x712f748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualData::*)(::System::Object*)>(&::UnityEngine::UIElements::VisualData::Equals)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x70f2860;
+  constexpr static std::size_t addrs = 0x712f794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::VisualData::*)()>(&::UnityEngine::UIElements::VisualData::GetHashCode)> {
   constexpr static std::size_t size = 0x3ec;
-  constexpr static std::size_t addrs = 0x70f2904;
+  constexpr static std::size_t addrs = 0x712f838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

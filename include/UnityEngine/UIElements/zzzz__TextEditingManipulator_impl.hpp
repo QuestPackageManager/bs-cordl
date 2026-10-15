@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TextEditorEventHandler* (::UnityEngine::UIElements::TextEditingManipulator::*)()>(
     &::UnityEngine::UIElements::TextEditingManipulator::get_touchScreenEditingEventHandler)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7125930;
+  constexpr static std::size_t addrs = 0x7162864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextEditingManipulator::*)(::UnityEngine::UIElements::TextEditorEventHandler*)>(
     &::UnityEngine::UIElements::TextEditingManipulator::set_touchScreenEditingEventHandler)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x7125938;
+  constexpr static std::size_t addrs = 0x716286c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TextEditorEventHandler* (::UnityEngine::UIElements::TextEditingManipulator::*)()>(
     &::UnityEngine::UIElements::TextEditingManipulator::get_keyboardEditingEventHandler)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7125998;
+  constexpr static std::size_t addrs = 0x71628cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextEditingManipulator::*)(::UnityEngine::UIElements::TextEditorEventHandler*)>(
     &::UnityEngine::UIElements::TextEditingManipulator::set_keyboardEditingEventHandler)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x71259a0;
+  constexpr static std::size_t addrs = 0x71628d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextEditingManipulator::*)(::UnityEngine::UIElements::TextElement*)>(
     &::UnityEngine::UIElements::TextEditingManipulator::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x7125a00;
+  constexpr static std::size_t addrs = 0x7162934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextEditingManipulator::*)()>(&::UnityEngine::UIElements::TextEditingManipulator::Reset)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x7125c40;
+  constexpr static std::size_t addrs = 0x7162b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextEditingManipulator*>(), { "Reset", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TextEditingManipulator::*)()>(
     &::UnityEngine::UIElements::TextEditingManipulator::get_touchScreenTextFieldChanged)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x7125c88;
+  constexpr static std::size_t addrs = 0x7162bbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TextEditingManipulator::*)()>(&::UnityEngine::UIElements::TextEditingManipulator::get_touchScreenCanBeUsed)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x7125cdc;
+  constexpr static std::size_t addrs = 0x7162c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TextEditingManipulator::*)()>(&::UnityEngine::UIElements::TextEditingManipulator::get_keyboardCanBeUsed)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x7125dac;
+  constexpr static std::size_t addrs = 0x7162ce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextEditingManipulator::*)()>(
     &::UnityEngine::UIElements::TextEditingManipulator::UpdateTextEditorEventHandler)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x7125b24;
+  constexpr static std::size_t addrs = 0x7162a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextEditingManipulator::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::TextEditingManipulator::HandleEventBubbleUp)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x7125e84;
+  constexpr static std::size_t addrs = 0x7162db8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextEditingManipulator*>(),
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextEditingManipulator::*)()>(&::UnityEngine::UIElements::TextEditingManipulator::OnFocusInEvent)> {
   constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x712611c;
+  constexpr static std::size_t addrs = 0x7163050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextEditingManipulator*>(), { "OnFocusInEvent", {}, {} })));
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextEditingManipulator::*)()>(&::UnityEngine::UIElements::TextEditingManipulator::OnFocusOutEvent)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x71263fc;
+  constexpr static std::size_t addrs = 0x7163330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextEditingManipulator*>(), { "OnFocusOutEvent", {}, {} })));
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextEditingManipulator::*)()>(&::UnityEngine::UIElements::TextEditingManipulator::_OnFocusInEvent_b__21_0)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x71264b4;
+  constexpr static std::size_t addrs = 0x71633e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Task_WhenAllPromise::*)(::ArrayW<::System::Threading::Tasks::Task*>)>(&::GlobalNamespace::Task_WhenAllPromise::_ctor)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x60de300;
+  constexpr static std::size_t addrs = 0x611ad40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Task_WhenAllPromise::*)(::System::Threading::Tasks::Task*)>(&::GlobalNamespace::Task_WhenAllPromise::Invoke)> {
   constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x60df47c;
+  constexpr static std::size_t addrs = 0x611bebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::Task_WhenAllPromise::*)()>(&::GlobalNamespace::Task_WhenAllPromise::get_ShouldNotifyDebuggerOfWaitCompletion)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x60df7b0;
+  constexpr static std::size_t addrs = 0x611c1f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::Task_WhenAllPromise::*)()>(&::GlobalNamespace::Task_WhenAllPromise::get_InvokeMayRunArbitraryCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60df828;
+  constexpr static std::size_t addrs = 0x611c268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Task_WhenAllPromise*>(), { "get_InvokeMayRunArbitraryCode", {}, {} })));

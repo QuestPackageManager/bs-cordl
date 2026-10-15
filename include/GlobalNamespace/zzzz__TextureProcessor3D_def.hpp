@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
@@ -149,7 +148,7 @@ public:
   static ::GlobalNamespace::TextureProcessor3D_ComputeKernel const WaveRipple;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21194 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21241 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -185,7 +184,7 @@ public:
                                              float_t _param1, float_t _param2, float_t _outputOffset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21190 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21237 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -254,7 +253,7 @@ public:
                                             ::GlobalNamespace::TextureProcessor3D_ChannelParams channelC, ::GlobalNamespace::TextureProcessor3D_ChannelParams channelD) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21191 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21238 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
@@ -307,7 +306,7 @@ public:
                                                             ::System::Nullable_1<float_t> _param1, ::System::Nullable_1<float_t> _param2, ::System::Nullable_1<float_t> _outputOffset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21192 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21239 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -379,7 +378,7 @@ public:
                                                            ::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention channelD) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21193 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21240 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x100 };
@@ -411,7 +410,7 @@ static_assert(sizeof(::GlobalNamespace::TextureProcessor3D_MotionPresetChangeInt
 
 } // namespace GlobalNamespace
 // [ExecuteInEditMode]
-// Dependencies TextureProcessor3D::MotionPreset, TextureProcessor3D::MotionPresetChangeIntention, UnityEngine.Material, UnityEngine.Matrix4x4, UnityEngine.MonoBehaviour, UnityEngine.Texture2D
+// Dependencies TextureProcessor3D::MotionPreset, TextureProcessor3D::MotionPresetChangeIntention, UnityEngine.Material, UnityEngine.MonoBehaviour, UnityEngine.Texture2D
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: TextureProcessor3D
@@ -433,7 +432,7 @@ public:
 
   __declspec(property(get = get__activePreset)) ::GlobalNamespace::TextureProcessor3D_MotionPreset _activePreset;
 
-  /// @brief Field _activePresetChangeIntention, offset 0xa4, size 0x100
+  /// @brief Field _activePresetChangeIntention, offset 0x98, size 0x100
   __declspec(property(get = __cordl_internal_get__activePresetChangeIntention,
                       put = __cordl_internal_set__activePresetChangeIntention)) ::GlobalNamespace::TextureProcessor3D_MotionPresetChangeIntention _activePresetChangeIntention;
 
@@ -443,19 +442,19 @@ public:
   /// @brief Field _activePresetIndexOld, offset 0x54, size 0x4
   __declspec(property(get = __cordl_internal_get__activePresetIndexOld, put = __cordl_internal_set__activePresetIndexOld)) int32_t _activePresetIndexOld;
 
-  /// @brief Field _animationTextureA, offset 0x70, size 0x8
+  /// @brief Field _animationTextureA, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__animationTextureA, put = __cordl_internal_set__animationTextureA)) ::UnityW<::UnityEngine::RenderTexture> _animationTextureA;
 
-  /// @brief Field _animationTextureB, offset 0x78, size 0x8
+  /// @brief Field _animationTextureB, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__animationTextureB, put = __cordl_internal_set__animationTextureB)) ::UnityW<::UnityEngine::RenderTexture> _animationTextureB;
 
-  /// @brief Field _animationTextureC, offset 0x80, size 0x8
+  /// @brief Field _animationTextureC, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__animationTextureC, put = __cordl_internal_set__animationTextureC)) ::UnityW<::UnityEngine::RenderTexture> _animationTextureC;
 
-  /// @brief Field _animationTextureD, offset 0x88, size 0x8
+  /// @brief Field _animationTextureD, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__animationTextureD, put = __cordl_internal_set__animationTextureD)) ::UnityW<::UnityEngine::RenderTexture> _animationTextureD;
 
-  /// @brief Field _animationTextureOut, offset 0x90, size 0x8
+  /// @brief Field _animationTextureOut, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__animationTextureOut, put = __cordl_internal_set__animationTextureOut)) ::UnityW<::UnityEngine::RenderTexture> _animationTextureOut;
 
   /// @brief Field _columnSize, offset 0x3c, size 0x4
@@ -467,16 +466,13 @@ public:
   /// @brief Field _inputTextures, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__inputTextures, put = __cordl_internal_set__inputTextures)) ::ArrayW<::UnityW<::UnityEngine::Texture2D>> _inputTextures;
 
-  /// @brief Field _kernelIndexMax, offset 0xa0, size 0x4
+  /// @brief Field _kernelIndexMax, offset 0x94, size 0x4
   __declspec(property(get = __cordl_internal_get__kernelIndexMax, put = __cordl_internal_set__kernelIndexMax)) int32_t _kernelIndexMax;
 
   /// @brief Field _kernelStrings, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__kernelStrings, put = setStaticF__kernelStrings)) ::ArrayW<::StringW> _kernelStrings;
 
-  /// @brief Field _matrices, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__matrices, put = __cordl_internal_set__matrices)) ::ArrayW<::UnityEngine::Matrix4x4> _matrices;
-
-  /// @brief Field _numInstances, offset 0x68, size 0x4
+  /// @brief Field _numInstances, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get__numInstances, put = __cordl_internal_set__numInstances)) int32_t _numInstances;
 
   /// @brief Field _presetArray, offset 0x48, size 0x8
@@ -485,10 +481,7 @@ public:
   /// @brief Field _rowSize, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__rowSize, put = __cordl_internal_set__rowSize)) int32_t _rowSize;
 
-  /// @brief Field _testMaterialArrayCount, offset 0x9c, size 0x4
-  __declspec(property(get = __cordl_internal_get__testMaterialArrayCount, put = __cordl_internal_set__testMaterialArrayCount)) int32_t _testMaterialArrayCount;
-
-  /// @brief Field _textureArrayLength, offset 0x98, size 0x4
+  /// @brief Field _textureArrayLength, offset 0x90, size 0x4
   __declspec(property(get = __cordl_internal_get__textureArrayLength, put = __cordl_internal_set__textureArrayLength)) int32_t _textureArrayLength;
 
   /// @brief Field _textureGenCompute, offset 0x20, size 0x8
@@ -620,63 +613,63 @@ public:
 
   __declspec(property(get = get_speedD, put = set_speedD)) float_t speedD;
 
-  /// @brief Method AnimateChannel, addr 0x636dcc8, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method AnimateChannel, addr 0x63aa780, size 0x28c, virtual false, abstract: false, final false
   inline void AnimateChannel(::by_ref<::GlobalNamespace::TextureProcessor3D_ChannelParams> channel, ::UnityEngine::RenderTexture* outputTexture);
 
-  /// @brief Method AnimateTextures, addr 0x636d648, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method AnimateTextures, addr 0x63aa100, size 0x354, virtual false, abstract: false, final false
   inline void AnimateTextures();
 
-  /// @brief Method ApplyIntention, addr 0x636dc20, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ApplyIntention, addr 0x63aa6d8, size 0xa8, virtual false, abstract: false, final false
   inline void ApplyIntention();
 
-  /// @brief Method Awake, addr 0x636d388, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x63a9e40, size 0x108, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CreateTexture, addr 0x636d9a4, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method CreateTexture, addr 0x63aa45c, size 0x11c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> CreateTexture(int32_t sizeX, int32_t sizeY, int32_t sizeZ);
 
-  /// @brief Method GetKernelName, addr 0x636df54, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetKernelName, addr 0x63aaa0c, size 0x138, virtual false, abstract: false, final false
   inline ::StringW GetKernelName(::GlobalNamespace::TextureProcessor3D_ComputeKernel kernel);
 
-  /// @brief Method LateUpdate, addr 0x636d604, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x63aa0bc, size 0x44, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method ModifyGridSize, addr 0x636e25c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ModifyGridSize, addr 0x63aad14, size 0xa0, virtual false, abstract: false, final false
   inline void ModifyGridSize(int32_t rowSizeDelta, int32_t columnSizeDelta, int32_t depthSizeDelta);
 
   static inline ::GlobalNamespace::TextureProcessor3D* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x636e258, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x63aad10, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x636e254, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x63aad0c, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x636d99c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x63aa454, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x636d9a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x63aa458, size 0x4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method ReleaseTextures, addr 0x636dac0, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method ReleaseTextures, addr 0x63aa578, size 0x160, virtual false, abstract: false, final false
   inline void ReleaseTextures();
 
-  /// @brief Method Step, addr 0x636e2fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Step, addr 0x63aadb4, size 0x4, virtual false, abstract: false, final false
   inline void Step();
 
-  /// @brief Method UpdateBuffers, addr 0x636d490, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method UpdateBuffers, addr 0x63a9f48, size 0x174, virtual false, abstract: false, final false
   inline void UpdateBuffers();
 
   /// [CompilerGenerated]
-  /// @brief Method <ApplyIntention>g__ApplyChannelIntention|163_0, addr 0x636e08c, size 0x1c8, virtual false, abstract: false, final false
-  static inline void _ApplyIntention_g__ApplyChannelIntention_163_0(::by_ref<::GlobalNamespace::TextureProcessor3D_ChannelParams> channel,
+  /// @brief Method <ApplyIntention>g__ApplyChannelIntention|161_0, addr 0x63aab44, size 0x1c8, virtual false, abstract: false, final false
+  static inline void _ApplyIntention_g__ApplyChannelIntention_161_0(::by_ref<::GlobalNamespace::TextureProcessor3D_ChannelParams> channel,
                                                                     ::by_ref<::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention> channelIntention);
 
   /// [CompilerGenerated]
-  /// @brief Method <ApplyIntention>g__ApplyParamIntention|163_1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @brief Method <ApplyIntention>g__ApplyParamIntention|161_1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
-  static inline void _ApplyIntention_g__ApplyParamIntention_163_1(::by_ref<T> param, ::by_ref<::System::Nullable_1<T>> intention);
+  static inline void _ApplyIntention_g__ApplyParamIntention_161_1(::by_ref<T> param, ::by_ref<::System::Nullable_1<T>> intention);
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::Material>> const& __cordl_internal_get__MaterialsUsingOutput() const;
 
@@ -730,10 +723,6 @@ public:
 
   constexpr int32_t& __cordl_internal_get__kernelIndexMax();
 
-  constexpr ::ArrayW<::UnityEngine::Matrix4x4> const& __cordl_internal_get__matrices() const;
-
-  constexpr ::ArrayW<::UnityEngine::Matrix4x4>& __cordl_internal_get__matrices();
-
   constexpr int32_t const& __cordl_internal_get__numInstances() const;
 
   constexpr int32_t& __cordl_internal_get__numInstances();
@@ -745,10 +734,6 @@ public:
   constexpr int32_t const& __cordl_internal_get__rowSize() const;
 
   constexpr int32_t& __cordl_internal_get__rowSize();
-
-  constexpr int32_t const& __cordl_internal_get__testMaterialArrayCount() const;
-
-  constexpr int32_t& __cordl_internal_get__testMaterialArrayCount();
 
   constexpr int32_t const& __cordl_internal_get__textureArrayLength() const;
 
@@ -788,15 +773,11 @@ public:
 
   constexpr void __cordl_internal_set__kernelIndexMax(int32_t value);
 
-  constexpr void __cordl_internal_set__matrices(::ArrayW<::UnityEngine::Matrix4x4> value);
-
   constexpr void __cordl_internal_set__numInstances(int32_t value);
 
   constexpr void __cordl_internal_set__presetArray(::ArrayW<::GlobalNamespace::TextureProcessor3D_MotionPreset> value);
 
   constexpr void __cordl_internal_set__rowSize(int32_t value);
-
-  constexpr void __cordl_internal_set__testMaterialArrayCount(int32_t value);
 
   constexpr void __cordl_internal_set__textureArrayLength(int32_t value);
 
@@ -804,7 +785,7 @@ public:
 
   constexpr void __cordl_internal_set__writeTexturesCompute(::UnityW<::UnityEngine::ComputeShader> value);
 
-  /// @brief Method .ctor, addr 0x636e300, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63aadb8, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::StringW> getStaticF__kernelStrings();
@@ -843,115 +824,115 @@ public:
 
   static inline int32_t getStaticF_kSpeed();
 
-  /// @brief Method get__activePreset, addr 0x636b758, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get__activePreset, addr 0x63a8230, size 0x34, virtual false, abstract: false, final false
   inline ::by_ref<::GlobalNamespace::TextureProcessor3D_MotionPreset> get__activePreset();
 
-  /// @brief Method get_activePresetIndex, addr 0x636b6d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activePresetIndex, addr 0x63a81ac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_activePresetIndex();
 
-  /// @brief Method get_columnSize, addr 0x636d368, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columnSize, addr 0x63a9e20, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_columnSize();
 
-  /// @brief Method get_computeKernelA, addr 0x636b6e4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_computeKernelA, addr 0x63a81bc, size 0x74, virtual false, abstract: false, final false
   inline ::GlobalNamespace::TextureProcessor3D_ComputeKernel get_computeKernelA();
 
-  /// @brief Method get_computeKernelB, addr 0x636b88c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_computeKernelB, addr 0x63a8364, size 0x74, virtual false, abstract: false, final false
   inline ::GlobalNamespace::TextureProcessor3D_ComputeKernel get_computeKernelB();
 
-  /// @brief Method get_computeKernelC, addr 0x636ba00, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_computeKernelC, addr 0x63a84d8, size 0x74, virtual false, abstract: false, final false
   inline ::GlobalNamespace::TextureProcessor3D_ComputeKernel get_computeKernelC();
 
-  /// @brief Method get_computeKernelD, addr 0x636bb7c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_computeKernelD, addr 0x63a864c, size 0x74, virtual false, abstract: false, final false
   inline ::GlobalNamespace::TextureProcessor3D_ComputeKernel get_computeKernelD();
 
-  /// @brief Method get_depthSize, addr 0x636d378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_depthSize, addr 0x63a9e30, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_depthSize();
 
-  /// @brief Method get_inputTextureIndexA, addr 0x636bcf8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_inputTextureIndexA, addr 0x63a87c0, size 0x74, virtual false, abstract: false, final false
   inline int32_t get_inputTextureIndexA();
 
-  /// @brief Method get_inputTextureIndexB, addr 0x636bdc4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_inputTextureIndexB, addr 0x63a888c, size 0x74, virtual false, abstract: false, final false
   inline int32_t get_inputTextureIndexB();
 
-  /// @brief Method get_inputTextureIndexC, addr 0x636be90, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_inputTextureIndexC, addr 0x63a8958, size 0x74, virtual false, abstract: false, final false
   inline int32_t get_inputTextureIndexC();
 
-  /// @brief Method get_inputTextureIndexD, addr 0x636bf64, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_inputTextureIndexD, addr 0x63a8a24, size 0x74, virtual false, abstract: false, final false
   inline int32_t get_inputTextureIndexD();
 
-  /// @brief Method get_outputOffsetA, addr 0x636d028, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_outputOffsetA, addr 0x63a9ae0, size 0x74, virtual false, abstract: false, final false
   inline float_t get_outputOffsetA();
 
-  /// @brief Method get_outputOffsetB, addr 0x636d0f4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_outputOffsetB, addr 0x63a9bac, size 0x74, virtual false, abstract: false, final false
   inline float_t get_outputOffsetB();
 
-  /// @brief Method get_outputOffsetC, addr 0x636d1c0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_outputOffsetC, addr 0x63a9c78, size 0x74, virtual false, abstract: false, final false
   inline float_t get_outputOffsetC();
 
-  /// @brief Method get_outputOffsetD, addr 0x636d28c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_outputOffsetD, addr 0x63a9d44, size 0x74, virtual false, abstract: false, final false
   inline float_t get_outputOffsetD();
 
-  /// @brief Method get_param1A, addr 0x636c9c8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_param1A, addr 0x63a9480, size 0x74, virtual false, abstract: false, final false
   inline float_t get_param1A();
 
-  /// @brief Method get_param1B, addr 0x636ca94, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_param1B, addr 0x63a954c, size 0x74, virtual false, abstract: false, final false
   inline float_t get_param1B();
 
-  /// @brief Method get_param1C, addr 0x636cb60, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_param1C, addr 0x63a9618, size 0x74, virtual false, abstract: false, final false
   inline float_t get_param1C();
 
-  /// @brief Method get_param1D, addr 0x636cc2c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_param1D, addr 0x63a96e4, size 0x74, virtual false, abstract: false, final false
   inline float_t get_param1D();
 
-  /// @brief Method get_param2A, addr 0x636ccf8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_param2A, addr 0x63a97b0, size 0x74, virtual false, abstract: false, final false
   inline float_t get_param2A();
 
-  /// @brief Method get_param2B, addr 0x636cdc4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_param2B, addr 0x63a987c, size 0x74, virtual false, abstract: false, final false
   inline float_t get_param2B();
 
-  /// @brief Method get_param2C, addr 0x636ce90, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_param2C, addr 0x63a9948, size 0x74, virtual false, abstract: false, final false
   inline float_t get_param2C();
 
-  /// @brief Method get_param2D, addr 0x636cf5c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_param2D, addr 0x63a9a14, size 0x74, virtual false, abstract: false, final false
   inline float_t get_param2D();
 
-  /// @brief Method get_phaseA, addr 0x636c698, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_phaseA, addr 0x63a9150, size 0x74, virtual false, abstract: false, final false
   inline float_t get_phaseA();
 
-  /// @brief Method get_phaseB, addr 0x636c764, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_phaseB, addr 0x63a921c, size 0x74, virtual false, abstract: false, final false
   inline float_t get_phaseB();
 
-  /// @brief Method get_phaseC, addr 0x636c830, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_phaseC, addr 0x63a92e8, size 0x74, virtual false, abstract: false, final false
   inline float_t get_phaseC();
 
-  /// @brief Method get_phaseD, addr 0x636c8fc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_phaseD, addr 0x63a93b4, size 0x74, virtual false, abstract: false, final false
   inline float_t get_phaseD();
 
-  /// @brief Method get_rowSize, addr 0x636d358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rowSize, addr 0x63a9e10, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_rowSize();
 
-  /// @brief Method get_spatialScaleA, addr 0x636c368, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_spatialScaleA, addr 0x63a8e20, size 0x74, virtual false, abstract: false, final false
   inline float_t get_spatialScaleA();
 
-  /// @brief Method get_spatialScaleB, addr 0x636c434, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_spatialScaleB, addr 0x63a8eec, size 0x74, virtual false, abstract: false, final false
   inline float_t get_spatialScaleB();
 
-  /// @brief Method get_spatialScaleC, addr 0x636c500, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_spatialScaleC, addr 0x63a8fb8, size 0x74, virtual false, abstract: false, final false
   inline float_t get_spatialScaleC();
 
-  /// @brief Method get_spatialScaleD, addr 0x636c5cc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_spatialScaleD, addr 0x63a9084, size 0x74, virtual false, abstract: false, final false
   inline float_t get_spatialScaleD();
 
-  /// @brief Method get_speedA, addr 0x636c038, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_speedA, addr 0x63a8af0, size 0x74, virtual false, abstract: false, final false
   inline float_t get_speedA();
 
-  /// @brief Method get_speedB, addr 0x636c104, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_speedB, addr 0x63a8bbc, size 0x74, virtual false, abstract: false, final false
   inline float_t get_speedB();
 
-  /// @brief Method get_speedC, addr 0x636c1d0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_speedC, addr 0x63a8c88, size 0x74, virtual false, abstract: false, final false
   inline float_t get_speedC();
 
-  /// @brief Method get_speedD, addr 0x636c29c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_speedD, addr 0x63a8d54, size 0x74, virtual false, abstract: false, final false
   inline float_t get_speedD();
 
   static inline void setStaticF__kernelStrings(::ArrayW<::StringW> value);
@@ -990,112 +971,112 @@ public:
 
   static inline void setStaticF_kSpeed(int32_t value);
 
-  /// @brief Method set_activePresetIndex, addr 0x636b6dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_activePresetIndex, addr 0x63a81b4, size 0x8, virtual false, abstract: false, final false
   inline void set_activePresetIndex(int32_t value);
 
-  /// @brief Method set_columnSize, addr 0x636d370, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_columnSize, addr 0x63a9e28, size 0x8, virtual false, abstract: false, final false
   inline void set_columnSize(int32_t value);
 
-  /// @brief Method set_computeKernelA, addr 0x636b78c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method set_computeKernelA, addr 0x63a8264, size 0x100, virtual false, abstract: false, final false
   inline void set_computeKernelA(::GlobalNamespace::TextureProcessor3D_ComputeKernel value);
 
-  /// @brief Method set_computeKernelB, addr 0x636b900, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method set_computeKernelB, addr 0x63a83d8, size 0x100, virtual false, abstract: false, final false
   inline void set_computeKernelB(::GlobalNamespace::TextureProcessor3D_ComputeKernel value);
 
-  /// @brief Method set_computeKernelC, addr 0x636ba78, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method set_computeKernelC, addr 0x63a854c, size 0x100, virtual false, abstract: false, final false
   inline void set_computeKernelC(::GlobalNamespace::TextureProcessor3D_ComputeKernel value);
 
-  /// @brief Method set_computeKernelD, addr 0x636bbf4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method set_computeKernelD, addr 0x63a86c0, size 0x100, virtual false, abstract: false, final false
   inline void set_computeKernelD(::GlobalNamespace::TextureProcessor3D_ComputeKernel value);
 
-  /// @brief Method set_depthSize, addr 0x636d380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_depthSize, addr 0x63a9e38, size 0x8, virtual false, abstract: false, final false
   inline void set_depthSize(int32_t value);
 
-  /// @brief Method set_inputTextureIndexA, addr 0x636bd6c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_inputTextureIndexA, addr 0x63a8834, size 0x58, virtual false, abstract: false, final false
   inline void set_inputTextureIndexA(int32_t value);
 
-  /// @brief Method set_inputTextureIndexB, addr 0x636be38, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_inputTextureIndexB, addr 0x63a8900, size 0x58, virtual false, abstract: false, final false
   inline void set_inputTextureIndexB(int32_t value);
 
-  /// @brief Method set_inputTextureIndexC, addr 0x636bf08, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_inputTextureIndexC, addr 0x63a89cc, size 0x58, virtual false, abstract: false, final false
   inline void set_inputTextureIndexC(int32_t value);
 
-  /// @brief Method set_inputTextureIndexD, addr 0x636bfdc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_inputTextureIndexD, addr 0x63a8a98, size 0x58, virtual false, abstract: false, final false
   inline void set_inputTextureIndexD(int32_t value);
 
-  /// @brief Method set_outputOffsetA, addr 0x636d09c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_outputOffsetA, addr 0x63a9b54, size 0x58, virtual false, abstract: false, final false
   inline void set_outputOffsetA(float_t value);
 
-  /// @brief Method set_outputOffsetB, addr 0x636d168, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_outputOffsetB, addr 0x63a9c20, size 0x58, virtual false, abstract: false, final false
   inline void set_outputOffsetB(float_t value);
 
-  /// @brief Method set_outputOffsetC, addr 0x636d234, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_outputOffsetC, addr 0x63a9cec, size 0x58, virtual false, abstract: false, final false
   inline void set_outputOffsetC(float_t value);
 
-  /// @brief Method set_outputOffsetD, addr 0x636d300, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_outputOffsetD, addr 0x63a9db8, size 0x58, virtual false, abstract: false, final false
   inline void set_outputOffsetD(float_t value);
 
-  /// @brief Method set_param1A, addr 0x636ca3c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_param1A, addr 0x63a94f4, size 0x58, virtual false, abstract: false, final false
   inline void set_param1A(float_t value);
 
-  /// @brief Method set_param1B, addr 0x636cb08, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_param1B, addr 0x63a95c0, size 0x58, virtual false, abstract: false, final false
   inline void set_param1B(float_t value);
 
-  /// @brief Method set_param1C, addr 0x636cbd4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_param1C, addr 0x63a968c, size 0x58, virtual false, abstract: false, final false
   inline void set_param1C(float_t value);
 
-  /// @brief Method set_param1D, addr 0x636cca0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_param1D, addr 0x63a9758, size 0x58, virtual false, abstract: false, final false
   inline void set_param1D(float_t value);
 
-  /// @brief Method set_param2A, addr 0x636cd6c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_param2A, addr 0x63a9824, size 0x58, virtual false, abstract: false, final false
   inline void set_param2A(float_t value);
 
-  /// @brief Method set_param2B, addr 0x636ce38, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_param2B, addr 0x63a98f0, size 0x58, virtual false, abstract: false, final false
   inline void set_param2B(float_t value);
 
-  /// @brief Method set_param2C, addr 0x636cf04, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_param2C, addr 0x63a99bc, size 0x58, virtual false, abstract: false, final false
   inline void set_param2C(float_t value);
 
-  /// @brief Method set_param2D, addr 0x636cfd0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_param2D, addr 0x63a9a88, size 0x58, virtual false, abstract: false, final false
   inline void set_param2D(float_t value);
 
-  /// @brief Method set_phaseA, addr 0x636c70c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_phaseA, addr 0x63a91c4, size 0x58, virtual false, abstract: false, final false
   inline void set_phaseA(float_t value);
 
-  /// @brief Method set_phaseB, addr 0x636c7d8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_phaseB, addr 0x63a9290, size 0x58, virtual false, abstract: false, final false
   inline void set_phaseB(float_t value);
 
-  /// @brief Method set_phaseC, addr 0x636c8a4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_phaseC, addr 0x63a935c, size 0x58, virtual false, abstract: false, final false
   inline void set_phaseC(float_t value);
 
-  /// @brief Method set_phaseD, addr 0x636c970, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_phaseD, addr 0x63a9428, size 0x58, virtual false, abstract: false, final false
   inline void set_phaseD(float_t value);
 
-  /// @brief Method set_rowSize, addr 0x636d360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rowSize, addr 0x63a9e18, size 0x8, virtual false, abstract: false, final false
   inline void set_rowSize(int32_t value);
 
-  /// @brief Method set_spatialScaleA, addr 0x636c3dc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_spatialScaleA, addr 0x63a8e94, size 0x58, virtual false, abstract: false, final false
   inline void set_spatialScaleA(float_t value);
 
-  /// @brief Method set_spatialScaleB, addr 0x636c4a8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_spatialScaleB, addr 0x63a8f60, size 0x58, virtual false, abstract: false, final false
   inline void set_spatialScaleB(float_t value);
 
-  /// @brief Method set_spatialScaleC, addr 0x636c574, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_spatialScaleC, addr 0x63a902c, size 0x58, virtual false, abstract: false, final false
   inline void set_spatialScaleC(float_t value);
 
-  /// @brief Method set_spatialScaleD, addr 0x636c640, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_spatialScaleD, addr 0x63a90f8, size 0x58, virtual false, abstract: false, final false
   inline void set_spatialScaleD(float_t value);
 
-  /// @brief Method set_speedA, addr 0x636c0ac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_speedA, addr 0x63a8b64, size 0x58, virtual false, abstract: false, final false
   inline void set_speedA(float_t value);
 
-  /// @brief Method set_speedB, addr 0x636c178, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_speedB, addr 0x63a8c30, size 0x58, virtual false, abstract: false, final false
   inline void set_speedB(float_t value);
 
-  /// @brief Method set_speedC, addr 0x636c244, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_speedC, addr 0x63a8cfc, size 0x58, virtual false, abstract: false, final false
   inline void set_speedC(float_t value);
 
-  /// @brief Method set_speedD, addr 0x636c310, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_speedD, addr 0x63a8dc8, size 0x58, virtual false, abstract: false, final false
   inline void set_speedD(float_t value);
 
 protected:
@@ -1113,7 +1094,7 @@ public:
   TextureProcessor3D(TextureProcessor3D const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21195 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21242 };
 
   /// [Header("General Setup")]
   /// [SerializeField]
@@ -1156,37 +1137,31 @@ public:
   /// @brief Field _MaterialsUsingOutput, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Material>> ____MaterialsUsingOutput;
 
-  /// @brief Field _matrices, offset: 0x60, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Matrix4x4> ____matrices;
-
-  /// @brief Field _numInstances, offset: 0x68, size: 0x4, def value: None
+  /// @brief Field _numInstances, offset: 0x60, size: 0x4, def value: None
   int32_t ____numInstances;
 
-  /// @brief Field _animationTextureA, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _animationTextureA, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RenderTexture> ____animationTextureA;
 
-  /// @brief Field _animationTextureB, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _animationTextureB, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RenderTexture> ____animationTextureB;
 
-  /// @brief Field _animationTextureC, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _animationTextureC, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RenderTexture> ____animationTextureC;
 
-  /// @brief Field _animationTextureD, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field _animationTextureD, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RenderTexture> ____animationTextureD;
 
-  /// @brief Field _animationTextureOut, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field _animationTextureOut, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RenderTexture> ____animationTextureOut;
 
-  /// @brief Field _textureArrayLength, offset: 0x98, size: 0x4, def value: None
+  /// @brief Field _textureArrayLength, offset: 0x90, size: 0x4, def value: None
   int32_t ____textureArrayLength;
 
-  /// @brief Field _testMaterialArrayCount, offset: 0x9c, size: 0x4, def value: None
-  int32_t ____testMaterialArrayCount;
-
-  /// @brief Field _kernelIndexMax, offset: 0xa0, size: 0x4, def value: None
+  /// @brief Field _kernelIndexMax, offset: 0x94, size: 0x4, def value: None
   int32_t ____kernelIndexMax;
 
-  /// @brief Field _activePresetChangeIntention, offset: 0xa4, size: 0x100, def value: None
+  /// @brief Field _activePresetChangeIntention, offset: 0x98, size: 0x100, def value: None
   ::GlobalNamespace::TextureProcessor3D_MotionPresetChangeIntention ____activePresetChangeIntention;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -1212,28 +1187,24 @@ static_assert(offsetof(::GlobalNamespace::TextureProcessor3D, ____activePresetIn
 
 static_assert(offsetof(::GlobalNamespace::TextureProcessor3D, ____MaterialsUsingOutput) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TextureProcessor3D, ____matrices) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TextureProcessor3D, ____numInstances) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TextureProcessor3D, ____numInstances) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TextureProcessor3D, ____animationTextureA) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TextureProcessor3D, ____animationTextureA) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TextureProcessor3D, ____animationTextureB) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TextureProcessor3D, ____animationTextureB) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TextureProcessor3D, ____animationTextureC) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TextureProcessor3D, ____animationTextureC) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TextureProcessor3D, ____animationTextureD) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TextureProcessor3D, ____animationTextureD) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TextureProcessor3D, ____animationTextureOut) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TextureProcessor3D, ____animationTextureOut) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TextureProcessor3D, ____textureArrayLength) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TextureProcessor3D, ____textureArrayLength) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TextureProcessor3D, ____kernelIndexMax) == 0x94, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TextureProcessor3D, ____testMaterialArrayCount) == 0x9c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TextureProcessor3D, ____activePresetChangeIntention) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TextureProcessor3D, ____kernelIndexMax) == 0xa0, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::TextureProcessor3D, ____activePresetChangeIntention) == 0xa4, "Offset mismatch!");
-
-static_assert(sizeof(::GlobalNamespace::TextureProcessor3D) == 0x1a8, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::TextureProcessor3D) == 0x198, "Size mismatch!");
 
 } // namespace GlobalNamespace

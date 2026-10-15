@@ -48,31 +48,31 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TextAutoSize>"
   constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TextAutoSize>*();
 
-  /// @brief Method Equals, addr 0x711b9e8, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x715891c, size 0xe0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x711b96c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x71588a0, size 0x7c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StyleTextAutoSize other);
 
-  /// @brief Method GetHashCode, addr 0x711bac8, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x71589fc, size 0x30, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x711baf8, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x7158a2c, size 0x84, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x711b8b0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71587e4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method .ctor, addr 0x711b880, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71587b4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TextAutoSize v);
 
-  /// @brief Method .ctor, addr 0x711b898, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71587cc, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TextAutoSize v, ::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method get_keyword, addr 0x711b870, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_keyword, addr 0x71587a4, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
 
-  /// @brief Method get_value, addr 0x711b818, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_value, addr 0x715874c, size 0x40, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::TextAutoSize get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleTextAutoSize>"
@@ -81,19 +81,19 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TextAutoSize>"
   constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TextAutoSize>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__TextAutoSize_();
 
-  /// @brief Method op_Equality, addr 0x711b8c4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x71587f8, size 0x7c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StyleTextAutoSize lhs, ::UnityEngine::UIElements::StyleTextAutoSize rhs);
 
-  /// @brief Method op_Implicit, addr 0x711b940, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x7158874, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleTextAutoSize op_Implicit___UnityEngine__UIElements__StyleTextAutoSize(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method op_Implicit, addr 0x711b954, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x7158888, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleTextAutoSize op_Implicit___UnityEngine__UIElements__StyleTextAutoSize(::UnityEngine::UIElements::TextAutoSize v);
 
-  /// @brief Method set_keyword, addr 0x711b878, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_keyword, addr 0x71587ac, size 0x8, virtual true, abstract: false, final true
   inline void set_keyword(::UnityEngine::UIElements::StyleKeyword value);
 
-  /// @brief Method set_value, addr 0x711b858, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method set_value, addr 0x715878c, size 0x18, virtual true, abstract: false, final true
   inline void set_value(::UnityEngine::UIElements::TextAutoSize value);
 
   // Ctor Parameters []

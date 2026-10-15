@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Tasks::TaskToApm_TaskWrapperAsyncResult::*)(::System::Threading::Tasks::Task*, ::System::Object*, bool)>(
     &::System::Threading::Tasks::TaskToApm_TaskWrapperAsyncResult::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x60d508c;
+  constexpr static std::size_t addrs = 0x6111acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Threading::Tasks::TaskToApm_TaskWrapperAsyncResult::*)()>(
     &::System::Threading::Tasks::TaskToApm_TaskWrapperAsyncResult::System_IAsyncResult_get_AsyncState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60d5280;
+  constexpr static std::size_t addrs = 0x6111cc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::Tasks::TaskToApm_TaskWrapperAsyncResult::*)()>(
     &::System::Threading::Tasks::TaskToApm_TaskWrapperAsyncResult::System_IAsyncResult_get_CompletedSynchronously)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60d5288;
+  constexpr static std::size_t addrs = 0x6111cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::Tasks::TaskToApm_TaskWrapperAsyncResult::*)()>(
     &::System::Threading::Tasks::TaskToApm_TaskWrapperAsyncResult::System_IAsyncResult_get_IsCompleted)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x60d5290;
+  constexpr static std::size_t addrs = 0x6111cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::WaitHandle* (::System::Threading::Tasks::TaskToApm_TaskWrapperAsyncResult::*)()>(
     &::System::Threading::Tasks::TaskToApm_TaskWrapperAsyncResult::System_IAsyncResult_get_AsyncWaitHandle)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x60d52a4;
+  constexpr static std::size_t addrs = 0x6111ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Tasks::TaskToApm___c__DisplayClass3_0::*)()>(&::System::Threading::Tasks::TaskToApm___c__DisplayClass3_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x60d5274;
+  constexpr static std::size_t addrs = 0x6111cb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Tasks::TaskToApm___c__DisplayClass3_0*>(), { ".ctor", {}, {} })));
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Tasks::TaskToApm___c__DisplayClass3_0::*)()>(
     &::System::Threading::Tasks::TaskToApm___c__DisplayClass3_0::_InvokeCallbackWhenTaskCompletes_b__0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x60d534c;
+  constexpr static std::size_t addrs = 0x6111d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (*)(::System::Threading::Tasks::Task*, ::System::AsyncCallback*, ::System::Object*)>(
     &::System::Threading::Tasks::TaskToApm::Begin)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x60d4f48;
+  constexpr static std::size_t addrs = 0x6111988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IAsyncResult*)>(&::System::Threading::Tasks::TaskToApm::End)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x60d5198;
+  constexpr static std::size_t addrs = 0x6111bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -254,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Threading::Tasks::Task*, ::System::AsyncCallback*, ::System::IAsyncResult*)>(
     &::System::Threading::Tasks::TaskToApm::InvokeCallbackWhenTaskCompletes)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x60d5098;
+  constexpr static std::size_t addrs = 0x6111ad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

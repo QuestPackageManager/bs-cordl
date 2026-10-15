@@ -314,7 +314,7 @@ public:
   constexpr EarlyUpdate_PollPlayerConnection();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10099 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10106 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -343,7 +343,7 @@ public:
   constexpr EarlyUpdate_PollHtcsPlayerConnection();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10100 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10107 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -372,7 +372,7 @@ public:
   constexpr EarlyUpdate_GpuTimestamp();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10101 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10108 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -401,7 +401,7 @@ public:
   constexpr EarlyUpdate_AnalyticsCoreStatsUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10102 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10109 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -430,7 +430,7 @@ public:
   constexpr EarlyUpdate_InsightsUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10103 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10110 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -459,7 +459,7 @@ public:
   constexpr EarlyUpdate_UnityWebRequestUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10104 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10111 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -488,7 +488,7 @@ public:
   constexpr EarlyUpdate_UpdateStreamingManager();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10105 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10112 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -517,7 +517,7 @@ public:
   constexpr EarlyUpdate_ExecuteMainThreadJobs();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10106 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10113 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -546,7 +546,7 @@ public:
   constexpr EarlyUpdate_ProcessMouseInWindow();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10107 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10114 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -575,7 +575,7 @@ public:
   constexpr EarlyUpdate_ClearIntermediateRenderers();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10108 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10115 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -604,7 +604,7 @@ public:
   constexpr EarlyUpdate_ClearLines();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10109 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10116 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -633,7 +633,7 @@ public:
   constexpr EarlyUpdate_PresentBeforeUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10110 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10117 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -662,7 +662,7 @@ public:
   constexpr EarlyUpdate_ResetFrameStatsAfterPresent();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10111 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10118 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -691,7 +691,7 @@ public:
   constexpr EarlyUpdate_UpdateAsyncReadbackManager();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10112 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10119 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -720,7 +720,7 @@ public:
   constexpr EarlyUpdate_UpdateTextureStreamingManager();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10113 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10120 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -749,7 +749,7 @@ public:
   constexpr EarlyUpdate_UpdatePreloading();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10114 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10121 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -778,7 +778,7 @@ public:
   constexpr EarlyUpdate_UpdateContentLoading();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10115 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10122 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -807,7 +807,7 @@ public:
   constexpr EarlyUpdate_UpdateAsyncInstantiate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10116 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10123 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -836,7 +836,7 @@ public:
   constexpr EarlyUpdate_RendererNotifyInvisible();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10117 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10124 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -865,7 +865,7 @@ public:
   constexpr EarlyUpdate_PlayerCleanupCachedData();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10118 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10125 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -894,7 +894,7 @@ public:
   constexpr EarlyUpdate_UpdateMainGameViewRect();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10119 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10126 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -923,7 +923,7 @@ public:
   constexpr EarlyUpdate_UpdateCanvasRectTransform();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10120 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10127 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -952,7 +952,7 @@ public:
   constexpr EarlyUpdate_UpdateInputManager();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10121 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10128 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -981,7 +981,7 @@ public:
   constexpr EarlyUpdate_ProcessRemoteInput();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10122 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10129 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1010,7 +1010,7 @@ public:
   constexpr EarlyUpdate_XRUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10123 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10130 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1039,7 +1039,7 @@ public:
   constexpr EarlyUpdate_ScriptRunDelayedStartupFrame();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10124 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10131 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1068,7 +1068,7 @@ public:
   constexpr EarlyUpdate_UpdateKinect();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10125 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10132 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1097,7 +1097,7 @@ public:
   constexpr EarlyUpdate_DeliverIosPlatformEvents();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10126 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10133 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1126,7 +1126,7 @@ public:
   constexpr EarlyUpdate_DispatchEventQueueEvents();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10127 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10134 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1155,7 +1155,7 @@ public:
   constexpr EarlyUpdate_Physics2DEarlyUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10128 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10135 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1184,7 +1184,7 @@ public:
   constexpr EarlyUpdate_PhysicsResetInterpolatedTransformPosition();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10129 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10136 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1213,7 +1213,7 @@ public:
   constexpr EarlyUpdate_SpriteAtlasManagerUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10130 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10137 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1243,7 +1243,7 @@ public:
   constexpr EarlyUpdate_TangoUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10131 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10138 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1272,7 +1272,7 @@ public:
   constexpr EarlyUpdate_ARCoreUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10132 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10139 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1301,7 +1301,7 @@ public:
   constexpr EarlyUpdate_PerformanceAnalyticsUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10133 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10140 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1330,7 +1330,7 @@ public:
   constexpr EarlyUpdate_TilemapRendererEarlyUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10134 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10141 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -1432,7 +1432,7 @@ public:
   constexpr EarlyUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10135 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10142 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

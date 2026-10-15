@@ -567,7 +567,7 @@ public:
   ProbeReferenceVolume_ShaderIDs(ProbeReferenceVolume_ShaderIDs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8958 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8965 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -611,7 +611,7 @@ public:
 
   constexpr void __cordl_internal_set_props(::System::Collections::Generic::List_1<::UnityEngine::MaterialPropertyBlock*>* value);
 
-  /// @brief Method .ctor, addr 0x6ba9af8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be6774, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -629,7 +629,7 @@ public:
   ProbeReferenceVolume_CellInstancedDebugProbes(ProbeReferenceVolume_CellInstancedDebugProbes const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8959 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8966 };
 
   /// @brief Field probeBuffers, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::ArrayW<::UnityEngine::Matrix4x4>>* ___probeBuffers;
@@ -715,7 +715,7 @@ public:
 
   constexpr void __cordl_internal_set_depthBuffer(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method .ctor, addr 0x6ba9afc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be6778, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -733,7 +733,7 @@ public:
   ProbeReferenceVolume_RenderFragmentationOverlayPassData(ProbeReferenceVolume_RenderFragmentationOverlayPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8960 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8967 };
 
   /// @brief Field debugFragmentationMaterial, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___debugFragmentationMaterial;
@@ -791,27 +791,27 @@ public:
   /// @brief Field m_ReadHandle, offset 0x10, size 0x10
   __declspec(property(get = __cordl_internal_get_m_ReadHandle, put = __cordl_internal_set_m_ReadHandle)) ::Unity::IO::LowLevel::Unsafe::ReadHandle m_ReadHandle;
 
-  /// @brief Method AddReadCommand, addr 0x6ba9b7c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method AddReadCommand, addr 0x6be67f8, size 0x3c, virtual false, abstract: false, final false
   inline void AddReadCommand(int32_t offset, int32_t size, uint8_t* dest);
 
-  /// @brief Method Cancel, addr 0x6ba9c9c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Cancel, addr 0x6be6918, size 0x30, virtual false, abstract: false, final false
   inline void Cancel();
 
-  /// @brief Method Clear, addr 0x6ba9c24, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6be68a0, size 0x78, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Dispose, addr 0x6ba9d30, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6be69ac, size 0x4c, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method GetStatus, addr 0x6ba9d7c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetStatus, addr 0x6be69f8, size 0x34, virtual false, abstract: false, final false
   inline ::Unity::IO::LowLevel::Unsafe::ReadStatus GetStatus();
 
   static inline ::UnityEngine::Rendering::ProbeReferenceVolume_DiskStreamingRequest* New_ctor(int32_t maxRequestCount);
 
-  /// @brief Method RunCommands, addr 0x6ba9bb8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method RunCommands, addr 0x6be6834, size 0x6c, virtual false, abstract: false, final false
   inline int32_t RunCommands(::Unity::IO::LowLevel::Unsafe::FileHandle file);
 
-  /// @brief Method Wait, addr 0x6ba9ccc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Wait, addr 0x6be6948, size 0x64, virtual false, abstract: false, final false
   inline void Wait();
 
   constexpr int32_t const& __cordl_internal_get_m_BytesWritten() const;
@@ -838,7 +838,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ReadHandle(::Unity::IO::LowLevel::Unsafe::ReadHandle value);
 
-  /// @brief Method .ctor, addr 0x6ba9b00, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be677c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxRequestCount);
 
 protected:
@@ -856,7 +856,7 @@ public:
   ProbeReferenceVolume_DiskStreamingRequest(ProbeReferenceVolume_DiskStreamingRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8961 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8968 };
 
   /// @brief Field m_ReadHandle, offset: 0x10, size: 0x10, def value: None
   ::Unity::IO::LowLevel::Unsafe::ReadHandle ___m_ReadHandle;
@@ -922,7 +922,7 @@ public:
                                                                   int32_t _ProbeCountInChunkSlice) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8962 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8969 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
@@ -1080,10 +1080,10 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE ProbeReferenceVolume_BufferLayoutBuilder {
 public:
   // Declarations
-  /// @brief Method AddBlock, addr 0x6ba9db8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method AddBlock, addr 0x6be6a34, size 0x14, virtual false, abstract: false, final false
   inline int32_t AddBlock(int32_t blockSize);
 
-  /// @brief Method .ctor, addr 0x6ba9db0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be6a2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialOffset);
 
   // Ctor Parameters []
@@ -1094,7 +1094,7 @@ public:
   constexpr ProbeReferenceVolume_BufferLayoutBuilder(int32_t _Offset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8963 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8970 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1138,12 +1138,12 @@ public:
   /// @brief Field stagingBuffer, offset 0x10, size 0x10
   __declspec(property(get = __cordl_internal_get_stagingBuffer, put = __cordl_internal_set_stagingBuffer)) ::Unity::Collections::NativeArray_1<uint8_t> stagingBuffer;
 
-  /// @brief Method Dispose, addr 0x6ba9f38, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6be6bb4, size 0x94, virtual false, abstract: false, final false
   inline void Dispose();
 
   static inline ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer* New_ctor(int32_t chunkCount, int32_t chunkSize, bool allocateGraphicsBuffers);
 
-  /// @brief Method Swap, addr 0x6ba9f1c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Swap, addr 0x6be6b98, size 0x1c, virtual false, abstract: false, final false
   inline void Swap();
 
   constexpr int32_t const& __cordl_internal_get__chunkCount_k__BackingField() const;
@@ -1176,18 +1176,18 @@ public:
 
   constexpr void __cordl_internal_set_stagingBuffer(::Unity::Collections::NativeArray_1<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x6ba9dcc, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be6a48, size 0x150, virtual false, abstract: false, final false
   inline void _ctor(int32_t chunkCount, int32_t chunkSize, bool allocateGraphicsBuffers);
 
-  /// @brief Method get_buffer, addr 0x6ba6c68, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_buffer, addr 0x6be38e4, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* get_buffer();
 
   /// [CompilerGenerated]
-  /// @brief Method get_chunkCount, addr 0x6ba9fcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_chunkCount, addr 0x6be6c48, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_chunkCount();
 
   /// [CompilerGenerated]
-  /// @brief Method get_chunkSize, addr 0x6ba9fd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_chunkSize, addr 0x6be6c50, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_chunkSize();
 
 protected:
@@ -1205,7 +1205,7 @@ public:
   ProbeReferenceVolume_CellStreamingScratchBuffer(ProbeReferenceVolume_CellStreamingScratchBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8964 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8971 };
 
   /// @brief Field stagingBuffer, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<uint8_t> ___stagingBuffer;
@@ -1291,7 +1291,7 @@ public:
   static ::UnityEngine::Rendering::CellStreamingRequest_ProbeReferenceVolume_State const Pending;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8965 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8972 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1314,19 +1314,19 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE CellStreamingRequest_ProbeReferenceVolume_OnStreamingCompleteDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6baa614, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6be7290, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest* request, ::UnityEngine::Rendering::CommandBuffer* cmd,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x6baa63c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6be72b8, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x6baa600, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6be727c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest* request, ::UnityEngine::Rendering::CommandBuffer* cmd);
 
   static inline ::UnityEngine::Rendering::CellStreamingRequest_ProbeReferenceVolume_OnStreamingCompleteDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6baa4b8, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be7134, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1344,7 +1344,7 @@ public:
   CellStreamingRequest_ProbeReferenceVolume_OnStreamingCompleteDelegate(CellStreamingRequest_ProbeReferenceVolume_OnStreamingCompleteDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8966 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8973 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1435,30 +1435,30 @@ public:
   __declspec(property(get = __cordl_internal_get_supportStreamingRequest,
                       put = __cordl_internal_set_supportStreamingRequest)) ::UnityEngine::Rendering::ProbeReferenceVolume_DiskStreamingRequest* supportStreamingRequest;
 
-  /// @brief Method Cancel, addr 0x6baa068, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Cancel, addr 0x6be6ce4, size 0x108, virtual false, abstract: false, final false
   inline void Cancel();
 
-  /// @brief Method Clear, addr 0x6baa31c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6be6f98, size 0x8, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Dispose, addr 0x6baa38c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6be7008, size 0x58, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method IsStreaming, addr 0x6baa058, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsStreaming, addr 0x6be6cd4, size 0x10, virtual false, abstract: false, final false
   inline bool IsStreaming();
 
   static inline ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest* New_ctor();
 
-  /// @brief Method Reset, addr 0x6baa324, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6be6fa0, size 0x68, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method UpdateRequestState, addr 0x6baa1dc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method UpdateRequestState, addr 0x6be6e58, size 0x74, virtual false, abstract: false, final false
   inline bool UpdateRequestState(::UnityEngine::Rendering::ProbeReferenceVolume_DiskStreamingRequest* request, ::by_ref<bool> isComplete);
 
-  /// @brief Method UpdateState, addr 0x6baa250, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method UpdateState, addr 0x6be6ecc, size 0xcc, virtual false, abstract: false, final false
   inline void UpdateState();
 
-  /// @brief Method WaitAll, addr 0x6baa170, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method WaitAll, addr 0x6be6dec, size 0x6c, virtual false, abstract: false, final false
   inline void WaitAll();
 
   constexpr ::UnityEngine::Rendering::ProbeReferenceVolume_Cell* const& __cordl_internal_get__cell_k__BackingField() const;
@@ -1551,63 +1551,63 @@ public:
 
   constexpr void __cordl_internal_set_supportStreamingRequest(::UnityEngine::Rendering::ProbeReferenceVolume_DiskStreamingRequest* value);
 
-  /// @brief Method .ctor, addr 0x6baa3e4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be7060, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_cell, addr 0x6ba9fdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cell, addr 0x6be6c58, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ProbeReferenceVolume_Cell* get_cell();
 
   /// [CompilerGenerated]
-  /// @brief Method get_poolIndex, addr 0x6baa038, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_poolIndex, addr 0x6be6cb4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_poolIndex();
 
   /// [CompilerGenerated]
-  /// @brief Method get_scenarioData, addr 0x6baa028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scenarioData, addr 0x6be6ca4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo* get_scenarioData();
 
   /// [CompilerGenerated]
-  /// @brief Method get_scratchBuffer, addr 0x6ba9ffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scratchBuffer, addr 0x6be6c78, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer* get_scratchBuffer();
 
   /// [CompilerGenerated]
-  /// @brief Method get_scratchBufferLayout, addr 0x6baa00c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_scratchBufferLayout, addr 0x6be6c88, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBufferLayout get_scratchBufferLayout();
 
   /// [CompilerGenerated]
-  /// @brief Method get_state, addr 0x6ba9fec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_state, addr 0x6be6c68, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::CellStreamingRequest_ProbeReferenceVolume_State get_state();
 
   /// [CompilerGenerated]
-  /// @brief Method get_streamSharedData, addr 0x6baa048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_streamSharedData, addr 0x6be6cc4, size 0x8, virtual false, abstract: false, final false
   inline bool get_streamSharedData();
 
   /// [CompilerGenerated]
-  /// @brief Method set_cell, addr 0x6ba9fe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_cell, addr 0x6be6c60, size 0x8, virtual false, abstract: false, final false
   inline void set_cell(::UnityEngine::Rendering::ProbeReferenceVolume_Cell* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_poolIndex, addr 0x6baa040, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_poolIndex, addr 0x6be6cbc, size 0x8, virtual false, abstract: false, final false
   inline void set_poolIndex(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_scenarioData, addr 0x6baa030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_scenarioData, addr 0x6be6cac, size 0x8, virtual false, abstract: false, final false
   inline void set_scenarioData(::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_scratchBuffer, addr 0x6baa004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_scratchBuffer, addr 0x6be6c80, size 0x8, virtual false, abstract: false, final false
   inline void set_scratchBuffer(::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_scratchBufferLayout, addr 0x6baa01c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_scratchBufferLayout, addr 0x6be6c98, size 0xc, virtual false, abstract: false, final false
   inline void set_scratchBufferLayout(::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBufferLayout value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_state, addr 0x6ba9ff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_state, addr 0x6be6c70, size 0x8, virtual false, abstract: false, final false
   inline void set_state(::UnityEngine::Rendering::CellStreamingRequest_ProbeReferenceVolume_State value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_streamSharedData, addr 0x6baa050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_streamSharedData, addr 0x6be6ccc, size 0x8, virtual false, abstract: false, final false
   inline void set_streamSharedData(bool value);
 
 protected:
@@ -1625,7 +1625,7 @@ public:
   ProbeReferenceVolume_CellStreamingRequest(ProbeReferenceVolume_CellStreamingRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8967 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8974 };
 
   /// [CompilerGenerated]
   /// @brief Field <cell>k__BackingField, offset: 0x10, size: 0x8, def value: None
@@ -1734,7 +1734,7 @@ public:
                                                       ::UnityEngine::Vector3Int maxBrickPosPlusOne, bool hasMinMax, bool hasOnlyBiggerBricks) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8968 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8975 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2c };
@@ -1809,7 +1809,7 @@ public:
 
   static inline ::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc* New_ctor();
 
-  /// @brief Method ToString, addr 0x6baa648, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6be72c4, size 0xd4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get_bricksCount() const;
@@ -1860,7 +1860,7 @@ public:
 
   constexpr void __cordl_internal_set_shChunkCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6baa71c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be7398, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1878,7 +1878,7 @@ public:
   ProbeReferenceVolume_CellDesc(ProbeReferenceVolume_CellDesc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8969 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8976 };
 
   /// @brief Field position, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Vector3Int ___position;
@@ -1949,7 +1949,7 @@ public:
                                                           ::Unity::Collections::NativeArray_1<uint8_t> shL2Data_3, ::Unity::Collections::NativeArray_1<uint8_t> probeOcclusion) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8970 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8977 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
@@ -2068,10 +2068,10 @@ public:
   /// @brief Field validityNeighMaskData, offset 0x10, size 0x10
   __declspec(property(get = __cordl_internal_get_validityNeighMaskData, put = __cordl_internal_set_validityNeighMaskData)) ::Unity::Collections::NativeArray_1<uint8_t> validityNeighMaskData;
 
-  /// @brief Method Cleanup, addr 0x6baa904, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x6be7580, size 0x3d0, virtual false, abstract: false, final false
   inline void Cleanup(bool cleanScenarioList);
 
-  /// @brief Method CleanupPerScenarioData, addr 0x6baa7c0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method CleanupPerScenarioData, addr 0x6be743c, size 0x144, virtual false, abstract: false, final false
   inline void CleanupPerScenarioData(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CellData_ProbeReferenceVolume_PerScenarioData const> data);
 
   static inline ::UnityEngine::Rendering::ProbeReferenceVolume_CellData* New_ctor();
@@ -2136,71 +2136,71 @@ public:
 
   constexpr void __cordl_internal_set_validityNeighMaskData(::Unity::Collections::NativeArray_1<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x6baacd4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be7950, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_bricks, addr 0x6baa748, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_bricks, addr 0x6be73c4, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ProbeBrickIndex_Brick> get_bricks();
 
   /// [CompilerGenerated]
-  /// @brief Method get_layer, addr 0x6baa7ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_layer, addr 0x6be7428, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<uint8_t> get_layer();
 
   /// [CompilerGenerated]
-  /// @brief Method get_offsetVectors, addr 0x6baa784, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_offsetVectors, addr 0x6be7400, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> get_offsetVectors();
 
   /// [CompilerGenerated]
-  /// @brief Method get_probePositions, addr 0x6baa75c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_probePositions, addr 0x6be73d8, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> get_probePositions();
 
   /// [CompilerGenerated]
-  /// @brief Method get_skyOcclusionDataL0L1, addr 0x6baa720, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_skyOcclusionDataL0L1, addr 0x6be739c, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<uint16_t> get_skyOcclusionDataL0L1();
 
   /// [CompilerGenerated]
-  /// @brief Method get_skyShadingDirectionIndices, addr 0x6baa734, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_skyShadingDirectionIndices, addr 0x6be73b0, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<uint8_t> get_skyShadingDirectionIndices();
 
   /// [CompilerGenerated]
-  /// @brief Method get_touchupVolumeInteraction, addr 0x6baa770, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_touchupVolumeInteraction, addr 0x6be73ec, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<float_t> get_touchupVolumeInteraction();
 
   /// [CompilerGenerated]
-  /// @brief Method get_validity, addr 0x6baa798, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_validity, addr 0x6be7414, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<float_t> get_validity();
 
   /// [CompilerGenerated]
-  /// @brief Method set_bricks, addr 0x6baa754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bricks, addr 0x6be73d0, size 0x8, virtual false, abstract: false, final false
   inline void set_bricks(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ProbeBrickIndex_Brick> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_layer, addr 0x6baa7b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_layer, addr 0x6be7434, size 0x8, virtual false, abstract: false, final false
   inline void set_layer(::Unity::Collections::NativeArray_1<uint8_t> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_offsetVectors, addr 0x6baa790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_offsetVectors, addr 0x6be740c, size 0x8, virtual false, abstract: false, final false
   inline void set_offsetVectors(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_probePositions, addr 0x6baa768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_probePositions, addr 0x6be73e4, size 0x8, virtual false, abstract: false, final false
   inline void set_probePositions(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_skyOcclusionDataL0L1, addr 0x6baa72c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_skyOcclusionDataL0L1, addr 0x6be73a8, size 0x8, virtual false, abstract: false, final false
   inline void set_skyOcclusionDataL0L1(::Unity::Collections::NativeArray_1<uint16_t> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_skyShadingDirectionIndices, addr 0x6baa740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_skyShadingDirectionIndices, addr 0x6be73bc, size 0x8, virtual false, abstract: false, final false
   inline void set_skyShadingDirectionIndices(::Unity::Collections::NativeArray_1<uint8_t> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_touchupVolumeInteraction, addr 0x6baa77c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_touchupVolumeInteraction, addr 0x6be73f8, size 0x8, virtual false, abstract: false, final false
   inline void set_touchupVolumeInteraction(::Unity::Collections::NativeArray_1<float_t> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_validity, addr 0x6baa7a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_validity, addr 0x6be7420, size 0x8, virtual false, abstract: false, final false
   inline void set_validity(::Unity::Collections::NativeArray_1<float_t> value);
 
 protected:
@@ -2218,7 +2218,7 @@ public:
   ProbeReferenceVolume_CellData(ProbeReferenceVolume_CellData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8971 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8978 };
 
   /// @brief Field validityNeighMaskData, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<uint8_t> ___validityNeighMaskData;
@@ -2298,7 +2298,7 @@ public:
   /// @brief Field shChunkCount, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_shChunkCount, put = __cordl_internal_set_shChunkCount)) int32_t shChunkCount;
 
-  /// @brief Method Clear, addr 0x6baad6c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6be79e8, size 0x58, virtual false, abstract: false, final false
   inline void Clear();
 
   static inline ::UnityEngine::Rendering::ProbeReferenceVolume_CellPoolInfo* New_ctor();
@@ -2315,7 +2315,7 @@ public:
 
   constexpr void __cordl_internal_set_shChunkCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6baadc4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be7a40, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2333,7 +2333,7 @@ public:
   ProbeReferenceVolume_CellPoolInfo(ProbeReferenceVolume_CellPoolInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8972 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8979 };
 
   /// @brief Field chunkList, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>* ___chunkList;
@@ -2374,7 +2374,7 @@ public:
   /// @brief Field updateInfo, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_updateInfo, put = __cordl_internal_set_updateInfo)) ::UnityEngine::Rendering::ProbeBrickIndex_CellIndexUpdateInfo updateInfo;
 
-  /// @brief Method Clear, addr 0x6baae38, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6be7ab4, size 0x10, virtual false, abstract: false, final false
   inline void Clear();
 
   static inline ::UnityEngine::Rendering::ProbeReferenceVolume_CellIndexInfo* New_ctor();
@@ -2409,7 +2409,7 @@ public:
 
   constexpr void __cordl_internal_set_updateInfo(::UnityEngine::Rendering::ProbeBrickIndex_CellIndexUpdateInfo value);
 
-  /// @brief Method .ctor, addr 0x6baae48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be7ac4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2427,7 +2427,7 @@ public:
   ProbeReferenceVolume_CellIndexInfo(ProbeReferenceVolume_CellIndexInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8973 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8980 };
 
   /// @brief Field flatIndicesInGlobalIndirection, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<int32_t> ___flatIndicesInGlobalIndirection;
@@ -2480,27 +2480,27 @@ public:
   __declspec(property(get = __cordl_internal_get_chunkList,
                       put = __cordl_internal_set_chunkList)) ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>* chunkList;
 
-  /// @brief Method Clear, addr 0x6baaeb0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6be7b2c, size 0x60, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ForceReupload, addr 0x6baae70, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ForceReupload, addr 0x6be7aec, size 0xc, virtual false, abstract: false, final false
   inline void ForceReupload();
 
-  /// @brief Method IsUpToDate, addr 0x6baae58, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IsUpToDate, addr 0x6be7ad4, size 0x18, virtual false, abstract: false, final false
   inline bool IsUpToDate();
 
-  /// @brief Method MarkUpToDate, addr 0x6baae4c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MarkUpToDate, addr 0x6be7ac8, size 0xc, virtual false, abstract: false, final false
   inline void MarkUpToDate();
 
   static inline ::UnityEngine::Rendering::ProbeReferenceVolume_CellBlendingInfo* New_ctor();
 
-  /// @brief Method Prioritize, addr 0x6baae90, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Prioritize, addr 0x6be7b0c, size 0xc, virtual false, abstract: false, final false
   inline void Prioritize();
 
-  /// @brief Method ShouldPrioritize, addr 0x6baae9c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ShouldPrioritize, addr 0x6be7b18, size 0x14, virtual false, abstract: false, final false
   inline bool ShouldPrioritize();
 
-  /// @brief Method ShouldReupload, addr 0x6baae7c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ShouldReupload, addr 0x6be7af8, size 0x14, virtual false, abstract: false, final false
   inline bool ShouldReupload();
 
   constexpr bool const& __cordl_internal_get_blending() const;
@@ -2527,7 +2527,7 @@ public:
 
   constexpr void __cordl_internal_set_chunkList(::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>* value);
 
-  /// @brief Method .ctor, addr 0x6baaf10, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be7b8c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2545,7 +2545,7 @@ public:
   ProbeReferenceVolume_CellBlendingInfo(ProbeReferenceVolume_CellBlendingInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8974 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8981 };
 
   /// @brief Field chunkList, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>* ___chunkList;
@@ -2592,13 +2592,13 @@ public:
   /// @brief Field streamingScore, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_streamingScore, put = __cordl_internal_set_streamingScore)) float_t streamingScore;
 
-  /// @brief Method Clear, addr 0x6baafe0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6be7c5c, size 0x10, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method IsBlendingStreaming, addr 0x6baafa4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsBlendingStreaming, addr 0x6be7c20, size 0x3c, virtual false, abstract: false, final false
   inline bool IsBlendingStreaming();
 
-  /// @brief Method IsStreaming, addr 0x6baaf84, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsStreaming, addr 0x6be7c00, size 0x20, virtual false, abstract: false, final false
   inline bool IsStreaming();
 
   static inline ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingInfo* New_ctor();
@@ -2627,7 +2627,7 @@ public:
 
   constexpr void __cordl_internal_set_streamingScore(float_t value);
 
-  /// @brief Method .ctor, addr 0x6baaff0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be7c6c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2645,7 +2645,7 @@ public:
   ProbeReferenceVolume_CellStreamingInfo(ProbeReferenceVolume_CellStreamingInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8975 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8982 };
 
   /// @brief Field request, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest* ___request;
@@ -2720,15 +2720,15 @@ public:
   /// @brief Convert operator to "::System::IComparable_1<::UnityEngine::Rendering::ProbeReferenceVolume_Cell*>"
   constexpr operator ::System::IComparable_1<::UnityEngine::Rendering::ProbeReferenceVolume_Cell*>*() noexcept;
 
-  /// @brief Method Clear, addr 0x6bab100, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6be7d7c, size 0x70, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method CompareTo, addr 0x6baaff4, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x6be7c70, size 0x4c, virtual true, abstract: false, final true
   inline int32_t CompareTo(::UnityEngine::Rendering::ProbeReferenceVolume_Cell* other);
 
   static inline ::UnityEngine::Rendering::ProbeReferenceVolume_Cell* New_ctor();
 
-  /// @brief Method UpdateCellScenarioData, addr 0x6bab040, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method UpdateCellScenarioData, addr 0x6be7cbc, size 0xc0, virtual false, abstract: false, final false
   inline bool UpdateCellScenarioData(::StringW scenario0, ::StringW scenario1);
 
   constexpr ::UnityEngine::Rendering::ProbeReferenceVolume_CellBlendingInfo* const& __cordl_internal_get_blendingInfo() const;
@@ -2803,7 +2803,7 @@ public:
 
   constexpr void __cordl_internal_set_streamingInfo(::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingInfo* value);
 
-  /// @brief Method .ctor, addr 0x6bab170, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be7dec, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IComparable_1<::UnityEngine::Rendering::ProbeReferenceVolume_Cell*>"
@@ -2824,7 +2824,7 @@ public:
   ProbeReferenceVolume_Cell(ProbeReferenceVolume_Cell const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8976 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8983 };
 
   /// @brief Field desc, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc* ___desc;
@@ -2902,31 +2902,31 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::ProbeReferenceVolume_Volume>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::ProbeReferenceVolume_Volume>*();
 
-  /// @brief Method CalculateAABB, addr 0x6bab3f4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method CalculateAABB, addr 0x6be8070, size 0x10c, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds CalculateAABB();
 
-  /// @brief Method CalculateCenterAndSize, addr 0x6bab500, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method CalculateCenterAndSize, addr 0x6be817c, size 0x1c4, virtual false, abstract: false, final false
   inline void CalculateCenterAndSize(::by_ref<::UnityEngine::Vector3> center, ::by_ref<::UnityEngine::Vector3> size);
 
-  /// @brief Method Equals, addr 0x6baba58, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6be86d4, size 0xf4, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::ProbeReferenceVolume_Volume other);
 
-  /// @brief Method ToString, addr 0x6bab840, size 0x218, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6be84bc, size 0x218, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Transform, addr 0x6bab6c4, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Transform, addr 0x6be8340, size 0x17c, virtual false, abstract: false, final false
   inline void Transform(::UnityEngine::Matrix4x4 trs);
 
-  /// @brief Method .ctor, addr 0x6bab394, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be8010, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Bounds bounds);
 
-  /// @brief Method .ctor, addr 0x6bab300, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be7f7c, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::ProbeReferenceVolume_Volume copy);
 
-  /// @brief Method .ctor, addr 0x6bab2c0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be7f3c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 corner, ::UnityEngine::Vector3 X, ::UnityEngine::Vector3 Y, ::UnityEngine::Vector3 Z, float_t maxSubdivision, float_t minSubdivision);
 
-  /// @brief Method .ctor, addr 0x6bab240, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be7ebc, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Matrix4x4 trs, float_t maxSubdivision, float_t minSubdivision);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::ProbeReferenceVolume_Volume>"
@@ -2944,7 +2944,7 @@ public:
                                         float_t minSubdivisionMultiplier) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8977 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8984 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -3001,7 +3001,7 @@ public:
   constexpr ProbeReferenceVolume_RefVolTransform(::UnityEngine::Vector3 posWS, ::UnityEngine::Quaternion rot, float_t scale) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8978 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8985 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -3057,7 +3057,7 @@ public:
                                                   ::UnityEngine::ComputeBuffer* SkyPrecomputedDirections, ::UnityEngine::ComputeBuffer* QualityLeakReductionData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8979 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8986 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };
@@ -3156,7 +3156,7 @@ public:
   constexpr ProbeReferenceVolume_ExtraDataActionInput();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8980 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8987 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -3288,110 +3288,110 @@ public:
 
   static inline ::UnityEngine::Rendering::ProbeReferenceVolume___c* New_ctor();
 
-  /// @brief Method <CleanupStreaming>b__110_0, addr 0x6bac614, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <CleanupStreaming>b__110_0, addr 0x6be9290, size 0x18, virtual false, abstract: false, final false
   inline void _CleanupStreaming_b__110_0(::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest* val);
 
-  /// @brief Method <RegisterDebug>b__42_1, addr 0x6babba4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_1, addr 0x6be8820, size 0x8, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__42_1();
 
-  /// @brief Method <RegisterDebug>b__42_18, addr 0x6babbb4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_18, addr 0x6be8830, size 0xc, virtual false, abstract: false, final false
   inline float_t _RegisterDebug_b__42_18();
 
-  /// @brief Method <RegisterDebug>b__42_19, addr 0x6babbc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_19, addr 0x6be883c, size 0x8, virtual false, abstract: false, final false
   inline float_t _RegisterDebug_b__42_19();
 
-  /// @brief Method <RegisterDebug>b__42_25, addr 0x6babbc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_25, addr 0x6be8844, size 0x8, virtual false, abstract: false, final false
   inline int32_t _RegisterDebug_b__42_25();
 
-  /// @brief Method <RegisterDebug>b__42_29, addr 0x6babbd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_29, addr 0x6be884c, size 0x8, virtual false, abstract: false, final false
   inline int32_t _RegisterDebug_b__42_29();
 
-  /// @brief Method <RegisterDebug>b__42_36, addr 0x6babbd8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_36, addr 0x6be8854, size 0xc, virtual false, abstract: false, final false
   inline float_t _RegisterDebug_b__42_36();
 
-  /// @brief Method <RegisterDebug>b__42_37, addr 0x6babbe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_37, addr 0x6be8860, size 0x8, virtual false, abstract: false, final false
   inline float_t _RegisterDebug_b__42_37();
 
-  /// @brief Method <RegisterDebug>b__42_45, addr 0x6babbec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_45, addr 0x6be8868, size 0xc, virtual false, abstract: false, final false
   inline float_t _RegisterDebug_b__42_45();
 
-  /// @brief Method <RegisterDebug>b__42_46, addr 0x6babbf8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_46, addr 0x6be8874, size 0xc, virtual false, abstract: false, final false
   inline float_t _RegisterDebug_b__42_46();
 
-  /// @brief Method <RegisterDebug>b__42_50, addr 0x6babc04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_50, addr 0x6be8880, size 0x8, virtual false, abstract: false, final false
   inline float_t _RegisterDebug_b__42_50();
 
-  /// @brief Method <RegisterDebug>b__42_60, addr 0x6babc0c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_60, addr 0x6be8888, size 0xa0, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__42_60();
 
-  /// @brief Method <RegisterDebug>b__42_61, addr 0x6babcac, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_61, addr 0x6be8928, size 0xb0, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__42_61(bool value);
 
-  /// @brief Method <RegisterDebug>b__42_62, addr 0x6babd5c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_62, addr 0x6be89d8, size 0xa0, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__42_62();
 
-  /// @brief Method <RegisterDebug>b__42_63, addr 0x6babdfc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_63, addr 0x6be8a78, size 0xa0, virtual false, abstract: false, final false
   inline int32_t _RegisterDebug_b__42_63();
 
-  /// @brief Method <RegisterDebug>b__42_64, addr 0x6babe9c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_64, addr 0x6be8b18, size 0xc0, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__42_64(int32_t value);
 
-  /// @brief Method <RegisterDebug>b__42_65, addr 0x6babf5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_65, addr 0x6be8bd8, size 0x8, virtual false, abstract: false, final false
   inline int32_t _RegisterDebug_b__42_65();
 
-  /// @brief Method <RegisterDebug>b__42_66, addr 0x6babf64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_66, addr 0x6be8be0, size 0x8, virtual false, abstract: false, final false
   inline int32_t _RegisterDebug_b__42_66();
 
-  /// @brief Method <RegisterDebug>b__42_70, addr 0x6babf6c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_70, addr 0x6be8be8, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterDebug_b__42_70();
 
-  /// @brief Method <RegisterDebug>b__42_76, addr 0x6bac040, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_76, addr 0x6be8cbc, size 0xa0, virtual false, abstract: false, final false
   inline int32_t _RegisterDebug_b__42_76();
 
-  /// @brief Method <RegisterDebug>b__42_77, addr 0x6bac0e0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_77, addr 0x6be8d5c, size 0xb4, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__42_77(int32_t value);
 
-  /// @brief Method <RegisterDebug>b__42_78, addr 0x6bac194, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_78, addr 0x6be8e10, size 0x8, virtual false, abstract: false, final false
   inline int32_t _RegisterDebug_b__42_78();
 
-  /// @brief Method <RegisterDebug>b__42_79, addr 0x6bac19c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_79, addr 0x6be8e18, size 0xa0, virtual false, abstract: false, final false
   inline float_t _RegisterDebug_b__42_79();
 
-  /// @brief Method <RegisterDebug>b__42_8, addr 0x6babbac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_8, addr 0x6be8828, size 0x8, virtual false, abstract: false, final false
   inline float_t _RegisterDebug_b__42_8();
 
-  /// @brief Method <RegisterDebug>b__42_80, addr 0x6bac23c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_80, addr 0x6be8eb8, size 0xc4, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__42_80(float_t value);
 
-  /// @brief Method <RegisterDebug>b__42_81, addr 0x6bac300, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_81, addr 0x6be8f7c, size 0x8, virtual false, abstract: false, final false
   inline float_t _RegisterDebug_b__42_81();
 
-  /// @brief Method <RegisterDebug>b__42_82, addr 0x6bac308, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_82, addr 0x6be8f84, size 0x8, virtual false, abstract: false, final false
   inline float_t _RegisterDebug_b__42_82();
 
-  /// @brief Method <RegisterDebug>b__42_87, addr 0x6bac310, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_87, addr 0x6be8f8c, size 0xa0, virtual false, abstract: false, final false
   inline float_t _RegisterDebug_b__42_87();
 
-  /// @brief Method <RegisterDebug>b__42_88, addr 0x6bac3b0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_88, addr 0x6be902c, size 0xb0, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__42_88(float_t value);
 
-  /// @brief Method <RegisterDebug>b__42_89, addr 0x6bac460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_89, addr 0x6be90dc, size 0x8, virtual false, abstract: false, final false
   inline float_t _RegisterDebug_b__42_89();
 
-  /// @brief Method <RegisterDebug>b__42_90, addr 0x6bac468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_90, addr 0x6be90e4, size 0x8, virtual false, abstract: false, final false
   inline float_t _RegisterDebug_b__42_90();
 
-  /// @brief Method <RenderFragmentationOverlay>b__45_0, addr 0x6bac470, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method <RenderFragmentationOverlay>b__45_0, addr 0x6be90ec, size 0x1a4, virtual false, abstract: false, final false
   inline void _RenderFragmentationOverlay_b__45_0(::UnityEngine::Rendering::ProbeReferenceVolume_RenderFragmentationOverlayPassData* data,
                                                   ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* ctx);
 
-  /// @brief Method <.ctor>b__297_0, addr 0x6bac62c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__297_0, addr 0x6be92a8, size 0x18, virtual false, abstract: false, final false
   inline void __ctor_b__297_0(::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest* val);
 
-  /// @brief Method <.ctor>b__297_1, addr 0x6bac644, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__297_1, addr 0x6be92c0, size 0x14, virtual false, abstract: false, final false
   inline void __ctor_b__297_1(::UnityEngine::Rendering::ProbeReferenceVolume_Cell* x);
 
-  /// @brief Method .ctor, addr 0x6babba0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be881c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::ProbeReferenceVolume___c* getStaticF___9();
@@ -3552,7 +3552,7 @@ public:
   ProbeReferenceVolume___c(ProbeReferenceVolume___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8981 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8988 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3573,7 +3573,7 @@ public:
 
   static inline ::UnityEngine::Rendering::ProbeReferenceVolume___c__DisplayClass141_0* New_ctor();
 
-  /// @brief Method <HasActiveStreamingRequest>b__0, addr 0x6bac65c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <HasActiveStreamingRequest>b__0, addr 0x6be92d8, size 0x20, virtual false, abstract: false, final false
   inline bool _HasActiveStreamingRequest_b__0(::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest* x);
 
   constexpr ::UnityEngine::Rendering::ProbeReferenceVolume_Cell* const& __cordl_internal_get_cell() const;
@@ -3582,7 +3582,7 @@ public:
 
   constexpr void __cordl_internal_set_cell(::UnityEngine::Rendering::ProbeReferenceVolume_Cell* value);
 
-  /// @brief Method .ctor, addr 0x6bac658, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be92d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -3600,7 +3600,7 @@ public:
   ProbeReferenceVolume___c__DisplayClass141_0(ProbeReferenceVolume___c__DisplayClass141_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8982 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8989 };
 
   /// @brief Field cell, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::ProbeReferenceVolume_Cell* ___cell;
@@ -4070,391 +4070,391 @@ public:
 
   __declspec(property(get = get_vertexSampling)) bool vertexSampling;
 
-  /// @brief Method AddBlendingBricks, addr 0x6b93800, size 0x578, virtual false, abstract: false, final false
+  /// @brief Method AddBlendingBricks, addr 0x6bd047c, size 0x578, virtual false, abstract: false, final false
   inline bool AddBlendingBricks(::UnityEngine::Rendering::ProbeReferenceVolume_Cell* cell);
 
-  /// @brief Method AddBricks, addr 0x6b9a308, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method AddBricks, addr 0x6bd6f84, size 0x298, virtual false, abstract: false, final false
   inline bool AddBricks(::UnityEngine::Rendering::ProbeReferenceVolume_Cell* cell);
 
-  /// @brief Method AddCell, addr 0x6b99bc8, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method AddCell, addr 0x6bd6844, size 0x21c, virtual false, abstract: false, final false
   inline void AddCell(int32_t cellIndex);
 
-  /// @brief Method AddPendingSceneLoading, addr 0x6b9a76c, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method AddPendingSceneLoading, addr 0x6bd73e8, size 0x474, virtual false, abstract: false, final false
   inline void AddPendingSceneLoading(::StringW sceneGUID, ::UnityEngine::Rendering::ProbeVolumeBakingSet* bakingSet);
 
-  /// @brief Method AddPendingSceneRemoval, addr 0x6b9abe0, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method AddPendingSceneRemoval, addr 0x6bd785c, size 0x198, virtual false, abstract: false, final false
   inline void AddPendingSceneRemoval(::StringW sceneGUID);
 
-  /// @brief Method AllocateScratchBufferPoolIfNeeded, addr 0x6b977b8, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method AllocateScratchBufferPoolIfNeeded, addr 0x6bd4434, size 0x138, virtual false, abstract: false, final false
   inline void AllocateScratchBufferPoolIfNeeded();
 
-  /// @brief Method BindAPVRuntimeResources, addr 0x6b87ab0, size 0xd28, virtual false, abstract: false, final false
+  /// @brief Method BindAPVRuntimeResources, addr 0x6bc472c, size 0xd28, virtual false, abstract: false, final false
   inline void BindAPVRuntimeResources(::UnityEngine::Rendering::CommandBuffer* cmdBuffer, bool isProbeVolumeEnabled);
 
-  /// @brief Method BlendLightingScenario, addr 0x6b97ef0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method BlendLightingScenario, addr 0x6bd4b6c, size 0xd0, virtual false, abstract: false, final false
   inline void BlendLightingScenario(::StringW otherScenario, float_t blendingFactor);
 
-  /// @brief Method BlendingComparer, addr 0x6b95e68, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method BlendingComparer, addr 0x6bd2ae4, size 0x50, virtual false, abstract: false, final false
   static inline int32_t BlendingComparer(::UnityEngine::Rendering::ProbeReferenceVolume_Cell* a, ::UnityEngine::Rendering::ProbeReferenceVolume_Cell* b);
 
-  /// @brief Method BrickSize, addr 0x6b9c17c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method BrickSize, addr 0x6bd8df8, size 0x44, virtual false, abstract: false, final false
   inline float_t BrickSize(int32_t subdivisionLevel);
 
-  /// @brief Method CancelBlendingStreamingRequest, addr 0x6b969ec, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CancelBlendingStreamingRequest, addr 0x6bd3668, size 0x4c, virtual false, abstract: false, final false
   inline void CancelBlendingStreamingRequest(::UnityEngine::Rendering::ProbeReferenceVolume_Cell* cell);
 
-  /// @brief Method CancelStreamingRequest, addr 0x6b96978, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CancelStreamingRequest, addr 0x6bd35f4, size 0x74, virtual false, abstract: false, final false
   inline void CancelStreamingRequest(::UnityEngine::Rendering::ProbeReferenceVolume_Cell* cell);
 
-  /// @brief Method CellSize, addr 0x6b9a20c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method CellSize, addr 0x6bd6e88, size 0x30, virtual false, abstract: false, final false
   static inline int32_t CellSize(int32_t subdivisionLevel);
 
-  /// @brief Method Cleanup, addr 0x6b99790, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x6bd640c, size 0x118, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method CleanupDebug, addr 0x6b8e3a8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method CleanupDebug, addr 0x6bcb024, size 0x10c, virtual false, abstract: false, final false
   inline void CleanupDebug();
 
-  /// @brief Method CleanupLoadedData, addr 0x6b998a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CleanupLoadedData, addr 0x6bd6524, size 0x4, virtual false, abstract: false, final false
   inline void CleanupLoadedData();
 
-  /// @brief Method CleanupStreaming, addr 0x6b91af8, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method CleanupStreaming, addr 0x6bce774, size 0x22c, virtual false, abstract: false, final false
   inline void CleanupStreaming();
 
-  /// @brief Method Clear, addr 0x6b9c320, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6bd8f9c, size 0x138, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ClearDebugData, addr 0x6b900c4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ClearDebugData, addr 0x6bccd40, size 0x54, virtual false, abstract: false, final false
   inline void ClearDebugData();
 
-  /// @brief Method ComputeBestToBeLoadedCells, addr 0x6b925d4, size 0x36c, virtual false, abstract: false, final false
+  /// @brief Method ComputeBestToBeLoadedCells, addr 0x6bcf250, size 0x36c, virtual false, abstract: false, final false
   inline void ComputeBestToBeLoadedCells(::UnityEngine::Vector3 cameraPosition, ::UnityEngine::Vector3 cameraDirection);
 
-  /// @brief Method ComputeBlendingScore, addr 0x6b92ce8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ComputeBlendingScore, addr 0x6bcf964, size 0xf0, virtual false, abstract: false, final false
   inline void ComputeBlendingScore(::UnityEngine::Rendering::DynamicArray_1<::UnityEngine::Rendering::ProbeReferenceVolume_Cell*>* cells, float_t worstScore);
 
-  /// @brief Method ComputeCellGlobalInfo, addr 0x6b950c8, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method ComputeCellGlobalInfo, addr 0x6bd1d44, size 0x1d4, virtual false, abstract: false, final false
   inline void ComputeCellGlobalInfo();
 
-  /// @brief Method ComputeCellStreamingScore, addr 0x6b922a4, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method ComputeCellStreamingScore, addr 0x6bcef20, size 0x214, virtual false, abstract: false, final false
   static inline void ComputeCellStreamingScore(::UnityEngine::Rendering::ProbeReferenceVolume_Cell* cell, ::UnityEngine::Vector3 cameraPosition, ::UnityEngine::Vector3 cameraDirection);
 
-  /// @brief Method ComputeEntryMinMax, addr 0x6b99ea4, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method ComputeEntryMinMax, addr 0x6bd6b20, size 0x350, virtual false, abstract: false, final false
   inline void ComputeEntryMinMax(::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_IndirectionEntryInfo> entryInfo,
                                  ::System::ReadOnlySpan_1<::UnityEngine::Rendering::ProbeBrickIndex_Brick> bricks);
 
-  /// @brief Method ComputeMinMaxStreamingScore, addr 0x6b93d78, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method ComputeMinMaxStreamingScore, addr 0x6bd09f4, size 0x164, virtual false, abstract: false, final false
   inline void ComputeMinMaxStreamingScore();
 
-  /// @brief Method ComputeStreamingScore, addr 0x6b924b8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ComputeStreamingScore, addr 0x6bcf134, size 0x11c, virtual false, abstract: false, final false
   inline void ComputeStreamingScore(::UnityEngine::Vector3 cameraPosition, ::UnityEngine::Vector3 cameraDirection,
                                     ::UnityEngine::Rendering::DynamicArray_1<::UnityEngine::Rendering::ProbeReferenceVolume_Cell*>* cells);
 
-  /// @brief Method ComputeStreamingScoreAndWorseLoadedCells, addr 0x6b92940, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method ComputeStreamingScoreAndWorseLoadedCells, addr 0x6bcf5bc, size 0x3a8, virtual false, abstract: false, final false
   inline void ComputeStreamingScoreAndWorseLoadedCells(::UnityEngine::Vector3 cameraPosition, ::UnityEngine::Vector3 cameraDirection);
 
-  /// @brief Method CreateInstancedProbes, addr 0x6b8f1c4, size 0xed8, virtual false, abstract: false, final false
+  /// @brief Method CreateInstancedProbes, addr 0x6bcbe40, size 0xed8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ProbeReferenceVolume_CellInstancedDebugProbes* CreateInstancedProbes(::UnityEngine::Rendering::ProbeReferenceVolume_Cell* cell);
 
-  /// @brief Method DataHasBeenLoaded, addr 0x6b88c54, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method DataHasBeenLoaded, addr 0x6bc58d0, size 0x58, virtual false, abstract: false, final false
   inline bool DataHasBeenLoaded();
 
   /// @brief Method DebugCellIndexChanged, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void DebugCellIndexChanged(::UnityEngine::Rendering::DebugUI_Field_1<T>* field, T value);
 
-  /// @brief Method DecodeSkyShadingDirection, addr 0x6b90304, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method DecodeSkyShadingDirection, addr 0x6bccf80, size 0xe0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 DecodeSkyShadingDirection(uint32_t directionIndex);
 
-  /// @brief Method DecompressSH, addr 0x6b90118, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method DecompressSH, addr 0x6bccd94, size 0x1ec, virtual false, abstract: false, final false
   static inline void DecompressSH(::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2> shv);
 
-  /// @brief Method DefragComparer, addr 0x6b95eb8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method DefragComparer, addr 0x6bd2b34, size 0x98, virtual false, abstract: false, final false
   static inline int32_t DefragComparer(::UnityEngine::Rendering::ProbeReferenceVolume_Cell* a, ::UnityEngine::Rendering::ProbeReferenceVolume_Cell* b);
 
-  /// @brief Method DeinitProbeReferenceVolume, addr 0x6b99548, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method DeinitProbeReferenceVolume, addr 0x6bd61c4, size 0x240, virtual false, abstract: false, final false
   inline void DeinitProbeReferenceVolume();
 
-  /// @brief Method DrawProbeDebug, addr 0x6b8935c, size 0x119c, virtual false, abstract: false, final false
+  /// @brief Method DrawProbeDebug, addr 0x6bc5fd8, size 0x119c, virtual false, abstract: false, final false
   inline void DrawProbeDebug(::UnityEngine::Camera* camera, ::UnityEngine::Texture* exposureTexture);
 
-  /// @brief Method EnableMaxCellStreaming, addr 0x6b91968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EnableMaxCellStreaming, addr 0x6bce5e4, size 0x8, virtual false, abstract: false, final false
   inline void EnableMaxCellStreaming(bool value);
 
-  /// @brief Method FindWorstBlendingCellToBeLoaded, addr 0x6b95d68, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method FindWorstBlendingCellToBeLoaded, addr 0x6bd29e4, size 0x100, virtual false, abstract: false, final false
   inline int32_t FindWorstBlendingCellToBeLoaded();
 
-  /// @brief Method ForceMemoryBudget, addr 0x6b9941c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ForceMemoryBudget, addr 0x6bd6098, size 0x8, virtual false, abstract: false, final false
   inline void ForceMemoryBudget(::UnityEngine::Rendering::ProbeVolumeTextureMemoryBudget budget);
 
-  /// @brief Method ForceNoDiskStreaming, addr 0x6b99788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ForceNoDiskStreaming, addr 0x6bd6404, size 0x8, virtual false, abstract: false, final false
   inline void ForceNoDiskStreaming(bool state);
 
-  /// @brief Method ForceSHBand, addr 0x6b99424, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method ForceSHBand, addr 0x6bd60a0, size 0x124, virtual false, abstract: false, final false
   inline void ForceSHBand(::UnityEngine::Rendering::ProbeVolumeSHBands shBands);
 
-  /// @brief Method GetCellBounds, addr 0x6b8ecc4, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetCellBounds, addr 0x6bcb940, size 0x178, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds GetCellBounds(::UnityEngine::Vector3 cellPosition);
 
-  /// @brief Method GetDistanceBetweenProbes, addr 0x6b9c264, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetDistanceBetweenProbes, addr 0x6bd8ee0, size 0x4c, virtual false, abstract: false, final false
   inline float_t GetDistanceBetweenProbes(int32_t subdivisionLevel);
 
-  /// @brief Method GetEntrySize, addr 0x6b9c2c8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetEntrySize, addr 0x6bd8f44, size 0x58, virtual false, abstract: false, final false
   inline float_t GetEntrySize();
 
-  /// @brief Method GetEntrySubdivLevel, addr 0x6b9a1f4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetEntrySubdivLevel, addr 0x6bd6e70, size 0x18, virtual false, abstract: false, final false
   inline int32_t GetEntrySubdivLevel();
 
-  /// @brief Method GetFlattenedProbeData, addr 0x6b903e4, size 0x147c, virtual false, abstract: false, final false
+  /// @brief Method GetFlattenedProbeData, addr 0x6bcd060, size 0x147c, virtual false, abstract: false, final false
   inline bool GetFlattenedProbeData(::StringW scenario, ::by_ref<::ArrayW<::UnityEngine::Vector3>> positions, ::by_ref<::ArrayW<::UnityEngine::Rendering::SphericalHarmonicsL2>> irradiance,
                                     ::by_ref<::ArrayW<float_t>> validity, ::by_ref<::ArrayW<::UnityEngine::Vector4>> occlusion, ::by_ref<::ArrayW<::UnityEngine::Vector4>> skyOcclusion,
                                     ::by_ref<::ArrayW<::UnityEngine::Vector3>> skyOcclusionDirections, ::by_ref<::ArrayW<::UnityEngine::Vector3>> virtualOffset);
 
-  /// @brief Method GetGlobalIndirectionEntryMaxSubdiv, addr 0x6b9c2c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetGlobalIndirectionEntryMaxSubdiv, addr 0x6bd8f3c, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetGlobalIndirectionEntryMaxSubdiv();
 
-  /// @brief Method GetMaxSubdivision, addr 0x6b9c1d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetMaxSubdivision, addr 0x6bd8e54, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetMaxSubdivision();
 
-  /// @brief Method GetMaxSubdivision, addr 0x6b9c1e0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetMaxSubdivision, addr 0x6bd8e5c, size 0x84, virtual false, abstract: false, final false
   inline int32_t GetMaxSubdivision(float_t multiplier);
 
-  /// @brief Method GetNumberOfBricksAtSubdiv, addr 0x6b9a23c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetNumberOfBricksAtSubdiv, addr 0x6bd6eb8, size 0xcc, virtual false, abstract: false, final false
   static inline int32_t GetNumberOfBricksAtSubdiv(::UnityEngine::Rendering::ProbeReferenceVolume_IndirectionEntryInfo entryInfo);
 
-  /// @brief Method GetProbeSamplingDebugResources, addr 0x6b8a568, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetProbeSamplingDebugResources, addr 0x6bc71e4, size 0x130, virtual false, abstract: false, final false
   inline bool GetProbeSamplingDebugResources(::UnityEngine::Camera* camera, ::by_ref<::UnityEngine::GraphicsBuffer*> resultBuffer, ::by_ref<::UnityEngine::Vector2> coords);
 
-  /// @brief Method GetRuntimeResources, addr 0x6b887d8, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeResources, addr 0x6bc5454, size 0x148, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ProbeReferenceVolume_RuntimeResources GetRuntimeResources();
 
-  /// @brief Method GetSceneGUID, addr 0x6b97e94, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetSceneGUID, addr 0x6bd4b10, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW GetSceneGUID(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method GetSourceLocations, addr 0x6b9c458, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetSourceLocations, addr 0x6bd90d4, size 0x190, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>* GetSourceLocations(int32_t count, int32_t chunkSize,
                                                                                                                               ::UnityEngine::Rendering::ProbeBrickPool_DataLocation dataLoc);
 
-  /// @brief Method GetVideoMemoryCost, addr 0x6b998ac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetVideoMemoryCost, addr 0x6bd6528, size 0x7c, virtual false, abstract: false, final false
   inline int32_t GetVideoMemoryCost();
 
-  /// @brief Method HasActiveStreamingRequest, addr 0x6b91860, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method HasActiveStreamingRequest, addr 0x6bce4dc, size 0x104, virtual false, abstract: false, final false
   inline bool HasActiveStreamingRequest(::UnityEngine::Rendering::ProbeReferenceVolume_Cell* cell);
 
-  /// @brief Method InitProbeReferenceVolume, addr 0x6b9885c, size 0x4dc, virtual false, abstract: false, final false
+  /// @brief Method InitProbeReferenceVolume, addr 0x6bd54d8, size 0x4dc, virtual false, abstract: false, final false
   inline void InitProbeReferenceVolume();
 
-  /// @brief Method InitStreaming, addr 0x6b91a44, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method InitStreaming, addr 0x6bce6c0, size 0xb4, virtual false, abstract: false, final false
   inline void InitStreaming();
 
-  /// @brief Method Initialize, addr 0x6b98f68, size 0x4a4, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6bd5be4, size 0x4a4, virtual false, abstract: false, final false
   inline void Initialize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::ProbeVolumeSystemParameters const> parameters);
 
-  /// @brief Method InitializeDebug, addr 0x6b8ac4c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method InitializeDebug, addr 0x6bc78c8, size 0x24, virtual false, abstract: false, final false
   inline void InitializeDebug();
 
-  /// @brief Method InitializeGlobalIndirection, addr 0x6b9af1c, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method InitializeGlobalIndirection, addr 0x6bd7b98, size 0x288, virtual false, abstract: false, final false
   inline void InitializeGlobalIndirection();
 
-  /// @brief Method IsProbeSamplingDebugEnabled, addr 0x6b8a4f8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method IsProbeSamplingDebugEnabled, addr 0x6bc7174, size 0x70, virtual false, abstract: false, final false
   inline bool IsProbeSamplingDebugEnabled();
 
-  /// @brief Method LoadAllCells, addr 0x6b9a614, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method LoadAllCells, addr 0x6bd7290, size 0x158, virtual false, abstract: false, final false
   inline void LoadAllCells();
 
-  /// @brief Method LoadCell, addr 0x6b92f88, size 0x598, virtual false, abstract: false, final false
+  /// @brief Method LoadCell, addr 0x6bcfc04, size 0x598, virtual false, abstract: false, final false
   inline bool LoadCell(::UnityEngine::Rendering::ProbeReferenceVolume_Cell* cell, bool ignoreErrorLog);
 
-  /// @brief Method LoadCells, addr 0x6b9b26c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method LoadCells, addr 0x6bd7ee8, size 0xdc, virtual false, abstract: false, final false
   inline bool LoadCells(::System::Collections::Generic::List_1<int32_t>* cellIndices);
 
   /// [Conditional("UNITY_EDITOR")]
   /// [Conditional("DEVELOPMENT_BUILD")]
-  /// @brief Method LogStreaming, addr 0x6b97a9c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method LogStreaming, addr 0x6bd4718, size 0x5c, virtual false, abstract: false, final false
   inline void LogStreaming(::StringW log);
 
-  /// @brief Method MaxBrickSize, addr 0x6b8ee3c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method MaxBrickSize, addr 0x6bcbab8, size 0x4c, virtual false, abstract: false, final false
   inline float_t MaxBrickSize();
 
-  /// @brief Method MinBrickSize, addr 0x6b9c1c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method MinBrickSize, addr 0x6bd8e3c, size 0x8, virtual false, abstract: false, final false
   inline float_t MinBrickSize();
 
-  /// @brief Method MinDistanceBetweenProbes, addr 0x6b9c2b0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method MinDistanceBetweenProbes, addr 0x6bd8f2c, size 0x10, virtual false, abstract: false, final false
   inline float_t MinDistanceBetweenProbes();
 
   static inline ::UnityEngine::Rendering::ProbeReferenceVolume* New_ctor();
 
-  /// @brief Method OnBlendingStreamingComplete, addr 0x6b9646c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnBlendingStreamingComplete, addr 0x6bd30e8, size 0xe8, virtual false, abstract: false, final false
   inline void OnBlendingStreamingComplete(::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest* request, ::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method OnClearLightingdata, addr 0x6b91964, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnClearLightingdata, addr 0x6bce5e0, size 0x4, virtual false, abstract: false, final false
   inline void OnClearLightingdata();
 
-  /// @brief Method OnStreamingComplete, addr 0x6b95f50, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method OnStreamingComplete, addr 0x6bd2bcc, size 0x7c, virtual false, abstract: false, final false
   inline void OnStreamingComplete(::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest* request, ::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method PerformPendingDeletion, addr 0x6b9b794, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method PerformPendingDeletion, addr 0x6bd8410, size 0x158, virtual false, abstract: false, final false
   inline void PerformPendingDeletion();
 
-  /// @brief Method PerformPendingIndexChangeAndInit, addr 0x6b9aee8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method PerformPendingIndexChangeAndInit, addr 0x6bd7b64, size 0x34, virtual false, abstract: false, final false
   inline void PerformPendingIndexChangeAndInit();
 
-  /// @brief Method PerformPendingLoading, addr 0x6b9b348, size 0x44c, virtual false, abstract: false, final false
+  /// @brief Method PerformPendingLoading, addr 0x6bd7fc4, size 0x44c, virtual false, abstract: false, final false
   inline void PerformPendingLoading();
 
-  /// @brief Method PerformPendingOperations, addr 0x6b98e24, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method PerformPendingOperations, addr 0x6bd5aa0, size 0x20, virtual false, abstract: false, final false
   inline void PerformPendingOperations();
 
-  /// @brief Method ProbeOffset, addr 0x6b9c1c8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ProbeOffset, addr 0x6bd8e44, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ProbeOffset();
 
-  /// @brief Method ProcessDiskStreamingRequest, addr 0x6b96a38, size 0xd80, virtual false, abstract: false, final false
+  /// @brief Method ProcessDiskStreamingRequest, addr 0x6bd36b4, size 0xd80, virtual false, abstract: false, final false
   inline bool ProcessDiskStreamingRequest(::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest* request);
 
-  /// @brief Method ProcessNewRequests, addr 0x6b91d24, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ProcessNewRequests, addr 0x6bce9a0, size 0xf0, virtual false, abstract: false, final false
   inline void ProcessNewRequests();
 
-  /// @brief Method ProcessScheduledBakingSet, addr 0x6b98108, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ProcessScheduledBakingSet, addr 0x6bd4d84, size 0xc0, virtual false, abstract: false, final false
   inline bool ProcessScheduledBakingSet();
 
-  /// @brief Method PushDiskStreamingRequest, addr 0x6b96810, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method PushDiskStreamingRequest, addr 0x6bd348c, size 0x168, virtual false, abstract: false, final false
   inline void PushDiskStreamingRequest(::UnityEngine::Rendering::ProbeReferenceVolume_Cell* cell, ::StringW scenario, int32_t poolIndex,
                                        ::UnityEngine::Rendering::CellStreamingRequest_ProbeReferenceVolume_OnStreamingCompleteDelegate* onStreamingComplete);
 
-  /// @brief Method RegisterBakingSet, addr 0x6b98d78, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method RegisterBakingSet, addr 0x6bd59f4, size 0xac, virtual false, abstract: false, final false
   inline void RegisterBakingSet(::UnityEngine::Rendering::ProbeVolumePerSceneData* data);
 
-  /// @brief Method RegisterDebug, addr 0x6b8ac70, size 0x3738, virtual false, abstract: false, final false
+  /// @brief Method RegisterDebug, addr 0x6bc78ec, size 0x3738, virtual false, abstract: false, final false
   inline void RegisterDebug();
 
-  /// @brief Method RegisterPerSceneData, addr 0x6b97fd8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method RegisterPerSceneData, addr 0x6bd4c54, size 0x100, virtual false, abstract: false, final false
   inline void RegisterPerSceneData(::UnityEngine::Rendering::ProbeVolumePerSceneData* data);
 
-  /// @brief Method ReleaseBricks, addr 0x6b99a98, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method ReleaseBricks, addr 0x6bd6714, size 0x130, virtual false, abstract: false, final false
   inline void ReleaseBricks(::UnityEngine::Rendering::ProbeReferenceVolume_Cell* cell);
 
-  /// @brief Method ReleasePoolChunks, addr 0x6b9a5a0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ReleasePoolChunks, addr 0x6bd721c, size 0x74, virtual false, abstract: false, final false
   inline void ReleasePoolChunks(::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>* chunkList);
 
-  /// @brief Method RemoveCell, addr 0x6b99928, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method RemoveCell, addr 0x6bd65a4, size 0x170, virtual false, abstract: false, final false
   inline void RemoveCell(int32_t cellIndex);
 
-  /// @brief Method RemovePendingScene, addr 0x6b9ad78, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method RemovePendingScene, addr 0x6bd79f4, size 0x170, virtual false, abstract: false, final false
   inline void RemovePendingScene(::StringW sceneGUID, ::System::Collections::Generic::List_1<int32_t>* cellList);
 
   /// [Obsolete("Use the other override to support sampling offset in debug modes. #from(6000.0)")]
-  /// @brief Method RenderDebug, addr 0x6b89238, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method RenderDebug, addr 0x6bc5eb4, size 0xc, virtual false, abstract: false, final false
   inline void RenderDebug(::UnityEngine::Camera* camera, ::UnityEngine::Texture* exposureTexture);
 
-  /// @brief Method RenderDebug, addr 0x6b89244, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method RenderDebug, addr 0x6bc5ec0, size 0x118, virtual false, abstract: false, final false
   inline void RenderDebug(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::ProbeVolumesOptions* options, ::UnityEngine::Texture* exposureTexture);
 
-  /// @brief Method RenderFragmentationOverlay, addr 0x6b8e5fc, size 0x46c, virtual false, abstract: false, final false
+  /// @brief Method RenderFragmentationOverlay, addr 0x6bcb278, size 0x46c, virtual false, abstract: false, final false
   inline void RenderFragmentationOverlay(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle colorBuffer,
                                          ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depthBuffer, ::UnityEngine::Rendering::DebugOverlay* debugOverlay);
 
-  /// @brief Method ReservePoolChunks, addr 0x6b99de4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ReservePoolChunks, addr 0x6bd6a60, size 0xc0, virtual false, abstract: false, final false
   inline bool ReservePoolChunks(int32_t brickCount, ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>* chunkList, bool ignoreErrorLog);
 
-  /// @brief Method ResetDebugViewToMaxSubdiv, addr 0x6b9009c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ResetDebugViewToMaxSubdiv, addr 0x6bccd18, size 0x28, virtual false, abstract: false, final false
   inline void ResetDebugViewToMaxSubdiv();
 
-  /// @brief Method ScenarioBlendingChanged, addr 0x6b920f4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ScenarioBlendingChanged, addr 0x6bced70, size 0xc4, virtual false, abstract: false, final false
   inline void ScenarioBlendingChanged(bool scenarioChanged);
 
-  /// @brief Method ScheduleBakingSet, addr 0x6b980d8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ScheduleBakingSet, addr 0x6bd4d54, size 0x30, virtual false, abstract: false, final false
   inline bool ScheduleBakingSet(::UnityEngine::Rendering::ProbeVolumeBakingSet* bakingSet);
 
-  /// @brief Method SetActiveBakingSet, addr 0x6b981c8, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method SetActiveBakingSet, addr 0x6bd4e44, size 0x230, virtual false, abstract: false, final false
   inline void SetActiveBakingSet(::UnityEngine::Rendering::ProbeVolumeBakingSet* bakingSet);
 
-  /// @brief Method SetActiveScenario, addr 0x6b97cf0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method SetActiveScenario, addr 0x6bd496c, size 0xc4, virtual false, abstract: false, final false
   inline void SetActiveScenario(::StringW scenario, bool verbose);
 
-  /// @brief Method SetActiveScene, addr 0x6b983f8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SetActiveScene, addr 0x6bd5074, size 0xa4, virtual false, abstract: false, final false
   inline void SetActiveScene(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method SetBakingSetAsCurrent, addr 0x6b98718, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method SetBakingSetAsCurrent, addr 0x6bd5394, size 0x144, virtual false, abstract: false, final false
   inline void SetBakingSetAsCurrent(::UnityEngine::Rendering::ProbeVolumeBakingSet* bakingSet);
 
-  /// @brief Method SetEnableStateFromSRP, addr 0x6b9940c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetEnableStateFromSRP, addr 0x6bd6088, size 0x8, virtual false, abstract: false, final false
   inline void SetEnableStateFromSRP(bool srpEnablesPV);
 
-  /// @brief Method SetMaxSubdivision, addr 0x6b9b1a4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetMaxSubdivision, addr 0x6bd7e20, size 0xc8, virtual false, abstract: false, final false
   inline void SetMaxSubdivision(int32_t maxSubdivision);
 
-  /// @brief Method SetNumberOfCellsLoadedPerFrame, addr 0x6b91970, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetNumberOfCellsLoadedPerFrame, addr 0x6bce5ec, size 0x1c, virtual false, abstract: false, final false
   inline void SetNumberOfCellsLoadedPerFrame(int32_t numberOfCells);
 
-  /// @brief Method SetSubdivisionDimensions, addr 0x6b98d38, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetSubdivisionDimensions, addr 0x6bd59b4, size 0x40, virtual false, abstract: false, final false
   inline void SetSubdivisionDimensions(float_t minBrickSize, int32_t maxSubdiv, ::UnityEngine::Vector3 offset);
 
-  /// @brief Method SetVertexSamplingEnabled, addr 0x6b99414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetVertexSamplingEnabled, addr 0x6bd6090, size 0x8, virtual false, abstract: false, final false
   inline void SetVertexSamplingEnabled(bool value);
 
-  /// @brief Method ShouldCullCell, addr 0x6b8eec4, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method ShouldCullCell, addr 0x6bcbb40, size 0x300, virtual false, abstract: false, final false
   inline bool ShouldCullCell(::UnityEngine::Vector3 cellPosition, ::ArrayW<::UnityEngine::Vector4> adjustmentVolumeBounds, int32_t adjustmentVolumeCount);
 
-  /// @brief Method ShouldCullCell, addr 0x6b8ea68, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method ShouldCullCell, addr 0x6bcb6e4, size 0x25c, virtual false, abstract: false, final false
   inline bool ShouldCullCell(::UnityEngine::Vector3 cellPosition, ::UnityEngine::Transform* cameraTransform, ::ArrayW<::UnityEngine::Plane> frustumPlanes);
 
-  /// @brief Method StartIndexDefragmentation, addr 0x6b94fd0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method StartIndexDefragmentation, addr 0x6bd1c4c, size 0xf8, virtual false, abstract: false, final false
   inline void StartIndexDefragmentation();
 
-  /// @brief Method TryCreateDebugRenderData, addr 0x6b8a698, size 0x5b4, virtual false, abstract: false, final false
+  /// @brief Method TryCreateDebugRenderData, addr 0x6bc7314, size 0x5b4, virtual false, abstract: false, final false
   inline bool TryCreateDebugRenderData();
 
-  /// @brief Method TryGetPerSceneData, addr 0x6b9849c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method TryGetPerSceneData, addr 0x6bd5118, size 0x1a4, virtual false, abstract: false, final false
   inline bool TryGetPerSceneData(::StringW sceneGUID, ::by_ref<::UnityEngine::Rendering::ProbeVolumePerSceneData*> perSceneData);
 
-  /// @brief Method TryLoadBlendingCell, addr 0x6b9368c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method TryLoadBlendingCell, addr 0x6bd0308, size 0xd4, virtual false, abstract: false, final false
   inline bool TryLoadBlendingCell(::UnityEngine::Rendering::ProbeReferenceVolume_Cell* cell,
                                   ::UnityEngine::Rendering::DynamicArray_1<::UnityEngine::Rendering::ProbeReferenceVolume_Cell*>* loadedCells);
 
-  /// @brief Method TryLoadCell, addr 0x6b92e74, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method TryLoadCell, addr 0x6bcfaf0, size 0x114, virtual false, abstract: false, final false
   inline bool TryLoadCell(::UnityEngine::Rendering::ProbeReferenceVolume_Cell* cell, ::by_ref<int32_t> shBudget, ::by_ref<int32_t> indexBudget,
                           ::UnityEngine::Rendering::DynamicArray_1<::UnityEngine::Rendering::ProbeReferenceVolume_Cell*>* loadedCells);
 
-  /// @brief Method UnloadAllBlendingCells, addr 0x6b921b8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method UnloadAllBlendingCells, addr 0x6bcee34, size 0xec, virtual false, abstract: false, final false
   inline void UnloadAllBlendingCells();
 
-  /// @brief Method UnloadAllCells, addr 0x6b979b0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method UnloadAllCells, addr 0x6bd462c, size 0xec, virtual false, abstract: false, final false
   inline void UnloadAllCells();
 
-  /// @brief Method UnloadBakingSet, addr 0x6b98640, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method UnloadBakingSet, addr 0x6bd52bc, size 0xd8, virtual false, abstract: false, final false
   inline void UnloadBakingSet();
 
-  /// @brief Method UnloadBlendingCell, addr 0x6b935a4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method UnloadBlendingCell, addr 0x6bd0220, size 0xe8, virtual false, abstract: false, final false
   inline void UnloadBlendingCell(::UnityEngine::Rendering::ProbeReferenceVolume_Cell* cell);
 
-  /// @brief Method UnloadBlendingCell, addr 0x6b93520, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method UnloadBlendingCell, addr 0x6bd019c, size 0x84, virtual false, abstract: false, final false
   inline void UnloadBlendingCell(::UnityEngine::Rendering::ProbeReferenceVolume_Cell* cell,
                                  ::UnityEngine::Rendering::DynamicArray_1<::UnityEngine::Rendering::ProbeReferenceVolume_Cell*>* unloadedCells);
 
-  /// @brief Method UnloadCell, addr 0x6b94e64, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method UnloadCell, addr 0x6bd1ae0, size 0x16c, virtual false, abstract: false, final false
   inline void UnloadCell(::UnityEngine::Rendering::ProbeReferenceVolume_Cell* cell);
 
-  /// @brief Method UnregisterDebug, addr 0x6b8e4b4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method UnregisterDebug, addr 0x6bcb130, size 0x148, virtual false, abstract: false, final false
   inline void UnregisterDebug(bool destroyPanel);
 
-  /// @brief Method UnregisterPerSceneData, addr 0x6b98e44, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method UnregisterPerSceneData, addr 0x6bd5ac0, size 0xa0, virtual false, abstract: false, final false
   inline void UnregisterPerSceneData(::UnityEngine::Rendering::ProbeVolumePerSceneData* data);
 
-  /// @brief Method UpdateActiveRequests, addr 0x6b91e14, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method UpdateActiveRequests, addr 0x6bcea90, size 0x2e0, virtual false, abstract: false, final false
   inline void UpdateActiveRequests(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method UpdateBlendingCellStreaming, addr 0x6b956bc, size 0x6ac, virtual false, abstract: false, final false
+  /// @brief Method UpdateBlendingCellStreaming, addr 0x6bd2338, size 0x6ac, virtual false, abstract: false, final false
   inline void UpdateBlendingCellStreaming(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method UpdateCellIndex, addr 0x6b9672c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method UpdateCellIndex, addr 0x6bd33a8, size 0xe4, virtual false, abstract: false, final false
   inline void UpdateCellIndex(::UnityEngine::Rendering::ProbeReferenceVolume_Cell* cell);
 
-  /// @brief Method UpdateCellStreaming, addr 0x6b93edc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method UpdateCellStreaming, addr 0x6bd0b58, size 0x8, virtual false, abstract: false, final false
   inline void UpdateCellStreaming(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Camera* camera);
 
-  /// @brief Method UpdateCellStreaming, addr 0x6b93ee4, size 0xb9c, virtual false, abstract: false, final false
+  /// @brief Method UpdateCellStreaming, addr 0x6bd0b60, size 0xb9c, virtual false, abstract: false, final false
   inline void UpdateCellStreaming(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Camera* camera, ::UnityEngine::Rendering::ProbeVolumesOptions* options);
 
-  /// @brief Method UpdateConstantBuffer, addr 0x6b88e14, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method UpdateConstantBuffer, addr 0x6bc5a90, size 0x29c, virtual false, abstract: false, final false
   inline void UpdateConstantBuffer(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::ProbeVolumeShadingParameters parameters);
 
   /// @brief Method UpdateDataLocationTexture, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -4462,276 +4462,276 @@ public:
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline void UpdateDataLocationTexture(::UnityEngine::Texture* output, ::Unity::Collections::NativeArray_1<T> input);
 
-  /// @brief Method UpdateDebugFromSelection, addr 0x6b8ee88, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method UpdateDebugFromSelection, addr 0x6bcbb04, size 0x3c, virtual false, abstract: false, final false
   static inline void UpdateDebugFromSelection(::by_ref<::ArrayW<::UnityEngine::Vector4>> _AdjustmentVolumeBounds, ::by_ref<int32_t> _AdjustmentVolumeCount);
 
-  /// @brief Method UpdateDiskStreaming, addr 0x6b9529c, size 0x420, virtual false, abstract: false, final false
+  /// @brief Method UpdateDiskStreaming, addr 0x6bd1f18, size 0x420, virtual false, abstract: false, final false
   inline void UpdateDiskStreaming(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method UpdateIndexDefragmentation, addr 0x6b94a80, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method UpdateIndexDefragmentation, addr 0x6bd16fc, size 0x3e4, virtual false, abstract: false, final false
   inline void UpdateIndexDefragmentation();
 
-  /// @brief Method UpdatePool, addr 0x6b9c794, size 0x52c, virtual false, abstract: false, final false
+  /// @brief Method UpdatePool, addr 0x6bd9410, size 0x52c, virtual false, abstract: false, final false
   inline void UpdatePool(::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>* chunkList,
                          ::UnityEngine::Rendering::CellData_ProbeReferenceVolume_PerScenarioData data, ::Unity::Collections::NativeArray_1<uint8_t> validityNeighMaskData,
                          ::Unity::Collections::NativeArray_1<uint16_t> skyOcclusionL0L1Data, ::Unity::Collections::NativeArray_1<uint8_t> skyShadingDirectionIndices, int32_t chunkIndex,
                          int32_t poolIndex);
 
-  /// @brief Method UpdatePool, addr 0x6b96554, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method UpdatePool, addr 0x6bd31d0, size 0x1d8, virtual false, abstract: false, final false
   inline void UpdatePool(::UnityEngine::Rendering::CommandBuffer* cmd, ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>* chunkList,
                          ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer* dataBuffer, ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBufferLayout layout,
                          int32_t poolIndex);
 
-  /// @brief Method UpdatePoolAndIndex, addr 0x6b95fcc, size 0x4a0, virtual false, abstract: false, final false
+  /// @brief Method UpdatePoolAndIndex, addr 0x6bd2c48, size 0x4a0, virtual false, abstract: false, final false
   inline void UpdatePoolAndIndex(::UnityEngine::Rendering::ProbeReferenceVolume_Cell* cell, ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer* dataBuffer,
                                  ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBufferLayout layout, int32_t poolIndex, ::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method UpdateShaderVariablesProbeVolumes, addr 0x6b88920, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method UpdateShaderVariablesProbeVolumes, addr 0x6bc559c, size 0x334, virtual false, abstract: false, final false
   inline bool UpdateShaderVariablesProbeVolumes(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::ProbeVolumesOptions* probeVolumeOptions, int32_t taaFrameIndex,
                                                 bool supportRenderingLayers);
 
-  /// @brief Method UpdateSharedData, addr 0x6b9ccc0, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method UpdateSharedData, addr 0x6bd993c, size 0x2d4, virtual false, abstract: false, final false
   inline void UpdateSharedData(::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>* chunkList,
                                ::Unity::Collections::NativeArray_1<uint8_t> validityNeighMaskData, ::Unity::Collections::NativeArray_1<uint16_t> skyOcclusionData,
                                ::Unity::Collections::NativeArray_1<uint8_t> skyShadingDirectionIndices, int32_t chunkIndex);
 
-  /// @brief Method UpdateValidityTextureWithoutMask, addr 0x6b9c5e8, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method UpdateValidityTextureWithoutMask, addr 0x6bd9264, size 0x1ac, virtual false, abstract: false, final false
   inline void UpdateValidityTextureWithoutMask(::UnityEngine::Texture* output, ::Unity::Collections::NativeArray_1<uint8_t> input);
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_10, addr 0x6b9d1e4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_10, addr 0x6bd9e60, size 0x1c, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__42_10(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_11, addr 0x6b9d200, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_11, addr 0x6bd9e7c, size 0x20, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__42_11();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_12, addr 0x6b9d220, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_12, addr 0x6bd9e9c, size 0x18, virtual false, abstract: false, final false
   inline int32_t _RegisterDebug_b__42_12();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_13, addr 0x6b9d238, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_13, addr 0x6bd9eb4, size 0x18, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__42_13(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_14, addr 0x6b9d250, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_14, addr 0x6bd9ecc, size 0x18, virtual false, abstract: false, final false
   inline int32_t _RegisterDebug_b__42_14();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_15, addr 0x6b9d268, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_15, addr 0x6bd9ee4, size 0x18, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__42_15(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_16, addr 0x6b9d280, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_16, addr 0x6bd9efc, size 0x18, virtual false, abstract: false, final false
   inline float_t _RegisterDebug_b__42_16();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_17, addr 0x6b9d298, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_17, addr 0x6bd9f14, size 0x18, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__42_17(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_2, addr 0x6b9d134, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_2, addr 0x6bd9db0, size 0x18, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__42_2();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_20, addr 0x6b9d2b0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_20, addr 0x6bd9f2c, size 0x18, virtual false, abstract: false, final false
   inline float_t _RegisterDebug_b__42_20();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_21, addr 0x6b9d2c8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_21, addr 0x6bd9f44, size 0x18, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__42_21(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_22, addr 0x6b9d2e0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_22, addr 0x6bd9f5c, size 0x30, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__42_22();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_23, addr 0x6b9d310, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_23, addr 0x6bd9f8c, size 0x18, virtual false, abstract: false, final false
   inline int32_t _RegisterDebug_b__42_23();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_24, addr 0x6b9d328, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_24, addr 0x6bd9fa4, size 0x38, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__42_24(int32_t v);
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_26, addr 0x6b9d360, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_26, addr 0x6bd9fdc, size 0x10, virtual false, abstract: false, final false
   inline int32_t _RegisterDebug_b__42_26();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_27, addr 0x6b9d370, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_27, addr 0x6bd9fec, size 0x18, virtual false, abstract: false, final false
   inline int32_t _RegisterDebug_b__42_27();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_28, addr 0x6b9d388, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_28, addr 0x6bda004, size 0x1c, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__42_28(int32_t v);
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_3, addr 0x6b9d14c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_3, addr 0x6bd9dc8, size 0x1c, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__42_3(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_30, addr 0x6b9d3a4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_30, addr 0x6bda020, size 0x10, virtual false, abstract: false, final false
   inline int32_t _RegisterDebug_b__42_30();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_31, addr 0x6b9d3b4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_31, addr 0x6bda030, size 0x18, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__42_31();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_32, addr 0x6b9d3cc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_32, addr 0x6bda048, size 0x90, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__42_32(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_33, addr 0x6b9d45c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_33, addr 0x6bda0d8, size 0x20, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__42_33();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_34, addr 0x6b9d47c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_34, addr 0x6bda0f8, size 0x18, virtual false, abstract: false, final false
   inline float_t _RegisterDebug_b__42_34();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_35, addr 0x6b9d494, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_35, addr 0x6bda110, size 0x18, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__42_35(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_38, addr 0x6b9d4ac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_38, addr 0x6bda128, size 0x18, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__42_38();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_39, addr 0x6b9d4c4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_39, addr 0x6bda140, size 0x1c, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__42_39(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_4, addr 0x6b9d168, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_4, addr 0x6bd9de4, size 0x18, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__42_4();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_40, addr 0x6b9d4e0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_40, addr 0x6bda15c, size 0x18, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__42_40();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_41, addr 0x6b9d4f8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_41, addr 0x6bda174, size 0x158, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__42_41(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_42, addr 0x6b9d650, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_42, addr 0x6bda2cc, size 0x20, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__42_42();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_43, addr 0x6b9d670, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_43, addr 0x6bda2ec, size 0x18, virtual false, abstract: false, final false
   inline float_t _RegisterDebug_b__42_43();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_44, addr 0x6b9d688, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_44, addr 0x6bda304, size 0x18, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__42_44(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_47, addr 0x6b9d6a0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_47, addr 0x6bda31c, size 0x20, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__42_47();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_48, addr 0x6b9d6c0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_48, addr 0x6bda33c, size 0x18, virtual false, abstract: false, final false
   inline float_t _RegisterDebug_b__42_48();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_49, addr 0x6b9d6d8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_49, addr 0x6bda354, size 0x18, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__42_49(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_5, addr 0x6b9d180, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_5, addr 0x6bd9dfc, size 0x1c, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__42_5(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_51, addr 0x6b9d6f0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_51, addr 0x6bda36c, size 0x18, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__42_51();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_52, addr 0x6b9d708, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_52, addr 0x6bda384, size 0x1c, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__42_52(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_53, addr 0x6b9d724, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_53, addr 0x6bda3a0, size 0x18, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__42_53();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_54, addr 0x6b9d73c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_54, addr 0x6bda3b8, size 0x1c, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__42_54(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_55, addr 0x6b9d758, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_55, addr 0x6bda3d4, size 0x30, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__42_55();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_56, addr 0x6b9d788, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_56, addr 0x6bda404, size 0x18, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__42_56();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_57, addr 0x6b9d7a0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_57, addr 0x6bda41c, size 0x1c, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__42_57(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_58, addr 0x6b9d7bc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_58, addr 0x6bda438, size 0x18, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__42_58();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_59, addr 0x6b9d7d4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_59, addr 0x6bda450, size 0x1c, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__42_59(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_6, addr 0x6b9d19c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_6, addr 0x6bd9e18, size 0x18, virtual false, abstract: false, final false
   inline float_t _RegisterDebug_b__42_6();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_67, addr 0x6b9d7f0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_67, addr 0x6bda46c, size 0x18, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__42_67();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_68, addr 0x6b9d808, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_68, addr 0x6bda484, size 0x1c, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__42_68(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_69, addr 0x6b9d824, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_69, addr 0x6bda4a0, size 0x20, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__42_69();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_7, addr 0x6b9d1b4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_7, addr 0x6bd9e30, size 0x18, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__42_7(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_71, addr 0x6b9d844, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_71, addr 0x6bda4c0, size 0x18, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__42_71();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_72, addr 0x6b9d85c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_72, addr 0x6bda4d8, size 0x1c, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__42_72(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_73, addr 0x6b9d878, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_73, addr 0x6bda4f4, size 0x18, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__42_73();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_74, addr 0x6b9d890, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_74, addr 0x6bda50c, size 0x1c, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__42_74(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_83, addr 0x6b9e020, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_83, addr 0x6bdac9c, size 0x1a8, virtual false, abstract: false, final false
   inline int32_t _RegisterDebug_b__42_83();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_84, addr 0x6b9e1c8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_84, addr 0x6bdae44, size 0xac, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__42_84(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_85, addr 0x6b9e274, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_85, addr 0x6bdaef0, size 0x18, virtual false, abstract: false, final false
   inline int32_t _RegisterDebug_b__42_85();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_86, addr 0x6b9e28c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_86, addr 0x6bdaf08, size 0x18, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__42_86(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>b__42_9, addr 0x6b9d1cc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__42_9, addr 0x6bd9e48, size 0x18, virtual false, abstract: false, final false
   inline bool _RegisterDebug_b__42_9();
 
   /// [CompilerGenerated]
@@ -4739,7 +4739,7 @@ public:
   template <typename T> inline void _RegisterDebug_g__RefreshDebug_42_0(::UnityEngine::Rendering::DebugUI_Field_1<T>* field, T value);
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebug>g__RefreshScenarioNames|42_75, addr 0x6b9d8ac, size 0x774, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>g__RefreshScenarioNames|42_75, addr 0x6bda528, size 0x774, virtual false, abstract: false, final false
   inline void _RegisterDebug_g__RefreshScenarioNames_42_75(::StringW guid);
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::ProbeVolumePerSceneData>>* const& __cordl_internal_get__perSceneDataList_k__BackingField() const;
@@ -5312,7 +5312,7 @@ public:
 
   constexpr void __cordl_internal_set_sceneData(::UnityEngine::Rendering::ProbeVolumeSceneData* value);
 
-  /// @brief Method .ctor, addr 0x6b9b8ec, size 0x890, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bd8568, size 0x890, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::ProbeReferenceVolume* getStaticF__instance();
@@ -5329,100 +5329,100 @@ public:
 
   static inline ::UnityEngine::Rendering::DynamicArray_1_SortComparer<::UnityEngine::Rendering::ProbeReferenceVolume_Cell*>* getStaticF_s_DefragComparer();
 
-  /// @brief Method get_currentBakingSet, addr 0x6b97cd0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_currentBakingSet, addr 0x6bd494c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::ProbeVolumeBakingSet> get_currentBakingSet();
 
-  /// @brief Method get_debugMesh, addr 0x6b890c0, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method get_debugMesh, addr 0x6bc5d3c, size 0x178, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_debugMesh();
 
-  /// @brief Method get_diskStreamingEnabled, addr 0x6b978f0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_diskStreamingEnabled, addr 0x6bd456c, size 0x20, virtual false, abstract: false, final false
   inline bool get_diskStreamingEnabled();
 
-  /// @brief Method get_enabledBySRP, addr 0x6b97b70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enabledBySRP, addr 0x6bd47ec, size 0x8, virtual false, abstract: false, final false
   inline bool get_enabledBySRP();
 
-  /// @brief Method get_globalBounds, addr 0x6b97af8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_globalBounds, addr 0x6bd4774, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_globalBounds();
 
-  /// @brief Method get_gpuStreamingEnabled, addr 0x6b97be8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gpuStreamingEnabled, addr 0x6bd4864, size 0x8, virtual false, abstract: false, final false
   inline bool get_gpuStreamingEnabled();
 
-  /// @brief Method get_hasUnloadedCells, addr 0x6b97b80, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_hasUnloadedCells, addr 0x6bd47fc, size 0x58, virtual false, abstract: false, final false
   inline bool get_hasUnloadedCells();
 
-  /// @brief Method get_indexFragmentationRate, addr 0x6b98ee4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_indexFragmentationRate, addr 0x6bd5b60, size 0x28, virtual false, abstract: false, final false
   inline float_t get_indexFragmentationRate();
 
-  /// @brief Method get_instance, addr 0x6b98f0c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x6bd5b88, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::ProbeReferenceVolume* get_instance();
 
-  /// @brief Method get_isInitialized, addr 0x6b97b68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isInitialized, addr 0x6bd47e4, size 0x8, virtual false, abstract: false, final false
   inline bool get_isInitialized();
 
-  /// @brief Method get_lightingScenario, addr 0x6b93760, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_lightingScenario, addr 0x6bd03dc, size 0xa0, virtual false, abstract: false, final false
   inline ::StringW get_lightingScenario();
 
-  /// @brief Method get_loadMaxCellsPerFrame, addr 0x6b9198c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_loadMaxCellsPerFrame, addr 0x6bce608, size 0x8, virtual false, abstract: false, final false
   inline bool get_loadMaxCellsPerFrame();
 
-  /// @brief Method get_m_CurrentBakingSet, addr 0x6b88dfc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_m_CurrentBakingSet, addr 0x6bc5a78, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::ProbeVolumeBakingSet> get_m_CurrentBakingSet();
 
-  /// @brief Method get_m_LazyBakingSet, addr 0x6b97b38, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_m_LazyBakingSet, addr 0x6bd47b4, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::ProbeVolumeBakingSet> get_m_LazyBakingSet();
 
-  /// @brief Method get_memoryBudget, addr 0x6b97fc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_memoryBudget, addr 0x6bd4c3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ProbeVolumeTextureMemoryBudget get_memoryBudget();
 
-  /// @brief Method get_numberOfCellsBlendedPerFrame, addr 0x6b91a04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numberOfCellsBlendedPerFrame, addr 0x6bce680, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_numberOfCellsBlendedPerFrame();
 
-  /// @brief Method get_numberOfCellsLoadedPerFrame, addr 0x6b9199c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_numberOfCellsLoadedPerFrame, addr 0x6bce618, size 0x68, virtual false, abstract: false, final false
   inline int32_t get_numberOfCellsLoadedPerFrame();
 
-  /// @brief Method get_otherScenario, addr 0x6b97910, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_otherScenario, addr 0x6bd458c, size 0xa0, virtual false, abstract: false, final false
   inline ::StringW get_otherScenario();
 
   /// [CompilerGenerated]
-  /// @brief Method get_perSceneDataList, addr 0x6b97fc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_perSceneDataList, addr 0x6bd4c44, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::ProbeVolumePerSceneData>>* get_perSceneDataList();
 
-  /// @brief Method get_probeOcclusion, addr 0x6b97bf0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_probeOcclusion, addr 0x6bd486c, size 0xa8, virtual false, abstract: false, final false
   inline bool get_probeOcclusion();
 
   /// [CompilerGenerated]
-  /// @brief Method get_probeVolumeDebug, addr 0x6b890b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_probeVolumeDebug, addr 0x6bc5d2c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ProbeVolumeDebug* get_probeVolumeDebug();
 
-  /// @brief Method get_scenarioBlendingFactor, addr 0x6b92dd8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_scenarioBlendingFactor, addr 0x6bcfa54, size 0x9c, virtual false, abstract: false, final false
   inline float_t get_scenarioBlendingFactor();
 
-  /// @brief Method get_shBands, addr 0x6b97cc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shBands, addr 0x6bd4944, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ProbeVolumeSHBands get_shBands();
 
-  /// @brief Method get_skyOcclusion, addr 0x6b88cac, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_skyOcclusion, addr 0x6bc5928, size 0xa8, virtual false, abstract: false, final false
   inline bool get_skyOcclusion();
 
-  /// @brief Method get_skyOcclusionShadingDirection, addr 0x6b88d54, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_skyOcclusionShadingDirection, addr 0x6bc59d0, size 0xa8, virtual false, abstract: false, final false
   inline bool get_skyOcclusionShadingDirection();
 
   /// [CompilerGenerated]
-  /// @brief Method get_subdivisionDebugColors, addr 0x6b890b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_subdivisionDebugColors, addr 0x6bc5d34, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Color> get_subdivisionDebugColors();
 
-  /// @brief Method get_supportLightingScenarios, addr 0x6b97bd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_supportLightingScenarios, addr 0x6bd4854, size 0x8, virtual false, abstract: false, final false
   inline bool get_supportLightingScenarios();
 
-  /// @brief Method get_supportScenarioBlending, addr 0x6b97be0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_supportScenarioBlending, addr 0x6bd485c, size 0x8, virtual false, abstract: false, final false
   inline bool get_supportScenarioBlending();
 
-  /// @brief Method get_turnoverRate, addr 0x6b91a1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_turnoverRate, addr 0x6bce698, size 0x8, virtual false, abstract: false, final false
   inline float_t get_turnoverRate();
 
-  /// @brief Method get_useRenderingLayers, addr 0x6b97c98, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_useRenderingLayers, addr 0x6bd4914, size 0x30, virtual false, abstract: false, final false
   inline bool get_useRenderingLayers();
 
-  /// @brief Method get_vertexSampling, addr 0x6b97b78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vertexSampling, addr 0x6bd47f4, size 0x8, virtual false, abstract: false, final false
   inline bool get_vertexSampling();
 
   static inline void setStaticF__instance(::UnityEngine::Rendering::ProbeReferenceVolume* value);
@@ -5439,32 +5439,32 @@ public:
 
   static inline void setStaticF_s_DefragComparer(::UnityEngine::Rendering::DynamicArray_1_SortComparer<::UnityEngine::Rendering::ProbeReferenceVolume_Cell*>* value);
 
-  /// @brief Method set_globalBounds, addr 0x6b97b0c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_globalBounds, addr 0x6bd4788, size 0x14, virtual false, abstract: false, final false
   inline void set_globalBounds(::UnityEngine::Bounds value);
 
-  /// @brief Method set_lightingScenario, addr 0x6b97ce8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightingScenario, addr 0x6bd4964, size 0x8, virtual false, abstract: false, final false
   inline void set_lightingScenario(::StringW value);
 
-  /// @brief Method set_loadMaxCellsPerFrame, addr 0x6b91994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_loadMaxCellsPerFrame, addr 0x6bce610, size 0x8, virtual false, abstract: false, final false
   inline void set_loadMaxCellsPerFrame(bool value);
 
-  /// @brief Method set_m_CurrentBakingSet, addr 0x6b97b20, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_m_CurrentBakingSet, addr 0x6bd479c, size 0x18, virtual false, abstract: false, final false
   inline void set_m_CurrentBakingSet(::UnityEngine::Rendering::ProbeVolumeBakingSet* value);
 
-  /// @brief Method set_m_LazyBakingSet, addr 0x6b97b50, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_m_LazyBakingSet, addr 0x6bd47cc, size 0x18, virtual false, abstract: false, final false
   inline void set_m_LazyBakingSet(::UnityEngine::Rendering::ProbeVolumeBakingSet* value);
 
-  /// @brief Method set_numberOfCellsBlendedPerFrame, addr 0x6b91a0c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_numberOfCellsBlendedPerFrame, addr 0x6bce688, size 0x10, virtual false, abstract: false, final false
   inline void set_numberOfCellsBlendedPerFrame(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_perSceneDataList, addr 0x6b97fd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_perSceneDataList, addr 0x6bd4c4c, size 0x8, virtual false, abstract: false, final false
   inline void set_perSceneDataList(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::ProbeVolumePerSceneData>>* value);
 
-  /// @brief Method set_scenarioBlendingFactor, addr 0x6b97db4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method set_scenarioBlendingFactor, addr 0x6bd4a30, size 0xe0, virtual false, abstract: false, final false
   inline void set_scenarioBlendingFactor(float_t value);
 
-  /// @brief Method set_turnoverRate, addr 0x6b91a24, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_turnoverRate, addr 0x6bce6a0, size 0x20, virtual false, abstract: false, final false
   inline void set_turnoverRate(float_t value);
 
 protected:
@@ -5482,7 +5482,7 @@ public:
   ProbeReferenceVolume(ProbeReferenceVolume const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8983 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8990 };
 
   /// @brief Field kIndexFragmentationThreshold offset 0xffffffff size 0x4
   static constexpr float_t kIndexFragmentationThreshold{ static_cast<float_t>(0.2f) };

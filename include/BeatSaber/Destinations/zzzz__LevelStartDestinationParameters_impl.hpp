@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "BeatSaber/Destinations/LevelStartDestinationParameters.hpp"
-#include "BeatSaber/Destinations/zzzz__GameMode_impl.hpp"
+#include "BeatSaber/Destinations/zzzz__LevelStartSource_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Destinations/zzzz__LevelStartDestinationParameters_def.hpp"
-#include "BeatSaber/Destinations/zzzz__GameMode_def.hpp"
 #include "BeatSaber/Destinations/zzzz__GameplayEnvironmentOverride_def.hpp"
+#include "BeatSaber/Destinations/zzzz__LevelStartSource_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
@@ -14,8 +14,8 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Destinations::LevelStartDestinationParameters::*)()>(&::BeatSaber::Destinations::LevelStartDestinationParameters::_ctor)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3507ad0;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x352842c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Destinations::LevelStartDestinationParameters*>(), { ".ctor", {}, {} })));
@@ -26,33 +26,33 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Destin
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Destinations::LevelStartDestinationParameters::*)(
-    ::BeatSaber::Destinations::GameMode, ::GlobalNamespace::BeatmapKey, ::BeatSaber::Destinations::GameplayEnvironmentOverride*, ::GlobalNamespace::GameplayModifiers*,
+    ::BeatSaber::Destinations::LevelStartSource, ::GlobalNamespace::BeatmapKey, ::BeatSaber::Destinations::GameplayEnvironmentOverride*, ::GlobalNamespace::GameplayModifiers*,
     ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::PracticeSettings*)>(&::BeatSaber::Destinations::LevelStartDestinationParameters::_ctor)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3507b90;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x35284f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Destinations::LevelStartDestinationParameters*>(),
                                                              { ".ctor",
                                                                {},
-                                                               { ::i2c::type_of<::BeatSaber::Destinations::GameMode>(), ::i2c::type_of<::GlobalNamespace::BeatmapKey>(),
+                                                               { ::i2c::type_of<::BeatSaber::Destinations::LevelStartSource>(), ::i2c::type_of<::GlobalNamespace::BeatmapKey>(),
                                                                  ::i2c::type_of<::BeatSaber::Destinations::GameplayEnvironmentOverride*>(), ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>(),
                                                                  ::i2c::type_of<::GlobalNamespace::PlayerSpecificSettings*>(), ::i2c::type_of<::GlobalNamespace::PracticeSettings*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::BeatSaber::Destinations::GameMode& BeatSaber::Destinations::LevelStartDestinationParameters::__cordl_internal_get_gameMode() {
+constexpr ::BeatSaber::Destinations::LevelStartSource& BeatSaber::Destinations::LevelStartDestinationParameters::__cordl_internal_get_levelStartSource() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___gameMode;
+  return this->___levelStartSource;
 }
-constexpr ::BeatSaber::Destinations::GameMode const& BeatSaber::Destinations::LevelStartDestinationParameters::__cordl_internal_get_gameMode() const {
+constexpr ::BeatSaber::Destinations::LevelStartSource const& BeatSaber::Destinations::LevelStartDestinationParameters::__cordl_internal_get_levelStartSource() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___gameMode;
+  return this->___levelStartSource;
 }
-constexpr void BeatSaber::Destinations::LevelStartDestinationParameters::__cordl_internal_set_gameMode(::BeatSaber::Destinations::GameMode value) {
+constexpr void BeatSaber::Destinations::LevelStartDestinationParameters::__cordl_internal_set_levelStartSource(::BeatSaber::Destinations::LevelStartSource value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___gameMode = value;
+  this->___levelStartSource = value;
 }
 constexpr ::GlobalNamespace::BeatmapKey& BeatSaber::Destinations::LevelStartDestinationParameters::__cordl_internal_get_beatmapKey() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -118,7 +118,7 @@ inline void BeatSaber::Destinations::LevelStartDestinationParameters::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Destinations::LevelStartDestinationParameters*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void BeatSaber::Destinations::LevelStartDestinationParameters::_ctor(::BeatSaber::Destinations::GameMode gameMode, ::GlobalNamespace::BeatmapKey beatmapKey,
+inline void BeatSaber::Destinations::LevelStartDestinationParameters::_ctor(::BeatSaber::Destinations::LevelStartSource levelStartSource, ::GlobalNamespace::BeatmapKey beatmapKey,
                                                                             ::BeatSaber::Destinations::GameplayEnvironmentOverride* environmentOverride,
                                                                             ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                                                                             /* [Nullable(2)] */ ::GlobalNamespace::PlayerSpecificSettings* customPlayerSpecificSettings,
@@ -127,20 +127,20 @@ inline void BeatSaber::Destinations::LevelStartDestinationParameters::_ctor(::Be
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Destinations::LevelStartDestinationParameters*>(),
                                                            { ".ctor",
                                                              {},
-                                                             { ::i2c::type_of<::BeatSaber::Destinations::GameMode>(), ::i2c::type_of<::GlobalNamespace::BeatmapKey>(),
+                                                             { ::i2c::type_of<::BeatSaber::Destinations::LevelStartSource>(), ::i2c::type_of<::GlobalNamespace::BeatmapKey>(),
                                                                ::i2c::type_of<::BeatSaber::Destinations::GameplayEnvironmentOverride*>(), ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>(),
                                                                ::i2c::type_of<::GlobalNamespace::PlayerSpecificSettings*>(), ::i2c::type_of<::GlobalNamespace::PracticeSettings*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, gameMode, beatmapKey, environmentOverride, gameplayModifiers, customPlayerSpecificSettings, practiceSettings);
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, levelStartSource, beatmapKey, environmentOverride, gameplayModifiers, customPlayerSpecificSettings, practiceSettings);
 }
 inline ::BeatSaber::Destinations::LevelStartDestinationParameters* BeatSaber::Destinations::LevelStartDestinationParameters::New_ctor() {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatSaber::Destinations::LevelStartDestinationParameters*>());
 }
 inline ::BeatSaber::Destinations::LevelStartDestinationParameters*
-BeatSaber::Destinations::LevelStartDestinationParameters::New_ctor(::BeatSaber::Destinations::GameMode gameMode, ::GlobalNamespace::BeatmapKey beatmapKey,
+BeatSaber::Destinations::LevelStartDestinationParameters::New_ctor(::BeatSaber::Destinations::LevelStartSource levelStartSource, ::GlobalNamespace::BeatmapKey beatmapKey,
                                                                    ::BeatSaber::Destinations::GameplayEnvironmentOverride* environmentOverride, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                                                                    /* [Nullable(2)] */ ::GlobalNamespace::PlayerSpecificSettings* customPlayerSpecificSettings,
                                                                    /* [Nullable(2)] */ ::GlobalNamespace::PracticeSettings* practiceSettings) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatSaber::Destinations::LevelStartDestinationParameters*>(gameMode, beatmapKey, environmentOverride, gameplayModifiers,
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatSaber::Destinations::LevelStartDestinationParameters*>(levelStartSource, beatmapKey, environmentOverride, gameplayModifiers,
                                                                                                                        customPlayerSpecificSettings, practiceSettings));
 }
 // Ctor Parameters []

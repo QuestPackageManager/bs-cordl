@@ -79,7 +79,7 @@ public:
 
   constexpr void __cordl_internal_set_status_code(int32_t value);
 
-  /// @brief Method .ctor, addr 0x72c05a4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72fd4d8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW eventName);
 
 protected:
@@ -97,7 +97,7 @@ public:
   PackageManagerBaseAnalytic(PackageManagerBaseAnalytic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23290 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23394 };
 
   /// @brief Field start_ts, offset: 0x30, size: 0x8, def value: None
   int64_t ___start_ts;

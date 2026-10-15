@@ -31,6 +31,9 @@ namespace GlobalNamespace {
 class CORDL_TYPE IEntitlementModel {
 public:
   // Declarations
+  /// @brief Method GetGameDlcEntitlementStatusAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetGameDlcEntitlementStatusAsync(::StringW gameDlcId, ::System::Threading::CancellationToken token);
+
   /// @brief Method GetLevelDataVersionAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* GetLevelDataVersionAsync(::StringW levelId, ::System::Threading::CancellationToken token);
 
@@ -45,7 +48,7 @@ public:
   IEntitlementModel(IEntitlementModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24397 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24480 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

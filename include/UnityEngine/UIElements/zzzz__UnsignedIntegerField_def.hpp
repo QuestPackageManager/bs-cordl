@@ -60,7 +60,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::UnsignedIntegerField_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x7214a84, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72519b8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -96,7 +96,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::UnsignedIntegerField_UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x7214aec, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7251a20, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -133,24 +133,24 @@ public:
 
   __declspec(property(get = get_parentUnsignedIntegerField)) ::UnityEngine::UIElements::UnsignedIntegerField* parentUnsignedIntegerField;
 
-  /// @brief Method ApplyInputDeviceDelta, addr 0x7214c60, size 0x284, virtual true, abstract: false, final false
+  /// @brief Method ApplyInputDeviceDelta, addr 0x7251b94, size 0x284, virtual true, abstract: false, final false
   inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, uint32_t startValue);
 
   static inline ::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput* New_ctor();
 
-  /// @brief Method StringToValue, addr 0x7214f40, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method StringToValue, addr 0x7251e74, size 0x2c, virtual true, abstract: false, final false
   inline uint32_t StringToValue(::StringW str);
 
-  /// @brief Method ValueToString, addr 0x7214ee4, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ValueToString, addr 0x7251e18, size 0x5c, virtual true, abstract: false, final false
   inline ::StringW ValueToString(uint32_t v);
 
-  /// @brief Method .ctor, addr 0x7214884, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72517b8, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_allowedCharacters, addr 0x7214bb4, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method get_allowedCharacters, addr 0x7251ae8, size 0xac, virtual true, abstract: false, final false
   inline ::StringW get_allowedCharacters();
 
-  /// @brief Method get_parentUnsignedIntegerField, addr 0x7214b38, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_parentUnsignedIntegerField, addr 0x7251a6c, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UnsignedIntegerField* get_parentUnsignedIntegerField();
 
 protected:
@@ -200,26 +200,26 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method ApplyInputDeviceDelta, addr 0x7214944, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ApplyInputDeviceDelta, addr 0x7251878, size 0x64, virtual true, abstract: false, final false
   inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, uint32_t startValue);
 
-  /// @brief Method CanTryParse, addr 0x7214920, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method CanTryParse, addr 0x7251854, size 0x24, virtual true, abstract: false, final false
   inline bool CanTryParse(::StringW textString);
 
   static inline ::UnityEngine::UIElements::UnsignedIntegerField* New_ctor();
 
   static inline ::UnityEngine::UIElements::UnsignedIntegerField* New_ctor(::StringW label, int32_t maxLength);
 
-  /// @brief Method StringToValue, addr 0x72145e8, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method StringToValue, addr 0x725151c, size 0x110, virtual true, abstract: false, final false
   inline uint32_t StringToValue(::StringW str);
 
-  /// @brief Method ValueToString, addr 0x7214528, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ValueToString, addr 0x725145c, size 0xc0, virtual true, abstract: false, final false
   inline ::StringW ValueToString(uint32_t v);
 
-  /// @brief Method .ctor, addr 0x72146f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x725162c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x7214704, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7251638, size 0x180, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, int32_t maxLength);
 
   static inline ::StringW getStaticF_inputUssClassName();
@@ -228,7 +228,7 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_integerInput, addr 0x7214498, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_integerInput, addr 0x72513cc, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput* get_integerInput();
 
   static inline void setStaticF_inputUssClassName(::StringW value);

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint32_t)>(&::UnityEngine::Rendering::RadeonRays::Common::CeilDivide)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6dfb71c;
+  constexpr static std::size_t addrs = 0x6e383b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::ComputeShader*, ::StringW, bool)>(
     &::UnityEngine::Rendering::RadeonRays::Common::EnableKeyword)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6dfb72c;
+  constexpr static std::size_t addrs = 0x6e383c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

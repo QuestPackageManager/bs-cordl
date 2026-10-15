@@ -2,25 +2,29 @@
 // IWYU pragma private; include "GlobalNamespace/BeatmapKey.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristic_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_impl.hpp"
+#include "GlobalNamespace/zzzz__GameplayType_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristic_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKeyNetSerializable_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayType_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapKey._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapKey::*)(::StringW, ::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty)>(
-    &::GlobalNamespace::BeatmapKey::_ctor)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39aa3b8;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapKey::*)(::StringW, ::GlobalNamespace::GameplayType, ::GlobalNamespace::BeatmapCharacteristic,
+                                                                                               ::GlobalNamespace::BeatmapDifficulty)>(&::GlobalNamespace::BeatmapKey::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x39ce89c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapKey>(),
-                            { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristic>(), ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapKey>(),
+                                                             { ".ctor",
+                                                               {},
+                                                               { ::i2c::type_of<::StringW>(), ::i2c::type_of<::GlobalNamespace::GameplayType>(),
+                                                                 ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristic>(), ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>() } })));
     return ___internal_method;
   }
 };
@@ -29,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BeatmapKey::*)()>(&::GlobalNamespace::BeatmapKey::IsValid)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x39aa4c4;
+  constexpr static std::size_t addrs = 0x39cea30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapKey>(), { "IsValid", {}, {} })));
@@ -40,8 +44,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::BeatmapKey::*)()>(&::GlobalNamespace::BeatmapKey::SerializedName)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x39aa4e4;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x39cea50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapKey>(), { "SerializedName", {}, {} })));
@@ -53,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapKeyNetSerializable* (::GlobalNamespace::BeatmapKey::*)()>(&::GlobalNamespace::BeatmapKey::GetIdentifier)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39aa570;
+  constexpr static std::size_t addrs = 0x39ceb18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapKey>(), { "GetIdentifier", {}, {} })));
@@ -64,8 +68,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Beatma
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BeatmapKey::*)(::GlobalNamespace::BeatmapKey)>(&::GlobalNamespace::BeatmapKey::Equals)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x39aa60c;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x39beb68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,8 +81,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BeatmapKey::*)(::System::Object*)>(&::GlobalNamespace::BeatmapKey::Equals)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x39aa65c;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x39cebb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapKey>(), { ::i2c::class_of<::GlobalNamespace::BeatmapKey>(), 0 }));
@@ -89,8 +93,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BeatmapKey::*)()>(&::GlobalNamespace::BeatmapKey::GetHashCode)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x39aa6f4;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x39cec54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapKey>(), { ::i2c::class_of<::GlobalNamespace::BeatmapKey>(), 2 }));
@@ -101,8 +105,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespac
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::BeatmapKey, ::GlobalNamespace::BeatmapKey)>(&::GlobalNamespace::BeatmapKey::op_Equality)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x39aa478;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x39ce9a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,8 +119,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespac
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::BeatmapKey, ::GlobalNamespace::BeatmapKey)>(&::GlobalNamespace::BeatmapKey::op_Inequality)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x39aa770;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x39cecdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,20 +133,29 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespac
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::BeatmapKey::*)()>(&::GlobalNamespace::BeatmapKey::ToString)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x39aa7bc;
+  constexpr static std::size_t size = 0x1c8;
+  constexpr static std::size_t addrs = 0x39ced78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapKey>(), { ::i2c::class_of<::GlobalNamespace::BeatmapKey>(), 3 }));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::BeatmapKey::_ctor(::StringW levelId, ::GlobalNamespace::BeatmapCharacteristic characteristic, ::GlobalNamespace::BeatmapDifficulty difficulty) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapKey>(),
-                          { ".ctor", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristic>(), ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, levelId, characteristic, difficulty);
+inline void GlobalNamespace::BeatmapKey::setStaticF_Empty(::GlobalNamespace::BeatmapKey value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::BeatmapKey, "Empty", ::GlobalNamespace::BeatmapKey>(std::forward<::GlobalNamespace::BeatmapKey>(value));
+}
+inline ::GlobalNamespace::BeatmapKey GlobalNamespace::BeatmapKey::getStaticF_Empty() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::BeatmapKey, "Empty", ::GlobalNamespace::BeatmapKey>();
+}
+inline void GlobalNamespace::BeatmapKey::_ctor(::StringW levelId, ::GlobalNamespace::GameplayType gameplayType, ::GlobalNamespace::BeatmapCharacteristic characteristic,
+                                               ::GlobalNamespace::BeatmapDifficulty difficulty) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapKey>(),
+                                                           { ".ctor",
+                                                             {},
+                                                             { ::i2c::type_of<::StringW>(), ::i2c::type_of<::GlobalNamespace::GameplayType>(),
+                                                               ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristic>(), ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, levelId, gameplayType, characteristic, difficulty);
 }
 inline bool GlobalNamespace::BeatmapKey::IsValid() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapKey>(), { "IsValid", {}, {} })));
@@ -194,11 +207,14 @@ constexpr ::System::IEquatable_1<::GlobalNamespace::BeatmapKey>* GlobalNamespace
   return static_cast<::System::IEquatable_1<::GlobalNamespace::BeatmapKey>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "characteristic", ty: "::GlobalNamespace::BeatmapCharacteristic", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "difficulty", ty:
-// "::GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::BeatmapKey::BeatmapKey(::GlobalNamespace::BeatmapCharacteristic characteristic, ::GlobalNamespace::BeatmapDifficulty difficulty, ::StringW levelId) noexcept {
+// "::GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "gameplayType", ty: "::GlobalNamespace::GameplayType", modifiers: "", def_value: Some("{}"), comment: None }]
+constexpr ::GlobalNamespace::BeatmapKey::BeatmapKey(::GlobalNamespace::BeatmapCharacteristic characteristic, ::GlobalNamespace::BeatmapDifficulty difficulty, ::StringW levelId,
+                                                    ::GlobalNamespace::GameplayType gameplayType) noexcept {
   this->characteristic = characteristic;
   this->difficulty = difficulty;
   this->levelId = levelId;
+  this->gameplayType = gameplayType;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapKey::BeatmapKey() {}

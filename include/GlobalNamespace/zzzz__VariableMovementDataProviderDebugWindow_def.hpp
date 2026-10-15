@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include <cmath>
 CORDL_MODULE_EXPORT(VariableMovementDataProviderDebugWindow)
 namespace GlobalNamespace {
 class VariableMovementDataProvider;
@@ -23,31 +22,22 @@ namespace GlobalNamespace {
 class CORDL_TYPE VariableMovementDataProviderDebugWindow : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _njs, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__njs, put = __cordl_internal_set__njs)) float_t _njs;
-
   /// @brief Field _variableMovementDataProvider, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__variableMovementDataProvider,
                       put = __cordl_internal_set__variableMovementDataProvider)) ::GlobalNamespace::VariableMovementDataProvider* _variableMovementDataProvider;
 
   static inline ::GlobalNamespace::VariableMovementDataProviderDebugWindow* New_ctor();
 
-  /// @brief Method OnGUI, addr 0x5ce4288, size 0xbf8, virtual false, abstract: false, final false
+  /// @brief Method OnGUI, addr 0x5d1d9a8, size 0xbf8, virtual false, abstract: false, final false
   inline void OnGUI();
-
-  constexpr float_t const& __cordl_internal_get__njs() const;
-
-  constexpr float_t& __cordl_internal_get__njs();
 
   constexpr ::GlobalNamespace::VariableMovementDataProvider* const& __cordl_internal_get__variableMovementDataProvider() const;
 
   constexpr ::GlobalNamespace::VariableMovementDataProvider*& __cordl_internal_get__variableMovementDataProvider();
 
-  constexpr void __cordl_internal_set__njs(float_t value);
-
   constexpr void __cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::VariableMovementDataProvider* value);
 
-  /// @brief Method .ctor, addr 0x5ce4e80, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d1e5a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -65,22 +55,17 @@ public:
   VariableMovementDataProviderDebugWindow(VariableMovementDataProviderDebugWindow const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5763 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5764 };
 
   /// [Inject]
   /// @brief Field _variableMovementDataProvider, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::VariableMovementDataProvider* ____variableMovementDataProvider;
-
-  /// @brief Field _njs, offset: 0x28, size: 0x4, def value: None
-  float_t ____njs;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::VariableMovementDataProviderDebugWindow, ____variableMovementDataProvider) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::VariableMovementDataProviderDebugWindow, ____njs) == 0x28, "Offset mismatch!");
-
-static_assert(sizeof(::GlobalNamespace::VariableMovementDataProviderDebugWindow) == 0x30, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::VariableMovementDataProviderDebugWindow) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace

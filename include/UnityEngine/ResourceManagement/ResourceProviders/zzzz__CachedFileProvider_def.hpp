@@ -69,25 +69,25 @@ public:
   /// @brief Field m_Timeout, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Timeout, put = __cordl_internal_set_m_Timeout)) int32_t m_Timeout;
 
-  /// @brief Method GetPercentComplete, addr 0x6d47284, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetPercentComplete, addr 0x6d83f00, size 0x18, virtual false, abstract: false, final false
   inline float_t GetPercentComplete();
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::CachedFileProvider_InternalOp* New_ctor();
 
-  /// @brief Method RequestOperation_completed, addr 0x6d47310, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method RequestOperation_completed, addr 0x6d83f8c, size 0x1c8, virtual false, abstract: false, final false
   inline void RequestOperation_completed(::UnityEngine::AsyncOperation* op);
 
-  /// @brief Method SendWebRequest, addr 0x6d474d8, size 0x29c, virtual true, abstract: false, final false
+  /// @brief Method SendWebRequest, addr 0x6d84154, size 0x29c, virtual true, abstract: false, final false
   inline void SendWebRequest(::StringW remotePath, ::StringW cachePath);
 
-  /// @brief Method Start, addr 0x6d46e84, size 0x3fc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x6d83b00, size 0x3fc, virtual false, abstract: false, final false
   inline void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle, ::UnityEngine::ResourceManagement::ResourceProviders::CachedFileProvider* rawProvider);
 
-  /// @brief Method WaitForCompletionHandler, addr 0x6d4729c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method WaitForCompletionHandler, addr 0x6d83f18, size 0x74, virtual false, abstract: false, final false
   inline bool WaitForCompletionHandler();
 
   /// [CompilerGenerated]
-  /// @brief Method <SendWebRequest>b__12_0, addr 0x6d47774, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method <SendWebRequest>b__12_0, addr 0x6d843f0, size 0x9c, virtual false, abstract: false, final false
   inline void _SendWebRequest_b__12_0(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOperation);
 
   constexpr ::StringW const& __cordl_internal_get_m_CachePath() const;
@@ -138,7 +138,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Timeout(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6d46e80, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d83afc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -156,7 +156,7 @@ public:
   CachedFileProvider_InternalOp(CachedFileProvider_InternalOp const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19193 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19226 };
 
   /// @brief Field m_Provider, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::ResourceManagement::ResourceProviders::CachedFileProvider* ___m_Provider;
@@ -216,10 +216,10 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::CachedFileProvider* New_ctor();
 
-  /// @brief Method Provide, addr 0x6d46dfc, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Provide, addr 0x6d83a78, size 0x84, virtual true, abstract: false, final false
   inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
 
-  /// @brief Method .ctor, addr 0x6d47280, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d83efc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -237,7 +237,7 @@ public:
   CachedFileProvider(CachedFileProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19194 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19227 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

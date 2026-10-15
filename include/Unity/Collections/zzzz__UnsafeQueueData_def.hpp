@@ -41,13 +41,13 @@ public:
   static inline ::Unity::Collections::UnsafeQueueBlockHeader* AllocateWriteBlockMT(::Unity::Collections::UnsafeQueueData* data, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator,
                                                                                    int32_t threadIndex);
 
-  /// @brief Method DeallocateQueue, addr 0x68f27b8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method DeallocateQueue, addr 0x692f434, size 0x9c, virtual false, abstract: false, final false
   static inline void DeallocateQueue(::Unity::Collections::UnsafeQueueData* data, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method GetCurrentWriteBlockTLS, addr 0x68f2798, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentWriteBlockTLS, addr 0x692f414, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Collections::UnsafeQueueBlockHeader* GetCurrentWriteBlockTLS(int32_t threadIndex);
 
-  /// @brief Method SetCurrentWriteBlockTLS, addr 0x68f27a8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetCurrentWriteBlockTLS, addr 0x692f424, size 0x10, virtual false, abstract: false, final false
   inline void SetCurrentWriteBlockTLS(int32_t threadIndex, ::Unity::Collections::UnsafeQueueBlockHeader* currentWriteBlock);
 
   // Ctor Parameters []
@@ -60,7 +60,7 @@ public:
   constexpr UnsafeQueueData(::System::IntPtr m_FirstBlock, ::System::IntPtr m_LastBlock, int32_t m_MaxItems, int32_t m_CurrentRead, uint8_t* m_CurrentWriteBlockTLS) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15974 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16007 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_SerializedBeatmapKey::*)(::StringW, ::StringW, ::StringW)>(
     &::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_SerializedBeatmapKey::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5d2d100;
+  constexpr static std::size_t addrs = 0x5d6742c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,8 +67,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapKey (::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_SerializedBeatmapKey::*)(
     ::GlobalNamespace::BeatmapLevelsModel*)>(&::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_SerializedBeatmapKey::ToBeatmapKey)> {
-  constexpr static std::size_t size = 0x3fc;
-  constexpr static std::size_t addrs = 0x5d2dd78;
+  constexpr static std::size_t size = 0x41c;
+  constexpr static std::size_t addrs = 0x5d68368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_SerializedBeatmapKey>(),
@@ -156,782 +156,955 @@ constexpr ::GlobalNamespace::ScreenshotLevelStarter_RunScreenshotLevelData::Scre
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ScreenshotLevelStarter_RunScreenshotLevelData::ScreenshotLevelStarter_RunScreenshotLevelData() {}
-//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0._ctor
+//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::*)()>(
-    &::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::*)()>(
+    &::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d2e174;
+  constexpr static std::size_t addrs = 0x5d68784;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0*>(), { ".ctor", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0._RunScreenshotLevel_b__0
+//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0._RunScreenshotLevel_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::*)()>(
-    &::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::_RunScreenshotLevel_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::*)()>(
+    &::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::_RunScreenshotLevel_b__0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5d2e178;
+  constexpr static std::size_t addrs = 0x5d68788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0*>(), { "<RunScreenshotLevel>b__0", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0*>(), { "<RunScreenshotLevel>b__0", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0._RunScreenshotLevel_g__HandleLevelEnded_1
+//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0._RunScreenshotLevel_b__1
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::*)()>(
-    &::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::_RunScreenshotLevel_g__HandleLevelEnded_1)> {
-  constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x5d2e198;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::*)()>(
+    &::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::_RunScreenshotLevel_b__1)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5d687a8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0*>(), { "<RunScreenshotLevel>b__1", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0._RunScreenshotLevel_g__HandleLevelEnded_2
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::*)()>(
+    &::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::_RunScreenshotLevel_g__HandleLevelEnded_2)> {
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x5d687c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0*>(), { "<RunScreenshotLevel>g__HandleLevelEnded|1", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0*>(), { "<RunScreenshotLevel>g__HandleLevelEnded|2", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0._RunScreenshotLevel_g__GetNextScreenshotTime_2
+//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0._RunScreenshotLevel_g__GetNextScreenshotTime_3
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::*)()>(
-    &::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::_RunScreenshotLevel_g__GetNextScreenshotTime_2)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::*)()>(
+    &::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::_RunScreenshotLevel_g__GetNextScreenshotTime_3)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5d2e30c;
+  constexpr static std::size_t addrs = 0x5d688bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0*>(), { "<RunScreenshotLevel>g__GetNextScreenshotTime|2", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0*>(), { "<RunScreenshotLevel>g__GetNextScreenshotTime|3", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::__cordl_internal_get_audioTimeSyncController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___audioTimeSyncController;
-}
-constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::__cordl_internal_get_audioTimeSyncController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___audioTimeSyncController;
-}
-constexpr void GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::__cordl_internal_set_audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___audioTimeSyncController = value;
-}
-constexpr ::UnityW<::GlobalNamespace::PauseController>& GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::__cordl_internal_get_pauseController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___pauseController;
-}
-constexpr ::UnityW<::GlobalNamespace::PauseController> const& GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::__cordl_internal_get_pauseController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___pauseController;
-}
-constexpr void GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::__cordl_internal_set_pauseController(::UnityW<::GlobalNamespace::PauseController> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___pauseController = value;
-}
-constexpr ::GlobalNamespace::ScreenshotLevelStarter*& GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::__cordl_internal_get___4__this() {
+constexpr ::GlobalNamespace::ScreenshotLevelStarter*& GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::GlobalNamespace::ScreenshotLevelStarter* const& GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::__cordl_internal_get___4__this() const {
+constexpr ::GlobalNamespace::ScreenshotLevelStarter* const& GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::__cordl_internal_set___4__this(::GlobalNamespace::ScreenshotLevelStarter* value) {
+constexpr void GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::__cordl_internal_set___4__this(::GlobalNamespace::ScreenshotLevelStarter* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-constexpr float_t& GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::__cordl_internal_get_originalFixedDeltaTime() {
+constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::__cordl_internal_get_audioTimeSyncController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___originalFixedDeltaTime;
+  return this->___audioTimeSyncController;
 }
-constexpr float_t const& GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::__cordl_internal_get_originalFixedDeltaTime() const {
+constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::__cordl_internal_get_audioTimeSyncController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___originalFixedDeltaTime;
+  return this->___audioTimeSyncController;
 }
-constexpr void GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::__cordl_internal_set_originalFixedDeltaTime(float_t value) {
+constexpr void GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::__cordl_internal_set_audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___originalFixedDeltaTime = value;
+  this->___audioTimeSyncController = value;
 }
-constexpr bool& GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::__cordl_internal_get_levelEnded() {
+constexpr ::UnityW<::GlobalNamespace::PauseController>& GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::__cordl_internal_get_pauseController() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___pauseController;
+}
+constexpr ::UnityW<::GlobalNamespace::PauseController> const& GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::__cordl_internal_get_pauseController() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___pauseController;
+}
+constexpr void GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::__cordl_internal_set_pauseController(::UnityW<::GlobalNamespace::PauseController> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___pauseController = value;
+}
+constexpr bool& GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::__cordl_internal_get_levelEnded() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelEnded;
 }
-constexpr bool const& GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::__cordl_internal_get_levelEnded() const {
+constexpr bool const& GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::__cordl_internal_get_levelEnded() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelEnded;
 }
-constexpr void GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::__cordl_internal_set_levelEnded(bool value) {
+constexpr void GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::__cordl_internal_set_levelEnded(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___levelEnded = value;
 }
-constexpr ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command& GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::__cordl_internal_get_command() {
+constexpr ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command& GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::__cordl_internal_get_command() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___command;
 }
-constexpr ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command const& GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::__cordl_internal_get_command() const {
+constexpr ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command const& GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::__cordl_internal_get_command() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___command;
 }
-constexpr void GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::__cordl_internal_set_command(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command value) {
+constexpr void GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::__cordl_internal_set_command(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___command = value;
 }
-constexpr int32_t& GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::__cordl_internal_get_nextScreenshotTimeIndex() {
+constexpr int32_t& GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::__cordl_internal_get_nextScreenshotTimeIndex() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nextScreenshotTimeIndex;
 }
-constexpr int32_t const& GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::__cordl_internal_get_nextScreenshotTimeIndex() const {
+constexpr int32_t const& GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::__cordl_internal_get_nextScreenshotTimeIndex() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nextScreenshotTimeIndex;
 }
-constexpr void GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::__cordl_internal_set_nextScreenshotTimeIndex(int32_t value) {
+constexpr void GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::__cordl_internal_set_nextScreenshotTimeIndex(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___nextScreenshotTimeIndex = value;
 }
-inline void GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0*>(), { ".ctor", {}, {} })));
+inline void GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::_RunScreenshotLevel_b__0() {
+inline bool GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::_RunScreenshotLevel_b__0() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0*>(), { "<RunScreenshotLevel>b__0", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0*>(), { "<RunScreenshotLevel>b__0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline void GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::_RunScreenshotLevel_g__HandleLevelEnded_1() {
+inline bool GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::_RunScreenshotLevel_b__1() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0*>(), { "<RunScreenshotLevel>b__1", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::_RunScreenshotLevel_g__HandleLevelEnded_2() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0*>(), { "<RunScreenshotLevel>g__HandleLevelEnded|1", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0*>(), { "<RunScreenshotLevel>g__HandleLevelEnded|2", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline float_t GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::_RunScreenshotLevel_g__GetNextScreenshotTime_2() {
+inline float_t GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::_RunScreenshotLevel_g__GetNextScreenshotTime_3() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0*>(), { "<RunScreenshotLevel>g__GetNextScreenshotTime|2", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0*>(), { "<RunScreenshotLevel>g__GetNextScreenshotTime|3", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method);
 }
-inline ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0* GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0*>());
+inline ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0* GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0::ScreenshotLevelStarter___c__DisplayClass46_0() {}
-//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1._ctor
+constexpr ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0::ScreenshotLevelStarter___c__DisplayClass53_0() {}
+//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1::*)()>(
-    &::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1::*)()>(
+    &::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d2e3a0;
+  constexpr static std::size_t addrs = 0x5d68950;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1*>(), { ".ctor", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1._RunScreenshotLevel_b__3
+//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1._RunScreenshotLevel_b__4
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1::*)()>(
-    &::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1::_RunScreenshotLevel_b__3)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1::*)()>(
+    &::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1::_RunScreenshotLevel_b__4)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5d2e3a4;
+  constexpr static std::size_t addrs = 0x5d68954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1*>(), { "<RunScreenshotLevel>b__3", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1*>(), { "<RunScreenshotLevel>b__4", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>*& GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1::__cordl_internal_get_versionTask() {
+constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>*& GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1::__cordl_internal_get_versionTask() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___versionTask;
 }
 constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* const&
-GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1::__cordl_internal_get_versionTask() const {
+GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1::__cordl_internal_get_versionTask() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___versionTask;
 }
-constexpr void GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1::__cordl_internal_set_versionTask(::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* value) {
+constexpr void GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1::__cordl_internal_set_versionTask(::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___versionTask = value;
 }
-inline void GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1*>(), { ".ctor", {}, {} })));
+inline void GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1::_RunScreenshotLevel_b__3() {
+inline bool GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1::_RunScreenshotLevel_b__4() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1*>(), { "<RunScreenshotLevel>b__3", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1*>(), { "<RunScreenshotLevel>b__4", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1* GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1*>());
+inline ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1* GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1::ScreenshotLevelStarter___c__DisplayClass46_1() {}
-//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46._ctor
+constexpr ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1::ScreenshotLevelStarter___c__DisplayClass53_1() {}
+//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::*)(int32_t)>(
-    &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::*)(int32_t)>(
+    &::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d2d3f8;
+  constexpr static std::size_t addrs = 0x5d6896c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::*)()>(
-    &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::System_IDisposable_Dispose)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5d2e3bc;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::*)()>(
+    &::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::System_IDisposable_Dispose)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5d68974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46*>(), { "System.IDisposable.Dispose", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49*>(), { "System.IDisposable.Dispose", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::*)()>(
-    &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::MoveNext)> {
-  constexpr static std::size_t size = 0x2020;
-  constexpr static std::size_t addrs = 0x5d2e3d8;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::*)()>(
+    &::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::MoveNext)> {
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x5d689b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46*>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49*>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46.__m__Finally1
+//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49.__m__Finally1
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::*)()>(
-    &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__m__Finally1)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5d303f8;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::*)()>(
+    &::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::__m__Finally1)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5d68b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46*>(), { "<>m__Finally1", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49*>(), { "<>m__Finally1", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::*)()>(
-    &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::*)()>(
+    &::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d304ac;
+  constexpr static std::size_t addrs = 0x5d68b6c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46*>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49*>(),
                                                                                            { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::*)()>(
-    &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::*)()>(
+    &::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5d304b4;
+  constexpr static std::size_t addrs = 0x5d68b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::*)()>(
-    &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::*)()>(
+    &::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d304ec;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
-    return ___internal_method;
-  }
-};
-constexpr int32_t& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____1__state;
-}
-constexpr int32_t const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____1__state;
-}
-constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____1__state = value;
-}
-constexpr ::System::Object*& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____2__current;
-}
-constexpr ::System::Object* const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____2__current;
-}
-constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____2__current = value;
-}
-constexpr ::GlobalNamespace::ScreenshotLevelStarter*& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr ::GlobalNamespace::ScreenshotLevelStarter* const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_set___4__this(::GlobalNamespace::ScreenshotLevelStarter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____4__this = value;
-}
-constexpr ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get_command() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___command;
-}
-constexpr ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get_command() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___command;
-}
-constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_set_command(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___command = value;
-}
-constexpr ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1*& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get___8__1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____8__1;
-}
-constexpr ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1* const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get___8__1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____8__1;
-}
-constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_set___8__1(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____8__1 = value;
-}
-constexpr ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0*& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get___8__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____8__2;
-}
-constexpr ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0* const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get___8__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____8__2;
-}
-constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_set___8__2(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____8__2 = value;
-}
-constexpr ::GlobalNamespace::BeatmapLevel*& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get__beatmapLevel_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapLevel_5__2;
-}
-constexpr ::GlobalNamespace::BeatmapLevel* const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get__beatmapLevel_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapLevel_5__2;
-}
-constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_set__beatmapLevel_5__2(::GlobalNamespace::BeatmapLevel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____beatmapLevel_5__2 = value;
-}
-constexpr ::GlobalNamespace::BeatmapKey& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get__beatmapKey_5__3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapKey_5__3;
-}
-constexpr ::GlobalNamespace::BeatmapKey const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get__beatmapKey_5__3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapKey_5__3;
-}
-constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_set__beatmapKey_5__3(::GlobalNamespace::BeatmapKey value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____beatmapKey_5__3 = value;
-}
-constexpr ::StringW& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get__screenshotExportFolderPath_5__4() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____screenshotExportFolderPath_5__4;
-}
-constexpr ::StringW const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get__screenshotExportFolderPath_5__4() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____screenshotExportFolderPath_5__4;
-}
-constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_set__screenshotExportFolderPath_5__4(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____screenshotExportFolderPath_5__4 = value;
-}
-constexpr ::GlobalNamespace::GameplayModifiers*& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get__gameplayModifiers_5__5() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____gameplayModifiers_5__5;
-}
-constexpr ::GlobalNamespace::GameplayModifiers* const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get__gameplayModifiers_5__5() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____gameplayModifiers_5__5;
-}
-constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_set__gameplayModifiers_5__5(::GlobalNamespace::GameplayModifiers* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____gameplayModifiers_5__5 = value;
-}
-constexpr ::GlobalNamespace::PlayerSpecificSettings*& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get__playerSpecificSettings_5__6() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____playerSpecificSettings_5__6;
-}
-constexpr ::GlobalNamespace::PlayerSpecificSettings* const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get__playerSpecificSettings_5__6() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____playerSpecificSettings_5__6;
-}
-constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_set__playerSpecificSettings_5__6(::GlobalNamespace::PlayerSpecificSettings* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____playerSpecificSettings_5__6 = value;
-}
-constexpr ::GlobalNamespace::ILevelEndActions*& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get__levelEndActions_5__7() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____levelEndActions_5__7;
-}
-constexpr ::GlobalNamespace::ILevelEndActions* const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get__levelEndActions_5__7() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____levelEndActions_5__7;
-}
-constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_set__levelEndActions_5__7(::GlobalNamespace::ILevelEndActions* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____levelEndActions_5__7 = value;
-}
-constexpr float_t& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get__songDuration_5__8() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____songDuration_5__8;
-}
-constexpr float_t const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get__songDuration_5__8() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____songDuration_5__8;
-}
-constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_set__songDuration_5__8(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____songDuration_5__8 = value;
-}
-constexpr float_t& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get__nextScreenshotTime_5__9() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____nextScreenshotTime_5__9;
-}
-constexpr float_t const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get__nextScreenshotTime_5__9() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____nextScreenshotTime_5__9;
-}
-constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_set__nextScreenshotTime_5__9(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____nextScreenshotTime_5__9 = value;
-}
-constexpr ::UnityW<::UnityEngine::Camera>& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get__renderCamera_5__10() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____renderCamera_5__10;
-}
-constexpr ::UnityW<::UnityEngine::Camera> const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get__renderCamera_5__10() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____renderCamera_5__10;
-}
-constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_set__renderCamera_5__10(::UnityW<::UnityEngine::Camera> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____renderCamera_5__10 = value;
-}
-constexpr ::UnityW<::UnityEngine::Texture2D>& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get__screenshotTexture_5__11() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____screenshotTexture_5__11;
-}
-constexpr ::UnityW<::UnityEngine::Texture2D> const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get__screenshotTexture_5__11() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____screenshotTexture_5__11;
-}
-constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_set__screenshotTexture_5__11(::UnityW<::UnityEngine::Texture2D> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____screenshotTexture_5__11 = value;
-}
-constexpr ::System::Threading::CancellationTokenSource*& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get__cancellationTokenSource_5__12() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____cancellationTokenSource_5__12;
-}
-constexpr ::System::Threading::CancellationTokenSource* const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_get__cancellationTokenSource_5__12() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____cancellationTokenSource_5__12;
-}
-constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__cordl_internal_set__cancellationTokenSource_5__12(::System::Threading::CancellationTokenSource* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____cancellationTokenSource_5__12 = value;
-}
-inline void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::_ctor(int32_t __1__state) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
-}
-inline void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::System_IDisposable_Dispose() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46*>(), { "System.IDisposable.Dispose", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline bool GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46*>(), { "MoveNext", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
-}
-inline void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::__m__Finally1() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46*>(), { "<>m__Finally1", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline ::System::Object* GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46*>(),
-                                                                                         { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
-}
-inline void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::System_Collections_IEnumerator_Reset() {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline ::System::Object* GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::System_Collections_IEnumerator_get_Current() {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
-}
-/// @brief [DebuggerHidden]
-inline ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46* GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46*>(__1__state));
-}
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::operator ::System::Collections::IEnumerator*() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::i___System__Collections__IEnumerator() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46::ScreenshotLevelStarter__RunScreenshotLevel_d__46() {}
-//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45._ctor
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::*)(int32_t)>(
-    &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d304f4;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45.System_IDisposable_Dispose
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::*)()>(
-    &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::System_IDisposable_Dispose)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d304fc;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45*>(), { "System.IDisposable.Dispose", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45.MoveNext
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::*)()>(
-    &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::MoveNext)> {
-  constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x5d30500;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45*>(), { "MoveNext", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45.System_Collections_Generic_IEnumerator_System_Object__get_Current
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::*)()>(
-    &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d30788;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45*>(),
-                                                                                           { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45.System_Collections_IEnumerator_Reset
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::*)()>(
-    &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::System_Collections_IEnumerator_Reset)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5d30790;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45.System_Collections_IEnumerator_get_Current
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::*)()>(
-    &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::System_Collections_IEnumerator_get_Current)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d307c8;
+  constexpr static std::size_t addrs = 0x5d68bac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::__cordl_internal_get___1__state() {
+constexpr int32_t& GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::__cordl_internal_get___1__state() const {
+constexpr int32_t const& GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::__cordl_internal_set___1__state(int32_t value) {
+constexpr void GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::__cordl_internal_get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::System::Object* const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::__cordl_internal_get___2__current() const {
+constexpr ::System::Object* const& GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::__cordl_internal_set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____2__current = value;
 }
-constexpr ::GlobalNamespace::ScreenshotLevelStarter*& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::__cordl_internal_get___4__this() {
+constexpr ::GlobalNamespace::ScreenshotLevelStarter*& GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::GlobalNamespace::ScreenshotLevelStarter* const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::__cordl_internal_get___4__this() const {
+constexpr ::GlobalNamespace::ScreenshotLevelStarter* const& GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::__cordl_internal_set___4__this(::GlobalNamespace::ScreenshotLevelStarter* value) {
+constexpr void GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::__cordl_internal_set___4__this(::GlobalNamespace::ScreenshotLevelStarter* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-inline void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::_ctor(int32_t __1__state) {
+inline void GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::_ctor(int32_t __1__state) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::System_IDisposable_Dispose() {
+inline void GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45*>(), { "System.IDisposable.Dispose", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49*>(), { "System.IDisposable.Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::MoveNext() {
+inline bool GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45*>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49*>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45*>(),
+inline void GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::__m__Finally1() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49*>(), { "<>m__Finally1", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::Object* GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49*>(),
                                                                                          { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-inline void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::System_Collections_IEnumerator_Reset() {
+inline void GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::System_Collections_IEnumerator_get_Current() {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+inline ::System::Object* GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::System_Collections_IEnumerator_get_Current() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
 /// @brief [DebuggerHidden]
-inline ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45* GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45*>(__1__state));
+inline ::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49* GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+constexpr GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::operator ::System::IDisposable*() noexcept {
+constexpr GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45() {}
-//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter.get_Screenshotting
+constexpr ::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49() {}
+//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ScreenshotLevelStarter::*)()>(&::GlobalNamespace::ScreenshotLevelStarter::get_Screenshotting)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5d2d0c0;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::*)(int32_t)>(
+    &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5d68bb4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(), { "get_Screenshotting", {}, {} })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53.System_IDisposable_Dispose
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::*)()>(
+    &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::System_IDisposable_Dispose)> {
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x5d68bbc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53*>(), { "System.IDisposable.Dispose", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53.MoveNext
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::*)()>(
+    &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::MoveNext)> {
+  constexpr static std::size_t size = 0x20b8;
+  constexpr static std::size_t addrs = 0x5d68bd8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53*>(), { "MoveNext", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53.__m__Finally1
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::*)()>(
+    &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__m__Finally1)> {
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x5d6ac90;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53*>(), { "<>m__Finally1", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53.System_Collections_Generic_IEnumerator_System_Object__get_Current
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::*)()>(
+    &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5d6ad44;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53*>(),
+                                                                                           { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53.System_Collections_IEnumerator_Reset
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::*)()>(
+    &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::System_Collections_IEnumerator_Reset)> {
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x5d6ad4c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53.System_Collections_IEnumerator_get_Current
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::*)()>(
+    &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::System_Collections_IEnumerator_get_Current)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5d6ad84;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+    return ___internal_method;
+  }
+};
+constexpr int32_t& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_get___1__state() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
+}
+constexpr int32_t const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_get___1__state() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
+}
+constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_set___1__state(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____1__state = value;
+}
+constexpr ::System::Object*& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_get___2__current() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
+}
+constexpr ::System::Object* const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_get___2__current() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
+}
+constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_set___2__current(::System::Object* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____2__current = value;
+}
+constexpr ::GlobalNamespace::ScreenshotLevelStarter*& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_get___4__this() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr ::GlobalNamespace::ScreenshotLevelStarter* const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_get___4__this() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_set___4__this(::GlobalNamespace::ScreenshotLevelStarter* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____4__this = value;
+}
+constexpr ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_get_command() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___command;
+}
+constexpr ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_get_command() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___command;
+}
+constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_set_command(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___command = value;
+}
+constexpr ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1*& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_get___8__1() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____8__1;
+}
+constexpr ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1* const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_get___8__1() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____8__1;
+}
+constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_set___8__1(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____8__1 = value;
+}
+constexpr ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0*& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_get___8__2() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____8__2;
+}
+constexpr ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0* const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_get___8__2() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____8__2;
+}
+constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_set___8__2(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____8__2 = value;
+}
+constexpr ::GlobalNamespace::BeatmapLevel*& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_get__beatmapLevel_5__2() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapLevel_5__2;
+}
+constexpr ::GlobalNamespace::BeatmapLevel* const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_get__beatmapLevel_5__2() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapLevel_5__2;
+}
+constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_set__beatmapLevel_5__2(::GlobalNamespace::BeatmapLevel* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____beatmapLevel_5__2 = value;
+}
+constexpr ::GlobalNamespace::BeatmapKey& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_get__beatmapKey_5__3() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapKey_5__3;
+}
+constexpr ::GlobalNamespace::BeatmapKey const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_get__beatmapKey_5__3() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapKey_5__3;
+}
+constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_set__beatmapKey_5__3(::GlobalNamespace::BeatmapKey value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____beatmapKey_5__3 = value;
+}
+constexpr ::StringW& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_get__screenshotExportFolderPath_5__4() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____screenshotExportFolderPath_5__4;
+}
+constexpr ::StringW const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_get__screenshotExportFolderPath_5__4() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____screenshotExportFolderPath_5__4;
+}
+constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_set__screenshotExportFolderPath_5__4(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____screenshotExportFolderPath_5__4 = value;
+}
+constexpr ::GlobalNamespace::ILevelEndActions*& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_get__levelEndActions_5__5() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____levelEndActions_5__5;
+}
+constexpr ::GlobalNamespace::ILevelEndActions* const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_get__levelEndActions_5__5() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____levelEndActions_5__5;
+}
+constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_set__levelEndActions_5__5(::GlobalNamespace::ILevelEndActions* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____levelEndActions_5__5 = value;
+}
+constexpr float_t& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_get__songDuration_5__6() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____songDuration_5__6;
+}
+constexpr float_t const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_get__songDuration_5__6() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____songDuration_5__6;
+}
+constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_set__songDuration_5__6(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____songDuration_5__6 = value;
+}
+constexpr float_t& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_get__nextScreenshotTime_5__7() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____nextScreenshotTime_5__7;
+}
+constexpr float_t const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_get__nextScreenshotTime_5__7() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____nextScreenshotTime_5__7;
+}
+constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_set__nextScreenshotTime_5__7(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____nextScreenshotTime_5__7 = value;
+}
+constexpr ::UnityW<::UnityEngine::Camera>& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_get__renderCamera_5__8() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____renderCamera_5__8;
+}
+constexpr ::UnityW<::UnityEngine::Camera> const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_get__renderCamera_5__8() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____renderCamera_5__8;
+}
+constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_set__renderCamera_5__8(::UnityW<::UnityEngine::Camera> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____renderCamera_5__8 = value;
+}
+constexpr ::System::Threading::CancellationTokenSource*& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_get__cancellationTokenSource_5__9() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____cancellationTokenSource_5__9;
+}
+constexpr ::System::Threading::CancellationTokenSource* const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_get__cancellationTokenSource_5__9() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____cancellationTokenSource_5__9;
+}
+constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__cordl_internal_set__cancellationTokenSource_5__9(::System::Threading::CancellationTokenSource* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____cancellationTokenSource_5__9 = value;
+}
+inline void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::_ctor(int32_t __1__state) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
+}
+inline void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::System_IDisposable_Dispose() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53*>(), { "System.IDisposable.Dispose", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline bool GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53*>(), { "MoveNext", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::__m__Finally1() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53*>(), { "<>m__Finally1", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::Object* GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53*>(),
+                                                                                         { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
+}
+inline void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::System_Collections_IEnumerator_Reset() {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::Object* GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::System_Collections_IEnumerator_get_Current() {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
+}
+/// @brief [DebuggerHidden]
+inline ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53* GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53*>(__1__state));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
+GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53::ScreenshotLevelStarter__RunScreenshotLevel_d__53() {}
+//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::*)(int32_t)>(
+    &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5d6ad8c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52.System_IDisposable_Dispose
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::*)()>(
+    &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::System_IDisposable_Dispose)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5d6ad94;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52*>(), { "System.IDisposable.Dispose", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52.MoveNext
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::*)()>(
+    &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::MoveNext)> {
+  constexpr static std::size_t size = 0x288;
+  constexpr static std::size_t addrs = 0x5d6ad98;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52*>(), { "MoveNext", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52.System_Collections_Generic_IEnumerator_System_Object__get_Current
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::*)()>(
+    &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5d6b020;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52*>(),
+                                                                                           { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52.System_Collections_IEnumerator_Reset
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::*)()>(
+    &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::System_Collections_IEnumerator_Reset)> {
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x5d6b028;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52.System_Collections_IEnumerator_get_Current
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::*)()>(
+    &::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::System_Collections_IEnumerator_get_Current)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5d6b060;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+    return ___internal_method;
+  }
+};
+constexpr int32_t& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::__cordl_internal_get___1__state() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
+}
+constexpr int32_t const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::__cordl_internal_get___1__state() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
+}
+constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::__cordl_internal_set___1__state(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____1__state = value;
+}
+constexpr ::System::Object*& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::__cordl_internal_get___2__current() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
+}
+constexpr ::System::Object* const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::__cordl_internal_get___2__current() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
+}
+constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::__cordl_internal_set___2__current(::System::Object* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____2__current = value;
+}
+constexpr ::GlobalNamespace::ScreenshotLevelStarter*& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::__cordl_internal_get___4__this() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr ::GlobalNamespace::ScreenshotLevelStarter* const& GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::__cordl_internal_get___4__this() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::__cordl_internal_set___4__this(::GlobalNamespace::ScreenshotLevelStarter* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____4__this = value;
+}
+inline void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::_ctor(int32_t __1__state) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
+}
+inline void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::System_IDisposable_Dispose() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52*>(), { "System.IDisposable.Dispose", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline bool GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52*>(), { "MoveNext", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline ::System::Object* GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52*>(),
+                                                                                         { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
+}
+inline void GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::System_Collections_IEnumerator_Reset() {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::Object* GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::System_Collections_IEnumerator_get_Current() {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
+}
+/// @brief [DebuggerHidden]
+inline ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52* GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52*>(__1__state));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
+GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52() {}
+//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter.get_isScreenshotting
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ScreenshotLevelStarter::*)()>(&::GlobalNamespace::ScreenshotLevelStarter::get_isScreenshotting)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5d673dc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(), { "get_isScreenshotting", {}, {} })));
     return ___internal_method;
   }
 };
@@ -941,7 +1114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter::*)(::StringW, ::StringW, ::StringW, float_t, ::System::Collections::Generic::List_1<float_t>*,
                                                                                                            int32_t)>(&::GlobalNamespace::ScreenshotLevelStarter::EnqueueScreenshotLevel)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5d2d0d0;
+  constexpr static std::size_t addrs = 0x5d673fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -959,7 +1132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter::*)(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command)>(
     &::GlobalNamespace::ScreenshotLevelStarter::EnqueueScreenshotLevel)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x5d2d10c;
+  constexpr static std::size_t addrs = 0x5d67438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -972,11 +1145,61 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter::*)()>(&::GlobalNamespace::ScreenshotLevelStarter::StopScreenshotting)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5d2d27c;
+  constexpr static std::size_t size = 0x174;
+  constexpr static std::size_t addrs = 0x5d675a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(), { "StopScreenshotting", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter.StartPopWhenTransitionSettles
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter::*)()>(&::GlobalNamespace::ScreenshotLevelStarter::StartPopWhenTransitionSettles)> {
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x5d67850;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(), { "StartPopWhenTransitionSettles", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter.PopWhenTransitionSettles
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::ScreenshotLevelStarter::*)()>(
+    &::GlobalNamespace::ScreenshotLevelStarter::PopWhenTransitionSettles)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5d67920;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(), { "PopWhenTransitionSettles", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter.RestoreCaptureState
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter::*)()>(&::GlobalNamespace::ScreenshotLevelStarter::RestoreCaptureState)> {
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5d6771c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(), { "RestoreCaptureState", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ScreenshotLevelStarter.DestroyScreenshotTexture
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter::*)()>(&::GlobalNamespace::ScreenshotLevelStarter::DestroyScreenshotTexture)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x5d677c0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(), { "DestroyScreenshotTexture", {}, {} })));
     return ___internal_method;
   }
 };
@@ -986,7 +1209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::ScreenshotLevelStarter::*)()>(
     &::GlobalNamespace::ScreenshotLevelStarter::RunScreenshotLevelQueue)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5d2d228;
+  constexpr static std::size_t addrs = 0x5d67554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(), { "RunScreenshotLevelQueue", {}, {} })));
@@ -999,7 +1222,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (
     ::GlobalNamespace::ScreenshotLevelStarter::*)(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command)>(&::GlobalNamespace::ScreenshotLevelStarter::RunScreenshotLevel)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5d2d37c;
+  constexpr static std::size_t addrs = 0x5d67974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1015,7 +1238,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespac
                                                                 ::by_ref<::GlobalNamespace::PlayerSpecificSettings* const>, ::by_ref<::GlobalNamespace::GameplayModifiers* const>)>(
     &::GlobalNamespace::ScreenshotLevelStarter::SaveMetadata)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5d2d400;
+  constexpr static std::size_t addrs = 0x5d679f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1033,7 +1256,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::GlobalNamespace::ScreenshotLevelStarter::SaveDeviceMetadata)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x5d2d784;
+  constexpr static std::size_t addrs = 0x5d67d74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1046,7 +1269,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::by_ref<::StringW const>)>(&::GlobalNamespace::ScreenshotLevelStarter::SaveBuildSpecificMetadata)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5d2d98c;
+  constexpr static std::size_t addrs = 0x5d67f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1060,7 +1283,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*, ::StringW)>(&::GlobalNamespace::ScreenshotLevelStarter::SaveMetadataObject)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x5d2d558;
+  constexpr static std::size_t addrs = 0x5d67b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(),
@@ -1073,7 +1296,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Camera*, ::UnityEngine::Texture2D*)>(&::GlobalNamespace::ScreenshotLevelStarter::TakeScreenshotFromCamera)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x5d2da7c;
+  constexpr static std::size_t addrs = 0x5d6806c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1088,7 +1311,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter::*)(::System::Action_1<bool>*)>(
     &::GlobalNamespace::ScreenshotLevelStarter::HandlePauseControllerCanPause)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5d2dc7c;
+  constexpr static std::size_t addrs = 0x5d6826c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1102,7 +1325,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenshotLevelStarter::*)()>(&::GlobalNamespace::ScreenshotLevelStarter::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5d2dc98;
+  constexpr static std::size_t addrs = 0x5d68288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(), { ".ctor", {}, {} })));
@@ -1256,17 +1479,53 @@ constexpr void GlobalNamespace::ScreenshotLevelStarter::__cordl_internal_set__sc
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____screenshotQueueCoroutine = value;
 }
-constexpr ::StringW& GlobalNamespace::ScreenshotLevelStarter::__cordl_internal_get__cachedGameVersion() {
+constexpr bool& GlobalNamespace::ScreenshotLevelStarter::__cordl_internal_get__isPopPending() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____cachedGameVersion;
+  return this->____isPopPending;
 }
-constexpr ::StringW const& GlobalNamespace::ScreenshotLevelStarter::__cordl_internal_get__cachedGameVersion() const {
+constexpr bool const& GlobalNamespace::ScreenshotLevelStarter::__cordl_internal_get__isPopPending() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____cachedGameVersion;
+  return this->____isPopPending;
 }
-constexpr void GlobalNamespace::ScreenshotLevelStarter::__cordl_internal_set__cachedGameVersion(::StringW value) {
+constexpr void GlobalNamespace::ScreenshotLevelStarter::__cordl_internal_set__isPopPending(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____cachedGameVersion = value;
+  this->____isPopPending = value;
+}
+constexpr float_t& GlobalNamespace::ScreenshotLevelStarter::__cordl_internal_get__originalFixedDeltaTime() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____originalFixedDeltaTime;
+}
+constexpr float_t const& GlobalNamespace::ScreenshotLevelStarter::__cordl_internal_get__originalFixedDeltaTime() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____originalFixedDeltaTime;
+}
+constexpr void GlobalNamespace::ScreenshotLevelStarter::__cordl_internal_set__originalFixedDeltaTime(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____originalFixedDeltaTime = value;
+}
+constexpr bool& GlobalNamespace::ScreenshotLevelStarter::__cordl_internal_get__captureStateApplied() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____captureStateApplied;
+}
+constexpr bool const& GlobalNamespace::ScreenshotLevelStarter::__cordl_internal_get__captureStateApplied() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____captureStateApplied;
+}
+constexpr void GlobalNamespace::ScreenshotLevelStarter::__cordl_internal_set__captureStateApplied(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____captureStateApplied = value;
+}
+constexpr ::UnityW<::UnityEngine::Texture2D>& GlobalNamespace::ScreenshotLevelStarter::__cordl_internal_get__screenshotTexture() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____screenshotTexture;
+}
+constexpr ::UnityW<::UnityEngine::Texture2D> const& GlobalNamespace::ScreenshotLevelStarter::__cordl_internal_get__screenshotTexture() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____screenshotTexture;
+}
+constexpr void GlobalNamespace::ScreenshotLevelStarter::__cordl_internal_set__screenshotTexture(::UnityW<::UnityEngine::Texture2D> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____screenshotTexture = value;
 }
 inline void GlobalNamespace::ScreenshotLevelStarter::setStaticF_kWaitForEndOfFrame(::UnityEngine::WaitForEndOfFrame* value) {
   ::cordl_internals::setStaticField<::UnityEngine::WaitForEndOfFrame*, "kWaitForEndOfFrame", ::GlobalNamespace::ScreenshotLevelStarter*>(std::forward<::UnityEngine::WaitForEndOfFrame*>(value));
@@ -1274,8 +1533,8 @@ inline void GlobalNamespace::ScreenshotLevelStarter::setStaticF_kWaitForEndOfFra
 inline ::UnityEngine::WaitForEndOfFrame* GlobalNamespace::ScreenshotLevelStarter::getStaticF_kWaitForEndOfFrame() {
   return ::cordl_internals::getStaticField<::UnityEngine::WaitForEndOfFrame*, "kWaitForEndOfFrame", ::GlobalNamespace::ScreenshotLevelStarter*>();
 }
-inline bool GlobalNamespace::ScreenshotLevelStarter::get_Screenshotting() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(), { "get_Screenshotting", {}, {} })));
+inline bool GlobalNamespace::ScreenshotLevelStarter::get_isScreenshotting() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(), { "get_isScreenshotting", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline void GlobalNamespace::ScreenshotLevelStarter::EnqueueScreenshotLevel(::StringW levelID, ::StringW characteristic, ::StringW difficulty, float_t screenshotPeriod,
@@ -1296,6 +1555,22 @@ inline void GlobalNamespace::ScreenshotLevelStarter::EnqueueScreenshotLevel(::Gl
 }
 inline void GlobalNamespace::ScreenshotLevelStarter::StopScreenshotting() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(), { "StopScreenshotting", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void GlobalNamespace::ScreenshotLevelStarter::StartPopWhenTransitionSettles() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(), { "StartPopWhenTransitionSettles", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::Collections::IEnumerator* GlobalNamespace::ScreenshotLevelStarter::PopWhenTransitionSettles() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(), { "PopWhenTransitionSettles", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
+}
+inline void GlobalNamespace::ScreenshotLevelStarter::RestoreCaptureState() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(), { "RestoreCaptureState", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void GlobalNamespace::ScreenshotLevelStarter::DestroyScreenshotTexture() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenshotLevelStarter*>(), { "DestroyScreenshotTexture", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::System::Collections::IEnumerator* GlobalNamespace::ScreenshotLevelStarter::RunScreenshotLevelQueue() {

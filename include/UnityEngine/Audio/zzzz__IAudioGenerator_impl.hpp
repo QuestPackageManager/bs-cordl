@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Audio::IAudioGenerator* (::UnityEngine::Audio::IAudioGenerator_Serializable::*)()>(
     &::UnityEngine::Audio::IAudioGenerator_Serializable::get_definition)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6eabf5c;
+  constexpr static std::size_t addrs = 0x6ee8bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::IAudioGenerator_Serializable>(), { "get_definition", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Audio::IAudioGenerator_Serializable::*)(::UnityEngine::Audio::IAudioGenerator*)>(
     &::UnityEngine::Audio::IAudioGenerator_Serializable::set_definition)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6eabfa8;
+  constexpr static std::size_t addrs = 0x6ee8c44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::IAudioGenerator_Serializable>(),
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Audio::IAudioGenerator_Serializable::*)(::UnityEngine::Audio::IAudioGenerator*)>(
     &::UnityEngine::Audio::IAudioGenerator_Serializable::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6eac064;
+  constexpr static std::size_t addrs = 0x6ee8d00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge___c__DisplayClass37_0::*)()>(
     &::UnityEngine::UIElements::UIToolkitInteroperabilityBridge___c__DisplayClass37_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x72b1afc;
+  constexpr static std::size_t addrs = 0x72eea30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge___c__DisplayClass37_0::*)()>(
     &::UnityEngine::UIElements::UIToolkitInteroperabilityBridge___c__DisplayClass37_0::_CreatePanelGameObject_b__0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x72b2870;
+  constexpr static std::size_t addrs = 0x72ef7a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::EventSystems::EventSystem> (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::*)()>(
     &::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::get_eventSystem)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b1050;
+  constexpr static std::size_t addrs = 0x72edf84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::*)(::UnityEngine::EventSystems::EventSystem*)>(
     &::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::set_eventSystem)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x72b1058;
+  constexpr static std::size_t addrs = 0x72edf8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIToolkitInteroperabilityBridge*>(),
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::*)()>(
     &::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::get_overrideUIToolkitEvents)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b10d4;
+  constexpr static std::size_t addrs = 0x72ee008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::*)(bool)>(
     &::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::set_overrideUIToolkitEvents)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b10dc;
+  constexpr static std::size_t addrs = 0x72ee010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIToolkitInteroperabilityBridge_EventHandlerTypes (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::*)()>(
     &::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::get_handlerTypes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b1190;
+  constexpr static std::size_t addrs = 0x72ee0c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::*)(
     ::UnityEngine::UIElements::UIToolkitInteroperabilityBridge_EventHandlerTypes)>(&::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::set_handlerTypes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b1198;
+  constexpr static std::size_t addrs = 0x72ee0cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::*)()>(
     &::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::get_worldPickingLayers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b11e8;
+  constexpr static std::size_t addrs = 0x72ee11c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::*)(int32_t)>(
     &::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::set_worldPickingLayers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b11f0;
+  constexpr static std::size_t addrs = 0x72ee124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::*)()>(
     &::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::get_worldPickingMaxDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b11f8;
+  constexpr static std::size_t addrs = 0x72ee12c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::*)(float_t)>(
     &::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::set_worldPickingMaxDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b1200;
+  constexpr static std::size_t addrs = 0x72ee134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::*)()>(
     &::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::get_createDefaultPanelComponents)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b1208;
+  constexpr static std::size_t addrs = 0x72ee13c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::*)(bool)>(
     &::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::set_createDefaultPanelComponents)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b1210;
+  constexpr static std::size_t addrs = 0x72ee144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::*)()>(
     &::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::get_shouldTrackPanels)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x72b1218;
+  constexpr static std::size_t addrs = 0x72ee14c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -280,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::*)()>(
     &::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::StartTrackingUIToolkitPanels)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x72b1248;
+  constexpr static std::size_t addrs = 0x72ee17c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -294,7 +294,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::*)(::UnityEngine::UIElements::BaseRuntimePanel*)>(
     &::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::StartTrackingPanel)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x72b140c;
+  constexpr static std::size_t addrs = 0x72ee340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIToolkitInteroperabilityBridge*>(),
@@ -308,7 +308,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::*)()>(
     &::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::StopTrackingUIToolkitPanels)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x72b147c;
+  constexpr static std::size_t addrs = 0x72ee3b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -322,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::*)(::UnityEngine::UIElements::BaseRuntimePanel*)>(
     &::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::UpdatePanelGameObject)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x72b17b0;
+  constexpr static std::size_t addrs = 0x72ee6e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIToolkitInteroperabilityBridge*>(),
@@ -336,7 +336,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::*)(::UnityEngine::UIElements::BaseRuntimePanel*)>(
     &::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::CreatePanelGameObject)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x72b17e0;
+  constexpr static std::size_t addrs = 0x72ee714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIToolkitInteroperabilityBridge*>(),
@@ -350,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::*)(::UnityEngine::UIElements::BaseRuntimePanel*)>(
     &::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::DestroyPanelGameObject)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x72b1640;
+  constexpr static std::size_t addrs = 0x72ee574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIToolkitInteroperabilityBridge*>(),
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::*)()>(
     &::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::CreateWorldSpacePanelGameObject)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x72b1b00;
+  constexpr static std::size_t addrs = 0x72eea34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -378,7 +378,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::*)()>(
     &::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::DestroyWorldSpacePanelGameObject)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x72b174c;
+  constexpr static std::size_t addrs = 0x72ee680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -391,7 +391,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::*)()>(&::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::Start)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x72b1e44;
+  constexpr static std::size_t addrs = 0x72eed78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIToolkitInteroperabilityBridge*>(), { "Start", {}, {} })));
@@ -403,7 +403,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::*)()>(&::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::OnEnable)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x72b1e50;
+  constexpr static std::size_t addrs = 0x72eed84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIToolkitInteroperabilityBridge*>(), { "OnEnable", {}, {} })));
@@ -416,7 +416,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::*)()>(
     &::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::OnDisable)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x72b21f8;
+  constexpr static std::size_t addrs = 0x72ef12c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIToolkitInteroperabilityBridge*>(), { "OnDisable", {}, {} })));
@@ -428,7 +428,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::*)()>(&::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::Update)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x72b2354;
+  constexpr static std::size_t addrs = 0x72ef288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIToolkitInteroperabilityBridge*>(), { "Update", {}, {} })));
@@ -441,7 +441,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::*)(::UnityEngine::UIElements::PanelInputConfiguration*)>(
     &::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::Apply)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x72b2064;
+  constexpr static std::size_t addrs = 0x72eef98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIToolkitInteroperabilityBridge*>(),
@@ -455,7 +455,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::*)()>(
     &::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::ApplyOverrideUIToolkitEvents)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x72b10e4;
+  constexpr static std::size_t addrs = 0x72ee018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -469,7 +469,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::*)()>(
     &::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::ApplyCameraProperties)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x72b1cd0;
+  constexpr static std::size_t addrs = 0x72eec04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -483,7 +483,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::*)()>(
     &::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::ApplyOtherProperties)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x72b11a0;
+  constexpr static std::size_t addrs = 0x72ee0d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -497,7 +497,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::*)()>(
     &::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::UpdatePanelTracking)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x72b266c;
+  constexpr static std::size_t addrs = 0x72ef5a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -511,7 +511,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::*)()>(
     &::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::UpdatePanelGameObjects)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x72b2358;
+  constexpr static std::size_t addrs = 0x72ef28c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -524,7 +524,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::*)()>(&::UnityEngine::UIElements::UIToolkitInteroperabilityBridge::_ctor)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x72b2694;
+  constexpr static std::size_t addrs = 0x72ef5c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIToolkitInteroperabilityBridge*>(), { ".ctor", {}, {} })));

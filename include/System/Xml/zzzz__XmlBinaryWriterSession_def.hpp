@@ -67,7 +67,7 @@ public:
   constexpr PriorityDictionary_2_XmlBinaryWriterSession_Entry(K Key, V Value, int32_t Time) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16346 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16379 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -161,7 +161,7 @@ public:
   XmlBinaryWriterSession_PriorityDictionary_2(XmlBinaryWriterSession_PriorityDictionary_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16347 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16380 };
 
   /// @brief Field dictionary, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<K, V>* ___dictionary;
@@ -200,13 +200,13 @@ public:
 
   constexpr void __cordl_internal_set_array(::ArrayW<int32_t> value);
 
-  /// @brief Method .ctor, addr 0x653d578, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x657a148, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(int32_t size);
 
-  /// @brief Method get_Item, addr 0x653d2fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x6579ecc, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_Item(int32_t index);
 
-  /// @brief Method set_Item, addr 0x653d3b4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x6579f84, size 0xf0, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, int32_t value);
 
 protected:
@@ -224,7 +224,7 @@ public:
   XmlBinaryWriterSession_IntArray(XmlBinaryWriterSession_IntArray const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16348 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16381 };
 
   /// @brief Field array, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<int32_t> ___array;
@@ -259,16 +259,16 @@ public:
   /// @brief Field strings, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_strings, put = __cordl_internal_set_strings)) ::System::Xml::XmlBinaryWriterSession_PriorityDictionary_2<::StringW, int32_t>* strings;
 
-  /// @brief Method Add, addr 0x653d338, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6579f08, size 0x7c, virtual false, abstract: false, final false
   inline int32_t Add(::StringW s);
 
-  /// @brief Method AddKeys, addr 0x653d4a4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AddKeys, addr 0x657a074, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Xml::XmlBinaryWriterSession_IntArray* AddKeys(::System::Xml::IXmlDictionary* dictionary, int32_t minCount);
 
-  /// @brief Method TryAdd, addr 0x653d178, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method TryAdd, addr 0x6579d48, size 0x184, virtual true, abstract: false, final false
   inline bool TryAdd(::System::Xml::XmlDictionaryString* value, ::by_ref<int32_t> key);
 
-  /// @brief Method TryLookup, addr 0x653985c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method TryLookup, addr 0x657642c, size 0x11c, virtual false, abstract: false, final false
   inline bool TryLookup(::System::Xml::XmlDictionaryString* s, ::by_ref<int32_t> key);
 
   constexpr ::System::Xml::XmlBinaryWriterSession_PriorityDictionary_2<::System::Xml::IXmlDictionary*, ::System::Xml::XmlBinaryWriterSession_IntArray*>* const& __cordl_internal_get_maps() const;
@@ -304,7 +304,7 @@ public:
   XmlBinaryWriterSession(XmlBinaryWriterSession const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16349 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16382 };
 
   /// @brief Field strings, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlBinaryWriterSession_PriorityDictionary_2<::StringW, int32_t>* ___strings;

@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RayTracingMeshInstanceConfig::*)()>(&::UnityEngine::Rendering::RayTracingMeshInstanceConfig::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6f66c58;
+  constexpr static std::size_t addrs = 0x6fa3b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RayTracingMeshInstanceConfig>(), { ".ctor", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RayTracingMeshInstanceConfig::*)(::UnityEngine::Mesh*, uint32_t, ::UnityEngine::Material*)>(
     &::UnityEngine::Rendering::RayTracingMeshInstanceConfig::_ctor)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6f66d3c;
+  constexpr static std::size_t addrs = 0x6fa3c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RayTracingMeshInstanceConfig::*)(::UnityEngine::Experimental::Rendering::RayTracingMode)>(
     &::UnityEngine::Rendering::RayTracingMeshInstanceConfig::set_rayTracingMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f66e34;
+  constexpr static std::size_t addrs = 0x6fa3d10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RayTracingMeshInstanceConfig::*)(bool)>(
     &::UnityEngine::Rendering::RayTracingMeshInstanceConfig::set_dynamicGeometry)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f66e3c;
+  constexpr static std::size_t addrs = 0x6fa3d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RayTracingMeshInstanceConfig::*)(::UnityEngine::Rendering::RayTracingAccelerationStructureBuildFlags)>(
     &::UnityEngine::Rendering::RayTracingMeshInstanceConfig::set_accelerationStructureBuildFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f66e44;
+  constexpr static std::size_t addrs = 0x6fa3d20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RayTracingMeshInstanceConfig::*)(bool)>(
     &::UnityEngine::Rendering::RayTracingMeshInstanceConfig::set_accelerationStructureBuildFlagsOverride)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f66e4c;
+  constexpr static std::size_t addrs = 0x6fa3d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RayTracingMeshInstanceConfig>(),

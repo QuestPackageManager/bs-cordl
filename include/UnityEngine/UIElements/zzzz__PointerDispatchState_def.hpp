@@ -39,36 +39,36 @@ public:
   __declspec(property(get = __cordl_internal_get_m_ShouldSendCompatibilityMouseEvents, put = __cordl_internal_set_m_ShouldSendCompatibilityMouseEvents)) ::ArrayW<bool>
       m_ShouldSendCompatibilityMouseEvents;
 
-  /// @brief Method ActivateCompatibilityMouseEvents, addr 0x7270a6c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ActivateCompatibilityMouseEvents, addr 0x72ad9a0, size 0x34, virtual false, abstract: false, final false
   inline void ActivateCompatibilityMouseEvents(int32_t pointerId);
 
-  /// @brief Method CapturePointer, addr 0x727049c, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method CapturePointer, addr 0x72ad3d0, size 0x1e8, virtual false, abstract: false, final false
   inline void CapturePointer(::UnityEngine::UIElements::IEventHandler* handler, int32_t pointerId);
 
-  /// @brief Method GetCapturingElement, addr 0x72707d8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetCapturingElement, addr 0x72ad70c, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IEventHandler* GetCapturingElement(int32_t pointerId);
 
-  /// @brief Method HasPointerCapture, addr 0x7270464, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HasPointerCapture, addr 0x72ad398, size 0x38, virtual false, abstract: false, final false
   inline bool HasPointerCapture(::UnityEngine::UIElements::IEventHandler* handler, int32_t pointerId);
 
   static inline ::UnityEngine::UIElements::PointerDispatchState* New_ctor();
 
-  /// @brief Method PreventCompatibilityMouseEvents, addr 0x7270b74, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method PreventCompatibilityMouseEvents, addr 0x72adaa8, size 0x30, virtual false, abstract: false, final false
   inline void PreventCompatibilityMouseEvents(int32_t pointerId);
 
-  /// @brief Method ProcessPointerCapture, addr 0x7270df8, size 0x7b4, virtual false, abstract: false, final false
+  /// @brief Method ProcessPointerCapture, addr 0x72add2c, size 0x7b4, virtual false, abstract: false, final false
   inline void ProcessPointerCapture(int32_t pointerId);
 
-  /// @brief Method ReleasePointer, addr 0x72706bc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ReleasePointer, addr 0x72ad5f0, size 0x44, virtual false, abstract: false, final false
   inline void ReleasePointer(::UnityEngine::UIElements::IEventHandler* handler, int32_t pointerId);
 
-  /// @brief Method ReleasePointer, addr 0x72708dc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ReleasePointer, addr 0x72ad810, size 0xbc, virtual false, abstract: false, final false
   inline void ReleasePointer(int32_t pointerId);
 
-  /// @brief Method Reset, addr 0x7271688, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x72ae5bc, size 0x90, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ShouldSendCompatibilityMouseEvents, addr 0x7270cb8, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method ShouldSendCompatibilityMouseEvents, addr 0x72adbec, size 0x140, virtual false, abstract: false, final false
   inline bool ShouldSendCompatibilityMouseEvents(::UnityEngine::UIElements::IPointerEvent* evt);
 
   constexpr ::ArrayW<::UnityEngine::UIElements::IEventHandler*> const& __cordl_internal_get_m_PendingPointerCapture() const;
@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ShouldSendCompatibilityMouseEvents(::ArrayW<bool> value);
 
-  /// @brief Method .ctor, addr 0x72715ac, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72ae4e0, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

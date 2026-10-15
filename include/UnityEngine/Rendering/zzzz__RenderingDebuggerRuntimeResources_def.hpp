@@ -71,7 +71,7 @@ public:
   static ::UnityEngine::Rendering::RenderingDebuggerRuntimeResources_Version const Last;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9087 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9094 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -113,7 +113,7 @@ public:
 
   static inline ::UnityEngine::Rendering::RenderingDebuggerRuntimeResources* New_ctor();
 
-  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_version, addr 0x6bc291c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_version, addr 0x6bff598, size 0x8, virtual true, abstract: false, final true
   inline int32_t UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_version();
 
   constexpr ::UnityEngine::Rendering::RenderingDebuggerRuntimeResources_Version const& __cordl_internal_get_m_version() const;
@@ -122,7 +122,7 @@ public:
 
   constexpr void __cordl_internal_set_m_version(::UnityEngine::Rendering::RenderingDebuggerRuntimeResources_Version value);
 
-  /// @brief Method .ctor, addr 0x6bc2924, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bff5a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
@@ -146,7 +146,7 @@ public:
   RenderingDebuggerRuntimeResources(RenderingDebuggerRuntimeResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9088 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9095 };
 
   /// [SerializeField]
   /// [HideInInspector]

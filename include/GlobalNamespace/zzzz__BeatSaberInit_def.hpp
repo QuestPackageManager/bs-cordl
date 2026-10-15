@@ -21,7 +21,7 @@ namespace BeatSaber::Destinations {
 class InitialDestinationController;
 }
 namespace GlobalNamespace {
-struct BeatSaberInit__TransitionToNextSceneAsync_d__13;
+struct BeatSaberInit__TransitionToNextSceneAsync_d__14;
 }
 namespace GlobalNamespace {
 class MainSystemInit;
@@ -43,29 +43,29 @@ namespace GlobalNamespace {
 class BeatSaberInit;
 }
 namespace GlobalNamespace {
-struct BeatSaberInit__TransitionToNextSceneAsync_d__13;
+struct BeatSaberInit__TransitionToNextSceneAsync_d__14;
 }
 // Write type traits
 MARK_REF_T(::GlobalNamespace::BeatSaberInit*);
-MARK_VAL_T(::GlobalNamespace::BeatSaberInit__TransitionToNextSceneAsync_d__13);
+MARK_VAL_T(::GlobalNamespace::BeatSaberInit__TransitionToNextSceneAsync_d__14);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatSaberInit*, "", "BeatSaberInit");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatSaberInit__TransitionToNextSceneAsync_d__13, "", "BeatSaberInit/<TransitionToNextSceneAsync>d__13");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::BeatSaberInit__TransitionToNextSceneAsync_d__14, "", "BeatSaberInit/<TransitionToNextSceneAsync>d__14");
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: BeatSaberInit/<TransitionToNextSceneAsync>d__13
-struct CORDL_TYPE BeatSaberInit__TransitionToNextSceneAsync_d__13 {
+// CS Name: BeatSaberInit/<TransitionToNextSceneAsync>d__14
+struct CORDL_TYPE BeatSaberInit__TransitionToNextSceneAsync_d__14 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39f91b4, size 0x1ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3a23274, size 0x1ec, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39f93a0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3a23460, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -73,16 +73,16 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr BeatSaberInit__TransitionToNextSceneAsync_d__13();
+  constexpr BeatSaberInit__TransitionToNextSceneAsync_d__14();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::BeatSaberInit>",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
-  constexpr BeatSaberInit__TransitionToNextSceneAsync_d__13(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+  constexpr BeatSaberInit__TransitionToNextSceneAsync_d__14(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                             ::UnityW<::GlobalNamespace::BeatSaberInit> __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21824 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21809 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -102,15 +102,15 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::BeatSaberInit__TransitionToNextSceneAsync_d__13, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatSaberInit__TransitionToNextSceneAsync_d__14, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatSaberInit__TransitionToNextSceneAsync_d__13, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatSaberInit__TransitionToNextSceneAsync_d__14, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatSaberInit__TransitionToNextSceneAsync_d__13, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatSaberInit__TransitionToNextSceneAsync_d__14, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatSaberInit__TransitionToNextSceneAsync_d__13, __u__1) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatSaberInit__TransitionToNextSceneAsync_d__14, __u__1) == 0x28, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::BeatSaberInit__TransitionToNextSceneAsync_d__13) == 0x30, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::BeatSaberInit__TransitionToNextSceneAsync_d__14) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies AppInit, BGLib.DotnetExtension.CommandLine.CommandLineParserResult
@@ -120,7 +120,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatSaberInit : public ::GlobalNamespace::AppInit {
 public:
   // Declarations
-  using _TransitionToNextSceneAsync_d__13 = ::GlobalNamespace::BeatSaberInit__TransitionToNextSceneAsync_d__13;
+  using _TransitionToNextSceneAsync_d__14 = ::GlobalNamespace::BeatSaberInit__TransitionToNextSceneAsync_d__14;
 
   /// @brief Field _initialDestinationController, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__initialDestinationController,
@@ -146,22 +146,25 @@ public:
 
   __declspec(property(get = get_settingsApplicator)) ::UnityW<::GlobalNamespace::SettingsApplicatorSO> settingsApplicator;
 
-  /// @brief Method EvaluateTargetDestination, addr 0x39f6c00, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method EvaluateTargetDestination, addr 0x3a20aec, size 0x1bc, virtual false, abstract: false, final false
   inline ::BeatSaber::Destinations::Destination* EvaluateTargetDestination();
 
-  /// @brief Method InstallBindings, addr 0x39f6e6c, size 0x4c8, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3a20d58, size 0x4c8, virtual true, abstract: false, final false
   inline void InstallBindings();
+
+  /// @brief Method LogBuildInfoAndRequestQuit, addr 0x3a209d0, size 0x11c, virtual false, abstract: false, final false
+  static inline void LogBuildInfoAndRequestQuit();
 
   static inline ::GlobalNamespace::BeatSaberInit* New_ctor();
 
-  /// @brief Method PreInitializeAsync, addr 0x39f69b8, size 0x248, virtual true, abstract: false, final false
+  /// @brief Method PreInitializeAsync, addr 0x3a20760, size 0x270, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* PreInitializeAsync(::Zenject::DiContainer* container);
 
-  /// @brief Method RepeatableSetupAsync, addr 0x39f6820, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method RepeatableSetupAsync, addr 0x3a205c8, size 0x11c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RepeatableSetupAsync();
 
-  /// [AsyncStateMachine(typeof(BeatSaberInit::<TransitionToNextSceneAsync>d__13))]
-  /// @brief Method TransitionToNextSceneAsync, addr 0x39f6dbc, size 0xb0, virtual true, abstract: false, final false
+  /// [AsyncStateMachine(typeof(BeatSaberInit::<TransitionToNextSceneAsync>d__14))]
+  /// @brief Method TransitionToNextSceneAsync, addr 0x3a20ca8, size 0xb0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* TransitionToNextSceneAsync();
 
   constexpr ::BeatSaber::Destinations::InitialDestinationController* const& __cordl_internal_get__initialDestinationController() const;
@@ -200,10 +203,10 @@ public:
 
   constexpr void __cordl_internal_set_commandLineArguments(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult value);
 
-  /// @brief Method .ctor, addr 0x39f91b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a23270, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_settingsApplicator, addr 0x39f6818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_settingsApplicator, addr 0x3a205c0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::SettingsApplicatorSO> get_settingsApplicator();
 
 protected:
@@ -221,7 +224,7 @@ public:
   BeatSaberInit(BeatSaberInit const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21825 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21810 };
 
   /// @brief Field kInBuildGameVersion offset 0xffffffff size 0x8
   static constexpr ::ConstString kInBuildGameVersion{ u"InBuildGameVersion" };

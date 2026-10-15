@@ -22,13 +22,13 @@ namespace UnityEngine::LowLevelPhysics2D {
 struct CORDL_TYPE PhysicsHingeJointDefinition {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6fd3a98, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x701098c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6fd1a80, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x700e974, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(bool useSettings);
 
-  /// @brief Method get_defaultDefinition, addr 0x6fd3ac8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_defaultDefinition, addr 0x70109bc, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::LowLevelPhysics2D::PhysicsHingeJointDefinition get_defaultDefinition();
 
   // Ctor Parameters []
@@ -54,7 +54,7 @@ public:
                                         float_t m_TuningFrequency, float_t m_TuningDamping, float_t m_DrawScale, bool m_CollideConnected) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21511 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21558 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };

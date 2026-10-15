@@ -145,7 +145,7 @@ public:
 
   constexpr void __cordl_internal_set_index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6bb59ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bf2668, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t idx, ::UnityEngine::Rendering::LensFlareComponentSRP* cmp);
 
 protected:
@@ -163,7 +163,7 @@ public:
   LensFlareCommonSRP_LensFlareCompInfo(LensFlareCommonSRP_LensFlareCompInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9040 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9047 };
 
   /// @brief Field index, offset: 0x10, size: 0x4, def value: None
   int32_t ___index;
@@ -194,7 +194,7 @@ public:
 
   static inline ::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass56_0* New_ctor();
 
-  /// @brief Method <AddData>b__0, addr 0x6bbc05c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <AddData>b__0, addr 0x6bf8cd8, size 0x7c, virtual false, abstract: false, final false
   inline bool _AddData_b__0(::UnityEngine::Rendering::LensFlareCommonSRP_LensFlareCompInfo* x);
 
   constexpr ::UnityW<::UnityEngine::Rendering::LensFlareComponentSRP> const& __cordl_internal_get_newData() const;
@@ -203,7 +203,7 @@ public:
 
   constexpr void __cordl_internal_set_newData(::UnityW<::UnityEngine::Rendering::LensFlareComponentSRP> value);
 
-  /// @brief Method .ctor, addr 0x6bb59e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bf2664, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -221,7 +221,7 @@ public:
   LensFlareCommonSRP___c__DisplayClass56_0(LensFlareCommonSRP___c__DisplayClass56_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9041 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9048 };
 
   /// @brief Field newData, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Rendering::LensFlareComponentSRP> ___newData;
@@ -247,7 +247,7 @@ public:
 
   static inline ::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass57_0* New_ctor();
 
-  /// @brief Method <RemoveData>b__0, addr 0x6bbc0d8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <RemoveData>b__0, addr 0x6bf8d54, size 0x7c, virtual false, abstract: false, final false
   inline bool _RemoveData_b__0(::UnityEngine::Rendering::LensFlareCommonSRP_LensFlareCompInfo* x);
 
   constexpr ::UnityW<::UnityEngine::Rendering::LensFlareComponentSRP> const& __cordl_internal_get_data() const;
@@ -256,7 +256,7 @@ public:
 
   constexpr void __cordl_internal_set_data(::UnityW<::UnityEngine::Rendering::LensFlareComponentSRP> value);
 
-  /// @brief Method .ctor, addr 0x6bb5c3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bf28b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -274,7 +274,7 @@ public:
   LensFlareCommonSRP___c__DisplayClass57_0(LensFlareCommonSRP___c__DisplayClass57_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9042 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9049 };
 
   /// @brief Field data, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Rendering::LensFlareComponentSRP> ___data;
@@ -307,7 +307,7 @@ public:
                                                      ::UnityEngine::Rendering::LensFlareDataElementSRP* element, float_t combinedScale, float_t usedAspectRatio) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9043 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9050 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -493,41 +493,41 @@ public:
   /// @brief Field s_SupportsLensFlare32bitsFormatWithLoadStore, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_s_SupportsLensFlare32bitsFormatWithLoadStore, put = setStaticF_s_SupportsLensFlare32bitsFormatWithLoadStore)) bool s_SupportsLensFlare32bitsFormatWithLoadStore;
 
-  /// @brief Method AddData, addr 0x6bb5804, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method AddData, addr 0x6bf2480, size 0x1e4, virtual false, abstract: false, final false
   inline void AddData(::UnityEngine::Rendering::LensFlareComponentSRP* newData);
 
-  /// @brief Method CalcCropExtents, addr 0x6bbb740, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method CalcCropExtents, addr 0x6bf83bc, size 0xc8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 CalcCropExtents(float_t actualWidth, float_t actualHeight, float_t fieldOfView, float_t d);
 
-  /// @brief Method CalcViewExtents, addr 0x6bbb6fc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CalcViewExtents, addr 0x6bf8378, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 CalcViewExtents(float_t actualWidth, float_t actualHeight, float_t fieldOfView);
 
-  /// @brief Method CheckOcclusionBasedOnDeviceType, addr 0x6bb4f30, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CheckOcclusionBasedOnDeviceType, addr 0x6bf1bac, size 0xa8, virtual false, abstract: false, final false
   static inline bool CheckOcclusionBasedOnDeviceType();
 
-  /// @brief Method ComputeOcclusion, addr 0x6bb6fa0, size 0x8c8, virtual false, abstract: false, final false
+  /// @brief Method ComputeOcclusion, addr 0x6bf3c1c, size 0x8c8, virtual false, abstract: false, final false
   static inline void ComputeOcclusion(::UnityEngine::Material* lensFlareShader, ::UnityEngine::Camera* cam, ::UnityEngine::Experimental::Rendering::XRPass* xr, int32_t xrIndex, float_t actualWidth,
                                       float_t actualHeight, bool usePanini, float_t paniniDistance, float_t paniniCropToFit, bool isCameraRelative, ::UnityEngine::Vector3 cameraPositionWS,
                                       ::UnityEngine::Matrix4x4 viewProjMatrix, ::UnityEngine::Rendering::CommandBuffer* cmd, bool taaEnabled, bool hasCloudLayer,
                                       ::UnityEngine::Texture* cloudOpacityTexture, ::UnityEngine::Texture* sunOcclusionTexture);
 
-  /// @brief Method ComputeOcclusion, addr 0x6bb6e48, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method ComputeOcclusion, addr 0x6bf3ac4, size 0x158, virtual false, abstract: false, final false
   static inline void ComputeOcclusion(::UnityEngine::Material* lensFlareShader, ::UnityEngine::Camera* cam, ::UnityEngine::Experimental::Rendering::XRPass* xr, int32_t xrIndex, float_t actualWidth,
                                       float_t actualHeight, bool usePanini, float_t paniniDistance, float_t paniniCropToFit, bool isCameraRelative, ::UnityEngine::Vector3 cameraPositionWS,
                                       ::UnityEngine::Matrix4x4 viewProjMatrix, ::UnityEngine::Rendering::UnsafeCommandBuffer* cmd, bool taaEnabled, bool hasCloudLayer,
                                       ::UnityEngine::Texture* cloudOpacityTexture, ::UnityEngine::Texture* sunOcclusionTexture);
 
-  /// @brief Method Dispose, addr 0x6bb5380, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6bf1ffc, size 0xd0, virtual false, abstract: false, final false
   static inline void Dispose();
 
-  /// @brief Method DoComponent, addr 0x6bb7ab0, size 0x894, virtual false, abstract: false, final false
+  /// @brief Method DoComponent, addr 0x6bf472c, size 0x894, virtual false, abstract: false, final false
   static inline bool DoComponent(bool occlusionOnly, ::UnityEngine::Rendering::LensFlareCommonSRP_LensFlareCompInfo* info, ::UnityEngine::Camera* cam, ::UnityEngine::Vector3 cameraPositionWS,
                                  float_t actualWidth, float_t actualHeight, bool usePanini, float_t paniniDistance, float_t paniniCropToFit, bool isCameraRelative,
                                  ::UnityEngine::Matrix4x4 viewProjMatrix, ::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Vector3> flarePosWS,
                                  ::by_ref<::UnityEngine::Vector3> flarePosViewport, ::by_ref<::UnityEngine::Vector2> flarePosScreen, ::by_ref<::UnityEngine::Vector3> camToFlare,
                                  ::by_ref<::UnityEngine::Light*> light, ::by_ref<bool> isDirLight, ::by_ref<float_t> flareIntensity, ::by_ref<float_t> distanceAttenuation);
 
-  /// @brief Method DoLensFlareDataDrivenCommon, addr 0x6bba200, size 0x838, virtual false, abstract: false, final false
+  /// @brief Method DoLensFlareDataDrivenCommon, addr 0x6bf6e7c, size 0x838, virtual false, abstract: false, final false
   static inline void DoLensFlareDataDrivenCommon(::UnityEngine::Material* lensFlareShader, ::UnityEngine::Camera* cam, ::UnityEngine::Rect viewport, ::UnityEngine::Experimental::Rendering::XRPass* xr,
                                                  int32_t xrIndex, float_t actualWidth, float_t actualHeight, bool usePanini, float_t paniniDistance, float_t paniniCropToFit, bool isCameraRelative,
                                                  ::UnityEngine::Vector3 cameraPositionWS, ::UnityEngine::Matrix4x4 viewProjMatrix, ::UnityEngine::Rendering::CommandBuffer* cmd, bool taaEnabled,
@@ -536,7 +536,7 @@ public:
                                                  ::System::Func_4<::UnityW<::UnityEngine::Light>, ::UnityW<::UnityEngine::Camera>, ::UnityEngine::Vector3, float_t>* GetLensFlareLightAttenuation,
                                                  bool debugView);
 
-  /// @brief Method DoLensFlareDataDrivenCommon, addr 0x6bba02c, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method DoLensFlareDataDrivenCommon, addr 0x6bf6ca8, size 0x1d4, virtual false, abstract: false, final false
   static inline void DoLensFlareDataDrivenCommon(::UnityEngine::Material* lensFlareShader, ::UnityEngine::Camera* cam, ::UnityEngine::Rect viewport, ::UnityEngine::Experimental::Rendering::XRPass* xr,
                                                  int32_t xrIndex, float_t actualWidth, float_t actualHeight, bool usePanini, float_t paniniDistance, float_t paniniCropToFit, bool isCameraRelative,
                                                  ::UnityEngine::Vector3 cameraPositionWS, ::UnityEngine::Matrix4x4 viewProjMatrix, ::UnityEngine::Rendering::UnsafeCommandBuffer* cmd, bool taaEnabled,
@@ -545,148 +545,148 @@ public:
                                                  ::System::Func_4<::UnityW<::UnityEngine::Light>, ::UnityW<::UnityEngine::Camera>, ::UnityEngine::Vector3, float_t>* GetLensFlareLightAttenuation,
                                                  bool debugView);
 
-  /// @brief Method DoLensFlareScreenSpaceCommon, addr 0x6bbac88, size 0xa74, virtual false, abstract: false, final false
+  /// @brief Method DoLensFlareScreenSpaceCommon, addr 0x6bf7904, size 0xa74, virtual false, abstract: false, final false
   static inline void DoLensFlareScreenSpaceCommon(::UnityEngine::Material* lensFlareShader, ::UnityEngine::Camera* cam, float_t actualWidth, float_t actualHeight, ::UnityEngine::Color tintColor,
                                                   ::UnityEngine::Texture* originalBloomTexture, ::UnityEngine::Texture* bloomMipTexture, ::UnityEngine::Texture* spectralLut,
                                                   ::UnityEngine::Texture* streakTextureTmp, ::UnityEngine::Texture* streakTextureTmp2, ::UnityEngine::Vector4 parameters1,
                                                   ::UnityEngine::Vector4 parameters2, ::UnityEngine::Vector4 parameters3, ::UnityEngine::Vector4 parameters4, ::UnityEngine::Vector4 parameters5,
                                                   ::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* result, bool debugView);
 
-  /// @brief Method DoLensFlareScreenSpaceCommon, addr 0x6bbaa38, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method DoLensFlareScreenSpaceCommon, addr 0x6bf76b4, size 0x250, virtual false, abstract: false, final false
   static inline void DoLensFlareScreenSpaceCommon(::UnityEngine::Material* lensFlareShader, ::UnityEngine::Camera* cam, float_t actualWidth, float_t actualHeight, ::UnityEngine::Color tintColor,
                                                   ::UnityEngine::Texture* originalBloomTexture, ::UnityEngine::Texture* bloomMipTexture, ::UnityEngine::Texture* spectralLut,
                                                   ::UnityEngine::Texture* streakTextureTmp, ::UnityEngine::Texture* streakTextureTmp2, ::UnityEngine::Vector4 parameters1,
                                                   ::UnityEngine::Vector4 parameters2, ::UnityEngine::Vector4 parameters3, ::UnityEngine::Vector4 parameters4, ::UnityEngine::Vector4 parameters5,
                                                   ::UnityEngine::Rendering::UnsafeCommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* result, bool debugView);
 
-  /// @brief Method DoPaniniProjection, addr 0x6bb8344, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method DoPaniniProjection, addr 0x6bf4fc0, size 0x16c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 DoPaniniProjection(::UnityEngine::Vector2 screenPos, float_t actualWidth, float_t actualHeight, float_t fieldOfView, float_t paniniProjectionCropToFit,
                                                           float_t paniniProjectionDistance);
 
-  /// @brief Method ForceSingleElement, addr 0x6bb7868, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ForceSingleElement, addr 0x6bf44e4, size 0x38, virtual false, abstract: false, final false
   static inline bool ForceSingleElement(::UnityEngine::Rendering::LensFlareDataElementSRP* element);
 
   /// [Obsolete("This is now deprecated as a public API. Call ComputeOcclusion() or DoLensFlareDataDrivenCommon() instead. #from(6000.3)")]
-  /// @brief Method GetFlareData0, addr 0x6bb66e8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetFlareData0, addr 0x6bf3364, size 0x120, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetFlareData0(::UnityEngine::Vector2 screenPos, ::UnityEngine::Vector2 translationScale, ::UnityEngine::Vector2 rayOff0,
                                                      ::UnityEngine::Vector2 vLocalScreenRatio, float_t angleDeg, float_t position, float_t angularOffset, ::UnityEngine::Vector2 positionOffset,
                                                      bool autoRotate);
 
-  /// @brief Method GetLensFlareRayOffset, addr 0x6bb6808, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetLensFlareRayOffset, addr 0x6bf3484, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetLensFlareRayOffset(::UnityEngine::Vector2 screenPos, float_t position, float_t globalCos0, float_t globalSin0);
 
-  /// @brief Method GetNextAvailableIndex, addr 0x6bb56c4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetNextAvailableIndex, addr 0x6bf2340, size 0x140, virtual false, abstract: false, final false
   inline int32_t GetNextAvailableIndex();
 
-  /// @brief Method GetOcclusionRTFormat, addr 0x6bb50ec, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetOcclusionRTFormat, addr 0x6bf1d68, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetOcclusionRTFormat();
 
-  /// @brief Method Initialize, addr 0x6bb5190, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6bf1e0c, size 0x1f0, virtual false, abstract: false, final false
   static inline void Initialize();
 
-  /// @brief Method InternalGetFlareData0, addr 0x6bb6560, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method InternalGetFlareData0, addr 0x6bf31dc, size 0x188, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 InternalGetFlareData0(::UnityEngine::Vector2 screenPos, ::UnityEngine::Vector2 translationScale, ::UnityEngine::Vector2 rayOff0,
                                                              ::UnityEngine::Vector2 vLocalScreenRatio, float_t angleDeg, float_t position, float_t angularOffset, ::UnityEngine::Vector2 positionOffset,
                                                              bool autoRotate);
 
-  /// @brief Method IsCloudLayerOpacityNeeded, addr 0x6bb6c00, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method IsCloudLayerOpacityNeeded, addr 0x6bf387c, size 0x248, virtual false, abstract: false, final false
   static inline bool IsCloudLayerOpacityNeeded(::UnityEngine::Camera* cam);
 
-  /// @brief Method IsEmpty, addr 0x6bb562c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method IsEmpty, addr 0x6bf22a8, size 0x98, virtual false, abstract: false, final false
   inline bool IsEmpty();
 
-  /// @brief Method IsLensFlareSRPHidden, addr 0x6bb6438, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method IsLensFlareSRPHidden, addr 0x6bf30b4, size 0x128, virtual false, abstract: false, final false
   static inline bool IsLensFlareSRPHidden(::UnityEngine::Camera* cam, ::UnityEngine::Rendering::LensFlareComponentSRP* comp, ::UnityEngine::Rendering::LensFlareDataSRP* data);
 
-  /// @brief Method IsOcclusionRTCompatible, addr 0x6bb4fd8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method IsOcclusionRTCompatible, addr 0x6bf1c54, size 0x114, virtual false, abstract: false, final false
   static inline bool IsOcclusionRTCompatible();
 
   static inline ::UnityEngine::Rendering::LensFlareCommonSRP* New_ctor();
 
-  /// @brief Method Panini_Generic_Inv, addr 0x6bbb808, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Panini_Generic_Inv, addr 0x6bf8484, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 Panini_Generic_Inv(::UnityEngine::Vector2 projPos, float_t d);
 
-  /// @brief Method PreDrawSetup, addr 0x6bb78a0, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method PreDrawSetup, addr 0x6bf451c, size 0x210, virtual false, abstract: false, final false
   static inline bool PreDrawSetup(bool occlusionOnly, bool clearRenderTarget, ::UnityEngine::Rendering::RenderTargetIdentifier rt, ::UnityEngine::Camera* cam,
                                   ::UnityEngine::Experimental::Rendering::XRPass* xr, int32_t xrIndex, ::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method ProcessLensFlareSRPElements, addr 0x6bb9c54, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method ProcessLensFlareSRPElements, addr 0x6bf68d0, size 0x1e4, virtual false, abstract: false, final false
   static inline void ProcessLensFlareSRPElements(::by_ref<::ArrayW<::UnityEngine::Rendering::LensFlareDataElementSRP*>> elements, ::UnityEngine::Rendering::CommandBuffer* cmd,
                                                  ::UnityEngine::Color globalColorModulation, ::UnityEngine::Light* light, float_t compIntensity, float_t scale,
                                                  ::UnityEngine::Material* lensFlareShader, ::UnityEngine::Vector2 screenPos, bool compAllowOffScreen, float_t aspect, ::UnityEngine::Vector4 flareData6,
                                                  bool preview, int32_t depth);
 
-  /// @brief Method ProcessLensFlareSRPElementsSingle, addr 0x6bb8580, size 0x16d4, virtual false, abstract: false, final false
+  /// @brief Method ProcessLensFlareSRPElementsSingle, addr 0x6bf51fc, size 0x16d4, virtual false, abstract: false, final false
   static inline void ProcessLensFlareSRPElementsSingle(::UnityEngine::Rendering::LensFlareDataElementSRP* element, ::UnityEngine::Rendering::CommandBuffer* cmd,
                                                        ::UnityEngine::Color globalColorModulation, ::UnityEngine::Light* light, float_t compIntensity, float_t scale,
                                                        ::UnityEngine::Material* lensFlareShader, ::UnityEngine::Vector2 screenPos, bool compAllowOffScreen, ::UnityEngine::Vector2 vScreenRatio,
                                                        ::UnityEngine::Vector3 flareData1, bool preview, int32_t depth);
 
-  /// @brief Method RemoveData, addr 0x6bb59f8, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method RemoveData, addr 0x6bf2674, size 0x244, virtual false, abstract: false, final false
   inline void RemoveData(::UnityEngine::Rendering::LensFlareComponentSRP* data);
 
-  /// @brief Method ShapeAttenuateForwardLight, addr 0x6bb62e0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ShapeAttenuateForwardLight, addr 0x6bf2f5c, size 0x20, virtual false, abstract: false, final false
   static inline float_t ShapeAttenuateForwardLight(::UnityEngine::Vector3 forward, ::UnityEngine::Vector3 wo);
 
-  /// @brief Method ShapeAttenuationAreaDiscLight, addr 0x6bb639c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ShapeAttenuationAreaDiscLight, addr 0x6bf3018, size 0x9c, virtual false, abstract: false, final false
   static inline float_t ShapeAttenuationAreaDiscLight(::UnityEngine::Vector3 forward, ::UnityEngine::Vector3 wo);
 
-  /// @brief Method ShapeAttenuationAreaRectangleLight, addr 0x6bb6300, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ShapeAttenuationAreaRectangleLight, addr 0x6bf2f7c, size 0x9c, virtual false, abstract: false, final false
   static inline float_t ShapeAttenuationAreaRectangleLight(::UnityEngine::Vector3 forward, ::UnityEngine::Vector3 wo);
 
-  /// @brief Method ShapeAttenuationAreaTubeLight, addr 0x6bb5df8, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method ShapeAttenuationAreaTubeLight, addr 0x6bf2a74, size 0x1f8, virtual false, abstract: false, final false
   static inline float_t ShapeAttenuationAreaTubeLight(::UnityEngine::Vector3 lightPositionWS, ::UnityEngine::Vector3 lightSide, float_t lightWidth, ::UnityEngine::Camera* cam);
 
-  /// @brief Method ShapeAttenuationDirLight, addr 0x6bb5c48, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ShapeAttenuationDirLight, addr 0x6bf28c4, size 0x20, virtual false, abstract: false, final false
   static inline float_t ShapeAttenuationDirLight(::UnityEngine::Vector3 forward, ::UnityEngine::Vector3 wo);
 
-  /// @brief Method ShapeAttenuationPointLight, addr 0x6bb5c40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ShapeAttenuationPointLight, addr 0x6bf28bc, size 0x8, virtual false, abstract: false, final false
   static inline float_t ShapeAttenuationPointLight();
 
-  /// @brief Method ShapeAttenuationSpotBoxLight, addr 0x6bb5d1c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ShapeAttenuationSpotBoxLight, addr 0x6bf2998, size 0x30, virtual false, abstract: false, final false
   static inline float_t ShapeAttenuationSpotBoxLight(::UnityEngine::Vector3 forward, ::UnityEngine::Vector3 wo);
 
-  /// @brief Method ShapeAttenuationSpotConeLight, addr 0x6bb5c68, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ShapeAttenuationSpotConeLight, addr 0x6bf28e4, size 0xb4, virtual false, abstract: false, final false
   static inline float_t ShapeAttenuationSpotConeLight(::UnityEngine::Vector3 forward, ::UnityEngine::Vector3 wo, float_t spotAngle, float_t innerSpotPercent01);
 
-  /// @brief Method ShapeAttenuationSpotPyramidLight, addr 0x6bb5d4c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ShapeAttenuationSpotPyramidLight, addr 0x6bf29c8, size 0xac, virtual false, abstract: false, final false
   static inline float_t ShapeAttenuationSpotPyramidLight(::UnityEngine::Vector3 forward, ::UnityEngine::Vector3 wo);
 
-  /// @brief Method WorldToViewport, addr 0x6bb683c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method WorldToViewport, addr 0x6bf34b8, size 0x194, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 WorldToViewport(::UnityEngine::Camera* camera, bool isLocalLight, bool isCameraRelative, ::UnityEngine::Matrix4x4 viewProjMatrix,
                                                        ::UnityEngine::Vector3 positionWS);
 
-  /// @brief Method WorldToViewportDistance, addr 0x6bb6a78, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method WorldToViewportDistance, addr 0x6bf36f4, size 0x188, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 WorldToViewportDistance(::UnityEngine::Camera* cam, ::UnityEngine::Vector3 positionWS, bool isPerspective);
 
-  /// @brief Method WorldToViewportLocal, addr 0x6bb69d0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method WorldToViewportLocal, addr 0x6bf364c, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 WorldToViewportLocal(bool isCameraRelative, ::UnityEngine::Matrix4x4 viewProjMatrix, ::UnityEngine::Vector3 cameraPosWS, ::UnityEngine::Vector3 positionWS,
                                                             bool isPerspective);
 
   /// [CompilerGenerated]
-  /// @brief Method <ProcessLensFlareSRPElementsSingle>g__ComputeLocalSize|80_0, addr 0x6bb9e38, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method <ProcessLensFlareSRPElementsSingle>g__ComputeLocalSize|80_0, addr 0x6bf6ab4, size 0x1b4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2
   _ProcessLensFlareSRPElementsSingle_g__ComputeLocalSize_80_0(::UnityEngine::Vector2 rayOff, ::UnityEngine::Vector2 rayOff0, ::UnityEngine::Vector2 curSize,
                                                               ::UnityEngine::AnimationCurve* distortionCurve,
                                                               ::by_ref<::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass80_0> _cordl_fixed_empty_name_whitespace);
 
   /// [CompilerGenerated]
-  /// @brief Method <ProcessLensFlareSRPElementsSingle>g__RandomRange|80_1, addr 0x6bb9fec, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <ProcessLensFlareSRPElementsSingle>g__RandomRange|80_1, addr 0x6bf6c68, size 0x40, virtual false, abstract: false, final false
   static inline float_t _ProcessLensFlareSRPElementsSingle_g__RandomRange_80_1(float_t min, float_t max);
 
   /// [CompilerGenerated]
-  /// @brief Method <ShapeAttenuationAreaTubeLight>g__DiffLineIntegral|63_2, addr 0x6bb5ff0, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method <ShapeAttenuationAreaTubeLight>g__DiffLineIntegral|63_2, addr 0x6bf2c6c, size 0x2f0, virtual false, abstract: false, final false
   static inline float_t _ShapeAttenuationAreaTubeLight_g__DiffLineIntegral_63_2(::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2);
 
   /// [CompilerGenerated]
-  /// @brief Method <ShapeAttenuationAreaTubeLight>g__Fpo|63_0, addr 0x6bbc004, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <ShapeAttenuationAreaTubeLight>g__Fpo|63_0, addr 0x6bf8c80, size 0x40, virtual false, abstract: false, final false
   static inline float_t _ShapeAttenuationAreaTubeLight_g__Fpo_63_0(float_t d, float_t l);
 
   /// [CompilerGenerated]
-  /// @brief Method <ShapeAttenuationAreaTubeLight>g__Fwt|63_1, addr 0x6bbc044, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <ShapeAttenuationAreaTubeLight>g__Fwt|63_1, addr 0x6bf8cc0, size 0x18, virtual false, abstract: false, final false
   static inline float_t _ShapeAttenuationAreaTubeLight_g__Fwt_63_1(float_t d, float_t l);
 
-  /// @brief Method .ctor, addr 0x6bb4ec8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bf1b44, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__FlareCloudOpacity();
@@ -771,13 +771,13 @@ public:
 
   static inline bool getStaticF_s_SupportsLensFlare32bitsFormatWithLoadStore();
 
-  /// @brief Method get_Data, addr 0x6bb55d0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Data, addr 0x6bf224c, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Rendering::LensFlareCommonSRP_LensFlareCompInfo*>* get_Data();
 
-  /// @brief Method get_Instance, addr 0x6bb5450, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x6bf20cc, size 0x180, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::LensFlareCommonSRP* get_Instance();
 
-  /// @brief Method get_requireOcclusionRTRandomWrite, addr 0x6bb4ecc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_requireOcclusionRTRandomWrite, addr 0x6bf1b48, size 0x64, virtual false, abstract: false, final false
   static inline bool get_requireOcclusionRTRandomWrite();
 
   static inline void setStaticF__FlareCloudOpacity(int32_t value);
@@ -877,7 +877,7 @@ public:
   LensFlareCommonSRP(LensFlareCommonSRP const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9044 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9051 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

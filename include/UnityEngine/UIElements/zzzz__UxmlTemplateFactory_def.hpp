@@ -37,18 +37,18 @@ public:
 
   __declspec(property(get = get_uxmlQualifiedName)) ::StringW uxmlQualifiedName;
 
-  /// @brief Method Create, addr 0x7143ac0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x71809f4, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* Create(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlTemplateFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x7143ac8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71809fc, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_uxmlName, addr 0x7143a04, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_uxmlName, addr 0x7180938, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_uxmlName();
 
-  /// @brief Method get_uxmlQualifiedName, addr 0x7143a48, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method get_uxmlQualifiedName, addr 0x718097c, size 0x78, virtual true, abstract: false, final false
   inline ::StringW get_uxmlQualifiedName();
 
 protected:

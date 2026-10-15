@@ -13,13 +13,12 @@
 #include "GlobalNamespace/zzzz__IBeatEffectDidFinishEvent_def.hpp"
 #include "GlobalNamespace/zzzz__MemoryPoolContainer_1_def.hpp"
 #include "GlobalNamespace/zzzz__NoteController_def.hpp"
-#include "GlobalNamespace/zzzz__SongController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatEffectSpawner_InitData._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatEffectSpawner_InitData::*)(bool)>(&::GlobalNamespace::BeatEffectSpawner_InitData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d9ae84;
+  constexpr static std::size_t addrs = 0x5dd81c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatEffectSpawner::*)(::GlobalNamespace::BeatEffect_Pool*)>(&::GlobalNamespace::BeatEffectSpawner::Init)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5d9a434;
+  constexpr static std::size_t addrs = 0x5dd7774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatEffectSpawner::*)()>(&::GlobalNamespace::BeatEffectSpawner::Start)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5d9a4b8;
+  constexpr static std::size_t addrs = 0x5dd77f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatEffectSpawner*>(), { "Start", {}, {} })));
@@ -79,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatEffectSpawner::*)()>(&::GlobalNamespace::BeatEffectSpawner::OnDestroy)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5d9a548;
+  constexpr static std::size_t addrs = 0x5dd7888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatEffectSpawner*>(), { "OnDestroy", {}, {} })));
@@ -91,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatEffectSpawner::*)()>(&::GlobalNamespace::BeatEffectSpawner::Update)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5d9a5e0;
+  constexpr static std::size_t addrs = 0x5dd7920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatEffectSpawner*>(), { "Update", {}, {} })));
@@ -104,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatEffectSpawner::*)(::GlobalNamespace::NoteController*)>(
     &::GlobalNamespace::BeatEffectSpawner::HandleNoteDidStartJump)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x5d9a9ec;
+  constexpr static std::size_t addrs = 0x5dd7d2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatEffectSpawner::*)(::GlobalNamespace::BeatEffect*)>(
     &::GlobalNamespace::BeatEffectSpawner::HandleBeatEffectDidFinish)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5d9ad84;
+  constexpr static std::size_t addrs = 0x5dd80c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -131,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatEffectSpawner::*)()>(&::GlobalNamespace::BeatEffectSpawner::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5d9ae6c;
+  constexpr static std::size_t addrs = 0x5dd81ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatEffectSpawner*>(), { ".ctor", {}, {} })));
@@ -221,18 +220,6 @@ constexpr ::UnityW<::GlobalNamespace::BloomFogSO> const& GlobalNamespace::BeatEf
 constexpr void GlobalNamespace::BeatEffectSpawner::__cordl_internal_set__bloomFog(::UnityW<::GlobalNamespace::BloomFogSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bloomFog = value;
-}
-constexpr ::UnityW<::GlobalNamespace::SongController>& GlobalNamespace::BeatEffectSpawner::__cordl_internal_get__songController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____songController;
-}
-constexpr ::UnityW<::GlobalNamespace::SongController> const& GlobalNamespace::BeatEffectSpawner::__cordl_internal_get__songController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____songController;
-}
-constexpr void GlobalNamespace::BeatEffectSpawner::__cordl_internal_set__songController(::UnityW<::GlobalNamespace::SongController> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____songController = value;
 }
 constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BeatEffect>>*& GlobalNamespace::BeatEffectSpawner::__cordl_internal_get__beatEffectPoolContainer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

@@ -181,7 +181,7 @@ public:
   constexpr InstanceCuller_AnimatedFadeData(int32_t cameraID, ::Unity::Jobs::JobHandle jobHandle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18174 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18207 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -287,7 +287,7 @@ public:
   InstanceCuller_ShaderIDs(InstanceCuller_ShaderIDs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18175 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18208 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -341,7 +341,7 @@ public:
 
   constexpr void __cordl_internal_set_subviewSettings(::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings value);
 
-  /// @brief Method .ctor, addr 0x6c4e5f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c8b26c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -359,7 +359,7 @@ public:
   InstanceCuller_InstanceOcclusionTestPassData(InstanceCuller_InstanceOcclusionTestPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18176 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18209 };
 
   /// @brief Field settings, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Rendering::OcclusionCullingSettings ___settings;
@@ -405,10 +405,10 @@ public:
 
   static inline ::UnityEngine::Rendering::InstanceCuller___c* New_ctor();
 
-  /// @brief Method <InstanceOcclusionTest>b__28_0, addr 0x6c4e64c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method <InstanceOcclusionTest>b__28_0, addr 0x6c8b2c8, size 0x9c, virtual false, abstract: false, final false
   inline void _InstanceOcclusionTest_b__28_0(::UnityEngine::Rendering::InstanceCuller_InstanceOcclusionTestPassData* data, ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext* context);
 
-  /// @brief Method .ctor, addr 0x6c4e648, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c8b2c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::InstanceCuller___c* getStaticF___9();
@@ -437,7 +437,7 @@ public:
   InstanceCuller___c(InstanceCuller___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18177 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18210 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -465,26 +465,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method AddOcclusionCullingDispatch, addr 0x6c4d018, size 0xaf8, virtual false, abstract: false, final false
+  /// @brief Method AddOcclusionCullingDispatch, addr 0x6c89c94, size 0xaf8, virtual false, abstract: false, final false
   inline void AddOcclusionCullingDispatch(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings const> settings,
                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings const> subviewSettings,
                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::IndirectBufferContextHandles const> bufferHandles,
                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OccluderHandles const> occluderHandles,
                                           ::UnityEngine::Rendering::RenderersBatchersContext* batchersContext);
 
-  /// @brief Method AnimateCrossFades, addr 0x6c4b978, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method AnimateCrossFades, addr 0x6c885f4, size 0x278, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle AnimateCrossFades(::UnityEngine::Rendering::CPUPerCameraInstanceData perCameraInstanceData, ::UnityEngine::Rendering::BatchCullingContext cc,
                                                     ::by_ref<::UnityEngine::Rendering::CPUPerCameraInstanceData_PerCameraInstanceDataArrays> cameraInstanceData, ::by_ref<bool> hasAnimatedCrossfade);
 
-  /// @brief Method ComputeWorstCaseDrawCommandCount, addr 0x6c4c0ec, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ComputeWorstCaseDrawCommandCount, addr 0x6c88d68, size 0xec, virtual false, abstract: false, final false
   inline int32_t ComputeWorstCaseDrawCommandCount(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext const> cc, ::UnityEngine::Rendering::BinningConfig binningConfig,
                                                   ::UnityEngine::Rendering::CPUDrawInstanceData* drawInstanceData);
 
-  /// @brief Method CreateCompactedVisibilityMaskJob, addr 0x6c4cac4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method CreateCompactedVisibilityMaskJob, addr 0x6c89740, size 0x154, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle CreateCompactedVisibilityMaskJob(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly const> instanceData,
                                                                    ::Unity::Collections::NativeArray_1<uint8_t> rendererVisibilityMasks, ::Unity::Jobs::JobHandle cullingJobHandle);
 
-  /// @brief Method CreateCullJobTree, addr 0x6c4c1d8, size 0x8ec, virtual false, abstract: false, final false
+  /// @brief Method CreateCullJobTree, addr 0x6c88e54, size 0x8ec, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle CreateCullJobTree(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext const> cc, ::UnityEngine::Rendering::BatchCullingOutput cullingOutput,
                                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly const> instanceData,
                                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly const> sharedInstanceData,
@@ -495,7 +495,7 @@ public:
                                                     ::Unity::Collections::NativeParallelHashMap_2<uint32_t, ::UnityEngine::Rendering::BatchID> batchIDs, float_t smallMeshScreenPercentage,
                                                     ::UnityEngine::Rendering::OcclusionCullingCommon* occlusionCullingCommon);
 
-  /// @brief Method CreateFrustumCullingJob, addr 0x6c4bbf0, size 0x4fc, virtual false, abstract: false, final false
+  /// @brief Method CreateFrustumCullingJob, addr 0x6c8886c, size 0x4fc, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle CreateFrustumCullingJob(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::BatchCullingContext const> cc,
                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly const> instanceData,
                                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly const> sharedInstanceData,
@@ -506,49 +506,49 @@ public:
                                                           ::Unity::Collections::NativeArray_1<uint8_t> rendererVisibilityMasks, ::Unity::Collections::NativeArray_1<uint8_t> rendererMeshLodSettings,
                                                           ::Unity::Collections::NativeArray_1<uint8_t> rendererCrossFadeValues);
 
-  /// @brief Method Dispose, addr 0x6c4dca8, size 0x738, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6c8a924, size 0x738, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DisposeCompactVisibilityMasks, addr 0x6c4ccac, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method DisposeCompactVisibilityMasks, addr 0x6c89928, size 0x5c, virtual false, abstract: false, final false
   inline void DisposeCompactVisibilityMasks();
 
-  /// @brief Method DisposeSceneViewHiddenBits, addr 0x6c4cd08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DisposeSceneViewHiddenBits, addr 0x6c89984, size 0x4, virtual false, abstract: false, final false
   inline void DisposeSceneViewHiddenBits();
 
-  /// @brief Method EnsureValidOcclusionTestResults, addr 0x6c4cd70, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method EnsureValidOcclusionTestResults, addr 0x6c899ec, size 0x2a8, virtual false, abstract: false, final false
   inline void EnsureValidOcclusionTestResults(int32_t viewInstanceID);
 
-  /// @brief Method FlushDebugCounters, addr 0x6c4db10, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method FlushDebugCounters, addr 0x6c8a78c, size 0x48, virtual false, abstract: false, final false
   inline void FlushDebugCounters();
 
-  /// @brief Method GetCompactedVisibilityMasks, addr 0x6c4cd0c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetCompactedVisibilityMasks, addr 0x6c89988, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ParallelBitArray GetCompactedVisibilityMasks(bool syncCullingJobs);
 
-  /// @brief Method Init, addr 0x6c4b6c0, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6c8833c, size 0x2b8, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Rendering::GPUResidentDrawerResources* resources, ::UnityEngine::Rendering::DebugRendererBatcherStats* debugStats);
 
-  /// @brief Method InstanceOccludersUpdated, addr 0x6c4cc18, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method InstanceOccludersUpdated, addr 0x6c89894, size 0x94, virtual false, abstract: false, final false
   inline void InstanceOccludersUpdated(int32_t viewInstanceID, int32_t subviewMask, ::UnityEngine::Rendering::RenderersBatchersContext* batchersContext);
 
-  /// @brief Method InstanceOcclusionTest, addr 0x6c41f88, size 0x4f4, virtual false, abstract: false, final false
+  /// @brief Method InstanceOcclusionTest, addr 0x6c7ec04, size 0x4f4, virtual false, abstract: false, final false
   inline void InstanceOcclusionTest(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::OcclusionCullingSettings const> settings,
                                     ::System::ReadOnlySpan_1<::UnityEngine::Rendering::SubviewOcclusionTest> subviewOcclusionTests,
                                     ::UnityEngine::Rendering::RenderersBatchersContext* batchersContext);
 
-  /// @brief Method OnBeginCameraRendering, addr 0x6c4dc78, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnBeginCameraRendering, addr 0x6c8a8f4, size 0x18, virtual false, abstract: false, final false
   inline void OnBeginCameraRendering(::UnityEngine::Camera* camera);
 
-  /// @brief Method OnBeginSceneViewCameraRendering, addr 0x6c4db58, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnBeginSceneViewCameraRendering, addr 0x6c8a7d4, size 0x4, virtual false, abstract: false, final false
   inline void OnBeginSceneViewCameraRendering();
 
-  /// @brief Method OnEndCameraRendering, addr 0x6c4dc90, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnEndCameraRendering, addr 0x6c8a90c, size 0x18, virtual false, abstract: false, final false
   inline void OnEndCameraRendering(::UnityEngine::Camera* camera);
 
-  /// @brief Method OnEndSceneViewCameraRendering, addr 0x6c4db5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEndSceneViewCameraRendering, addr 0x6c8a7d8, size 0x4, virtual false, abstract: false, final false
   inline void OnEndSceneViewCameraRendering();
 
-  /// @brief Method UpdateFrame, addr 0x6c4db60, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method UpdateFrame, addr 0x6c8a7dc, size 0x118, virtual false, abstract: false, final false
   inline void UpdateFrame(int32_t cameraCount);
 
   /// @brief Convert to "::System::IDisposable"
@@ -581,7 +581,7 @@ public:
                            ::UnityEngine::Rendering::CommandBuffer* m_CommandBuffer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18178 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18211 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1a0 };

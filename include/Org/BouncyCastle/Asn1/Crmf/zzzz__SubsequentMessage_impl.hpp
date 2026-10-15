@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::*)(int32_t)>(&::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35f35fc;
+  constexpr static std::size_t addrs = 0x3615f60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* (*)(int32_t)>(&::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::ValueOf)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x35f1de0;
+  constexpr static std::size_t addrs = 0x3614744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

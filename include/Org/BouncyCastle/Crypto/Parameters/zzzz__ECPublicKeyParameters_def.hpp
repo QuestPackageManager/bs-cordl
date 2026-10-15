@@ -38,13 +38,13 @@ public:
   /// @brief Field q, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_q, put = __cordl_internal_set_q)) ::Org::BouncyCastle::Math::EC::ECPoint* q;
 
-  /// @brief Method Equals, addr 0x369a4b4, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x36bce18, size 0xac, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x369a560, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x36bcec4, size 0x5c, virtual false, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* other);
 
-  /// @brief Method GetHashCode, addr 0x369a5bc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x36bcf20, size 0x40, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* New_ctor(::StringW algorithm, ::Org::BouncyCastle::Math::EC::ECPoint* q,
@@ -65,20 +65,20 @@ public:
 
   constexpr void __cordl_internal_set_q(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
-  /// @brief Method .ctor, addr 0x369a2c0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36bcc24, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::Math::EC::ECPoint* q, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters);
 
-  /// @brief Method .ctor, addr 0x369a40c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36bcd70, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::Math::EC::ECPoint* q, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
-  /// @brief Method .ctor, addr 0x369a25c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36bcbc0, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECPoint* q, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters);
 
   /// [Obsolete("Use version with explicit \'algorithm\' parameter")]
-  /// @brief Method .ctor, addr 0x369a360, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36bccc4, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECPoint* q, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
-  /// @brief Method get_Q, addr 0x369a4ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Q, addr 0x36bce10, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_Q();
 
 protected:

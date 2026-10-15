@@ -75,28 +75,28 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::TextShadow>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::TextShadow>*();
 
-  /// @brief Method Equals, addr 0x7135c2c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x7172b60, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x7135cc0, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x7172bf4, size 0x7c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::TextShadow other);
 
-  /// @brief Method GetHashCode, addr 0x7135d3c, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x7172c70, size 0xcc, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method LerpUnclamped, addr 0x7135f80, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method LerpUnclamped, addr 0x7172eb4, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::TextShadow LerpUnclamped(::UnityEngine::UIElements::TextShadow a, ::UnityEngine::UIElements::TextShadow b, float_t t);
 
-  /// @brief Method ToString, addr 0x7135e80, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x7172db4, size 0x100, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::TextShadow>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::TextShadow>* i___System__IEquatable_1___UnityEngine__UIElements__TextShadow_();
 
-  /// @brief Method op_Equality, addr 0x7135e08, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x7172d3c, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::TextShadow style1, ::UnityEngine::UIElements::TextShadow style2);
 
-  /// @brief Method op_Inequality, addr 0x7135e38, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x7172d6c, size 0x48, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::TextShadow style1, ::UnityEngine::UIElements::TextShadow style2);
 
   // Ctor Parameters []
@@ -151,12 +151,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x7136274, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x71731a8, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 GetValue(::by_ref<::UnityEngine::UIElements::TextShadow> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_TextShadow_OffsetProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x713627c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x71731b0, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::TextShadow> container, ::UnityEngine::Vector2 value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -171,15 +171,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x7136138, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x717306c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x713626c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x71731a0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x7136264, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x7173198, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -236,12 +236,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x7136294, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x71731c8, size 0x8, virtual true, abstract: false, final false
   inline float_t GetValue(::by_ref<::UnityEngine::UIElements::TextShadow> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_TextShadow_BlurRadiusProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x713629c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x71731d0, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::TextShadow> container, float_t value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -256,15 +256,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x713619c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71730d0, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x713628c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x71731c0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x7136284, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x71731b8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -321,12 +321,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x71362b4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x71731e8, size 0xc, virtual true, abstract: false, final false
   inline ::UnityEngine::Color GetValue(::by_ref<::UnityEngine::UIElements::TextShadow> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_TextShadow_ColorProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x71362c0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x71731f4, size 0xc, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::TextShadow> container, ::UnityEngine::Color value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -341,15 +341,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x7136200, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7173134, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x71362ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x71731e0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x71362a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x71731d8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -404,7 +404,7 @@ public:
 
   static inline ::UnityEngine::UIElements::TextShadow_PropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x7135fd0, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7172f04, size 0x168, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

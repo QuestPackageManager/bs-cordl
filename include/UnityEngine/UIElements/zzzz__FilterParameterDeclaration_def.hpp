@@ -30,16 +30,16 @@ public:
   /// @brief [CreateProperty]
   __declspec(property(get = get_name, put = set_name)) ::StringW name;
 
-  /// @brief Method get_interpolationDefaultValue, addr 0x7235ebc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_interpolationDefaultValue, addr 0x7272df0, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::FilterParameter get_interpolationDefaultValue();
 
-  /// @brief Method get_name, addr 0x7235eac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x7272de0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method set_interpolationDefaultValue, addr 0x7235ed0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_interpolationDefaultValue, addr 0x7272e04, size 0x14, virtual false, abstract: false, final false
   inline void set_interpolationDefaultValue(::UnityEngine::UIElements::FilterParameter value);
 
-  /// @brief Method set_name, addr 0x7235eb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x7272de8, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
   // Ctor Parameters []

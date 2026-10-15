@@ -78,43 +78,43 @@ public:
   static inline float_t getStaticF_s_ShadowResolutionMultiplier();
 
   /// [CompilerGenerated]
-  /// @brief Method get_AntiAliasingQualityBias, addr 0x6e6d50c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_AntiAliasingQualityBias, addr 0x6eaa1a8, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t get_AntiAliasingQualityBias();
 
-  /// @brief Method get_DecalsDrawDistance, addr 0x6e6d2e4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_DecalsDrawDistance, addr 0x6ea9f80, size 0x5c, virtual false, abstract: false, final false
   static inline float_t get_DecalsDrawDistance();
 
   /// [CompilerGenerated]
-  /// @brief Method get_LutBias, addr 0x6e6d3f8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_LutBias, addr 0x6eaa094, size 0x5c, virtual false, abstract: false, final false
   static inline float_t get_LutBias();
 
   /// [CompilerGenerated]
-  /// @brief Method get_MainLightShadowCascadesCountBias, addr 0x6e6d340, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_MainLightShadowCascadesCountBias, addr 0x6ea9fdc, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t get_MainLightShadowCascadesCountBias();
 
-  /// @brief Method get_MainLightShadowmapResolutionMultiplier, addr 0x6e6d288, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_MainLightShadowmapResolutionMultiplier, addr 0x6ea9f24, size 0x5c, virtual false, abstract: false, final false
   static inline float_t get_MainLightShadowmapResolutionMultiplier();
 
-  /// @brief Method get_MaxShadowDistanceMultiplier, addr 0x6e6d454, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_MaxShadowDistanceMultiplier, addr 0x6eaa0f0, size 0x5c, virtual false, abstract: false, final false
   static inline float_t get_MaxShadowDistanceMultiplier();
 
-  /// @brief Method get_RenderScaleMultiplier, addr 0x6e6d4b0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_RenderScaleMultiplier, addr 0x6eaa14c, size 0x5c, virtual false, abstract: false, final false
   static inline float_t get_RenderScaleMultiplier();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ShadowQualityBias, addr 0x6e6d39c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_ShadowQualityBias, addr 0x6eaa038, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t get_ShadowQualityBias();
 
   /// [CompilerGenerated]
-  /// @brief Method get_SkipDynamicBatching, addr 0x6e6d568, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_SkipDynamicBatching, addr 0x6eaa204, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_SkipDynamicBatching();
 
   /// [CompilerGenerated]
-  /// @brief Method get_SkipFrontToBackSorting, addr 0x6e6d5c4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_SkipFrontToBackSorting, addr 0x6eaa260, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_SkipFrontToBackSorting();
 
   /// [CompilerGenerated]
-  /// @brief Method get_SkipTransparentObjects, addr 0x6e6d620, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_SkipTransparentObjects, addr 0x6eaa2bc, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_SkipTransparentObjects();
 
   static inline void setStaticF__AntiAliasingQualityBias_k__BackingField(int32_t value);
@@ -154,7 +154,7 @@ public:
   AdaptivePerformanceRenderSettings(AdaptivePerformanceRenderSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23911 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23993 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

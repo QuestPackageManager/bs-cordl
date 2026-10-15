@@ -37,37 +37,37 @@ public:
 
   /// [CompilerGenerated]
   /// [IsReadOnly]
-  /// @brief Method get_filterFunction, addr 0x723622c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_filterFunction, addr 0x7273160, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::FilterFunction get_filterFunction();
 
   /// [CompilerGenerated]
   /// [IsReadOnly]
-  /// @brief Method get_readsGamma, addr 0x723624c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_readsGamma, addr 0x7273180, size 0x8, virtual false, abstract: false, final false
   inline bool get_readsGamma();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_scaledPixelsPerPoint, addr 0x7236264, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scaledPixelsPerPoint, addr 0x7273198, size 0x8, virtual false, abstract: false, final false
   inline float_t get_scaledPixelsPerPoint();
 
   /// [CompilerGenerated]
-  /// @brief Method set_filterFunction, addr 0x723623c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_filterFunction, addr 0x7273170, size 0x8, virtual false, abstract: false, final false
   inline void set_filterFunction(::UnityEngine::UIElements::FilterFunction value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_filterPassIndex, addr 0x7236244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_filterPassIndex, addr 0x7273178, size 0x8, virtual false, abstract: false, final false
   inline void set_filterPassIndex(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_readsGamma, addr 0x7236254, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_readsGamma, addr 0x7273188, size 0x8, virtual false, abstract: false, final false
   inline void set_readsGamma(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_scaledPixelsPerPoint, addr 0x723626c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_scaledPixelsPerPoint, addr 0x72731a0, size 0x8, virtual false, abstract: false, final false
   inline void set_scaledPixelsPerPoint(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_writesGamma, addr 0x723625c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_writesGamma, addr 0x7273190, size 0x8, virtual false, abstract: false, final false
   inline void set_writesGamma(bool value);
 
   // Ctor Parameters []

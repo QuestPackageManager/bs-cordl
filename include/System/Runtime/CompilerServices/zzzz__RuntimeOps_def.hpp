@@ -31,27 +31,27 @@ public:
   // Declarations
   /// [Obsolete("do not use this method", true)]
   /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
-  /// @brief Method ExpandoCheckVersion, addr 0x63dd508, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ExpandoCheckVersion, addr 0x641a0d8, size 0x28, virtual false, abstract: false, final false
   static inline bool ExpandoCheckVersion(::System::Dynamic::ExpandoObject* expando, ::System::Object* version);
 
   /// [Obsolete("do not use this method", true)]
   /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
-  /// @brief Method ExpandoPromoteClass, addr 0x63dd548, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ExpandoPromoteClass, addr 0x641a118, size 0x10, virtual false, abstract: false, final false
   static inline void ExpandoPromoteClass(::System::Dynamic::ExpandoObject* expando, ::System::Object* oldClass, ::System::Object* newClass);
 
   /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   /// [Obsolete("do not use this method", true)]
-  /// @brief Method ExpandoTryDeleteValue, addr 0x63dd150, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ExpandoTryDeleteValue, addr 0x6419d20, size 0x9c, virtual false, abstract: false, final false
   static inline bool ExpandoTryDeleteValue(::System::Dynamic::ExpandoObject* expando, ::System::Object* indexClass, int32_t index, ::StringW name, bool ignoreCase);
 
   /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   /// [Obsolete("do not use this method", true)]
-  /// @brief Method ExpandoTryGetValue, addr 0x63dcc3c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ExpandoTryGetValue, addr 0x641980c, size 0x14, virtual false, abstract: false, final false
   static inline bool ExpandoTryGetValue(::System::Dynamic::ExpandoObject* expando, ::System::Object* indexClass, int32_t index, ::StringW name, bool ignoreCase, ::by_ref<::System::Object*> value);
 
   /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
   /// [Obsolete("do not use this method", true)]
-  /// @brief Method ExpandoTrySetValue, addr 0x63dcd84, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ExpandoTrySetValue, addr 0x6419954, size 0x28, virtual false, abstract: false, final false
   static inline ::System::Object* ExpandoTrySetValue(::System::Dynamic::ExpandoObject* expando, ::System::Object* indexClass, int32_t index, ::System::Object* value, ::StringW name, bool ignoreCase);
 
 protected:
@@ -69,7 +69,7 @@ public:
   RuntimeOps(RuntimeOps const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17144 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17177 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

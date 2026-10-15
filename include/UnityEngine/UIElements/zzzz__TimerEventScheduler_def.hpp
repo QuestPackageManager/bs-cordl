@@ -63,19 +63,19 @@ public:
 
   static inline ::UnityEngine::UIElements::TimerEventScheduler* New_ctor(::UnityEngine::UIElements::BaseVisualElementPanel* p);
 
-  /// @brief Method PrivateUnSchedule, addr 0x727938c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method PrivateUnSchedule, addr 0x72b62c0, size 0xcc, virtual false, abstract: false, final false
   inline bool PrivateUnSchedule(::UnityEngine::UIElements::ScheduledItem* sItem);
 
-  /// @brief Method RemovedScheduledItemAt, addr 0x727914c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method RemovedScheduledItemAt, addr 0x72b6080, size 0x88, virtual false, abstract: false, final false
   inline bool RemovedScheduledItemAt(int32_t index);
 
-  /// @brief Method Schedule, addr 0x7278f80, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method Schedule, addr 0x72b5eb4, size 0x1cc, virtual false, abstract: false, final false
   inline void Schedule(::UnityEngine::UIElements::ScheduledItem* item);
 
-  /// @brief Method Unschedule, addr 0x72791d4, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method Unschedule, addr 0x72b6108, size 0x1b8, virtual false, abstract: false, final false
   inline void Unschedule(::UnityEngine::UIElements::ScheduledItem* item);
 
-  /// @brief Method UpdateScheduledEvents, addr 0x726e554, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method UpdateScheduledEvents, addr 0x72ab488, size 0x37c, virtual false, abstract: false, final false
   inline void UpdateScheduledEvents();
 
   constexpr bool const& __cordl_internal_get_disableThrottling() const;
@@ -126,13 +126,13 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::UIElements::BaseVisualElementPanel* value);
 
-  /// @brief Method .ctor, addr 0x726b788, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72a86bc, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BaseVisualElementPanel* p);
 
-  /// @brief Method get_FrameCount, addr 0x7279458, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FrameCount, addr 0x72b638c, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_FrameCount();
 
-  /// @brief Method set_FrameCount, addr 0x7279460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FrameCount, addr 0x72b6394, size 0x8, virtual false, abstract: false, final false
   inline void set_FrameCount(int64_t value);
 
 protected:

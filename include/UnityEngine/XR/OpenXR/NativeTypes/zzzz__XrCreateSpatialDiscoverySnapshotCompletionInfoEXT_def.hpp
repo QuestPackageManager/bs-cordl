@@ -36,30 +36,30 @@ public:
 
   __declspec(property(get = get_type)) ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type;
 
-  /// @brief Method .ctor, addr 0x6e42abc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7f758, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(uint64_t baseSpace, int64_t time, uint64_t future);
 
-  /// @brief Method .ctor, addr 0x6e42aa4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7f740, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(void* next, uint64_t baseSpace, int64_t time, uint64_t future);
 
   /// [CompilerGenerated]
-  /// @brief Method get_baseSpace, addr 0x6e42a8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_baseSpace, addr 0x6e7f728, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_baseSpace();
 
   /// [CompilerGenerated]
-  /// @brief Method get_future, addr 0x6e42a9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_future, addr 0x6e7f738, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_future();
 
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e42a84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x6e7f720, size 0x8, virtual false, abstract: false, final false
   inline void* get_next();
 
   /// [CompilerGenerated]
-  /// @brief Method get_time, addr 0x6e42a94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x6e7f730, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_time();
 
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e42a7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6e7f718, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   // Ctor Parameters []
@@ -74,7 +74,7 @@ public:
                                                               uint64_t _baseSpace_k__BackingField, int64_t _time_k__BackingField, uint64_t _future_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17552 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17585 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

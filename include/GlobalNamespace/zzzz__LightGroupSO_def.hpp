@@ -11,6 +11,9 @@ namespace GlobalNamespace {
 class ILightGroup;
 }
 namespace GlobalNamespace {
+class LightGroupCountProvider;
+}
+namespace GlobalNamespace {
 class LightGroupTranslationLimits;
 }
 // Forward declare root types
@@ -27,8 +30,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE LightGroupSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
-  /// @brief Field _compositeLimits, offset 0x40, size 0x8
+  /// @brief Field _compositeLimits, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__compositeLimits, put = __cordl_internal_set__compositeLimits)) ::GlobalNamespace::LightGroupTranslationLimits* _compositeLimits;
+
+  /// @brief Field _countProvider, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__countProvider, put = __cordl_internal_set__countProvider)) ::GlobalNamespace::LightGroupCountProvider* _countProvider;
 
   /// @brief Field _groupDescription, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__groupDescription, put = __cordl_internal_set__groupDescription)) ::StringW _groupDescription;
@@ -39,19 +45,21 @@ public:
   /// @brief Field _groupName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__groupName, put = __cordl_internal_set__groupName)) ::StringW _groupName;
 
-  /// @brief Field _ignoreLightGroupEffectManager, offset 0x38, size 0x1
+  /// @brief Field _ignoreLightGroupEffectManager, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get__ignoreLightGroupEffectManager, put = __cordl_internal_set__ignoreLightGroupEffectManager)) bool _ignoreLightGroupEffectManager;
 
-  /// @brief Field _numberOfElements, offset 0x30, size 0x4
+  /// @brief Field _numberOfElements, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__numberOfElements, put = __cordl_internal_set__numberOfElements)) int32_t _numberOfElements;
 
-  /// @brief Field _sameIdElements, offset 0x34, size 0x4
+  /// @brief Field _sameIdElements, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__sameIdElements, put = __cordl_internal_set__sameIdElements)) int32_t _sameIdElements;
 
   /// @brief Field _startLightId, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__startLightId, put = __cordl_internal_set__startLightId)) int32_t _startLightId;
 
   __declspec(property(get = get_compositeLimits)) ::GlobalNamespace::LightGroupTranslationLimits* compositeLimits;
+
+  __declspec(property(get = get_countProvider)) ::GlobalNamespace::LightGroupCountProvider* countProvider;
 
   __declspec(property(get = get_groupId)) int32_t groupId;
 
@@ -73,6 +81,10 @@ public:
   constexpr ::GlobalNamespace::LightGroupTranslationLimits* const& __cordl_internal_get__compositeLimits() const;
 
   constexpr ::GlobalNamespace::LightGroupTranslationLimits*& __cordl_internal_get__compositeLimits();
+
+  constexpr ::GlobalNamespace::LightGroupCountProvider* const& __cordl_internal_get__countProvider() const;
+
+  constexpr ::GlobalNamespace::LightGroupCountProvider*& __cordl_internal_get__countProvider();
 
   constexpr ::StringW const& __cordl_internal_get__groupDescription() const;
 
@@ -104,6 +116,8 @@ public:
 
   constexpr void __cordl_internal_set__compositeLimits(::GlobalNamespace::LightGroupTranslationLimits* value);
 
+  constexpr void __cordl_internal_set__countProvider(::GlobalNamespace::LightGroupCountProvider* value);
+
   constexpr void __cordl_internal_set__groupDescription(::StringW value);
 
   constexpr void __cordl_internal_set__groupId(int32_t value);
@@ -118,28 +132,31 @@ public:
 
   constexpr void __cordl_internal_set__startLightId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5c81f48, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cba430, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_compositeLimits, addr 0x5c81f40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_compositeLimits, addr 0x5cba428, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LightGroupTranslationLimits* get_compositeLimits();
 
-  /// @brief Method get_groupId, addr 0x5c81f18, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_countProvider, addr 0x5cb9210, size 0x64, virtual true, abstract: false, final true
+  inline ::GlobalNamespace::LightGroupCountProvider* get_countProvider();
+
+  /// @brief Method get_groupId, addr 0x5cba408, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_groupId();
 
-  /// @brief Method get_groupName, addr 0x5c81f10, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_groupName, addr 0x5cba400, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_groupName();
 
-  /// @brief Method get_ignoreLightGroupEffectManager, addr 0x5c81f38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ignoreLightGroupEffectManager, addr 0x5cba420, size 0x8, virtual false, abstract: false, final false
   inline bool get_ignoreLightGroupEffectManager();
 
-  /// @brief Method get_numberOfElements, addr 0x5c81f28, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_numberOfElements, addr 0x5cb92f8, size 0x20, virtual true, abstract: false, final true
   inline int32_t get_numberOfElements();
 
-  /// @brief Method get_sameIdElements, addr 0x5c81f30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sameIdElements, addr 0x5cba418, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_sameIdElements();
 
-  /// @brief Method get_startLightId, addr 0x5c81f20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startLightId, addr 0x5cba410, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_startLightId();
 
   /// @brief Convert to "::GlobalNamespace::ILightGroup"
@@ -160,7 +177,7 @@ public:
   LightGroupSO(LightGroupSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19936 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19983 };
 
   /// [SerializeField]
   /// [Tooltip("Automatically updated based on file name")]
@@ -183,23 +200,27 @@ public:
   /// @brief Field _startLightId, offset: 0x2c, size: 0x4, def value: None
   int32_t ____startLightId;
 
+  /// [SerializeReference]
+  /// @brief Field _countProvider, offset: 0x30, size: 0x8, def value: None
+  ::GlobalNamespace::LightGroupCountProvider* ____countProvider;
+
   /// [SerializeField]
   /// [Min(0)]
-  /// @brief Field _numberOfElements, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field _numberOfElements, offset: 0x38, size: 0x4, def value: None
   int32_t ____numberOfElements;
 
   /// [SerializeField]
   /// [Min(1)]
-  /// @brief Field _sameIdElements, offset: 0x34, size: 0x4, def value: None
+  /// @brief Field _sameIdElements, offset: 0x3c, size: 0x4, def value: None
   int32_t ____sameIdElements;
 
   /// [SerializeField]
-  /// @brief Field _ignoreLightGroupEffectManager, offset: 0x38, size: 0x1, def value: None
+  /// @brief Field _ignoreLightGroupEffectManager, offset: 0x40, size: 0x1, def value: None
   bool ____ignoreLightGroupEffectManager;
 
   /// [SerializeField]
   /// [NullAllowed((NullAllowedContext)0)]
-  /// @brief Field _compositeLimits, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _compositeLimits, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::LightGroupTranslationLimits* ____compositeLimits;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -213,14 +234,16 @@ static_assert(offsetof(::GlobalNamespace::LightGroupSO, ____groupId) == 0x28, "O
 
 static_assert(offsetof(::GlobalNamespace::LightGroupSO, ____startLightId) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightGroupSO, ____numberOfElements) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightGroupSO, ____countProvider) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightGroupSO, ____sameIdElements) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightGroupSO, ____numberOfElements) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightGroupSO, ____ignoreLightGroupEffectManager) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightGroupSO, ____sameIdElements) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightGroupSO, ____compositeLimits) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightGroupSO, ____ignoreLightGroupEffectManager) == 0x40, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::LightGroupSO) == 0x48, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightGroupSO, ____compositeLimits) == 0x48, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::LightGroupSO) == 0x50, "Size mismatch!");
 
 } // namespace GlobalNamespace

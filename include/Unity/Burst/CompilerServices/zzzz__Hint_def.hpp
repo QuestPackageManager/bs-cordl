@@ -19,13 +19,13 @@ namespace Unity::Burst::CompilerServices {
 class CORDL_TYPE Hint : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Assume, addr 0x68cfd74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Assume, addr 0x690c9f0, size 0x4, virtual false, abstract: false, final false
   static inline void Assume(bool condition);
 
-  /// @brief Method Likely, addr 0x68cfd64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Likely, addr 0x690c9e0, size 0x8, virtual false, abstract: false, final false
   static inline bool Likely(bool condition);
 
-  /// @brief Method Unlikely, addr 0x68cfd6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Unlikely, addr 0x690c9e8, size 0x8, virtual false, abstract: false, final false
   static inline bool Unlikely(bool condition);
 
 protected:
@@ -43,7 +43,7 @@ public:
   Hint(Hint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17760 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17793 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

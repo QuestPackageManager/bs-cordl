@@ -108,37 +108,37 @@ public:
 
   __declspec(property(get = get_sizeInBits, put = set_sizeInBits)) uint32_t sizeInBits;
 
-  /// @brief Method CopyToFrom, addr 0x69e6c28, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method CopyToFrom, addr 0x6a238a4, size 0x11c, virtual false, abstract: false, final false
   inline void CopyToFrom(void* toStatePtr, void* fromStatePtr);
 
-  /// @brief Method FloatToPrimitiveValue, addr 0x69e5a04, size 0x564, virtual false, abstract: false, final false
+  /// @brief Method FloatToPrimitiveValue, addr 0x6a22680, size 0x564, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue FloatToPrimitiveValue(float_t value);
 
-  /// @brief Method GetPrimitiveFormatFromType, addr 0x69e44dc, size 0x4c0, virtual false, abstract: false, final false
+  /// @brief Method GetPrimitiveFormatFromType, addr 0x6a21158, size 0x4c0, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC GetPrimitiveFormatFromType(::System::Type* type);
 
-  /// @brief Method GetSizeOfPrimitiveFormatInBits, addr 0x69e41f0, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method GetSizeOfPrimitiveFormatInBits, addr 0x6a20e6c, size 0x2ec, virtual false, abstract: false, final false
   static inline int32_t GetSizeOfPrimitiveFormatInBits(::UnityEngine::InputSystem::Utilities::FourCC type);
 
-  /// @brief Method ReadDouble, addr 0x69e5f68, size 0x420, virtual false, abstract: false, final false
+  /// @brief Method ReadDouble, addr 0x6a22be4, size 0x420, virtual false, abstract: false, final false
   inline double_t ReadDouble(void* statePtr);
 
-  /// @brief Method ReadFloat, addr 0x69e50b0, size 0x424, virtual false, abstract: false, final false
+  /// @brief Method ReadFloat, addr 0x6a21d2c, size 0x424, virtual false, abstract: false, final false
   inline float_t ReadFloat(void* statePtr);
 
-  /// @brief Method ReadInt, addr 0x69e4af4, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method ReadInt, addr 0x6a21770, size 0x2d4, virtual false, abstract: false, final false
   inline int32_t ReadInt(void* statePtr);
 
-  /// @brief Method Write, addr 0x69e68cc, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x6a23548, size 0x35c, virtual false, abstract: false, final false
   inline void Write(void* statePtr, ::UnityEngine::InputSystem::Utilities::PrimitiveValue value);
 
-  /// @brief Method WriteDouble, addr 0x69e6388, size 0x544, virtual false, abstract: false, final false
+  /// @brief Method WriteDouble, addr 0x6a23004, size 0x544, virtual false, abstract: false, final false
   inline void WriteDouble(void* statePtr, double_t value);
 
-  /// @brief Method WriteFloat, addr 0x69e54d4, size 0x530, virtual false, abstract: false, final false
+  /// @brief Method WriteFloat, addr 0x6a22150, size 0x530, virtual false, abstract: false, final false
   inline void WriteFloat(void* statePtr, float_t value);
 
-  /// @brief Method WriteInt, addr 0x69e4dc8, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method WriteInt, addr 0x6a21a44, size 0x2e8, virtual false, abstract: false, final false
   inline void WriteInt(void* statePtr, int32_t value);
 
   static inline ::UnityEngine::InputSystem::Utilities::FourCC getStaticF_FormatBit();
@@ -183,31 +183,31 @@ public:
 
   static inline ::UnityEngine::InputSystem::Utilities::FourCC getStaticF_FormatVector3Short();
 
-  /// @brief Method get_alignedSizeInBytes, addr 0x69e49dc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_alignedSizeInBytes, addr 0x6a21658, size 0x60, virtual false, abstract: false, final false
   inline uint32_t get_alignedSizeInBytes();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_bitOffset, addr 0x69e49bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bitOffset, addr 0x6a21638, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_bitOffset();
 
-  /// @brief Method get_byteOffset, addr 0x69e49ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_byteOffset, addr 0x6a21628, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_byteOffset();
 
-  /// @brief Method get_effectiveBitOffset, addr 0x69e4a98, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_effectiveBitOffset, addr 0x6a21714, size 0x5c, virtual false, abstract: false, final false
   inline uint32_t get_effectiveBitOffset();
 
-  /// @brief Method get_effectiveByteOffset, addr 0x69e4a3c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_effectiveByteOffset, addr 0x6a216b8, size 0x5c, virtual false, abstract: false, final false
   inline uint32_t get_effectiveByteOffset();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_format, addr 0x69e499c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_format, addr 0x6a21618, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_sizeInBits, addr 0x69e49cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sizeInBits, addr 0x6a21648, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_sizeInBits();
 
   static inline void setStaticF_FormatBit(::UnityEngine::InputSystem::Utilities::FourCC value);
@@ -253,18 +253,18 @@ public:
   static inline void setStaticF_FormatVector3Short(::UnityEngine::InputSystem::Utilities::FourCC value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_bitOffset, addr 0x69e49c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bitOffset, addr 0x6a21640, size 0x8, virtual false, abstract: false, final false
   inline void set_bitOffset(uint32_t value);
 
-  /// @brief Method set_byteOffset, addr 0x69e49b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_byteOffset, addr 0x6a21630, size 0x8, virtual false, abstract: false, final false
   inline void set_byteOffset(uint32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_format, addr 0x69e49a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_format, addr 0x6a21620, size 0x8, virtual false, abstract: false, final false
   inline void set_format(::UnityEngine::InputSystem::Utilities::FourCC value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_sizeInBits, addr 0x69e49d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sizeInBits, addr 0x6a21650, size 0x8, virtual false, abstract: false, final false
   inline void set_sizeInBits(uint32_t value);
 
   // Ctor Parameters []
@@ -284,7 +284,7 @@ public:
   static constexpr uint32_t InvalidOffset{ static_cast<uint32_t>(0xffffffffu) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11025 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11032 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

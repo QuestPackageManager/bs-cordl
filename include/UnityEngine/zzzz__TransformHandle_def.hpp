@@ -39,16 +39,16 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TransformHandle>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::TransformHandle>*();
 
-  /// @brief Method CompareTo, addr 0x6f55fdc, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x6f92e18, size 0x14, virtual true, abstract: false, final true
   inline int32_t CompareTo(::UnityEngine::TransformHandle other);
 
-  /// @brief Method Equals, addr 0x6f55f50, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6f92d8c, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6f55fcc, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6f92e08, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::TransformHandle other);
 
-  /// @brief Method GetHashCode, addr 0x6f55ff0, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6f92e2c, size 0x68, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IComparable_1<::UnityEngine::TransformHandle>"
@@ -66,7 +66,7 @@ public:
   constexpr TransformHandle(::System::IntPtr pTransformData, ::UnityEngine::EntityId id) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10015 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10022 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

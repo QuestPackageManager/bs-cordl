@@ -43,17 +43,17 @@ public:
 
   constexpr void __cordl_internal_set__TargetType_k__BackingField(::UnityEngine::Bindings::TargetType value);
 
-  /// @brief Method .ctor, addr 0x7014e88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7051d7c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x7014e8c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7051d80, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x7014e90, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7051d84, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isFree, ::UnityEngine::Bindings::TargetType targetType);
 
   /// [CompilerGenerated]
-  /// @brief Method set_TargetType, addr 0x7014e80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TargetType, addr 0x7051d74, size 0x8, virtual false, abstract: false, final false
   inline void set_TargetType(::UnityEngine::Bindings::TargetType value);
 
 protected:
@@ -71,7 +71,7 @@ public:
   NativePropertyAttribute(NativePropertyAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23535 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23651 };
 
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]

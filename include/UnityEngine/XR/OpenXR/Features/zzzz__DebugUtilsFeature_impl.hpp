@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_DebugCallbackDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_DebugCallbackDelegate::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6e4a55c;
+  constexpr static std::size_t addrs = 0x6e871f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_DebugCallbackDelegate*>(),
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_DebugCallbackDelegate::*)(::StringW)>(
     &::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_DebugCallbackDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e4a72c;
+  constexpr static std::size_t addrs = 0x6e873c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_DebugCallbackDelegate*>(),
@@ -64,7 +64,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::IAsyncResult* (::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_DebugCallbackDelegate::*)(::StringW, ::System::AsyncCallback*, ::System::Object*)>(
         &::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_DebugCallbackDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6e4a740;
+  constexpr static std::size_t addrs = 0x6e873dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_DebugCallbackDelegate*>(),
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_DebugCallbackDelegate::*)(::System::IAsyncResult*)>(
     &::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_DebugCallbackDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e4a760;
+  constexpr static std::size_t addrs = 0x6e873fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_DebugCallbackDelegate*>(),
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_MessageSeverity (::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature::*)()>(
     &::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature::get_messageSeverity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e4a48c;
+  constexpr static std::size_t addrs = 0x6e87128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature::*)(::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_MessageSeverity)>(
     &::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature::set_messageSeverity)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e4a494;
+  constexpr static std::size_t addrs = 0x6e87130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_MessageType (::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature::*)()>(
     &::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature::get_messageType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e4a4a8;
+  constexpr static std::size_t addrs = 0x6e87144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature*>(), { "get_messageType", {}, {} })));
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature::*)(::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_MessageType)>(
     &::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature::set_messageType)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e4a4b0;
+  constexpr static std::size_t addrs = 0x6e8714c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature::*)(::System::IntPtr)>(
     &::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature::HookGetInstanceProcAddr)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6e4a4c4;
+  constexpr static std::size_t addrs = 0x6e87160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature*>(),
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature::*)(::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_DebugCallbackDelegate*)>(
     &::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature::SetCallback)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6e4a5d8;
+  constexpr static std::size_t addrs = 0x6e87274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::
                                                                                                                         ::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_MessageType)>(
     &::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature::SetConfig)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e4a5e8;
+  constexpr static std::size_t addrs = 0x6e87284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature*>(),
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature::*)(uint64_t)>(
     &::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature::OnInstanceCreate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e4a700;
+  constexpr static std::size_t addrs = 0x6e8739c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature*>(),
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature::*)(uint64_t)>(
     &::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature::OnInstanceDestroy)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6e4a708;
+  constexpr static std::size_t addrs = 0x6e873a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature*>(),
@@ -249,7 +249,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature::DebugCallback)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6e4a400;
+  constexpr static std::size_t addrs = 0x6e8709c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature_DebugCallbackDelegate*)>(
     &::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature::DebugUtilsSetCallback)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e4a5f4;
+  constexpr static std::size_t addrs = 0x6e87290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -277,7 +277,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint64_t, uint64_t)>(&::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature::DebugUtilsSetConfig)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6e4a674;
+  constexpr static std::size_t addrs = 0x6e87310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature*>(),
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature::*)()>(&::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e4a718;
+  constexpr static std::size_t addrs = 0x6e873b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::DebugUtilsFeature*>(), { ".ctor", {}, {} })));

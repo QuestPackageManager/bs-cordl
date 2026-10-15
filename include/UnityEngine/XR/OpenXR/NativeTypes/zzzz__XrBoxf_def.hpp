@@ -42,24 +42,24 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrBoxf>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrBoxf>*();
 
-  /// @brief Method Equals, addr 0x6e48d4c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6e859e8, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6e48c0c, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6e858a8, size 0x84, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::XR::OpenXR::NativeTypes::XrBoxf other);
 
-  /// @brief Method GetHashCode, addr 0x6e48de0, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6e85a7c, size 0xc4, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6e48be8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e85884, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::OpenXR::NativeTypes::XrPosef center, ::UnityEngine::XR::OpenXR::NativeTypes::XrExtent3Df extents);
 
   /// [CompilerGenerated]
-  /// @brief Method get_center, addr 0x6e48bc8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_center, addr 0x6e85864, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrPosef get_center();
 
   /// [CompilerGenerated]
-  /// @brief Method get_extents, addr 0x6e48bdc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_extents, addr 0x6e85878, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrExtent3Df get_extents();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrBoxf>"
@@ -74,7 +74,7 @@ public:
   constexpr XrBoxf(::UnityEngine::XR::OpenXR::NativeTypes::XrPosef _center_k__BackingField, ::UnityEngine::XR::OpenXR::NativeTypes::XrExtent3Df _extents_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17597 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17630 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

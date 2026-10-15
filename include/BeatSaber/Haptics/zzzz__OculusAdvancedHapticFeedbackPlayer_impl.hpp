@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Haptics::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState::*)()>(
     &::BeatSaber::Haptics::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x351ee44;
+  constexpr static std::size_t addrs = 0x353f7b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Haptics::OculusAdvancedHapticFeedbackPlayer::*)(::UnityEngine::XR::XRNode, ::BeatSaber::Haptics::HapticPresetSO*)>(
     &::BeatSaber::Haptics::OculusAdvancedHapticFeedbackPlayer::PlayHapticFeedback)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x351eb68;
+  constexpr static std::size_t addrs = 0x353f4dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::Haptics::OculusAdvancedHapticFeedbackPlayer::*)(::BeatSaber::Haptics::HapticPresetSO*, ::UnityEngine::XR::XRNode)>(
     &::BeatSaber::Haptics::OculusAdvancedHapticFeedbackPlayer::CanPlayHapticPreset)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x351ee80;
+  constexpr static std::size_t addrs = 0x353f7f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Haptics::OculusAdvancedHapticFeedbackPlayer::*)()>(&::BeatSaber::Haptics::OculusAdvancedHapticFeedbackPlayer::Initialize)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x351f138;
+  constexpr static std::size_t addrs = 0x353faac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Haptics::OculusAdvancedHapticFeedbackPlayer*>(), { "Initialize", {}, {} })));
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Haptics::OculusAdvancedHapticFeedbackPlayer::*)()>(&::BeatSaber::Haptics::OculusAdvancedHapticFeedbackPlayer::Dispose)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x351f1e0;
+  constexpr static std::size_t addrs = 0x353fb54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Haptics::OculusAdvancedHapticFeedbackPlayer*>(), { "Dispose", {}, {} })));
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Haptics::OculusAdvancedHapticFeedbackPlayer::*)()>(&::BeatSaber::Haptics::OculusAdvancedHapticFeedbackPlayer::Tick)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x351f3cc;
+  constexpr static std::size_t addrs = 0x353fd40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Haptics::OculusAdvancedHapticFeedbackPlayer*>(), { "Tick", {}, {} })));
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::XR::XRNode)>(&::BeatSaber::Haptics::OculusAdvancedHapticFeedbackPlayer::IsOculusTouchController)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x351f580;
+  constexpr static std::size_t addrs = 0x353fef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Haptics::OculusAdvancedHapticFeedbackPlayer*>(),
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::Oculus::Haptics::HapticClip> (*)(::UnityEngine::XR::XRNode, ::BeatSaber::Haptics::HapticPresetSO*)>(
     &::BeatSaber::Haptics::OculusAdvancedHapticFeedbackPlayer::GetHapticClip)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x351ee48;
+  constexpr static std::size_t addrs = 0x353f7bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Haptics::OculusAdvancedHapticFeedbackPlayer::*)()>(
     &::BeatSaber::Haptics::OculusAdvancedHapticFeedbackPlayer::HandleApplicationQuitting)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x351f608;
+  constexpr static std::size_t addrs = 0x353ff7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Haptics::OculusAdvancedHapticFeedbackPlayer::*)()>(&::BeatSaber::Haptics::OculusAdvancedHapticFeedbackPlayer::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x351f678;
+  constexpr static std::size_t addrs = 0x353ffec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Haptics::OculusAdvancedHapticFeedbackPlayer*>(), { ".ctor", {}, {} })));

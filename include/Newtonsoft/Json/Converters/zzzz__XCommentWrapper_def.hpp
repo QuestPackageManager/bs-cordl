@@ -39,20 +39,20 @@ public:
   static inline ::Newtonsoft::Json::Converters::XCommentWrapper* New_ctor(::System::Xml::Linq::XComment* text);
 
   /// [NullableContext(1)]
-  /// @brief Method .ctor, addr 0x61bb44c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61f7e94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XComment* text);
 
-  /// @brief Method get_ParentNode, addr 0x61bb4a8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ParentNode, addr 0x61f7ef0, size 0x44, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Converters::IXmlNode* get_ParentNode();
 
   /// [NullableContext(1)]
-  /// @brief Method get_Text, addr 0x61bb3d0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_Text, addr 0x61f7e18, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XComment* get_Text();
 
-  /// @brief Method get_Value, addr 0x61bb454, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x61f7e9c, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value, addr 0x61bb470, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x61f7eb8, size 0x38, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:
@@ -70,7 +70,7 @@ public:
   XCommentWrapper(XCommentWrapper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13922 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13929 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

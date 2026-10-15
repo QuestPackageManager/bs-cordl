@@ -92,10 +92,10 @@ namespace GlobalNamespace {
 struct CORDL_TYPE BlockLevelGameplayAnalyticsEventsCache_GoodHitBlockData {
 public:
   // Declarations
-  /// @brief Method WriteFieldsToJson, addr 0x5e0ded0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method WriteFieldsToJson, addr 0x5e4b6e0, size 0xa0, virtual false, abstract: false, final false
   inline void WriteFieldsToJson(::Newtonsoft::Json::JsonWriter* jsonWriter);
 
-  /// @brief Method .ctor, addr 0x5e0cca0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e4a4b0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, float_t score, uint8_t colorType, uint8_t gameplayType, ::System::Nullable_1<uint8_t> lineIndex, ::System::Nullable_1<uint8_t> lineLayer);
 
   // Ctor Parameters []
@@ -110,7 +110,7 @@ public:
                                                                     ::System::Nullable_1<uint8_t> LineLayer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6366 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6370 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -159,10 +159,10 @@ namespace GlobalNamespace {
 struct CORDL_TYPE BlockLevelGameplayAnalyticsEventsCache_BadHitBlockData {
 public:
   // Declarations
-  /// @brief Method WriteFieldsToJson, addr 0x5e0de30, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method WriteFieldsToJson, addr 0x5e4b640, size 0xa0, virtual false, abstract: false, final false
   inline void WriteFieldsToJson(::Newtonsoft::Json::JsonWriter* jsonWriter);
 
-  /// @brief Method .ctor, addr 0x5e0ce68, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e4a678, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, uint8_t failReason, uint8_t colorType, uint8_t gameplayType, ::System::Nullable_1<uint8_t> lineIndex, ::System::Nullable_1<uint8_t> lineLayer);
 
   // Ctor Parameters []
@@ -177,7 +177,7 @@ public:
                                                                    ::System::Nullable_1<uint8_t> LineLayer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6367 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6371 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -226,10 +226,10 @@ namespace GlobalNamespace {
 struct CORDL_TYPE BlockLevelGameplayAnalyticsEventsCache_MissedBlockData {
 public:
   // Declarations
-  /// @brief Method WriteFieldsToJson, addr 0x5e0dcc0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method WriteFieldsToJson, addr 0x5e4b4d0, size 0x20, virtual false, abstract: false, final false
   inline void WriteFieldsToJson(::Newtonsoft::Json::JsonWriter* jsonWriter);
 
-  /// @brief Method .ctor, addr 0x5e0d00c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e4a81c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, uint8_t colorType, uint8_t gameplayType, ::System::Nullable_1<uint8_t> lineIndex, ::System::Nullable_1<uint8_t> lineLayer);
 
   // Ctor Parameters []
@@ -243,7 +243,7 @@ public:
                                                                    ::System::Nullable_1<uint8_t> LineLayer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6368 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6372 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -287,10 +287,10 @@ namespace GlobalNamespace {
 struct CORDL_TYPE BlockLevelGameplayAnalyticsEventsCache_BombHitData {
 public:
   // Declarations
-  /// @brief Method WriteFieldsToJson, addr 0x5e0dce0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method WriteFieldsToJson, addr 0x5e4b4f0, size 0x84, virtual false, abstract: false, final false
   inline void WriteFieldsToJson(::Newtonsoft::Json::JsonWriter* jsonWriter);
 
-  /// @brief Method .ctor, addr 0x5e0e19c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e4b9ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t beat);
 
   // Ctor Parameters []
@@ -301,7 +301,7 @@ public:
   constexpr BlockLevelGameplayAnalyticsEventsCache_BombHitData(float_t Beat) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6369 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6373 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -325,10 +325,10 @@ namespace GlobalNamespace {
 struct CORDL_TYPE BlockLevelGameplayAnalyticsEventsCache_ObstacleHitData {
 public:
   // Declarations
-  /// @brief Method WriteFieldsToJson, addr 0x5e0dd64, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method WriteFieldsToJson, addr 0x5e4b574, size 0xcc, virtual false, abstract: false, final false
   inline void WriteFieldsToJson(::Newtonsoft::Json::JsonWriter* jsonWriter);
 
-  /// @brief Method .ctor, addr 0x5e0d194, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e4a9a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, float_t duration);
 
   // Ctor Parameters []
@@ -340,7 +340,7 @@ public:
   constexpr BlockLevelGameplayAnalyticsEventsCache_ObstacleHitData(float_t Beat, float_t Duration) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6370 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6374 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -401,53 +401,53 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBlockLevelGameplayAnalyticsEventsCache"
   constexpr operator ::GlobalNamespace::IBlockLevelGameplayAnalyticsEventsCache*() noexcept;
 
-  /// @brief Method AddBadCut, addr 0x5e0ccb8, size 0x1b0, virtual true, abstract: false, final true
+  /// @brief Method AddBadCut, addr 0x5e4a4c8, size 0x1b0, virtual true, abstract: false, final true
   inline void AddBadCut(float_t beat, ::GlobalNamespace::NoteCutInfo_FailReason failReason, ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteData_GameplayType gameplayType,
                         ::System::Nullable_1<int32_t> lineIndex, ::System::Nullable_1<::GlobalNamespace::NoteLineLayer> lineLayer);
 
-  /// @brief Method AddBlockMiss, addr 0x5e0ce84, size 0x188, virtual true, abstract: false, final true
+  /// @brief Method AddBlockMiss, addr 0x5e4a694, size 0x188, virtual true, abstract: false, final true
   inline void AddBlockMiss(float_t beat, ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteData_GameplayType gameplayType, ::System::Nullable_1<int32_t> lineIndex,
                            ::System::Nullable_1<::GlobalNamespace::NoteLineLayer> lineLayer);
 
-  /// @brief Method AddBombCut, addr 0x5e0d024, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method AddBombCut, addr 0x5e4a834, size 0xb4, virtual true, abstract: false, final true
   inline void AddBombCut(float_t beat);
 
-  /// @brief Method AddGoodCut, addr 0x5e0cb1c, size 0x184, virtual true, abstract: false, final true
+  /// @brief Method AddGoodCut, addr 0x5e4a32c, size 0x184, virtual true, abstract: false, final true
   inline void AddGoodCut(float_t beat, float_t score, ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteData_GameplayType gameplayType, ::System::Nullable_1<int32_t> lineIndex,
                          ::System::Nullable_1<::GlobalNamespace::NoteLineLayer> lineLayer);
 
-  /// @brief Method AddObstacleHit, addr 0x5e0d0d8, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method AddObstacleHit, addr 0x5e4a8e8, size 0xbc, virtual true, abstract: false, final true
   inline void AddObstacleHit(float_t beat, float_t duration);
 
-  /// @brief Method IsEmpty, addr 0x5e0dbc4, size 0xfc, virtual true, abstract: false, final true
+  /// @brief Method IsEmpty, addr 0x5e4b3d4, size 0xfc, virtual true, abstract: false, final true
   inline bool IsEmpty();
 
   static inline ::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache* New_ctor(int32_t maxBlocks, int32_t maxBombs, int32_t maxObstacles);
 
-  /// @brief Method SerializeJSON, addr 0x5e0d19c, size 0x224, virtual true, abstract: false, final true
+  /// @brief Method SerializeJSON, addr 0x5e4a9ac, size 0x224, virtual true, abstract: false, final true
   inline ::StringW SerializeJSON();
 
-  /// @brief Method WriteBadHitBlocksArray, addr 0x5e0d554, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method WriteBadHitBlocksArray, addr 0x5e4ad64, size 0x1a0, virtual false, abstract: false, final false
   inline void WriteBadHitBlocksArray(::Newtonsoft::Json::JsonTextWriter* jsonWriter,
                                      ::System::Collections::Generic::List_1<::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_BadHitBlockData>* blocks);
 
-  /// @brief Method WriteBombsHitArray, addr 0x5e0d89c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method WriteBombsHitArray, addr 0x5e4b0ac, size 0x194, virtual false, abstract: false, final false
   inline void WriteBombsHitArray(::Newtonsoft::Json::JsonTextWriter* jsonWriter,
                                  ::System::Collections::Generic::List_1<::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_BombHitData>* bombHits);
 
-  /// @brief Method WriteCommonBlockFieldsToJson, addr 0x5e0df70, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method WriteCommonBlockFieldsToJson, addr 0x5e4b780, size 0x22c, virtual false, abstract: false, final false
   static inline void WriteCommonBlockFieldsToJson(::Newtonsoft::Json::JsonWriter* jsonWriter, float_t beat, uint8_t colorType, uint8_t gameplayType, ::System::Nullable_1<uint8_t> lineIndex,
                                                   ::System::Nullable_1<uint8_t> lineLayer);
 
-  /// @brief Method WriteGoodCutsArray, addr 0x5e0d3c0, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method WriteGoodCutsArray, addr 0x5e4abd0, size 0x194, virtual false, abstract: false, final false
   static inline void WriteGoodCutsArray(::Newtonsoft::Json::JsonTextWriter* jsonWriter,
                                         ::System::Collections::Generic::List_1<::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_GoodHitBlockData>* blocks);
 
-  /// @brief Method WriteMissedBlocksArray, addr 0x5e0d6f4, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method WriteMissedBlocksArray, addr 0x5e4af04, size 0x1a8, virtual false, abstract: false, final false
   inline void WriteMissedBlocksArray(::Newtonsoft::Json::JsonTextWriter* jsonWriter,
                                      ::System::Collections::Generic::List_1<::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_MissedBlockData>* missedBlocks);
 
-  /// @brief Method WriteObstaclesHitArray, addr 0x5e0da30, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method WriteObstaclesHitArray, addr 0x5e4b240, size 0x194, virtual false, abstract: false, final false
   inline void WriteObstaclesHitArray(::Newtonsoft::Json::JsonTextWriter* jsonWriter,
                                      ::System::Collections::Generic::List_1<::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_ObstacleHitData>* obstacleHits);
 
@@ -481,7 +481,7 @@ public:
 
   constexpr void __cordl_internal_set__obstacleHits(::System::Collections::Generic::List_1<::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_ObstacleHitData>* value);
 
-  /// @brief Method .ctor, addr 0x5e0c94c, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e4a15c, size 0x1d0, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxBlocks, int32_t maxBombs, int32_t maxObstacles);
 
   /// @brief Convert to "::GlobalNamespace::IBlockLevelGameplayAnalyticsEventsCache"
@@ -502,7 +502,7 @@ public:
   BlockLevelGameplayAnalyticsEventsCache(BlockLevelGameplayAnalyticsEventsCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6371 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6375 };
 
   /// @brief Field kDefaultBlocksCacheCapacity offset 0xffffffff size 0x4
   static constexpr int32_t kDefaultBlocksCacheCapacity{ static_cast<int32_t>(0x200) };

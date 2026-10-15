@@ -53,25 +53,25 @@ public:
   __declspec(property(get = get_isReadable)) bool isReadable;
 
   /// [ExcludeFromDocs]
-  /// @brief Method Apply, addr 0x6f1c260, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x6f58efc, size 0xc, virtual false, abstract: false, final false
   inline void Apply();
 
-  /// @brief Method Apply, addr 0x6f1c1f4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x6f58e90, size 0x6c, virtual false, abstract: false, final false
   inline void Apply(/* [DefaultValue("true")] */ bool updateMipmaps, /* [DefaultValue("false")] */ bool makeNoLongerReadable);
 
   /// [FreeFunction(Name = "CubemapArrayScripting::Apply", HasExplicitThis = true)]
-  /// @brief Method ApplyImpl, addr 0x6f1b8f0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ApplyImpl, addr 0x6f5858c, size 0x98, virtual false, abstract: false, final false
   inline void ApplyImpl(bool updateMipmaps, bool makeNoLongerReadable);
 
-  /// @brief Method ApplyImpl_Injected, addr 0x6f1b988, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ApplyImpl_Injected, addr 0x6f58624, size 0x54, virtual false, abstract: false, final false
   static inline void ApplyImpl_Injected(::System::IntPtr _unity_self, bool updateMipmaps, bool makeNoLongerReadable);
 
-  /// @brief Method Internal_Create, addr 0x6f1b81c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create, addr 0x6f584b8, size 0xd4, virtual false, abstract: false, final false
   static inline void Internal_Create(/* [Writable] */ ::UnityEngine::CubemapArray* mono, int32_t ext, int32_t count, int32_t mipCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                      ::UnityEngine::TextureColorSpace colorSpace, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
   /// [FreeFunction("CubemapArrayScripting::Create")]
-  /// @brief Method Internal_CreateImpl, addr 0x6f1b798, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Internal_CreateImpl, addr 0x6f58434, size 0x84, virtual false, abstract: false, final false
   static inline bool Internal_CreateImpl(/* [Writable] */ ::UnityEngine::CubemapArray* mono, int32_t ext, int32_t count, int32_t mipCount,
                                          ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::TextureColorSpace colorSpace,
                                          ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
@@ -105,59 +105,59 @@ public:
   static inline ::UnityEngine::CubemapArray* New_ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear,
                                                       /* [DefaultValue("false")] */ bool createUninitialized);
 
-  /// @brief Method SetPixels, addr 0x6f1bb6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetPixels, addr 0x6f58808, size 0x8, virtual false, abstract: false, final false
   inline void SetPixels(::ArrayW<::UnityEngine::Color> colors, ::UnityEngine::CubemapFace face, int32_t arrayElement);
 
   /// [FreeFunction(Name = "CubemapArrayScripting::SetPixels", HasExplicitThis = true, ThrowsException = true)]
-  /// @brief Method SetPixels, addr 0x6f1b9dc, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method SetPixels, addr 0x6f58678, size 0x124, virtual false, abstract: false, final false
   inline void SetPixels(::ArrayW<::UnityEngine::Color> colors, ::UnityEngine::CubemapFace face, int32_t arrayElement, int32_t miplevel);
 
-  /// @brief Method SetPixels_Injected, addr 0x6f1bb00, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetPixels_Injected, addr 0x6f5879c, size 0x6c, virtual false, abstract: false, final false
   static inline void SetPixels_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> colors, ::UnityEngine::CubemapFace face, int32_t arrayElement,
                                         int32_t miplevel);
 
-  /// @brief Method ValidateIsNotCrunched, addr 0x6f1bdf8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ValidateIsNotCrunched, addr 0x6f58a94, size 0x54, virtual false, abstract: false, final false
   static inline void ValidateIsNotCrunched(::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
   /// [ExcludeFromDocs]
-  /// @brief Method .ctor, addr 0x6f1bb74, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f58810, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::Experimental::Rendering::DefaultFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
   /// [ExcludeFromDocs]
-  /// @brief Method .ctor, addr 0x6f1bc7c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f58918, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::Experimental::Rendering::DefaultFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags,
                     /* [DefaultValue("Texture.GenerateAllMips")] */ int32_t mipCount);
 
   /// [RequiredByNativeCode]
-  /// @brief Method .ctor, addr 0x6f1bbe8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f58884, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
   /// [ExcludeFromDocs]
-  /// @brief Method .ctor, addr 0x6f1bcf8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f58994, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags,
                     /* [DefaultValue("Texture.GenerateAllMips")] */ int32_t mipCount);
 
-  /// @brief Method .ctor, addr 0x6f1c150, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f58dec, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::TextureFormat textureFormat, bool mipChain);
 
   /// [ExcludeFromDocs]
-  /// @brief Method .ctor, addr 0x6f1c0a0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f58d3c, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::TextureFormat textureFormat, bool mipChain, /* [DefaultValue("false")] */ bool linear);
 
-  /// @brief Method .ctor, addr 0x6f1bfec, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f58c88, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::TextureFormat textureFormat, bool mipChain, /* [DefaultValue("false")] */ bool linear,
                     /* [DefaultValue("false")] */ bool createUninitialized);
 
-  /// @brief Method .ctor, addr 0x6f1bfe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f58c80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear);
 
-  /// @brief Method .ctor, addr 0x6f1be4c, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f58ae8, size 0x198, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear, /* [DefaultValue("false")] */ bool createUninitialized);
 
-  /// @brief Method get_isReadable, addr 0x6f1b6dc, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method get_isReadable, addr 0x6f58378, size 0x80, virtual true, abstract: false, final false
   inline bool get_isReadable();
 
-  /// @brief Method get_isReadable_Injected, addr 0x6f1b75c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isReadable_Injected, addr 0x6f583f8, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_isReadable_Injected(::System::IntPtr _unity_self);
 
 protected:
@@ -175,7 +175,7 @@ public:
   CubemapArray(CubemapArray const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9814 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9821 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

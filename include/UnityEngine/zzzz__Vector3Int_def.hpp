@@ -76,36 +76,36 @@ public:
   constexpr operator ::System::IFormattable*();
 
   /// [IsReadOnly]
-  /// @brief Method Equals, addr 0x6f2e054, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6f6ae8c, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
   /// [IsReadOnly]
-  /// @brief Method Equals, addr 0x6f2e0ec, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6f6af24, size 0x30, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Vector3Int other);
 
   /// [IsReadOnly]
-  /// @brief Method Equals, addr 0x6f2e11c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x6f6af54, size 0x38, virtual false, abstract: false, final false
   inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3Int const> other);
 
   /// [IsReadOnly]
-  /// @brief Method GetHashCode, addr 0x6f2e154, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6f6af8c, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Max, addr 0x6f2df88, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x6f6adc0, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3Int Max(::UnityEngine::Vector3Int lhs, ::UnityEngine::Vector3Int rhs);
 
-  /// @brief Method Min, addr 0x6f2df60, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Min, addr 0x6f6ad98, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3Int Min(::UnityEngine::Vector3Int lhs, ::UnityEngine::Vector3Int rhs);
 
   /// [IsReadOnly]
-  /// @brief Method ToString, addr 0x6f2e174, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6f6afac, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// [IsReadOnly]
-  /// @brief Method ToString, addr 0x6f2e184, size 0x12c, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x6f6afbc, size 0x12c, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x6f2df54, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f6ad8c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t x, int32_t y, int32_t z);
 
   static inline ::UnityEngine::Vector3Int getStaticF_s_Back();
@@ -124,22 +124,22 @@ public:
 
   static inline ::UnityEngine::Vector3Int getStaticF_s_Zero();
 
-  /// @brief Method get_one, addr 0x6f2e300, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_one, addr 0x6f6b138, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3Int get_one();
 
   /// [IsReadOnly]
-  /// @brief Method get_x, addr 0x6f2df24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_x, addr 0x6f6ad5c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_x();
 
   /// [IsReadOnly]
-  /// @brief Method get_y, addr 0x6f2df34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_y, addr 0x6f6ad6c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_y();
 
   /// [IsReadOnly]
-  /// @brief Method get_z, addr 0x6f2df44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_z, addr 0x6f6ad7c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_z();
 
-  /// @brief Method get_zero, addr 0x6f2e2b0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_zero, addr 0x6f6b0e8, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3Int get_zero();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Vector3Int>"
@@ -148,22 +148,22 @@ public:
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  /// @brief Method op_Addition, addr 0x6f2dfc4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x6f6adfc, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3Int op_Addition(::UnityEngine::Vector3Int a, ::UnityEngine::Vector3Int b);
 
-  /// @brief Method op_Division, addr 0x6f2e014, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Division, addr 0x6f6ae4c, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3Int op_Division(::UnityEngine::Vector3Int a, int32_t b);
 
-  /// @brief Method op_Equality, addr 0x6f2e02c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6f6ae64, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Vector3Int lhs, ::UnityEngine::Vector3Int rhs);
 
-  /// @brief Method op_Implicit, addr 0x6f2dfb0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6f6ade8, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 op_Implicit___UnityEngine__Vector3(::UnityEngine::Vector3Int v);
 
-  /// @brief Method op_Multiply, addr 0x6f2dffc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x6f6ae34, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3Int op_Multiply(::UnityEngine::Vector3Int a, int32_t b);
 
-  /// @brief Method op_Subtraction, addr 0x6f2dfe0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x6f6ae18, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3Int op_Subtraction(::UnityEngine::Vector3Int a, ::UnityEngine::Vector3Int b);
 
   static inline void setStaticF_s_Back(::UnityEngine::Vector3Int value);
@@ -182,13 +182,13 @@ public:
 
   static inline void setStaticF_s_Zero(::UnityEngine::Vector3Int value);
 
-  /// @brief Method set_x, addr 0x6f2df2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_x, addr 0x6f6ad64, size 0x8, virtual false, abstract: false, final false
   inline void set_x(int32_t value);
 
-  /// @brief Method set_y, addr 0x6f2df3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_y, addr 0x6f6ad74, size 0x8, virtual false, abstract: false, final false
   inline void set_y(int32_t value);
 
-  /// @brief Method set_z, addr 0x6f2df4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_z, addr 0x6f6ad84, size 0x8, virtual false, abstract: false, final false
   inline void set_z(int32_t value);
 
   // Ctor Parameters []
@@ -200,7 +200,7 @@ public:
   constexpr Vector3Int(int32_t m_X, int32_t m_Y, int32_t m_Z) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9847 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9854 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

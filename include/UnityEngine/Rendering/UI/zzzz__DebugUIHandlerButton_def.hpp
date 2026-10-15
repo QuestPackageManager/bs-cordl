@@ -39,16 +39,16 @@ public:
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerButton* New_ctor();
 
-  /// @brief Method OnAction, addr 0x6c2dac0, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method OnAction, addr 0x6c6a73c, size 0x2c, virtual true, abstract: false, final false
   inline void OnAction();
 
-  /// @brief Method OnDeselection, addr 0x6c2da94, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method OnDeselection, addr 0x6c6a710, size 0x2c, virtual true, abstract: false, final false
   inline void OnDeselection();
 
-  /// @brief Method OnSelection, addr 0x6c2da5c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method OnSelection, addr 0x6c6a6d8, size 0x38, virtual true, abstract: false, final false
   inline bool OnSelection(bool fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* previous);
 
-  /// @brief Method SetWidget, addr 0x6c2d9d4, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method SetWidget, addr 0x6c6a650, size 0x88, virtual true, abstract: false, final false
   inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
 
   constexpr ::UnityEngine::Rendering::DebugUI_Button* const& __cordl_internal_get_m_Field() const;
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_nameLabel(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x6c2daec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c6a768, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -81,7 +81,7 @@ public:
   DebugUIHandlerButton(DebugUIHandlerButton const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9425 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9432 };
 
   /// @brief Field nameLabel, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___nameLabel;

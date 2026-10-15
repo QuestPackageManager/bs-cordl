@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::BCrypt::*)()>(&::Org::BouncyCastle::Crypto::Generators::BCrypt::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x365d3e0;
+  constexpr static std::size_t addrs = 0x367fd44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::BCrypt*>(), { ".ctor", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Org::BouncyCastle::Crypto::Generators::BCrypt::*)(uint32_t)>(&::Org::BouncyCastle::Crypto::Generators::BCrypt::F)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x365d448;
+  constexpr static std::size_t addrs = 0x367fdac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::BCrypt::*)(uint32_t, uint32_t, ::ArrayW<uint32_t>)>(
     &::Org::BouncyCastle::Crypto::Generators::BCrypt::ProcessTable)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x365d4cc;
+  constexpr static std::size_t addrs = 0x367fe30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::BCrypt::*)()>(&::Org::BouncyCastle::Crypto::Generators::BCrypt::InitState)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x365d600;
+  constexpr static std::size_t addrs = 0x367ff64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::BCrypt*>(), { "InitState", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::BCrypt::*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Crypto::Generators::BCrypt::CyclicXorKey)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x365d704;
+  constexpr static std::size_t addrs = 0x3680068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Generators::BCrypt::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::BCrypt::EncryptMagicString)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x365d788;
+  constexpr static std::size_t addrs = 0x36800ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::BCrypt*>(), { "EncryptMagicString", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::BCrypt::*)(::ArrayW<uint32_t>, ::ArrayW<uint32_t>, uint32_t, uint32_t)>(
     &::Org::BouncyCastle::Crypto::Generators::BCrypt::ProcessTableWithSalt)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x365da64;
+  constexpr static std::size_t addrs = 0x36803c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Generators::BCrypt::*)(int32_t, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Generators::BCrypt::DeriveRawKey)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x365dcc0;
+  constexpr static std::size_t addrs = 0x3680624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<char16_t>)>(&::Org::BouncyCastle::Crypto::Generators::BCrypt::PasswordToByteArray)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x365dfe0;
+  constexpr static std::size_t addrs = 0x3680944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>, int32_t)>(&::Org::BouncyCastle::Crypto::Generators::BCrypt::Generate)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x365e054;
+  constexpr static std::size_t addrs = 0x36809b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

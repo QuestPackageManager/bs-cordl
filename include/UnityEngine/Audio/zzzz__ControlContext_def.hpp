@@ -138,70 +138,70 @@ public:
                                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::ProcessorInstance_CreationParameters const> creationParameters);
 
   /// [RequiredByNativeCode(GenerateProxy = true)]
-  /// @brief Method CleanupHeader, addr 0x6eab050, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method CleanupHeader, addr 0x6ee7cec, size 0x28, virtual false, abstract: false, final false
   static inline void CleanupHeader(::by_ref<::UnityEngine::Audio::ControlHeader> header);
 
-  /// @brief Method Configure, addr 0x6eaaa14, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Configure, addr 0x6ee76b0, size 0x68, virtual false, abstract: false, final false
   inline void Configure(::UnityEngine::Audio::GeneratorInstance generatorInstance, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::AudioFormat const> format);
 
-  /// @brief Method CreateManualControlContext, addr 0x6eaac78, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CreateManualControlContext, addr 0x6ee7914, size 0xc4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Audio::ControlContext_Manual CreateManualControlContext(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::AudioFormat const> format);
 
-  /// @brief Method Destroy, addr 0x6eaa8cc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x6ee7568, size 0x2c, virtual false, abstract: false, final false
   inline void Destroy(::UnityEngine::Audio::GeneratorInstance generatorInstance);
 
-  /// @brief Method Destroy, addr 0x6eaa9a4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x6ee7640, size 0x2c, virtual false, abstract: false, final false
   inline void Destroy(::UnityEngine::Audio::RootOutputInstance rootOutputInstance);
 
-  /// @brief Method DestroyProcessor, addr 0x6eaa8f8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method DestroyProcessor, addr 0x6ee7594, size 0xac, virtual false, abstract: false, final false
   inline void DestroyProcessor(::UnityEngine::Audio::ProcessorInstance processorInstance);
 
-  /// @brief Method Exists, addr 0x6eaa810, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Exists, addr 0x6ee74ac, size 0x68, virtual false, abstract: false, final false
   inline bool Exists(::UnityEngine::Audio::ProcessorInstance processorInstance);
 
   /// [Obsolete("ControlContext.GetAvailableData has been deprecated. Use ControlContext.SendMessage instead.", true)]
-  /// @brief Method GetAvailableData, addr 0x6eab274, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetAvailableData, addr 0x6ee7f10, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Audio::ProcessorInstance_AvailableData GetAvailableData(::UnityEngine::Audio::ProcessorInstance processorInstance);
 
-  /// @brief Method GetConfiguration, addr 0x6eaa9d0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetConfiguration, addr 0x6ee766c, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Audio::GeneratorInstance_Configuration GetConfiguration(::UnityEngine::Audio::GeneratorInstance generatorInstance);
 
   /// [NativeMethod(Name = "audio::BeginMixManualControlContext ", IsFreeFunction = true, ThrowsException = true)]
-  /// @brief Method InternalBeginManualMixFromControlContext, addr 0x6eab0b4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InternalBeginManualMixFromControlContext, addr 0x6ee7d50, size 0x54, virtual false, abstract: false, final false
   static inline bool InternalBeginManualMixFromControlContext(void* header, uint64_t dspTick, void* resultContext);
 
   /// [NativeMethod(Name = "audio::CreateControlContext", IsFreeFunction = true)]
-  /// @brief Method InternalCreateControlContext, addr 0x6eaad3c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method InternalCreateControlContext, addr 0x6ee79d8, size 0x28, virtual false, abstract: false, final false
   static inline void* InternalCreateControlContext();
 
   /// [NativeMethod(Name = "audio::DestroyControlContext", IsFreeFunction = true, ThrowsException = true)]
-  /// @brief Method InternalDestroyControlContext, addr 0x6eab078, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InternalDestroyControlContext, addr 0x6ee7d14, size 0x3c, virtual false, abstract: false, final false
   static inline void InternalDestroyControlContext(void* header);
 
   /// [NativeMethod(Name = "audio::EndMixManualControlContext", IsFreeFunction = true, ThrowsException = true)]
-  /// @brief Method InternalEndMixManualControlContext, addr 0x6eab108, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method InternalEndMixManualControlContext, addr 0x6ee7da4, size 0xa8, virtual false, abstract: false, final false
   static inline void InternalEndMixManualControlContext(void* header, ::System::Span_1<float_t> data);
 
-  /// @brief Method InternalEndMixManualControlContext_Injected, addr 0x6eab1b0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method InternalEndMixManualControlContext_Injected, addr 0x6ee7e4c, size 0x44, virtual false, abstract: false, final false
   static inline void InternalEndMixManualControlContext_Injected(void* header, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> data);
 
   /// [NativeMethod(Name = "audio::GetBuiltInControlHeader", IsFreeFunction = true)]
-  /// @brief Method InternalGetBuiltInControlHeader, addr 0x6eaa740, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method InternalGetBuiltInControlHeader, addr 0x6ee73dc, size 0x28, virtual false, abstract: false, final false
   static inline void* InternalGetBuiltInControlHeader();
 
   /// [NativeMethod(Name = "audio::SetConfigurationManualControlContext", IsFreeFunction = true, ThrowsException = true)]
-  /// @brief Method InternalSetConfigurationManualControlContext, addr 0x6eaad64, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method InternalSetConfigurationManualControlContext, addr 0x6ee7a00, size 0x44, virtual false, abstract: false, final false
   static inline void InternalSetConfigurationManualControlContext(void* header, ::UnityEngine::AudioConfiguration config);
 
-  /// @brief Method InternalSetConfigurationManualControlContext_Injected, addr 0x6eab230, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method InternalSetConfigurationManualControlContext_Injected, addr 0x6ee7ecc, size 0x44, virtual false, abstract: false, final false
   static inline void InternalSetConfigurationManualControlContext_Injected(void* header, ::by_ref<::UnityEngine::AudioConfiguration const> config);
 
   /// [NativeMethod(Name = "audio::UpdateManualControlContext", IsFreeFunction = true, ThrowsException = true)]
-  /// @brief Method InternalUpdateManualControlContext, addr 0x6eab1f4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InternalUpdateManualControlContext, addr 0x6ee7e90, size 0x3c, virtual false, abstract: false, final false
   static inline void InternalUpdateManualControlContext(void* header);
 
   /// [NativeMethod(Name = "audio::WaitForQueueFlush", IsFreeFunction = true)]
-  /// @brief Method InternalWaitForQueueFlush, addr 0x6eaac3c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InternalWaitForQueueFlush, addr 0x6ee78d8, size 0x3c, virtual false, abstract: false, final false
   static inline void InternalWaitForQueueFlush(void* header);
 
   /// [IsReadOnly]
@@ -236,29 +236,29 @@ public:
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline ::UnityEngine::Audio::ProcessorInstance_Response SendMessage(::UnityEngine::Audio::ProcessorInstance processorInstance, ::by_ref<T> message);
 
-  /// @brief Method UnityEngine.Audio.ProcessorInstance.IContext.GetAvailableData, addr 0x6eaadbc, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Audio.ProcessorInstance.IContext.GetAvailableData, addr 0x6ee7a58, size 0xc0, virtual true, abstract: false, final true
   inline ::UnityEngine::Audio::ProcessorInstance_AvailableData UnityEngine_Audio_ProcessorInstance_IContext_GetAvailableData(::Unity::Audio::Handle handle);
 
-  /// @brief Method UnityEngine.Audio.ProcessorInstance.IContext.SendData, addr 0x6eaaef0, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Audio.ProcessorInstance.IContext.SendData, addr 0x6ee7b8c, size 0x84, virtual true, abstract: false, final true
   inline bool UnityEngine_Audio_ProcessorInstance_IContext_SendData(::Unity::Audio::Handle handle, void* data, int32_t size, int32_t align, int64_t typehash);
 
-  /// @brief Method Update, addr 0x6eaab4c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6ee77e8, size 0x54, virtual false, abstract: false, final false
   inline void Update(::UnityEngine::Audio::GeneratorInstance generatorInstance);
 
-  /// @brief Method WaitForBuiltInQueueFlush, addr 0x6eaabf0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method WaitForBuiltInQueueFlush, addr 0x6ee788c, size 0x4c, virtual false, abstract: false, final false
   static inline void WaitForBuiltInQueueFlush();
 
-  /// @brief Method .ctor, addr 0x6eaa768, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ee7404, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(void* headerThatShouldBeOfResourceType);
 
   /// [IsReadOnly]
-  /// @brief Method get_Header, addr 0x6eaa6d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Header, addr 0x6ee7374, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Audio::ControlHeader* get_Header();
 
-  /// @brief Method get_IsSystemWideReconfiguring, addr 0x6eaaad4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_IsSystemWideReconfiguring, addr 0x6ee7770, size 0x3c, virtual false, abstract: false, final false
   inline bool get_IsSystemWideReconfiguring();
 
-  /// @brief Method get_builtIn, addr 0x6eaa6e0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_builtIn, addr 0x6ee737c, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::Audio::ControlContext get_builtIn();
 
   /// @brief Convert to "::UnityEngine::Audio::ProcessorInstance_IContext"
@@ -273,7 +273,7 @@ public:
   constexpr ControlContext(::UnityEngine::Audio::ControlHeader* m_Header, ::Unity::Audio::Handle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20341 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20388 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -306,25 +306,25 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method BeginMix, addr 0x6eab2c0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method BeginMix, addr 0x6ee7f5c, size 0x118, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::UnityEngine::Audio::RealtimeContext> BeginMix(uint64_t dspTick);
 
-  /// @brief Method Dispose, addr 0x6eab480, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6ee811c, size 0x48, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method EndMix, addr 0x6eab3d8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method EndMix, addr 0x6ee8074, size 0x10, virtual false, abstract: false, final false
   inline void EndMix(::UnityEngine::Audio::ChannelBuffer result);
 
-  /// @brief Method SetConfiguration, addr 0x6eab424, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetConfiguration, addr 0x6ee80c0, size 0x5c, virtual false, abstract: false, final false
   inline void SetConfiguration(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::AudioFormat const> format);
 
-  /// @brief Method Update, addr 0x6eab3e8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6ee8084, size 0x3c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method .ctor, addr 0x6eaada8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ee7a44, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::ControlContext const> context);
 
-  /// @brief Method get_context, addr 0x6eab2ac, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_context, addr 0x6ee7f48, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Audio::ControlContext get_context();
 
   /// @brief Convert to "::System::IDisposable"
@@ -338,7 +338,7 @@ public:
   constexpr ControlContext_Manual(::UnityEngine::Audio::ControlContext m_Context) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20338 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20385 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -368,7 +368,7 @@ public:
   constexpr ControlContext_ProcessorUpdateSetting();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20339 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20386 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -397,7 +397,7 @@ public:
   constexpr ControlContext_ProcessorCreationParameters();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20340 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20387 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

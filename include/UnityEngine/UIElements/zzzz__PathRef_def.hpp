@@ -38,13 +38,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Path(::Unity::Properties::PropertyPath value);
 
-  /// @brief Method .ctor, addr 0x7154c10, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7191b44, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsEmpty, addr 0x7154c00, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x7191b34, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method get_path, addr 0x7154bf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_path, addr 0x7191b2c, size 0x8, virtual false, abstract: false, final false
   inline ::by_ref<::Unity::Properties::PropertyPath> get_path();
 
 protected:

@@ -4,25 +4,12 @@
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "BeatSaber/Haptics/zzzz__HapticPresetSO_def.hpp"
 #include "Oculus/Haptics/zzzz__HapticClip_def.hpp"
-#include "UnityEngine/zzzz__AudioClip_def.hpp"
-//  Writing Method size for method: ::BeatSaber::Haptics::HapticPresetSO.get_hasPS5HapticsClip
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::Haptics::HapticPresetSO::*)()>(&::BeatSaber::Haptics::HapticPresetSO::get_hasPS5HapticsClip)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x35202ac;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Haptics::HapticPresetSO*>(), { "get_hasPS5HapticsClip", {}, {} })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::BeatSaber::Haptics::HapticPresetSO.get_hasOculusHapticsClip
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::Haptics::HapticPresetSO::*)()>(&::BeatSaber::Haptics::HapticPresetSO::get_hasOculusHapticsClip)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x351f054;
+  constexpr static std::size_t addrs = 0x353f9c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Haptics::HapticPresetSO*>(), { "get_hasOculusHapticsClip", {}, {} })));
@@ -34,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Haptics::HapticPresetSO::*)()>(&::BeatSaber::Haptics::HapticPresetSO::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3520390;
+  constexpr static std::size_t addrs = 0x3540c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Haptics::HapticPresetSO*>(), { ".ctor", {}, {} })));
@@ -101,30 +88,6 @@ constexpr void BeatSaber::Haptics::HapticPresetSO::__cordl_internal_set__useAdva
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____useAdvancedHapticsOnSupportedPlatforms = value;
 }
-constexpr ::UnityW<::UnityEngine::AudioClip>& BeatSaber::Haptics::HapticPresetSO::__cordl_internal_get__ps5HapticsClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____ps5HapticsClip;
-}
-constexpr ::UnityW<::UnityEngine::AudioClip> const& BeatSaber::Haptics::HapticPresetSO::__cordl_internal_get__ps5HapticsClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____ps5HapticsClip;
-}
-constexpr void BeatSaber::Haptics::HapticPresetSO::__cordl_internal_set__ps5HapticsClip(::UnityW<::UnityEngine::AudioClip> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____ps5HapticsClip = value;
-}
-constexpr ::System::Nullable_1<bool>& BeatSaber::Haptics::HapticPresetSO::__cordl_internal_get__hasPS5HapticsClip() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____hasPS5HapticsClip;
-}
-constexpr ::System::Nullable_1<bool> const& BeatSaber::Haptics::HapticPresetSO::__cordl_internal_get__hasPS5HapticsClip() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____hasPS5HapticsClip;
-}
-constexpr void BeatSaber::Haptics::HapticPresetSO::__cordl_internal_set__hasPS5HapticsClip(::System::Nullable_1<bool> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____hasPS5HapticsClip = value;
-}
 constexpr ::UnityW<::Oculus::Haptics::HapticClip>& BeatSaber::Haptics::HapticPresetSO::__cordl_internal_get__oculusHapticsClip() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oculusHapticsClip;
@@ -184,10 +147,6 @@ constexpr ::System::Nullable_1<bool> const& BeatSaber::Haptics::HapticPresetSO::
 constexpr void BeatSaber::Haptics::HapticPresetSO::__cordl_internal_set__hasOculusHapticsClip(::System::Nullable_1<bool> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hasOculusHapticsClip = value;
-}
-inline bool BeatSaber::Haptics::HapticPresetSO::get_hasPS5HapticsClip() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Haptics::HapticPresetSO*>(), { "get_hasPS5HapticsClip", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline bool BeatSaber::Haptics::HapticPresetSO::get_hasOculusHapticsClip() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Haptics::HapticPresetSO*>(), { "get_hasOculusHapticsClip", {}, {} })));

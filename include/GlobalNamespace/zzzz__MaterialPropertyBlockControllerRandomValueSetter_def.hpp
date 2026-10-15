@@ -3,9 +3,7 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cmath>
 #include <cstdint>
@@ -20,7 +18,7 @@ class MaterialPropertyBlockControllerRandomValueSetter;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter*, "", "MaterialPropertyBlockControllerRandomValueSetter");
-// Dependencies UnityEngine.MaterialPropertyBlock, UnityEngine.MonoBehaviour
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MaterialPropertyBlockControllerRandomValueSetter
@@ -32,42 +30,35 @@ public:
                       put = __cordl_internal_set__materialPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>
       _materialPropertyBlockController;
 
-  /// @brief Field _materialPropertyBlocks, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__materialPropertyBlocks, put = __cordl_internal_set__materialPropertyBlocks)) ::ArrayW<::UnityEngine::MaterialPropertyBlock*> _materialPropertyBlocks;
-
   /// @brief Field _max, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__max, put = __cordl_internal_set__max)) float_t _max;
 
   /// @brief Field _min, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__min, put = __cordl_internal_set__min)) float_t _min;
 
-  /// @brief Field _propertyId, offset 0x40, size 0x4
+  /// @brief Field _propertyId, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__propertyId, put = __cordl_internal_set__propertyId)) int32_t _propertyId;
 
   /// @brief Field _propertyName, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__propertyName, put = __cordl_internal_set__propertyName)) ::StringW _propertyName;
 
-  /// @brief Method ApplyParams, addr 0x5c883fc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ApplyParams, addr 0x5cc08fc, size 0xdc, virtual false, abstract: false, final false
   inline void ApplyParams();
 
   static inline ::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x5c884d8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x5cc09d8, size 0x28, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method RefreshPropertyId, addr 0x5c883dc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RefreshPropertyId, addr 0x5cc08dc, size 0x20, virtual false, abstract: false, final false
   inline void RefreshPropertyId();
 
-  /// @brief Method Start, addr 0x5c883b4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5cc08b4, size 0x28, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
 
   constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__materialPropertyBlockController();
-
-  constexpr ::ArrayW<::UnityEngine::MaterialPropertyBlock*> const& __cordl_internal_get__materialPropertyBlocks() const;
-
-  constexpr ::ArrayW<::UnityEngine::MaterialPropertyBlock*>& __cordl_internal_get__materialPropertyBlocks();
 
   constexpr float_t const& __cordl_internal_get__max() const;
 
@@ -87,8 +78,6 @@ public:
 
   constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
-  constexpr void __cordl_internal_set__materialPropertyBlocks(::ArrayW<::UnityEngine::MaterialPropertyBlock*> value);
-
   constexpr void __cordl_internal_set__max(float_t value);
 
   constexpr void __cordl_internal_set__min(float_t value);
@@ -97,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set__propertyName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5c88500, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cc0a00, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -115,7 +104,7 @@ public:
   MaterialPropertyBlockControllerRandomValueSetter(MaterialPropertyBlockControllerRandomValueSetter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20001 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20048 };
 
   /// [SerializeField]
   /// @brief Field _materialPropertyBlockController, offset: 0x20, size: 0x8, def value: None
@@ -134,10 +123,7 @@ public:
   /// @brief Field _max, offset: 0x34, size: 0x4, def value: None
   float_t ____max;
 
-  /// @brief Field _materialPropertyBlocks, offset: 0x38, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::MaterialPropertyBlock*> ____materialPropertyBlocks;
-
-  /// @brief Field _propertyId, offset: 0x40, size: 0x4, def value: None
+  /// @brief Field _propertyId, offset: 0x38, size: 0x4, def value: None
   int32_t ____propertyId;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -151,10 +137,8 @@ static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockControllerRandomV
 
 static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter, ____max) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter, ____materialPropertyBlocks) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter, ____propertyId) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter, ____propertyId) == 0x40, "Offset mismatch!");
-
-static_assert(sizeof(::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter) == 0x48, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace

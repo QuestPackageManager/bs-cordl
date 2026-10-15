@@ -49,37 +49,37 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Ratio>"
   constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Ratio>*();
 
-  /// @brief Method Auto, addr 0x71099b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Auto, addr 0x71468ec, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleRatio Auto();
 
-  /// @brief Method Equals, addr 0x7109a9c, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x71469d0, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x7109a4c, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x7146980, size 0x50, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StyleRatio other);
 
-  /// @brief Method GetHashCode, addr 0x7109b50, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x7146a84, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsAuto, addr 0x71099c4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsAuto, addr 0x71468f8, size 0x10, virtual false, abstract: false, final false
   inline bool IsAuto();
 
-  /// @brief Method ToString, addr 0x7109b74, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x7146aa8, size 0xb8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x71099ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71468e0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method .ctor, addr 0x7105364, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7142298, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Ratio value);
 
-  /// @brief Method .ctor, addr 0x71099a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71468d4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Ratio value, ::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method get_keyword, addr 0x710998c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_keyword, addr 0x71468c0, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
 
-  /// @brief Method get_value, addr 0x7109964, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_value, addr 0x7146898, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::Ratio get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleRatio>"
@@ -88,25 +88,25 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Ratio>"
   constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Ratio>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__Ratio_();
 
-  /// @brief Method op_Equality, addr 0x7109a00, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x7146934, size 0x4c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StyleRatio lhs, ::UnityEngine::UIElements::StyleRatio rhs);
 
-  /// @brief Method op_Implicit, addr 0x71099e4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x7146918, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Ratio op_Implicit___UnityEngine__UIElements__Ratio(::UnityEngine::UIElements::StyleRatio value);
 
-  /// @brief Method op_Implicit, addr 0x71099dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x7146910, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleRatio op_Implicit___UnityEngine__UIElements__StyleRatio(::UnityEngine::UIElements::Ratio value);
 
-  /// @brief Method op_Implicit, addr 0x7105370, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x71422a4, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleRatio op_Implicit___UnityEngine__UIElements__StyleRatio(::UnityEngine::UIElements::StyleKeyword value);
 
-  /// @brief Method op_Implicit, addr 0x71099d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x7146908, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleRatio op_Implicit___UnityEngine__UIElements__StyleRatio(float_t value);
 
-  /// @brief Method set_keyword, addr 0x7109994, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_keyword, addr 0x71468c8, size 0xc, virtual true, abstract: false, final true
   inline void set_keyword(::UnityEngine::UIElements::StyleKeyword value);
 
-  /// @brief Method set_value, addr 0x7109980, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_value, addr 0x71468b4, size 0xc, virtual true, abstract: false, final true
   inline void set_value(::UnityEngine::UIElements::Ratio value);
 
   // Ctor Parameters []

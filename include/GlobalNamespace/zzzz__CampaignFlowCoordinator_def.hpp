@@ -99,7 +99,7 @@ public:
 
   static inline ::GlobalNamespace::CampaignFlowCoordinator___c__DisplayClass22_0* New_ctor();
 
-  /// @brief Method <HandleMissionHelpViewControllerDidFinish>b__0, addr 0x5d3fe28, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <HandleMissionHelpViewControllerDidFinish>b__0, addr 0x5d7a80c, size 0x54, virtual false, abstract: false, final false
   inline void _HandleMissionHelpViewControllerDidFinish_b__0();
 
   constexpr ::UnityW<::GlobalNamespace::CampaignFlowCoordinator> const& __cordl_internal_get___4__this() const;
@@ -114,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set_viewController(::UnityW<::GlobalNamespace::MissionHelpViewController> value);
 
-  /// @brief Method .ctor, addr 0x5d3f88c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d7a270, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -132,7 +132,7 @@ public:
   CampaignFlowCoordinator___c__DisplayClass22_0(CampaignFlowCoordinator___c__DisplayClass22_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6949 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6956 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CampaignFlowCoordinator> _____4__this;
@@ -166,7 +166,7 @@ public:
 
   static inline ::GlobalNamespace::CampaignFlowCoordinator___c__DisplayClass24_0* New_ctor();
 
-  /// @brief Method <HandleMissionResultsViewControllerRetryButtonPressed>b__0, addr 0x5d3fe7c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <HandleMissionResultsViewControllerRetryButtonPressed>b__0, addr 0x5d7a860, size 0x54, virtual false, abstract: false, final false
   inline void _HandleMissionResultsViewControllerRetryButtonPressed_b__0();
 
   constexpr ::UnityW<::GlobalNamespace::CampaignFlowCoordinator> const& __cordl_internal_get___4__this() const;
@@ -181,7 +181,7 @@ public:
 
   constexpr void __cordl_internal_set_viewController(::UnityW<::GlobalNamespace::MissionResultsViewController> value);
 
-  /// @brief Method .ctor, addr 0x5d3fa70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d7a454, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -199,7 +199,7 @@ public:
   CampaignFlowCoordinator___c__DisplayClass24_0(CampaignFlowCoordinator___c__DisplayClass24_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6950 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6957 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CampaignFlowCoordinator> _____4__this;
@@ -228,108 +228,108 @@ public:
 
   using __c__DisplayClass24_0 = ::GlobalNamespace::CampaignFlowCoordinator___c__DisplayClass24_0;
 
-  /// @brief Field _beatmapLevelsModel, offset 0x118, size 0x8
+  /// @brief Field _beatmapLevelsModel, offset 0x110, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel)) ::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
 
-  /// @brief Field _campaignProgressModel, offset 0x110, size 0x8
+  /// @brief Field _campaignProgressModel, offset 0x108, size 0x8
   __declspec(property(get = __cordl_internal_get__campaignProgressModel, put = __cordl_internal_set__campaignProgressModel)) ::UnityW<::GlobalNamespace::CampaignProgressModel> _campaignProgressModel;
 
-  /// @brief Field _defaultLightsPreset, offset 0xb0, size 0x8
+  /// @brief Field _defaultLightsPreset, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__defaultLightsPreset, put = __cordl_internal_set__defaultLightsPreset)) ::UnityW<::GlobalNamespace::MenuLightsPresetSO> _defaultLightsPreset;
 
-  /// @brief Field _environmentsListModel, offset 0x100, size 0x8
+  /// @brief Field _environmentsListModel, offset 0xf8, size 0x8
   __declspec(property(get = __cordl_internal_get__environmentsListModel, put = __cordl_internal_set__environmentsListModel)) ::GlobalNamespace::EnvironmentsListModel* _environmentsListModel;
 
-  /// @brief Field _gameplaySetupViewController, offset 0xf0, size 0x8
+  /// @brief Field _gameplaySetupViewController, offset 0xe8, size 0x8
   __declspec(property(get = __cordl_internal_get__gameplaySetupViewController, put = __cordl_internal_set__gameplaySetupViewController)) ::UnityW<::GlobalNamespace::GameplaySetupViewController>
       _gameplaySetupViewController;
 
-  /// @brief Field _menuLightsManager, offset 0xd8, size 0x8
+  /// @brief Field _menuLightsManager, offset 0xd0, size 0x8
   __declspec(property(get = __cordl_internal_get__menuLightsManager, put = __cordl_internal_set__menuLightsManager)) ::UnityW<::GlobalNamespace::MenuLightsManager> _menuLightsManager;
 
-  /// @brief Field _menuTransitionsHelper, offset 0xd0, size 0x8
+  /// @brief Field _menuTransitionsHelper, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get__menuTransitionsHelper, put = __cordl_internal_set__menuTransitionsHelper)) ::GlobalNamespace::MenuTransitionsHelper* _menuTransitionsHelper;
 
-  /// @brief Field _missionHelpViewController, offset 0xf8, size 0x8
+  /// @brief Field _missionHelpViewController, offset 0xf0, size 0x8
   __declspec(property(get = __cordl_internal_get__missionHelpViewController, put = __cordl_internal_set__missionHelpViewController)) ::UnityW<::GlobalNamespace::MissionHelpViewController>
       _missionHelpViewController;
 
-  /// @brief Field _missionResultsViewController, offset 0xe8, size 0x8
+  /// @brief Field _missionResultsViewController, offset 0xe0, size 0x8
   __declspec(property(get = __cordl_internal_get__missionResultsViewController, put = __cordl_internal_set__missionResultsViewController)) ::UnityW<::GlobalNamespace::MissionResultsViewController>
       _missionResultsViewController;
 
-  /// @brief Field _missionSelectionNavigationController, offset 0xe0, size 0x8
+  /// @brief Field _missionSelectionNavigationController, offset 0xd8, size 0x8
   __declspec(property(get = __cordl_internal_get__missionSelectionNavigationController,
                       put = __cordl_internal_set__missionSelectionNavigationController)) ::UnityW<::GlobalNamespace::MissionSelectionNavigationController>
       _missionSelectionNavigationController;
 
-  /// @brief Field _newObjectiveLightsPreset, offset 0xc8, size 0x8
+  /// @brief Field _newObjectiveLightsPreset, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get__newObjectiveLightsPreset, put = __cordl_internal_set__newObjectiveLightsPreset)) ::UnityW<::GlobalNamespace::MenuLightsPresetSO>
       _newObjectiveLightsPreset;
 
-  /// @brief Field _playerDataModel, offset 0x108, size 0x8
+  /// @brief Field _playerDataModel, offset 0x100, size 0x8
   __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel)) ::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
-  /// @brief Field _resultsClearedLightsPreset, offset 0xb8, size 0x8
+  /// @brief Field _resultsClearedLightsPreset, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get__resultsClearedLightsPreset, put = __cordl_internal_set__resultsClearedLightsPreset)) ::UnityW<::GlobalNamespace::MenuLightsPresetSO>
       _resultsClearedLightsPreset;
 
-  /// @brief Field _resultsFailedLightsPreset, offset 0xc0, size 0x8
+  /// @brief Field _resultsFailedLightsPreset, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__resultsFailedLightsPreset, put = __cordl_internal_set__resultsFailedLightsPreset)) ::UnityW<::GlobalNamespace::MenuLightsPresetSO>
       _resultsFailedLightsPreset;
 
-  /// @brief Field _showCredits, offset 0x128, size 0x1
+  /// @brief Field _showCredits, offset 0x120, size 0x1
   __declspec(property(get = __cordl_internal_get__showCredits, put = __cordl_internal_set__showCredits)) bool _showCredits;
 
-  /// @brief Field didFinishEvent, offset 0x120, size 0x8
+  /// @brief Field didFinishEvent, offset 0x118, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::CampaignFlowCoordinator>>* didFinishEvent;
 
-  /// @brief Method BackButtonWasPressed, addr 0x5d3fcb0, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method BackButtonWasPressed, addr 0x5d7a694, size 0xb0, virtual true, abstract: false, final false
   inline void BackButtonWasPressed(::HMUI::ViewController* topViewController);
 
-  /// @brief Method DidActivate, addr 0x5d3eec0, size 0x260, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5d7989c, size 0x260, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x5d3f120, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5d79afc, size 0x1c4, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleMissionHelpViewControllerDidFinish, addr 0x5d3f79c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionHelpViewControllerDidFinish, addr 0x5d7a180, size 0xf0, virtual false, abstract: false, final false
   inline void HandleMissionHelpViewControllerDidFinish(::GlobalNamespace::MissionHelpViewController* viewController);
 
-  /// @brief Method HandleMissionLevelSceneDidFinish, addr 0x5d3fa74, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionLevelSceneDidFinish, addr 0x5d7a458, size 0xd0, virtual false, abstract: false, final false
   inline void HandleMissionLevelSceneDidFinish(::GlobalNamespace::MissionLevelScenesTransitionSetupData* missionLevelScenesTransitionSetupData,
                                                ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
 
-  /// @brief Method HandleMissionLevelSceneRestarted, addr 0x5d3fc84, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionLevelSceneRestarted, addr 0x5d7a668, size 0x2c, virtual false, abstract: false, final false
   inline void HandleMissionLevelSceneRestarted(::GlobalNamespace::MissionLevelScenesTransitionSetupData* missionLevelScenesTransitionSetupData,
                                                ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
 
-  /// @brief Method HandleMissionResultsViewControllerContinueButtonPressed, addr 0x5d3f890, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionResultsViewControllerContinueButtonPressed, addr 0x5d7a274, size 0xf0, virtual false, abstract: false, final false
   inline void HandleMissionResultsViewControllerContinueButtonPressed(::GlobalNamespace::MissionResultsViewController* viewController);
 
-  /// @brief Method HandleMissionResultsViewControllerRetryButtonPressed, addr 0x5d3f980, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionResultsViewControllerRetryButtonPressed, addr 0x5d7a364, size 0xf0, virtual false, abstract: false, final false
   inline void HandleMissionResultsViewControllerRetryButtonPressed(::GlobalNamespace::MissionResultsViewController* viewController);
 
-  /// @brief Method HandleMissionSelectionNavigationControllerDidPressPlayButton, addr 0x5d3f3d4, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionSelectionNavigationControllerDidPressPlayButton, addr 0x5d79db0, size 0x144, virtual false, abstract: false, final false
   inline void HandleMissionSelectionNavigationControllerDidPressPlayButton(::GlobalNamespace::MissionSelectionNavigationController* viewController);
 
   static inline ::GlobalNamespace::CampaignFlowCoordinator* New_ctor();
 
-  /// @brief Method StartLevel, addr 0x5d3f518, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method StartLevel, addr 0x5d79ef4, size 0x28c, virtual false, abstract: false, final false
   inline void StartLevel(::System::Action* beforeSceneSwitchCallback);
 
-  /// @brief Method TopViewControllerWillChange, addr 0x5d3f2e4, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method TopViewControllerWillChange, addr 0x5d79cc0, size 0xf0, virtual true, abstract: false, final false
   inline void TopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController, ::HMUI::ViewController_AnimationType animationType);
 
-  /// @brief Method UpdatePlayerStatistics, addr 0x5d3fb44, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method UpdatePlayerStatistics, addr 0x5d7a528, size 0x140, virtual false, abstract: false, final false
   inline void UpdatePlayerStatistics(::GlobalNamespace::MissionCompletionResults* missionCompletionResults, ::GlobalNamespace::MissionNode* missionNode);
 
   /// [CompilerGenerated]
-  /// @brief Method <HandleMissionResultsViewControllerContinueButtonPressed>b__23_0, addr 0x5d3fd68, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <HandleMissionResultsViewControllerContinueButtonPressed>b__23_0, addr 0x5d7a74c, size 0x90, virtual false, abstract: false, final false
   inline void _HandleMissionResultsViewControllerContinueButtonPressed_b__23_0();
 
   /// [CompilerGenerated]
-  /// @brief Method <HandleMissionResultsViewControllerContinueButtonPressed>b__23_1, addr 0x5d3fdf8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <HandleMissionResultsViewControllerContinueButtonPressed>b__23_1, addr 0x5d7a7dc, size 0x30, virtual false, abstract: false, final false
   inline void _HandleMissionResultsViewControllerContinueButtonPressed_b__23_1(bool presented);
 
   constexpr ::GlobalNamespace::BeatmapLevelsModel* const& __cordl_internal_get__beatmapLevelsModel() const;
@@ -428,15 +428,15 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::CampaignFlowCoordinator>>* value);
 
-  /// @brief Method .ctor, addr 0x5d3fd60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d7a744, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_didFinishEvent, addr 0x5d3ed40, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x5d7971c, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::CampaignFlowCoordinator>>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_didFinishEvent, addr 0x5d3ee00, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x5d797dc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::CampaignFlowCoordinator>>* value);
 
 protected:
@@ -454,106 +454,106 @@ public:
   CampaignFlowCoordinator(CampaignFlowCoordinator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6951 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6958 };
 
   /// [SerializeField]
-  /// @brief Field _defaultLightsPreset, offset: 0xb0, size: 0x8, def value: None
+  /// @brief Field _defaultLightsPreset, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____defaultLightsPreset;
 
   /// [SerializeField]
-  /// @brief Field _resultsClearedLightsPreset, offset: 0xb8, size: 0x8, def value: None
+  /// @brief Field _resultsClearedLightsPreset, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____resultsClearedLightsPreset;
 
   /// [SerializeField]
-  /// @brief Field _resultsFailedLightsPreset, offset: 0xc0, size: 0x8, def value: None
+  /// @brief Field _resultsFailedLightsPreset, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____resultsFailedLightsPreset;
 
   /// [SerializeField]
-  /// @brief Field _newObjectiveLightsPreset, offset: 0xc8, size: 0x8, def value: None
+  /// @brief Field _newObjectiveLightsPreset, offset: 0xc0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____newObjectiveLightsPreset;
 
   /// [Inject]
-  /// @brief Field _menuTransitionsHelper, offset: 0xd0, size: 0x8, def value: None
+  /// @brief Field _menuTransitionsHelper, offset: 0xc8, size: 0x8, def value: None
   ::GlobalNamespace::MenuTransitionsHelper* ____menuTransitionsHelper;
 
   /// [Inject]
-  /// @brief Field _menuLightsManager, offset: 0xd8, size: 0x8, def value: None
+  /// @brief Field _menuLightsManager, offset: 0xd0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsManager> ____menuLightsManager;
 
   /// [Inject]
-  /// @brief Field _missionSelectionNavigationController, offset: 0xe0, size: 0x8, def value: None
+  /// @brief Field _missionSelectionNavigationController, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionSelectionNavigationController> ____missionSelectionNavigationController;
 
   /// [Inject]
-  /// @brief Field _missionResultsViewController, offset: 0xe8, size: 0x8, def value: None
+  /// @brief Field _missionResultsViewController, offset: 0xe0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionResultsViewController> ____missionResultsViewController;
 
   /// [Inject]
-  /// @brief Field _gameplaySetupViewController, offset: 0xf0, size: 0x8, def value: None
+  /// @brief Field _gameplaySetupViewController, offset: 0xe8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplaySetupViewController> ____gameplaySetupViewController;
 
   /// [Inject]
-  /// @brief Field _missionHelpViewController, offset: 0xf8, size: 0x8, def value: None
+  /// @brief Field _missionHelpViewController, offset: 0xf0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionHelpViewController> ____missionHelpViewController;
 
   /// [Inject]
-  /// @brief Field _environmentsListModel, offset: 0x100, size: 0x8, def value: None
+  /// @brief Field _environmentsListModel, offset: 0xf8, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentsListModel* ____environmentsListModel;
 
   /// [Inject]
-  /// @brief Field _playerDataModel, offset: 0x108, size: 0x8, def value: None
+  /// @brief Field _playerDataModel, offset: 0x100, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
   /// [Inject]
-  /// @brief Field _campaignProgressModel, offset: 0x110, size: 0x8, def value: None
+  /// @brief Field _campaignProgressModel, offset: 0x108, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CampaignProgressModel> ____campaignProgressModel;
 
   /// [Inject]
-  /// @brief Field _beatmapLevelsModel, offset: 0x118, size: 0x8, def value: None
+  /// @brief Field _beatmapLevelsModel, offset: 0x110, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
 
   /// [CompilerGenerated]
-  /// @brief Field didFinishEvent, offset: 0x120, size: 0x8, def value: None
+  /// @brief Field didFinishEvent, offset: 0x118, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::CampaignFlowCoordinator>>* ___didFinishEvent;
 
-  /// @brief Field _showCredits, offset: 0x128, size: 0x1, def value: None
+  /// @brief Field _showCredits, offset: 0x120, size: 0x1, def value: None
   bool ____showCredits;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____defaultLightsPreset) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____defaultLightsPreset) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____resultsClearedLightsPreset) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____resultsClearedLightsPreset) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____resultsFailedLightsPreset) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____resultsFailedLightsPreset) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____newObjectiveLightsPreset) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____newObjectiveLightsPreset) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____menuTransitionsHelper) == 0xd0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____menuTransitionsHelper) == 0xc8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____menuLightsManager) == 0xd8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____menuLightsManager) == 0xd0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____missionSelectionNavigationController) == 0xe0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____missionSelectionNavigationController) == 0xd8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____missionResultsViewController) == 0xe8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____missionResultsViewController) == 0xe0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____gameplaySetupViewController) == 0xf0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____gameplaySetupViewController) == 0xe8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____missionHelpViewController) == 0xf8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____missionHelpViewController) == 0xf0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____environmentsListModel) == 0x100, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____environmentsListModel) == 0xf8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____playerDataModel) == 0x108, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____playerDataModel) == 0x100, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____campaignProgressModel) == 0x110, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____campaignProgressModel) == 0x108, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____beatmapLevelsModel) == 0x118, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____beatmapLevelsModel) == 0x110, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ___didFinishEvent) == 0x120, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ___didFinishEvent) == 0x118, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____showCredits) == 0x128, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CampaignFlowCoordinator, ____showCredits) == 0x120, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::CampaignFlowCoordinator) == 0x130, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::CampaignFlowCoordinator) == 0x128, "Size mismatch!");
 
 } // namespace GlobalNamespace

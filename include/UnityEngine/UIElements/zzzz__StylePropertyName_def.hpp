@@ -66,50 +66,50 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StylePropertyName>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StylePropertyName>*();
 
-  /// @brief Method Equals, addr 0x7112fec, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x714ff20, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x7113068, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x714ff9c, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StylePropertyName other);
 
-  /// @brief Method GetHashCode, addr 0x7112fe4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x714ff18, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method StylePropertyIdFromString, addr 0x7112e1c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method StylePropertyIdFromString, addr 0x714fd50, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSheets::StylePropertyId StylePropertyIdFromString(::StringW name);
 
-  /// @brief Method ToString, addr 0x7113078, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x714ffac, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x7112f78, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x714feac, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method .ctor, addr 0x7112ec4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x714fdf8, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheets::StylePropertyId stylePropertyId);
 
   /// [IsReadOnly]
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// [CompilerGenerated]
-  /// @brief Method get_id, addr 0x7112e0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x714fd40, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::StylePropertyId get_id();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_name, addr 0x7112e14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x714fd48, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StylePropertyName>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StylePropertyName>* i___System__IEquatable_1___UnityEngine__UIElements__StylePropertyName_();
 
-  /// @brief Method op_Equality, addr 0x7112fac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x714fee0, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StylePropertyName lhs, ::UnityEngine::UIElements::StylePropertyName rhs);
 
-  /// @brief Method op_Implicit, addr 0x7112fc4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x714fef8, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StylePropertyName op_Implicit___UnityEngine__UIElements__StylePropertyName(::StringW name);
 
-  /// @brief Method op_Inequality, addr 0x7112fb8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x714feec, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::StylePropertyName lhs, ::UnityEngine::UIElements::StylePropertyName rhs);
 
   // Ctor Parameters []
@@ -164,12 +164,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x7113278, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x71501ac, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::StylePropertyId GetValue(::by_ref<::UnityEngine::UIElements::StylePropertyName> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_StylePropertyName_IdProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x7113280, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x71501b4, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::StylePropertyName> container, ::UnityEngine::UIElements::StyleSheets::StylePropertyId value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -184,15 +184,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x7113198, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71500cc, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x7113270, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x71501a4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x7113268, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x715019c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -249,12 +249,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x7113294, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x71501c8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW GetValue(::by_ref<::UnityEngine::UIElements::StylePropertyName> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_StylePropertyName_NameProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x711329c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x71501d0, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::StylePropertyName> container, ::StringW value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -269,15 +269,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x7113200, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7150134, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x711328c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x71501c0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x7113284, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x71501b8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -330,7 +330,7 @@ public:
 
   static inline ::UnityEngine::UIElements::StylePropertyName_PropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x7113080, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x714ffb4, size 0x118, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

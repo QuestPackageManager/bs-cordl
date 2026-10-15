@@ -29,10 +29,10 @@ namespace UnityEngine::Audio {
 struct CORDL_TYPE ProcessorHeader {
 public:
   // Declarations
-  /// @brief Method InvokeProcessor, addr 0x6eabed0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method InvokeProcessor, addr 0x6ee8b6c, size 0x8c, virtual false, abstract: false, final false
   inline void InvokeProcessor(::UnityEngine::Audio::ProcessorFunction fn, void* args);
 
-  /// @brief Method IsSameControl, addr 0x6eac978, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsSameControl, addr 0x6ee9614, size 0x10, virtual false, abstract: false, final false
   inline bool IsSameControl(::UnityEngine::Audio::ControlHeader* other);
 
   // Ctor Parameters []
@@ -47,7 +47,7 @@ public:
                             ::System::IntPtr ProcessorReflectionData, ::System::IntPtr ControlReflectionData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20399 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20446 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };

@@ -64,64 +64,64 @@ public:
   // Declarations
   __declspec(property(get = get_hasShadingRateImage)) bool hasShadingRateImage;
 
-  /// @brief Method AddDepthAttachmentFirstDuringMerge, addr 0x6c2abe0, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method AddDepthAttachmentFirstDuringMerge, addr 0x6c6785c, size 0x2d8, virtual false, abstract: false, final false
   inline void AddDepthAttachmentFirstDuringMerge(Il2CppObject* contextData,
                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData const> depthAttachment);
 
-  /// @brief Method AreExtendedFeatureFlagsCompatible, addr 0x6c298b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AreExtendedFeatureFlagsCompatible, addr 0x6c6652c, size 0x8, virtual false, abstract: false, final false
   static inline bool AreExtendedFeatureFlagsCompatible(::UnityEngine::Rendering::RenderGraphModule::ExtendedFeatureFlags flags0,
                                                        ::UnityEngine::Rendering::RenderGraphModule::ExtendedFeatureFlags flags1);
 
-  /// @brief Method CanMerge, addr 0x6c298b8, size 0xba0, virtual false, abstract: false, final false
+  /// @brief Method CanMerge, addr 0x6c66534, size 0xba0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakAudit CanMerge(Il2CppObject* contextData, int32_t activeNativePassId, int32_t passIdToMerge);
 
-  /// @brief Method CanMergeMSAASamples, addr 0x6c2987c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method CanMergeMSAASamples, addr 0x6c664f8, size 0x34, virtual false, abstract: false, final false
   static inline bool CanMergeMSAASamples(::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassData> nativePass,
                                          ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData> passToMerge);
 
-  /// @brief Method CanMergeNativeSubPass, addr 0x6c2a6b0, size 0x530, virtual false, abstract: false, final false
+  /// @brief Method CanMergeNativeSubPass, addr 0x6c6732c, size 0x530, virtual false, abstract: false, final false
   static inline bool CanMergeNativeSubPass(Il2CppObject* contextData, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassData> nativePass,
                                            ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData> passToMerge);
 
-  /// @brief Method Clear, addr 0x6c293c8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6c66044, size 0x134, virtual false, abstract: false, final false
   inline void Clear();
 
   /// [IsReadOnly]
-  /// @brief Method GetGraphPassNames, addr 0x6c29710, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method GetGraphPassNames, addr 0x6c6638c, size 0x16c, virtual false, abstract: false, final false
   inline void GetGraphPassNames(Il2CppObject* ctx, ::UnityEngine::Rendering::DynamicArray_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::Name>* dest);
 
-  /// @brief Method GetSubPassFlagForMerging, addr 0x6c292d4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetSubPassFlagForMerging, addr 0x6c65f50, size 0xf4, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::SubPassFlags GetSubPassFlagForMerging();
 
   /// [IsReadOnly]
-  /// @brief Method GraphPasses, addr 0x6c2950c, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method GraphPasses, addr 0x6c66188, size 0x204, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>
   GraphPasses(Il2CppObject* ctx, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData>> actualPasses);
 
   /// [IsReadOnly]
-  /// @brief Method IsValid, addr 0x6c294fc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6c66178, size 0x10, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method SetPassStatesForNativePass, addr 0x6c2b50c, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method SetPassStatesForNativePass, addr 0x6c68188, size 0x1d4, virtual false, abstract: false, final false
   static inline void SetPassStatesForNativePass(Il2CppObject* contextData, int32_t nativePassId);
 
-  /// @brief Method TotalAttachmentsSizeExceedPixelStorageLimit, addr 0x6c2a458, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method TotalAttachmentsSizeExceedPixelStorageLimit, addr 0x6c670d4, size 0x258, virtual false, abstract: false, final false
   static inline bool TotalAttachmentsSizeExceedPixelStorageLimit(
       Il2CppObject* contextData, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassData> nativePass,
       ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::FixedAttachmentArray_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData>>
           attachmentsToTryAdding);
 
-  /// @brief Method TryMerge, addr 0x6c2aeb8, size 0x654, virtual false, abstract: false, final false
+  /// @brief Method TryMerge, addr 0x6c67b34, size 0x654, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakAudit TryMerge(Il2CppObject* contextData, int32_t activeNativePassId, int32_t passIdToMerge);
 
-  /// @brief Method TryMergeNativeSubPass, addr 0x6c28d08, size 0x5cc, virtual false, abstract: false, final false
+  /// @brief Method TryMergeNativeSubPass, addr 0x6c65984, size 0x5cc, virtual false, abstract: false, final false
   static inline void TryMergeNativeSubPass(Il2CppObject* contextData, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassData> nativePass,
                                            ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData> passToMerge);
 
-  /// @brief Method .ctor, addr 0x6c289b4, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c65630, size 0x354, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData> pass, Il2CppObject* ctx);
 
-  /// @brief Method get_hasShadingRateImage, addr 0x6c289a4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasShadingRateImage, addr 0x6c65620, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasShadingRateImage();
 
   // Ctor Parameters []
@@ -161,7 +161,7 @@ public:
       ::UnityEngine::Rendering::ShadingRateCombiner primitiveShadingRateCombiner, ::UnityEngine::Rendering::ShadingRateCombiner fragmentShadingRateCombiner) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9416 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9423 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2d4 };

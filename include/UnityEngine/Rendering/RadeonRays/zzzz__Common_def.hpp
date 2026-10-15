@@ -27,10 +27,10 @@ namespace UnityEngine::Rendering::RadeonRays {
 class CORDL_TYPE Common : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CeilDivide, addr 0x6dfb71c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CeilDivide, addr 0x6e383b8, size 0x10, virtual false, abstract: false, final false
   static inline uint32_t CeilDivide(uint32_t val, uint32_t div);
 
-  /// @brief Method EnableKeyword, addr 0x6dfb72c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method EnableKeyword, addr 0x6e383c8, size 0xa8, virtual false, abstract: false, final false
   static inline void EnableKeyword(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::ComputeShader* shader, ::StringW keyword, bool enable);
 
 protected:
@@ -48,7 +48,7 @@ public:
   Common(Common const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20421 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20468 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

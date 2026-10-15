@@ -19,8 +19,11 @@
 #include "GlobalNamespace/zzzz__ILevelEndActions_def.hpp"
 #include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
 #include "GlobalNamespace/zzzz__MenuTransitionsHelper_def.hpp"
+#include "GlobalNamespace/zzzz__OverrideEnvironmentSettings_def.hpp"
 #include "GlobalNamespace/zzzz__PauseController_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
 #include "GlobalNamespace/zzzz__PlaymodeOptions_def.hpp"
+#include "GlobalNamespace/zzzz__PracticeSettings_def.hpp"
 #include "GlobalNamespace/zzzz__SongRunningHelper_def.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelScenesTransitionSetupData_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
@@ -36,61 +39,65 @@ constexpr ::GlobalNamespace::SongRunningHelper_MessageStrings::SongRunningHelper
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongRunningHelper_QueuedSongParams::*)(
-    ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty, bool, ::GlobalNamespace::GameplayModifiers_SongSpeed,
-    ::GlobalNamespace::PlaymodeOptions, ::StringW, bool, ::StringW, bool, bool,
+    ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::OverrideEnvironmentSettings*, ::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty, bool,
+    ::GlobalNamespace::GameplayModifiers_SongSpeed, ::GlobalNamespace::PlaymodeOptions, ::StringW, bool, ::StringW, bool, bool,
     ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>*, float_t, bool, float_t)>(
     &::GlobalNamespace::SongRunningHelper_QueuedSongParams::_ctor)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5cd3718;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x5d0c988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper_QueuedSongParams>(),
-                            { ".ctor",
-                              {},
-                              { ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>(), ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristic>(), ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>(),
-                                ::i2c::type_of<bool>(), ::i2c::type_of<::GlobalNamespace::GameplayModifiers_SongSpeed>(), ::i2c::type_of<::GlobalNamespace::PlaymodeOptions>(),
-                                ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(),
-                                ::i2c::type_of<::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>*>(),
-                                ::i2c::type_of<float_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<float_t>() } })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper_QueuedSongParams>(),
+                                                { ".ctor",
+                                                  {},
+                                                  { ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>(), ::i2c::type_of<::GlobalNamespace::OverrideEnvironmentSettings*>(),
+                                                    ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristic>(), ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>(), ::i2c::type_of<bool>(),
+                                                    ::i2c::type_of<::GlobalNamespace::GameplayModifiers_SongSpeed>(), ::i2c::type_of<::GlobalNamespace::PlaymodeOptions>(), ::i2c::type_of<::StringW>(),
+                                                    ::i2c::type_of<bool>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(),
+                                                    ::i2c::type_of<::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>*>(),
+                                                    ::i2c::type_of<float_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
 inline void GlobalNamespace::SongRunningHelper_QueuedSongParams::_ctor(
-    ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapCharacteristic characteristic, ::GlobalNamespace::BeatmapDifficulty difficulty, bool advancedHud,
-    ::GlobalNamespace::GameplayModifiers_SongSpeed songSpeed, ::GlobalNamespace::PlaymodeOptions playmodeOptions, ::StringW recordingRelativePath, bool profileSong, ::StringW reportDescriptor,
-    bool zenMode, bool disablePause, ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>* songFinishedCallback,
-    float_t startTimeSec, bool clearNotesOnStart, float_t playDurationSec) {
+    ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, ::GlobalNamespace::BeatmapCharacteristic characteristic,
+    ::GlobalNamespace::BeatmapDifficulty difficulty, bool advancedHud, ::GlobalNamespace::GameplayModifiers_SongSpeed songSpeed, ::GlobalNamespace::PlaymodeOptions playmodeOptions,
+    ::StringW recordingRelativePath, bool profileSong, ::StringW reportDescriptor, bool zenMode, bool disablePause,
+    ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>* songFinishedCallback, float_t startTimeSec, bool clearNotesOnStart,
+    float_t playDurationSec) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper_QueuedSongParams>(),
-                          { ".ctor",
-                            {},
-                            { ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>(), ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristic>(), ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>(),
-                              ::i2c::type_of<bool>(), ::i2c::type_of<::GlobalNamespace::GameplayModifiers_SongSpeed>(), ::i2c::type_of<::GlobalNamespace::PlaymodeOptions>(),
-                              ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(),
-                              ::i2c::type_of<::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>*>(), ::i2c::type_of<float_t>(),
-                              ::i2c::type_of<bool>(), ::i2c::type_of<float_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, beatmapLevel, characteristic, difficulty, advancedHud, songSpeed, playmodeOptions, recordingRelativePath, profileSong,
-                                                   reportDescriptor, zenMode, disablePause, songFinishedCallback, startTimeSec, clearNotesOnStart, playDurationSec);
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper_QueuedSongParams>(),
+                                              { ".ctor",
+                                                {},
+                                                { ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>(), ::i2c::type_of<::GlobalNamespace::OverrideEnvironmentSettings*>(),
+                                                  ::i2c::type_of<::GlobalNamespace::BeatmapCharacteristic>(), ::i2c::type_of<::GlobalNamespace::BeatmapDifficulty>(), ::i2c::type_of<bool>(),
+                                                  ::i2c::type_of<::GlobalNamespace::GameplayModifiers_SongSpeed>(), ::i2c::type_of<::GlobalNamespace::PlaymodeOptions>(), ::i2c::type_of<::StringW>(),
+                                                  ::i2c::type_of<bool>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(),
+                                                  ::i2c::type_of<::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>*>(),
+                                                  ::i2c::type_of<float_t>(), ::i2c::type_of<bool>(), ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, beatmapLevel, overrideEnvironmentSettings, characteristic, difficulty, advancedHud, songSpeed, playmodeOptions,
+                                                   recordingRelativePath, profileSong, reportDescriptor, zenMode, disablePause, songFinishedCallback, startTimeSec, clearNotesOnStart, playDurationSec);
 }
-// Ctor Parameters [CppParam { name: "beatmapLevel", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "difficulty", ty:
-// "::GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "characteristic", ty: "::GlobalNamespace::BeatmapCharacteristic", modifiers: "",
-// def_value: Some("{}"), comment: None }, CppParam { name: "advancedHud", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "songSpeed", ty:
-// "::GlobalNamespace::GameplayModifiers_SongSpeed", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "playmodeOptions", ty: "::GlobalNamespace::PlaymodeOptions", modifiers: "",
-// def_value: Some("{}"), comment: None }, CppParam { name: "recordingRelativePath", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "profileSong", ty: "bool",
-// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "reportDescriptor", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
-// "songFinishedCallback", ty: "::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupData*,::GlobalNamespace::LevelCompletionResults*>*", modifiers: "", def_value: Some("{}"),
-// comment: None }, CppParam { name: "zenMode", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "disablePause", ty: "bool", modifiers: "", def_value: Some("{}"),
-// comment: None }, CppParam { name: "startTimeSec", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "clearNotesOnStart", ty: "bool", modifiers: "", def_value:
-// Some("{}"), comment: None }, CppParam { name: "playDurationSec", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
+// Ctor Parameters [CppParam { name: "beatmapLevel", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "overrideEnvironmentSettings", ty:
+// "::GlobalNamespace::OverrideEnvironmentSettings*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "difficulty", ty: "::GlobalNamespace::BeatmapDifficulty", modifiers: "",
+// def_value: Some("{}"), comment: None }, CppParam { name: "characteristic", ty: "::GlobalNamespace::BeatmapCharacteristic", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "advancedHud", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "songSpeed", ty: "::GlobalNamespace::GameplayModifiers_SongSpeed", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "playmodeOptions", ty: "::GlobalNamespace::PlaymodeOptions", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "recordingRelativePath", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "profileSong", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "reportDescriptor", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "songFinishedCallback", ty:
+// "::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupData*,::GlobalNamespace::LevelCompletionResults*>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "zenMode", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "disablePause", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
+// "startTimeSec", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "clearNotesOnStart", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None },
+// CppParam { name: "playDurationSec", ty: "float_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::SongRunningHelper_QueuedSongParams::SongRunningHelper_QueuedSongParams(
-    ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficulty difficulty, ::GlobalNamespace::BeatmapCharacteristic characteristic, bool advancedHud,
-    ::GlobalNamespace::GameplayModifiers_SongSpeed songSpeed, ::GlobalNamespace::PlaymodeOptions playmodeOptions, ::StringW recordingRelativePath, bool profileSong, ::StringW reportDescriptor,
+    ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, ::GlobalNamespace::BeatmapDifficulty difficulty,
+    ::GlobalNamespace::BeatmapCharacteristic characteristic, bool advancedHud, ::GlobalNamespace::GameplayModifiers_SongSpeed songSpeed, ::GlobalNamespace::PlaymodeOptions playmodeOptions,
+    ::StringW recordingRelativePath, bool profileSong, ::StringW reportDescriptor,
     ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>* songFinishedCallback, bool zenMode, bool disablePause,
     float_t startTimeSec, bool clearNotesOnStart, float_t playDurationSec) noexcept {
   this->beatmapLevel = beatmapLevel;
+  this->overrideEnvironmentSettings = overrideEnvironmentSettings;
   this->difficulty = difficulty;
   this->characteristic = characteristic;
   this->advancedHud = advancedHud;
@@ -108,627 +115,870 @@ constexpr ::GlobalNamespace::SongRunningHelper_QueuedSongParams::SongRunningHelp
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SongRunningHelper_QueuedSongParams::SongRunningHelper_QueuedSongParams() {}
-//  Writing Method size for method: ::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d._ctor
+//  Writing Method size for method: ::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::*)(int32_t)>(
-    &::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::*)(int32_t)>(
+    &::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd416c;
+  constexpr static std::size_t addrs = 0x5d0d3e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::*)()>(
-    &::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::System_IDisposable_Dispose)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cd4174;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::*)()>(
+    &::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::System_IDisposable_Dispose)> {
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x5d0d3e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*>(), { "System.IDisposable.Dispose", {}, {} })));
+        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*>(), { "System.IDisposable.Dispose", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::*)()>(
-    &::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::MoveNext)> {
-  constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x5cd4178;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::*)()>(
+    &::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::MoveNext)> {
+  constexpr static std::size_t size = 0x378;
+  constexpr static std::size_t addrs = 0x5d0d404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*>(), { "MoveNext", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d.__m__Finally1
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::*)()>(
-    &::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::*)()>(
+    &::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::__m__Finally1)> {
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x5d0d77c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*>(), { "<>m__Finally1", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d.System_Collections_Generic_IEnumerator_System_Object__get_Current
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::*)()>(
+    &::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd4358;
+  constexpr static std::size_t addrs = 0x5d0d7a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*>(),
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*>(),
                                                              { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::*)()>(
-    &::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::*)()>(
+    &::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5cd4360;
+  constexpr static std::size_t addrs = 0x5d0d7b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::*)()>(
-    &::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::*)()>(
+    &::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd4398;
+  constexpr static std::size_t addrs = 0x5d0d7e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*>(),
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*>(),
                                                              { "System.Collections.IEnumerator.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::__cordl_internal_get___1__state() {
+constexpr int32_t& GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::__cordl_internal_get___1__state() const {
+constexpr int32_t const& GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::__cordl_internal_set___1__state(int32_t value) {
+constexpr void GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::__cordl_internal_get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::System::Object* const& GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::__cordl_internal_get___2__current() const {
+constexpr ::System::Object* const& GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::__cordl_internal_set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____2__current = value;
 }
-constexpr ::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0*&
-GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::__cordl_internal_get___4__this() {
+constexpr ::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0*&
+GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0* const&
-GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::__cordl_internal_get___4__this() const {
+constexpr ::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0* const&
+GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void
-GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::__cordl_internal_set___4__this(::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0* value) {
+GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::__cordl_internal_set___4__this(::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-constexpr float_t& GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::__cordl_internal_get__targetSongTime_5__2() {
+constexpr float_t& GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::__cordl_internal_get__targetSongTime_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetSongTime_5__2;
 }
-constexpr float_t const& GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::__cordl_internal_get__targetSongTime_5__2() const {
+constexpr float_t const& GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::__cordl_internal_get__targetSongTime_5__2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetSongTime_5__2;
 }
-constexpr void GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::__cordl_internal_set__targetSongTime_5__2(float_t value) {
+constexpr void GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::__cordl_internal_set__targetSongTime_5__2(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____targetSongTime_5__2 = value;
 }
-inline void GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::_ctor(int32_t __1__state) {
+inline void GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::_ctor(int32_t __1__state) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::System_IDisposable_Dispose() {
+inline void GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::System_IDisposable_Dispose() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*>(), { "System.IDisposable.Dispose", {}, {} })));
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*>(), { "System.IDisposable.Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::MoveNext() {
+inline bool GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*>(), { "MoveNext", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+inline void GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::__m__Finally1() {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*>(), { "<>m__Finally1", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::Object* GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*>(),
                                                            { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-inline void GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::System_Collections_IEnumerator_Reset() {
+inline void GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*>(),
                                                            { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
 /// @brief [DebuggerHidden]
-inline ::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*
-GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*>(__1__state));
+inline ::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*
+GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+constexpr GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::operator ::System::IDisposable*() noexcept {
+constexpr GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d() {}
-//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0._ctor
+constexpr ::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d() {}
+//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::*)()>(&::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::*)()>(&::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cd3768;
+  constexpr static std::size_t addrs = 0x5d0c9e0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0*>(), { ".ctor", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0._StartLevel_g__HandleLevelDidFinishCallback_0
+//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0._StartLevel_g__HandleLevelDidFinishCallback_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::*)(::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*)>(
-        &::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::_StartLevel_g__HandleLevelDidFinishCallback_0)> {
-  constexpr static std::size_t size = 0x444;
-  constexpr static std::size_t addrs = 0x5cd376c;
+    static_cast<void (::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::*)(::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*)>(
+        &::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::_StartLevel_g__HandleLevelDidFinishCallback_0)> {
+  constexpr static std::size_t size = 0x440;
+  constexpr static std::size_t addrs = 0x5d0c9e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0*>(),
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0*>(),
                                                 { "<StartLevel>g__HandleLevelDidFinishCallback|0",
                                                   {},
                                                   { ::i2c::type_of<::GlobalNamespace::StandardLevelScenesTransitionSetupData*>(), ::i2c::type_of<::GlobalNamespace::LevelCompletionResults*>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0._StartLevel_g__HandleStateChanged_1
+//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0._StartLevel_g__HandleStateChanged_1
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::*)()>(
-    &::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::_StartLevel_g__HandleStateChanged_1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::*)()>(
+    &::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::_StartLevel_g__HandleStateChanged_1)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x5cd3bb0;
+  constexpr static std::size_t addrs = 0x5d0ce24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0*>(), { "<StartLevel>g__HandleStateChanged|1", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0*>(), { "<StartLevel>g__HandleStateChanged|1", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0._StartLevel_g__HandleLevelEnded_2
+//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0._StartLevel_g__HandleLevelEnded_2
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::*)()>(
-    &::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::_StartLevel_g__HandleLevelEnded_2)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::*)()>(
+    &::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::_StartLevel_g__HandleLevelEnded_2)> {
   constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x5cd3de0;
+  constexpr static std::size_t addrs = 0x5d0d054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0*>(), { "<StartLevel>g__HandleLevelEnded|2", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0*>(), { "<StartLevel>g__HandleLevelEnded|2", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0._StartLevel_g__WatchPlayDuration_3
+//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0._StartLevel_g__WatchPlayDuration_3
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::*)()>(
-    &::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::_StartLevel_g__WatchPlayDuration_3)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::*)()>(
+    &::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::_StartLevel_g__WatchPlayDuration_3)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5cd4118;
+  constexpr static std::size_t addrs = 0x5d0d38c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0*>(), { "<StartLevel>g__WatchPlayDuration|3", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0*>(), { "<StartLevel>g__WatchPlayDuration|3", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::SongRunningHelper*& GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::__cordl_internal_get___4__this() {
+constexpr ::GlobalNamespace::SongRunningHelper*& GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::GlobalNamespace::SongRunningHelper* const& GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::__cordl_internal_get___4__this() const {
+constexpr ::GlobalNamespace::SongRunningHelper* const& GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::__cordl_internal_set___4__this(::GlobalNamespace::SongRunningHelper* value) {
+constexpr void GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::__cordl_internal_set___4__this(::GlobalNamespace::SongRunningHelper* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-constexpr bool& GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::__cordl_internal_get_audioPlayingLogged() {
+constexpr bool& GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::__cordl_internal_get_audioPlayingLogged() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___audioPlayingLogged;
 }
-constexpr bool const& GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::__cordl_internal_get_audioPlayingLogged() const {
+constexpr bool const& GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::__cordl_internal_get_audioPlayingLogged() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___audioPlayingLogged;
 }
-constexpr void GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::__cordl_internal_set_audioPlayingLogged(bool value) {
+constexpr void GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::__cordl_internal_set_audioPlayingLogged(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___audioPlayingLogged = value;
 }
-constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::__cordl_internal_get_audioTimeSyncController() {
+constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::__cordl_internal_get_audioTimeSyncController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___audioTimeSyncController;
 }
-constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::__cordl_internal_get_audioTimeSyncController() const {
+constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::__cordl_internal_get_audioTimeSyncController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___audioTimeSyncController;
 }
-constexpr void GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::__cordl_internal_set_audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value) {
+constexpr void GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::__cordl_internal_set_audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___audioTimeSyncController = value;
 }
-constexpr ::GlobalNamespace::GameplayModifiers*& GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::__cordl_internal_get_modifiers() {
+constexpr ::GlobalNamespace::GameplayModifiers*& GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::__cordl_internal_get_modifiers() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___modifiers;
 }
-constexpr ::GlobalNamespace::GameplayModifiers* const& GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::__cordl_internal_get_modifiers() const {
+constexpr ::GlobalNamespace::GameplayModifiers* const& GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::__cordl_internal_get_modifiers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___modifiers;
 }
-constexpr void GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::__cordl_internal_set_modifiers(::GlobalNamespace::GameplayModifiers* value) {
+constexpr void GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::__cordl_internal_set_modifiers(::GlobalNamespace::GameplayModifiers* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___modifiers = value;
 }
-constexpr bool& GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::__cordl_internal_get_levelEndedHandled() {
+constexpr bool& GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::__cordl_internal_get_levelEndedHandled() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelEndedHandled;
 }
-constexpr bool const& GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::__cordl_internal_get_levelEndedHandled() const {
+constexpr bool const& GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::__cordl_internal_get_levelEndedHandled() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelEndedHandled;
 }
-constexpr void GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::__cordl_internal_set_levelEndedHandled(bool value) {
+constexpr void GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::__cordl_internal_set_levelEndedHandled(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___levelEndedHandled = value;
 }
-constexpr ::GlobalNamespace::SongRunningHelper_QueuedSongParams& GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::__cordl_internal_get_queuedSongParams() {
+constexpr ::GlobalNamespace::SongRunningHelper_QueuedSongParams& GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::__cordl_internal_get_queuedSongParams() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___queuedSongParams;
 }
-constexpr ::GlobalNamespace::SongRunningHelper_QueuedSongParams const& GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::__cordl_internal_get_queuedSongParams() const {
+constexpr ::GlobalNamespace::SongRunningHelper_QueuedSongParams const& GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::__cordl_internal_get_queuedSongParams() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___queuedSongParams;
 }
-constexpr void GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::__cordl_internal_set_queuedSongParams(::GlobalNamespace::SongRunningHelper_QueuedSongParams value) {
+constexpr void GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::__cordl_internal_set_queuedSongParams(::GlobalNamespace::SongRunningHelper_QueuedSongParams value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___queuedSongParams = value;
 }
-constexpr ::UnityW<::GlobalNamespace::PauseController>& GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::__cordl_internal_get_pauseController() {
+constexpr ::UnityW<::GlobalNamespace::PauseController>& GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::__cordl_internal_get_pauseController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pauseController;
 }
-constexpr ::UnityW<::GlobalNamespace::PauseController> const& GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::__cordl_internal_get_pauseController() const {
+constexpr ::UnityW<::GlobalNamespace::PauseController> const& GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::__cordl_internal_get_pauseController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pauseController;
 }
-constexpr void GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::__cordl_internal_set_pauseController(::UnityW<::GlobalNamespace::PauseController> value) {
+constexpr void GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::__cordl_internal_set_pauseController(::UnityW<::GlobalNamespace::PauseController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pauseController = value;
 }
-constexpr ::GlobalNamespace::ILevelEndActions*& GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::__cordl_internal_get_levelEndActions() {
+constexpr ::GlobalNamespace::ILevelEndActions*& GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::__cordl_internal_get_levelEndActions() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelEndActions;
 }
-constexpr ::GlobalNamespace::ILevelEndActions* const& GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::__cordl_internal_get_levelEndActions() const {
+constexpr ::GlobalNamespace::ILevelEndActions* const& GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::__cordl_internal_get_levelEndActions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelEndActions;
 }
-constexpr void GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::__cordl_internal_set_levelEndActions(::GlobalNamespace::ILevelEndActions* value) {
+constexpr void GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::__cordl_internal_set_levelEndActions(::GlobalNamespace::ILevelEndActions* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___levelEndActions = value;
 }
-inline void GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0*>(), { ".ctor", {}, {} })));
+inline void GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void
-GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::_StartLevel_g__HandleLevelDidFinishCallback_0(::GlobalNamespace::StandardLevelScenesTransitionSetupData* standardLevelScenesTransition,
+GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::_StartLevel_g__HandleLevelDidFinishCallback_0(::GlobalNamespace::StandardLevelScenesTransitionSetupData* standardLevelScenesTransition,
                                                                                                         ::GlobalNamespace::LevelCompletionResults* results) {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0*>(),
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0*>(),
                                               { "<StartLevel>g__HandleLevelDidFinishCallback|0",
                                                 {},
                                                 { ::i2c::type_of<::GlobalNamespace::StandardLevelScenesTransitionSetupData*>(), ::i2c::type_of<::GlobalNamespace::LevelCompletionResults*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, standardLevelScenesTransition, results);
 }
-inline void GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::_StartLevel_g__HandleStateChanged_1() {
+inline void GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::_StartLevel_g__HandleStateChanged_1() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0*>(), { "<StartLevel>g__HandleStateChanged|1", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0*>(), { "<StartLevel>g__HandleStateChanged|1", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::_StartLevel_g__HandleLevelEnded_2() {
+inline void GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::_StartLevel_g__HandleLevelEnded_2() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0*>(), { "<StartLevel>g__HandleLevelEnded|2", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0*>(), { "<StartLevel>g__HandleLevelEnded|2", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Collections::IEnumerator* GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::_StartLevel_g__WatchPlayDuration_3() {
+inline ::System::Collections::IEnumerator* GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::_StartLevel_g__WatchPlayDuration_3() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0*>(), { "<StartLevel>g__WatchPlayDuration|3", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0*>(), { "<StartLevel>g__WatchPlayDuration|3", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
-inline ::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0* GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0*>());
+inline ::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0* GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0::SongRunningHelper___c__DisplayClass13_0() {}
-//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper__StartLevel_d__13._ctor
+constexpr ::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0::SongRunningHelper___c__DisplayClass14_0() {}
+//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper__StartLevel_d__14._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongRunningHelper__StartLevel_d__13::*)(int32_t)>(&::GlobalNamespace::SongRunningHelper__StartLevel_d__13::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongRunningHelper__StartLevel_d__14::*)(int32_t)>(&::GlobalNamespace::SongRunningHelper__StartLevel_d__14::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd357c;
+  constexpr static std::size_t addrs = 0x5d0c6f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StartLevel_d__13*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StartLevel_d__14*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper__StartLevel_d__13.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper__StartLevel_d__14.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongRunningHelper__StartLevel_d__13::*)()>(
-    &::GlobalNamespace::SongRunningHelper__StartLevel_d__13::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongRunningHelper__StartLevel_d__14::*)()>(
+    &::GlobalNamespace::SongRunningHelper__StartLevel_d__14::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cd43a0;
+  constexpr static std::size_t addrs = 0x5d0d7f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StartLevel_d__13*>(), { "System.IDisposable.Dispose", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StartLevel_d__14*>(), { "System.IDisposable.Dispose", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper__StartLevel_d__13.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper__StartLevel_d__14.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SongRunningHelper__StartLevel_d__13::*)()>(&::GlobalNamespace::SongRunningHelper__StartLevel_d__13::MoveNext)> {
-  constexpr static std::size_t size = 0xa7c;
-  constexpr static std::size_t addrs = 0x5cd43a4;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SongRunningHelper__StartLevel_d__14::*)()>(&::GlobalNamespace::SongRunningHelper__StartLevel_d__14::MoveNext)> {
+  constexpr static std::size_t size = 0xa98;
+  constexpr static std::size_t addrs = 0x5d0d7f4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StartLevel_d__13*>(), { "MoveNext", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StartLevel_d__14*>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper__StartLevel_d__13.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper__StartLevel_d__14.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::SongRunningHelper__StartLevel_d__13::*)()>(
-    &::GlobalNamespace::SongRunningHelper__StartLevel_d__13::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::SongRunningHelper__StartLevel_d__14::*)()>(
+    &::GlobalNamespace::SongRunningHelper__StartLevel_d__14::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd4e20;
+  constexpr static std::size_t addrs = 0x5d0e28c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StartLevel_d__13*>(), { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StartLevel_d__14*>(), { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper__StartLevel_d__13.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper__StartLevel_d__14.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongRunningHelper__StartLevel_d__13::*)()>(
-    &::GlobalNamespace::SongRunningHelper__StartLevel_d__13::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongRunningHelper__StartLevel_d__14::*)()>(
+    &::GlobalNamespace::SongRunningHelper__StartLevel_d__14::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5cd4e28;
+  constexpr static std::size_t addrs = 0x5d0e294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StartLevel_d__13*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StartLevel_d__14*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper__StartLevel_d__13.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper__StartLevel_d__14.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::SongRunningHelper__StartLevel_d__13::*)()>(
-    &::GlobalNamespace::SongRunningHelper__StartLevel_d__13::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::SongRunningHelper__StartLevel_d__14::*)()>(
+    &::GlobalNamespace::SongRunningHelper__StartLevel_d__14::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd4e60;
+  constexpr static std::size_t addrs = 0x5d0e2cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StartLevel_d__13*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StartLevel_d__14*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::SongRunningHelper__StartLevel_d__13::__cordl_internal_get___1__state() {
+constexpr int32_t& GlobalNamespace::SongRunningHelper__StartLevel_d__14::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::SongRunningHelper__StartLevel_d__13::__cordl_internal_get___1__state() const {
+constexpr int32_t const& GlobalNamespace::SongRunningHelper__StartLevel_d__14::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::SongRunningHelper__StartLevel_d__13::__cordl_internal_set___1__state(int32_t value) {
+constexpr void GlobalNamespace::SongRunningHelper__StartLevel_d__14::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::SongRunningHelper__StartLevel_d__13::__cordl_internal_get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::SongRunningHelper__StartLevel_d__14::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::System::Object* const& GlobalNamespace::SongRunningHelper__StartLevel_d__13::__cordl_internal_get___2__current() const {
+constexpr ::System::Object* const& GlobalNamespace::SongRunningHelper__StartLevel_d__14::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::SongRunningHelper__StartLevel_d__13::__cordl_internal_set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::SongRunningHelper__StartLevel_d__14::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____2__current = value;
 }
-constexpr ::GlobalNamespace::SongRunningHelper*& GlobalNamespace::SongRunningHelper__StartLevel_d__13::__cordl_internal_get___4__this() {
+constexpr ::GlobalNamespace::SongRunningHelper*& GlobalNamespace::SongRunningHelper__StartLevel_d__14::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::GlobalNamespace::SongRunningHelper* const& GlobalNamespace::SongRunningHelper__StartLevel_d__13::__cordl_internal_get___4__this() const {
+constexpr ::GlobalNamespace::SongRunningHelper* const& GlobalNamespace::SongRunningHelper__StartLevel_d__14::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::SongRunningHelper__StartLevel_d__13::__cordl_internal_set___4__this(::GlobalNamespace::SongRunningHelper* value) {
+constexpr void GlobalNamespace::SongRunningHelper__StartLevel_d__14::__cordl_internal_set___4__this(::GlobalNamespace::SongRunningHelper* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-constexpr ::GlobalNamespace::SongRunningHelper_QueuedSongParams& GlobalNamespace::SongRunningHelper__StartLevel_d__13::__cordl_internal_get_queuedSongParams() {
+constexpr ::GlobalNamespace::SongRunningHelper_QueuedSongParams& GlobalNamespace::SongRunningHelper__StartLevel_d__14::__cordl_internal_get_queuedSongParams() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___queuedSongParams;
 }
-constexpr ::GlobalNamespace::SongRunningHelper_QueuedSongParams const& GlobalNamespace::SongRunningHelper__StartLevel_d__13::__cordl_internal_get_queuedSongParams() const {
+constexpr ::GlobalNamespace::SongRunningHelper_QueuedSongParams const& GlobalNamespace::SongRunningHelper__StartLevel_d__14::__cordl_internal_get_queuedSongParams() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___queuedSongParams;
 }
-constexpr void GlobalNamespace::SongRunningHelper__StartLevel_d__13::__cordl_internal_set_queuedSongParams(::GlobalNamespace::SongRunningHelper_QueuedSongParams value) {
+constexpr void GlobalNamespace::SongRunningHelper__StartLevel_d__14::__cordl_internal_set_queuedSongParams(::GlobalNamespace::SongRunningHelper_QueuedSongParams value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___queuedSongParams = value;
 }
-constexpr ::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0*& GlobalNamespace::SongRunningHelper__StartLevel_d__13::__cordl_internal_get___8__1() {
+constexpr ::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0*& GlobalNamespace::SongRunningHelper__StartLevel_d__14::__cordl_internal_get___8__1() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____8__1;
 }
-constexpr ::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0* const& GlobalNamespace::SongRunningHelper__StartLevel_d__13::__cordl_internal_get___8__1() const {
+constexpr ::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0* const& GlobalNamespace::SongRunningHelper__StartLevel_d__14::__cordl_internal_get___8__1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____8__1;
 }
-constexpr void GlobalNamespace::SongRunningHelper__StartLevel_d__13::__cordl_internal_set___8__1(::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0* value) {
+constexpr void GlobalNamespace::SongRunningHelper__StartLevel_d__14::__cordl_internal_set___8__1(::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____8__1 = value;
 }
-inline void GlobalNamespace::SongRunningHelper__StartLevel_d__13::_ctor(int32_t __1__state) {
+constexpr ::GlobalNamespace::PlayerSpecificSettings*& GlobalNamespace::SongRunningHelper__StartLevel_d__14::__cordl_internal_get__playerSpecificSettings_5__2() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____playerSpecificSettings_5__2;
+}
+constexpr ::GlobalNamespace::PlayerSpecificSettings* const& GlobalNamespace::SongRunningHelper__StartLevel_d__14::__cordl_internal_get__playerSpecificSettings_5__2() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____playerSpecificSettings_5__2;
+}
+constexpr void GlobalNamespace::SongRunningHelper__StartLevel_d__14::__cordl_internal_set__playerSpecificSettings_5__2(::GlobalNamespace::PlayerSpecificSettings* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____playerSpecificSettings_5__2 = value;
+}
+constexpr ::GlobalNamespace::PracticeSettings*& GlobalNamespace::SongRunningHelper__StartLevel_d__14::__cordl_internal_get__practiceSettings_5__3() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____practiceSettings_5__3;
+}
+constexpr ::GlobalNamespace::PracticeSettings* const& GlobalNamespace::SongRunningHelper__StartLevel_d__14::__cordl_internal_get__practiceSettings_5__3() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____practiceSettings_5__3;
+}
+constexpr void GlobalNamespace::SongRunningHelper__StartLevel_d__14::__cordl_internal_set__practiceSettings_5__3(::GlobalNamespace::PracticeSettings* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____practiceSettings_5__3 = value;
+}
+inline void GlobalNamespace::SongRunningHelper__StartLevel_d__14::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StartLevel_d__13*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StartLevel_d__14*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::SongRunningHelper__StartLevel_d__13::System_IDisposable_Dispose() {
+inline void GlobalNamespace::SongRunningHelper__StartLevel_d__14::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StartLevel_d__13*>(), { "System.IDisposable.Dispose", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StartLevel_d__14*>(), { "System.IDisposable.Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool GlobalNamespace::SongRunningHelper__StartLevel_d__13::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StartLevel_d__13*>(), { "MoveNext", {}, {} })));
+inline bool GlobalNamespace::SongRunningHelper__StartLevel_d__14::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StartLevel_d__14*>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::SongRunningHelper__StartLevel_d__13::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+inline ::System::Object* GlobalNamespace::SongRunningHelper__StartLevel_d__14::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StartLevel_d__13*>(), { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StartLevel_d__14*>(), { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-inline void GlobalNamespace::SongRunningHelper__StartLevel_d__13::System_Collections_IEnumerator_Reset() {
+inline void GlobalNamespace::SongRunningHelper__StartLevel_d__14::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StartLevel_d__13*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StartLevel_d__14*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::SongRunningHelper__StartLevel_d__13::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* GlobalNamespace::SongRunningHelper__StartLevel_d__14::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StartLevel_d__13*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StartLevel_d__14*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
 /// @brief [DebuggerHidden]
-inline ::GlobalNamespace::SongRunningHelper__StartLevel_d__13* GlobalNamespace::SongRunningHelper__StartLevel_d__13::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::SongRunningHelper__StartLevel_d__13*>(__1__state));
+inline ::GlobalNamespace::SongRunningHelper__StartLevel_d__14* GlobalNamespace::SongRunningHelper__StartLevel_d__14::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::SongRunningHelper__StartLevel_d__14*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr GlobalNamespace::SongRunningHelper__StartLevel_d__13::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+constexpr GlobalNamespace::SongRunningHelper__StartLevel_d__14::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-GlobalNamespace::SongRunningHelper__StartLevel_d__13::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+GlobalNamespace::SongRunningHelper__StartLevel_d__14::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::SongRunningHelper__StartLevel_d__13::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr GlobalNamespace::SongRunningHelper__StartLevel_d__14::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::SongRunningHelper__StartLevel_d__13::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::SongRunningHelper__StartLevel_d__14::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::SongRunningHelper__StartLevel_d__13::operator ::System::IDisposable*() noexcept {
+constexpr GlobalNamespace::SongRunningHelper__StartLevel_d__14::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::SongRunningHelper__StartLevel_d__13::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* GlobalNamespace::SongRunningHelper__StartLevel_d__14::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::SongRunningHelper__StartLevel_d__13::SongRunningHelper__StartLevel_d__13() {}
-//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper.get_SongsRunning
+constexpr ::GlobalNamespace::SongRunningHelper__StartLevel_d__14::SongRunningHelper__StartLevel_d__14() {}
+//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SongRunningHelper::*)()>(&::GlobalNamespace::SongRunningHelper::get_SongsRunning)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5cd3078;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::*)(int32_t)>(
+    &::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5d0c90c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper*>(), { "get_SongsRunning", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18.System_IDisposable_Dispose
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::*)()>(
+    &::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::System_IDisposable_Dispose)> {
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x5d0e2d4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18*>(), { "System.IDisposable.Dispose", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18.MoveNext
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::*)()>(
+    &::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::MoveNext)> {
+  constexpr static std::size_t size = 0x238;
+  constexpr static std::size_t addrs = 0x5d0e308;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18*>(), { "MoveNext", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18.__m__Finally1
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::*)()>(
+    &::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::__m__Finally1)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5d0e540;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18*>(), { "<>m__Finally1", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18.System_Collections_Generic_IEnumerator_System_Object__get_Current
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::*)()>(
+    &::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5d0e560;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18*>(),
+                                                                                           { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18.System_Collections_IEnumerator_Reset
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::*)()>(
+    &::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::System_Collections_IEnumerator_Reset)> {
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x5d0e568;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18.System_Collections_IEnumerator_get_Current
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::*)()>(
+    &::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::System_Collections_IEnumerator_get_Current)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5d0e5a0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+    return ___internal_method;
+  }
+};
+constexpr int32_t& GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::__cordl_internal_get___1__state() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
+}
+constexpr int32_t const& GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::__cordl_internal_get___1__state() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
+}
+constexpr void GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::__cordl_internal_set___1__state(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____1__state = value;
+}
+constexpr ::System::Object*& GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::__cordl_internal_get___2__current() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
+}
+constexpr ::System::Object* const& GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::__cordl_internal_get___2__current() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
+}
+constexpr void GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::__cordl_internal_set___2__current(::System::Object* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____2__current = value;
+}
+constexpr ::GlobalNamespace::SongRunningHelper*& GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::__cordl_internal_get___4__this() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr ::GlobalNamespace::SongRunningHelper* const& GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::__cordl_internal_get___4__this() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr void GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::__cordl_internal_set___4__this(::GlobalNamespace::SongRunningHelper* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____4__this = value;
+}
+inline void GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::_ctor(int32_t __1__state) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
+}
+inline void GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::System_IDisposable_Dispose() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18*>(), { "System.IDisposable.Dispose", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline bool GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18*>(), { "MoveNext", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::__m__Finally1() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18*>(), { "<>m__Finally1", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::Object* GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18*>(),
+                                                                                         { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
+}
+inline void GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::System_Collections_IEnumerator_Reset() {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::Object* GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::System_Collections_IEnumerator_get_Current() {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
+}
+/// @brief [DebuggerHidden]
+inline ::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18* GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18*>(__1__state));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
+GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18::SongRunningHelper__StopWhenTransitionSettles_d__18() {}
+//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper.get_areSongsRunning
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SongRunningHelper::*)()>(&::GlobalNamespace::SongRunningHelper::get_areSongsRunning)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5d0c1ec;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper*>(), { "get_areSongsRunning", {}, {} })));
     return ___internal_method;
   }
 };
@@ -737,8 +987,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::BeatmapLevel*> (::GlobalNamespace::SongRunningHelper::*)(::StringW, bool)>(
     &::GlobalNamespace::SongRunningHelper::FindBeatmapLevelPackBeatmaps)> {
-  constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x5cd30bc;
+  constexpr static std::size_t size = 0x21c;
+  constexpr static std::size_t addrs = 0x5d0c230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -753,7 +1003,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SongRunningHelper::*)(::GlobalNamespace::SongRunningHelper_QueuedSongParams)>(
     &::GlobalNamespace::SongRunningHelper::EnqueueLevel)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x5cd32d4;
+  constexpr static std::size_t addrs = 0x5d0c44c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper*>(),
@@ -767,7 +1017,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::SongRunningHelper::*)(::GlobalNamespace::SongRunningHelper_QueuedSongParams)>(
     &::GlobalNamespace::SongRunningHelper::StartLevel)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5cd3504;
+  constexpr static std::size_t addrs = 0x5d0c67c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -782,7 +1032,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongRunningHelper::*)(::System::Action_1<bool>*)>(
     &::GlobalNamespace::SongRunningHelper::HandlePauseControllerCanPause)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cd3584;
+  constexpr static std::size_t addrs = 0x5d0c6fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -794,23 +1044,36 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongRunningHelper::*)()>(&::GlobalNamespace::SongRunningHelper::StopAllLevels)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5cd35a0;
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x5d0c718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper*>(), { "StopAllLevels", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper.StopCurrentLevel
+//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper.TrySkipCurrentLevel
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongRunningHelper::*)()>(&::GlobalNamespace::SongRunningHelper::StopCurrentLevel)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5cd3640;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SongRunningHelper::*)()>(&::GlobalNamespace::SongRunningHelper::TrySkipCurrentLevel)> {
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x5d0c894;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper*>(), { "StopCurrentLevel", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper*>(), { "TrySkipCurrentLevel", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::SongRunningHelper.StopWhenTransitionSettles
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::SongRunningHelper::*)()>(
+    &::GlobalNamespace::SongRunningHelper::StopWhenTransitionSettles)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5d0c840;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper*>(), { "StopWhenTransitionSettles", {}, {} })));
     return ___internal_method;
   }
 };
@@ -819,7 +1082,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongRunningHelper::*)()>(&::GlobalNamespace::SongRunningHelper::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5cd36a4;
+  constexpr static std::size_t addrs = 0x5d0c914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper*>(), { ".ctor", {}, {} })));
@@ -910,8 +1173,20 @@ constexpr void GlobalNamespace::SongRunningHelper::__cordl_internal_set__current
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____current = value;
 }
-inline bool GlobalNamespace::SongRunningHelper::get_SongsRunning() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper*>(), { "get_SongsRunning", {}, {} })));
+constexpr bool& GlobalNamespace::SongRunningHelper::__cordl_internal_get__isStopPending() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____isStopPending;
+}
+constexpr bool const& GlobalNamespace::SongRunningHelper::__cordl_internal_get__isStopPending() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____isStopPending;
+}
+constexpr void GlobalNamespace::SongRunningHelper::__cordl_internal_set__isStopPending(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____isStopPending = value;
+}
+inline bool GlobalNamespace::SongRunningHelper::get_areSongsRunning() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper*>(), { "get_areSongsRunning", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline ::ArrayW<::GlobalNamespace::BeatmapLevel*> GlobalNamespace::SongRunningHelper::FindBeatmapLevelPackBeatmaps(::StringW packId, bool ignoreCase) {
@@ -941,9 +1216,13 @@ inline void GlobalNamespace::SongRunningHelper::StopAllLevels() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper*>(), { "StopAllLevels", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::SongRunningHelper::StopCurrentLevel() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper*>(), { "StopCurrentLevel", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+inline bool GlobalNamespace::SongRunningHelper::TrySkipCurrentLevel() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper*>(), { "TrySkipCurrentLevel", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline ::System::Collections::IEnumerator* GlobalNamespace::SongRunningHelper::StopWhenTransitionSettles() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper*>(), { "StopWhenTransitionSettles", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*>(this, ___internal_method);
 }
 inline void GlobalNamespace::SongRunningHelper::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongRunningHelper*>(), { ".ctor", {}, {} })));

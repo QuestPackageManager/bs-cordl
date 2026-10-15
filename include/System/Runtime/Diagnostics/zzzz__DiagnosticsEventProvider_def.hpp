@@ -85,7 +85,7 @@ public:
   static ::System::Runtime::Diagnostics::DiagnosticsEventProvider_WriteEventErrorCode const NoFreeBuffers;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22039 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22088 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -140,31 +140,31 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Deregister, addr 0x65b2b4c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Deregister, addr 0x65ef71c, size 0x20, virtual false, abstract: false, final false
   inline void Deregister();
 
-  /// @brief Method Dispose, addr 0x65b2a98, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x65ef668, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x65b2b08, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x65ef6d8, size 0x44, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EtwEnableCallBack, addr 0x65b2bbc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method EtwEnableCallBack, addr 0x65ef78c, size 0x20, virtual false, abstract: false, final false
   inline void EtwEnableCallBack(::by_ref<::System::Guid const> sourceId, int32_t isEnabled, uint8_t setLevel, int64_t anyKeyword, int64_t allKeyword, void* filterData, void* callbackContext);
 
-  /// @brief Method EtwRegister, addr 0x65b2980, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method EtwRegister, addr 0x65ef550, size 0x118, virtual false, abstract: false, final false
   inline void EtwRegister();
 
-  /// @brief Method Finalize, addr 0x65b2b6c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x65ef73c, size 0x50, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method IsEnabled, addr 0x65b2bdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsEnabled, addr 0x65ef7ac, size 0x8, virtual false, abstract: false, final false
   inline bool IsEnabled();
 
-  /// @brief Method IsEnabled, addr 0x65b2be4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsEnabled, addr 0x65ef7b4, size 0x44, virtual false, abstract: false, final false
   inline bool IsEnabled(uint8_t level, int64_t keywords);
 
-  /// @brief Method IsEventEnabled, addr 0x65b2c28, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsEventEnabled, addr 0x65ef7f8, size 0x4c, virtual false, abstract: false, final false
   inline bool IsEventEnabled(::by_ref<::System::Runtime::Diagnostics::EventDescriptor> eventDescriptor);
 
   static inline ::System::Runtime::Diagnostics::DiagnosticsEventProvider* New_ctor(::System::Guid providerGuid);
@@ -172,16 +172,16 @@ public:
   /// @brief Method OnControllerCommand, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnControllerCommand();
 
-  /// @brief Method SetActivityId, addr 0x65b2e9c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetActivityId, addr 0x65efa6c, size 0xc, virtual false, abstract: false, final false
   static inline void SetActivityId(::by_ref<::System::Guid> id);
 
-  /// @brief Method SetLastError, addr 0x65b2c74, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetLastError, addr 0x65ef844, size 0x94, virtual false, abstract: false, final false
   static inline void SetLastError(int32_t error);
 
-  /// @brief Method WriteEvent, addr 0x65b2d08, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method WriteEvent, addr 0x65ef8d8, size 0x194, virtual false, abstract: false, final false
   inline bool WriteEvent(::by_ref<::System::Runtime::Diagnostics::EventDescriptor> eventDescriptor, ::System::Runtime::Diagnostics::EventTraceActivity* eventTraceActivity, ::StringW data);
 
-  /// @brief Method WriteEvent, addr 0x65b2ea8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method WriteEvent, addr 0x65efa78, size 0x68, virtual false, abstract: false, final false
   inline bool WriteEvent(::by_ref<::System::Runtime::Diagnostics::EventDescriptor> eventDescriptor, ::System::Runtime::Diagnostics::EventTraceActivity* eventTraceActivity, int32_t dataCount,
                          ::System::IntPtr data);
 
@@ -233,7 +233,7 @@ public:
 
   constexpr void __cordl_internal_set_traceRegistrationHandle(int64_t value);
 
-  /// @brief Method .ctor, addr 0x65b2938, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65ef508, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::Guid providerGuid);
 
   static inline ::System::Runtime::Diagnostics::DiagnosticsEventProvider_WriteEventErrorCode getStaticF_errorCode();
@@ -258,7 +258,7 @@ public:
   DiagnosticsEventProvider(DiagnosticsEventProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22040 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22089 };
 
   /// @brief Field etwCallback, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Interop::UnsafeNativeMethods_EtwEnableCallback* ___etwCallback;

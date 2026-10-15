@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::FilterFunctionDefinition::*)()>(&::UnityEngine::UIElements::FilterFunctionDefinition::get_filterName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7235ee4;
+  constexpr static std::size_t addrs = 0x7272e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FilterFunctionDefinition*>(), { "get_filterName", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FilterFunctionDefinition::*)(::StringW)>(
     &::UnityEngine::UIElements::FilterFunctionDefinition::set_filterName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7235eec;
+  constexpr static std::size_t addrs = 0x7272e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::UIElements::FilterParameterDeclaration> (::UnityEngine::UIElements::FilterFunctionDefinition::*)()>(
     &::UnityEngine::UIElements::FilterFunctionDefinition::get_parameters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7235ef4;
+  constexpr static std::size_t addrs = 0x7272e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FilterFunctionDefinition*>(), { "get_parameters", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FilterFunctionDefinition::*)(::ArrayW<::UnityEngine::UIElements::FilterParameterDeclaration>)>(
     &::UnityEngine::UIElements::FilterFunctionDefinition::set_parameters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7235efc;
+  constexpr static std::size_t addrs = 0x7272e30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::UIElements::PostProcessingPass> (::UnityEngine::UIElements::FilterFunctionDefinition::*)()>(
     &::UnityEngine::UIElements::FilterFunctionDefinition::get_passes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7235f04;
+  constexpr static std::size_t addrs = 0x7272e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FilterFunctionDefinition*>(), { "get_passes", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FilterFunctionDefinition::*)(::ArrayW<::UnityEngine::UIElements::PostProcessingPass>)>(
     &::UnityEngine::UIElements::FilterFunctionDefinition::set_passes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7235f0c;
+  constexpr static std::size_t addrs = 0x7272e40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FilterFunctionDefinition*>(),
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FilterFunctionDefinition::*)()>(&::UnityEngine::UIElements::FilterFunctionDefinition::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7235f14;
+  constexpr static std::size_t addrs = 0x7272e48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FilterFunctionDefinition*>(), { ".ctor", {}, {} })));

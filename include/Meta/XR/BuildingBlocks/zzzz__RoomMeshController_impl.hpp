@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::*)(int32_t)>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4bf08;
+  constexpr static std::size_t addrs = 0x5e88690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5e4c0f4;
+  constexpr static std::size_t addrs = 0x5e8887c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::MoveNext)> {
   constexpr static std::size_t size = 0x524;
-  constexpr static std::size_t addrs = 0x5e4c1e8;
+  constexpr static std::size_t addrs = 0x5e88970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::__m__Finally1)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5e4c754;
+  constexpr static std::size_t addrs = 0x5e88edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::__m__Finally2)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5e4c70c;
+  constexpr static std::size_t addrs = 0x5e88e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4c7a8;
+  constexpr static std::size_t addrs = 0x5e88f30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6*>(),
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5e4c7b0;
+  constexpr static std::size_t addrs = 0x5e88f38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4c7e8;
+  constexpr static std::size_t addrs = 0x5e88f70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -319,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4::*)(int32_t)>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4be50;
+  constexpr static std::size_t addrs = 0x5e885d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -333,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e4c7f0;
+  constexpr static std::size_t addrs = 0x5e88f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -346,7 +346,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4::*)()>(&::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4::MoveNext)> {
   constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x5e4c7f4;
+  constexpr static std::size_t addrs = 0x5e88f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4*>(), { "MoveNext", {}, {} })));
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4cae0;
+  constexpr static std::size_t addrs = 0x5e89268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4*>(),
@@ -373,7 +373,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5e4cae8;
+  constexpr static std::size_t addrs = 0x5e89270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -387,7 +387,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4cb20;
+  constexpr static std::size_t addrs = 0x5e892a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -521,7 +521,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::RoomMeshController__UpdateVolume_d__5::*)(int32_t)>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__UpdateVolume_d__5::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4beac;
+  constexpr static std::size_t addrs = 0x5e88634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -535,7 +535,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::RoomMeshController__UpdateVolume_d__5::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__UpdateVolume_d__5::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e4cb28;
+  constexpr static std::size_t addrs = 0x5e892b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -549,7 +549,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::BuildingBlocks::RoomMeshController__UpdateVolume_d__5::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__UpdateVolume_d__5::MoveNext)> {
   constexpr static std::size_t size = 0x464;
-  constexpr static std::size_t addrs = 0x5e4cb2c;
+  constexpr static std::size_t addrs = 0x5e892b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -563,7 +563,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Meta::XR::BuildingBlocks::RoomMeshController__UpdateVolume_d__5::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__UpdateVolume_d__5::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4cf90;
+  constexpr static std::size_t addrs = 0x5e89718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::RoomMeshController__UpdateVolume_d__5*>(),
@@ -577,7 +577,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::RoomMeshController__UpdateVolume_d__5::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__UpdateVolume_d__5::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5e4cf98;
+  constexpr static std::size_t addrs = 0x5e89720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -591,7 +591,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Meta::XR::BuildingBlocks::RoomMeshController__UpdateVolume_d__5::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__UpdateVolume_d__5::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4cfd0;
+  constexpr static std::size_t addrs = 0x5e89758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -701,7 +701,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::RoomMeshController::*)()>(&::Meta::XR::BuildingBlocks::RoomMeshController::Awake)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5e4bd58;
+  constexpr static std::size_t addrs = 0x5e884e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::RoomMeshController*>(), { "Awake", {}, {} })));
@@ -714,7 +714,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::Meta::XR::BuildingBlocks::RoomMeshController::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController::Start)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5e4bdfc;
+  constexpr static std::size_t addrs = 0x5e88584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::RoomMeshController*>(), { "Start", {}, {} })));
@@ -727,7 +727,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::Meta::XR::BuildingBlocks::RoomMeshController::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController::UpdateVolume)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5e4be58;
+  constexpr static std::size_t addrs = 0x5e885e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::RoomMeshController*>(), { "UpdateVolume", {}, {} })));
@@ -740,7 +740,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::Meta::XR::BuildingBlocks::RoomMeshController::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController::LoadRoomMesh)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5e4beb4;
+  constexpr static std::size_t addrs = 0x5e8863c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::RoomMeshController*>(), { "LoadRoomMesh", {}, {} })));
@@ -753,7 +753,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::RoomMeshController::*)(::GlobalNamespace::OVRAnchor, ::UnityEngine::GameObject*)>(
     &::Meta::XR::BuildingBlocks::RoomMeshController::InstantiateRoomMesh)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x5e4bf10;
+  constexpr static std::size_t addrs = 0x5e88698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -767,7 +767,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::RoomMeshController::*)()>(&::Meta::XR::BuildingBlocks::RoomMeshController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e4c0f0;
+  constexpr static std::size_t addrs = 0x5e88878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::RoomMeshController*>(), { ".ctor", {}, {} })));

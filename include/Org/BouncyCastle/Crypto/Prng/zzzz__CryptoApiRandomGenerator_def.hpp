@@ -33,20 +33,20 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator"
   constexpr operator ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*() noexcept;
 
-  /// @brief Method AddSeedMaterial, addr 0x36a6ea4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method AddSeedMaterial, addr 0x36c9808, size 0x4, virtual true, abstract: false, final false
   inline void AddSeedMaterial(::ArrayW<uint8_t> seed);
 
-  /// @brief Method AddSeedMaterial, addr 0x36a6ea8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method AddSeedMaterial, addr 0x36c980c, size 0x4, virtual true, abstract: false, final false
   inline void AddSeedMaterial(int64_t seed);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator* New_ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator* New_ctor(::System::Security::Cryptography::RandomNumberGenerator* rng);
 
-  /// @brief Method NextBytes, addr 0x36a6eac, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method NextBytes, addr 0x36c9810, size 0x1c, virtual true, abstract: false, final false
   inline void NextBytes(::ArrayW<uint8_t> bytes);
 
-  /// @brief Method NextBytes, addr 0x36a6ec8, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method NextBytes, addr 0x36c982c, size 0x178, virtual true, abstract: false, final false
   inline void NextBytes(::ArrayW<uint8_t> bytes, int32_t start, int32_t len);
 
   constexpr ::System::Security::Cryptography::RandomNumberGenerator* const& __cordl_internal_get_rndProv() const;
@@ -55,10 +55,10 @@ public:
 
   constexpr void __cordl_internal_set_rndProv(::System::Security::Cryptography::RandomNumberGenerator* value);
 
-  /// @brief Method .ctor, addr 0x36a6e80, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36c97e4, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x36a6e9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36c9800, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::RandomNumberGenerator* rng);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator"

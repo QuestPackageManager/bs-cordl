@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ResourceManagement::Profiling::EngineEmitter::*)()>(
     &::UnityEngine::ResourceManagement::Profiling::EngineEmitter::get_IsEnabled)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6d4c080;
+  constexpr static std::size_t addrs = 0x6d88cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::Profiling::EngineEmitter::*)(::System::Guid, int32_t, ::System::Array*)>(
     &::UnityEngine::ResourceManagement::Profiling::EngineEmitter::EmitFrameMetaData)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d4c0a8;
+  constexpr static std::size_t addrs = 0x6d88d24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::Profiling::EngineEmitter::*)(::System::Action_1<float_t>*)>(
     &::UnityEngine::ResourceManagement::Profiling::EngineEmitter::InitialiseCallbacks)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6d4c0ac;
+  constexpr static std::size_t addrs = 0x6d88d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Profiling::EngineEmitter*>(),
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::Profiling::EngineEmitter::*)()>(&::UnityEngine::ResourceManagement::Profiling::EngineEmitter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d4c104;
+  constexpr static std::size_t addrs = 0x6d88d80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Profiling::EngineEmitter*>(), { ".ctor", {}, {} })));

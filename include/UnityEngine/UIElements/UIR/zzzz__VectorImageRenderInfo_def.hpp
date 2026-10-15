@@ -41,7 +41,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfo* New_ctor();
 
-  /// @brief Method Reset, addr 0x7189e9c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x71c6dd0, size 0x14, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get_atlas() const;
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set_useCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x7189e40, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71c6d74, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

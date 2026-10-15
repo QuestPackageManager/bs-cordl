@@ -26,10 +26,10 @@ class CORDL_TYPE NameFormatter : public ::System::Object {
 public:
   // Declarations
   /// [FreeFunction]
-  /// @brief Method FormatVariableName, addr 0x6f4edf8, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method FormatVariableName, addr 0x6f8bc34, size 0x1ac, virtual false, abstract: false, final false
   static inline ::StringW FormatVariableName(::StringW name);
 
-  /// @brief Method FormatVariableName_Injected, addr 0x6f4efa4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method FormatVariableName_Injected, addr 0x6f8bde0, size 0x44, virtual false, abstract: false, final false
   static inline void FormatVariableName_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
 protected:
@@ -47,7 +47,7 @@ public:
   NameFormatter(NameFormatter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10005 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10012 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

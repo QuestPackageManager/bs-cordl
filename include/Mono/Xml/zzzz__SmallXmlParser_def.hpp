@@ -157,19 +157,19 @@ public:
   /// @brief Convert operator to "::Mono::Xml::SmallXmlParser_IAttrList"
   constexpr operator ::Mono::Xml::SmallXmlParser_IAttrList*() noexcept;
 
-  /// @brief Method Add, addr 0x5ec8108, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x5f04994, size 0x110, virtual false, abstract: false, final false
   inline void Add(::StringW name, ::StringW value);
 
-  /// @brief Method Clear, addr 0x5ec7c04, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x5f04490, size 0xa4, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method GetName, addr 0x5ec8268, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method GetName, addr 0x5f04af4, size 0x64, virtual true, abstract: false, final true
   inline ::StringW GetName(int32_t i);
 
-  /// @brief Method GetValue, addr 0x5ec82cc, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method GetValue, addr 0x5f04b58, size 0x64, virtual true, abstract: false, final true
   inline ::StringW GetValue(int32_t i);
 
-  /// @brief Method GetValue, addr 0x5ec8330, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method GetValue, addr 0x5f04bbc, size 0xc8, virtual true, abstract: false, final true
   inline ::StringW GetValue(::StringW name);
 
   static inline ::Mono::Xml::SmallXmlParser_AttrListImpl* New_ctor();
@@ -186,16 +186,16 @@ public:
 
   constexpr void __cordl_internal_set_attrValues(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x5ec689c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f03128, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Length, addr 0x5ec8218, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method get_Length, addr 0x5f04aa4, size 0x50, virtual true, abstract: false, final true
   inline int32_t get_Length();
 
-  /// @brief Method get_Names, addr 0x5ec83f8, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method get_Names, addr 0x5f04c84, size 0x54, virtual true, abstract: false, final true
   inline ::ArrayW<::StringW> get_Names();
 
-  /// @brief Method get_Values, addr 0x5ec844c, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method get_Values, addr 0x5f04cd8, size 0x54, virtual true, abstract: false, final true
   inline ::ArrayW<::StringW> get_Values();
 
   /// @brief Convert to "::Mono::Xml::SmallXmlParser_IAttrList"
@@ -283,72 +283,72 @@ public:
   /// @brief Field xmlSpaces, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_xmlSpaces, put = __cordl_internal_set_xmlSpaces)) ::System::Collections::Stack* xmlSpaces;
 
-  /// @brief Method Cleanup, addr 0x5ec7b88, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x5f04414, size 0x7c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method Error, addr 0x5ec6930, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Error, addr 0x5f031bc, size 0x74, virtual false, abstract: false, final false
   inline ::System::Exception* Error(::StringW msg);
 
-  /// @brief Method Expect, addr 0x5ec6e78, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Expect, addr 0x5f03704, size 0xb8, virtual false, abstract: false, final false
   inline void Expect(int32_t c);
 
-  /// @brief Method HandleBufferedContent, addr 0x5ec7a3c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method HandleBufferedContent, addr 0x5f042c8, size 0x14c, virtual false, abstract: false, final false
   inline void HandleBufferedContent();
 
-  /// @brief Method HandleWhitespaces, addr 0x5ec6d44, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method HandleWhitespaces, addr 0x5f035d0, size 0xbc, virtual false, abstract: false, final false
   inline void HandleWhitespaces();
 
-  /// @brief Method IsNameChar, addr 0x5ec6b9c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method IsNameChar, addr 0x5f03428, size 0xd8, virtual false, abstract: false, final false
   inline bool IsNameChar(char16_t c, bool start);
 
-  /// @brief Method IsWhitespace, addr 0x5ec6c74, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsWhitespace, addr 0x5f03500, size 0x1c, virtual false, abstract: false, final false
   inline bool IsWhitespace(int32_t c);
 
   static inline ::Mono::Xml::SmallXmlParser* New_ctor();
 
-  /// @brief Method Parse, addr 0x5ec6328, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x5f02bb4, size 0x1cc, virtual false, abstract: false, final false
   inline void Parse(::System::IO::TextReader* input, ::Mono::Xml::SmallXmlParser_IContentHandler* handler);
 
-  /// @brief Method Peek, addr 0x5ec6e5c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Peek, addr 0x5f036e8, size 0x1c, virtual false, abstract: false, final false
   inline int32_t Peek();
 
-  /// @brief Method Read, addr 0x5ec6e00, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x5f0368c, size 0x5c, virtual false, abstract: false, final false
   inline int32_t Read();
 
-  /// @brief Method ReadAttribute, addr 0x5ec7e2c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method ReadAttribute, addr 0x5f046b8, size 0x164, virtual false, abstract: false, final false
   inline void ReadAttribute(::Mono::Xml::SmallXmlParser_AttrListImpl* a);
 
-  /// @brief Method ReadCDATASection, addr 0x5ec7ca8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ReadCDATASection, addr 0x5f04534, size 0xfc, virtual false, abstract: false, final false
   inline void ReadCDATASection();
 
-  /// @brief Method ReadCharacterReference, addr 0x5ec8018, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ReadCharacterReference, addr 0x5f048a4, size 0xf0, virtual false, abstract: false, final false
   inline int32_t ReadCharacterReference();
 
-  /// @brief Method ReadCharacters, addr 0x5ec7f90, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ReadCharacters, addr 0x5f0481c, size 0x88, virtual false, abstract: false, final false
   inline void ReadCharacters();
 
-  /// @brief Method ReadComment, addr 0x5ec7da4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ReadComment, addr 0x5f04630, size 0x88, virtual false, abstract: false, final false
   inline void ReadComment();
 
-  /// @brief Method ReadContent, addr 0x5ec7378, size 0x6c4, virtual false, abstract: false, final false
+  /// @brief Method ReadContent, addr 0x5f03c04, size 0x6c4, virtual false, abstract: false, final false
   inline void ReadContent();
 
-  /// @brief Method ReadName, addr 0x5ec71d4, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method ReadName, addr 0x5f03a60, size 0x1a4, virtual false, abstract: false, final false
   inline ::StringW ReadName();
 
-  /// @brief Method ReadReference, addr 0x5ec700c, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method ReadReference, addr 0x5f03898, size 0x1c8, virtual false, abstract: false, final false
   inline void ReadReference();
 
-  /// @brief Method ReadUntil, addr 0x5ec6f30, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ReadUntil, addr 0x5f037bc, size 0xdc, virtual false, abstract: false, final false
   inline ::StringW ReadUntil(char16_t until, bool handleReferences);
 
-  /// @brief Method SkipWhitespaces, addr 0x5ec6c90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SkipWhitespaces, addr 0x5f0351c, size 0x8, virtual false, abstract: false, final false
   inline void SkipWhitespaces();
 
-  /// @brief Method SkipWhitespaces, addr 0x5ec6c98, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SkipWhitespaces, addr 0x5f03524, size 0xac, virtual false, abstract: false, final false
   inline void SkipWhitespaces(bool expected);
 
-  /// @brief Method UnexpectedEndError, addr 0x5ec6a84, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method UnexpectedEndError, addr 0x5f03310, size 0x118, virtual false, abstract: false, final false
   inline ::System::Exception* UnexpectedEndError();
 
   constexpr ::Mono::Xml::SmallXmlParser_AttrListImpl* const& __cordl_internal_get_attributes() const;
@@ -423,7 +423,7 @@ public:
 
   constexpr void __cordl_internal_set_xmlSpaces(::System::Collections::Stack* value);
 
-  /// @brief Method .ctor, addr 0x5ec618c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f02a18, size 0x108, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

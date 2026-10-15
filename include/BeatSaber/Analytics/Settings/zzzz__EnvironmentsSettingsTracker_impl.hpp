@@ -1,0 +1,107 @@
+#pragma once
+// IWYU pragma private; include "BeatSaber/Analytics/Settings/EnvironmentsSettingsTracker.hpp"
+#include "System/zzzz__Object_impl.hpp"
+#include "BeatSaber/Analytics/Settings/zzzz__EnvironmentsSettingsTracker_def.hpp"
+#include "BeatSaber/Analytics/Gameplay/EventSenders/zzzz__ISettingsEventSender_def.hpp"
+#include "GlobalNamespace/zzzz__OverrideEnvironmentSettings_def.hpp"
+//  Writing Method size for method: ::BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker::*)(::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender*)>(
+    &::BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x3506280;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker*>(),
+                                                             { ".ctor", {}, { ::i2c::type_of<::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker.TakeSnapshot
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker::*)(::GlobalNamespace::OverrideEnvironmentSettings*)>(
+    &::BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker::TakeSnapshot)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x3506f34;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker*>(),
+                                                                                           { "TakeSnapshot", {}, { ::i2c::type_of<::GlobalNamespace::OverrideEnvironmentSettings*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker.DiffAndSend
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker::*)(::GlobalNamespace::OverrideEnvironmentSettings*)>(
+    &::BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker::DiffAndSend)> {
+  constexpr static std::size_t size = 0x278;
+  constexpr static std::size_t addrs = 0x3506f54;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker*>(),
+                                                                                           { "DiffAndSend", {}, { ::i2c::type_of<::GlobalNamespace::OverrideEnvironmentSettings*>() } })));
+    return ___internal_method;
+  }
+};
+constexpr ::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender*& BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker::__cordl_internal_get__sender() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____sender;
+}
+constexpr ::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* const& BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker::__cordl_internal_get__sender() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____sender;
+}
+constexpr void BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker::__cordl_internal_set__sender(::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____sender = value;
+}
+constexpr bool& BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker::__cordl_internal_get__hasSnapshot() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____hasSnapshot;
+}
+constexpr bool const& BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker::__cordl_internal_get__hasSnapshot() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____hasSnapshot;
+}
+constexpr void BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker::__cordl_internal_set__hasSnapshot(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____hasSnapshot = value;
+}
+constexpr bool& BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker::__cordl_internal_get__overrideEnvironments() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____overrideEnvironments;
+}
+constexpr bool const& BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker::__cordl_internal_get__overrideEnvironments() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____overrideEnvironments;
+}
+constexpr void BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker::__cordl_internal_set__overrideEnvironments(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____overrideEnvironments = value;
+}
+inline void BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker::_ctor(::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* sender) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker*>(),
+                                                           { ".ctor", {}, { ::i2c::type_of<::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, sender);
+}
+inline void BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker::TakeSnapshot(::GlobalNamespace::OverrideEnvironmentSettings* s) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker*>(),
+                                                                                         { "TakeSnapshot", {}, { ::i2c::type_of<::GlobalNamespace::OverrideEnvironmentSettings*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, s);
+}
+inline void BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker::DiffAndSend(::GlobalNamespace::OverrideEnvironmentSettings* s) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker*>(),
+                                                                                         { "DiffAndSend", {}, { ::i2c::type_of<::GlobalNamespace::OverrideEnvironmentSettings*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, s);
+}
+inline ::BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker*
+BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker::New_ctor(::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* sender) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker*>(sender));
+}
+// Ctor Parameters []
+constexpr ::BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker::EnvironmentsSettingsTracker() {}

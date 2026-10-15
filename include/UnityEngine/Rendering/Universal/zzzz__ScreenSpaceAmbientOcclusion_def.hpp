@@ -60,18 +60,18 @@ public:
 
   __declspec(property(get = get_settings)) ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings* settings;
 
-  /// @brief Method AddRenderPasses, addr 0x6ce9344, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method AddRenderPasses, addr 0x6d25fc0, size 0xd4, virtual true, abstract: false, final false
   inline void AddRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method Create, addr 0x6ce9294, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x6d25f10, size 0xb0, virtual true, abstract: false, final false
   inline void Create();
 
-  /// @brief Method Dispose, addr 0x6ce9818, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6d26494, size 0x78, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion* New_ctor();
 
-  /// @brief Method TryPrepareResources, addr 0x6ce9418, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method TryPrepareResources, addr 0x6d26094, size 0x400, virtual false, abstract: false, final false
   inline bool TryPrepareResources();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::Texture2D>> const& __cordl_internal_get_m_BlueNoise256Textures() const;
@@ -104,10 +104,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Shader(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x6ce9890, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d2650c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_settings, addr 0x6ce928c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_settings, addr 0x6d25f08, size 0x8, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings*> get_settings();
 
 protected:
@@ -125,7 +125,7 @@ public:
   ScreenSpaceAmbientOcclusion(ScreenSpaceAmbientOcclusion const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13175 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13182 };
 
   /// @brief Field k_AOBlueNoiseKeyword offset 0xffffffff size 0x8
   static constexpr ::ConstString k_AOBlueNoiseKeyword{ u"_BLUE_NOISE" };

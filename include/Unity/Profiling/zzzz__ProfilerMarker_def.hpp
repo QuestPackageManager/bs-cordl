@@ -43,10 +43,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x6eaf08c, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6eebd28, size 0x4c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x6eaf008, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6eebca4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr markerPtr);
 
   /// @brief Convert to "::System::IDisposable"
@@ -60,7 +60,7 @@ public:
   constexpr ProfilerMarker_AutoScope(::System::IntPtr m_Ptr) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9518 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9525 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -89,13 +89,13 @@ public:
   using AutoScope = ::Unity::Profiling::ProfilerMarker_AutoScope;
 
   /// [Pure]
-  /// @brief Method Auto, addr 0x6eaefc0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Auto, addr 0x6eebc5c, size 0x48, virtual false, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker_AutoScope Auto();
 
-  /// @brief Method .ctor, addr 0x6eaef9c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6eebc38, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Profiling::ProfilerCategory category, ::StringW name);
 
-  /// @brief Method .ctor, addr 0x6eaee20, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6eebabc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
   // Ctor Parameters []
@@ -106,7 +106,7 @@ public:
   constexpr ProfilerMarker(::System::IntPtr m_Ptr) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9519 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9526 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

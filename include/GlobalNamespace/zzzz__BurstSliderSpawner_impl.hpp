@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5ce1c00;
+  constexpr static std::size_t addrs = 0x5d1b328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate*>(),
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::*)(
     ::GlobalNamespace::NoteData*, ::by_ref<::GlobalNamespace::NoteSpawnData const>, bool)>(&::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5ce1d48;
+  constexpr static std::size_t addrs = 0x5d1b470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate*>(),
@@ -49,7 +49,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::*)(::GlobalNamespace::NoteData*, ::by_ref<::GlobalNamespace::NoteSpawnData const>, bool, ::System::AsyncCallback*,
                                                                       ::System::Object*)>(&::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5ce1d5c;
+  constexpr static std::size_t addrs = 0x5d1b484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate*>(),
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::*)(
     ::by_ref<::GlobalNamespace::NoteSpawnData const>, ::System::IAsyncResult*)>(&::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ce1e10;
+  constexpr static std::size_t addrs = 0x5d1b538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate*>(),
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, float_t, ::by_ref<::UnityEngine::Vector2>,
                                                                 ::by_ref<::UnityEngine::Vector2>)>(&::GlobalNamespace::BurstSliderSpawner::BezierCurve)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5ce172c;
+  constexpr static std::size_t addrs = 0x5d1ae54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespac
                                                                 ::GlobalNamespace::VariableMovementDataProvider*, ::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate*)>(
     &::GlobalNamespace::BurstSliderSpawner::ProcessSliderData)> {
   constexpr static std::size_t size = 0x40c;
-  constexpr static std::size_t addrs = 0x5ce17b8;
+  constexpr static std::size_t addrs = 0x5d1aee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -122,7 +122,7 @@ public:
 
   constexpr void __cordl_internal_set_terrainDetailLitPS(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x6ca3b40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ce07bc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -140,7 +140,7 @@ public:
   UniversalRenderPipelineEditorResources_ShaderResources(UniversalRenderPipelineEditorResources_ShaderResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12958 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12965 };
 
   /// [Reload("Shaders/AutodeskInteractive/AutodeskInteractive.shadergraph", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field autodeskInteractivePS, offset: 0x10, size: 0x8, def value: None
@@ -243,7 +243,7 @@ public:
 
   constexpr void __cordl_internal_set_terrainLit(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x6ca3b44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ce07c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -261,7 +261,7 @@ public:
   UniversalRenderPipelineEditorResources_MaterialResources(UniversalRenderPipelineEditorResources_MaterialResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12959 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12966 };
 
   /// [Reload("Runtime/Materials/Lit.mat", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field lit, offset: 0x10, size: 0x8, def value: None
@@ -326,7 +326,7 @@ public:
 
   constexpr void __cordl_internal_set_shaders(::UnityEngine::Rendering::Universal::UniversalRenderPipelineEditorResources_ShaderResources* value);
 
-  /// @brief Method .ctor, addr 0x6ca3b38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ce07b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -344,7 +344,7 @@ public:
   UniversalRenderPipelineEditorResources(UniversalRenderPipelineEditorResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12960 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12967 };
 
   /// [Obsolete("UniversalRenderPipelineEditorResources.ShaderResources is obsolete GraphicsSettings.TryGetRenderPipelineSettings<UniversalRenderPipelineEditorShaders>(). #from(2023.3)")]
   /// @brief Field shaders, offset: 0x18, size: 0x8, def value: None

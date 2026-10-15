@@ -39,7 +39,7 @@ public:
   constexpr Matrix3x4f__m_Data_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9721 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9728 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -77,7 +77,7 @@ public:
   constexpr Matrix3x4f(::UnityEngine::Matrix3x4f__m_Data_e__FixedBuffer m_Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9722 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9729 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

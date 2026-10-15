@@ -24,15 +24,15 @@ public:
   // Declarations
   __declspec(property(get = get_LogicalOperationStack)) ::System::Collections::Stack* LogicalOperationStack;
 
-  /// @brief Method GetLogicalOperationStack, addr 0x67bf3dc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetLogicalOperationStack, addr 0x67fc020, size 0xbc, virtual false, abstract: false, final false
   inline ::System::Collections::Stack* GetLogicalOperationStack();
 
   static inline ::System::Diagnostics::CorrelationManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x67bf3d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67fc018, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_LogicalOperationStack, addr 0x67bf3d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_LogicalOperationStack, addr 0x67fc01c, size 0x4, virtual false, abstract: false, final false
   inline ::System::Collections::Stack* get_LogicalOperationStack();
 
 protected:
@@ -50,7 +50,7 @@ public:
   CorrelationManager(CorrelationManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12063 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12070 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BombExplosionEffect::*)()>(&::GlobalNamespace::BombExplosionEffect::Awake)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5d9fa00;
+  constexpr static std::size_t addrs = 0x5ddcccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BombExplosionEffect*>(), { "Awake", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BombExplosionEffect::*)(::UnityEngine::Vector3)>(&::GlobalNamespace::BombExplosionEffect::SpawnExplosion)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5d9d324;
+  constexpr static std::size_t addrs = 0x5dda5f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BombExplosionEffect::*)(::UnityEngine::Vector3)>(&::GlobalNamespace::BombExplosionEffect::SpawnExplosionWithOffset)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5d9fa28;
+  constexpr static std::size_t addrs = 0x5ddccf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BombExplosionEffect::*)()>(&::GlobalNamespace::BombExplosionEffect::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5d9faf4;
+  constexpr static std::size_t addrs = 0x5ddcdc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BombExplosionEffect*>(), { ".ctor", {}, {} })));
@@ -114,18 +114,6 @@ constexpr ::UnityEngine::ParticleSystem_EmitParams const& GlobalNamespace::BombE
 constexpr void GlobalNamespace::BombExplosionEffect::__cordl_internal_set__emitParams(::UnityEngine::ParticleSystem_EmitParams value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____emitParams = value;
-}
-constexpr ::UnityEngine::ParticleSystem_EmitParams& GlobalNamespace::BombExplosionEffect::__cordl_internal_get__explosionPSEmitParams() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____explosionPSEmitParams;
-}
-constexpr ::UnityEngine::ParticleSystem_EmitParams const& GlobalNamespace::BombExplosionEffect::__cordl_internal_get__explosionPSEmitParams() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____explosionPSEmitParams;
-}
-constexpr void GlobalNamespace::BombExplosionEffect::__cordl_internal_set__explosionPSEmitParams(::UnityEngine::ParticleSystem_EmitParams value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____explosionPSEmitParams = value;
 }
 inline void GlobalNamespace::BombExplosionEffect::Awake() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BombExplosionEffect*>(), { "Awake", {}, {} })));

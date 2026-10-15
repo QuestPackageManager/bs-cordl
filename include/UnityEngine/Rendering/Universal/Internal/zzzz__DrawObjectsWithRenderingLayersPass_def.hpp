@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set_maskSize(::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize value);
 
-  /// @brief Method .ctor, addr 0x6d30acc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d6d748, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -113,7 +113,7 @@ public:
   DrawObjectsWithRenderingLayersPass_RenderingLayersPassData(DrawObjectsWithRenderingLayersPass_RenderingLayersPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13342 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13349 };
 
   /// @brief Field basePassData, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData* ___basePassData;
@@ -148,11 +148,11 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::Internal::DrawObjectsWithRenderingLayersPass___c* New_ctor();
 
-  /// @brief Method <Render>b__2_0, addr 0x6d30b74, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__2_0, addr 0x6d6d7f0, size 0x2a4, virtual false, abstract: false, final false
   inline void _Render_b__2_0(::UnityEngine::Rendering::Universal::Internal::DrawObjectsWithRenderingLayersPass_RenderingLayersPassData* data,
                              ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x6d30b70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d6d7ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::Internal::DrawObjectsWithRenderingLayersPass___c* getStaticF___9();
@@ -182,7 +182,7 @@ public:
   DrawObjectsWithRenderingLayersPass___c(DrawObjectsWithRenderingLayersPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13343 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13350 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -205,14 +205,14 @@ public:
   New_ctor(::UnityEngine::Rendering::Universal::URPProfileId profilerTag, bool opaque, ::UnityEngine::Rendering::Universal::RenderPassEvent evt,
            ::UnityEngine::Rendering::RenderQueueRange renderQueueRange, ::UnityEngine::LayerMask layerMask, ::UnityEngine::Rendering::StencilState stencilState, int32_t stencilReference);
 
-  /// @brief Method Render, addr 0x6d2fc94, size 0xe38, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6d6c910, size 0xe38, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle colorTarget, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle renderingLayersTexture,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depthTarget, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle mainShadowsTexture,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle additionalShadowsTexture, ::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize maskSize,
                      uint32_t batchLayerMask);
 
-  /// @brief Method .ctor, addr 0x6d2fbe4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d6c860, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::URPProfileId profilerTag, bool opaque, ::UnityEngine::Rendering::Universal::RenderPassEvent evt,
                     ::UnityEngine::Rendering::RenderQueueRange renderQueueRange, ::UnityEngine::LayerMask layerMask, ::UnityEngine::Rendering::StencilState stencilState, int32_t stencilReference);
 
@@ -231,7 +231,7 @@ public:
   DrawObjectsWithRenderingLayersPass(DrawObjectsWithRenderingLayersPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13344 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13351 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

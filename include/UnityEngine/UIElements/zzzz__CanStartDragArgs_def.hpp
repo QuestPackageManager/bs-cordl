@@ -31,7 +31,7 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE CanStartDragArgs {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x721946c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72563a0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* draggedElement, int32_t id, ::System::Collections::Generic::IEnumerable_1<int32_t>* selectedIds, ::UnityEngine::EventModifiers modifiers);
 
   // Ctor Parameters []

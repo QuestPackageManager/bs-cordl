@@ -51,23 +51,23 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext"
   constexpr operator ::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext*();
 
-  /// @brief Method FromInternalContext, addr 0x6c02efc, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method FromInternalContext, addr 0x6c3fb78, size 0xa4, virtual true, abstract: false, final true
   inline void FromInternalContext(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* context);
 
   /// [IsReadOnly]
-  /// @brief Method GetTextureUVOrigin, addr 0x6c02fa0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetTextureUVOrigin, addr 0x6c3fc1c, size 0x70, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureUVOrigin GetTextureUVOrigin(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> textureHandle);
 
-  /// @brief Method UnityEngine.Rendering.RenderGraphModule.IDerivedRendergraphContext.GetTextureUVOrigin, addr 0x6c03080, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.RenderGraphModule.IDerivedRendergraphContext.GetTextureUVOrigin, addr 0x6c3fcfc, size 0x68, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureUVOrigin
   UnityEngine_Rendering_RenderGraphModule_IDerivedRendergraphContext_GetTextureUVOrigin(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> textureHandle);
 
   static inline ::UnityEngine::Rendering::RasterCommandBuffer* getStaticF_rastercmd();
 
-  /// @brief Method get_defaultResources, addr 0x6c02ecc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_defaultResources, addr 0x6c3fb48, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphDefaultResources* get_defaultResources();
 
-  /// @brief Method get_renderGraphPool, addr 0x6c02ee4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_renderGraphPool, addr 0x6c3fb60, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool* get_renderGraphPool();
 
   /// @brief Convert to "::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext"
@@ -84,7 +84,7 @@ public:
   constexpr RasterGraphContext(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* wrappedContext, ::UnityEngine::Rendering::RasterCommandBuffer* cmd) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9327 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9334 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_rendererListHandle(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle value);
 
-  /// @brief Method .ctor, addr 0x6b0da88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b4a704, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -87,7 +87,7 @@ public:
   URPSelectionPickerPass_PassData(URPSelectionPickerPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17343 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17376 };
 
   /// @brief Field rendererListHandle, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle ___rendererListHandle;
@@ -118,10 +118,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::URPSelectionPickerPass___c* New_ctor();
 
-  /// @brief Method <RecordRenderGraph>b__5_0, addr 0x6b0dae4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <RecordRenderGraph>b__5_0, addr 0x6b4a760, size 0x10, virtual false, abstract: false, final false
   inline void _RecordRenderGraph_b__5_0(::UnityEngine::ProBuilder::URPSelectionPickerPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x6b0dae0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b4a75c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::URPSelectionPickerPass___c* getStaticF___9();
@@ -150,7 +150,7 @@ public:
   URPSelectionPickerPass___c(URPSelectionPickerPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17344 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17377 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -173,16 +173,16 @@ public:
   __declspec(property(get = __cordl_internal_get_m_ShaderTagIdList,
                       put = __cordl_internal_set_m_ShaderTagIdList)) ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* m_ShaderTagIdList;
 
-  /// @brief Method ExecutePass, addr 0x6b0d504, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x6b4a180, size 0x7c, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::ProBuilder::URPSelectionPickerPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method InitRendererLists, addr 0x6b0d0d4, size 0x430, virtual false, abstract: false, final false
+  /// @brief Method InitRendererLists, addr 0x6b49d50, size 0x430, virtual false, abstract: false, final false
   inline void InitRendererLists(::UnityEngine::Rendering::ContextContainer* frameData, ::by_ref<::UnityEngine::ProBuilder::URPSelectionPickerPass_PassData*> passData,
                                 ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph);
 
   static inline ::UnityEngine::ProBuilder::URPSelectionPickerPass* New_ctor(::UnityEngine::LayerMask layerMask);
 
-  /// @brief Method RecordRenderGraph, addr 0x6b0d580, size 0x508, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x6b4a1fc, size 0x508, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* const& __cordl_internal_get_m_ShaderTagIdList() const;
@@ -191,7 +191,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ShaderTagIdList(::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* value);
 
-  /// @brief Method .ctor, addr 0x6afb710, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b3838c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::LayerMask layerMask);
 
 protected:
@@ -209,7 +209,7 @@ public:
   URPSelectionPickerPass(URPSelectionPickerPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17345 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17378 };
 
   /// @brief Field m_ShaderTagIdList, offset: 0x60, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* ___m_ShaderTagIdList;

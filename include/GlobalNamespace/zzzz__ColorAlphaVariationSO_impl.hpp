@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorAlphaVariationSO::*)()>(&::GlobalNamespace::ColorAlphaVariationSO::get_color)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x397ff24;
+  constexpr static std::size_t addrs = 0x39a2888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::NoAlphaColorSO> (::GlobalNamespace::ColorAlphaVariationSO::*)()>(
     &::GlobalNamespace::ColorAlphaVariationSO::get_baseColor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x397ff58;
+  constexpr static std::size_t addrs = 0x39a28bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorAlphaVariationSO*>(), { "get_baseColor", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::AlphaSO> (::GlobalNamespace::ColorAlphaVariationSO::*)()>(&::GlobalNamespace::ColorAlphaVariationSO::get_alpha)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x397ff60;
+  constexpr static std::size_t addrs = 0x39a28c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorAlphaVariationSO*>(), { "get_alpha", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorAlphaVariationSO::*)()>(&::GlobalNamespace::ColorAlphaVariationSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x397ff68;
+  constexpr static std::size_t addrs = 0x39a28cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorAlphaVariationSO*>(), { ".ctor", {}, {} })));

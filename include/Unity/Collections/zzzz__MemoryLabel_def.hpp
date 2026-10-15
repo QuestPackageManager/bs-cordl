@@ -30,19 +30,19 @@ public:
   // Declarations
   __declspec(property(get = get_IsCreated)) bool IsCreated;
 
-  /// @brief Method IsNullOrEmpty, addr 0x6eb18ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsNullOrEmpty, addr 0x6eee548, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsNullOrEmpty(::StringW str);
 
-  /// @brief Method IsNullOrEmpty__Unmanaged, addr 0x6eb18d8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsNullOrEmpty__Unmanaged, addr 0x6eee574, size 0x10, virtual false, abstract: false, final false
   static inline bool IsNullOrEmpty__Unmanaged(uint8_t* name, int32_t nameLen);
 
-  /// @brief Method SupportsAllocator, addr 0x6eb18c8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SupportsAllocator, addr 0x6eee564, size 0x10, virtual false, abstract: false, final false
   static inline bool SupportsAllocator(::Unity::Collections::Allocator allocator);
 
-  /// @brief Method .ctor, addr 0x6eb17c8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6eee464, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::StringW areaName, ::StringW objectName, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method get_IsCreated, addr 0x6eb18e8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsCreated, addr 0x6eee584, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
   // Ctor Parameters []
@@ -54,7 +54,7 @@ public:
   constexpr MemoryLabel(::System::IntPtr pointer, ::Unity::Collections::Allocator allocator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9557 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9564 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

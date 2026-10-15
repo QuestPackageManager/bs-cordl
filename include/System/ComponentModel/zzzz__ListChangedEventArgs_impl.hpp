@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::ListChangedEventArgs::*)(::System::ComponentModel::ListChangedType, int32_t)>(
     &::System::ComponentModel::ListChangedEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67eafdc;
+  constexpr static std::size_t addrs = 0x6827c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::ListChangedEventArgs::*)(
     ::System::ComponentModel::ListChangedType, int32_t, ::System::ComponentModel::PropertyDescriptor*)>(&::System::ComponentModel::ListChangedEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x67eb05c;
+  constexpr static std::size_t addrs = 0x6827ca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::ListChangedEventArgs::*)(
     ::System::ComponentModel::ListChangedType, ::System::ComponentModel::PropertyDescriptor*)>(&::System::ComponentModel::ListChangedEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x67eb08c;
+  constexpr static std::size_t addrs = 0x6827cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::ListChangedEventArgs::*)(::System::ComponentModel::ListChangedType, int32_t, int32_t)>(
     &::System::ComponentModel::ListChangedEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x67eafe4;
+  constexpr static std::size_t addrs = 0x6827c28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::ListChangedType (::System::ComponentModel::ListChangedEventArgs::*)()>(
     &::System::ComponentModel::ListChangedEventArgs::get_ListChangedType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67eb0f8;
+  constexpr static std::size_t addrs = 0x6827d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::ListChangedEventArgs*>(), { "get_ListChangedType", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ComponentModel::ListChangedEventArgs::*)()>(&::System::ComponentModel::ListChangedEventArgs::get_NewIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67eb100;
+  constexpr static std::size_t addrs = 0x6827d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::ListChangedEventArgs*>(), { "get_NewIndex", {}, {} })));
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ComponentModel::ListChangedEventArgs::*)()>(&::System::ComponentModel::ListChangedEventArgs::get_OldIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67eb108;
+  constexpr static std::size_t addrs = 0x6827d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::ListChangedEventArgs*>(), { "get_OldIndex", {}, {} })));

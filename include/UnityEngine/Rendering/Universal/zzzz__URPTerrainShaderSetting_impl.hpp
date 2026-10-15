@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::URPTerrainShaderSetting::*)()>(
     &::UnityEngine::Rendering::Universal::URPTerrainShaderSetting::get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cf14fc;
+  constexpr static std::size_t addrs = 0x6d2e178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::URPTerrainShaderSetting::*)()>(
     &::UnityEngine::Rendering::Universal::URPTerrainShaderSetting::get_includeTerrainShaders)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cf1504;
+  constexpr static std::size_t addrs = 0x6d2e180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::URPTerrainShaderSetting::*)(bool)>(
     &::UnityEngine::Rendering::Universal::URPTerrainShaderSetting::set_includeTerrainShaders)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6cf150c;
+  constexpr static std::size_t addrs = 0x6d2e188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::URPTerrainShaderSetting::*)()>(
     &::UnityEngine::Rendering::Universal::URPTerrainShaderSetting::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6cf157c;
+  constexpr static std::size_t addrs = 0x6d2e1f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::URPTerrainShaderSetting*>(), { ".ctor", {}, {} })));

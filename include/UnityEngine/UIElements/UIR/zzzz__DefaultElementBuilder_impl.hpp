@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::DefaultElementBuilder::*)(::UnityEngine::UIElements::UIR::RenderTreeManager*)>(
     &::UnityEngine::UIElements::UIR::DefaultElementBuilder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7165380;
+  constexpr static std::size_t addrs = 0x71a22b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::DefaultElementBuilder*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::DefaultElementBuilder::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::UIR::DefaultElementBuilder::RequiresStencilMask)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x7165388;
+  constexpr static std::size_t addrs = 0x71a22bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::DefaultElementBuilder*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::DefaultElementBuilder::*)(Il2CppObject*)>(
     &::UnityEngine::UIElements::UIR::DefaultElementBuilder::DrawVisualElementBackground)> {
   constexpr static std::size_t size = 0x1394;
-  constexpr static std::size_t addrs = 0x716547c;
+  constexpr static std::size_t addrs = 0x71a23b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::DefaultElementBuilder*>(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::DefaultElementBuilder::*)(Il2CppObject*)>(
     &::UnityEngine::UIElements::UIR::DefaultElementBuilder::DrawVisualElementBorder)> {
   constexpr static std::size_t size = 0x7a0;
-  constexpr static std::size_t addrs = 0x7166ee8;
+  constexpr static std::size_t addrs = 0x71a3e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::DefaultElementBuilder*>(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::DefaultElementBuilder::*)(Il2CppObject*)>(
     &::UnityEngine::UIElements::UIR::DefaultElementBuilder::DrawVisualElementStencilMask)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x7167688;
+  constexpr static std::size_t addrs = 0x71a45bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::DefaultElementBuilder*>(),
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(Il2CppObject*)>(&::UnityEngine::UIElements::UIR::DefaultElementBuilder::GenerateStencilClipEntryForRoundedRectBackground)> {
   constexpr static std::size_t size = 0x7b4;
-  constexpr static std::size_t addrs = 0x716778c;
+  constexpr static std::size_t addrs = 0x71a46c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::DefaultElementBuilder*>(),
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::DefaultElementBuilder::*)(Il2CppObject*)>(
     &::UnityEngine::UIElements::UIR::DefaultElementBuilder::ScheduleMeshGenerationJobs)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x7167f40;
+  constexpr static std::size_t addrs = 0x71a4e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::DefaultElementBuilder*>(),

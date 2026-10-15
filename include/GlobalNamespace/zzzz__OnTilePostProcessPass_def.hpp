@@ -150,7 +150,7 @@ public:
   static ::GlobalNamespace::OnTilePostProcessPass_UberShaderPasses const TextureReadVisMesh;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12780 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12787 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -265,7 +265,7 @@ public:
 
   constexpr void __cordl_internal_set_xr(::UnityEngine::Experimental::Rendering::XRPass* value);
 
-  /// @brief Method .ctor, addr 0x6c73f74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cb0bf0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -283,7 +283,7 @@ public:
   OnTilePostProcessPass_PassData(OnTilePostProcessPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12781 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12788 };
 
   /// @brief Field source, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___source;
@@ -412,7 +412,7 @@ public:
   OnTilePostProcessPass_ShaderConstants(OnTilePostProcessPass_ShaderConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12782 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12789 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -438,10 +438,10 @@ public:
 
   static inline ::GlobalNamespace::OnTilePostProcessPass___c* New_ctor();
 
-  /// @brief Method <RecordRenderGraph>b__13_0, addr 0x6c74178, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RecordRenderGraph>b__13_0, addr 0x6cb0df4, size 0x70, virtual false, abstract: false, final false
   inline void _RecordRenderGraph_b__13_0(::GlobalNamespace::OnTilePostProcessPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x6c74174, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cb0df0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::OnTilePostProcessPass___c* getStaticF___9();
@@ -469,7 +469,7 @@ public:
   OnTilePostProcessPass___c(OnTilePostProcessPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12783 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12790 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -516,40 +516,40 @@ public:
   /// @brief Field s_BlitTexture, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_BlitTexture, put = setStaticF_s_BlitTexture)) int32_t s_BlitTexture;
 
-  /// @brief Method Dispose, addr 0x6c720e8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6caed64, size 0x70, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method ExecuteFBFetchPass, addr 0x6c739a0, size 0x530, virtual false, abstract: false, final false
+  /// @brief Method ExecuteFBFetchPass, addr 0x6cb061c, size 0x530, virtual false, abstract: false, final false
   static inline void ExecuteFBFetchPass(::GlobalNamespace::OnTilePostProcessPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
   static inline ::GlobalNamespace::OnTilePostProcessPass* New_ctor(::UnityEngine::Rendering::Universal::PostProcessData* postProcessData);
 
-  /// @brief Method RecordRenderGraph, addr 0x6c72158, size 0xf20, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x6caedd4, size 0xf20, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method Setup, addr 0x6c720b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6caed2c, size 0xc, virtual false, abstract: false, final false
   inline void Setup(::by_ref<::UnityEngine::Material*> onTileUberMaterial);
 
-  /// @brief Method SetupDithering, addr 0x6c736fc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SetupDithering, addr 0x6cb0378, size 0xa4, virtual false, abstract: false, final false
   inline void SetupDithering(::UnityEngine::Material* onTileUberMaterial, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                              ::UnityEngine::Rendering::Universal::PostProcessData* data);
 
-  /// @brief Method SetupGrain, addr 0x6c73640, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SetupGrain, addr 0x6cb02bc, size 0xbc, virtual false, abstract: false, final false
   inline void SetupGrain(::UnityEngine::Material* onTileUberMaterial, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::UnityEngine::Rendering::Universal::FilmGrain* filmgrain,
                          ::UnityEngine::Rendering::Universal::PostProcessData* data);
 
-  /// @brief Method SetupLut, addr 0x6c732a0, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method SetupLut, addr 0x6caff1c, size 0x248, virtual false, abstract: false, final false
   inline void SetupLut(::UnityEngine::Material* material, ::UnityEngine::Rendering::Universal::ColorLookup* colorLookup, ::UnityEngine::Rendering::Universal::ColorAdjustments* colorAdjustments,
                        int32_t lutSize);
 
-  /// @brief Method SetupTonemapping, addr 0x6c734e8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method SetupTonemapping, addr 0x6cb0164, size 0x158, virtual false, abstract: false, final false
   inline void SetupTonemapping(::UnityEngine::Material* onTileUberMaterial, ::UnityEngine::Rendering::Universal::Tonemapping* tonemapping, bool isHdrGrading);
 
-  /// @brief Method SetupVignette, addr 0x6c73078, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method SetupVignette, addr 0x6cafcf4, size 0x228, virtual false, abstract: false, final false
   inline void SetupVignette(::UnityEngine::Material* material, ::UnityEngine::Experimental::Rendering::XRPass* xrPass, int32_t width, int32_t height,
                             ::UnityEngine::Rendering::Universal::Vignette* vignette);
 
-  /// @brief Method TryGetCachedUserLutTextureHandle, addr 0x6c737a0, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method TryGetCachedUserLutTextureHandle, addr 0x6cb041c, size 0x200, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle TryGetCachedUserLutTextureHandle(::UnityEngine::Rendering::Universal::ColorLookup* colorLookup,
                                                                                                      ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph);
 
@@ -589,7 +589,7 @@ public:
 
   constexpr void __cordl_internal_set_m_UserLut(::UnityEngine::Rendering::RTHandle* value);
 
-  /// @brief Method .ctor, addr 0x6c71d1c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cae998, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::PostProcessData* postProcessData);
 
   static inline int32_t getStaticF_s_BlitScaleBias();
@@ -615,7 +615,7 @@ public:
   OnTilePostProcessPass(OnTilePostProcessPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12784 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12791 };
 
   /// @brief Field m_FallbackPassName offset 0xffffffff size 0x8
   static constexpr ::ConstString m_FallbackPassName{ u"On Tile Post Processing (sampling fallback) " };

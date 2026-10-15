@@ -53,61 +53,61 @@ public:
   /// @brief Field k_IcosphereVertices, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_IcosphereVertices, put = setStaticF_k_IcosphereVertices)) ::ArrayW<::UnityEngine::Vector3> k_IcosphereVertices;
 
-  /// @brief Method CreateShape, addr 0x6afe2d4, size 0x528, virtual false, abstract: false, final false
+  /// @brief Method CreateShape, addr 0x6b3af50, size 0x528, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> CreateShape(::UnityEngine::ProBuilder::ShapeType shape, ::UnityEngine::ProBuilder::PivotLocation pivotType);
 
-  /// @brief Method GenerateArch, addr 0x6b03d08, size 0x7e8, virtual false, abstract: false, final false
+  /// @brief Method GenerateArch, addr 0x6b40984, size 0x7e8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> GenerateArch(::UnityEngine::ProBuilder::PivotLocation pivotType, float_t angle, float_t radius, float_t width, float_t depth,
                                                                                  int32_t radialCuts, bool insideFaces, bool outsideFaces, bool frontFaces, bool backFaces, bool endCaps);
 
-  /// @brief Method GenerateCone, addr 0x6b032f0, size 0xa18, virtual false, abstract: false, final false
+  /// @brief Method GenerateCone, addr 0x6b3ff6c, size 0xa18, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> GenerateCone(::UnityEngine::ProBuilder::PivotLocation pivotType, float_t radius, float_t height, int32_t subdivAxis);
 
-  /// @brief Method GenerateCube, addr 0x6afe7fc, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method GenerateCube, addr 0x6b3b478, size 0x24c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> GenerateCube(::UnityEngine::ProBuilder::PivotLocation pivotType, ::UnityEngine::Vector3 size);
 
-  /// @brief Method GenerateCurvedStair, addr 0x6aff3b4, size 0xd90, virtual false, abstract: false, final false
+  /// @brief Method GenerateCurvedStair, addr 0x6b3c030, size 0xd90, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> GenerateCurvedStair(::UnityEngine::ProBuilder::PivotLocation pivotType, float_t stairWidth, float_t height, float_t innerRadius,
                                                                                         float_t circumference, int32_t steps, bool buildSides);
 
-  /// @brief Method GenerateCylinder, addr 0x6b0079c, size 0x898, virtual false, abstract: false, final false
+  /// @brief Method GenerateCylinder, addr 0x6b3d418, size 0x898, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> GenerateCylinder(::UnityEngine::ProBuilder::PivotLocation pivotType, int32_t axisDivisions, float_t radius, float_t height,
                                                                                      int32_t heightCuts, int32_t smoothing);
 
-  /// @brief Method GenerateDoor, addr 0x6b01630, size 0x1594, virtual false, abstract: false, final false
+  /// @brief Method GenerateDoor, addr 0x6b3e2ac, size 0x1594, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> GenerateDoor(::UnityEngine::ProBuilder::PivotLocation pivotType, float_t totalWidth, float_t totalHeight, float_t ledgeHeight,
                                                                                  float_t legWidth, float_t depth);
 
-  /// @brief Method GenerateIcosahedron, addr 0x6b044f0, size 0xad8, virtual false, abstract: false, final false
+  /// @brief Method GenerateIcosahedron, addr 0x6b4116c, size 0xad8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> GenerateIcosahedron(::UnityEngine::ProBuilder::PivotLocation pivotType, float_t radius, int32_t subdivisions, bool weldVertices,
                                                                                         bool manualUvs);
 
-  /// @brief Method GeneratePipe, addr 0x6b02bc4, size 0x72c, virtual false, abstract: false, final false
+  /// @brief Method GeneratePipe, addr 0x6b3f840, size 0x72c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> GeneratePipe(::UnityEngine::ProBuilder::PivotLocation pivotType, float_t radius, float_t height, float_t thickness,
                                                                                  int32_t subdivAxis, int32_t subdivHeight);
 
-  /// @brief Method GeneratePlane, addr 0x6b01034, size 0x5fc, virtual false, abstract: false, final false
+  /// @brief Method GeneratePlane, addr 0x6b3dcb0, size 0x5fc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> GeneratePlane(::UnityEngine::ProBuilder::PivotLocation pivotType, float_t width, float_t height, int32_t widthCuts,
                                                                                   int32_t heightCuts, ::UnityEngine::ProBuilder::Axis axis);
 
-  /// @brief Method GeneratePrism, addr 0x6b00144, size 0x658, virtual false, abstract: false, final false
+  /// @brief Method GeneratePrism, addr 0x6b3cdc0, size 0x658, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> GeneratePrism(::UnityEngine::ProBuilder::PivotLocation pivotType, ::UnityEngine::Vector3 size);
 
-  /// @brief Method GenerateStair, addr 0x6afea48, size 0x96c, virtual false, abstract: false, final false
+  /// @brief Method GenerateStair, addr 0x6b3b6c4, size 0x96c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> GenerateStair(::UnityEngine::ProBuilder::PivotLocation pivotType, ::UnityEngine::Vector3 size, int32_t steps, bool buildSides);
 
-  /// @brief Method GenerateStair, addr 0x6b05668, size 0x50c, virtual false, abstract: false, final false
+  /// @brief Method GenerateStair, addr 0x6b422e4, size 0x50c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> GenerateStair(::UnityEngine::ProBuilder::PivotLocation pivotType, int32_t steps, float_t width, float_t height, float_t depth,
                                                                                   bool sidesGoToFloor, bool generateBack, bool platformsOnly);
 
-  /// @brief Method GenerateTorus, addr 0x6b04fc8, size 0x6a0, virtual false, abstract: false, final false
+  /// @brief Method GenerateTorus, addr 0x6b41c44, size 0x6a0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> GenerateTorus(::UnityEngine::ProBuilder::PivotLocation pivotType, int32_t rows, int32_t columns, float_t innerRadius,
                                                                                   float_t outerRadius, bool smooth, float_t horizontalCircumference, float_t verticalCircumference, bool manualUvs);
 
-  /// @brief Method GetCirclePoints, addr 0x6b06908, size 0x394, virtual false, abstract: false, final false
+  /// @brief Method GetCirclePoints, addr 0x6b43584, size 0x394, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector3> GetCirclePoints(int32_t segments, float_t radius, float_t circumference, ::UnityEngine::Quaternion rotation, float_t offset);
 
-  /// @brief Method SubdivideIcosahedron, addr 0x6b05d88, size 0x514, virtual false, abstract: false, final false
+  /// @brief Method SubdivideIcosahedron, addr 0x6b42a04, size 0x514, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector3> SubdivideIcosahedron(::ArrayW<::UnityEngine::Vector3> vertices, float_t radius);
 
   static inline ::ArrayW<int32_t> getStaticF_k_CubeTriangles();
@@ -141,7 +141,7 @@ public:
   ShapeGenerator(ShapeGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17330 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17363 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

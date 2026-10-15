@@ -30,23 +30,23 @@ class CORDL_TYPE InputExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method IsActive, addr 0x6994280, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsActive, addr 0x69d0efc, size 0x14, virtual false, abstract: false, final false
   static inline bool IsActive(::UnityEngine::InputSystem::TouchPhase phase);
 
   /// [Extension]
-  /// @brief Method IsEndedOrCanceled, addr 0x6994aa8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsEndedOrCanceled, addr 0x69d1724, size 0x10, virtual false, abstract: false, final false
   static inline bool IsEndedOrCanceled(::UnityEngine::InputSystem::TouchPhase phase);
 
   /// [Extension]
-  /// @brief Method IsInProgress, addr 0x6994a98, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsInProgress, addr 0x69d1714, size 0x10, virtual false, abstract: false, final false
   static inline bool IsInProgress(::UnityEngine::InputSystem::InputActionPhase phase);
 
   /// [Extension]
-  /// @brief Method IsModifierKey, addr 0x6994ab8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsModifierKey, addr 0x69d1734, size 0x10, virtual false, abstract: false, final false
   static inline bool IsModifierKey(::UnityEngine::InputSystem::Key key);
 
   /// [Extension]
-  /// @brief Method IsTextInputKey, addr 0x6994ac8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsTextInputKey, addr 0x69d1744, size 0x34, virtual false, abstract: false, final false
   static inline bool IsTextInputKey(::UnityEngine::InputSystem::Key key);
 
 protected:
@@ -64,7 +64,7 @@ public:
   InputExtensions(InputExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10738 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10745 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

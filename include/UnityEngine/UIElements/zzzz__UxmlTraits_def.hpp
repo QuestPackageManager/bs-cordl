@@ -29,12 +29,12 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE UxmlTraits : public ::UnityEngine::UIElements::BaseUxmlTraits {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x71468ac, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x71837e0, size 0x4, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x71437d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7180708, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

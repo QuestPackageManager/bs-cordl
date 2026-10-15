@@ -74,25 +74,25 @@ public:
   __declspec(property(get = __cordl_internal_get__renderers,
                       put = __cordl_internal_set__renderers)) ::System::Collections::Generic::List_1<::UnityW<::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRenderer>>* _renderers;
 
-  /// @brief Method AddGizmoRenderer, addr 0x5e87524, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method AddGizmoRenderer, addr 0x5ec3cac, size 0xf8, virtual false, abstract: false, final false
   inline void AddGizmoRenderer();
 
-  /// @brief Method GetState, addr 0x5e7c25c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetState, addr 0x5eb89e4, size 0xb8, virtual false, abstract: false, final false
   inline bool GetState(::UnityEngine::Object* instance);
 
   static inline ::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager* New_ctor();
 
-  /// @brief Method SetState, addr 0x5e7c0f4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method SetState, addr 0x5eb887c, size 0xfc, virtual false, abstract: false, final false
   inline void SetState(::UnityEngine::Object* instance, bool state);
 
-  /// @brief Method Setup, addr 0x5e7b964, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x5eb80ec, size 0x68, virtual false, abstract: false, final false
   inline void Setup(::System::Type* classType, ::System::Reflection::MemberInfo* memberInfo, ::Meta::XR::ImmersiveDebugger::DebugGizmoType gizmoType, ::UnityEngine::Color gizmoColor,
                     ::Meta::XR::ImmersiveDebugger::Utils::InstanceCache* instanceCache);
 
-  /// @brief Method Start, addr 0x5e87520, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5ec3ca8, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x5e8761c, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5ec3da4, size 0x2f8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::System::Type* const& __cordl_internal_get__classType() const;
@@ -143,7 +143,7 @@ public:
 
   constexpr void __cordl_internal_set__renderers(::System::Collections::Generic::List_1<::UnityW<::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRenderer>>* value);
 
-  /// @brief Method .ctor, addr 0x5e87914, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ec409c, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -161,7 +161,7 @@ public:
   GizmoRendererManager(GizmoRendererManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19012 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19045 };
 
   /// @brief Field _classType, offset: 0x20, size: 0x8, def value: None
   ::System::Type* ____classType;

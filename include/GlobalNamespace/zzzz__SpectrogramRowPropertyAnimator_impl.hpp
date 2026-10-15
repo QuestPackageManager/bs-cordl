@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpectrogramRowPropertyAnimator::*)()>(&::GlobalNamespace::SpectrogramRowPropertyAnimator::SetProperty)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5dc2f2c;
+  constexpr static std::size_t addrs = 0x5e00110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpectrogramRowPropertyAnimator::*)()>(&::GlobalNamespace::SpectrogramRowPropertyAnimator::Awake)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5dc2f5c;
+  constexpr static std::size_t addrs = 0x5e00140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpectrogramRowPropertyAnimator*>(), { "Awake", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpectrogramRowPropertyAnimator::*)()>(&::GlobalNamespace::SpectrogramRowPropertyAnimator::Update)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5dc3028;
+  constexpr static std::size_t addrs = 0x5e0020c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpectrogramRowPropertyAnimator*>(), { "Update", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpectrogramRowPropertyAnimator::*)()>(&::GlobalNamespace::SpectrogramRowPropertyAnimator::LazyInit)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5dc2ff4;
+  constexpr static std::size_t addrs = 0x5e001d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpectrogramRowPropertyAnimator*>(), { "LazyInit", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpectrogramRowPropertyAnimator::*)(float_t)>(&::GlobalNamespace::SpectrogramRowPropertyAnimator::SetMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dc30d0;
+  constexpr static std::size_t addrs = 0x5e002b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpectrogramRowPropertyAnimator::*)()>(&::GlobalNamespace::SpectrogramRowPropertyAnimator::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5dc30d8;
+  constexpr static std::size_t addrs = 0x5e002bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpectrogramRowPropertyAnimator*>(), { ".ctor", {}, {} })));

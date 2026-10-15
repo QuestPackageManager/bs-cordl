@@ -122,7 +122,7 @@ public:
   static ::UnityEngine::TextCore::Text::TextHandle_TextHandleFlags const IsCachedPermanentTextCore;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17865 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17898 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -169,25 +169,25 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::TextHandle___c* New_ctor();
 
-  /// @brief Method <InitThreadArrays>b__3_0, addr 0x7063818, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <InitThreadArrays>b__3_0, addr 0x70a070c, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextGenerationSettings* _InitThreadArrays_b__3_0();
 
-  /// @brief Method <InitThreadArrays>b__3_1, addr 0x70638ac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <InitThreadArrays>b__3_1, addr 0x70a07a0, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextGenerator* _InitThreadArrays_b__3_1();
 
-  /// @brief Method <InitThreadArrays>b__3_2, addr 0x7063904, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <InitThreadArrays>b__3_2, addr 0x70a07f8, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextInfo* _InitThreadArrays_b__3_2();
 
-  /// @brief Method .ctor, addr 0x7063814, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70a0708, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_generators>b__9_0, addr 0x7063b88, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <get_generators>b__9_0, addr 0x70a0a7c, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextGenerator* _get_generators_b__9_0();
 
-  /// @brief Method <get_settingsArray>b__6_0, addr 0x7063af4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <get_settingsArray>b__6_0, addr 0x70a09e8, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextGenerationSettings* _get_settingsArray_b__6_0();
 
-  /// @brief Method <get_textInfosCommon>b__12_0, addr 0x7063be0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <get_textInfosCommon>b__12_0, addr 0x70a0ad4, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextInfo* _get_textInfosCommon_b__12_0();
 
   static inline ::UnityEngine::TextCore::Text::TextHandle___c* getStaticF___9();
@@ -233,7 +233,7 @@ public:
   TextHandle___c(TextHandle___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17866 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17899 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -338,174 +338,174 @@ public:
 
   __declspec(property(get = get_useAdvancedText)) bool useAdvancedText;
 
-  /// @brief Method AddTextInfoToTemporaryCache, addr 0x706163c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AddTextInfoToTemporaryCache, addr 0x709e530, size 0xa4, virtual false, abstract: false, final false
   inline void AddTextInfoToTemporaryCache(int32_t hashCode);
 
-  /// @brief Method AddToPermanentCacheAndGenerateMesh, addr 0x7061570, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method AddToPermanentCacheAndGenerateMesh, addr 0x709e464, size 0xcc, virtual true, abstract: false, final false
   inline void AddToPermanentCacheAndGenerateMesh();
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
-  /// @brief Method ConvertPixelUnitsToTextCoreRelativeUnits, addr 0x7061ff8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ConvertPixelUnitsToTextCoreRelativeUnits, addr 0x709eeec, size 0x2c, virtual false, abstract: false, final false
   static inline float_t ConvertPixelUnitsToTextCoreRelativeUnits(float_t fontSize, ::UnityEngine::TextCore::Text::FontAsset* fontAsset);
 
-  /// @brief Method Finalize, addr 0x7060448, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x709d33c, size 0x60, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method FindIntersectingLink, addr 0x7062520, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method FindIntersectingLink, addr 0x709f414, size 0x10c, virtual false, abstract: false, final false
   inline int32_t FindIntersectingLink(::UnityEngine::Vector3 position, bool inverseYAxis);
 
-  /// @brief Method GetCharacterHeightFromIndex, addr 0x7062964, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetCharacterHeightFromIndex, addr 0x709f858, size 0xb0, virtual false, abstract: false, final false
   inline float_t GetCharacterHeightFromIndex(int32_t index);
 
-  /// @brief Method GetCorrespondingStringIndex, addr 0x706262c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetCorrespondingStringIndex, addr 0x709f520, size 0x58, virtual false, abstract: false, final false
   inline int32_t GetCorrespondingStringIndex(int32_t index);
 
-  /// @brief Method GetCursorIndexFromPosition, addr 0x7062348, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetCursorIndexFromPosition, addr 0x709f23c, size 0xc8, virtual false, abstract: false, final false
   inline int32_t GetCursorIndexFromPosition(::UnityEngine::Vector2 position, bool inverseYAxis);
 
-  /// @brief Method GetCursorPositionFromStringIndexUsingCharacterHeight, addr 0x7062024, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method GetCursorPositionFromStringIndexUsingCharacterHeight, addr 0x709ef18, size 0xb4, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 GetCursorPositionFromStringIndexUsingCharacterHeight(int32_t index, bool inverseYAxis);
 
-  /// @brief Method GetCursorPositionFromStringIndexUsingLineHeight, addr 0x70620d8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetCursorPositionFromStringIndexUsingLineHeight, addr 0x709efcc, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetCursorPositionFromStringIndexUsingLineHeight(int32_t index, bool useXAdvance, bool inverseYAxis);
 
-  /// @brief Method GetEndOfPreviousWord, addr 0x7062d20, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetEndOfPreviousWord, addr 0x709fc14, size 0xe0, virtual false, abstract: false, final false
   inline int32_t GetEndOfPreviousWord(int32_t currentIndex);
 
-  /// @brief Method GetFirstCharacterIndexOnLine, addr 0x7062e00, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetFirstCharacterIndexOnLine, addr 0x709fcf4, size 0x90, virtual false, abstract: false, final false
   inline int32_t GetFirstCharacterIndexOnLine(int32_t currentIndex);
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
-  /// @brief Method GetHighlightRectangles, addr 0x7062198, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method GetHighlightRectangles, addr 0x709f08c, size 0x1b0, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rect> GetHighlightRectangles(int32_t cursorIndex, int32_t selectIndex);
 
-  /// @brief Method GetLastCharacterIndexOnLine, addr 0x7062e90, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetLastCharacterIndexOnLine, addr 0x709fd84, size 0x8c, virtual false, abstract: false, final false
   inline int32_t GetLastCharacterIndexOnLine(int32_t currentIndex);
 
-  /// @brief Method GetLineHeight, addr 0x7062804, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetLineHeight, addr 0x709f6f8, size 0xb0, virtual false, abstract: false, final false
   inline float_t GetLineHeight(int32_t lineNumber);
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule" })]
-  /// @brief Method GetLineHeightDefault, addr 0x7061bc8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetLineHeightDefault, addr 0x709eabc, size 0xcc, virtual false, abstract: false, final false
   static inline float_t GetLineHeightDefault(::UnityEngine::TextCore::Text::TextGenerationSettings* settings);
 
-  /// @brief Method GetLineHeightFromCharacterIndex, addr 0x70628b4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetLineHeightFromCharacterIndex, addr 0x709f7a8, size 0xb0, virtual false, abstract: false, final false
   inline float_t GetLineHeightFromCharacterIndex(int32_t index);
 
-  /// @brief Method GetLineInfoFromCharacterIndex, addr 0x7062684, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetLineInfoFromCharacterIndex, addr 0x709f578, size 0xf8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::LineInfo GetLineInfoFromCharacterIndex(int32_t index);
 
-  /// @brief Method GetLineNumber, addr 0x706277c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetLineNumber, addr 0x709f670, size 0x88, virtual false, abstract: false, final false
   inline int32_t GetLineNumber(int32_t index);
 
-  /// @brief Method GetPixelsPerPoint, addr 0x7060f8c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetPixelsPerPoint, addr 0x709de80, size 0x8, virtual true, abstract: false, final false
   inline float_t GetPixelsPerPoint();
 
-  /// @brief Method GetStartOfNextWord, addr 0x7062c40, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetStartOfNextWord, addr 0x709fb34, size 0xe0, virtual false, abstract: false, final false
   inline int32_t GetStartOfNextWord(int32_t currentIndex);
 
-  /// @brief Method IndexOf, addr 0x7062f1c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x709fe10, size 0xcc, virtual false, abstract: false, final false
   inline int32_t IndexOf(char16_t value, int32_t startIndex);
 
   /// @brief Method InitArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void InitArray(::by_ref<::ArrayW<T>> array, ::System::Func_1<T>* createInstance);
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
-  /// @brief Method InitThreadArrays, addr 0x7060538, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method InitThreadArrays, addr 0x709d42c, size 0x34c, virtual false, abstract: false, final false
   static inline void InitThreadArrays();
 
-  /// @brief Method IsAdvancedTextEnabledForElement, addr 0x70635e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsAdvancedTextEnabledForElement, addr 0x70a04dc, size 0x8, virtual true, abstract: false, final false
   inline bool IsAdvancedTextEnabledForElement();
 
-  /// @brief Method IsDirty, addr 0x7061850, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsDirty, addr 0x709e744, size 0x3c, virtual false, abstract: false, final false
   inline bool IsDirty(int32_t hashCode);
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule" })]
-  /// @brief Method IsMainDirectionRTL, addr 0x70635f0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method IsMainDirectionRTL, addr 0x70a04e4, size 0xcc, virtual false, abstract: false, final false
   inline bool IsMainDirectionRTL();
 
-  /// @brief Method LastIndexOf, addr 0x7062fe8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method LastIndexOf, addr 0x709fedc, size 0xcc, virtual false, abstract: false, final false
   inline int32_t LastIndexOf(char16_t value, int32_t startIndex);
 
-  /// @brief Method LineDownCharacterPosition, addr 0x7062410, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method LineDownCharacterPosition, addr 0x709f304, size 0x88, virtual false, abstract: false, final false
   inline int32_t LineDownCharacterPosition(int32_t originalLogicalPos);
 
-  /// @brief Method LineUpCharacterPosition, addr 0x7062498, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method LineUpCharacterPosition, addr 0x709f38c, size 0x88, virtual false, abstract: false, final false
   inline int32_t LineUpCharacterPosition(int32_t originalLogicalPos);
 
   static inline ::UnityEngine::TextCore::Text::TextHandle* New_ctor();
 
-  /// @brief Method NextCodePointIndex, addr 0x7062b60, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method NextCodePointIndex, addr 0x709fa54, size 0xe0, virtual false, abstract: false, final false
   inline int32_t NextCodePointIndex(int32_t currentIndex);
 
-  /// @brief Method PixelsToPoints, addr 0x7060efc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method PixelsToPoints, addr 0x709ddf0, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 PixelsToPoints(::UnityEngine::Vector2 pixel);
 
-  /// @brief Method PixelsToPoints, addr 0x7060f30, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method PixelsToPoints, addr 0x709de24, size 0x28, virtual false, abstract: false, final false
   inline float_t PixelsToPoints(float_t pixel);
 
-  /// @brief Method PointsToPixels, addr 0x7060f58, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method PointsToPixels, addr 0x709de4c, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 PointsToPixels(::UnityEngine::Vector2 point);
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
-  /// @brief Method PrepareFontAsset, addr 0x7061c94, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method PrepareFontAsset, addr 0x709eb88, size 0x134, virtual false, abstract: false, final false
   inline bool PrepareFontAsset();
 
-  /// @brief Method PreviousCodePointIndex, addr 0x7062a80, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method PreviousCodePointIndex, addr 0x709f974, size 0xe0, virtual false, abstract: false, final false
   inline int32_t PreviousCodePointIndex(int32_t currentIndex);
 
-  /// @brief Method RemoveFromPermanentCache, addr 0x7060518, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RemoveFromPermanentCache, addr 0x709d40c, size 0x20, virtual false, abstract: false, final false
   inline void RemoveFromPermanentCache();
 
-  /// @brief Method RemoveFromPermanentCacheATG, addr 0x7061750, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method RemoveFromPermanentCacheATG, addr 0x709e644, size 0x6c, virtual true, abstract: false, final false
   inline void RemoveFromPermanentCacheATG();
 
-  /// @brief Method RemoveFromPermanentCacheTextCore, addr 0x70616e0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method RemoveFromPermanentCacheTextCore, addr 0x709e5d4, size 0x70, virtual false, abstract: false, final false
   inline void RemoveFromPermanentCacheTextCore();
 
-  /// @brief Method RemoveFromTemporaryCache, addr 0x70604a8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method RemoveFromTemporaryCache, addr 0x709d39c, size 0x70, virtual false, abstract: false, final false
   inline void RemoveFromTemporaryCache();
 
-  /// @brief Method SelectCurrentParagraph, addr 0x70631a8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SelectCurrentParagraph, addr 0x70a009c, size 0xe0, virtual false, abstract: false, final false
   inline void SelectCurrentParagraph(::by_ref<int32_t> cursorIndex, ::by_ref<int32_t> selectIndex);
 
-  /// @brief Method SelectCurrentWord, addr 0x70630b4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method SelectCurrentWord, addr 0x709ffa8, size 0xf4, virtual false, abstract: false, final false
   inline void SelectCurrentWord(int32_t index, ::by_ref<int32_t> cursorIndex, ::by_ref<int32_t> selectIndex);
 
-  /// @brief Method SelectToEndOfParagraph, addr 0x7063510, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SelectToEndOfParagraph, addr 0x70a0404, size 0xd8, virtual false, abstract: false, final false
   inline void SelectToEndOfParagraph(::by_ref<int32_t> cursorIndex);
 
-  /// @brief Method SelectToNextParagraph, addr 0x7063360, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SelectToNextParagraph, addr 0x70a0254, size 0xd8, virtual false, abstract: false, final false
   inline void SelectToNextParagraph(::by_ref<int32_t> cursorIndex);
 
-  /// @brief Method SelectToPreviousParagraph, addr 0x7063288, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SelectToPreviousParagraph, addr 0x70a017c, size 0xd8, virtual false, abstract: false, final false
   inline void SelectToPreviousParagraph(::by_ref<int32_t> cursorIndex);
 
-  /// @brief Method SelectToStartOfParagraph, addr 0x7063438, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SelectToStartOfParagraph, addr 0x70a032c, size 0xd8, virtual false, abstract: false, final false
   inline void SelectToStartOfParagraph(::by_ref<int32_t> cursorIndex);
 
-  /// @brief Method SetDirty, addr 0x7061844, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SetDirty, addr 0x709e738, size 0xc, virtual true, abstract: false, final false
   inline void SetDirty();
 
-  /// @brief Method Substring, addr 0x7062a14, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Substring, addr 0x709f908, size 0x6c, virtual false, abstract: false, final false
   inline ::StringW Substring(int32_t startIndex, int32_t length);
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
-  /// @brief Method Update, addr 0x7061920, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x709e814, size 0xe4, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextInfo* Update();
 
-  /// @brief Method UpdateCurrentFrame, addr 0x70617bc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method UpdateCurrentFrame, addr 0x709e6b0, size 0x88, virtual false, abstract: false, final false
   static inline void UpdateCurrentFrame();
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule" })]
-  /// @brief Method UpdatePreferredSize, addr 0x7061dc8, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method UpdatePreferredSize, addr 0x709ecbc, size 0x230, virtual false, abstract: false, final false
   inline void UpdatePreferredSize();
 
-  /// @brief Method UpdatePreferredValues, addr 0x7061894, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method UpdatePreferredValues, addr 0x709e788, size 0x8c, virtual false, abstract: false, final false
   inline void UpdatePreferredValues(::UnityEngine::TextCore::Text::TextGenerationSettings* tgs);
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
-  /// @brief Method UpdateWithHash, addr 0x7061a04, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method UpdateWithHash, addr 0x709e8f8, size 0x1c4, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextInfo* UpdateWithHash(int32_t hashCode);
 
   constexpr bool const& __cordl_internal_get__IsCachedTemporary_k__BackingField() const;
@@ -586,7 +586,7 @@ public:
 
   constexpr void __cordl_internal_set_pixelPreferedSize(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x70636bc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70a05b0, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::UnityEngine::TextCore::Text::TextGenerator*> getStaticF_s_Generators();
@@ -599,62 +599,62 @@ public:
 
   static inline ::ArrayW<::UnityEngine::TextCore::Text::TextInfo*> getStaticF_s_TextInfosCommon();
 
-  /// @brief Method get_IsCachedPermanent, addr 0x7061204, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsCachedPermanent, addr 0x709e0f8, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsCachedPermanent();
 
-  /// @brief Method get_IsCachedPermanentATG, addr 0x7061084, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_IsCachedPermanentATG, addr 0x709df78, size 0x90, virtual false, abstract: false, final false
   inline bool get_IsCachedPermanentATG();
 
-  /// @brief Method get_IsCachedPermanentTextCore, addr 0x7061230, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method get_IsCachedPermanentTextCore, addr 0x709e124, size 0x1b0, virtual false, abstract: false, final false
   inline bool get_IsCachedPermanentTextCore();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsCachedTemporary, addr 0x70613fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsCachedTemporary, addr 0x709e2f0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsCachedTemporary();
 
-  /// @brief Method get_IsPlaceholder, addr 0x706188c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsPlaceholder, addr 0x709e780, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsPlaceholder();
 
   /// [CompilerGenerated]
-  /// @brief Method get_TextInfoNode, addr 0x70611f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TextInfoNode, addr 0x709e0e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::LinkedListNode_1<::UnityEngine::TextCore::Text::TextCacheEntry>* get_TextInfoNode();
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
-  /// @brief Method get_characterCount, addr 0x7061418, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_characterCount, addr 0x709e30c, size 0x78, virtual false, abstract: false, final false
   inline int32_t get_characterCount();
 
-  /// @brief Method get_generator, addr 0x7060d94, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_generator, addr 0x709dc88, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::TextGenerator* get_generator();
 
-  /// @brief Method get_generators, addr 0x7060a00, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method get_generators, addr 0x709d8f4, size 0x17c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::TextCore::Text::TextGenerator*> get_generators();
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
-  /// @brief Method get_preferredSize, addr 0x7060ecc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_preferredSize, addr 0x709ddc0, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_preferredSize();
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
-  /// @brief Method get_settings, addr 0x7060e30, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_settings, addr 0x709dd24, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::TextGenerationSettings* get_settings();
 
-  /// @brief Method get_settingsArray, addr 0x7060884, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method get_settingsArray, addr 0x709d778, size 0x17c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::TextCore::Text::TextGenerationSettings*> get_settingsArray();
 
-  /// @brief Method get_textGenerationInfo, addr 0x7060f94, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method get_textGenerationInfo, addr 0x709de88, size 0xf0, virtual false, abstract: false, final false
   inline ::System::IntPtr get_textGenerationInfo();
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
-  /// @brief Method get_textInfo, addr 0x7061490, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method get_textInfo, addr 0x709e384, size 0xe0, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextInfo* get_textInfo();
 
-  /// @brief Method get_textInfoCommon, addr 0x7060cf8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_textInfoCommon, addr 0x709dbec, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::TextInfo* get_textInfoCommon();
 
-  /// @brief Method get_textInfosCommon, addr 0x7060b7c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method get_textInfosCommon, addr 0x709da70, size 0x17c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::TextCore::Text::TextInfo*> get_textInfosCommon();
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
-  /// @brief Method get_useAdvancedText, addr 0x706140c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_useAdvancedText, addr 0x709e300, size 0xc, virtual false, abstract: false, final false
   inline bool get_useAdvancedText();
 
   static inline void setStaticF_s_Generators(::ArrayW<::UnityEngine::TextCore::Text::TextGenerator*> value);
@@ -667,21 +667,21 @@ public:
 
   static inline void setStaticF_s_TextInfosCommon(::ArrayW<::UnityEngine::TextCore::Text::TextInfo*> value);
 
-  /// @brief Method set_IsCachedPermanentATG, addr 0x7061214, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_IsCachedPermanentATG, addr 0x709e108, size 0x1c, virtual false, abstract: false, final false
   inline void set_IsCachedPermanentATG(bool value);
 
-  /// @brief Method set_IsCachedPermanentTextCore, addr 0x70613e0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_IsCachedPermanentTextCore, addr 0x709e2d4, size 0x1c, virtual false, abstract: false, final false
   inline void set_IsCachedPermanentTextCore(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_IsCachedTemporary, addr 0x7061404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsCachedTemporary, addr 0x709e2f8, size 0x8, virtual false, abstract: false, final false
   inline void set_IsCachedTemporary(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_TextInfoNode, addr 0x70611fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TextInfoNode, addr 0x709e0f0, size 0x8, virtual false, abstract: false, final false
   inline void set_TextInfoNode(::System::Collections::Generic::LinkedListNode_1<::UnityEngine::TextCore::Text::TextCacheEntry>* value);
 
-  /// @brief Method set_textGenerationInfo, addr 0x7061114, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method set_textGenerationInfo, addr 0x709e008, size 0xe0, virtual false, abstract: false, final false
   inline void set_textGenerationInfo(::System::IntPtr value);
 
 protected:
@@ -699,7 +699,7 @@ public:
   TextHandle(TextHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17867 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17900 };
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
   /// @brief Field nativeSettings, offset: 0x10, size: 0x70, def value: None

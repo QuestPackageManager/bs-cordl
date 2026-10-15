@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ActivatedServiceTypeEntry::*)(::StringW, ::StringW)>(
     &::System::Runtime::Remoting::ActivatedServiceTypeEntry::_ctor)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5f38dbc;
+  constexpr static std::size_t addrs = 0x5f756a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Runtime::Remoting::ActivatedServiceTypeEntry::*)()>(
     &::System::Runtime::Remoting::ActivatedServiceTypeEntry::get_ObjectType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f38ea4;
+  constexpr static std::size_t addrs = 0x5f7578c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::ActivatedServiceTypeEntry*>(), { "get_ObjectType", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Remoting::ActivatedServiceTypeEntry::*)()>(&::System::Runtime::Remoting::ActivatedServiceTypeEntry::ToString)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f38eac;
+  constexpr static std::size_t addrs = 0x5f75794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::ActivatedServiceTypeEntry*>(),

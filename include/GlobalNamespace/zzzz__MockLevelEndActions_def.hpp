@@ -48,26 +48,26 @@ public:
 
   constexpr void __cordl_internal_set_levelFinishedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x5dc911c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e06304, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_levelFailedEvent, addr 0x5dc8fc4, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_levelFailedEvent, addr 0x5e061ac, size 0xac, virtual true, abstract: false, final true
   inline void add_levelFailedEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_levelFinishedEvent, addr 0x5dc8e6c, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_levelFinishedEvent, addr 0x5e06054, size 0xac, virtual true, abstract: false, final true
   inline void add_levelFinishedEvent(::System::Action* value);
 
   /// @brief Convert to "::GlobalNamespace::ILevelEndActions"
   constexpr ::GlobalNamespace::ILevelEndActions* i___GlobalNamespace__ILevelEndActions() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_levelFailedEvent, addr 0x5dc9070, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_levelFailedEvent, addr 0x5e06258, size 0xac, virtual true, abstract: false, final true
   inline void remove_levelFailedEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_levelFinishedEvent, addr 0x5dc8f18, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_levelFinishedEvent, addr 0x5e06100, size 0xac, virtual true, abstract: false, final true
   inline void remove_levelFinishedEvent(::System::Action* value);
 
 protected:
@@ -85,7 +85,7 @@ public:
   MockLevelEndActions(MockLevelEndActions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6136 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6137 };
 
   /// [CompilerGenerated]
   /// @brief Field levelFinishedEvent, offset: 0x10, size: 0x8, def value: None

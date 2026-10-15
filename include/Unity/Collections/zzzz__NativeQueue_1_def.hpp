@@ -127,7 +127,7 @@ public:
   constexpr NativeQueue_1_Enumerator(::Unity::Collections::UnsafeQueue_1_Enumerator<T> m_Enumerator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15918 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15951 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -211,7 +211,7 @@ public:
   constexpr NativeQueue_1_ReadOnly(::Unity::Collections::UnsafeQueue_1_ReadOnly<T> m_ReadOnly) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15919 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15952 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -249,7 +249,7 @@ public:
   constexpr NativeQueue_1_ParallelWriter(::Unity::Collections::UnsafeQueue_1_ParallelWriter<T> unsafeWriter) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15920 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15953 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -356,7 +356,7 @@ public:
   constexpr NativeQueue_1(::Unity::Collections::UnsafeQueue_1<T>* m_Queue) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15921 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15954 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

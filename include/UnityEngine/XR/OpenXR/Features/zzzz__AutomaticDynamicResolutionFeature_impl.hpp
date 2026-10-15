@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::XR::OpenXR::Features::AutomaticDynamicResolutionFeature::*)()>(
     &::UnityEngine::XR::OpenXR::Features::AutomaticDynamicResolutionFeature::get_minResolutionScalar)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e49b80;
+  constexpr static std::size_t addrs = 0x6e8681c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::AutomaticDynamicResolutionFeature::*)(float_t)>(
     &::UnityEngine::XR::OpenXR::Features::AutomaticDynamicResolutionFeature::set_minResolutionScalar)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6e49b88;
+  constexpr static std::size_t addrs = 0x6e86824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::AutomaticDynamicResolutionFeature*>(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::XR::OpenXR::Features::AutomaticDynamicResolutionFeature::*)()>(
     &::UnityEngine::XR::OpenXR::Features::AutomaticDynamicResolutionFeature::get_maxResolutionScalar)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e49c84;
+  constexpr static std::size_t addrs = 0x6e86920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::AutomaticDynamicResolutionFeature::*)(float_t)>(
     &::UnityEngine::XR::OpenXR::Features::AutomaticDynamicResolutionFeature::set_maxResolutionScalar)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6e49c8c;
+  constexpr static std::size_t addrs = 0x6e86928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::AutomaticDynamicResolutionFeature*>(),
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::XR::OpenXR::Features::AutomaticDynamicResolutionFeature::get_usingSuggestedResolutionScale)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6e49d88;
+  constexpr static std::size_t addrs = 0x6e86a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::XR::OpenXR::Features::AutomaticDynamicResolutionFeature::set_usingSuggestedResolutionScale)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6e49de4;
+  constexpr static std::size_t addrs = 0x6e86a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::AutomaticDynamicResolutionFeature*>(),
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::Features::AutomaticDynamicResolutionFeature::*)(uint64_t)>(
     &::UnityEngine::XR::OpenXR::Features::AutomaticDynamicResolutionFeature::OnInstanceCreate)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x6e49e48;
+  constexpr static std::size_t addrs = 0x6e86ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::AutomaticDynamicResolutionFeature*>(),
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::XR::OpenXR::Features::AutomaticDynamicResolutionFeature::IsAutomaticDynamicResolutionScalingSupported)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6e4a2a8;
+  constexpr static std::size_t addrs = 0x6e86f44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::XR::OpenXR::Features::AutomaticDynamicResolutionFeature::SetUsingSuggestedResolutionScale)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6e4a2f8;
+  constexpr static std::size_t addrs = 0x6e86f94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::AutomaticDynamicResolutionFeature*>(),
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::XR::OpenXR::Features::AutomaticDynamicResolutionFeature::Internal_IsAutomaticDynamicResolutionScalingSupported)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6e4a140;
+  constexpr static std::size_t addrs = 0x6e86ddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::AutomaticDynamicResolutionFeature*>(),
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, float_t)>(&::UnityEngine::XR::OpenXR::Features::AutomaticDynamicResolutionFeature::Internal_SetMinMaxScalerResolution)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e4a228;
+  constexpr static std::size_t addrs = 0x6e86ec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::AutomaticDynamicResolutionFeature*>(),
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::XR::OpenXR::Features::AutomaticDynamicResolutionFeature::Internal_SetUsingSuggestedResolutionScale)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6e4a1ac;
+  constexpr static std::size_t addrs = 0x6e86e48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::AutomaticDynamicResolutionFeature*>(),
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::AutomaticDynamicResolutionFeature::*)()>(
     &::UnityEngine::XR::OpenXR::Features::AutomaticDynamicResolutionFeature::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e4a39c;
+  constexpr static std::size_t addrs = 0x6e87038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

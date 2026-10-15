@@ -152,7 +152,7 @@ public:
 
   constexpr void __cordl_internal_set_stencilDeferredPS(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x6ca3b48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ce07c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -170,7 +170,7 @@ public:
   ShaderResources(ShaderResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12961 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12968 };
 
   /// [Obsolete("Moved to UniversalRenderPipelineRuntimeShaders on GraphicsSettings. #from(2023.3)")]
   /// [Reload("Shaders/Utils/Blit.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]

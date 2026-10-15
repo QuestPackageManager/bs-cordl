@@ -38,19 +38,19 @@ public:
   /// @brief Field _reader, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__reader, put = __cordl_internal_set__reader)) ::System::IO::StreamReader* _reader;
 
-  /// @brief Method Clone, addr 0x6023570, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x605fe58, size 0x10, virtual true, abstract: false, final false
   inline ::System::IO::Iterator_1<::StringW>* Clone();
 
-  /// @brief Method CreateIterator, addr 0x6023708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CreateIterator, addr 0x605fff0, size 0x8, virtual false, abstract: false, final false
   static inline ::System::IO::ReadLinesIterator* CreateIterator(::StringW path, ::System::Text::Encoding* encoding);
 
-  /// @brief Method CreateIterator, addr 0x6023580, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method CreateIterator, addr 0x605fe68, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::IO::ReadLinesIterator* CreateIterator(::StringW path, ::System::Text::Encoding* encoding, ::System::IO::StreamReader* reader);
 
-  /// @brief Method Dispose, addr 0x6023630, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x605ff18, size 0xd8, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method MoveNext, addr 0x60234f4, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x605fddc, size 0x7c, virtual true, abstract: false, final false
   inline bool MoveNext();
 
   static inline ::System::IO::ReadLinesIterator* New_ctor(::StringW path, ::System::Text::Encoding* encoding, ::System::IO::StreamReader* reader);
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__reader(::System::IO::StreamReader* value);
 
-  /// @brief Method .ctor, addr 0x6023484, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x605fd6c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW path, ::System::Text::Encoding* encoding, ::System::IO::StreamReader* reader);
 
 protected:

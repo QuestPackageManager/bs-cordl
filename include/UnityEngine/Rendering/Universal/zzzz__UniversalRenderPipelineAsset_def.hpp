@@ -223,7 +223,7 @@ public:
   UniversalRenderPipelineAsset_Strings(UniversalRenderPipelineAsset_Strings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12798 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12805 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -246,7 +246,7 @@ public:
   /// @brief Field blueNoise64LTex, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_blueNoise64LTex, put = __cordl_internal_set_blueNoise64LTex)) ::UnityW<::UnityEngine::Texture2D> blueNoise64LTex;
 
-  /// @brief Method NeedsReload, addr 0x6c784cc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method NeedsReload, addr 0x6cb5148, size 0x9c, virtual false, abstract: false, final false
   inline bool NeedsReload();
 
   static inline ::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset_TextureResources* New_ctor();
@@ -263,7 +263,7 @@ public:
 
   constexpr void __cordl_internal_set_blueNoise64LTex(::UnityW<::UnityEngine::Texture2D> value);
 
-  /// @brief Method .ctor, addr 0x6c78098, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cb4d14, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -281,7 +281,7 @@ public:
   UniversalRenderPipelineAsset_TextureResources(UniversalRenderPipelineAsset_TextureResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12799 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12806 };
 
   /// [Reload("Textures/BlueNoise64/L/LDR_LLL1_0.png", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
   /// @brief Field blueNoise64LTex, offset: 0x10, size: 0x8, def value: None
@@ -850,78 +850,78 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::RenderGraphModule::IRenderGraphEnabledRenderPipeline"
   constexpr operator ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphEnabledRenderPipeline*() noexcept;
 
-  /// @brief Method CreatePipeline, addr 0x6c7610c, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method CreatePipeline, addr 0x6cb2d88, size 0x1c8, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderPipeline* CreatePipeline();
 
-  /// @brief Method CreateRenderers, addr 0x6c76338, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method CreateRenderers, addr 0x6cb2fb4, size 0x248, virtual false, abstract: false, final false
   inline void CreateRenderers();
 
-  /// @brief Method DestroyRenderer, addr 0x6c76580, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method DestroyRenderer, addr 0x6cb31fc, size 0x24, virtual false, abstract: false, final false
   inline void DestroyRenderer(::by_ref<::UnityEngine::Rendering::Universal::ScriptableRenderer*> renderer);
 
-  /// @brief Method DestroyRenderers, addr 0x6c762d4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method DestroyRenderers, addr 0x6cb2f50, size 0x64, virtual false, abstract: false, final false
   inline void DestroyRenderers();
 
-  /// @brief Method EnsureGlobalSettings, addr 0x6c76108, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method EnsureGlobalSettings, addr 0x6cb2d84, size 0x4, virtual true, abstract: false, final false
   inline void EnsureGlobalSettings();
 
-  /// @brief Method GetAdditionalLightsShadowResolution, addr 0x6c77250, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetAdditionalLightsShadowResolution, addr 0x6cb3ecc, size 0xcc, virtual false, abstract: false, final false
   inline int32_t GetAdditionalLightsShadowResolution(int32_t additionalLightsShadowResolutionTier);
 
-  /// @brief Method GetMaterial, addr 0x6c75cb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetMaterial, addr 0x6cb292c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetMaterial(::UnityEngine::Rendering::Universal::DefaultMaterialType materialType);
 
-  /// @brief Method GetRenderer, addr 0x6c768c4, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method GetRenderer, addr 0x6cb3540, size 0x2e4, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::ScriptableRenderer* GetRenderer(int32_t index);
 
   /// @brief Convert operator to "Il2CppObject"
   constexpr operator Il2CppObject*() noexcept;
 
-  /// @brief Method IsAtLastVersion, addr 0x6c75f60, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsAtLastVersion, addr 0x6cb2bdc, size 0x10, virtual false, abstract: false, final false
   inline bool IsAtLastVersion();
 
-  /// @brief Method IsGPUResidentDrawerSupportedBySRP, addr 0x6c77898, size 0x15c, virtual true, abstract: false, final true
+  /// @brief Method IsGPUResidentDrawerSupportedBySRP, addr 0x6cb4514, size 0x15c, virtual true, abstract: false, final true
   inline bool IsGPUResidentDrawerSupportedBySRP(::by_ref<::StringW> message, ::by_ref<::UnityEngine::LogType> severity);
 
-  /// @brief Method LoadBuiltinRendererData, addr 0x6c760cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method LoadBuiltinRendererData, addr 0x6cb2d48, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::Universal::ScriptableRendererData> LoadBuiltinRendererData(::UnityEngine::Rendering::Universal::RendererType type);
 
   static inline ::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset* New_ctor();
 
-  /// @brief Method OnAfterDeserialize, addr 0x6c77ab4, size 0x22c, virtual true, abstract: false, final true
+  /// @brief Method OnAfterDeserialize, addr 0x6cb4730, size 0x22c, virtual true, abstract: false, final true
   inline void OnAfterDeserialize();
 
-  /// @brief Method OnBeforeSerialize, addr 0x6c77ab0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnBeforeSerialize, addr 0x6cb472c, size 0x4, virtual true, abstract: false, final true
   inline void OnBeforeSerialize();
 
-  /// @brief Method OnDisable, addr 0x6c765a4, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x6cb3220, size 0x10, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnableRenderGraphChanged, addr 0x6c77608, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnEnableRenderGraphChanged, addr 0x6cb4284, size 0x10, virtual false, abstract: false, final false
   inline void OnEnableRenderGraphChanged();
 
-  /// @brief Method ShouldUseReflectionProbeAtlasBlending, addr 0x6c7736c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ShouldUseReflectionProbeAtlasBlending, addr 0x6cb3fe8, size 0x34, virtual false, abstract: false, final false
   inline bool ShouldUseReflectionProbeAtlasBlending(::UnityEngine::Rendering::Universal::RenderingMode renderingMode);
 
-  /// @brief Method ShouldUseReflectionProbeBlending, addr 0x6c7732c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ShouldUseReflectionProbeBlending, addr 0x6cb3fa8, size 0x20, virtual false, abstract: false, final false
   inline bool ShouldUseReflectionProbeBlending();
 
-  /// @brief Method UnityEngine.Rendering.IGPUResidentRenderPipeline.get_gpuResidentDrawerSettings, addr 0x6c75f70, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IGPUResidentRenderPipeline.get_gpuResidentDrawerSettings, addr 0x6cb2bec, size 0xbc, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::GPUResidentDrawerSettings UnityEngine_Rendering_IGPUResidentRenderPipeline_get_gpuResidentDrawerSettings();
 
-  /// @brief Method ValidatePerObjectLights, addr 0x6c77174, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ValidatePerObjectLights, addr 0x6cb3df0, size 0x8c, virtual false, abstract: false, final false
   inline int32_t ValidatePerObjectLights(int32_t value);
 
-  /// @brief Method ValidateRenderScale, addr 0x6c76fac, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ValidateRenderScale, addr 0x6cb3c28, size 0x74, virtual false, abstract: false, final false
   inline float_t ValidateRenderScale(float_t value);
 
-  /// @brief Method ValidateRendererData, addr 0x6c77d60, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ValidateRendererData, addr 0x6cb49dc, size 0xb4, virtual false, abstract: false, final false
   inline bool ValidateRendererData(int32_t index);
 
-  /// @brief Method ValidateRendererDataList, addr 0x6c77ce0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ValidateRendererDataList, addr 0x6cb495c, size 0x80, virtual false, abstract: false, final false
   inline bool ValidateRendererDataList(bool partial);
 
-  /// @brief Method ValidateShadowBias, addr 0x6c774f0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ValidateShadowBias, addr 0x6cb416c, size 0x70, virtual false, abstract: false, final false
   inline float_t ValidateShadowBias(float_t value);
 
   constexpr ::UnityEngine::Rendering::ProbeVolumeSceneData* const& __cordl_internal_get_apvScenesData() const;
@@ -1434,7 +1434,7 @@ public:
 
   constexpr void __cordl_internal_set_m_VolumeProfile(::UnityW<::UnityEngine::Rendering::VolumeProfile> value);
 
-  /// @brief Method .ctor, addr 0x6c780a8, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cb4d24, size 0x1c0, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_AdditionalLightsDefaultShadowResolutionTierHigh();
@@ -1449,310 +1449,310 @@ public:
 
   static inline ::ArrayW<int32_t> getStaticF_s_Values();
 
-  /// @brief Method get_additionalLightsCookieFormat, addr 0x6c76ba8, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method get_additionalLightsCookieFormat, addr 0x6cb3824, size 0x2cc, virtual false, abstract: false, final false
   inline ::UnityEngine::Experimental::Rendering::GraphicsFormat get_additionalLightsCookieFormat();
 
-  /// @brief Method get_additionalLightsCookieResolution, addr 0x6c76e74, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_additionalLightsCookieResolution, addr 0x6cb3af0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2Int get_additionalLightsCookieResolution();
 
-  /// @brief Method get_additionalLightsRenderingMode, addr 0x6c77144, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_additionalLightsRenderingMode, addr 0x6cb3dc0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::LightRenderingMode get_additionalLightsRenderingMode();
 
-  /// @brief Method get_additionalLightsShadowResolutionTierHigh, addr 0x6c77240, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_additionalLightsShadowResolutionTierHigh, addr 0x6cb3ebc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_additionalLightsShadowResolutionTierHigh();
 
-  /// @brief Method get_additionalLightsShadowResolutionTierLow, addr 0x6c77220, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_additionalLightsShadowResolutionTierLow, addr 0x6cb3e9c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_additionalLightsShadowResolutionTierLow();
 
-  /// @brief Method get_additionalLightsShadowResolutionTierMedium, addr 0x6c77230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_additionalLightsShadowResolutionTierMedium, addr 0x6cb3eac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_additionalLightsShadowResolutionTierMedium();
 
-  /// @brief Method get_additionalLightsShadowmapResolution, addr 0x6c77210, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_additionalLightsShadowmapResolution, addr 0x6cb3e8c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_additionalLightsShadowmapResolution();
 
-  /// @brief Method get_allowPostProcessAlphaOutput, addr 0x6c77650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allowPostProcessAlphaOutput, addr 0x6cb42cc, size 0x8, virtual false, abstract: false, final false
   inline bool get_allowPostProcessAlphaOutput();
 
-  /// @brief Method get_cascade2Split, addr 0x6c77488, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cascade2Split, addr 0x6cb4104, size 0x8, virtual false, abstract: false, final false
   inline float_t get_cascade2Split();
 
-  /// @brief Method get_cascade3Split, addr 0x6c77498, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cascade3Split, addr 0x6cb4114, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_cascade3Split();
 
-  /// @brief Method get_cascade4Split, addr 0x6c774a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_cascade4Split, addr 0x6cb4124, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_cascade4Split();
 
-  /// @brief Method get_cascadeBorder, addr 0x6c774c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cascadeBorder, addr 0x6cb413c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_cascadeBorder();
 
-  /// @brief Method get_colorGradingLutSize, addr 0x6c77628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorGradingLutSize, addr 0x6cb42a4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_colorGradingLutSize();
 
-  /// @brief Method get_colorGradingMode, addr 0x6c77618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorGradingMode, addr 0x6cb4294, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::ColorGradingMode get_colorGradingMode();
 
-  /// @brief Method get_conservativeEnclosingSphere, addr 0x6c77680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_conservativeEnclosingSphere, addr 0x6cb42fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_conservativeEnclosingSphere();
 
-  /// @brief Method get_debugLevel, addr 0x6c775e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_debugLevel, addr 0x6cb4264, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::PipelineDebugLevel get_debugLevel();
 
-  /// @brief Method get_decalMaterial, addr 0x6c75ce8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_decalMaterial, addr 0x6cb2964, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_decalMaterial();
 
-  /// @brief Method get_default2DMaskMaterial, addr 0x6c75ce0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_default2DMaskMaterial, addr 0x6cb295c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_default2DMaskMaterial();
 
-  /// @brief Method get_default2DMaterial, addr 0x6c75cd8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_default2DMaterial, addr 0x6cb2954, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_default2DMaterial();
 
-  /// @brief Method get_defaultLineMaterial, addr 0x6c75cc8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_defaultLineMaterial, addr 0x6cb2944, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_defaultLineMaterial();
 
-  /// @brief Method get_defaultMaterial, addr 0x6c75cb8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_defaultMaterial, addr 0x6cb2934, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_defaultMaterial();
 
-  /// @brief Method get_defaultParticleMaterial, addr 0x6c75cc0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_defaultParticleMaterial, addr 0x6cb293c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_defaultParticleMaterial();
 
-  /// @brief Method get_defaultShader, addr 0x6c75cf0, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method get_defaultShader, addr 0x6cb296c, size 0xb4, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_defaultShader();
 
-  /// @brief Method get_defaultTerrainMaterial, addr 0x6c75cd0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_defaultTerrainMaterial, addr 0x6cb294c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_defaultTerrainMaterial();
 
-  /// @brief Method get_enableLODCrossFade, addr 0x6c77020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enableLODCrossFade, addr 0x6cb3c9c, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableLODCrossFade();
 
-  /// @brief Method get_enableRenderGraph, addr 0x6c77600, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enableRenderGraph, addr 0x6cb427c, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableRenderGraph();
 
-  /// @brief Method get_fsrOverrideSharpness, addr 0x6c77054, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fsrOverrideSharpness, addr 0x6cb3cd0, size 0x8, virtual false, abstract: false, final false
   inline bool get_fsrOverrideSharpness();
 
-  /// @brief Method get_fsrSharpness, addr 0x6c77064, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fsrSharpness, addr 0x6cb3ce0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fsrSharpness();
 
-  /// @brief Method get_gpuResidentDrawerEnableOcclusionCullingInCameras, addr 0x6c77868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gpuResidentDrawerEnableOcclusionCullingInCameras, addr 0x6cb44e4, size 0x8, virtual false, abstract: false, final false
   inline bool get_gpuResidentDrawerEnableOcclusionCullingInCameras();
 
-  /// @brief Method get_gpuResidentDrawerMode, addr 0x6c77838, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_gpuResidentDrawerMode, addr 0x6cb44b4, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::GPUResidentDrawerMode get_gpuResidentDrawerMode();
 
-  /// @brief Method get_hdrColorBufferPrecision, addr 0x6c76f6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hdrColorBufferPrecision, addr 0x6cb3be8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::HDRColorBufferPrecision get_hdrColorBufferPrecision();
 
-  /// @brief Method get_intermediateTextureMode, addr 0x6c7809c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intermediateTextureMode, addr 0x6cb4d18, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::IntermediateTextureMode get_intermediateTextureMode();
 
-  /// @brief Method get_isImmediateModeSupported, addr 0x6c760c4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isImmediateModeSupported, addr 0x6cb2d40, size 0x8, virtual true, abstract: false, final true
   inline bool get_isImmediateModeSupported();
 
-  /// @brief Method get_isStpUsed, addr 0x6c77e48, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_isStpUsed, addr 0x6cb4ac4, size 0x10, virtual true, abstract: false, final true
   inline bool get_isStpUsed();
 
-  /// @brief Method get_lightLayerMaskNames, addr 0x6c777f0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_lightLayerMaskNames, addr 0x6cb446c, size 0x48, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> get_lightLayerMaskNames();
 
-  /// @brief Method get_lightProbeSystem, addr 0x6c77084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightProbeSystem, addr 0x6cb3d00, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::LightProbeSystem get_lightProbeSystem();
 
-  /// @brief Method get_lodCrossFadeDitheringType, addr 0x6c77028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lodCrossFadeDitheringType, addr 0x6cb3ca4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::LODCrossFadeDitheringType get_lodCrossFadeDitheringType();
 
-  /// @brief Method get_mainLightRenderingMode, addr 0x6c77114, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mainLightRenderingMode, addr 0x6cb3d90, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::LightRenderingMode get_mainLightRenderingMode();
 
-  /// @brief Method get_mainLightShadowmapResolution, addr 0x6c77134, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mainLightShadowmapResolution, addr 0x6cb3db0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_mainLightShadowmapResolution();
 
-  /// @brief Method get_maxAdditionalLightsCount, addr 0x6c77154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxAdditionalLightsCount, addr 0x6cb3dd0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxAdditionalLightsCount();
 
-  /// @brief Method get_maxSHBands, addr 0x6c77e24, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_maxSHBands, addr 0x6cb4aa0, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::ProbeVolumeSHBands get_maxSHBands();
 
-  /// @brief Method get_msaaSampleCount, addr 0x6c76f7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_msaaSampleCount, addr 0x6cb3bf8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_msaaSampleCount();
 
-  /// @brief Method get_numIterationsEnclosingSphere, addr 0x6c77690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numIterationsEnclosingSphere, addr 0x6cb430c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_numIterationsEnclosingSphere();
 
-  /// @brief Method get_opaqueDownsampling, addr 0x6c76f3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_opaqueDownsampling, addr 0x6cb3bb8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::Downsampling get_opaqueDownsampling();
 
-  /// @brief Method get_prefixedRenderingLayerMaskNames, addr 0x6c77758, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method get_prefixedRenderingLayerMaskNames, addr 0x6cb43d4, size 0x98, virtual true, abstract: false, final false
   inline ::ArrayW<::StringW> get_prefixedRenderingLayerMaskNames();
 
-  /// @brief Method get_probeVolumeBlendingMemoryBudget, addr 0x6c770a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_probeVolumeBlendingMemoryBudget, addr 0x6cb3d20, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ProbeVolumeBlendingTextureMemoryBudget get_probeVolumeBlendingMemoryBudget();
 
-  /// @brief Method get_probeVolumeMemoryBudget, addr 0x6c77094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_probeVolumeMemoryBudget, addr 0x6cb3d10, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ProbeVolumeTextureMemoryBudget get_probeVolumeMemoryBudget();
 
-  /// @brief Method get_probeVolumeSHBands, addr 0x6c77104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_probeVolumeSHBands, addr 0x6cb3d80, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ProbeVolumeSHBands get_probeVolumeSHBands();
 
-  /// @brief Method get_probeVolumeSceneData, addr 0x6c77e40, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_probeVolumeSceneData, addr 0x6cb4abc, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::ProbeVolumeSceneData* get_probeVolumeSceneData();
 
-  /// @brief Method get_reflectionProbeAtlas, addr 0x6c7735c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reflectionProbeAtlas, addr 0x6cb3fd8, size 0x8, virtual false, abstract: false, final false
   inline bool get_reflectionProbeAtlas();
 
-  /// @brief Method get_reflectionProbeBlending, addr 0x6c7731c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reflectionProbeBlending, addr 0x6cb3f98, size 0x8, virtual false, abstract: false, final false
   inline bool get_reflectionProbeBlending();
 
-  /// @brief Method get_reflectionProbeBoxProjection, addr 0x6c7734c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reflectionProbeBoxProjection, addr 0x6cb3fc8, size 0x8, virtual false, abstract: false, final false
   inline bool get_reflectionProbeBoxProjection();
 
-  /// @brief Method get_renderPipelineShaderTag, addr 0x6c776a0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_renderPipelineShaderTag, addr 0x6cb431c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_renderPipelineShaderTag();
 
-  /// @brief Method get_renderScale, addr 0x6c76f8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderScale, addr 0x6cb3c08, size 0x8, virtual false, abstract: false, final false
   inline float_t get_renderScale();
 
-  /// @brief Method get_rendererDataList, addr 0x6c7602c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_rendererDataList, addr 0x6cb2ca8, size 0x4c, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<::UnityW<::UnityEngine::Rendering::Universal::ScriptableRendererData>> get_rendererDataList();
 
-  /// @brief Method get_rendererIndexList, addr 0x6c76e80, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_rendererIndexList, addr 0x6cb3afc, size 0x9c, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t> get_rendererIndexList();
 
-  /// @brief Method get_renderers, addr 0x6c76078, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_renderers, addr 0x6cb2cf4, size 0x4c, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::Universal::ScriptableRenderer*> get_renderers();
 
-  /// @brief Method get_renderingLayerMaskNames, addr 0x6c776ec, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_renderingLayerMaskNames, addr 0x6cb4368, size 0x6c, virtual true, abstract: false, final false
   inline ::ArrayW<::StringW> get_renderingLayerMaskNames();
 
-  /// @brief Method get_requiresCompatibleRenderPipelineGlobalSettings, addr 0x6c776e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_requiresCompatibleRenderPipelineGlobalSettings, addr 0x6cb4360, size 0x8, virtual true, abstract: false, final false
   inline bool get_requiresCompatibleRenderPipelineGlobalSettings();
 
-  /// @brief Method get_scriptableRenderer, addr 0x6c765b4, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method get_scriptableRenderer, addr 0x6cb3230, size 0x24c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::ScriptableRenderer* get_scriptableRenderer();
 
-  /// @brief Method get_scriptableRendererData, addr 0x6c76800, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_scriptableRendererData, addr 0x6cb347c, size 0xc4, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::Universal::ScriptableRendererData> get_scriptableRendererData();
 
-  /// @brief Method get_shEvalMode, addr 0x6c77074, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shEvalMode, addr 0x6cb3cf0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::ShEvalMode get_shEvalMode();
 
-  /// @brief Method get_shaderVariantLogLevel, addr 0x6c77e58, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_shaderVariantLogLevel, addr 0x6cb4ad4, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::ShaderVariantLogLevel get_shaderVariantLogLevel();
 
-  /// @brief Method get_shadowCascadeCount, addr 0x6c773bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shadowCascadeCount, addr 0x6cb4038, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_shadowCascadeCount();
 
-  /// @brief Method get_shadowCascadeOption, addr 0x6c77f58, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_shadowCascadeOption, addr 0x6cb4bd4, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::ShadowCascadesOption get_shadowCascadeOption();
 
-  /// @brief Method get_shadowDepthBias, addr 0x6c774d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shadowDepthBias, addr 0x6cb414c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_shadowDepthBias();
 
-  /// @brief Method get_shadowDistance, addr 0x6c773a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shadowDistance, addr 0x6cb401c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_shadowDistance();
 
-  /// @brief Method get_shadowNormalBias, addr 0x6c77560, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shadowNormalBias, addr 0x6cb41dc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_shadowNormalBias();
 
-  /// @brief Method get_smallMeshScreenPercentage, addr 0x6c779f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_smallMeshScreenPercentage, addr 0x6cb4670, size 0x8, virtual false, abstract: false, final false
   inline float_t get_smallMeshScreenPercentage();
 
-  /// @brief Method get_softShadowQuality, addr 0x6c77590, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_softShadowQuality, addr 0x6cb420c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::SoftShadowQuality get_softShadowQuality();
 
-  /// @brief Method get_storeActionsOptimization, addr 0x6c76f4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_storeActionsOptimization, addr 0x6cb3bc8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::StoreActionsOptimization get_storeActionsOptimization();
 
-  /// @brief Method get_supportDataDrivenLensFlare, addr 0x6c77668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_supportDataDrivenLensFlare, addr 0x6cb42e4, size 0x8, virtual false, abstract: false, final false
   inline bool get_supportDataDrivenLensFlare();
 
-  /// @brief Method get_supportProbeVolume, addr 0x6c77e14, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_supportProbeVolume, addr 0x6cb4a90, size 0x10, virtual true, abstract: false, final true
   inline bool get_supportProbeVolume();
 
-  /// @brief Method get_supportProbeVolumeDiskStreaming, addr 0x6c770d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_supportProbeVolumeDiskStreaming, addr 0x6cb3d50, size 0x8, virtual false, abstract: false, final false
   inline bool get_supportProbeVolumeDiskStreaming();
 
-  /// @brief Method get_supportProbeVolumeGPUStreaming, addr 0x6c770c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_supportProbeVolumeGPUStreaming, addr 0x6cb3d40, size 0x8, virtual false, abstract: false, final false
   inline bool get_supportProbeVolumeGPUStreaming();
 
-  /// @brief Method get_supportProbeVolumeScenarioBlending, addr 0x6c770f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_supportProbeVolumeScenarioBlending, addr 0x6cb3d70, size 0x8, virtual false, abstract: false, final false
   inline bool get_supportProbeVolumeScenarioBlending();
 
-  /// @brief Method get_supportProbeVolumeScenarios, addr 0x6c770e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_supportProbeVolumeScenarios, addr 0x6cb3d60, size 0x8, virtual false, abstract: false, final false
   inline bool get_supportProbeVolumeScenarios();
 
-  /// @brief Method get_supportProbeVolumeStreaming, addr 0x6c770b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_supportProbeVolumeStreaming, addr 0x6cb3d30, size 0x8, virtual false, abstract: false, final false
   inline bool get_supportProbeVolumeStreaming();
 
-  /// @brief Method get_supportScreenSpaceLensFlare, addr 0x6c77660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_supportScreenSpaceLensFlare, addr 0x6cb42dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_supportScreenSpaceLensFlare();
 
-  /// @brief Method get_supportsAdditionalLightShadows, addr 0x6c77200, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_supportsAdditionalLightShadows, addr 0x6cb3e7c, size 0x8, virtual false, abstract: false, final false
   inline bool get_supportsAdditionalLightShadows();
 
-  /// @brief Method get_supportsCameraDepthTexture, addr 0x6c76f1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_supportsCameraDepthTexture, addr 0x6cb3b98, size 0x8, virtual false, abstract: false, final false
   inline bool get_supportsCameraDepthTexture();
 
-  /// @brief Method get_supportsCameraOpaqueTexture, addr 0x6c76f2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_supportsCameraOpaqueTexture, addr 0x6cb3ba8, size 0x8, virtual false, abstract: false, final false
   inline bool get_supportsCameraOpaqueTexture();
 
-  /// @brief Method get_supportsDynamicBatching, addr 0x6c775a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_supportsDynamicBatching, addr 0x6cb421c, size 0x8, virtual false, abstract: false, final false
   inline bool get_supportsDynamicBatching();
 
-  /// @brief Method get_supportsHDR, addr 0x6c76f5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_supportsHDR, addr 0x6cb3bd8, size 0x8, virtual false, abstract: false, final false
   inline bool get_supportsHDR();
 
-  /// @brief Method get_supportsLightCookies, addr 0x6c775b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_supportsLightCookies, addr 0x6cb4234, size 0x8, virtual false, abstract: false, final false
   inline bool get_supportsLightCookies();
 
-  /// @brief Method get_supportsLightLayers, addr 0x6c775c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_supportsLightLayers, addr 0x6cb423c, size 0x8, virtual false, abstract: false, final false
   inline bool get_supportsLightLayers();
 
-  /// @brief Method get_supportsMainLightShadows, addr 0x6c77124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_supportsMainLightShadows, addr 0x6cb3da0, size 0x8, virtual false, abstract: false, final false
   inline bool get_supportsMainLightShadows();
 
-  /// @brief Method get_supportsMixedLighting, addr 0x6c775b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_supportsMixedLighting, addr 0x6cb422c, size 0x8, virtual false, abstract: false, final false
   inline bool get_supportsMixedLighting();
 
-  /// @brief Method get_supportsSoftShadows, addr 0x6c77580, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_supportsSoftShadows, addr 0x6cb41fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_supportsSoftShadows();
 
-  /// @brief Method get_supportsTerrainHoles, addr 0x6c76f44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_supportsTerrainHoles, addr 0x6cb3bc0, size 0x8, virtual false, abstract: false, final false
   inline bool get_supportsTerrainHoles();
 
-  /// @brief Method get_terrainDetailGrassBillboardShader, addr 0x6c75ecc, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method get_terrainDetailGrassBillboardShader, addr 0x6cb2b48, size 0x94, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_terrainDetailGrassBillboardShader();
 
-  /// @brief Method get_terrainDetailGrassShader, addr 0x6c75e38, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method get_terrainDetailGrassShader, addr 0x6cb2ab4, size 0x94, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_terrainDetailGrassShader();
 
-  /// @brief Method get_terrainDetailLitShader, addr 0x6c75da4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method get_terrainDetailLitShader, addr 0x6cb2a20, size 0x94, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_terrainDetailLitShader();
 
-  /// @brief Method get_textures, addr 0x6c78040, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_textures, addr 0x6cb4cbc, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset_TextureResources* get_textures();
 
-  /// @brief Method get_upscalerName, addr 0x6c77040, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_upscalerName, addr 0x6cb3cbc, size 0x14, virtual false, abstract: false, final false
   inline ::StringW get_upscalerName();
 
-  /// @brief Method get_upscalingFilter, addr 0x6c77030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_upscalingFilter, addr 0x6cb3cac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::UpscalingFilterSelection get_upscalingFilter();
 
-  /// @brief Method get_useAdaptivePerformance, addr 0x6c77670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useAdaptivePerformance, addr 0x6cb42ec, size 0x8, virtual false, abstract: false, final false
   inline bool get_useAdaptivePerformance();
 
-  /// @brief Method get_useFastSRGBLinearConversion, addr 0x6c77658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useFastSRGBLinearConversion, addr 0x6cb42d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_useFastSRGBLinearConversion();
 
-  /// @brief Method get_useRenderingLayers, addr 0x6c775c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useRenderingLayers, addr 0x6cb4244, size 0x8, virtual false, abstract: false, final false
   inline bool get_useRenderingLayers();
 
-  /// @brief Method get_useSRPBatcher, addr 0x6c775f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useSRPBatcher, addr 0x6cb426c, size 0x8, virtual false, abstract: false, final false
   inline bool get_useSRPBatcher();
 
-  /// @brief Method get_volumeFrameworkUpdateMode, addr 0x6c775d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_volumeFrameworkUpdateMode, addr 0x6cb424c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode get_volumeFrameworkUpdateMode();
 
-  /// @brief Method get_volumeProfile, addr 0x6c775d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_volumeProfile, addr 0x6cb4254, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::VolumeProfile> get_volumeProfile();
 
   /// @brief Convert to "Il2CppObject"
@@ -1782,175 +1782,175 @@ public:
 
   static inline void setStaticF_s_Values(::ArrayW<int32_t> value);
 
-  /// @brief Method set_additionalLightsRenderingMode, addr 0x6c7714c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_additionalLightsRenderingMode, addr 0x6cb3dc8, size 0x8, virtual false, abstract: false, final false
   inline void set_additionalLightsRenderingMode(::UnityEngine::Rendering::Universal::LightRenderingMode value);
 
-  /// @brief Method set_additionalLightsShadowResolutionTierHigh, addr 0x6c77248, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_additionalLightsShadowResolutionTierHigh, addr 0x6cb3ec4, size 0x8, virtual false, abstract: false, final false
   inline void set_additionalLightsShadowResolutionTierHigh(int32_t value);
 
-  /// @brief Method set_additionalLightsShadowResolutionTierLow, addr 0x6c77228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_additionalLightsShadowResolutionTierLow, addr 0x6cb3ea4, size 0x8, virtual false, abstract: false, final false
   inline void set_additionalLightsShadowResolutionTierLow(int32_t value);
 
-  /// @brief Method set_additionalLightsShadowResolutionTierMedium, addr 0x6c77238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_additionalLightsShadowResolutionTierMedium, addr 0x6cb3eb4, size 0x8, virtual false, abstract: false, final false
   inline void set_additionalLightsShadowResolutionTierMedium(int32_t value);
 
-  /// @brief Method set_additionalLightsShadowmapResolution, addr 0x6c77218, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_additionalLightsShadowmapResolution, addr 0x6cb3e94, size 0x8, virtual false, abstract: false, final false
   inline void set_additionalLightsShadowmapResolution(int32_t value);
 
-  /// @brief Method set_cascade2Split, addr 0x6c77490, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_cascade2Split, addr 0x6cb410c, size 0x8, virtual false, abstract: false, final false
   inline void set_cascade2Split(float_t value);
 
-  /// @brief Method set_cascade3Split, addr 0x6c774a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_cascade3Split, addr 0x6cb411c, size 0x8, virtual false, abstract: false, final false
   inline void set_cascade3Split(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_cascade4Split, addr 0x6c774b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_cascade4Split, addr 0x6cb4130, size 0xc, virtual false, abstract: false, final false
   inline void set_cascade4Split(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_cascadeBorder, addr 0x6c774c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_cascadeBorder, addr 0x6cb4144, size 0x8, virtual false, abstract: false, final false
   inline void set_cascadeBorder(float_t value);
 
-  /// @brief Method set_colorGradingLutSize, addr 0x6c77630, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_colorGradingLutSize, addr 0x6cb42ac, size 0x20, virtual false, abstract: false, final false
   inline void set_colorGradingLutSize(int32_t value);
 
-  /// @brief Method set_colorGradingMode, addr 0x6c77620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colorGradingMode, addr 0x6cb429c, size 0x8, virtual false, abstract: false, final false
   inline void set_colorGradingMode(::UnityEngine::Rendering::Universal::ColorGradingMode value);
 
-  /// @brief Method set_conservativeEnclosingSphere, addr 0x6c77688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_conservativeEnclosingSphere, addr 0x6cb4304, size 0x8, virtual false, abstract: false, final false
   inline void set_conservativeEnclosingSphere(bool value);
 
-  /// @brief Method set_fsrOverrideSharpness, addr 0x6c7705c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fsrOverrideSharpness, addr 0x6cb3cd8, size 0x8, virtual false, abstract: false, final false
   inline void set_fsrOverrideSharpness(bool value);
 
-  /// @brief Method set_fsrSharpness, addr 0x6c7706c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fsrSharpness, addr 0x6cb3ce8, size 0x8, virtual false, abstract: false, final false
   inline void set_fsrSharpness(float_t value);
 
-  /// @brief Method set_gpuResidentDrawerEnableOcclusionCullingInCameras, addr 0x6c77870, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_gpuResidentDrawerEnableOcclusionCullingInCameras, addr 0x6cb44ec, size 0x28, virtual false, abstract: false, final false
   inline void set_gpuResidentDrawerEnableOcclusionCullingInCameras(bool value);
 
-  /// @brief Method set_gpuResidentDrawerMode, addr 0x6c77840, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method set_gpuResidentDrawerMode, addr 0x6cb44bc, size 0x28, virtual true, abstract: false, final true
   inline void set_gpuResidentDrawerMode(::UnityEngine::Rendering::GPUResidentDrawerMode value);
 
-  /// @brief Method set_hdrColorBufferPrecision, addr 0x6c76f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hdrColorBufferPrecision, addr 0x6cb3bf0, size 0x8, virtual false, abstract: false, final false
   inline void set_hdrColorBufferPrecision(::UnityEngine::Rendering::Universal::HDRColorBufferPrecision value);
 
-  /// @brief Method set_intermediateTextureMode, addr 0x6c780a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_intermediateTextureMode, addr 0x6cb4d20, size 0x4, virtual false, abstract: false, final false
   inline void set_intermediateTextureMode(::UnityEngine::Rendering::Universal::IntermediateTextureMode value);
 
-  /// @brief Method set_lightProbeSystem, addr 0x6c7708c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightProbeSystem, addr 0x6cb3d08, size 0x8, virtual false, abstract: false, final false
   inline void set_lightProbeSystem(::UnityEngine::Rendering::Universal::LightProbeSystem value);
 
-  /// @brief Method set_mainLightRenderingMode, addr 0x6c7711c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mainLightRenderingMode, addr 0x6cb3d98, size 0x8, virtual false, abstract: false, final false
   inline void set_mainLightRenderingMode(::UnityEngine::Rendering::Universal::LightRenderingMode value);
 
-  /// @brief Method set_mainLightShadowmapResolution, addr 0x6c7713c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mainLightShadowmapResolution, addr 0x6cb3db8, size 0x8, virtual false, abstract: false, final false
   inline void set_mainLightShadowmapResolution(int32_t value);
 
-  /// @brief Method set_maxAdditionalLightsCount, addr 0x6c7715c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_maxAdditionalLightsCount, addr 0x6cb3dd8, size 0x18, virtual false, abstract: false, final false
   inline void set_maxAdditionalLightsCount(int32_t value);
 
-  /// @brief Method set_msaaSampleCount, addr 0x6c76f84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_msaaSampleCount, addr 0x6cb3c00, size 0x8, virtual false, abstract: false, final false
   inline void set_msaaSampleCount(int32_t value);
 
-  /// @brief Method set_numIterationsEnclosingSphere, addr 0x6c77698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_numIterationsEnclosingSphere, addr 0x6cb4314, size 0x8, virtual false, abstract: false, final false
   inline void set_numIterationsEnclosingSphere(int32_t value);
 
-  /// @brief Method set_probeVolumeBlendingMemoryBudget, addr 0x6c770ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_probeVolumeBlendingMemoryBudget, addr 0x6cb3d28, size 0x8, virtual false, abstract: false, final false
   inline void set_probeVolumeBlendingMemoryBudget(::UnityEngine::Rendering::ProbeVolumeBlendingTextureMemoryBudget value);
 
-  /// @brief Method set_probeVolumeMemoryBudget, addr 0x6c7709c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_probeVolumeMemoryBudget, addr 0x6cb3d18, size 0x8, virtual false, abstract: false, final false
   inline void set_probeVolumeMemoryBudget(::UnityEngine::Rendering::ProbeVolumeTextureMemoryBudget value);
 
-  /// @brief Method set_probeVolumeSHBands, addr 0x6c7710c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_probeVolumeSHBands, addr 0x6cb3d88, size 0x8, virtual false, abstract: false, final false
   inline void set_probeVolumeSHBands(::UnityEngine::Rendering::ProbeVolumeSHBands value);
 
-  /// @brief Method set_reflectionProbeAtlas, addr 0x6c77364, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_reflectionProbeAtlas, addr 0x6cb3fe0, size 0x8, virtual false, abstract: false, final false
   inline void set_reflectionProbeAtlas(bool value);
 
-  /// @brief Method set_reflectionProbeBlending, addr 0x6c77324, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_reflectionProbeBlending, addr 0x6cb3fa0, size 0x8, virtual false, abstract: false, final false
   inline void set_reflectionProbeBlending(bool value);
 
-  /// @brief Method set_reflectionProbeBoxProjection, addr 0x6c77354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_reflectionProbeBoxProjection, addr 0x6cb3fd0, size 0x8, virtual false, abstract: false, final false
   inline void set_reflectionProbeBoxProjection(bool value);
 
-  /// @brief Method set_renderScale, addr 0x6c76f94, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_renderScale, addr 0x6cb3c10, size 0x18, virtual false, abstract: false, final false
   inline void set_renderScale(float_t value);
 
-  /// @brief Method set_shEvalMode, addr 0x6c7707c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_shEvalMode, addr 0x6cb3cf8, size 0x8, virtual false, abstract: false, final false
   inline void set_shEvalMode(::UnityEngine::Rendering::Universal::ShEvalMode value);
 
-  /// @brief Method set_shaderVariantLogLevel, addr 0x6c77ed4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_shaderVariantLogLevel, addr 0x6cb4b50, size 0x84, virtual false, abstract: false, final false
   inline void set_shaderVariantLogLevel(::UnityEngine::Rendering::Universal::ShaderVariantLogLevel value);
 
-  /// @brief Method set_shadowCascadeCount, addr 0x6c773c4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method set_shadowCascadeCount, addr 0x6cb4040, size 0xc4, virtual false, abstract: false, final false
   inline void set_shadowCascadeCount(int32_t value);
 
-  /// @brief Method set_shadowCascadeOption, addr 0x6c77fd8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_shadowCascadeOption, addr 0x6cb4c54, size 0x68, virtual false, abstract: false, final false
   inline void set_shadowCascadeOption(::UnityEngine::Rendering::Universal::ShadowCascadesOption value);
 
-  /// @brief Method set_shadowDepthBias, addr 0x6c774d8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_shadowDepthBias, addr 0x6cb4154, size 0x18, virtual false, abstract: false, final false
   inline void set_shadowDepthBias(float_t value);
 
-  /// @brief Method set_shadowDistance, addr 0x6c773a8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_shadowDistance, addr 0x6cb4024, size 0x14, virtual false, abstract: false, final false
   inline void set_shadowDistance(float_t value);
 
-  /// @brief Method set_shadowNormalBias, addr 0x6c77568, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_shadowNormalBias, addr 0x6cb41e4, size 0x18, virtual false, abstract: false, final false
   inline void set_shadowNormalBias(float_t value);
 
-  /// @brief Method set_smallMeshScreenPercentage, addr 0x6c779fc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method set_smallMeshScreenPercentage, addr 0x6cb4678, size 0xb4, virtual false, abstract: false, final false
   inline void set_smallMeshScreenPercentage(float_t value);
 
-  /// @brief Method set_softShadowQuality, addr 0x6c77598, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_softShadowQuality, addr 0x6cb4214, size 0x8, virtual false, abstract: false, final false
   inline void set_softShadowQuality(::UnityEngine::Rendering::Universal::SoftShadowQuality value);
 
-  /// @brief Method set_storeActionsOptimization, addr 0x6c76f54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_storeActionsOptimization, addr 0x6cb3bd0, size 0x8, virtual false, abstract: false, final false
   inline void set_storeActionsOptimization(::UnityEngine::Rendering::Universal::StoreActionsOptimization value);
 
-  /// @brief Method set_supportProbeVolumeDiskStreaming, addr 0x6c770dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_supportProbeVolumeDiskStreaming, addr 0x6cb3d58, size 0x8, virtual false, abstract: false, final false
   inline void set_supportProbeVolumeDiskStreaming(bool value);
 
-  /// @brief Method set_supportProbeVolumeGPUStreaming, addr 0x6c770cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_supportProbeVolumeGPUStreaming, addr 0x6cb3d48, size 0x8, virtual false, abstract: false, final false
   inline void set_supportProbeVolumeGPUStreaming(bool value);
 
-  /// @brief Method set_supportProbeVolumeScenarioBlending, addr 0x6c770fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_supportProbeVolumeScenarioBlending, addr 0x6cb3d78, size 0x8, virtual false, abstract: false, final false
   inline void set_supportProbeVolumeScenarioBlending(bool value);
 
-  /// @brief Method set_supportProbeVolumeScenarios, addr 0x6c770ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_supportProbeVolumeScenarios, addr 0x6cb3d68, size 0x8, virtual false, abstract: false, final false
   inline void set_supportProbeVolumeScenarios(bool value);
 
-  /// @brief Method set_supportProbeVolumeStreaming, addr 0x6c770bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_supportProbeVolumeStreaming, addr 0x6cb3d38, size 0x8, virtual false, abstract: false, final false
   inline void set_supportProbeVolumeStreaming(bool value);
 
-  /// @brief Method set_supportsAdditionalLightShadows, addr 0x6c77208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_supportsAdditionalLightShadows, addr 0x6cb3e84, size 0x8, virtual false, abstract: false, final false
   inline void set_supportsAdditionalLightShadows(bool value);
 
-  /// @brief Method set_supportsCameraDepthTexture, addr 0x6c76f24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_supportsCameraDepthTexture, addr 0x6cb3ba0, size 0x8, virtual false, abstract: false, final false
   inline void set_supportsCameraDepthTexture(bool value);
 
-  /// @brief Method set_supportsCameraOpaqueTexture, addr 0x6c76f34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_supportsCameraOpaqueTexture, addr 0x6cb3bb0, size 0x8, virtual false, abstract: false, final false
   inline void set_supportsCameraOpaqueTexture(bool value);
 
-  /// @brief Method set_supportsDynamicBatching, addr 0x6c775a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_supportsDynamicBatching, addr 0x6cb4224, size 0x8, virtual false, abstract: false, final false
   inline void set_supportsDynamicBatching(bool value);
 
-  /// @brief Method set_supportsHDR, addr 0x6c76f64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_supportsHDR, addr 0x6cb3be0, size 0x8, virtual false, abstract: false, final false
   inline void set_supportsHDR(bool value);
 
-  /// @brief Method set_supportsMainLightShadows, addr 0x6c7712c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_supportsMainLightShadows, addr 0x6cb3da8, size 0x8, virtual false, abstract: false, final false
   inline void set_supportsMainLightShadows(bool value);
 
-  /// @brief Method set_supportsSoftShadows, addr 0x6c77588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_supportsSoftShadows, addr 0x6cb4204, size 0x8, virtual false, abstract: false, final false
   inline void set_supportsSoftShadows(bool value);
 
-  /// @brief Method set_upscalingFilter, addr 0x6c77038, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_upscalingFilter, addr 0x6cb3cb4, size 0x8, virtual false, abstract: false, final false
   inline void set_upscalingFilter(::UnityEngine::Rendering::Universal::UpscalingFilterSelection value);
 
-  /// @brief Method set_useAdaptivePerformance, addr 0x6c77678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useAdaptivePerformance, addr 0x6cb42f4, size 0x8, virtual false, abstract: false, final false
   inline void set_useAdaptivePerformance(bool value);
 
-  /// @brief Method set_useSRPBatcher, addr 0x6c775f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useSRPBatcher, addr 0x6cb4274, size 0x8, virtual false, abstract: false, final false
   inline void set_useSRPBatcher(bool value);
 
-  /// @brief Method set_volumeProfile, addr 0x6c775e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_volumeProfile, addr 0x6cb425c, size 0x8, virtual false, abstract: false, final false
   inline void set_volumeProfile(::UnityEngine::Rendering::VolumeProfile* value);
 
 protected:
@@ -1968,7 +1968,7 @@ public:
   UniversalRenderPipelineAsset(UniversalRenderPipelineAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12800 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12807 };
 
   /// @brief Field k_LastVersion offset 0xffffffff size 0x4
   static constexpr int32_t k_LastVersion{ static_cast<int32_t>(0xd) };

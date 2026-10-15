@@ -43,33 +43,33 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBlockLevelGameplayAnalyticsEventsCache"
   constexpr operator ::GlobalNamespace::IBlockLevelGameplayAnalyticsEventsCache*() noexcept;
 
-  /// @brief Method AddBadCut, addr 0x5e0f84c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method AddBadCut, addr 0x5e4d05c, size 0x4, virtual true, abstract: false, final true
   inline void AddBadCut(float_t beat, ::GlobalNamespace::NoteCutInfo_FailReason failReason, ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteData_GameplayType gameplayType,
                         ::System::Nullable_1<int32_t> lineIndex, ::System::Nullable_1<::GlobalNamespace::NoteLineLayer> lineLayer);
 
-  /// @brief Method AddBlockMiss, addr 0x5e0f850, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method AddBlockMiss, addr 0x5e4d060, size 0x4, virtual true, abstract: false, final true
   inline void AddBlockMiss(float_t beat, ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteData_GameplayType gameplayType, ::System::Nullable_1<int32_t> lineIndex,
                            ::System::Nullable_1<::GlobalNamespace::NoteLineLayer> lineLayer);
 
-  /// @brief Method AddBombCut, addr 0x5e0f854, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method AddBombCut, addr 0x5e4d064, size 0x4, virtual true, abstract: false, final true
   inline void AddBombCut(float_t beat);
 
-  /// @brief Method AddGoodCut, addr 0x5e0f848, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method AddGoodCut, addr 0x5e4d058, size 0x4, virtual true, abstract: false, final true
   inline void AddGoodCut(float_t beat, float_t score, ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteData_GameplayType gameplayType, ::System::Nullable_1<int32_t> lineIndex,
                          ::System::Nullable_1<::GlobalNamespace::NoteLineLayer> lineLayer);
 
-  /// @brief Method AddObstacleHit, addr 0x5e0f858, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method AddObstacleHit, addr 0x5e4d068, size 0x4, virtual true, abstract: false, final true
   inline void AddObstacleHit(float_t beat, float_t duration);
 
-  /// @brief Method IsEmpty, addr 0x5e0f864, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsEmpty, addr 0x5e4d074, size 0x8, virtual true, abstract: false, final true
   inline bool IsEmpty();
 
   static inline ::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache* New_ctor();
 
-  /// @brief Method SerializeJSON, addr 0x5e0f85c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SerializeJSON, addr 0x5e4d06c, size 0x8, virtual true, abstract: false, final true
   inline ::StringW SerializeJSON();
 
-  /// @brief Method .ctor, addr 0x5e0f86c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e4d07c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IBlockLevelGameplayAnalyticsEventsCache"
@@ -90,7 +90,7 @@ public:
   NoopBlockLevelGameplayAnalyticsEventsCache(NoopBlockLevelGameplayAnalyticsEventsCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6381 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6385 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

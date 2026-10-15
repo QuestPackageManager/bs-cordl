@@ -154,95 +154,95 @@ public:
 
   constexpr void __cordl_internal_set__startSeed_k__BackingField(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x6e11a44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e4e6e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_clipEnd, addr 0x6e119a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clipEnd, addr 0x6e4e640, size 0x8, virtual false, abstract: false, final false
   inline double_t get_clipEnd();
 
   /// [CompilerGenerated]
-  /// @brief Method get_clipEventsCount, addr 0x6e11a04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clipEventsCount, addr 0x6e4e6a0, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_clipEventsCount();
 
   /// [CompilerGenerated]
-  /// @brief Method get_clipStart, addr 0x6e11994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clipStart, addr 0x6e4e630, size 0x8, virtual false, abstract: false, final false
   inline double_t get_clipStart();
 
   /// [CompilerGenerated]
-  /// @brief Method get_events, addr 0x6e119f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_events, addr 0x6e4e690, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::VFX::VisualEffectPlayableSerializedEvent> get_events();
 
   /// [CompilerGenerated]
-  /// @brief Method get_prewarmDeltaTime, addr 0x6e11a24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_prewarmDeltaTime, addr 0x6e4e6c0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_prewarmDeltaTime();
 
   /// [CompilerGenerated]
-  /// @brief Method get_prewarmEvent, addr 0x6e11a34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_prewarmEvent, addr 0x6e4e6d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::VFX::Utility::ExposedProperty* get_prewarmEvent();
 
   /// [CompilerGenerated]
-  /// @brief Method get_prewarmStepCount, addr 0x6e11a14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_prewarmStepCount, addr 0x6e4e6b0, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_prewarmStepCount();
 
   /// [CompilerGenerated]
-  /// @brief Method get_reinitEnter, addr 0x6e119c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reinitEnter, addr 0x6e4e660, size 0x8, virtual false, abstract: false, final false
   inline bool get_reinitEnter();
 
   /// [CompilerGenerated]
-  /// @brief Method get_reinitExit, addr 0x6e119d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reinitExit, addr 0x6e4e670, size 0x8, virtual false, abstract: false, final false
   inline bool get_reinitExit();
 
   /// [CompilerGenerated]
-  /// @brief Method get_scrubbing, addr 0x6e119b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scrubbing, addr 0x6e4e650, size 0x8, virtual false, abstract: false, final false
   inline bool get_scrubbing();
 
   /// [CompilerGenerated]
-  /// @brief Method get_startSeed, addr 0x6e119e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startSeed, addr 0x6e4e680, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_startSeed();
 
   /// [CompilerGenerated]
-  /// @brief Method set_clipEnd, addr 0x6e119ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_clipEnd, addr 0x6e4e648, size 0x8, virtual false, abstract: false, final false
   inline void set_clipEnd(double_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_clipEventsCount, addr 0x6e11a0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_clipEventsCount, addr 0x6e4e6a8, size 0x8, virtual false, abstract: false, final false
   inline void set_clipEventsCount(uint32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_clipStart, addr 0x6e1199c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_clipStart, addr 0x6e4e638, size 0x8, virtual false, abstract: false, final false
   inline void set_clipStart(double_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_events, addr 0x6e119fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_events, addr 0x6e4e698, size 0x8, virtual false, abstract: false, final false
   inline void set_events(::ArrayW<::UnityEngine::VFX::VisualEffectPlayableSerializedEvent> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_prewarmDeltaTime, addr 0x6e11a2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_prewarmDeltaTime, addr 0x6e4e6c8, size 0x8, virtual false, abstract: false, final false
   inline void set_prewarmDeltaTime(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_prewarmEvent, addr 0x6e11a3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_prewarmEvent, addr 0x6e4e6d8, size 0x8, virtual false, abstract: false, final false
   inline void set_prewarmEvent(::UnityEngine::VFX::Utility::ExposedProperty* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_prewarmStepCount, addr 0x6e11a1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_prewarmStepCount, addr 0x6e4e6b8, size 0x8, virtual false, abstract: false, final false
   inline void set_prewarmStepCount(uint32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_reinitEnter, addr 0x6e119cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_reinitEnter, addr 0x6e4e668, size 0x8, virtual false, abstract: false, final false
   inline void set_reinitEnter(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_reinitExit, addr 0x6e119dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_reinitExit, addr 0x6e4e678, size 0x8, virtual false, abstract: false, final false
   inline void set_reinitExit(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_scrubbing, addr 0x6e119bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_scrubbing, addr 0x6e4e658, size 0x8, virtual false, abstract: false, final false
   inline void set_scrubbing(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_startSeed, addr 0x6e119ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_startSeed, addr 0x6e4e688, size 0x8, virtual false, abstract: false, final false
   inline void set_startSeed(uint32_t value);
 
 protected:
@@ -260,7 +260,7 @@ public:
   VisualEffectControlPlayableBehaviour(VisualEffectControlPlayableBehaviour const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20223 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20270 };
 
   /// [CompilerGenerated]
   /// @brief Field <clipStart>k__BackingField, offset: 0x10, size: 0x8, def value: None

@@ -102,7 +102,7 @@ public:
   constexpr CachedProbe_ReflectionProbeManager__dataIndices_e__FixedBuffer(int32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13131 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13138 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
@@ -140,7 +140,7 @@ public:
   constexpr CachedProbe_ReflectionProbeManager__levels_e__FixedBuffer(int32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13132 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13139 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
@@ -188,7 +188,7 @@ public:
                                                int32_t lastUsed, ::UnityEngine::Vector4 hdrData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13133 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13140 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };
@@ -317,7 +317,7 @@ public:
   ReflectionProbeManager_ShaderProperties(ReflectionProbeManager_ShaderProperties const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13134 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13141 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -343,25 +343,25 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Create, addr 0x6ce2dc4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6d1fa40, size 0x40, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::ReflectionProbeManager Create();
 
-  /// @brief Method Dispose, addr 0x6ce4b74, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6d217f0, size 0xd0, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetScaleOffset, addr 0x6ce4a80, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetScaleOffset, addr 0x6d216fc, size 0xf4, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 GetScaleOffset(int32_t level, int32_t dataIndex, bool includePadding, bool yflip);
 
-  /// @brief Method Init, addr 0x6ce2e04, size 0x460, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6d1fa80, size 0x460, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method UpdateGpuData, addr 0x6ce3264, size 0x181c, virtual false, abstract: false, final false
+  /// @brief Method UpdateGpuData, addr 0x6d1fee0, size 0x181c, virtual false, abstract: false, final false
   inline void UpdateGpuData(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::CullingResults> cullResults);
 
-  /// @brief Method get_atlasRT, addr 0x6ce2db4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_atlasRT, addr 0x6d1fa30, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> get_atlasRT();
 
-  /// @brief Method get_atlasRTHandle, addr 0x6ce2dbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_atlasRTHandle, addr 0x6d1fa38, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_atlasRTHandle();
 
   /// @brief Convert to "::System::IDisposable"
@@ -390,7 +390,7 @@ public:
                                    ::ArrayW<::UnityEngine::Vector4> m_ProbePosition, ::ArrayW<::UnityEngine::Vector4> m_MipScaleOffset, ::ArrayW<::UnityEngine::Vector4> m_Rotations) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13135 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13142 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };

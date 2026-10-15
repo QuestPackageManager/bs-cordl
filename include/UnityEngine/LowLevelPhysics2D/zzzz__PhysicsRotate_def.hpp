@@ -51,23 +51,23 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*();
 
-  /// @brief Method OnAfterDeserialize, addr 0x6fd4a28, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method OnAfterDeserialize, addr 0x701191c, size 0xc0, virtual true, abstract: false, final true
   inline void OnAfterDeserialize();
 
-  /// @brief Method OnBeforeSerialize, addr 0x6fd4968, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method OnBeforeSerialize, addr 0x701185c, size 0xc0, virtual true, abstract: false, final true
   inline void OnBeforeSerialize();
 
   /// [IsReadOnly]
-  /// @brief Method ToString, addr 0x6fd4ae8, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x70119dc, size 0x104, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6fd47e8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70116dc, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6fd4868, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x701175c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(float_t angle);
 
-  /// @brief Method .ctor, addr 0x6fd483c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7011730, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 direction);
 
   static inline ::UnityEngine::LowLevelPhysics2D::PhysicsRotate getStaticF_downRotation();
@@ -79,22 +79,22 @@ public:
   static inline ::UnityEngine::LowLevelPhysics2D::PhysicsRotate getStaticF_upRotation();
 
   /// [IsReadOnly]
-  /// @brief Method get_angle, addr 0x6fd48c8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_angle, addr 0x70117bc, size 0x44, virtual false, abstract: false, final false
   inline float_t get_angle();
 
   /// [IsReadOnly]
-  /// @brief Method get_cos, addr 0x6fd47d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cos, addr 0x70116cc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_cos();
 
-  /// @brief Method get_identity, addr 0x6fd490c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_identity, addr 0x7011800, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::LowLevelPhysics2D::PhysicsRotate get_identity();
 
   /// [IsReadOnly]
-  /// @brief Method get_isValid, addr 0x6fd4880, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_isValid, addr 0x7011774, size 0x48, virtual false, abstract: false, final false
   inline bool get_isValid();
 
   /// [IsReadOnly]
-  /// @brief Method get_sin, addr 0x6fd47e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sin, addr 0x70116d4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_sin();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
@@ -116,7 +116,7 @@ public:
   constexpr PhysicsRotate(::UnityEngine::Vector2 direction) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21522 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21569 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

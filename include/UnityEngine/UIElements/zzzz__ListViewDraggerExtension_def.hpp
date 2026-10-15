@@ -28,11 +28,11 @@ class CORDL_TYPE ListViewDraggerExtension : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method GetRecycledItemFromId, addr 0x7216ebc, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method GetRecycledItemFromId, addr 0x7253df0, size 0x2fc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::ReusableCollectionItem* GetRecycledItemFromId(::UnityEngine::UIElements::BaseVerticalCollectionView* listView, int32_t id);
 
   /// [Extension]
-  /// @brief Method GetRecycledItemFromIndex, addr 0x721c138, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method GetRecycledItemFromIndex, addr 0x725906c, size 0x2fc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::ReusableCollectionItem* GetRecycledItemFromIndex(::UnityEngine::UIElements::BaseVerticalCollectionView* listView, int32_t index);
 
 protected:

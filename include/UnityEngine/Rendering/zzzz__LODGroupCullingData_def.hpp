@@ -57,7 +57,7 @@ public:
   constexpr LODGroupCullingData__percentageFlags_e__FixedBuffer(bool FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18283 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18316 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -95,7 +95,7 @@ public:
   constexpr LODGroupCullingData__sqrDistances_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18284 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18317 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -133,7 +133,7 @@ public:
   constexpr LODGroupCullingData__transitionDistances_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18285 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18318 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -182,7 +182,7 @@ public:
                                 ::UnityEngine::Rendering::LODGroupCullingData__percentageFlags_e__FixedBuffer percentageFlags, uint8_t forceLODMask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18286 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18319 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };

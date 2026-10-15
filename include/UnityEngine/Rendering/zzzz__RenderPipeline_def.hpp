@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set_slice(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6f80648, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fbd524, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -101,7 +101,7 @@ public:
   RenderPipeline_StandardRequest(RenderPipeline_StandardRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10422 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10429 };
 
   /// @brief Field destination, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RenderTexture> ___destination;
@@ -145,28 +145,28 @@ public:
 
   __declspec(property(get = get_disposed, put = set_disposed)) bool disposed;
 
-  /// @brief Method BeginCameraRendering, addr 0x6f802c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method BeginCameraRendering, addr 0x6fbd1a4, size 0x4, virtual false, abstract: false, final false
   static inline void BeginCameraRendering(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera);
 
-  /// @brief Method BeginContextRendering, addr 0x6f801ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method BeginContextRendering, addr 0x6fbd0c8, size 0x4, virtual false, abstract: false, final false
   static inline void BeginContextRendering(::UnityEngine::Rendering::ScriptableRenderContext context, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* cameras);
 
-  /// @brief Method Dispose, addr 0x6f805bc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6fbd498, size 0x7c, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6f80638, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6fbd514, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EndCameraRendering, addr 0x6f80430, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method EndCameraRendering, addr 0x6fbd30c, size 0x4, virtual false, abstract: false, final false
   static inline void EndCameraRendering(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera);
 
-  /// @brief Method EndContextRendering, addr 0x6f80350, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method EndContextRendering, addr 0x6fbd22c, size 0x4, virtual false, abstract: false, final false
   static inline void EndContextRendering(::UnityEngine::Rendering::ScriptableRenderContext context, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* cameras);
 
   /// @brief Method InternalProcessRenderRequests, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename RequestData> inline void InternalProcessRenderRequests(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera, RequestData renderRequest);
 
-  /// @brief Method InternalRender, addr 0x6f80534, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method InternalRender, addr 0x6fbd410, size 0x78, virtual false, abstract: false, final false
   inline void InternalRender(::UnityEngine::Rendering::ScriptableRenderContext context, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* cameras);
 
   /// @brief Method IsRenderRequestSupported, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -179,10 +179,10 @@ public:
 
   /// [Obsolete("Render with an array parameter is deprecated. Use Render with a list parameter instead. If you\'re extending the RenderPipeline class, override the Render method with a List parameter
   /// to perform rendering in order to avoid unnecessary allocations and copies. #from 6000.1", false)]
-  /// @brief Method Render, addr 0x6f801e8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x6fbd0c4, size 0x4, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::ScriptableRenderContext context, ::ArrayW<::UnityEngine::Camera*> cameras);
 
-  /// @brief Method Render, addr 0x6f804b8, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x6fbd394, size 0x7c, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::ScriptableRenderContext context, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* cameras);
 
   /// @brief Method SubmitRenderRequest, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -197,18 +197,18 @@ public:
 
   constexpr void __cordl_internal_set__disposed_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6f80644, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fbd520, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_defaultSettings, addr 0x6f8063c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_defaultSettings, addr 0x6fbd518, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::RenderPipelineGlobalSettings> get_defaultSettings();
 
   /// [CompilerGenerated]
-  /// @brief Method get_disposed, addr 0x6f805ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x6fbd488, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// [CompilerGenerated]
-  /// @brief Method set_disposed, addr 0x6f805b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x6fbd490, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:
@@ -226,7 +226,7 @@ public:
   RenderPipeline(RenderPipeline const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10423 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10430 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]

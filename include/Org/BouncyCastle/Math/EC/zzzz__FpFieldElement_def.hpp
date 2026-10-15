@@ -46,72 +46,72 @@ public:
   /// @brief Field x, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x)) ::Org::BouncyCastle::Math::BigInteger* x;
 
-  /// @brief Method Add, addr 0x37af200, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x37d1b64, size 0xb4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Add(::Org::BouncyCastle::Math::EC::ECFieldElement* b);
 
-  /// @brief Method AddOne, addr 0x37af2b4, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method AddOne, addr 0x37d1c18, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* AddOne();
 
-  /// @brief Method CalculateResidue, addr 0x37ad9c4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method CalculateResidue, addr 0x37d0328, size 0x12c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* CalculateResidue(::Org::BouncyCastle::Math::BigInteger* p);
 
-  /// @brief Method CheckSqrt, addr 0x37b031c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CheckSqrt, addr 0x37d2c80, size 0x58, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* CheckSqrt(::Org::BouncyCastle::Math::EC::ECFieldElement* z);
 
-  /// @brief Method Divide, addr 0x37af7f0, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Divide, addr 0x37d2154, size 0xcc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Divide(::Org::BouncyCastle::Math::EC::ECFieldElement* b);
 
-  /// @brief Method Equals, addr 0x37b0ec4, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x37d3828, size 0xb8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x37b0f7c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x37d38e0, size 0x5c, virtual true, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Math::EC::FpFieldElement* other);
 
-  /// @brief Method GetHashCode, addr 0x37b0fd8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x37d393c, size 0x44, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Invert, addr 0x37afc8c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Invert, addr 0x37d25f0, size 0x90, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Invert();
 
-  /// @brief Method LucasSequence, addr 0x37b0374, size 0x568, virtual false, abstract: false, final false
+  /// @brief Method LucasSequence, addr 0x37d2cd8, size 0x568, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> LucasSequence(::Org::BouncyCastle::Math::BigInteger* P, ::Org::BouncyCastle::Math::BigInteger* Q, ::Org::BouncyCastle::Math::BigInteger* k);
 
-  /// @brief Method ModAdd, addr 0x37b08dc, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ModAdd, addr 0x37d3240, size 0x64, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* ModAdd(::Org::BouncyCastle::Math::BigInteger* x1, ::Org::BouncyCastle::Math::BigInteger* x2);
 
-  /// @brief Method ModDouble, addr 0x37b0940, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ModDouble, addr 0x37d32a4, size 0x64, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* ModDouble(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method ModHalf, addr 0x37b09a4, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method ModHalf, addr 0x37d3308, size 0x60, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* ModHalf(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method ModHalfAbs, addr 0x37b0a04, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method ModHalfAbs, addr 0x37d3368, size 0x60, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* ModHalfAbs(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method ModInverse, addr 0x37b0a64, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method ModInverse, addr 0x37d33c8, size 0xd4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* ModInverse(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method ModMult, addr 0x37b0b38, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method ModMult, addr 0x37d349c, size 0x3c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* ModMult(::Org::BouncyCastle::Math::BigInteger* x1, ::Org::BouncyCastle::Math::BigInteger* x2);
 
-  /// @brief Method ModReduce, addr 0x37b0b74, size 0x30c, virtual true, abstract: false, final false
+  /// @brief Method ModReduce, addr 0x37d34d8, size 0x30c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* ModReduce(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method ModSubtract, addr 0x37b0e80, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ModSubtract, addr 0x37d37e4, size 0x44, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* ModSubtract(::Org::BouncyCastle::Math::BigInteger* x1, ::Org::BouncyCastle::Math::BigInteger* x2);
 
-  /// @brief Method Multiply, addr 0x37af458, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Multiply, addr 0x37d1dbc, size 0xb4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Multiply(::Org::BouncyCastle::Math::EC::ECFieldElement* b);
 
-  /// @brief Method MultiplyMinusProduct, addr 0x37af50c, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method MultiplyMinusProduct, addr 0x37d1e70, size 0x134, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* MultiplyMinusProduct(::Org::BouncyCastle::Math::EC::ECFieldElement* b, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
                                                                              ::Org::BouncyCastle::Math::EC::ECFieldElement* y);
 
-  /// @brief Method MultiplyPlusProduct, addr 0x37af640, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method MultiplyPlusProduct, addr 0x37d1fa4, size 0x1b0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* MultiplyPlusProduct(::Org::BouncyCastle::Math::EC::ECFieldElement* b, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
                                                                             ::Org::BouncyCastle::Math::EC::ECFieldElement* y);
 
-  /// @brief Method Negate, addr 0x37af8bc, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Negate, addr 0x37d2220, size 0xa0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Negate();
 
   static inline ::Org::BouncyCastle::Math::EC::FpFieldElement* New_ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* r, ::Org::BouncyCastle::Math::BigInteger* x);
@@ -119,22 +119,22 @@ public:
   /// @brief [Obsolete("Use ECCurve.FromBigInteger to construct field elements")]
   static inline ::Org::BouncyCastle::Math::EC::FpFieldElement* New_ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method Sqrt, addr 0x37afd1c, size 0x600, virtual true, abstract: false, final false
+  /// @brief Method Sqrt, addr 0x37d2680, size 0x600, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Sqrt();
 
-  /// @brief Method Square, addr 0x37af95c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Square, addr 0x37d22c0, size 0x94, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Square();
 
-  /// @brief Method SquareMinusProduct, addr 0x37af9f0, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method SquareMinusProduct, addr 0x37d2354, size 0x110, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* SquareMinusProduct(::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y);
 
-  /// @brief Method SquarePlusProduct, addr 0x37afb00, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method SquarePlusProduct, addr 0x37d2464, size 0x18c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* SquarePlusProduct(::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y);
 
-  /// @brief Method Subtract, addr 0x37af3a4, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Subtract, addr 0x37d1d08, size 0xb4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Subtract(::Org::BouncyCastle::Math::EC::ECFieldElement* b);
 
-  /// @brief Method ToBigInteger, addr 0x37af194, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToBigInteger, addr 0x37d1af8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* ToBigInteger();
 
   constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_q() const;
@@ -155,20 +155,20 @@ public:
 
   constexpr void __cordl_internal_set_x(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x37add78, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37d06dc, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* r, ::Org::BouncyCastle::Math::BigInteger* x);
 
   /// [Obsolete("Use ECCurve.FromBigInteger to construct field elements")]
-  /// @brief Method .ctor, addr 0x37af15c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37d1ac0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method get_FieldName, addr 0x37af19c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_FieldName, addr 0x37d1b00, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_FieldName();
 
-  /// @brief Method get_FieldSize, addr 0x37af1e0, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_FieldSize, addr 0x37d1b44, size 0x18, virtual true, abstract: false, final false
   inline int32_t get_FieldSize();
 
-  /// @brief Method get_Q, addr 0x37af1f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Q, addr 0x37d1b5c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Q();
 
 protected:

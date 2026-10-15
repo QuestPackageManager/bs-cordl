@@ -17,68 +17,135 @@
 #include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseInputModule_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"
+//  Writing Method size for method: ::HMUI::FlowCoordinator___c__DisplayClass38_0._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass38_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass38_0::_ctor)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x359c610;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass38_0*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::HMUI::FlowCoordinator___c__DisplayClass38_0._PresentFlowCoordinator_b__1
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass38_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass38_0::_PresentFlowCoordinator_b__1)> {
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x359e62c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass38_0*>(), { "<PresentFlowCoordinator>b__1", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::HMUI::FlowCoordinator___c__DisplayClass38_0._PresentFlowCoordinator_b__0
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass38_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass38_0::_PresentFlowCoordinator_b__0)> {
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x359e6a4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass38_0*>(), { "<PresentFlowCoordinator>b__0", {}, {} })));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Action*& HMUI::FlowCoordinator___c__DisplayClass38_0::__cordl_internal_get_finishedCallback() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___finishedCallback;
+}
+constexpr ::System::Action* const& HMUI::FlowCoordinator___c__DisplayClass38_0::__cordl_internal_get_finishedCallback() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___finishedCallback;
+}
+constexpr void HMUI::FlowCoordinator___c__DisplayClass38_0::__cordl_internal_set_finishedCallback(::System::Action* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___finishedCallback = value;
+}
+constexpr ::UnityW<::HMUI::FlowCoordinator>& HMUI::FlowCoordinator___c__DisplayClass38_0::__cordl_internal_get_flowCoordinator() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___flowCoordinator;
+}
+constexpr ::UnityW<::HMUI::FlowCoordinator> const& HMUI::FlowCoordinator___c__DisplayClass38_0::__cordl_internal_get_flowCoordinator() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___flowCoordinator;
+}
+constexpr void HMUI::FlowCoordinator___c__DisplayClass38_0::__cordl_internal_set_flowCoordinator(::UnityW<::HMUI::FlowCoordinator> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___flowCoordinator = value;
+}
+constexpr ::UnityW<::HMUI::FlowCoordinator>& HMUI::FlowCoordinator___c__DisplayClass38_0::__cordl_internal_get___4__this() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr ::UnityW<::HMUI::FlowCoordinator> const& HMUI::FlowCoordinator___c__DisplayClass38_0::__cordl_internal_get___4__this() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr void HMUI::FlowCoordinator___c__DisplayClass38_0::__cordl_internal_set___4__this(::UnityW<::HMUI::FlowCoordinator> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____4__this = value;
+}
+inline void HMUI::FlowCoordinator___c__DisplayClass38_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass38_0*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void HMUI::FlowCoordinator___c__DisplayClass38_0::_PresentFlowCoordinator_b__1() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass38_0*>(), { "<PresentFlowCoordinator>b__1", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void HMUI::FlowCoordinator___c__DisplayClass38_0::_PresentFlowCoordinator_b__0() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass38_0*>(), { "<PresentFlowCoordinator>b__0", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::HMUI::FlowCoordinator___c__DisplayClass38_0* HMUI::FlowCoordinator___c__DisplayClass38_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::FlowCoordinator___c__DisplayClass38_0*>());
+}
+// Ctor Parameters []
+constexpr ::HMUI::FlowCoordinator___c__DisplayClass38_0::FlowCoordinator___c__DisplayClass38_0() {}
 //  Writing Method size for method: ::HMUI::FlowCoordinator___c__DisplayClass39_0._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass39_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass39_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3579f70;
+  constexpr static std::size_t addrs = 0x359ccb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass39_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::FlowCoordinator___c__DisplayClass39_0._PresentFlowCoordinator_b__1
+//  Writing Method size for method: ::HMUI::FlowCoordinator___c__DisplayClass39_0._DismissFlowCoordinator_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass39_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass39_0::_PresentFlowCoordinator_b__1)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x357bf8c;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass39_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass39_0::_DismissFlowCoordinator_b__0)> {
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x359e71c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass39_0*>(), { "<PresentFlowCoordinator>b__1", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass39_0*>(), { "<DismissFlowCoordinator>b__0", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::FlowCoordinator___c__DisplayClass39_0._PresentFlowCoordinator_b__0
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass39_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass39_0::_PresentFlowCoordinator_b__0)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x357c004;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass39_0*>(), { "<PresentFlowCoordinator>b__0", {}, {} })));
-    return ___internal_method;
-  }
-};
-constexpr ::System::Action*& HMUI::FlowCoordinator___c__DisplayClass39_0::__cordl_internal_get_finishedCallback() {
+constexpr bool& HMUI::FlowCoordinator___c__DisplayClass39_0::__cordl_internal_get_immediately() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___finishedCallback;
+  return this->___immediately;
 }
-constexpr ::System::Action* const& HMUI::FlowCoordinator___c__DisplayClass39_0::__cordl_internal_get_finishedCallback() const {
+constexpr bool const& HMUI::FlowCoordinator___c__DisplayClass39_0::__cordl_internal_get_immediately() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___finishedCallback;
+  return this->___immediately;
 }
-constexpr void HMUI::FlowCoordinator___c__DisplayClass39_0::__cordl_internal_set_finishedCallback(::System::Action* value) {
+constexpr void HMUI::FlowCoordinator___c__DisplayClass39_0::__cordl_internal_set_immediately(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___finishedCallback = value;
-}
-constexpr ::UnityW<::HMUI::FlowCoordinator>& HMUI::FlowCoordinator___c__DisplayClass39_0::__cordl_internal_get_flowCoordinator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___flowCoordinator;
-}
-constexpr ::UnityW<::HMUI::FlowCoordinator> const& HMUI::FlowCoordinator___c__DisplayClass39_0::__cordl_internal_get_flowCoordinator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___flowCoordinator;
-}
-constexpr void HMUI::FlowCoordinator___c__DisplayClass39_0::__cordl_internal_set_flowCoordinator(::UnityW<::HMUI::FlowCoordinator> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___flowCoordinator = value;
+  this->___immediately = value;
 }
 constexpr ::UnityW<::HMUI::FlowCoordinator>& HMUI::FlowCoordinator___c__DisplayClass39_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -92,18 +159,49 @@ constexpr void HMUI::FlowCoordinator___c__DisplayClass39_0::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
+constexpr ::System::Action*& HMUI::FlowCoordinator___c__DisplayClass39_0::__cordl_internal_get_finishedCallback() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___finishedCallback;
+}
+constexpr ::System::Action* const& HMUI::FlowCoordinator___c__DisplayClass39_0::__cordl_internal_get_finishedCallback() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___finishedCallback;
+}
+constexpr void HMUI::FlowCoordinator___c__DisplayClass39_0::__cordl_internal_set_finishedCallback(::System::Action* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___finishedCallback = value;
+}
+constexpr ::UnityW<::HMUI::ViewController>& HMUI::FlowCoordinator___c__DisplayClass39_0::__cordl_internal_get_viewController() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___viewController;
+}
+constexpr ::UnityW<::HMUI::ViewController> const& HMUI::FlowCoordinator___c__DisplayClass39_0::__cordl_internal_get_viewController() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___viewController;
+}
+constexpr void HMUI::FlowCoordinator___c__DisplayClass39_0::__cordl_internal_set_viewController(::UnityW<::HMUI::ViewController> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___viewController = value;
+}
+constexpr ::UnityW<::HMUI::FlowCoordinator>& HMUI::FlowCoordinator___c__DisplayClass39_0::__cordl_internal_get_flowCoordinator() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___flowCoordinator;
+}
+constexpr ::UnityW<::HMUI::FlowCoordinator> const& HMUI::FlowCoordinator___c__DisplayClass39_0::__cordl_internal_get_flowCoordinator() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___flowCoordinator;
+}
+constexpr void HMUI::FlowCoordinator___c__DisplayClass39_0::__cordl_internal_set_flowCoordinator(::UnityW<::HMUI::FlowCoordinator> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___flowCoordinator = value;
+}
 inline void HMUI::FlowCoordinator___c__DisplayClass39_0::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass39_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void HMUI::FlowCoordinator___c__DisplayClass39_0::_PresentFlowCoordinator_b__1() {
+inline void HMUI::FlowCoordinator___c__DisplayClass39_0::_DismissFlowCoordinator_b__0() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass39_0*>(), { "<PresentFlowCoordinator>b__1", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline void HMUI::FlowCoordinator___c__DisplayClass39_0::_PresentFlowCoordinator_b__0() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass39_0*>(), { "<PresentFlowCoordinator>b__0", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass39_0*>(), { "<DismissFlowCoordinator>b__0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::HMUI::FlowCoordinator___c__DisplayClass39_0* HMUI::FlowCoordinator___c__DisplayClass39_0::New_ctor() {
@@ -111,153 +209,129 @@ inline ::HMUI::FlowCoordinator___c__DisplayClass39_0* HMUI::FlowCoordinator___c_
 }
 // Ctor Parameters []
 constexpr ::HMUI::FlowCoordinator___c__DisplayClass39_0::FlowCoordinator___c__DisplayClass39_0() {}
-//  Writing Method size for method: ::HMUI::FlowCoordinator___c__DisplayClass40_0._ctor
+//  Writing Method size for method: ::HMUI::FlowCoordinator___c__DisplayClass42_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass40_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass40_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass42_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass42_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x357a614;
+  constexpr static std::size_t addrs = 0x359d1ac;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass40_0*>(), { ".ctor", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass42_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::FlowCoordinator___c__DisplayClass40_0._DismissFlowCoordinator_b__0
+//  Writing Method size for method: ::HMUI::FlowCoordinator___c__DisplayClass42_0._ReplaceChildFlowCoordinator_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass40_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass40_0::_DismissFlowCoordinator_b__0)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x357c07c;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass42_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass42_0::_ReplaceChildFlowCoordinator_b__0)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x359e7b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass40_0*>(), { "<DismissFlowCoordinator>b__0", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass42_0*>(), { "<ReplaceChildFlowCoordinator>b__0", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr bool& HMUI::FlowCoordinator___c__DisplayClass40_0::__cordl_internal_get_immediately() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___immediately;
-}
-constexpr bool const& HMUI::FlowCoordinator___c__DisplayClass40_0::__cordl_internal_get_immediately() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___immediately;
-}
-constexpr void HMUI::FlowCoordinator___c__DisplayClass40_0::__cordl_internal_set_immediately(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___immediately = value;
-}
-constexpr ::UnityW<::HMUI::FlowCoordinator>& HMUI::FlowCoordinator___c__DisplayClass40_0::__cordl_internal_get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr ::UnityW<::HMUI::FlowCoordinator> const& HMUI::FlowCoordinator___c__DisplayClass40_0::__cordl_internal_get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr void HMUI::FlowCoordinator___c__DisplayClass40_0::__cordl_internal_set___4__this(::UnityW<::HMUI::FlowCoordinator> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____4__this = value;
-}
-constexpr ::System::Action*& HMUI::FlowCoordinator___c__DisplayClass40_0::__cordl_internal_get_finishedCallback() {
+constexpr ::System::Action*& HMUI::FlowCoordinator___c__DisplayClass42_0::__cordl_internal_get_finishedCallback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___finishedCallback;
 }
-constexpr ::System::Action* const& HMUI::FlowCoordinator___c__DisplayClass40_0::__cordl_internal_get_finishedCallback() const {
+constexpr ::System::Action* const& HMUI::FlowCoordinator___c__DisplayClass42_0::__cordl_internal_get_finishedCallback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___finishedCallback;
 }
-constexpr void HMUI::FlowCoordinator___c__DisplayClass40_0::__cordl_internal_set_finishedCallback(::System::Action* value) {
+constexpr void HMUI::FlowCoordinator___c__DisplayClass42_0::__cordl_internal_set_finishedCallback(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___finishedCallback = value;
 }
-constexpr ::UnityW<::HMUI::ViewController>& HMUI::FlowCoordinator___c__DisplayClass40_0::__cordl_internal_get_viewController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___viewController;
-}
-constexpr ::UnityW<::HMUI::ViewController> const& HMUI::FlowCoordinator___c__DisplayClass40_0::__cordl_internal_get_viewController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___viewController;
-}
-constexpr void HMUI::FlowCoordinator___c__DisplayClass40_0::__cordl_internal_set_viewController(::UnityW<::HMUI::ViewController> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___viewController = value;
-}
-constexpr ::UnityW<::HMUI::FlowCoordinator>& HMUI::FlowCoordinator___c__DisplayClass40_0::__cordl_internal_get_flowCoordinator() {
+constexpr ::UnityW<::HMUI::FlowCoordinator>& HMUI::FlowCoordinator___c__DisplayClass42_0::__cordl_internal_get_flowCoordinator() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___flowCoordinator;
 }
-constexpr ::UnityW<::HMUI::FlowCoordinator> const& HMUI::FlowCoordinator___c__DisplayClass40_0::__cordl_internal_get_flowCoordinator() const {
+constexpr ::UnityW<::HMUI::FlowCoordinator> const& HMUI::FlowCoordinator___c__DisplayClass42_0::__cordl_internal_get_flowCoordinator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___flowCoordinator;
 }
-constexpr void HMUI::FlowCoordinator___c__DisplayClass40_0::__cordl_internal_set_flowCoordinator(::UnityW<::HMUI::FlowCoordinator> value) {
+constexpr void HMUI::FlowCoordinator___c__DisplayClass42_0::__cordl_internal_set_flowCoordinator(::UnityW<::HMUI::FlowCoordinator> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___flowCoordinator = value;
 }
-inline void HMUI::FlowCoordinator___c__DisplayClass40_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass40_0*>(), { ".ctor", {}, {} })));
+constexpr ::UnityW<::HMUI::FlowCoordinator>& HMUI::FlowCoordinator___c__DisplayClass42_0::__cordl_internal_get___4__this() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr ::UnityW<::HMUI::FlowCoordinator> const& HMUI::FlowCoordinator___c__DisplayClass42_0::__cordl_internal_get___4__this() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr void HMUI::FlowCoordinator___c__DisplayClass42_0::__cordl_internal_set___4__this(::UnityW<::HMUI::FlowCoordinator> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____4__this = value;
+}
+constexpr ::UnityW<::HMUI::FlowCoordinator>& HMUI::FlowCoordinator___c__DisplayClass42_0::__cordl_internal_get_flowCoordinatorToReplace() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___flowCoordinatorToReplace;
+}
+constexpr ::UnityW<::HMUI::FlowCoordinator> const& HMUI::FlowCoordinator___c__DisplayClass42_0::__cordl_internal_get_flowCoordinatorToReplace() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___flowCoordinatorToReplace;
+}
+constexpr void HMUI::FlowCoordinator___c__DisplayClass42_0::__cordl_internal_set_flowCoordinatorToReplace(::UnityW<::HMUI::FlowCoordinator> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___flowCoordinatorToReplace = value;
+}
+inline void HMUI::FlowCoordinator___c__DisplayClass42_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass42_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void HMUI::FlowCoordinator___c__DisplayClass40_0::_DismissFlowCoordinator_b__0() {
+inline void HMUI::FlowCoordinator___c__DisplayClass42_0::_ReplaceChildFlowCoordinator_b__0() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass40_0*>(), { "<DismissFlowCoordinator>b__0", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass42_0*>(), { "<ReplaceChildFlowCoordinator>b__0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::HMUI::FlowCoordinator___c__DisplayClass40_0* HMUI::FlowCoordinator___c__DisplayClass40_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::FlowCoordinator___c__DisplayClass40_0*>());
+inline ::HMUI::FlowCoordinator___c__DisplayClass42_0* HMUI::FlowCoordinator___c__DisplayClass42_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::FlowCoordinator___c__DisplayClass42_0*>());
 }
 // Ctor Parameters []
-constexpr ::HMUI::FlowCoordinator___c__DisplayClass40_0::FlowCoordinator___c__DisplayClass40_0() {}
+constexpr ::HMUI::FlowCoordinator___c__DisplayClass42_0::FlowCoordinator___c__DisplayClass42_0() {}
 //  Writing Method size for method: ::HMUI::FlowCoordinator___c__DisplayClass43_0._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass43_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass43_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x357ab0c;
+  constexpr static std::size_t addrs = 0x359d1b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass43_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::FlowCoordinator___c__DisplayClass43_0._ReplaceChildFlowCoordinator_b__0
+//  Writing Method size for method: ::HMUI::FlowCoordinator___c__DisplayClass43_0._PresentViewController_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass43_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass43_0::_ReplaceChildFlowCoordinator_b__0)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x357c118;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass43_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass43_0::_PresentViewController_b__0)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x359e858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass43_0*>(), { "<ReplaceChildFlowCoordinator>b__0", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass43_0*>(), { "<PresentViewController>b__0", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::System::Action*& HMUI::FlowCoordinator___c__DisplayClass43_0::__cordl_internal_get_finishedCallback() {
+constexpr bool& HMUI::FlowCoordinator___c__DisplayClass43_0::__cordl_internal_get_immediately() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___finishedCallback;
+  return this->___immediately;
 }
-constexpr ::System::Action* const& HMUI::FlowCoordinator___c__DisplayClass43_0::__cordl_internal_get_finishedCallback() const {
+constexpr bool const& HMUI::FlowCoordinator___c__DisplayClass43_0::__cordl_internal_get_immediately() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___finishedCallback;
+  return this->___immediately;
 }
-constexpr void HMUI::FlowCoordinator___c__DisplayClass43_0::__cordl_internal_set_finishedCallback(::System::Action* value) {
+constexpr void HMUI::FlowCoordinator___c__DisplayClass43_0::__cordl_internal_set_immediately(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___finishedCallback = value;
-}
-constexpr ::UnityW<::HMUI::FlowCoordinator>& HMUI::FlowCoordinator___c__DisplayClass43_0::__cordl_internal_get_flowCoordinator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___flowCoordinator;
-}
-constexpr ::UnityW<::HMUI::FlowCoordinator> const& HMUI::FlowCoordinator___c__DisplayClass43_0::__cordl_internal_get_flowCoordinator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___flowCoordinator;
-}
-constexpr void HMUI::FlowCoordinator___c__DisplayClass43_0::__cordl_internal_set_flowCoordinator(::UnityW<::HMUI::FlowCoordinator> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___flowCoordinator = value;
+  this->___immediately = value;
 }
 constexpr ::UnityW<::HMUI::FlowCoordinator>& HMUI::FlowCoordinator___c__DisplayClass43_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -271,25 +345,37 @@ constexpr void HMUI::FlowCoordinator___c__DisplayClass43_0::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-constexpr ::UnityW<::HMUI::FlowCoordinator>& HMUI::FlowCoordinator___c__DisplayClass43_0::__cordl_internal_get_flowCoordinatorToReplace() {
+constexpr ::System::Action*& HMUI::FlowCoordinator___c__DisplayClass43_0::__cordl_internal_get_finishedCallback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___flowCoordinatorToReplace;
+  return this->___finishedCallback;
 }
-constexpr ::UnityW<::HMUI::FlowCoordinator> const& HMUI::FlowCoordinator___c__DisplayClass43_0::__cordl_internal_get_flowCoordinatorToReplace() const {
+constexpr ::System::Action* const& HMUI::FlowCoordinator___c__DisplayClass43_0::__cordl_internal_get_finishedCallback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___flowCoordinatorToReplace;
+  return this->___finishedCallback;
 }
-constexpr void HMUI::FlowCoordinator___c__DisplayClass43_0::__cordl_internal_set_flowCoordinatorToReplace(::UnityW<::HMUI::FlowCoordinator> value) {
+constexpr void HMUI::FlowCoordinator___c__DisplayClass43_0::__cordl_internal_set_finishedCallback(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___flowCoordinatorToReplace = value;
+  this->___finishedCallback = value;
+}
+constexpr ::UnityW<::HMUI::ViewController>& HMUI::FlowCoordinator___c__DisplayClass43_0::__cordl_internal_get_topViewController() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___topViewController;
+}
+constexpr ::UnityW<::HMUI::ViewController> const& HMUI::FlowCoordinator___c__DisplayClass43_0::__cordl_internal_get_topViewController() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___topViewController;
+}
+constexpr void HMUI::FlowCoordinator___c__DisplayClass43_0::__cordl_internal_set_topViewController(::UnityW<::HMUI::ViewController> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___topViewController = value;
 }
 inline void HMUI::FlowCoordinator___c__DisplayClass43_0::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass43_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void HMUI::FlowCoordinator___c__DisplayClass43_0::_ReplaceChildFlowCoordinator_b__0() {
+inline void HMUI::FlowCoordinator___c__DisplayClass43_0::_PresentViewController_b__0() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass43_0*>(), { "<ReplaceChildFlowCoordinator>b__0", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass43_0*>(), { "<PresentViewController>b__0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::HMUI::FlowCoordinator___c__DisplayClass43_0* HMUI::FlowCoordinator___c__DisplayClass43_0::New_ctor() {
@@ -302,23 +388,23 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass44_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass44_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x357ab10;
+  constexpr static std::size_t addrs = 0x359d530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass44_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::FlowCoordinator___c__DisplayClass44_0._PresentViewController_b__0
+//  Writing Method size for method: ::HMUI::FlowCoordinator___c__DisplayClass44_0._DismissViewController_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass44_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass44_0::_PresentViewController_b__0)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x357c1b8;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass44_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass44_0::_DismissViewController_b__0)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x359e8d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass44_0*>(), { "<PresentViewController>b__0", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass44_0*>(), { "<DismissViewController>b__0", {}, {} })));
     return ___internal_method;
   }
 };
@@ -358,25 +444,37 @@ constexpr void HMUI::FlowCoordinator___c__DisplayClass44_0::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___finishedCallback = value;
 }
-constexpr ::UnityW<::HMUI::ViewController>& HMUI::FlowCoordinator___c__DisplayClass44_0::__cordl_internal_get_topViewController() {
+constexpr ::UnityW<::HMUI::ViewController>& HMUI::FlowCoordinator___c__DisplayClass44_0::__cordl_internal_get_newTopViewController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___topViewController;
+  return this->___newTopViewController;
 }
-constexpr ::UnityW<::HMUI::ViewController> const& HMUI::FlowCoordinator___c__DisplayClass44_0::__cordl_internal_get_topViewController() const {
+constexpr ::UnityW<::HMUI::ViewController> const& HMUI::FlowCoordinator___c__DisplayClass44_0::__cordl_internal_get_newTopViewController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___topViewController;
+  return this->___newTopViewController;
 }
-constexpr void HMUI::FlowCoordinator___c__DisplayClass44_0::__cordl_internal_set_topViewController(::UnityW<::HMUI::ViewController> value) {
+constexpr void HMUI::FlowCoordinator___c__DisplayClass44_0::__cordl_internal_set_newTopViewController(::UnityW<::HMUI::ViewController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___topViewController = value;
+  this->___newTopViewController = value;
+}
+constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::System::Object*>*& HMUI::FlowCoordinator___c__DisplayClass44_0::__cordl_internal_get_taskCompletionSource() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___taskCompletionSource;
+}
+constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::System::Object*>* const& HMUI::FlowCoordinator___c__DisplayClass44_0::__cordl_internal_get_taskCompletionSource() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___taskCompletionSource;
+}
+constexpr void HMUI::FlowCoordinator___c__DisplayClass44_0::__cordl_internal_set_taskCompletionSource(::System::Threading::Tasks::TaskCompletionSource_1<::System::Object*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___taskCompletionSource = value;
 }
 inline void HMUI::FlowCoordinator___c__DisplayClass44_0::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass44_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void HMUI::FlowCoordinator___c__DisplayClass44_0::_PresentViewController_b__0() {
+inline void HMUI::FlowCoordinator___c__DisplayClass44_0::_DismissViewController_b__0() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass44_0*>(), { "<PresentViewController>b__0", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass44_0*>(), { "<DismissViewController>b__0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::HMUI::FlowCoordinator___c__DisplayClass44_0* HMUI::FlowCoordinator___c__DisplayClass44_0::New_ctor() {
@@ -384,141 +482,130 @@ inline ::HMUI::FlowCoordinator___c__DisplayClass44_0* HMUI::FlowCoordinator___c_
 }
 // Ctor Parameters []
 constexpr ::HMUI::FlowCoordinator___c__DisplayClass44_0::FlowCoordinator___c__DisplayClass44_0() {}
-//  Writing Method size for method: ::HMUI::FlowCoordinator___c__DisplayClass45_0._ctor
+//  Writing Method size for method: ::HMUI::FlowCoordinator___c__DisplayClass46_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass45_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass45_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass46_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass46_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x357ae90;
+  constexpr static std::size_t addrs = 0x359d614;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass45_0*>(), { ".ctor", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass46_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::FlowCoordinator___c__DisplayClass45_0._DismissViewController_b__0
+//  Writing Method size for method: ::HMUI::FlowCoordinator___c__DisplayClass46_0._ReplaceTopViewController_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass45_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass45_0::_DismissViewController_b__0)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x357c238;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass46_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass46_0::_ReplaceTopViewController_b__0)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x359e998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass45_0*>(), { "<DismissViewController>b__0", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass46_0*>(), { "<ReplaceTopViewController>b__0", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr bool& HMUI::FlowCoordinator___c__DisplayClass45_0::__cordl_internal_get_immediately() {
+constexpr ::HMUI::ViewController_AnimationType& HMUI::FlowCoordinator___c__DisplayClass46_0::__cordl_internal_get_animationType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___immediately;
+  return this->___animationType;
 }
-constexpr bool const& HMUI::FlowCoordinator___c__DisplayClass45_0::__cordl_internal_get_immediately() const {
+constexpr ::HMUI::ViewController_AnimationType const& HMUI::FlowCoordinator___c__DisplayClass46_0::__cordl_internal_get_animationType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___immediately;
+  return this->___animationType;
 }
-constexpr void HMUI::FlowCoordinator___c__DisplayClass45_0::__cordl_internal_set_immediately(bool value) {
+constexpr void HMUI::FlowCoordinator___c__DisplayClass46_0::__cordl_internal_set_animationType(::HMUI::ViewController_AnimationType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___immediately = value;
+  this->___animationType = value;
 }
-constexpr ::UnityW<::HMUI::FlowCoordinator>& HMUI::FlowCoordinator___c__DisplayClass45_0::__cordl_internal_get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr ::UnityW<::HMUI::FlowCoordinator> const& HMUI::FlowCoordinator___c__DisplayClass45_0::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::HMUI::FlowCoordinator>& HMUI::FlowCoordinator___c__DisplayClass46_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void HMUI::FlowCoordinator___c__DisplayClass45_0::__cordl_internal_set___4__this(::UnityW<::HMUI::FlowCoordinator> value) {
+constexpr ::UnityW<::HMUI::FlowCoordinator> const& HMUI::FlowCoordinator___c__DisplayClass46_0::__cordl_internal_get___4__this() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr void HMUI::FlowCoordinator___c__DisplayClass46_0::__cordl_internal_set___4__this(::UnityW<::HMUI::FlowCoordinator> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-constexpr ::System::Action*& HMUI::FlowCoordinator___c__DisplayClass45_0::__cordl_internal_get_finishedCallback() {
+constexpr ::System::Action*& HMUI::FlowCoordinator___c__DisplayClass46_0::__cordl_internal_get_finishedCallback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___finishedCallback;
 }
-constexpr ::System::Action* const& HMUI::FlowCoordinator___c__DisplayClass45_0::__cordl_internal_get_finishedCallback() const {
+constexpr ::System::Action* const& HMUI::FlowCoordinator___c__DisplayClass46_0::__cordl_internal_get_finishedCallback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___finishedCallback;
 }
-constexpr void HMUI::FlowCoordinator___c__DisplayClass45_0::__cordl_internal_set_finishedCallback(::System::Action* value) {
+constexpr void HMUI::FlowCoordinator___c__DisplayClass46_0::__cordl_internal_set_finishedCallback(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___finishedCallback = value;
 }
-constexpr ::UnityW<::HMUI::ViewController>& HMUI::FlowCoordinator___c__DisplayClass45_0::__cordl_internal_get_newTopViewController() {
+constexpr ::UnityW<::HMUI::ViewController>& HMUI::FlowCoordinator___c__DisplayClass46_0::__cordl_internal_get_originalTopViewController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___newTopViewController;
+  return this->___originalTopViewController;
 }
-constexpr ::UnityW<::HMUI::ViewController> const& HMUI::FlowCoordinator___c__DisplayClass45_0::__cordl_internal_get_newTopViewController() const {
+constexpr ::UnityW<::HMUI::ViewController> const& HMUI::FlowCoordinator___c__DisplayClass46_0::__cordl_internal_get_originalTopViewController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___newTopViewController;
+  return this->___originalTopViewController;
 }
-constexpr void HMUI::FlowCoordinator___c__DisplayClass45_0::__cordl_internal_set_newTopViewController(::UnityW<::HMUI::ViewController> value) {
+constexpr void HMUI::FlowCoordinator___c__DisplayClass46_0::__cordl_internal_set_originalTopViewController(::UnityW<::HMUI::ViewController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___newTopViewController = value;
+  this->___originalTopViewController = value;
 }
-constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::System::Object*>*& HMUI::FlowCoordinator___c__DisplayClass45_0::__cordl_internal_get_taskCompletionSource() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___taskCompletionSource;
-}
-constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::System::Object*>* const& HMUI::FlowCoordinator___c__DisplayClass45_0::__cordl_internal_get_taskCompletionSource() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___taskCompletionSource;
-}
-constexpr void HMUI::FlowCoordinator___c__DisplayClass45_0::__cordl_internal_set_taskCompletionSource(::System::Threading::Tasks::TaskCompletionSource_1<::System::Object*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___taskCompletionSource = value;
-}
-inline void HMUI::FlowCoordinator___c__DisplayClass45_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass45_0*>(), { ".ctor", {}, {} })));
+inline void HMUI::FlowCoordinator___c__DisplayClass46_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass46_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void HMUI::FlowCoordinator___c__DisplayClass45_0::_DismissViewController_b__0() {
+inline void HMUI::FlowCoordinator___c__DisplayClass46_0::_ReplaceTopViewController_b__0() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass45_0*>(), { "<DismissViewController>b__0", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass46_0*>(), { "<ReplaceTopViewController>b__0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::HMUI::FlowCoordinator___c__DisplayClass45_0* HMUI::FlowCoordinator___c__DisplayClass45_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::FlowCoordinator___c__DisplayClass45_0*>());
+inline ::HMUI::FlowCoordinator___c__DisplayClass46_0* HMUI::FlowCoordinator___c__DisplayClass46_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::FlowCoordinator___c__DisplayClass46_0*>());
 }
 // Ctor Parameters []
-constexpr ::HMUI::FlowCoordinator___c__DisplayClass45_0::FlowCoordinator___c__DisplayClass45_0() {}
+constexpr ::HMUI::FlowCoordinator___c__DisplayClass46_0::FlowCoordinator___c__DisplayClass46_0() {}
 //  Writing Method size for method: ::HMUI::FlowCoordinator___c__DisplayClass47_0._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass47_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass47_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x357af74;
+  constexpr static std::size_t addrs = 0x359d798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass47_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::FlowCoordinator___c__DisplayClass47_0._ReplaceTopViewController_b__0
+//  Writing Method size for method: ::HMUI::FlowCoordinator___c__DisplayClass47_0._PushViewControllerToNavigationController_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass47_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass47_0::_ReplaceTopViewController_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass47_0::*)()>(
+    &::HMUI::FlowCoordinator___c__DisplayClass47_0::_PushViewControllerToNavigationController_b__0)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x357c2f8;
+  constexpr static std::size_t addrs = 0x359ea18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass47_0*>(), { "<ReplaceTopViewController>b__0", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass47_0*>(), { "<PushViewControllerToNavigationController>b__0", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::HMUI::ViewController_AnimationType& HMUI::FlowCoordinator___c__DisplayClass47_0::__cordl_internal_get_animationType() {
+constexpr bool& HMUI::FlowCoordinator___c__DisplayClass47_0::__cordl_internal_get_immediately() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___animationType;
+  return this->___immediately;
 }
-constexpr ::HMUI::ViewController_AnimationType const& HMUI::FlowCoordinator___c__DisplayClass47_0::__cordl_internal_get_animationType() const {
+constexpr bool const& HMUI::FlowCoordinator___c__DisplayClass47_0::__cordl_internal_get_immediately() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___animationType;
+  return this->___immediately;
 }
-constexpr void HMUI::FlowCoordinator___c__DisplayClass47_0::__cordl_internal_set_animationType(::HMUI::ViewController_AnimationType value) {
+constexpr void HMUI::FlowCoordinator___c__DisplayClass47_0::__cordl_internal_set_immediately(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___animationType = value;
+  this->___immediately = value;
 }
 constexpr ::UnityW<::HMUI::FlowCoordinator>& HMUI::FlowCoordinator___c__DisplayClass47_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -544,25 +631,25 @@ constexpr void HMUI::FlowCoordinator___c__DisplayClass47_0::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___finishedCallback = value;
 }
-constexpr ::UnityW<::HMUI::ViewController>& HMUI::FlowCoordinator___c__DisplayClass47_0::__cordl_internal_get_originalTopViewController() {
+constexpr ::UnityW<::HMUI::ViewController>& HMUI::FlowCoordinator___c__DisplayClass47_0::__cordl_internal_get_viewController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___originalTopViewController;
+  return this->___viewController;
 }
-constexpr ::UnityW<::HMUI::ViewController> const& HMUI::FlowCoordinator___c__DisplayClass47_0::__cordl_internal_get_originalTopViewController() const {
+constexpr ::UnityW<::HMUI::ViewController> const& HMUI::FlowCoordinator___c__DisplayClass47_0::__cordl_internal_get_viewController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___originalTopViewController;
+  return this->___viewController;
 }
-constexpr void HMUI::FlowCoordinator___c__DisplayClass47_0::__cordl_internal_set_originalTopViewController(::UnityW<::HMUI::ViewController> value) {
+constexpr void HMUI::FlowCoordinator___c__DisplayClass47_0::__cordl_internal_set_viewController(::UnityW<::HMUI::ViewController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___originalTopViewController = value;
+  this->___viewController = value;
 }
 inline void HMUI::FlowCoordinator___c__DisplayClass47_0::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass47_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void HMUI::FlowCoordinator___c__DisplayClass47_0::_ReplaceTopViewController_b__0() {
+inline void HMUI::FlowCoordinator___c__DisplayClass47_0::_PushViewControllerToNavigationController_b__0() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass47_0*>(), { "<ReplaceTopViewController>b__0", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass47_0*>(), { "<PushViewControllerToNavigationController>b__0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::HMUI::FlowCoordinator___c__DisplayClass47_0* HMUI::FlowCoordinator___c__DisplayClass47_0::New_ctor() {
@@ -570,117 +657,117 @@ inline ::HMUI::FlowCoordinator___c__DisplayClass47_0* HMUI::FlowCoordinator___c_
 }
 // Ctor Parameters []
 constexpr ::HMUI::FlowCoordinator___c__DisplayClass47_0::FlowCoordinator___c__DisplayClass47_0() {}
-//  Writing Method size for method: ::HMUI::FlowCoordinator___c__DisplayClass48_0._ctor
+//  Writing Method size for method: ::HMUI::FlowCoordinator___c__DisplayClass50_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass48_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass48_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass50_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass50_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x357b0f8;
+  constexpr static std::size_t addrs = 0x359da3c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass48_0*>(), { ".ctor", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass50_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::FlowCoordinator___c__DisplayClass48_0._PushViewControllerToNavigationController_b__0
+//  Writing Method size for method: ::HMUI::FlowCoordinator___c__DisplayClass50_0._PopViewControllerFromNavigationController_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass48_0::*)()>(
-    &::HMUI::FlowCoordinator___c__DisplayClass48_0::_PushViewControllerToNavigationController_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass50_0::*)()>(
+    &::HMUI::FlowCoordinator___c__DisplayClass50_0::_PopViewControllerFromNavigationController_b__0)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x357c378;
+  constexpr static std::size_t addrs = 0x359ea98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass48_0*>(), { "<PushViewControllerToNavigationController>b__0", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass50_0*>(), { "<PopViewControllerFromNavigationController>b__0", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr bool& HMUI::FlowCoordinator___c__DisplayClass48_0::__cordl_internal_get_immediately() {
+constexpr bool& HMUI::FlowCoordinator___c__DisplayClass50_0::__cordl_internal_get_immediately() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___immediately;
 }
-constexpr bool const& HMUI::FlowCoordinator___c__DisplayClass48_0::__cordl_internal_get_immediately() const {
+constexpr bool const& HMUI::FlowCoordinator___c__DisplayClass50_0::__cordl_internal_get_immediately() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___immediately;
 }
-constexpr void HMUI::FlowCoordinator___c__DisplayClass48_0::__cordl_internal_set_immediately(bool value) {
+constexpr void HMUI::FlowCoordinator___c__DisplayClass50_0::__cordl_internal_set_immediately(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___immediately = value;
 }
-constexpr ::UnityW<::HMUI::FlowCoordinator>& HMUI::FlowCoordinator___c__DisplayClass48_0::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::HMUI::FlowCoordinator>& HMUI::FlowCoordinator___c__DisplayClass50_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::HMUI::FlowCoordinator> const& HMUI::FlowCoordinator___c__DisplayClass48_0::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::HMUI::FlowCoordinator> const& HMUI::FlowCoordinator___c__DisplayClass50_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void HMUI::FlowCoordinator___c__DisplayClass48_0::__cordl_internal_set___4__this(::UnityW<::HMUI::FlowCoordinator> value) {
+constexpr void HMUI::FlowCoordinator___c__DisplayClass50_0::__cordl_internal_set___4__this(::UnityW<::HMUI::FlowCoordinator> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-constexpr ::System::Action*& HMUI::FlowCoordinator___c__DisplayClass48_0::__cordl_internal_get_finishedCallback() {
+constexpr ::System::Action*& HMUI::FlowCoordinator___c__DisplayClass50_0::__cordl_internal_get_finishedCallback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___finishedCallback;
 }
-constexpr ::System::Action* const& HMUI::FlowCoordinator___c__DisplayClass48_0::__cordl_internal_get_finishedCallback() const {
+constexpr ::System::Action* const& HMUI::FlowCoordinator___c__DisplayClass50_0::__cordl_internal_get_finishedCallback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___finishedCallback;
 }
-constexpr void HMUI::FlowCoordinator___c__DisplayClass48_0::__cordl_internal_set_finishedCallback(::System::Action* value) {
+constexpr void HMUI::FlowCoordinator___c__DisplayClass50_0::__cordl_internal_set_finishedCallback(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___finishedCallback = value;
 }
-constexpr ::UnityW<::HMUI::ViewController>& HMUI::FlowCoordinator___c__DisplayClass48_0::__cordl_internal_get_viewController() {
+constexpr ::UnityW<::HMUI::NavigationController>& HMUI::FlowCoordinator___c__DisplayClass50_0::__cordl_internal_get_navigationController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___viewController;
+  return this->___navigationController;
 }
-constexpr ::UnityW<::HMUI::ViewController> const& HMUI::FlowCoordinator___c__DisplayClass48_0::__cordl_internal_get_viewController() const {
+constexpr ::UnityW<::HMUI::NavigationController> const& HMUI::FlowCoordinator___c__DisplayClass50_0::__cordl_internal_get_navigationController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___viewController;
+  return this->___navigationController;
 }
-constexpr void HMUI::FlowCoordinator___c__DisplayClass48_0::__cordl_internal_set_viewController(::UnityW<::HMUI::ViewController> value) {
+constexpr void HMUI::FlowCoordinator___c__DisplayClass50_0::__cordl_internal_set_navigationController(::UnityW<::HMUI::NavigationController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___viewController = value;
+  this->___navigationController = value;
 }
-inline void HMUI::FlowCoordinator___c__DisplayClass48_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass48_0*>(), { ".ctor", {}, {} })));
+inline void HMUI::FlowCoordinator___c__DisplayClass50_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass50_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void HMUI::FlowCoordinator___c__DisplayClass48_0::_PushViewControllerToNavigationController_b__0() {
+inline void HMUI::FlowCoordinator___c__DisplayClass50_0::_PopViewControllerFromNavigationController_b__0() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass48_0*>(), { "<PushViewControllerToNavigationController>b__0", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass50_0*>(), { "<PopViewControllerFromNavigationController>b__0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::HMUI::FlowCoordinator___c__DisplayClass48_0* HMUI::FlowCoordinator___c__DisplayClass48_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::FlowCoordinator___c__DisplayClass48_0*>());
+inline ::HMUI::FlowCoordinator___c__DisplayClass50_0* HMUI::FlowCoordinator___c__DisplayClass50_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::FlowCoordinator___c__DisplayClass50_0*>());
 }
 // Ctor Parameters []
-constexpr ::HMUI::FlowCoordinator___c__DisplayClass48_0::FlowCoordinator___c__DisplayClass48_0() {}
+constexpr ::HMUI::FlowCoordinator___c__DisplayClass50_0::FlowCoordinator___c__DisplayClass50_0() {}
 //  Writing Method size for method: ::HMUI::FlowCoordinator___c__DisplayClass51_0._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass51_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass51_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x357b39c;
+  constexpr static std::size_t addrs = 0x359dbb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass51_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::FlowCoordinator___c__DisplayClass51_0._PopViewControllerFromNavigationController_b__0
+//  Writing Method size for method: ::HMUI::FlowCoordinator___c__DisplayClass51_0._PopViewControllersFromNavigationController_b__0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass51_0::*)()>(
-    &::HMUI::FlowCoordinator___c__DisplayClass51_0::_PopViewControllerFromNavigationController_b__0)> {
+    &::HMUI::FlowCoordinator___c__DisplayClass51_0::_PopViewControllersFromNavigationController_b__0)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x357c3f8;
+  constexpr static std::size_t addrs = 0x359eb18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass51_0*>(), { "<PopViewControllerFromNavigationController>b__0", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass51_0*>(), { "<PopViewControllersFromNavigationController>b__0", {}, {} })));
     return ___internal_method;
   }
 };
@@ -736,9 +823,9 @@ inline void HMUI::FlowCoordinator___c__DisplayClass51_0::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass51_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void HMUI::FlowCoordinator___c__DisplayClass51_0::_PopViewControllerFromNavigationController_b__0() {
+inline void HMUI::FlowCoordinator___c__DisplayClass51_0::_PopViewControllersFromNavigationController_b__0() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass51_0*>(), { "<PopViewControllerFromNavigationController>b__0", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass51_0*>(), { "<PopViewControllersFromNavigationController>b__0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::HMUI::FlowCoordinator___c__DisplayClass51_0* HMUI::FlowCoordinator___c__DisplayClass51_0::New_ctor() {
@@ -746,145 +833,57 @@ inline ::HMUI::FlowCoordinator___c__DisplayClass51_0* HMUI::FlowCoordinator___c_
 }
 // Ctor Parameters []
 constexpr ::HMUI::FlowCoordinator___c__DisplayClass51_0::FlowCoordinator___c__DisplayClass51_0() {}
-//  Writing Method size for method: ::HMUI::FlowCoordinator___c__DisplayClass52_0._ctor
+//  Writing Method size for method: ::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__40.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass52_0::*)()>(&::HMUI::FlowCoordinator___c__DisplayClass52_0::_ctor)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x357b510;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass52_0*>(), { ".ctor", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::HMUI::FlowCoordinator___c__DisplayClass52_0._PopViewControllersFromNavigationController_b__0
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator___c__DisplayClass52_0::*)()>(
-    &::HMUI::FlowCoordinator___c__DisplayClass52_0::_PopViewControllersFromNavigationController_b__0)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x357c478;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass52_0*>(), { "<PopViewControllersFromNavigationController>b__0", {}, {} })));
-    return ___internal_method;
-  }
-};
-constexpr bool& HMUI::FlowCoordinator___c__DisplayClass52_0::__cordl_internal_get_immediately() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___immediately;
-}
-constexpr bool const& HMUI::FlowCoordinator___c__DisplayClass52_0::__cordl_internal_get_immediately() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___immediately;
-}
-constexpr void HMUI::FlowCoordinator___c__DisplayClass52_0::__cordl_internal_set_immediately(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___immediately = value;
-}
-constexpr ::UnityW<::HMUI::FlowCoordinator>& HMUI::FlowCoordinator___c__DisplayClass52_0::__cordl_internal_get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr ::UnityW<::HMUI::FlowCoordinator> const& HMUI::FlowCoordinator___c__DisplayClass52_0::__cordl_internal_get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr void HMUI::FlowCoordinator___c__DisplayClass52_0::__cordl_internal_set___4__this(::UnityW<::HMUI::FlowCoordinator> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____4__this = value;
-}
-constexpr ::System::Action*& HMUI::FlowCoordinator___c__DisplayClass52_0::__cordl_internal_get_finishedCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___finishedCallback;
-}
-constexpr ::System::Action* const& HMUI::FlowCoordinator___c__DisplayClass52_0::__cordl_internal_get_finishedCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___finishedCallback;
-}
-constexpr void HMUI::FlowCoordinator___c__DisplayClass52_0::__cordl_internal_set_finishedCallback(::System::Action* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___finishedCallback = value;
-}
-constexpr ::UnityW<::HMUI::NavigationController>& HMUI::FlowCoordinator___c__DisplayClass52_0::__cordl_internal_get_navigationController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___navigationController;
-}
-constexpr ::UnityW<::HMUI::NavigationController> const& HMUI::FlowCoordinator___c__DisplayClass52_0::__cordl_internal_get_navigationController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___navigationController;
-}
-constexpr void HMUI::FlowCoordinator___c__DisplayClass52_0::__cordl_internal_set_navigationController(::UnityW<::HMUI::NavigationController> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___navigationController = value;
-}
-inline void HMUI::FlowCoordinator___c__DisplayClass52_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass52_0*>(), { ".ctor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline void HMUI::FlowCoordinator___c__DisplayClass52_0::_PopViewControllersFromNavigationController_b__0() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator___c__DisplayClass52_0*>(), { "<PopViewControllersFromNavigationController>b__0", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline ::HMUI::FlowCoordinator___c__DisplayClass52_0* HMUI::FlowCoordinator___c__DisplayClass52_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::FlowCoordinator___c__DisplayClass52_0*>());
-}
-// Ctor Parameters []
-constexpr ::HMUI::FlowCoordinator___c__DisplayClass52_0::FlowCoordinator___c__DisplayClass52_0() {}
-//  Writing Method size for method: ::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__41.MoveNext
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__41::*)()>(
-    &::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__41::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__40::*)()>(
+    &::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__40::MoveNext)> {
   constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x357c4f8;
+  constexpr static std::size_t addrs = 0x359eb98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__41>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__40>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__41.SetStateMachine
+//  Writing Method size for method: ::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__40.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__41::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__41::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__40::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__40::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x357c838;
+  constexpr static std::size_t addrs = 0x359eed8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__41>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__40>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__41::MoveNext() {
+inline void HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__40::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__41>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__40>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__41::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__41>(),
+inline void HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__40::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__40>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__41::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__40::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__41::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__40::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty: "::UnityW<::HMUI::FlowCoordinator>",
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "immediately", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__41::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__41(
+constexpr ::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__40::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__40(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::HMUI::FlowCoordinator> __4__this, bool immediately,
     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
@@ -894,58 +893,58 @@ constexpr ::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__41
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__41::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__41() {}
-//  Writing Method size for method: ::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__42.MoveNext
+constexpr ::HMUI::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__40::FlowCoordinator__DismissChildFlowCoordinatorsRecursively_d__40() {}
+//  Writing Method size for method: ::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__41.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__42::*)()>(
-    &::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__42::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__41::*)()>(
+    &::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__41::MoveNext)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x357c8a4;
+  constexpr static std::size_t addrs = 0x359ef44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__42>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__41>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__42.SetStateMachine
+//  Writing Method size for method: ::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__41.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__42::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__42::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__41::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__41::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x357caf4;
+  constexpr static std::size_t addrs = 0x359f194;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__42>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__41>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__42::MoveNext() {
+inline void HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__41::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__42>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__41>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__42::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__42>(),
+inline void HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__41::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__41>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__42::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__41::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__42::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__41::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty: "::UnityW<::HMUI::FlowCoordinator>",
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "immediately", ty: "bool", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__42::FlowCoordinator__DismissChildViewControllersRecursively_d__42(
+constexpr ::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__41::FlowCoordinator__DismissChildViewControllersRecursively_d__41(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::HMUI::FlowCoordinator> __4__this, bool immediately,
     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
@@ -955,13 +954,13 @@ constexpr ::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__42:
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__42::FlowCoordinator__DismissChildViewControllersRecursively_d__42() {}
+constexpr ::HMUI::FlowCoordinator__DismissChildViewControllersRecursively_d__41::FlowCoordinator__DismissChildViewControllersRecursively_d__41() {}
 //  Writing Method size for method: ::HMUI::FlowCoordinator.get_topViewController
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::HMUI::ViewController> (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::get_topViewController)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3578f80;
+  constexpr static std::size_t addrs = 0x359b620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { "get_topViewController", {}, {} })));
@@ -973,7 +972,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::HMUI::ViewController> (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::get_rightScreenViewController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3579004;
+  constexpr static std::size_t addrs = 0x359b6a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { "get_rightScreenViewController", {}, {} })));
@@ -985,7 +984,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::HMUI::FlowCoordinator> (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::get_childFlowCoordinator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x357900c;
+  constexpr static std::size_t addrs = 0x359b6ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { "get_childFlowCoordinator", {}, {} })));
@@ -997,7 +996,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::get_isActivated)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3579014;
+  constexpr static std::size_t addrs = 0x359b6b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { "get_isActivated", {}, {} })));
@@ -1009,7 +1008,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::get_isInTransition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x357901c;
+  constexpr static std::size_t addrs = 0x359b6bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { "get_isInTransition", {}, {} })));
@@ -1021,7 +1020,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::get_title)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3579024;
+  constexpr static std::size_t addrs = 0x359b6c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { "get_title", {}, {} })));
@@ -1033,7 +1032,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::StringW, ::HMUI::ViewController_AnimationType)>(&::HMUI::FlowCoordinator::SetTitle)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x357902c;
+  constexpr static std::size_t addrs = 0x359b6cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1047,7 +1046,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(bool)>(&::HMUI::FlowCoordinator::set_showBackButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3579194;
+  constexpr static std::size_t addrs = 0x359b834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { "set_showBackButton", {}, { ::i2c::type_of<bool>() } })));
@@ -1059,7 +1058,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::get_showBackButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x357919c;
+  constexpr static std::size_t addrs = 0x359b83c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { "get_showBackButton", {}, {} })));
@@ -1071,7 +1070,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::ScreenSystem*)>(&::HMUI::FlowCoordinator::__StartOnScreenSystem)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x35791a4;
+  constexpr static std::size_t addrs = 0x359b844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1085,7 +1084,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::FlowCoordinator*, ::System::Action*, ::HMUI::ViewController_AnimationDirection, bool, bool)>(
     &::HMUI::FlowCoordinator::PresentFlowCoordinator)> {
   constexpr static std::size_t size = 0x42c;
-  constexpr static std::size_t addrs = 0x3579b44;
+  constexpr static std::size_t addrs = 0x359c1e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1103,7 +1102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::FlowCoordinator*, ::HMUI::ViewController_AnimationDirection, ::System::Action*, bool)>(
     &::HMUI::FlowCoordinator::DismissFlowCoordinator)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x357a2cc;
+  constexpr static std::size_t addrs = 0x359c96c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1120,7 +1119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::HMUI::FlowCoordinator::*)(bool)>(&::HMUI::FlowCoordinator::DismissChildFlowCoordinatorsRecursively)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x357a654;
+  constexpr static std::size_t addrs = 0x359ccf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1133,7 +1132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::HMUI::FlowCoordinator::*)(bool)>(&::HMUI::FlowCoordinator::DismissChildViewControllersRecursively)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x357a71c;
+  constexpr static std::size_t addrs = 0x359cdbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1147,7 +1146,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::FlowCoordinator*, ::System::Action*, ::HMUI::ViewController_AnimationDirection, bool)>(
     &::HMUI::FlowCoordinator::ReplaceChildFlowCoordinator)> {
   constexpr static std::size_t size = 0x328;
-  constexpr static std::size_t addrs = 0x357a7e4;
+  constexpr static std::size_t addrs = 0x359ce84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1164,7 +1163,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::ViewController*, ::System::Action*, ::HMUI::ViewController_AnimationDirection, bool)>(
     &::HMUI::FlowCoordinator::PresentViewController)> {
   constexpr static std::size_t size = 0x3ec;
-  constexpr static std::size_t addrs = 0x3579758;
+  constexpr static std::size_t addrs = 0x359bdf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1181,7 +1180,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::HMUI::FlowCoordinator::*)(::HMUI::ViewController*, ::HMUI::ViewController_AnimationDirection,
                                                                                                                       ::System::Action*, bool)>(&::HMUI::FlowCoordinator::DismissViewController)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x357ac08;
+  constexpr static std::size_t addrs = 0x359d2a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1198,7 +1197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::ViewController*, ::System::Action*, ::HMUI::ViewController_AnimationType,
                                                                                          ::HMUI::ViewController_AnimationDirection)>(&::HMUI::FlowCoordinator::ReplaceTopViewController)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x357ae94;
+  constexpr static std::size_t addrs = 0x359d534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1217,7 +1216,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordin
                                                                                          ::HMUI::ViewController_AnimationType, ::HMUI::ViewController_AnimationDirection)>(
     &::HMUI::FlowCoordinator::ReplaceTopViewController)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x357a05c;
+  constexpr static std::size_t addrs = 0x359c6fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1236,7 +1235,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::NavigationController*, ::HMUI::ViewController*, ::System::Action*, bool)>(
     &::HMUI::FlowCoordinator::PushViewControllerToNavigationController)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x357af98;
+  constexpr static std::size_t addrs = 0x359d638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1253,7 +1252,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::NavigationController*, ::ArrayW<::HMUI::ViewController*>)>(
     &::HMUI::FlowCoordinator::SetViewControllersToNavigationController)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x357b210;
+  constexpr static std::size_t addrs = 0x359d8b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1269,7 +1268,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::NavigationController*, ::HMUI::ViewController*)>(
     &::HMUI::FlowCoordinator::SetViewControllerToNavigationController)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x357b228;
+  constexpr static std::size_t addrs = 0x359d8c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1284,7 +1283,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::NavigationController*, ::System::Action*, bool)>(
     &::HMUI::FlowCoordinator::PopViewControllerFromNavigationController)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x357b240;
+  constexpr static std::size_t addrs = 0x359d8e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1300,7 +1299,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::NavigationController*, int32_t, ::System::Action*, bool)>(
     &::HMUI::FlowCoordinator::PopViewControllersFromNavigationController)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x357b3b0;
+  constexpr static std::size_t addrs = 0x359da50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1317,7 +1316,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::ViewController*, ::HMUI::ViewController_AnimationType)>(
     &::HMUI::FlowCoordinator::SetLeftScreenViewController)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x35793f8;
+  constexpr static std::size_t addrs = 0x359ba98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1332,7 +1331,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::ViewController*, ::HMUI::ViewController_AnimationType)>(
     &::HMUI::FlowCoordinator::SetRightScreenViewController)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x35794d0;
+  constexpr static std::size_t addrs = 0x359bb70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1347,7 +1346,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::ViewController*, ::HMUI::ViewController_AnimationType)>(
     &::HMUI::FlowCoordinator::SetBottomScreenViewController)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x35795a8;
+  constexpr static std::size_t addrs = 0x359bc48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1362,7 +1361,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::ViewController*, ::HMUI::ViewController_AnimationType)>(
     &::HMUI::FlowCoordinator::SetTopScreenViewController)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3579680;
+  constexpr static std::size_t addrs = 0x359bd20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1376,7 +1375,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::StringW, ::HMUI::ViewController_AnimationType)>(&::HMUI::FlowCoordinator::PresentTitle)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3579120;
+  constexpr static std::size_t addrs = 0x359b7c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1390,7 +1389,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::FlowCoordinator::*)(::HMUI::FlowCoordinator*)>(&::HMUI::FlowCoordinator::IsFlowCoordinatorInHierarchy)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x357907c;
+  constexpr static std::size_t addrs = 0x359b71c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1403,7 +1402,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::HMUI::FlowCoordinator> (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::YoungestChildFlowCoordinatorOrSelf)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x357b770;
+  constexpr static std::size_t addrs = 0x359de10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { "YoungestChildFlowCoordinatorOrSelf", {}, {} })));
@@ -1416,7 +1415,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::ViewController*, ::HMUI::ViewController*, ::HMUI::ViewController*, ::HMUI::ViewController*,
                                                                                          ::HMUI::ViewController*)>(&::HMUI::FlowCoordinator::ProvideInitialViewControllers)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x357b7f0;
+  constexpr static std::size_t addrs = 0x359de90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1433,7 +1432,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(bool, bool, bool)>(&::HMUI::FlowCoordinator::Activate)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x357932c;
+  constexpr static std::size_t addrs = 0x359b9cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1446,7 +1445,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(bool, bool)>(&::HMUI::FlowCoordinator::Deactivate)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3579f74;
+  constexpr static std::size_t addrs = 0x359c614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1459,7 +1458,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::__ExternalActivate)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x357b960;
+  constexpr static std::size_t addrs = 0x359e000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { "__ExternalActivate", {}, {} })));
@@ -1471,7 +1470,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::__ExternalDeactivate)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x357bb5c;
+  constexpr static std::size_t addrs = 0x359e1fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { "__ExternalDeactivate", {}, {} })));
@@ -1483,7 +1482,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::HandleScreenSystemBackButtonWasPressed)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x357bd68;
+  constexpr static std::size_t addrs = 0x359e408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { "HandleScreenSystemBackButtonWasPressed", {}, {} })));
@@ -1495,7 +1494,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::CanPressBackButton)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x357bda0;
+  constexpr static std::size_t addrs = 0x359e440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { "CanPressBackButton", {}, {} })));
@@ -1507,7 +1506,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(bool)>(&::HMUI::FlowCoordinator::SetGlobalUserInteraction)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x357a618;
+  constexpr static std::size_t addrs = 0x359ccb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1532,7 +1531,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(bool, bool)>(&::HMUI::FlowCoordinator::DidDeactivate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x357be94;
+  constexpr static std::size_t addrs = 0x359e534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { ::i2c::class_of<::HMUI::FlowCoordinator*>(), 5 }));
@@ -1544,7 +1543,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::TransitionDidStart)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x357be98;
+  constexpr static std::size_t addrs = 0x359e538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { ::i2c::class_of<::HMUI::FlowCoordinator*>(), 6 }));
@@ -1556,7 +1555,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::TransitionDidFinish)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x357bea4;
+  constexpr static std::size_t addrs = 0x359e544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { ::i2c::class_of<::HMUI::FlowCoordinator*>(), 7 }));
@@ -1569,7 +1568,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::ViewController*, ::HMUI::ViewController*, ::HMUI::ViewController_AnimationType)>(
     &::HMUI::FlowCoordinator::TopViewControllerWillChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x357beac;
+  constexpr static std::size_t addrs = 0x359e54c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { ::i2c::class_of<::HMUI::FlowCoordinator*>(), 8 }));
@@ -1581,7 +1580,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::InitialViewControllerWasPresented)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x357beb0;
+  constexpr static std::size_t addrs = 0x359e550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { ::i2c::class_of<::HMUI::FlowCoordinator*>(), 9 }));
@@ -1593,7 +1592,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)(::HMUI::ViewController*)>(&::HMUI::FlowCoordinator::BackButtonWasPressed)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x357beb4;
+  constexpr static std::size_t addrs = 0x359e554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { ::i2c::class_of<::HMUI::FlowCoordinator*>(), 10 }));
@@ -1605,7 +1604,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::HMUI::FlowCoordinator::Log)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x357beb8;
+  constexpr static std::size_t addrs = 0x359e558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { "Log", {}, { ::i2c::type_of<::StringW>() } })));
@@ -1617,7 +1616,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::FlowCoordinator::*)()>(&::HMUI::FlowCoordinator::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x357bf14;
+  constexpr static std::size_t addrs = 0x359e5b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { ".ctor", {}, {} })));
@@ -1875,18 +1874,6 @@ constexpr bool const& HMUI::FlowCoordinator::__cordl_internal_get__showBackButto
 constexpr void HMUI::FlowCoordinator::__cordl_internal_set__showBackButton(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____showBackButton = value;
-}
-constexpr ::UnityW<::UnityEngine::EventSystems::EventSystem>& HMUI::FlowCoordinator::__cordl_internal_get__prevEventSystem() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____prevEventSystem;
-}
-constexpr ::UnityW<::UnityEngine::EventSystems::EventSystem> const& HMUI::FlowCoordinator::__cordl_internal_get__prevEventSystem() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____prevEventSystem;
-}
-constexpr void HMUI::FlowCoordinator::__cordl_internal_set__prevEventSystem(::UnityW<::UnityEngine::EventSystems::EventSystem> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____prevEventSystem = value;
 }
 inline ::UnityW<::HMUI::ViewController> HMUI::FlowCoordinator::get_topViewController() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::FlowCoordinator*>(), { "get_topViewController", {}, {} })));

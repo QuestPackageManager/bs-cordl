@@ -69,7 +69,7 @@ public:
   InvokableCall_3(InvokableCall_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10036 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10043 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]

@@ -235,7 +235,7 @@ public:
   /// @brief [InputControl(offset = 4)]
   __declspec(property(get = get_trackingState, put = set_trackingState)) ::UnityEngine::InputSystem::Controls::IntegerControl* trackingState;
 
-  /// @brief Method FinishSetup, addr 0x6e5816c, size 0x4bc, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x6e94e08, size 0x4bc, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::XR::OpenXR::Features::Interactions::HandInteractionProfile_HandInteraction* New_ctor();
@@ -378,191 +378,191 @@ public:
 
   constexpr void __cordl_internal_set__trackingState_k__BackingField(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
-  /// @brief Method .ctor, addr 0x6e58628, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e952c4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_devicePose, addr 0x6e57ffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_devicePose, addr 0x6e94c98, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::Input::PoseControl* get_devicePose();
 
   /// [CompilerGenerated]
-  /// @brief Method get_devicePosition, addr 0x6e580ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_devicePosition, addr 0x6e94d88, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_devicePosition();
 
   /// [CompilerGenerated]
-  /// @brief Method get_deviceRotation, addr 0x6e580fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceRotation, addr 0x6e94d98, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_deviceRotation();
 
   /// [CompilerGenerated]
-  /// @brief Method get_graspFirm, addr 0x6e580ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_graspFirm, addr 0x6e94d48, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_graspFirm();
 
   /// [CompilerGenerated]
-  /// @brief Method get_graspReady, addr 0x6e580bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_graspReady, addr 0x6e94d58, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_graspReady();
 
   /// [CompilerGenerated]
-  /// @brief Method get_graspValue, addr 0x6e5809c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_graspValue, addr 0x6e94d38, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_graspValue();
 
   /// [CompilerGenerated]
-  /// @brief Method get_isTracked, addr 0x6e580cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isTracked, addr 0x6e94d68, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_isTracked();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pinchPose, addr 0x6e5802c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pinchPose, addr 0x6e94cc8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::Input::PoseControl* get_pinchPose();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pinchPosition, addr 0x6e5814c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pinchPosition, addr 0x6e94de8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_pinchPosition();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pinchReady, addr 0x6e5805c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pinchReady, addr 0x6e94cf8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_pinchReady();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pinchRotation, addr 0x6e5815c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pinchRotation, addr 0x6e94df8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_pinchRotation();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pinchTouched, addr 0x6e5804c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pinchTouched, addr 0x6e94ce8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_pinchTouched();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pinchValue, addr 0x6e5803c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pinchValue, addr 0x6e94cd8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_pinchValue();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pointer, addr 0x6e5800c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointer, addr 0x6e94ca8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::Input::PoseControl* get_pointer();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pointerActivateReady, addr 0x6e5808c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointerActivateReady, addr 0x6e94d28, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_pointerActivateReady();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pointerActivateValue, addr 0x6e5806c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointerActivateValue, addr 0x6e94d08, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_pointerActivateValue();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pointerActivated, addr 0x6e5807c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointerActivated, addr 0x6e94d18, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_pointerActivated();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pointerPosition, addr 0x6e5810c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointerPosition, addr 0x6e94da8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_pointerPosition();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pointerRotation, addr 0x6e5811c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointerRotation, addr 0x6e94db8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_pointerRotation();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pokePose, addr 0x6e5801c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pokePose, addr 0x6e94cb8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::Input::PoseControl* get_pokePose();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pokePosition, addr 0x6e5812c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pokePosition, addr 0x6e94dc8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_pokePosition();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pokeRotation, addr 0x6e5813c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pokeRotation, addr 0x6e94dd8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_pokeRotation();
 
   /// [CompilerGenerated]
-  /// @brief Method get_trackingState, addr 0x6e580dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackingState, addr 0x6e94d78, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_trackingState();
 
   /// [CompilerGenerated]
-  /// @brief Method set_devicePose, addr 0x6e58004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_devicePose, addr 0x6e94ca0, size 0x8, virtual false, abstract: false, final false
   inline void set_devicePose(::UnityEngine::XR::OpenXR::Input::PoseControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_devicePosition, addr 0x6e580f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_devicePosition, addr 0x6e94d90, size 0x8, virtual false, abstract: false, final false
   inline void set_devicePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_deviceRotation, addr 0x6e58104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceRotation, addr 0x6e94da0, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_graspFirm, addr 0x6e580b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_graspFirm, addr 0x6e94d50, size 0x8, virtual false, abstract: false, final false
   inline void set_graspFirm(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_graspReady, addr 0x6e580c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_graspReady, addr 0x6e94d60, size 0x8, virtual false, abstract: false, final false
   inline void set_graspReady(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_graspValue, addr 0x6e580a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_graspValue, addr 0x6e94d40, size 0x8, virtual false, abstract: false, final false
   inline void set_graspValue(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_isTracked, addr 0x6e580d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isTracked, addr 0x6e94d70, size 0x8, virtual false, abstract: false, final false
   inline void set_isTracked(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_pinchPose, addr 0x6e58034, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pinchPose, addr 0x6e94cd0, size 0x8, virtual false, abstract: false, final false
   inline void set_pinchPose(::UnityEngine::XR::OpenXR::Input::PoseControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_pinchPosition, addr 0x6e58154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pinchPosition, addr 0x6e94df0, size 0x8, virtual false, abstract: false, final false
   inline void set_pinchPosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_pinchReady, addr 0x6e58064, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pinchReady, addr 0x6e94d00, size 0x8, virtual false, abstract: false, final false
   inline void set_pinchReady(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_pinchRotation, addr 0x6e58164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pinchRotation, addr 0x6e94e00, size 0x8, virtual false, abstract: false, final false
   inline void set_pinchRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_pinchTouched, addr 0x6e58054, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pinchTouched, addr 0x6e94cf0, size 0x8, virtual false, abstract: false, final false
   inline void set_pinchTouched(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_pinchValue, addr 0x6e58044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pinchValue, addr 0x6e94ce0, size 0x8, virtual false, abstract: false, final false
   inline void set_pinchValue(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_pointer, addr 0x6e58014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pointer, addr 0x6e94cb0, size 0x8, virtual false, abstract: false, final false
   inline void set_pointer(::UnityEngine::XR::OpenXR::Input::PoseControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_pointerActivateReady, addr 0x6e58094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pointerActivateReady, addr 0x6e94d30, size 0x8, virtual false, abstract: false, final false
   inline void set_pointerActivateReady(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_pointerActivateValue, addr 0x6e58074, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pointerActivateValue, addr 0x6e94d10, size 0x8, virtual false, abstract: false, final false
   inline void set_pointerActivateValue(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_pointerActivated, addr 0x6e58084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pointerActivated, addr 0x6e94d20, size 0x8, virtual false, abstract: false, final false
   inline void set_pointerActivated(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_pointerPosition, addr 0x6e58114, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pointerPosition, addr 0x6e94db0, size 0x8, virtual false, abstract: false, final false
   inline void set_pointerPosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_pointerRotation, addr 0x6e58124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pointerRotation, addr 0x6e94dc0, size 0x8, virtual false, abstract: false, final false
   inline void set_pointerRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_pokePose, addr 0x6e58024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pokePose, addr 0x6e94cc0, size 0x8, virtual false, abstract: false, final false
   inline void set_pokePose(::UnityEngine::XR::OpenXR::Input::PoseControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_pokePosition, addr 0x6e58134, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pokePosition, addr 0x6e94dd0, size 0x8, virtual false, abstract: false, final false
   inline void set_pokePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_pokeRotation, addr 0x6e58144, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pokeRotation, addr 0x6e94de0, size 0x8, virtual false, abstract: false, final false
   inline void set_pokeRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_trackingState, addr 0x6e580e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trackingState, addr 0x6e94d80, size 0x8, virtual false, abstract: false, final false
   inline void set_trackingState(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
 protected:
@@ -580,7 +580,7 @@ public:
   HandInteractionProfile_HandInteraction(HandInteractionProfile_HandInteraction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17639 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17672 };
 
   /// [CompilerGenerated]
   /// @brief Field <devicePose>k__BackingField, offset: 0x1a8, size: 0x8, def value: None
@@ -735,24 +735,24 @@ public:
   // Declarations
   using HandInteraction = ::UnityEngine::XR::OpenXR::Features::Interactions::HandInteractionProfile_HandInteraction;
 
-  /// @brief Method GetDeviceLayoutName, addr 0x6e56454, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetDeviceLayoutName, addr 0x6e930f0, size 0x44, virtual true, abstract: false, final false
   inline ::StringW GetDeviceLayoutName();
 
   static inline ::UnityEngine::XR::OpenXR::Features::Interactions::HandInteractionProfile* New_ctor();
 
-  /// @brief Method OnInstanceCreate, addr 0x6e56230, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method OnInstanceCreate, addr 0x6e92ecc, size 0x6c, virtual true, abstract: false, final false
   inline bool OnInstanceCreate(uint64_t instance);
 
-  /// @brief Method RegisterActionMapsWithRuntime, addr 0x6e56498, size 0x1b08, virtual true, abstract: false, final false
+  /// @brief Method RegisterActionMapsWithRuntime, addr 0x6e93134, size 0x1b08, virtual true, abstract: false, final false
   inline void RegisterActionMapsWithRuntime();
 
-  /// @brief Method RegisterDeviceLayout, addr 0x6e5629c, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method RegisterDeviceLayout, addr 0x6e92f38, size 0x148, virtual true, abstract: false, final false
   inline void RegisterDeviceLayout();
 
-  /// @brief Method UnregisterDeviceLayout, addr 0x6e563e4, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method UnregisterDeviceLayout, addr 0x6e93080, size 0x70, virtual true, abstract: false, final false
   inline void UnregisterDeviceLayout();
 
-  /// @brief Method .ctor, addr 0x6e57fa0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e94c3c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -770,7 +770,7 @@ public:
   HandInteractionProfile(HandInteractionProfile const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17640 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17673 };
 
   /// @brief Field aim offset 0xffffffff size 0x8
   static constexpr ::ConstString aim{ u"/input/aim/pose" };

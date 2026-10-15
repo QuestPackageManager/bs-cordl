@@ -24,10 +24,10 @@ namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
-struct LevelCompletionResults_LevelEndAction;
+struct LevelCompletionResultsBase_LevelEndAction;
 }
 namespace GlobalNamespace {
-struct LevelCompletionResults_LevelEndStateType;
+struct LevelCompletionResultsBase_LevelEndStateType;
 }
 namespace GlobalNamespace {
 class LevelCompletionResults;
@@ -55,15 +55,15 @@ namespace GlobalNamespace {
 class CORDL_TYPE LevelCompletionResultsHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x3997848, size 0x444, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x39bbd48, size 0x4ec, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LevelCompletionResults*
   Create(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, ::ArrayW<::GlobalNamespace::BeatmapObjectExecutionRating*> beatmapObjectExecutionRatings,
          ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, int32_t multipliedScore, int32_t modifiedScore, int32_t maxCombo,
          ::ArrayW<float_t> saberActivityValues, float_t leftSaberMovementDistance, float_t rightSaberMovementDistance, ::ArrayW<float_t> handActivityValues, float_t leftHandMovementDistance,
-         float_t rightHandMovementDistance, ::GlobalNamespace::LevelCompletionResults_LevelEndStateType levelEndStateType, ::GlobalNamespace::LevelCompletionResults_LevelEndAction levelEndAction,
-         float_t energy, float_t songTime, bool invalidated);
+         float_t rightHandMovementDistance, ::GlobalNamespace::LevelCompletionResultsBase_LevelEndStateType levelEndStateType,
+         ::GlobalNamespace::LevelCompletionResultsBase_LevelEndAction levelEndAction, float_t energy, float_t startSongTime, float_t songTime, bool invalidated);
 
-  /// @brief Method ProcessScore, addr 0x3997c8c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method ProcessScore, addr 0x39bc234, size 0x144, virtual false, abstract: false, final false
   static inline void ProcessScore(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, ::GlobalNamespace::PlayerData* playerData,
                                   ::GlobalNamespace::PlayerLevelStatsData* playerLevelStats, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults,
                                   ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData, ::GlobalNamespace::PlatformLeaderboardsModel* platformLeaderboardsModel);
@@ -83,7 +83,7 @@ public:
   LevelCompletionResultsHelper(LevelCompletionResultsHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15113 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14330 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

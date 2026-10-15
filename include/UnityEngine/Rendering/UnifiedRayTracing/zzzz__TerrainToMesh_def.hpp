@@ -36,22 +36,22 @@ namespace UnityEngine::Rendering::UnifiedRayTracing {
 class CORDL_TYPE TerrainToMesh : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x6e073c8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x6e44064, size 0xc4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Mesh> Convert(int32_t heightmapWidth, int32_t heightmapHeight, ::ArrayW<int16_t> heightmapData, ::UnityEngine::Vector3 heightmapScale, int32_t holeWidth,
                                                       int32_t holeHeight, ::ArrayW<uint8_t> holedata);
 
-  /// @brief Method Convert, addr 0x6e00d78, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x6e3da14, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Mesh> Convert(::UnityEngine::Terrain* terrain);
 
-  /// @brief Method ConvertAsync, addr 0x6e06f4c, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method ConvertAsync, addr 0x6e43be8, size 0x2c8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::UnifiedRayTracing::AsyncTerrainToMeshRequest ConvertAsync(int32_t heightmapWidth, int32_t heightmapHeight, ::ArrayW<int16_t> heightmapData,
                                                                                                     ::UnityEngine::Vector3 heightmapScale, int32_t holeWidth, int32_t holeHeight,
                                                                                                     ::ArrayW<uint8_t> holedata);
 
-  /// @brief Method ConvertAsync, addr 0x6e06e38, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method ConvertAsync, addr 0x6e43ad4, size 0x114, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::UnifiedRayTracing::AsyncTerrainToMeshRequest ConvertAsync(::UnityEngine::Terrain* terrain);
 
-  /// @brief Method MakeAsyncTerrainToMeshRequest, addr 0x6e06a80, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method MakeAsyncTerrainToMeshRequest, addr 0x6e4371c, size 0x388, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::UnifiedRayTracing::AsyncTerrainToMeshRequest MakeAsyncTerrainToMeshRequest(int32_t width, int32_t height, ::UnityEngine::Vector3 heightmapScale,
                                                                                                                      ::System::Object* heightmap, ::System::Object* holes);
 
@@ -70,7 +70,7 @@ public:
   TerrainToMesh(TerrainToMesh const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20471 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20518 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

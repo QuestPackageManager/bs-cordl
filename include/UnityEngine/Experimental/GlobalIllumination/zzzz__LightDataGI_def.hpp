@@ -51,31 +51,31 @@ namespace UnityEngine::Experimental::GlobalIllumination {
 struct CORDL_TYPE LightDataGI {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x6f8ce98, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6fc9d74, size 0x78, virtual false, abstract: false, final false
   inline void Init(::by_ref<::UnityEngine::Experimental::GlobalIllumination::DirectionalLight> light);
 
-  /// @brief Method Init, addr 0x6f8cc34, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6fc9b10, size 0x74, virtual false, abstract: false, final false
   inline void Init(::by_ref<::UnityEngine::Experimental::GlobalIllumination::DirectionalLight> light, ::by_ref<::UnityEngine::Experimental::GlobalIllumination::Cookie> cookie);
 
-  /// @brief Method Init, addr 0x6f8ce1c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6fc9cf8, size 0x7c, virtual false, abstract: false, final false
   inline void Init(::by_ref<::UnityEngine::Experimental::GlobalIllumination::DiscLight> light, ::by_ref<::UnityEngine::Experimental::GlobalIllumination::Cookie> cookie);
 
-  /// @brief Method Init, addr 0x6f8cf10, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6fc9dec, size 0x74, virtual false, abstract: false, final false
   inline void Init(::by_ref<::UnityEngine::Experimental::GlobalIllumination::PointLight> light);
 
-  /// @brief Method Init, addr 0x6f8cca8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6fc9b84, size 0x7c, virtual false, abstract: false, final false
   inline void Init(::by_ref<::UnityEngine::Experimental::GlobalIllumination::PointLight> light, ::by_ref<::UnityEngine::Experimental::GlobalIllumination::Cookie> cookie);
 
-  /// @brief Method Init, addr 0x6f8cda4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6fc9c80, size 0x78, virtual false, abstract: false, final false
   inline void Init(::by_ref<::UnityEngine::Experimental::GlobalIllumination::RectangleLight> light, ::by_ref<::UnityEngine::Experimental::GlobalIllumination::Cookie> cookie);
 
-  /// @brief Method Init, addr 0x6f8cf84, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6fc9e60, size 0x28, virtual false, abstract: false, final false
   inline void Init(::by_ref<::UnityEngine::Experimental::GlobalIllumination::SpotLight> light);
 
-  /// @brief Method Init, addr 0x6f8cd24, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6fc9c00, size 0x80, virtual false, abstract: false, final false
   inline void Init(::by_ref<::UnityEngine::Experimental::GlobalIllumination::SpotLight> light, ::by_ref<::UnityEngine::Experimental::GlobalIllumination::Cookie> cookie);
 
-  /// @brief Method InitNoBake, addr 0x6f8cfac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method InitNoBake, addr 0x6fc9e88, size 0x10, virtual false, abstract: false, final false
   inline void InitNoBake(::UnityEngine::EntityId lightEntityId);
 
   // Ctor Parameters []
@@ -98,7 +98,7 @@ public:
                         ::UnityEngine::Experimental::GlobalIllumination::LightMode mode, uint8_t shadow, ::UnityEngine::Experimental::GlobalIllumination::FalloffType falloff) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10518 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10525 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };

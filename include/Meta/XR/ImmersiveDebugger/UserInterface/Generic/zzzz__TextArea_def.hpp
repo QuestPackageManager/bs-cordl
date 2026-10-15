@@ -33,33 +33,33 @@ public:
 
   __declspec(property(get = get_TextAreaHeight)) float_t TextAreaHeight;
 
-  /// @brief Method CalculateHeight, addr 0x5e761f4, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method CalculateHeight, addr 0x5eb297c, size 0x22c, virtual false, abstract: false, final false
   inline float_t CalculateHeight(float_t textWidth);
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextArea* New_ctor();
 
-  /// @brief Method OnTransparencyChanged, addr 0x5e76178, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method OnTransparencyChanged, addr 0x5eb2900, size 0x64, virtual true, abstract: false, final false
   inline void OnTransparencyChanged();
 
-  /// @brief Method Setup, addr 0x5e75f84, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Setup, addr 0x5eb270c, size 0xbc, virtual true, abstract: false, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
-  /// @brief Method UpdateLayoutSize, addr 0x5e76108, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method UpdateLayoutSize, addr 0x5eb2890, size 0x70, virtual false, abstract: false, final false
   inline void UpdateLayoutSize();
 
-  /// @brief Method .ctor, addr 0x5e76420, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5eb2ba8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Content, addr 0x5e76040, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_Content, addr 0x5eb27c8, size 0x2c, virtual true, abstract: false, final false
   inline ::StringW get_Content();
 
-  /// @brief Method get_Text, addr 0x5e75f6c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Text, addr 0x5eb26f4, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Text> get_Text();
 
-  /// @brief Method get_TextAreaHeight, addr 0x5e761dc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_TextAreaHeight, addr 0x5eb2964, size 0x18, virtual false, abstract: false, final false
   inline float_t get_TextAreaHeight();
 
-  /// @brief Method set_Content, addr 0x5e7606c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method set_Content, addr 0x5eb27f4, size 0x9c, virtual true, abstract: false, final false
   inline void set_Content(::StringW value);
 
 protected:
@@ -77,7 +77,7 @@ public:
   TextArea(TextArea const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18942 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18975 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

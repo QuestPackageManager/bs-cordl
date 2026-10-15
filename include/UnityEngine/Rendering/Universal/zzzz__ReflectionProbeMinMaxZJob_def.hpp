@@ -32,7 +32,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobFor"
   constexpr operator ::Unity::Jobs::IJobFor*();
 
-  /// @brief Method Execute, addr 0x6cf9254, size 0x284, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6d35ed0, size 0x284, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobFor"
@@ -51,7 +51,7 @@ public:
                                       ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float2> minMaxZs) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13219 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13226 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa8 };

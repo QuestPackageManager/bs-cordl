@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t)>(&::UnityEngine::LowLevelPhysics2D::PhysicsMath::Atan2)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6fd88ac;
+  constexpr static std::size_t addrs = 0x70157a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3, ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsMath::Swizzle)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6fd88ec;
+  constexpr static std::size_t addrs = 0x70157e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector2, ::UnityEngine::Vector3, ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsMath::ToPosition3D)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6fd8978;
+  constexpr static std::size_t addrs = 0x701586c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Quaternion, ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsMath::ToRotation2D)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6fd8a0c;
+  constexpr static std::size_t addrs = 0x7015900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(float_t, float_t, ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsMath::AngularVelocityToQuaternion)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x6fd8b30;
+  constexpr static std::size_t addrs = 0x7015a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(float_t, ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsMath::ToRotationFast3D)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6fd8cf8;
+  constexpr static std::size_t addrs = 0x7015bec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(float_t, ::UnityEngine::Quaternion, ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsMath::ToRotationSlow3D)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x6fd8e3c;
+  constexpr static std::size_t addrs = 0x7015d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -33,31 +33,31 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf>*();
 
-  /// @brief Method AsQuaternion, addr 0x6e3dfe8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method AsQuaternion, addr 0x6e7ac84, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion AsQuaternion();
 
-  /// @brief Method Equals, addr 0x6e3dffc, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6e7ac98, size 0x84, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6e3dcd0, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6e7a96c, size 0xf4, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf other);
 
-  /// @brief Method FromSessionSpaceCoordinates, addr 0x6e3dc28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FromSessionSpaceCoordinates, addr 0x6e7a8c4, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf FromSessionSpaceCoordinates(::UnityEngine::Quaternion quaternion);
 
-  /// @brief Method FromSessionSpaceCoordinates, addr 0x6e3dfe4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FromSessionSpaceCoordinates, addr 0x6e7ac80, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf FromSessionSpaceCoordinates(float_t x, float_t y, float_t z, float_t w);
 
-  /// @brief Method GetHashCode, addr 0x6e3e080, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6e7ad1c, size 0x98, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToSessionSpaceQuaternion, addr 0x6e3dc7c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ToSessionSpaceQuaternion, addr 0x6e7a918, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion ToSessionSpaceQuaternion();
 
-  /// @brief Method .ctor, addr 0x6e3dbd4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7a870, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Quaternion quaternion);
 
-  /// @brief Method .ctor, addr 0x6e3dfd0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7ac6c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t x, float_t y, float_t z, float_t w);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf>"
@@ -72,7 +72,7 @@ public:
   constexpr XrQuaternionf(float_t X, float_t Y, float_t Z, float_t W) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17513 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17546 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

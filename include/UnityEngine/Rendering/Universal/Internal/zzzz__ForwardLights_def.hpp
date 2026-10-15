@@ -223,7 +223,7 @@ public:
   ForwardLights_LightConstantBuffer(ForwardLights_LightConstantBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13323 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13330 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -238,7 +238,7 @@ namespace UnityEngine::Rendering::Universal::Internal {
 struct CORDL_TYPE ForwardLights_InitParams {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x6d275ac, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6d64228, size 0x108, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::Internal::ForwardLights_InitParams Create();
 
   // Ctor Parameters []
@@ -250,7 +250,7 @@ public:
   constexpr ForwardLights_InitParams(::UnityEngine::Rendering::Universal::LightCookieManager* lightCookieManager, bool forwardPlus) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13324 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13331 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -316,7 +316,7 @@ public:
 
   constexpr void __cordl_internal_set_renderingData(::UnityEngine::Rendering::Universal::UniversalRenderingData* value);
 
-  /// @brief Method .ctor, addr 0x6d2ae8c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d67b08, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -334,7 +334,7 @@ public:
   ForwardLights_SetupLightPassData(ForwardLights_SetupLightPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13325 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13332 };
 
   /// @brief Field renderingData, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::UniversalRenderingData* ___renderingData;
@@ -380,11 +380,11 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::Internal::ForwardLights___c* New_ctor();
 
-  /// @brief Method <SetupRenderGraphLights>b__45_0, addr 0x6d2aee8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <SetupRenderGraphLights>b__45_0, addr 0x6d67b64, size 0x30, virtual false, abstract: false, final false
   inline void _SetupRenderGraphLights_b__45_0(::UnityEngine::Rendering::Universal::Internal::ForwardLights_SetupLightPassData* data,
                                               ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* rgContext);
 
-  /// @brief Method .ctor, addr 0x6d2aee4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d67b60, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::Internal::ForwardLights___c* getStaticF___9();
@@ -413,7 +413,7 @@ public:
   ForwardLights___c(ForwardLights___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13326 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13333 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -536,20 +536,20 @@ public:
   /// @brief Field s_SetupForwardLights, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_SetupForwardLights, put = setStaticF_s_SetupForwardLights)) ::UnityEngine::Rendering::ProfilingSampler* s_SetupForwardLights;
 
-  /// @brief Method AlignByteCount, addr 0x6d27cb0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method AlignByteCount, addr 0x6d6492c, size 0x14, virtual false, abstract: false, final false
   static inline int32_t AlignByteCount(int32_t count, int32_t align);
 
-  /// @brief Method Cleanup, addr 0x6d2a104, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x6d66d80, size 0xe4, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method CreateForwardPlusBuffers, addr 0x6d27af4, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method CreateForwardPlusBuffers, addr 0x6d64770, size 0x1ac, virtual false, abstract: false, final false
   inline void CreateForwardPlusBuffers();
 
-  /// @brief Method GetViewParams, addr 0x6d27cc4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetViewParams, addr 0x6d64940, size 0x68, virtual false, abstract: false, final false
   static inline void GetViewParams(bool isOrthographic, ::Unity::Mathematics::float4x4 viewToClip, ::by_ref<float_t> viewPlaneBot, ::by_ref<float_t> viewPlaneTop,
                                    ::by_ref<::Unity::Mathematics::float4> viewToViewportScaleBias);
 
-  /// @brief Method InitializeLightConstants, addr 0x6d2a1e8, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method InitializeLightConstants, addr 0x6d66e64, size 0x22c, virtual false, abstract: false, final false
   inline void InitializeLightConstants(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight> lights, int32_t lightIndex, bool supportsLightLayers,
                                        ::by_ref<::UnityEngine::Vector4> lightPos, ::by_ref<::UnityEngine::Vector4> lightColor, ::by_ref<::UnityEngine::Vector4> lightAttenuation,
                                        ::by_ref<::UnityEngine::Vector4> lightSpotDir, ::by_ref<::UnityEngine::Vector4> lightOcclusionProbeChannel, ::by_ref<uint32_t> lightLayerMask,
@@ -559,11 +559,11 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::Internal::ForwardLights* New_ctor(::UnityEngine::Rendering::Universal::Internal::ForwardLights_InitParams initParams);
 
-  /// @brief Method PreSetup, addr 0x6d28b7c, size 0x570, virtual false, abstract: false, final false
+  /// @brief Method PreSetup, addr 0x6d657f8, size 0x570, virtual false, abstract: false, final false
   inline void PreSetup(::UnityEngine::Rendering::Universal::UniversalRenderingData* renderingData, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                        ::UnityEngine::Rendering::Universal::UniversalLightData* lightData);
 
-  /// @brief Method ScheduleClusteringJobs, addr 0x6d27d2c, size 0xd2c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleClusteringJobs, addr 0x6d649a8, size 0xd2c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleClusteringJobs(bool hasMainLight, bool supportsAdditionalLights, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight> lights,
                                                                 ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleReflectionProbe> probes,
                                                                 ::Unity::Collections::NativeArray_1<uint32_t> zBins, ::Unity::Collections::NativeArray_1<uint32_t> tileMasks,
@@ -575,33 +575,33 @@ public:
                                                                 ::by_ref<int32_t> wordsPerTile);
 
   /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
-  /// @brief Method Setup, addr 0x6d27580, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6d641fc, size 0x4, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method SetupAdditionalLightConstants, addr 0x6d2a57c, size 0x580, virtual false, abstract: false, final false
+  /// @brief Method SetupAdditionalLightConstants, addr 0x6d671f8, size 0x580, virtual false, abstract: false, final false
   inline void SetupAdditionalLightConstants(::UnityEngine::Rendering::UnsafeCommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::CullingResults> cullResults,
                                             ::UnityEngine::Rendering::Universal::UniversalLightData* lightData);
 
-  /// @brief Method SetupLights, addr 0x6d29490, size 0xc2c, virtual false, abstract: false, final false
+  /// @brief Method SetupLights, addr 0x6d6610c, size 0xc2c, virtual false, abstract: false, final false
   inline void SetupLights(::UnityEngine::Rendering::UnsafeCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalRenderingData* renderingData,
                           ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::UnityEngine::Rendering::Universal::UniversalLightData* lightData);
 
-  /// @brief Method SetupMainLightConstants, addr 0x6d2a414, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method SetupMainLightConstants, addr 0x6d67090, size 0x168, virtual false, abstract: false, final false
   inline void SetupMainLightConstants(::UnityEngine::Rendering::UnsafeCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalLightData* lightData);
 
-  /// @brief Method SetupPerObjectLightIndices, addr 0x6d2aafc, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method SetupPerObjectLightIndices, addr 0x6d67778, size 0x20c, virtual false, abstract: false, final false
   inline int32_t SetupPerObjectLightIndices(::UnityEngine::Rendering::CullingResults cullResults, ::UnityEngine::Rendering::Universal::UniversalLightData* lightData);
 
-  /// @brief Method SetupRenderGraphLights, addr 0x6d290ec, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method SetupRenderGraphLights, addr 0x6d65d68, size 0x3a4, virtual false, abstract: false, final false
   inline void SetupRenderGraphLights(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalRenderingData* renderingData,
                                      ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::UnityEngine::Rendering::Universal::UniversalLightData* lightData);
 
-  /// @brief Method SetupShaderLightConstants, addr 0x6d2a0bc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetupShaderLightConstants, addr 0x6d66d38, size 0x48, virtual false, abstract: false, final false
   inline void SetupShaderLightConstants(::UnityEngine::Rendering::UnsafeCommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::CullingResults> cullResults,
                                         ::UnityEngine::Rendering::Universal::UniversalLightData* lightData);
 
   /// [CompilerGenerated]
-  /// @brief Method <ScheduleClusteringJobs>g__IsProbeGreater|41_0, addr 0x6d28a58, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method <ScheduleClusteringJobs>g__IsProbeGreater|41_0, addr 0x6d656d4, size 0x124, virtual false, abstract: false, final false
   static inline bool _ScheduleClusteringJobs_g__IsProbeGreater_41_0(::UnityEngine::Rendering::VisibleReflectionProbe probe, ::UnityEngine::Rendering::VisibleReflectionProbe otherProbe);
 
   constexpr int32_t const& __cordl_internal_get_m_ActualTileWidth() const;
@@ -760,10 +760,10 @@ public:
 
   constexpr void __cordl_internal_set_m_ZBinsBuffer(::UnityEngine::GraphicsBuffer* value);
 
-  /// @brief Method .ctor, addr 0x6d27584, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d64200, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6d276b4, size 0x440, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d64330, size 0x440, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::Internal::ForwardLights_InitParams initParams);
 
   static inline ::UnityEngine::Rendering::ProfilingSampler* getStaticF_m_ProfilingSampler();
@@ -776,7 +776,7 @@ public:
 
   static inline ::UnityEngine::Rendering::ProfilingSampler* getStaticF_s_SetupForwardLights();
 
-  /// @brief Method get_reflectionProbeManager, addr 0x6d27ca0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_reflectionProbeManager, addr 0x6d6491c, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::ReflectionProbeManager get_reflectionProbeManager();
 
   static inline void setStaticF_m_ProfilingSampler(::UnityEngine::Rendering::ProfilingSampler* value);
@@ -804,7 +804,7 @@ public:
   ForwardLights(ForwardLights const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13327 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13334 };
 
   /// @brief Field k_SetupLightConstants offset 0xffffffff size 0x8
   static constexpr ::ConstString k_SetupLightConstants{ u"Setup Light Constants" };

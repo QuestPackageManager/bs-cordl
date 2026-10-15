@@ -349,46 +349,46 @@ public:
   __declspec(property(get = get_tables)) ::ArrayW<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>*> tables;
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method AddRule, addr 0x71166b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AddRule, addr 0x71535e8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleRule* AddRule();
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method AddRule, addr 0x71167a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AddRule, addr 0x71536dc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleRule* AddRule(::StringW selector);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method AddRuleAtIndex, addr 0x71166c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddRuleAtIndex, addr 0x71535f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleRule* AddRuleAtIndex(int32_t index);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method AddRuleAtIndex, addr 0x71166c8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method AddRuleAtIndex, addr 0x71535fc, size 0xe0, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleRule* AddRuleAtIndex(int32_t index, ::StringW selector);
 
-  /// @brief Method AddValue, addr 0x7116a28, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method AddValue, addr 0x715395c, size 0x18, virtual false, abstract: false, final false
   inline int32_t AddValue(::UnityEngine::UIElements::StyleValueFunction function);
 
-  /// @brief Method AddValue, addr 0x7116a10, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method AddValue, addr 0x7153944, size 0x18, virtual false, abstract: false, final false
   inline int32_t AddValue(::UnityEngine::UIElements::StyleValueKeyword keyword);
 
-  /// @brief Method AddValue, addr 0x7116be8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method AddValue, addr 0x7153b1c, size 0x60, virtual false, abstract: false, final false
   inline int32_t AddValue(::StringW value);
 
-  /// @brief Method AddValue, addr 0x7116ca8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AddValue, addr 0x7153bdc, size 0x94, virtual false, abstract: false, final false
   inline int32_t AddValue(::System::Enum* value);
 
-  /// @brief Method AddValue, addr 0x7116b00, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method AddValue, addr 0x7153a34, size 0x80, virtual false, abstract: false, final false
   inline int32_t AddValue(::UnityEngine::Color value);
 
-  /// @brief Method AddValue, addr 0x7116c48, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method AddValue, addr 0x7153b7c, size 0x60, virtual false, abstract: false, final false
   inline int32_t AddValue(::UnityEngine::Object* value);
 
-  /// @brief Method AddValue, addr 0x7116aa0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method AddValue, addr 0x71539d4, size 0x60, virtual false, abstract: false, final false
   inline int32_t AddValue(::UnityEngine::UIElements::StyleSheets::Dimension value);
 
-  /// @brief Method AddValue, addr 0x7116b80, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AddValue, addr 0x7153ab4, size 0x68, virtual false, abstract: false, final false
   inline int32_t AddValue(::UnityEngine::UIElements::StyleSheets::ScalableImage value);
 
-  /// @brief Method AddValue, addr 0x7116a40, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method AddValue, addr 0x7153974, size 0x60, virtual false, abstract: false, final false
   inline int32_t AddValue(float_t value);
 
   /// @brief Method AddValueToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -397,40 +397,40 @@ public:
   /// @brief Method CheckAccess, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T CheckAccess(::ArrayW<T> list, ::UnityEngine::UIElements::StyleValueType type, ::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method FlattenImportedStyleSheetsRecursive, addr 0x71164ec, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method FlattenImportedStyleSheetsRecursive, addr 0x7153420, size 0x7c, virtual false, abstract: false, final false
   inline void FlattenImportedStyleSheetsRecursive();
 
-  /// @brief Method FlattenImportedStyleSheetsRecursive, addr 0x7116568, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method FlattenImportedStyleSheetsRecursive, addr 0x715349c, size 0x14c, virtual false, abstract: false, final false
   inline void FlattenImportedStyleSheetsRecursive(::UnityEngine::UIElements::StyleSheet* sheet);
 
   /// @brief Method InsertValueInArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline int32_t InsertValueInArray(::by_ref<::ArrayW<T>> array, int32_t index, T value);
 
-  /// @brief Method MarkAsChanged, addr 0x7116958, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method MarkAsChanged, addr 0x715388c, size 0xa8, virtual false, abstract: false, final false
   inline void MarkAsChanged();
 
   static inline ::UnityEngine::UIElements::StyleSheet* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x7116068, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x7152f9c, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ReadAngle, addr 0x7117990, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ReadAngle, addr 0x71548c4, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Angle ReadAngle(::UnityEngine::UIElements::StyleValueHandle handle);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method ReadAssetReference, addr 0x711734c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ReadAssetReference, addr 0x7154280, size 0x64, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> ReadAssetReference(::UnityEngine::UIElements::StyleValueHandle handle);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method ReadColor, addr 0x7116fb0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ReadColor, addr 0x7153ee4, size 0xe4, virtual false, abstract: false, final false
   inline ::UnityEngine::Color ReadColor(::UnityEngine::UIElements::StyleValueHandle handle);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method ReadDimension, addr 0x7116e0c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ReadDimension, addr 0x7153d40, size 0xb4, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::Dimension ReadDimension(::UnityEngine::UIElements::StyleValueHandle handle);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method ReadEnum, addr 0x7117094, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ReadEnum, addr 0x7153fc8, size 0x64, virtual false, abstract: false, final false
   inline ::StringW ReadEnum(::UnityEngine::UIElements::StyleValueHandle handle);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
@@ -440,91 +440,91 @@ public:
   inline TEnum ReadEnum(::UnityEngine::UIElements::StyleValueHandle handle);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method ReadFloat, addr 0x7116d58, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ReadFloat, addr 0x7153c8c, size 0xb4, virtual false, abstract: false, final false
   inline float_t ReadFloat(::UnityEngine::UIElements::StyleValueHandle handle);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method ReadFunction, addr 0x71174a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReadFunction, addr 0x71543dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleValueFunction ReadFunction(::UnityEngine::UIElements::StyleValueHandle handle);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method ReadFunctionName, addr 0x71174c4, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method ReadFunctionName, addr 0x71543f8, size 0x1b8, virtual false, abstract: false, final false
   inline ::StringW ReadFunctionName(::UnityEngine::UIElements::StyleValueHandle handle);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method ReadKeyword, addr 0x7116d3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReadKeyword, addr 0x7153c70, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleValueKeyword ReadKeyword(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadLength, addr 0x7117870, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ReadLength, addr 0x71547a4, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Length ReadLength(::UnityEngine::UIElements::StyleValueHandle handle);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method ReadMissingAssetReferenceUrl, addr 0x71173b0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ReadMissingAssetReferenceUrl, addr 0x71542e4, size 0x64, virtual false, abstract: false, final false
   inline ::StringW ReadMissingAssetReferenceUrl(::UnityEngine::UIElements::StyleValueHandle handle);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method ReadResourcePath, addr 0x71172e8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ReadResourcePath, addr 0x715421c, size 0x64, virtual false, abstract: false, final false
   inline ::StringW ReadResourcePath(::UnityEngine::UIElements::StyleValueHandle handle);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method ReadScalableImage, addr 0x711767c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ReadScalableImage, addr 0x71545b0, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::ScalableImage ReadScalableImage(::UnityEngine::UIElements::StyleValueHandle handle);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method ReadString, addr 0x71170f8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ReadString, addr 0x715402c, size 0x64, virtual false, abstract: false, final false
   inline ::StringW ReadString(::UnityEngine::UIElements::StyleValueHandle handle);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method ReadStylePropertyName, addr 0x711774c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ReadStylePropertyName, addr 0x7154680, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StylePropertyName ReadStylePropertyName(::UnityEngine::UIElements::StyleValueHandle handle);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method ReadTimeValue, addr 0x7117b10, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ReadTimeValue, addr 0x7154a44, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TimeValue ReadTimeValue(::UnityEngine::UIElements::StyleValueHandle handle);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method ReadVariable, addr 0x71171f0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ReadVariable, addr 0x7154124, size 0x64, virtual false, abstract: false, final false
   inline ::StringW ReadVariable(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method RebuildIfNecessary, addr 0x7116a00, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method RebuildIfNecessary, addr 0x7153934, size 0x10, virtual false, abstract: false, final false
   inline void RebuildIfNecessary();
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method RemoveRule, addr 0x71167b4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method RemoveRule, addr 0x71536e8, size 0xbc, virtual false, abstract: false, final false
   inline bool RemoveRule(::UnityEngine::UIElements::StyleRule* rule);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method RemoveRule, addr 0x7116870, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method RemoveRule, addr 0x71537a4, size 0xe0, virtual false, abstract: false, final false
   inline void RemoveRule(int32_t ruleIndex);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method RequestRebuild, addr 0x71157e4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RequestRebuild, addr 0x7152718, size 0x44, virtual false, abstract: false, final false
   inline void RequestRebuild(::UnityEngine::UIElements::StyleSheet_RebuildOptions options);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method SetRules, addr 0x7116950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetRules, addr 0x7153884, size 0x8, virtual false, abstract: false, final false
   inline void SetRules(::ArrayW<::UnityEngine::UIElements::StyleRule*> newRules);
 
-  /// @brief Method SetupReferences, addr 0x711606c, size 0x480, virtual false, abstract: false, final false
+  /// @brief Method SetupReferences, addr 0x7152fa0, size 0x480, virtual false, abstract: false, final false
   inline void SetupReferences();
 
   /// @brief Method TryCheckAccess, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline bool TryCheckAccess(::ArrayW<T> list, ::UnityEngine::UIElements::StyleValueType type, ::UnityEngine::UIElements::StyleValueHandle handle, ::by_ref<T> value);
 
-  /// @brief Method TryReadAngle, addr 0x7117a3c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method TryReadAngle, addr 0x7154970, size 0xd4, virtual false, abstract: false, final false
   inline bool TryReadAngle(::UnityEngine::UIElements::StyleValueHandle handle, ::by_ref<::UnityEngine::UIElements::Angle> value);
 
-  /// @brief Method TryReadAssetReference, addr 0x7115144, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method TryReadAssetReference, addr 0x7152078, size 0x94, virtual false, abstract: false, final false
   inline bool TryReadAssetReference(::UnityEngine::UIElements::StyleValueHandle handle, ::by_ref<::UnityEngine::Object*> value);
 
-  /// @brief Method TryReadColor, addr 0x71153d0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method TryReadColor, addr 0x7152304, size 0x120, virtual false, abstract: false, final false
   inline bool TryReadColor(::UnityEngine::UIElements::StyleValueHandle handle, ::by_ref<::UnityEngine::Color> value);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method TryReadDimension, addr 0x7116ec0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method TryReadDimension, addr 0x7153df4, size 0xf0, virtual false, abstract: false, final false
   inline bool TryReadDimension(::UnityEngine::UIElements::StyleValueHandle handle, ::by_ref<::UnityEngine::UIElements::StyleSheets::Dimension> value);
 
-  /// @brief Method TryReadEnum, addr 0x711715c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method TryReadEnum, addr 0x7154090, size 0x94, virtual false, abstract: false, final false
   inline bool TryReadEnum(::UnityEngine::UIElements::StyleValueHandle handle, ::by_ref<::StringW> value);
 
   /// @brief Method TryReadEnum, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -532,59 +532,59 @@ public:
     requires(::cordl_internals::value_type_constraint<TEnum> && ::cordl_internals::default_constructor_constraint<TEnum>)
   inline bool TryReadEnum(::UnityEngine::UIElements::StyleValueHandle handle, ::by_ref<TEnum> value);
 
-  /// @brief Method TryReadFloat, addr 0x711526c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method TryReadFloat, addr 0x71521a0, size 0xd0, virtual false, abstract: false, final false
   inline bool TryReadFloat(::UnityEngine::UIElements::StyleValueHandle handle, ::by_ref<float_t> value);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method TryReadFunction, addr 0x71174b0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method TryReadFunction, addr 0x71543e4, size 0x14, virtual false, abstract: false, final false
   inline bool TryReadFunction(::UnityEngine::UIElements::StyleValueHandle handle, ::by_ref<::UnityEngine::UIElements::StyleValueFunction> value);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method TryReadKeyword, addr 0x7116d44, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method TryReadKeyword, addr 0x7153c78, size 0x14, virtual false, abstract: false, final false
   inline bool TryReadKeyword(::UnityEngine::UIElements::StyleValueHandle handle, ::by_ref<::UnityEngine::UIElements::StyleValueKeyword> value);
 
-  /// @brief Method TryReadLength, addr 0x71178ec, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method TryReadLength, addr 0x7154820, size 0xa4, virtual false, abstract: false, final false
   inline bool TryReadLength(::UnityEngine::UIElements::StyleValueHandle handle, ::by_ref<::UnityEngine::UIElements::Length> value);
 
-  /// @brief Method TryReadMissingAssetReferenceUrl, addr 0x7117414, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method TryReadMissingAssetReferenceUrl, addr 0x7154348, size 0x94, virtual false, abstract: false, final false
   inline bool TryReadMissingAssetReferenceUrl(::UnityEngine::UIElements::StyleValueHandle handle, ::by_ref<::StringW> value);
 
-  /// @brief Method TryReadResourcePath, addr 0x71151d8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method TryReadResourcePath, addr 0x715210c, size 0x94, virtual false, abstract: false, final false
   inline bool TryReadResourcePath(::UnityEngine::UIElements::StyleValueHandle handle, ::by_ref<::StringW> value);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method TryReadScalableImage, addr 0x71176e0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method TryReadScalableImage, addr 0x7154614, size 0x6c, virtual false, abstract: false, final false
   inline bool TryReadScalableImage(::UnityEngine::UIElements::StyleValueHandle handle, ::by_ref<::UnityEngine::UIElements::StyleSheets::ScalableImage> value);
 
-  /// @brief Method TryReadString, addr 0x711533c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method TryReadString, addr 0x7152270, size 0x94, virtual false, abstract: false, final false
   inline bool TryReadString(::UnityEngine::UIElements::StyleValueHandle handle, ::by_ref<::StringW> value);
 
-  /// @brief Method TryReadStylePropertyName, addr 0x71177c8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method TryReadStylePropertyName, addr 0x71546fc, size 0xa8, virtual false, abstract: false, final false
   inline bool TryReadStylePropertyName(::UnityEngine::UIElements::StyleValueHandle handle, ::by_ref<::UnityEngine::UIElements::StylePropertyName> value);
 
-  /// @brief Method TryReadTimeValue, addr 0x7117b38, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method TryReadTimeValue, addr 0x7154a6c, size 0x5c, virtual false, abstract: false, final false
   inline bool TryReadTimeValue(::UnityEngine::UIElements::StyleValueHandle handle, ::by_ref<::UnityEngine::UIElements::TimeValue> value);
 
-  /// @brief Method TryReadVariable, addr 0x7117254, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method TryReadVariable, addr 0x7154188, size 0x94, virtual false, abstract: false, final false
   inline bool TryReadVariable(::UnityEngine::UIElements::StyleValueHandle handle, ::by_ref<::StringW> value);
 
-  /// @brief Method WriteAngle, addr 0x71181a4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method WriteAngle, addr 0x71550d8, size 0xd0, virtual false, abstract: false, final false
   inline void WriteAngle(::by_ref<::UnityEngine::UIElements::StyleValueHandle> handle, ::UnityEngine::UIElements::Angle value);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method WriteAssetReference, addr 0x7117e90, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method WriteAssetReference, addr 0x7154dc4, size 0x9c, virtual false, abstract: false, final false
   inline void WriteAssetReference(::by_ref<::UnityEngine::UIElements::StyleValueHandle> handle, ::UnityEngine::Object* value);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method WriteColor, addr 0x7117c74, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method WriteColor, addr 0x7154ba8, size 0x6c, virtual false, abstract: false, final false
   inline void WriteColor(::by_ref<::UnityEngine::UIElements::StyleValueHandle> handle, ::UnityEngine::Color color);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method WriteCommaSeparator, addr 0x71180cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method WriteCommaSeparator, addr 0x7155000, size 0x10, virtual false, abstract: false, final false
   inline void WriteCommaSeparator(::by_ref<::UnityEngine::UIElements::StyleValueHandle> handle);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method WriteDimension, addr 0x7117c08, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method WriteDimension, addr 0x7154b3c, size 0x6c, virtual false, abstract: false, final false
   inline void WriteDimension(::by_ref<::UnityEngine::UIElements::StyleValueHandle> handle, ::UnityEngine::UIElements::StyleSheets::Dimension dimension);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
@@ -592,49 +592,49 @@ public:
   template <typename TEnum> inline void WriteEnum(::by_ref<::UnityEngine::UIElements::StyleValueHandle> handle, TEnum value);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method WriteEnumAsString, addr 0x7117d4c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method WriteEnumAsString, addr 0x7154c80, size 0x6c, virtual false, abstract: false, final false
   inline void WriteEnumAsString(::by_ref<::UnityEngine::UIElements::StyleValueHandle> handle, ::StringW valueStr);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method WriteFloat, addr 0x7117ba0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method WriteFloat, addr 0x7154ad4, size 0x68, virtual false, abstract: false, final false
   inline void WriteFloat(::by_ref<::UnityEngine::UIElements::StyleValueHandle> handle, float_t value);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method WriteFunction, addr 0x7117f98, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method WriteFunction, addr 0x7154ecc, size 0xc, virtual false, abstract: false, final false
   inline void WriteFunction(::by_ref<::UnityEngine::UIElements::StyleValueHandle> handle, ::UnityEngine::UIElements::StyleValueFunction function);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method WriteKeyword, addr 0x7117b94, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method WriteKeyword, addr 0x7154ac8, size 0xc, virtual false, abstract: false, final false
   inline void WriteKeyword(::by_ref<::UnityEngine::UIElements::StyleValueHandle> handle, ::UnityEngine::UIElements::StyleValueKeyword value);
 
-  /// @brief Method WriteLength, addr 0x71180dc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method WriteLength, addr 0x7155010, size 0xc8, virtual false, abstract: false, final false
   inline void WriteLength(::by_ref<::UnityEngine::UIElements::StyleValueHandle> handle, ::UnityEngine::UIElements::Length value);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method WriteMissingAssetReferenceUrl, addr 0x7117f2c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method WriteMissingAssetReferenceUrl, addr 0x7154e60, size 0x6c, virtual false, abstract: false, final false
   inline void WriteMissingAssetReferenceUrl(::by_ref<::UnityEngine::UIElements::StyleValueHandle> handle, ::StringW assetReference);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method WriteResourcePath, addr 0x7117e24, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method WriteResourcePath, addr 0x7154d58, size 0x6c, virtual false, abstract: false, final false
   inline void WriteResourcePath(::by_ref<::UnityEngine::UIElements::StyleValueHandle> handle, ::StringW resourcePath);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method WriteScalableImage, addr 0x7117fa4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method WriteScalableImage, addr 0x7154ed8, size 0x70, virtual false, abstract: false, final false
   inline void WriteScalableImage(::by_ref<::UnityEngine::UIElements::StyleValueHandle> handle, ::UnityEngine::UIElements::StyleSheets::ScalableImage scalableImage);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method WriteString, addr 0x7117ce0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method WriteString, addr 0x7154c14, size 0x6c, virtual false, abstract: false, final false
   inline void WriteString(::by_ref<::UnityEngine::UIElements::StyleValueHandle> handle, ::StringW value);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method WriteStylePropertyName, addr 0x7118014, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method WriteStylePropertyName, addr 0x7154f48, size 0xb8, virtual false, abstract: false, final false
   inline void WriteStylePropertyName(::by_ref<::UnityEngine::UIElements::StyleValueHandle> handle, ::UnityEngine::UIElements::StylePropertyName propertyName);
 
-  /// @brief Method WriteTimeValue, addr 0x7118274, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method WriteTimeValue, addr 0x71551a8, size 0x7c, virtual false, abstract: false, final false
   inline void WriteTimeValue(::by_ref<::UnityEngine::UIElements::StyleValueHandle> handle, ::UnityEngine::UIElements::TimeValue value);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method WriteVariable, addr 0x7117db8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method WriteVariable, addr 0x7154cec, size 0x6c, virtual false, abstract: false, final false
   inline void WriteVariable(::by_ref<::UnityEngine::UIElements::StyleValueHandle> handle, ::StringW variableName);
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::Object>> const& __cordl_internal_get_assets() const;
@@ -745,42 +745,42 @@ public:
 
   constexpr void __cordl_internal_set_strings(::ArrayW<::StringW> value);
 
-  /// @brief Method .ctor, addr 0x71182f0, size 0x424, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7155224, size 0x424, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_contentHash, addr 0x7115c54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contentHash, addr 0x7152b88, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_contentHash();
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method get_flattenedRecursiveImports, addr 0x7115c4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_flattenedRecursiveImports, addr 0x7152b80, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* get_flattenedRecursiveImports();
 
-  /// @brief Method get_importedWithErrors, addr 0x7115c24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_importedWithErrors, addr 0x7152b58, size 0x8, virtual false, abstract: false, final false
   inline bool get_importedWithErrors();
 
-  /// @brief Method get_importedWithWarnings, addr 0x7115c34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_importedWithWarnings, addr 0x7152b68, size 0x8, virtual false, abstract: false, final false
   inline bool get_importedWithWarnings();
 
-  /// @brief Method get_isDefaultStyleSheet, addr 0x7115f48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isDefaultStyleSheet, addr 0x7152e7c, size 0x8, virtual false, abstract: false, final false
   inline bool get_isDefaultStyleSheet();
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method get_rules, addr 0x7115c44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rules, addr 0x7152b78, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleRule*> get_rules();
 
-  /// @brief Method get_tables, addr 0x7115c64, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method get_tables, addr 0x7152b98, size 0x2e4, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>*> get_tables();
 
-  /// @brief Method set_contentHash, addr 0x7115c5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_contentHash, addr 0x7152b90, size 0x8, virtual false, abstract: false, final false
   inline void set_contentHash(int32_t value);
 
-  /// @brief Method set_importedWithErrors, addr 0x7115c2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_importedWithErrors, addr 0x7152b60, size 0x8, virtual false, abstract: false, final false
   inline void set_importedWithErrors(bool value);
 
-  /// @brief Method set_importedWithWarnings, addr 0x7115c3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_importedWithWarnings, addr 0x7152b70, size 0x8, virtual false, abstract: false, final false
   inline void set_importedWithWarnings(bool value);
 
-  /// @brief Method set_isDefaultStyleSheet, addr 0x7115f50, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method set_isDefaultStyleSheet, addr 0x7152e84, size 0x118, virtual false, abstract: false, final false
   inline void set_isDefaultStyleSheet(bool value);
 
 protected:

@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cmath>
@@ -31,7 +30,7 @@ class FloatingTransformEffect;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::FloatingTransformEffect*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::FloatingTransformEffect*, "", "FloatingTransformEffect");
-// Dependencies UnityEngine.MonoBehaviour, UnityEngine.Quaternion, UnityEngine.Vector2, UnityEngine.Vector3
+// Dependencies UnityEngine.MonoBehaviour, UnityEngine.Vector2, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: FloatingTransformEffect
@@ -83,9 +82,6 @@ public:
   /// @brief Field _rotationTransform, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__rotationTransform, put = __cordl_internal_set__rotationTransform)) ::UnityW<::UnityEngine::Transform> _rotationTransform;
 
-  /// @brief Field _targetRotation, offset 0xc0, size 0x10
-  __declspec(property(get = __cordl_internal_get__targetRotation, put = __cordl_internal_set__targetRotation)) ::UnityEngine::Quaternion _targetRotation;
-
   /// @brief Field _timeHelper, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__timeHelper, put = __cordl_internal_set__timeHelper)) ::UnityW<::GlobalNamespace::TimeHelper> _timeHelper;
 
@@ -113,18 +109,18 @@ public:
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
-  /// @brief Method GetPoint, addr 0x5da1a54, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetPoint, addr 0x5dded20, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPoint(float_t time);
 
   static inline ::GlobalNamespace::FloatingTransformEffect* New_ctor();
 
-  /// @brief Method Refresh, addr 0x5da1798, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x5ddea64, size 0x168, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method Start, addr 0x5da1760, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5ddea2c, size 0x38, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Tick, addr 0x5da1900, size 0x154, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x5ddebcc, size 0x154, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr float_t const& __cordl_internal_get__amplitudeX() const;
@@ -186,10 +182,6 @@ public:
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__rotationTransform() const;
 
   constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__rotationTransform();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__targetRotation() const;
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__targetRotation();
 
   constexpr ::UnityW<::GlobalNamespace::TimeHelper> const& __cordl_internal_get__timeHelper() const;
 
@@ -253,8 +245,6 @@ public:
 
   constexpr void __cordl_internal_set__rotationTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr void __cordl_internal_set__targetRotation(::UnityEngine::Quaternion value);
-
   constexpr void __cordl_internal_set__timeHelper(::UnityW<::GlobalNamespace::TimeHelper> value);
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
@@ -271,7 +261,7 @@ public:
 
   constexpr void __cordl_internal_set__zFrequency(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x5da1ae0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ddedac, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Zenject::ITickable"
@@ -292,7 +282,7 @@ public:
   FloatingTransformEffect(FloatingTransformEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5903 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5904 };
 
   /// [Inject]
   /// @brief Field _random, offset: 0x20, size: 0x8, def value: None
@@ -380,9 +370,6 @@ public:
   /// @brief Field _frequencyZ, offset: 0xbc, size: 0x4, def value: None
   float_t ____frequencyZ;
 
-  /// @brief Field _targetRotation, offset: 0xc0, size: 0x10, def value: None
-  ::UnityEngine::Quaternion ____targetRotation;
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -432,8 +419,6 @@ static_assert(offsetof(::GlobalNamespace::FloatingTransformEffect, ____frequency
 
 static_assert(offsetof(::GlobalNamespace::FloatingTransformEffect, ____frequencyZ) == 0xbc, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FloatingTransformEffect, ____targetRotation) == 0xc0, "Offset mismatch!");
-
-static_assert(sizeof(::GlobalNamespace::FloatingTransformEffect) == 0xd0, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::FloatingTransformEffect) == 0xc0, "Size mismatch!");
 
 } // namespace GlobalNamespace

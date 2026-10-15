@@ -88,13 +88,13 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x6df60e8, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6e32d84, size 0x54, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetTrackAssetsFromRuntimeElements, addr 0x6df5ecc, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method GetTrackAssetsFromRuntimeElements, addr 0x6e32b68, size 0x21c, virtual false, abstract: false, final false
   inline void GetTrackAssetsFromRuntimeElements(::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Timeline::RuntimeElement*>* activeRuntimeElements);
 
-  /// @brief Method .ctor, addr 0x6df5970, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3260c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Timeline::AnimationTrack>>* cache,
                     ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Timeline::RuntimeElement*>* activeRuntimeElements);
 
@@ -110,7 +110,7 @@ public:
   constexpr TimelinePlayable_TrackCacheManager(::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Timeline::AnimationTrack>>* trackCache) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19364 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19397 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -195,54 +195,54 @@ public:
   /// @brief Field muteAudioScrubbing, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_muteAudioScrubbing, put = setStaticF_muteAudioScrubbing)) bool muteAudioScrubbing;
 
-  /// @brief Method AddEvaluateCallback, addr 0x6df5780, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method AddEvaluateCallback, addr 0x6e3241c, size 0x1f0, virtual false, abstract: false, final false
   inline void AddEvaluateCallback(::UnityEngine::Timeline::AnimationTrack* track, ::UnityEngine::Timeline::ITimelineEvaluateCallback* callback);
 
-  /// @brief Method AddOutputWeightProcessor, addr 0x6df5634, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method AddOutputWeightProcessor, addr 0x6e322d0, size 0x14c, virtual false, abstract: false, final false
   inline void AddOutputWeightProcessor(::UnityEngine::Timeline::AnimationTrack* track, ::UnityEngine::Animations::AnimationPlayableOutput animOutput);
 
-  /// @brief Method AddPlayableOutputCallbacks, addr 0x6df4824, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method AddPlayableOutputCallbacks, addr 0x6e314c0, size 0x3c, virtual false, abstract: false, final false
   inline void AddPlayableOutputCallbacks(::UnityEngine::Timeline::AnimationTrack* track, ::UnityEngine::Playables::PlayableOutput playableOutput);
 
-  /// @brief Method CacheTrack, addr 0x6df4860, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CacheTrack, addr 0x6e314fc, size 0x8c, virtual false, abstract: false, final false
   inline void CacheTrack(::UnityEngine::Timeline::TrackAsset* track, ::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method Compile, addr 0x6df3718, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method Compile, addr 0x6e303b4, size 0x2e8, virtual false, abstract: false, final false
   inline void Compile(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Playables::Playable timelinePlayable,
                       ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* tracks, ::UnityEngine::GameObject* go, bool autoRebalance, bool createOutputs);
 
-  /// @brief Method CompileTrackList, addr 0x6df3a00, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method CompileTrackList, addr 0x6e3069c, size 0x38c, virtual false, abstract: false, final false
   inline void CompileTrackList(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Playables::Playable timelinePlayable,
                                ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* tracks, ::UnityEngine::GameObject* go, bool createOutputs);
 
-  /// @brief Method Create, addr 0x6df34f4, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6e30190, size 0x224, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::TimelinePlayable*>
   Create(::UnityEngine::Playables::PlayableGraph graph, ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* tracks, ::UnityEngine::GameObject* go,
          bool autoRebalance, bool createOutputs);
 
-  /// @brief Method CreateTrackOutput, addr 0x6df418c, size 0x698, virtual false, abstract: false, final false
+  /// @brief Method CreateTrackOutput, addr 0x6e30e28, size 0x698, virtual false, abstract: false, final false
   inline void CreateTrackOutput(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Timeline::TrackAsset* track, ::UnityEngine::GameObject* go, ::UnityEngine::Playables::Playable playable,
                                 int32_t port);
 
-  /// @brief Method CreateTrackPlayable, addr 0x6df3d8c, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method CreateTrackPlayable, addr 0x6e30a28, size 0x400, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreateTrackPlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Playables::Playable timelinePlayable,
                                                                 ::UnityEngine::Timeline::TrackAsset* track, ::UnityEngine::GameObject* go, bool createOutputs);
 
-  /// @brief Method Evaluate, addr 0x6df4918, size 0x450, virtual false, abstract: false, final false
+  /// @brief Method Evaluate, addr 0x6e315b4, size 0x450, virtual false, abstract: false, final false
   inline void Evaluate(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData frameData);
 
-  /// @brief Method ForAOTCompilationOnly, addr 0x6df55d0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ForAOTCompilationOnly, addr 0x6e3226c, size 0x64, virtual false, abstract: false, final false
   static inline void ForAOTCompilationOnly();
 
-  /// @brief Method InvokeOutputCallbacks, addr 0x6df4d68, size 0x868, virtual false, abstract: false, final false
+  /// @brief Method InvokeOutputCallbacks, addr 0x6e31a04, size 0x868, virtual false, abstract: false, final false
   inline void InvokeOutputCallbacks(::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Timeline::RuntimeElement*>* activeRuntimeElements);
 
   static inline ::UnityEngine::Timeline::TimelinePlayable* New_ctor();
 
-  /// @brief Method PrepareFrame, addr 0x6df48ec, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method PrepareFrame, addr 0x6e31588, size 0x2c, virtual true, abstract: false, final false
   inline void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method TryGetCallbackList, addr 0x6df5980, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method TryGetCallbackList, addr 0x6e3261c, size 0x13c, virtual false, abstract: false, final false
   inline bool TryGetCallbackList(::UnityEngine::Timeline::AnimationTrack* track, ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::Timeline::ITimelineEvaluateCallback*>*> list);
 
   constexpr int32_t const& __cordl_internal_get_m_ActiveBit() const;
@@ -311,7 +311,7 @@ public:
 
   constexpr void __cordl_internal_set_m_PlayableCache(::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityEngine::Playables::Playable>* value);
 
-  /// @brief Method .ctor, addr 0x6df5abc, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e32758, size 0x28c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_k_CreateTimelineGraphMarker();
@@ -353,7 +353,7 @@ public:
   TimelinePlayable(TimelinePlayable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19365 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19398 };
 
   /// @brief Field m_IntervalTree, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Timeline::IntervalTree_1<::UnityEngine::Timeline::RuntimeElement*>* ___m_IntervalTree;

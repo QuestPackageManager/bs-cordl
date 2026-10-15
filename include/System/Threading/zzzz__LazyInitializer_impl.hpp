@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::by_ref<::System::Object*>)>(&::System::Threading::LazyInitializer::EnsureLockInitialized)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x60c273c;
+  constexpr static std::size_t addrs = 0x60ff17c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

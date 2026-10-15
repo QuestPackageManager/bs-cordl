@@ -24,7 +24,7 @@ namespace Unity::Collections {
 struct CORDL_TYPE UnsafeQueueDispose {
 public:
   // Declarations
-  /// @brief Method Dispose, addr 0x68f2854, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x692f4d0, size 0x10, virtual false, abstract: false, final false
   inline void Dispose();
 
   // Ctor Parameters []
@@ -36,7 +36,7 @@ public:
   constexpr UnsafeQueueDispose(::Unity::Collections::UnsafeQueueData* m_Buffer, ::Unity::Collections::AllocatorManager_AllocatorHandle m_AllocatorLabel) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15979 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16012 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

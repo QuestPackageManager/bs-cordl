@@ -39,22 +39,22 @@ public:
   /// @brief Field skipRendering, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_skipRendering, put = __cordl_internal_set_skipRendering)) bool skipRendering;
 
-  /// @brief Method AddDrawCallData, addr 0x726a508, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AddDrawCallData, addr 0x72a743c, size 0xf0, virtual false, abstract: false, final false
   inline void AddDrawCallData(int32_t safeFrameIndex, int32_t cmdListIndex, ::UnityEngine::Material* mat, uint32_t textureSlotCount, uint32_t forceRenderType);
 
-  /// @brief Method AddDrawCallData_Injected, addr 0x726a5f8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method AddDrawCallData_Injected, addr 0x72a752c, size 0x74, virtual false, abstract: false, final false
   static inline void AddDrawCallData_Injected(::System::IntPtr _unity_self, int32_t safeFrameIndex, int32_t cmdListIndex, ::System::IntPtr mat, uint32_t textureSlotCount, uint32_t forceRenderType);
 
   static inline ::UnityEngine::UIElements::UIRenderer* New_ctor();
 
   /// [RequiredByNativeCode]
-  /// @brief Method OnRenderNodeExecute, addr 0x726a728, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnRenderNodeExecute, addr 0x72a765c, size 0xd4, virtual false, abstract: false, final false
   static inline void OnRenderNodeExecute(::UnityEngine::UIElements::UIRenderer* renderer, int32_t safeFrameIndex, int32_t cmdListIndex);
 
-  /// @brief Method ResetDrawCallData, addr 0x726a66c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ResetDrawCallData, addr 0x72a75a0, size 0x80, virtual false, abstract: false, final false
   inline void ResetDrawCallData();
 
-  /// @brief Method ResetDrawCallData_Injected, addr 0x726a6ec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ResetDrawCallData_Injected, addr 0x72a7620, size 0x3c, virtual false, abstract: false, final false
   static inline void ResetDrawCallData_Injected(::System::IntPtr _unity_self);
 
   constexpr ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::CommandList*>*> const& __cordl_internal_get_commandLists() const;
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_skipRendering(bool value);
 
-  /// @brief Method .ctor, addr 0x726a7fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72a7730, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -35,19 +35,19 @@ public:
 
   __declspec(property(get = get_displayMenuHandledOSX, put = set_displayMenuHandledOSX)) bool displayMenuHandledOSX;
 
-  /// @brief Method AfterPointerUp, addr 0x70a108c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AfterPointerUp, addr 0x70ddfc0, size 0x8, virtual false, abstract: false, final false
   inline void AfterPointerUp();
 
-  /// @brief Method BeforePointerDown, addr 0x70a1084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method BeforePointerDown, addr 0x70ddfb8, size 0x8, virtual false, abstract: false, final false
   inline void BeforePointerDown();
 
-  /// @brief Method CheckIfEventMatches, addr 0x70a0c70, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckIfEventMatches, addr 0x70ddba4, size 0x8, virtual true, abstract: false, final false
   inline bool CheckIfEventMatches(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method DisplayMenu, addr 0x70a0c78, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method DisplayMenu, addr 0x70ddbac, size 0x78, virtual false, abstract: false, final false
   inline void DisplayMenu(::UnityEngine::UIElements::EventBase* triggerEvent, ::UnityEngine::UIElements::IEventHandler* target);
 
-  /// @brief Method DisplayMenu, addr 0x70a0cf0, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method DisplayMenu, addr 0x70ddc24, size 0x338, virtual false, abstract: false, final false
   inline void DisplayMenu(::UnityEngine::UIElements::EventBase* triggerEvent, ::UnityEngine::UIElements::IEventHandler* target, ::UnityEngine::UIElements::DropdownMenu* menu);
 
   /// @brief Method DoDisplayMenu, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -55,7 +55,7 @@ public:
 
   static inline ::UnityEngine::UIElements::ContextualMenuManager* New_ctor();
 
-  /// @brief Method ResetPointerDown, addr 0x70a1028, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ResetPointerDown, addr 0x70ddf5c, size 0x5c, virtual false, abstract: false, final false
   static inline void ResetPointerDown(int32_t pointerId);
 
   constexpr bool const& __cordl_internal_get__displayMenuHandledOSX_k__BackingField() const;
@@ -64,15 +64,15 @@ public:
 
   constexpr void __cordl_internal_set__displayMenuHandledOSX_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x70a1094, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70ddfc8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_displayMenuHandledOSX, addr 0x70a0c60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayMenuHandledOSX, addr 0x70ddb94, size 0x8, virtual false, abstract: false, final false
   inline bool get_displayMenuHandledOSX();
 
   /// [CompilerGenerated]
-  /// @brief Method set_displayMenuHandledOSX, addr 0x70a0c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayMenuHandledOSX, addr 0x70ddb9c, size 0x8, virtual false, abstract: false, final false
   inline void set_displayMenuHandledOSX(bool value);
 
 protected:

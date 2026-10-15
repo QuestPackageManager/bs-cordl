@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoTransitionsButton)
 namespace HMUI {
+class IForcedHighlightHandler;
+}
+namespace HMUI {
 struct NoTransitionsButton_SelectionState;
 }
 namespace System {
@@ -75,7 +78,7 @@ public:
   static ::HMUI::NoTransitionsButton_SelectionState const Pressed;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19635 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19669 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -100,6 +103,9 @@ public:
   // Declarations
   using SelectionState = ::HMUI::NoTransitionsButton_SelectionState;
 
+  /// @brief Field _forceHighlighted, offset 0x114, size 0x1
+  __declspec(property(get = __cordl_internal_get__forceHighlighted, put = __cordl_internal_set__forceHighlighted)) bool _forceHighlighted;
+
   /// @brief Field _selectionState, offset 0x110, size 0x4
   __declspec(property(get = __cordl_internal_get__selectionState, put = __cordl_internal_set__selectionState)) ::HMUI::NoTransitionsButton_SelectionState _selectionState;
 
@@ -109,10 +115,20 @@ public:
   __declspec(property(get = __cordl_internal_get_selectionStateDidChangeEvent,
                       put = __cordl_internal_set_selectionStateDidChangeEvent)) ::System::Action_1<::HMUI::NoTransitionsButton_SelectionState>* selectionStateDidChangeEvent;
 
-  /// @brief Method DoStateTransition, addr 0x5c98928, size 0x40, virtual true, abstract: false, final false
+  /// @brief Convert operator to "::HMUI::IForcedHighlightHandler"
+  constexpr operator ::HMUI::IForcedHighlightHandler*() noexcept;
+
+  /// @brief Method DoStateTransition, addr 0x5cd16ec, size 0x5c, virtual true, abstract: false, final false
   inline void DoStateTransition(::UnityEngine::UI::Selectable_SelectionState state, bool instant);
 
   static inline ::HMUI::NoTransitionsButton* New_ctor();
+
+  /// @brief Method SetForcedHighlight, addr 0x5cd1670, size 0x7c, virtual true, abstract: false, final true
+  inline void SetForcedHighlight(bool forced);
+
+  constexpr bool const& __cordl_internal_get__forceHighlighted() const;
+
+  constexpr bool& __cordl_internal_get__forceHighlighted();
 
   constexpr ::HMUI::NoTransitionsButton_SelectionState const& __cordl_internal_get__selectionState() const;
 
@@ -122,22 +138,27 @@ public:
 
   constexpr ::System::Action_1<::HMUI::NoTransitionsButton_SelectionState>*& __cordl_internal_get_selectionStateDidChangeEvent();
 
+  constexpr void __cordl_internal_set__forceHighlighted(bool value);
+
   constexpr void __cordl_internal_set__selectionState(::HMUI::NoTransitionsButton_SelectionState value);
 
   constexpr void __cordl_internal_set_selectionStateDidChangeEvent(::System::Action_1<::HMUI::NoTransitionsButton_SelectionState>* value);
 
-  /// @brief Method .ctor, addr 0x5c98968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cd1748, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_selectionStateDidChangeEvent, addr 0x5c97c00, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_selectionStateDidChangeEvent, addr 0x5cd0948, size 0xc0, virtual false, abstract: false, final false
   inline void add_selectionStateDidChangeEvent(::System::Action_1<::HMUI::NoTransitionsButton_SelectionState>* value);
 
-  /// @brief Method get_selectionState, addr 0x5c98920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectionState, addr 0x5cd1668, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::NoTransitionsButton_SelectionState get_selectionState();
 
+  /// @brief Convert to "::HMUI::IForcedHighlightHandler"
+  constexpr ::HMUI::IForcedHighlightHandler* i___HMUI__IForcedHighlightHandler() noexcept;
+
   /// [CompilerGenerated]
-  /// @brief Method remove_selectionStateDidChangeEvent, addr 0x5c97e28, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_selectionStateDidChangeEvent, addr 0x5cd0b70, size 0xc0, virtual false, abstract: false, final false
   inline void remove_selectionStateDidChangeEvent(::System::Action_1<::HMUI::NoTransitionsButton_SelectionState>* value);
 
 protected:
@@ -155,7 +176,7 @@ public:
   NoTransitionsButton(NoTransitionsButton const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19636 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19670 };
 
   /// [CompilerGenerated]
   /// @brief Field selectionStateDidChangeEvent, offset: 0x108, size: 0x8, def value: None
@@ -164,12 +185,17 @@ public:
   /// @brief Field _selectionState, offset: 0x110, size: 0x4, def value: None
   ::HMUI::NoTransitionsButton_SelectionState ____selectionState;
 
+  /// @brief Field _forceHighlighted, offset: 0x114, size: 0x1, def value: None
+  bool ____forceHighlighted;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::NoTransitionsButton, ___selectionStateDidChangeEvent) == 0x108, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::NoTransitionsButton, ____selectionState) == 0x110, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::NoTransitionsButton, ____forceHighlighted) == 0x114, "Offset mismatch!");
 
 static_assert(sizeof(::HMUI::NoTransitionsButton) == 0x118, "Size mismatch!");
 

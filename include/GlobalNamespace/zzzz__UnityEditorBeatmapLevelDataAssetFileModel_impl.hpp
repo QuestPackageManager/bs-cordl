@@ -12,11 +12,25 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::BeatmapLevelDataSO> (*)(::StringW)>(
     &::GlobalNamespace::UnityEditorBeatmapLevelDataAssetFileModel::LoadBeatmapLevelDataFromAssetDatabase)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x39df2b4;
+  constexpr static std::size_t addrs = 0x3a08930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityEditorBeatmapLevelDataAssetFileModel*>(),
                                                                                            { "LoadBeatmapLevelDataFromAssetDatabase", {}, { ::i2c::type_of<::StringW>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::UnityEditorBeatmapLevelDataAssetFileModel.LoadBeatmapLevelDataFromAssetDatabaseOrNull
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::BeatmapLevelDataSO> (*)(::StringW)>(
+    &::GlobalNamespace::UnityEditorBeatmapLevelDataAssetFileModel::LoadBeatmapLevelDataFromAssetDatabaseOrNull)> {
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x3a089a8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityEditorBeatmapLevelDataAssetFileModel*>(),
+                                                                                           { "LoadBeatmapLevelDataFromAssetDatabaseOrNull", {}, { ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
@@ -26,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::BeatmapLevelSO> (*)(::StringW)>(
     &::GlobalNamespace::UnityEditorBeatmapLevelDataAssetFileModel::LoadBeatmapLevelFromAssetDatabase)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x39df32c;
+  constexpr static std::size_t addrs = 0x3a08a20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityEditorBeatmapLevelDataAssetFileModel*>(),
@@ -40,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::BeatmapLevelPackSO> (*)(::StringW)>(
     &::GlobalNamespace::UnityEditorBeatmapLevelDataAssetFileModel::LoadBeatmapLevelPackFromAssetDatabase)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x39df3a4;
+  constexpr static std::size_t addrs = 0x3a08a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityEditorBeatmapLevelDataAssetFileModel*>(),
@@ -51,6 +65,11 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespac
 inline ::UnityW<::GlobalNamespace::BeatmapLevelDataSO> GlobalNamespace::UnityEditorBeatmapLevelDataAssetFileModel::LoadBeatmapLevelDataFromAssetDatabase(::StringW levelId) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityEditorBeatmapLevelDataAssetFileModel*>(),
                                                                                          { "LoadBeatmapLevelDataFromAssetDatabase", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::BeatmapLevelDataSO>>(nullptr, ___internal_method, levelId);
+}
+inline ::UnityW<::GlobalNamespace::BeatmapLevelDataSO> GlobalNamespace::UnityEditorBeatmapLevelDataAssetFileModel::LoadBeatmapLevelDataFromAssetDatabaseOrNull(::StringW levelId) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityEditorBeatmapLevelDataAssetFileModel*>(),
+                                                                                         { "LoadBeatmapLevelDataFromAssetDatabaseOrNull", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::BeatmapLevelDataSO>>(nullptr, ___internal_method, levelId);
 }
 inline ::UnityW<::GlobalNamespace::BeatmapLevelSO> GlobalNamespace::UnityEditorBeatmapLevelDataAssetFileModel::LoadBeatmapLevelFromAssetDatabase(::StringW levelId) {
@@ -76,6 +95,15 @@ template <typename T>
 inline T GlobalNamespace::UnityEditorBeatmapLevelDataAssetFileModel::LoadUniqueAssetFromAssetDatabase(::StringW filename) {
   static auto* ___internal_method_base = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityEditorBeatmapLevelDataAssetFileModel*>(),
                                                                                               { "LoadUniqueAssetFromAssetDatabase", { ::i2c::class_of<T>() }, { ::i2c::type_of<::StringW>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, filename);
+}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+inline T GlobalNamespace::UnityEditorBeatmapLevelDataAssetFileModel::LoadUniqueAssetFromAssetDatabaseOrNull(::StringW filename) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityEditorBeatmapLevelDataAssetFileModel*>(),
+                                                           { "LoadUniqueAssetFromAssetDatabaseOrNull", { ::i2c::class_of<T>() }, { ::i2c::type_of<::StringW>() } })));
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
   return ::cordl_internals::RunMethodRethrow<T>(nullptr, ___internal_method, filename);
 }

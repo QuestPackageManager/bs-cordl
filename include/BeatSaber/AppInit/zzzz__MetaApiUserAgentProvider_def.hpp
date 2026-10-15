@@ -48,11 +48,11 @@ public:
 
   static inline ::BeatSaber::AppInit::MetaApiUserAgentProvider___c* New_ctor();
 
-  /// @brief Method <Rebuild>b__10_0, addr 0x3a04bac, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method <Rebuild>b__10_0, addr 0x3a2edb8, size 0x158, virtual false, abstract: false, final false
   inline ::StringW
   _Rebuild_b__10_0(/* [TupleElementNames(new[] { "original", "sanitized" })] */ ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::ValueTuple_2<::StringW, ::StringW>> part);
 
-  /// @brief Method .ctor, addr 0x3a04ba8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a2edb4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BeatSaber::AppInit::MetaApiUserAgentProvider___c* getStaticF___9();
@@ -78,7 +78,7 @@ public:
   MetaApiUserAgentProvider___c(MetaApiUserAgentProvider___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21873 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21858 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -118,10 +118,10 @@ public:
 
   static inline ::BeatSaber::AppInit::MetaApiUserAgentProvider* New_ctor();
 
-  /// @brief Method Rebuild, addr 0x3a048b4, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method Rebuild, addr 0x3a2eac0, size 0x2a0, virtual false, abstract: false, final false
   inline void Rebuild();
 
-  /// @brief Method SetLocale, addr 0x3a04704, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetLocale, addr 0x3a2e910, size 0x3c, virtual false, abstract: false, final false
   inline void SetLocale(::StringW locale);
 
   constexpr ::StringW const& __cordl_internal_get__appVersion() const;
@@ -166,7 +166,7 @@ public:
 
   constexpr void __cordl_internal_set__systemVersion(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3a04744, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a2e950, size 0x170, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -184,7 +184,7 @@ public:
   MetaApiUserAgentProvider(MetaApiUserAgentProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21874 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21859 };
 
   /// @brief Field kAppName offset 0xffffffff size 0x8
   static constexpr ::ConstString kAppName{ u"BeatSaber" };

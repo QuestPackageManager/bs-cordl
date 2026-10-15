@@ -208,22 +208,22 @@ public:
 
   __declspec(property(get = get_visualElement)) ::UnityEngine::UIElements::VisualElement* visualElement;
 
-  /// @brief Method AddChild, addr 0x717e484, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AddChild, addr 0x71bb3b8, size 0x94, virtual false, abstract: false, final false
   inline void AddChild(::UnityEngine::UIElements::UIR::RenderTreeCompositor_DrawOperation* op);
 
-  /// @brief Method Init, addr 0x717dfe4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x71baf18, size 0x38, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::UIR::RenderTree* renderTree);
 
-  /// @brief Method Init, addr 0x717e404, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x71bb338, size 0x80, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::PostProcessingPass const> filterPass, int32_t filterPassIndex,
                    ::UnityEngine::UIElements::FilterFunction filter);
 
-  /// @brief Method InitPointers, addr 0x717fe48, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method InitPointers, addr 0x71bcd7c, size 0x10, virtual false, abstract: false, final false
   inline void InitPointers();
 
   static inline ::UnityEngine::UIElements::UIR::RenderTreeCompositor_DrawOperation* New_ctor();
 
-  /// @brief Method Reset, addr 0x717fc34, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x71bcb68, size 0xb0, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityEngine::RectInt const& __cordl_internal_get_bounds() const;
@@ -322,25 +322,25 @@ public:
 
   constexpr void __cordl_internal_set_prevSibling(::UnityEngine::UIElements::UIR::RenderTreeCompositor_DrawOperation* value);
 
-  /// @brief Method .ctor, addr 0x717fe58, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71bcd8c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_FilterPass, addr 0x717fe20, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_FilterPass, addr 0x71bcd54, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PostProcessingPass get_FilterPass();
 
-  /// @brief Method get_FilterPassIndex, addr 0x717fe30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FilterPassIndex, addr 0x71bcd64, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_FilterPassIndex();
 
-  /// @brief Method get_filter, addr 0x717fe38, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_filter, addr 0x71bcd6c, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::FilterFunction get_filter();
 
-  /// @brief Method get_renderTree, addr 0x717fe18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderTree, addr 0x71bcd4c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderTree* get_renderTree();
 
-  /// @brief Method get_type, addr 0x717fe08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x71bcd3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderTreeCompositor_DrawOperationType get_type();
 
-  /// @brief Method get_visualElement, addr 0x717fe10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_visualElement, addr 0x71bcd44, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_visualElement();
 
 protected:
@@ -462,10 +462,10 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::RenderTreeCompositor___c* New_ctor();
 
-  /// @brief Method <.ctor>b__7_0, addr 0x717feb4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__7_0, addr 0x71bcde8, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderTreeCompositor_DrawOperation* __ctor_b__7_0();
 
-  /// @brief Method .ctor, addr 0x717feb0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71bcde4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UIR::RenderTreeCompositor___c* getStaticF___9();
@@ -541,49 +541,49 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AddChildrenOperations_DepthFirst, addr 0x717e01c, size 0x3e8, virtual false, abstract: false, final false
+  /// @brief Method AddChildrenOperations_DepthFirst, addr 0x71baf50, size 0x3e8, virtual false, abstract: false, final false
   inline void AddChildrenOperations_DepthFirst(::UnityEngine::UIElements::UIR::RenderTreeCompositor_DrawOperation* parentOperation, ::UnityEngine::UIElements::UIR::RenderTree* renderTree);
 
-  /// @brief Method ApplyEffectParameters, addr 0x717f2b0, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method ApplyEffectParameters, addr 0x71bc1e4, size 0x208, virtual false, abstract: false, final false
   inline void ApplyEffectParameters(::UnityEngine::UIElements::PostProcessingPass effect, ::UnityEngine::UIElements::FilterFunction filter, ::UnityEngine::UIElements::VisualElement* source,
                                     bool readsGamma);
 
-  /// @brief Method AssignTextureIds_DepthFirst, addr 0x717de1c, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method AssignTextureIds_DepthFirst, addr 0x71bad50, size 0x1c8, virtual false, abstract: false, final false
   inline void AssignTextureIds_DepthFirst(::UnityEngine::UIElements::UIR::RenderTreeCompositor_DrawOperation* op);
 
-  /// @brief Method BuildDrawOperationTree, addr 0x717d2e0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method BuildDrawOperationTree, addr 0x71ba214, size 0x98, virtual false, abstract: false, final false
   inline void BuildDrawOperationTree(::UnityEngine::UIElements::UIR::RenderTree* rootRenderTree);
 
-  /// @brief Method CleanupOperationTree, addr 0x717d184, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method CleanupOperationTree, addr 0x71ba0b8, size 0x15c, virtual false, abstract: false, final false
   inline void CleanupOperationTree();
 
-  /// @brief Method CleanupOperation_PostOrder, addr 0x717fb28, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method CleanupOperation_PostOrder, addr 0x71bca5c, size 0x10c, virtual false, abstract: false, final false
   inline void CleanupOperation_PostOrder(::UnityEngine::UIElements::UIR::RenderTreeCompositor_DrawOperation* op);
 
-  /// @brief Method Dispose, addr 0x717fcf4, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x71bcc28, size 0x74, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x717fd68, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x71bcc9c, size 0x30, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method ExecuteDrawOperation_PostOrder, addr 0x717e5c8, size 0xce8, virtual false, abstract: false, final false
+  /// @brief Method ExecuteDrawOperation_PostOrder, addr 0x71bb4fc, size 0xce8, virtual false, abstract: false, final false
   inline void ExecuteDrawOperation_PostOrder(::UnityEngine::UIElements::UIR::RenderTreeCompositor_DrawOperation* op);
 
-  /// @brief Method GetReadMargins, addr 0x717e518, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetReadMargins, addr 0x71bb44c, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::PostProcessingMargins GetReadMargins(::UnityEngine::UIElements::PostProcessingPass effect, ::UnityEngine::UIElements::FilterFunction func);
 
-  /// @brief Method GetWriteMargins, addr 0x717e56c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetWriteMargins, addr 0x71bb4a0, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::PostProcessingMargins GetWriteMargins(::UnityEngine::UIElements::PostProcessingPass effect, ::UnityEngine::UIElements::FilterFunction func);
 
   static inline ::UnityEngine::UIElements::UIR::RenderTreeCompositor* New_ctor(::UnityEngine::UIElements::UIR::RenderTreeManager* owner);
 
-  /// @brief Method RenderNestedPasses, addr 0x717e5c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RenderNestedPasses, addr 0x71bb4f4, size 0x8, virtual false, abstract: false, final false
   inline void RenderNestedPasses();
 
-  /// @brief Method Update, addr 0x717d134, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x71ba068, size 0x50, virtual false, abstract: false, final false
   inline void Update(::UnityEngine::UIElements::UIR::RenderTree* rootRenderTree);
 
-  /// @brief Method UpdateDrawBounds_PostOrder, addr 0x717d378, size 0xaa4, virtual false, abstract: false, final false
+  /// @brief Method UpdateDrawBounds_PostOrder, addr 0x71ba2ac, size 0xaa4, virtual false, abstract: false, final false
   inline void UpdateDrawBounds_PostOrder(::UnityEngine::UIElements::UIR::RenderTreeCompositor_DrawOperation* op);
 
   constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
@@ -622,13 +622,13 @@ public:
 
   constexpr void __cordl_internal_set_m_RootOperation(::UnityEngine::UIElements::UIR::RenderTreeCompositor_DrawOperation* value);
 
-  /// @brief Method .ctor, addr 0x717cf64, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71b9e98, size 0x1d0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::UIR::RenderTreeManager* owner);
 
   static inline ::ArrayW<::UnityEngine::Vector4> getStaticF_s_UVRects();
 
   /// [CompilerGenerated]
-  /// @brief Method get_disposed, addr 0x717fce4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x71bcc18, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
@@ -637,7 +637,7 @@ public:
   static inline void setStaticF_s_UVRects(::ArrayW<::UnityEngine::Vector4> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_disposed, addr 0x717fcec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x71bcc20, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:

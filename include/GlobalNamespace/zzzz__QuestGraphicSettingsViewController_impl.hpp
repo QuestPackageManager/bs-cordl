@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuestGraphicSettingsViewController___c::*)()>(&::GlobalNamespace::QuestGraphicSettingsViewController___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e3be58;
+  constexpr static std::size_t addrs = 0x5e798a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuestGraphicSettingsViewController___c*>(), { ".ctor", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::QuestGraphicSettingsViewController___c::*)(float_t)>(
     &::GlobalNamespace::QuestGraphicSettingsViewController___c::_ShouldShowStinsonEntries_b__7_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5e3be5c;
+  constexpr static std::size_t addrs = 0x5e798ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuestGraphicSettingsViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::QuestGraphicSettingsViewController::DidActivate)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x5e3b8b4;
+  constexpr static std::size_t addrs = 0x5e79304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuestGraphicSettingsViewController*>(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuestGraphicSettingsViewController::*)(bool, bool)>(
     &::GlobalNamespace::QuestGraphicSettingsViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5e3bc60;
+  constexpr static std::size_t addrs = 0x5e796b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuestGraphicSettingsViewController*>(),
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuestGraphicSettingsViewController::*)(int32_t)>(
     &::GlobalNamespace::QuestGraphicSettingsViewController::HandleMirrorChanged)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5e3bda8;
+  constexpr static std::size_t addrs = 0x5e797f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuestGraphicSettingsViewController::*)(bool)>(
     &::GlobalNamespace::QuestGraphicSettingsViewController::Handle120HzToggleValueChanged)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5e3bdc0;
+  constexpr static std::size_t addrs = 0x5e79810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::GlobalNamespace::QuestGraphicSettingsViewController::ShouldShowStinsonEntries)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x5e3bad4;
+  constexpr static std::size_t addrs = 0x5e79524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuestGraphicSettingsViewController::*)()>(&::GlobalNamespace::QuestGraphicSettingsViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e3be00;
+  constexpr static std::size_t addrs = 0x5e79850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuestGraphicSettingsViewController*>(), { ".ctor", {}, {} })));

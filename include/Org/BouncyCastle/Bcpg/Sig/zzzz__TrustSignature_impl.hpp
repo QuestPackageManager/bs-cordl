@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(int32_t, int32_t)>(&::Org::BouncyCastle::Bcpg::Sig::TrustSignature::IntToByteArray)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x391f160;
+  constexpr static std::size_t addrs = 0x3941ac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::TrustSignature::*)(bool, bool, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Bcpg::Sig::TrustSignature::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x391f1e0;
+  constexpr static std::size_t addrs = 0x3941b44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::Sig::TrustSignature*>(),
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::TrustSignature::*)(bool, int32_t, int32_t)>(&::Org::BouncyCastle::Bcpg::Sig::TrustSignature::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x391f1f8;
+  constexpr static std::size_t addrs = 0x3941b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::Sig::TrustSignature*>(),
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::Sig::TrustSignature::*)()>(&::Org::BouncyCastle::Bcpg::Sig::TrustSignature::get_Depth)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x391f234;
+  constexpr static std::size_t addrs = 0x3941b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::Sig::TrustSignature*>(), { "get_Depth", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::Sig::TrustSignature::*)()>(&::Org::BouncyCastle::Bcpg::Sig::TrustSignature::get_TrustAmount)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x391f25c;
+  constexpr static std::size_t addrs = 0x3941bc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::Sig::TrustSignature*>(), { "get_TrustAmount", {}, {} })));

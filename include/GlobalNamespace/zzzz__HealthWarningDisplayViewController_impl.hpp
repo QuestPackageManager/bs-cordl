@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningDisplayViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::HealthWarningDisplayViewController::DidActivate)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5e36140;
+  constexpr static std::size_t addrs = 0x5e73da0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::HealthWarningDisplayViewController*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningDisplayViewController::*)()>(&::GlobalNamespace::HealthWarningDisplayViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e36178;
+  constexpr static std::size_t addrs = 0x5e73dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HealthWarningDisplayViewController*>(), { ".ctor", {}, {} })));
@@ -52,18 +52,6 @@ constexpr ::StringW const& GlobalNamespace::HealthWarningDisplayViewController::
 constexpr void GlobalNamespace::HealthWarningDisplayViewController::__cordl_internal_set__healthAndSafetyFullLocalizationKey(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____healthAndSafetyFullLocalizationKey = value;
-}
-constexpr bool& GlobalNamespace::HealthWarningDisplayViewController::__cordl_internal_get__showShortHealthAndSafety() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____showShortHealthAndSafety;
-}
-constexpr bool const& GlobalNamespace::HealthWarningDisplayViewController::__cordl_internal_get__showShortHealthAndSafety() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____showShortHealthAndSafety;
-}
-constexpr void GlobalNamespace::HealthWarningDisplayViewController::__cordl_internal_set__showShortHealthAndSafety(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____showShortHealthAndSafety = value;
 }
 inline void GlobalNamespace::HealthWarningDisplayViewController::DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {
   auto* ___internal_method =

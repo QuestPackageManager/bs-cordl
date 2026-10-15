@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::ClientInterface::IGraphQLClient::*)(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(
     &::OculusStudios::GraphQL::ClientInterface::IGraphQLClient::SetCustomAppHeaders)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6347440;
+  constexpr static std::size_t addrs = 0x6383e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(),
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::ClientInterface::EmptyResponseObject*>* (
     ::OculusStudios::GraphQL::ClientInterface::IGraphQLClient::*)(::OculusStudios::GraphQL::ClientInterface::IQueryRequest*)>(&::OculusStudios::GraphQL::ClientInterface::IGraphQLClient::Query)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6347444;
+  constexpr static std::size_t addrs = 0x6383e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::ClientInterface::EmptyResponseObject*>* (
     ::OculusStudios::GraphQL::ClientInterface::IGraphQLClient::*)(::OculusStudios::GraphQL::ClientInterface::IMutationRequest*)>(&::OculusStudios::GraphQL::ClientInterface::IGraphQLClient::Mutate)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6347504;
+  constexpr static std::size_t addrs = 0x6383f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(),

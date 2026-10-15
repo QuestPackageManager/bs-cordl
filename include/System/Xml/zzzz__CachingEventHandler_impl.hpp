@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::CachingEventHandler::*)(::System::Object*, ::System::IntPtr)>(&::System::Xml::CachingEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x66d4a28;
+  constexpr static std::size_t addrs = 0x67115f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::CachingEventHandler::*)(::System::Xml::XsdCachingReader*)>(&::System::Xml::CachingEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x66d4b6c;
+  constexpr static std::size_t addrs = 0x671173c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

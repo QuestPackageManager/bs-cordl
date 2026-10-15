@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::MetaNetworking::Utils::MetaApiUserAgentProviderBase::*)()>(
     &::OculusStudios::MetaNetworking::Utils::MetaApiUserAgentProviderBase::get_userAgent)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x63491cc;
+  constexpr static std::size_t addrs = 0x6385ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::MetaNetworking::Utils::MetaApiUserAgentProviderBase::*)(::System::Action*)>(
     &::OculusStudios::MetaNetworking::Utils::MetaApiUserAgentProviderBase::add_userAgentDidChangeEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x63491d8;
+  constexpr static std::size_t addrs = 0x6385cb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::MetaNetworking::Utils::MetaApiUserAgentProviderBase*>(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::MetaNetworking::Utils::MetaApiUserAgentProviderBase::*)(::System::Action*)>(
     &::OculusStudios::MetaNetworking::Utils::MetaApiUserAgentProviderBase::remove_userAgentDidChangeEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6349284;
+  constexpr static std::size_t addrs = 0x6385d5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::MetaNetworking::Utils::MetaApiUserAgentProviderBase*>(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::MetaNetworking::Utils::MetaApiUserAgentProviderBase::*)(::System::Net::Http::Headers::HttpRequestHeaders*)>(
     &::OculusStudios::MetaNetworking::Utils::MetaApiUserAgentProviderBase::SetHeader)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6349330;
+  constexpr static std::size_t addrs = 0x6385e08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::MetaNetworking::Utils::MetaApiUserAgentProviderBase*>(),
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::MetaNetworking::Utils::MetaApiUserAgentProviderBase::*)(
     ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>*)>(&::OculusStudios::MetaNetworking::Utils::MetaApiUserAgentProviderBase::SetHeader)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x63493ac;
+  constexpr static std::size_t addrs = 0x6385e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::MetaNetworking::Utils::MetaApiUserAgentProviderBase::*)(::StringW)>(
     &::OculusStudios::MetaNetworking::Utils::MetaApiUserAgentProviderBase::SetUserAgent)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6349488;
+  constexpr static std::size_t addrs = 0x6385f60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::MetaNetworking::Utils::MetaApiUserAgentProviderBase::*)()>(
     &::OculusStudios::MetaNetworking::Utils::MetaApiUserAgentProviderBase::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63494ac;
+  constexpr static std::size_t addrs = 0x6385f84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

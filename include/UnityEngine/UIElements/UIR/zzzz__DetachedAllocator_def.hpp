@@ -81,10 +81,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x7164004, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x71a0f38, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x716406c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x71a0fa0, size 0xa0, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::UIR::DetachedAllocator* New_ctor();
@@ -155,7 +155,7 @@ public:
 
   constexpr void __cordl_internal_set_m_VertsPool(::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>* value);
 
-  /// @brief Method .ctor, addr 0x7163dd8, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71a0d0c, size 0x22c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"

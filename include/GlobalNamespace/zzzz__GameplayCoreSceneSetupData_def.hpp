@@ -9,6 +9,7 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__SceneSetupData_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameplayCoreSceneSetupData)
@@ -41,6 +42,9 @@ class EnvironmentInfoSO;
 }
 namespace GlobalNamespace {
 class EnvironmentsListModel;
+}
+namespace GlobalNamespace {
+struct GameplayCoreSceneSetupData__LoadAndTransformBeatmapDataAsync_d__32;
 }
 namespace GlobalNamespace {
 struct GameplayCoreSceneSetupData__LoadTransformedBeatmapDataAsync_d__31;
@@ -77,29 +81,34 @@ namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
 }
 namespace GlobalNamespace {
+struct GameplayCoreSceneSetupData__LoadAndTransformBeatmapDataAsync_d__32;
+}
+namespace GlobalNamespace {
 struct GameplayCoreSceneSetupData__LoadTransformedBeatmapDataAsync_d__31;
 }
 // Write type traits
 MARK_REF_T(::GlobalNamespace::GameplayCoreSceneSetupData*);
+MARK_VAL_T(::GlobalNamespace::GameplayCoreSceneSetupData__LoadAndTransformBeatmapDataAsync_d__32);
 MARK_VAL_T(::GlobalNamespace::GameplayCoreSceneSetupData__LoadTransformedBeatmapDataAsync_d__31);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::GameplayCoreSceneSetupData*, "", "GameplayCoreSceneSetupData");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::GameplayCoreSceneSetupData__LoadAndTransformBeatmapDataAsync_d__32, "", "GameplayCoreSceneSetupData/<LoadAndTransformBeatmapDataAsync>d__32");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::GameplayCoreSceneSetupData__LoadTransformedBeatmapDataAsync_d__31, "", "GameplayCoreSceneSetupData/<LoadTransformedBeatmapDataAsync>d__31");
 // [CompilerGenerated]
 // Dependencies BeatmapLevelDataVersion, LoadBeatmapLevelDataResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: GameplayCoreSceneSetupData/<LoadTransformedBeatmapDataAsync>d__31
-struct CORDL_TYPE GameplayCoreSceneSetupData__LoadTransformedBeatmapDataAsync_d__31 {
+// CS Name: GameplayCoreSceneSetupData/<LoadAndTransformBeatmapDataAsync>d__32
+struct CORDL_TYPE GameplayCoreSceneSetupData__LoadAndTransformBeatmapDataAsync_d__32 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5d27864, size 0x9d0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d61c30, size 0x9ec, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5d28234, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5d6261c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -107,7 +116,7 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr GameplayCoreSceneSetupData__LoadTransformedBeatmapDataAsync_d__31();
+  constexpr GameplayCoreSceneSetupData__LoadAndTransformBeatmapDataAsync_d__32();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::GameplayCoreSceneSetupData*",
@@ -116,16 +125,16 @@ public:
   // name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult>", modifiers: "", def_value: None, comment: None }, CppParam { name:
   // "__u__3", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__4", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData*>", modifiers: "", def_value: None, comment: None }]
-  constexpr GameplayCoreSceneSetupData__LoadTransformedBeatmapDataAsync_d__31(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
-                                                                              ::GlobalNamespace::GameplayCoreSceneSetupData* __4__this,
-                                                                              ::GlobalNamespace::BeatmapLevelDataVersion _beatmapLevelDataVersion_5__2,
-                                                                              ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion> __u__1,
-                                                                              ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult> __u__2,
-                                                                              ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>> __u__3,
-                                                                              ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData*> __u__4) noexcept;
+  constexpr GameplayCoreSceneSetupData__LoadAndTransformBeatmapDataAsync_d__32(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+                                                                               ::GlobalNamespace::GameplayCoreSceneSetupData* __4__this,
+                                                                               ::GlobalNamespace::BeatmapLevelDataVersion _beatmapLevelDataVersion_5__2,
+                                                                               ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion> __u__1,
+                                                                               ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult> __u__2,
+                                                                               ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>> __u__3,
+                                                                               ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData*> __u__4) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6841 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6846 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -162,23 +171,88 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
+static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData__LoadAndTransformBeatmapDataAsync_d__32, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData__LoadAndTransformBeatmapDataAsync_d__32, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData__LoadAndTransformBeatmapDataAsync_d__32, __4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData__LoadAndTransformBeatmapDataAsync_d__32, _beatmapLevelDataVersion_5__2) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData__LoadAndTransformBeatmapDataAsync_d__32, __u__1) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData__LoadAndTransformBeatmapDataAsync_d__32, __u__2) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData__LoadAndTransformBeatmapDataAsync_d__32, __u__3) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData__LoadAndTransformBeatmapDataAsync_d__32, __u__4) == 0x48, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::GameplayCoreSceneSetupData__LoadAndTransformBeatmapDataAsync_d__32) == 0x50, "Size mismatch!");
+
+} // namespace GlobalNamespace
+// [CompilerGenerated]
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
+namespace GlobalNamespace {
+// Is value type: true
+// CS Name: GameplayCoreSceneSetupData/<LoadTransformedBeatmapDataAsync>d__31
+struct CORDL_TYPE GameplayCoreSceneSetupData__LoadTransformedBeatmapDataAsync_d__31 {
+public:
+  // Declarations
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Method MoveNext, addr 0x5d62688, size 0x210, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// [DebuggerHidden]
+  /// @brief Method SetStateMachine, addr 0x5d62898, size 0x6c, virtual true, abstract: false, final true
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GameplayCoreSceneSetupData__LoadTransformedBeatmapDataAsync_d__31();
+
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::GameplayCoreSceneSetupData*",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
+  constexpr GameplayCoreSceneSetupData__LoadTransformedBeatmapDataAsync_d__31(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+                                                                              ::GlobalNamespace::GameplayCoreSceneSetupData* __4__this,
+                                                                              ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6847 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
+
+  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+  int32_t __1__state;
+
+  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
+
+  /// [Nullable(0)]
+  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+  ::GlobalNamespace::GameplayCoreSceneSetupData* __4__this;
+
+  /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
 static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData__LoadTransformedBeatmapDataAsync_d__31, __1__state) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData__LoadTransformedBeatmapDataAsync_d__31, __t__builder) == 0x8, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData__LoadTransformedBeatmapDataAsync_d__31, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData__LoadTransformedBeatmapDataAsync_d__31, _beatmapLevelDataVersion_5__2) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData__LoadTransformedBeatmapDataAsync_d__31, __u__1) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData__LoadTransformedBeatmapDataAsync_d__31, __u__1) == 0x30, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData__LoadTransformedBeatmapDataAsync_d__31, __u__2) == 0x38, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData__LoadTransformedBeatmapDataAsync_d__31, __u__3) == 0x40, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData__LoadTransformedBeatmapDataAsync_d__31, __u__4) == 0x48, "Offset mismatch!");
-
-static_assert(sizeof(::GlobalNamespace::GameplayCoreSceneSetupData__LoadTransformedBeatmapDataAsync_d__31) == 0x50, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::GameplayCoreSceneSetupData__LoadTransformedBeatmapDataAsync_d__31) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [NullableContext(2)]
@@ -191,84 +265,91 @@ namespace GlobalNamespace {
 class CORDL_TYPE GameplayCoreSceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
   // Declarations
+  using _LoadAndTransformBeatmapDataAsync_d__32 = ::GlobalNamespace::GameplayCoreSceneSetupData__LoadAndTransformBeatmapDataAsync_d__32;
+
   using _LoadTransformedBeatmapDataAsync_d__31 = ::GlobalNamespace::GameplayCoreSceneSetupData__LoadTransformedBeatmapDataAsync_d__31;
 
-  /// @brief Field _allowNullBeatmapLevelData, offset 0xa8, size 0x1
+  /// @brief Field _allowNullBeatmapLevelData, offset 0xb0, size 0x1
   __declspec(property(get = __cordl_internal_get__allowNullBeatmapLevelData, put = __cordl_internal_set__allowNullBeatmapLevelData)) bool _allowNullBeatmapLevelData;
 
-  /// @brief Field _audioClipAsyncLoader, offset 0x98, size 0x8
+  /// @brief Field _audioClipAsyncLoader, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get__audioClipAsyncLoader, put = __cordl_internal_set__audioClipAsyncLoader)) ::GlobalNamespace::AudioClipAsyncLoader* _audioClipAsyncLoader;
 
-  /// @brief Field _beatmapDataLoader, offset 0xa0, size 0x8
+  /// @brief Field _beatmapDataLoader, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapDataLoader, put = __cordl_internal_set__beatmapDataLoader)) ::GlobalNamespace::BeatmapDataLoader* _beatmapDataLoader;
 
-  /// @brief Field <beatmapLevelData>k__BackingField, offset 0x70, size 0x8
+  /// @brief Field <beatmapLevelData>k__BackingField, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapLevelData_k__BackingField,
                       put = __cordl_internal_set__beatmapLevelData_k__BackingField)) ::GlobalNamespace::IBeatmapLevelData* _beatmapLevelData_k__BackingField;
 
-  /// @brief Field _beatmapLevelsEntitlementModel, offset 0x90, size 0x8
+  /// @brief Field _beatmapLevelsEntitlementModel, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapLevelsEntitlementModel,
                       put = __cordl_internal_set__beatmapLevelsEntitlementModel)) ::GlobalNamespace::BeatmapLevelsEntitlementModel* _beatmapLevelsEntitlementModel;
 
-  /// @brief Field _beatmapLevelsModel, offset 0x88, size 0x8
+  /// @brief Field _beatmapLevelsModel, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel)) ::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
 
-  /// @brief Field _enableBeatmapDataCaching, offset 0xa9, size 0x1
+  /// @brief Field _enableBeatmapDataCaching, offset 0xb1, size 0x1
   __declspec(property(get = __cordl_internal_get__enableBeatmapDataCaching, put = __cordl_internal_set__enableBeatmapDataCaching)) bool _enableBeatmapDataCaching;
 
-  /// @brief Field _settingsManager, offset 0x80, size 0x8
+  /// @brief Field _settingsManager, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsManager, put = __cordl_internal_set__settingsManager)) ::GlobalNamespace::SettingsManager* _settingsManager;
 
-  /// @brief Field <songAudioClip>k__BackingField, offset 0x68, size 0x8
+  /// @brief Field <songAudioClip>k__BackingField, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__songAudioClip_k__BackingField, put = __cordl_internal_set__songAudioClip_k__BackingField)) ::UnityW<::UnityEngine::AudioClip>
       _songAudioClip_k__BackingField;
 
-  /// @brief Field <transformedBeatmapData>k__BackingField, offset 0x78, size 0x8
+  /// @brief Field <transformedBeatmapData>k__BackingField, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__transformedBeatmapData_k__BackingField,
                       put = __cordl_internal_set__transformedBeatmapData_k__BackingField)) ::GlobalNamespace::IReadonlyBeatmapData* _transformedBeatmapData_k__BackingField;
 
-  /// @brief Field beatmapBasicData, offset 0x20, size 0x8
+  /// @brief Field beatmapBasicData, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_beatmapBasicData, put = __cordl_internal_set_beatmapBasicData)) ::GlobalNamespace::BeatmapBasicData* beatmapBasicData;
 
-  /// @brief Field beatmapKey, offset 0x10, size 0x10
+  /// @brief Field beatmapKey, offset 0x10, size 0x18
   __declspec(property(get = __cordl_internal_get_beatmapKey, put = __cordl_internal_set_beatmapKey)) ::GlobalNamespace::BeatmapKey beatmapKey;
 
-  /// @brief Field beatmapLevel, offset 0x28, size 0x8
+  /// @brief Field beatmapLevel, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_beatmapLevel, put = __cordl_internal_set_beatmapLevel)) ::GlobalNamespace::BeatmapLevel* beatmapLevel;
 
   __declspec(property(get = get_beatmapLevelData, put = set_beatmapLevelData)) ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData;
 
-  /// @brief Field colorScheme, offset 0x58, size 0x8
+  /// @brief Field colorScheme, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_colorScheme, put = __cordl_internal_set_colorScheme)) ::GlobalNamespace::ColorScheme* colorScheme;
 
-  /// @brief Field environmentsListModel, offset 0x60, size 0x8
+  /// @brief Field environmentsListModel, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_environmentsListModel, put = __cordl_internal_set_environmentsListModel)) ::GlobalNamespace::EnvironmentsListModel* environmentsListModel;
 
-  /// @brief Field gameplayModifiers, offset 0x30, size 0x8
+  /// @brief Field gameplayModifiers, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_gameplayModifiers, put = __cordl_internal_set_gameplayModifiers)) ::GlobalNamespace::GameplayModifiers* gameplayModifiers;
 
-  /// @brief Field originalEnvironmentInfo, offset 0x50, size 0x8
+  /// @brief Field originalEnvironmentInfo, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_originalEnvironmentInfo, put = __cordl_internal_set_originalEnvironmentInfo)) ::UnityW<::GlobalNamespace::EnvironmentInfoSO> originalEnvironmentInfo;
 
-  /// @brief Field playerSpecificSettings, offset 0x38, size 0x8
+  /// @brief Field playerSpecificSettings, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_playerSpecificSettings, put = __cordl_internal_set_playerSpecificSettings)) ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings;
 
-  /// @brief Field practiceSettings, offset 0x40, size 0x8
+  /// @brief Field practiceSettings, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_practiceSettings, put = __cordl_internal_set_practiceSettings)) ::GlobalNamespace::PracticeSettings* practiceSettings;
 
   __declspec(property(get = get_songAudioClip, put = set_songAudioClip)) ::UnityW<::UnityEngine::AudioClip> songAudioClip;
 
-  /// @brief Field targetEnvironmentInfo, offset 0x48, size 0x8
+  /// @brief Field targetEnvironmentInfo, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_targetEnvironmentInfo, put = __cordl_internal_set_targetEnvironmentInfo)) ::UnityW<::GlobalNamespace::EnvironmentInfoSO> targetEnvironmentInfo;
 
   __declspec(property(get = get_transformedBeatmapData, put = set_transformedBeatmapData)) ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData;
 
-  /// @brief Method ApplyDisableUpdateAlwaysConfiguration, addr 0x5d27734, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ApplyDisableUpdateAlwaysConfiguration, addr 0x5d61a50, size 0x7c, virtual false, abstract: false, final false
   inline void ApplyDisableUpdateAlwaysConfiguration();
 
   /// [NullableContext(1)]
+  /// [AsyncStateMachine(typeof(GameplayCoreSceneSetupData::<LoadAndTransformBeatmapDataAsync>d__32))]
+  /// @brief Method LoadAndTransformBeatmapDataAsync, addr 0x5d61b7c, size 0xb4, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* LoadAndTransformBeatmapDataAsync();
+
+  /// [NullableContext(1)]
   /// [AsyncStateMachine(typeof(GameplayCoreSceneSetupData::<LoadTransformedBeatmapDataAsync>d__31))]
-  /// @brief Method LoadTransformedBeatmapDataAsync, addr 0x5d277b0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method LoadTransformedBeatmapDataAsync, addr 0x5d61acc, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadTransformedBeatmapDataAsync();
 
   /// @brief [NullableContext(1)]
@@ -402,7 +483,7 @@ public:
   constexpr void __cordl_internal_set_targetEnvironmentInfo(::UnityW<::GlobalNamespace::EnvironmentInfoSO> value);
 
   /// [NullableContext(1)]
-  /// @brief Method .ctor, addr 0x5d274c0, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d617c4, size 0x28c, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                     ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, /* [Nullable(2)] */ ::GlobalNamespace::PracticeSettings* practiceSettings,
                     ::GlobalNamespace::EnvironmentInfoSO* targetEnvironmentInfo, ::GlobalNamespace::EnvironmentInfoSO* originalEnvironmentInfo, ::GlobalNamespace::ColorScheme* colorScheme,
@@ -412,27 +493,27 @@ public:
                     /* [Nullable(2)] */ ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel, /* [Nullable(2)] */ ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
 
   /// [CompilerGenerated]
-  /// @brief Method get_beatmapLevelData, addr 0x5d274a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapLevelData, addr 0x5d617a4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();
 
   /// [CompilerGenerated]
-  /// @brief Method get_songAudioClip, addr 0x5d27490, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songAudioClip, addr 0x5d61794, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioClip> get_songAudioClip();
 
   /// [CompilerGenerated]
-  /// @brief Method get_transformedBeatmapData, addr 0x5d274b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_transformedBeatmapData, addr 0x5d617b4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IReadonlyBeatmapData* get_transformedBeatmapData();
 
   /// [CompilerGenerated]
-  /// @brief Method set_beatmapLevelData, addr 0x5d274a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapLevelData, addr 0x5d617ac, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapLevelData(::GlobalNamespace::IBeatmapLevelData* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_songAudioClip, addr 0x5d27498, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_songAudioClip, addr 0x5d6179c, size 0x8, virtual false, abstract: false, final false
   inline void set_songAudioClip(::UnityEngine::AudioClip* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_transformedBeatmapData, addr 0x5d274b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_transformedBeatmapData, addr 0x5d617bc, size 0x8, virtual false, abstract: false, final false
   inline void set_transformedBeatmapData(::GlobalNamespace::IReadonlyBeatmapData* value);
 
 protected:
@@ -450,79 +531,79 @@ public:
   GameplayCoreSceneSetupData(GameplayCoreSceneSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6842 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6848 };
 
-  /// @brief Field beatmapKey, offset: 0x10, size: 0x10, def value: None
+  /// @brief Field beatmapKey, offset: 0x10, size: 0x18, def value: None
   ::GlobalNamespace::BeatmapKey ___beatmapKey;
 
   /// [Nullable(1)]
-  /// @brief Field beatmapBasicData, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field beatmapBasicData, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapBasicData* ___beatmapBasicData;
 
   /// [Nullable(1)]
-  /// @brief Field beatmapLevel, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field beatmapLevel, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevel* ___beatmapLevel;
 
   /// [Nullable(1)]
-  /// @brief Field gameplayModifiers, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field gameplayModifiers, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::GameplayModifiers* ___gameplayModifiers;
 
   /// [Nullable(1)]
-  /// @brief Field playerSpecificSettings, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field playerSpecificSettings, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::PlayerSpecificSettings* ___playerSpecificSettings;
 
-  /// @brief Field practiceSettings, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field practiceSettings, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::PracticeSettings* ___practiceSettings;
 
   /// [Nullable(1)]
-  /// @brief Field targetEnvironmentInfo, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field targetEnvironmentInfo, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EnvironmentInfoSO> ___targetEnvironmentInfo;
 
   /// [Nullable(1)]
-  /// @brief Field originalEnvironmentInfo, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field originalEnvironmentInfo, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EnvironmentInfoSO> ___originalEnvironmentInfo;
 
   /// [Nullable(1)]
-  /// @brief Field colorScheme, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field colorScheme, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::ColorScheme* ___colorScheme;
 
-  /// @brief Field environmentsListModel, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field environmentsListModel, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentsListModel* ___environmentsListModel;
 
   /// [CompilerGenerated]
-  /// @brief Field <songAudioClip>k__BackingField, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field <songAudioClip>k__BackingField, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioClip> ____songAudioClip_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <beatmapLevelData>k__BackingField, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field <beatmapLevelData>k__BackingField, offset: 0x78, size: 0x8, def value: None
   ::GlobalNamespace::IBeatmapLevelData* ____beatmapLevelData_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <transformedBeatmapData>k__BackingField, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field <transformedBeatmapData>k__BackingField, offset: 0x80, size: 0x8, def value: None
   ::GlobalNamespace::IReadonlyBeatmapData* ____transformedBeatmapData_k__BackingField;
 
   /// [Nullable(1)]
-  /// @brief Field _settingsManager, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _settingsManager, offset: 0x88, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
-  /// @brief Field _beatmapLevelsModel, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field _beatmapLevelsModel, offset: 0x90, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
 
-  /// @brief Field _beatmapLevelsEntitlementModel, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field _beatmapLevelsEntitlementModel, offset: 0x98, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsEntitlementModel* ____beatmapLevelsEntitlementModel;
 
   /// [Nullable(1)]
-  /// @brief Field _audioClipAsyncLoader, offset: 0x98, size: 0x8, def value: None
+  /// @brief Field _audioClipAsyncLoader, offset: 0xa0, size: 0x8, def value: None
   ::GlobalNamespace::AudioClipAsyncLoader* ____audioClipAsyncLoader;
 
   /// [Nullable(1)]
-  /// @brief Field _beatmapDataLoader, offset: 0xa0, size: 0x8, def value: None
+  /// @brief Field _beatmapDataLoader, offset: 0xa8, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataLoader* ____beatmapDataLoader;
 
-  /// @brief Field _allowNullBeatmapLevelData, offset: 0xa8, size: 0x1, def value: None
+  /// @brief Field _allowNullBeatmapLevelData, offset: 0xb0, size: 0x1, def value: None
   bool ____allowNullBeatmapLevelData;
 
-  /// @brief Field _enableBeatmapDataCaching, offset: 0xa9, size: 0x1, def value: None
+  /// @brief Field _enableBeatmapDataCaching, offset: 0xb1, size: 0x1, def value: None
   bool ____enableBeatmapDataCaching;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -530,44 +611,44 @@ public:
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ___beatmapKey) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ___beatmapBasicData) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ___beatmapBasicData) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ___beatmapLevel) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ___beatmapLevel) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ___gameplayModifiers) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ___gameplayModifiers) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ___playerSpecificSettings) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ___playerSpecificSettings) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ___practiceSettings) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ___practiceSettings) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ___targetEnvironmentInfo) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ___targetEnvironmentInfo) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ___originalEnvironmentInfo) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ___originalEnvironmentInfo) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ___colorScheme) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ___colorScheme) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ___environmentsListModel) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ___environmentsListModel) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ____songAudioClip_k__BackingField) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ____songAudioClip_k__BackingField) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ____beatmapLevelData_k__BackingField) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ____beatmapLevelData_k__BackingField) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ____transformedBeatmapData_k__BackingField) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ____transformedBeatmapData_k__BackingField) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ____settingsManager) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ____settingsManager) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ____beatmapLevelsModel) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ____beatmapLevelsModel) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ____beatmapLevelsEntitlementModel) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ____beatmapLevelsEntitlementModel) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ____audioClipAsyncLoader) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ____audioClipAsyncLoader) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ____beatmapDataLoader) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ____beatmapDataLoader) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ____allowNullBeatmapLevelData) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ____allowNullBeatmapLevelData) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ____enableBeatmapDataCaching) == 0xa9, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ____enableBeatmapDataCaching) == 0xb1, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::GameplayCoreSceneSetupData) == 0xb0, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::GameplayCoreSceneSetupData) == 0xb8, "Size mismatch!");
 
 } // namespace GlobalNamespace

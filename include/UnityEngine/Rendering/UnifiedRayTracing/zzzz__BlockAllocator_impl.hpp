@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation::get_valid)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6e036a0;
+  constexpr static std::size_t addrs = 0x6e4033c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::get_freeElementsCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e07ec8;
+  constexpr static std::size_t addrs = 0x6e44b64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::get_freeBlocks)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6e07ed0;
+  constexpr static std::size_t addrs = 0x6e44b6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::get_capacity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e07f34;
+  constexpr static std::size_t addrs = 0x6e44bd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::get_allocatedSize)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e07f3c;
+  constexpr static std::size_t addrs = 0x6e44bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::*)(int32_t)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::Initialize)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x6e03090;
+  constexpr static std::size_t addrs = 0x6e3fd2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::*)(int32_t, int32_t)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::CalculateGeometricGrowthCapacity)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6e07f48;
+  constexpr static std::size_t addrs = 0x6e44be4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator>(),
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::*)(int32_t, int32_t)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::Grow)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6e07f70;
+  constexpr static std::size_t addrs = 0x6e44c0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::*)(int32_t, int32_t, ::by_ref<int32_t>)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::GetExpectedGrowthToFitAllocation)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x6e08240;
+  constexpr static std::size_t addrs = 0x6e44edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation (::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::*)(
     int32_t, ::by_ref<int32_t>, ::by_ref<int32_t>)>(&::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::GrowAndAllocate)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6e0839c;
+  constexpr static std::size_t addrs = 0x6e45038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation (::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::*)(
     int32_t, int32_t, ::by_ref<int32_t>, ::by_ref<int32_t>)>(&::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::GrowAndAllocate)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x6e0463c;
+  constexpr static std::size_t addrs = 0x6e412d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::Dispose)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6e033d4;
+  constexpr static std::size_t addrs = 0x6e40070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator>(), { "Dispose", {}, {} })));
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation (::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::*)(
     int32_t)>(&::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::Allocate)> {
   constexpr static std::size_t size = 0x404;
-  constexpr static std::size_t addrs = 0x6e04210;
+  constexpr static std::size_t addrs = 0x6e40eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::*)(int32_t)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::MergeBlockFrontBack)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x6e08070;
+  constexpr static std::size_t addrs = 0x6e44d0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::*)(
     ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation const>)>(&::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::FreeAllocation)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x6e036b0;
+  constexpr static std::size_t addrs = 0x6e4034c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -262,7 +262,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::R
     ::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::*)(::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation const>, int32_t)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator::SplitAllocation)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x6e083bc;
+  constexpr static std::size_t addrs = 0x6e45058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

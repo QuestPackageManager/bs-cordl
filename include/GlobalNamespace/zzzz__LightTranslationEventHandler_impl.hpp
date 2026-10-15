@@ -22,7 +22,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     bool, bool, bool, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2,
     ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::GlobalNamespace::CompositeTransformMode)>(&::GlobalNamespace::LightTranslationEventHandler_InitData::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5dab710;
+  constexpr static std::size_t addrs = 0x5de8984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationEventHandler::*)(
     ::GlobalNamespace::LightTranslationEventHandler_InitData*, ::Tweening::SongTimeTweeningManager*)>(&::GlobalNamespace::LightTranslationEventHandler::_ctor)> {
   constexpr static std::size_t size = 0xd70;
-  constexpr static std::size_t addrs = 0x5dab744;
+  constexpr static std::size_t addrs = 0x5de89b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -242,7 +242,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationEventHandler::*)()>(&::GlobalNamespace::LightTranslationEventHandler::Cleanup)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5daa474;
+  constexpr static std::size_t addrs = 0x5de76e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationEventHandler*>(), { "Cleanup", {}, {} })));
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationEventHandler::*)(::GlobalNamespace::LightTranslationBeatmapEventData*)>(
     &::GlobalNamespace::LightTranslationEventHandler::HandleTranslationEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5dacfa4;
+  constexpr static std::size_t addrs = 0x5dea218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -271,7 +271,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                                  ::UnityEngine::Vector2, ::UnityEngine::Vector2, bool)>(
     &::GlobalNamespace::LightTranslationEventHandler::ProcessAxisEvent)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x5daefe4;
+  constexpr static std::size_t addrs = 0x5dec164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -287,12 +287,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationEventHandler::*)(float_t)>(&::GlobalNamespace::LightTranslationEventHandler::SetTranslation)> {
-  constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x5daf1e4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5dec364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationEventHandler*>(), { "SetTranslation", {}, { ::i2c::type_of<float_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::LightTranslationEventHandler.ApplyCurrentTranslation
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationEventHandler::*)()>(&::GlobalNamespace::LightTranslationEventHandler::ApplyCurrentTranslation)> {
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x5dec368;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationEventHandler*>(), { "ApplyCurrentTranslation", {}, {} })));
     return ___internal_method;
   }
 };
@@ -302,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Tweening::FloatTween*, float_t, float_t, float_t, float_t, ::GlobalNamespace::EaseType)>(
     &::GlobalNamespace::LightTranslationEventHandler::SetTweenData)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5daf1c4;
+  constexpr static std::size_t addrs = 0x5dec344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -320,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, ::UnityEngine::Vector2, float_t, ::UnityEngine::Vector2, bool)>(
     &::GlobalNamespace::LightTranslationEventHandler::ComputeTranslation)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5daf178;
+  constexpr static std::size_t addrs = 0x5dec2f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -558,6 +571,10 @@ inline void GlobalNamespace::LightTranslationEventHandler::SetTranslation(float_
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationEventHandler*>(), { "SetTranslation", {}, { ::i2c::type_of<float_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, _);
+}
+inline void GlobalNamespace::LightTranslationEventHandler::ApplyCurrentTranslation() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationEventHandler*>(), { "ApplyCurrentTranslation", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::LightTranslationEventHandler::SetTweenData(::Tweening::FloatTween* tween, float_t from, float_t to, float_t startTime, float_t endTime,
                                                                         ::GlobalNamespace::EaseType easeType) {

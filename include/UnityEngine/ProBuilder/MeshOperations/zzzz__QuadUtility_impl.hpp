@@ -16,7 +16,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::UnityEngine::ProBuilder::Face*>* (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>*, bool)>(
     &::UnityEngine::ProBuilder::MeshOperations::QuadUtility::ToQuads)> {
   constexpr static std::size_t size = 0x800;
-  constexpr static std::size_t addrs = 0x6b49b0c;
+  constexpr static std::size_t addrs = 0x6b86788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::ProBuilder::Face* (*)(::UnityEngine::ProBuilder::WingedEdge*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::EdgeLookup, float_t>*)>(
         &::UnityEngine::ProBuilder::MeshOperations::QuadUtility::GetBestQuadConnection)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x6b4de00;
+  constexpr static std::size_t addrs = 0x6b8aa7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::WingedEdge*,
                                                                    float_t)>(&::UnityEngine::ProBuilder::MeshOperations::QuadUtility::GetQuadScore)> {
   constexpr static std::size_t size = 0x5d0;
-  constexpr static std::size_t addrs = 0x6b4d830;
+  constexpr static std::size_t addrs = 0x6b8a4ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

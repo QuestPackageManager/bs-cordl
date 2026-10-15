@@ -2,6 +2,7 @@
 // IWYU pragma private; include "GlobalNamespace/LevelFilter.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficultyMask_impl.hpp"
 #include "GlobalNamespace/zzzz__EntitlementStatus_impl.hpp"
+#include "GlobalNamespace/zzzz__GameplayType_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerSensitivityFlag_impl.hpp"
 #include "GlobalNamespace/zzzz__SongPackMask_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
@@ -14,6 +15,7 @@
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelPack_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayType_def.hpp"
 #include "GlobalNamespace/zzzz__IEntitlementModel_def.hpp"
 #include "GlobalNamespace/zzzz__LevelFilter_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
@@ -25,12 +27,13 @@
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
 #include "System/zzzz__ValueTuple_2_def.hpp"
+#include "System/zzzz__ValueTuple_3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LevelFilter___c._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelFilter___c::*)()>(&::GlobalNamespace::LevelFilter___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39b59d0;
+  constexpr static std::size_t addrs = 0x39dbf00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter___c*>(), { ".ctor", {}, {} })));
@@ -44,7 +47,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<int32_t (::GlobalNamespace::LevelFilter___c::*)(::System::ValueTuple_2<int32_t, ::GlobalNamespace::BeatmapLevel*>, ::System::ValueTuple_2<int32_t, ::GlobalNamespace::BeatmapLevel*>)>(
         &::GlobalNamespace::LevelFilter___c::_FilterLevelByText_b__15_0)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x39b59d4;
+  constexpr static std::size_t addrs = 0x39dbf04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelFilter___c__DisplayClass14_0::*)()>(&::GlobalNamespace::LevelFilter___c__DisplayClass14_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39b57d4;
+  constexpr static std::size_t addrs = 0x39dbcf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter___c__DisplayClass14_0*>(), { ".ctor", {}, {} })));
@@ -104,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LevelFilter___c__DisplayClass14_0::*)(::GlobalNamespace::BeatmapCharacteristic)>(
     &::GlobalNamespace::LevelFilter___c__DisplayClass14_0::_FilterLevelsAsync_b__3)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x39b5a14;
+  constexpr static std::size_t addrs = 0x39dbf44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter___c__DisplayClass14_0*>(),
@@ -143,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelFilter___c__DisplayClass14_1::*)()>(&::GlobalNamespace::LevelFilter___c__DisplayClass14_1::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39b5978;
+  constexpr static std::size_t addrs = 0x39dbea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter___c__DisplayClass14_1*>(), { ".ctor", {}, {} })));
@@ -154,18 +157,33 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LevelFilter___c__DisplayClass14_1::*)(
-    ::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>)>(&::GlobalNamespace::LevelFilter___c__DisplayClass14_1::_FilterLevelsAsync_b__4)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x39b5a84;
+    ::System::ValueTuple_3<::GlobalNamespace::GameplayType, ::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>)>(
+    &::GlobalNamespace::LevelFilter___c__DisplayClass14_1::_FilterLevelsAsync_b__4)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x39dbfb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter___c__DisplayClass14_1*>(),
-                            { "<FilterLevelsAsync>b__4", {}, { ::i2c::type_of<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>>() } })));
+                            { "<FilterLevelsAsync>b__4",
+                              {},
+                              { ::i2c::type_of<::System::ValueTuple_3<::GlobalNamespace::GameplayType, ::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>>() } })));
     return ___internal_method;
   }
 };
+constexpr ::GlobalNamespace::GameplayType& GlobalNamespace::LevelFilter___c__DisplayClass14_1::__cordl_internal_get_gameplayType() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___gameplayType;
+}
+constexpr ::GlobalNamespace::GameplayType const& GlobalNamespace::LevelFilter___c__DisplayClass14_1::__cordl_internal_get_gameplayType() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___gameplayType;
+}
+constexpr void GlobalNamespace::LevelFilter___c__DisplayClass14_1::__cordl_internal_set_gameplayType(::GlobalNamespace::GameplayType value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___gameplayType = value;
+}
 constexpr ::GlobalNamespace::BeatmapDifficultyMask& GlobalNamespace::LevelFilter___c__DisplayClass14_1::__cordl_internal_get_difficultyFilter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___difficultyFilter;
@@ -194,12 +212,15 @@ inline void GlobalNamespace::LevelFilter___c__DisplayClass14_1::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter___c__DisplayClass14_1*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool GlobalNamespace::LevelFilter___c__DisplayClass14_1::_FilterLevelsAsync_b__4(
-    /* [TupleElementNames(new[] { "characteristic", "difficulty" })] */ ::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty> entry) {
+inline bool GlobalNamespace::LevelFilter___c__DisplayClass14_1::_FilterLevelsAsync_b__4(/* [TupleElementNames(new[] { "gameplayType", "characteristic", "difficulty" })] */ ::System::ValueTuple_3<
+                                                                                        ::GlobalNamespace::GameplayType, ::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>
+                                                                                            entry) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter___c__DisplayClass14_1*>(),
-                          { "<FilterLevelsAsync>b__4", {}, { ::i2c::type_of<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>>() } })));
+                          { "<FilterLevelsAsync>b__4",
+                            {},
+                            { ::i2c::type_of<::System::ValueTuple_3<::GlobalNamespace::GameplayType, ::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, entry);
 }
 inline ::GlobalNamespace::LevelFilter___c__DisplayClass14_1* GlobalNamespace::LevelFilter___c__DisplayClass14_1::New_ctor() {
@@ -212,7 +233,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::GlobalNamespace::LevelFilter const>, bool)>(&::GlobalNamespace::LevelFilter::IsWithoutFilter)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39b48b0;
+  constexpr static std::size_t addrs = 0x39dad80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -224,40 +245,42 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Globa
 //  Writing Method size for method: ::GlobalNamespace::LevelFilter.FilterLevelsAsync
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<
-    ::ArrayW<::GlobalNamespace::BeatmapLevel*>>* (*)(::ArrayW<::GlobalNamespace::BeatmapLevelPack*>, ::GlobalNamespace::LevelFilter, ::GlobalNamespace::PlayerDataModel*,
-                                                     ::GlobalNamespace::IEntitlementModel*, ::System::Threading::CancellationToken)>(&::GlobalNamespace::LevelFilter::FilterLevelsAsync)> {
-  constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x39b494c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter>(), { "FilterLevelsAsync",
-                                                                                 {},
-                                                                                 { ::i2c::type_of<::ArrayW<::GlobalNamespace::BeatmapLevelPack*>>(), ::i2c::type_of<::GlobalNamespace::LevelFilter>(),
-                                                                                   ::i2c::type_of<::GlobalNamespace::PlayerDataModel*>(), ::i2c::type_of<::GlobalNamespace::IEntitlementModel*>(),
-                                                                                   ::i2c::type_of<::System::Threading::CancellationToken>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::LevelFilter.FilterLevelsAsync
-template <>
-
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::ArrayW<
-    ::GlobalNamespace::BeatmapLevel*>>* (*)(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevel*>*, ::GlobalNamespace::LevelFilter, ::GlobalNamespace::PlayerDataModel*,
+    ::GlobalNamespace::BeatmapLevel*>>* (*)(::ArrayW<::GlobalNamespace::BeatmapLevelPack*>, ::GlobalNamespace::LevelFilter, ::GlobalNamespace::GameplayType, ::GlobalNamespace::PlayerDataModel*,
                                             ::GlobalNamespace::IEntitlementModel*, ::System::Threading::CancellationToken)>(&::GlobalNamespace::LevelFilter::FilterLevelsAsync)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x39b4b44;
+  constexpr static std::size_t size = 0x200;
+  constexpr static std::size_t addrs = 0x39dae1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter>(),
                                                              { "FilterLevelsAsync",
                                                                {},
-                                                               { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevel*>*>(),
-                                                                 ::i2c::type_of<::GlobalNamespace::LevelFilter>(), ::i2c::type_of<::GlobalNamespace::PlayerDataModel*>(),
+                                                               { ::i2c::type_of<::ArrayW<::GlobalNamespace::BeatmapLevelPack*>>(), ::i2c::type_of<::GlobalNamespace::LevelFilter>(),
+                                                                 ::i2c::type_of<::GlobalNamespace::GameplayType>(), ::i2c::type_of<::GlobalNamespace::PlayerDataModel*>(),
                                                                  ::i2c::type_of<::GlobalNamespace::IEntitlementModel*>(), ::i2c::type_of<::System::Threading::CancellationToken>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::LevelFilter.FilterLevelsAsync
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<
+    ::ArrayW<::GlobalNamespace::BeatmapLevel*>>* (*)(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevel*>*, ::GlobalNamespace::LevelFilter, ::GlobalNamespace::GameplayType,
+                                                     ::GlobalNamespace::PlayerDataModel*, ::GlobalNamespace::IEntitlementModel*, ::System::Threading::CancellationToken)>(
+    &::GlobalNamespace::LevelFilter::FilterLevelsAsync)> {
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x39db01c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter>(),
+                                         { "FilterLevelsAsync",
+                                           {},
+                                           { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevel*>*>(), ::i2c::type_of<::GlobalNamespace::LevelFilter>(),
+                                             ::i2c::type_of<::GlobalNamespace::GameplayType>(), ::i2c::type_of<::GlobalNamespace::PlayerDataModel*>(),
+                                             ::i2c::type_of<::GlobalNamespace::IEntitlementModel*>(), ::i2c::type_of<::System::Threading::CancellationToken>() } })));
     return ___internal_method;
   }
 };
@@ -268,7 +291,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>* (*)(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>*, ::ArrayW<::StringW>)>(
         &::GlobalNamespace::LevelFilter::FilterLevelByText)> {
   constexpr static std::size_t size = 0x4fc;
-  constexpr static std::size_t addrs = 0x39b4c5c;
+  constexpr static std::size_t addrs = 0x39db144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -283,7 +306,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::GlobalNamespace::LevelFilter::CleanText)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x39b5158;
+  constexpr static std::size_t addrs = 0x39db640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter>(), { "CleanText", {}, { ::i2c::type_of<::StringW>() } })));
@@ -293,48 +316,53 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>
 //  Writing Method size for method: ::GlobalNamespace::LevelFilter._FilterLevelsAsync_g__HasPlayedAnyDifficulty_14_0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::PlayerDataModel*)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::GameplayType, ::GlobalNamespace::PlayerDataModel*)>(
     &::GlobalNamespace::LevelFilter::_FilterLevelsAsync_g__HasPlayedAnyDifficulty_14_0)> {
-  constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x39b5398;
+  constexpr static std::size_t size = 0x344;
+  constexpr static std::size_t addrs = 0x39db880;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(
-                         ::i2c::class_of<::GlobalNamespace::LevelFilter>(),
-                         { "<FilterLevelsAsync>g__HasPlayedAnyDifficulty|14_0", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>(), ::i2c::type_of<::GlobalNamespace::PlayerDataModel*>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter>(),
+                            { "<FilterLevelsAsync>g__HasPlayedAnyDifficulty|14_0",
+                              {},
+                              { ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>(), ::i2c::type_of<::GlobalNamespace::GameplayType>(), ::i2c::type_of<::GlobalNamespace::PlayerDataModel*>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LevelFilter._FilterLevelsAsync_g__MatchesCharacteristic_14_1
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::BeatmapLevel*, ::StringW)>(&::GlobalNamespace::LevelFilter::_FilterLevelsAsync_g__MatchesCharacteristic_14_1)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x39b56ac;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::GameplayType, ::StringW)>(
+    &::GlobalNamespace::LevelFilter::_FilterLevelsAsync_g__MatchesCharacteristic_14_1)> {
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x39dbbc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter>(),
-                                                { "<FilterLevelsAsync>g__MatchesCharacteristic|14_1", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>(), ::i2c::type_of<::StringW>() } })));
+                                                { "<FilterLevelsAsync>g__MatchesCharacteristic|14_1",
+                                                  {},
+                                                  { ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>(), ::i2c::type_of<::GlobalNamespace::GameplayType>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LevelFilter._FilterLevelsAsync_g__MatchesDifficulty_14_2
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::BeatmapDifficultyMask, ::StringW)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::GameplayType, ::GlobalNamespace::BeatmapDifficultyMask, ::StringW)>(
     &::GlobalNamespace::LevelFilter::_FilterLevelsAsync_g__MatchesDifficulty_14_2)> {
-  constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x39b57d8;
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x39dbcf8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter>(),
-                                                { "<FilterLevelsAsync>g__MatchesDifficulty|14_2",
-                                                  {},
-                                                  { ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>(), ::i2c::type_of<::GlobalNamespace::BeatmapDifficultyMask>(), ::i2c::type_of<::StringW>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter>(), { "<FilterLevelsAsync>g__MatchesDifficulty|14_2",
+                                                                                              {},
+                                                                                              { ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>(), ::i2c::type_of<::GlobalNamespace::GameplayType>(),
+                                                                                                ::i2c::type_of<::GlobalNamespace::BeatmapDifficultyMask>(), ::i2c::type_of<::StringW>() } })));
     return ___internal_method;
   }
 };
@@ -343,7 +371,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, ::ArrayW<::StringW>)>(&::GlobalNamespace::LevelFilter::_FilterLevelByText_g__CalculateMatchScore_15_1)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x39b51ec;
+  constexpr static std::size_t addrs = 0x39db6d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -365,31 +393,32 @@ inline bool GlobalNamespace::LevelFilter::IsWithoutFilter(/* [IsReadOnly] */ ::b
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, filter, ignoreFilterBySongs);
 }
 inline ::System::Threading::Tasks::Task_1<::ArrayW<::GlobalNamespace::BeatmapLevel*>>*
-GlobalNamespace::LevelFilter::FilterLevelsAsync(::ArrayW<::GlobalNamespace::BeatmapLevelPack*> packs, ::GlobalNamespace::LevelFilter filter, ::GlobalNamespace::PlayerDataModel* playerDataModel,
-                                                ::GlobalNamespace::IEntitlementModel* levelsModel, ::System::Threading::CancellationToken cancellationToken) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter>(),
-                          { "FilterLevelsAsync",
-                            {},
-                            { ::i2c::type_of<::ArrayW<::GlobalNamespace::BeatmapLevelPack*>>(), ::i2c::type_of<::GlobalNamespace::LevelFilter>(), ::i2c::type_of<::GlobalNamespace::PlayerDataModel*>(),
-                              ::i2c::type_of<::GlobalNamespace::IEntitlementModel*>(), ::i2c::type_of<::System::Threading::CancellationToken>() } })));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::ArrayW<::GlobalNamespace::BeatmapLevel*>>*>(nullptr, ___internal_method, packs, filter, playerDataModel, levelsModel,
-                                                                                                                              cancellationToken);
-}
-inline ::System::Threading::Tasks::Task_1<::ArrayW<::GlobalNamespace::BeatmapLevel*>>*
-GlobalNamespace::LevelFilter::FilterLevelsAsync(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevel*>* beatmapLevels, ::GlobalNamespace::LevelFilter filter,
+GlobalNamespace::LevelFilter::FilterLevelsAsync(::ArrayW<::GlobalNamespace::BeatmapLevelPack*> packs, ::GlobalNamespace::LevelFilter filter, ::GlobalNamespace::GameplayType gameplayType,
                                                 ::GlobalNamespace::PlayerDataModel* playerDataModel, ::GlobalNamespace::IEntitlementModel* levelsModel,
                                                 ::System::Threading::CancellationToken cancellationToken) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter>(),
                                                            { "FilterLevelsAsync",
                                                              {},
-                                                             { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevel*>*>(),
-                                                               ::i2c::type_of<::GlobalNamespace::LevelFilter>(), ::i2c::type_of<::GlobalNamespace::PlayerDataModel*>(),
+                                                             { ::i2c::type_of<::ArrayW<::GlobalNamespace::BeatmapLevelPack*>>(), ::i2c::type_of<::GlobalNamespace::LevelFilter>(),
+                                                               ::i2c::type_of<::GlobalNamespace::GameplayType>(), ::i2c::type_of<::GlobalNamespace::PlayerDataModel*>(),
                                                                ::i2c::type_of<::GlobalNamespace::IEntitlementModel*>(), ::i2c::type_of<::System::Threading::CancellationToken>() } })));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::ArrayW<::GlobalNamespace::BeatmapLevel*>>*>(nullptr, ___internal_method, beatmapLevels, filter, playerDataModel,
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::ArrayW<::GlobalNamespace::BeatmapLevel*>>*>(nullptr, ___internal_method, packs, filter, gameplayType, playerDataModel,
                                                                                                                               levelsModel, cancellationToken);
+}
+inline ::System::Threading::Tasks::Task_1<::ArrayW<::GlobalNamespace::BeatmapLevel*>>*
+GlobalNamespace::LevelFilter::FilterLevelsAsync(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevel*>* beatmapLevels, ::GlobalNamespace::LevelFilter filter,
+                                                ::GlobalNamespace::GameplayType gameplayType, ::GlobalNamespace::PlayerDataModel* playerDataModel, ::GlobalNamespace::IEntitlementModel* levelsModel,
+                                                ::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter>(),
+                                              { "FilterLevelsAsync",
+                                                {},
+                                                { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevel*>*>(), ::i2c::type_of<::GlobalNamespace::LevelFilter>(),
+                                                  ::i2c::type_of<::GlobalNamespace::GameplayType>(), ::i2c::type_of<::GlobalNamespace::PlayerDataModel*>(),
+                                                  ::i2c::type_of<::GlobalNamespace::IEntitlementModel*>(), ::i2c::type_of<::System::Threading::CancellationToken>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::ArrayW<::GlobalNamespace::BeatmapLevel*>>*>(nullptr, ___internal_method, beatmapLevels, filter, gameplayType,
+                                                                                                                              playerDataModel, levelsModel, cancellationToken);
 }
 inline ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>*
 GlobalNamespace::LevelFilter::FilterLevelByText(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>* levels, ::ArrayW<::StringW> searchTerms) {
@@ -403,27 +432,34 @@ inline ::StringW GlobalNamespace::LevelFilter::CleanText(::StringW s) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter>(), { "CleanText", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, s);
 }
-inline bool GlobalNamespace::LevelFilter::_FilterLevelsAsync_g__HasPlayedAnyDifficulty_14_0(::GlobalNamespace::BeatmapLevel* level, ::GlobalNamespace::PlayerDataModel* playerDataModel) {
+inline bool GlobalNamespace::LevelFilter::_FilterLevelsAsync_g__HasPlayedAnyDifficulty_14_0(::GlobalNamespace::BeatmapLevel* level, ::GlobalNamespace::GameplayType gameplayType,
+                                                                                            ::GlobalNamespace::PlayerDataModel* playerDataModel) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter>(),
-                          { "<FilterLevelsAsync>g__HasPlayedAnyDifficulty|14_0", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>(), ::i2c::type_of<::GlobalNamespace::PlayerDataModel*>() } })));
-  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, level, playerDataModel);
+                          { "<FilterLevelsAsync>g__HasPlayedAnyDifficulty|14_0",
+                            {},
+                            { ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>(), ::i2c::type_of<::GlobalNamespace::GameplayType>(), ::i2c::type_of<::GlobalNamespace::PlayerDataModel*>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, level, gameplayType, playerDataModel);
 }
-inline bool GlobalNamespace::LevelFilter::_FilterLevelsAsync_g__MatchesCharacteristic_14_1(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::StringW characteristicFilter) {
+inline bool GlobalNamespace::LevelFilter::_FilterLevelsAsync_g__MatchesCharacteristic_14_1(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayType gameplayType,
+                                                                                           ::StringW characteristicFilter) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter>(),
-                                              { "<FilterLevelsAsync>g__MatchesCharacteristic|14_1", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>(), ::i2c::type_of<::StringW>() } })));
-  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, beatmapLevel, characteristicFilter);
-}
-inline bool GlobalNamespace::LevelFilter::_FilterLevelsAsync_g__MatchesDifficulty_14_2(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficultyMask difficultyFilter,
-                                                                                       ::StringW characteristicFilter) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter>(),
-                                              { "<FilterLevelsAsync>g__MatchesDifficulty|14_2",
+                                              { "<FilterLevelsAsync>g__MatchesCharacteristic|14_1",
                                                 {},
-                                                { ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>(), ::i2c::type_of<::GlobalNamespace::BeatmapDifficultyMask>(), ::i2c::type_of<::StringW>() } })));
-  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, beatmapLevel, difficultyFilter, characteristicFilter);
+                                                { ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>(), ::i2c::type_of<::GlobalNamespace::GameplayType>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, beatmapLevel, gameplayType, characteristicFilter);
+}
+inline bool GlobalNamespace::LevelFilter::_FilterLevelsAsync_g__MatchesDifficulty_14_2(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayType gameplayType,
+                                                                                       ::GlobalNamespace::BeatmapDifficultyMask difficultyFilter, ::StringW characteristicFilter) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter>(), { "<FilterLevelsAsync>g__MatchesDifficulty|14_2",
+                                                                                            {},
+                                                                                            { ::i2c::type_of<::GlobalNamespace::BeatmapLevel*>(), ::i2c::type_of<::GlobalNamespace::GameplayType>(),
+                                                                                              ::i2c::type_of<::GlobalNamespace::BeatmapDifficultyMask>(), ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, beatmapLevel, gameplayType, difficultyFilter, characteristicFilter);
 }
 inline int32_t GlobalNamespace::LevelFilter::_FilterLevelByText_g__CalculateMatchScore_15_1(::StringW levelString, ::ArrayW<::StringW> searchTerms) {
   static auto* ___internal_method =
@@ -459,8 +495,8 @@ constexpr ::GlobalNamespace::LevelFilter::LevelFilter() {}
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelFilter__FilterLevelsAsync_d__14::*)()>(&::GlobalNamespace::LevelFilter__FilterLevelsAsync_d__14::MoveNext)> {
-  constexpr static std::size_t size = 0x964;
-  constexpr static std::size_t addrs = 0x39b5b34;
+  constexpr static std::size_t size = 0x9b8;
+  constexpr static std::size_t addrs = 0x39dc074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter__FilterLevelsAsync_d__14>(), { "MoveNext", {}, {} })));
@@ -473,7 +509,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelFilter__FilterLevelsAsync_d__14::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::LevelFilter__FilterLevelsAsync_d__14::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39b6498;
+  constexpr static std::size_t addrs = 0x39dca2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFilter__FilterLevelsAsync_d__14>(),
@@ -500,23 +536,24 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespa
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<::GlobalNamespace::BeatmapLevel*>>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "beatmapLevels",
-// ty: "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevel*>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "filter", ty:
-// "::GlobalNamespace::LevelFilter", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "levelsModel", ty: "::GlobalNamespace::IEntitlementModel*", modifiers: "", def_value:
-// Some("{}"), comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
-// "playerDataModel", ty: "::UnityW<::GlobalNamespace::PlayerDataModel>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_filteredLevels_5__2", ty:
-// "::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__7__wrap2", ty:
-// "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::BeatmapLevel*>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_level_5__4", ty:
-// "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// ty: "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevel*>*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "gameplayType", ty:
+// "::GlobalNamespace::GameplayType", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "filter", ty: "::GlobalNamespace::LevelFilter", modifiers: "", def_value: Some("{}"),
+// comment: None }, CppParam { name: "levelsModel", ty: "::GlobalNamespace::IEntitlementModel*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cancellationToken", ty:
+// "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "playerDataModel", ty: "::UnityW<::GlobalNamespace::PlayerDataModel>", modifiers:
+// "", def_value: Some("{}"), comment: None }, CppParam { name: "_filteredLevels_5__2", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>*", modifiers: "", def_value:
+// Some("{}"), comment: None }, CppParam { name: "__7__wrap2", ty: "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::BeatmapLevel*>*", modifiers: "", def_value: Some("{}"), comment:
+// None }, CppParam { name: "_level_5__4", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::LevelFilter__FilterLevelsAsync_d__14::LevelFilter__FilterLevelsAsync_d__14(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<::GlobalNamespace::BeatmapLevel*>> __t__builder,
-    ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevel*>* beatmapLevels, ::GlobalNamespace::LevelFilter filter, ::GlobalNamespace::IEntitlementModel* levelsModel,
-    ::System::Threading::CancellationToken cancellationToken, ::UnityW<::GlobalNamespace::PlayerDataModel> playerDataModel,
+    ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevel*>* beatmapLevels, ::GlobalNamespace::GameplayType gameplayType, ::GlobalNamespace::LevelFilter filter,
+    ::GlobalNamespace::IEntitlementModel* levelsModel, ::System::Threading::CancellationToken cancellationToken, ::UnityW<::GlobalNamespace::PlayerDataModel> playerDataModel,
     ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>* _filteredLevels_5__2, ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::BeatmapLevel*>* __7__wrap2,
     ::GlobalNamespace::BeatmapLevel* _level_5__4, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->beatmapLevels = beatmapLevels;
+  this->gameplayType = gameplayType;
   this->filter = filter;
   this->levelsModel = levelsModel;
   this->cancellationToken = cancellationToken;

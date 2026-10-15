@@ -13,12 +13,24 @@ constexpr ::UnityEngine::Scripting::GarbageCollector_Mode::GarbageCollector_Mode
 constexpr ::UnityEngine::Scripting::GarbageCollector_Mode UnityEngine::Scripting::GarbageCollector_Mode::Disabled{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Scripting::GarbageCollector_Mode UnityEngine::Scripting::GarbageCollector_Mode::Enabled{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Scripting::GarbageCollector_Mode UnityEngine::Scripting::GarbageCollector_Mode::Manual{ static_cast<int32_t>(0x2) };
+//  Writing Method size for method: ::UnityEngine::Scripting::GarbageCollector.get_GCMode
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Scripting::GarbageCollector_Mode (*)()>(&::UnityEngine::Scripting::GarbageCollector::get_GCMode)> {
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x6f97090;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Scripting::GarbageCollector*>(), { "get_GCMode", {}, {} })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Scripting::GarbageCollector.set_GCMode
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Scripting::GarbageCollector_Mode)>(&::UnityEngine::Scripting::GarbageCollector::set_GCMode)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6f5a1dc;
+  constexpr static std::size_t addrs = 0x6f970e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Scripting::GarbageCollector_Mode)>(&::UnityEngine::Scripting::GarbageCollector::SetMode)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f5a2c4;
+  constexpr static std::size_t addrs = 0x6f971a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Scripting::GarbageCollector_Mode (*)()>(&::UnityEngine::Scripting::GarbageCollector::GetMode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6f5a29c;
+  constexpr static std::size_t addrs = 0x6f970b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Scripting::GarbageCollector*>(), { "GetMode", {}, {} })));
@@ -59,6 +71,10 @@ inline void UnityEngine::Scripting::GarbageCollector::setStaticF_GCModeChanged(:
 }
 inline ::System::Action_1<::UnityEngine::Scripting::GarbageCollector_Mode>* UnityEngine::Scripting::GarbageCollector::getStaticF_GCModeChanged() {
   return ::cordl_internals::getStaticField<::System::Action_1<::UnityEngine::Scripting::GarbageCollector_Mode>*, "GCModeChanged", ::UnityEngine::Scripting::GarbageCollector*>();
+}
+inline ::UnityEngine::Scripting::GarbageCollector_Mode UnityEngine::Scripting::GarbageCollector::get_GCMode() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Scripting::GarbageCollector*>(), { "get_GCMode", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Scripting::GarbageCollector_Mode>(nullptr, ___internal_method);
 }
 inline void UnityEngine::Scripting::GarbageCollector::set_GCMode(::UnityEngine::Scripting::GarbageCollector_Mode value) {
   static auto* ___internal_method =

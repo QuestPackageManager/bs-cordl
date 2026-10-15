@@ -102,63 +102,63 @@ public:
   /// @brief Field s_LinkTagRegex, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_LinkTagRegex, put = setStaticF_s_LinkTagRegex)) ::System::Text::RegularExpressions::Regex* s_LinkTagRegex;
 
-  /// @brief Method AllocateHyperlinkCallbacks, addr 0x711c8e4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method AllocateHyperlinkCallbacks, addr 0x7159818, size 0x174, virtual false, abstract: false, final false
   inline void AllocateHyperlinkCallbacks();
 
-  /// @brief Method AllocateLinkCallbacks, addr 0x711c760, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method AllocateLinkCallbacks, addr 0x7159694, size 0x174, virtual false, abstract: false, final false
   inline void AllocateLinkCallbacks();
 
-  /// @brief Method EnsureTextGenerationInfoIsValid, addr 0x711ca58, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method EnsureTextGenerationInfoIsValid, addr 0x715998c, size 0x50, virtual false, abstract: false, final false
   inline void EnsureTextGenerationInfoIsValid();
 
-  /// @brief Method HasAllocatedHyperlinkCallbacks, addr 0x711c8d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasAllocatedHyperlinkCallbacks, addr 0x7159808, size 0x10, virtual false, abstract: false, final false
   inline bool HasAllocatedHyperlinkCallbacks();
 
-  /// @brief Method HasAllocatedLinkCallbacks, addr 0x711c750, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasAllocatedLinkCallbacks, addr 0x7159684, size 0x10, virtual false, abstract: false, final false
   inline bool HasAllocatedLinkCallbacks();
 
-  /// @brief Method HyperlinkOnPointerMove, addr 0x711d304, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method HyperlinkOnPointerMove, addr 0x715a238, size 0x2a0, virtual false, abstract: false, final false
   inline void HyperlinkOnPointerMove(::UnityEngine::UIElements::PointerMoveEvent* pme);
 
-  /// @brief Method HyperlinkOnPointerOut, addr 0x711d5a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HyperlinkOnPointerOut, addr 0x715a4d8, size 0x8, virtual false, abstract: false, final false
   inline void HyperlinkOnPointerOut(::UnityEngine::UIElements::PointerOutEvent* evt);
 
-  /// @brief Method HyperlinkOnPointerOver, addr 0x711d2fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HyperlinkOnPointerOver, addr 0x715a230, size 0x8, virtual false, abstract: false, final false
   inline void HyperlinkOnPointerOver(::UnityEngine::UIElements::PointerOverEvent* _);
 
-  /// @brief Method HyperlinkOnPointerUp, addr 0x711caa8, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method HyperlinkOnPointerUp, addr 0x71599dc, size 0x1fc, virtual false, abstract: false, final false
   inline void HyperlinkOnPointerUp(::UnityEngine::UIElements::PointerUpEvent* pue);
 
-  /// @brief Method IsComplexHyperLink, addr 0x711ce4c, size 0x4b0, virtual false, abstract: false, final false
+  /// @brief Method IsComplexHyperLink, addr 0x7159d80, size 0x4b0, virtual false, abstract: false, final false
   static inline bool IsComplexHyperLink(::StringW link, ::by_ref<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*> hyperLinkData);
 
-  /// @brief Method LinkTagOnPointerDown, addr 0x711d5ac, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method LinkTagOnPointerDown, addr 0x715a4e0, size 0x24c, virtual false, abstract: false, final false
   inline void LinkTagOnPointerDown(::UnityEngine::UIElements::PointerDownEvent* pde);
 
-  /// @brief Method LinkTagOnPointerMove, addr 0x711da44, size 0x498, virtual false, abstract: false, final false
+  /// @brief Method LinkTagOnPointerMove, addr 0x715a978, size 0x498, virtual false, abstract: false, final false
   inline void LinkTagOnPointerMove(::UnityEngine::UIElements::PointerMoveEvent* pme);
 
-  /// @brief Method LinkTagOnPointerOut, addr 0x711dedc, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method LinkTagOnPointerOut, addr 0x715ae10, size 0x1b4, virtual false, abstract: false, final false
   inline void LinkTagOnPointerOut(::UnityEngine::UIElements::PointerOutEvent* poe);
 
-  /// @brief Method LinkTagOnPointerUp, addr 0x711d7f8, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method LinkTagOnPointerUp, addr 0x715a72c, size 0x24c, virtual false, abstract: false, final false
   inline void LinkTagOnPointerUp(::UnityEngine::UIElements::PointerUpEvent* pue);
 
   static inline ::UnityEngine::UIElements::ATGTextEventHandler* New_ctor(::UnityEngine::UIElements::TextElement* textElement);
 
-  /// @brief Method OnDestroy, addr 0x711c4ac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x71593e0, size 0x18, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RegisterHyperlinkCallbacks, addr 0x711e1a0, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method RegisterHyperlinkCallbacks, addr 0x715b0d4, size 0x19c, virtual false, abstract: false, final false
   inline void RegisterHyperlinkCallbacks();
 
-  /// @brief Method RegisterLinkTagCallbacks, addr 0x711e090, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method RegisterLinkTagCallbacks, addr 0x715afc4, size 0x110, virtual false, abstract: false, final false
   inline void RegisterLinkTagCallbacks();
 
-  /// @brief Method UnRegisterHyperlinkCallbacks, addr 0x711c5c0, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method UnRegisterHyperlinkCallbacks, addr 0x71594f4, size 0x190, virtual false, abstract: false, final false
   inline void UnRegisterHyperlinkCallbacks();
 
-  /// @brief Method UnRegisterLinkTagCallbacks, addr 0x711c4c4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method UnRegisterLinkTagCallbacks, addr 0x71593f8, size 0xfc, virtual false, abstract: false, final false
   inline void UnRegisterLinkTagCallbacks();
 
   constexpr int32_t const& __cordl_internal_get_currentLinkIDHash() const;
@@ -227,7 +227,7 @@ public:
 
   constexpr void __cordl_internal_set_m_TextElement(::UnityEngine::UIElements::TextElement* value);
 
-  /// @brief Method .ctor, addr 0x711c410, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7159344, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TextElement* textElement);
 
   static inline ::System::Action_1<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*>* getStaticF_onComplexHyperlinkClicked();

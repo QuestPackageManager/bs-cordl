@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Type*, ::UnityEngine::Scripting::APIUpdating::MovedFromAttribute*)>(
     &::UnityEngine::UIElements::VisualElementFactoryRegistry::GetMovedUIControlTypeName)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x7149bb4;
+  constexpr static std::size_t addrs = 0x7186ae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUxmlFactory*>*>* (*)()>(
         &::UnityEngine::UIElements::VisualElementFactoryRegistry::get_factories)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x7149ca4;
+  constexpr static std::size_t addrs = 0x7186bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementFactoryRegistry*>(), { "get_factories", {}, {} })));
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::IUxmlFactory*)>(&::UnityEngine::UIElements::VisualElementFactoryRegistry::RegisterFactory)> {
   constexpr static std::size_t size = 0x5dc;
-  constexpr static std::size_t addrs = 0x714b380;
+  constexpr static std::size_t addrs = 0x71882b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementFactoryRegistry*>(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUxmlFactory*>*>)>(
     &::UnityEngine::UIElements::VisualElementFactoryRegistry::TryGetValue)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x714b95c;
+  constexpr static std::size_t addrs = 0x7188890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::VisualElementFactoryRegistry::RegisterEngineFactories)> {
   constexpr static std::size_t size = 0x1298;
-  constexpr static std::size_t addrs = 0x7149dc8;
+  constexpr static std::size_t addrs = 0x7186cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::VisualElementFactoryRegistry::RegisterUserFactories)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x714b060;
+  constexpr static std::size_t addrs = 0x7187f94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

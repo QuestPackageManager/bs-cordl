@@ -36,28 +36,28 @@ public:
 
   __declspec(property(get = get_markPositionAdjustment, put = set_markPositionAdjustment)) ::TMPro::MarkPositionAdjustment markPositionAdjustment;
 
-  /// @brief Method get_baseGlyphAnchorPoint, addr 0x6d4f5a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_baseGlyphAnchorPoint, addr 0x6d8c244, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::GlyphAnchorPoint get_baseGlyphAnchorPoint();
 
-  /// @brief Method get_baseGlyphID, addr 0x6d4f598, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_baseGlyphID, addr 0x6d8c234, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_baseGlyphID();
 
-  /// @brief Method get_markGlyphID, addr 0x6d4f5b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_markGlyphID, addr 0x6d8c254, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_markGlyphID();
 
-  /// @brief Method get_markPositionAdjustment, addr 0x6d4f5c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_markPositionAdjustment, addr 0x6d8c264, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::MarkPositionAdjustment get_markPositionAdjustment();
 
-  /// @brief Method set_baseGlyphAnchorPoint, addr 0x6d4f5b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_baseGlyphAnchorPoint, addr 0x6d8c24c, size 0x8, virtual false, abstract: false, final false
   inline void set_baseGlyphAnchorPoint(::TMPro::GlyphAnchorPoint value);
 
-  /// @brief Method set_baseGlyphID, addr 0x6d4f5a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_baseGlyphID, addr 0x6d8c23c, size 0x8, virtual false, abstract: false, final false
   inline void set_baseGlyphID(uint32_t value);
 
-  /// @brief Method set_markGlyphID, addr 0x6d4f5c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_markGlyphID, addr 0x6d8c25c, size 0x8, virtual false, abstract: false, final false
   inline void set_markGlyphID(uint32_t value);
 
-  /// @brief Method set_markPositionAdjustment, addr 0x6d4f5d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_markPositionAdjustment, addr 0x6d8c26c, size 0x8, virtual false, abstract: false, final false
   inline void set_markPositionAdjustment(::TMPro::MarkPositionAdjustment value);
 
   // Ctor Parameters []
@@ -71,7 +71,7 @@ public:
                                        ::TMPro::MarkPositionAdjustment m_MarkPositionAdjustment) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16090 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16123 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

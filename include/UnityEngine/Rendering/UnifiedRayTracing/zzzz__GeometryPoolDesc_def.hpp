@@ -20,7 +20,7 @@ namespace UnityEngine::Rendering::UnifiedRayTracing {
 struct CORDL_TYPE GeometryPoolDesc {
 public:
   // Declarations
-  /// @brief Method NewDefault, addr 0x6dff5bc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method NewDefault, addr 0x6e3c258, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolDesc NewDefault();
 
   // Ctor Parameters []
@@ -32,7 +32,7 @@ public:
   constexpr GeometryPoolDesc(int32_t vertexPoolByteSize, int32_t indexPoolByteSize, int32_t meshChunkTablesByteSize) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20456 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20503 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

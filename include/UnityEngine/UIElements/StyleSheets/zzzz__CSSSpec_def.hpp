@@ -32,13 +32,13 @@ public:
   /// @brief Field rgx, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_rgx, put = setStaticF_rgx)) ::System::Text::RegularExpressions::Regex* rgx;
 
-  /// @brief Method GetSelectorSpecificity, addr 0x71c2820, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetSelectorSpecificity, addr 0x71ff754, size 0xc8, virtual false, abstract: false, final false
   static inline int32_t GetSelectorSpecificity(::ArrayW<::UnityEngine::UIElements::StyleSelectorPart> parts);
 
-  /// @brief Method GetSelectorSpecificity, addr 0x71c22d0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetSelectorSpecificity, addr 0x71ff204, size 0x9c, virtual false, abstract: false, final false
   static inline int32_t GetSelectorSpecificity(::StringW selector);
 
-  /// @brief Method ParseSelector, addr 0x71c236c, size 0x4b4, virtual false, abstract: false, final false
+  /// @brief Method ParseSelector, addr 0x71ff2a0, size 0x4b4, virtual false, abstract: false, final false
   static inline bool ParseSelector(::StringW selector, ::by_ref<::ArrayW<::UnityEngine::UIElements::StyleSelectorPart>> parts);
 
   static inline ::System::Text::RegularExpressions::Regex* getStaticF_rgx();

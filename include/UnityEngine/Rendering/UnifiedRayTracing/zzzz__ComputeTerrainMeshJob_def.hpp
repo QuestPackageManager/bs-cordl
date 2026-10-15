@@ -37,17 +37,17 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method CalculateTerrainNormal, addr 0x6e07a24, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method CalculateTerrainNormal, addr 0x6e446c0, size 0x254, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 CalculateTerrainNormal(::Unity::Collections::NativeArray_1<float_t> heightmap, int32_t x, int32_t y, int32_t width, int32_t height,
                                                                     ::Unity::Mathematics::float3 scale);
 
-  /// @brief Method DisposeArrays, addr 0x6e07804, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method DisposeArrays, addr 0x6e444a0, size 0xe8, virtual false, abstract: false, final false
   inline void DisposeArrays();
 
-  /// @brief Method Execute, addr 0x6e078ec, size 0x138, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6e44588, size 0x138, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
-  /// @brief Method SampleHeight, addr 0x6e07c78, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SampleHeight, addr 0x6e44914, size 0x30, virtual false, abstract: false, final false
   static inline float_t SampleHeight(int32_t x, int32_t y, int32_t width, int32_t height, ::Unity::Collections::NativeArray_1<float_t> heightmap, float_t scale);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -70,7 +70,7 @@ public:
                                   ::Unity::Collections::NativeArray_1<int32_t> indices) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20473 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20520 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };

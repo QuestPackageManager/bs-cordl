@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PreviousColorPanelController::*)(::System::Action_1<::UnityEngine::Color>*)>(
     &::GlobalNamespace::PreviousColorPanelController::add_colorWasSelectedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5e45bf4;
+  constexpr static std::size_t addrs = 0x5e8237c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PreviousColorPanelController*>(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PreviousColorPanelController::*)(::System::Action_1<::UnityEngine::Color>*)>(
     &::GlobalNamespace::PreviousColorPanelController::remove_colorWasSelectedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5e45cb4;
+  constexpr static std::size_t addrs = 0x5e8243c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PreviousColorPanelController*>(),
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PreviousColorPanelController::*)()>(&::GlobalNamespace::PreviousColorPanelController::Awake)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5e45d74;
+  constexpr static std::size_t addrs = 0x5e824fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PreviousColorPanelController*>(), { "Awake", {}, {} })));
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PreviousColorPanelController::*)()>(&::GlobalNamespace::PreviousColorPanelController::OnDestroy)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5e45e3c;
+  constexpr static std::size_t addrs = 0x5e825c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PreviousColorPanelController*>(), { "OnDestroy", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PreviousColorPanelController::*)(::UnityEngine::Color)>(&::GlobalNamespace::PreviousColorPanelController::AddColor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5e45e54;
+  constexpr static std::size_t addrs = 0x5e825dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PreviousColorPanelController::*)()>(&::GlobalNamespace::PreviousColorPanelController::DiscardUpcomingColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e45ef4;
+  constexpr static std::size_t addrs = 0x5e8267c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PreviousColorPanelController*>(), { "DiscardUpcomingColor", {}, {} })));
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PreviousColorPanelController::*)()>(&::GlobalNamespace::PreviousColorPanelController::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5e45f00;
+  constexpr static std::size_t addrs = 0x5e82688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PreviousColorPanelController*>(), { ".ctor", {}, {} })));
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PreviousColorPanelController::*)()>(&::GlobalNamespace::PreviousColorPanelController::_Awake_b__9_0)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5e45f10;
+  constexpr static std::size_t addrs = 0x5e82698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PreviousColorPanelController*>(), { "<Awake>b__9_0", {}, {} })));

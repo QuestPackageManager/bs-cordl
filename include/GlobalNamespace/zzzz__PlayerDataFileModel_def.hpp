@@ -19,7 +19,7 @@ namespace GlobalNamespace {
 struct BeatmapCharacteristic;
 }
 namespace GlobalNamespace {
-struct ColorSchemesSettings_ColorOverrideType;
+struct ColorOverrideType;
 }
 namespace GlobalNamespace {
 class ColorSchemesSettings;
@@ -130,13 +130,13 @@ public:
 
   static inline ::GlobalNamespace::PlayerDataFileModel___c* New_ctor();
 
-  /// @brief Method <GetPlayerSaveData>b__19_0, addr 0x39d6588, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <GetPlayerSaveData>b__19_0, addr 0x39ffbf0, size 0x88, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSaveData_PromoCounterData* _GetPlayerSaveData_b__19_0(::System::Collections::Generic::KeyValuePair_2<::StringW, int32_t> pair);
 
-  /// @brief Method <LoadFromCurrentVersion>b__24_0, addr 0x39d6628, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <LoadFromCurrentVersion>b__24_0, addr 0x39ffc90, size 0x50, virtual false, abstract: false, final false
   inline ::System::ValueTuple_2<::StringW, int32_t> _LoadFromCurrentVersion_b__24_0(::GlobalNamespace::PlayerSaveData_PromoCounterData* pc);
 
-  /// @brief Method .ctor, addr 0x39d6584, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ffbec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::PlayerDataFileModel___c* getStaticF___9();
@@ -166,7 +166,7 @@ public:
   PlayerDataFileModel___c(PlayerDataFileModel___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15403 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14639 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -185,11 +185,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39d6678, size 0x3cc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39ffce0, size 0x3cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39d6a44, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3a000ac, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -207,7 +207,7 @@ public:
                                                          ::GlobalNamespace::IFileStorage* fileStorage, ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15404 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14640 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -250,11 +250,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39d6ac4, size 0x29c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3a0012c, size 0x29c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39d6d60, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3a003c8, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -272,7 +272,7 @@ public:
                                                  ::GlobalNamespace::PlayerDataFileModel* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15405 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14641 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -342,79 +342,79 @@ public:
   /// @brief Field _playerDataFileName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__playerDataFileName, put = setStaticF__playerDataFileName)) ::StringW _playerDataFileName;
 
-  /// @brief Method ColorOverrideTypeFromSaveData, addr 0x39d57ec, size 0xc, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::ColorSchemesSettings_ColorOverrideType ColorOverrideTypeFromSaveData(::GlobalNamespace::PlayerSaveData_ColorOverrideType c);
+  /// @brief Method ColorOverrideTypeFromSaveData, addr 0x39fee64, size 0xc, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::ColorOverrideType ColorOverrideTypeFromSaveData(::GlobalNamespace::PlayerSaveData_ColorOverrideType c);
 
-  /// @brief Method ColorOverrideTypeToSaveData, addr 0x39d36e8, size 0xc, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::PlayerSaveData_ColorOverrideType ColorOverrideTypeToSaveData(::GlobalNamespace::ColorSchemesSettings_ColorOverrideType c);
+  /// @brief Method ColorOverrideTypeToSaveData, addr 0x39fcd6c, size 0xc, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PlayerSaveData_ColorOverrideType ColorOverrideTypeToSaveData(::GlobalNamespace::ColorOverrideType c);
 
-  /// @brief Method CreateDefaultOverrideEnvironmentSettings, addr 0x39d57f8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method CreateDefaultOverrideEnvironmentSettings, addr 0x39fee70, size 0xac, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OverrideEnvironmentSettings* CreateDefaultOverrideEnvironmentSettings();
 
-  /// @brief Method CreateDefaultPlayerData, addr 0x39d3be4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method CreateDefaultPlayerData, addr 0x39fd268, size 0xb0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerData* CreateDefaultPlayerData();
 
-  /// @brief Method GetBeatmapCharacteristicFromV_1_0_1LevelId, addr 0x39d5e04, size 0x408, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapCharacteristicFromV_1_0_1LevelId, addr 0x39ff46c, size 0x408, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<::GlobalNamespace::BeatmapCharacteristic>
   GetBeatmapCharacteristicFromV_1_0_1LevelId(::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection, ::StringW levelId);
 
-  /// @brief Method GetEnvironmentInfoBySerializedName, addr 0x39d62c8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentInfoBySerializedName, addr 0x39ff930, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> GetEnvironmentInfoBySerializedName(::StringW environmentName);
 
-  /// @brief Method GetLevelIdFromV_1_0_1LevelId, addr 0x39d620c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetLevelIdFromV_1_0_1LevelId, addr 0x39ff874, size 0xbc, virtual false, abstract: false, final false
   static inline ::StringW GetLevelIdFromV_1_0_1LevelId(::StringW oldLevelId, ::GlobalNamespace::BeatmapCharacteristic beatmapCharacteristic);
 
-  /// @brief Method GetPlayerSaveData, addr 0x39d23fc, size 0xfc4, virtual false, abstract: false, final false
+  /// @brief Method GetPlayerSaveData, addr 0x39fba94, size 0xfb0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSaveData* GetPlayerSaveData(::GlobalNamespace::PlayerData* playerData);
 
   /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
-  /// @brief Method Init, addr 0x39d2228, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x39fb8c0, size 0x78, virtual false, abstract: false, final false
   static inline void Init();
 
   /// [NullableContext(1)]
-  /// @brief Method Load, addr 0x39d377c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x39fce00, size 0x68, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerData* Load();
 
-  /// @brief Method LoadAsString, addr 0x39d37e4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method LoadAsString, addr 0x39fce68, size 0x128, virtual false, abstract: false, final false
   static inline ::StringW LoadAsString(::GlobalNamespace::IFileStorage* fileStorage);
 
   /// [AsyncStateMachine(typeof(PlayerDataFileModel::<LoadAsStringAsync>d__35))]
-  /// @brief Method LoadAsStringAsync, addr 0x39d62e0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method LoadAsStringAsync, addr 0x39ff948, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::StringW>* LoadAsStringAsync(::GlobalNamespace::IFileStorage* fileStorage);
 
   /// [NullableContext(1)]
   /// [AsyncStateMachine(typeof(PlayerDataFileModel::<LoadAsync>d__21))]
-  /// @brief Method LoadAsync, addr 0x39d3930, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method LoadAsync, addr 0x39fcfb4, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::PlayerData*>* LoadAsync();
 
-  /// @brief Method LoadCorrectedSongPackMask, addr 0x39d58b0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method LoadCorrectedSongPackMask, addr 0x39fef1c, size 0x8c, virtual false, abstract: false, final false
   inline ::StringW LoadCorrectedSongPackMask(::ArrayW<uint8_t> songMaskPackBytes);
 
-  /// @brief Method LoadFromCurrentVersion, addr 0x39d464c, size 0x1008, virtual false, abstract: false, final false
+  /// @brief Method LoadFromCurrentVersion, addr 0x39fdcd0, size 0x1000, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerData* LoadFromCurrentVersion(::GlobalNamespace::PlayerSaveData* playerSaveData);
 
   /// [NullableContext(2)]
-  /// @brief Method LoadFromJSONString, addr 0x39d3a0c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method LoadFromJSONString, addr 0x39fd090, size 0x1d8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerData* LoadFromJSONString(::StringW jsonString);
 
-  /// @brief Method LoadFromVersionV1_0_1, addr 0x39d3c94, size 0x9b8, virtual false, abstract: false, final false
+  /// @brief Method LoadFromVersionV1_0_1, addr 0x39fd318, size 0x9b8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerData* LoadFromVersionV1_0_1(::GlobalNamespace::PlayerSaveDataV1_0_1* playerDataModelSaveData);
 
   /// [NullableContext(1)]
-  /// @brief Method LoadOrCreateFromJsonString, addr 0x39d390c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method LoadOrCreateFromJsonString, addr 0x39fcf90, size 0x24, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerData* LoadOrCreateFromJsonString(/* [Nullable(2)] */ ::StringW jsonString);
 
   static inline ::GlobalNamespace::PlayerDataFileModel* New_ctor(::GlobalNamespace::PlayerDataFileManagerSO* playerDataFileManager, ::GlobalNamespace::IFileStorage* fileStorage,
                                                                  ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection,
                                                                  ::GlobalNamespace::ColorSchemesSettings* colorSchemesSettings, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel);
 
-  /// @brief Method Save, addr 0x39d22b0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Save, addr 0x39fb948, size 0x14c, virtual false, abstract: false, final false
   inline void Save(::GlobalNamespace::PlayerData* playerData);
 
-  /// @brief Method SaveAsync, addr 0x39d33c0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method SaveAsync, addr 0x39fca44, size 0x14c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SaveAsync(::GlobalNamespace::PlayerData* playerData);
 
-  /// @brief Method WipePlayerDataFiles, addr 0x39d63bc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method WipePlayerDataFiles, addr 0x39ffa24, size 0x7c, virtual false, abstract: false, final false
   static inline void WipePlayerDataFiles();
 
   constexpr ::GlobalNamespace::BeatmapCharacteristicCollection* const& __cordl_internal_get__beatmapCharacteristicCollection() const;
@@ -447,7 +447,7 @@ public:
 
   constexpr void __cordl_internal_set__playerDataFileManager(::UnityW<::GlobalNamespace::PlayerDataFileManagerSO> value);
 
-  /// @brief Method .ctor, addr 0x39d22a0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39fb938, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::PlayerDataFileManagerSO* playerDataFileManager, ::GlobalNamespace::IFileStorage* fileStorage,
                     ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection, ::GlobalNamespace::ColorSchemesSettings* colorSchemesSettings,
                     ::GlobalNamespace::EnvironmentsListModel* environmentsListModel);
@@ -458,7 +458,7 @@ public:
 
   static inline ::StringW getStaticF__playerDataFileName();
 
-  /// @brief Method get_PlayerDataFileName, addr 0x39d213c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_PlayerDataFileName, addr 0x39fb7d4, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW get_PlayerDataFileName();
 
   static inline void setStaticF__eulaUpdateVersion(::System::Version* value);
@@ -467,7 +467,7 @@ public:
 
   static inline void setStaticF__playerDataFileName(::StringW value);
 
-  /// @brief Method set_PlayerDataFileName, addr 0x39d2198, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_PlayerDataFileName, addr 0x39fb830, size 0x90, virtual false, abstract: false, final false
   static inline void set_PlayerDataFileName(::StringW value);
 
 protected:
@@ -485,7 +485,7 @@ public:
   PlayerDataFileModel(PlayerDataFileModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15406 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14642 };
 
   /// @brief Field kOverrideStoragePreference value: I32(1)
   static ::GlobalNamespace::StoragePreference const kOverrideStoragePreference;

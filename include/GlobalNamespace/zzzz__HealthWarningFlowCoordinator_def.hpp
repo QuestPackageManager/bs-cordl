@@ -193,11 +193,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5e25528, size 0x33c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e62d98, size 0x33c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5e25864, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e630d4, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -216,7 +216,7 @@ public:
                                                                  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EulaViewController_ButtonType> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6474 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6478 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -258,11 +258,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5e258d0, size 0x27c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e63140, size 0x27c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5e25b4c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e633bc, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -281,7 +281,7 @@ public:
                                                                           ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6475 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6479 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -323,11 +323,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5e25bb8, size 0x598, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e63428, size 0x598, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5e26150, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e639c0, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -348,7 +348,7 @@ public:
                                                                          ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::StringW>> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6476 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6480 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -396,11 +396,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5e261bc, size 0x710, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e63a2c, size 0x710, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5e268cc, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e6413c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -418,7 +418,7 @@ public:
                                                          ::UnityW<::GlobalNamespace::HealthWarningFlowCoordinator> __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6477 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6481 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -460,11 +460,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5e26938, size 0x414, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e641a8, size 0x414, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5e26d4c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e645bc, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -484,7 +484,7 @@ public:
                                                                     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6478 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6482 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -531,11 +531,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5e26db8, size 0x3ac, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e64628, size 0x3ac, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5e27164, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e649d4, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -556,7 +556,7 @@ public:
                                                                   ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6479 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6483 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -603,11 +603,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5e271d0, size 0x5ac, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e64a40, size 0x5ac, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5e2777c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e64fec, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -628,7 +628,7 @@ public:
                                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::PlayerSensitivityFlag> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6480 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6484 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -680,11 +680,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5e277e8, size 0x258, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e65058, size 0x25c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5e27a40, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e652b4, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -703,7 +703,7 @@ public:
                                                                        ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6481 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6485 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -745,11 +745,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5e27aac, size 0x3ac, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e65320, size 0x3b0, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5e27e58, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e656d0, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -768,7 +768,7 @@ public:
                                                                                       ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6482 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6486 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -811,11 +811,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5e27ec4, size 0x670, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e6573c, size 0x670, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5e28534, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e65dac, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -840,7 +840,7 @@ public:
                                                                ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6483 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6487 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -918,137 +918,137 @@ public:
 
   using _UpdateUacAsync_d__40 = ::GlobalNamespace::HealthWarningFlowCoordinator__UpdateUacAsync_d__40;
 
-  /// @brief Field _beatmapEntitlementModel, offset 0x120, size 0x8
+  /// @brief Field _beatmapEntitlementModel, offset 0x118, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapEntitlementModel,
                       put = __cordl_internal_set__beatmapEntitlementModel)) ::GlobalNamespace::BeatmapLevelsEntitlementModel* _beatmapEntitlementModel;
 
-  /// @brief Field _beatmapLevelsModel, offset 0x110, size 0x8
+  /// @brief Field _beatmapLevelsModel, offset 0x108, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel)) ::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
 
-  /// @brief Field _endOfLifeNoticeViewController, offset 0xe8, size 0x8
+  /// @brief Field _endOfLifeNoticeViewController, offset 0xe0, size 0x8
   __declspec(property(get = __cordl_internal_get__endOfLifeNoticeViewController, put = __cordl_internal_set__endOfLifeNoticeViewController)) ::UnityW<::GlobalNamespace::EndOfLifeNoticeViewController>
       _endOfLifeNoticeViewController;
 
-  /// @brief Field _eulaViewController, offset 0xc0, size 0x8
+  /// @brief Field _eulaViewController, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__eulaViewController, put = __cordl_internal_set__eulaViewController)) ::UnityW<::GlobalNamespace::EulaViewController> _eulaViewController;
 
-  /// @brief Field _explicitContentWarningViewController, offset 0xd8, size 0x8
+  /// @brief Field _explicitContentWarningViewController, offset 0xd0, size 0x8
   __declspec(property(get = __cordl_internal_get__explicitContentWarningViewController,
                       put = __cordl_internal_set__explicitContentWarningViewController)) ::UnityW<::GlobalNamespace::ExplicitContentWarningViewController>
       _explicitContentWarningViewController;
 
-  /// @brief Field _fileStorage, offset 0x100, size 0x8
+  /// @brief Field _fileStorage, offset 0xf8, size 0x8
   __declspec(property(get = __cordl_internal_get__fileStorage, put = __cordl_internal_set__fileStorage)) ::GlobalNamespace::IFileStorage* _fileStorage;
 
-  /// @brief Field _filterExcludedSongsTask, offset 0x140, size 0x8
+  /// @brief Field _filterExcludedSongsTask, offset 0x138, size 0x8
   __declspec(property(get = __cordl_internal_get__filterExcludedSongsTask, put = __cordl_internal_set__filterExcludedSongsTask)) ::System::Threading::Tasks::Task* _filterExcludedSongsTask;
 
-  /// @brief Field _healthWarningSceneSetupData, offset 0xf8, size 0x8
+  /// @brief Field _healthWarningSceneSetupData, offset 0xf0, size 0x8
   __declspec(property(get = __cordl_internal_get__healthWarningSceneSetupData,
                       put = __cordl_internal_set__healthWarningSceneSetupData)) ::GlobalNamespace::HealthWarningSceneSetupData* _healthWarningSceneSetupData;
 
-  /// @brief Field _healthWarningViewController, offset 0xd0, size 0x8
+  /// @brief Field _healthWarningViewController, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get__healthWarningViewController, put = __cordl_internal_set__healthWarningViewController)) ::UnityW<::GlobalNamespace::HealthWarningViewController>
       _healthWarningViewController;
 
-  /// @brief Field _noUserAgeWarningViewController, offset 0xe0, size 0x8
+  /// @brief Field _noUserAgeWarningViewController, offset 0xd8, size 0x8
   __declspec(property(get = __cordl_internal_get__noUserAgeWarningViewController,
                       put = __cordl_internal_set__noUserAgeWarningViewController)) ::UnityW<::GlobalNamespace::NoUserAgeWarningViewController>
       _noUserAgeWarningViewController;
 
-  /// @brief Field _openedWithLanguage, offset 0x134, size 0x4
+  /// @brief Field _openedWithLanguage, offset 0x12c, size 0x4
   __declspec(property(get = __cordl_internal_get__openedWithLanguage, put = __cordl_internal_set__openedWithLanguage)) ::BGLib::Polyglot::LocalizationLanguage _openedWithLanguage;
 
-  /// @brief Field _platform, offset 0x118, size 0x8
+  /// @brief Field _platform, offset 0x110, size 0x8
   __declspec(property(get = __cordl_internal_get__platform, put = __cordl_internal_set__platform)) ::OculusStudios::Platform::Core::IPlatform* _platform;
 
-  /// @brief Field _playerDataModel, offset 0xf0, size 0x8
+  /// @brief Field _playerDataModel, offset 0xe8, size 0x8
   __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel)) ::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
-  /// @brief Field _privacyPolicyViewController, offset 0xc8, size 0x8
+  /// @brief Field _privacyPolicyViewController, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get__privacyPolicyViewController, put = __cordl_internal_set__privacyPolicyViewController)) ::UnityW<::GlobalNamespace::PrivacyPolicyViewController>
       _privacyPolicyViewController;
 
-  /// @brief Field _selectLanguageViewController, offset 0xb0, size 0x8
+  /// @brief Field _selectLanguageViewController, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__selectLanguageViewController, put = __cordl_internal_set__selectLanguageViewController)) ::UnityW<::GlobalNamespace::SelectLanguageViewController>
       _selectLanguageViewController;
 
-  /// @brief Field _selectRegionViewController, offset 0xb8, size 0x8
+  /// @brief Field _selectRegionViewController, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get__selectRegionViewController, put = __cordl_internal_set__selectRegionViewController)) ::UnityW<::GlobalNamespace::SelectRegionViewController>
       _selectRegionViewController;
 
-  /// @brief Field _selectedRegion, offset 0x130, size 0x4
+  /// @brief Field _selectedRegion, offset 0x128, size 0x4
   __declspec(property(get = __cordl_internal_get__selectedRegion, put = __cordl_internal_set__selectedRegion)) ::GlobalNamespace::Region _selectedRegion;
 
-  /// @brief Field _settingsManager, offset 0x108, size 0x8
+  /// @brief Field _settingsManager, offset 0x100, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsManager, put = __cordl_internal_set__settingsManager)) ::GlobalNamespace::SettingsManager* _settingsManager;
 
-  /// @brief Field _updateUacTask, offset 0x138, size 0x8
+  /// @brief Field _updateUacTask, offset 0x130, size 0x8
   __declspec(property(get = __cordl_internal_get__updateUacTask, put = __cordl_internal_set__updateUacTask)) ::System::Threading::Tasks::Task* _updateUacTask;
 
-  /// @brief Field _viewControllerTitles, offset 0x128, size 0x8
+  /// @brief Field _viewControllerTitles, offset 0x120, size 0x8
   __declspec(property(get = __cordl_internal_get__viewControllerTitles,
                       put = __cordl_internal_set__viewControllerTitles)) ::System::Collections::Generic::Dictionary_2<::UnityW<::HMUI::ViewController>, ::StringW>* _viewControllerTitles;
 
   /// [AsyncStateMachine(typeof(HealthWarningFlowCoordinator::<AgreeToEulaAsync>d__37))]
-  /// @brief Method AgreeToEulaAsync, addr 0x5e251d4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method AgreeToEulaAsync, addr 0x5e62a44, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* AgreeToEulaAsync();
 
   /// [AsyncStateMachine(typeof(HealthWarningFlowCoordinator::<AgreeToPrivacyPolicyAsync>d__36))]
-  /// @brief Method AgreeToPrivacyPolicyAsync, addr 0x5e25124, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method AgreeToPrivacyPolicyAsync, addr 0x5e62994, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* AgreeToPrivacyPolicyAsync();
 
-  /// @brief Method DidActivate, addr 0x5e24860, size 0x370, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5e620d0, size 0x370, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   /// [AsyncStateMachine(typeof(HealthWarningFlowCoordinator::<FilterExcludedSongsAsync>d__28))]
-  /// @brief Method FilterExcludedSongsAsync, addr 0x5e24cd8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method FilterExcludedSongsAsync, addr 0x5e62548, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FilterExcludedSongsAsync();
 
   static inline ::GlobalNamespace::HealthWarningFlowCoordinator* New_ctor();
 
   /// [AsyncStateMachine(typeof(HealthWarningFlowCoordinator::<RunAsync>d__32))]
-  /// @brief Method RunAsync, addr 0x5e24e5c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method RunAsync, addr 0x5e626cc, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RunAsync();
 
   /// [AsyncStateMachine(typeof(HealthWarningFlowCoordinator::<SelectLanguageAsync>d__33))]
-  /// @brief Method SelectLanguageAsync, addr 0x5e24f0c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SelectLanguageAsync, addr 0x5e6277c, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SelectLanguageAsync();
 
   /// [AsyncStateMachine(typeof(HealthWarningFlowCoordinator::<SelectRegionAsync>d__35))]
-  /// @brief Method SelectRegionAsync, addr 0x5e25070, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SelectRegionAsync, addr 0x5e628e0, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SelectRegionAsync();
 
   /// [AsyncStateMachine(typeof(HealthWarningFlowCoordinator::<ShowExplicitContentWarningAsync>d__39))]
-  /// @brief Method ShowExplicitContentWarningAsync, addr 0x5e25334, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ShowExplicitContentWarningAsync, addr 0x5e62ba4, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ShowExplicitContentWarningAsync();
 
   /// [AsyncStateMachine(typeof(HealthWarningFlowCoordinator::<ShowHealthWarningAsync>d__38))]
-  /// @brief Method ShowHealthWarningAsync, addr 0x5e25284, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ShowHealthWarningAsync, addr 0x5e62af4, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ShowHealthWarningAsync();
 
   /// [AsyncStateMachine(typeof(HealthWarningFlowCoordinator::<ShowSelectLanguageViewControllerAsync>d__34))]
-  /// @brief Method ShowSelectLanguageViewControllerAsync, addr 0x5e24fc0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ShowSelectLanguageViewControllerAsync, addr 0x5e62830, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ShowSelectLanguageViewControllerAsync();
 
-  /// @brief Method ShowTopViewController, addr 0x5e24bd0, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ShowTopViewController, addr 0x5e62440, size 0x108, virtual false, abstract: false, final false
   inline void ShowTopViewController(::HMUI::ViewController* viewController);
 
-  /// @brief Method ShowTopViewControllerAsync, addr 0x5e24d8c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ShowTopViewControllerAsync, addr 0x5e625fc, size 0x44, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ShowTopViewControllerAsync(::GlobalNamespace::CompletableViewController* viewController);
 
   /// @brief Method ShowTopViewControllerAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::System::Threading::Tasks::Task_1<T>* ShowTopViewControllerAsync(::GlobalNamespace::CompletableViewController_1<T>* viewController);
 
-  /// @brief Method TopViewControllerWillChange, addr 0x5e24dd0, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method TopViewControllerWillChange, addr 0x5e62640, size 0x8c, virtual true, abstract: false, final false
   inline void TopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController, ::HMUI::ViewController_AnimationType animationType);
 
   /// [AsyncStateMachine(typeof(HealthWarningFlowCoordinator::<UpdateUacAsync>d__40))]
-  /// @brief Method UpdateUacAsync, addr 0x5e253e4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method UpdateUacAsync, addr 0x5e62c54, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* UpdateUacAsync();
 
   /// [CompilerGenerated]
-  /// @brief Method <ShowSelectLanguageViewControllerAsync>g__HandleDidChangeLanguage|34_0, addr 0x5e254a0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <ShowSelectLanguageViewControllerAsync>g__HandleDidChangeLanguage|34_0, addr 0x5e62d10, size 0x88, virtual false, abstract: false, final false
   inline void _ShowSelectLanguageViewControllerAsync_g__HandleDidChangeLanguage_34_0(::BGLib::Polyglot::LocalizationLanguage language);
 
   constexpr ::GlobalNamespace::BeatmapLevelsEntitlementModel* const& __cordl_internal_get__beatmapEntitlementModel() const;
@@ -1171,7 +1171,7 @@ public:
 
   constexpr void __cordl_internal_set__viewControllerTitles(::System::Collections::Generic::Dictionary_2<::UnityW<::HMUI::ViewController>, ::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x5e25498, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e62d08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1189,7 +1189,7 @@ public:
   HealthWarningFlowCoordinator(HealthWarningFlowCoordinator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6484 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6488 };
 
   /// @brief Field kEulaTitleLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kEulaTitleLocalizationKey{ u"EULA_TITLE" };
@@ -1211,123 +1211,123 @@ public:
 
   /// [Space]
   /// [SerializeField]
-  /// @brief Field _selectLanguageViewController, offset: 0xb0, size: 0x8, def value: None
+  /// @brief Field _selectLanguageViewController, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SelectLanguageViewController> ____selectLanguageViewController;
 
   /// [SerializeField]
-  /// @brief Field _selectRegionViewController, offset: 0xb8, size: 0x8, def value: None
+  /// @brief Field _selectRegionViewController, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SelectRegionViewController> ____selectRegionViewController;
 
   /// [SerializeField]
-  /// @brief Field _eulaViewController, offset: 0xc0, size: 0x8, def value: None
+  /// @brief Field _eulaViewController, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EulaViewController> ____eulaViewController;
 
   /// [SerializeField]
-  /// @brief Field _privacyPolicyViewController, offset: 0xc8, size: 0x8, def value: None
+  /// @brief Field _privacyPolicyViewController, offset: 0xc0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PrivacyPolicyViewController> ____privacyPolicyViewController;
 
   /// [SerializeField]
-  /// @brief Field _healthWarningViewController, offset: 0xd0, size: 0x8, def value: None
+  /// @brief Field _healthWarningViewController, offset: 0xc8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::HealthWarningViewController> ____healthWarningViewController;
 
   /// [SerializeField]
-  /// @brief Field _explicitContentWarningViewController, offset: 0xd8, size: 0x8, def value: None
+  /// @brief Field _explicitContentWarningViewController, offset: 0xd0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ExplicitContentWarningViewController> ____explicitContentWarningViewController;
 
   /// [SerializeField]
-  /// @brief Field _noUserAgeWarningViewController, offset: 0xe0, size: 0x8, def value: None
+  /// @brief Field _noUserAgeWarningViewController, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoUserAgeWarningViewController> ____noUserAgeWarningViewController;
 
   /// [SerializeField]
-  /// @brief Field _endOfLifeNoticeViewController, offset: 0xe8, size: 0x8, def value: None
+  /// @brief Field _endOfLifeNoticeViewController, offset: 0xe0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EndOfLifeNoticeViewController> ____endOfLifeNoticeViewController;
 
   /// [Inject]
-  /// @brief Field _playerDataModel, offset: 0xf0, size: 0x8, def value: None
+  /// @brief Field _playerDataModel, offset: 0xe8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
   /// [Inject]
-  /// @brief Field _healthWarningSceneSetupData, offset: 0xf8, size: 0x8, def value: None
+  /// @brief Field _healthWarningSceneSetupData, offset: 0xf0, size: 0x8, def value: None
   ::GlobalNamespace::HealthWarningSceneSetupData* ____healthWarningSceneSetupData;
 
   /// [Inject]
-  /// @brief Field _fileStorage, offset: 0x100, size: 0x8, def value: None
+  /// @brief Field _fileStorage, offset: 0xf8, size: 0x8, def value: None
   ::GlobalNamespace::IFileStorage* ____fileStorage;
 
   /// [Inject]
-  /// @brief Field _settingsManager, offset: 0x108, size: 0x8, def value: None
+  /// @brief Field _settingsManager, offset: 0x100, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
   /// [Inject]
-  /// @brief Field _beatmapLevelsModel, offset: 0x110, size: 0x8, def value: None
+  /// @brief Field _beatmapLevelsModel, offset: 0x108, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
 
   /// [Inject]
-  /// @brief Field _platform, offset: 0x118, size: 0x8, def value: None
+  /// @brief Field _platform, offset: 0x110, size: 0x8, def value: None
   ::OculusStudios::Platform::Core::IPlatform* ____platform;
 
   /// [Inject]
-  /// @brief Field _beatmapEntitlementModel, offset: 0x120, size: 0x8, def value: None
+  /// @brief Field _beatmapEntitlementModel, offset: 0x118, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsEntitlementModel* ____beatmapEntitlementModel;
 
-  /// @brief Field _viewControllerTitles, offset: 0x128, size: 0x8, def value: None
+  /// @brief Field _viewControllerTitles, offset: 0x120, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::UnityW<::HMUI::ViewController>, ::StringW>* ____viewControllerTitles;
 
-  /// @brief Field _selectedRegion, offset: 0x130, size: 0x4, def value: None
+  /// @brief Field _selectedRegion, offset: 0x128, size: 0x4, def value: None
   ::GlobalNamespace::Region ____selectedRegion;
 
-  /// @brief Field _openedWithLanguage, offset: 0x134, size: 0x4, def value: None
+  /// @brief Field _openedWithLanguage, offset: 0x12c, size: 0x4, def value: None
   ::BGLib::Polyglot::LocalizationLanguage ____openedWithLanguage;
 
-  /// @brief Field _updateUacTask, offset: 0x138, size: 0x8, def value: None
+  /// @brief Field _updateUacTask, offset: 0x130, size: 0x8, def value: None
   ::System::Threading::Tasks::Task* ____updateUacTask;
 
-  /// @brief Field _filterExcludedSongsTask, offset: 0x140, size: 0x8, def value: None
+  /// @brief Field _filterExcludedSongsTask, offset: 0x138, size: 0x8, def value: None
   ::System::Threading::Tasks::Task* ____filterExcludedSongsTask;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____selectLanguageViewController) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____selectLanguageViewController) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____selectRegionViewController) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____selectRegionViewController) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____eulaViewController) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____eulaViewController) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____privacyPolicyViewController) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____privacyPolicyViewController) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____healthWarningViewController) == 0xd0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____healthWarningViewController) == 0xc8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____explicitContentWarningViewController) == 0xd8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____explicitContentWarningViewController) == 0xd0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____noUserAgeWarningViewController) == 0xe0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____noUserAgeWarningViewController) == 0xd8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____endOfLifeNoticeViewController) == 0xe8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____endOfLifeNoticeViewController) == 0xe0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____playerDataModel) == 0xf0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____playerDataModel) == 0xe8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____healthWarningSceneSetupData) == 0xf8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____healthWarningSceneSetupData) == 0xf0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____fileStorage) == 0x100, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____fileStorage) == 0xf8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____settingsManager) == 0x108, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____settingsManager) == 0x100, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____beatmapLevelsModel) == 0x110, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____beatmapLevelsModel) == 0x108, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____platform) == 0x118, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____platform) == 0x110, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____beatmapEntitlementModel) == 0x120, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____beatmapEntitlementModel) == 0x118, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____viewControllerTitles) == 0x128, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____viewControllerTitles) == 0x120, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____selectedRegion) == 0x130, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____selectedRegion) == 0x128, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____openedWithLanguage) == 0x134, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____openedWithLanguage) == 0x12c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____updateUacTask) == 0x138, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____updateUacTask) == 0x130, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____filterExcludedSongsTask) == 0x140, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____filterExcludedSongsTask) == 0x138, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::HealthWarningFlowCoordinator) == 0x148, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::HealthWarningFlowCoordinator) == 0x140, "Size mismatch!");
 
 } // namespace GlobalNamespace

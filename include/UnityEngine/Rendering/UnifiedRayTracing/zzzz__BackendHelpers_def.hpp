@@ -26,10 +26,10 @@ namespace UnityEngine::Rendering::UnifiedRayTracing {
 class CORDL_TYPE BackendHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetFileNameOfShader, addr 0x6e07ca8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetFileNameOfShader, addr 0x6e44944, size 0x114, virtual false, abstract: false, final false
   static inline ::StringW GetFileNameOfShader(::UnityEngine::Rendering::UnifiedRayTracing::RayTracingBackend backend, ::StringW fileName);
 
-  /// @brief Method GetTypeOfShader, addr 0x6e07dbc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetTypeOfShader, addr 0x6e44a58, size 0x10c, virtual false, abstract: false, final false
   static inline ::System::Type* GetTypeOfShader(::UnityEngine::Rendering::UnifiedRayTracing::RayTracingBackend backend);
 
 protected:
@@ -47,7 +47,7 @@ public:
   BackendHelpers(BackendHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20474 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20521 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -81,7 +81,7 @@ public:
   static ::UnityEngine::XR::XRSettings_StereoRenderingMode const SinglePassMultiview;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23845 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23927 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -111,68 +111,68 @@ public:
   // Declarations
   using StereoRenderingMode = ::UnityEngine::XR::XRSettings_StereoRenderingMode;
 
-  /// @brief Method get_deviceEyeTextureDimension, addr 0x72d1e54, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_deviceEyeTextureDimension, addr 0x730ed88, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::TextureDimension get_deviceEyeTextureDimension();
 
   /// [StaticAccessor("GetIVRDeviceScripting()", (UnityEngine.Bindings.StaticAccessorType)3)]
-  /// @brief Method get_enabled, addr 0x72d1c44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x730eb78, size 0x28, virtual false, abstract: false, final false
   static inline bool get_enabled();
 
-  /// @brief Method get_eyeTextureDesc, addr 0x72d1da8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_eyeTextureDesc, addr 0x730ecdc, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::RenderTextureDescriptor get_eyeTextureDesc();
 
-  /// @brief Method get_eyeTextureDesc_Injected, addr 0x72d1e18, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_eyeTextureDesc_Injected, addr 0x730ed4c, size 0x3c, virtual false, abstract: false, final false
   static inline void get_eyeTextureDesc_Injected(::by_ref<::UnityEngine::RenderTextureDescriptor> ret);
 
-  /// @brief Method get_eyeTextureHeight, addr 0x72d1d80, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_eyeTextureHeight, addr 0x730ecb4, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_eyeTextureHeight();
 
-  /// @brief Method get_eyeTextureResolutionScale, addr 0x72d1cf8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_eyeTextureResolutionScale, addr 0x730ec2c, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_eyeTextureResolutionScale();
 
-  /// @brief Method get_eyeTextureWidth, addr 0x72d1d58, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_eyeTextureWidth, addr 0x730ec8c, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_eyeTextureWidth();
 
-  /// @brief Method get_isDeviceActive, addr 0x72d1c6c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_isDeviceActive, addr 0x730eba0, size 0x28, virtual false, abstract: false, final false
   static inline bool get_isDeviceActive();
 
-  /// @brief Method get_loadedDeviceName, addr 0x72d2004, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_loadedDeviceName, addr 0x730ef38, size 0xc4, virtual false, abstract: false, final false
   static inline ::StringW get_loadedDeviceName();
 
-  /// @brief Method get_loadedDeviceName_Injected, addr 0x72d20c8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_loadedDeviceName_Injected, addr 0x730effc, size 0x3c, virtual false, abstract: false, final false
   static inline void get_loadedDeviceName_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
-  /// @brief Method get_occlusionMaskScale, addr 0x72d1fb4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_occlusionMaskScale, addr 0x730eee8, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_occlusionMaskScale();
 
-  /// @brief Method get_renderViewportScale, addr 0x72d1e7c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_renderViewportScale, addr 0x730edb0, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_renderViewportScale();
 
-  /// @brief Method get_renderViewportScaleInternal, addr 0x72d1ea4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_renderViewportScaleInternal, addr 0x730edd8, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_renderViewportScaleInternal();
 
-  /// @brief Method get_showDeviceView, addr 0x72d1c94, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_showDeviceView, addr 0x730ebc8, size 0x28, virtual false, abstract: false, final false
   static inline bool get_showDeviceView();
 
-  /// @brief Method get_stereoRenderingMode, addr 0x72d212c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_stereoRenderingMode, addr 0x730f060, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::XRSettings_StereoRenderingMode get_stereoRenderingMode();
 
-  /// @brief Method get_supportedDevices, addr 0x72d2104, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_supportedDevices, addr 0x730f038, size 0x28, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> get_supportedDevices();
 
-  /// @brief Method get_useOcclusionMesh, addr 0x72d1fdc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_useOcclusionMesh, addr 0x730ef10, size 0x28, virtual false, abstract: false, final false
   static inline bool get_useOcclusionMesh();
 
-  /// @brief Method set_eyeTextureResolutionScale, addr 0x72d1d20, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_eyeTextureResolutionScale, addr 0x730ec54, size 0x38, virtual false, abstract: false, final false
   static inline void set_eyeTextureResolutionScale(float_t value);
 
-  /// @brief Method set_renderViewportScale, addr 0x72d1ecc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_renderViewportScale, addr 0x730ee00, size 0xb0, virtual false, abstract: false, final false
   static inline void set_renderViewportScale(float_t value);
 
-  /// @brief Method set_renderViewportScaleInternal, addr 0x72d1f7c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_renderViewportScaleInternal, addr 0x730eeb0, size 0x38, virtual false, abstract: false, final false
   static inline void set_renderViewportScaleInternal(float_t value);
 
-  /// @brief Method set_showDeviceView, addr 0x72d1cbc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_showDeviceView, addr 0x730ebf0, size 0x3c, virtual false, abstract: false, final false
   static inline void set_showDeviceView(bool value);
 
 protected:
@@ -190,7 +190,7 @@ public:
   XRSettings(XRSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23846 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23928 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -78,28 +78,28 @@ public:
 
   __declspec(property(get = get_instancesLength)) int32_t instancesLength;
 
-  /// @brief Method IndexToSharedInstance, addr 0x6c5c7bc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method IndexToSharedInstance, addr 0x6c99438, size 0x70, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::SharedInstanceHandle IndexToSharedInstance(int32_t index);
 
-  /// @brief Method InstanceToIndex, addr 0x6c5caa4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method InstanceToIndex, addr 0x6c99720, size 0x8c, virtual false, abstract: false, final false
   inline int32_t InstanceToIndex(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData_ReadOnly const> instanceData, ::UnityEngine::Rendering::InstanceHandle instance);
 
-  /// @brief Method IsValidIndex, addr 0x6c5c9a0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method IsValidIndex, addr 0x6c9961c, size 0x104, virtual false, abstract: false, final false
   inline bool IsValidIndex(int32_t index);
 
-  /// @brief Method IsValidSharedInstance, addr 0x6c5c82c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method IsValidSharedInstance, addr 0x6c994a8, size 0x174, virtual false, abstract: false, final false
   inline bool IsValidSharedInstance(::UnityEngine::Rendering::SharedInstanceHandle instance);
 
-  /// @brief Method SharedInstanceToIndex, addr 0x6c5c720, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SharedInstanceToIndex, addr 0x6c9939c, size 0x9c, virtual false, abstract: false, final false
   inline int32_t SharedInstanceToIndex(::UnityEngine::Rendering::SharedInstanceHandle instance);
 
-  /// @brief Method .ctor, addr 0x6c5c194, size 0x504, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c98e10, size 0x504, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUSharedInstanceData const> instanceData);
 
-  /// @brief Method get_handlesLength, addr 0x6c5c698, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_handlesLength, addr 0x6c99314, size 0x44, virtual false, abstract: false, final false
   inline int32_t get_handlesLength();
 
-  /// @brief Method get_instancesLength, addr 0x6c5c6dc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_instancesLength, addr 0x6c99358, size 0x44, virtual false, abstract: false, final false
   inline int32_t get_instancesLength();
 
   // Ctor Parameters []
@@ -126,7 +126,7 @@ public:
       ::Unity::Collections::NativeArray_1_ReadOnly<int32_t> gameObjectLayers, ::Unity::Collections::NativeArray_1_ReadOnly<int32_t> refCounts) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18222 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18255 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xb0 };
@@ -211,128 +211,128 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Add, addr 0x6c5ba00, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6c9867c, size 0x54, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::Rendering::SharedInstanceHandle instance);
 
-  /// @brief Method AddNoGrow, addr 0x6c5b958, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AddNoGrow, addr 0x6c985d4, size 0x2c, virtual false, abstract: false, final false
   inline void AddNoGrow(::UnityEngine::Rendering::SharedInstanceHandle instance);
 
-  /// @brief Method AddUnsafe, addr 0x6c5b2e8, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method AddUnsafe, addr 0x6c97f64, size 0x1f0, virtual false, abstract: false, final false
   inline void AddUnsafe(::UnityEngine::Rendering::SharedInstanceHandle instance);
 
-  /// @brief Method AsReadOnly, addr 0x6c5c160, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method AsReadOnly, addr 0x6c98ddc, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly AsReadOnly();
 
-  /// @brief Method Dispose, addr 0x6c5acd0, size 0x318, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6c9794c, size 0x318, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method EnsureFreeInstances, addr 0x6c5b930, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method EnsureFreeInstances, addr 0x6c985ac, size 0x28, virtual false, abstract: false, final false
   inline void EnsureFreeInstances(int32_t instancesCount);
 
-  /// @brief Method GetFreeInstancesCount, addr 0x6c5b920, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetFreeInstancesCount, addr 0x6c9859c, size 0x10, virtual false, abstract: false, final false
   inline int32_t GetFreeInstancesCount();
 
-  /// @brief Method Get_Flags, addr 0x6c5bd38, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Get_Flags, addr 0x6c989b4, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::CPUSharedInstanceFlags Get_Flags(::UnityEngine::Rendering::SharedInstanceHandle instance);
 
-  /// @brief Method Get_GameObjectLayer, addr 0x6c5bd78, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Get_GameObjectLayer, addr 0x6c989f4, size 0x20, virtual false, abstract: false, final false
   inline int32_t Get_GameObjectLayer(::UnityEngine::Rendering::SharedInstanceHandle instance);
 
-  /// @brief Method Get_LODGroupAndMask, addr 0x6c5bd58, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Get_LODGroupAndMask, addr 0x6c989d4, size 0x20, virtual false, abstract: false, final false
   inline uint32_t Get_LODGroupAndMask(::UnityEngine::Rendering::SharedInstanceHandle instance);
 
-  /// @brief Method Get_LocalAABB, addr 0x6c5bcbc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Get_LocalAABB, addr 0x6c98938, size 0x7c, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::Rendering::AABB> Get_LocalAABB(::UnityEngine::Rendering::SharedInstanceHandle instance);
 
-  /// @brief Method Get_MaterialIDs, addr 0x6c5bdb8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Get_MaterialIDs, addr 0x6c98a34, size 0x78, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::Rendering::SmallEntityIdArray> Get_MaterialIDs(::UnityEngine::Rendering::SharedInstanceHandle instance);
 
-  /// @brief Method Get_MeshID, addr 0x6c5bc9c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Get_MeshID, addr 0x6c98918, size 0x20, virtual false, abstract: false, final false
   inline int32_t Get_MeshID(::UnityEngine::Rendering::SharedInstanceHandle instance);
 
-  /// @brief Method Get_RefCount, addr 0x6c5bd98, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Get_RefCount, addr 0x6c98a14, size 0x20, virtual false, abstract: false, final false
   inline int32_t Get_RefCount(::UnityEngine::Rendering::SharedInstanceHandle instance);
 
-  /// @brief Method Get_RendererGroupID, addr 0x6c5bc7c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Get_RendererGroupID, addr 0x6c988f8, size 0x20, virtual false, abstract: false, final false
   inline int32_t Get_RendererGroupID(::UnityEngine::Rendering::SharedInstanceHandle instance);
 
-  /// @brief Method Grow, addr 0x6c5b044, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method Grow, addr 0x6c97cc0, size 0x2a4, virtual false, abstract: false, final false
   inline void Grow(int32_t newCapacity);
 
-  /// @brief Method IndexToSharedInstance, addr 0x6c5b578, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IndexToSharedInstance, addr 0x6c981f4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::SharedInstanceHandle IndexToSharedInstance(int32_t index);
 
-  /// @brief Method Initialize, addr 0x6c5a948, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6c975c4, size 0x388, virtual false, abstract: false, final false
   inline void Initialize(int32_t initCapacity);
 
-  /// @brief Method InstanceToIndex, addr 0x6c5b584, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InstanceToIndex, addr 0x6c98200, size 0x54, virtual false, abstract: false, final false
   inline int32_t InstanceToIndex(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CPUInstanceData const> instanceData, ::UnityEngine::Rendering::InstanceHandle instance);
 
-  /// @brief Method IsFreeInstanceHandle, addr 0x6c5b730, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method IsFreeInstanceHandle, addr 0x6c983ac, size 0x128, virtual false, abstract: false, final false
   inline bool IsFreeInstanceHandle(::UnityEngine::Rendering::SharedInstanceHandle instance);
 
-  /// @brief Method IsValidIndex, addr 0x6c5b858, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method IsValidIndex, addr 0x6c984d4, size 0xc8, virtual false, abstract: false, final false
   inline bool IsValidIndex(int32_t index);
 
-  /// @brief Method IsValidInstance, addr 0x6c5b5d8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method IsValidInstance, addr 0x6c98254, size 0x158, virtual false, abstract: false, final false
   inline bool IsValidInstance(::UnityEngine::Rendering::SharedInstanceHandle instance);
 
-  /// @brief Method Remove, addr 0x6c5ba54, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x6c986d0, size 0x228, virtual false, abstract: false, final false
   inline void Remove(::UnityEngine::Rendering::SharedInstanceHandle instance);
 
-  /// @brief Method Set, addr 0x6c5c00c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x6c98c88, size 0x154, virtual false, abstract: false, final false
   inline void Set(::UnityEngine::Rendering::SharedInstanceHandle instance, ::UnityEngine::EntityId rendererGroupID,
                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::SmallEntityIdArray const> materialIDs, int32_t meshID,
                   /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::AABB const> localAABB, ::UnityEngine::Rendering::TransformUpdateFlags transformUpdateFlags,
                   ::UnityEngine::Rendering::InstanceFlags instanceFlags, uint32_t lodGroupAndMask, ::UnityEngine::Rendering::GPUDrivenMeshLodInfo meshLodInfo, int32_t gameObjectLayer,
                   int32_t refCount);
 
-  /// @brief Method SetDefault, addr 0x6c5b984, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetDefault, addr 0x6c98600, size 0x7c, virtual false, abstract: false, final false
   inline void SetDefault(::UnityEngine::Rendering::SharedInstanceHandle instance);
 
-  /// @brief Method Set_Flags, addr 0x6c5becc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Set_Flags, addr 0x6c98b48, size 0x2c, virtual false, abstract: false, final false
   inline void Set_Flags(::UnityEngine::Rendering::SharedInstanceHandle instance, ::UnityEngine::Rendering::CPUSharedInstanceFlags instanceFlags);
 
-  /// @brief Method Set_GameObjectLayer, addr 0x6c5bf24, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Set_GameObjectLayer, addr 0x6c98ba0, size 0x2c, virtual false, abstract: false, final false
   inline void Set_GameObjectLayer(::UnityEngine::Rendering::SharedInstanceHandle instance, int32_t gameObjectLayer);
 
-  /// @brief Method Set_LODGroupAndMask, addr 0x6c5bef8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Set_LODGroupAndMask, addr 0x6c98b74, size 0x2c, virtual false, abstract: false, final false
   inline void Set_LODGroupAndMask(::UnityEngine::Rendering::SharedInstanceHandle instance, uint32_t lodGroupAndMask);
 
-  /// @brief Method Set_LocalAABB, addr 0x6c5be88, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Set_LocalAABB, addr 0x6c98b04, size 0x44, virtual false, abstract: false, final false
   inline void Set_LocalAABB(::UnityEngine::Rendering::SharedInstanceHandle instance, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::AABB const> localAABB);
 
-  /// @brief Method Set_MaterialIDs, addr 0x6c5bf7c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Set_MaterialIDs, addr 0x6c98bf8, size 0x90, virtual false, abstract: false, final false
   inline void Set_MaterialIDs(::UnityEngine::Rendering::SharedInstanceHandle instance, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::SmallEntityIdArray const> materialIDs);
 
-  /// @brief Method Set_MeshID, addr 0x6c5be5c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Set_MeshID, addr 0x6c98ad8, size 0x2c, virtual false, abstract: false, final false
   inline void Set_MeshID(::UnityEngine::Rendering::SharedInstanceHandle instance, int32_t meshID);
 
-  /// @brief Method Set_RefCount, addr 0x6c5bf50, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Set_RefCount, addr 0x6c98bcc, size 0x2c, virtual false, abstract: false, final false
   inline void Set_RefCount(::UnityEngine::Rendering::SharedInstanceHandle instance, int32_t refCount);
 
-  /// @brief Method Set_RendererGroupID, addr 0x6c5be30, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Set_RendererGroupID, addr 0x6c98aac, size 0x2c, virtual false, abstract: false, final false
   inline void Set_RendererGroupID(::UnityEngine::Rendering::SharedInstanceHandle instance, int32_t rendererGroupID);
 
-  /// @brief Method SharedInstanceToIndex, addr 0x6c5b4d8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SharedInstanceToIndex, addr 0x6c98154, size 0xa0, virtual false, abstract: false, final false
   inline int32_t SharedInstanceToIndex(::UnityEngine::Rendering::SharedInstanceHandle instance);
 
-  /// @brief Method get_handlesLength, addr 0x6c5a8e4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_handlesLength, addr 0x6c97560, size 0x64, virtual false, abstract: false, final false
   inline int32_t get_handlesLength();
 
-  /// @brief Method get_instancesCapacity, addr 0x6c5a8cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_instancesCapacity, addr 0x6c97548, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_instancesCapacity();
 
-  /// @brief Method get_instancesLength, addr 0x6c5a8b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_instancesLength, addr 0x6c97530, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_instancesLength();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
 
-  /// @brief Method set_instancesCapacity, addr 0x6c5a8d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_instancesCapacity, addr 0x6c97554, size 0xc, virtual false, abstract: false, final false
   inline void set_instancesCapacity(int32_t value);
 
-  /// @brief Method set_instancesLength, addr 0x6c5a8c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_instancesLength, addr 0x6c9753c, size 0xc, virtual false, abstract: false, final false
   inline void set_instancesLength(int32_t value);
 
   // Ctor Parameters []
@@ -361,7 +361,7 @@ public:
                                   ::Unity::Collections::NativeArray_1<int32_t> refCounts) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18223 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18256 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xb8 };

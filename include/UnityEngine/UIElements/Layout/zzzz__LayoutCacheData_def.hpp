@@ -26,18 +26,18 @@ public:
   /// @brief Field Default, offset 0xffffffff, size 0x28
   __declspec(property(get = getStaticF_Default, put = setStaticF_Default)) ::UnityEngine::UIElements::Layout::LayoutCacheData Default;
 
-  /// @brief Method ClearCachedMeasurements, addr 0x71978d8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ClearCachedMeasurements, addr 0x71d480c, size 0xb4, virtual false, abstract: false, final false
   inline void ClearCachedMeasurements();
 
-  /// @brief Method ClearCachedMeasurements, addr 0x71986f4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ClearCachedMeasurements, addr 0x71d5628, size 0x3c, virtual false, abstract: false, final false
   static inline void ClearCachedMeasurements(void* LayoutCacheData);
 
   /// [IsReadOnly]
-  /// @brief Method MeasurementCacheCount, addr 0x7198664, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method MeasurementCacheCount, addr 0x71d5598, size 0x90, virtual false, abstract: false, final false
   inline int32_t MeasurementCacheCount();
 
   /// [IsReadOnly]
-  /// @brief Method ToString, addr 0x7198508, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x71d543c, size 0x15c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   static inline ::UnityEngine::UIElements::Layout::LayoutCacheData getStaticF_Default();

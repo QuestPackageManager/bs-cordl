@@ -34,15 +34,15 @@ public:
   /// @brief Field _xrSystemState, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__xrSystemState, put = __cordl_internal_set__xrSystemState)) ::GlobalNamespace::IXRSystemState* _xrSystemState;
 
-  /// @brief Method HandleSystemStateChange, addr 0x5cd2184, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method HandleSystemStateChange, addr 0x5d0b2f8, size 0x84, virtual false, abstract: false, final false
   inline void HandleSystemStateChange(::GlobalNamespace::XRSystemEventType eventType);
 
   static inline ::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5cd2048, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5d0b1bc, size 0x13c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x5cd1f28, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5d0b09c, size 0x120, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AudioPlayerBase> const& __cordl_internal_get__songPreviewPlayer() const;
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__xrSystemState(::GlobalNamespace::IXRSystemState* value);
 
-  /// @brief Method .ctor, addr 0x5cd2208, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d0b37c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

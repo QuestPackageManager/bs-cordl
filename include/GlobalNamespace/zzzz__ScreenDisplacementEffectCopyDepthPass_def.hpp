@@ -30,10 +30,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::ScreenDisplacementEffectCopyDepthPass* New_ctor(::UnityEngine::Shader* copyDepthShader);
 
-  /// @brief Method RecordRenderGraph, addr 0x6369fb8, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x63a6a90, size 0x11c, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method .ctor, addr 0x6368534, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63a500c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Shader* copyDepthShader);
 
 protected:
@@ -51,7 +51,7 @@ public:
   ScreenDisplacementEffectCopyDepthPass(ScreenDisplacementEffectCopyDepthPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21175 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21222 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

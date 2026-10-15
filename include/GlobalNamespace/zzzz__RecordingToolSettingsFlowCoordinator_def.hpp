@@ -31,37 +31,37 @@ namespace GlobalNamespace {
 class CORDL_TYPE RecordingToolSettingsFlowCoordinator : public ::HMUI::FlowCoordinator {
 public:
   // Declarations
-  /// @brief Field _recordingToolConfigViewController, offset 0xb0, size 0x8
+  /// @brief Field _recordingToolConfigViewController, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__recordingToolConfigViewController,
                       put = __cordl_internal_set__recordingToolConfigViewController)) ::UnityW<::GlobalNamespace::RecordingToolConfigViewController>
       _recordingToolConfigViewController;
 
-  /// @brief Field _recordingToolLoggingViewController, offset 0xc0, size 0x8
+  /// @brief Field _recordingToolLoggingViewController, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__recordingToolLoggingViewController,
                       put = __cordl_internal_set__recordingToolLoggingViewController)) ::UnityW<::GlobalNamespace::RecordingToolLoggingViewController>
       _recordingToolLoggingViewController;
 
-  /// @brief Field _recordingToolSceneSetupData, offset 0xc8, size 0x8
+  /// @brief Field _recordingToolSceneSetupData, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get__recordingToolSceneSetupData,
                       put = __cordl_internal_set__recordingToolSceneSetupData)) ::GlobalNamespace::RecordingToolSceneSetupData* _recordingToolSceneSetupData;
 
-  /// @brief Field _recordingToolSettingsViewController, offset 0xb8, size 0x8
+  /// @brief Field _recordingToolSettingsViewController, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get__recordingToolSettingsViewController,
                       put = __cordl_internal_set__recordingToolSettingsViewController)) ::UnityW<::GlobalNamespace::RecordingToolSettingsViewController>
       _recordingToolSettingsViewController;
 
-  /// @brief Method DidActivate, addr 0x5e28bd0, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5e665c0, size 0x124, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x5e28da0, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5e66790, size 0xac, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleRecordingToolSettingsViewControllerDidFinish, addr 0x5e28f4c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HandleRecordingToolSettingsViewControllerDidFinish, addr 0x5e6693c, size 0x60, virtual false, abstract: false, final false
   inline void HandleRecordingToolSettingsViewControllerDidFinish();
 
   static inline ::GlobalNamespace::RecordingToolSettingsFlowCoordinator* New_ctor();
 
-  /// @brief Method Update, addr 0x5e28ef8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5e668e8, size 0x54, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::RecordingToolConfigViewController> const& __cordl_internal_get__recordingToolConfigViewController() const;
@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set__recordingToolSettingsViewController(::UnityW<::GlobalNamespace::RecordingToolSettingsViewController> value);
 
-  /// @brief Method .ctor, addr 0x5e28fac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e6699c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -106,35 +106,35 @@ public:
   RecordingToolSettingsFlowCoordinator(RecordingToolSettingsFlowCoordinator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6486 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6490 };
 
   /// [SerializeField]
-  /// @brief Field _recordingToolConfigViewController, offset: 0xb0, size: 0x8, def value: None
+  /// @brief Field _recordingToolConfigViewController, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::RecordingToolConfigViewController> ____recordingToolConfigViewController;
 
   /// [SerializeField]
-  /// @brief Field _recordingToolSettingsViewController, offset: 0xb8, size: 0x8, def value: None
+  /// @brief Field _recordingToolSettingsViewController, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::RecordingToolSettingsViewController> ____recordingToolSettingsViewController;
 
   /// [SerializeField]
-  /// @brief Field _recordingToolLoggingViewController, offset: 0xc0, size: 0x8, def value: None
+  /// @brief Field _recordingToolLoggingViewController, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::RecordingToolLoggingViewController> ____recordingToolLoggingViewController;
 
   /// [Inject]
-  /// @brief Field _recordingToolSceneSetupData, offset: 0xc8, size: 0x8, def value: None
+  /// @brief Field _recordingToolSceneSetupData, offset: 0xc0, size: 0x8, def value: None
   ::GlobalNamespace::RecordingToolSceneSetupData* ____recordingToolSceneSetupData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::RecordingToolSettingsFlowCoordinator, ____recordingToolConfigViewController) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RecordingToolSettingsFlowCoordinator, ____recordingToolConfigViewController) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RecordingToolSettingsFlowCoordinator, ____recordingToolSettingsViewController) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RecordingToolSettingsFlowCoordinator, ____recordingToolSettingsViewController) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RecordingToolSettingsFlowCoordinator, ____recordingToolLoggingViewController) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RecordingToolSettingsFlowCoordinator, ____recordingToolLoggingViewController) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RecordingToolSettingsFlowCoordinator, ____recordingToolSceneSetupData) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RecordingToolSettingsFlowCoordinator, ____recordingToolSceneSetupData) == 0xc0, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::RecordingToolSettingsFlowCoordinator) == 0xd0, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::RecordingToolSettingsFlowCoordinator) == 0xc8, "Size mismatch!");
 
 } // namespace GlobalNamespace

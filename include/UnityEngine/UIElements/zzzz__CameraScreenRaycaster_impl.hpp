@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::CameraScreenRaycaster_CameraRayEnumerator::*)()>(
     &::UnityEngine::UIElements::CameraScreenRaycaster_CameraRayEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x724878c;
+  constexpr static std::size_t addrs = 0x72856c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CameraScreenRaycaster_CameraRayEnumerator::*)()>(
     &::UnityEngine::UIElements::CameraScreenRaycaster_CameraRayEnumerator::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x724880c;
+  constexpr static std::size_t addrs = 0x7285740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_3<::UnityEngine::Ray, ::UnityW<::UnityEngine::Camera>, bool> (
     ::UnityEngine::UIElements::CameraScreenRaycaster_CameraRayEnumerator::*)()>(&::UnityEngine::UIElements::CameraScreenRaycaster_CameraRayEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x7248818;
+  constexpr static std::size_t addrs = 0x728574c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::UIElements::CameraScreenRaycaster_CameraRayEnumerator::*)()>(
     &::UnityEngine::UIElements::CameraScreenRaycaster_CameraRayEnumerator::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x7248884;
+  constexpr static std::size_t addrs = 0x72857b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_3<::UnityEngine::Ray, ::UnityW<::UnityEngine::Camera>, bool>>* (
     ::UnityEngine::UIElements::CameraScreenRaycaster_CameraRayEnumerator::*)()>(&::UnityEngine::UIElements::CameraScreenRaycaster_CameraRayEnumerator::GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x7248920;
+  constexpr static std::size_t addrs = 0x7285854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::UIElements::CameraScreenRaycaster_CameraRayEnumerator::*)()>(
     &::UnityEngine::UIElements::CameraScreenRaycaster_CameraRayEnumerator::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x7248924;
+  constexpr static std::size_t addrs = 0x7285858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::UIElements::CameraScreenRaycaster_CameraRayEnumerator* (*)(::ArrayW<::UnityEngine::Camera*>, int32_t, ::UnityEngine::Vector2, ::System::Nullable_1<int32_t>)>(
         &::UnityEngine::UIElements::CameraScreenRaycaster_CameraRayEnumerator::GetPooled)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x7248454;
+  constexpr static std::size_t addrs = 0x7285388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CameraScreenRaycaster_CameraRayEnumerator*>(),
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CameraScreenRaycaster_CameraRayEnumerator::*)()>(
     &::UnityEngine::UIElements::CameraScreenRaycaster_CameraRayEnumerator::Dispose)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x7248928;
+  constexpr static std::size_t addrs = 0x728585c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CameraScreenRaycaster_CameraRayEnumerator::*)()>(
     &::UnityEngine::UIElements::CameraScreenRaycaster_CameraRayEnumerator::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x72489a8;
+  constexpr static std::size_t addrs = 0x72858dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -352,7 +352,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CameraScreenRaycaster___c::*)()>(&::UnityEngine::UIElements::CameraScreenRaycaster___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x7248a08;
+  constexpr static std::size_t addrs = 0x728593c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CameraScreenRaycaster___c*>(), { ".ctor", {}, {} })));
@@ -365,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::CameraScreenRaycaster___c::*)(::UnityEngine::Camera*, ::UnityEngine::Camera*)>(
     &::UnityEngine::UIElements::CameraScreenRaycaster___c::_Update_b__3_0)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x7248a0c;
+  constexpr static std::size_t addrs = 0x7285940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -408,7 +408,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CameraScreenRaycaster::*)()>(&::UnityEngine::UIElements::CameraScreenRaycaster::Update)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x7248254;
+  constexpr static std::size_t addrs = 0x7285188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -422,7 +422,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_3<::UnityEngine::Ray, ::UnityW<::UnityEngine::Camera>, bool>>* (
     ::UnityEngine::UIElements::CameraScreenRaycaster::*)(::UnityEngine::Vector2, int32_t, ::System::Nullable_1<int32_t>)>(&::UnityEngine::UIElements::CameraScreenRaycaster::MakeRay)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x7248358;
+  constexpr static std::size_t addrs = 0x728528c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -436,7 +436,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Camera*, int32_t, ::System::Nullable_1<int32_t>)>(&::UnityEngine::UIElements::CameraScreenRaycaster::IsValid)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x7248500;
+  constexpr static std::size_t addrs = 0x7285434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -451,7 +451,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Camera*, ::UnityEngine::Vector2, ::by_ref<::UnityEngine::Ray>)>(
     &::UnityEngine::UIElements::CameraScreenRaycaster::MakeRay)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x72485ec;
+  constexpr static std::size_t addrs = 0x7285520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -466,7 +466,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CameraScreenRaycaster::*)()>(&::UnityEngine::UIElements::CameraScreenRaycaster::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x7245998;
+  constexpr static std::size_t addrs = 0x72828cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CameraScreenRaycaster*>(), { ".ctor", {}, {} })));

@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EndOfLifeNoticeViewController__EnableOkButton_d__7::*)(int32_t)>(
     &::GlobalNamespace::EndOfLifeNoticeViewController__EnableOkButton_d__7::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e346a8;
+  constexpr static std::size_t addrs = 0x5e72308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EndOfLifeNoticeViewController__EnableOkButton_d__7::*)()>(
     &::GlobalNamespace::EndOfLifeNoticeViewController__EnableOkButton_d__7::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e346b4;
+  constexpr static std::size_t addrs = 0x5e72314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::EndOfLifeNoticeViewController__EnableOkButton_d__7::*)()>(
     &::GlobalNamespace::EndOfLifeNoticeViewController__EnableOkButton_d__7::MoveNext)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5e346b8;
+  constexpr static std::size_t addrs = 0x5e72318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::EndOfLifeNoticeViewController__EnableOkButton_d__7::*)()>(
     &::GlobalNamespace::EndOfLifeNoticeViewController__EnableOkButton_d__7::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e34770;
+  constexpr static std::size_t addrs = 0x5e723d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EndOfLifeNoticeViewController__EnableOkButton_d__7*>(),
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EndOfLifeNoticeViewController__EnableOkButton_d__7::*)()>(
     &::GlobalNamespace::EndOfLifeNoticeViewController__EnableOkButton_d__7::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5e34778;
+  constexpr static std::size_t addrs = 0x5e723d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::EndOfLifeNoticeViewController__EnableOkButton_d__7::*)()>(
     &::GlobalNamespace::EndOfLifeNoticeViewController__EnableOkButton_d__7::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e347b0;
+  constexpr static std::size_t addrs = 0x5e72410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EndOfLifeNoticeViewController::*)(bool, bool, bool)>(&::GlobalNamespace::EndOfLifeNoticeViewController::DidActivate)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x5e344a4;
+  constexpr static std::size_t addrs = 0x5e72104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::EndOfLifeNoticeViewController::*)()>(
     &::GlobalNamespace::EndOfLifeNoticeViewController::EnableOkButton)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5e34654;
+  constexpr static std::size_t addrs = 0x5e722b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EndOfLifeNoticeViewController*>(), { "EnableOkButton", {}, {} })));
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EndOfLifeNoticeViewController::*)()>(&::GlobalNamespace::EndOfLifeNoticeViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e346b0;
+  constexpr static std::size_t addrs = 0x5e72310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EndOfLifeNoticeViewController*>(), { ".ctor", {}, {} })));

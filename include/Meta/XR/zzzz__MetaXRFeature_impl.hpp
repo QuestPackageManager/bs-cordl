@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::MetaXRFeature::*)()>(&::Meta::XR::MetaXRFeature::get_userPresent)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6269560;
+  constexpr static std::size_t addrs = 0x62a5fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MetaXRFeature*>(), { "get_userPresent", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::Meta::XR::MetaXRFeature::*)(::System::IntPtr)>(&::Meta::XR::MetaXRFeature::HookGetInstanceProcAddr)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x62695ec;
+  constexpr static std::size_t addrs = 0x62a6034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::MetaXRFeature*>(), { ::i2c::class_of<::Meta::XR::MetaXRFeature*>(), 4 }));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::MetaXRFeature::*)(uint64_t)>(&::Meta::XR::MetaXRFeature::OnInstanceCreate)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x626971c;
+  constexpr static std::size_t addrs = 0x62a6164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::MetaXRFeature*>(), { ::i2c::class_of<::Meta::XR::MetaXRFeature*>(), 9 }));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MetaXRFeature::*)(uint64_t)>(&::Meta::XR::MetaXRFeature::OnInstanceDestroy)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6269a14;
+  constexpr static std::size_t addrs = 0x62a645c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::MetaXRFeature*>(), { ::i2c::class_of<::Meta::XR::MetaXRFeature*>(), 18 }));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MetaXRFeature::*)(uint64_t)>(&::Meta::XR::MetaXRFeature::OnSessionCreate)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6269af0;
+  constexpr static std::size_t addrs = 0x62a6538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::MetaXRFeature*>(), { ::i2c::class_of<::Meta::XR::MetaXRFeature*>(), 11 }));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MetaXRFeature::*)(uint64_t)>(&::Meta::XR::MetaXRFeature::OnAppSpaceChange)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6269bcc;
+  constexpr static std::size_t addrs = 0x62a6614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::MetaXRFeature*>(), { ::i2c::class_of<::Meta::XR::MetaXRFeature*>(), 12 }));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MetaXRFeature::*)(int32_t, int32_t)>(&::Meta::XR::MetaXRFeature::OnSessionStateChange)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6269cb0;
+  constexpr static std::size_t addrs = 0x62a66f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::MetaXRFeature*>(), { ::i2c::class_of<::Meta::XR::MetaXRFeature*>(), 13 }));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MetaXRFeature::*)(uint64_t)>(&::Meta::XR::MetaXRFeature::OnSessionBegin)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6269db4;
+  constexpr static std::size_t addrs = 0x62a67fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::MetaXRFeature*>(), { ::i2c::class_of<::Meta::XR::MetaXRFeature*>(), 14 }));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MetaXRFeature::*)(uint64_t)>(&::Meta::XR::MetaXRFeature::OnSessionEnd)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6269e90;
+  constexpr static std::size_t addrs = 0x62a68d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::MetaXRFeature*>(), { ::i2c::class_of<::Meta::XR::MetaXRFeature*>(), 15 }));
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MetaXRFeature::*)(uint64_t)>(&::Meta::XR::MetaXRFeature::OnSessionExiting)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6269f6c;
+  constexpr static std::size_t addrs = 0x62a69b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::MetaXRFeature*>(), { ::i2c::class_of<::Meta::XR::MetaXRFeature*>(), 16 }));
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MetaXRFeature::*)(uint64_t)>(&::Meta::XR::MetaXRFeature::OnSessionDestroy)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x626a048;
+  constexpr static std::size_t addrs = 0x62a6a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::MetaXRFeature*>(), { ::i2c::class_of<::Meta::XR::MetaXRFeature*>(), 17 }));
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MetaXRFeature::*)()>(&::Meta::XR::MetaXRFeature::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x626a124;
+  constexpr static std::size_t addrs = 0x62a6b6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MetaXRFeature*>(), { ".ctor", {}, {} })));

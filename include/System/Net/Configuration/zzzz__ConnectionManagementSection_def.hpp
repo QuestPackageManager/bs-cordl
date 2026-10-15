@@ -26,10 +26,10 @@ public:
 
   static inline ::System::Net::Configuration::ConnectionManagementSection* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6799e28, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67d6a6c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Properties, addr 0x6799e64, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x67d6aa8, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
 protected:
@@ -47,7 +47,7 @@ public:
   ConnectionManagementSection(ConnectionManagementSection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12759 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12766 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

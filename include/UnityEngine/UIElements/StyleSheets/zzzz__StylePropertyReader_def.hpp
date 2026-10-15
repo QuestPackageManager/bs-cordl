@@ -151,12 +151,12 @@ namespace UnityEngine::UIElements::StyleSheets {
 class CORDL_TYPE StylePropertyReader_GetCursorIdFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x71c8108, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x720503c, size 0x14, virtual true, abstract: false, final false
   inline int32_t Invoke(::UnityEngine::UIElements::StyleSheet* sheet, ::UnityEngine::UIElements::StyleValueHandle handle);
 
   static inline ::UnityEngine::UIElements::StyleSheets::StylePropertyReader_GetCursorIdFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x71c7fc0, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7204ef4, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -240,184 +240,184 @@ public:
 
   __declspec(property(get = get_valueCount, put = set_valueCount)) int32_t valueCount;
 
-  /// @brief Method GetValue, addr 0x71c33f0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x7200324, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::StylePropertyValue GetValue(int32_t index);
 
-  /// @brief Method GetValueType, addr 0x71c3458, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetValueType, addr 0x720038c, size 0x70, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleValueType GetValueType(int32_t index);
 
-  /// @brief Method IsKeyword, addr 0x71c3540, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method IsKeyword, addr 0x7200474, size 0x80, virtual false, abstract: false, final false
   inline bool IsKeyword(int32_t index, ::UnityEngine::UIElements::StyleValueKeyword keyword);
 
-  /// @brief Method IsValueType, addr 0x71c34c8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method IsValueType, addr 0x72003fc, size 0x78, virtual false, abstract: false, final false
   inline bool IsValueType(int32_t index, ::UnityEngine::UIElements::StyleValueType type);
 
-  /// @brief Method LoadProperties, addr 0x71c2f40, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method LoadProperties, addr 0x71ffe74, size 0x3d4, virtual false, abstract: false, final false
   inline void LoadProperties();
 
-  /// @brief Method MoveNextProperty, addr 0x71c3320, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method MoveNextProperty, addr 0x7200254, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::StylePropertyId MoveNextProperty();
 
   static inline ::UnityEngine::UIElements::StyleSheets::StylePropertyReader* New_ctor();
 
-  /// @brief Method ReadAngle, addr 0x71c7d74, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ReadAngle, addr 0x7204ca8, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Angle ReadAngle(::UnityEngine::UIElements::StyleSheets::StylePropertyValue value);
 
-  /// @brief Method ReadAsString, addr 0x71c35c0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ReadAsString, addr 0x72004f4, size 0x6c, virtual false, abstract: false, final false
   inline ::StringW ReadAsString(int32_t index);
 
-  /// @brief Method ReadAsset, addr 0x71c48a4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method ReadAsset, addr 0x72017d8, size 0x154, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> ReadAsset(int32_t index);
 
-  /// @brief Method ReadBackground, addr 0x71c532c, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method ReadBackground, addr 0x7202260, size 0x270, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Background ReadBackground(int32_t index);
 
-  /// @brief Method ReadBackgroundPosition, addr 0x71c69bc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ReadBackgroundPosition, addr 0x72038f0, size 0xd4, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BackgroundPosition ReadBackgroundPosition(int32_t index, ::UnityEngine::UIElements::BackgroundPositionKeyword keyword);
 
-  /// @brief Method ReadBackgroundPosition, addr 0x71c6aa8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ReadBackgroundPosition, addr 0x72039dc, size 0xf4, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BackgroundPosition ReadBackgroundPosition(int32_t valCount, ::UnityEngine::UIElements::StyleSheets::StylePropertyValue val1,
                                                                                      ::UnityEngine::UIElements::StyleSheets::StylePropertyValue val2,
                                                                                      ::UnityEngine::UIElements::BackgroundPositionKeyword keyword);
 
-  /// @brief Method ReadBackgroundPositionX, addr 0x71c69a4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ReadBackgroundPositionX, addr 0x72038d8, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BackgroundPosition ReadBackgroundPositionX(int32_t index);
 
-  /// @brief Method ReadBackgroundPositionY, addr 0x71c6a90, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ReadBackgroundPositionY, addr 0x72039c4, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BackgroundPosition ReadBackgroundPositionY(int32_t index);
 
-  /// @brief Method ReadBackgroundRepeat, addr 0x71c6b9c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ReadBackgroundRepeat, addr 0x7203ad0, size 0xbc, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BackgroundRepeat ReadBackgroundRepeat(int32_t index);
 
-  /// @brief Method ReadBackgroundRepeat, addr 0x71c6c58, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ReadBackgroundRepeat, addr 0x7203b8c, size 0xc4, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BackgroundRepeat ReadBackgroundRepeat(int32_t valCount, ::UnityEngine::UIElements::StyleSheets::StylePropertyValue val1,
                                                                                  ::UnityEngine::UIElements::StyleSheets::StylePropertyValue val2);
 
-  /// @brief Method ReadBackgroundSize, addr 0x71c6d1c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ReadBackgroundSize, addr 0x7203c50, size 0xf0, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BackgroundSize ReadBackgroundSize(int32_t index);
 
-  /// @brief Method ReadBackgroundSize, addr 0x71c6e0c, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method ReadBackgroundSize, addr 0x7203d40, size 0x210, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BackgroundSize ReadBackgroundSize(int32_t valCount, ::UnityEngine::UIElements::StyleSheets::StylePropertyValue val1,
                                                                              ::UnityEngine::UIElements::StyleSheets::StylePropertyValue val2);
 
-  /// @brief Method ReadColor, addr 0x71c4748, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ReadColor, addr 0x720167c, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::Color ReadColor(int32_t index);
 
-  /// @brief Method ReadCursor, addr 0x71c5fc8, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method ReadCursor, addr 0x7202efc, size 0x138, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Cursor ReadCursor(int32_t index);
 
-  /// @brief Method ReadCursor, addr 0x71c6100, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method ReadCursor, addr 0x7203034, size 0x1c8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Cursor ReadCursor(int32_t valueCount, ::UnityEngine::UIElements::StyleSheets::StylePropertyValue val1,
                                                              ::UnityEngine::UIElements::StyleSheets::StylePropertyValue val2, ::UnityEngine::UIElements::StyleSheets::StylePropertyValue val3,
                                                              float_t dpiScaling);
 
-  /// @brief Method ReadEnum, addr 0x71c47bc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ReadEnum, addr 0x72016f0, size 0xe8, virtual false, abstract: false, final false
   inline int32_t ReadEnum(::UnityEngine::UIElements::StyleSheets::StyleEnumType enumType, int32_t index);
 
-  /// @brief Method ReadEnum, addr 0x71c7cb4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ReadEnum, addr 0x7204be8, size 0xc0, virtual false, abstract: false, final false
   static inline int32_t ReadEnum(::UnityEngine::UIElements::StyleSheets::StyleEnumType enumType, ::UnityEngine::UIElements::StyleSheets::StylePropertyValue value);
 
-  /// @brief Method ReadFloat, addr 0x71c4644, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ReadFloat, addr 0x7201578, size 0x74, virtual false, abstract: false, final false
   inline float_t ReadFloat(int32_t index);
 
-  /// @brief Method ReadFont, addr 0x71c4f68, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method ReadFont, addr 0x7201e9c, size 0x37c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Font> ReadFont(int32_t index);
 
-  /// @brief Method ReadFontDefinition, addr 0x71c49f8, size 0x570, virtual false, abstract: false, final false
+  /// @brief Method ReadFontDefinition, addr 0x720192c, size 0x570, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::FontDefinition ReadFontDefinition(int32_t index);
 
-  /// @brief Method ReadInt, addr 0x71c46b8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ReadInt, addr 0x72015ec, size 0x90, virtual false, abstract: false, final false
   inline int32_t ReadInt(int32_t index);
 
-  /// @brief Method ReadLength, addr 0x71c3970, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ReadLength, addr 0x72008a4, size 0xd0, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Length ReadLength(int32_t index);
 
-  /// @brief Method ReadListEasingFunction, addr 0x71c701c, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method ReadListEasingFunction, addr 0x7203f50, size 0x1a8, virtual false, abstract: false, final false
   inline void ReadListEasingFunction(::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>* list, int32_t index);
 
-  /// @brief Method ReadListFilterFunction, addr 0x71c7328, size 0x494, virtual false, abstract: false, final false
+  /// @brief Method ReadListFilterFunction, addr 0x720425c, size 0x494, virtual false, abstract: false, final false
   inline void ReadListFilterFunction(::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>* list, int32_t index);
 
-  /// @brief Method ReadListStylePropertyName, addr 0x71c77bc, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method ReadListStylePropertyName, addr 0x72046f0, size 0x1b8, virtual false, abstract: false, final false
   inline void ReadListStylePropertyName(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>* list, int32_t index);
 
-  /// @brief Method ReadListTimeValue, addr 0x71c71c4, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method ReadListTimeValue, addr 0x72040f8, size 0x164, virtual false, abstract: false, final false
   inline void ReadListTimeValue(::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>* list, int32_t index);
 
-  /// @brief Method ReadMaterialDefinition, addr 0x71c52e4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ReadMaterialDefinition, addr 0x7202218, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MaterialDefinition ReadMaterialDefinition(int32_t index);
 
-  /// @brief Method ReadRatio, addr 0x71c7974, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method ReadRatio, addr 0x72048a8, size 0x1fc, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleRatio ReadRatio(int32_t index);
 
-  /// @brief Method ReadRotate, addr 0x71c4080, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method ReadRotate, addr 0x7200fb4, size 0x188, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Rotate ReadRotate(int32_t index);
 
-  /// @brief Method ReadRotate, addr 0x71c4208, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method ReadRotate, addr 0x720113c, size 0x1c0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Rotate ReadRotate(int32_t valCount, ::UnityEngine::UIElements::StyleSheets::StylePropertyValue val1,
                                                              ::UnityEngine::UIElements::StyleSheets::StylePropertyValue val2, ::UnityEngine::UIElements::StyleSheets::StylePropertyValue val3,
                                                              ::UnityEngine::UIElements::StyleSheets::StylePropertyValue val4);
 
-  /// @brief Method ReadScale, addr 0x71c43c8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ReadScale, addr 0x72012fc, size 0x104, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Scale ReadScale(int32_t index);
 
-  /// @brief Method ReadScale, addr 0x71c44cc, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method ReadScale, addr 0x7201400, size 0x178, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Scale ReadScale(int32_t valCount, ::UnityEngine::UIElements::StyleSheets::StylePropertyValue val1,
                                                            ::UnityEngine::UIElements::StyleSheets::StylePropertyValue val2, ::UnityEngine::UIElements::StyleSheets::StylePropertyValue val3);
 
-  /// @brief Method ReadTextAutoSize, addr 0x71c6720, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method ReadTextAutoSize, addr 0x7203654, size 0x138, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextAutoSize ReadTextAutoSize(int32_t index);
 
-  /// @brief Method ReadTextAutoSize, addr 0x71c6858, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ReadTextAutoSize, addr 0x720378c, size 0x14c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::TextAutoSize ReadTextAutoSize(int32_t valCount, ::UnityEngine::UIElements::StyleSheets::StylePropertyValue val1,
                                                                          ::UnityEngine::UIElements::StyleSheets::StylePropertyValue val2,
                                                                          ::UnityEngine::UIElements::StyleSheets::StylePropertyValue val3);
 
-  /// @brief Method ReadTextShadow, addr 0x71c62c8, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method ReadTextShadow, addr 0x72031fc, size 0x190, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextShadow ReadTextShadow(int32_t index);
 
-  /// @brief Method ReadTextShadow, addr 0x71c6458, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method ReadTextShadow, addr 0x720338c, size 0x2c8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::TextShadow ReadTextShadow(int32_t valCount, ::UnityEngine::UIElements::StyleSheets::StylePropertyValue val1,
                                                                      ::UnityEngine::UIElements::StyleSheets::StylePropertyValue val2, ::UnityEngine::UIElements::StyleSheets::StylePropertyValue val3,
                                                                      ::UnityEngine::UIElements::StyleSheets::StylePropertyValue val4);
 
-  /// @brief Method ReadTimeValue, addr 0x71c3a40, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReadTimeValue, addr 0x7200974, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TimeValue ReadTimeValue(int32_t index);
 
-  /// @brief Method ReadTransformOrigin, addr 0x71c3e04, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method ReadTransformOrigin, addr 0x7200d38, size 0x138, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TransformOrigin ReadTransformOrigin(int32_t index);
 
-  /// @brief Method ReadTransformOrigin, addr 0x71c3f3c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ReadTransformOrigin, addr 0x7200e70, size 0x144, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::TransformOrigin ReadTransformOrigin(int32_t valCount, ::UnityEngine::UIElements::StyleSheets::StylePropertyValue val1,
                                                                                ::UnityEngine::UIElements::StyleSheets::StylePropertyValue val2,
                                                                                ::UnityEngine::UIElements::StyleSheets::StylePropertyValue zVvalue);
 
-  /// @brief Method ReadTransformOriginEnum, addr 0x71c7b70, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ReadTransformOriginEnum, addr 0x7204aa4, size 0x144, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length ReadTransformOriginEnum(::UnityEngine::UIElements::StyleSheets::StylePropertyValue value, ::by_ref<bool> isVertical, ::by_ref<bool> isHorizontal);
 
-  /// @brief Method ReadTranslate, addr 0x71c3ac4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method ReadTranslate, addr 0x72009f8, size 0x134, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Translate ReadTranslate(int32_t index);
 
-  /// @brief Method ReadTranslate, addr 0x71c3bf8, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method ReadTranslate, addr 0x7200b2c, size 0x20c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Translate ReadTranslate(int32_t valCount, ::UnityEngine::UIElements::StyleSheets::StylePropertyValue val1,
                                                                    ::UnityEngine::UIElements::StyleSheets::StylePropertyValue val2, ::UnityEngine::UIElements::StyleSheets::StylePropertyValue val3);
 
-  /// @brief Method SetContext, addr 0x71c2f08, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetContext, addr 0x71ffe3c, size 0x38, virtual false, abstract: false, final false
   inline void SetContext(::UnityEngine::UIElements::StyleSheet* sheet, ::UnityEngine::UIElements::StyleComplexSelector* selector, ::UnityEngine::UIElements::StyleVariableContext* varContext,
                          float_t dpiScaling);
 
-  /// @brief Method SetCurrentProperty, addr 0x71c3350, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetCurrentProperty, addr 0x7200284, size 0xa0, virtual false, abstract: false, final false
   inline void SetCurrentProperty();
 
-  /// @brief Method SetInlineContext, addr 0x71c3314, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetInlineContext, addr 0x7200248, size 0xc, virtual false, abstract: false, final false
   inline void SetInlineContext(::UnityEngine::UIElements::StyleSheet* sheet, ::ArrayW<::UnityEngine::UIElements::StyleProperty*> properties, float_t dpiScaling);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method TryGetImageSourceFromValue, addr 0x71c559c, size 0xa2c, virtual false, abstract: false, final false
+  /// @brief Method TryGetImageSourceFromValue, addr 0x72024d0, size 0xa2c, virtual false, abstract: false, final false
   static inline bool TryGetImageSourceFromValue(::UnityEngine::UIElements::StyleSheets::StylePropertyValue propertyValue, float_t dpiScaling,
                                                 ::by_ref<::UnityEngine::UIElements::StyleSheets::ImageSource> source);
 
-  /// @brief Method TryReadEnum, addr 0x71c7e1c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method TryReadEnum, addr 0x7204d50, size 0xb8, virtual false, abstract: false, final false
   static inline bool TryReadEnum(::UnityEngine::UIElements::StyleSheets::StyleEnumType enumType, ::UnityEngine::UIElements::StyleSheets::StylePropertyValue value, ::by_ref<int32_t> intValue);
 
   constexpr float_t const& __cordl_internal_get__dpiScaling_k__BackingField() const;
@@ -486,51 +486,51 @@ public:
 
   constexpr void __cordl_internal_set_m_Values(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyValue>* value);
 
-  /// @brief Method .ctor, addr 0x71c7ed4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7204e08, size 0xec, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::StyleSheets::StylePropertyReader_GetCursorIdFunction* getStaticF_getCursorIdFunc();
 
   /// [CompilerGenerated]
-  /// @brief Method get_dpiScaling, addr 0x71c2ef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dpiScaling, addr 0x71ffe2c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_dpiScaling();
 
   /// [CompilerGenerated]
-  /// @brief Method get_m_CurrentValueIndex, addr 0x71c2eb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_m_CurrentValueIndex, addr 0x71ffdec, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_m_CurrentValueIndex();
 
   /// [CompilerGenerated]
-  /// @brief Method get_property, addr 0x71c2ec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_property, addr 0x71ffdfc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleProperty* get_property();
 
   /// [CompilerGenerated]
-  /// @brief Method get_propertyId, addr 0x71c2ed8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_propertyId, addr 0x71ffe0c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::StylePropertyId get_propertyId();
 
   /// [CompilerGenerated]
-  /// @brief Method get_valueCount, addr 0x71c2ee8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_valueCount, addr 0x71ffe1c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_valueCount();
 
   static inline void setStaticF_getCursorIdFunc(::UnityEngine::UIElements::StyleSheets::StylePropertyReader_GetCursorIdFunction* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_dpiScaling, addr 0x71c2f00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_dpiScaling, addr 0x71ffe34, size 0x8, virtual false, abstract: false, final false
   inline void set_dpiScaling(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_m_CurrentValueIndex, addr 0x71c2ec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_m_CurrentValueIndex, addr 0x71ffdf4, size 0x8, virtual false, abstract: false, final false
   inline void set_m_CurrentValueIndex(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_property, addr 0x71c2ed0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_property, addr 0x71ffe04, size 0x8, virtual false, abstract: false, final false
   inline void set_property(::UnityEngine::UIElements::StyleProperty* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_propertyId, addr 0x71c2ee0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_propertyId, addr 0x71ffe14, size 0x8, virtual false, abstract: false, final false
   inline void set_propertyId(::UnityEngine::UIElements::StyleSheets::StylePropertyId value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_valueCount, addr 0x71c2ef0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_valueCount, addr 0x71ffe24, size 0x8, virtual false, abstract: false, final false
   inline void set_valueCount(int32_t value);
 
 protected:

@@ -27,11 +27,11 @@ class CORDL_TYPE UIExtensionMethods : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method CopySizeAndPositionFrom, addr 0x5c6e3bc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CopySizeAndPositionFrom, addr 0x5ca5fe0, size 0xcc, virtual false, abstract: false, final false
   static inline void CopySizeAndPositionFrom(::UnityEngine::RectTransform* target, ::UnityEngine::RectTransform* source);
 
   /// [Extension]
-  /// @brief Method GetWorldRect, addr 0x5c6e488, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetWorldRect, addr 0x5ca60ac, size 0x10c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect GetWorldRect(::UnityEngine::RectTransform* target);
 
 protected:
@@ -49,7 +49,7 @@ public:
   UIExtensionMethods(UIExtensionMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22144 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22193 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

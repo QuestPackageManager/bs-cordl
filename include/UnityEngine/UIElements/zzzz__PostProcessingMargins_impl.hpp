@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::PostProcessingMargins::*)()>(&::UnityEngine::UIElements::PostProcessingMargins::get_left)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7236274;
+  constexpr static std::size_t addrs = 0x72731a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PostProcessingMargins>(), { "get_left", {}, {} })));
@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PostProcessingMargins::*)(float_t)>(&::UnityEngine::UIElements::PostProcessingMargins::set_left)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x723627c;
+  constexpr static std::size_t addrs = 0x72731b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::PostProcessingMargins::*)()>(&::UnityEngine::UIElements::PostProcessingMargins::get_top)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7236284;
+  constexpr static std::size_t addrs = 0x72731b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PostProcessingMargins>(), { "get_top", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PostProcessingMargins::*)(float_t)>(&::UnityEngine::UIElements::PostProcessingMargins::set_top)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x723628c;
+  constexpr static std::size_t addrs = 0x72731c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::PostProcessingMargins::*)()>(&::UnityEngine::UIElements::PostProcessingMargins::get_right)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7236294;
+  constexpr static std::size_t addrs = 0x72731c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PostProcessingMargins>(), { "get_right", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PostProcessingMargins::*)(float_t)>(&::UnityEngine::UIElements::PostProcessingMargins::set_right)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x723629c;
+  constexpr static std::size_t addrs = 0x72731d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::PostProcessingMargins::*)()>(&::UnityEngine::UIElements::PostProcessingMargins::get_bottom)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72362a4;
+  constexpr static std::size_t addrs = 0x72731d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PostProcessingMargins>(), { "get_bottom", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PostProcessingMargins::*)(float_t)>(&::UnityEngine::UIElements::PostProcessingMargins::set_bottom)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72362ac;
+  constexpr static std::size_t addrs = 0x72731e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

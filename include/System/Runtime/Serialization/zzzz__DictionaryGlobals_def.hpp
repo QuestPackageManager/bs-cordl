@@ -464,7 +464,7 @@ public:
   DictionaryGlobals(DictionaryGlobals const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16407 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16440 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

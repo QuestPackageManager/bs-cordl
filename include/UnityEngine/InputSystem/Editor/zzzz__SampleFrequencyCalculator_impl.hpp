@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Editor::SampleFrequencyCalculator::*)(float_t, double_t)>(
     &::UnityEngine::InputSystem::Editor::SampleFrequencyCalculator::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x69d9148;
+  constexpr static std::size_t addrs = 0x6a15dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Editor::SampleFrequencyCalculator>(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::Editor::SampleFrequencyCalculator::*)()>(
     &::UnityEngine::InputSystem::Editor::SampleFrequencyCalculator::get_targetFrequency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69d915c;
+  constexpr static std::size_t addrs = 0x6a15dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Editor::SampleFrequencyCalculator::*)(float_t)>(
     &::UnityEngine::InputSystem::Editor::SampleFrequencyCalculator::set_targetFrequency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69d9164;
+  constexpr static std::size_t addrs = 0x6a15de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::Editor::SampleFrequencyCalculator::*)()>(
     &::UnityEngine::InputSystem::Editor::SampleFrequencyCalculator::get_frequency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69d916c;
+  constexpr static std::size_t addrs = 0x6a15de8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Editor::SampleFrequencyCalculator::*)(float_t)>(
     &::UnityEngine::InputSystem::Editor::SampleFrequencyCalculator::set_frequency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69d9174;
+  constexpr static std::size_t addrs = 0x6a15df0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Editor::SampleFrequencyCalculator::*)(::UnityEngine::InputSystem::LowLevel::InputEventPtr)>(
     &::UnityEngine::InputSystem::Editor::SampleFrequencyCalculator::ProcessSample)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x69d917c;
+  constexpr static std::size_t addrs = 0x6a15df8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Editor::SampleFrequencyCalculator>(),
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Editor::SampleFrequencyCalculator::*)()>(
     &::UnityEngine::InputSystem::Editor::SampleFrequencyCalculator::Update)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x69d91a0;
+  constexpr static std::size_t addrs = 0x6a15e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Editor::SampleFrequencyCalculator>(), { "Update", {}, {} })));
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Editor::SampleFrequencyCalculator::*)(double_t)>(
     &::UnityEngine::InputSystem::Editor::SampleFrequencyCalculator::Update)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x69d9214;
+  constexpr static std::size_t addrs = 0x6a15e90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

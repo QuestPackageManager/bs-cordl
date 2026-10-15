@@ -47,23 +47,23 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x72d9dcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7316e30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(/* [NotNull] */ ::StringW type, /* [NotNull] */ ::StringW fieldName);
 
   /// [CompilerGenerated]
-  /// @brief Method get_FieldName, addr 0x72d9de4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FieldName, addr 0x7316e48, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FieldName();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Type, addr 0x72d9dd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x7316e38, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Type();
 
   /// [CompilerGenerated]
-  /// @brief Method set_FieldName, addr 0x72d9dec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FieldName, addr 0x7316e50, size 0x8, virtual false, abstract: false, final false
   inline void set_FieldName(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Type, addr 0x72d9ddc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Type, addr 0x7316e40, size 0x8, virtual false, abstract: false, final false
   inline void set_Type(::StringW value);
 
 protected:
@@ -81,7 +81,7 @@ public:
   RazorInjectionAttribute(RazorInjectionAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23405 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23509 };
 
   /// [CompilerGenerated]
   /// @brief Field <Type>k__BackingField, offset: 0x10, size: 0x8, def value: None

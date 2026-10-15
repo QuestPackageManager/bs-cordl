@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::FileWebStream::*)(::System::Net::FileWebRequest*, ::StringW, ::System::IO::FileMode, ::System::IO::FileAccess,
                                                                                               ::System::IO::FileShare)>(&::System::Net::FileWebStream::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x684b588;
+  constexpr static std::size_t addrs = 0x6888204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::FileWebStream::*)(::System::Net::FileWebRequest*, ::StringW, ::System::IO::FileMode, ::System::IO::FileAccess,
                                                                                               ::System::IO::FileShare, int32_t, bool)>(&::System::Net::FileWebStream::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x684c208;
+  constexpr static std::size_t addrs = 0x6888e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::FileWebStream::*)(bool)>(&::System::Net::FileWebStream::Dispose)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x684c2d0;
+  constexpr static std::size_t addrs = 0x6888f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::FileWebStream*>(), { ::i2c::class_of<::System::Net::FileWebStream*>(), 22 }));
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::FileWebStream::*)(::System::Net::CloseExState)>(&::System::Net::FileWebStream::System_Net_ICloseEx_CloseEx)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x684c37c;
+  constexpr static std::size_t addrs = 0x6888ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::FileWebStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Net::FileWebStream::Read)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x684c3c0;
+  constexpr static std::size_t addrs = 0x688903c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::FileWebStream*>(), { ::i2c::class_of<::System::Net::FileWebStream*>(), 35 }));
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::FileWebStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Net::FileWebStream::Write)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x684c504;
+  constexpr static std::size_t addrs = 0x6889180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::FileWebStream*>(), { ::i2c::class_of<::System::Net::FileWebStream*>(), 38 }));
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::System::Net::FileWebStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::System::Net::FileWebStream::BeginRead)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x684c5c8;
+  constexpr static std::size_t addrs = 0x6889244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::FileWebStream*>(), { ::i2c::class_of<::System::Net::FileWebStream*>(), 25 }));
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::FileWebStream::*)(::System::IAsyncResult*)>(&::System::Net::FileWebStream::EndRead)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x684c6a4;
+  constexpr static std::size_t addrs = 0x6889320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::FileWebStream*>(), { ::i2c::class_of<::System::Net::FileWebStream*>(), 26 }));
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::System::Net::FileWebStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::System::Net::FileWebStream::BeginWrite)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x684c740;
+  constexpr static std::size_t addrs = 0x68893bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::FileWebStream*>(), { ::i2c::class_of<::System::Net::FileWebStream*>(), 29 }));
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::FileWebStream::*)(::System::IAsyncResult*)>(&::System::Net::FileWebStream::EndWrite)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x684c81c;
+  constexpr static std::size_t addrs = 0x6889498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::FileWebStream*>(), { ::i2c::class_of<::System::Net::FileWebStream*>(), 30 }));
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::FileWebStream::*)()>(&::System::Net::FileWebStream::CheckError)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x684c484;
+  constexpr static std::size_t addrs = 0x6889100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::FileWebStream*>(), { "CheckError", {}, {} })));

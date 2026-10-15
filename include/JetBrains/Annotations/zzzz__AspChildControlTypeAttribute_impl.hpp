@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::AspChildControlTypeAttribute::*)(::StringW, ::System::Type*)>(
     &::JetBrains::Annotations::AspChildControlTypeAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72d9d50;
+  constexpr static std::size_t addrs = 0x7316db4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::AspChildControlTypeAttribute*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::JetBrains::Annotations::AspChildControlTypeAttribute::*)()>(&::JetBrains::Annotations::AspChildControlTypeAttribute::get_TagName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72d9d58;
+  constexpr static std::size_t addrs = 0x7316dbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::AspChildControlTypeAttribute*>(), { "get_TagName", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::AspChildControlTypeAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::AspChildControlTypeAttribute::set_TagName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72d9d60;
+  constexpr static std::size_t addrs = 0x7316dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::JetBrains::Annotations::AspChildControlTypeAttribute::*)()>(
     &::JetBrains::Annotations::AspChildControlTypeAttribute::get_ControlType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72d9d68;
+  constexpr static std::size_t addrs = 0x7316dcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::AspChildControlTypeAttribute*>(), { "get_ControlType", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::AspChildControlTypeAttribute::*)(::System::Type*)>(
     &::JetBrains::Annotations::AspChildControlTypeAttribute::set_ControlType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72d9d70;
+  constexpr static std::size_t addrs = 0x7316dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

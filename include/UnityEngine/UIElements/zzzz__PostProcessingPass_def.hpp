@@ -73,12 +73,12 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE PostProcessingPass_PrepareMaterialPropertyBlockDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x723604c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x7272f80, size 0x58, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::MaterialPropertyBlock* mpb, ::UnityEngine::UIElements::FilterFunction func);
 
   static inline ::UnityEngine::UIElements::PostProcessingPass_PrepareMaterialPropertyBlockDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x7235fcc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7272f00, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -111,12 +111,12 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE PostProcessingPass_ApplyFilterPassSettingsDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x7236124, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x7273058, size 0x58, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::MaterialPropertyBlock* mpb, ::UnityEngine::UIElements::FilterPassContext context);
 
   static inline ::UnityEngine::UIElements::PostProcessingPass_ApplyFilterPassSettingsDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x72360a4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7272fd8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -149,12 +149,12 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE PostProcessingPass_ComputeRequiredMarginsDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x72361e8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x727311c, size 0x44, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::PostProcessingMargins Invoke(::UnityEngine::UIElements::FilterFunction func);
 
   static inline ::UnityEngine::UIElements::PostProcessingPass_ComputeRequiredMarginsDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x723617c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72730b0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -217,59 +217,59 @@ public:
 
   /// [CompilerGenerated]
   /// [IsReadOnly]
-  /// @brief Method get_applySettingsCallback, addr 0x7235f9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_applySettingsCallback, addr 0x7272ed0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PostProcessingPass_ApplyFilterPassSettingsDelegate* get_applySettingsCallback();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_computeRequiredReadMarginsCallback, addr 0x7235fac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_computeRequiredReadMarginsCallback, addr 0x7272ee0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PostProcessingPass_ComputeRequiredMarginsDelegate* get_computeRequiredReadMarginsCallback();
 
   /// [CompilerGenerated]
   /// [IsReadOnly]
-  /// @brief Method get_computeRequiredWriteMarginsCallback, addr 0x7235fbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_computeRequiredWriteMarginsCallback, addr 0x7272ef0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PostProcessingPass_ComputeRequiredMarginsDelegate* get_computeRequiredWriteMarginsCallback();
 
-  /// @brief Method get_material, addr 0x7235f3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_material, addr 0x7272e70, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_material();
 
-  /// @brief Method get_parameterBindings, addr 0x7235f5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parameterBindings, addr 0x7272e90, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::ParameterBinding> get_parameterBindings();
 
-  /// @brief Method get_passIndex, addr 0x7235f4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_passIndex, addr 0x7272e80, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_passIndex();
 
-  /// @brief Method get_readMargins, addr 0x7235f6c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_readMargins, addr 0x7272ea0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PostProcessingMargins get_readMargins();
 
-  /// @brief Method get_writeMargins, addr 0x7235f84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_writeMargins, addr 0x7272eb8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PostProcessingMargins get_writeMargins();
 
   /// [CompilerGenerated]
-  /// @brief Method set_applySettingsCallback, addr 0x7235fa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_applySettingsCallback, addr 0x7272ed8, size 0x8, virtual false, abstract: false, final false
   inline void set_applySettingsCallback(::UnityEngine::UIElements::PostProcessingPass_ApplyFilterPassSettingsDelegate* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_computeRequiredReadMarginsCallback, addr 0x7235fb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_computeRequiredReadMarginsCallback, addr 0x7272ee8, size 0x8, virtual false, abstract: false, final false
   inline void set_computeRequiredReadMarginsCallback(::UnityEngine::UIElements::PostProcessingPass_ComputeRequiredMarginsDelegate* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_computeRequiredWriteMarginsCallback, addr 0x7235fc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_computeRequiredWriteMarginsCallback, addr 0x7272ef8, size 0x8, virtual false, abstract: false, final false
   inline void set_computeRequiredWriteMarginsCallback(::UnityEngine::UIElements::PostProcessingPass_ComputeRequiredMarginsDelegate* value);
 
-  /// @brief Method set_material, addr 0x7235f44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_material, addr 0x7272e78, size 0x8, virtual false, abstract: false, final false
   inline void set_material(::UnityEngine::Material* value);
 
-  /// @brief Method set_parameterBindings, addr 0x7235f64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parameterBindings, addr 0x7272e98, size 0x8, virtual false, abstract: false, final false
   inline void set_parameterBindings(::ArrayW<::UnityEngine::UIElements::ParameterBinding> value);
 
-  /// @brief Method set_passIndex, addr 0x7235f54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_passIndex, addr 0x7272e88, size 0x8, virtual false, abstract: false, final false
   inline void set_passIndex(int32_t value);
 
-  /// @brief Method set_readMargins, addr 0x7235f78, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_readMargins, addr 0x7272eac, size 0xc, virtual false, abstract: false, final false
   inline void set_readMargins(::UnityEngine::UIElements::PostProcessingMargins value);
 
-  /// @brief Method set_writeMargins, addr 0x7235f90, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_writeMargins, addr 0x7272ec4, size 0xc, virtual false, abstract: false, final false
   inline void set_writeMargins(::UnityEngine::UIElements::PostProcessingMargins value);
 
   // Ctor Parameters []

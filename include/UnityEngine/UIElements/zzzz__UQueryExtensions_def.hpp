@@ -67,11 +67,11 @@ public:
       SingleElementTypeQuery;
 
   /// [Extension]
-  /// @brief Method Q, addr 0x7142ca8, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method Q, addr 0x717fbdc, size 0x3ac, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::VisualElement* Q(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::StringW className);
 
   /// [Extension]
-  /// @brief Method Q, addr 0x7142b88, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Q, addr 0x717fabc, size 0x120, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::VisualElement* Q(::UnityEngine::UIElements::VisualElement* e, ::StringW name, /* [ParamArray] */ ::ArrayW<::StringW> classes);
 
   /// [Extension]

@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::DotnetExtension::CommandLine::CommandLineParser___c::*)()>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParser___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x359c398;
+  constexpr static std::size_t addrs = 0x35bec78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::DotnetExtension::CommandLine::CommandLineParser___c*>(), { ".ctor", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BGLib::DotnetExtension::CommandLine::CommandLineParser___c::*)(char16_t)>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParser___c::_NormalizeCommandLineArgs_b__2_0)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x359c39c;
+  constexpr static std::size_t addrs = 0x35bec7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::DotnetExtension::CommandLine::CommandLineParser___c*>(),
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BGLib::DotnetExtension::CommandLine::CommandLineParser___c::*)(::BGLib::DotnetExtension::CommandLine::ArgumentOption)>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParser___c::_ParseArgs_b__9_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x359c3e0;
+  constexpr static std::size_t addrs = 0x35becc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::DotnetExtension::CommandLine::CommandLineParser___c*>(),
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::DotnetExtension::CommandLine::CommandLineParser___c__DisplayClass9_0::*)()>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParser___c__DisplayClass9_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x359c228;
+  constexpr static std::size_t addrs = 0x35beb08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BGLib::DotnetExtension::CommandLine::CommandLineParser___c__DisplayClass9_0::*)(::BGLib::DotnetExtension::CommandLine::ArgumentOption)>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParser___c__DisplayClass9_0::_ParseArgs_b__0)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x359c3e8;
+  constexpr static std::size_t addrs = 0x35becc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::DotnetExtension::CommandLine::CommandLineParser___c__DisplayClass9_0*>(),
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (*)()>(&::BGLib::DotnetExtension::CommandLine::CommandLineParser::GetCommandLineArgs)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x359a054;
+  constexpr static std::size_t addrs = 0x35bc934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (*)(::ArrayW<::StringW>)>(&::BGLib::DotnetExtension::CommandLine::CommandLineParser::NormalizeCommandLineArgs)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x359a064;
+  constexpr static std::size_t addrs = 0x35bc944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::StringW>* (*)(::StringW, ::System::Func_2<char16_t, bool>*)>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParser::TokenizeCommandLine)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x359a1c8;
+  constexpr static std::size_t addrs = 0x35bcaa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BGLib::DotnetExtension::CommandLine::CommandLineParserResult (*)(::ArrayW<::BGLib::DotnetExtension::CommandLine::ArgumentOption>)>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParser::ParseEnvironmentCommandLine)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x359a4a0;
+  constexpr static std::size_t addrs = 0x35bcd80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -219,7 +219,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BGLib::DotnetExtension:
                                                                                                                           ::ArrayW<::BGLib::DotnetExtension::CommandLine::ArgumentOption>)>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParser::ParseCommandLine)> {
   constexpr static std::size_t size = 0x328;
-  constexpr static std::size_t addrs = 0x359a4e4;
+  constexpr static std::size_t addrs = 0x35bcdc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Collections::Generic::IEnumerable_1<::BGLib::DotnetExtension::CommandLine::ArgumentOption>*)>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParser::GenerateHint)> {
   constexpr static std::size_t size = 0x548;
-  constexpr static std::size_t addrs = 0x359bce0;
+  constexpr static std::size_t addrs = 0x35be5c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -253,7 +253,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::BGLib::DotnetExtension::CommandLine::ArgumentOption>* (*)(::System::Collections::Generic::IEnumerable_1<::BGLib::DotnetExtension::CommandLine::ArgumentOption>*)>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParser::SelectRequiredOptions)> {
   constexpr static std::size_t size = 0x36c;
-  constexpr static std::size_t addrs = 0x359b034;
+  constexpr static std::size_t addrs = 0x35bd914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -271,7 +271,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
                                                                            ::System::Text::RegularExpressions::Regex*)>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParser::GenerateOptionsMap)> {
   constexpr static std::size_t size = 0x828;
-  constexpr static std::size_t addrs = 0x359a80c;
+  constexpr static std::size_t addrs = 0x35bd0ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -292,7 +292,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
     ::by_ref<::System::Collections::Generic::Dictionary_2<::BGLib::DotnetExtension::CommandLine::ArgumentOption, ::StringW>*>, ::by_ref<::System::Collections::Generic::List_1<::StringW>*>)>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParser::ParseArgs)> {
   constexpr static std::size_t size = 0x934;
-  constexpr static std::size_t addrs = 0x359b3a0;
+  constexpr static std::size_t addrs = 0x35bdc80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -314,7 +314,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collec
                                                                 ::BGLib::DotnetExtension::CommandLine::ArgumentOption, ::StringW)>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParser::AddParsedOption)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x359c22c;
+  constexpr static std::size_t addrs = 0x35beb0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*, ::System::Collections::Generic::List_1<::StringW>*, bool)>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParser::_TokenizeCommandLine_g__Flush_3_0)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x359a3b0;
+  constexpr static std::size_t addrs = 0x35bcc90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

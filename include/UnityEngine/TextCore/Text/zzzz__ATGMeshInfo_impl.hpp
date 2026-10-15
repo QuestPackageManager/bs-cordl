@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Span_1<::UnityEngine::TextCore::Text::NativeTextElementInfo> (::UnityEngine::TextCore::Text::ATGMeshInfo::*)()>(
     &::UnityEngine::TextCore::Text::ATGMeshInfo::get_textElementInfos)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x702d5c4;
+  constexpr static std::size_t addrs = 0x706a4b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::ATGMeshInfo>(), { "get_textElementInfos", {}, {} })));

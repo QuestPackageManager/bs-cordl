@@ -73,7 +73,7 @@ public:
   static ::GlobalNamespace::LoadBeatmapLevelDataResult_ErrorType const BeatmapLevelNotOwned;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15287 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14511 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -116,14 +116,14 @@ public:
   __declspec(property(get = get_isError)) bool isError;
 
   /// [NullableContext(2)]
-  /// @brief Method FromValue, addr 0x39ba4e8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method FromValue, addr 0x39e0a48, size 0x54, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LoadBeatmapLevelDataResult FromValue(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
 
-  /// @brief Method Success, addr 0x39ba4dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Success, addr 0x39e0a3c, size 0xc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LoadBeatmapLevelDataResult Success(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
 
   /// [NullableContext(2)]
-  /// @brief Method .ctor, addr 0x39ba4d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e0a34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Nullable_1<::GlobalNamespace::LoadBeatmapLevelDataResult_ErrorType> errorType, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
 
   static inline ::GlobalNamespace::LoadBeatmapLevelDataResult getStaticF_BeatmapLevelDataNotFound();
@@ -132,10 +132,10 @@ public:
 
   static inline ::GlobalNamespace::LoadBeatmapLevelDataResult getStaticF_BeatmapLevelNotOwned();
 
-  /// @brief Method get_errorMessage, addr 0x39ba378, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method get_errorMessage, addr 0x39e08d8, size 0x15c, virtual false, abstract: false, final false
   inline ::StringW get_errorMessage();
 
-  /// @brief Method get_isError, addr 0x39ba334, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_isError, addr 0x39e0894, size 0x44, virtual false, abstract: false, final false
   inline bool get_isError();
 
   static inline void setStaticF_BeatmapLevelDataNotFound(::GlobalNamespace::LoadBeatmapLevelDataResult value);
@@ -153,7 +153,7 @@ public:
   constexpr LoadBeatmapLevelDataResult(::System::Nullable_1<::GlobalNamespace::LoadBeatmapLevelDataResult_ErrorType> errorType, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15288 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14512 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

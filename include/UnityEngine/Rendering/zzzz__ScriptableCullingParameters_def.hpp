@@ -73,7 +73,7 @@ public:
   constexpr ScriptableCullingParameters__m_CullingPlanes_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10403 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10410 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa0 };
@@ -111,7 +111,7 @@ public:
   constexpr ScriptableCullingParameters__m_LayerFarCullDistances_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10404 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10411 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
@@ -178,35 +178,35 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::ScriptableCullingParameters>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::ScriptableCullingParameters>*();
 
-  /// @brief Method Equals, addr 0x6f7e054, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6fbaf30, size 0x100, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6f7db24, size 0x460, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6fbaa00, size 0x460, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::ScriptableCullingParameters other);
 
-  /// @brief Method GetCullingPlane, addr 0x6f7d8ac, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetCullingPlane, addr 0x6fba788, size 0x12c, virtual false, abstract: false, final false
   inline ::UnityEngine::Plane GetCullingPlane(int32_t index);
 
-  /// @brief Method GetHashCode, addr 0x6f7e154, size 0x26c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6fbb030, size 0x26c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetLayerCullingDistance, addr 0x6f7d7ec, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetLayerCullingDistance, addr 0x6fba6c8, size 0xc0, virtual false, abstract: false, final false
   inline float_t GetLayerCullingDistance(int32_t layerIndex);
 
-  /// @brief Method SetCullingPlane, addr 0x6f7d9d8, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method SetCullingPlane, addr 0x6fba8b4, size 0x14c, virtual false, abstract: false, final false
   inline void SetCullingPlane(int32_t index, ::UnityEngine::Plane plane);
 
   static inline int32_t getStaticF_layerCount();
 
   static inline int32_t getStaticF_maximumCullingPlaneCount();
 
-  /// @brief Method get_cullingOptions, addr 0x6f7d784, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cullingOptions, addr 0x6fba660, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::CullingOptions get_cullingOptions();
 
-  /// @brief Method get_cullingPlaneCount, addr 0x6f7d754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cullingPlaneCount, addr 0x6fba630, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cullingPlaneCount();
 
-  /// @brief Method get_stereoProjectionMatrix, addr 0x6f7d7b4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_stereoProjectionMatrix, addr 0x6fba690, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_stereoProjectionMatrix();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::ScriptableCullingParameters>"
@@ -216,37 +216,37 @@ public:
 
   static inline void setStaticF_maximumCullingPlaneCount(int32_t value);
 
-  /// @brief Method set_conservativeEnclosingSphere, addr 0x6f7d744, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_conservativeEnclosingSphere, addr 0x6fba620, size 0x8, virtual false, abstract: false, final false
   inline void set_conservativeEnclosingSphere(bool value);
 
-  /// @brief Method set_cullingMask, addr 0x6f7d75c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_cullingMask, addr 0x6fba638, size 0x8, virtual false, abstract: false, final false
   inline void set_cullingMask(uint32_t value);
 
-  /// @brief Method set_cullingMatrix, addr 0x6f7d764, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_cullingMatrix, addr 0x6fba640, size 0x18, virtual false, abstract: false, final false
   inline void set_cullingMatrix(::UnityEngine::Matrix4x4 value);
 
-  /// @brief Method set_cullingOptions, addr 0x6f7d78c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_cullingOptions, addr 0x6fba668, size 0x8, virtual false, abstract: false, final false
   inline void set_cullingOptions(::UnityEngine::Rendering::CullingOptions value);
 
-  /// @brief Method set_maximumVisibleLights, addr 0x6f7d73c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maximumVisibleLights, addr 0x6fba618, size 0x8, virtual false, abstract: false, final false
   inline void set_maximumVisibleLights(int32_t value);
 
-  /// @brief Method set_numIterationsEnclosingSphere, addr 0x6f7d74c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_numIterationsEnclosingSphere, addr 0x6fba628, size 0x8, virtual false, abstract: false, final false
   inline void set_numIterationsEnclosingSphere(int32_t value);
 
-  /// @brief Method set_reflectionProbeSortingCriteria, addr 0x6f7d794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_reflectionProbeSortingCriteria, addr 0x6fba670, size 0x8, virtual false, abstract: false, final false
   inline void set_reflectionProbeSortingCriteria(::UnityEngine::Rendering::ReflectionProbeSortingCriteria value);
 
-  /// @brief Method set_shadowDistance, addr 0x6f7d77c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_shadowDistance, addr 0x6fba658, size 0x8, virtual false, abstract: false, final false
   inline void set_shadowDistance(float_t value);
 
-  /// @brief Method set_stereoProjectionMatrix, addr 0x6f7d7cc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_stereoProjectionMatrix, addr 0x6fba6a8, size 0x18, virtual false, abstract: false, final false
   inline void set_stereoProjectionMatrix(::UnityEngine::Matrix4x4 value);
 
-  /// @brief Method set_stereoSeparationDistance, addr 0x6f7d7e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_stereoSeparationDistance, addr 0x6fba6c0, size 0x8, virtual false, abstract: false, final false
   inline void set_stereoSeparationDistance(float_t value);
 
-  /// @brief Method set_stereoViewMatrix, addr 0x6f7d79c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_stereoViewMatrix, addr 0x6fba678, size 0x18, virtual false, abstract: false, final false
   inline void set_stereoViewMatrix(::UnityEngine::Matrix4x4 value);
 
   // Ctor Parameters []
@@ -278,7 +278,7 @@ public:
                                         int32_t m_maximumVisibleLights, bool m_ConservativeEnclosingSphere, int32_t m_NumIterationsEnclosingSphere) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10405 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10412 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x638 };

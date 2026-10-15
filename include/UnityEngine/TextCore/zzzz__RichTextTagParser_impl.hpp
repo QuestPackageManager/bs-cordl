@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo::*)()>(
     &::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo::get_EqualityContract)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x702b018;
+  constexpr static std::size_t addrs = 0x7067f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo*>(),
@@ -137,7 +137,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Text
     ::UnityEngine::TextCore::RichTextTagParser_TagType, ::StringW, ::UnityEngine::TextCore::RichTextTagParser_TagValueType, ::UnityEngine::TextCore::RichTextTagParser_TagUnitType)>(
     &::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x702b008;
+  constexpr static std::size_t addrs = 0x7067efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo::*)()>(&::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo::ToString)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x702b078;
+  constexpr static std::size_t addrs = 0x7067f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo*>(),
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo::*)(::System::Text::StringBuilder*)>(
     &::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo::PrintMembers)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x702b164;
+  constexpr static std::size_t addrs = 0x7068058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo*>(),
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo::*)()>(&::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo::GetHashCode)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x702b338;
+  constexpr static std::size_t addrs = 0x706822c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo*>(),
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo::*)(::System::Object*)>(
     &::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x702b4c4;
+  constexpr static std::size_t addrs = 0x70683b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo*>(),
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo::*)(::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo*)>(
     &::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo::Equals)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x702b558;
+  constexpr static std::size_t addrs = 0x706844c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo*>(),
@@ -331,7 +331,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::UnityEngine::TextCore::RichTextTagParser_TagValue::*)()>(
     &::UnityEngine::TextCore::RichTextTagParser_TagValue::get_EqualityContract)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x702b6ec;
+  constexpr static std::size_t addrs = 0x70685e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser_TagValue*>(),
@@ -346,7 +346,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Text
                                                                                                                      ::System::Nullable_1<::UnityEngine::TextCore::RichTextTagParser_ValueID>)>(
     &::UnityEngine::TextCore::RichTextTagParser_TagValue::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x70228fc;
+  constexpr static std::size_t addrs = 0x705f7f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser_TagValue*>(),
@@ -363,7 +363,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::RichTextTagParser_TagValue::*)(
     ::UnityEngine::Color, ::System::Nullable_1<::UnityEngine::TextCore::RichTextTagParser_ValueID>)>(&::UnityEngine::TextCore::RichTextTagParser_TagValue::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x7022710;
+  constexpr static std::size_t addrs = 0x705f604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -379,7 +379,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::RichTextTagParser_TagValue::*)(
     ::StringW, ::System::Nullable_1<::UnityEngine::TextCore::RichTextTagParser_ValueID>)>(&::UnityEngine::TextCore::RichTextTagParser_TagValue::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x7022fc0;
+  constexpr static std::size_t addrs = 0x705feb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -394,7 +394,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::RichTextTagParser_TagValue::*)(
     ::UnityEngine::Vector4, ::System::Nullable_1<::UnityEngine::TextCore::RichTextTagParser_ValueID>)>(&::UnityEngine::TextCore::RichTextTagParser_TagValue::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x7022ba0;
+  constexpr static std::size_t addrs = 0x705fa94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -410,7 +410,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::RichTextTagParser_TagValue::*)(
     ::UnityEngine::TextCore::GlyphMetrics, ::System::Nullable_1<::UnityEngine::TextCore::RichTextTagParser_ValueID>)>(&::UnityEngine::TextCore::RichTextTagParser_TagValue::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x7023b54;
+  constexpr static std::size_t addrs = 0x7060a48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -426,7 +426,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::RichTextTagParser_TagValue::*)(bool, ::System::Nullable_1<::UnityEngine::TextCore::RichTextTagParser_ValueID>)>(
     &::UnityEngine::TextCore::RichTextTagParser_TagValue::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x7023b40;
+  constexpr static std::size_t addrs = 0x7060a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -440,7 +440,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::TextCore::RichTextTagParser_TagValue::*)()>(&::UnityEngine::TextCore::RichTextTagParser_TagValue::get_StringValue)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x70293d0;
+  constexpr static std::size_t addrs = 0x70662c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser_TagValue*>(), { "get_StringValue", {}, {} })));
@@ -452,7 +452,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::RichTextTagParser_TagValue::*)()>(&::UnityEngine::TextCore::RichTextTagParser_TagValue::get_NumericalValue)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x7029304;
+  constexpr static std::size_t addrs = 0x70661f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser_TagValue*>(), { "get_NumericalValue", {}, {} })));
@@ -465,7 +465,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::UnityEngine::TextCore::RichTextTagParser_TagValue::*)()>(
     &::UnityEngine::TextCore::RichTextTagParser_TagValue::get_ColorValue)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x70292a0;
+  constexpr static std::size_t addrs = 0x7066194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser_TagValue*>(), { "get_ColorValue", {}, {} })));
@@ -478,7 +478,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (::UnityEngine::TextCore::RichTextTagParser_TagValue::*)()>(
     &::UnityEngine::TextCore::RichTextTagParser_TagValue::get_Vector4Value)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x702936c;
+  constexpr static std::size_t addrs = 0x7066260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser_TagValue*>(), { "get_Vector4Value", {}, {} })));
@@ -491,7 +491,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::GlyphMetrics (::UnityEngine::TextCore::RichTextTagParser_TagValue::*)()>(
     &::UnityEngine::TextCore::RichTextTagParser_TagValue::get_GlyphMetricsValue)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x7029430;
+  constexpr static std::size_t addrs = 0x7066324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -504,7 +504,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextCore::RichTextTagParser_TagValue::*)()>(&::UnityEngine::TextCore::RichTextTagParser_TagValue::get_BoolValue)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x702949c;
+  constexpr static std::size_t addrs = 0x7066390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser_TagValue*>(), { "get_BoolValue", {}, {} })));
@@ -517,7 +517,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::UnityEngine::TextCore::RichTextTagParser_ValueID> (::UnityEngine::TextCore::RichTextTagParser_TagValue::*)()>(
     &::UnityEngine::TextCore::RichTextTagParser_TagValue::get_ID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7029364;
+  constexpr static std::size_t addrs = 0x7066258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser_TagValue*>(), { "get_ID", {}, {} })));
@@ -529,7 +529,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::TextCore::RichTextTagParser_TagValue::*)()>(&::UnityEngine::TextCore::RichTextTagParser_TagValue::ToString)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x702b74c;
+  constexpr static std::size_t addrs = 0x7068640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser_TagValue*>(),
@@ -543,7 +543,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextCore::RichTextTagParser_TagValue::*)(::System::Text::StringBuilder*)>(
     &::UnityEngine::TextCore::RichTextTagParser_TagValue::PrintMembers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x702b838;
+  constexpr static std::size_t addrs = 0x706872c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser_TagValue*>(),
@@ -557,7 +557,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::TextCore::RichTextTagParser_TagValue*, ::UnityEngine::TextCore::RichTextTagParser_TagValue*)>(
     &::UnityEngine::TextCore::RichTextTagParser_TagValue::op_Equality)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x70270c4;
+  constexpr static std::size_t addrs = 0x7063fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -573,7 +573,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextCore::RichTextTagParser_TagValue::*)()>(&::UnityEngine::TextCore::RichTextTagParser_TagValue::GetHashCode)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x702b840;
+  constexpr static std::size_t addrs = 0x7068734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser_TagValue*>(),
@@ -587,7 +587,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextCore::RichTextTagParser_TagValue::*)(::System::Object*)>(
     &::UnityEngine::TextCore::RichTextTagParser_TagValue::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x702bb48;
+  constexpr static std::size_t addrs = 0x7068a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser_TagValue*>(),
@@ -601,7 +601,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextCore::RichTextTagParser_TagValue::*)(::UnityEngine::TextCore::RichTextTagParser_TagValue*)>(
     &::UnityEngine::TextCore::RichTextTagParser_TagValue::Equals)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x702bbdc;
+  constexpr static std::size_t addrs = 0x7068ad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser_TagValue*>(),
@@ -903,7 +903,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::UnityEngine::TextCore::RichTextTagParser_ParseError::*)()>(
     &::UnityEngine::TextCore::RichTextTagParser_ParseError::get_EqualityContract)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x702bed4;
+  constexpr static std::size_t addrs = 0x7068dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser_ParseError*>(),
@@ -917,7 +917,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::RichTextTagParser_ParseError::*)(::StringW, int32_t)>(
     &::UnityEngine::TextCore::RichTextTagParser_ParseError::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x70270b8;
+  constexpr static std::size_t addrs = 0x7063fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -931,7 +931,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::TextCore::RichTextTagParser_ParseError::*)()>(&::UnityEngine::TextCore::RichTextTagParser_ParseError::ToString)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x702bf34;
+  constexpr static std::size_t addrs = 0x7068e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser_ParseError*>(),
@@ -945,7 +945,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextCore::RichTextTagParser_ParseError::*)(::System::Text::StringBuilder*)>(
     &::UnityEngine::TextCore::RichTextTagParser_ParseError::PrintMembers)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x702c020;
+  constexpr static std::size_t addrs = 0x7068f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser_ParseError*>(),
@@ -958,7 +958,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextCore::RichTextTagParser_ParseError::*)()>(&::UnityEngine::TextCore::RichTextTagParser_ParseError::GetHashCode)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x702c0ec;
+  constexpr static std::size_t addrs = 0x7068fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser_ParseError*>(),
@@ -972,7 +972,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextCore::RichTextTagParser_ParseError::*)(::System::Object*)>(
     &::UnityEngine::TextCore::RichTextTagParser_ParseError::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x702c1f0;
+  constexpr static std::size_t addrs = 0x70690e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser_ParseError*>(),
@@ -986,7 +986,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextCore::RichTextTagParser_ParseError::*)(::UnityEngine::TextCore::RichTextTagParser_ParseError*)>(
     &::UnityEngine::TextCore::RichTextTagParser_ParseError::Equals)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x702c284;
+  constexpr static std::size_t addrs = 0x7069178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser_ParseError*>(),
@@ -1072,7 +1072,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::StringW)>(&::UnityEngine::TextCore::RichTextTagParser::tagMatch)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x7022104;
+  constexpr static std::size_t addrs = 0x705eff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser*>(),
@@ -1086,7 +1086,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::by_ref<::UnityEngine::TextCore::RichTextTagParser_TagType>, ::by_ref<::StringW>,
                                                                 ::by_ref<::System::ReadOnlySpan_1<char16_t>>)>(&::UnityEngine::TextCore::RichTextTagParser::SpanToEnum)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x7022274;
+  constexpr static std::size_t addrs = 0x705f168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1104,7 +1104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::RichTextTagParser_TagValue* (*)(::System::ReadOnlySpan_1<char16_t>)>(
     &::UnityEngine::TextCore::RichTextTagParser::ParseColorAttribute)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x70224f4;
+  constexpr static std::size_t addrs = 0x705f3e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1119,7 +1119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::RichTextTagParser_TagValue* (*)(::System::ReadOnlySpan_1<char16_t>)>(
     &::UnityEngine::TextCore::RichTextTagParser::ParseAlphaAttribute)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x7022728;
+  constexpr static std::size_t addrs = 0x705f61c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1133,7 +1133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(char16_t)>(&::UnityEngine::TextCore::RichTextTagParser::HexCharToInt)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x70228b4;
+  constexpr static std::size_t addrs = 0x705f7a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1147,7 +1147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::RichTextTagParser_TagValue* (*)(::System::ReadOnlySpan_1<char16_t>)>(
     &::UnityEngine::TextCore::RichTextTagParser::ParsePaddingAttribute)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x7022910;
+  constexpr static std::size_t addrs = 0x705f804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1162,7 +1162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::RichTextTagParser_TagValue* (*)(::System::ReadOnlySpan_1<char16_t>)>(
     &::UnityEngine::TextCore::RichTextTagParser::ParseHref)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x7022bb8;
+  constexpr static std::size_t addrs = 0x705faac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1175,7 +1175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::by_ref<::StringW>)>(&::UnityEngine::TextCore::RichTextTagParser::TryGetSimpleHref)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x7022cb0;
+  constexpr static std::size_t addrs = 0x705fba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1192,7 +1192,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(
     ::by_ref<::UnityEngine::TextCore::RichTextTagParser_TagValue*>, ::by_ref<::UnityEngine::TextCore::RichTextTagParser_TagValue*>, ::by_ref<::UnityEngine::TextCore::RichTextTagParser_TagValue*>,
     ::by_ref<::UnityEngine::TextCore::RichTextTagParser_TagValue*>, ::by_ref<::StringW>)>(&::UnityEngine::TextCore::RichTextTagParser::ParseSpriteAttributes)> {
   constexpr static std::size_t size = 0xb6c;
-  constexpr static std::size_t addrs = 0x7022fd4;
+  constexpr static std::size_t addrs = 0x705fec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1212,7 +1212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::UnityEngine::TextCore::Text::TextSettings*)>(&::UnityEngine::TextCore::RichTextTagParser::PreloadFontAssetsFromTags)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x7023b74;
+  constexpr static std::size_t addrs = 0x7060a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1226,7 +1226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::UnityEngine::TextCore::Text::TextSettings*)>(&::UnityEngine::TextCore::RichTextTagParser::PreloadSpriteAssetsFromTags)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x7024438;
+  constexpr static std::size_t addrs = 0x706132c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1240,7 +1240,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::UnityEngine::TextCore::Text::TextSettings*)>(&::UnityEngine::TextCore::RichTextTagParser::PreloadGradientAssetsFromTags)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x7024a0c;
+  constexpr static std::size_t addrs = 0x7061900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1257,7 +1257,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
                                                                                                 ::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_ParseError*>*)>(
     &::UnityEngine::TextCore::RichTextTagParser::FindTags)> {
   constexpr static std::size_t size = 0x20e0;
-  constexpr static std::size_t addrs = 0x7024fd8;
+  constexpr static std::size_t addrs = 0x7061ecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1274,7 +1274,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<char16_t> (*)(::System::ReadOnlySpan_1<char16_t>)>(&::UnityEngine::TextCore::RichTextTagParser::GetAttributeSpan)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x70225d8;
+  constexpr static std::size_t addrs = 0x705f4cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1288,7 +1288,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::RichTextTagParser_TagUnitType (*)(::by_ref<::System::ReadOnlySpan_1<char16_t>>)>(
     &::UnityEngine::TextCore::RichTextTagParser::ParseTagUnitType)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x70270e4;
+  constexpr static std::size_t addrs = 0x7063fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser*>(),
@@ -1304,7 +1304,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
                                                                                                 int32_t, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_Tag>*)>(
     &::UnityEngine::TextCore::RichTextTagParser::PickResultingTags)> {
   constexpr static std::size_t size = 0x928;
-  constexpr static std::size_t addrs = 0x7027348;
+  constexpr static std::size_t addrs = 0x706423c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1322,7 +1322,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::TextCore::RichTextTagParser_Segment> (*)(
     ::StringW, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_Tag>*)>(&::UnityEngine::TextCore::RichTextTagParser::GenerateSegments)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x7027c70;
+  constexpr static std::size_t addrs = 0x7064b64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1338,7 +1338,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_Tag>*,
                                                                 ::ArrayW<::UnityEngine::TextCore::RichTextTagParser_Segment>)>(&::UnityEngine::TextCore::RichTextTagParser::ApplyStateToSegment)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x7027f20;
+  constexpr static std::size_t addrs = 0x7064e14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1357,7 +1357,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(
     ::UnityEngine::TextCore::RichTextTagParser_TagType, ::StringW,
     ::System::Collections::Generic::List_1<::System::ValueTuple_3<int32_t, ::UnityEngine::TextCore::RichTextTagParser_TagType, ::StringW>>*)>(&::UnityEngine::TextCore::RichTextTagParser::AddLink)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x7027ff0;
+  constexpr static std::size_t addrs = 0x7064ee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1378,7 +1378,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::
     ::System::Collections::Generic::List_1<::System::ValueTuple_3<int32_t, ::UnityEngine::TextCore::RichTextTagParser_TagType, ::StringW>>*, ::UnityEngine::Color, float_t)>(
     &::UnityEngine::TextCore::RichTextTagParser::CreateTextSpan)> {
   constexpr static std::size_t size = 0x10e4;
-  constexpr static std::size_t addrs = 0x70281bc;
+  constexpr static std::size_t addrs = 0x70650b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1400,7 +1400,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
                                                                 ::UnityEngine::Color, float_t, ::UnityEngine::TextCore::Text::TextSettings*)>(
     &::UnityEngine::TextCore::RichTextTagParser::CreateTextGenerationSettingsArray)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x70294fc;
+  constexpr static std::size_t addrs = 0x70663f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1419,7 +1419,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::UnityEngine::TextCore::RichTextTagParser::MayNeedParsing)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x70297d4;
+  constexpr static std::size_t addrs = 0x70666c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1432,7 +1432,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::UnityEngine::TextCore::RichTextTagParser::ContainsFontTag)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x7029908;
+  constexpr static std::size_t addrs = 0x70667fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1445,7 +1445,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::UnityEngine::TextCore::RichTextTagParser::ContainsSpriteTag)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x7029a28;
+  constexpr static std::size_t addrs = 0x706691c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1458,7 +1458,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::UnityEngine::TextCore::RichTextTagParser::ContainsStyleTags)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x7029b48;
+  constexpr static std::size_t addrs = 0x7066a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1471,7 +1471,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::UnityEngine::TextCore::RichTextTagParser::ContainsGradientTag)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x7029c68;
+  constexpr static std::size_t addrs = 0x7066b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1484,7 +1484,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::UnityEngine::TextCore::RichTextTagParser::ContainsNobrTags)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x7029d88;
+  constexpr static std::size_t addrs = 0x7066c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1498,7 +1498,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::UnityEngine::TextCore::Text::TextSettings*, ::by_ref<::System::Collections::Generic::List_1<::StringW>*>)>(
     &::UnityEngine::TextCore::RichTextTagParser::HasFontTags)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x7023e40;
+  constexpr static std::size_t addrs = 0x7060d34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser*>(),
@@ -1515,7 +1515,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::UnityEngine::TextCore::Text::TextSettings*, ::by_ref<::System::Collections::Generic::List_1<::StringW>*>)>(
     &::UnityEngine::TextCore::RichTextTagParser::HasSpriteTags)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x7024714;
+  constexpr static std::size_t addrs = 0x7061608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser*>(),
@@ -1532,7 +1532,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::UnityEngine::TextCore::Text::TextSettings*, ::by_ref<::System::Collections::Generic::List_1<::StringW>*>)>(
     &::UnityEngine::TextCore::RichTextTagParser::HasGradientTags)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x7024ce0;
+  constexpr static std::size_t addrs = 0x7061bd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::RichTextTagParser*>(),

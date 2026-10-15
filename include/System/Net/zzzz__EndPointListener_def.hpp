@@ -93,48 +93,48 @@ public:
   __declspec(property(get = __cordl_internal_get_unregistered,
                       put = __cordl_internal_set_unregistered)) ::System::Collections::Generic::Dictionary_2<::System::Net::HttpConnection*, ::System::Net::HttpConnection*>* unregistered;
 
-  /// @brief Method Accept, addr 0x6855728, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Accept, addr 0x68923a4, size 0x150, virtual false, abstract: false, final false
   static inline void Accept(::System::Net::Sockets::Socket* socket, ::System::Net::Sockets::SocketAsyncEventArgs* e, ::by_ref<::System::Net::Sockets::Socket*> accepted);
 
-  /// @brief Method AddPrefix, addr 0x685779c, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method AddPrefix, addr 0x6894418, size 0x380, virtual false, abstract: false, final false
   inline void AddPrefix(::System::Net::ListenerPrefix* prefix, ::System::Net::HttpListener* listener);
 
-  /// @brief Method AddSpecial, addr 0x6856b5c, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method AddSpecial, addr 0x68937d8, size 0x33c, virtual false, abstract: false, final false
   inline void AddSpecial(::System::Collections::ArrayList* coll, ::System::Net::ListenerPrefix* prefix);
 
-  /// @brief Method BindContext, addr 0x6856004, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method BindContext, addr 0x6892c80, size 0x58, virtual false, abstract: false, final false
   inline bool BindContext(::System::Net::HttpListenerContext* context);
 
-  /// @brief Method CheckIfRemove, addr 0x6856f88, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method CheckIfRemove, addr 0x6893c04, size 0xd0, virtual false, abstract: false, final false
   inline void CheckIfRemove();
 
-  /// @brief Method Close, addr 0x68572ac, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x6893f28, size 0x260, virtual false, abstract: false, final false
   inline void Close();
 
-  /// @brief Method MatchFromList, addr 0x685684c, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method MatchFromList, addr 0x68934c8, size 0x310, virtual false, abstract: false, final false
   inline ::System::Net::HttpListener* MatchFromList(::StringW host, ::StringW path, ::System::Collections::ArrayList* list, ::by_ref<::System::Net::ListenerPrefix*> prefix);
 
   static inline ::System::Net::EndPointListener* New_ctor(::System::Net::HttpListener* listener, ::System::Net::IPAddress* addr, int32_t port, bool secure);
 
-  /// @brief Method OnAccept, addr 0x6855ef4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnAccept, addr 0x6892b70, size 0x8, virtual false, abstract: false, final false
   static inline void OnAccept(::System::Object* sender, ::System::Net::Sockets::SocketAsyncEventArgs* e);
 
-  /// @brief Method ProcessAccept, addr 0x6855880, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method ProcessAccept, addr 0x68924fc, size 0x25c, virtual false, abstract: false, final false
   static inline void ProcessAccept(::System::Net::Sockets::SocketAsyncEventArgs* args);
 
-  /// @brief Method RemoveConnection, addr 0x6855efc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method RemoveConnection, addr 0x6892b78, size 0x108, virtual false, abstract: false, final false
   inline void RemoveConnection(::System::Net::HttpConnection* conn);
 
-  /// @brief Method RemovePrefix, addr 0x6857b1c, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method RemovePrefix, addr 0x6894798, size 0x2b4, virtual false, abstract: false, final false
   inline void RemovePrefix(::System::Net::ListenerPrefix* prefix, ::System::Net::HttpListener* listener);
 
-  /// @brief Method RemoveSpecial, addr 0x6856e98, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method RemoveSpecial, addr 0x6893b14, size 0xf0, virtual false, abstract: false, final false
   inline bool RemoveSpecial(::System::Collections::ArrayList* coll, ::System::Net::ListenerPrefix* prefix);
 
-  /// @brief Method SearchListener, addr 0x685605c, size 0x620, virtual false, abstract: false, final false
+  /// @brief Method SearchListener, addr 0x6892cd8, size 0x620, virtual false, abstract: false, final false
   inline ::System::Net::HttpListener* SearchListener(::System::Uri* uri, ::by_ref<::System::Net::ListenerPrefix*> prefix);
 
-  /// @brief Method UnbindContext, addr 0x685667c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method UnbindContext, addr 0x68932f8, size 0x24, virtual false, abstract: false, final false
   inline void UnbindContext(::System::Net::HttpListenerContext* context);
 
   constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_all() const;
@@ -191,10 +191,10 @@ public:
 
   constexpr void __cordl_internal_set_unregistered(::System::Collections::Generic::Dictionary_2<::System::Net::HttpConnection*, ::System::Net::HttpConnection*>* value);
 
-  /// @brief Method .ctor, addr 0x6855078, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6891cf4, size 0x274, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpListener* listener, ::System::Net::IPAddress* addr, int32_t port, bool secure);
 
-  /// @brief Method get_Listener, addr 0x6855878, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Listener, addr 0x68924f4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpListener* get_Listener();
 
 protected:
@@ -212,7 +212,7 @@ public:
   EndPointListener(EndPointListener const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12522 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12529 };
 
   /// @brief Field listener, offset: 0x10, size: 0x8, def value: None
   ::System::Net::HttpListener* ___listener;

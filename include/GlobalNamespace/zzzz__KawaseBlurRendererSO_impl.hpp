@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::KawaseBlurRendererSO_BloomKernel::*)()>(&::GlobalNamespace::KawaseBlurRendererSO_BloomKernel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c7fea8;
+  constexpr static std::size_t addrs = 0x5cb7acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::KawaseBlurRendererSO_BloomKernel*>(), { ".ctor", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int32_t> (::GlobalNamespace::KawaseBlurRendererSO::*)(::GlobalNamespace::KawaseBlurRendererSO_KernelSize)>(
     &::GlobalNamespace::KawaseBlurRendererSO::GetBlurKernel)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x5c7f8f8;
+  constexpr static std::size_t addrs = 0x5cb751c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::KawaseBlurRendererSO*>(),
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::KawaseBlurRendererSO::*)()>(&::GlobalNamespace::KawaseBlurRendererSO::OnEnable)> {
   constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x5c7fb28;
+  constexpr static std::size_t addrs = 0x5cb774c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::KawaseBlurRendererSO::*)()>(&::GlobalNamespace::KawaseBlurRendererSO::OnDisable)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5c7feac;
+  constexpr static std::size_t addrs = 0x5cb7ad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::KawaseBlurRendererSO*>(), { "OnDisable", {}, {} })));
@@ -138,7 +138,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                          float_t, ::GlobalNamespace::KawaseBlurRendererSO_WeightsType, ::ArrayW<float_t>)>(
     &::GlobalNamespace::KawaseBlurRendererSO::Bloom)> {
   constexpr static std::size_t size = 0x520;
-  constexpr static std::size_t addrs = 0x5c7fee8;
+  constexpr static std::size_t addrs = 0x5cb7b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,7 +158,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*, ::GlobalNamespace::KawaseBlurRendererSO_KernelSize, float_t, ::GlobalNamespace::KawaseBlurRendererSO_KernelSize, float_t, float_t,
     int32_t, bool)>(&::GlobalNamespace::KawaseBlurRendererSO::DoubleBlur)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x5c80960;
+  constexpr static std::size_t addrs = 0x5cb8584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::KawaseBlurRendererSO*>(),
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Texture2D> (::GlobalNamespace::KawaseBlurRendererSO::*)(
     ::UnityEngine::Texture*, ::GlobalNamespace::KawaseBlurRendererSO_KernelSize, int32_t)>(&::GlobalNamespace::KawaseBlurRendererSO::Blur)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5c80bf4;
+  constexpr static std::size_t addrs = 0x5cb8818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::KawaseBlurRendererSO::*)(
     ::UnityEngine::Texture*, ::UnityEngine::RenderTexture*, ::GlobalNamespace::KawaseBlurRendererSO_KernelSize, float_t, int32_t)>(&::GlobalNamespace::KawaseBlurRendererSO::Blur)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5c80cd0;
+  constexpr static std::size_t addrs = 0x5cb88f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::UnityEngine::Texture*, ::UnityEngine::RenderTexture*, ::ArrayW<int32_t>, float_t, int32_t, int32_t, int32_t, float_t, float_t, bool, bool, ::GlobalNamespace::KawaseBlurRendererSO_WeightsType)>(
     &::GlobalNamespace::KawaseBlurRendererSO::Blur)> {
   constexpr static std::size_t size = 0x558;
-  constexpr static std::size_t addrs = 0x5c80408;
+  constexpr static std::size_t addrs = 0x5cb802c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::KawaseBlurRendererSO::*)(::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*)>(
     &::GlobalNamespace::KawaseBlurRendererSO::AlphaWeights)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5c80d58;
+  constexpr static std::size_t addrs = 0x5cb897c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -248,7 +248,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::Rendering::CommandBuffer* (::GlobalNamespace::KawaseBlurRendererSO::*)(int32_t, int32_t, ::StringW, ::GlobalNamespace::KawaseBlurRendererSO_KernelSize, float_t)>(
         &::GlobalNamespace::KawaseBlurRendererSO::CreateBlurCommandBuffer)> {
   constexpr static std::size_t size = 0x394;
-  constexpr static std::size_t addrs = 0x5c80e2c;
+  constexpr static std::size_t addrs = 0x5cb8a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::KawaseBlurRendererSO*>(),
@@ -264,7 +264,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::KawaseBlurRendererSO::*)()>(&::GlobalNamespace::KawaseBlurRendererSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c811c0;
+  constexpr static std::size_t addrs = 0x5cb8de4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::KawaseBlurRendererSO*>(), { ".ctor", {}, {} })));

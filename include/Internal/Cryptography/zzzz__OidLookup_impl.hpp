@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Internal::Cryptography::OidLookup___c::*)()>(&::Internal::Cryptography::OidLookup___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63fea30;
+  constexpr static std::size_t addrs = 0x643b600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Internal::Cryptography::OidLookup___c*>(), { ".ctor", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Internal::Cryptography::OidLookup___c::*)(::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>)>(
     &::Internal::Cryptography::OidLookup___c::__cctor_b__10_0)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x63fea34;
+  constexpr static std::size_t addrs = 0x643b604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Internal::Cryptography::OidLookup___c::*)(::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>)>(
     &::Internal::Cryptography::OidLookup___c::__cctor_b__10_1)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x63fea78;
+  constexpr static std::size_t addrs = 0x643b648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::System::Security::Cryptography::OidGroup, bool)>(&::Internal::Cryptography::OidLookup::ToFriendlyName)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x63fb6cc;
+  constexpr static std::size_t addrs = 0x643829c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::System::Security::Cryptography::OidGroup, bool)>(&::Internal::Cryptography::OidLookup::ToOid)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x63fbcbc;
+  constexpr static std::size_t addrs = 0x643888c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Security::Cryptography::OidGroup)>(&::Internal::Cryptography::OidLookup::ShouldUseCache)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63fb8bc;
+  constexpr static std::size_t addrs = 0x643848c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::System::Security::Cryptography::OidGroup, bool)>(&::Internal::Cryptography::OidLookup::NativeOidToFriendlyName)> {
   constexpr static std::size_t size = 0x3f8;
-  constexpr static std::size_t addrs = 0x63fb8c4;
+  constexpr static std::size_t addrs = 0x6438494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::System::Security::Cryptography::OidGroup, bool)>(&::Internal::Cryptography::OidLookup::NativeFriendlyNameToOid)> {
   constexpr static std::size_t size = 0x400;
-  constexpr static std::size_t addrs = 0x63fbe8c;
+  constexpr static std::size_t addrs = 0x6438a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

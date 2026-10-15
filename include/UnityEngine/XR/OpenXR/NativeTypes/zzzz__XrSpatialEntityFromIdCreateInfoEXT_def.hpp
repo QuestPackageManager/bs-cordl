@@ -31,22 +31,22 @@ public:
 
   __declspec(property(get = get_type)) ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type;
 
-  /// @brief Method .ctor, addr 0x6e3fa3c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7c6d8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(uint64_t entityId);
 
-  /// @brief Method .ctor, addr 0x6e43704, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e803a0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(void* next, uint64_t entityId);
 
   /// [CompilerGenerated]
-  /// @brief Method get_entityId, addr 0x6e436fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_entityId, addr 0x6e80398, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_entityId();
 
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e436f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x6e80390, size 0x8, virtual false, abstract: false, final false
   inline void* get_next();
 
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e436ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6e80388, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   // Ctor Parameters []
@@ -59,7 +59,7 @@ public:
   constexpr XrSpatialEntityFromIdCreateInfoEXT(::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType _type_k__BackingField, void* _next_k__BackingField, uint64_t _entityId_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17562 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17595 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

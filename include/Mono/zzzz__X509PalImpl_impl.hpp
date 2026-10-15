@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::StringW, ::ArrayW<uint8_t>)>(&::Mono::X509PalImpl::PEM)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x63ec3ac;
+  constexpr static std::size_t addrs = 0x6428f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>)>(&::Mono::X509PalImpl::ConvertData)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x63ec544;
+  constexpr static std::size_t addrs = 0x6429114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::X509PalImpl*>(), { "ConvertData", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* (::Mono::X509PalImpl::*)(::ArrayW<uint8_t>)>(
     &::Mono::X509PalImpl::ImportFallback)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x63ebbe8;
+  constexpr static std::size_t addrs = 0x64287b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Crypt
     ::Mono::X509PalImpl::*)(::ArrayW<uint8_t>, ::Microsoft::Win32::SafeHandles::SafePasswordHandle*, ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags)>(
     &::Mono::X509PalImpl::ImportFallback)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x63ebe6c;
+  constexpr static std::size_t addrs = 0x6428a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::X509PalImpl::*)()>(&::Mono::X509PalImpl::get_SupportsLegacyBasicConstraintsExtension)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63ec654;
+  constexpr static std::size_t addrs = 0x6429224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::X509PalImpl*>(), { "get_SupportsLegacyBasicConstraintsExtension", {}, {} })));
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X509ContentType (::Mono::X509PalImpl::*)(::ArrayW<uint8_t>)>(
     &::Mono::X509PalImpl::GetCertContentType)> {
   constexpr static std::size_t size = 0x43c;
-  constexpr static std::size_t addrs = 0x63ec65c;
+  constexpr static std::size_t addrs = 0x642922c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::X509PalImpl::*)()>(&::Mono::X509PalImpl::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63ec3a8;
+  constexpr static std::size_t addrs = 0x6428f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::X509PalImpl*>(), { ".ctor", {}, {} })));

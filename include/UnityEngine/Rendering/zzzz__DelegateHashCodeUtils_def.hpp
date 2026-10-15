@@ -43,10 +43,10 @@ public:
 
   static inline ::UnityEngine::Rendering::DelegateHashCodeUtils___c* New_ctor();
 
-  /// @brief Method <.cctor>b__4_0, addr 0x6be3ea8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__4_0, addr 0x6c20b24, size 0x84, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<int32_t, bool>* __cctor_b__4_0();
 
-  /// @brief Method .ctor, addr 0x6be3ea4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c20b20, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::DelegateHashCodeUtils___c* getStaticF___9();
@@ -68,7 +68,7 @@ public:
   DelegateHashCodeUtils___c(DelegateHashCodeUtils___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9184 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9191 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -89,13 +89,13 @@ public:
   __declspec(property(get = getStaticF_s_MethodHashCodeToSkipTargetHashMap,
                       put = setStaticF_s_MethodHashCodeToSkipTargetHashMap)) ::System::Lazy_1<::System::Collections::Generic::Dictionary_2<int32_t, bool>*>* s_MethodHashCodeToSkipTargetHashMap;
 
-  /// @brief Method ClearCache, addr 0x6be3c64, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ClearCache, addr 0x6c208e0, size 0xc4, virtual false, abstract: false, final false
   static inline void ClearCache();
 
-  /// @brief Method GetFuncHashCode, addr 0x6be38f0, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method GetFuncHashCode, addr 0x6c2056c, size 0x2ac, virtual false, abstract: false, final false
   static inline int32_t GetFuncHashCode(::System::Delegate* del);
 
-  /// @brief Method GetTotalCacheCount, addr 0x6be3b9c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetTotalCacheCount, addr 0x6c20818, size 0xc8, virtual false, abstract: false, final false
   static inline int32_t GetTotalCacheCount();
 
   static inline ::System::Lazy_1<::System::Collections::Generic::Dictionary_2<int32_t, bool>*>* getStaticF_s_MethodHashCodeToSkipTargetHashMap();
@@ -117,7 +117,7 @@ public:
   DelegateHashCodeUtils(DelegateHashCodeUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9185 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9192 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

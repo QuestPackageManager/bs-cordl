@@ -34,7 +34,7 @@ namespace GlobalNamespace {
 class LightRotationBaseData;
 }
 namespace GlobalNamespace {
-class LightRotationBeatmapEventDataBox__Unpack_d__10;
+class LightRotationBeatmapEventDataBox__Unpack_d__9;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -65,19 +65,19 @@ namespace GlobalNamespace {
 class LightRotationBeatmapEventDataBox;
 }
 namespace GlobalNamespace {
-class LightRotationBeatmapEventDataBox__Unpack_d__10;
+class LightRotationBeatmapEventDataBox__Unpack_d__9;
 }
 // Write type traits
 MARK_REF_T(::GlobalNamespace::LightRotationBeatmapEventDataBox*);
-MARK_REF_T(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10*);
+MARK_REF_T(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__9*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::LightRotationBeatmapEventDataBox*, "", "LightRotationBeatmapEventDataBox");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10*, "", "LightRotationBeatmapEventDataBox/<Unpack>d__10");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__9*, "", "LightRotationBeatmapEventDataBox/<Unpack>d__9");
 // [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: LightRotationBeatmapEventDataBox/<Unpack>d__10
-class CORDL_TYPE LightRotationBeatmapEventDataBox__Unpack_d__10 : public ::System::Object {
+// CS Name: LightRotationBeatmapEventDataBox/<Unpack>d__9
+class CORDL_TYPE LightRotationBeatmapEventDataBox__Unpack_d__9 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get =
@@ -178,34 +178,34 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x39a4488, size 0x954, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39c8a84, size 0x954, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
-  static inline ::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__9* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerable<BeatmapEventData>.GetEnumerator, addr 0x39a4f8c, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<BeatmapEventData>.GetEnumerator, addr 0x39c9588, size 0xd8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::BeatmapEventData*>* System_Collections_Generic_IEnumerable_BeatmapEventData__GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<BeatmapEventData>.get_Current, addr 0x39a4f44, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<BeatmapEventData>.get_Current, addr 0x39c9540, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatmapEventData* System_Collections_Generic_IEnumerator_BeatmapEventData__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x39a5064, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x39c9660, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39a4f4c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39c9548, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39a4f84, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39c9580, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x39a43dc, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x39c89d8, size 0xac, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -358,14 +358,14 @@ public:
 
   constexpr void __cordl_internal_set_maxBeat(float_t value);
 
-  /// @brief Method <>m__Finally1, addr 0x39a4e90, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x39c948c, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method <>m__Finally2, addr 0x39a4ddc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally2, addr 0x39c93d8, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x39a43bc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c89b8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>"
@@ -386,19 +386,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr LightRotationBeatmapEventDataBox__Unpack_d__10();
+  constexpr LightRotationBeatmapEventDataBox__Unpack_d__9();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightRotationBeatmapEventDataBox__Unpack_d__10", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightRotationBeatmapEventDataBox__Unpack_d__9", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  LightRotationBeatmapEventDataBox__Unpack_d__10(LightRotationBeatmapEventDataBox__Unpack_d__10&&) = delete;
+  LightRotationBeatmapEventDataBox__Unpack_d__9(LightRotationBeatmapEventDataBox__Unpack_d__9&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightRotationBeatmapEventDataBox__Unpack_d__10", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightRotationBeatmapEventDataBox__Unpack_d__9", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LightRotationBeatmapEventDataBox__Unpack_d__10(LightRotationBeatmapEventDataBox__Unpack_d__10 const&) = delete;
+  LightRotationBeatmapEventDataBox__Unpack_d__9(LightRotationBeatmapEventDataBox__Unpack_d__9 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15174 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14391 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -478,57 +478,57 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__9, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__9, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10, _____l__initialThreadId) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__9, _____l__initialThreadId) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10, _____4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__9, _____4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10, ___durationOrderIndex) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__9, ___durationOrderIndex) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10, _____3__durationOrderIndex) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__9, _____3__durationOrderIndex) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10, ___distributionOrderIndex) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__9, ___distributionOrderIndex) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10, _____3__distributionOrderIndex) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__9, _____3__distributionOrderIndex) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10, ___groupBoxBeat) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__9, ___groupBoxBeat) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10, _____3__groupBoxBeat) == 0x44, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__9, _____3__groupBoxBeat) == 0x44, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10, ___maxBeat) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__9, ___maxBeat) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10, _____3__maxBeat) == 0x4c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__9, _____3__maxBeat) == 0x4c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10, ___beatToTimeConverter) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__9, ___beatToTimeConverter) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10, _____3__beatToTimeConverter) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__9, _____3__beatToTimeConverter) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10, ___lightEventConverter) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__9, ___lightEventConverter) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10, _____3__lightEventConverter) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__9, _____3__lightEventConverter) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10, ___groupId) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__9, ___groupId) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10, _____3__groupId) == 0x74, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__9, _____3__groupId) == 0x74, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10, ___elementId) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__9, ___elementId) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10, _____3__elementId) == 0x7c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__9, _____3__elementId) == 0x7c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10, ____isFirstBaseData_5__2) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__9, ____isFirstBaseData_5__2) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10, ____beatOffset_5__3) == 0x84, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__9, ____beatOffset_5__3) == 0x84, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10, ____connectCache_5__4) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__9, ____connectCache_5__4) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10, _____7__wrap4) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__9, _____7__wrap4) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10, _____7__wrap5) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__9, _____7__wrap5) == 0x98, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10) == 0xa0, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__9) == 0xa0, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies BeatmapEventDataBox, LightAxis
@@ -538,12 +538,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE LightRotationBeatmapEventDataBox : public ::GlobalNamespace::BeatmapEventDataBox {
 public:
   // Declarations
-  using _Unpack_d__10 = ::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10;
+  using _Unpack_d__9 = ::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__9;
 
   /// @brief Field _axis, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__axis, put = __cordl_internal_set__axis)) ::GlobalNamespace::LightAxis _axis;
 
-  /// @brief Field _beatStep, offset 0x4c, size 0x4
+  /// @brief Field _beatStep, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__beatStep, put = __cordl_internal_set__beatStep)) float_t _beatStep;
 
   /// @brief Field _lightRotationBaseDataList, offset 0x38, size 0x8
@@ -552,9 +552,6 @@ public:
 
   /// @brief Field _rotationDirection, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__rotationDirection, put = __cordl_internal_set__rotationDirection)) float_t _rotationDirection;
-
-  /// @brief Field _rotationStep, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get__rotationStep, put = __cordl_internal_set__rotationStep)) float_t _rotationStep;
 
   __declspec(property(get = get_beatStep)) float_t beatStep;
 
@@ -567,8 +564,8 @@ public:
                                                                               bool rotationDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType rotationDistributionEaseType,
                                                                               ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>* lightRotationBaseDataList);
 
-  /// [IteratorStateMachine(typeof(LightRotationBeatmapEventDataBox::<Unpack>d__10))]
-  /// @brief Method Unpack, addr 0x39a42f0, size 0xcc, virtual true, abstract: false, final false
+  /// [IteratorStateMachine(typeof(LightRotationBeatmapEventDataBox::<Unpack>d__9))]
+  /// @brief Method Unpack, addr 0x39c88ec, size 0xcc, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>* Unpack(float_t groupBoxBeat, int32_t groupId, int32_t elementId, int32_t durationOrderIndex,
                                                                                                      int32_t distributionOrderIndex, float_t maxBeat,
                                                                                                      ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter,
@@ -590,10 +587,6 @@ public:
 
   constexpr float_t& __cordl_internal_get__rotationDirection();
 
-  constexpr float_t const& __cordl_internal_get__rotationStep() const;
-
-  constexpr float_t& __cordl_internal_get__rotationStep();
-
   constexpr void __cordl_internal_set__axis(::GlobalNamespace::LightAxis value);
 
   constexpr void __cordl_internal_set__beatStep(float_t value);
@@ -602,18 +595,16 @@ public:
 
   constexpr void __cordl_internal_set__rotationDirection(float_t value);
 
-  constexpr void __cordl_internal_set__rotationStep(float_t value);
-
-  /// @brief Method .ctor, addr 0x39a409c, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c8698, size 0x254, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IndexFilter* indexFilter, float_t beatDistributionParam, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType beatDistributionParamType,
                     ::GlobalNamespace::LightAxis axis, bool flipRotation, float_t rotationDistributionParam, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType rotationDistributionParamType,
                     bool rotationDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType rotationDistributionEaseType,
                     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>* lightRotationBaseDataList);
 
-  /// @brief Method get_beatStep, addr 0x39a4094, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_beatStep, addr 0x39c8690, size 0x8, virtual true, abstract: false, final false
   inline float_t get_beatStep();
 
-  /// @brief Method get_subtypeIdentifier, addr 0x39a408c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_subtypeIdentifier, addr 0x39c8688, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_subtypeIdentifier();
 
 protected:
@@ -631,7 +622,7 @@ public:
   LightRotationBeatmapEventDataBox(LightRotationBeatmapEventDataBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15175 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14392 };
 
   /// @brief Field _lightRotationBaseDataList, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>* ____lightRotationBaseDataList;
@@ -642,10 +633,7 @@ public:
   /// @brief Field _rotationDirection, offset: 0x44, size: 0x4, def value: None
   float_t ____rotationDirection;
 
-  /// @brief Field _rotationStep, offset: 0x48, size: 0x4, def value: None
-  float_t ____rotationStep;
-
-  /// @brief Field _beatStep, offset: 0x4c, size: 0x4, def value: None
+  /// @brief Field _beatStep, offset: 0x48, size: 0x4, def value: None
   float_t ____beatStep;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -657,9 +645,7 @@ static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox, ____
 
 static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox, ____rotationDirection) == 0x44, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox, ____rotationStep) == 0x48, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox, ____beatStep) == 0x4c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationBeatmapEventDataBox, ____beatStep) == 0x48, "Offset mismatch!");
 
 static_assert(sizeof(::GlobalNamespace::LightRotationBeatmapEventDataBox) == 0x50, "Size mismatch!");
 

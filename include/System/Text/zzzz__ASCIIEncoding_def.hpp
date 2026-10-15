@@ -42,73 +42,73 @@ public:
   /// @brief Field s_default, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_default, put = setStaticF_s_default)) ::GlobalNamespace::ASCIIEncoding_ASCIIEncodingSealed* s_default;
 
-  /// @brief Method GetByteCount, addr 0x60e28d8, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method GetByteCount, addr 0x611f318, size 0x188, virtual true, abstract: false, final false
   inline int32_t GetByteCount(::ArrayW<char16_t> chars, int32_t index, int32_t count);
 
-  /// @brief Method GetByteCount, addr 0x60e2a60, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetByteCount, addr 0x611f4a0, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetByteCount(::StringW chars);
 
-  /// @brief Method GetByteCount, addr 0x60e38c0, size 0x2fc, virtual true, abstract: false, final false
+  /// @brief Method GetByteCount, addr 0x6120300, size 0x2fc, virtual true, abstract: false, final false
   inline int32_t GetByteCount(char16_t* chars, int32_t charCount, ::System::Text::EncoderNLS* encoder);
 
   /// [CLSCompliant(false)]
-  /// @brief Method GetByteCount, addr 0x60e2acc, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method GetByteCount, addr 0x611f50c, size 0xd0, virtual true, abstract: false, final false
   inline int32_t GetByteCount(char16_t* chars, int32_t count);
 
-  /// @brief Method GetBytes, addr 0x60e2de4, size 0x280, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x611f824, size 0x280, virtual true, abstract: false, final false
   inline int32_t GetBytes(::ArrayW<char16_t> chars, int32_t charIndex, int32_t charCount, ::ArrayW<uint8_t> bytes, int32_t byteIndex);
 
-  /// @brief Method GetBytes, addr 0x60e2b9c, size 0x248, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x611f5dc, size 0x248, virtual true, abstract: false, final false
   inline int32_t GetBytes(::StringW chars, int32_t charIndex, int32_t charCount, ::ArrayW<uint8_t> bytes, int32_t byteIndex);
 
   /// [CLSCompliant(false)]
-  /// @brief Method GetBytes, addr 0x60e3064, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x611faa4, size 0xf8, virtual true, abstract: false, final false
   inline int32_t GetBytes(char16_t* chars, int32_t charCount, uint8_t* bytes, int32_t byteCount);
 
-  /// @brief Method GetBytes, addr 0x60e3bbc, size 0x44c, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x61205fc, size 0x44c, virtual true, abstract: false, final false
   inline int32_t GetBytes(char16_t* chars, int32_t charCount, uint8_t* bytes, int32_t byteCount, ::System::Text::EncoderNLS* encoder);
 
-  /// @brief Method GetCharCount, addr 0x60e315c, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method GetCharCount, addr 0x611fb9c, size 0x188, virtual true, abstract: false, final false
   inline int32_t GetCharCount(::ArrayW<uint8_t> bytes, int32_t index, int32_t count);
 
   /// [CLSCompliant(false)]
-  /// @brief Method GetCharCount, addr 0x60e32e4, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method GetCharCount, addr 0x611fd24, size 0xd0, virtual true, abstract: false, final false
   inline int32_t GetCharCount(uint8_t* bytes, int32_t count);
 
-  /// @brief Method GetCharCount, addr 0x60e4008, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method GetCharCount, addr 0x6120a48, size 0x158, virtual true, abstract: false, final false
   inline int32_t GetCharCount(uint8_t* bytes, int32_t count, ::System::Text::DecoderNLS* decoder);
 
-  /// @brief Method GetChars, addr 0x60e33b4, size 0x284, virtual true, abstract: false, final false
+  /// @brief Method GetChars, addr 0x611fdf4, size 0x284, virtual true, abstract: false, final false
   inline int32_t GetChars(::ArrayW<uint8_t> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t> chars, int32_t charIndex);
 
   /// [CLSCompliant(false)]
-  /// @brief Method GetChars, addr 0x60e3638, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method GetChars, addr 0x6120078, size 0xf8, virtual true, abstract: false, final false
   inline int32_t GetChars(uint8_t* bytes, int32_t byteCount, char16_t* chars, int32_t charCount);
 
-  /// @brief Method GetChars, addr 0x60e41a4, size 0x2a0, virtual true, abstract: false, final false
+  /// @brief Method GetChars, addr 0x6120be4, size 0x2a0, virtual true, abstract: false, final false
   inline int32_t GetChars(uint8_t* bytes, int32_t byteCount, char16_t* chars, int32_t charCount, ::System::Text::DecoderNLS* decoder);
 
-  /// @brief Method GetDecoder, addr 0x60e464c, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetDecoder, addr 0x612108c, size 0x74, virtual true, abstract: false, final false
   inline ::System::Text::Decoder* GetDecoder();
 
-  /// @brief Method GetEncoder, addr 0x60e46c0, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetEncoder, addr 0x6121100, size 0x74, virtual true, abstract: false, final false
   inline ::System::Text::Encoder* GetEncoder();
 
-  /// @brief Method GetMaxByteCount, addr 0x60e4454, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method GetMaxByteCount, addr 0x6120e94, size 0xfc, virtual true, abstract: false, final false
   inline int32_t GetMaxByteCount(int32_t charCount);
 
-  /// @brief Method GetMaxCharCount, addr 0x60e4550, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method GetMaxCharCount, addr 0x6120f90, size 0xfc, virtual true, abstract: false, final false
   inline int32_t GetMaxCharCount(int32_t byteCount);
 
-  /// @brief Method GetString, addr 0x60e3730, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method GetString, addr 0x6120170, size 0x190, virtual true, abstract: false, final false
   inline ::StringW GetString(::ArrayW<uint8_t> bytes, int32_t byteIndex, int32_t byteCount);
 
   static inline ::System::Text::ASCIIEncoding* New_ctor();
 
-  /// @brief Method SetDefaultFallbacks, addr 0x60e280c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method SetDefaultFallbacks, addr 0x611f24c, size 0x24, virtual true, abstract: false, final false
   inline void SetDefaultFallbacks();
 
-  /// @brief Method .ctor, addr 0x60e27f0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x611f230, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::ASCIIEncoding_ASCIIEncodingSealed* getStaticF_s_default();

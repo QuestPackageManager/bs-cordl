@@ -33,7 +33,7 @@ namespace UnityEngine::TextCore {
 struct CORDL_TYPE TextSpan {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x7021b88, size 0x514, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x705ea7c, size 0x514, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -70,7 +70,7 @@ public:
                      ::UnityEngine::TextCore::RichTextTagParser_TagUnitType vOffsetUnitType, int8_t subscriptNestingLevel, int8_t superscriptNestingLevel) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17778 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17811 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa0 };

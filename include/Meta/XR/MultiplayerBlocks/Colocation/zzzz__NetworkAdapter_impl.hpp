@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Meta::XR::MultiplayerBlocks::Colocation::INetworkData* (*)()>(&::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::get_NetworkData)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5e955f0;
+  constexpr static std::size_t addrs = 0x5ed1d78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::set_NetworkData)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5e9563c;
+  constexpr static std::size_t addrs = 0x5ed1dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter*>(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger* (*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::get_NetworkMessenger)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5e9568c;
+  constexpr static std::size_t addrs = 0x5ed1e14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::set_NetworkMessenger)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5e956d8;
+  constexpr static std::size_t addrs = 0x5ed1e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*, ::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::SetConfig)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5e8a7bc;
+  constexpr static std::size_t addrs = 0x5ec6f44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_feature(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3511ef4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3532868, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW feature, bool defaultValue);
 
 protected:
@@ -58,7 +58,7 @@ public:
   FeatureConfiguration_Remote(FeatureConfiguration_Remote const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23715 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23797 };
 
   /// @brief Field feature, offset: 0x10, size: 0x8, def value: None
   ::StringW ___feature;

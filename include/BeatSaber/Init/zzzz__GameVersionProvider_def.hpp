@@ -14,9 +14,6 @@ struct GameVersion_Content;
 namespace BeatSaber::Init {
 class GameVersion;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 // Forward declare root types
 namespace BeatSaber::Init {
 class GameVersionProvider;
@@ -36,34 +33,25 @@ public:
   /// @brief Field _contentVersion, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF__contentVersion, put = setStaticF__contentVersion)) ::System::Nullable_1<::BeatSaber::Init::GameVersion_Content> _contentVersion;
 
-  /// @brief Field _versionTask, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__versionTask, put = __cordl_internal_set__versionTask)) ::System::Threading::Tasks::Task_1<::BeatSaber::Init::GameVersion*>* _versionTask;
-
-  /// @brief Method GetBuildId, addr 0x352320c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetBuildId, addr 0x3544214, size 0x98, virtual false, abstract: false, final false
   static inline uint64_t GetBuildId();
 
-  /// @brief Method GetBuildTimeGameVersion, addr 0x35232a4, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GetBuildTimeGameVersion, addr 0x3541094, size 0x19c, virtual false, abstract: false, final false
   static inline ::BeatSaber::Init::GameVersion* GetBuildTimeGameVersion();
 
-  /// @brief Method GetContentVersion, addr 0x3523104, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetContentVersion, addr 0x354410c, size 0x108, virtual false, abstract: false, final false
   static inline ::BeatSaber::Init::GameVersion_Content GetContentVersion();
 
-  /// @brief Method GetVersion, addr 0x3523440, size 0x7d8, virtual false, abstract: false, final false
+  /// @brief Method GetVersion, addr 0x35442ac, size 0x7d8, virtual false, abstract: false, final false
   inline ::BeatSaber::Init::GameVersion* GetVersion();
 
   static inline ::BeatSaber::Init::GameVersionProvider* New_ctor();
 
   /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
-  /// @brief Method NoDomainReloadInit, addr 0x35230b8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method NoDomainReloadInit, addr 0x35440c0, size 0x4c, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
-  constexpr ::System::Threading::Tasks::Task_1<::BeatSaber::Init::GameVersion*>* const& __cordl_internal_get__versionTask() const;
-
-  constexpr ::System::Threading::Tasks::Task_1<::BeatSaber::Init::GameVersion*>*& __cordl_internal_get__versionTask();
-
-  constexpr void __cordl_internal_set__versionTask(::System::Threading::Tasks::Task_1<::BeatSaber::Init::GameVersion*>* value);
-
-  /// @brief Method .ctor, addr 0x3523c18, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3544a84, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Nullable_1<::BeatSaber::Init::GameVersion_Content> getStaticF__contentVersion();
@@ -85,17 +73,11 @@ public:
   GameVersionProvider(GameVersionProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23507 };
-
-  /// [Nullable(new[] { 2, 1 })]
-  /// @brief Field _versionTask, offset: 0x10, size: 0x8, def value: None
-  ::System::Threading::Tasks::Task_1<::BeatSaber::Init::GameVersion*>* ____versionTask;
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23351 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::BeatSaber::Init::GameVersionProvider, ____versionTask) == 0x10, "Offset mismatch!");
-
-static_assert(sizeof(::BeatSaber::Init::GameVersionProvider) == 0x18, "Size mismatch!");
+static_assert(sizeof(::BeatSaber::Init::GameVersionProvider) == 0x10, "Size mismatch!");
 
 } // namespace BeatSaber::Init

@@ -192,7 +192,7 @@ public:
   static ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_SimulationType const Update;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21558 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21605 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -251,7 +251,7 @@ public:
   static ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformWriteMode const Slow3D;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21559 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21606 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -310,7 +310,7 @@ public:
   static ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane const ZY;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21560 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21607 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -373,7 +373,7 @@ public:
   static ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_DrawContactType const Point;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21561 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21608 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -489,7 +489,7 @@ public:
   static ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_DrawOptions const SelectedShapes;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21562 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21609 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -553,7 +553,7 @@ public:
   static ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_DrawFillOptions const Outline;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21563 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21610 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -577,7 +577,7 @@ namespace UnityEngine::LowLevelPhysics2D {
 struct CORDL_TYPE DrawResults_PhysicsWorld_PolygonGeometryElement {
 public:
   // Declarations
-  /// @brief Method Size, addr 0x6fd8164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Size, addr 0x7015058, size 0x8, virtual false, abstract: false, final false
   static inline int32_t Size();
 
   // Ctor Parameters []
@@ -599,7 +599,7 @@ public:
                                                             ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_DrawFillOptions drawFillOptions, ::UnityEngine::Color color) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21564 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21611 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
@@ -688,7 +688,7 @@ namespace UnityEngine::LowLevelPhysics2D {
 struct CORDL_TYPE DrawResults_PhysicsWorld_CircleGeometryElement {
 public:
   // Declarations
-  /// @brief Method Size, addr 0x6fd816c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Size, addr 0x7015060, size 0x8, virtual false, abstract: false, final false
   static inline int32_t Size();
 
   // Ctor Parameters []
@@ -703,7 +703,7 @@ public:
                                                            ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_DrawFillOptions drawFillOptions, ::UnityEngine::Color color) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21565 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21612 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2c };
@@ -747,7 +747,7 @@ namespace UnityEngine::LowLevelPhysics2D {
 struct CORDL_TYPE DrawResults_PhysicsWorld_CapsuleGeometryElement {
 public:
   // Declarations
-  /// @brief Method Size, addr 0x6fd8174, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Size, addr 0x7015068, size 0x8, virtual false, abstract: false, final false
   static inline int32_t Size();
 
   // Ctor Parameters []
@@ -762,7 +762,7 @@ public:
                                                             ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_DrawFillOptions drawFillOptions, ::UnityEngine::Color color) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21566 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21613 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -811,7 +811,7 @@ namespace UnityEngine::LowLevelPhysics2D {
 struct CORDL_TYPE DrawResults_PhysicsWorld_LineElement {
 public:
   // Declarations
-  /// @brief Method Size, addr 0x6fd817c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Size, addr 0x7015070, size 0x8, virtual false, abstract: false, final false
   static inline int32_t Size();
 
   // Ctor Parameters []
@@ -824,7 +824,7 @@ public:
   constexpr DrawResults_PhysicsWorld_LineElement(::UnityEngine::LowLevelPhysics2D::PhysicsTransform transform, float_t length, float_t elementDepth, ::UnityEngine::Color color) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21567 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21614 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -863,7 +863,7 @@ namespace UnityEngine::LowLevelPhysics2D {
 struct CORDL_TYPE DrawResults_PhysicsWorld_PointElement {
 public:
   // Declarations
-  /// @brief Method Size, addr 0x6fd8184, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Size, addr 0x7015078, size 0x8, virtual false, abstract: false, final false
   static inline int32_t Size();
 
   // Ctor Parameters []
@@ -876,7 +876,7 @@ public:
   constexpr DrawResults_PhysicsWorld_PointElement(::UnityEngine::Vector2 position, float_t radius, float_t elementDepth, ::UnityEngine::Color color) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21568 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21615 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -935,22 +935,22 @@ public:
 
   __declspec(property(get = get_polygonGeometryArray)) ::Unity::Collections::NativeArray_1<::UnityEngine::LowLevelPhysics2D::DrawResults_PhysicsWorld_PolygonGeometryElement> polygonGeometryArray;
 
-  /// @brief Method ToString, addr 0x6fd7df4, size 0x1f4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x7014ce8, size 0x1f4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_capsuleGeometryArray, addr 0x6fd8080, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_capsuleGeometryArray, addr 0x7014f74, size 0x4c, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<::UnityEngine::LowLevelPhysics2D::DrawResults_PhysicsWorld_CapsuleGeometryElement> get_capsuleGeometryArray();
 
-  /// @brief Method get_circleGeometryArray, addr 0x6fd8034, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_circleGeometryArray, addr 0x7014f28, size 0x4c, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<::UnityEngine::LowLevelPhysics2D::DrawResults_PhysicsWorld_CircleGeometryElement> get_circleGeometryArray();
 
-  /// @brief Method get_lineArray, addr 0x6fd80cc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_lineArray, addr 0x7014fc0, size 0x4c, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<::UnityEngine::LowLevelPhysics2D::DrawResults_PhysicsWorld_LineElement> get_lineArray();
 
-  /// @brief Method get_pointArray, addr 0x6fd8118, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_pointArray, addr 0x701500c, size 0x4c, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<::UnityEngine::LowLevelPhysics2D::DrawResults_PhysicsWorld_PointElement> get_pointArray();
 
-  /// @brief Method get_polygonGeometryArray, addr 0x6fd7fe8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_polygonGeometryArray, addr 0x7014edc, size 0x4c, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<::UnityEngine::LowLevelPhysics2D::DrawResults_PhysicsWorld_PolygonGeometryElement> get_polygonGeometryArray();
 
   // Ctor Parameters []
@@ -969,7 +969,7 @@ public:
                                      ::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D_PhysicsBuffer m_PointElements) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21569 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21616 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -1042,7 +1042,7 @@ public:
                                                          ::UnityEngine::Color graphConstraint21, ::UnityEngine::Color graphConstraint22, ::UnityEngine::Color graphConstraint23) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21570 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21617 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x180 };
@@ -1208,7 +1208,7 @@ public:
                                     ::UnityEngine::Color solverIsland, ::UnityEngine::LowLevelPhysics2D::DrawColors_PhysicsWorld_ConstraintGraphArray m_ConstraintGraph) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21571 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21618 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2d0 };
@@ -1358,43 +1358,43 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::LowLevelPhysics2D::PhysicsWorld>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::LowLevelPhysics2D::PhysicsWorld>*();
 
-  /// @brief Method DrawAllWorlds, addr 0x6fd7df0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DrawAllWorlds, addr 0x7014ce4, size 0x4, virtual false, abstract: false, final false
   static inline void DrawAllWorlds(::UnityEngine::LowLevelPhysics2D::PhysicsAABB drawAABB);
 
-  /// @brief Method Equals, addr 0x6fd7c8c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x7014b80, size 0x68, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6fd7cf4, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x7014be8, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::LowLevelPhysics2D::PhysicsWorld other);
 
-  /// @brief Method GetHashCode, addr 0x6fd7d18, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x7014c0c, size 0x80, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method SendBodyUpdateCallbacks, addr 0x6fd661c, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method SendBodyUpdateCallbacks, addr 0x7013510, size 0x1f4, virtual false, abstract: false, final false
   inline void SendBodyUpdateCallbacks();
 
-  /// @brief Method SendContactCallbacks, addr 0x6fd6828, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method SendContactCallbacks, addr 0x701371c, size 0x3dc, virtual false, abstract: false, final false
   inline void SendContactCallbacks();
 
-  /// @brief Method SendJointThresholdCallbacks, addr 0x6fd6fb8, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method SendJointThresholdCallbacks, addr 0x7013eac, size 0x1d0, virtual false, abstract: false, final false
   inline void SendJointThresholdCallbacks();
 
-  /// @brief Method SendTriggerCallbacks, addr 0x6fd6c1c, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method SendTriggerCallbacks, addr 0x7013b10, size 0x384, virtual false, abstract: false, final false
   inline void SendTriggerCallbacks();
 
-  /// @brief Method SetTransformWriteTweens, addr 0x6fd7de8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetTransformWriteTweens, addr 0x7014cdc, size 0x8, virtual false, abstract: false, final false
   inline void SetTransformWriteTweens(::System::ReadOnlySpan_1<::UnityEngine::LowLevelPhysics2D::PhysicsBody_TransformWriteTween> transformWriteTweens);
 
-  /// @brief Method ToString, addr 0x6fd7b3c, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x7014a30, size 0x108, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_bypassLowLevel, addr 0x6fd7d98, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_bypassLowLevel, addr 0x7014c8c, size 0x28, virtual false, abstract: false, final false
   static inline bool get_bypassLowLevel();
 
-  /// @brief Method get_isRenderingAllowed, addr 0x6fd7dc0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_isRenderingAllowed, addr 0x7014cb4, size 0x28, virtual false, abstract: false, final false
   static inline bool get_isRenderingAllowed();
 
-  /// @brief Method get_isValid, addr 0x6fd7c44, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_isValid, addr 0x7014b38, size 0x48, virtual false, abstract: false, final false
   inline bool get_isValid();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::LowLevelPhysics2D::PhysicsWorld>"
@@ -1409,7 +1409,7 @@ public:
   constexpr PhysicsWorld(uint16_t m_Index1, uint16_t m_Generation) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21572 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21619 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

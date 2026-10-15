@@ -67,7 +67,7 @@ public:
   IAudioGenerator(IAudioGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20380 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20427 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -92,13 +92,13 @@ public:
     requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*> && ::cordl_internals::type_constraint<T, ::UnityEngine::Audio::IAudioGenerator*>)
   inline void Set(T value);
 
-  /// @brief Method .ctor, addr 0x6eac064, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ee8d00, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Audio::IAudioGenerator* audioGenerator);
 
-  /// @brief Method get_definition, addr 0x6eabf5c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_definition, addr 0x6ee8bf8, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Audio::IAudioGenerator* get_definition();
 
-  /// @brief Method set_definition, addr 0x6eabfa8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method set_definition, addr 0x6ee8c44, size 0xbc, virtual false, abstract: false, final false
   inline void set_definition(::UnityEngine::Audio::IAudioGenerator* value);
 
   // Ctor Parameters []
@@ -109,7 +109,7 @@ public:
   constexpr IAudioGenerator_Serializable(::UnityW<::UnityEngine::Object> Reference) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20379 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20426 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

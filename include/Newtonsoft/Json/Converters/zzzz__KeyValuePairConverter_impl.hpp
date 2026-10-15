@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Utilities::ReflectionObject* (*)(::System::Type*)>(
     &::Newtonsoft::Json::Converters::KeyValuePairConverter::InitializeReflectionObject)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x61b5d00;
+  constexpr static std::size_t addrs = 0x61f2748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::KeyValuePairConverter::*)(
     ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(&::Newtonsoft::Json::Converters::KeyValuePairConverter::WriteJson)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x61b5f68;
+  constexpr static std::size_t addrs = 0x61f29b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::KeyValuePairConverter*>(),
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Object* (::Newtonsoft::Json::Converters::KeyValuePairConverter::*)(::Newtonsoft::Json::JsonReader*, ::System::Type*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(
         &::Newtonsoft::Json::Converters::KeyValuePairConverter::ReadJson)> {
   constexpr static std::size_t size = 0x4e8;
-  constexpr static std::size_t addrs = 0x61b6200;
+  constexpr static std::size_t addrs = 0x61f2c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::KeyValuePairConverter*>(),
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Converters::KeyValuePairConverter::*)(::System::Type*)>(
     &::Newtonsoft::Json::Converters::KeyValuePairConverter::CanConvert)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x61b66e8;
+  constexpr static std::size_t addrs = 0x61f3130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::KeyValuePairConverter*>(),
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::KeyValuePairConverter::*)()>(&::Newtonsoft::Json::Converters::KeyValuePairConverter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x61b67fc;
+  constexpr static std::size_t addrs = 0x61f3244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::KeyValuePairConverter*>(), { ".ctor", {}, {} })));

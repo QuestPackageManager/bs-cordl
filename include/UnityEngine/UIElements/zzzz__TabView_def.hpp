@@ -104,7 +104,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::TabView_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x720ad90, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7247cc4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -141,7 +141,7 @@ public:
   /// @brief Field m_Reorderable, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Reorderable, put = __cordl_internal_set_m_Reorderable)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_Reorderable;
 
-  /// @brief Method Init, addr 0x720adf8, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x7247d2c, size 0x10c, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::TabView_UxmlTraits* New_ctor();
@@ -152,7 +152,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Reorderable(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x720af04, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7247e38, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -202,18 +202,18 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-  /// @brief Method Apply, addr 0x72093a0, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x72462d4, size 0x1ac, virtual false, abstract: false, final false
   inline void Apply(::UnityEngine::UIElements::TabView* tabView);
 
   static inline ::UnityEngine::UIElements::TabView_ViewState* New_ctor();
 
-  /// @brief Method OnAfterDeserialize, addr 0x720afb4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method OnAfterDeserialize, addr 0x7247ee8, size 0xc, virtual true, abstract: false, final true
   inline void OnAfterDeserialize();
 
-  /// @brief Method OnBeforeSerialize, addr 0x720afa8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method OnBeforeSerialize, addr 0x7247edc, size 0xc, virtual true, abstract: false, final true
   inline void OnBeforeSerialize();
 
-  /// @brief Method Save, addr 0x720a114, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method Save, addr 0x7247048, size 0x1e8, virtual false, abstract: false, final false
   inline void Save(::UnityEngine::UIElements::TabView* tabView);
 
   constexpr ::StringW const& __cordl_internal_get_m_ActiveTabKey() const;
@@ -234,7 +234,7 @@ public:
 
   constexpr void __cordl_internal_set_m_TabOrder(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x720afc0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7247ef4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
@@ -289,13 +289,13 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::TabView_TabViewContentContainer* New_ctor();
 
-  /// @brief Method OnChildAdded, addr 0x720b034, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method OnChildAdded, addr 0x7247f68, size 0x90, virtual true, abstract: false, final false
   inline void OnChildAdded(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method OnChildRemoved, addr 0x720b0c4, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method OnChildRemoved, addr 0x7247ff8, size 0x90, virtual true, abstract: false, final false
   inline void OnChildRemoved(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method .ctor, addr 0x7209274, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72461a8, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -334,7 +334,7 @@ public:
 
   static inline ::UnityEngine::UIElements::TabView___c__DisplayClass82_0* New_ctor();
 
-  /// @brief Method <FindTabByKey>b__0, addr 0x720b158, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <FindTabByKey>b__0, addr 0x724808c, size 0x1c, virtual false, abstract: false, final false
   inline bool _FindTabByKey_b__0(::UnityEngine::UIElements::Tab* tab);
 
   constexpr ::StringW const& __cordl_internal_get_key() const;
@@ -343,7 +343,7 @@ public:
 
   constexpr void __cordl_internal_set_key(::StringW value);
 
-  /// @brief Method .ctor, addr 0x720b154, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7248088, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -492,56 +492,56 @@ public:
   /// @brief Field viewportUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_viewportUssClassName, put = setStaticF_viewportUssClassName)) ::StringW viewportUssClassName;
 
-  /// @brief Method FindTabByKey, addr 0x720a770, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method FindTabByKey, addr 0x72476a4, size 0xe0, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Tab* FindTabByKey(::StringW key);
 
   static inline ::UnityEngine::UIElements::TabView* New_ctor();
 
-  /// @brief Method OnDetachFromPanel, addr 0x720954c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method OnDetachFromPanel, addr 0x7246480, size 0x12c, virtual false, abstract: false, final false
   inline void OnDetachFromPanel(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
 
-  /// @brief Method OnElementAdded, addr 0x720a394, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method OnElementAdded, addr 0x72472c8, size 0x204, virtual false, abstract: false, final false
   inline void OnElementAdded(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method OnElementRemoved, addr 0x720a598, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method OnElementRemoved, addr 0x72474cc, size 0x1a8, virtual false, abstract: false, final false
   inline void OnElementRemoved(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method OnGeometryChanged, addr 0x7209678, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method OnGeometryChanged, addr 0x72465ac, size 0x378, virtual false, abstract: false, final false
   inline void OnGeometryChanged(::UnityEngine::UIElements::GeometryChangedEvent* evt);
 
-  /// @brief Method OnNextClicked, addr 0x7209b84, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method OnNextClicked, addr 0x7246ab8, size 0x2e0, virtual false, abstract: false, final false
   inline void OnNextClicked();
 
-  /// @brief Method OnPreviousClicked, addr 0x7209e64, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method OnPreviousClicked, addr 0x7246d98, size 0x2b0, virtual false, abstract: false, final false
   inline void OnPreviousClicked();
 
-  /// @brief Method OnTabClosed, addr 0x720a744, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method OnTabClosed, addr 0x7247678, size 0x2c, virtual false, abstract: false, final false
   inline void OnTabClosed(::UnityEngine::UIElements::Tab* tab);
 
-  /// @brief Method OnTabSelected, addr 0x720a740, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnTabSelected, addr 0x7247674, size 0x4, virtual false, abstract: false, final false
   inline void OnTabSelected(::UnityEngine::UIElements::Tab* tab);
 
-  /// @brief Method OnViewDataReady, addr 0x72092d0, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method OnViewDataReady, addr 0x7246204, size 0xd0, virtual true, abstract: false, final false
   inline void OnViewDataReady();
 
-  /// @brief Method ReorderTab, addr 0x72069d0, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method ReorderTab, addr 0x7243904, size 0x1fc, virtual false, abstract: false, final false
   inline void ReorderTab(int32_t from, int32_t to);
 
-  /// @brief Method SaveViewState, addr 0x72089cc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SaveViewState, addr 0x7245900, size 0x34, virtual false, abstract: false, final false
   inline void SaveViewState();
 
-  /// @brief Method UpdateButtons, addr 0x72099f0, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method UpdateButtons, addr 0x7246924, size 0x194, virtual false, abstract: false, final false
   inline void UpdateButtons(::UnityEngine::Vector3 contentTransform);
 
-  /// @brief Method UpdateIndexes, addr 0x720a2fc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method UpdateIndexes, addr 0x7247230, size 0x98, virtual false, abstract: false, final false
   inline void UpdateIndexes();
 
   /// [CompilerGenerated]
-  /// @brief Method <OnNextClicked>b__70_0, addr 0x720aaf8, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method <OnNextClicked>b__70_0, addr 0x7247a2c, size 0x16c, virtual false, abstract: false, final false
   inline bool _OnNextClicked_b__70_0(::UnityEngine::UIElements::VisualElement* tab);
 
   /// [CompilerGenerated]
-  /// @brief Method <OnPreviousClicked>b__71_0, addr 0x720ac64, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method <OnPreviousClicked>b__71_0, addr 0x7247b98, size 0x12c, virtual false, abstract: false, final false
   inline bool _OnPreviousClicked_b__71_0(::UnityEngine::UIElements::VisualElement* tab);
 
   constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get__contentViewport_k__BackingField() const;
@@ -634,7 +634,7 @@ public:
 
   constexpr void __cordl_internal_set_tabReordered(::System::Action_2<int32_t, int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x7208bb4, size 0x6c0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7245ae8, size 0x6c0, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_contentContainerUssClassName();
@@ -655,40 +655,40 @@ public:
 
   static inline ::StringW getStaticF_viewportUssClassName();
 
-  /// @brief Method get_activeTab, addr 0x72089c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activeTab, addr 0x72458f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Tab* get_activeTab();
 
-  /// @brief Method get_contentContainer, addr 0x72088c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_contentContainer, addr 0x72457fc, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
   /// [CompilerGenerated]
-  /// @brief Method get_contentViewport, addr 0x72088d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contentViewport, addr 0x7245804, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentViewport();
 
-  /// @brief Method get_header, addr 0x72088d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_header, addr 0x724580c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_header();
 
-  /// @brief Method get_needsButtons, addr 0x72089a4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_needsButtons, addr 0x72458d8, size 0x20, virtual false, abstract: false, final false
   inline bool get_needsButtons();
 
   /// [CompilerGenerated]
-  /// @brief Method get_nextButton, addr 0x72088f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_nextButton, addr 0x7245824, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::RepeatButton* get_nextButton();
 
   /// [CompilerGenerated]
-  /// @brief Method get_previousButton, addr 0x7208900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_previousButton, addr 0x7245834, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::RepeatButton* get_previousButton();
 
-  /// @brief Method get_reorderable, addr 0x7208a00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reorderable, addr 0x7245934, size 0x8, virtual false, abstract: false, final false
   inline bool get_reorderable();
 
-  /// @brief Method get_scrollableWidth, addr 0x7208910, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_scrollableWidth, addr 0x7245844, size 0x94, virtual false, abstract: false, final false
   inline float_t get_scrollableWidth();
 
-  /// @brief Method get_tabHeaders, addr 0x72088e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tabHeaders, addr 0x724581c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* get_tabHeaders();
 
-  /// @brief Method get_tabs, addr 0x72088e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tabs, addr 0x7245814, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Tab*>* get_tabs();
 
   static inline void setStaticF_contentContainerUssClassName(::StringW value);
@@ -709,18 +709,18 @@ public:
 
   static inline void setStaticF_viewportUssClassName(::StringW value);
 
-  /// @brief Method set_activeTab, addr 0x720805c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method set_activeTab, addr 0x7244f90, size 0x194, virtual false, abstract: false, final false
   inline void set_activeTab(::UnityEngine::UIElements::Tab* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_nextButton, addr 0x72088f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_nextButton, addr 0x724582c, size 0x8, virtual false, abstract: false, final false
   inline void set_nextButton(::UnityEngine::UIElements::RepeatButton* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_previousButton, addr 0x7208908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_previousButton, addr 0x724583c, size 0x8, virtual false, abstract: false, final false
   inline void set_previousButton(::UnityEngine::UIElements::RepeatButton* value);
 
-  /// @brief Method set_reorderable, addr 0x7208a08, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method set_reorderable, addr 0x724593c, size 0x1ac, virtual false, abstract: false, final false
   inline void set_reorderable(bool value);
 
 protected:

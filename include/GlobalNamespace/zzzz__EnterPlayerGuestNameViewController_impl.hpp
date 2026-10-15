@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5e34bd4;
+  constexpr static std::size_t addrs = 0x5e72834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*>(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::*)(
     ::GlobalNamespace::EnterPlayerGuestNameViewController*, ::StringW)>(&::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e34d1c;
+  constexpr static std::size_t addrs = 0x5e7297c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*>(),
@@ -51,7 +51,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::*)(::GlobalNamespace::EnterPlayerGuestNameViewController*, ::StringW, ::System::AsyncCallback*, ::System::Object*)>(
     &::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5e34d30;
+  constexpr static std::size_t addrs = 0x5e72990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*>(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::*)(::System::IAsyncResult*)>(
     &::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e34d58;
+  constexpr static std::size_t addrs = 0x5e729b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*>(),
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass11_0::*)()>(
     &::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass11_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e34a28;
+  constexpr static std::size_t addrs = 0x5e72688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass11_0::*)(int32_t, ::GlobalNamespace::GuestNameButtonsListItem*)>(
     &::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass11_0::_DidActivate_b__0)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x5e34d64;
+  constexpr static std::size_t addrs = 0x5e729c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass11_1::*)()>(
     &::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass11_1::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e34eb4;
+  constexpr static std::size_t addrs = 0x5e72b14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass11_1::*)()>(
     &::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass11_1::_DidActivate_b__1)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5e34eb8;
+  constexpr static std::size_t addrs = 0x5e72b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController::*)(::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate*)>(
     &::GlobalNamespace::EnterPlayerGuestNameViewController::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e347b8;
+  constexpr static std::size_t addrs = 0x5e72418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -260,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::EnterPlayerGuestNameViewController::DidActivate)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x5e347c0;
+  constexpr static std::size_t addrs = 0x5e72420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnterPlayerGuestNameViewController*>(),
@@ -274,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController::*)(bool, bool)>(
     &::GlobalNamespace::EnterPlayerGuestNameViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5e34a2c;
+  constexpr static std::size_t addrs = 0x5e7268c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnterPlayerGuestNameViewController*>(),
@@ -287,7 +287,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController::*)()>(&::GlobalNamespace::EnterPlayerGuestNameViewController::OkButtonPressed)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5e34ae8;
+  constexpr static std::size_t addrs = 0x5e72748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnterPlayerGuestNameViewController*>(), { "OkButtonPressed", {}, {} })));
@@ -299,7 +299,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnterPlayerGuestNameViewController::*)()>(&::GlobalNamespace::EnterPlayerGuestNameViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e34bd0;
+  constexpr static std::size_t addrs = 0x5e72830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnterPlayerGuestNameViewController*>(), { ".ctor", {}, {} })));

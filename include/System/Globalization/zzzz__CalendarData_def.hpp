@@ -88,22 +88,22 @@ public:
   /// @brief Field saYearMonths, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_saYearMonths, put = __cordl_internal_set_saYearMonths)) ::ArrayW<::StringW> saYearMonths;
 
-  /// @brief Method CalendarIdToCultureName, addr 0x5fdf834, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method CalendarIdToCultureName, addr 0x601c11c, size 0x11c, virtual false, abstract: false, final false
   static inline ::StringW CalendarIdToCultureName(int32_t calendarId);
 
-  /// @brief Method GetCalendarData, addr 0x5fdd3b0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetCalendarData, addr 0x6019c98, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::Globalization::CalendarData* GetCalendarData(int32_t calendarId);
 
-  /// @brief Method GetJapaneseEnglishEraNames, addr 0x5fdf494, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetJapaneseEnglishEraNames, addr 0x601bd7c, size 0xf4, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> GetJapaneseEnglishEraNames();
 
-  /// @brief Method GetJapaneseEraNames, addr 0x5fdf588, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetJapaneseEraNames, addr 0x601be70, size 0xf4, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> GetJapaneseEraNames();
 
-  /// @brief Method InitializeAbbreviatedEraNames, addr 0x5fdf1a0, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method InitializeAbbreviatedEraNames, addr 0x601ba88, size 0x2f4, virtual false, abstract: false, final false
   inline void InitializeAbbreviatedEraNames(::StringW localeName, int32_t calendarId);
 
-  /// @brief Method InitializeEraNames, addr 0x5fdeda4, size 0x3fc, virtual false, abstract: false, final false
+  /// @brief Method InitializeEraNames, addr 0x601b68c, size 0x3fc, virtual false, abstract: false, final false
   inline void InitializeEraNames(::StringW localeName, int32_t calendarId);
 
   static inline ::System::Globalization::CalendarData* New_ctor();
@@ -224,13 +224,13 @@ public:
 
   constexpr void __cordl_internal_set_saYearMonths(::ArrayW<::StringW> value);
 
-  /// @brief Method .ctor, addr 0x5fdda98, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x601a380, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5fde7f4, size 0x4f8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x601b0dc, size 0x4f8, virtual false, abstract: false, final false
   inline void _ctor(::StringW localeName, int32_t calendarId, bool bUseUserOverrides);
 
-  /// @brief Method fill_calendar_data, addr 0x5fdf950, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method fill_calendar_data, addr 0x601c238, size 0x4, virtual false, abstract: false, final false
   inline bool fill_calendar_data(::StringW localeName, int32_t datetimeIndex);
 
   static inline ::ArrayW<::StringW> getStaticF_HEBREW_LEAP_MONTH_NAMES();
@@ -239,10 +239,10 @@ public:
 
   static inline ::System::Globalization::CalendarData* getStaticF_Invariant();
 
-  /// @brief Method nativeGetCalendarData, addr 0x5fdecec, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method nativeGetCalendarData, addr 0x601b5d4, size 0xb8, virtual false, abstract: false, final false
   static inline bool nativeGetCalendarData(::System::Globalization::CalendarData* data, ::StringW localeName, int32_t calendarId);
 
-  /// @brief Method nativeGetTwoDigitYearMax, addr 0x5fdda90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method nativeGetTwoDigitYearMax, addr 0x601a378, size 0x8, virtual false, abstract: false, final false
   static inline int32_t nativeGetTwoDigitYearMax(int32_t calID);
 
   static inline void setStaticF_HEBREW_LEAP_MONTH_NAMES(::ArrayW<::StringW> value);

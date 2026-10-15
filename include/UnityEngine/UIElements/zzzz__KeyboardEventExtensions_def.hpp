@@ -27,11 +27,11 @@ class CORDL_TYPE KeyboardEventExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method ShouldSendNavigationMoveEvent, addr 0x722bad4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ShouldSendNavigationMoveEvent, addr 0x7268a08, size 0xc0, virtual false, abstract: false, final false
   static inline bool ShouldSendNavigationMoveEvent(::UnityEngine::UIElements::KeyDownEvent* e);
 
   /// [Extension]
-  /// @brief Method ShouldSendNavigationMoveEventRuntime, addr 0x722be48, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ShouldSendNavigationMoveEventRuntime, addr 0x7268d7c, size 0x44, virtual false, abstract: false, final false
   static inline bool ShouldSendNavigationMoveEventRuntime(::UnityEngine::Event* e);
 
 protected:

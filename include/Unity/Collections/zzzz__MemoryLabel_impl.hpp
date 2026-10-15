@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::MemoryLabel::*)(::StringW, ::StringW, ::Unity::Collections::Allocator)>(&::Unity::Collections::MemoryLabel::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6eb17c8;
+  constexpr static std::size_t addrs = 0x6eee464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Unity::Collections::Allocator)>(&::Unity::Collections::MemoryLabel::SupportsAllocator)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6eb18c8;
+  constexpr static std::size_t addrs = 0x6eee564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::Unity::Collections::MemoryLabel::IsNullOrEmpty)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6eb18ac;
+  constexpr static std::size_t addrs = 0x6eee548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint8_t*, int32_t)>(&::Unity::Collections::MemoryLabel::IsNullOrEmpty__Unmanaged)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6eb18d8;
+  constexpr static std::size_t addrs = 0x6eee574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::MemoryLabel::*)()>(&::Unity::Collections::MemoryLabel::get_IsCreated)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6eb18e8;
+  constexpr static std::size_t addrs = 0x6eee584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::MemoryLabel>(), { "get_IsCreated", {}, {} })));

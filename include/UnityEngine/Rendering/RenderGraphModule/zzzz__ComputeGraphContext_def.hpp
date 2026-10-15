@@ -57,15 +57,15 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext"
   constexpr operator ::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext*() noexcept;
 
-  /// @brief Method FromInternalContext, addr 0x6c03118, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method FromInternalContext, addr 0x6c3fd94, size 0xa4, virtual true, abstract: false, final true
   inline void FromInternalContext(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* context);
 
-  /// @brief Method GetTextureUVOrigin, addr 0x6c031bc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetTextureUVOrigin, addr 0x6c3fe38, size 0x70, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureUVOrigin GetTextureUVOrigin(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> textureHandle);
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext* New_ctor();
 
-  /// @brief Method UnityEngine.Rendering.RenderGraphModule.IDerivedRendergraphContext.GetTextureUVOrigin, addr 0x6c032a0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.RenderGraphModule.IDerivedRendergraphContext.GetTextureUVOrigin, addr 0x6c3ff1c, size 0x4, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureUVOrigin
   UnityEngine_Rendering_RenderGraphModule_IDerivedRendergraphContext_GetTextureUVOrigin(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> textureHandle);
 
@@ -81,15 +81,15 @@ public:
 
   constexpr void __cordl_internal_set_wrappedContext(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* value);
 
-  /// @brief Method .ctor, addr 0x6c0322c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c3fea8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::ComputeCommandBuffer* getStaticF_computecmd();
 
-  /// @brief Method get_defaultResources, addr 0x6c030e8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_defaultResources, addr 0x6c3fd64, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphDefaultResources* get_defaultResources();
 
-  /// @brief Method get_renderGraphPool, addr 0x6c03100, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_renderGraphPool, addr 0x6c3fd7c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool* get_renderGraphPool();
 
   /// @brief Convert to "::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext"
@@ -112,7 +112,7 @@ public:
   ComputeGraphContext(ComputeGraphContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9328 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9335 };
 
   /// @brief Field wrappedContext, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* ___wrappedContext;

@@ -34,22 +34,22 @@ public:
 
   __declspec(property(get = get_type)) ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type;
 
-  /// @brief Method .ctor, addr 0x6e44d44, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e819e0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(void* next, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceScopeEXT scope);
 
-  /// @brief Method .ctor, addr 0x6e40d08, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7d9a4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceScopeEXT scope);
 
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e44d34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x6e819d0, size 0x8, virtual false, abstract: false, final false
   inline void* get_next();
 
   /// [CompilerGenerated]
-  /// @brief Method get_scope, addr 0x6e44d3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scope, addr 0x6e819d8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceScopeEXT get_scope();
 
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e44d2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6e819c8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   // Ctor Parameters []
@@ -63,7 +63,7 @@ public:
                                                      ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceScopeEXT _scope_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17582 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17615 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

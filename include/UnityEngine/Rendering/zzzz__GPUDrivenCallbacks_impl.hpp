@@ -18,7 +18,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
                                                                 ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback*)>(
     &::UnityEngine::Rendering::GPUDrivenCallbacks::InvokeGPUDrivenLODGroupDataNativeCallback)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6f88eb8;
+  constexpr static std::size_t addrs = 0x6fc5d94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                          ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*,
                          ::UnityEngine::Rendering::GPUDrivenRendererDataCallback*)>(&::UnityEngine::Rendering::GPUDrivenCallbacks::InvokeGPUDrivenRendererDataNativeCallback)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6f88ed8;
+  constexpr static std::size_t addrs = 0x6fc5db4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUDrivenCallbacks*>(),

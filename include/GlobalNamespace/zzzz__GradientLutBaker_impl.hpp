@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Texture2D> (*)(::UnityEngine::Gradient*, int32_t, ::UnityEngine::FilterMode)>(
     &::GlobalNamespace::GradientLutBaker::BakeLut)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3981874;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x39a41d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

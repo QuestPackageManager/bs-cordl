@@ -76,6 +76,20 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::IAdditionalContentModel.OpenGameDlcProductStoreAsync
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* (
+    ::GlobalNamespace::IAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(&::GlobalNamespace::IAdditionalContentModel::OpenGameDlcProductStoreAsync)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::IAdditionalContentModel*>(), { ::i2c::class_of<::GlobalNamespace::IAdditionalContentModel*>(), 5 }));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::IAdditionalContentModel.OpenStore
 template <>
 
@@ -85,7 +99,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::IAdditionalContentModel*>(), { ::i2c::class_of<::GlobalNamespace::IAdditionalContentModel*>(), 5 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::IAdditionalContentModel*>(), { ::i2c::class_of<::GlobalNamespace::IAdditionalContentModel*>(), 6 }));
     return ___internal_method;
   }
 };
@@ -117,8 +131,14 @@ GlobalNamespace::IAdditionalContentModel::OpenLevelProductStoreAsync(::StringW l
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IAdditionalContentModel*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>*>(this, ___internal_method, levelId, token);
 }
-inline void GlobalNamespace::IAdditionalContentModel::OpenStore(::StringW uri) {
+inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>*
+GlobalNamespace::IAdditionalContentModel::OpenGameDlcProductStoreAsync(::StringW gameDlcId, ::System::Threading::CancellationToken token) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IAdditionalContentModel*>(), 5 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>*>(this, ___internal_method, gameDlcId, token);
+}
+inline void GlobalNamespace::IAdditionalContentModel::OpenStore(::StringW uri) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IAdditionalContentModel*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, uri);
 }

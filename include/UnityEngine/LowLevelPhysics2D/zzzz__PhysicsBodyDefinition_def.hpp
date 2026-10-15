@@ -24,13 +24,13 @@ namespace UnityEngine::LowLevelPhysics2D {
 struct CORDL_TYPE PhysicsBodyDefinition {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6fd53e4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70122d8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6fd17f0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x700e6e4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(bool useSettings);
 
-  /// @brief Method get_defaultDefinition, addr 0x6fd5414, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_defaultDefinition, addr 0x7012308, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::LowLevelPhysics2D::PhysicsBodyDefinition get_defaultDefinition();
 
   // Ctor Parameters []
@@ -55,7 +55,7 @@ public:
                                   bool m_SleepingAllowed, bool m_Awake, bool m_Enabled) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21529 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21576 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x44 };

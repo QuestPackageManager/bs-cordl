@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::BLASPositionsPool::*)(::UnityEngine::ComputeShader*, ::UnityEngine::ComputeShader*)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::BLASPositionsPool::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6e08c54;
+  constexpr static std::size_t addrs = 0x6e458f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::BLASPositionsPool::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::BLASPositionsPool::Dispose)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6e08d24;
+  constexpr static std::size_t addrs = 0x6e459c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::BLASPositionsPool*>(), { "Dispose", {}, {} })));
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::GraphicsBuffer* (::UnityEngine::Rendering::UnifiedRayTracing::BLASPositionsPool::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::BLASPositionsPool::get_VertexBuffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e08d4c;
+  constexpr static std::size_t addrs = 0x6e459e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::BLASPositionsPool::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::BLASPositionsPool::Clear)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6e08d54;
+  constexpr static std::size_t addrs = 0x6e459f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::BLASPositionsPool*>(), { "Clear", {}, {} })));
@@ -70,7 +70,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::UnifiedRayTracing::VertexBufferChunk, ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation>)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::BLASPositionsPool::Add)> {
   constexpr static std::size_t size = 0x470;
-  constexpr static std::size_t addrs = 0x6e08dec;
+  constexpr static std::size_t addrs = 0x6e45a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::BLASPositionsPool::*)(
     ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation>)>(&::UnityEngine::Rendering::UnifiedRayTracing::BLASPositionsPool::Remove)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6e0925c;
+  constexpr static std::size_t addrs = 0x6e45ef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

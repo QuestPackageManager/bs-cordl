@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::AssertionConditionAttribute::*)(::JetBrains::Annotations::AssertionConditionType)>(
     &::JetBrains::Annotations::AssertionConditionAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72d9d1c;
+  constexpr static std::size_t addrs = 0x7316d80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::AssertionConditionAttribute*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::JetBrains::Annotations::AssertionConditionType (::JetBrains::Annotations::AssertionConditionAttribute::*)()>(
     &::JetBrains::Annotations::AssertionConditionAttribute::get_ConditionType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72d9d24;
+  constexpr static std::size_t addrs = 0x7316d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::AssertionConditionAttribute::*)(::JetBrains::Annotations::AssertionConditionType)>(
     &::JetBrains::Annotations::AssertionConditionAttribute::set_ConditionType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72d9d2c;
+  constexpr static std::size_t addrs = 0x7316d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::AssertionConditionAttribute*>(),

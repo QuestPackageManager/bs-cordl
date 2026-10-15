@@ -48,18 +48,18 @@ public:
 
   constexpr void __cordl_internal_set__QualifiedNativeName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x7014a5c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7051950, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW qualifiedCppName);
 
-  /// @brief Method .ctor, addr 0x7014ac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70519b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW qualifiedCppName, ::StringW declaration);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Declaration, addr 0x7014a54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Declaration, addr 0x7051948, size 0x8, virtual false, abstract: false, final false
   inline void set_Declaration(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_QualifiedNativeName, addr 0x7014a4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_QualifiedNativeName, addr 0x7051940, size 0x8, virtual false, abstract: false, final false
   inline void set_QualifiedNativeName(::StringW value);
 
 protected:
@@ -77,7 +77,7 @@ public:
   NativeClassAttribute(NativeClassAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23528 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23644 };
 
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]

@@ -92,10 +92,10 @@ public:
     requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
   static inline void PushGlobal(/* [IsReadOnly] */ ::by_ref<CBType const> data, int32_t shaderId);
 
-  /// @brief Method Register, addr 0x6b6c950, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x6ba95cc, size 0xd4, virtual false, abstract: false, final false
   static inline void Register(::UnityEngine::Rendering::ConstantBufferBase* cb);
 
-  /// @brief Method ReleaseAll, addr 0x6b6c7b4, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseAll, addr 0x6ba9430, size 0x19c, virtual false, abstract: false, final false
   static inline void ReleaseAll();
 
   /// @brief Method Set, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -148,7 +148,7 @@ public:
     requires(::cordl_internals::value_type_constraint<CBType> && ::cordl_internals::default_constructor_constraint<CBType>)
   static inline void UpdateData(/* [IsReadOnly] */ ::by_ref<CBType const> data);
 
-  /// @brief Method .ctor, addr 0x6b6ca24, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ba96a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ConstantBufferBase*>* getStaticF_m_RegisteredConstantBuffers();
@@ -170,7 +170,7 @@ public:
   ConstantBuffer(ConstantBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8748 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8755 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -53,7 +53,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x7176268, size 0x108, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x71b319c, size 0x108, virtual true, abstract: false, final true
   inline void Execute(int32_t i);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -124,17 +124,17 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CompleteJobs, addr 0x7175f6c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method CompleteJobs, addr 0x71b2ea0, size 0xc8, virtual false, abstract: false, final false
   inline void CompleteJobs();
 
-  /// @brief Method CreateJob, addr 0x7175e5c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method CreateJob, addr 0x71b2d90, size 0x110, virtual false, abstract: false, final false
   inline void CreateJob(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> oldVerts, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> newVerts,
                         ::UnityEngine::Color32 opacityData, int32_t vertexCount);
 
-  /// @brief Method Dispose, addr 0x7176044, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x71b2f78, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x71760b4, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x71b2fe8, size 0x70, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::UIR::OpacityIdAccelerator* New_ctor();
@@ -157,13 +157,13 @@ public:
 
   constexpr void __cordl_internal_set_m_NextJobIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x7176124, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71b3058, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Unity::Collections::MemoryLabel getStaticF_k_MemoryLabel();
 
   /// [CompilerGenerated]
-  /// @brief Method get_disposed, addr 0x7176034, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x71b2f68, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
@@ -172,7 +172,7 @@ public:
   static inline void setStaticF_k_MemoryLabel(::Unity::Collections::MemoryLabel value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_disposed, addr 0x717603c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x71b2f70, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:

@@ -62,28 +62,28 @@ public:
   /// @brief Field s_TintDef, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_TintDef, put = setStaticF_s_TintDef)) ::UnityW<::UnityEngine::UIElements::FilterFunctionDefinition> s_TintDef;
 
-  /// @brief Method ApplyBlurSettings, addr 0x7237024, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ApplyBlurSettings, addr 0x7273f58, size 0xc8, virtual false, abstract: false, final false
   static inline void ApplyBlurSettings(::UnityEngine::MaterialPropertyBlock* mpb, ::UnityEngine::UIElements::FilterPassContext context);
 
-  /// @brief Method ApplySettings, addr 0x72370ec, size 0x5d8, virtual false, abstract: false, final false
+  /// @brief Method ApplySettings, addr 0x7274020, size 0x5d8, virtual false, abstract: false, final false
   static inline void ApplySettings(::UnityEngine::MaterialPropertyBlock* mpb, ::UnityEngine::UIElements::FilterPassContext context);
 
-  /// @brief Method ComputeHorizontalBlurMargins, addr 0x7236e40, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ComputeHorizontalBlurMargins, addr 0x7273d74, size 0xf4, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::PostProcessingMargins ComputeHorizontalBlurMargins(::UnityEngine::UIElements::FilterFunction func);
 
-  /// @brief Method ComputeVerticalBlurMargins, addr 0x7236f34, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ComputeVerticalBlurMargins, addr 0x7273e68, size 0xf0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::PostProcessingMargins ComputeVerticalBlurMargins(::UnityEngine::UIElements::FilterFunction func);
 
-  /// @brief Method CreateBlurFilterFunctionDefinition, addr 0x72367dc, size 0x3c0, virtual false, abstract: false, final false
+  /// @brief Method CreateBlurFilterFunctionDefinition, addr 0x7273710, size 0x3c0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::UIElements::FilterFunctionDefinition> CreateBlurFilterFunctionDefinition();
 
-  /// @brief Method CreateColorEffectFilterFunctionDefinition, addr 0x7236b9c, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method CreateColorEffectFilterFunctionDefinition, addr 0x7273ad0, size 0x2a4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::UIElements::FilterFunctionDefinition> CreateColorEffectFilterFunctionDefinition(::UnityEngine::UIElements::FilterFunctionType filterType);
 
-  /// @brief Method GetBuiltinDefinition, addr 0x7236438, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method GetBuiltinDefinition, addr 0x727336c, size 0x3a4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::UIElements::FilterFunctionDefinition> GetBuiltinDefinition(::UnityEngine::UIElements::FilterFunctionType type);
 
-  /// @brief Method GetBuiltinFilterName, addr 0x72362b4, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetBuiltinFilterName, addr 0x72731e8, size 0x184, virtual false, abstract: false, final false
   static inline ::StringW GetBuiltinFilterName(::UnityEngine::UIElements::FilterFunctionType type);
 
   static inline ::UnityW<::UnityEngine::UIElements::FilterFunctionDefinition> getStaticF_s_BlurDef();

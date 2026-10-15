@@ -160,7 +160,7 @@ public:
   static ::BeatSaber::FeatureFlags::FeatureFlagService_State const Ready;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23718 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23800 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -192,10 +192,10 @@ public:
 
   static inline ::BeatSaber::FeatureFlags::FeatureFlagService___c* New_ctor();
 
-  /// @brief Method <QueryRemoteFlagsAsync>b__12_0, addr 0x35129dc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <QueryRemoteFlagsAsync>b__12_0, addr 0x3533350, size 0x14, virtual false, abstract: false, final false
   inline ::StringW _QueryRemoteFlagsAsync_b__12_0(::GlobalNamespace::FeatureConfiguration_Remote* remote);
 
-  /// @brief Method .ctor, addr 0x35129d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x353334c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BeatSaber::FeatureFlags::FeatureFlagService___c* getStaticF___9();
@@ -221,7 +221,7 @@ public:
   FeatureFlagService___c(FeatureFlagService___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23719 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23801 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -240,11 +240,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x35129f0, size 0x74c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3533364, size 0x74c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x351313c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3533ab0, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -263,7 +263,7 @@ public:
                                                       ::BeatSaber::FeatureFlags::FeatureFlagService* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23720 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23802 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -305,11 +305,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x35131bc, size 0x31c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3533b30, size 0x31c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x35134d8, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3533e4c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -328,7 +328,7 @@ public:
                                                             ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23721 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23803 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -375,11 +375,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3513558, size 0x898, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3533ecc, size 0x898, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3513e18, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x353478c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -398,7 +398,7 @@ public:
                                                             ::System::Runtime::CompilerServices::TaskAwaiter_1<::Main::GraphQL::Models::FeatureFlagsEnabledModel*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23722 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23804 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -440,11 +440,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3513e84, size 0x1cc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35347f8, size 0x1cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3514050, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x35349c4, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -461,7 +461,7 @@ public:
                                                             ::BeatSaber::FeatureFlags::FeatureFlagService* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23723 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23805 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -545,42 +545,42 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x35128d0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3533244, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetRemoteFlag, addr 0x3512608, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetRemoteFlag, addr 0x3532f7c, size 0x128, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> GetRemoteFlag(::GlobalNamespace::FeatureConfiguration_Remote* remoteFlag);
 
-  /// @brief Method GetRemoteFlagWithDependency, addr 0x3512548, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetRemoteFlagWithDependency, addr 0x3532ebc, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> GetRemoteFlagWithDependency(::GlobalNamespace::FeatureConfiguration_RemoteWithDependency* remoteWithDep);
 
-  /// @brief Method Initialize, addr 0x3512020, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x3532994, size 0xc4, virtual true, abstract: false, final true
   inline void Initialize();
 
   /// [AsyncStateMachine(typeof(BeatSaber.FeatureFlags.FeatureFlagService::<InitializeAsync>d__11))]
-  /// @brief Method InitializeAsync, addr 0x35120e4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method InitializeAsync, addr 0x3532a58, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::BeatSaber::FeatureFlags::FeatureFlagService_State>* InitializeAsync();
 
-  /// @brief Method IsFeatureEnabled, addr 0x3512270, size 0x2d8, virtual true, abstract: false, final true
+  /// @brief Method IsFeatureEnabled, addr 0x3532be4, size 0x2d8, virtual true, abstract: false, final true
   inline ::System::Nullable_1<bool> IsFeatureEnabled(::BeatSaber::FeatureFlags::Feature feature);
 
   /// [AsyncStateMachine(typeof(BeatSaber.FeatureFlags.FeatureFlagService::<IsFeatureEnabledAsync>d__14))]
-  /// @brief Method IsFeatureEnabledAsync, addr 0x3512730, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method IsFeatureEnabledAsync, addr 0x35330a4, size 0xf0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* IsFeatureEnabledAsync(::BeatSaber::FeatureFlags::Feature feature);
 
   static inline ::BeatSaber::FeatureFlags::FeatureFlagService* New_ctor(::BeatSaber::GraphQL::IGraphQLClientProvider* graphQlClientProvider, ::BeatSaber::FeatureFlags::IFeatureFlags* features,
                                                                         int32_t initializationTimeoutSecs);
 
   /// [AsyncStateMachine(typeof(BeatSaber.FeatureFlags.FeatureFlagService::<QueryRemoteFlagsAsync>d__12))]
-  /// @brief Method QueryRemoteFlagsAsync, addr 0x35121c0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method QueryRemoteFlagsAsync, addr 0x3532b34, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* QueryRemoteFlagsAsync();
 
   /// [AsyncStateMachine(typeof(BeatSaber.FeatureFlags.FeatureFlagService::<WaitForInitialization>d__17))]
-  /// @brief Method WaitForInitialization, addr 0x3512820, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method WaitForInitialization, addr 0x3533194, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WaitForInitialization();
 
   /// [CompilerGenerated]
-  /// @brief Method <Initialize>b__10_0, addr 0x35128d4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__10_0, addr 0x3533248, size 0xb0, virtual false, abstract: false, final false
   inline void _Initialize_b__10_0(::System::Threading::Tasks::Task_1<::BeatSaber::FeatureFlags::FeatureFlagService_State>* task);
 
   constexpr ::BeatSaber::FeatureFlags::IFeatureFlags* const& __cordl_internal_get__features() const;
@@ -631,7 +631,7 @@ public:
 
   constexpr void __cordl_internal_set_kLogPrefix(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3511f10, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3532884, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::GraphQL::IGraphQLClientProvider* graphQlClientProvider, ::BeatSaber::FeatureFlags::IFeatureFlags* features, int32_t initializationTimeoutSecs);
 
   /// @brief Convert to "::BeatSaber::FeatureFlags::IFeatureFlagService"
@@ -658,7 +658,7 @@ public:
   FeatureFlagService(FeatureFlagService const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23724 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23806 };
 
   /// @brief Field _graphQlClientProvider, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::GraphQL::IGraphQLClientProvider* ____graphQlClientProvider;

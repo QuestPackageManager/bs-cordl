@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Jobs::TransformAccessArray>, int32_t)>(&::UnityEngine::Rendering::ArrayExtensions::ResizeArray)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6bd0b74;
+  constexpr static std::size_t addrs = 0x6c0d7f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

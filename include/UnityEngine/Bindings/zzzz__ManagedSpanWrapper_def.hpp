@@ -30,7 +30,7 @@ public:
   /// @brief Method ToReadOnlySpan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::ReadOnlySpan_1<T> ToReadOnlySpan(::UnityEngine::Bindings::ManagedSpanWrapper spanWrapper);
 
-  /// @brief Method .ctor, addr 0x6f45b00, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f82960, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(void* begin, int32_t length);
 
   // Ctor Parameters []
@@ -41,7 +41,7 @@ public:
   constexpr ManagedSpanWrapper(void* begin, int32_t length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10065 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10072 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

@@ -51,7 +51,7 @@ public:
 
   static inline ::GlobalNamespace::SongTimeFixedUpdateController* New_ctor();
 
-  /// @brief Method Update, addr 0x5cd2558, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5d0b6cc, size 0x134, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__accumulator() const;
@@ -84,29 +84,29 @@ public:
 
   constexpr void __cordl_internal_set_songControllerTimeDidUpdateEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x5cd268c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d0b800, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_songControllerFixedTimeDidUpdateEvent, addr 0x5cd226c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_songControllerFixedTimeDidUpdateEvent, addr 0x5d0b3e0, size 0xc0, virtual false, abstract: false, final false
   inline void add_songControllerFixedTimeDidUpdateEvent(::System::Action_1<float_t>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_songControllerTimeDidUpdateEvent, addr 0x5cd23ec, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_songControllerTimeDidUpdateEvent, addr 0x5d0b560, size 0xac, virtual false, abstract: false, final false
   inline void add_songControllerTimeDidUpdateEvent(::System::Action* value);
 
-  /// @brief Method get_fixedDeltaTime, addr 0x5cd2544, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_fixedDeltaTime, addr 0x5d0b6b8, size 0xc, virtual false, abstract: false, final false
   inline float_t get_fixedDeltaTime();
 
-  /// @brief Method get_interpolationFactor, addr 0x5cd2550, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_interpolationFactor, addr 0x5d0b6c4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_interpolationFactor();
 
   /// [CompilerGenerated]
-  /// @brief Method remove_songControllerFixedTimeDidUpdateEvent, addr 0x5cd232c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_songControllerFixedTimeDidUpdateEvent, addr 0x5d0b4a0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_songControllerFixedTimeDidUpdateEvent(::System::Action_1<float_t>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_songControllerTimeDidUpdateEvent, addr 0x5cd2498, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_songControllerTimeDidUpdateEvent, addr 0x5d0b60c, size 0xac, virtual false, abstract: false, final false
   inline void remove_songControllerTimeDidUpdateEvent(::System::Action* value);
 
 protected:

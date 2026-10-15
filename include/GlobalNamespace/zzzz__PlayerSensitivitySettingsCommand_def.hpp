@@ -67,11 +67,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x35677a8, size 0xb8c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3589034, size 0xb8c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3568334, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3589bc0, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -96,7 +96,7 @@ public:
                                                                 ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19745 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19783 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -177,7 +177,7 @@ public:
   __declspec(property(get = get_description)) ::StringW description;
 
   /// [AsyncStateMachine(typeof(PlayerSensitivitySettingsCommand::<ExecuteAsync>d__9))]
-  /// @brief Method ExecuteAsync, addr 0x3567560, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ExecuteAsync, addr 0x3588dec, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ExecuteAsync(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
   static inline ::GlobalNamespace::PlayerSensitivitySettingsCommand* New_ctor();
@@ -212,13 +212,13 @@ public:
 
   constexpr void __cordl_internal_set__setting(::GlobalNamespace::OptionalArgument_1<::GlobalNamespace::PlayerSensitivityFlag>* value);
 
-  /// @brief Method .ctor, addr 0x3567650, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3588edc, size 0x158, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_commandName, addr 0x35674d8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_commandName, addr 0x3588d64, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_commandName();
 
-  /// @brief Method get_description, addr 0x356751c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_description, addr 0x3588da8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_description();
 
 protected:
@@ -236,7 +236,7 @@ public:
   PlayerSensitivitySettingsCommand(PlayerSensitivitySettingsCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19746 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19784 };
 
   /// [Inject]
   /// @brief Field _playerDataModel, offset: 0x38, size: 0x8, def value: None

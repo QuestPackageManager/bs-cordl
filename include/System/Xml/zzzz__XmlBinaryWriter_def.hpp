@@ -68,95 +68,95 @@ public:
   /// @brief Field writer, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_writer, put = __cordl_internal_set_writer)) ::System::Xml::XmlBinaryNodeWriter* writer;
 
-  /// @brief Method CheckArray, addr 0x653bcf0, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method CheckArray, addr 0x65788c0, size 0x234, virtual false, abstract: false, final false
   inline void CheckArray(::System::Array* array, int32_t offset, int32_t count);
 
   static inline ::System::Xml::XmlBinaryWriter* New_ctor();
 
-  /// @brief Method SetOutput, addr 0x653b304, size 0x108, virtual true, abstract: false, final true
+  /// @brief Method SetOutput, addr 0x6577ed4, size 0x108, virtual true, abstract: false, final true
   inline void SetOutput(::System::IO::Stream* stream, ::System::Xml::IXmlDictionary* dictionary, ::System::Xml::XmlBinaryWriterSession* session, bool ownsStream);
 
-  /// @brief Method UnsafeWriteArray, addr 0x653bc48, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method UnsafeWriteArray, addr 0x6578818, size 0x54, virtual false, abstract: false, final false
   inline void UnsafeWriteArray(::StringW prefix, ::StringW localName, ::StringW namespaceUri, ::System::Xml::XmlBinaryNodeType nodeType, int32_t count, uint8_t* array, uint8_t* arrayMax);
 
-  /// @brief Method UnsafeWriteArray, addr 0x653bc9c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method UnsafeWriteArray, addr 0x657886c, size 0x54, virtual false, abstract: false, final false
   inline void UnsafeWriteArray(::StringW prefix, ::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, ::System::Xml::XmlBinaryNodeType nodeType,
                                int32_t count, uint8_t* array, uint8_t* arrayMax);
 
-  /// @brief Method WriteArray, addr 0x653cbdc, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method WriteArray, addr 0x65797ac, size 0xe0, virtual true, abstract: false, final false
   inline void WriteArray(::StringW prefix, ::StringW localName, ::StringW namespaceUri, ::ArrayW<::System::DateTime> array, int32_t offset, int32_t count);
 
-  /// @brief Method WriteArray, addr 0x653ca0c, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method WriteArray, addr 0x65795dc, size 0xe8, virtual true, abstract: false, final false
   inline void WriteArray(::StringW prefix, ::StringW localName, ::StringW namespaceUri, ::ArrayW<::System::Decimal> array, int32_t offset, int32_t count);
 
-  /// @brief Method WriteArray, addr 0x653cd9c, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method WriteArray, addr 0x657996c, size 0xe0, virtual true, abstract: false, final false
   inline void WriteArray(::StringW prefix, ::StringW localName, ::StringW namespaceUri, ::ArrayW<::System::Guid> array, int32_t offset, int32_t count);
 
-  /// @brief Method WriteArray, addr 0x653cf5c, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method WriteArray, addr 0x6579b2c, size 0xe0, virtual true, abstract: false, final false
   inline void WriteArray(::StringW prefix, ::StringW localName, ::StringW namespaceUri, ::ArrayW<::System::TimeSpan> array, int32_t offset, int32_t count);
 
-  /// @brief Method WriteArray, addr 0x653bf24, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method WriteArray, addr 0x6578af4, size 0xe8, virtual true, abstract: false, final false
   inline void WriteArray(::StringW prefix, ::StringW localName, ::StringW namespaceUri, ::ArrayW<bool> array, int32_t offset, int32_t count);
 
-  /// @brief Method WriteArray, addr 0x653c83c, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method WriteArray, addr 0x657940c, size 0xe8, virtual true, abstract: false, final false
   inline void WriteArray(::StringW prefix, ::StringW localName, ::StringW namespaceUri, ::ArrayW<double_t> array, int32_t offset, int32_t count);
 
-  /// @brief Method WriteArray, addr 0x653c66c, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method WriteArray, addr 0x657923c, size 0xe8, virtual true, abstract: false, final false
   inline void WriteArray(::StringW prefix, ::StringW localName, ::StringW namespaceUri, ::ArrayW<float_t> array, int32_t offset, int32_t count);
 
-  /// @brief Method WriteArray, addr 0x653c0f4, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method WriteArray, addr 0x6578cc4, size 0xec, virtual true, abstract: false, final false
   inline void WriteArray(::StringW prefix, ::StringW localName, ::StringW namespaceUri, ::ArrayW<int16_t> array, int32_t offset, int32_t count);
 
-  /// @brief Method WriteArray, addr 0x653c2cc, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method WriteArray, addr 0x6578e9c, size 0xe8, virtual true, abstract: false, final false
   inline void WriteArray(::StringW prefix, ::StringW localName, ::StringW namespaceUri, ::ArrayW<int32_t> array, int32_t offset, int32_t count);
 
-  /// @brief Method WriteArray, addr 0x653c49c, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method WriteArray, addr 0x657906c, size 0xe8, virtual true, abstract: false, final false
   inline void WriteArray(::StringW prefix, ::StringW localName, ::StringW namespaceUri, ::ArrayW<int64_t> array, int32_t offset, int32_t count);
 
-  /// @brief Method WriteArray, addr 0x653ccbc, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method WriteArray, addr 0x657988c, size 0xe0, virtual true, abstract: false, final false
   inline void WriteArray(::StringW prefix, ::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<::System::DateTime> array, int32_t offset,
                          int32_t count);
 
-  /// @brief Method WriteArray, addr 0x653caf4, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method WriteArray, addr 0x65796c4, size 0xe8, virtual true, abstract: false, final false
   inline void WriteArray(::StringW prefix, ::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<::System::Decimal> array, int32_t offset,
                          int32_t count);
 
-  /// @brief Method WriteArray, addr 0x653ce7c, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method WriteArray, addr 0x6579a4c, size 0xe0, virtual true, abstract: false, final false
   inline void WriteArray(::StringW prefix, ::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<::System::Guid> array, int32_t offset,
                          int32_t count);
 
-  /// @brief Method WriteArray, addr 0x653d03c, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method WriteArray, addr 0x6579c0c, size 0xe0, virtual true, abstract: false, final false
   inline void WriteArray(::StringW prefix, ::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<::System::TimeSpan> array, int32_t offset,
                          int32_t count);
 
-  /// @brief Method WriteArray, addr 0x653c00c, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method WriteArray, addr 0x6578bdc, size 0xe8, virtual true, abstract: false, final false
   inline void WriteArray(::StringW prefix, ::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<bool> array, int32_t offset, int32_t count);
 
-  /// @brief Method WriteArray, addr 0x653c924, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method WriteArray, addr 0x65794f4, size 0xe8, virtual true, abstract: false, final false
   inline void WriteArray(::StringW prefix, ::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<double_t> array, int32_t offset, int32_t count);
 
-  /// @brief Method WriteArray, addr 0x653c754, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method WriteArray, addr 0x6579324, size 0xe8, virtual true, abstract: false, final false
   inline void WriteArray(::StringW prefix, ::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<float_t> array, int32_t offset, int32_t count);
 
-  /// @brief Method WriteArray, addr 0x653c1e0, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method WriteArray, addr 0x6578db0, size 0xec, virtual true, abstract: false, final false
   inline void WriteArray(::StringW prefix, ::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<int16_t> array, int32_t offset, int32_t count);
 
-  /// @brief Method WriteArray, addr 0x653c3b4, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method WriteArray, addr 0x6578f84, size 0xe8, virtual true, abstract: false, final false
   inline void WriteArray(::StringW prefix, ::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<int32_t> array, int32_t offset, int32_t count);
 
-  /// @brief Method WriteArray, addr 0x653c584, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method WriteArray, addr 0x6579154, size 0xe8, virtual true, abstract: false, final false
   inline void WriteArray(::StringW prefix, ::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, ::ArrayW<int64_t> array, int32_t offset, int32_t count);
 
-  /// @brief Method WriteEndArray, addr 0x653bc44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method WriteEndArray, addr 0x6578814, size 0x4, virtual false, abstract: false, final false
   inline void WriteEndArray();
 
-  /// @brief Method WriteStartArray, addr 0x653bb38, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method WriteStartArray, addr 0x6578708, size 0x84, virtual false, abstract: false, final false
   inline void WriteStartArray(::StringW prefix, ::StringW localName, ::StringW namespaceUri, int32_t count);
 
-  /// @brief Method WriteStartArray, addr 0x653bbbc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method WriteStartArray, addr 0x657878c, size 0x88, virtual false, abstract: false, final false
   inline void WriteStartArray(::StringW prefix, ::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri, int32_t count);
 
-  /// @brief Method WriteTextNode, addr 0x653b40c, size 0x72c, virtual true, abstract: false, final false
+  /// @brief Method WriteTextNode, addr 0x6577fdc, size 0x72c, virtual true, abstract: false, final false
   inline void WriteTextNode(::System::Xml::XmlDictionaryReader* reader, bool attribute);
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get_bytes() const;
@@ -177,7 +177,7 @@ public:
 
   constexpr void __cordl_internal_set_writer(::System::Xml::XmlBinaryNodeWriter* value);
 
-  /// @brief Method .ctor, addr 0x653d11c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6579cec, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -195,7 +195,7 @@ public:
   XmlBinaryWriter(XmlBinaryWriter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16345 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16378 };
 
   /// @brief Field writer, offset: 0x98, size: 0x8, def value: None
   ::System::Xml::XmlBinaryNodeWriter* ___writer;

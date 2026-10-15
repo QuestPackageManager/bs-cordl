@@ -72,7 +72,7 @@ public:
   /// @brief Field type, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Type* type;
 
-  /// @brief Method AddKeyHash, addr 0x671a9fc, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x67575cc, size 0x158, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   constexpr ::StringW const& __cordl_internal_get_dataType() const;
@@ -123,28 +123,28 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method get_DataType, addr 0x671a98c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_DataType, addr 0x675755c, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_DataType();
 
-  /// @brief Method get_ElementName, addr 0x671a9ac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_ElementName, addr 0x675757c, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_ElementName();
 
-  /// @brief Method get_Form, addr 0x671a9cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Form, addr 0x675759c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaForm get_Form();
 
-  /// @brief Method get_IsNullable, addr 0x671a9dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x67575ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsNullable();
 
-  /// @brief Method get_IsNullableSpecified, addr 0x671a9e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsNullableSpecified, addr 0x67575b4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsNullableSpecified();
 
-  /// @brief Method get_Namespace, addr 0x671a9d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x67575a4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method get_NestingLevel, addr 0x671a9f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NestingLevel, addr 0x67575c4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_NestingLevel();
 
-  /// @brief Method get_Type, addr 0x671a9ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x67575bc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
 protected:
@@ -162,7 +162,7 @@ public:
   XmlArrayItemAttribute(XmlArrayItemAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11465 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11472 };
 
   /// @brief Field dataType, offset: 0x10, size: 0x8, def value: None
   ::StringW ___dataType;

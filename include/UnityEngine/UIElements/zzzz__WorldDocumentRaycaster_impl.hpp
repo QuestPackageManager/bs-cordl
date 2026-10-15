@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Camera> (::UnityEngine::UIElements::WorldDocumentRaycaster::*)()>(
     &::UnityEngine::UIElements::WorldDocumentRaycaster::get_eventCamera)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b288c;
+  constexpr static std::size_t addrs = 0x72ef7c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Camera> (::UnityEngine::UIElements::WorldDocumentRaycaster::*)()>(
     &::UnityEngine::UIElements::WorldDocumentRaycaster::get_camera)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b2894;
+  constexpr static std::size_t addrs = 0x72ef7c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::WorldDocumentRaycaster*>(), { "get_camera", {}, {} })));
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::WorldDocumentRaycaster::*)(::UnityEngine::Camera*)>(
     &::UnityEngine::UIElements::WorldDocumentRaycaster::set_camera)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b289c;
+  constexpr static std::size_t addrs = 0x72ef7d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::UnityEngine::EventSystems::PointerEventData*, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*)>(
     &::UnityEngine::UIElements::WorldDocumentRaycaster::Raycast)> {
   constexpr static std::size_t size = 0x46c;
-  constexpr static std::size_t addrs = 0x72b28a4;
+  constexpr static std::size_t addrs = 0x72ef7d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::WorldDocumentRaycaster::*)(
     ::UnityEngine::EventSystems::PointerEventData*, ::by_ref<::UnityEngine::Ray>, ::by_ref<float_t>, ::by_ref<int32_t>)>(&::UnityEngine::UIElements::WorldDocumentRaycaster::GetWorldRay)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x72b2de4;
+  constexpr static std::size_t addrs = 0x72efd18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::WorldDocumentRaycaster::*)()>(&::UnityEngine::UIElements::WorldDocumentRaycaster::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x72b2f80;
+  constexpr static std::size_t addrs = 0x72efeb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::WorldDocumentRaycaster*>(), { ".ctor", {}, {} })));

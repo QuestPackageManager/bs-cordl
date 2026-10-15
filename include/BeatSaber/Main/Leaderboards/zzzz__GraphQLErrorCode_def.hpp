@@ -21,10 +21,10 @@ namespace BeatSaber::Main::Leaderboards {
 class CORDL_TYPE GraphQLErrorCode : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsBeatGamesErrorCode, addr 0x352c7b8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method IsBeatGamesErrorCode, addr 0x354d718, size 0x70, virtual false, abstract: false, final false
   static inline bool IsBeatGamesErrorCode(::StringW code);
 
-  /// @brief Method IsBeatGamesErrorCode, addr 0x352b104, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsBeatGamesErrorCode, addr 0x354c04c, size 0x14, virtual false, abstract: false, final false
   static inline bool IsBeatGamesErrorCode(int32_t code);
 
 protected:
@@ -72,7 +72,7 @@ public:
   static constexpr int32_t MIN_ERROR_CODE{ static_cast<int32_t>(0x39d0cb) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21360 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21407 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoTransitionTextSliderSelectableStateController::*)()>(
     &::GlobalNamespace::NoTransitionTextSliderSelectableStateController::OnEnable)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x686e614;
+  constexpr static std::size_t addrs = 0x68ab290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoTransitionTextSliderSelectableStateController::*)()>(
     &::GlobalNamespace::NoTransitionTextSliderSelectableStateController::OnDisable)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x686e70c;
+  constexpr static std::size_t addrs = 0x68ab388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoTransitionTextSliderSelectableStateController::*)(::HMUI::NoTransitionTextSlider_SelectionState)>(
     &::GlobalNamespace::NoTransitionTextSliderSelectableStateController::HandleSelectionStateDidChange)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x686e79c;
+  constexpr static std::size_t addrs = 0x68ab418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoTransitionTextSliderSelectableStateController::*)(::HMUI::NoTransitionTextSlider_SelectionState, bool)>(
     &::GlobalNamespace::NoTransitionTextSliderSelectableStateController::ResolveSelectionState)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x686e6bc;
+  constexpr static std::size_t addrs = 0x68ab338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoTransitionTextSliderSelectableStateController::*)()>(
     &::GlobalNamespace::NoTransitionTextSliderSelectableStateController::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x686e7a4;
+  constexpr static std::size_t addrs = 0x68ab420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

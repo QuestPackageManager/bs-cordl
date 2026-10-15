@@ -39,19 +39,19 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::Eyes>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::Eyes>*();
 
-  /// @brief Method Equals, addr 0x72d337c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x73102b0, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x72d3408, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x731033c, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::XR::Eyes other);
 
-  /// @brief Method GetHashCode, addr 0x72d342c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x7310360, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_deviceId, addr 0x72d336c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceId, addr 0x73102a0, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_deviceId();
 
-  /// @brief Method get_featureIndex, addr 0x72d3374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_featureIndex, addr 0x73102a8, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_featureIndex();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::Eyes>"
@@ -66,7 +66,7 @@ public:
   constexpr Eyes(uint64_t m_DeviceId, uint32_t m_FeatureIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22686 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22736 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

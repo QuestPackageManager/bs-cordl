@@ -164,14 +164,14 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6fdb30c, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x7018200, size 0x11c, virtual true, abstract: false, final true
   inline void Dispose();
 
   /// @brief Method Draw, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Draw(::UnityEngine::Rendering::CommandBuffer* rendererCommandBuffer, ::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld_DrawResults> drawResults, float_t thickness,
                    float_t fillAlpha, ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane transformPlane, int32_t drawCapacity);
 
-  /// @brief Method GetMesh, addr 0x6fdb428, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method GetMesh, addr 0x701831c, size 0x39c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> GetMesh();
 
   static inline ::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_BaseDrawer* New_ctor();
@@ -248,7 +248,7 @@ public:
 
   constexpr void __cordl_internal_set_m_TransformPlaneShaderProperty(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6fdb7c4, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70186b8, size 0x204, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
@@ -269,7 +269,7 @@ public:
   DrawerGroup_PhysicsWorldRenderer_BaseDrawer(DrawerGroup_PhysicsWorldRenderer_BaseDrawer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21587 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21634 };
 
   /// @brief Field m_Disposed, offset: 0x10, size: 0x1, def value: None
   bool ___m_Disposed;
@@ -344,13 +344,13 @@ namespace UnityEngine::LowLevelPhysics2D {
 class CORDL_TYPE DrawerGroup_PhysicsWorldRenderer_PolygonGeometryDrawer : public ::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_BaseDrawer {
 public:
   // Declarations
-  /// @brief Method Draw, addr 0x6fdb9c8, size 0x204, virtual true, abstract: false, final false
+  /// @brief Method Draw, addr 0x70188bc, size 0x204, virtual true, abstract: false, final false
   inline void Draw(::UnityEngine::Rendering::CommandBuffer* rendererCommandBuffer, ::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld_DrawResults> drawResults, float_t thickness,
                    float_t fillAlpha, ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane transformPlane, int32_t drawCapacity);
 
   static inline ::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_PolygonGeometryDrawer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6fdaf24, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7017e18, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -368,7 +368,7 @@ public:
   DrawerGroup_PhysicsWorldRenderer_PolygonGeometryDrawer(DrawerGroup_PhysicsWorldRenderer_PolygonGeometryDrawer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21588 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21635 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -383,13 +383,13 @@ namespace UnityEngine::LowLevelPhysics2D {
 class CORDL_TYPE DrawerGroup_PhysicsWorldRenderer_CircleGeometryDrawer : public ::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_BaseDrawer {
 public:
   // Declarations
-  /// @brief Method Draw, addr 0x6fdbbcc, size 0x204, virtual true, abstract: false, final false
+  /// @brief Method Draw, addr 0x7018ac0, size 0x204, virtual true, abstract: false, final false
   inline void Draw(::UnityEngine::Rendering::CommandBuffer* rendererCommandBuffer, ::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld_DrawResults> drawResults, float_t thickness,
                    float_t fillAlpha, ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane transformPlane, int32_t drawCapacity);
 
   static inline ::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_CircleGeometryDrawer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6fdafec, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7017ee0, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -407,7 +407,7 @@ public:
   DrawerGroup_PhysicsWorldRenderer_CircleGeometryDrawer(DrawerGroup_PhysicsWorldRenderer_CircleGeometryDrawer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21589 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21636 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -422,13 +422,13 @@ namespace UnityEngine::LowLevelPhysics2D {
 class CORDL_TYPE DrawerGroup_PhysicsWorldRenderer_CapsuleGeometryDrawer : public ::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_BaseDrawer {
 public:
   // Declarations
-  /// @brief Method Draw, addr 0x6fdbdd0, size 0x204, virtual true, abstract: false, final false
+  /// @brief Method Draw, addr 0x7018cc4, size 0x204, virtual true, abstract: false, final false
   inline void Draw(::UnityEngine::Rendering::CommandBuffer* rendererCommandBuffer, ::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld_DrawResults> drawResults, float_t thickness,
                    float_t fillAlpha, ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane transformPlane, int32_t drawCapacity);
 
   static inline ::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_CapsuleGeometryDrawer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6fdb0b4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7017fa8, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -446,7 +446,7 @@ public:
   DrawerGroup_PhysicsWorldRenderer_CapsuleGeometryDrawer(DrawerGroup_PhysicsWorldRenderer_CapsuleGeometryDrawer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21590 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21637 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -461,13 +461,13 @@ namespace UnityEngine::LowLevelPhysics2D {
 class CORDL_TYPE DrawerGroup_PhysicsWorldRenderer_LineDrawer : public ::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_BaseDrawer {
 public:
   // Declarations
-  /// @brief Method Draw, addr 0x6fdbfd4, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method Draw, addr 0x7018ec8, size 0x1ec, virtual true, abstract: false, final false
   inline void Draw(::UnityEngine::Rendering::CommandBuffer* rendererCommandBuffer, ::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld_DrawResults> drawResults, float_t thickness,
                    float_t fillAlpha, ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane transformPlane, int32_t drawCapacity);
 
   static inline ::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_LineDrawer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6fdb17c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7018070, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -485,7 +485,7 @@ public:
   DrawerGroup_PhysicsWorldRenderer_LineDrawer(DrawerGroup_PhysicsWorldRenderer_LineDrawer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21591 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21638 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -500,13 +500,13 @@ namespace UnityEngine::LowLevelPhysics2D {
 class CORDL_TYPE DrawerGroup_PhysicsWorldRenderer_PointDrawer : public ::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_BaseDrawer {
 public:
   // Declarations
-  /// @brief Method Draw, addr 0x6fdc1c0, size 0xa78, virtual true, abstract: false, final false
+  /// @brief Method Draw, addr 0x70190b4, size 0xa78, virtual true, abstract: false, final false
   inline void Draw(::UnityEngine::Rendering::CommandBuffer* rendererCommandBuffer, ::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld_DrawResults> drawResults, float_t thickness,
                    float_t fillAlpha, ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane transformPlane, int32_t drawCapacity);
 
   static inline ::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_PointDrawer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6fdb244, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7018138, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -524,7 +524,7 @@ public:
   DrawerGroup_PhysicsWorldRenderer_PointDrawer(DrawerGroup_PhysicsWorldRenderer_PointDrawer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21592 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21639 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -559,10 +559,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6fda54c, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x7017440, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Draw, addr 0x6fdae74, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Draw, addr 0x7017d68, size 0xa0, virtual false, abstract: false, final false
   inline void Draw(::UnityEngine::Rendering::CommandBuffer* rendererCommandBuffer, ::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorld_DrawResults> drawResults, float_t thickness,
                    float_t fillAlpha, ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane transformPlane, int32_t drawCapacity);
 
@@ -574,10 +574,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Drawers(::ArrayW<::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_BaseDrawer*> value);
 
-  /// @brief Method .ctor, addr 0x6fdac6c, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7017b60, size 0x208, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isValid, addr 0x6fdaf14, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isValid, addr 0x7017e08, size 0x10, virtual false, abstract: false, final false
   inline bool get_isValid();
 
   /// @brief Convert to "::System::IDisposable"
@@ -598,7 +598,7 @@ public:
   PhysicsWorldRenderer_DrawerGroup(PhysicsWorldRenderer_DrawerGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21593 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21640 };
 
   /// @brief Field m_Drawers, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::LowLevelPhysics2D::DrawerGroup_PhysicsWorldRenderer_BaseDrawer*> ___m_Drawers;
@@ -633,29 +633,29 @@ public:
   /// @brief Field s_UsingBIRP, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_s_UsingBIRP, put = setStaticF_s_UsingBIRP)) bool s_UsingBIRP;
 
-  /// @brief Method BIRP_RenderAllWorlds, addr 0x6fda674, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method BIRP_RenderAllWorlds, addr 0x7017568, size 0x230, virtual false, abstract: false, final false
   static inline void BIRP_RenderAllWorlds(::UnityEngine::Camera* camera);
 
-  /// @brief Method GetCameraViewAABB, addr 0x6fda5bc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetCameraViewAABB, addr 0x70174b0, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::LowLevelPhysics2D::PhysicsAABB GetCameraViewAABB(::UnityEngine::Camera* camera);
 
   /// [RequiredByNativeCode]
-  /// @brief Method InitializeRendering, addr 0x6fda120, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method InitializeRendering, addr 0x7017014, size 0x238, virtual false, abstract: false, final false
   static inline void InitializeRendering();
 
-  /// @brief Method IsCameraTypeValid, addr 0x6fda650, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsCameraTypeValid, addr 0x7017544, size 0x24, virtual false, abstract: false, final false
   static inline bool IsCameraTypeValid(::UnityEngine::Camera* camera);
 
-  /// @brief Method SRP_RenderAllWorlds, addr 0x6fda8a4, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method SRP_RenderAllWorlds, addr 0x7017798, size 0x238, virtual false, abstract: false, final false
   static inline void SRP_RenderAllWorlds(::UnityEngine::Rendering::ScriptableRenderContext context, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* cameras);
 
   /// [RequiredByNativeCode]
-  /// @brief Method SendDrawResultsToCommandBuffer, addr 0x6fdaadc, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method SendDrawResultsToCommandBuffer, addr 0x70179d0, size 0x190, virtual false, abstract: false, final false
   static inline void SendDrawResultsToCommandBuffer(::UnityEngine::LowLevelPhysics2D::PhysicsWorld physicsWorld, ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_DrawResults drawResults,
                                                     ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane transformPlane, float_t thickness, float_t fillAlpha, int32_t drawCapacity);
 
   /// [RequiredByNativeCode]
-  /// @brief Method ShutdownRendering, addr 0x6fda358, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method ShutdownRendering, addr 0x701724c, size 0x1f4, virtual false, abstract: false, final false
   static inline void ShutdownRendering();
 
   static inline ::ArrayW<::UnityEngine::LowLevelPhysics2D::PhysicsWorldRenderer_DrawerGroup*> getStaticF_s_DrawerGroups();
@@ -689,7 +689,7 @@ public:
   PhysicsWorldRenderer(PhysicsWorldRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21594 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21641 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

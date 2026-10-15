@@ -25,7 +25,7 @@ namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 struct CORDL_TYPE PassOutputData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6c26f18, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c63b94, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> resource);
 
   // Ctor Parameters []
@@ -36,7 +36,7 @@ public:
   constexpr PassOutputData(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle resource) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9404 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9411 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

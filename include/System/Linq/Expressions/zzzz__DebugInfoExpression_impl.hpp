@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::DebugInfoExpression::*)()>(&::System::Linq::Expressions::DebugInfoExpression::get_StartLine)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6396c34;
+  constexpr static std::size_t addrs = 0x63d3804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::DebugInfoExpression::*)()>(&::System::Linq::Expressions::DebugInfoExpression::get_EndLine)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6396c5c;
+  constexpr static std::size_t addrs = 0x63d382c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::SymbolDocumentInfo* (::System::Linq::Expressions::DebugInfoExpression::*)()>(
     &::System::Linq::Expressions::DebugInfoExpression::get_Document)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6396c84;
+  constexpr static std::size_t addrs = 0x63d3854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::DebugInfoExpression*>(), { "get_Document", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Linq::Expressions::DebugInfoExpression::*)()>(&::System::Linq::Expressions::DebugInfoExpression::get_IsClear)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6396c8c;
+  constexpr static std::size_t addrs = 0x63d385c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

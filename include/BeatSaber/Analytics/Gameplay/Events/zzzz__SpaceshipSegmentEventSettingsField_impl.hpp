@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentEventSettingsField::*)()>(
     &::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentEventSettingsField::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x34ea3d0;
+  constexpr static std::size_t addrs = 0x3502aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

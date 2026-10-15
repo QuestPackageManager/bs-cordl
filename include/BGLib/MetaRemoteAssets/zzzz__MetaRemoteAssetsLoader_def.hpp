@@ -82,10 +82,10 @@ public:
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader___c* New_ctor();
 
-  /// @brief Method <LoadInternalAsync>b__4_0, addr 0x3a03ed8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method <LoadInternalAsync>b__4_0, addr 0x3a2e0e4, size 0xe4, virtual false, abstract: false, final false
   inline bool _LoadInternalAsync_b__4_0(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* locator);
 
-  /// @brief Method .ctor, addr 0x3a03ed4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a2e0e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader___c* getStaticF___9();
@@ -111,7 +111,7 @@ public:
   MetaRemoteAssetsLoader___c(MetaRemoteAssetsLoader___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21869 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21854 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -130,11 +130,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3a03fbc, size 0x66c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3a2e1c8, size 0x66c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3a04628, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3a2e834, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -156,7 +156,7 @@ public:
                                                            ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21870 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21855 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -222,17 +222,17 @@ public:
 
   __declspec(property(get = get_synchronizationStep)) ::BGLib::AppFlow::Initialization::AsyncLoader_SynchronizationStep synchronizationStep;
 
-  /// @brief Method ApplyAddressablesOverrides, addr 0x3a03a00, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ApplyAddressablesOverrides, addr 0x3a2dc0c, size 0x100, virtual false, abstract: false, final false
   inline void ApplyAddressablesOverrides();
 
   /// [AsyncStateMachine(typeof(BGLib.MetaRemoteAssets.MetaRemoteAssetsLoader::<LoadInternalAsync>d__4))]
-  /// @brief Method LoadInternalAsync, addr 0x3a03938, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method LoadInternalAsync, addr 0x3a2db44, size 0xc8, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadInternalAsync(::BGLib::AppFlow::Initialization::IInstallerRegistry* registry, ::Zenject::DiContainer* container,
                                                              ::System::Threading::CancellationToken cancellationToken);
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsLoader* New_ctor();
 
-  /// @brief Method WebRequestOverride, addr 0x3a03b00, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method WebRequestOverride, addr 0x3a2dd0c, size 0x37c, virtual false, abstract: false, final false
   inline void WebRequestOverride(::UnityEngine::Networking::UnityWebRequest* request);
 
   constexpr ::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider* const& __cordl_internal_get__metaApiUserAgentProvider() const;
@@ -247,10 +247,10 @@ public:
 
   constexpr void __cordl_internal_set__networkConfig(::UnityW<::GlobalNamespace::NetworkConfigSO> value);
 
-  /// @brief Method .ctor, addr 0x3a03e7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a2e088, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_synchronizationStep, addr 0x3a03930, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_synchronizationStep, addr 0x3a2db3c, size 0x8, virtual true, abstract: false, final false
   inline ::BGLib::AppFlow::Initialization::AsyncLoader_SynchronizationStep get_synchronizationStep();
 
 protected:
@@ -268,7 +268,7 @@ public:
   MetaRemoteAssetsLoader(MetaRemoteAssetsLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21871 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21856 };
 
   /// [SerializeField]
   /// @brief Field _networkConfig, offset: 0x30, size: 0x8, def value: None

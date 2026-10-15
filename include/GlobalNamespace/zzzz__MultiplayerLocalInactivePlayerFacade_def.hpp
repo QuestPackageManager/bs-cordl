@@ -65,7 +65,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::MultiplayerLocalInactivePlayerFacade_Factory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5de3434, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e20400, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -83,7 +83,7 @@ public:
   MultiplayerLocalInactivePlayerFacade_Factory(MultiplayerLocalInactivePlayerFacade_Factory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6219 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6220 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -144,10 +144,10 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerLocalInactivePlayerFacade* New_ctor();
 
-  /// @brief Method ReportPlayerDidFinish, addr 0x5de33f8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method ReportPlayerDidFinish, addr 0x5e203c4, size 0x1c, virtual true, abstract: false, final true
   inline void ReportPlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults* results);
 
-  /// @brief Method ReportPlayerNetworkDidFailed, addr 0x5de3414, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method ReportPlayerNetworkDidFailed, addr 0x5e203e0, size 0x1c, virtual true, abstract: false, final true
   inline void ReportPlayerNetworkDidFailed(::GlobalNamespace::MultiplayerLevelCompletionResults* results);
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController> const& __cordl_internal_get__inactivePlayerSongSyncController() const;
@@ -186,30 +186,30 @@ public:
 
   constexpr void __cordl_internal_set_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method .ctor, addr 0x5de3430, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e203fc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_playerDidFinishEvent, addr 0x5de30f8, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_playerDidFinishEvent, addr 0x5e200c4, size 0xc0, virtual true, abstract: false, final true
   inline void add_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_playerNetworkDidFailedEvent, addr 0x5de3278, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_playerNetworkDidFailedEvent, addr 0x5e20244, size 0xc0, virtual true, abstract: false, final true
   inline void add_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method get_introAnimator, addr 0x5de30d0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_introAnimator, addr 0x5e2009c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_introAnimator();
 
-  /// @brief Method get_introPlayableDirector, addr 0x5de30e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_introPlayableDirector, addr 0x5e200b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Playables::PlayableDirector> get_introPlayableDirector();
 
-  /// @brief Method get_outroAnimator, addr 0x5de30f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_outroAnimator, addr 0x5e200bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator> get_outroAnimator();
 
-  /// @brief Method get_songController, addr 0x5de30c0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_songController, addr 0x5e2008c, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IStartSeekSongController* get_songController();
 
-  /// @brief Method get_spectatorController, addr 0x5de30c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spectatorController, addr 0x5e20094, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MultiplayerSpectatorController> get_spectatorController();
 
   /// @brief Convert to "::GlobalNamespace::IMultiplayerLevelEndActionsListener"
@@ -222,11 +222,11 @@ public:
   constexpr ::GlobalNamespace::IStartSeekSongControllerProvider* i___GlobalNamespace__IStartSeekSongControllerProvider() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_playerDidFinishEvent, addr 0x5de31b8, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_playerDidFinishEvent, addr 0x5e20184, size 0xc0, virtual true, abstract: false, final true
   inline void remove_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_playerNetworkDidFailedEvent, addr 0x5de3338, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_playerNetworkDidFailedEvent, addr 0x5e20304, size 0xc0, virtual true, abstract: false, final true
   inline void remove_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
 protected:
@@ -244,7 +244,7 @@ public:
   MultiplayerLocalInactivePlayerFacade(MultiplayerLocalInactivePlayerFacade const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6220 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6221 };
 
   /// [Inject]
   /// @brief Field _inactivePlayerSongSyncController, offset: 0x20, size: 0x8, def value: None

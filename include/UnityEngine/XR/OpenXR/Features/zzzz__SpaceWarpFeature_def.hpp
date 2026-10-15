@@ -36,30 +36,30 @@ public:
 
   __declspec(property(get = get_useRightHandedNDC, put = set_useRightHandedNDC)) bool useRightHandedNDC;
 
-  /// @brief Method Internal_SetSpaceWarpRightHandedNDC, addr 0x6e4c5e0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetSpaceWarpRightHandedNDC, addr 0x6e8927c, size 0x84, virtual false, abstract: false, final false
   static inline bool Internal_SetSpaceWarpRightHandedNDC(bool useRightHandedNDC);
 
-  /// @brief Method MetaSetAppSpacePosition, addr 0x6e4c774, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method MetaSetAppSpacePosition, addr 0x6e89410, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult MetaSetAppSpacePosition(float_t x, float_t y, float_t z);
 
-  /// @brief Method MetaSetAppSpaceRotation, addr 0x6e4c81c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method MetaSetAppSpaceRotation, addr 0x6e894b8, size 0x98, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult MetaSetAppSpaceRotation(float_t x, float_t y, float_t z, float_t w);
 
-  /// @brief Method MetaSetSpaceWarp, addr 0x6e4c6e0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method MetaSetSpaceWarp, addr 0x6e8937c, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult MetaSetSpaceWarp(bool enabled);
 
   static inline ::UnityEngine::XR::OpenXR::Features::SpaceWarpFeature* New_ctor();
 
-  /// @brief Method OnInstanceCreate, addr 0x6e4c664, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method OnInstanceCreate, addr 0x6e89300, size 0x64, virtual true, abstract: false, final false
   inline bool OnInstanceCreate(uint64_t xrInstance);
 
-  /// @brief Method SetAppSpacePosition, addr 0x6e4c75c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetAppSpacePosition, addr 0x6e893f8, size 0x18, virtual false, abstract: false, final false
   static inline bool SetAppSpacePosition(::UnityEngine::Vector3 position);
 
-  /// @brief Method SetAppSpaceRotation, addr 0x6e4c804, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetAppSpaceRotation, addr 0x6e894a0, size 0x18, virtual false, abstract: false, final false
   static inline bool SetAppSpaceRotation(::UnityEngine::Quaternion rotation);
 
-  /// @brief Method SetSpaceWarp, addr 0x6e4c6c8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetSpaceWarp, addr 0x6e89364, size 0x18, virtual false, abstract: false, final false
   static inline bool SetSpaceWarp(bool enabled);
 
   constexpr bool const& __cordl_internal_get_m_UseRightHandedNDC() const;
@@ -68,13 +68,13 @@ public:
 
   constexpr void __cordl_internal_set_m_UseRightHandedNDC(bool value);
 
-  /// @brief Method .ctor, addr 0x6e4c8b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e89550, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_useRightHandedNDC, addr 0x6e4c4e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useRightHandedNDC, addr 0x6e8917c, size 0x8, virtual false, abstract: false, final false
   inline bool get_useRightHandedNDC();
 
-  /// @brief Method set_useRightHandedNDC, addr 0x6e4c4e8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method set_useRightHandedNDC, addr 0x6e89184, size 0xf8, virtual false, abstract: false, final false
   inline void set_useRightHandedNDC(bool value);
 
 protected:
@@ -92,7 +92,7 @@ public:
   SpaceWarpFeature(SpaceWarpFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17621 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17654 };
 
   /// @brief Field k_Library offset 0xffffffff size 0x8
   static constexpr ::ConstString k_Library{ u"UnityOpenXR" };

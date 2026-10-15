@@ -86,11 +86,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5e419f4, size 0x474, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e7e17c, size 0x474, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5e41e68, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e7e5f0, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -110,7 +110,7 @@ public:
                                                       ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::UnityWebRequest_Result> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23689 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23771 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -163,11 +163,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5e41ee8, size 0x5a0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e7e670, size 0x5a0, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5e42488, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e7ec10, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -187,7 +187,7 @@ public:
                                                    ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::UnityWebRequest_Result> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23690 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23772 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -240,11 +240,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5e42508, size 0x3f4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e7ec90, size 0x3f4, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5e428fc, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e7f084, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -264,7 +264,7 @@ public:
                                                     ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::UnityWebRequest_Result> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23691 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23773 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -317,11 +317,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5e4297c, size 0x408, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e7f104, size 0x408, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5e42d84, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e7f50c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -341,7 +341,7 @@ public:
                                                ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::UnityWebRequest_Result> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23692 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23774 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -401,31 +401,31 @@ public:
   constexpr operator ::GlobalNamespace::IMediaAsyncLoader*() noexcept;
 
   /// [AsyncStateMachine(typeof(MediaAsyncLoader::<LoadAudioClipAsync>d__2))]
-  /// @brief Method LoadAudioClipAsync, addr 0x5e416d0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method LoadAudioClipAsync, addr 0x5e7de58, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* LoadAudioClipAsync(::StringW filePath, bool streamAudio);
 
-  /// @brief Method LoadAudioClipFromFilePathAsync, addr 0x5e416c4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method LoadAudioClipFromFilePathAsync, addr 0x5e7de4c, size 0xc, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* LoadAudioClipFromFilePathAsync(::StringW filePath);
 
   /// [AsyncStateMachine(typeof(MediaAsyncLoader::<LoadSpriteAsync>d__4))]
-  /// @brief Method LoadSpriteAsync, addr 0x5e418ac, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method LoadSpriteAsync, addr 0x5e7e034, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* LoadSpriteAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
 
   /// [AsyncStateMachine(typeof(MediaAsyncLoader::<LoadTextureAsync>d__3))]
-  /// @brief Method LoadTextureAsync, addr 0x5e417c0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method LoadTextureAsync, addr 0x5e7df48, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Texture2D>>* LoadTextureAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
 
   /// [AsyncStateMachine(typeof(MediaAsyncLoader::<LoadWebpage>d__0))]
-  /// @brief Method LoadWebpage, addr 0x5e415d8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method LoadWebpage, addr 0x5e7dd60, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::StringW>* LoadWebpage(::StringW uri, ::System::Threading::CancellationToken cancellationToken);
 
   /// [Conditional("MediaAsyncLoaderLog")]
-  /// @brief Method Log, addr 0x5e41998, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x5e7e120, size 0x5c, virtual false, abstract: false, final false
   static inline void Log(::StringW message);
 
   static inline ::GlobalNamespace::MediaAsyncLoader* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5e3fefc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e7c684, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IMediaAsyncLoader"
@@ -446,7 +446,7 @@ public:
   MediaAsyncLoader(MediaAsyncLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23693 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23775 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

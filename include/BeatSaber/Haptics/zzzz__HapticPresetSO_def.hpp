@@ -11,9 +11,6 @@ CORDL_MODULE_EXPORT(HapticPresetSO)
 namespace Oculus::Haptics {
 class HapticClip;
 }
-namespace UnityEngine {
-class AudioClip;
-}
 // Forward declare root types
 namespace BeatSaber::Haptics {
 class HapticPresetSO;
@@ -37,28 +34,22 @@ public:
   /// @brief Field _frequency, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__frequency, put = __cordl_internal_set__frequency)) float_t _frequency;
 
-  /// @brief Field _hasOculusHapticsClip, offset 0x50, size 0x2
+  /// @brief Field _hasOculusHapticsClip, offset 0x40, size 0x2
   __declspec(property(get = __cordl_internal_get__hasOculusHapticsClip, put = __cordl_internal_set__hasOculusHapticsClip)) ::System::Nullable_1<bool> _hasOculusHapticsClip;
 
-  /// @brief Field _hasPS5HapticsClip, offset 0x30, size 0x2
-  __declspec(property(get = __cordl_internal_get__hasPS5HapticsClip, put = __cordl_internal_set__hasPS5HapticsClip)) ::System::Nullable_1<bool> _hasPS5HapticsClip;
-
-  /// @brief Field _oculusHapticsClip, offset 0x38, size 0x8
+  /// @brief Field _oculusHapticsClip, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__oculusHapticsClip, put = __cordl_internal_set__oculusHapticsClip)) ::UnityW<::Oculus::Haptics::HapticClip> _oculusHapticsClip;
 
-  /// @brief Field _overrideForTouchController, offset 0x44, size 0x1
+  /// @brief Field _overrideForTouchController, offset 0x34, size 0x1
   __declspec(property(get = __cordl_internal_get__overrideForTouchController, put = __cordl_internal_set__overrideForTouchController)) bool _overrideForTouchController;
 
-  /// @brief Field _priority, offset 0x40, size 0x4
+  /// @brief Field _priority, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__priority, put = __cordl_internal_set__priority)) uint32_t _priority;
-
-  /// @brief Field _ps5HapticsClip, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__ps5HapticsClip, put = __cordl_internal_set__ps5HapticsClip)) ::UnityW<::UnityEngine::AudioClip> _ps5HapticsClip;
 
   /// @brief Field _strength, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__strength, put = __cordl_internal_set__strength)) float_t _strength;
 
-  /// @brief Field _touchControllerOverrideHapticsClip, offset 0x48, size 0x8
+  /// @brief Field _touchControllerOverrideHapticsClip, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__touchControllerOverrideHapticsClip, put = __cordl_internal_set__touchControllerOverrideHapticsClip)) ::UnityW<::Oculus::Haptics::HapticClip>
       _touchControllerOverrideHapticsClip;
 
@@ -67,8 +58,6 @@ public:
                       put = __cordl_internal_set__useAdvancedHapticsOnSupportedPlatforms)) bool _useAdvancedHapticsOnSupportedPlatforms;
 
   __declspec(property(get = get_hasOculusHapticsClip)) bool hasOculusHapticsClip;
-
-  __declspec(property(get = get_hasPS5HapticsClip)) bool hasPS5HapticsClip;
 
   static inline ::BeatSaber::Haptics::HapticPresetSO* New_ctor();
 
@@ -88,10 +77,6 @@ public:
 
   constexpr ::System::Nullable_1<bool>& __cordl_internal_get__hasOculusHapticsClip();
 
-  constexpr ::System::Nullable_1<bool> const& __cordl_internal_get__hasPS5HapticsClip() const;
-
-  constexpr ::System::Nullable_1<bool>& __cordl_internal_get__hasPS5HapticsClip();
-
   constexpr ::UnityW<::Oculus::Haptics::HapticClip> const& __cordl_internal_get__oculusHapticsClip() const;
 
   constexpr ::UnityW<::Oculus::Haptics::HapticClip>& __cordl_internal_get__oculusHapticsClip();
@@ -103,10 +88,6 @@ public:
   constexpr uint32_t const& __cordl_internal_get__priority() const;
 
   constexpr uint32_t& __cordl_internal_get__priority();
-
-  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__ps5HapticsClip() const;
-
-  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__ps5HapticsClip();
 
   constexpr float_t const& __cordl_internal_get__strength() const;
 
@@ -128,15 +109,11 @@ public:
 
   constexpr void __cordl_internal_set__hasOculusHapticsClip(::System::Nullable_1<bool> value);
 
-  constexpr void __cordl_internal_set__hasPS5HapticsClip(::System::Nullable_1<bool> value);
-
   constexpr void __cordl_internal_set__oculusHapticsClip(::UnityW<::Oculus::Haptics::HapticClip> value);
 
   constexpr void __cordl_internal_set__overrideForTouchController(bool value);
 
   constexpr void __cordl_internal_set__priority(uint32_t value);
-
-  constexpr void __cordl_internal_set__ps5HapticsClip(::UnityW<::UnityEngine::AudioClip> value);
 
   constexpr void __cordl_internal_set__strength(float_t value);
 
@@ -144,14 +121,11 @@ public:
 
   constexpr void __cordl_internal_set__useAdvancedHapticsOnSupportedPlatforms(bool value);
 
-  /// @brief Method .ctor, addr 0x3520390, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3540c20, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hasOculusHapticsClip, addr 0x351f054, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_hasOculusHapticsClip, addr 0x353f9c8, size 0xe4, virtual false, abstract: false, final false
   inline bool get_hasOculusHapticsClip();
-
-  /// @brief Method get_hasPS5HapticsClip, addr 0x35202ac, size 0xe4, virtual false, abstract: false, final false
-  inline bool get_hasPS5HapticsClip();
 
 protected:
   // Ctor Parameters []
@@ -168,7 +142,7 @@ public:
   HapticPresetSO(HapticPresetSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23954 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24048 };
 
   /// [DrawIf("_continuous", false, (DrawIfAttribute::DisablingType)1)]
   /// @brief Field _duration, offset: 0x18, size: 0x4, def value: None
@@ -187,37 +161,27 @@ public:
   bool ____useAdvancedHapticsOnSupportedPlatforms;
 
   /// [Space]
-  /// [Header("PS5 Haptics")]
-  /// [DrawIf("_useAdvancedHapticsOnSupportedPlatforms", true, (DrawIfAttribute::DisablingType)1)]
-  /// [NullAllowedIf("_useAdvancedHapticsOnSupportedPlatforms", false, (NullAllowedContext)0)]
-  /// @brief Field _ps5HapticsClip, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::AudioClip> ____ps5HapticsClip;
-
-  /// @brief Field _hasPS5HapticsClip, offset: 0x30, size: 0x2, def value: None
-  ::System::Nullable_1<bool> ____hasPS5HapticsClip;
-
-  /// [Space]
   /// [Header("Oculus Advanced Haptics")]
   /// [DrawIf("_useAdvancedHapticsOnSupportedPlatforms", true, (DrawIfAttribute::DisablingType)1)]
   /// [NullAllowedIf("_useAdvancedHapticsOnSupportedPlatforms", false, (NullAllowedContext)0)]
-  /// @brief Field _oculusHapticsClip, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _oculusHapticsClip, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::Oculus::Haptics::HapticClip> ____oculusHapticsClip;
 
   /// [DrawIf("_useAdvancedHapticsOnSupportedPlatforms", true, (DrawIfAttribute::DisablingType)1)]
   /// [Tooltip("Priority values can be on the range of 0 (high priority) to 255 (low priority)")]
   /// [Range(0, 255)]
-  /// @brief Field _priority, offset: 0x40, size: 0x4, def value: None
+  /// @brief Field _priority, offset: 0x30, size: 0x4, def value: None
   uint32_t ____priority;
 
-  /// @brief Field _overrideForTouchController, offset: 0x44, size: 0x1, def value: None
+  /// @brief Field _overrideForTouchController, offset: 0x34, size: 0x1, def value: None
   bool ____overrideForTouchController;
 
   /// [DrawIf("_overrideForTouchController", true, (DrawIfAttribute::DisablingType)1)]
   /// [NullAllowedIf("_overrideForTouchController", false, (NullAllowedContext)0)]
-  /// @brief Field _touchControllerOverrideHapticsClip, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _touchControllerOverrideHapticsClip, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::Oculus::Haptics::HapticClip> ____touchControllerOverrideHapticsClip;
 
-  /// @brief Field _hasOculusHapticsClip, offset: 0x50, size: 0x2, def value: None
+  /// @brief Field _hasOculusHapticsClip, offset: 0x40, size: 0x2, def value: None
   ::System::Nullable_1<bool> ____hasOculusHapticsClip;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -233,20 +197,16 @@ static_assert(offsetof(::BeatSaber::Haptics::HapticPresetSO, ____continuous) == 
 
 static_assert(offsetof(::BeatSaber::Haptics::HapticPresetSO, ____useAdvancedHapticsOnSupportedPlatforms) == 0x25, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Haptics::HapticPresetSO, ____ps5HapticsClip) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Haptics::HapticPresetSO, ____oculusHapticsClip) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Haptics::HapticPresetSO, ____hasPS5HapticsClip) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Haptics::HapticPresetSO, ____priority) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Haptics::HapticPresetSO, ____oculusHapticsClip) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Haptics::HapticPresetSO, ____overrideForTouchController) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Haptics::HapticPresetSO, ____priority) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Haptics::HapticPresetSO, ____touchControllerOverrideHapticsClip) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Haptics::HapticPresetSO, ____overrideForTouchController) == 0x44, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Haptics::HapticPresetSO, ____hasOculusHapticsClip) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Haptics::HapticPresetSO, ____touchControllerOverrideHapticsClip) == 0x48, "Offset mismatch!");
-
-static_assert(offsetof(::BeatSaber::Haptics::HapticPresetSO, ____hasOculusHapticsClip) == 0x50, "Offset mismatch!");
-
-static_assert(sizeof(::BeatSaber::Haptics::HapticPresetSO) == 0x58, "Size mismatch!");
+static_assert(sizeof(::BeatSaber::Haptics::HapticPresetSO) == 0x48, "Size mismatch!");
 
 } // namespace BeatSaber::Haptics

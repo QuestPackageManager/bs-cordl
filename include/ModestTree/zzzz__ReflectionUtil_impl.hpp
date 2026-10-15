@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Array* (*)(::System::Type*, ::System::Collections::Generic::List_1<::System::Object*>*)>(&::ModestTree::ReflectionUtil::CreateArray)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x72ddf30;
+  constexpr static std::size_t addrs = 0x731af94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IList* (*)(::System::Type*, ::System::Collections::Generic::List_1<::System::Object*>*)>(
     &::ModestTree::ReflectionUtil::CreateGenericList)> {
   constexpr static std::size_t size = 0x3a0;
-  constexpr static std::size_t addrs = 0x72de184;
+  constexpr static std::size_t addrs = 0x731b1e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Reflection::MethodInfo*)>(&::ModestTree::ReflectionUtil::ToDebugString)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x72de524;
+  constexpr static std::size_t addrs = 0x731b588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Action*)>(&::ModestTree::ReflectionUtil::ToDebugString)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x72de660;
+  constexpr static std::size_t addrs = 0x731b6c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

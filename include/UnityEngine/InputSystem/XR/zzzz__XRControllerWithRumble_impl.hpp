@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XR::XRControllerWithRumble::*)(float_t, float_t)>(
     &::UnityEngine::InputSystem::XR::XRControllerWithRumble::SendImpulse)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x69b35cc;
+  constexpr static std::size_t addrs = 0x69f0248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XR::XRControllerWithRumble::*)()>(&::UnityEngine::InputSystem::XR::XRControllerWithRumble::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x69b3694;
+  constexpr static std::size_t addrs = 0x69f0310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::XRControllerWithRumble*>(), { ".ctor", {}, {} })));

@@ -30,7 +30,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::MultiplayerScoreRingItem_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5e00fcc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e3e79c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -48,7 +48,7 @@ public:
   MultiplayerScoreRingItem_Pool(MultiplayerScoreRingItem_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6307 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6311 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -67,7 +67,7 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerScoreRingItem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5e00fc8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e3e798, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -85,7 +85,7 @@ public:
   MultiplayerScoreRingItem(MultiplayerScoreRingItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6308 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6312 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

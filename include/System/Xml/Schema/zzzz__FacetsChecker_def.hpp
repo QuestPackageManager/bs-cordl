@@ -93,7 +93,7 @@ namespace System::Xml::Schema {
 struct CORDL_TYPE FacetsCompiler_FacetsChecker_Map {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x65f9ce8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66368b8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(char16_t m, ::StringW r);
 
   // Ctor Parameters []
@@ -105,7 +105,7 @@ public:
   constexpr FacetsCompiler_FacetsChecker_Map(char16_t match, ::StringW replacement) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11643 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11650 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -138,74 +138,74 @@ public:
   /// @brief Field c_map, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_c_map, put = setStaticF_c_map)) ::ArrayW<::System::Xml::Schema::FacetsCompiler_FacetsChecker_Map> c_map;
 
-  /// @brief Method CheckDupFlag, addr 0x65f8e50, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CheckDupFlag, addr 0x6635a20, size 0x70, virtual false, abstract: false, final false
   inline void CheckDupFlag(::System::Xml::Schema::XmlSchemaFacet* facet, ::System::Xml::Schema::RestrictionFlags flag, ::StringW errorCode);
 
-  /// @brief Method CheckProhibitedFlag, addr 0x65f8dd0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CheckProhibitedFlag, addr 0x66359a0, size 0x80, virtual false, abstract: false, final false
   inline void CheckProhibitedFlag(::System::Xml::Schema::XmlSchemaFacet* facet, ::System::Xml::Schema::RestrictionFlags flag, ::StringW errorCode);
 
-  /// @brief Method CheckValue, addr 0x65f9048, size 0x470, virtual false, abstract: false, final false
+  /// @brief Method CheckValue, addr 0x6635c18, size 0x470, virtual false, abstract: false, final false
   inline void CheckValue(::System::Object* value, ::System::Xml::Schema::XmlSchemaFacet* facet);
 
-  /// @brief Method CompileEnumerationFacet, addr 0x65f73e8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method CompileEnumerationFacet, addr 0x6633fb8, size 0x158, virtual false, abstract: false, final false
   inline void CompileEnumerationFacet(::System::Xml::Schema::XmlSchemaFacet* facet, ::System::Xml::IXmlNamespaceResolver* nsmgr, ::System::Xml::XmlNameTable* nameTable);
 
-  /// @brief Method CompileFacetCombinations, addr 0x65f8934, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method CompileFacetCombinations, addr 0x6635504, size 0x3bc, virtual false, abstract: false, final false
   inline void CompileFacetCombinations();
 
-  /// @brief Method CompileFractionDigitsFacet, addr 0x65f82fc, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method CompileFractionDigitsFacet, addr 0x6634ecc, size 0x2b0, virtual false, abstract: false, final false
   inline void CompileFractionDigitsFacet(::System::Xml::Schema::XmlSchemaFacet* facet);
 
-  /// @brief Method CompileLengthFacet, addr 0x65f68ec, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method CompileLengthFacet, addr 0x66334bc, size 0x354, virtual false, abstract: false, final false
   inline void CompileLengthFacet(::System::Xml::Schema::XmlSchemaFacet* facet);
 
-  /// @brief Method CompileMaxExclusiveFacet, addr 0x65f7e18, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method CompileMaxExclusiveFacet, addr 0x66349e8, size 0x1cc, virtual false, abstract: false, final false
   inline void CompileMaxExclusiveFacet(::System::Xml::Schema::XmlSchemaFacet* facet);
 
-  /// @brief Method CompileMaxInclusiveFacet, addr 0x65f7c4c, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method CompileMaxInclusiveFacet, addr 0x663481c, size 0x1cc, virtual false, abstract: false, final false
   inline void CompileMaxInclusiveFacet(::System::Xml::Schema::XmlSchemaFacet* facet);
 
-  /// @brief Method CompileMaxLengthFacet, addr 0x65f6f58, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method CompileMaxLengthFacet, addr 0x6633b28, size 0x318, virtual false, abstract: false, final false
   inline void CompileMaxLengthFacet(::System::Xml::Schema::XmlSchemaFacet* facet);
 
-  /// @brief Method CompileMinExclusiveFacet, addr 0x65f7a80, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method CompileMinExclusiveFacet, addr 0x6634650, size 0x1cc, virtual false, abstract: false, final false
   inline void CompileMinExclusiveFacet(::System::Xml::Schema::XmlSchemaFacet* facet);
 
-  /// @brief Method CompileMinInclusiveFacet, addr 0x65f78b4, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method CompileMinInclusiveFacet, addr 0x6634484, size 0x1cc, virtual false, abstract: false, final false
   inline void CompileMinInclusiveFacet(::System::Xml::Schema::XmlSchemaFacet* facet);
 
-  /// @brief Method CompileMinLengthFacet, addr 0x65f6c40, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method CompileMinLengthFacet, addr 0x6633810, size 0x318, virtual false, abstract: false, final false
   inline void CompileMinLengthFacet(::System::Xml::Schema::XmlSchemaFacet* facet);
 
-  /// @brief Method CompilePatternFacet, addr 0x65f7270, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method CompilePatternFacet, addr 0x6633e40, size 0x178, virtual false, abstract: false, final false
   inline void CompilePatternFacet(::System::Xml::Schema::XmlSchemaPatternFacet* facet);
 
-  /// @brief Method CompileTotalDigitsFacet, addr 0x65f7fe4, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method CompileTotalDigitsFacet, addr 0x6634bb4, size 0x318, virtual false, abstract: false, final false
   inline void CompileTotalDigitsFacet(::System::Xml::Schema::XmlSchemaFacet* facet);
 
-  /// @brief Method CompileWhitespaceFacet, addr 0x65f7540, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method CompileWhitespaceFacet, addr 0x6634110, size 0x374, virtual false, abstract: false, final false
   inline void CompileWhitespaceFacet(::System::Xml::Schema::XmlSchemaFacet* facet);
 
-  /// @brief Method CopyFacetsFromBaseType, addr 0x65f9720, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method CopyFacetsFromBaseType, addr 0x66362f0, size 0x3b4, virtual false, abstract: false, final false
   inline void CopyFacetsFromBaseType();
 
-  /// @brief Method FinishFacetCompile, addr 0x65f85ac, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method FinishFacetCompile, addr 0x663517c, size 0x388, virtual false, abstract: false, final false
   inline void FinishFacetCompile();
 
-  /// @brief Method ParseFacetValue, addr 0x65f8ec0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ParseFacetValue, addr 0x6635a90, size 0x120, virtual false, abstract: false, final false
   inline ::System::Object* ParseFacetValue(::System::Xml::Schema::XmlSchemaDatatype* datatype, ::System::Xml::Schema::XmlSchemaFacet* facet, ::StringW code,
                                            ::System::Xml::IXmlNamespaceResolver* nsmgr, ::System::Xml::XmlNameTable* nameTable);
 
-  /// @brief Method Preprocess, addr 0x65f94b8, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method Preprocess, addr 0x6636088, size 0x268, virtual false, abstract: false, final false
   static inline ::StringW Preprocess(::StringW pattern);
 
-  /// @brief Method SetFlag, addr 0x65f8fe0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetFlag, addr 0x6635bb0, size 0x68, virtual false, abstract: false, final false
   inline void SetFlag(::System::Xml::Schema::XmlSchemaFacet* facet, ::System::Xml::Schema::RestrictionFlags flag);
 
-  /// @brief Method SetFlag, addr 0x65f9ad4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetFlag, addr 0x66366a4, size 0x38, virtual false, abstract: false, final false
   inline void SetFlag(::System::Xml::Schema::RestrictionFlags flag);
 
-  /// @brief Method .ctor, addr 0x65f66d8, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66332a8, size 0x214, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::DatatypeImplementation* baseDatatype, ::System::Xml::Schema::RestrictionFacets* restriction);
 
   static inline ::ArrayW<::System::Xml::Schema::FacetsCompiler_FacetsChecker_Map> getStaticF_c_map();
@@ -231,7 +231,7 @@ public:
                                          ::System::Text::StringBuilder* regStr, ::System::Xml::Schema::XmlSchemaPatternFacet* pattern_facet) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11644 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11651 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -306,64 +306,64 @@ public:
   // Declarations
   using FacetsCompiler = ::System::Xml::Schema::FacetsChecker_FacetsCompiler;
 
-  /// @brief Method CheckLexicalFacets, addr 0x65f5f74, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method CheckLexicalFacets, addr 0x6632b44, size 0x44, virtual true, abstract: false, final false
   inline ::System::Exception* CheckLexicalFacets(::by_ref<::StringW> parseString, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckPatternFacets, addr 0x65f60a0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method CheckPatternFacets, addr 0x6632c70, size 0x158, virtual false, abstract: false, final false
   inline ::System::Exception* CheckPatternFacets(::System::Xml::Schema::RestrictionFacets* restriction, ::StringW value);
 
-  /// @brief Method CheckValueFacets, addr 0x65f6240, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x6632e10, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::ArrayW<uint8_t> value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x65f6238, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x6632e08, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::StringW value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x65f6220, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x6632df0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::DateTime value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x65f6200, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x6632dd0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Decimal value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x65f61f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x6632dc8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x65f6248, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x6632e18, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::TimeSpan value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x65f6250, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x6632e20, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Xml::XmlQualifiedName* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x65f6228, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x6632df8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(double_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x65f6230, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x6632e00, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(float_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x65f6218, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x6632de8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(int16_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x65f6210, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x6632de0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(int32_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x65f6208, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x6632dd8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(int64_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckWhitespaceFacets, addr 0x65f5fb8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method CheckWhitespaceFacets, addr 0x6632b88, size 0xe8, virtual false, abstract: false, final false
   inline void CheckWhitespaceFacets(::by_ref<::StringW> s, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method ConstructRestriction, addr 0x65f6260, size 0x478, virtual true, abstract: false, final false
+  /// @brief Method ConstructRestriction, addr 0x6632e30, size 0x478, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::RestrictionFacets* ConstructRestriction(::System::Xml::Schema::DatatypeImplementation* datatype, ::System::Xml::Schema::XmlSchemaObjectCollection* facets,
                                                                         ::System::Xml::XmlNameTable* nameTable);
 
-  /// @brief Method MatchEnumeration, addr 0x65f6258, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x6632e28, size 0x8, virtual true, abstract: false, final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
   static inline ::System::Xml::Schema::FacetsChecker* New_ctor();
 
-  /// @brief Method Power, addr 0x65f8cf0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Power, addr 0x66358c0, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Decimal Power(int32_t x, int32_t y);
 
-  /// @brief Method .ctor, addr 0x65f8dcc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x663599c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -381,7 +381,7 @@ public:
   FacetsChecker(FacetsChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11645 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11652 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

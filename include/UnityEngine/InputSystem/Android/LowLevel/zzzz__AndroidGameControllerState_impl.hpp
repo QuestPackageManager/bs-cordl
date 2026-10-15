@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState_Variants::*)()>(
     &::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState_Variants::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69d88dc;
+  constexpr static std::size_t addrs = 0x6a15558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState::*)()>(
     &::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState::get_format)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x69d87cc;
+  constexpr static std::size_t addrs = 0x6a15448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSyste
     ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState::*)(::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode, bool)>(
     &::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState::WithButton)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x69d8828;
+  constexpr static std::size_t addrs = 0x6a154a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSyste
     ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState::*)(::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis, float_t)>(
     &::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState::WithAxis)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x69d886c;
+  constexpr static std::size_t addrs = 0x6a154e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

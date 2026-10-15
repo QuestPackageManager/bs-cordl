@@ -85,16 +85,19 @@ namespace GlobalNamespace {
 struct ScreenshotLevelStarter_RunScreenshotLevelData;
 }
 namespace GlobalNamespace {
-class ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45;
+class ScreenshotLevelStarter__PopWhenTransitionSettles_d__49;
 }
 namespace GlobalNamespace {
-class ScreenshotLevelStarter__RunScreenshotLevel_d__46;
+class ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52;
 }
 namespace GlobalNamespace {
-class ScreenshotLevelStarter___c__DisplayClass46_0;
+class ScreenshotLevelStarter__RunScreenshotLevel_d__53;
 }
 namespace GlobalNamespace {
-class ScreenshotLevelStarter___c__DisplayClass46_1;
+class ScreenshotLevelStarter___c__DisplayClass53_0;
+}
+namespace GlobalNamespace {
+class ScreenshotLevelStarter___c__DisplayClass53_1;
 }
 namespace GlobalNamespace {
 class SettingsManager;
@@ -146,16 +149,19 @@ namespace GlobalNamespace {
 class ScreenshotLevelStarter;
 }
 namespace GlobalNamespace {
-class ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45;
+class ScreenshotLevelStarter__PopWhenTransitionSettles_d__49;
 }
 namespace GlobalNamespace {
-class ScreenshotLevelStarter__RunScreenshotLevel_d__46;
+class ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52;
 }
 namespace GlobalNamespace {
-class ScreenshotLevelStarter___c__DisplayClass46_0;
+class ScreenshotLevelStarter__RunScreenshotLevel_d__53;
 }
 namespace GlobalNamespace {
-class ScreenshotLevelStarter___c__DisplayClass46_1;
+class ScreenshotLevelStarter___c__DisplayClass53_0;
+}
+namespace GlobalNamespace {
+class ScreenshotLevelStarter___c__DisplayClass53_1;
 }
 namespace GlobalNamespace {
 struct RunScreenshotLevelData_ScreenshotLevelStarter_BuildSpecificMetadata;
@@ -180,10 +186,11 @@ struct ScreenshotLevelStarter_RunScreenshotLevelData;
 }
 // Write type traits
 MARK_REF_T(::GlobalNamespace::ScreenshotLevelStarter*);
-MARK_REF_T(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45*);
-MARK_REF_T(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46*);
-MARK_REF_T(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0*);
-MARK_REF_T(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1*);
+MARK_REF_T(::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49*);
+MARK_REF_T(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52*);
+MARK_REF_T(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53*);
+MARK_REF_T(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0*);
+MARK_REF_T(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1*);
 MARK_VAL_T(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_BuildSpecificMetadata);
 MARK_VAL_T(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command);
 MARK_VAL_T(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_DeviceMetadata);
@@ -192,10 +199,11 @@ MARK_VAL_T(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Seri
 MARK_VAL_T(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Settings);
 MARK_VAL_T(::GlobalNamespace::ScreenshotLevelStarter_RunScreenshotLevelData);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ScreenshotLevelStarter*, "", "ScreenshotLevelStarter");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45*, "", "ScreenshotLevelStarter/<RunScreenshotLevelQueue>d__45");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46*, "", "ScreenshotLevelStarter/<RunScreenshotLevel>d__46");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0*, "", "ScreenshotLevelStarter/<>c__DisplayClass46_0");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1*, "", "ScreenshotLevelStarter/<>c__DisplayClass46_1");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49*, "", "ScreenshotLevelStarter/<PopWhenTransitionSettles>d__49");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52*, "", "ScreenshotLevelStarter/<RunScreenshotLevelQueue>d__52");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53*, "", "ScreenshotLevelStarter/<RunScreenshotLevel>d__53");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0*, "", "ScreenshotLevelStarter/<>c__DisplayClass53_0");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1*, "", "ScreenshotLevelStarter/<>c__DisplayClass53_1");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_BuildSpecificMetadata, "", "ScreenshotLevelStarter/RunScreenshotLevelData/BuildSpecificMetadata");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command, "", "ScreenshotLevelStarter/RunScreenshotLevelData/Command");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_DeviceMetadata, "", "ScreenshotLevelStarter/RunScreenshotLevelData/DeviceMetadata");
@@ -219,7 +227,7 @@ public:
   constexpr RunScreenshotLevelData_ScreenshotLevelStarter_Settings(int32_t framerate, float_t screenshotPeriod, bool overwriteExistingFolder) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6878 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6884 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -252,10 +260,10 @@ namespace GlobalNamespace {
 struct CORDL_TYPE RunScreenshotLevelData_ScreenshotLevelStarter_SerializedBeatmapKey {
 public:
   // Declarations
-  /// @brief Method ToBeatmapKey, addr 0x5d2dd78, size 0x3fc, virtual false, abstract: false, final false
+  /// @brief Method ToBeatmapKey, addr 0x5d68368, size 0x41c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKey ToBeatmapKey(::GlobalNamespace::BeatmapLevelsModel* beatmapLevels);
 
-  /// @brief Method .ctor, addr 0x5d2d100, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d6742c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW levelId, ::StringW characteristic, ::StringW difficulty);
 
   // Ctor Parameters []
@@ -267,7 +275,7 @@ public:
   constexpr RunScreenshotLevelData_ScreenshotLevelStarter_SerializedBeatmapKey(::StringW levelId, ::StringW characteristic, ::StringW difficulty) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6880 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6886 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -313,7 +321,7 @@ public:
                                                                   ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Settings settings, float_t differenceThreshold) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6879 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6885 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -370,7 +378,7 @@ public:
                                                                          ::GlobalNamespace::GameplayModifiers* gameplayModifiers) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6881 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6887 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x138 };
@@ -418,7 +426,7 @@ public:
   constexpr RunScreenshotLevelData_ScreenshotLevelStarter_DeviceMetadata(::StringW deviceUID, ::StringW deviceName, ::StringW deviceType, ::StringW devicePlatform, ::StringW deviceModel) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6882 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6888 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -469,7 +477,7 @@ public:
   constexpr RunScreenshotLevelData_ScreenshotLevelStarter_BuildSpecificMetadata(::StringW gameVersion) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6883 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6889 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -514,7 +522,7 @@ public:
                                                           ::ArrayW<::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command> screenshotLevels) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6884 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6890 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -539,42 +547,42 @@ static_assert(sizeof(::GlobalNamespace::ScreenshotLevelStarter_RunScreenshotLeve
 // Dependencies ScreenshotLevelStarter::RunScreenshotLevelData::Command, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ScreenshotLevelStarter/<>c__DisplayClass46_0
-class CORDL_TYPE ScreenshotLevelStarter___c__DisplayClass46_0 : public ::System::Object {
+// CS Name: ScreenshotLevelStarter/<>c__DisplayClass53_0
+class CORDL_TYPE ScreenshotLevelStarter___c__DisplayClass53_0 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field <>4__this, offset 0x20, size 0x8
+  /// @brief Field <>4__this, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::GlobalNamespace::ScreenshotLevelStarter* __4__this;
 
-  /// @brief Field audioTimeSyncController, offset 0x10, size 0x8
+  /// @brief Field audioTimeSyncController, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_audioTimeSyncController, put = __cordl_internal_set_audioTimeSyncController)) ::UnityW<::GlobalNamespace::AudioTimeSyncController>
       audioTimeSyncController;
 
   /// @brief Field command, offset 0x30, size 0x38
   __declspec(property(get = __cordl_internal_get_command, put = __cordl_internal_set_command)) ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command command;
 
-  /// @brief Field levelEnded, offset 0x2c, size 0x1
+  /// @brief Field levelEnded, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_levelEnded, put = __cordl_internal_set_levelEnded)) bool levelEnded;
 
   /// @brief Field nextScreenshotTimeIndex, offset 0x68, size 0x4
   __declspec(property(get = __cordl_internal_get_nextScreenshotTimeIndex, put = __cordl_internal_set_nextScreenshotTimeIndex)) int32_t nextScreenshotTimeIndex;
 
-  /// @brief Field originalFixedDeltaTime, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_originalFixedDeltaTime, put = __cordl_internal_set_originalFixedDeltaTime)) float_t originalFixedDeltaTime;
-
-  /// @brief Field pauseController, offset 0x18, size 0x8
+  /// @brief Field pauseController, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_pauseController, put = __cordl_internal_set_pauseController)) ::UnityW<::GlobalNamespace::PauseController> pauseController;
 
-  static inline ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0* New_ctor();
+  static inline ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0* New_ctor();
 
-  /// @brief Method <RunScreenshotLevel>b__0, addr 0x5d2e178, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <RunScreenshotLevel>b__0, addr 0x5d68788, size 0x20, virtual false, abstract: false, final false
   inline bool _RunScreenshotLevel_b__0();
 
-  /// @brief Method <RunScreenshotLevel>g__GetNextScreenshotTime|2, addr 0x5d2e30c, size 0x94, virtual false, abstract: false, final false
-  inline float_t _RunScreenshotLevel_g__GetNextScreenshotTime_2();
+  /// @brief Method <RunScreenshotLevel>b__1, addr 0x5d687a8, size 0x20, virtual false, abstract: false, final false
+  inline bool _RunScreenshotLevel_b__1();
 
-  /// @brief Method <RunScreenshotLevel>g__HandleLevelEnded|1, addr 0x5d2e198, size 0x174, virtual false, abstract: false, final false
-  inline void _RunScreenshotLevel_g__HandleLevelEnded_1();
+  /// @brief Method <RunScreenshotLevel>g__GetNextScreenshotTime|3, addr 0x5d688bc, size 0x94, virtual false, abstract: false, final false
+  inline float_t _RunScreenshotLevel_g__GetNextScreenshotTime_3();
+
+  /// @brief Method <RunScreenshotLevel>g__HandleLevelEnded|2, addr 0x5d687c8, size 0xf4, virtual false, abstract: false, final false
+  inline void _RunScreenshotLevel_g__HandleLevelEnded_2();
 
   constexpr ::GlobalNamespace::ScreenshotLevelStarter* const& __cordl_internal_get___4__this() const;
 
@@ -596,10 +604,6 @@ public:
 
   constexpr int32_t& __cordl_internal_get_nextScreenshotTimeIndex();
 
-  constexpr float_t const& __cordl_internal_get_originalFixedDeltaTime() const;
-
-  constexpr float_t& __cordl_internal_get_originalFixedDeltaTime();
-
   constexpr ::UnityW<::GlobalNamespace::PauseController> const& __cordl_internal_get_pauseController() const;
 
   constexpr ::UnityW<::GlobalNamespace::PauseController>& __cordl_internal_get_pauseController();
@@ -614,43 +618,38 @@ public:
 
   constexpr void __cordl_internal_set_nextScreenshotTimeIndex(int32_t value);
 
-  constexpr void __cordl_internal_set_originalFixedDeltaTime(float_t value);
-
   constexpr void __cordl_internal_set_pauseController(::UnityW<::GlobalNamespace::PauseController> value);
 
-  /// @brief Method .ctor, addr 0x5d2e174, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d68784, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr ScreenshotLevelStarter___c__DisplayClass46_0();
+  constexpr ScreenshotLevelStarter___c__DisplayClass53_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter___c__DisplayClass46_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter___c__DisplayClass53_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  ScreenshotLevelStarter___c__DisplayClass46_0(ScreenshotLevelStarter___c__DisplayClass46_0&&) = delete;
+  ScreenshotLevelStarter___c__DisplayClass53_0(ScreenshotLevelStarter___c__DisplayClass53_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter___c__DisplayClass46_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter___c__DisplayClass53_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenshotLevelStarter___c__DisplayClass46_0(ScreenshotLevelStarter___c__DisplayClass46_0 const&) = delete;
+  ScreenshotLevelStarter___c__DisplayClass53_0(ScreenshotLevelStarter___c__DisplayClass53_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6885 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6891 };
 
-  /// @brief Field audioTimeSyncController, offset: 0x10, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::AudioTimeSyncController> ___audioTimeSyncController;
-
-  /// @brief Field pauseController, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::PauseController> ___pauseController;
-
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::ScreenshotLevelStarter* _____4__this;
 
-  /// @brief Field originalFixedDeltaTime, offset: 0x28, size: 0x4, def value: None
-  float_t ___originalFixedDeltaTime;
+  /// @brief Field audioTimeSyncController, offset: 0x18, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::AudioTimeSyncController> ___audioTimeSyncController;
 
-  /// @brief Field levelEnded, offset: 0x2c, size: 0x1, def value: None
+  /// @brief Field pauseController, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::PauseController> ___pauseController;
+
+  /// @brief Field levelEnded, offset: 0x28, size: 0x1, def value: None
   bool ___levelEnded;
 
   /// @brief Field command, offset: 0x30, size: 0x38, def value: None
@@ -662,38 +661,36 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0, ___audioTimeSyncController) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0, ___pauseController) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0, ___audioTimeSyncController) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0, ___pauseController) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0, ___originalFixedDeltaTime) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0, ___levelEnded) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0, ___levelEnded) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0, ___command) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0, ___command) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0, ___nextScreenshotTimeIndex) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0, ___nextScreenshotTimeIndex) == 0x68, "Offset mismatch!");
-
-static_assert(sizeof(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0) == 0x70, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0) == 0x70, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ScreenshotLevelStarter/<>c__DisplayClass46_1
-class CORDL_TYPE ScreenshotLevelStarter___c__DisplayClass46_1 : public ::System::Object {
+// CS Name: ScreenshotLevelStarter/<>c__DisplayClass53_1
+class CORDL_TYPE ScreenshotLevelStarter___c__DisplayClass53_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field versionTask, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_versionTask, put = __cordl_internal_set_versionTask)) ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* versionTask;
 
-  static inline ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1* New_ctor();
+  static inline ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1* New_ctor();
 
-  /// @brief Method <RunScreenshotLevel>b__3, addr 0x5d2e3a4, size 0x18, virtual false, abstract: false, final false
-  inline bool _RunScreenshotLevel_b__3();
+  /// @brief Method <RunScreenshotLevel>b__4, addr 0x5d68954, size 0x18, virtual false, abstract: false, final false
+  inline bool _RunScreenshotLevel_b__4();
 
   constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* const& __cordl_internal_get_versionTask() const;
 
@@ -701,25 +698,25 @@ public:
 
   constexpr void __cordl_internal_set_versionTask(::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* value);
 
-  /// @brief Method .ctor, addr 0x5d2e3a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d68950, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr ScreenshotLevelStarter___c__DisplayClass46_1();
+  constexpr ScreenshotLevelStarter___c__DisplayClass53_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter___c__DisplayClass46_1", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter___c__DisplayClass53_1", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  ScreenshotLevelStarter___c__DisplayClass46_1(ScreenshotLevelStarter___c__DisplayClass46_1&&) = delete;
+  ScreenshotLevelStarter___c__DisplayClass53_1(ScreenshotLevelStarter___c__DisplayClass53_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter___c__DisplayClass46_1", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter___c__DisplayClass53_1", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenshotLevelStarter___c__DisplayClass46_1(ScreenshotLevelStarter___c__DisplayClass46_1 const&) = delete;
+  ScreenshotLevelStarter___c__DisplayClass53_1(ScreenshotLevelStarter___c__DisplayClass53_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6886 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6892 };
 
   /// @brief Field versionTask, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* ___versionTask;
@@ -727,17 +724,141 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1, ___versionTask) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1, ___versionTask) == 0x10, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1) == 0x18, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1) == 0x18, "Size mismatch!");
+
+} // namespace GlobalNamespace
+// [CompilerGenerated]
+// Dependencies System.Object
+namespace GlobalNamespace {
+// Is value type: false
+// CS Name: ScreenshotLevelStarter/<PopWhenTransitionSettles>d__49
+class CORDL_TYPE ScreenshotLevelStarter__PopWhenTransitionSettles_d__49 : public ::System::Object {
+public:
+  // Declarations
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
+
+  /// @brief Field <>1__state, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
+
+  /// @brief Field <>2__current, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
+
+  /// @brief Field <>4__this, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::GlobalNamespace::ScreenshotLevelStarter* __4__this;
+
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
+
+  /// @brief Convert operator to "::System::Collections::IEnumerator"
+  constexpr operator ::System::Collections::IEnumerator*() noexcept;
+
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Method MoveNext, addr 0x5d689b8, size 0x194, virtual true, abstract: false, final true
+  inline bool MoveNext();
+
+  /// @brief [DebuggerHidden]
+  static inline ::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49* New_ctor(int32_t __1__state);
+
+  /// [DebuggerHidden]
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d68b6c, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+
+  /// [DebuggerHidden]
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d68b74, size 0x38, virtual true, abstract: false, final true
+  inline void System_Collections_IEnumerator_Reset();
+
+  /// [DebuggerHidden]
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d68bac, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+
+  /// [DebuggerHidden]
+  /// @brief Method System.IDisposable.Dispose, addr 0x5d68974, size 0x44, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
+
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
+
+  constexpr int32_t& __cordl_internal_get___1__state();
+
+  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
+
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
+
+  constexpr ::GlobalNamespace::ScreenshotLevelStarter* const& __cordl_internal_get___4__this() const;
+
+  constexpr ::GlobalNamespace::ScreenshotLevelStarter*& __cordl_internal_get___4__this();
+
+  constexpr void __cordl_internal_set___1__state(int32_t value);
+
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+
+  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::ScreenshotLevelStarter* value);
+
+  /// @brief Method <>m__Finally1, addr 0x5d68b4c, size 0x20, virtual false, abstract: false, final false
+  inline void __m__Finally1();
+
+  /// [DebuggerHidden]
+  /// @brief Method .ctor, addr 0x5d6896c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(int32_t __1__state);
+
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ScreenshotLevelStarter__PopWhenTransitionSettles_d__49();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter__PopWhenTransitionSettles_d__49", modifiers: "&&", def_value: None, comment: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ScreenshotLevelStarter__PopWhenTransitionSettles_d__49(ScreenshotLevelStarter__PopWhenTransitionSettles_d__49&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter__PopWhenTransitionSettles_d__49", modifiers: "const&", def_value: None, comment: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ScreenshotLevelStarter__PopWhenTransitionSettles_d__49(ScreenshotLevelStarter__PopWhenTransitionSettles_d__49 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6893 };
+
+  /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
+  int32_t _____1__state;
+
+  /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
+  ::System::Object* _____2__current;
+
+  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+  ::GlobalNamespace::ScreenshotLevelStarter* _____4__this;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49, _____4__this) == 0x20, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
 // Dependencies BeatmapKey, ScreenshotLevelStarter::RunScreenshotLevelData::Command, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ScreenshotLevelStarter/<RunScreenshotLevel>d__46
-class CORDL_TYPE ScreenshotLevelStarter__RunScreenshotLevel_d__46 : public ::System::Object {
+// CS Name: ScreenshotLevelStarter/<RunScreenshotLevel>d__53
+class CORDL_TYPE ScreenshotLevelStarter__RunScreenshotLevel_d__53 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -754,45 +875,35 @@ public:
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::GlobalNamespace::ScreenshotLevelStarter* __4__this;
 
   /// @brief Field <>8__1, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get___8__1, put = __cordl_internal_set___8__1)) ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1* __8__1;
+  __declspec(property(get = __cordl_internal_get___8__1, put = __cordl_internal_set___8__1)) ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1* __8__1;
 
   /// @brief Field <>8__2, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get___8__2, put = __cordl_internal_set___8__2)) ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0* __8__2;
+  __declspec(property(get = __cordl_internal_get___8__2, put = __cordl_internal_set___8__2)) ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0* __8__2;
 
-  /// @brief Field <beatmapKey>5__3, offset 0x78, size 0x10
+  /// @brief Field <beatmapKey>5__3, offset 0x78, size 0x18
   __declspec(property(get = __cordl_internal_get__beatmapKey_5__3, put = __cordl_internal_set__beatmapKey_5__3)) ::GlobalNamespace::BeatmapKey _beatmapKey_5__3;
 
   /// @brief Field <beatmapLevel>5__2, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapLevel_5__2, put = __cordl_internal_set__beatmapLevel_5__2)) ::GlobalNamespace::BeatmapLevel* _beatmapLevel_5__2;
 
-  /// @brief Field <cancellationTokenSource>5__12, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get__cancellationTokenSource_5__12,
-                      put = __cordl_internal_set__cancellationTokenSource_5__12)) ::System::Threading::CancellationTokenSource* _cancellationTokenSource_5__12;
+  /// @brief Field <cancellationTokenSource>5__9, offset 0xb0, size 0x8
+  __declspec(property(get = __cordl_internal_get__cancellationTokenSource_5__9,
+                      put = __cordl_internal_set__cancellationTokenSource_5__9)) ::System::Threading::CancellationTokenSource* _cancellationTokenSource_5__9;
 
-  /// @brief Field <gameplayModifiers>5__5, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameplayModifiers_5__5, put = __cordl_internal_set__gameplayModifiers_5__5)) ::GlobalNamespace::GameplayModifiers* _gameplayModifiers_5__5;
+  /// @brief Field <levelEndActions>5__5, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get__levelEndActions_5__5, put = __cordl_internal_set__levelEndActions_5__5)) ::GlobalNamespace::ILevelEndActions* _levelEndActions_5__5;
 
-  /// @brief Field <levelEndActions>5__7, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__levelEndActions_5__7, put = __cordl_internal_set__levelEndActions_5__7)) ::GlobalNamespace::ILevelEndActions* _levelEndActions_5__7;
+  /// @brief Field <nextScreenshotTime>5__7, offset 0xa4, size 0x4
+  __declspec(property(get = __cordl_internal_get__nextScreenshotTime_5__7, put = __cordl_internal_set__nextScreenshotTime_5__7)) float_t _nextScreenshotTime_5__7;
 
-  /// @brief Field <nextScreenshotTime>5__9, offset 0xac, size 0x4
-  __declspec(property(get = __cordl_internal_get__nextScreenshotTime_5__9, put = __cordl_internal_set__nextScreenshotTime_5__9)) float_t _nextScreenshotTime_5__9;
+  /// @brief Field <renderCamera>5__8, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get__renderCamera_5__8, put = __cordl_internal_set__renderCamera_5__8)) ::UnityW<::UnityEngine::Camera> _renderCamera_5__8;
 
-  /// @brief Field <playerSpecificSettings>5__6, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__playerSpecificSettings_5__6,
-                      put = __cordl_internal_set__playerSpecificSettings_5__6)) ::GlobalNamespace::PlayerSpecificSettings* _playerSpecificSettings_5__6;
-
-  /// @brief Field <renderCamera>5__10, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get__renderCamera_5__10, put = __cordl_internal_set__renderCamera_5__10)) ::UnityW<::UnityEngine::Camera> _renderCamera_5__10;
-
-  /// @brief Field <screenshotExportFolderPath>5__4, offset 0x88, size 0x8
+  /// @brief Field <screenshotExportFolderPath>5__4, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__screenshotExportFolderPath_5__4, put = __cordl_internal_set__screenshotExportFolderPath_5__4)) ::StringW _screenshotExportFolderPath_5__4;
 
-  /// @brief Field <screenshotTexture>5__11, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get__screenshotTexture_5__11, put = __cordl_internal_set__screenshotTexture_5__11)) ::UnityW<::UnityEngine::Texture2D> _screenshotTexture_5__11;
-
-  /// @brief Field <songDuration>5__8, offset 0xa8, size 0x4
-  __declspec(property(get = __cordl_internal_get__songDuration_5__8, put = __cordl_internal_set__songDuration_5__8)) float_t _songDuration_5__8;
+  /// @brief Field <songDuration>5__6, offset 0xa0, size 0x4
+  __declspec(property(get = __cordl_internal_get__songDuration_5__6, put = __cordl_internal_set__songDuration_5__6)) float_t _songDuration_5__6;
 
   /// @brief Field command, offset 0x28, size 0x38
   __declspec(property(get = __cordl_internal_get_command, put = __cordl_internal_set_command)) ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command command;
@@ -806,26 +917,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5d2e3d8, size 0x2020, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d68bd8, size 0x20b8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
-  static inline ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d304ac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d6ad44, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d304b4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d6ad4c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d304ec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d6ad84, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x5d2e3bc, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5d68bbc, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -840,13 +951,13 @@ public:
 
   constexpr ::GlobalNamespace::ScreenshotLevelStarter*& __cordl_internal_get___4__this();
 
-  constexpr ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1* const& __cordl_internal_get___8__1() const;
+  constexpr ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1* const& __cordl_internal_get___8__1() const;
 
-  constexpr ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1*& __cordl_internal_get___8__1();
+  constexpr ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1*& __cordl_internal_get___8__1();
 
-  constexpr ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0* const& __cordl_internal_get___8__2() const;
+  constexpr ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0* const& __cordl_internal_get___8__2() const;
 
-  constexpr ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0*& __cordl_internal_get___8__2();
+  constexpr ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0*& __cordl_internal_get___8__2();
 
   constexpr ::GlobalNamespace::BeatmapKey const& __cordl_internal_get__beatmapKey_5__3() const;
 
@@ -856,41 +967,29 @@ public:
 
   constexpr ::GlobalNamespace::BeatmapLevel*& __cordl_internal_get__beatmapLevel_5__2();
 
-  constexpr ::System::Threading::CancellationTokenSource* const& __cordl_internal_get__cancellationTokenSource_5__12() const;
+  constexpr ::System::Threading::CancellationTokenSource* const& __cordl_internal_get__cancellationTokenSource_5__9() const;
 
-  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__cancellationTokenSource_5__12();
+  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__cancellationTokenSource_5__9();
 
-  constexpr ::GlobalNamespace::GameplayModifiers* const& __cordl_internal_get__gameplayModifiers_5__5() const;
+  constexpr ::GlobalNamespace::ILevelEndActions* const& __cordl_internal_get__levelEndActions_5__5() const;
 
-  constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get__gameplayModifiers_5__5();
+  constexpr ::GlobalNamespace::ILevelEndActions*& __cordl_internal_get__levelEndActions_5__5();
 
-  constexpr ::GlobalNamespace::ILevelEndActions* const& __cordl_internal_get__levelEndActions_5__7() const;
+  constexpr float_t const& __cordl_internal_get__nextScreenshotTime_5__7() const;
 
-  constexpr ::GlobalNamespace::ILevelEndActions*& __cordl_internal_get__levelEndActions_5__7();
+  constexpr float_t& __cordl_internal_get__nextScreenshotTime_5__7();
 
-  constexpr float_t const& __cordl_internal_get__nextScreenshotTime_5__9() const;
+  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__renderCamera_5__8() const;
 
-  constexpr float_t& __cordl_internal_get__nextScreenshotTime_5__9();
-
-  constexpr ::GlobalNamespace::PlayerSpecificSettings* const& __cordl_internal_get__playerSpecificSettings_5__6() const;
-
-  constexpr ::GlobalNamespace::PlayerSpecificSettings*& __cordl_internal_get__playerSpecificSettings_5__6();
-
-  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__renderCamera_5__10() const;
-
-  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__renderCamera_5__10();
+  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__renderCamera_5__8();
 
   constexpr ::StringW const& __cordl_internal_get__screenshotExportFolderPath_5__4() const;
 
   constexpr ::StringW& __cordl_internal_get__screenshotExportFolderPath_5__4();
 
-  constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get__screenshotTexture_5__11() const;
+  constexpr float_t const& __cordl_internal_get__songDuration_5__6() const;
 
-  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get__screenshotTexture_5__11();
-
-  constexpr float_t const& __cordl_internal_get__songDuration_5__8() const;
-
-  constexpr float_t& __cordl_internal_get__songDuration_5__8();
+  constexpr float_t& __cordl_internal_get__songDuration_5__6();
 
   constexpr ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command const& __cordl_internal_get_command() const;
 
@@ -902,39 +1001,33 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::GlobalNamespace::ScreenshotLevelStarter* value);
 
-  constexpr void __cordl_internal_set___8__1(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1* value);
+  constexpr void __cordl_internal_set___8__1(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1* value);
 
-  constexpr void __cordl_internal_set___8__2(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0* value);
+  constexpr void __cordl_internal_set___8__2(::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0* value);
 
   constexpr void __cordl_internal_set__beatmapKey_5__3(::GlobalNamespace::BeatmapKey value);
 
   constexpr void __cordl_internal_set__beatmapLevel_5__2(::GlobalNamespace::BeatmapLevel* value);
 
-  constexpr void __cordl_internal_set__cancellationTokenSource_5__12(::System::Threading::CancellationTokenSource* value);
+  constexpr void __cordl_internal_set__cancellationTokenSource_5__9(::System::Threading::CancellationTokenSource* value);
 
-  constexpr void __cordl_internal_set__gameplayModifiers_5__5(::GlobalNamespace::GameplayModifiers* value);
+  constexpr void __cordl_internal_set__levelEndActions_5__5(::GlobalNamespace::ILevelEndActions* value);
 
-  constexpr void __cordl_internal_set__levelEndActions_5__7(::GlobalNamespace::ILevelEndActions* value);
+  constexpr void __cordl_internal_set__nextScreenshotTime_5__7(float_t value);
 
-  constexpr void __cordl_internal_set__nextScreenshotTime_5__9(float_t value);
-
-  constexpr void __cordl_internal_set__playerSpecificSettings_5__6(::GlobalNamespace::PlayerSpecificSettings* value);
-
-  constexpr void __cordl_internal_set__renderCamera_5__10(::UnityW<::UnityEngine::Camera> value);
+  constexpr void __cordl_internal_set__renderCamera_5__8(::UnityW<::UnityEngine::Camera> value);
 
   constexpr void __cordl_internal_set__screenshotExportFolderPath_5__4(::StringW value);
 
-  constexpr void __cordl_internal_set__screenshotTexture_5__11(::UnityW<::UnityEngine::Texture2D> value);
-
-  constexpr void __cordl_internal_set__songDuration_5__8(float_t value);
+  constexpr void __cordl_internal_set__songDuration_5__6(float_t value);
 
   constexpr void __cordl_internal_set_command(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command value);
 
-  /// @brief Method <>m__Finally1, addr 0x5d303f8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x5d6ac90, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x5d2d3f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d68bb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -949,19 +1042,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr ScreenshotLevelStarter__RunScreenshotLevel_d__46();
+  constexpr ScreenshotLevelStarter__RunScreenshotLevel_d__53();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter__RunScreenshotLevel_d__46", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter__RunScreenshotLevel_d__53", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  ScreenshotLevelStarter__RunScreenshotLevel_d__46(ScreenshotLevelStarter__RunScreenshotLevel_d__46&&) = delete;
+  ScreenshotLevelStarter__RunScreenshotLevel_d__53(ScreenshotLevelStarter__RunScreenshotLevel_d__53&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter__RunScreenshotLevel_d__46", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter__RunScreenshotLevel_d__53", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenshotLevelStarter__RunScreenshotLevel_d__46(ScreenshotLevelStarter__RunScreenshotLevel_d__46 const&) = delete;
+  ScreenshotLevelStarter__RunScreenshotLevel_d__53(ScreenshotLevelStarter__RunScreenshotLevel_d__53 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6887 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6894 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -976,90 +1069,75 @@ public:
   ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command ___command;
 
   /// @brief Field <>8__1, offset: 0x60, size: 0x8, def value: None
-  ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1* _____8__1;
+  ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1* _____8__1;
 
   /// @brief Field <>8__2, offset: 0x68, size: 0x8, def value: None
-  ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0* _____8__2;
+  ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0* _____8__2;
 
   /// @brief Field <beatmapLevel>5__2, offset: 0x70, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevel* ____beatmapLevel_5__2;
 
-  /// @brief Field <beatmapKey>5__3, offset: 0x78, size: 0x10, def value: None
+  /// @brief Field <beatmapKey>5__3, offset: 0x78, size: 0x18, def value: None
   ::GlobalNamespace::BeatmapKey ____beatmapKey_5__3;
 
-  /// @brief Field <screenshotExportFolderPath>5__4, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field <screenshotExportFolderPath>5__4, offset: 0x90, size: 0x8, def value: None
   ::StringW ____screenshotExportFolderPath_5__4;
 
-  /// @brief Field <gameplayModifiers>5__5, offset: 0x90, size: 0x8, def value: None
-  ::GlobalNamespace::GameplayModifiers* ____gameplayModifiers_5__5;
+  /// @brief Field <levelEndActions>5__5, offset: 0x98, size: 0x8, def value: None
+  ::GlobalNamespace::ILevelEndActions* ____levelEndActions_5__5;
 
-  /// @brief Field <playerSpecificSettings>5__6, offset: 0x98, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerSpecificSettings* ____playerSpecificSettings_5__6;
+  /// @brief Field <songDuration>5__6, offset: 0xa0, size: 0x4, def value: None
+  float_t ____songDuration_5__6;
 
-  /// @brief Field <levelEndActions>5__7, offset: 0xa0, size: 0x8, def value: None
-  ::GlobalNamespace::ILevelEndActions* ____levelEndActions_5__7;
+  /// @brief Field <nextScreenshotTime>5__7, offset: 0xa4, size: 0x4, def value: None
+  float_t ____nextScreenshotTime_5__7;
 
-  /// @brief Field <songDuration>5__8, offset: 0xa8, size: 0x4, def value: None
-  float_t ____songDuration_5__8;
+  /// @brief Field <renderCamera>5__8, offset: 0xa8, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Camera> ____renderCamera_5__8;
 
-  /// @brief Field <nextScreenshotTime>5__9, offset: 0xac, size: 0x4, def value: None
-  float_t ____nextScreenshotTime_5__9;
-
-  /// @brief Field <renderCamera>5__10, offset: 0xb0, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Camera> ____renderCamera_5__10;
-
-  /// @brief Field <screenshotTexture>5__11, offset: 0xb8, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Texture2D> ____screenshotTexture_5__11;
-
-  /// @brief Field <cancellationTokenSource>5__12, offset: 0xc0, size: 0x8, def value: None
-  ::System::Threading::CancellationTokenSource* ____cancellationTokenSource_5__12;
+  /// @brief Field <cancellationTokenSource>5__9, offset: 0xb0, size: 0x8, def value: None
+  ::System::Threading::CancellationTokenSource* ____cancellationTokenSource_5__9;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46, ___command) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53, ___command) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46, _____8__1) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53, _____8__1) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46, _____8__2) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53, _____8__2) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46, ____beatmapLevel_5__2) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53, ____beatmapLevel_5__2) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46, ____beatmapKey_5__3) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53, ____beatmapKey_5__3) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46, ____screenshotExportFolderPath_5__4) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53, ____screenshotExportFolderPath_5__4) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46, ____gameplayModifiers_5__5) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53, ____levelEndActions_5__5) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46, ____playerSpecificSettings_5__6) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53, ____songDuration_5__6) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46, ____levelEndActions_5__7) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53, ____nextScreenshotTime_5__7) == 0xa4, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46, ____songDuration_5__8) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53, ____renderCamera_5__8) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46, ____nextScreenshotTime_5__9) == 0xac, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53, ____cancellationTokenSource_5__9) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46, ____renderCamera_5__10) == 0xb0, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46, ____screenshotTexture_5__11) == 0xb8, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46, ____cancellationTokenSource_5__12) == 0xc0, "Offset mismatch!");
-
-static_assert(sizeof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46) == 0xc8, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53) == 0xb8, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ScreenshotLevelStarter/<RunScreenshotLevelQueue>d__45
-class CORDL_TYPE ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45 : public ::System::Object {
+// CS Name: ScreenshotLevelStarter/<RunScreenshotLevelQueue>d__52
+class CORDL_TYPE ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -1084,26 +1162,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5d30500, size 0x288, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d6ad98, size 0x288, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
-  static inline ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d30788, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d6b020, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d30790, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d6b028, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d307c8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d6b060, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x5d304fc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5d6ad94, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -1125,7 +1203,7 @@ public:
   constexpr void __cordl_internal_set___4__this(::GlobalNamespace::ScreenshotLevelStarter* value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x5d304f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d6ad8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -1140,19 +1218,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45();
+  constexpr ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45(ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45&&) = delete;
+  ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52(ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45(ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45 const&) = delete;
+  ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52(ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6888 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6895 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -1166,13 +1244,13 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45) == 0x28, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies System.Object
@@ -1184,21 +1262,21 @@ public:
   // Declarations
   using RunScreenshotLevelData = ::GlobalNamespace::ScreenshotLevelStarter_RunScreenshotLevelData;
 
-  using _RunScreenshotLevelQueue_d__45 = ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__45;
+  using _PopWhenTransitionSettles_d__49 = ::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49;
 
-  using _RunScreenshotLevel_d__46 = ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__46;
+  using _RunScreenshotLevelQueue_d__52 = ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52;
 
-  using __c__DisplayClass46_0 = ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_0;
+  using _RunScreenshotLevel_d__53 = ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53;
 
-  using __c__DisplayClass46_1 = ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass46_1;
+  using __c__DisplayClass53_0 = ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0;
 
-  __declspec(property(get = get_Screenshotting)) bool Screenshotting;
+  using __c__DisplayClass53_1 = ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1;
 
   /// @brief Field _beatmapLevels, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapLevels, put = __cordl_internal_set__beatmapLevels)) ::GlobalNamespace::BeatmapLevelsModel* _beatmapLevels;
 
-  /// @brief Field _cachedGameVersion, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__cachedGameVersion, put = __cordl_internal_set__cachedGameVersion)) ::StringW _cachedGameVersion;
+  /// @brief Field _captureStateApplied, offset 0x78, size 0x1
+  __declspec(property(get = __cordl_internal_get__captureStateApplied, put = __cordl_internal_set__captureStateApplied)) bool _captureStateApplied;
 
   /// @brief Field _commandQueue, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__commandQueue,
@@ -1216,8 +1294,14 @@ public:
   /// @brief Field _gameVersionProvider, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__gameVersionProvider, put = __cordl_internal_set__gameVersionProvider)) ::BeatSaber::Init::GameVersionProvider* _gameVersionProvider;
 
+  /// @brief Field _isPopPending, offset 0x70, size 0x1
+  __declspec(property(get = __cordl_internal_get__isPopPending, put = __cordl_internal_set__isPopPending)) bool _isPopPending;
+
   /// @brief Field _menuTransitionsHelper, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__menuTransitionsHelper, put = __cordl_internal_set__menuTransitionsHelper)) ::GlobalNamespace::MenuTransitionsHelper* _menuTransitionsHelper;
+
+  /// @brief Field _originalFixedDeltaTime, offset 0x74, size 0x4
+  __declspec(property(get = __cordl_internal_get__originalFixedDeltaTime, put = __cordl_internal_set__originalFixedDeltaTime)) float_t _originalFixedDeltaTime;
 
   /// @brief Field _playerDataModel, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel)) ::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
@@ -1229,63 +1313,81 @@ public:
   /// @brief Field _screenshotQueueCoroutine, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__screenshotQueueCoroutine, put = __cordl_internal_set__screenshotQueueCoroutine)) ::UnityEngine::Coroutine* _screenshotQueueCoroutine;
 
+  /// @brief Field _screenshotTexture, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__screenshotTexture, put = __cordl_internal_set__screenshotTexture)) ::UnityW<::UnityEngine::Texture2D> _screenshotTexture;
+
   /// @brief Field _settingsManager, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsManager, put = __cordl_internal_set__settingsManager)) ::GlobalNamespace::SettingsManager* _settingsManager;
 
   /// @brief Field _timeHelper, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__timeHelper, put = __cordl_internal_set__timeHelper)) ::UnityW<::GlobalNamespace::TimeHelper> _timeHelper;
 
+  __declspec(property(get = get_isScreenshotting)) bool isScreenshotting;
+
   /// @brief Field kWaitForEndOfFrame, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_kWaitForEndOfFrame, put = setStaticF_kWaitForEndOfFrame)) ::UnityEngine::WaitForEndOfFrame* kWaitForEndOfFrame;
 
-  /// @brief Method EnqueueScreenshotLevel, addr 0x5d2d10c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method DestroyScreenshotTexture, addr 0x5d677c0, size 0x90, virtual false, abstract: false, final false
+  inline void DestroyScreenshotTexture();
+
+  /// @brief Method EnqueueScreenshotLevel, addr 0x5d67438, size 0x11c, virtual false, abstract: false, final false
   inline void EnqueueScreenshotLevel(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command command);
 
-  /// @brief Method EnqueueScreenshotLevel, addr 0x5d2d0d0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method EnqueueScreenshotLevel, addr 0x5d673fc, size 0x30, virtual false, abstract: false, final false
   inline void EnqueueScreenshotLevel(::StringW levelID, ::StringW characteristic, ::StringW difficulty, float_t screenshotPeriod, ::System::Collections::Generic::List_1<float_t>* screenshotTimes,
                                      int32_t captureFramerate);
 
-  /// @brief Method HandlePauseControllerCanPause, addr 0x5d2dc7c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandlePauseControllerCanPause, addr 0x5d6826c, size 0x1c, virtual false, abstract: false, final false
   inline void HandlePauseControllerCanPause(::System::Action_1<bool>* canPause);
 
   static inline ::GlobalNamespace::ScreenshotLevelStarter* New_ctor();
 
-  /// [IteratorStateMachine(typeof(ScreenshotLevelStarter::<RunScreenshotLevel>d__46))]
-  /// @brief Method RunScreenshotLevel, addr 0x5d2d37c, size 0x7c, virtual false, abstract: false, final false
+  /// [IteratorStateMachine(typeof(ScreenshotLevelStarter::<PopWhenTransitionSettles>d__49))]
+  /// @brief Method PopWhenTransitionSettles, addr 0x5d67920, size 0x54, virtual false, abstract: false, final false
+  inline ::System::Collections::IEnumerator* PopWhenTransitionSettles();
+
+  /// @brief Method RestoreCaptureState, addr 0x5d6771c, size 0xa4, virtual false, abstract: false, final false
+  inline void RestoreCaptureState();
+
+  /// [IteratorStateMachine(typeof(ScreenshotLevelStarter::<RunScreenshotLevel>d__53))]
+  /// @brief Method RunScreenshotLevel, addr 0x5d67974, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* RunScreenshotLevel(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command command);
 
-  /// [IteratorStateMachine(typeof(ScreenshotLevelStarter::<RunScreenshotLevelQueue>d__45))]
-  /// @brief Method RunScreenshotLevelQueue, addr 0x5d2d228, size 0x54, virtual false, abstract: false, final false
+  /// [IteratorStateMachine(typeof(ScreenshotLevelStarter::<RunScreenshotLevelQueue>d__52))]
+  /// @brief Method RunScreenshotLevelQueue, addr 0x5d67554, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* RunScreenshotLevelQueue();
 
-  /// @brief Method SaveBuildSpecificMetadata, addr 0x5d2d98c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SaveBuildSpecificMetadata, addr 0x5d67f7c, size 0xf0, virtual false, abstract: false, final false
   static inline void SaveBuildSpecificMetadata(::StringW metadataFolderPath, /* [IsReadOnly] */ ::by_ref<::StringW const> gameVersion);
 
-  /// @brief Method SaveDeviceMetadata, addr 0x5d2d784, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method SaveDeviceMetadata, addr 0x5d67d74, size 0x208, virtual false, abstract: false, final false
   static inline void SaveDeviceMetadata(::StringW metadataFolderPath);
 
-  /// @brief Method SaveMetadata, addr 0x5d2d400, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method SaveMetadata, addr 0x5d679f0, size 0x158, virtual false, abstract: false, final false
   static inline void SaveMetadata(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command command, ::StringW metadataFolderPath,
                                   /* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings const> settings,
                                   /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::PlayerSpecificSettings* const> playerSpecificSettings,
                                   /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayModifiers* const> gameplayModifiers);
 
-  /// @brief Method SaveMetadataObject, addr 0x5d2d558, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method SaveMetadataObject, addr 0x5d67b48, size 0x22c, virtual false, abstract: false, final false
   static inline void SaveMetadataObject(::System::Object* obj, ::StringW path);
 
-  /// @brief Method StopScreenshotting, addr 0x5d2d27c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method StartPopWhenTransitionSettles, addr 0x5d67850, size 0xd0, virtual false, abstract: false, final false
+  inline void StartPopWhenTransitionSettles();
+
+  /// @brief Method StopScreenshotting, addr 0x5d675a8, size 0x174, virtual false, abstract: false, final false
   inline void StopScreenshotting();
 
-  /// @brief Method TakeScreenshotFromCamera, addr 0x5d2da7c, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method TakeScreenshotFromCamera, addr 0x5d6806c, size 0x200, virtual false, abstract: false, final false
   static inline void TakeScreenshotFromCamera(::UnityEngine::Camera* camera, ::UnityEngine::Texture2D* screenshotTexture);
 
   constexpr ::GlobalNamespace::BeatmapLevelsModel* const& __cordl_internal_get__beatmapLevels() const;
 
   constexpr ::GlobalNamespace::BeatmapLevelsModel*& __cordl_internal_get__beatmapLevels();
 
-  constexpr ::StringW const& __cordl_internal_get__cachedGameVersion() const;
+  constexpr bool const& __cordl_internal_get__captureStateApplied() const;
 
-  constexpr ::StringW& __cordl_internal_get__cachedGameVersion();
+  constexpr bool& __cordl_internal_get__captureStateApplied();
 
   constexpr ::System::Collections::Generic::Queue_1<::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command>* const& __cordl_internal_get__commandQueue() const;
 
@@ -1307,9 +1409,17 @@ public:
 
   constexpr ::BeatSaber::Init::GameVersionProvider*& __cordl_internal_get__gameVersionProvider();
 
+  constexpr bool const& __cordl_internal_get__isPopPending() const;
+
+  constexpr bool& __cordl_internal_get__isPopPending();
+
   constexpr ::GlobalNamespace::MenuTransitionsHelper* const& __cordl_internal_get__menuTransitionsHelper() const;
 
   constexpr ::GlobalNamespace::MenuTransitionsHelper*& __cordl_internal_get__menuTransitionsHelper();
+
+  constexpr float_t const& __cordl_internal_get__originalFixedDeltaTime() const;
+
+  constexpr float_t& __cordl_internal_get__originalFixedDeltaTime();
 
   constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
 
@@ -1323,6 +1433,10 @@ public:
 
   constexpr ::UnityEngine::Coroutine*& __cordl_internal_get__screenshotQueueCoroutine();
 
+  constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get__screenshotTexture() const;
+
+  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get__screenshotTexture();
+
   constexpr ::GlobalNamespace::SettingsManager* const& __cordl_internal_get__settingsManager() const;
 
   constexpr ::GlobalNamespace::SettingsManager*& __cordl_internal_get__settingsManager();
@@ -1333,7 +1447,7 @@ public:
 
   constexpr void __cordl_internal_set__beatmapLevels(::GlobalNamespace::BeatmapLevelsModel* value);
 
-  constexpr void __cordl_internal_set__cachedGameVersion(::StringW value);
+  constexpr void __cordl_internal_set__captureStateApplied(bool value);
 
   constexpr void __cordl_internal_set__commandQueue(::System::Collections::Generic::Queue_1<::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command>* value);
 
@@ -1345,7 +1459,11 @@ public:
 
   constexpr void __cordl_internal_set__gameVersionProvider(::BeatSaber::Init::GameVersionProvider* value);
 
+  constexpr void __cordl_internal_set__isPopPending(bool value);
+
   constexpr void __cordl_internal_set__menuTransitionsHelper(::GlobalNamespace::MenuTransitionsHelper* value);
+
+  constexpr void __cordl_internal_set__originalFixedDeltaTime(float_t value);
 
   constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
@@ -1353,17 +1471,19 @@ public:
 
   constexpr void __cordl_internal_set__screenshotQueueCoroutine(::UnityEngine::Coroutine* value);
 
+  constexpr void __cordl_internal_set__screenshotTexture(::UnityW<::UnityEngine::Texture2D> value);
+
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
   constexpr void __cordl_internal_set__timeHelper(::UnityW<::GlobalNamespace::TimeHelper> value);
 
-  /// @brief Method .ctor, addr 0x5d2dc98, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d68288, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::WaitForEndOfFrame* getStaticF_kWaitForEndOfFrame();
 
-  /// @brief Method get_Screenshotting, addr 0x5d2d0c0, size 0x10, virtual false, abstract: false, final false
-  inline bool get_Screenshotting();
+  /// @brief Method get_isScreenshotting, addr 0x5d673dc, size 0x20, virtual false, abstract: false, final false
+  inline bool get_isScreenshotting();
 
   static inline void setStaticF_kWaitForEndOfFrame(::UnityEngine::WaitForEndOfFrame* value);
 
@@ -1382,7 +1502,7 @@ public:
   ScreenshotLevelStarter(ScreenshotLevelStarter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6889 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6896 };
 
   /// @brief Field kCameraFieldOfView offset 0xffffffff size 0x4
   static constexpr float_t kCameraFieldOfView{ static_cast<float_t>(70.0f) };
@@ -1413,6 +1533,9 @@ public:
 
   /// @brief Field kFmtMessageErrorSavingScreenshot offset 0xffffffff size 0x8
   static constexpr ::ConstString kFmtMessageErrorSavingScreenshot{ u"ScreenshotLevelStarter: Error while saving screenshot to path {0}: {1}" };
+
+  /// @brief Field kFmtMessagePlayerSensitivity offset 0xffffffff size 0x8
+  static constexpr ::ConstString kFmtMessagePlayerSensitivity{ u"ScreenshotLevelStarter: Level content rating {0} is hidden by the current sensitivity flag {1}" };
 
   /// @brief Field kFmtMessageSavingMetadata offset 0xffffffff size 0x8
   static constexpr ::ConstString kFmtMessageSavingMetadata{ u"ScreenshotLevelStarter: Writing metadata to path {0}" };
@@ -1446,9 +1569,6 @@ public:
 
   /// @brief Field kMessageDefaultingToFrameRate offset 0xffffffff size 0x8
   static constexpr ::ConstString kMessageDefaultingToFrameRate{ u"ScreenshotLevelStarter: Defaulting to frame rate of 30 FPS, no valid command.framerate set." };
-
-  /// @brief Field kMessagePlayerSensitivity offset 0xffffffff size 0x8
-  static constexpr ::ConstString kMessagePlayerSensitivity{ u"ScreenshotLevelStarter: Player not allowed to play explicit songs" };
 
   /// @brief Field kMessageQueueFinished offset 0xffffffff size 0x8
   static constexpr ::ConstString kMessageQueueFinished{ u"ScreenshotLevelStarter: ---Finished the screenshot level queue---" };
@@ -1508,8 +1628,17 @@ public:
   /// @brief Field _screenshotQueueCoroutine, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::Coroutine* ____screenshotQueueCoroutine;
 
-  /// @brief Field _cachedGameVersion, offset: 0x70, size: 0x8, def value: None
-  ::StringW ____cachedGameVersion;
+  /// @brief Field _isPopPending, offset: 0x70, size: 0x1, def value: None
+  bool ____isPopPending;
+
+  /// @brief Field _originalFixedDeltaTime, offset: 0x74, size: 0x4, def value: None
+  float_t ____originalFixedDeltaTime;
+
+  /// @brief Field _captureStateApplied, offset: 0x78, size: 0x1, def value: None
+  bool ____captureStateApplied;
+
+  /// @brief Field _screenshotTexture, offset: 0x80, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Texture2D> ____screenshotTexture;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1538,8 +1667,14 @@ static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter, ____commandQue
 
 static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter, ____screenshotQueueCoroutine) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter, ____cachedGameVersion) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter, ____isPopPending) == 0x70, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::ScreenshotLevelStarter) == 0x78, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter, ____originalFixedDeltaTime) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter, ____captureStateApplied) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScreenshotLevelStarter, ____screenshotTexture) == 0x80, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::ScreenshotLevelStarter) == 0x88, "Size mismatch!");
 
 } // namespace GlobalNamespace

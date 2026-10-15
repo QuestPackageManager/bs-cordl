@@ -52,7 +52,7 @@ public:
   static ::UnityEngine::Rendering::RadeonRays::IndexFormat const Int32;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20428 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20475 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

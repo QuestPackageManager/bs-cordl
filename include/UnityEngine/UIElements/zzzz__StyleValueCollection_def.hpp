@@ -64,45 +64,45 @@ public:
   /// @brief Field m_Values, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Values, put = __cordl_internal_set_m_Values)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StyleValue>* m_Values;
 
-  /// @brief Method GetStyleBackground, addr 0x7104c4c, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method GetStyleBackground, addr 0x7141b80, size 0x268, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleBackground GetStyleBackground(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method GetStyleBackgroundPosition, addr 0x7104f84, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetStyleBackgroundPosition, addr 0x7141eb8, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleBackgroundPosition GetStyleBackgroundPosition(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method GetStyleBackgroundRepeat, addr 0x7104ffc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetStyleBackgroundRepeat, addr 0x7141f30, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleBackgroundRepeat GetStyleBackgroundRepeat(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method GetStyleColor, addr 0x7104bbc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetStyleColor, addr 0x7141af0, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleColor GetStyleColor(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method GetStyleFloat, addr 0x7104acc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetStyleFloat, addr 0x7141a00, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleFloat GetStyleFloat(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method GetStyleFont, addr 0x7105074, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetStyleFont, addr 0x7141fa8, size 0xd4, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleFont GetStyleFont(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method GetStyleFontDefinition, addr 0x7105164, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetStyleFontDefinition, addr 0x7142098, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleFontDefinition GetStyleFontDefinition(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method GetStyleInt, addr 0x7104b38, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetStyleInt, addr 0x7141a6c, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleInt GetStyleInt(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method GetStyleLength, addr 0x7104898, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetStyleLength, addr 0x71417cc, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength GetStyleLength(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method GetStyleMaterialDefinition, addr 0x7105238, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetStyleMaterialDefinition, addr 0x714216c, size 0x98, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleMaterialDefinition GetStyleMaterialDefinition(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method GetStyleRatio, addr 0x7105308, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetStyleRatio, addr 0x714223c, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleRatio GetStyleRatio(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
   static inline ::UnityEngine::UIElements::StyleValueCollection* New_ctor();
 
-  /// @brief Method SetStyleValue, addr 0x710537c, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method SetStyleValue, addr 0x71422b0, size 0x214, virtual false, abstract: false, final false
   inline void SetStyleValue(::UnityEngine::UIElements::StyleSheets::StyleValue value);
 
-  /// @brief Method TryGetStyleValue, addr 0x7104904, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method TryGetStyleValue, addr 0x7141838, size 0x198, virtual false, abstract: false, final false
   inline bool TryGetStyleValue(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::by_ref<::UnityEngine::UIElements::StyleSheets::StyleValue> value);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StyleValue>* const& __cordl_internal_get_m_Values() const;
@@ -111,7 +111,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Values(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StyleValue>* value);
 
-  /// @brief Method .ctor, addr 0x7105590, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71424c4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

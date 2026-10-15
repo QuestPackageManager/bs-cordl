@@ -90,197 +90,197 @@ public:
   constexpr operator ::UnityEngine::IExposedPropertyTable*() noexcept;
 
   /// [NativeMethod("ClearBindingFor")]
-  /// @brief Method ClearGenericBinding, addr 0x6f92224, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ClearGenericBinding, addr 0x6fcf100, size 0xc0, virtual false, abstract: false, final false
   inline void ClearGenericBinding(::UnityEngine::Object* key);
 
-  /// @brief Method ClearGenericBinding_Injected, addr 0x6f922e4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ClearGenericBinding_Injected, addr 0x6fcf1c0, size 0x44, virtual false, abstract: false, final false
   static inline void ClearGenericBinding_Injected(::System::IntPtr _unity_self, ::System::IntPtr key);
 
-  /// @brief Method ClearReferenceValue, addr 0x6f91cac, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method ClearReferenceValue, addr 0x6fceb88, size 0x94, virtual true, abstract: false, final true
   inline void ClearReferenceValue(::UnityEngine::PropertyName id);
 
-  /// @brief Method ClearReferenceValue_Injected, addr 0x6f91d40, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ClearReferenceValue_Injected, addr 0x6fcec1c, size 0x44, virtual false, abstract: false, final false
   static inline void ClearReferenceValue_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::PropertyName const> id);
 
-  /// @brief Method DeferredEvaluate, addr 0x6f90ed4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DeferredEvaluate, addr 0x6fcddb0, size 0x4, virtual false, abstract: false, final false
   inline void DeferredEvaluate();
 
   /// [NativeThrows]
-  /// @brief Method Evaluate, addr 0x6f91880, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Evaluate, addr 0x6fce75c, size 0x80, virtual false, abstract: false, final false
   inline void Evaluate();
 
   /// [NativeThrows]
-  /// @brief Method EvaluateNextFrame, addr 0x6f90ed8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method EvaluateNextFrame, addr 0x6fcddb4, size 0x80, virtual false, abstract: false, final false
   inline void EvaluateNextFrame();
 
-  /// @brief Method EvaluateNextFrame_Injected, addr 0x6f92660, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EvaluateNextFrame_Injected, addr 0x6fcf53c, size 0x3c, virtual false, abstract: false, final false
   static inline void EvaluateNextFrame_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method Evaluate_Injected, addr 0x6f91900, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Evaluate_Injected, addr 0x6fce7dc, size 0x3c, virtual false, abstract: false, final false
   static inline void Evaluate_Injected(::System::IntPtr _unity_self);
 
   /// [NativeMethod("GetBindingFor")]
-  /// @brief Method GetGenericBinding, addr 0x6f92058, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetGenericBinding, addr 0x6fcef34, size 0x188, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> GetGenericBinding(::UnityEngine::Object* key);
 
-  /// @brief Method GetGenericBinding_Injected, addr 0x6f921e0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetGenericBinding_Injected, addr 0x6fcf0bc, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetGenericBinding_Injected(::System::IntPtr _unity_self, ::System::IntPtr key);
 
-  /// @brief Method GetGraphHandle, addr 0x6f90d24, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetGraphHandle, addr 0x6fcdc00, size 0x98, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::PlayableGraph GetGraphHandle();
 
-  /// @brief Method GetGraphHandle_Injected, addr 0x6f9269c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetGraphHandle_Injected, addr 0x6fcf578, size 0x44, virtual false, abstract: false, final false
   static inline void GetGraphHandle_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Playables::PlayableGraph> ret);
 
-  /// @brief Method GetPlayOnAwake, addr 0x6f90dc0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetPlayOnAwake, addr 0x6fcdc9c, size 0x80, virtual false, abstract: false, final false
   inline bool GetPlayOnAwake();
 
-  /// @brief Method GetPlayOnAwake_Injected, addr 0x6f92724, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetPlayOnAwake_Injected, addr 0x6fcf600, size 0x3c, virtual false, abstract: false, final false
   static inline bool GetPlayOnAwake_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method GetPlayState, addr 0x6f908f0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetPlayState, addr 0x6fcd7cc, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::PlayState GetPlayState();
 
-  /// @brief Method GetPlayState_Injected, addr 0x6f925a4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetPlayState_Injected, addr 0x6fcf480, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayState GetPlayState_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method GetReferenceValue, addr 0x6f91ea4, size 0x160, virtual true, abstract: false, final true
+  /// @brief Method GetReferenceValue, addr 0x6fced80, size 0x160, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Object> GetReferenceValue(::UnityEngine::PropertyName id, ::by_ref<bool> idValid);
 
-  /// @brief Method GetReferenceValue_Injected, addr 0x6f92004, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetReferenceValue_Injected, addr 0x6fceee0, size 0x54, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetReferenceValue_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::PropertyName const> id, ::by_ref<bool> idValid);
 
-  /// @brief Method GetWrapMode, addr 0x6f90a08, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetWrapMode, addr 0x6fcd8e4, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::DirectorWrapMode GetWrapMode();
 
-  /// @brief Method GetWrapMode_Injected, addr 0x6f92624, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetWrapMode_Injected, addr 0x6fcf500, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::DirectorWrapMode GetWrapMode_Injected(::System::IntPtr _unity_self);
 
   /// [NativeMethod("HasBinding")]
-  /// @brief Method HasGenericBinding, addr 0x6f924a0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method HasGenericBinding, addr 0x6fcf37c, size 0xc0, virtual false, abstract: false, final false
   inline bool HasGenericBinding(::UnityEngine::Object* key);
 
-  /// @brief Method HasGenericBinding_Injected, addr 0x6f92560, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HasGenericBinding_Injected, addr 0x6fcf43c, size 0x44, virtual false, abstract: false, final false
   static inline bool HasGenericBinding_Injected(::System::IntPtr _unity_self, ::System::IntPtr key);
 
-  /// @brief Method Internal_GetPlayableAsset, addr 0x6f90b0c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetPlayableAsset, addr 0x6fcd9e8, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ScriptableObject> Internal_GetPlayableAsset();
 
-  /// @brief Method Internal_GetPlayableAsset_Injected, addr 0x6f927f8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetPlayableAsset_Injected, addr 0x6fcf6d4, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_GetPlayableAsset_Injected(::System::IntPtr _unity_self);
 
   /// [NativeThrows]
-  /// @brief Method Internal_SetGenericBinding, addr 0x6f91224, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetGenericBinding, addr 0x6fce100, size 0xe0, virtual false, abstract: false, final false
   inline void Internal_SetGenericBinding(::UnityEngine::Object* key, ::UnityEngine::Object* value);
 
-  /// @brief Method Internal_SetGenericBinding_Injected, addr 0x6f92760, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetGenericBinding_Injected, addr 0x6fcf63c, size 0x54, virtual false, abstract: false, final false
   static inline void Internal_SetGenericBinding_Injected(::System::IntPtr _unity_self, ::System::IntPtr key, ::System::IntPtr value);
 
   static inline ::UnityEngine::Playables::PlayableDirector* New_ctor();
 
-  /// @brief Method Pause, addr 0x6f91a78, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Pause, addr 0x6fce954, size 0x80, virtual false, abstract: false, final false
   inline void Pause();
 
-  /// @brief Method Pause_Injected, addr 0x6f91af8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Pause_Injected, addr 0x6fce9d4, size 0x3c, virtual false, abstract: false, final false
   static inline void Pause_Injected(::System::IntPtr _unity_self);
 
   /// [NativeThrows]
-  /// @brief Method Play, addr 0x6f911a0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x6fce07c, size 0x80, virtual false, abstract: false, final false
   inline void Play();
 
-  /// @brief Method Play, addr 0x6f90ff4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x6fcded0, size 0xd0, virtual false, abstract: false, final false
   inline void Play(::UnityEngine::Playables::PlayableAsset* asset);
 
-  /// @brief Method Play, addr 0x6f910c4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x6fcdfa0, size 0xdc, virtual false, abstract: false, final false
   inline void Play(::UnityEngine::Playables::PlayableAsset* asset, ::UnityEngine::Playables::DirectorWrapMode mode);
 
-  /// @brief Method Play, addr 0x6f90f58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x6fcde34, size 0x8, virtual false, abstract: false, final false
   inline void Play(::UnityEngine::Playables::FrameRate frameRate);
 
   /// [NativeThrows]
-  /// @brief Method PlayOnFrame, addr 0x6f90f60, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method PlayOnFrame, addr 0x6fcde3c, size 0x94, virtual false, abstract: false, final false
   inline void PlayOnFrame(::UnityEngine::Playables::FrameRate frameRate);
 
-  /// @brief Method PlayOnFrame_Injected, addr 0x6f9193c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method PlayOnFrame_Injected, addr 0x6fce818, size 0x44, virtual false, abstract: false, final false
   static inline void PlayOnFrame_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Playables::FrameRate const> frameRate);
 
-  /// @brief Method Play_Injected, addr 0x6f91980, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Play_Injected, addr 0x6fce85c, size 0x3c, virtual false, abstract: false, final false
   static inline void Play_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method ProcessPendingGraphChanges, addr 0x6f923e4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ProcessPendingGraphChanges, addr 0x6fcf2c0, size 0x80, virtual false, abstract: false, final false
   inline void ProcessPendingGraphChanges();
 
-  /// @brief Method ProcessPendingGraphChanges_Injected, addr 0x6f92464, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ProcessPendingGraphChanges_Injected, addr 0x6fcf340, size 0x3c, virtual false, abstract: false, final false
   static inline void ProcessPendingGraphChanges_Injected(::System::IntPtr _unity_self);
 
   /// [NativeThrows]
-  /// @brief Method RebindPlayableGraphOutputs, addr 0x6f92328, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method RebindPlayableGraphOutputs, addr 0x6fcf204, size 0x80, virtual false, abstract: false, final false
   inline void RebindPlayableGraphOutputs();
 
-  /// @brief Method RebindPlayableGraphOutputs_Injected, addr 0x6f923a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method RebindPlayableGraphOutputs_Injected, addr 0x6fcf284, size 0x3c, virtual false, abstract: false, final false
   static inline void RebindPlayableGraphOutputs_Injected(::System::IntPtr _unity_self);
 
   /// [NativeThrows]
-  /// @brief Method RebuildGraph, addr 0x6f91bf0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method RebuildGraph, addr 0x6fceacc, size 0x80, virtual false, abstract: false, final false
   inline void RebuildGraph();
 
-  /// @brief Method RebuildGraph_Injected, addr 0x6f91c70, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method RebuildGraph_Injected, addr 0x6fceb4c, size 0x3c, virtual false, abstract: false, final false
   static inline void RebuildGraph_Injected(::System::IntPtr _unity_self);
 
   /// [StaticAccessor("GetDirectorManager()", (UnityEngine.Bindings.StaticAccessorType)0)]
   /// [NativeHeader("Runtime/Director/Core/DirectorManager.h")]
-  /// @brief Method ResetFrameTiming, addr 0x6f92cb4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ResetFrameTiming, addr 0x6fcfb90, size 0x28, virtual false, abstract: false, final false
   static inline void ResetFrameTiming();
 
-  /// @brief Method Resume, addr 0x6f91b34, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Resume, addr 0x6fcea10, size 0x80, virtual false, abstract: false, final false
   inline void Resume();
 
-  /// @brief Method Resume_Injected, addr 0x6f91bb4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Resume_Injected, addr 0x6fcea90, size 0x3c, virtual false, abstract: false, final false
   static inline void Resume_Injected(::System::IntPtr _unity_self);
 
   /// [RequiredByNativeCode]
-  /// @brief Method SendOnPlayableDirectorPause, addr 0x6f92cfc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SendOnPlayableDirectorPause, addr 0x6fcfbd8, size 0x20, virtual false, abstract: false, final false
   inline void SendOnPlayableDirectorPause();
 
   /// [RequiredByNativeCode]
-  /// @brief Method SendOnPlayableDirectorPlay, addr 0x6f92cdc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SendOnPlayableDirectorPlay, addr 0x6fcfbb8, size 0x20, virtual false, abstract: false, final false
   inline void SendOnPlayableDirectorPlay();
 
   /// [RequiredByNativeCode]
-  /// @brief Method SendOnPlayableDirectorStop, addr 0x6f92d1c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SendOnPlayableDirectorStop, addr 0x6fcfbf8, size 0x20, virtual false, abstract: false, final false
   inline void SendOnPlayableDirectorStop();
 
-  /// @brief Method SetGenericBinding, addr 0x6f91220, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetGenericBinding, addr 0x6fce0fc, size 0x4, virtual false, abstract: false, final false
   inline void SetGenericBinding(::UnityEngine::Object* key, ::UnityEngine::Object* value);
 
-  /// @brief Method SetPlayOnAwake, addr 0x6f90e44, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetPlayOnAwake, addr 0x6fcdd20, size 0x90, virtual false, abstract: false, final false
   inline void SetPlayOnAwake(bool on);
 
-  /// @brief Method SetPlayOnAwake_Injected, addr 0x6f926e0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetPlayOnAwake_Injected, addr 0x6fcf5bc, size 0x44, virtual false, abstract: false, final false
   static inline void SetPlayOnAwake_Injected(::System::IntPtr _unity_self, bool on);
 
-  /// @brief Method SetPlayableAsset, addr 0x6f90c60, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SetPlayableAsset, addr 0x6fcdb3c, size 0xc0, virtual false, abstract: false, final false
   inline void SetPlayableAsset(::UnityEngine::ScriptableObject* asset);
 
-  /// @brief Method SetPlayableAsset_Injected, addr 0x6f927b4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetPlayableAsset_Injected, addr 0x6fcf690, size 0x44, virtual false, abstract: false, final false
   static inline void SetPlayableAsset_Injected(::System::IntPtr _unity_self, ::System::IntPtr asset);
 
-  /// @brief Method SetReferenceValue, addr 0x6f91d84, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method SetReferenceValue, addr 0x6fcec60, size 0xcc, virtual true, abstract: false, final true
   inline void SetReferenceValue(::UnityEngine::PropertyName id, ::UnityEngine::Object* value);
 
-  /// @brief Method SetReferenceValue_Injected, addr 0x6f91e50, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetReferenceValue_Injected, addr 0x6fced2c, size 0x54, virtual false, abstract: false, final false
   static inline void SetReferenceValue_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::PropertyName const> id, ::System::IntPtr value);
 
-  /// @brief Method SetWrapMode, addr 0x6f90974, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetWrapMode, addr 0x6fcd850, size 0x90, virtual false, abstract: false, final false
   inline void SetWrapMode(::UnityEngine::Playables::DirectorWrapMode mode);
 
-  /// @brief Method SetWrapMode_Injected, addr 0x6f925e0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetWrapMode_Injected, addr 0x6fcf4bc, size 0x44, virtual false, abstract: false, final false
   static inline void SetWrapMode_Injected(::System::IntPtr _unity_self, ::UnityEngine::Playables::DirectorWrapMode mode);
 
-  /// @brief Method Stop, addr 0x6f919bc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x6fce898, size 0x80, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method Stop_Injected, addr 0x6f91a3c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Stop_Injected, addr 0x6fce918, size 0x3c, virtual false, abstract: false, final false
   static inline void Stop_Injected(::System::IntPtr _unity_self);
 
   constexpr ::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* const& __cordl_internal_get_paused() const;
@@ -301,100 +301,100 @@ public:
 
   constexpr void __cordl_internal_set_stopped(::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* value);
 
-  /// @brief Method .ctor, addr 0x6f92d3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fcfc18, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_paused, addr 0x6f929b4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_paused, addr 0x6fcf890, size 0xc0, virtual false, abstract: false, final false
   inline void add_paused(::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_played, addr 0x6f92834, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_played, addr 0x6fcf710, size 0xc0, virtual false, abstract: false, final false
   inline void add_played(::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_stopped, addr 0x6f92b34, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_stopped, addr 0x6fcfa10, size 0xc0, virtual false, abstract: false, final false
   inline void add_stopped(::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* value);
 
-  /// @brief Method get_duration, addr 0x6f917c4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_duration, addr 0x6fce6a0, size 0x80, virtual false, abstract: false, final false
   inline double_t get_duration();
 
-  /// @brief Method get_duration_Injected, addr 0x6f91844, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_duration_Injected, addr 0x6fce720, size 0x3c, virtual false, abstract: false, final false
   static inline double_t get_duration_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_extrapolationMode, addr 0x6f90a04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_extrapolationMode, addr 0x6fcd8e0, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::DirectorWrapMode get_extrapolationMode();
 
-  /// @brief Method get_initialTime, addr 0x6f91708, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_initialTime, addr 0x6fce5e4, size 0x80, virtual false, abstract: false, final false
   inline double_t get_initialTime();
 
-  /// @brief Method get_initialTime_Injected, addr 0x6f91788, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_initialTime_Injected, addr 0x6fce664, size 0x3c, virtual false, abstract: false, final false
   static inline double_t get_initialTime_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_playOnAwake, addr 0x6f90dbc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_playOnAwake, addr 0x6fcdc98, size 0x4, virtual false, abstract: false, final false
   inline bool get_playOnAwake();
 
-  /// @brief Method get_playableAsset, addr 0x6f90a88, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_playableAsset, addr 0x6fcd964, size 0x84, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Playables::PlayableAsset> get_playableAsset();
 
-  /// @brief Method get_playableGraph, addr 0x6f90d20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_playableGraph, addr 0x6fcdbfc, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::PlayableGraph get_playableGraph();
 
-  /// @brief Method get_state, addr 0x6f908ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_state, addr 0x6fcd7c8, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::PlayState get_state();
 
-  /// @brief Method get_time, addr 0x6f91570, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x6fce44c, size 0x80, virtual false, abstract: false, final false
   inline double_t get_time();
 
-  /// @brief Method get_timeUpdateMode, addr 0x6f913d8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_timeUpdateMode, addr 0x6fce2b4, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::DirectorUpdateMode get_timeUpdateMode();
 
-  /// @brief Method get_timeUpdateMode_Injected, addr 0x6f91458, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_timeUpdateMode_Injected, addr 0x6fce334, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::DirectorUpdateMode get_timeUpdateMode_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_time_Injected, addr 0x6f915f0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_time_Injected, addr 0x6fce4cc, size 0x3c, virtual false, abstract: false, final false
   static inline double_t get_time_Injected(::System::IntPtr _unity_self);
 
   /// @brief Convert to "::UnityEngine::IExposedPropertyTable"
   constexpr ::UnityEngine::IExposedPropertyTable* i___UnityEngine__IExposedPropertyTable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_paused, addr 0x6f92a74, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_paused, addr 0x6fcf950, size 0xc0, virtual false, abstract: false, final false
   inline void remove_paused(::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_played, addr 0x6f928f4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_played, addr 0x6fcf7d0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_played(::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_stopped, addr 0x6f92bf4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_stopped, addr 0x6fcfad0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_stopped(::System::Action_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>* value);
 
-  /// @brief Method set_extrapolationMode, addr 0x6f90970, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_extrapolationMode, addr 0x6fcd84c, size 0x4, virtual false, abstract: false, final false
   inline void set_extrapolationMode(::UnityEngine::Playables::DirectorWrapMode value);
 
-  /// @brief Method set_initialTime, addr 0x6f9162c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_initialTime, addr 0x6fce508, size 0x90, virtual false, abstract: false, final false
   inline void set_initialTime(double_t value);
 
-  /// @brief Method set_initialTime_Injected, addr 0x6f916bc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_initialTime_Injected, addr 0x6fce598, size 0x4c, virtual false, abstract: false, final false
   static inline void set_initialTime_Injected(::System::IntPtr _unity_self, double_t value);
 
-  /// @brief Method set_playOnAwake, addr 0x6f90e40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_playOnAwake, addr 0x6fcdd1c, size 0x4, virtual false, abstract: false, final false
   inline void set_playOnAwake(bool value);
 
-  /// @brief Method set_playableAsset, addr 0x6f90c5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_playableAsset, addr 0x6fcdb38, size 0x4, virtual false, abstract: false, final false
   inline void set_playableAsset(::UnityEngine::Playables::PlayableAsset* value);
 
-  /// @brief Method set_time, addr 0x6f91494, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_time, addr 0x6fce370, size 0x90, virtual false, abstract: false, final false
   inline void set_time(double_t value);
 
-  /// @brief Method set_timeUpdateMode, addr 0x6f91304, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_timeUpdateMode, addr 0x6fce1e0, size 0x90, virtual false, abstract: false, final false
   inline void set_timeUpdateMode(::UnityEngine::Playables::DirectorUpdateMode value);
 
-  /// @brief Method set_timeUpdateMode_Injected, addr 0x6f91394, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_timeUpdateMode_Injected, addr 0x6fce270, size 0x44, virtual false, abstract: false, final false
   static inline void set_timeUpdateMode_Injected(::System::IntPtr _unity_self, ::UnityEngine::Playables::DirectorUpdateMode value);
 
-  /// @brief Method set_time_Injected, addr 0x6f91524, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_time_Injected, addr 0x6fce400, size 0x4c, virtual false, abstract: false, final false
   static inline void set_time_Injected(::System::IntPtr _unity_self, double_t value);
 
 protected:
@@ -412,7 +412,7 @@ public:
   PlayableDirector(PlayableDirector const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23144 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23224 };
 
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]

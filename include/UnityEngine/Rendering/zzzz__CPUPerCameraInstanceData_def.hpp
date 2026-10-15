@@ -45,22 +45,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x6c59d00, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6c9697c, size 0x58, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Grow, addr 0x6c5a5a8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Grow, addr 0x6c97224, size 0x6c, virtual false, abstract: false, final false
   inline void Grow(int32_t previousCapacity, int32_t newCapacity);
 
-  /// @brief Method Remove, addr 0x6c5a1b8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x6c96e34, size 0x7c, virtual false, abstract: false, final false
   inline void Remove(int32_t index, int32_t lastIndex);
 
-  /// @brief Method SetDefault, addr 0x6c5a7f8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetDefault, addr 0x6c97474, size 0x60, virtual false, abstract: false, final false
   inline void SetDefault(int32_t index);
 
-  /// @brief Method .ctor, addr 0x6c59f18, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c96b94, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(int32_t initCapacity);
 
-  /// @brief Method get_IsCreated, addr 0x6c5a858, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_IsCreated, addr 0x6c974d4, size 0x5c, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
   /// @brief Convert to "::System::IDisposable"
@@ -76,7 +76,7 @@ public:
                                                                  ::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<uint8_t> crossFades) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18220 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18253 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -115,46 +115,46 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method AllocateCameras, addr 0x6c59d58, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method AllocateCameras, addr 0x6c969d4, size 0x1c0, virtual false, abstract: false, final false
   inline void AllocateCameras(::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> cameraIDs);
 
-  /// @brief Method DeallocateCameras, addr 0x6c59b5c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method DeallocateCameras, addr 0x6c967d8, size 0x1a4, virtual false, abstract: false, final false
   inline void DeallocateCameras(::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> cameraIDs);
 
-  /// @brief Method Dispose, addr 0x6c5a248, size 0x1c0, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6c96ec4, size 0x1c0, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Grow, addr 0x6c5a408, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Grow, addr 0x6c97084, size 0x1a0, virtual false, abstract: false, final false
   inline void Grow(int32_t newCapacity);
 
-  /// @brief Method IncreaseInstanceCount, addr 0x6c5a234, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IncreaseInstanceCount, addr 0x6c96eb0, size 0x14, virtual false, abstract: false, final false
   inline void IncreaseInstanceCount();
 
-  /// @brief Method Initialize, addr 0x6c59aa0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6c9671c, size 0xbc, virtual false, abstract: false, final false
   inline void Initialize(int32_t initCapacity);
 
-  /// @brief Method Remove, addr 0x6c5a008, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x6c96c84, size 0x1b0, virtual false, abstract: false, final false
   inline void Remove(int32_t index);
 
-  /// @brief Method SetDefault, addr 0x6c5a614, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method SetDefault, addr 0x6c97290, size 0x1e4, virtual false, abstract: false, final false
   inline void SetDefault(int32_t index);
 
-  /// @brief Method get_cameraCount, addr 0x6c59a54, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_cameraCount, addr 0x6c966d0, size 0x4c, virtual false, abstract: false, final false
   inline int32_t get_cameraCount();
 
-  /// @brief Method get_instancesCapacity, addr 0x6c59a3c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_instancesCapacity, addr 0x6c966b8, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_instancesCapacity();
 
-  /// @brief Method get_instancesLength, addr 0x6c59a24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_instancesLength, addr 0x6c966a0, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_instancesLength();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
 
-  /// @brief Method set_instancesCapacity, addr 0x6c59a48, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_instancesCapacity, addr 0x6c966c4, size 0xc, virtual false, abstract: false, final false
   inline void set_instancesCapacity(int32_t value);
 
-  /// @brief Method set_instancesLength, addr 0x6c59a30, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_instancesLength, addr 0x6c966ac, size 0xc, virtual false, abstract: false, final false
   inline void set_instancesLength(int32_t value);
 
   // Ctor Parameters []
@@ -167,7 +167,7 @@ public:
                                      ::Unity::Collections::NativeArray_1<int32_t> m_StructData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18221 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18254 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

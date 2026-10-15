@@ -25,8 +25,12 @@ class CORDL_TYPE BeatmapEventTypeExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method IsCoreLightIntensityChangeEvent, addr 0x34df47c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsCoreLightIntensityChangeEvent, addr 0x34f78b8, size 0xc, virtual false, abstract: false, final false
   static inline bool IsCoreLightIntensityChangeEvent(::GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType);
+
+  /// [Extension]
+  /// @brief Method IsLightIntensityChangeEvent, addr 0x34f78c4, size 0x14, virtual false, abstract: false, final false
+  static inline bool IsLightIntensityChangeEvent(::GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType);
 
 protected:
   // Ctor Parameters []
@@ -43,13 +47,19 @@ public:
   BeatmapEventTypeExtensions(BeatmapEventTypeExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21959 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22008 };
 
   /// @brief Field kColorBoost value: I32(5)
   static ::GlobalNamespace::BasicBeatmapEventType const kColorBoost;
 
   /// @brief Field kCompressExpand value: I32(9)
   static ::GlobalNamespace::BasicBeatmapEventType const kCompressExpand;
+
+  /// @brief Field kExtraLights1 value: I32(6)
+  static ::GlobalNamespace::BasicBeatmapEventType const kExtraLights1;
+
+  /// @brief Field kExtraLights2 value: I32(7)
+  static ::GlobalNamespace::BasicBeatmapEventType const kExtraLights2;
 
   /// @brief Field kLegacyEarlySpawnRotation value: I32(14)
   static ::GlobalNamespace::BasicBeatmapEventType const kLegacyEarlySpawnRotation;

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataSetClearEventhandler::*)(::System::Object*, ::System::IntPtr)>(&::System::Data::DataSetClearEventhandler::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x644a598;
+  constexpr static std::size_t addrs = 0x6487168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataSetClearEventhandler::*)(::System::Object*, ::System::Data::DataTable*)>(
     &::System::Data::DataSetClearEventhandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x644a6e0;
+  constexpr static std::size_t addrs = 0x64872b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

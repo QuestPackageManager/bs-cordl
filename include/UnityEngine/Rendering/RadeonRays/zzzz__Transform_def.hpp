@@ -26,22 +26,22 @@ namespace UnityEngine::Rendering::RadeonRays {
 struct CORDL_TYPE Transform {
 public:
   // Declarations
-  /// @brief Method Identity, addr 0x6dfcf14, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Identity, addr 0x6e39bb0, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RadeonRays::Transform Identity();
 
-  /// @brief Method Inverse, addr 0x6dfd0ec, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Inverse, addr 0x6e39d88, size 0xfc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RadeonRays::Transform Inverse();
 
-  /// @brief Method Scale, addr 0x6dfcf78, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Scale, addr 0x6e39c14, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RadeonRays::Transform Scale(::Unity::Mathematics::float3 scale);
 
-  /// @brief Method TRS, addr 0x6dfcf98, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method TRS, addr 0x6e39c34, size 0x154, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RadeonRays::Transform TRS(::Unity::Mathematics::float3 translation, ::Unity::Mathematics::float3 rotation, ::Unity::Mathematics::float3 scale);
 
-  /// @brief Method Translation, addr 0x6dfcf3c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Translation, addr 0x6e39bd8, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RadeonRays::Transform Translation(::Unity::Mathematics::float3 translation);
 
-  /// @brief Method .ctor, addr 0x6dfcef8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e39b94, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::float4 row0, ::Unity::Mathematics::float4 row1, ::Unity::Mathematics::float4 row2);
 
   // Ctor Parameters []
@@ -53,7 +53,7 @@ public:
   constexpr Transform(::Unity::Mathematics::float4 row0, ::Unity::Mathematics::float4 row1, ::Unity::Mathematics::float4 row2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20436 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20483 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

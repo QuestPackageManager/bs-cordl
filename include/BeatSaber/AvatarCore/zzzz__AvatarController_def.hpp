@@ -66,11 +66,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x34f09fc, size 0x54c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3511358, size 0x54c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x34f1098, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x35119f4, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -89,7 +89,7 @@ public:
                                                          ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::Avatar>> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22353 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22403 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -167,25 +167,25 @@ public:
 
   __declspec(property(get = get_avatar)) ::UnityW<::BeatSaber::AvatarCore::Avatar> avatar;
 
-  /// @brief Method DisplayAvatar, addr 0x34f060c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method DisplayAvatar, addr 0x3510f68, size 0x194, virtual false, abstract: false, final false
   inline void DisplayAvatar(::BeatSaber::AvatarCore::Avatar* avatar, uint32_t avatarSystemHash);
 
-  /// @brief Method HandleVisualDataDidChange, addr 0x34f09f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleVisualDataDidChange, addr 0x3511350, size 0x4, virtual false, abstract: false, final false
   inline void HandleVisualDataDidChange(::GlobalNamespace::MultiplayerAvatarsData visualData);
 
   /// [AsyncStateMachine(typeof(BeatSaber.AvatarCore.AvatarController::<LoadAndDisplayAvatar>d__14))]
-  /// @brief Method LoadAndDisplayAvatar, addr 0x34f0430, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method LoadAndDisplayAvatar, addr 0x3510d8c, size 0xa0, virtual false, abstract: false, final false
   inline void LoadAndDisplayAvatar();
 
   static inline ::BeatSaber::AvatarCore::AvatarController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x34f04d0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3510e2c, size 0x13c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ResolveAvatarSystemHash, addr 0x34f07a0, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method ResolveAvatarSystemHash, addr 0x35110fc, size 0x1d8, virtual false, abstract: false, final false
   inline uint32_t ResolveAvatarSystemHash();
 
-  /// @brief Method Start, addr 0x34f0330, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3510c8c, size 0x100, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::BeatSaber::AvatarCore::Avatar> const& __cordl_internal_get__avatar() const;
@@ -248,10 +248,10 @@ public:
 
   constexpr void __cordl_internal_set__visualDataProvider(::BeatSaber::AvatarCore::IAvatarVisualDataProvider* value);
 
-  /// @brief Method .ctor, addr 0x34f09f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3511354, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_avatar, addr 0x34f0328, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_avatar, addr 0x3510c84, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::BeatSaber::AvatarCore::Avatar> get_avatar();
 
 protected:
@@ -269,7 +269,7 @@ public:
   AvatarController(AvatarController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22354 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22404 };
 
   /// [SerializeField]
   /// @brief Field _parentingTransform, offset: 0x20, size: 0x8, def value: None

@@ -25,23 +25,23 @@ namespace Org::BouncyCastle::Bcpg {
 class CORDL_TYPE RevocationReason : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
   // Declarations
-  /// @brief Method CreateData, addr 0x391eafc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method CreateData, addr 0x3941460, size 0xb0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> CreateData(::Org::BouncyCastle::Bcpg::RevocationReasonTag reason, ::StringW description);
 
-  /// @brief Method GetRevocationDescription, addr 0x391ebd4, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method GetRevocationDescription, addr 0x3941538, size 0xb8, virtual true, abstract: false, final false
   inline ::StringW GetRevocationDescription();
 
-  /// @brief Method GetRevocationReason, addr 0x391ebac, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetRevocationReason, addr 0x3941510, size 0x28, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::RevocationReasonTag GetRevocationReason();
 
   static inline ::Org::BouncyCastle::Bcpg::RevocationReason* New_ctor(bool isCritical, bool isLongLength, ::ArrayW<uint8_t> data);
 
   static inline ::Org::BouncyCastle::Bcpg::RevocationReason* New_ctor(bool isCritical, ::Org::BouncyCastle::Bcpg::RevocationReasonTag reason, ::StringW description);
 
-  /// @brief Method .ctor, addr 0x391eaa8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x394140c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(bool isCritical, bool isLongLength, ::ArrayW<uint8_t> data);
 
-  /// @brief Method .ctor, addr 0x391eac0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3941424, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(bool isCritical, ::Org::BouncyCastle::Bcpg::RevocationReasonTag reason, ::StringW description);
 
 protected:

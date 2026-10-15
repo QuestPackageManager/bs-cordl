@@ -38,40 +38,40 @@ public:
   __declspec(property(get = get_transformCount)) int32_t transformCount;
 
   /// [NativeMethod("GetBodyPart")]
-  /// @brief Method GetHumanoidBodyPartActive, addr 0x6e95634, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetHumanoidBodyPartActive, addr 0x6ed22d0, size 0x90, virtual false, abstract: false, final false
   inline bool GetHumanoidBodyPartActive(::UnityEngine::AvatarMaskBodyPart index);
 
-  /// @brief Method GetHumanoidBodyPartActive_Injected, addr 0x6e956c4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetHumanoidBodyPartActive_Injected, addr 0x6ed2360, size 0x44, virtual false, abstract: false, final false
   static inline bool GetHumanoidBodyPartActive_Injected(::System::IntPtr _unity_self, ::UnityEngine::AvatarMaskBodyPart index);
 
-  /// @brief Method GetTransformActive, addr 0x6e95a2c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetTransformActive, addr 0x6ed26c8, size 0x1c, virtual false, abstract: false, final false
   inline bool GetTransformActive(int32_t index);
 
-  /// @brief Method GetTransformPath, addr 0x6e957c4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetTransformPath, addr 0x6ed2460, size 0x140, virtual false, abstract: false, final false
   inline ::StringW GetTransformPath(int32_t index);
 
-  /// @brief Method GetTransformPath_Injected, addr 0x6e95904, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetTransformPath_Injected, addr 0x6ed25a0, size 0x54, virtual false, abstract: false, final false
   static inline void GetTransformPath_Injected(::System::IntPtr _unity_self, int32_t index, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
-  /// @brief Method GetTransformWeight, addr 0x6e95958, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetTransformWeight, addr 0x6ed25f4, size 0x90, virtual false, abstract: false, final false
   inline float_t GetTransformWeight(int32_t index);
 
-  /// @brief Method GetTransformWeight_Injected, addr 0x6e959e8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetTransformWeight_Injected, addr 0x6ed2684, size 0x44, virtual false, abstract: false, final false
   static inline float_t GetTransformWeight_Injected(::System::IntPtr _unity_self, int32_t index);
 
   /// [FreeFunction("AnimationBindings::CreateAvatarMask")]
-  /// @brief Method Internal_Create, addr 0x6e955f8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create, addr 0x6ed2294, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Create(/* [Writable] */ ::UnityEngine::AvatarMask* self);
 
   static inline ::UnityEngine::AvatarMask* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6e95580, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ed221c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_transformCount, addr 0x6e95708, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_transformCount, addr 0x6ed23a4, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_transformCount();
 
-  /// @brief Method get_transformCount_Injected, addr 0x6e95788, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_transformCount_Injected, addr 0x6ed2424, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_transformCount_Injected(::System::IntPtr _unity_self);
 
 protected:
@@ -89,7 +89,7 @@ public:
   AvatarMask(AvatarMask const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20893 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20940 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

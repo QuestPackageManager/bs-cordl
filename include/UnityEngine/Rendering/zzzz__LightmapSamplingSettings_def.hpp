@@ -42,10 +42,10 @@ public:
 
   static inline ::UnityEngine::Rendering::LightmapSamplingSettings* New_ctor();
 
-  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x6bc2890, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x6bff50c, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild();
 
-  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_version, addr 0x6bc2888, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_version, addr 0x6bff504, size 0x8, virtual true, abstract: false, final true
   inline int32_t UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_version();
 
   constexpr bool const& __cordl_internal_get_m_UseBicubicLightmapSampling() const;
@@ -60,16 +60,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6bc2910, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bff58c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_useBicubicLightmapSampling, addr 0x6bc2898, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useBicubicLightmapSampling, addr 0x6bff514, size 0x8, virtual false, abstract: false, final false
   inline bool get_useBicubicLightmapSampling();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
   constexpr ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings* i___UnityEngine__Rendering__IRenderPipelineGraphicsSettings() noexcept;
 
-  /// @brief Method set_useBicubicLightmapSampling, addr 0x6bc28a0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_useBicubicLightmapSampling, addr 0x6bff51c, size 0x70, virtual false, abstract: false, final false
   inline void set_useBicubicLightmapSampling(bool value);
 
 protected:
@@ -87,7 +87,7 @@ public:
   LightmapSamplingSettings(LightmapSamplingSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9086 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9093 };
 
   /// [SerializeField]
   /// [HideInInspector]

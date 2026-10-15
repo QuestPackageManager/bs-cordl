@@ -28,24 +28,24 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE VisualTreeWorldSpaceHierarchyFlagsUpdater : public ::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater {
 public:
   // Declarations
-  /// @brief Method DirtyBoundingBoxHierarchy, addr 0x7159124, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method DirtyBoundingBoxHierarchy, addr 0x7196058, size 0xf4, virtual false, abstract: false, final false
   static inline void DirtyBoundingBoxHierarchy(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method DirtyParentHierarchy, addr 0x7159248, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method DirtyParentHierarchy, addr 0x719617c, size 0x110, virtual false, abstract: false, final false
   static inline void DirtyParentHierarchy(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VisualElementFlags flags);
 
-  /// @brief Method GetParentMustDirtyFlags, addr 0x7159218, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetParentMustDirtyFlags, addr 0x719614c, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::VisualElementFlags GetParentMustDirtyFlags(::UnityEngine::UIElements::VisualElement* ve);
 
   static inline ::UnityEngine::UIElements::VisualTreeWorldSpaceHierarchyFlagsUpdater* New_ctor();
 
-  /// @brief Method OnVersionChanged, addr 0x715904c, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x7195f80, size 0xd8, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method Update, addr 0x7159358, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x719628c, size 0x4, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method .ctor, addr 0x715935c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7196290, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

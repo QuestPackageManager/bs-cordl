@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InputActions::*)(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult)>(
     &::GlobalNamespace::InputActions::InstallDependencies)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5cfbdf4;
+  constexpr static std::size_t addrs = 0x5d34d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InputActions::*)()>(&::GlobalNamespace::InputActions::Update)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x5cfbe84;
+  constexpr static std::size_t addrs = 0x5d34dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InputActions*>(), { "Update", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::GlobalNamespace::InputActions::ToggleLevelFreeze)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cfc414;
+  constexpr static std::size_t addrs = 0x5d35358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InputActions*>(), { "ToggleLevelFreeze", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::GlobalNamespace::InputActions::ToggleAutoplay)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x5cfc260;
+  constexpr static std::size_t addrs = 0x5d351a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InputActions*>(), { "ToggleAutoplay", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::Zenject::SceneContext> (*)()>(&::GlobalNamespace::InputActions::ResolveGameplayCoreSceneContext)> {
   constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x5cfc418;
+  constexpr static std::size_t addrs = 0x5d3535c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InputActions*>(), { "ResolveGameplayCoreSceneContext", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::EventSystems::EventSystem*, ::GlobalNamespace::UIKeyboardManager*)>(&::GlobalNamespace::InputActions::HasInputFocus)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5cfc15c;
+  constexpr static std::size_t addrs = 0x5d350a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InputActions::*)()>(&::GlobalNamespace::InputActions::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cfc7bc;
+  constexpr static std::size_t addrs = 0x5d35700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InputActions*>(), { ".ctor", {}, {} })));
@@ -118,18 +118,6 @@ constexpr bool const& GlobalNamespace::InputActions::__cordl_internal_get__autop
 constexpr void GlobalNamespace::InputActions::__cordl_internal_set__autoplayKeyEnabled(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____autoplayKeyEnabled = value;
-}
-constexpr bool& GlobalNamespace::InputActions::__cordl_internal_get__isBeatmapEditorGameplayLoaded() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____isBeatmapEditorGameplayLoaded;
-}
-constexpr bool const& GlobalNamespace::InputActions::__cordl_internal_get__isBeatmapEditorGameplayLoaded() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____isBeatmapEditorGameplayLoaded;
-}
-constexpr void GlobalNamespace::InputActions::__cordl_internal_set__isBeatmapEditorGameplayLoaded(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____isBeatmapEditorGameplayLoaded = value;
 }
 inline void GlobalNamespace::InputActions::InstallDependencies(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult commandLineParserResult) {
   static auto* ___internal_method = THROW_UNLESS(

@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass0_0::*)()>(
     &::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass0_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39ea480;
+  constexpr static std::size_t addrs = 0x3a13bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapData* (::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass0_0::*)()>(
     &::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass0_0::_GetBeatmapDataFromSaveDataJsonAsync_b__0)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x39ed924;
+  constexpr static std::size_t addrs = 0x3a170a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass1_0::*)()>(
     &::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass1_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39ea5ac;
+  constexpr static std::size_t addrs = 0x3a13d20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapDataBasicInfo* (::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass1_0::*)()>(
     &::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass1_0::_GetBeatmapDataBasicInfoFromSaveDataJsonAsync_b__0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ed96c;
+  constexpr static std::size_t addrs = 0x3a170ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -265,63 +265,63 @@ inline ::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass1_0* Beat
 }
 // Ctor Parameters []
 constexpr ::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass1_0::BeatmapDataLoader___c__DisplayClass1_0() {}
-//  Writing Method size for method: ::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass4_0._ctor
+//  Writing Method size for method: ::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass5_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass4_0::*)()>(
-    &::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass4_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass5_0::*)()>(
+    &::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass5_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39ec020;
+  constexpr static std::size_t addrs = 0x3a15804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass4_0*>(), { ".ctor", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass5_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass4_0._GetBeatmapDataBasicInfoFromSaveDataJson_b__0
+//  Writing Method size for method: ::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass5_0._GetBeatmapDataBasicInfoFromSaveDataJson_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass4_0::*)(::BeatmapSaveDataVersion4::ChainBeatIndex*)>(
-    &::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass4_0::_GetBeatmapDataBasicInfoFromSaveDataJson_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass5_0::*)(::BeatmapSaveDataVersion4::ChainBeatIndex*)>(
+    &::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass5_0::_GetBeatmapDataBasicInfoFromSaveDataJson_b__0)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x39ed974;
+  constexpr static std::size_t addrs = 0x3a170f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass4_0*>(),
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass5_0*>(),
                                                              { "<GetBeatmapDataBasicInfoFromSaveDataJson>b__0", {}, { ::i2c::type_of<::BeatmapSaveDataVersion4::ChainBeatIndex*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::BeatmapSaveDataVersion4::BeatmapSaveData*& BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass4_0::__cordl_internal_get_beatmapSaveData() {
+constexpr ::BeatmapSaveDataVersion4::BeatmapSaveData*& BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass5_0::__cordl_internal_get_beatmapSaveData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapSaveData;
 }
-constexpr ::BeatmapSaveDataVersion4::BeatmapSaveData* const& BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass4_0::__cordl_internal_get_beatmapSaveData() const {
+constexpr ::BeatmapSaveDataVersion4::BeatmapSaveData* const& BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass5_0::__cordl_internal_get_beatmapSaveData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapSaveData;
 }
-constexpr void BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass4_0::__cordl_internal_set_beatmapSaveData(::BeatmapSaveDataVersion4::BeatmapSaveData* value) {
+constexpr void BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass5_0::__cordl_internal_set_beatmapSaveData(::BeatmapSaveDataVersion4::BeatmapSaveData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___beatmapSaveData = value;
 }
-inline void BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass4_0::_ctor() {
+inline void BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass5_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass4_0*>(), { ".ctor", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass5_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline int32_t BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass4_0::_GetBeatmapDataBasicInfoFromSaveDataJson_b__0(::BeatmapSaveDataVersion4::ChainBeatIndex* chainBeatIndex) {
+inline int32_t BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass5_0::_GetBeatmapDataBasicInfoFromSaveDataJson_b__0(::BeatmapSaveDataVersion4::ChainBeatIndex* chainBeatIndex) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass4_0*>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass5_0*>(),
                                                            { "<GetBeatmapDataBasicInfoFromSaveDataJson>b__0", {}, { ::i2c::type_of<::BeatmapSaveDataVersion4::ChainBeatIndex*>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, chainBeatIndex);
 }
-inline ::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass4_0* BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass4_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass4_0*>());
+inline ::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass5_0* BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass5_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass5_0*>());
 }
 // Ctor Parameters []
-constexpr ::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass4_0::BeatmapDataLoader___c__DisplayClass4_0() {}
+constexpr ::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass5_0::BeatmapDataLoader___c__DisplayClass5_0() {}
 //  Writing Method size for method: ::BeatmapDataLoaderVersion4::BeatmapDataLoader.GetBeatmapDataFromSaveDataJsonAsync
 template <>
 
@@ -331,7 +331,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
                                           ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::IBeatmapLightEventConverter*)>(
     &::BeatmapDataLoaderVersion4::BeatmapDataLoader::GetBeatmapDataFromSaveDataJsonAsync)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x39ea2e8;
+  constexpr static std::size_t addrs = 0x3a13a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -352,7 +352,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapDataBasicInfo*>* (*)(::StringW)>(
     &::BeatmapDataLoaderVersion4::BeatmapDataLoader::GetBeatmapDataBasicInfoFromSaveDataJsonAsync)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x39ea484;
+  constexpr static std::size_t addrs = 0x3a13bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -370,7 +370,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                                                     ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::IBeatmapLightEventConverter*)>(
         &::BeatmapDataLoaderVersion4::BeatmapDataLoader::GetBeatmapDataFromSaveDataJson)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x39ea5b0;
+  constexpr static std::size_t addrs = 0x3a13d24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -392,7 +392,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::GlobalNamespace::BeatmapData*, ::BeatmapSaveDataVersion4::LightshowSaveData*, ::GlobalNamespace::BpmTimeProcessor*, ::GlobalNamespace::EnvironmentKeywords*,
                          ::GlobalNamespace::IEnvironmentLightGroups*, ::GlobalNamespace::IBeatmapLightEventConverter*, bool, bool)>(&::BeatmapDataLoaderVersion4::BeatmapDataLoader::LoadLightshow)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x39eacbc;
+  constexpr static std::size_t addrs = 0x3a14430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -406,13 +406,33 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::BeatmapDataLoaderVersion4::BeatmapDataLoader.InsertFallbackLighting
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::BeatmapData*, ::BeatmapSaveDataVersion4::LightshowSaveData*, ::GlobalNamespace::BpmTimeProcessor*,
+                                                                ::GlobalNamespace::EnvironmentKeywords*, ::GlobalNamespace::IEnvironmentLightGroups*, ::GlobalNamespace::IBeatmapLightEventConverter*)>(
+    &::BeatmapDataLoaderVersion4::BeatmapDataLoader::InsertFallbackLighting)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x3a155f8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::BeatmapDataLoader*>(),
+                                                { "InsertFallbackLighting",
+                                                  {},
+                                                  { ::i2c::type_of<::GlobalNamespace::BeatmapData*>(), ::i2c::type_of<::BeatmapSaveDataVersion4::LightshowSaveData*>(),
+                                                    ::i2c::type_of<::GlobalNamespace::BpmTimeProcessor*>(), ::i2c::type_of<::GlobalNamespace::EnvironmentKeywords*>(),
+                                                    ::i2c::type_of<::GlobalNamespace::IEnvironmentLightGroups*>(), ::i2c::type_of<::GlobalNamespace::IBeatmapLightEventConverter*>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::BeatmapDataLoaderVersion4::BeatmapDataLoader.GetBeatmapDataBasicInfoFromSaveDataJson
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapDataBasicInfo* (*)(::StringW)>(
     &::BeatmapDataLoaderVersion4::BeatmapDataLoader::GetBeatmapDataBasicInfoFromSaveDataJson)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x39ebe84;
+  constexpr static std::size_t addrs = 0x3a15668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -431,7 +451,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                                                     ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::IBeatmapLightEventConverter*)>(
         &::BeatmapDataLoaderVersion4::BeatmapDataLoader::GetBeatmapDataFromSaveData)> {
   constexpr static std::size_t size = 0x544;
-  constexpr static std::size_t addrs = 0x39ea778;
+  constexpr static std::size_t addrs = 0x3a13eec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -453,7 +473,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::BeatmapData*, ::BeatmapSaveDataVersion4::BeatmapSaveData*, ::BeatmapSaveDataVersion4::LightshowSaveData*,
                                                                 ::GlobalNamespace::BpmTimeProcessor*)>(&::BeatmapDataLoaderVersion4::BeatmapDataLoader::ConvertBeatmapObjects)> {
   constexpr static std::size_t size = 0x8dc;
-  constexpr static std::size_t addrs = 0x39ec024;
+  constexpr static std::size_t addrs = 0x3a15808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -472,7 +492,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespac
                                                                 ::GlobalNamespace::EnvironmentKeywords*, ::GlobalNamespace::IBeatmapLightEventConverter*)>(
     &::BeatmapDataLoaderVersion4::BeatmapDataLoader::ConvertBasicEvents)> {
   constexpr static std::size_t size = 0x970;
-  constexpr static std::size_t addrs = 0x39ead20;
+  constexpr static std::size_t addrs = 0x3a14494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -492,7 +512,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespac
                                                                 ::GlobalNamespace::IEnvironmentLightGroups*, ::GlobalNamespace::IBeatmapLightEventConverter*, bool, bool)>(
     &::BeatmapDataLoaderVersion4::BeatmapDataLoader::ConvertEventBoxGroups)> {
   constexpr static std::size_t size = 0x7f4;
-  constexpr static std::size_t addrs = 0x39eb690;
+  constexpr static std::size_t addrs = 0x3a14e04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -561,6 +581,21 @@ inline void BeatmapDataLoaderVersion4::BeatmapDataLoader::LoadLightshow(::Global
                                                                ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, beatmapData, lightshowSaveData, bpmTimeProcessor, environmentKeywords, environmentLightGroups, lightEventConverter,
                                                    ignoreColorEvents, ignoreRotationLoopCount);
+}
+inline void BeatmapDataLoaderVersion4::BeatmapDataLoader::InsertFallbackLighting(::GlobalNamespace::BeatmapData* beatmapData,
+                                                                                 /* [Nullable(2)] */ ::BeatmapSaveDataVersion4::LightshowSaveData* defaultLightshowSaveData,
+                                                                                 ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor, ::GlobalNamespace::EnvironmentKeywords* environmentKeywords,
+                                                                                 ::GlobalNamespace::IEnvironmentLightGroups* environmentLightGroups,
+                                                                                 ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::BeatmapDataLoader*>(),
+                                                           { "InsertFallbackLighting",
+                                                             {},
+                                                             { ::i2c::type_of<::GlobalNamespace::BeatmapData*>(), ::i2c::type_of<::BeatmapSaveDataVersion4::LightshowSaveData*>(),
+                                                               ::i2c::type_of<::GlobalNamespace::BpmTimeProcessor*>(), ::i2c::type_of<::GlobalNamespace::EnvironmentKeywords*>(),
+                                                               ::i2c::type_of<::GlobalNamespace::IEnvironmentLightGroups*>(), ::i2c::type_of<::GlobalNamespace::IBeatmapLightEventConverter*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, beatmapData, defaultLightshowSaveData, bpmTimeProcessor, environmentKeywords, environmentLightGroups,
+                                                   lightEventConverter);
 }
 inline ::GlobalNamespace::BeatmapDataBasicInfo* BeatmapDataLoaderVersion4::BeatmapDataLoader::GetBeatmapDataBasicInfoFromSaveDataJson(::StringW beatmapDataJson) {
   static auto* ___internal_method = THROW_UNLESS(

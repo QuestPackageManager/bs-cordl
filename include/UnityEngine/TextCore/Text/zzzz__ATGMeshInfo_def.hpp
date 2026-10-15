@@ -31,7 +31,7 @@ public:
   // Declarations
   __declspec(property(get = get_textElementInfos)) ::System::Span_1<::UnityEngine::TextCore::Text::NativeTextElementInfo> textElementInfos;
 
-  /// @brief Method get_textElementInfos, addr 0x702d5c4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_textElementInfos, addr 0x706a4b8, size 0x64, virtual false, abstract: false, final false
   inline ::System::Span_1<::UnityEngine::TextCore::Text::NativeTextElementInfo> get_textElementInfos();
 
   // Ctor Parameters []
@@ -43,7 +43,7 @@ public:
   constexpr ATGMeshInfo(::System::IntPtr m_TextElementInfosPtr, int32_t m_TextElementCount, int32_t textAssetId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17796 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17829 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

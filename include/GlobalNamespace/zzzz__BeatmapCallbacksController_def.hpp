@@ -123,7 +123,7 @@ public:
 
   constexpr void __cordl_internal_set_startFilterTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x5cda2d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d13e18, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, float_t startFilterTime, bool shouldKeepReplayState);
 
 protected:
@@ -141,7 +141,7 @@ public:
   BeatmapCallbacksController_InitData(BeatmapCallbacksController_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5731 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5732 };
 
   /// @brief Field beatmapData, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IReadonlyBeatmapData* ___beatmapData;
@@ -182,7 +182,7 @@ public:
   BeatmapCallbacksController_ICallCallbacksBehavior(BeatmapCallbacksController_ICallCallbacksBehavior const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5732 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5733 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -198,15 +198,15 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::BeatmapCallbacksController_ICallCallbacksBehavior"
   constexpr operator ::GlobalNamespace::BeatmapCallbacksController_ICallCallbacksBehavior*() noexcept;
 
-  /// @brief Method CallCallbacks, addr 0x5cda2e4, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method CallCallbacks, addr 0x5d13e28, size 0x18, virtual true, abstract: false, final true
   inline void CallCallbacks(::GlobalNamespace::CallbacksInTime* callbacksInTime, ::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
   static inline ::GlobalNamespace::BeatmapCallbacksController_CallCallbacksBehavior* New_ctor();
 
-  /// @brief Method Replay, addr 0x5cda34c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Replay, addr 0x5d13e40, size 0x4, virtual true, abstract: false, final true
   inline void Replay(::System::Collections::Generic::Dictionary_2<float_t, ::GlobalNamespace::CallbacksInTime*>* callbacksInTimes);
 
-  /// @brief Method .ctor, addr 0x5cda350, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d1211c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::BeatmapCallbacksController_ICallCallbacksBehavior"
@@ -227,7 +227,7 @@ public:
   BeatmapCallbacksController_CallCallbacksBehavior(BeatmapCallbacksController_CallCallbacksBehavior const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5733 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5734 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -250,12 +250,12 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::BeatmapCallbacksController_ICallCallbacksBehavior"
   constexpr operator ::GlobalNamespace::BeatmapCallbacksController_ICallCallbacksBehavior*() noexcept;
 
-  /// @brief Method CallCallbacks, addr 0x5cda354, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method CallCallbacks, addr 0x5d13e44, size 0xb8, virtual true, abstract: false, final true
   inline void CallCallbacks(::GlobalNamespace::CallbacksInTime* callbacksInTime, ::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
   static inline ::GlobalNamespace::BeatmapCallbacksController_CallCallbacksBehaviorWithLastState* New_ctor();
 
-  /// @brief Method Replay, addr 0x5cda40c, size 0x2b8, virtual true, abstract: false, final true
+  /// @brief Method Replay, addr 0x5d13efc, size 0x2b8, virtual true, abstract: false, final true
   inline void Replay(::System::Collections::Generic::Dictionary_2<float_t, ::GlobalNamespace::CallbacksInTime*>* callbacksInTimes);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::GlobalNamespace::BeatmapDataItem*>* const& __cordl_internal_get__replayState() const;
@@ -264,7 +264,7 @@ public:
 
   constexpr void __cordl_internal_set__replayState(::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::GlobalNamespace::BeatmapDataItem*>* value);
 
-  /// @brief Method .ctor, addr 0x5cda6c4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d12120, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::BeatmapCallbacksController_ICallCallbacksBehavior"
@@ -285,7 +285,7 @@ public:
   BeatmapCallbacksController_CallCallbacksBehaviorWithLastState(BeatmapCallbacksController_CallCallbacksBehaviorWithLastState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5734 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5735 };
 
   /// @brief Field _replayState, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::GlobalNamespace::BeatmapDataItem*>* ____replayState;
@@ -376,32 +376,32 @@ public:
     requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
   inline ::GlobalNamespace::BeatmapDataCallbackWrapper* AddBeatmapCallback(::GlobalNamespace::BeatmapDataCallback_1<T>* callback, /* [ParamArray] */ ::ArrayW<int32_t> beatmapDataSubtypeIdentifiers);
 
-  /// @brief Method Dispose, addr 0x5cd8ad0, size 0x260, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5d121b8, size 0x260, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleBeatmapEventDataWasInserted, addr 0x5cd969c, size 0x6bc, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEventDataWasInserted, addr 0x5d131e0, size 0x6bc, virtual false, abstract: false, final false
   inline void HandleBeatmapEventDataWasInserted(::GlobalNamespace::BeatmapEventData* beatmapEventData, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* node);
 
-  /// @brief Method HandleBeatmapEventDataWasRemoved, addr 0x5cda050, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEventDataWasRemoved, addr 0x5d13b94, size 0x284, virtual false, abstract: false, final false
   inline void HandleBeatmapEventDataWasRemoved(::GlobalNamespace::BeatmapEventData* beatmapEventData);
 
-  /// @brief Method HandleBeatmapEventDataWillBeRemoved, addr 0x5cd9d58, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEventDataWillBeRemoved, addr 0x5d1389c, size 0x2f8, virtual false, abstract: false, final false
   inline void HandleBeatmapEventDataWillBeRemoved(::GlobalNamespace::BeatmapEventData* beatmapEventDataToRemove,
                                                   ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* nodeToRemove);
 
-  /// @brief Method ManualUpdate, addr 0x5cd8de0, size 0x780, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x5d124c8, size 0x780, virtual false, abstract: false, final false
   inline void ManualUpdate(float_t songTime);
 
   /// @brief [Inject]
   static inline ::GlobalNamespace::BeatmapCallbacksController* New_ctor(::GlobalNamespace::BeatmapCallbacksController_InitData* initData);
 
-  /// @brief Method RemoveBeatmapCallback, addr 0x5cd6088, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method RemoveBeatmapCallback, addr 0x5d12c48, size 0xf0, virtual false, abstract: false, final false
   inline void RemoveBeatmapCallback(::GlobalNamespace::BeatmapDataCallbackWrapper* callbackWrapper);
 
-  /// @brief Method ReplayState, addr 0x5cd8d30, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ReplayState, addr 0x5d12418, size 0xb0, virtual false, abstract: false, final false
   inline void ReplayState();
 
-  /// @brief Method TriggerBeatmapEvent, addr 0x5cd9560, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method TriggerBeatmapEvent, addr 0x5d13058, size 0x138, virtual false, abstract: false, final false
   inline void TriggerBeatmapEvent(::GlobalNamespace::BeatmapEventData* beatmapEventData);
 
   constexpr ::GlobalNamespace::IReadonlyBeatmapData* const& __cordl_internal_get__beatmapData() const;
@@ -465,35 +465,35 @@ public:
   constexpr void __cordl_internal_set_willStartProcessingCallbacksThisFrameEvent(::System::Action_1<float_t>* value);
 
   /// [Inject]
-  /// @brief Method .ctor, addr 0x5cd8788, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d11dd8, size 0x344, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapCallbacksController_InitData* initData);
 
   /// [CompilerGenerated]
-  /// @brief Method add_didProcessAllCallbacksThisFrameEvent, addr 0x5cd8630, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_didProcessAllCallbacksThisFrameEvent, addr 0x5d11c80, size 0xac, virtual false, abstract: false, final false
   inline void add_didProcessAllCallbacksThisFrameEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_willStartProcessingCallbacksThisFrameEvent, addr 0x5cd84b0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_willStartProcessingCallbacksThisFrameEvent, addr 0x5d11b00, size 0xc0, virtual false, abstract: false, final false
   inline void add_willStartProcessingCallbacksThisFrameEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method get_sendCallbacksOnBeatmapDataChange, addr 0x5cd8498, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sendCallbacksOnBeatmapDataChange, addr 0x5d11ae8, size 0x8, virtual false, abstract: false, final false
   inline bool get_sendCallbacksOnBeatmapDataChange();
 
-  /// @brief Method get_songTime, addr 0x5cd84a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songTime, addr 0x5d11af8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_songTime();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_didProcessAllCallbacksThisFrameEvent, addr 0x5cd86dc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_didProcessAllCallbacksThisFrameEvent, addr 0x5d11d2c, size 0xac, virtual false, abstract: false, final false
   inline void remove_didProcessAllCallbacksThisFrameEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_willStartProcessingCallbacksThisFrameEvent, addr 0x5cd8570, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_willStartProcessingCallbacksThisFrameEvent, addr 0x5d11bc0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_willStartProcessingCallbacksThisFrameEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method set_sendCallbacksOnBeatmapDataChange, addr 0x5cd84a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sendCallbacksOnBeatmapDataChange, addr 0x5d11af0, size 0x8, virtual false, abstract: false, final false
   inline void set_sendCallbacksOnBeatmapDataChange(bool value);
 
 protected:
@@ -511,7 +511,7 @@ public:
   BeatmapCallbacksController(BeatmapCallbacksController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5735 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5736 };
 
   /// [CompilerGenerated]
   /// @brief Field willStartProcessingCallbacksThisFrameEvent, offset: 0x10, size: 0x8, def value: None
